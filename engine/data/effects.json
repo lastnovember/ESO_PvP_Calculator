@@ -22,8 +22,8 @@
    "passives": {
     "total": 250,
     "byStatus": {
-     "ok": 70,
-     "proc": 160,
+     "ok": 72,
+     "proc": 158,
      "unparsed": 3,
      "mixed": 17
     },
@@ -58348,7 +58348,22 @@
       "stat": "critDamageAndHealing",
       "value": 25,
       "kind": "percent",
-      "condition": null,
+      "condition": {
+       "type": "battleSpirit",
+       "active": false,
+       "scope": "target"
+      },
+      "raw": "Increases your Critical Damage and Healing by 25%."
+     },
+     {
+      "stat": "critDamageAndHealing",
+      "value": 5,
+      "kind": "percent",
+      "condition": {
+       "type": "battleSpirit",
+       "active": true,
+       "scope": "target"
+      },
       "raw": "Increases your Critical Damage and Healing by 25%."
      },
      {
@@ -61192,7 +61207,7 @@
     "class": null,
     "aliases": [],
     "raw": "WITH ONE HAND WEAPON AND SHIELD EQUIPPED Reduces the Stamina cost of your One Hand and Shield abilities by 15% and reduces the cost of blocking by 36%.",
-    "status": "proc",
+    "status": "ok",
     "effects": [
      {
       "kind": "proc",
@@ -61201,6 +61216,16 @@
        "detail": "one hand and shield abilities"
       },
       "raw": "Reduces the Stamina cost of your One Hand and Shield abilities by 15% and reduces the cost of blocking by 36%."
+     },
+     {
+      "stat": "blockCost",
+      "value": -36,
+      "kind": "percent",
+      "condition": {
+       "type": "weapon",
+       "weapon": "one hand and shield"
+      },
+      "raw": "reduces the cost of blocking by 36%"
      }
     ],
     "prefixConditions": [
@@ -62963,23 +62988,16 @@
     "class": "Nightblade",
     "aliases": [],
     "raw": "Increases your Critical Chance rating by 438 for each Nightblade ability slotted, increasing your chance to critically strike by 2% per ability.",
-    "status": "proc",
+    "status": "ok",
     "effects": [
      {
-      "kind": "proc",
+      "stat": "critRating",
+      "value": 438,
+      "kind": "flat",
       "condition": {
-       "type": "all",
-       "of": [
-        {
-         "type": "slotted",
-         "class": "Nightblade",
-         "perAbility": true
-        },
-        {
-         "type": "combat",
-         "detail": "increasing your chance to critically strike by 2% per ability"
-        }
-       ]
+       "type": "slotted",
+       "class": "Nightblade",
+       "perAbility": true
       },
       "raw": "Increases your Critical Chance rating by 438 for each Nightblade ability slotted, increasing your chance to critically strike by 2% per ability."
      }

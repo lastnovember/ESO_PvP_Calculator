@@ -1,0 +1,136 @@
+{
+  "name": "TEMPLATE, copy me",
+  "notes": "Platform, date, game version, anything odd (group buffs, potion, Emperor, keep bonuses).",
+  "gameVersion": "",
+  "tolerance": { "flat": 1, "percent": 0.15 },
+
+  "build": {
+    "schemaVersion": 1,
+    "name": "",
+    "race": "Orc",
+    "class": "Nightblade",
+    "classSkillLines": ["Assassination", "Shadow", "Siphoning"],
+    "classMastery": [],
+    "attributes": { "health": 0, "magicka": 0, "stamina": 64 },
+    "championPoints": { "enabled": true, "slotted": { "warfare": [], "fitness": [], "craft": [] } },
+    "mundus": null,
+    "food": null,
+    "vampireStage": 0,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": false,
+    "passives": { "mode": "all", "exclude": [] },
+    "gear": {
+      "head":      { "set": null, "weight": "medium", "trait": null, "enchant": null },
+      "shoulders": { "set": null, "weight": "medium", "trait": null, "enchant": null },
+      "chest":     { "set": null, "weight": "medium", "trait": null, "enchant": null },
+      "hands":     { "set": null, "weight": "medium", "trait": null, "enchant": null },
+      "waist":     { "set": null, "weight": "medium", "trait": null, "enchant": null },
+      "legs":      { "set": null, "weight": "medium", "trait": null, "enchant": null },
+      "feet":      { "set": null, "weight": "medium", "trait": null, "enchant": null },
+      "necklace":  { "set": null, "trait": null, "enchant": null },
+      "ring1":     { "set": null, "trait": null, "enchant": null },
+      "ring2":     { "set": null, "trait": null, "enchant": null }
+    },
+    "bars": [
+      { "mainHand": null, "offHand": null, "skills": [], "ultimate": null },
+      { "mainHand": null, "offHand": null, "skills": [], "ultimate": null }
+    ],
+    "flags": { "battleSpiritFlatHealth": false, "strategies": {} }
+  },
+
+  "readings": {
+    "outOfPvpZone": {
+      "bar1": {
+        "main": {
+          "Max Health": null, "Max Magicka": null, "Max Stamina": null,
+          "Health Recovery": null, "Magicka Recovery": null, "Stamina Recovery": null,
+          "Weapon Damage": null, "Spell Damage": null,
+          "Weapon Critical": null, "Spell Critical": null, "Critical Damage": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Spell Resistance": null
+        },
+        "advanced": {
+          "Critical Chance": null, "Critical Damage": null, "Critical Resistance": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Physical Mitigation": null,
+          "Spell Resistance": null, "Spell Mitigation": null,
+          "Damage Done": null, "Healing Done": null, "Healing Taken": null, "Damage Taken": null,
+          "Damage Shield Strength": null,
+          "Block Cost": null, "Block Mitigation": null,
+          "Roll Dodge Cost": null, "Sprint Cost": null, "Break Free Cost": null, "Bash Cost": null, "Bash Damage": null,
+          "Movement Speed": null, "Sprint Speed": null,
+          "Magicka Cost": null, "Stamina Cost": null, "Ultimate Cost": null
+        }
+      },
+      "bar2": {
+        "main": {
+          "Max Health": null, "Max Magicka": null, "Max Stamina": null,
+          "Health Recovery": null, "Magicka Recovery": null, "Stamina Recovery": null,
+          "Weapon Damage": null, "Spell Damage": null,
+          "Weapon Critical": null, "Spell Critical": null, "Critical Damage": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Spell Resistance": null
+        },
+        "advanced": {
+          "Critical Chance": null, "Critical Damage": null, "Critical Resistance": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Physical Mitigation": null,
+          "Spell Resistance": null, "Spell Mitigation": null,
+          "Damage Done": null, "Healing Done": null, "Healing Taken": null, "Damage Taken": null,
+          "Damage Shield Strength": null,
+          "Block Cost": null, "Block Mitigation": null,
+          "Roll Dodge Cost": null, "Sprint Cost": null, "Break Free Cost": null, "Bash Cost": null, "Bash Damage": null,
+          "Movement Speed": null, "Sprint Speed": null,
+          "Magicka Cost": null, "Stamina Cost": null, "Ultimate Cost": null
+        }
+      }
+    },
+    "inPvpZone": {
+      "bar1": {
+        "main": {
+          "Max Health": null, "Max Magicka": null, "Max Stamina": null,
+          "Health Recovery": null, "Magicka Recovery": null, "Stamina Recovery": null,
+          "Weapon Damage": null, "Spell Damage": null,
+          "Weapon Critical": null, "Spell Critical": null, "Critical Damage": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Spell Resistance": null
+        },
+        "advanced": {
+          "Critical Chance": null, "Critical Damage": null, "Critical Resistance": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Physical Mitigation": null,
+          "Spell Resistance": null, "Spell Mitigation": null,
+          "Damage Done": null, "Healing Done": null, "Healing Taken": null, "Damage Taken": null,
+          "Damage Shield Strength": null,
+          "Block Cost": null, "Block Mitigation": null,
+          "Roll Dodge Cost": null, "Sprint Cost": null, "Break Free Cost": null, "Bash Cost": null, "Bash Damage": null,
+          "Movement Speed": null, "Sprint Speed": null,
+          "Magicka Cost": null, "Stamina Cost": null, "Ultimate Cost": null
+        }
+      },
+      "bar2": {
+        "main": {
+          "Max Health": null, "Max Magicka": null, "Max Stamina": null,
+          "Health Recovery": null, "Magicka Recovery": null, "Stamina Recovery": null,
+          "Weapon Damage": null, "Spell Damage": null,
+          "Weapon Critical": null, "Spell Critical": null, "Critical Damage": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Spell Resistance": null
+        },
+        "advanced": {
+          "Critical Chance": null, "Critical Damage": null, "Critical Resistance": null,
+          "Physical Penetration": null, "Spell Penetration": null,
+          "Physical Resistance": null, "Physical Mitigation": null,
+          "Spell Resistance": null, "Spell Mitigation": null,
+          "Damage Done": null, "Healing Done": null, "Healing Taken": null, "Damage Taken": null,
+          "Damage Shield Strength": null,
+          "Block Cost": null, "Block Mitigation": null,
+          "Roll Dodge Cost": null, "Sprint Cost": null, "Break Free Cost": null, "Bash Cost": null, "Bash Damage": null,
+          "Movement Speed": null, "Sprint Speed": null,
+          "Magicka Cost": null, "Stamina Cost": null, "Ultimate Cost": null
+        }
+      }
+    }
+  }
+}

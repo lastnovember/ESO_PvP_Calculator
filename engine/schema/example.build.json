@@ -36,8 +36,8 @@
     "hands":     { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
     "waist":     { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
     "legs":      { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
-    "feet":      { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
-    "necklace":  { "set": "Wretched Vitality", "trait": "Bloodthirsty", "enchant": "Weapon Damage" },
+    "feet":      { "set": "Wretched Vitality", "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "necklace":  { "set": "Rallying Cry", "trait": "Bloodthirsty", "enchant": "Weapon Damage" },
     "ring1":     { "set": "Markyn Ring of Majesty", "trait": "Infused", "enchant": "Weapon Damage" },
     "ring2":     { "set": "Wretched Vitality", "trait": "Infused", "enchant": "Weapon Damage" }
   },

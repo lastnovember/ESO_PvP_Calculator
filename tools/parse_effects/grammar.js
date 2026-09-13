@@ -202,14 +202,14 @@ function parseSentence(sentenceIn, conds, depth = 0) {
   let m;
   const base = ctxOf(conds);
 
-  // Battle Spirit alternate value attached to this sentence
+  // Battle Spirit alternate value: a whole sentence about the previous effect, or a clause on this one
+  if ((m = rest.match(/^This (?:effect|value|bonus) is (?:reduced|halved) to ([\d.]+)%? (?:against targets with Battle Spirit|while Battle Spirit is active)\.?$/i))) {
+    return { status: 'battleSpiritAlt', effects: [], alt: { value: toNum(m[1]), scope: /against targets/i.test(m[0]) ? 'target' : 'self' } };
+  }
   let bsAlt = null;
   if ((m = rest.match(/,?\s*(?:reducing|reduced|which reduces|halving) to ([\d.]+)%? (?:against targets with Battle Spirit|while Battle Spirit is active|when Battle Spirit is active)\.?/i))) {
     bsAlt = { value: toNum(m[1]), scope: /against targets/i.test(m[0]) ? 'target' : 'self' };
     rest = (rest.slice(0, m.index) + '.' + rest.slice(m.index + m[0].length)).replace(/\.\./g, '.').trim();
-  }
-  if ((m = rest.match(/^This (?:effect|value|bonus) is (?:reduced|halved) to ([\d.]+)%? (?:against targets with Battle Spirit|while Battle Spirit is active)\.?$/i))) {
-    return { status: 'battleSpiritAlt', effects: [], alt: { value: toNum(m[1]), scope: /against targets/i.test(m[0]) ? 'target' : 'self' } };
   }
   const withBs = (effects) => {
     if (!bsAlt) return effects;
@@ -324,7 +324,11 @@ function parseSentence(sentenceIn, conds, depth = 0) {
     else if (/^(stamina abilities)$/.test(what)) stat = 'staminaCost';
     else if (/^ultimate abilities$/.test(what)) stat = 'ultimateCost';
     else if (/^all abilities$/.test(what)) stat = 'abilityCost';
-    else return conditional(raw, { type: 'abilityCategory', detail: what });
+    else {
+      const proc = [{ kind: 'proc', raw, condition: { type: 'abilityCategory', detail: what } }];
+      const r = finish(proc, m[6], raw, (x) => x, conds, depth);
+      return r.effects.some((e) => e.stat) ? { status: 'mixed', effects: r.effects } : { status: 'conditional', effects: proc };
+    }
     const [pc, rem] = perClause(m[6].trim());
     return done(mk(stat, value, kind, mergeCond(base, pc), raw), rem);
   }
@@ -403,9 +407,11 @@ function parseSentence(sentenceIn, conds, depth = 0) {
 function finish(effs, tail, raw, withBs, conds, depth) {
   const t = (tail || '').replace(/^[.,;]?\s*/, '').replace(/\.$/, '').trim();
   if (!t) return { status: 'ok', effects: withBs(effs) };
+  // explanatory restatement: "..., increasing your chance to critically strike by 2% per ability"
+  if (/^(?:increasing|reducing|decreasing|granting|meaning|which)\b/i.test(t) && !/\b(if|when|while|after|against)\b/i.test(t)) return { status: 'ok', effects: withBs(effs) };
   if (/^(?:and|but) (?:increases|reduces|decreases|grants|gain|its|the|your)/i.test(t) && depth < 4) {
     const r = parseSentence(t.replace(/^(?:and|but) /i, '').replace(/^(?:its|the) /i, ''), conds, depth + 1);
-    if (r.effects.some((e) => e.stat || e.buff)) return { status: r.status === 'ok' ? 'ok' : 'partial', effects: withBs([...effs, ...r.effects]) };
+    if (r.effects.some((e) => e.stat || e.buff)) return { status: (r.status === 'ok' || r.status === 'mixed') ? (effs.every((e) => e.stat || e.buff) ? 'ok' : 'mixed') : 'partial', effects: withBs([...effs, ...r.effects]) };
     if (r.status === 'conditional') return { status: 'mixed', effects: withBs([...effs, ...r.effects]) };
   }
   if (COMBAT_TAIL.test(t) || PROC_HINTS.test(t)) {
