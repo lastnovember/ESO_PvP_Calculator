@@ -175,6 +175,14 @@ export function validateBuild(build, data) {
     const all = new Set(Object.values(CLASS_LINES).flat());
     for (const l of build.classSkillLines) if (!all.has(l)) errors.push(`unknown class skill line ${l}`);
   }
+  if (build.classMastery) {
+    if (build.classMastery.length > 2) errors.push('classMastery: at most 2 passives (2 Class Mastery Points)');
+    for (const n of build.classMastery) {
+      const p = data.effects.skills.passives[n];
+      if (!p || p.line !== 'Class Mastery') errors.push(`unknown Class Mastery passive ${n}`);
+      else if (p.class && p.class !== build.class) errors.push(`${n} is a ${p.class} Class Mastery passive`);
+    }
+  }
   // CP
   const cp = build.championPoints || {};
   if (cp.enabled && cp.slotted) {
@@ -365,12 +373,19 @@ function activePassives(build, data) {
   lines.add(build.race);
   if ((build.vampireStage || 0) > 0) lines.add('Vampire');
   if (build.werewolf) lines.add('Werewolf');
-  lines.add('Class Mastery');
+  // Class Mastery (Update 50): five passives per class, two Class Mastery Points, hidden while subclassing.
+  const native = CLASS_LINES[build.class] || [];
+  const subclassing = !!(build.classSkillLines && build.classSkillLines.some((l) => !native.includes(l)));
+  const mastery = new Set(subclassing ? [] : (build.classMastery || []));
   const mode = (build.passives && build.passives.mode) || 'all';
   const exclude = new Set((build.passives && build.passives.exclude) || []);
   const include = new Set((build.passives && build.passives.include) || []);
   const out = [];
   for (const [name, p] of Object.entries(data.effects.skills.passives)) {
+    if (p.line === 'Class Mastery') {
+      if (mastery.has(name) && p.class === build.class) out.push([name, p]);
+      continue;
+    }
     if (!lines.has(p.line)) continue;
     if (p.class && p.class !== build.class && !(build.classSkillLines || []).some((l) => CLASS_LINES[p.class] && CLASS_LINES[p.class].includes(l))) continue;
     const names = [name, ...(p.aliases || [])];

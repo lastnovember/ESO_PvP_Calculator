@@ -25,6 +25,7 @@ const effects = {
       Juggernaut: { line: 'Heavy Armor', effects: [{ stat: 'maxHealth', value: 2, kind: 'percent', condition: { type: 'armorPieces', weight: 'heavy' } }] },
       'Test Slot Passive': { line: 'Fighters Guild', effects: [{ stat: 'weaponAndSpellDamage', value: 3, kind: 'percent', condition: { type: 'slotted', line: 'Fighters Guild', perAbility: true } }] },
       'Test Proc': { line: 'Assassination', effects: [{ stat: 'weaponDamage', value: 999, kind: 'proc', raw: 'x' }] },
+      'Test Mastery': { line: 'Class Mastery', class: 'Nightblade', effects: [{ stat: 'critDamage', value: 25, kind: 'percent', condition: { type: 'battleSpirit', active: false, scope: 'target' } }, { stat: 'critDamage', value: 5, kind: 'percent', condition: { type: 'battleSpirit', active: true, scope: 'target' } }, { stat: 'critDamageCap', value: 30, kind: 'flat' }] },
     },
     actives: {
       'Test FG Ability': { line: 'Fighters Guild', whileSlotted: [] },
@@ -174,4 +175,17 @@ test('strategies can be switched', () => {
   assert.equal(a, Math.round((B.blockCost.value - 203) * 0.96));
   assert.equal(c, Math.round(B.blockCost.value * 0.96 - 203));
   assert.throws(() => computeSheet(b, data, { strategies: { costOrder: 'nope' } }));
+});
+
+test('Class Mastery: only purchased passives, hidden while subclassing, target scoped Battle Spirit values', () => {
+  const off = computeSheet(naked(), data);
+  assert.equal(off.bars[0].main.critDamage, B.critDamagePercent.value);
+  const on = computeSheet(naked({ classMastery: ['Test Mastery'], battleSpirit: true }), data);
+  assert.equal(on.bars[0].main.critDamage, B.critDamagePercent.value + 25);
+  const pvp = computeSheet(naked({ classMastery: ['Test Mastery'], battleSpirit: true }), data, { strategies: { battleSpiritTargetValues: 'pvpTarget' } });
+  assert.equal(pvp.bars[0].main.critDamage, B.critDamagePercent.value + 5);
+  const sub = computeSheet(naked({ classMastery: ['Test Mastery'], classSkillLines: ['Assassination', 'Shadow', 'Ardent Flame'] }), data);
+  assert.equal(sub.bars[0].main.critDamage, B.critDamagePercent.value);
+  const bad = validateBuild(naked({ classMastery: ['Nope'] }), data);
+  assert.ok(bad.errors.some((e) => e.includes('unknown Class Mastery')));
 });

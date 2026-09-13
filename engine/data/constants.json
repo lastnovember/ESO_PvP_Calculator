@@ -4,7 +4,11 @@
     "level": 50,
     "championGearLevel": 160,
     "quality": "gold",
-    "note": "Values marked verified:false could not be sourced from data/reference and are community values. See UNKNOWNS.md. The first fixture read from the game settles them."
+    "note": "Values marked verified:false could not be sourced from data/reference (tables or patch notes) and are community values. See UNKNOWNS.md. The first fixture read from the game settles them. Patch note citations name the manifest sequence number and date; the newest note wins.",
+    "classMastery": {
+      "points": 2,
+      "note": "data/patch-notes/html 194 (2026-06-08): Class Mastery: five passives per class, each costs 1 Class Mastery Point, you are limited to 2 points for the time being. Requires level 50 in all three native class lines and not actively subclassing."
+    }
   },
   "base": {
     "maxHealth": {
@@ -80,13 +84,13 @@
       "value": 50,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Base Critical Damage. Update 29 introduced the 125% cap."
+      "note": "Base Critical Damage."
     },
     "critDamageCapPercent": {
       "value": 125,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Critical Damage cap. Class Mastery Above and Beyond raises it by 30 (skills.csv)."
+      "source": "data/patch-notes/html 111 (2021-11-15): Critical Damage and Healing now has a hard cap of 125%.",
+      "verified": true,
+      "note": "Class Mastery Above and Beyond raises the cap by 30 (patch 12.0.0 note in skills.csv: 155%)."
     },
     "critRatingPerPercent": {
       "value": 219,
@@ -118,14 +122,16 @@
       "verified": false,
       "note": "Base fraction of damage blocked."
     },
+    "blockMitigationCapPercent": {
+      "value": 90,
+      "source": "data/patch-notes/html 076 (2019-08-26): Block mitigation now has a cap of 90%.",
+      "verified": true
+    },
     "blockCost": {
       "value": 1730,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Stamina cost of blocking an attack.",
-      "alternatives": [
-        2160
-      ]
+      "source": "data/patch-notes/html 053 (2018-02-26): Decreased the base cost of Block to 1730 from 2160.",
+      "verified": true,
+      "note": "Same note: flat reductions to the cost of Block are subtracted from the base cost first, then percentage reductions apply (STRATEGIES.costOrder flatThenPercent)."
     },
     "rollDodgeCost": {
       "value": 2891,
@@ -201,7 +207,7 @@
     }
   },
   "mundus": {
-    "note": "Values are level 50 CP160. fullDivines is the UESP figure with 7 gold Divines pieces (63.7%) and is kept as a cross check of the rounding rule. The Thief value is a critical rating.",
+    "note": "Values are level 50 CP160, UESP table cross checked against the newest patch note for each stone. fullDivines is the UESP figure with 7 gold Divines pieces (63.7%) and is kept as a cross check of the rounding rule. The Thief value is a critical rating.",
     "divinesGoldPercent": {
       "value": 9.1,
       "source": "tables/uesp_Online_Mundus_Stones_t01.csv row 'Legendary'",
@@ -219,7 +225,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 389
+        "fullDivines": 389,
+        "patchNote": "data/patch-notes/html 048 (2017-08-28): The Apprentice: Increased Spell Damage to 238 from 167."
       },
       "The Atronach": {
         "effect": "Increases Magicka Recovery",
@@ -232,7 +239,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 507
+        "fullDivines": 507,
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Atronach and The Serpent: Increased the recovery bonus granted to 310, up from 238."
       },
       "The Lady": {
         "effect": "Increases Physical and Spell Resistance",
@@ -250,7 +258,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 4489
+        "fullDivines": 4489,
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Lady and The Lover: Decreased the Armor and Armor Penetration granted to 2744, down from 2752."
       },
       "The Lord": {
         "effect": "Increases Maximum Health",
@@ -263,7 +272,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 3639
+        "fullDivines": 3639,
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Lord: Decreased the Max Health granted to 2225, down from 2230."
       },
       "The Lover": {
         "effect": "Increases Physical and Spell Penetration",
@@ -281,7 +291,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 4489
+        "fullDivines": 4489,
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Lady and The Lover: Decreased the Armor and Armor Penetration granted to 2744, down from 2752."
       },
       "The Mage": {
         "effect": "Increases Maximum Magicka",
@@ -294,7 +305,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 3309
+        "fullDivines": 3309,
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Mage and The Tower: Decreased the maximum resource granted to 2023, down from 2028."
       },
       "The Ritual": {
         "effect": "Increases Healing Done",
@@ -307,7 +319,8 @@
             "kind": "percent"
           }
         ],
-        "fullDivines": "13%"
+        "fullDivines": "13%",
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Ritual: Decreased the Healing Done granted to 8%, down from 10%."
       },
       "The Serpent": {
         "effect": "Increases Stamina Recovery",
@@ -320,7 +333,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 507
+        "fullDivines": 507,
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Atronach and The Serpent: Increased the recovery bonus granted to 310, up from 238."
       },
       "The Shadow": {
         "effect": "Increases Critical Damage and Healing done",
@@ -333,7 +347,8 @@
             "kind": "percent"
           }
         ],
-        "fullDivines": "17%"
+        "fullDivines": "17%",
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Shadow: Now grants 11% Critical Damage and Healing, rather than 13% Critical Damage."
       },
       "The Steed": {
         "effect": "Increases Health Recovery and Movement Speed",
@@ -351,7 +366,8 @@
             "kind": "percent"
           }
         ],
-        "fullDivines": "389 / 16%"
+        "fullDivines": "389 / 16%",
+        "patchNote": "data/patch-notes/html 048 (2017-08-28): The Steed: Increased Health Recovery to 238 from 167. data/patch-notes/html 066 (2018-11-05): Increased the movement speed bonus from the Steed Mundus Stone to 10% from 5%."
       },
       "The Thief": {
         "effect": "Increases Weapon and Spell Critical Strike ratings",
@@ -364,7 +380,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 1982
+        "fullDivines": 1982,
+        "patchNote": "data/patch-notes/html 140 (2023-07-25): Reduced the Critical Chance rating granted from The Thief Mundus Stone to 1212, down from 1333."
       },
       "The Tower": {
         "effect": "Increases Maximum Stamina",
@@ -377,7 +394,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 3309
+        "fullDivines": 3309,
+        "patchNote": "data/patch-notes/html 092 (2020-09-01): The Mage and The Tower: Decreased the maximum resource granted to 2023, down from 2028."
       },
       "The Warrior": {
         "effect": "Increases Weapon Damage",
@@ -390,7 +408,8 @@
             "kind": "flat"
           }
         ],
-        "fullDivines": 389
+        "fullDivines": 389,
+        "patchNote": "data/patch-notes/html 048 (2017-08-28): The Warrior: Increased Weapon Damage to 238 from 167."
       }
     }
   },
@@ -443,8 +462,8 @@
         "kind": "percent",
         "description": "Increase armor enchantment effect by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Infused'",
-        "verified": false,
-        "note": "tables/uesp_Online_Enchanting_t04.csv says 20% at gold for armor Infused; tables/uesp_Online_Traits_t01.csv and uesp_Online_Armor_t01.csv say 25%. 25% used. Listed in UNKNOWNS.md."
+        "verified": true,
+        "note": "tables/uesp_Online_Enchanting_t04.csv says 20% at gold; data/patch-notes/html 092 (2020-09-01): Infused: Increased the enchantment potency bonus to 25%, up from 20%. Newest note wins: 25%."
       },
       "Invigorating": {
         "stat": "allRecovery",
@@ -468,7 +487,8 @@
         "kind": "flat",
         "description": "Increases Physical and Spell Resistance by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Nirnhoned'",
-        "verified": true
+        "verified": true,
+        "note": "data/patch-notes/html 092 (2020-09-01): Nirnhoned: Decreased the Armor granted to 253, down from 301."
       }
     },
     "weapon": {
@@ -496,9 +516,9 @@
         "oneHand": 3.6,
         "twoHand": 7.2,
         "source": "tables/uesp_Online_Traits_t00.csv row 'Precise'",
-        "verified": false,
+        "verified": true,
         "stat": "critChance",
-        "note": "UESP lists Precise as a percent (3.6% one hand, 7.2% two hand at gold). The engine converts it to critical rating at critRatingPerPercent. The in game tooltip may state a rating instead. Listed in UNKNOWNS.md."
+        "note": "data/patch-notes/html 093 (2020-09-15): Precise: Reduced the Critical Chance granted to 7.2%, down from 8.6%. Two hand 7.2%, one hand 3.6%. The engine converts the percent to a rating at critRatingPerPercent (STRATEGIES.preciseTrait); the conversion factor itself is unverified."
       },
       "Infused": {
         "description": "Increase weapon enchantment effect by … and reduces enchantment cooldown by 50%",
@@ -507,7 +527,8 @@
         "twoHand": 30,
         "source": "tables/uesp_Online_Traits_t00.csv row 'Infused'",
         "verified": true,
-        "stat": "weaponEnchantEffect"
+        "stat": "weaponEnchantEffect",
+        "note": "data/patch-notes/html 048 (2017-08-28): Infused: Increased the bonus value granted to the applied enchantment to 30% from 20%, and increased the cooldown reduction to 50% from 40%."
       },
       "Defending": {
         "description": "Increases Physical and Spell Resistance by …",
@@ -552,7 +573,8 @@
         "twoHand": 15,
         "source": "tables/uesp_Online_Traits_t00.csv row 'Nirnhoned'",
         "verified": true,
-        "stat": "weaponDamageOfItem"
+        "stat": "weaponDamageOfItem",
+        "note": "data/patch-notes/html 048 (2017-08-28): Nirnhoned: Increased the bonus to the weapon damage to 15% from 11%."
       }
     },
     "jewelry": {
@@ -922,10 +944,9 @@
       },
       "Increase Bash Damage": {
         "magnitude": {
-          "value": 258,
-          "source": "UNVERIFIED",
-          "verified": false,
-          "note": "Glyph of Bashing"
+          "value": 500,
+          "source": "data/patch-notes/html 087 (2020-06-09): Glyph of Bashing: These enchantments now increase the damage of your Bash attacks by up to 500 per CP160 Gold quality enchantment.",
+          "verified": true
         },
         "values": [
           {
@@ -1341,14 +1362,14 @@
         "name": "Artaeum Takeaway Broth",
         "kind": "food",
         "stats": {
-          "maxHealth": 4620,
-          "maxStamina": 4250,
+          "maxHealth": 3724,
+          "maxStamina": 3458,
           "healthRecovery": 406,
           "staminaRecovery": 406
         },
         "source": "UNVERIFIED",
         "verified": false,
-        "note": "Community tooltip value."
+        "note": "Community tooltip value. data/patch-notes/html 073 (2019-06-03): Reduced the Max Health and Max Resource granted by these foods by approximately 15%, recovery slightly increased."
       },
       {
         "id": "clockwork-citrus-filet",
@@ -1362,7 +1383,7 @@
         },
         "source": "UNVERIFIED",
         "verified": false,
-        "note": "Community tooltip value."
+        "note": "Community tooltip value. data/patch-notes/html 073 (2019-06-03): Reduced the Max Health and Max Resource granted by these foods by approximately 15%, recovery slightly increased."
       },
       {
         "id": "candied-jesters-coins",
@@ -1546,38 +1567,43 @@
         "stat": "damageTaken",
         "value": -50,
         "kind": "percent",
-        "verified": true
+        "verified": true,
+        "source": "data/patch-notes/html 108 (2021-09-07): Increased the damage taken reduction from the Battle Spirit passive to 50%, up from 44%."
       },
       {
         "stat": "damageShieldStrength",
         "value": -50,
         "kind": "percent",
-        "verified": true
+        "verified": true,
+        "source": "data/patch-notes/html 007 (2015-09-14): 50% less damage shield strength. No later change found."
       },
       {
         "stat": "healingReceived",
         "value": -55,
         "kind": "percent",
-        "verified": true
+        "verified": true,
+        "source": "data/patch-notes/html 108 (2021-09-07): Increased the healing received penalty to 55%, up from 50%. Timeline: 50% (007, 2015-09-14), 60%, 55% (096, 2020-11-09), 50%, 55% (108)."
       },
       {
         "stat": "healthRecovery",
         "value": -50,
         "kind": "percent",
-        "verified": true
+        "verified": true,
+        "source": "data/patch-notes/html 103 (2021-06-08): The Battle Spirit passive now also reduces your Health Recovery by 50%."
       },
       {
         "stat": "abilityRangeOver28m",
         "value": 8,
         "kind": "flat",
-        "verified": true
+        "verified": true,
+        "source": "tables/uesp_Online_Campaigns_t05.csv row 'Battle Spirit'; data/patch-notes/html 103 (2021-06-08): known issue: abilities with a range of 28m or more are not receiving the Battle Spirit range increase buff"
       }
     ],
     "legacyFlatMaxHealth": {
       "value": 5000,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Flat Max Health bonus referenced in 2016 to 2019 patch notes, applied after percentage multipliers (2016-01-26 note). Not listed by UESP now. Behind flags.battleSpiritFlatHealth, default off."
+      "note": "Flat Max Health bonus. data/patch-notes/html 014 (2016-01-26): Battle Spirit Health bonus will no longer be modified or increased by other Health percentage increases (temporary). data/patch-notes/html 017 (2016-03-22): fixed: Battle Spirit Health bonus would not be modified by Health percentage increases. data/patch-notes/html 022 (2016-06-13): All pets and summons will now have 5000 additional health in PvP areas. data/patch-notes/html 076 (2019-08-26): Pets will now properly gain the extra 5000 Health from Battle Spirit. No removal note through 2026-08-10 and no player facing statement of the current value. UESP does not list it. Behind flags.battleSpiritFlatHealth, default off, until a PvP zone fixture settles it. If it exists the 2016-03-22 fix means it IS multiplied by Health percentage bonuses."
     }
   },
   "vampireStages": {
@@ -1669,15 +1695,14 @@
     "note": "Stars from the UESP Champion page tables. Tables t00 to t03 are Craft, t04 to t12 Warfare, t13 to t22 Fitness. \"Active\" rows are slottable. Per stage effect text is parsed by tools/parse_effects; the engine applies max stages.",
     "totalCap": {
       "value": 3600,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Champion Point cap since Update 29, 1200 per constellation. Not in data/reference (patch notes html missing)."
+      "source": "data/patch-notes/html 100 (2021-03-15): The CP cap per update has been lifted, and you can now spend up to the 3600 CP cap.",
+      "verified": true
     },
     "perConstellationCap": {
       "value": 1200,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "One third of the cap."
+      "source": "data/patch-notes/html 100 (2021-03-15): Update 29 Champion Point System Update: points are earned equally across the three constellations.",
+      "verified": true,
+      "note": "One third of 3600."
     },
     "slotsPerConstellation": {
       "value": 4,
@@ -2903,12 +2928,14 @@
       "Minor Courage": {
         "description": "Increase your Weapon and Spell Damage by 215",
         "source": "tables/uesp_Online_Buffs_t00.csv row 'Courage / Minor'",
-        "verified": true
+        "verified": true,
+        "patchNote": "data/patch-notes/html 096 (2020-11-09): Minor Courage: Increased to 215, up from 129."
       },
       "Major Courage": {
         "description": "Increase your Weapon and Spell Damage by 430",
         "source": "tables/uesp_Online_Buffs_t00.csv row 'Courage / Major'",
-        "verified": true
+        "verified": true,
+        "patchNote": "data/patch-notes/html 096 (2020-11-09): Major Courage: Increased to 430, up from 258."
       },
       "Minor Endurance": {
         "description": "Increases stamina recovery by 15%.",
@@ -3013,12 +3040,14 @@
       "Minor Resolve": {
         "description": "Increases physical and spell resistance by 2974.",
         "source": "tables/uesp_Online_Buffs_t00.csv row 'Resolve / Minor'",
-        "verified": true
+        "verified": true,
+        "patchNote": "data/patch-notes/html 096 (2020-11-09): Minor Resolve: Increased to 2974, up from 1320."
       },
       "Major Resolve": {
         "description": "Increases physical and spell resistance by 5948.",
         "source": "tables/uesp_Online_Buffs_t00.csv row 'Resolve / Major'",
-        "verified": true
+        "verified": true,
+        "patchNote": "data/patch-notes/html 096 (2020-11-09): Major Resolve: Increased to 5948, up from 5280."
       },
       "Minor Savagery": {
         "description": "Increases weapon critical by 1314.",

@@ -39,6 +39,11 @@ def sourced(value, source, note=None):
     return d
 
 
+def pn(seq, date, text):
+    """Cite a patch note by manifest sequence and date."""
+    return f"data/patch-notes/html {seq} ({date}): {text}"
+
+
 def num(s):
     s = s.replace(',', '').replace('%', '').strip()
     return float(s) if '.' in s else int(s)
@@ -48,7 +53,8 @@ C = OrderedDict()
 C['_meta'] = OrderedDict(
     generatedBy='tools/build_constants.py',
     level=50, championGearLevel=160, quality='gold',
-    note='Values marked verified:false could not be sourced from data/reference and are community values. See UNKNOWNS.md. The first fixture read from the game settles them.',
+    note='Values marked verified:false could not be sourced from data/reference (tables or patch notes) and are community values. See UNKNOWNS.md. The first fixture read from the game settles them. Patch note citations name the manifest sequence number and date; the newest note wins.',
+    classMastery=OrderedDict(points=2, note=pn('194', '2026-06-08', 'Class Mastery: five passives per class, each costs 1 Class Mastery Point, you are limited to 2 points for the time being. Requires level 50 in all three native class lines and not actively subclassing.')),
 )
 
 # ---------------------------------------------------------------- base stats
@@ -62,14 +68,15 @@ C['base'] = OrderedDict(
     weaponDamage=unverified(1000, 'Sheet Weapon Damage with no weapon equipped and no bonuses.', [0]),
     spellDamage=unverified(1000, 'Sheet Spell Damage with no weapon equipped and no bonuses.', [0]),
     critChancePercent=unverified(10, 'Base Critical Chance for every character.'),
-    critDamagePercent=unverified(50, 'Base Critical Damage. Update 29 introduced the 125% cap.'),
-    critDamageCapPercent=unverified(125, 'Critical Damage cap. Class Mastery Above and Beyond raises it by 30 (skills.csv).'),
+    critDamagePercent=unverified(50, 'Base Critical Damage.'),
+    critDamageCapPercent=sourced(125, pn('111', '2021-11-15', 'Critical Damage and Healing now has a hard cap of 125%.'), 'Class Mastery Above and Beyond raises the cap by 30 (patch 12.0.0 note in skills.csv: 155%).'),
     critRatingPerPercent=unverified(219, 'Critical rating needed for 1% Critical Chance at level 50 CP160.'),
     resistancePerPercent=unverified(660, 'Physical or Spell Resistance rating per 1% of damage mitigation at level 50 CP160.'),
     resistanceCapRating=unverified(33000, 'Resistance cap, equals 50% mitigation at 660 per percent.'),
     resistanceCapPercent=unverified(50, 'Mitigation shown at the resistance cap.'),
     blockMitigationPercent=unverified(50, 'Base fraction of damage blocked.'),
-    blockCost=unverified(1730, 'Base Stamina cost of blocking an attack.', [2160]),
+    blockMitigationCapPercent=sourced(90, pn('076', '2019-08-26', 'Block mitigation now has a cap of 90%.')),
+    blockCost=sourced(1730, pn('053', '2018-02-26', 'Decreased the base cost of Block to 1730 from 2160.'), 'Same note: flat reductions to the cost of Block are subtracted from the base cost first, then percentage reductions apply (STRATEGIES.costOrder flatThenPercent).'),
     rollDodgeCost=unverified(2891, 'Base Stamina cost of Roll Dodge.', [3060]),
     sprintCostPerSecond=unverified(400, 'Base Stamina cost of Sprint per second.'),
     breakFreeCost=unverified(3060, 'Base Stamina cost of Break Free.'),
@@ -115,8 +122,25 @@ for row in mund[1:]:
         entry['values'] = [OrderedDict(stat=s, value=num(val), kind='flat') for s in statmap]
         entry['fullDivines'] = num(full)
     mundus[name] = entry
+MUNDUS_NOTES = {
+    'The Apprentice': pn('048', '2017-08-28', 'The Apprentice: Increased Spell Damage to 238 from 167.'),
+    'The Warrior': pn('048', '2017-08-28', 'The Warrior: Increased Weapon Damage to 238 from 167.'),
+    'The Steed': pn('048', '2017-08-28', 'The Steed: Increased Health Recovery to 238 from 167.') + ' ' + pn('066', '2018-11-05', 'Increased the movement speed bonus from the Steed Mundus Stone to 10% from 5%.'),
+    'The Atronach': pn('092', '2020-09-01', 'The Atronach and The Serpent: Increased the recovery bonus granted to 310, up from 238.'),
+    'The Serpent': pn('092', '2020-09-01', 'The Atronach and The Serpent: Increased the recovery bonus granted to 310, up from 238.'),
+    'The Lady': pn('092', '2020-09-01', 'The Lady and The Lover: Decreased the Armor and Armor Penetration granted to 2744, down from 2752.'),
+    'The Lover': pn('092', '2020-09-01', 'The Lady and The Lover: Decreased the Armor and Armor Penetration granted to 2744, down from 2752.'),
+    'The Lord': pn('092', '2020-09-01', 'The Lord: Decreased the Max Health granted to 2225, down from 2230.'),
+    'The Mage': pn('092', '2020-09-01', 'The Mage and The Tower: Decreased the maximum resource granted to 2023, down from 2028.'),
+    'The Tower': pn('092', '2020-09-01', 'The Mage and The Tower: Decreased the maximum resource granted to 2023, down from 2028.'),
+    'The Ritual': pn('092', '2020-09-01', 'The Ritual: Decreased the Healing Done granted to 8%, down from 10%.'),
+    'The Shadow': pn('092', '2020-09-01', 'The Shadow: Now grants 11% Critical Damage and Healing, rather than 13% Critical Damage.'),
+    'The Thief': pn('140', '2023-07-25', 'Reduced the Critical Chance rating granted from The Thief Mundus Stone to 1212, down from 1333.'),
+}
+for k, e in mundus.items():
+    e['patchNote'] = MUNDUS_NOTES[k]
 C['mundus'] = OrderedDict(
-    note='Values are level 50 CP160. fullDivines is the UESP figure with 7 gold Divines pieces (63.7%) and is kept as a cross check of the rounding rule. The Thief value is a critical rating.',
+    note='Values are level 50 CP160, UESP table cross checked against the newest patch note for each stone. fullDivines is the UESP figure with 7 gold Divines pieces (63.7%) and is kept as a cross check of the rounding rule. The Thief value is a critical rating.',
     divinesGoldPercent=sourced(9.1, src('uesp_Online_Mundus_Stones_t01.csv', 'Legendary')),
     stones=mundus,
 )
@@ -139,8 +163,7 @@ for row in table('uesp_Online_Traits_t01.csv'):
         armor_traits[name] = OrderedDict(stat=stat, value=v, kind=kind, description=desc,
                                         source=src('uesp_Online_Traits_t01.csv', name), verified=True)
 # Enchanting page lists Infused armor at 20% gold, Traits page at 25%. Newer patch notes should settle it.
-armor_traits['Infused']['note'] = 'tables/uesp_Online_Enchanting_t04.csv says 20% at gold for armor Infused; tables/uesp_Online_Traits_t01.csv and uesp_Online_Armor_t01.csv say 25%. 25% used. Listed in UNKNOWNS.md.'
-armor_traits['Infused']['verified'] = False
+armor_traits['Infused']['note'] = 'tables/uesp_Online_Enchanting_t04.csv says 20% at gold; ' + pn('092', '2020-09-01', 'Infused: Increased the enchantment potency bonus to 25%, up from 20%.') + ' Newest note wins: 25%.'
 
 weapon_traits = OrderedDict()
 rows = table('uesp_Online_Traits_t00.csv')
@@ -167,8 +190,10 @@ statmap_w = {'Powered': 'healingDone', 'Charged': 'statusEffectChance', 'Precise
              'Sharpened': 'physicalAndSpellPenetration', 'Decisive': 'ultimateChance', 'Nirnhoned': 'weaponDamageOfItem'}
 for k, v in weapon_traits.items():
     v['stat'] = statmap_w[k]
-weapon_traits['Precise']['note'] = 'UESP lists Precise as a percent (3.6% one hand, 7.2% two hand at gold). The engine converts it to critical rating at critRatingPerPercent. The in game tooltip may state a rating instead. Listed in UNKNOWNS.md.'
-weapon_traits['Precise']['verified'] = False
+weapon_traits['Precise']['note'] = pn('093', '2020-09-15', 'Precise: Reduced the Critical Chance granted to 7.2%, down from 8.6%.') + ' Two hand 7.2%, one hand 3.6%. The engine converts the percent to a rating at critRatingPerPercent (STRATEGIES.preciseTrait); the conversion factor itself is unverified.'
+weapon_traits['Infused']['note'] = pn('048', '2017-08-28', 'Infused: Increased the bonus value granted to the applied enchantment to 30% from 20%, and increased the cooldown reduction to 50% from 40%.')
+weapon_traits['Nirnhoned']['note'] = pn('048', '2017-08-28', 'Nirnhoned: Increased the bonus to the weapon damage to 15% from 11%.')
+armor_traits['Nirnhoned']['note'] = pn('092', '2020-09-01', 'Nirnhoned: Decreased the Armor granted to 253, down from 301.')
 
 jewelry_traits = OrderedDict()
 rows = table('uesp_Online_Traits_t02.csv')
@@ -220,7 +245,7 @@ C['enchants'] = OrderedDict(
            'Reduce Spell Cost': OrderedDict(magnitude=unverified(203, 'Glyph of Reduce Spell Cost'), values=[OrderedDict(stat='magickaCostReduction', kind='flat')]),
            'Reduce Feat Cost': OrderedDict(magnitude=unverified(203, 'Glyph of Reduce Feat Cost'), values=[OrderedDict(stat='staminaCostReduction', kind='flat')]),
            'Reduce Block Cost': OrderedDict(magnitude=unverified(203, 'Glyph of Shielding'), values=[OrderedDict(stat='blockCost', kind='flat', negative=True)]),
-           'Increase Bash Damage': OrderedDict(magnitude=unverified(258, 'Glyph of Bashing'), values=[OrderedDict(stat='bashDamage', kind='flat')]),
+           'Increase Bash Damage': OrderedDict(magnitude=sourced(500, pn('087', '2020-06-09', 'Glyph of Bashing: These enchantments now increase the damage of your Bash attacks by up to 500 per CP160 Gold quality enchantment.')), values=[OrderedDict(stat='bashDamage', kind='flat')]),
            'Potion Cooldown': OrderedDict(magnitude=unverified(5.2, 'Glyph of Potion Speed, seconds'), values=[OrderedDict(stat='potionCooldown', kind='flat', negative=True)]),
            'Potion Boost': OrderedDict(magnitude=unverified(8.2, 'Glyph of Potion Boost, seconds'), values=[OrderedDict(stat='potionDuration', kind='flat')]),
            'Flame Resist': OrderedDict(magnitude=unverified(2900, 'Glyph of Flame Resist'), values=[OrderedDict(stat='flameResistance', kind='flat')]),
@@ -263,8 +288,8 @@ foods = [
     food('blue-magicka-stamina', 'Blue dual stat food (Magicka and Stamina)', 'food', 'UESP scaling table.', True, src('uesp_Online_Food_t09.csv', 'last column'), maxMagicka=4575, maxStamina=4575),
     food('purple-tristat', 'Purple tri stat food (Longfin Pasty, Braised Rabbit, Sugar Skulls without recovery)', 'food', 'Community tooltip value.', maxHealth=4620, maxMagicka=4250, maxStamina=4250),
     food('bewitched-sugar-skulls', 'Bewitched Sugar Skulls', 'food', 'Community tooltip value.', maxHealth=4620, maxMagicka=4250, maxStamina=4250, healthRecovery=406),
-    food('artaeum-takeaway-broth', 'Artaeum Takeaway Broth', 'food', 'Community tooltip value.', maxHealth=4620, maxStamina=4250, healthRecovery=406, staminaRecovery=406),
-    food('clockwork-citrus-filet', 'Clockwork Citrus Filet', 'food', 'Community tooltip value.', maxHealth=3724, maxMagicka=3458, healthRecovery=406, magickaRecovery=406),
+    food('artaeum-takeaway-broth', 'Artaeum Takeaway Broth', 'food', 'Community tooltip value. ' + pn('073', '2019-06-03', 'Reduced the Max Health and Max Resource granted by these foods by approximately 15%, recovery slightly increased.'), maxHealth=3724, maxStamina=3458, healthRecovery=406, staminaRecovery=406),
+    food('clockwork-citrus-filet', 'Clockwork Citrus Filet', 'food', 'Community tooltip value. ' + pn('073', '2019-06-03', 'Reduced the Max Health and Max Resource granted by these foods by approximately 15%, recovery slightly increased.'), maxHealth=3724, maxMagicka=3458, healthRecovery=406, magickaRecovery=406),
     food('candied-jesters-coins', "Candied Jester's Coins", 'food', 'Community tooltip value. Same as blue Health and Stamina food.', maxHealth=5000, maxStamina=4575),
     food('witchmothers-potent-brew', "Witchmother's Potent Brew", 'drink', 'Community tooltip value.', maxHealth=2856, maxMagicka=3161, magickaRecovery=315),
     food('dubious-camoran-throne', 'Dubious Camoran Throne', 'drink', 'Community tooltip value.', maxHealth=2856, maxStamina=3161, staminaRecovery=315),
@@ -288,13 +313,13 @@ C['battleSpirit'] = OrderedDict(
     source=src('uesp_Online_Campaigns_t05.csv', 'Battle Spirit'),
     rawText=bs[2],
     effects=[
-        OrderedDict(stat='damageTaken', value=-50, kind='percent', verified=True),
-        OrderedDict(stat='damageShieldStrength', value=-50, kind='percent', verified=True),
-        OrderedDict(stat='healingReceived', value=-55, kind='percent', verified=True),
-        OrderedDict(stat='healthRecovery', value=-50, kind='percent', verified=True),
-        OrderedDict(stat='abilityRangeOver28m', value=8, kind='flat', verified=True),
+        OrderedDict(stat='damageTaken', value=-50, kind='percent', verified=True, source=pn('108', '2021-09-07', 'Increased the damage taken reduction from the Battle Spirit passive to 50%, up from 44%.')),
+        OrderedDict(stat='damageShieldStrength', value=-50, kind='percent', verified=True, source=pn('007', '2015-09-14', '50% less damage shield strength.') + ' No later change found.'),
+        OrderedDict(stat='healingReceived', value=-55, kind='percent', verified=True, source=pn('108', '2021-09-07', 'Increased the healing received penalty to 55%, up from 50%.') + ' Timeline: 50% (007, 2015-09-14), 60%, 55% (096, 2020-11-09), 50%, 55% (108).'),
+        OrderedDict(stat='healthRecovery', value=-50, kind='percent', verified=True, source=pn('103', '2021-06-08', 'The Battle Spirit passive now also reduces your Health Recovery by 50%.')),
+        OrderedDict(stat='abilityRangeOver28m', value=8, kind='flat', verified=True, source=src('uesp_Online_Campaigns_t05.csv', 'Battle Spirit') + '; ' + pn('103', '2021-06-08', 'known issue: abilities with a range of 28m or more are not receiving the Battle Spirit range increase buff')),
     ],
-    legacyFlatMaxHealth=unverified(5000, 'Flat Max Health bonus referenced in 2016 to 2019 patch notes, applied after percentage multipliers (2016-01-26 note). Not listed by UESP now. Behind flags.battleSpiritFlatHealth, default off.'),
+    legacyFlatMaxHealth=unverified(5000, 'Flat Max Health bonus. ' + pn('014', '2016-01-26', 'Battle Spirit Health bonus will no longer be modified or increased by other Health percentage increases (temporary).') + ' ' + pn('017', '2016-03-22', 'fixed: Battle Spirit Health bonus would not be modified by Health percentage increases.') + ' ' + pn('022', '2016-06-13', 'All pets and summons will now have 5000 additional health in PvP areas.') + ' ' + pn('076', '2019-08-26', 'Pets will now properly gain the extra 5000 Health from Battle Spirit.') + ' No removal note through 2026-08-10 and no player facing statement of the current value. UESP does not list it. Behind flags.battleSpiritFlatHealth, default off, until a PvP zone fixture settles it. If it exists the 2016-03-22 fix means it IS multiplied by Health percentage bonuses.'),
 )
 
 # ---------------------------------------------------------------- Vampire stages
@@ -332,8 +357,8 @@ for t in range(0, 23):
                                  effect=effect, source=src(fn, name)))
 C['championPoints'] = OrderedDict(
     note='Stars from the UESP Champion page tables. Tables t00 to t03 are Craft, t04 to t12 Warfare, t13 to t22 Fitness. "Active" rows are slottable. Per stage effect text is parsed by tools/parse_effects; the engine applies max stages.',
-    totalCap=unverified(3600, 'Champion Point cap since Update 29, 1200 per constellation. Not in data/reference (patch notes html missing).'),
-    perConstellationCap=unverified(1200, 'One third of the cap.'),
+    totalCap=sourced(3600, pn('100', '2021-03-15', 'The CP cap per update has been lifted, and you can now spend up to the 3600 CP cap.')),
+    perConstellationCap=sourced(1200, pn('100', '2021-03-15', 'Update 29 Champion Point System Update: points are earned equally across the three constellations.'), 'One third of 3600.'),
     slotsPerConstellation=sourced(4, 'task statement'),
     stars=stars,
 )
@@ -353,6 +378,14 @@ for row in rows[1:]:
         continue
     if current and tier in ('Major', 'Minor') and desc:
         buffs[f'{tier} {current}'] = OrderedDict(description=desc, source=src('uesp_Online_Buffs_t00.csv', f'{current} / {tier}'), verified=True)
+BUFF_NOTES = {
+    'Major Resolve': pn('096', '2020-11-09', 'Major Resolve: Increased to 5948, up from 5280.'),
+    'Minor Resolve': pn('096', '2020-11-09', 'Minor Resolve: Increased to 2974, up from 1320.'),
+    'Major Courage': pn('096', '2020-11-09', 'Major Courage: Increased to 430, up from 258.'),
+    'Minor Courage': pn('096', '2020-11-09', 'Minor Courage: Increased to 215, up from 129.'),
+}
+for k, n in BUFF_NOTES.items():
+    buffs[k]['patchNote'] = n
 C['namedBuffs'] = OrderedDict(note='Major and Minor buff magnitudes. Set bonuses and passives that grant a named buff resolve through this table in the parser.', buffs=buffs)
 
 # ---------------------------------------------------------------- misc

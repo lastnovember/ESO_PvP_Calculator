@@ -6,6 +6,7 @@
   "race": "Orc",
   "class": "Nightblade",
   "classSkillLines": ["Assassination", "Shadow", "Siphoning"],
+  "classMastery": ["Above and Beyond", "An Eye for Exploitation"],
 
   "attributes": { "health": 20, "magicka": 0, "stamina": 44 },
 

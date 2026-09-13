@@ -10,7 +10,7 @@ table at the bottom with the fixture name.
 
 | Item | Status |
 | --- | --- |
-| `data/patch-notes/html` | Not in the repository. Only `data/patch-notes/manifest.csv` (202 rows) is present. Every "newest patch note wins" check below is therefore pending. No outbound network in the build environment, so the notes could not be fetched. |
+| `data/patch-notes/html` | Present (202 notes, 2015-06-23 to 2026-08-10). Searched for every constant below; hits are cited in constants.json as "data/patch-notes/html NNN (date)". Base character numbers (naked stats, points, ratings per percent, Roll Dodge, Break Free, Sprint and Bash costs, glyph magnitudes other than Bashing, item armor and weapon ratings) never appear in a console patch note. |
 | UESP prose pages (Health, Magicka, Stamina, Combat, Attributes, Enchanting glyph tables, Armor values) | Archived as PDF only; PDFs are not in the repository. Only the wiki tables (`data/reference/tables`) are. |
 | esoapi.uesp.net data version | v101044 (Update 44, November 2024) per `tools/ARCHIVE_README.md`. Six updates behind live. |
 
@@ -29,11 +29,9 @@ table at the bottom with the fixture name.
 | Critical Chance base | 10% | | |
 | Critical rating per 1% | 219 | | |
 | Critical Damage base | 50% | | |
-| Critical Damage cap | 125% | | Class Mastery "Above and Beyond" raises it by 30 per skills.csv |
 | Resistance per 1% mitigation | 660 | | |
 | Resistance cap | 33000 (50%) | | |
-| Block cost | 1730 | 2160 | |
-| Block mitigation | 50% | | |
+| Block mitigation | 50% | | Cap of 90% is settled (2019-08-26). |
 | Roll Dodge cost | 2891 | 3060 | |
 | Sprint cost | 400 per second | | |
 | Break Free cost | 3060 | | |
@@ -51,8 +49,7 @@ table at the bottom with the fixture name.
 | Gold CP160 armor rating, medium | chest 1782, head/shoulders/legs/feet 1567, hands/waist 891 | |
 | Gold CP160 armor rating, light | chest 1155, head/shoulders/legs/feet 1015, hands/waist 578 | |
 | Gold CP160 shield armor rating | 1880 | |
-| Precise trait | 3.6% / 7.2% converted at 219 per percent | UESP gives a percent; the tooltip may give a rating. |
-| Armor Infused trait | 25% | UESP Traits and Armor tables say 25% at gold, UESP Enchanting table says 20%. |
+| Precise trait conversion | 3.6% / 7.2% converted at 219 per percent | The percent is settled (2020-09-15). Whether the sheet applies it as a rating or as a percent is not, see STRATEGIES.preciseTrait. |
 
 ## Glyphs (Truly Superb, gold)
 
@@ -66,7 +63,6 @@ table at the bottom with the fixture name.
 | Prismatic Recovery | 84 each |
 | Reduce Spell Cost, Reduce Feat Cost | 203 |
 | Reduce Block Cost (Shielding) | 203 |
-| Increase Bash Damage | 258 |
 | Potion Cooldown | 5.2 s |
 | Potion Boost | 8.2 s |
 | Elemental resist glyphs | 2900 |
@@ -86,6 +82,7 @@ Named items are community tooltip values.
 | Green single stat food | 6277 Health, 5745 Magicka or Stamina (UESP) | |
 | Purple tri stat food | 4620 / 4250 / 4250 | UESP level 50 columns show 4625 / 4233. |
 | Bewitched Sugar Skulls | tri stat + 406 Health Recovery | |
+| Artaeum Takeaway Broth, Clockwork Citrus Filet | 3724 Health, 3458 resource, 406 and 406 recovery | A 2019-06-03 note cut their max values by about 15%, so they are not equal to tri stat food. |
 | Witchmother's Potent Brew | 2856 Health, 3161 Magicka, 315 Magicka Recovery | |
 | Dubious Camoran Throne | 2856 Health, 3161 Stamina, 315 Stamina Recovery | |
 | Jewels of Misrule | 3326 Health, 315 each recovery | |
@@ -97,11 +94,32 @@ Named items are community tooltip values.
 
 | Item | Value used | Note |
 | --- | --- | --- |
-| Champion Point cap | 3600 total, 1200 per constellation | Passive stars total 320 (Warfare), 342 (Fitness), 800 (Craft) points, so every passive can be maxed with four 50 point slottables to spare in each constellation. Craft has two 75 point slottables; still fits. |
-| Battle Spirit flat +5000 Max Health | Off by default (`flags.battleSpiritFlatHealth`) | Referenced in 2016 to 2019 patch notes, not listed by UESP now. |
-| Class Mastery passives (Update 50, patch 12.0.0) | Treated as ordinary passives of their class, all on by default | Activation rule (all five active, or one chosen) is unknown. |
+| Battle Spirit flat +5000 Max Health | Off by default (`flags.battleSpiritFlatHealth`) | Timeline in the notes: 2016-01-26 temporary "not modified by Health percentage increases", 2016-03-22 fixed (so it IS multiplied by percent bonuses), 2016-06-13 and 2019-08-26 pets get the same 5000. No note ever removes it, no note after 2019 mentions it for players, UESP does not list it. Only a PvP zone fixture can settle it. |
 | Dual wield off hand contribution | 6% of off hand damage (Dual Wield Expert) | skills.csv tooltip. |
 | Werewolf form stat changes beyond passives | none modelled | |
+
+## Settled by patch notes
+
+| Constant | Settled value | Note |
+| --- | --- | --- |
+| Battle Spirit damage taken | -50% | 108, 2021-09-07 (up from 44%) |
+| Battle Spirit healing received | -55% | 108, 2021-09-07. History: 50% (2015-09-14), 60%, 55% (2020-11-09), 50%, 55% |
+| Battle Spirit Health Recovery | -50% | 103, 2021-06-08 (new penalty) |
+| Battle Spirit damage shield strength | -50% | 007, 2015-09-14, no later change |
+| Block base cost | 1730 | 053, 2018-02-26 (down from 2160); flat reductions apply before percent reductions |
+| Block mitigation cap | 90% | 076, 2019-08-26 |
+| Critical Damage cap | 125% | 111, 2021-11-15; Above and Beyond raises it to 155% (12.0.0 note) |
+| Champion Point cap | 3600 | 100, 2021-03-15. Passive stars total 320 (Warfare), 342 (Fitness), 800 (Craft), so every passive can be maxed with four slottables to spare |
+| Precise trait | 3.6% one hand, 7.2% two hand | 093, 2020-09-15 |
+| Armor Infused | 25% | 092, 2020-09-01 |
+| Weapon Infused | 30% | 048, 2017-08-28 |
+| Weapon Nirnhoned | 15% | 048, 2017-08-28 |
+| Armor Nirnhoned | 253 | 092, 2020-09-01 |
+| Glyph of Bashing | up to 500 Bash damage | 087, 2020-06-09 |
+| Mundus stones | UESP table values | 092 (2020-09-01), 140 (Thief 1212, 2023-07-25), 066 (Steed 10%), 048 (238 stones) |
+| Major and Minor Resolve, Courage | 5948, 2974, 430, 215 | 096, 2020-11-09 |
+| Racial passives | skills.csv values | 2019-03-11 rework, 2021-03-15 adjustments, 2022-11-14 Robustness 90 |
+| Class Mastery | 5 passives per class, 2 points, hidden while subclassing | 194, 2026-06-08 |
 
 ## Settled by fixtures
 

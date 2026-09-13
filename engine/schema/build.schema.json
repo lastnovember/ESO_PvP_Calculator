@@ -19,6 +19,11 @@
       "items": { "$ref": "#/definitions/classSkillLine" }
     },
 
+    "classMastery": {
+      "description": "Class Mastery passives purchased (Update 50). Two Class Mastery Points exist, so at most two names. Only applies when classSkillLines are the native lines of 'class' (the game hides the line while subclassing).",
+      "type": "array", "maxItems": 2, "uniqueItems": true, "items": { "type": "string" }, "default": []
+    },
+
     "attributes": {
       "type": "object", "additionalProperties": false,
       "required": ["health", "magicka", "stamina"],

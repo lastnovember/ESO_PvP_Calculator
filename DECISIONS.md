@@ -10,7 +10,7 @@ Short record of modelling choices. One line each, newest at the bottom.
 
 ## Data
 
-- `data/patch-notes/html` is missing from the repository (only the manifest is present) and the build environment has no network. Patch notes could not be consulted. Wherever a patch note would have decided a value, UNKNOWNS.md says so.
+- Patch notes (`data/patch-notes/html`) were searched for every constant. Where they hold a value, the newest note wins and constants.json cites it by manifest number and date. Where UESP and a note disagree (armor Infused 20% vs 25%) the note wins. Base character numbers never appear in console notes and stay unverified.
 - UESP tables are treated as the truth for anything they hold. Community values fill the gaps and are flagged `verified: false`.
 - Set piece count comes from the bonus column index in sets.csv: `bonus_N` is the N piece bonus. Monster sets are `bonus_1` and `bonus_2`, mythics `bonus_1`, arena weapons `bonus_2`, 12 piece sets up to `bonus_12`.
 - Perfected sets are separate set names in sets.csv ("Perfected Saxhleel Champion"), so the build references the perfected name instead of carrying a flag.
@@ -20,7 +20,8 @@ Short record of modelling choices. One line each, newest at the bottom.
 - Attribute points must sum to 64. The engine reports an error otherwise but still computes.
 - Champion Points on: every non slottable star at max rank, four slottable stars per constellation at max rank. Off: nothing at all. Slottable stars are the "Active Perks" and "Base Active Perks" rows of the UESP Champion tables.
 - All passives the character has access to are assumed purchased at max rank (`passives.mode: "all"`), with an exclusion list. Access: the three class lines (subclassing supported via `classSkillLines`), racial line, all three armor lines, all six weapon lines, Fighters Guild, Mages Guild, Psijic Order, Undaunted, Assault, Support, Soul Magic, Vampire (stage above 0), Werewolf (flag). Legerdemain, Dark Brotherhood, Thieves Guild, Scrying, Excavation and crafting lines have no sheet effects and are ignored.
-- Class Mastery passives (Update 50) are attached to their class and default on. See UNKNOWNS.md.
+- Class Mastery (Update 50, note 194): each class has five passives, two Class Mastery Points exist, and the line is hidden while subclassing. The build lists up to two purchased passives in `classMastery`; the engine ignores them when `classSkillLines` are not the native lines.
+- Effects that state a lower value "against targets with Battle Spirit" (Above and Beyond, Feral Cruelty) keep both values. The sheet shows the unreduced value (STRATEGIES.battleSpiritTargetValues = sheet); pvpTarget applies the reduced value when Battle Spirit is on.
 - Weapon line passives that say "with X equipped" apply per bar based on that bar's weapons. Armor passives count pieces across the seven armor slots; the shield does not count as armor for piece counts.
 - A two handed weapon counts as two pieces of its set and only on the bar it is equipped on. One handed weapons and shields count as one piece on their bar.
 - At most one mythic item. Monster sets only on head and shoulders. Arena weapon sets only on weapons.
