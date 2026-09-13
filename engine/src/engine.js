@@ -71,6 +71,10 @@ export const STRATEGIES = {
   // Precise trait. 'rating': percent * critRatingPerPercent (default).
   // 'percent': added as a percent.
   preciseTrait: ['rating', 'percent'],
+  // Effects that state a different value "against targets with Battle Spirit".
+  // 'sheet': the sheet shows the unreduced value (default).
+  // 'pvpTarget': use the reduced value whenever build.battleSpirit is on.
+  battleSpiritTargetValues: ['sheet', 'pvpTarget'],
 };
 
 export const DEFAULT_STRATEGIES = Object.fromEntries(
@@ -80,6 +84,7 @@ export const DEFAULT_STRATEGIES = Object.fromEntries(
 // Stats that share one bucket under an alias.
 const STAT_ALIASES = {
   weaponAndSpellDamage: ['weaponDamage', 'spellDamage'],
+  critRating: ['weaponCritRating', 'spellCritRating'],
   armor: ['physicalResistance', 'spellResistance'],
   physicalAndSpellResistance: ['physicalResistance', 'spellResistance'],
   offensivePenetration: ['physicalPenetration', 'spellPenetration'],
@@ -122,10 +127,11 @@ function stripSetName(name) {
 }
 
 class Bucket {
-  constructor() { this.flat = 0; this.percent = 0; this.rows = []; }
+  constructor() { this.flat = 0; this.percent = 0; this.rows = []; this.override = null; }
   add(kind, value, source) {
     if (kind === 'flat') this.flat += value;
     else if (kind === 'percent') this.percent += value;
+    else if (kind === 'set') this.override = value;
     this.rows.push({ source, kind, value });
   }
 }
@@ -147,6 +153,7 @@ class Accumulator {
     for (const e of effects) this.add(e.stat, e.kind, e.value, `${source} (${name})`);
   }
   flat(stat) { return this.buckets.has(stat) ? this.buckets.get(stat).flat : 0; }
+  override(stat) { return this.buckets.has(stat) ? this.buckets.get(stat).override : null; }
   pct(stat) { return this.buckets.has(stat) ? this.buckets.get(stat).percent : 0; }
   rows(stat) { return this.buckets.has(stat) ? this.buckets.get(stat).rows : []; }
 }
@@ -205,7 +212,11 @@ export function validateBuild(build, data) {
       if (meta.monster && !(slot === 'head' || slot === 'shoulders')) errors.push(`${name} is a monster set and cannot go on ${slot}`);
       if (meta.weaponSet && cat !== 'weapon') errors.push(`${name} is a weapon set and cannot go on ${slot}`);
       if (meta.settype === 'Jewelry' && cat !== 'jewelry') errors.push(`${name} is jewelry only and cannot go on ${slot}`);
-      if (meta.mythic && meta.mythicSlot && meta.mythicSlot !== cat && meta.mythicSlot !== slot) errors.push(`${name} goes on ${meta.mythicSlot}, not ${slot}`);
+      if (meta.mythic && meta.mythicSlot) {
+        const ms = meta.mythicSlot;
+        const ok = ms === slot || ms === cat || (ms === 'ring' && /^ring/.test(slot)) || (ms === 'weapon' && cat === 'weapon');
+        if (!ok) errors.push(`${name} goes on ${ms}, not ${slot}`);
+      }
     }
   }
   if (mythics.size > 1) errors.push(`more than one mythic equipped: ${[...mythics].join(', ')}`);
@@ -248,8 +259,9 @@ export function countSetPieces(build) {
 
 // ------------------------------------------------------------ context per bar
 
-function barContext(build, barIndex) {
+function barContext(build, barIndex, strategies) {
   const bar = build.bars[barIndex];
+  const pieces = countSetPieces(build).perBar[barIndex];
   const armor = { light: 0, medium: 0, heavy: 0 };
   for (const slot of ARMOR_SLOTS) {
     const it = build.gear[slot];
@@ -276,6 +288,8 @@ function barContext(build, barIndex) {
     werewolf: !!build.werewolf,
     werewolfForm: !!build.werewolfForm,
     frostStaff: !!(mh && mh.type === 'ice staff'),
+    strategies,
+    setsWithPieces: (min) => Object.values(pieces).filter((p) => p.total >= min).length,
   };
   return ctx;
 }
@@ -285,7 +299,18 @@ function barContext(build, barIndex) {
 function evaluateCondition(cond, ctx, data) {
   if (!cond) return 1;
   switch (cond.type) {
-    case 'battleSpirit': return (!!cond.active) === ctx.battleSpirit ? 1 : 0;
+    case 'all': {
+      let m = 1;
+      for (const c of cond.of) { const r = evaluateCondition(c, ctx, data); if (r === null) return null; m *= r; if (m === 0) return 0; }
+      return m;
+    }
+    case 'battleSpirit': {
+      if (cond.scope === 'target' && ctx.strategies.battleSpiritTargetValues === 'sheet') return cond.active ? 0 : 1;
+      return (!!cond.active) === ctx.battleSpirit ? 1 : 0;
+    }
+    case 'setsWithPieces': return ctx.setsWithPieces(cond.min);
+    case 'outOfCombat': return 1;
+    case 'perStage': return 1;
     case 'slotted': {
       if (cond.ability) return ctx.slotted.has(cond.ability) ? 1 : 0;
       if (cond.line) {
@@ -316,7 +341,7 @@ function evaluateCondition(cond, ctx, data) {
 
 function applyEffects(acc, effects, ctx, data, source, strategies) {
   for (const e of effects || []) {
-    if (!e || e.kind === 'proc' || e.kind === 'unparsed') { acc.dropped.push({ source, reason: e ? e.kind : 'empty' }); continue; }
+    if (!e || e.kind === 'proc' || e.kind === 'unparsed') { acc.dropped.push({ source, reason: e ? e.kind : 'empty', raw: e && e.raw }); continue; }
     if (e.buff) {
       const buff = data.effects.buffs[e.buff];
       if (!buff) { acc.dropped.push({ source, reason: `unknown buff ${e.buff}` }); continue; }
@@ -348,7 +373,8 @@ function activePassives(build, data) {
   for (const [name, p] of Object.entries(data.effects.skills.passives)) {
     if (!lines.has(p.line)) continue;
     if (p.class && p.class !== build.class && !(build.classSkillLines || []).some((l) => CLASS_LINES[p.class] && CLASS_LINES[p.class].includes(l))) continue;
-    const on = mode === 'all' ? !exclude.has(name) : include.has(name);
+    const names = [name, ...(p.aliases || [])];
+    const on = mode === 'all' ? !names.some((n) => exclude.has(n)) : names.some((n) => include.has(n));
     if (on) out.push([name, p]);
   }
   return out;
@@ -356,7 +382,7 @@ function activePassives(build, data) {
 
 function collect(build, data, barIndex, strategies) {
   const C = data.constants; const E = data.effects;
-  const ctx = barContext(build, barIndex);
+  const ctx = barContext(build, barIndex, strategies);
   const acc = new Accumulator();
   const notes = [];
 
@@ -538,8 +564,9 @@ function computeBar(build, data, barIndex, strategies) {
   const weaponDamage = (v(B.weaponDamage) + acc.flat('weaponDamage') + offHandFlat) * (1 + acc.pct('weaponDamage') / 100);
   const spellDamage = (v(B.spellDamage) + acc.flat('spellDamage') + offHandFlat) * (1 + acc.pct('spellDamage') / 100);
 
-  const critRating = acc.flat('critRating');
-  const critChance = v(B.critChancePercent) + critRating / v(B.critRatingPerPercent) + acc.pct('critChancePercent');
+  const critOf = (stat) => v(B.critChancePercent) + acc.flat(stat) / v(B.critRatingPerPercent) + acc.pct('critChancePercent');
+  const weaponCritChance = critOf('weaponCritRating');
+  const spellCritChance = critOf('spellCritRating');
   const critCap = v(B.critDamageCapPercent) + acc.flat('critDamageCap');
   const critDamage = Math.min(v(B.critDamagePercent) + acc.pct('critDamage') + acc.flat('critDamage'), critCap);
 
@@ -561,9 +588,10 @@ function computeBar(build, data, barIndex, strategies) {
   const sprintCost = cost('sprintCost', B.sprintCostPerSecond);
   const breakFreeCost = cost('breakFreeCost', B.breakFreeCost);
   const bashCost = cost('bashCost', B.bashCost);
-  const blockMitigation = strategies.blockMitigation === 'additive'
+  let blockMitigation = strategies.blockMitigation === 'additive'
     ? v(B.blockMitigationPercent) + acc.pct('blockMitigation')
     : v(B.blockMitigationPercent) * (1 + acc.pct('blockMitigation') / 100);
+  if (acc.override('blockMitigation') != null) blockMitigation = acc.override('blockMitigation');
 
   const movementSpeed = Math.min(v(B.movementSpeedPercent) + acc.pct('movementSpeed'), v(B.movementSpeedCapPercent));
   const sprintSpeed = Math.min(v(B.sprintSpeedPercent) + acc.pct('movementSpeed') + acc.pct('sprintSpeed'), v(B.movementSpeedCapPercent));
@@ -583,12 +611,13 @@ function computeBar(build, data, barIndex, strategies) {
     maxHealth: Math.round(maxHealth), maxMagicka: Math.round(maxMagicka), maxStamina: Math.round(maxStamina),
     healthRecovery: Math.round(healthRecovery), magickaRecovery: Math.round(magickaRecovery), staminaRecovery: Math.round(staminaRecovery),
     weaponDamage: Math.round(weaponDamage), spellDamage: Math.round(spellDamage),
-    critChance: round1(critChance), critDamage: round1(critDamage),
+    weaponCritChance: round1(weaponCritChance), spellCritChance: round1(spellCritChance), critDamage: round1(critDamage),
     physicalPenetration: Math.round(physicalPenetration), spellPenetration: Math.round(spellPenetration),
     physicalResistance: Math.round(physicalResistance), spellResistance: Math.round(spellResistance),
   };
   const advanced = {
-    critChancePercent: round1(critChance),
+    weaponCritChancePercent: round1(weaponCritChance),
+    spellCritChancePercent: round1(spellCritChance),
     critDamagePercent: round1(critDamage),
     critResistance: Math.round(acc.flat('critResistance')),
     physicalPenetration: main.physicalPenetration,

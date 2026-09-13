@@ -63,7 +63,8 @@ test('naked character: base values plus attribute points', () => {
   assert.equal(m.maxStamina, B.maxStamina.value + 64 * constants.attributePoints.staminaPerPoint.value);
   assert.equal(m.maxHealth, B.maxHealth.value);
   assert.equal(m.weaponDamage, B.weaponDamage.value);
-  assert.equal(m.critChance, B.critChancePercent.value);
+  assert.equal(m.weaponCritChance, B.critChancePercent.value);
+  assert.equal(m.spellCritChance, B.critChancePercent.value);
   assert.equal(m.physicalResistance, 0);
   assert.equal(r.bars[0].advanced.blockCost, B.blockCost.value);
   assert.equal(r.bars[0].advanced.movementSpeedPercent, 100);
