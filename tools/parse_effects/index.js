@@ -64,7 +64,7 @@ const MYTHIC_SLOT_WORDS = [
   [/\b(vestments|embrace|cuirass|cladding|robe|jerkin|hauberk)\b/i, 'chest'], [/\b(gaze|visage|helm|mask|crown|hood|hat)\b/i, 'head'],
   [/\b(spaulder|whispers|pauldron|shoulder)\b/i, 'shoulders'],
 ];
-const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s Fete': 'necklace', 'The Saint and the Seducer': 'chest', 'Faun\'s Lark Cladding': 'chest', 'Shapeshifter\'s Chain': 'necklace', 'Syrabane\'s Ward': 'shoulders', 'Esoteric Environment Greaves': 'legs' };
+const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s Fete': 'necklace', 'The Saint and the Seducer': 'chest', 'Faun\'s Lark Cladding': 'chest', 'Shapeshifter\'s Chain': 'necklace', 'Syrabane\'s Ward': 'shoulders', 'Esoteric Environment Greaves': 'legs', "Huntsman's Warmask": 'head', "The Shadow Queen's Cowl": 'head', "Prowler's Talisman": 'necklace', 'Shattered Paths Signet': 'ring', 'Monomyth Reforged': 'ring' };
 
 function buildSets() {
   const rows = csvObjects(readFileSync(join(REF, 'sets.csv'), 'utf8'));

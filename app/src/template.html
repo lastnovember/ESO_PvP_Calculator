@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ESO Sheet</title>
+<style>
+:root {
+  --bg: #12141a; --card: #1b1e27; --card2: #232733; --line: #2f3442; --text: #e6e8ee; --muted: #9aa1b3;
+  --accent: #d7b46a; --accent2: #7fb7ff; --bad: #ff7b7b; --good: #8ddc9a; --warn: #ffcf7a;
+  --radius: 10px; --pad: 12px; --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font); font-size: 15px; line-height: 1.35; }
+body { padding: 0 16px 80px; }
+a { color: var(--accent2); }
+h1 { font-size: 20px; margin: 14px 0 4px; }
+h2 { font-size: 16px; margin: 0; }
+h3 { font-size: 14px; margin: 12px 0 6px; color: var(--accent); text-transform: uppercase; letter-spacing: .04em; }
+.sub { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+.wrap { max-width: 1100px; margin: 0 auto; }
+.grid { display: grid; gap: 12px; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } .grid .span2 { grid-column: 1 / -1; } }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--pad); }
+.card > summary, details.card > summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+details.card > summary::-webkit-details-marker { display: none; }
+details.card > summary::after { content: "▸"; color: var(--muted); transition: transform .15s; }
+details.card[open] > summary::after { transform: rotate(90deg); }
+details.card > summary .hint { color: var(--muted); font-size: 12px; font-weight: normal; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+.row > * { min-width: 0; }
+label.f { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--muted); flex: 1 1 140px; }
+label.f > span { display: flex; justify-content: space-between; }
+input, select, button, textarea { font: inherit; color: var(--text); background: var(--card2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; min-height: 40px; }
+input[type=checkbox] { min-height: 0; width: 20px; height: 20px; accent-color: var(--accent); }
+input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent2); outline-offset: -1px; }
+button { cursor: pointer; background: var(--card2); }
+button.primary { background: var(--accent); color: #1a1405; border-color: var(--accent); font-weight: 600; }
+button.small { padding: 4px 10px; min-height: 32px; font-size: 13px; }
+button.danger { color: var(--bad); }
+.toggle { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--card2); min-height: 40px; }
+.toggle input { margin: 0; }
+.num { display: inline-flex; align-items: stretch; }
+.num button { border-radius: 8px 0 0 8px; width: 40px; padding: 0; }
+.num button:last-child { border-radius: 0 8px 8px 0; }
+.num input { width: 64px; text-align: center; border-radius: 0; border-left: 0; border-right: 0; }
+.combo { position: relative; }
+.combo input { width: 100%; }
+.combo .list { position: absolute; z-index: 30; left: 0; right: 0; top: 100%; max-height: 260px; overflow: auto; background: var(--card2); border: 1px solid var(--accent2); border-radius: 8px; margin-top: 2px; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+.combo .list div { padding: 8px 10px; cursor: pointer; border-bottom: 1px solid var(--line); }
+.combo .list div.hd { color: var(--accent); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; background: var(--card); cursor: default; }
+.combo .list div.sel, .combo .list div:not(.hd):hover { background: #2c3242; }
+.combo .list div small { color: var(--muted); }
+.combo.empty input { color: var(--muted); }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 6px 6px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+th { color: var(--muted); font-weight: 500; font-size: 12px; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+tr.stat { cursor: pointer; }
+tr.stat:hover td { background: #222736; }
+tr.diff td.n.b2 { color: var(--accent2); }
+.tabs { display: flex; gap: 6px; margin: 6px 0 10px; }
+.tabs button { flex: 1; }
+.tabs button.on { background: var(--accent); color: #1a1405; border-color: var(--accent); font-weight: 600; }
+.msg { padding: 8px 10px; border-radius: 8px; margin: 6px 0; font-size: 13px; }
+.msg.err { background: #3a1d1d; color: var(--bad); }
+.msg.warn { background: #3a2f1d; color: var(--warn); }
+.msg.ok { background: #1d3a24; color: var(--good); }
+.slot { border: 1px solid var(--line); border-radius: 8px; padding: 8px; margin: 6px 0; background: #191c25; }
+.slot .name { font-weight: 600; color: var(--accent); font-size: 13px; margin-bottom: 4px; display: flex; justify-content: space-between; }
+.slot .name small { color: var(--muted); font-weight: normal; }
+.slot .row label.f { flex: 1 1 120px; }
+.pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: var(--card2); border: 1px solid var(--line); font-size: 12px; color: var(--muted); margin: 2px 2px 2px 0; }
+.pill.ok { color: var(--good); border-color: #2e5b3a; }
+.pill.bad { color: var(--bad); border-color: #6a2e2e; }
+.checks { display: flex; flex-wrap: wrap; gap: 6px; }
+.checks label { display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--card2); font-size: 13px; }
+.breakdown { background: #0f1117; border: 1px solid var(--line); border-radius: 8px; padding: 8px; margin: 6px 0; font-size: 13px; }
+.breakdown div { display: flex; justify-content: space-between; gap: 8px; padding: 2px 0; border-bottom: 1px dotted var(--line); }
+.breakdown div span:last-child { font-variant-numeric: tabular-nums; }
+textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospace; font-size: 12px; }
+.topbar { position: sticky; top: 0; z-index: 20; background: var(--bg); padding: 8px 0; border-bottom: 1px solid var(--line); margin-bottom: 10px; }
+.topbar .row { margin: 0; }
+.topbar input.name { flex: 1 1 160px; }
+.fine { font-size: 12px; color: var(--muted); }
+.hidden { display: none !important; }
+.stickyres { position: fixed; left: 0; right: 0; bottom: 0; background: #0f1117; border-top: 1px solid var(--line); padding: 8px 16px; font-size: 13px; display: flex; gap: 12px; overflow-x: auto; white-space: nowrap; z-index: 20; }
+.stickyres b { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="row">
+      <input class="name" id="buildName" placeholder="Build name">
+      <button class="primary" id="saveBtn">Save</button>
+      <select id="loadSel" title="Load a saved build"><option value="">Load…</option></select>
+      <button id="exportBtn">Export</button>
+      <button id="importBtn">Import</button>
+      <button class="danger" id="resetBtn">Reset</button>
+    </div>
+  </div>
+
+  <h1>ESO character sheet calculator</h1>
+  <div class="sub">Level 50, CP160, gold quality. Phase 1: character sheet only. Data built __BUILD_DATE__. Values marked unverified in UNKNOWNS.md are still pending a fixture.</div>
+
+  <div id="validation"></div>
+
+  <div class="grid">
+    <details class="card" open>
+      <summary><h2>Character</h2><span class="hint" id="charHint"></span></summary>
+      <div class="row">
+        <label class="f"><span>Race</span><div class="combo" id="race"></div></label>
+        <label class="f"><span>Class</span><div class="combo" id="class"></div></label>
+      </div>
+      <h3>Class skill lines (subclassing)</h3>
+      <div class="row" id="classLines"></div>
+      <h3>Class Mastery <span class="fine">(2 points, native lines only)</span></h3>
+      <div class="row" id="classMastery"></div>
+      <h3>Attributes <span class="fine" id="attrLeft"></span></h3>
+      <div class="row" id="attributes"></div>
+      <h3>Champion Points</h3>
+      <div class="row"><label class="toggle"><input type="checkbox" id="cpEnabled"> Champion Points on (every passive star at max rank)</label></div>
+      <div id="cpSlots"></div>
+    </details>
+
+    <details class="card" open>
+      <summary><h2>Buffs and state</h2><span class="hint" id="buffHint"></span></summary>
+      <div class="row">
+        <label class="f"><span>Mundus stone</span><div class="combo" id="mundus"></div></label>
+        <label class="f"><span>Food or drink</span><div class="combo" id="food"></div></label>
+      </div>
+      <div id="customFood" class="row hidden"></div>
+      <div class="row">
+        <label class="f"><span>Vampire stage</span><select id="vampireStage"><option value="0">Not a vampire</option><option value="1">Stage 1</option><option value="2">Stage 2</option><option value="3">Stage 3</option><option value="4">Stage 4</option></select></label>
+        <label class="toggle"><input type="checkbox" id="werewolf"> Werewolf</label>
+        <label class="toggle" id="wwFormWrap"><input type="checkbox" id="werewolfForm"> In werewolf form</label>
+      </div>
+      <div class="row">
+        <label class="toggle"><input type="checkbox" id="battleSpirit"> Battle Spirit (standing in a PvP zone)</label>
+        <label class="toggle" title="Unverified legacy bonus, see UNKNOWNS.md"><input type="checkbox" id="bsFlatHealth"> +5000 Health under Battle Spirit (unverified)</label>
+      </div>
+      <h3>Passives</h3>
+      <div class="fine">Every passive of every available line is assumed purchased at max rank. Untick any you do not have.</div>
+      <details><summary class="fine">Exclude passives…</summary><div id="passiveExclude" class="checks"></div></details>
+    </details>
+
+    <details class="card span2" open>
+      <summary><h2>Gear</h2><span class="hint" id="gearHint"></span></summary>
+      <details><summary class="fine">Bulk tools: fill a set, apply a trait, weight or enchant to many slots</summary>
+        <div class="row">
+          <label class="f"><span>Set to fill</span><div class="combo" id="bulkSet"></div></label>
+        </div>
+        <div class="row">
+          <label class="f"><span>Trait</span><div class="combo" id="bulkTrait"></div></label>
+          <label class="f"><span>Weight</span><select id="bulkWeight"><option value="">(keep)</option><option value="light">Light</option><option value="medium">Medium</option><option value="heavy">Heavy</option></select></label>
+          <label class="f"><span>Enchant</span><div class="combo" id="bulkEnchant"></div></label>
+        </div>
+        <div class="checks" id="bulkSlots"></div>
+        <div class="row"><button class="primary" id="bulkApply">Apply to checked slots</button><button id="bulkAll" class="small">Check all armor</button><button id="bulkJewelry" class="small">Check jewelry</button><button id="bulkNone" class="small">Clear checks</button></div>
+      </details>
+      <div class="grid" id="gearSlots"></div>
+      <div id="setSummary" class="row"></div>
+    </details>
+
+    <details class="card span2" open>
+      <summary><h2>Weapon bars and skills</h2><span class="hint" id="barHint"></span></summary>
+      <div class="grid" id="bars"></div>
+    </details>
+
+    <details class="card span2" open>
+      <summary><h2>Results</h2><span class="hint">tap a row for the breakdown</span></summary>
+      <div id="results"></div>
+    </details>
+
+    <details class="card span2">
+      <summary><h2>Export and import</h2></summary>
+      <div class="row"><button id="copyBtn" class="small">Copy JSON</button><button id="applyJsonBtn" class="small primary">Load JSON below</button><button id="deleteBtn" class="small danger">Delete saved build</button></div>
+      <textarea id="jsonBox" spellcheck="false"></textarea>
+    </details>
+  </div>
+</div>
+<div class="stickyres" id="sticky"></div>
+
+<script>
+/*__DATA__*/
+</script>
+<script>
+/*__ENGINE__*/
+</script>
+<script>
+(function () {
+  'use strict';
+  const E = window.ESOEngine;
+  const D = window.ESO_DATA;
+  const C = D.constants;
+  const X = D.effects;
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, attrs = {}, children = []) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === 'class') n.className = v; else if (k === 'text') n.textContent = v; else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else if (v !== null && v !== undefined) n.setAttribute(k, v);
+    }
+    for (const c of [].concat(children)) if (c !== null && c !== undefined) n.append(c.nodeType ? c : document.createTextNode(String(c)));
+    return n;
+  };
+
+  // ------------------------------------------------------------ option lists
+  const RACES = ['Argonian', 'Breton', 'Dark Elf', 'High Elf', 'Imperial', 'Khajiit', 'Nord', 'Orc', 'Redguard', 'Wood Elf'];
+  const CLASSES = Object.keys(E.CLASS_LINES);
+  const ARMOR = ['head', 'shoulders', 'chest', 'hands', 'waist', 'legs', 'feet'];
+  const JEWELRY = ['necklace', 'ring1', 'ring2'];
+  const SLOT_LABEL = { head: 'Head', shoulders: 'Shoulders', chest: 'Chest', hands: 'Hands', waist: 'Waist', legs: 'Legs', feet: 'Feet', necklace: 'Necklace', ring1: 'Ring 1', ring2: 'Ring 2', mainHand: 'Main hand', offHand: 'Off hand' };
+  const ARMOR_TRAITS = Object.keys(C.traits.armor);
+  const WEAPON_TRAITS = Object.keys(C.traits.weapon);
+  const JEWELRY_TRAITS = Object.keys(C.traits.jewelry);
+  const ARMOR_ENCHANTS = Object.keys(C.enchants.armor);
+  const JEWELRY_ENCHANTS = Object.keys(C.enchants.jewelry);
+  const WEAPON_ENCHANTS = C.enchants.weapon.names;
+  const WEAPON_TYPES = ['axe', 'mace', 'sword', 'dagger', 'greatsword', 'battle axe', 'maul', 'bow', 'inferno staff', 'lightning staff', 'ice staff', 'restoration staff'];
+  const MUNDUS = Object.keys(C.mundus.stones);
+  const FOODS = C.foods.items;
+  const SETS = Object.values(X.sets).sort((a, b) => a.name.localeCompare(b.name));
+  const STARS = C.championPoints.stars.filter((s) => s.slottable);
+  const STORE_KEY = 'esoSheetBuilds';
+
+  const setCategories = (meta) => {
+    if (meta.monster) return { slots: ['head', 'shoulders'] };
+    if (meta.weaponSet) return { cats: ['weapon'] };
+    if (meta.mythic) return meta.mythicSlot === 'ring' ? { slots: ['ring1', 'ring2'] } : meta.mythicSlot === 'jewelry' ? { cats: ['jewelry'] } : meta.mythicSlot ? { slots: [meta.mythicSlot] } : { cats: ['armor', 'jewelry', 'weapon'] };
+    if (meta.settype === 'Three Piece' || meta.settype === 'Jewelry') return { cats: ['jewelry', 'weapon'] };
+    return { cats: ['armor', 'jewelry', 'weapon'] };
+  };
+  const setAllowedOn = (meta, slot) => {
+    const cat = ARMOR.includes(slot) ? 'armor' : JEWELRY.includes(slot) ? 'jewelry' : 'weapon';
+    const c = setCategories(meta);
+    if (c.slots) return c.slots.includes(slot);
+    return c.cats.includes(cat);
+  };
+  const setLabel = (meta) => `${meta.name}${meta.mythic ? ' (mythic)' : meta.monster ? ' (monster)' : meta.weaponSet ? ' (arena weapon)' : ''}`;
+
+  // ------------------------------------------------------------ state
+  const defaultBuild = () => ({
+    schemaVersion: 1, name: '', race: 'Nord', class: 'Dragonknight', classSkillLines: [...E.CLASS_LINES.Dragonknight], classMastery: [],
+    attributes: { health: 0, magicka: 0, stamina: 64 },
+    championPoints: { enabled: true, slotted: { warfare: [], fitness: [], craft: [] } },
+    mundus: null, food: null, vampireStage: 0, werewolf: false, werewolfForm: false, battleSpirit: false,
+    passives: { mode: 'all', exclude: [] },
+    gear: Object.fromEntries([...ARMOR.map((s) => [s, { set: null, weight: 'medium', trait: null, enchant: null }]), ...JEWELRY.map((s) => [s, { set: null, trait: null, enchant: null }])]),
+    bars: [{ mainHand: null, offHand: null, skills: [], ultimate: null }, { mainHand: null, offHand: null, skills: [], ultimate: null }],
+    flags: { battleSpiritFlatHealth: false, strategies: {} },
+  });
+  let build = defaultBuild();
+  let result = null;
+  let resultTab = 0;
+  let openBreakdown = null;
+
+  // ------------------------------------------------------------ combo box
+  // options: [{value, label, group, search}] ; onPick(value)
+  function combo(host, opts, value, onPick, placeholder = 'Type to search…') {
+    host.innerHTML = '';
+    const input = el('input', { type: 'text', placeholder, autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
+    const list = el('div', { class: 'list hidden' });
+    host.append(input, list);
+    host.classList.toggle('empty', !value);
+    const byValue = new Map(opts.map((o) => [o.value, o]));
+    input.value = value != null && byValue.has(value) ? byValue.get(value).label : (value || '');
+    let sel = -1; let shown = [];
+    const render = (q) => {
+      const needle = (q || '').toLowerCase().trim();
+      shown = opts.filter((o) => !needle || (o.search || o.label).toLowerCase().includes(needle)).slice(0, 80);
+      list.innerHTML = '';
+      let lastGroup = null;
+      if (value) list.append(el('div', { text: '(clear)', onclick: () => pick(null) }));
+      for (const o of shown) {
+        if (o.group && o.group !== lastGroup) { list.append(el('div', { class: 'hd', text: o.group })); lastGroup = o.group; }
+        const d = el('div', { onmousedown: (ev) => { ev.preventDefault(); pick(o.value); } }, [o.label]);
+        if (o.note) d.append(' ', el('small', { text: o.note }));
+        list.append(d);
+      }
+      if (!shown.length) list.append(el('div', { class: 'hd', text: 'no match' }));
+      list.classList.remove('hidden'); sel = -1;
+    };
+    const pick = (v) => { value = v; input.value = v != null && byValue.has(v) ? byValue.get(v).label : ''; list.classList.add('hidden'); host.classList.toggle('empty', !value); onPick(v); };
+    input.addEventListener('focus', () => { input.select(); render(''); });
+    input.addEventListener('input', () => render(input.value));
+    input.addEventListener('blur', () => { setTimeout(() => { list.classList.add('hidden'); input.value = value != null && byValue.has(value) ? byValue.get(value).label : ''; }, 120); });
+    input.addEventListener('keydown', (ev) => {
+      const items = [...list.querySelectorAll('div:not(.hd)')];
+      if (ev.key === 'ArrowDown') { sel = Math.min(sel + 1, items.length - 1); items.forEach((d, i) => d.classList.toggle('sel', i === sel)); ev.preventDefault(); }
+      else if (ev.key === 'ArrowUp') { sel = Math.max(sel - 1, 0); items.forEach((d, i) => d.classList.toggle('sel', i === sel)); ev.preventDefault(); }
+      else if (ev.key === 'Enter') { const target = sel >= 0 ? items[sel] : items.find((d) => d.textContent !== '(clear)'); if (target) target.dispatchEvent(new MouseEvent('mousedown')); ev.preventDefault(); }
+      else if (ev.key === 'Escape') input.blur();
+    });
+    return { set: (v) => pick(v) };
+  }
+  const numField = (val, onChange, min = 0, max = 64) => {
+    const box = el('div', { class: 'num' });
+    const input = el('input', { type: 'number', min, max, value: val, inputmode: 'numeric' });
+    const clamp = (n) => Math.max(min, Math.min(max, Number.isFinite(n) ? n : 0));
+    input.addEventListener('change', () => { input.value = clamp(Number(input.value)); onChange(Number(input.value)); });
+    box.append(el('button', { type: 'button', text: '−', onclick: () => { input.value = clamp(Number(input.value) - 1); onChange(Number(input.value)); } }), input, el('button', { type: 'button', text: '+', onclick: () => { input.value = clamp(Number(input.value) + 1); onChange(Number(input.value)); } }));
+    return box;
+  };
+
+  // ------------------------------------------------------------ character
+  function renderCharacter() {
+    const raceOpts = RACES.map((r) => ({ value: r, label: r }));
+    raceOpts.sort((a, b) => (a.value === build.race ? -1 : b.value === build.race ? 1 : a.label.localeCompare(b.label)));
+    combo($('race'), raceOpts, build.race, (v) => { if (v) { build.race = v; update(); } });
+    const classOpts = CLASSES.map((c) => ({ value: c, label: c }));
+    classOpts.sort((a, b) => (a.value === build.class ? -1 : b.value === build.class ? 1 : a.label.localeCompare(b.label)));
+    combo($('class'), classOpts, build.class, (v) => { if (v) { build.class = v; build.classSkillLines = [...E.CLASS_LINES[v]]; build.classMastery = []; build.bars.forEach((b) => { b.skills = b.skills.filter(abilityAvailable); if (b.ultimate && !abilityAvailable(b.ultimate)) b.ultimate = null; }); update(); } });
+    // subclass lines
+    const host = $('classLines'); host.innerHTML = '';
+    const allLines = CLASSES.flatMap((c) => E.CLASS_LINES[c].map((l) => ({ value: l, label: l, group: c })));
+    allLines.sort((a, b) => (a.group === build.class ? -1 : b.group === build.class ? 1 : 0));
+    build.classSkillLines.forEach((line, i) => {
+      const lab = el('label', { class: 'f' }, [el('span', { text: `Line ${i + 1}` })]);
+      const c = el('div', { class: 'combo' }); lab.append(c); host.append(lab);
+      combo(c, allLines, line, (v) => { if (v && !build.classSkillLines.includes(v)) { build.classSkillLines[i] = v; build.bars.forEach((b) => { b.skills = b.skills.filter(abilityAvailable); }); update(); } });
+    });
+    // class mastery
+    const cm = $('classMastery'); cm.innerHTML = '';
+    const native = E.CLASS_LINES[build.class];
+    const subclassing = build.classSkillLines.some((l) => !native.includes(l));
+    if (subclassing) cm.append(el('div', { class: 'fine', text: 'Hidden while subclassing (Update 50 rule).' }));
+    else {
+      const opts = Object.values(X.skills.passives).filter((p) => p.line === 'Class Mastery' && p.class === build.class).map((p) => ({ value: p.name, label: p.name, note: p.raw.slice(0, 90) + '…' }));
+      for (let i = 0; i < 2; i += 1) {
+        const lab = el('label', { class: 'f' }, [el('span', { text: `Point ${i + 1}` })]);
+        const c = el('div', { class: 'combo' }); lab.append(c); cm.append(lab);
+        combo(c, opts, build.classMastery[i] || null, (v) => { const arr = build.classMastery.slice(); if (v && arr.includes(v) && arr[i] !== v) return; if (v) arr[i] = v; else arr.splice(i, 1); build.classMastery = arr.filter(Boolean); update(); }, 'none');
+      }
+    }
+    // attributes
+    const at = $('attributes'); at.innerHTML = '';
+    for (const k of ['health', 'magicka', 'stamina']) {
+      const lab = el('label', { class: 'f' }, [el('span', { text: k[0].toUpperCase() + k.slice(1) })]);
+      lab.append(numField(build.attributes[k], (n) => { build.attributes[k] = n; update(); }));
+      at.append(lab);
+    }
+    const sum = build.attributes.health + build.attributes.magicka + build.attributes.stamina;
+    $('attrLeft').textContent = `${sum} of 64 spent${sum !== 64 ? ` (${64 - sum} left)` : ''}`;
+    $('attrLeft').style.color = sum === 64 ? '' : 'var(--warn)';
+    // CP
+    $('cpEnabled').checked = !!build.championPoints.enabled;
+    const cp = $('cpSlots'); cp.innerHTML = '';
+    if (build.championPoints.enabled) {
+      for (const con of ['warfare', 'fitness', 'craft']) {
+        const opts = STARS.filter((s) => s.constellation === con).map((s) => ({ value: s.name, label: s.name, note: s.effect.slice(0, 80) }));
+        const row = el('div', { class: 'row' }, [el('span', { class: 'fine', text: con[0].toUpperCase() + con.slice(1), style: 'flex:0 0 70px' })]);
+        for (let i = 0; i < 4; i += 1) {
+          const c = el('div', { class: 'combo', style: 'flex:1 1 150px' }); row.append(c);
+          const cur = build.championPoints.slotted[con] || [];
+          combo(c, opts, cur[i] || null, (v) => { const arr = (build.championPoints.slotted[con] || []).slice(); if (v && arr.includes(v) && arr[i] !== v) return; if (v) arr[i] = v; else arr.splice(i, 1); build.championPoints.slotted[con] = arr.filter(Boolean); update(); }, `slot ${i + 1}`);
+        }
+        cp.append(row);
+      }
+    }
+    $('charHint').textContent = `${build.race} ${build.class}`;
+  }
+
+  // ------------------------------------------------------------ buffs
+  function renderBuffs() {
+    combo($('mundus'), MUNDUS.map((m) => ({ value: m, label: m, note: C.mundus.stones[m].effect })), build.mundus, (v) => { build.mundus = v; update(); }, 'none');
+    const foodOpts = [{ value: '__custom', label: 'Custom (type the tooltip values)', group: 'Custom' }, ...FOODS.map((f) => ({ value: f.id, label: f.name, group: f.kind === 'drink' ? 'Drinks' : 'Food', note: Object.entries(f.stats).map(([k, v]) => `${v} ${k.replace('max', '').replace('Recovery', ' rec')}`).join(', ') + (f.verified ? '' : ' (unverified)') }))];
+    const foodVal = build.food && typeof build.food === 'object' ? '__custom' : build.food;
+    combo($('food'), foodOpts, foodVal, (v) => { build.food = v === '__custom' ? { name: 'custom', maxHealth: 0, maxMagicka: 0, maxStamina: 0, healthRecovery: 0, magickaRecovery: 0, staminaRecovery: 0 } : v; update(); }, 'none');
+    const cf = $('customFood'); cf.innerHTML = '';
+    if (build.food && typeof build.food === 'object') {
+      cf.classList.remove('hidden');
+      for (const k of ['maxHealth', 'maxMagicka', 'maxStamina', 'healthRecovery', 'magickaRecovery', 'staminaRecovery']) {
+        const lab = el('label', { class: 'f' }, [el('span', { text: k.replace(/([A-Z])/g, ' $1').toLowerCase() })]);
+        const inp = el('input', { type: 'number', value: build.food[k] || 0, inputmode: 'numeric' });
+        inp.addEventListener('change', () => { build.food[k] = Number(inp.value) || 0; update(); });
+        lab.append(inp); cf.append(lab);
+      }
+    } else cf.classList.add('hidden');
+    $('vampireStage').value = String(build.vampireStage || 0);
+    $('werewolf').checked = !!build.werewolf;
+    $('wwFormWrap').classList.toggle('hidden', !build.werewolf);
+    $('werewolfForm').checked = !!build.werewolfForm;
+    $('battleSpirit').checked = !!build.battleSpirit;
+    $('bsFlatHealth').checked = !!(build.flags && build.flags.battleSpiritFlatHealth);
+    // passive exclusion list
+    const pe = $('passiveExclude'); pe.innerHTML = '';
+    const lines = availableLines();
+    const ex = new Set(build.passives.exclude || []);
+    const passives = Object.values(X.skills.passives).filter((p) => lines.has(p.line) && p.line !== 'Class Mastery').sort((a, b) => a.line.localeCompare(b.line) || a.name.localeCompare(b.name));
+    for (const p of passives) {
+      const cb = el('input', { type: 'checkbox' }); cb.checked = !ex.has(p.name);
+      cb.addEventListener('change', () => { const s = new Set(build.passives.exclude || []); if (cb.checked) s.delete(p.name); else s.add(p.name); build.passives.exclude = [...s]; update(); });
+      pe.append(el('label', { title: p.raw }, [cb, `${p.line}: ${p.name}`]));
+    }
+    const parts = [];
+    if (build.mundus) parts.push(build.mundus.replace('The ', ''));
+    if (build.food) parts.push(typeof build.food === 'object' ? 'custom food' : (FOODS.find((f) => f.id === build.food) || {}).name || build.food);
+    if (build.vampireStage) parts.push(`vamp ${build.vampireStage}`);
+    if (build.werewolf) parts.push('werewolf');
+    if (build.battleSpirit) parts.push('Battle Spirit');
+    $('buffHint').textContent = parts.join(', ');
+  }
+  function availableLines() {
+    const s = new Set(['Light Armor', 'Medium Armor', 'Heavy Armor', 'Two Handed', 'One Hand and Shield', 'Dual Wield', 'Bow', 'Destruction Staff', 'Restoration Staff', 'Fighters Guild', 'Mages Guild', 'Psijic Order', 'Undaunted', 'Assault', 'Support', 'Soul Magic', build.race, ...build.classSkillLines]);
+    if (build.vampireStage > 0) s.add('Vampire');
+    if (build.werewolf) s.add('Werewolf');
+    return s;
+  }
+
+  // ------------------------------------------------------------ gear
+  function itemDefaults(slot) {
+    if (ARMOR.includes(slot)) return { set: null, weight: 'medium', trait: null, enchant: null };
+    if (JEWELRY.includes(slot)) return { set: null, trait: null, enchant: null };
+    return { set: null, type: slot === 'offHand' ? 'dagger' : 'sword', trait: null, enchant: null };
+  }
+  function setOptionsFor(slot) {
+    return SETS.filter((m) => setAllowedOn(m, slot)).map((m) => ({ value: m.name, label: setLabel(m), search: m.name, note: m.bonuses['2'] && m.bonuses['2'].raw ? m.bonuses['2'].raw.slice(0, 60) : (m.bonuses['1'] ? m.bonuses['1'].raw.slice(0, 60) : '') }));
+  }
+  function renderGear() {
+    const host = $('gearSlots'); host.innerHTML = '';
+    for (const slot of [...ARMOR, ...JEWELRY]) {
+      const item = build.gear[slot] || (build.gear[slot] = itemDefaults(slot));
+      const box = el('div', { class: 'slot' });
+      const meta = item.set ? X.sets[item.set] : null;
+      box.append(el('div', { class: 'name' }, [SLOT_LABEL[slot], el('small', { text: meta ? `${meta.settype || ''}${meta.mythic ? ' mythic' : ''}` : '' })]));
+      const row = el('div', { class: 'row' });
+      const setLab = el('label', { class: 'f', style: 'flex:2 1 200px' }, [el('span', { text: 'Set' })]);
+      const sc = el('div', { class: 'combo' }); setLab.append(sc); row.append(setLab);
+      combo(sc, setOptionsFor(slot), item.set, (v) => { item.set = v; suggestMonster(slot, v); update(); }, 'no set');
+      if (ARMOR.includes(slot)) {
+        const w = el('select'); for (const o of ['light', 'medium', 'heavy']) w.append(el('option', { value: o, text: o[0].toUpperCase() + o.slice(1) }));
+        w.value = item.weight; w.addEventListener('change', () => { item.weight = w.value; update(); });
+        row.append(el('label', { class: 'f' }, [el('span', { text: 'Weight' }), w]));
+      }
+      const traits = ARMOR.includes(slot) ? ARMOR_TRAITS : JEWELRY_TRAITS;
+      const tl = el('label', { class: 'f' }, [el('span', { text: 'Trait' })]); const tc = el('div', { class: 'combo' }); tl.append(tc); row.append(tl);
+      combo(tc, traits.map((t) => ({ value: t, label: t })), item.trait, (v) => { item.trait = v; update(); }, 'none');
+      const ench = ARMOR.includes(slot) ? ARMOR_ENCHANTS : JEWELRY_ENCHANTS;
+      const elb = el('label', { class: 'f' }, [el('span', { text: 'Enchant' })]); const ec = el('div', { class: 'combo' }); elb.append(ec); row.append(elb);
+      combo(ec, ench.map((t) => ({ value: t, label: t })), item.enchant, (v) => { item.enchant = v; update(); }, 'none');
+      box.append(row);
+      host.append(box);
+    }
+    // bulk tools
+    combo($('bulkSet'), SETS.map((m) => ({ value: m.name, label: setLabel(m), search: m.name })), bulk.set, (v) => { bulk.set = v; renderBulkChecks(); }, 'none');
+    combo($('bulkTrait'), [...ARMOR_TRAITS.map((t) => ({ value: `armor:${t}`, label: t, group: 'Armor and shield traits' })), ...JEWELRY_TRAITS.map((t) => ({ value: `jewelry:${t}`, label: t, group: 'Jewelry traits' })), ...WEAPON_TRAITS.map((t) => ({ value: `weapon:${t}`, label: t, group: 'Weapon traits' }))], bulk.trait, (v) => { bulk.trait = v; }, '(keep)');
+    combo($('bulkEnchant'), [...ARMOR_ENCHANTS.map((t) => ({ value: `armor:${t}`, label: t, group: 'Armor and shield glyphs' })), ...JEWELRY_ENCHANTS.map((t) => ({ value: `jewelry:${t}`, label: t, group: 'Jewelry glyphs' })), ...WEAPON_ENCHANTS.map((t) => ({ value: `weapon:${t}`, label: t, group: 'Weapon glyphs' }))], bulk.enchant, (v) => { bulk.enchant = v; }, '(keep)');
+    $('bulkWeight').value = bulk.weight || '';
+    renderBulkChecks();
+    renderSetSummary();
+  }
+  const bulk = { set: null, trait: null, enchant: null, weight: '', checks: new Set() };
+  const BULK_SLOTS = [...ARMOR, ...JEWELRY, 'bar1.mainHand', 'bar1.offHand', 'bar2.mainHand', 'bar2.offHand'];
+  function renderBulkChecks() {
+    const host = $('bulkSlots'); host.innerHTML = '';
+    const meta = bulk.set ? X.sets[bulk.set] : null;
+    for (const key of BULK_SLOTS) {
+      const slot = key.includes('.') ? key.split('.')[1] : key;
+      const allowed = !meta || setAllowedOn(meta, slot);
+      const cb = el('input', { type: 'checkbox' }); cb.checked = bulk.checks.has(key); cb.disabled = !allowed;
+      cb.addEventListener('change', () => { if (cb.checked) bulk.checks.add(key); else bulk.checks.delete(key); });
+      host.append(el('label', { style: allowed ? '' : 'opacity:.4' }, [cb, key.replace('bar1.', 'Bar 1 ').replace('bar2.', 'Bar 2 ').replace(/mainHand|offHand/, (m) => SLOT_LABEL[m]).replace(/^[a-z]/, (m) => m.toUpperCase())]));
+    }
+  }
+  function bulkApply() {
+    for (const key of bulk.checks) {
+      let item;
+      if (key.includes('.')) { const [b, s] = key.split('.'); const bar = build.bars[b === 'bar1' ? 0 : 1]; if (!bar[s]) bar[s] = itemDefaults(s); item = bar[s]; }
+      else { if (!build.gear[key]) build.gear[key] = itemDefaults(key); item = build.gear[key]; }
+      const slot = key.includes('.') ? key.split('.')[1] : key;
+      const cat = ARMOR.includes(slot) ? 'armor' : JEWELRY.includes(slot) ? 'jewelry' : (item.type === 'shield' ? 'armor' : 'weapon');
+      if (bulk.set) { const meta = X.sets[bulk.set]; if (setAllowedOn(meta, slot)) item.set = bulk.set; }
+      if (bulk.weight && ARMOR.includes(slot)) item.weight = bulk.weight;
+      if (bulk.trait) { const [c, t] = bulk.trait.split(':'); if (c === cat) item.trait = t; }
+      if (bulk.enchant) { const [c, t] = bulk.enchant.split(':'); if (c === cat) item.enchant = t; }
+    }
+    update();
+  }
+  function suggestMonster(slot, setName) {
+    if (!setName) return;
+    const meta = X.sets[setName];
+    if (!meta || !meta.monster) return;
+    const other = slot === 'head' ? 'shoulders' : slot === 'shoulders' ? 'head' : null;
+    if (!other) return;
+    const o = build.gear[other];
+    if (o && o.set === setName) return;
+    pendingSuggestion = { other, setName };
+  }
+  let pendingSuggestion = null;
+  function renderSetSummary() {
+    const host = $('setSummary'); host.innerHTML = '';
+    if (!result) return;
+    const counts = result.bars.map((b) => b.setCounts);
+    const names = [...new Set([...Object.keys(counts[0] || {}), ...Object.keys(counts[1] || {})])].sort();
+    for (const n of names) {
+      const meta = X.sets[n]; const a = counts[0][n] || 0; const b = counts[1][n] || 0;
+      const active = (k) => Object.keys(meta.bonuses).filter((p) => Number(p) <= k).length;
+      const txt = a === b ? `${n}: ${a}/${meta.maxPieces}` : `${n}: ${a}|${b} of ${meta.maxPieces}`;
+      host.append(el('span', { class: 'pill ' + ((a > meta.maxPieces || b > meta.maxPieces) ? 'bad' : (active(a) || active(b)) ? 'ok' : ''), text: txt, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
+    }
+    if (pendingSuggestion) {
+      const s = pendingSuggestion;
+      host.append(el('button', { class: 'small primary', text: `Also put ${s.setName} on ${SLOT_LABEL[s.other]}?`, onclick: () => { build.gear[s.other].set = s.setName; pendingSuggestion = null; update(); } }), el('button', { class: 'small', text: 'no', onclick: () => { pendingSuggestion = null; renderSetSummary(); } }));
+    }
+    $('gearHint').textContent = names.length ? names.map((n) => `${n} ${Math.max(counts[0][n] || 0, counts[1][n] || 0)}`).join(', ') : 'empty';
+  }
+
+  // ------------------------------------------------------------ bars and skills
+  function abilityAvailable(name) {
+    const a = X.skills.actives[name];
+    if (!a) return false;
+    return availableLines().has(a.line);
+  }
+  function skillOptions(ultimate) {
+    const lines = availableLines();
+    const order = { Class: 0, Weapon: 1, Armor: 2, Guild: 3, 'Alliance War': 4, World: 5 };
+    const opts = [];
+    const lineList = Object.values(X.skills.lines).filter((l) => lines.has(l.name)).sort((a, b) => {
+      const ac = a.class === build.class ? -1 : 0; const bc = b.class === build.class ? -1 : 0;
+      return (order[a.group] ?? 9) - (order[b.group] ?? 9) || ac - bc || a.name.localeCompare(b.name);
+    });
+    for (const l of lineList) {
+      for (const a of l.actives) {
+        if (!!a.ultimate !== !!ultimate) continue;
+        opts.push({ value: a.base, label: `${a.base} (unmorphed)`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base}` });
+        for (const m of a.morphs) opts.push({ value: m, label: `${a.base} › ${m}`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base} ${m}` });
+      }
+    }
+    return opts;
+  }
+  function renderBars() {
+    const host = $('bars'); host.innerHTML = '';
+    build.bars.forEach((bar, bi) => {
+      const box = el('div', { class: 'slot' });
+      box.append(el('div', { class: 'name', text: `Bar ${bi + 1}` }));
+      for (const hand of ['mainHand', 'offHand']) {
+        const twoHanded = bar.mainHand && E.TWO_HANDED.has(bar.mainHand.type);
+        if (hand === 'offHand' && twoHanded) { bar.offHand = null; continue; }
+        const row = el('div', { class: 'row' });
+        const item = bar[hand];
+        const on = el('input', { type: 'checkbox' }); on.checked = !!item;
+        on.addEventListener('change', () => { bar[hand] = on.checked ? itemDefaults(hand) : null; update(); });
+        row.append(el('label', { class: 'toggle', style: 'flex:0 0 auto' }, [on, SLOT_LABEL[hand]]));
+        if (item) {
+          const types = hand === 'offHand' ? [...WEAPON_TYPES.filter((t) => !E.TWO_HANDED.has(t)), 'shield'] : WEAPON_TYPES;
+          const ts = el('select'); for (const t of types) ts.append(el('option', { value: t, text: t }));
+          ts.value = item.type; ts.addEventListener('change', () => { item.type = ts.value; if (E.TWO_HANDED.has(item.type)) bar.offHand = null; const cat = item.type === 'shield' ? 'armor' : 'weapon'; if (item.trait && !(cat === 'armor' ? ARMOR_TRAITS : WEAPON_TRAITS).includes(item.trait)) item.trait = null; if (item.enchant && !(cat === 'armor' ? ARMOR_ENCHANTS : WEAPON_ENCHANTS).includes(item.enchant)) item.enchant = null; update(); });
+          row.append(el('label', { class: 'f' }, [el('span', { text: 'Type' }), ts]));
+          const setLab = el('label', { class: 'f', style: 'flex:2 1 180px' }, [el('span', { text: 'Set' })]); const sc = el('div', { class: 'combo' }); setLab.append(sc); row.append(setLab);
+          combo(sc, setOptionsFor(hand), item.set, (v) => { item.set = v; update(); }, 'no set');
+          const shield = item.type === 'shield';
+          const tl = el('label', { class: 'f' }, [el('span', { text: shield ? 'Trait (armor)' : 'Trait' })]); const tc = el('div', { class: 'combo' }); tl.append(tc); row.append(tl);
+          combo(tc, (shield ? ARMOR_TRAITS : WEAPON_TRAITS).map((t) => ({ value: t, label: t })), item.trait, (v) => { item.trait = v; update(); }, 'none');
+          const elb = el('label', { class: 'f' }, [el('span', { text: shield ? 'Enchant (armor)' : 'Enchant (proc, no sheet effect)' })]); const ec = el('div', { class: 'combo' }); elb.append(ec); row.append(elb);
+          combo(ec, (shield ? ARMOR_ENCHANTS : WEAPON_ENCHANTS).map((t) => ({ value: t, label: t })), item.enchant, (v) => { item.enchant = v; update(); }, 'none');
+        }
+        box.append(row);
+      }
+      box.append(el('div', { class: 'fine', text: 'Skills only matter for "while slotted" effects. Pick the final node (morph, or unmorphed).' }));
+      const skillOpts = skillOptions(false);
+      for (let i = 0; i < 5; i += 1) {
+        const row = el('div', { class: 'row' });
+        const c = el('div', { class: 'combo', style: 'flex:1' }); row.append(el('span', { class: 'fine', text: `${i + 1}`, style: 'flex:0 0 14px' }), c);
+        combo(c, skillOpts, bar.skills[i] || null, (v) => { const arr = bar.skills.slice(); if (v && arr.includes(v) && arr[i] !== v) return; if (v) arr[i] = v; else arr.splice(i, 1); bar.skills = arr.filter(Boolean); update(); }, 'empty slot');
+        box.append(row);
+      }
+      const row = el('div', { class: 'row' });
+      const c = el('div', { class: 'combo', style: 'flex:1' }); row.append(el('span', { class: 'fine', text: 'U', style: 'flex:0 0 14px' }), c);
+      combo(c, skillOptions(true), bar.ultimate, (v) => { bar.ultimate = v; update(); }, 'ultimate');
+      box.append(row);
+      host.append(box);
+    });
+    $('barHint').textContent = build.bars.map((b, i) => `Bar ${i + 1}: ${b.mainHand ? b.mainHand.type : 'empty'}${b.offHand ? ' + ' + b.offHand.type : ''}`).join(' | ');
+  }
+
+  // ------------------------------------------------------------ results
+  const MAIN_ROWS = [
+    ['Max Health', 'maxHealth'], ['Max Magicka', 'maxMagicka'], ['Max Stamina', 'maxStamina'],
+    ['Health Recovery', 'healthRecovery'], ['Magicka Recovery', 'magickaRecovery'], ['Stamina Recovery', 'staminaRecovery'],
+    ['Weapon Damage', 'weaponDamage'], ['Spell Damage', 'spellDamage'],
+    ['Weapon Critical', 'weaponCritChance', '%'], ['Spell Critical', 'spellCritChance', '%'], ['Critical Damage', 'critDamage', '%'],
+    ['Physical Penetration', 'physicalPenetration'], ['Spell Penetration', 'spellPenetration'],
+    ['Physical Resistance', 'physicalResistance'], ['Spell Resistance', 'spellResistance'],
+  ];
+  const ADV_ROWS = [
+    ['Critical Chance (weapon)', 'weaponCritChancePercent', '%', 'weaponCritRating'], ['Critical Chance (spell)', 'spellCritChancePercent', '%', 'spellCritRating'], ['Critical Damage', 'critDamagePercent', '%', 'critDamage'], ['Critical Resistance', 'critResistance', '', 'critResistance'],
+    ['Physical Penetration', 'physicalPenetration', '', 'physicalPenetration'], ['Spell Penetration', 'spellPenetration', '', 'spellPenetration'],
+    ['Physical Resistance', 'physicalResistance', '', 'physicalResistance'], ['Physical Mitigation', 'physicalMitigationPercent', '%', 'physicalResistance'],
+    ['Spell Resistance', 'spellResistance', '', 'spellResistance'], ['Spell Mitigation', 'spellMitigationPercent', '%', 'spellResistance'],
+    ['Damage Done', 'damageDonePercent', '%', 'damageDone'], ['Healing Done', 'healingDonePercent', '%', 'healingDone'], ['Healing Taken', 'healingTakenPercent', '%', 'healingTaken'], ['Damage Taken', 'damageTakenPercent', '%', 'damageTaken'], ['Damage Shield Strength', 'damageShieldStrengthPercent', '%', 'damageShieldStrength'],
+    ['Block Cost', 'blockCost', '', 'blockCost'], ['Block Mitigation', 'blockMitigationPercent', '%', 'blockMitigation'],
+    ['Roll Dodge Cost', 'rollDodgeCost', '', 'rollDodgeCost'], ['Sprint Cost (per second)', 'sprintCost', '', 'sprintCost'], ['Break Free Cost', 'breakFreeCost', '', 'breakFreeCost'], ['Bash Cost', 'bashCost', '', 'bashCost'], ['Bash Damage bonus', 'bashDamageBonus', '', 'bashDamage'],
+    ['Movement Speed', 'movementSpeedPercent', '%', 'movementSpeed'], ['Sprint Speed', 'sprintSpeedPercent', '%', 'sprintSpeed'],
+    ['Magicka Cost', 'magickaCostPercent', '%', 'magickaCost'], ['Stamina Cost', 'staminaCostPercent', '%', 'staminaCost'], ['Ultimate Cost', 'ultimateCostPercent', '%', 'ultimateCost'],
+    ['Ability range bonus (28m+)', 'abilityRangeBonusMeters', ' m', null],
+  ];
+  const BREAKDOWN_KEY = { maxHealth: 'maxHealth', maxMagicka: 'maxMagicka', maxStamina: 'maxStamina', healthRecovery: 'healthRecovery', magickaRecovery: 'magickaRecovery', staminaRecovery: 'staminaRecovery', weaponDamage: 'weaponDamage', spellDamage: 'spellDamage', weaponCritChance: 'weaponCritRating', spellCritChance: 'spellCritRating', critDamage: 'critDamage', physicalPenetration: 'physicalPenetration', spellPenetration: 'spellPenetration', physicalResistance: 'physicalResistance', spellResistance: 'spellResistance' };
+  const fmt = (v, unit) => v == null ? '-' : (unit === '%' ? `${v}%` : unit ? `${v}${unit}` : Math.round(v).toLocaleString());
+  function renderResults() {
+    const host = $('results'); host.innerHTML = '';
+    if (!result || !result.bars.length) return;
+    const table = (rows, panel) => {
+      const t = el('table');
+      t.append(el('tr', {}, [el('th', { text: panel }), el('th', { class: 'n', text: 'Bar 1' }), el('th', { class: 'n', text: 'Bar 2' })]));
+      for (const [label, key, unit, bkey] of rows) {
+        const a = result.bars[0][panel === 'Main sheet' ? 'main' : 'advanced'][key];
+        const b = result.bars[1][panel === 'Main sheet' ? 'main' : 'advanced'][key];
+        const tr = el('tr', { class: 'stat' + (a !== b ? ' diff' : '') }, [el('td', { text: label }), el('td', { class: 'n', text: fmt(a, unit) }), el('td', { class: 'n b2', text: fmt(b, unit) })]);
+        const bk = panel === 'Main sheet' ? BREAKDOWN_KEY[key] : bkey;
+        tr.addEventListener('click', () => { openBreakdown = openBreakdown === `${panel}:${key}` ? null : `${panel}:${key}`; renderResults(); });
+        t.append(tr);
+        if (openBreakdown === `${panel}:${key}`) {
+          const td = el('td', { colspan: 3 });
+          for (const [bi, bar] of result.bars.entries()) {
+            const rows2 = bk ? (bar.breakdown[bk] || []) : [];
+            const bd = el('div', { class: 'breakdown' }, [el('div', {}, [el('b', { text: `Bar ${bi + 1}` }), el('span', { text: `${rows2.length} sources` })])]);
+            for (const r of rows2) bd.append(el('div', {}, [el('span', { text: r.source }), el('span', { text: r.kind === 'percent' ? `${r.value > 0 ? '+' : ''}${Math.round(r.value * 100) / 100}%` : r.kind === 'set' ? `= ${r.value}` : `${r.value > 0 ? '+' : ''}${Math.round(r.value * 100) / 100}` })]));
+            if (!rows2.length) bd.append(el('div', { class: 'fine', text: 'base value only, or computed from other stats' }));
+            td.append(bd);
+          }
+          t.append(el('tr', {}, [td]));
+        }
+      }
+      return t;
+    };
+    host.append(table(MAIN_ROWS, 'Main sheet'));
+    host.append(el('h3', { text: 'Advanced stats' }));
+    host.append(table(ADV_ROWS, 'Advanced'));
+    const dropped = result.bars[0].dropped.filter((d) => d.reason && d.reason.startsWith('condition'));
+    const det = el('details', {}, [el('summary', { class: 'fine', text: `${dropped.length} conditional effects not applied to the sheet on bar 1 (combat or target dependent)` })]);
+    const ul = el('div', { class: 'fine' });
+    for (const d of dropped.slice(0, 200)) ul.append(el('div', { text: `${d.source}: ${d.raw ? d.raw.slice(0, 120) : d.reason}` }));
+    det.append(ul); host.append(det);
+    const m = result.bars[resultTab].main;
+    $('sticky').innerHTML = '';
+    $('sticky').append(el('span', {}, [el('b', { text: `Bar ${resultTab + 1}` })]));
+    for (const [l, k, u] of [['HP', 'maxHealth'], ['Mag', 'maxMagicka'], ['Stam', 'maxStamina'], ['WD', 'weaponDamage'], ['SD', 'spellDamage'], ['Crit', 'weaponCritChance', '%'], ['Res', 'physicalResistance']]) $('sticky').append(el('span', {}, [`${l} `, el('b', { text: fmt(m[k], u) })]));
+    $('sticky').addEventListener('click', () => { resultTab = 1 - resultTab; renderResults(); }, { once: true });
+  }
+  function renderValidation() {
+    const host = $('validation'); host.innerHTML = '';
+    if (!result) return;
+    for (const e of result.validation.errors) host.append(el('div', { class: 'msg err', text: e }));
+    for (const w of result.validation.warnings) host.append(el('div', { class: 'msg warn', text: w }));
+    for (const bar of result.bars) for (const n of bar.notes) host.append(el('div', { class: 'msg warn', text: n }));
+  }
+
+  // ------------------------------------------------------------ storage, import, export
+  const loadStore = () => { try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch (e) { return {}; } };
+  const saveStore = (s) => { try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch (e) { alert('Could not save: ' + e.message); } };
+  function renderLoadList() {
+    const sel = $('loadSel'); const cur = sel.value; sel.innerHTML = '';
+    sel.append(el('option', { value: '', text: 'Load…' }));
+    for (const name of Object.keys(loadStore()).sort()) sel.append(el('option', { value: name, text: name }));
+    sel.value = cur && [...sel.options].some((o) => o.value === cur) ? cur : '';
+  }
+  function saveBuild() {
+    const name = ($('buildName').value || '').trim() || prompt('Build name?');
+    if (!name) return;
+    build.name = name; $('buildName').value = name;
+    const s = loadStore(); s[name] = JSON.parse(JSON.stringify(build)); saveStore(s); renderLoadList(); $('loadSel').value = name;
+    try { localStorage.setItem(STORE_KEY + ':last', JSON.stringify(build)); } catch (e) { /* ignore */ }
+  }
+  function loadBuild(obj) {
+    const fresh = defaultBuild();
+    const b = { ...fresh, ...obj };
+    b.attributes = { ...fresh.attributes, ...(obj.attributes || {}) };
+    b.championPoints = { enabled: true, slotted: { warfare: [], fitness: [], craft: [] }, ...(obj.championPoints || {}) };
+    b.championPoints.slotted = { warfare: [], fitness: [], craft: [], ...(b.championPoints.slotted || {}) };
+    b.passives = { mode: 'all', exclude: [], ...(obj.passives || {}) };
+    b.gear = { ...fresh.gear, ...(obj.gear || {}) };
+    b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, ...((obj.bars || [])[i] || {}) }));
+    b.flags = { battleSpiritFlatHealth: false, strategies: {}, ...(obj.flags || {}) };
+    if (!b.classSkillLines || b.classSkillLines.length !== 3) b.classSkillLines = [...(E.CLASS_LINES[b.class] || E.CLASS_LINES.Dragonknight)];
+    if (!Array.isArray(b.classMastery)) b.classMastery = [];
+    build = b; $('buildName').value = build.name || '';
+    update(true);
+  }
+
+  // ------------------------------------------------------------ update loop
+  let timer = null;
+  function update(full) {
+    try { result = E.computeSheet(build, D); } catch (e) { result = { validation: { errors: ['engine error: ' + e.message], warnings: [] }, bars: [] }; console.error(e); }
+    renderValidation();
+    if (full !== false) { renderCharacter(); renderBuffs(); renderGear(); renderBars(); }
+    else renderSetSummary();
+    renderResults();
+    $('jsonBox').value = JSON.stringify(build, null, 2);
+    try { localStorage.setItem(STORE_KEY + ':last', JSON.stringify(build)); } catch (e) { /* ignore */ }
+  }
+
+  // wiring
+  $('cpEnabled').addEventListener('change', (ev) => { build.championPoints.enabled = ev.target.checked; update(); });
+  $('vampireStage').addEventListener('change', (ev) => { build.vampireStage = Number(ev.target.value); build.bars.forEach((b) => { b.skills = b.skills.filter(abilityAvailable); if (b.ultimate && !abilityAvailable(b.ultimate)) b.ultimate = null; }); update(); });
+  $('werewolf').addEventListener('change', (ev) => { build.werewolf = ev.target.checked; if (!build.werewolf) build.werewolfForm = false; build.bars.forEach((b) => { b.skills = b.skills.filter(abilityAvailable); if (b.ultimate && !abilityAvailable(b.ultimate)) b.ultimate = null; }); update(); });
+  $('werewolfForm').addEventListener('change', (ev) => { build.werewolfForm = ev.target.checked; update(); });
+  $('battleSpirit').addEventListener('change', (ev) => { build.battleSpirit = ev.target.checked; update(); });
+  $('bsFlatHealth').addEventListener('change', (ev) => { build.flags.battleSpiritFlatHealth = ev.target.checked; update(); });
+  $('buildName').addEventListener('change', (ev) => { build.name = ev.target.value; });
+  $('saveBtn').addEventListener('click', saveBuild);
+  $('loadSel').addEventListener('change', (ev) => { const s = loadStore(); if (s[ev.target.value]) loadBuild(s[ev.target.value]); });
+  $('deleteBtn').addEventListener('click', () => { const s = loadStore(); const n = $('loadSel').value || build.name; if (n && s[n] && confirm(`Delete saved build "${n}"?`)) { delete s[n]; saveStore(s); renderLoadList(); } });
+  $('resetBtn').addEventListener('click', () => { if (confirm('Clear every field?')) { build = defaultBuild(); $('buildName').value = ''; update(); } });
+  $('exportBtn').addEventListener('click', () => { document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = JSON.stringify(build, null, 2); $('jsonBox').focus(); $('jsonBox').select(); });
+  $('importBtn').addEventListener('click', () => { document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = ''; $('jsonBox').placeholder = 'Paste a build JSON here, then tap "Load JSON below"'; $('jsonBox').focus(); });
+  $('copyBtn').addEventListener('click', async () => { try { await navigator.clipboard.writeText($('jsonBox').value); } catch (e) { $('jsonBox').select(); document.execCommand('copy'); } });
+  $('applyJsonBtn').addEventListener('click', () => { try { const obj = JSON.parse($('jsonBox').value); if (obj.build && obj.readings) loadBuild(obj.build); else loadBuild(obj); } catch (e) { alert('Not valid JSON: ' + e.message); } });
+  $('bulkApply').addEventListener('click', bulkApply);
+  $('bulkAll').addEventListener('click', () => { ARMOR.forEach((s) => bulk.checks.add(s)); renderBulkChecks(); });
+  $('bulkJewelry').addEventListener('click', () => { JEWELRY.forEach((s) => bulk.checks.add(s)); renderBulkChecks(); });
+  $('bulkNone').addEventListener('click', () => { bulk.checks.clear(); renderBulkChecks(); });
+  $('bulkWeight').addEventListener('change', (ev) => { bulk.weight = ev.target.value; });
+
+  renderLoadList();
+  let last = null;
+  try { last = JSON.parse(localStorage.getItem(STORE_KEY + ':last') || 'null'); } catch (e) { last = null; }
+  if (last) loadBuild(last); else update();
+})();
+</script>
+</body>
+</html>

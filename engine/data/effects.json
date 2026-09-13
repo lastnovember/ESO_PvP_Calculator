@@ -20117,7 +20117,7 @@
      ]
     }
    },
-   "mythicSlot": null
+   "mythicSlot": "head"
   },
   "Iceheart": {
    "name": "Iceheart",
@@ -26838,7 +26838,7 @@
      ]
     }
    },
-   "mythicSlot": "jewelry"
+   "mythicSlot": "ring"
   },
   "Moon Hunter": {
    "name": "Moon Hunter",
@@ -37012,7 +37012,7 @@
      ]
     }
    },
-   "mythicSlot": "jewelry"
+   "mythicSlot": "necklace"
   },
   "Puncturing Remedy": {
    "name": "Puncturing Remedy",
@@ -42479,7 +42479,7 @@
      ]
     }
    },
-   "mythicSlot": "jewelry"
+   "mythicSlot": "ring"
   },
   "Sheer Venom": {
    "name": "Sheer Venom",
@@ -49461,7 +49461,7 @@
      ]
     }
    },
-   "mythicSlot": null
+   "mythicSlot": "head"
   },
   "The Troll King": {
    "name": "The Troll King",
