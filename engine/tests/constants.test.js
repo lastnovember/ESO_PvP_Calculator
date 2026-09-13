@@ -1,0 +1,54 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+
+const here = dirname(fileURLToPath(import.meta.url));
+const constants = JSON.parse(readFileSync(join(here, '..', 'data', 'constants.json'), 'utf8'));
+
+// Every leaf entry that carries a value must say where it came from.
+// A source on an ancestor covers its children (a table row that yields several numbers).
+function walk(node, path, out, covered = false) {
+  if (Array.isArray(node)) { node.forEach((v, i) => walk(v, `${path}[${i}]`, out, covered)); return; }
+  if (node && typeof node === 'object') {
+    const has = covered || 'source' in node;
+    const carriesMagnitude = 'value' in node || 'oneHand' in node
+      || (Array.isArray(node.values) && node.values.length > 0 && 'value' in node.values[0]);
+    if (carriesMagnitude && !has) out.push(path);
+    for (const [k, v] of Object.entries(node)) walk(v, path ? `${path}.${k}` : k, out, has);
+  }
+}
+
+test('constants.json: every valued entry carries a source', () => {
+  const missing = [];
+  walk(constants, '', missing);
+  // nested "values" arrays inside an entry that itself has a source are fine
+  const real = missing.filter((p) => !/\.values\[\d+\]$/.test(p) && !/\.(large|small)$/.test(p) && !/stats$/.test(p));
+  assert.deepEqual(real, []);
+});
+
+test('constants.json: unverified entries are flagged verified:false', () => {
+  const bad = [];
+  (function w(n, p) {
+    if (n && typeof n === 'object' && !Array.isArray(n)) {
+      if (n.source === 'UNVERIFIED' && n.verified !== false) bad.push(p);
+      for (const [k, v] of Object.entries(n)) w(v, `${p}.${k}`);
+    } else if (Array.isArray(n)) n.forEach((v, i) => w(v, `${p}[${i}]`));
+  })(constants, '');
+  assert.deepEqual(bad, []);
+});
+
+test('constants.json: Champion passive stars fit under the per constellation cap', () => {
+  const cap = constants.championPoints.perConstellationCap.value;
+  const totals = {};
+  for (const s of constants.championPoints.stars) {
+    if (!s.slottable) totals[s.constellation] = (totals[s.constellation] || 0) + s.maxPoints;
+  }
+  for (const [c, t] of Object.entries(totals)) assert.ok(t + 4 * 75 <= cap, `${c}: ${t}`);
+});
+
+test('constants.json: 13 mundus stones and 39 named buffs', () => {
+  assert.equal(Object.keys(constants.mundus.stones).length, 13);
+  assert.equal(Object.keys(constants.namedBuffs.buffs).length, 39);
+});

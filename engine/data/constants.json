@@ -1,0 +1,3099 @@
+{
+  "_meta": {
+    "generatedBy": "tools/build_constants.py",
+    "level": 50,
+    "championGearLevel": 160,
+    "quality": "gold",
+    "note": "Values marked verified:false could not be sourced from data/reference and are community values. See UNKNOWNS.md. The first fixture read from the game settles them."
+  },
+  "base": {
+    "maxHealth": {
+      "value": 16000,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Naked level 50 Max Health with 0 attribute points. UESP Online:Health prose was archived as PDF only, not present in the repo.",
+      "alternatives": [
+        15000
+      ]
+    },
+    "maxMagicka": {
+      "value": 7958,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Naked level 50 Max Magicka with 0 attribute points.",
+      "alternatives": [
+        12000
+      ]
+    },
+    "maxStamina": {
+      "value": 7958,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Naked level 50 Max Stamina with 0 attribute points.",
+      "alternatives": [
+        12000
+      ]
+    },
+    "healthRecovery": {
+      "value": 484,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Naked level 50 Health Recovery (per 2 second tick as shown on the sheet)."
+    },
+    "magickaRecovery": {
+      "value": 514,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Naked level 50 Magicka Recovery."
+    },
+    "staminaRecovery": {
+      "value": 514,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Naked level 50 Stamina Recovery."
+    },
+    "weaponDamage": {
+      "value": 1000,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Sheet Weapon Damage with no weapon equipped and no bonuses.",
+      "alternatives": [
+        0
+      ]
+    },
+    "spellDamage": {
+      "value": 1000,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Sheet Spell Damage with no weapon equipped and no bonuses.",
+      "alternatives": [
+        0
+      ]
+    },
+    "critChancePercent": {
+      "value": 10,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Critical Chance for every character."
+    },
+    "critDamagePercent": {
+      "value": 50,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Critical Damage. Update 29 introduced the 125% cap."
+    },
+    "critDamageCapPercent": {
+      "value": 125,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Critical Damage cap. Class Mastery Above and Beyond raises it by 30 (skills.csv)."
+    },
+    "critRatingPerPercent": {
+      "value": 219,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Critical rating needed for 1% Critical Chance at level 50 CP160."
+    },
+    "resistancePerPercent": {
+      "value": 660,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Physical or Spell Resistance rating per 1% of damage mitigation at level 50 CP160."
+    },
+    "resistanceCapRating": {
+      "value": 33000,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Resistance cap, equals 50% mitigation at 660 per percent."
+    },
+    "resistanceCapPercent": {
+      "value": 50,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Mitigation shown at the resistance cap."
+    },
+    "blockMitigationPercent": {
+      "value": 50,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base fraction of damage blocked."
+    },
+    "blockCost": {
+      "value": 1730,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Stamina cost of blocking an attack.",
+      "alternatives": [
+        2160
+      ]
+    },
+    "rollDodgeCost": {
+      "value": 2891,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Stamina cost of Roll Dodge.",
+      "alternatives": [
+        3060
+      ]
+    },
+    "sprintCostPerSecond": {
+      "value": 400,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Stamina cost of Sprint per second."
+    },
+    "breakFreeCost": {
+      "value": 3060,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Stamina cost of Break Free."
+    },
+    "bashCost": {
+      "value": 1283,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Stamina cost of Bash."
+    },
+    "movementSpeedPercent": {
+      "value": 100,
+      "source": "tables/uesp_Online_Movement_Speed_t00.csv row 'Walking'",
+      "verified": true,
+      "note": "Default walking speed 100%, maximum 200%."
+    },
+    "movementSpeedCapPercent": {
+      "value": 200,
+      "source": "tables/uesp_Online_Movement_Speed_t00.csv row 'Walking'",
+      "verified": true
+    },
+    "sprintSpeedPercent": {
+      "value": 140,
+      "source": "tables/uesp_Online_Movement_Speed_t00.csv row 'Running'",
+      "verified": true,
+      "note": "Running (sprint) default 140%, maximum 200%."
+    }
+  },
+  "attributePoints": {
+    "total": {
+      "value": 64,
+      "source": "task statement (level 50 characters have 64 attribute points)",
+      "verified": true
+    },
+    "healthPerPoint": {
+      "value": 122,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Max Health granted by one attribute point at level 50.",
+      "alternatives": [
+        111
+      ]
+    },
+    "magickaPerPoint": {
+      "value": 111,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Max Magicka granted by one attribute point at level 50."
+    },
+    "staminaPerPoint": {
+      "value": 111,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Max Stamina granted by one attribute point at level 50."
+    }
+  },
+  "mundus": {
+    "note": "Values are level 50 CP160. fullDivines is the UESP figure with 7 gold Divines pieces (63.7%) and is kept as a cross check of the rounding rule. The Thief value is a critical rating.",
+    "divinesGoldPercent": {
+      "value": 9.1,
+      "source": "tables/uesp_Online_Mundus_Stones_t01.csv row 'Legendary'",
+      "verified": true
+    },
+    "stones": {
+      "The Apprentice": {
+        "effect": "Increases Spell Damage",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Apprentice'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "spellDamage",
+            "value": 238,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 389
+      },
+      "The Atronach": {
+        "effect": "Increases Magicka Recovery",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Atronach'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "magickaRecovery",
+            "value": 310,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 507
+      },
+      "The Lady": {
+        "effect": "Increases Physical and Spell Resistance",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Lady'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "physicalResistance",
+            "value": 2744,
+            "kind": "flat"
+          },
+          {
+            "stat": "spellResistance",
+            "value": 2744,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 4489
+      },
+      "The Lord": {
+        "effect": "Increases Maximum Health",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Lord'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "maxHealth",
+            "value": 2225,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 3639
+      },
+      "The Lover": {
+        "effect": "Increases Physical and Spell Penetration",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Lover'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "physicalPenetration",
+            "value": 2744,
+            "kind": "flat"
+          },
+          {
+            "stat": "spellPenetration",
+            "value": 2744,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 4489
+      },
+      "The Mage": {
+        "effect": "Increases Maximum Magicka",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Mage'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "maxMagicka",
+            "value": 2023,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 3309
+      },
+      "The Ritual": {
+        "effect": "Increases Healing Done",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Ritual'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "healingDone",
+            "value": 8,
+            "kind": "percent"
+          }
+        ],
+        "fullDivines": "13%"
+      },
+      "The Serpent": {
+        "effect": "Increases Stamina Recovery",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Serpent'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "staminaRecovery",
+            "value": 310,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 507
+      },
+      "The Shadow": {
+        "effect": "Increases Critical Damage and Healing done",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Shadow'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "critDamage",
+            "value": 11,
+            "kind": "percent"
+          }
+        ],
+        "fullDivines": "17%"
+      },
+      "The Steed": {
+        "effect": "Increases Health Recovery and Movement Speed",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Steed'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "healthRecovery",
+            "value": 238,
+            "kind": "flat"
+          },
+          {
+            "stat": "movementSpeed",
+            "value": 10,
+            "kind": "percent"
+          }
+        ],
+        "fullDivines": "389 / 16%"
+      },
+      "The Thief": {
+        "effect": "Increases Weapon and Spell Critical Strike ratings",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Thief'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "critRating",
+            "value": 1212,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 1982
+      },
+      "The Tower": {
+        "effect": "Increases Maximum Stamina",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Tower'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "maxStamina",
+            "value": 2023,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 3309
+      },
+      "The Warrior": {
+        "effect": "Increases Weapon Damage",
+        "source": "tables/uesp_Online_Mundus_Stones_t00.csv row 'The Warrior'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "weaponDamage",
+            "value": 238,
+            "kind": "flat"
+          }
+        ],
+        "fullDivines": 389
+      }
+    }
+  },
+  "traits": {
+    "note": "Gold (Legendary) column of the UESP trait tables. Shields use armor traits.",
+    "armor": {
+      "Sturdy": {
+        "stat": "blockCost",
+        "value": 4,
+        "kind": "percent",
+        "description": "Reduce block cost by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Sturdy'",
+        "verified": true
+      },
+      "Impenetrable": {
+        "stat": "critResistance",
+        "value": 132,
+        "kind": "flat",
+        "description": "Increase your Critical Resistance by … and this item takes 50% less durability damage.",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Impenetrable'",
+        "verified": true
+      },
+      "Reinforced": {
+        "stat": "itemArmor",
+        "value": 16,
+        "kind": "percent",
+        "description": "Increases this item's armor value by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Reinforced'",
+        "verified": true
+      },
+      "Well-fitted": {
+        "stat": "sprintAndRollDodgeCost",
+        "value": 6,
+        "kind": "percent",
+        "description": "Reduces the cost of sprinting and Roll Dodging by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Well-fitted'",
+        "verified": true
+      },
+      "Training": {
+        "stat": "experience",
+        "value": 11,
+        "kind": "percent",
+        "description": "Increase experience gained from kills by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Training'",
+        "verified": true
+      },
+      "Infused": {
+        "stat": "armorEnchantEffect",
+        "value": 25,
+        "kind": "percent",
+        "description": "Increase armor enchantment effect by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Infused'",
+        "verified": false,
+        "note": "tables/uesp_Online_Enchanting_t04.csv says 20% at gold for armor Infused; tables/uesp_Online_Traits_t01.csv and uesp_Online_Armor_t01.csv say 25%. 25% used. Listed in UNKNOWNS.md."
+      },
+      "Invigorating": {
+        "stat": "allRecovery",
+        "value": 16,
+        "kind": "flat",
+        "description": "Increase Health Recovery , Magicka Recovery , and Stamina Recovery by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Invigorating'",
+        "verified": true
+      },
+      "Divines": {
+        "stat": "mundusEffect",
+        "value": 9.1,
+        "kind": "percent",
+        "description": "Increases Mundus Stone effects by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Divines'",
+        "verified": true
+      },
+      "Nirnhoned": {
+        "stat": "physicalAndSpellResistance",
+        "value": 253,
+        "kind": "flat",
+        "description": "Increases Physical and Spell Resistance by …",
+        "source": "tables/uesp_Online_Traits_t01.csv row 'Nirnhoned'",
+        "verified": true
+      }
+    },
+    "weapon": {
+      "Powered": {
+        "description": "Increase healing done by …",
+        "kind": "percent",
+        "oneHand": 4.5,
+        "twoHand": 9,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Powered'",
+        "verified": true,
+        "stat": "healingDone"
+      },
+      "Charged": {
+        "description": "Increase your chance to apply status effects by …",
+        "kind": "percent",
+        "oneHand": 117.5,
+        "twoHand": 235,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Charged'",
+        "verified": true,
+        "stat": "statusEffectChance"
+      },
+      "Precise": {
+        "description": "Increases Weapon and Spell Critical values by …",
+        "kind": "percent",
+        "oneHand": 3.6,
+        "twoHand": 7.2,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Precise'",
+        "verified": false,
+        "stat": "critChance",
+        "note": "UESP lists Precise as a percent (3.6% one hand, 7.2% two hand at gold). The engine converts it to critical rating at critRatingPerPercent. The in game tooltip may state a rating instead. Listed in UNKNOWNS.md."
+      },
+      "Infused": {
+        "description": "Increase weapon enchantment effect by … and reduces enchantment cooldown by 50%",
+        "kind": "percent",
+        "oneHand": 30,
+        "twoHand": 30,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Infused'",
+        "verified": true,
+        "stat": "weaponEnchantEffect"
+      },
+      "Defending": {
+        "description": "Increases Physical and Spell Resistance by …",
+        "kind": "flat",
+        "oneHand": 1638,
+        "twoHand": 3276,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Defending'",
+        "verified": true,
+        "stat": "physicalAndSpellResistance"
+      },
+      "Training": {
+        "description": "Increase experience gained from kills by …",
+        "kind": "percent",
+        "oneHand": 4.5,
+        "twoHand": 9,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Training'",
+        "verified": true,
+        "stat": "experience"
+      },
+      "Sharpened": {
+        "description": "Increase Physical and Spell Penetration by …",
+        "kind": "flat",
+        "oneHand": 1638,
+        "twoHand": 3276,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Sharpened'",
+        "verified": true,
+        "stat": "physicalAndSpellPenetration"
+      },
+      "Decisive": {
+        "description": "When you gain Ultimate you have a … chance to gain 1 additional ultimate.",
+        "kind": "percent",
+        "oneHand": 27.5,
+        "twoHand": 55,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Decisive'",
+        "verified": true,
+        "stat": "ultimateChance"
+      },
+      "Nirnhoned": {
+        "description": "Increases Damage of this weapon by …",
+        "kind": "percent",
+        "oneHand": 15,
+        "twoHand": 15,
+        "source": "tables/uesp_Online_Traits_t00.csv row 'Nirnhoned'",
+        "verified": true,
+        "stat": "weaponDamageOfItem"
+      }
+    },
+    "jewelry": {
+      "Healthy": {
+        "description": "Increase Maximum Health by …",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Healthy'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "maxHealth",
+            "value": 965,
+            "kind": "flat"
+          }
+        ]
+      },
+      "Arcane": {
+        "description": "Increase Maximum Magicka by …",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Arcane'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "maxMagicka",
+            "value": 877,
+            "kind": "flat"
+          }
+        ]
+      },
+      "Robust": {
+        "description": "Increase Maximum Stamina by …",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Robust'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "maxStamina",
+            "value": 877,
+            "kind": "flat"
+          }
+        ]
+      },
+      "Bloodthirsty": {
+        "description": "Increase Weapon and Spell Damage against enemies under 90% health by up to …",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Bloodthirsty'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "weaponAndSpellDamageVsUnder90",
+            "value": 350,
+            "kind": "flat"
+          }
+        ],
+        "note": "Conditional on target health. Not applied to the sheet in phase 1 (target dependent)."
+      },
+      "Harmony": {
+        "description": "Activating a Synergy restores ... Health , Magicka , and Stamina .",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Harmony'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "synergyRestore",
+            "value": 880,
+            "kind": "flat"
+          }
+        ],
+        "note": "Combat proc. Not applied to the sheet."
+      },
+      "Infused": {
+        "description": "Increase the effect of the enchantment by …%",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Infused'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "jewelryEnchantEffect",
+            "value": 60,
+            "kind": "percent"
+          }
+        ]
+      },
+      "Triune": {
+        "description": "Increase Maximum Health by … and Maximum Magicka and Maximum Stamina by …",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Triune'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "maxHealth",
+            "value": 482,
+            "kind": "flat"
+          },
+          {
+            "stat": "maxMagicka",
+            "value": 439,
+            "kind": "flat"
+          },
+          {
+            "stat": "maxStamina",
+            "value": 439,
+            "kind": "flat"
+          }
+        ]
+      },
+      "Protective": {
+        "description": "Increase Spell Resistance and Physical Resistance by …",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Protective'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "physicalAndSpellResistance",
+            "value": 1190,
+            "kind": "flat"
+          }
+        ]
+      },
+      "Swift": {
+        "description": "Increase Movement Speed by …%",
+        "source": "tables/uesp_Online_Traits_t02.csv row 'Swift'",
+        "verified": true,
+        "values": [
+          {
+            "stat": "movementSpeed",
+            "value": 7,
+            "kind": "percent"
+          }
+        ]
+      }
+    }
+  },
+  "enchants": {
+    "note": "Truly Superb (CP160) gold glyph magnitudes. None of these are in data/reference; all are UNVERIFIED community values. Armor glyphs have a large value on head, chest, legs and shield, and a small value elsewhere.",
+    "armorLargeSlots": [
+      "head",
+      "chest",
+      "legs",
+      "shield"
+    ],
+    "armor": {
+      "Health": {
+        "large": {
+          "value": 954,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Health, large piece"
+        },
+        "small": {
+          "value": 477,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Health, small piece"
+        },
+        "values": [
+          {
+            "stat": "maxHealth",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Magicka": {
+        "large": {
+          "value": 868,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Magicka, large piece"
+        },
+        "small": {
+          "value": 434,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Magicka, small piece"
+        },
+        "values": [
+          {
+            "stat": "maxMagicka",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Stamina": {
+        "large": {
+          "value": 868,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Stamina, large piece"
+        },
+        "small": {
+          "value": 434,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Stamina, small piece"
+        },
+        "values": [
+          {
+            "stat": "maxStamina",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Prismatic Defense": {
+        "large": {
+          "value": [
+            477,
+            434,
+            434
+          ],
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Prismatic Defense, large piece: Health, Magicka, Stamina"
+        },
+        "small": {
+          "value": [
+            239,
+            217,
+            217
+          ],
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Prismatic Defense, small piece: Health, Magicka, Stamina"
+        },
+        "values": [
+          {
+            "stat": "maxHealth",
+            "kind": "flat"
+          },
+          {
+            "stat": "maxMagicka",
+            "kind": "flat"
+          },
+          {
+            "stat": "maxStamina",
+            "kind": "flat"
+          }
+        ]
+      }
+    },
+    "jewelry": {
+      "Weapon Damage": {
+        "magnitude": {
+          "value": 174,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Increase Physical Harm"
+        },
+        "values": [
+          {
+            "stat": "weaponDamage",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Spell Damage": {
+        "magnitude": {
+          "value": 174,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Increase Magical Harm"
+        },
+        "values": [
+          {
+            "stat": "spellDamage",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Magicka Recovery": {
+        "magnitude": {
+          "value": 169,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Magicka Recovery"
+        },
+        "values": [
+          {
+            "stat": "magickaRecovery",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Stamina Recovery": {
+        "magnitude": {
+          "value": 169,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Stamina Recovery"
+        },
+        "values": [
+          {
+            "stat": "staminaRecovery",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Health Recovery": {
+        "magnitude": {
+          "value": 169,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Health Recovery"
+        },
+        "values": [
+          {
+            "stat": "healthRecovery",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Prismatic Recovery": {
+        "magnitude": {
+          "value": 84,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Prismatic Recovery, each of the three recoveries"
+        },
+        "values": [
+          {
+            "stat": "healthRecovery",
+            "kind": "flat"
+          },
+          {
+            "stat": "magickaRecovery",
+            "kind": "flat"
+          },
+          {
+            "stat": "staminaRecovery",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Reduce Spell Cost": {
+        "magnitude": {
+          "value": 203,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Reduce Spell Cost"
+        },
+        "values": [
+          {
+            "stat": "magickaCostReduction",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Reduce Feat Cost": {
+        "magnitude": {
+          "value": 203,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Reduce Feat Cost"
+        },
+        "values": [
+          {
+            "stat": "staminaCostReduction",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Reduce Block Cost": {
+        "magnitude": {
+          "value": 203,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Shielding"
+        },
+        "values": [
+          {
+            "stat": "blockCost",
+            "kind": "flat",
+            "negative": true
+          }
+        ]
+      },
+      "Increase Bash Damage": {
+        "magnitude": {
+          "value": 258,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Bashing"
+        },
+        "values": [
+          {
+            "stat": "bashDamage",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Potion Cooldown": {
+        "magnitude": {
+          "value": 5.2,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Potion Speed, seconds"
+        },
+        "values": [
+          {
+            "stat": "potionCooldown",
+            "kind": "flat",
+            "negative": true
+          }
+        ]
+      },
+      "Potion Boost": {
+        "magnitude": {
+          "value": 8.2,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Potion Boost, seconds"
+        },
+        "values": [
+          {
+            "stat": "potionDuration",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Flame Resist": {
+        "magnitude": {
+          "value": 2900,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Flame Resist"
+        },
+        "values": [
+          {
+            "stat": "flameResistance",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Frost Resist": {
+        "magnitude": {
+          "value": 2900,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Frost Resist"
+        },
+        "values": [
+          {
+            "stat": "frostResistance",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Shock Resist": {
+        "magnitude": {
+          "value": 2900,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Shock Resist"
+        },
+        "values": [
+          {
+            "stat": "shockResistance",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Poison Resist": {
+        "magnitude": {
+          "value": 2900,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Poison Resist"
+        },
+        "values": [
+          {
+            "stat": "poisonResistance",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Disease Resist": {
+        "magnitude": {
+          "value": 2900,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Disease Resist"
+        },
+        "values": [
+          {
+            "stat": "diseaseResistance",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Decrease Physical Harm": {
+        "magnitude": {
+          "value": null,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Decrease Physical Harm. Magnitude and stat unknown, no sheet effect until settled."
+        },
+        "values": []
+      },
+      "Decrease Spell Harm": {
+        "magnitude": {
+          "value": null,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "Glyph of Decrease Spell Harm. Magnitude and stat unknown, no sheet effect until settled."
+        },
+        "values": []
+      }
+    },
+    "weapon": {
+      "note": "Every weapon glyph is a combat proc and has no character sheet effect. Kept for completeness.",
+      "names": [
+        "Flame",
+        "Frost",
+        "Shock",
+        "Poison",
+        "Disease",
+        "Decrease Health",
+        "Absorb Health",
+        "Absorb Magicka",
+        "Absorb Stamina",
+        "Weapon Damage",
+        "Crushing",
+        "Weakening",
+        "Hardening",
+        "Prismatic Onslaught"
+      ]
+    }
+  },
+  "items": {
+    "note": "Armor rating of a gold CP160 piece with no trait, and weapon damage of a gold CP160 weapon. Not in data/reference. UNVERIFIED. Slot factors relative to the chest are the community understanding: chest 1.0, head shoulders legs feet 0.879, hands waist 0.5.",
+    "armor": {
+      "heavy": {
+        "head": {
+          "value": 2437,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "heavy head"
+        },
+        "shoulders": {
+          "value": 2437,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "heavy shoulders"
+        },
+        "chest": {
+          "value": 2772,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "heavy chest"
+        },
+        "hands": {
+          "value": 1386,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "heavy hands"
+        },
+        "waist": {
+          "value": 1386,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "heavy waist"
+        },
+        "legs": {
+          "value": 2437,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "heavy legs"
+        },
+        "feet": {
+          "value": 2437,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "heavy feet"
+        }
+      },
+      "medium": {
+        "head": {
+          "value": 1567,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "medium head"
+        },
+        "shoulders": {
+          "value": 1567,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "medium shoulders"
+        },
+        "chest": {
+          "value": 1782,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "medium chest"
+        },
+        "hands": {
+          "value": 891,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "medium hands"
+        },
+        "waist": {
+          "value": 891,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "medium waist"
+        },
+        "legs": {
+          "value": 1567,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "medium legs"
+        },
+        "feet": {
+          "value": 1567,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "medium feet"
+        }
+      },
+      "light": {
+        "head": {
+          "value": 1015,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "light head"
+        },
+        "shoulders": {
+          "value": 1015,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "light shoulders"
+        },
+        "chest": {
+          "value": 1155,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "light chest"
+        },
+        "hands": {
+          "value": 578,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "light hands"
+        },
+        "waist": {
+          "value": 578,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "light waist"
+        },
+        "legs": {
+          "value": 1015,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "light legs"
+        },
+        "feet": {
+          "value": 1015,
+          "source": "UNVERIFIED",
+          "verified": false,
+          "note": "light feet"
+        }
+      }
+    },
+    "shieldArmor": {
+      "value": 1880,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Armor rating of a gold CP160 shield."
+    },
+    "weaponDamage": {
+      "value": 1335,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Damage rating of any gold CP160 weapon. Applies to Weapon Damage and Spell Damage on the sheet."
+    },
+    "twoHandedTypes": [
+      "greatsword",
+      "battle axe",
+      "maul",
+      "bow",
+      "inferno staff",
+      "lightning staff",
+      "ice staff",
+      "restoration staff"
+    ],
+    "twoHandedSetPieces": {
+      "value": 2,
+      "source": "sets.csv settype Weapon rows hold their bonus in bonus_2 (2 items) for a single two handed weapon; task statement",
+      "verified": true,
+      "note": "A two handed weapon counts as two set pieces."
+    }
+  },
+  "foods": {
+    "note": "Food and drink catalog. The app also accepts custom values typed from a tooltip. Racial food duration passives do not change magnitudes.",
+    "items": [
+      {
+        "id": "green-health",
+        "name": "Green single stat food (Max Health)",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 6277
+        },
+        "source": "tables/uesp_Online_Food_t03.csv row 'Health, last column'",
+        "verified": true,
+        "note": "UESP scaling table last column read as CP160. Column alignment in that table is suspect."
+      },
+      {
+        "id": "green-magicka",
+        "name": "Green single stat food (Max Magicka)",
+        "kind": "food",
+        "stats": {
+          "maxMagicka": 5745
+        },
+        "source": "tables/uesp_Online_Food_t02.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table last column read as CP160."
+      },
+      {
+        "id": "green-stamina",
+        "name": "Green single stat food (Max Stamina)",
+        "kind": "food",
+        "stats": {
+          "maxStamina": 5745
+        },
+        "source": "tables/uesp_Online_Food_t02.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table last column read as CP160."
+      },
+      {
+        "id": "blue-health-magicka",
+        "name": "Blue dual stat food (Health and Magicka)",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 5000,
+          "maxMagicka": 4575
+        },
+        "source": "tables/uesp_Online_Food_t07.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table. Community tooltips are often quoted as 5395 and 4936; listed in UNKNOWNS.md."
+      },
+      {
+        "id": "blue-health-stamina",
+        "name": "Blue dual stat food (Health and Stamina)",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 5000,
+          "maxStamina": 4575
+        },
+        "source": "tables/uesp_Online_Food_t08.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table."
+      },
+      {
+        "id": "blue-magicka-stamina",
+        "name": "Blue dual stat food (Magicka and Stamina)",
+        "kind": "food",
+        "stats": {
+          "maxMagicka": 4575,
+          "maxStamina": 4575
+        },
+        "source": "tables/uesp_Online_Food_t09.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table."
+      },
+      {
+        "id": "purple-tristat",
+        "name": "Purple tri stat food (Longfin Pasty, Braised Rabbit, Sugar Skulls without recovery)",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 4620,
+          "maxMagicka": 4250,
+          "maxStamina": 4250
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "bewitched-sugar-skulls",
+        "name": "Bewitched Sugar Skulls",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 4620,
+          "maxMagicka": 4250,
+          "maxStamina": 4250,
+          "healthRecovery": 406
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "artaeum-takeaway-broth",
+        "name": "Artaeum Takeaway Broth",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 4620,
+          "maxStamina": 4250,
+          "healthRecovery": 406,
+          "staminaRecovery": 406
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "clockwork-citrus-filet",
+        "name": "Clockwork Citrus Filet",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 3724,
+          "maxMagicka": 3458,
+          "healthRecovery": 406,
+          "magickaRecovery": 406
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "candied-jesters-coins",
+        "name": "Candied Jester's Coins",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 5000,
+          "maxStamina": 4575
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value. Same as blue Health and Stamina food."
+      },
+      {
+        "id": "witchmothers-potent-brew",
+        "name": "Witchmother's Potent Brew",
+        "kind": "drink",
+        "stats": {
+          "maxHealth": 2856,
+          "maxMagicka": 3161,
+          "magickaRecovery": 315
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "dubious-camoran-throne",
+        "name": "Dubious Camoran Throne",
+        "kind": "drink",
+        "stats": {
+          "maxHealth": 2856,
+          "maxStamina": 3161,
+          "staminaRecovery": 315
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "jewels-of-misrule",
+        "name": "Jewels of Misrule",
+        "kind": "drink",
+        "stats": {
+          "maxHealth": 3326,
+          "healthRecovery": 315,
+          "magickaRecovery": 315,
+          "staminaRecovery": 315
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "lava-foot-soup-and-saltrice",
+        "name": "Lava Foot Soup-and-Saltrice",
+        "kind": "drink",
+        "stats": {
+          "maxStamina": 3080,
+          "staminaRecovery": 338
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "orzorgas-smoked-bear-haunch",
+        "name": "Orzorga's Smoked Bear Haunch",
+        "kind": "drink",
+        "stats": {
+          "maxHealth": 3080,
+          "healthRecovery": 338,
+          "magickaRecovery": 338,
+          "staminaRecovery": 338
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "ghastly-eye-bowl",
+        "name": "Ghastly Eye Bowl",
+        "kind": "drink",
+        "stats": {
+          "maxMagicka": 3080,
+          "magickaRecovery": 338
+        },
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Community tooltip value."
+      },
+      {
+        "id": "green-drink-magicka-recovery",
+        "name": "Green single recovery drink (Magicka Recovery)",
+        "kind": "drink",
+        "stats": {
+          "magickaRecovery": 565
+        },
+        "source": "tables/uesp_Online_Drinks_t06.csv row 'Crown Star-Magic Tea'",
+        "verified": true,
+        "note": "Crown Star-Magic Tea description on UESP Drinks page, era of the text unknown."
+      },
+      {
+        "id": "green-drink-stamina-recovery",
+        "name": "Green single recovery drink (Stamina Recovery)",
+        "kind": "drink",
+        "stats": {
+          "staminaRecovery": 565
+        },
+        "source": "tables/uesp_Online_Drinks_t06.csv row 'Crown Endurance Tonic'",
+        "verified": true,
+        "note": "Crown Endurance Tonic description on UESP Drinks page."
+      },
+      {
+        "id": "green-drink-health-recovery",
+        "name": "Green single recovery drink (Health Recovery)",
+        "kind": "drink",
+        "stats": {
+          "healthRecovery": 621
+        },
+        "source": "tables/uesp_Online_Drinks_t06.csv row 'Crown Health Vigor Liquor'",
+        "verified": true,
+        "note": "Crown Health Vigor Liquor description on UESP Drinks page."
+      },
+      {
+        "id": "blue-drink-health-stamina-recovery",
+        "name": "Blue dual recovery drink (Health and Stamina Recovery)",
+        "kind": "drink",
+        "stats": {
+          "healthRecovery": 500,
+          "staminaRecovery": 457
+        },
+        "source": "tables/uesp_Online_Drinks_t03.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table."
+      },
+      {
+        "id": "blue-drink-health-magicka-recovery",
+        "name": "Blue dual recovery drink (Health and Magicka Recovery)",
+        "kind": "drink",
+        "stats": {
+          "healthRecovery": 500,
+          "magickaRecovery": 457
+        },
+        "source": "tables/uesp_Online_Drinks_t04.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table."
+      },
+      {
+        "id": "blue-drink-magicka-stamina-recovery",
+        "name": "Blue dual recovery drink (Magicka and Stamina Recovery)",
+        "kind": "drink",
+        "stats": {
+          "magickaRecovery": 457,
+          "staminaRecovery": 457
+        },
+        "source": "tables/uesp_Online_Drinks_t05.csv row 'last column'",
+        "verified": true,
+        "note": "UESP scaling table."
+      },
+      {
+        "id": "purple-tri-recovery-drink",
+        "name": "Purple tri recovery drink",
+        "kind": "drink",
+        "stats": {
+          "healthRecovery": 446,
+          "magickaRecovery": 410,
+          "staminaRecovery": 410
+        },
+        "source": "tables/uesp_Online_Drinks_t06.csv row 'Crown Refreshing Drink'",
+        "verified": true,
+        "note": "Crown Refreshing Drink description on UESP Drinks page."
+      }
+    ]
+  },
+  "battleSpirit": {
+    "source": "tables/uesp_Online_Campaigns_t05.csv row 'Battle Spirit'",
+    "rawText": "Damage taken and Shield strength are decreased by 50% Healing Received is decreased by 55% Health Recovery is decreased by 50% Ability range of 28 meters or more increased by 8",
+    "effects": [
+      {
+        "stat": "damageTaken",
+        "value": -50,
+        "kind": "percent",
+        "verified": true
+      },
+      {
+        "stat": "damageShieldStrength",
+        "value": -50,
+        "kind": "percent",
+        "verified": true
+      },
+      {
+        "stat": "healingReceived",
+        "value": -55,
+        "kind": "percent",
+        "verified": true
+      },
+      {
+        "stat": "healthRecovery",
+        "value": -50,
+        "kind": "percent",
+        "verified": true
+      },
+      {
+        "stat": "abilityRangeOver28m",
+        "value": 8,
+        "kind": "flat",
+        "verified": true
+      }
+    ],
+    "legacyFlatMaxHealth": {
+      "value": 5000,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Flat Max Health bonus referenced in 2016 to 2019 patch notes, applied after percentage multipliers (2016-01-26 note). Not listed by UESP now. Behind flags.battleSpiritFlatHealth, default off."
+    }
+  },
+  "vampireStages": {
+    "note": "Unnatural Resistance (skills.csv) changes the Health Recovery penalty: stage 2 none, stage 3 25%, stage 4 50%. Applied by the engine when that passive is active.",
+    "stages": {
+      "1": {
+        "healthRecovery": {
+          "value": -10,
+          "kind": "percent"
+        },
+        "flameDamageTaken": {
+          "value": 5,
+          "kind": "percent"
+        },
+        "vampireAbilityCost": {
+          "value": -6,
+          "kind": "percent"
+        },
+        "regularAbilityCost": {
+          "value": 3,
+          "kind": "percent"
+        },
+        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 1'",
+        "verified": true
+      },
+      "2": {
+        "healthRecovery": {
+          "value": -30,
+          "kind": "percent"
+        },
+        "flameDamageTaken": {
+          "value": 8,
+          "kind": "percent"
+        },
+        "vampireAbilityCost": {
+          "value": -10,
+          "kind": "percent"
+        },
+        "regularAbilityCost": {
+          "value": 5,
+          "kind": "percent"
+        },
+        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 2'",
+        "verified": true
+      },
+      "3": {
+        "healthRecovery": {
+          "value": -60,
+          "kind": "percent"
+        },
+        "flameDamageTaken": {
+          "value": 13,
+          "kind": "percent"
+        },
+        "vampireAbilityCost": {
+          "value": -16,
+          "kind": "percent"
+        },
+        "regularAbilityCost": {
+          "value": 8,
+          "kind": "percent"
+        },
+        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 3'",
+        "verified": true
+      },
+      "4": {
+        "healthRecovery": {
+          "value": -100,
+          "kind": "percent"
+        },
+        "flameDamageTaken": {
+          "value": 20,
+          "kind": "percent"
+        },
+        "vampireAbilityCost": {
+          "value": -24,
+          "kind": "percent"
+        },
+        "regularAbilityCost": {
+          "value": 12,
+          "kind": "percent"
+        },
+        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 4'",
+        "verified": true
+      }
+    }
+  },
+  "championPoints": {
+    "note": "Stars from the UESP Champion page tables. Tables t00 to t03 are Craft, t04 to t12 Warfare, t13 to t22 Fitness. \"Active\" rows are slottable. Per stage effect text is parsed by tools/parse_effects; the engine applies max stages.",
+    "totalCap": {
+      "value": 3600,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Champion Point cap since Update 29, 1200 per constellation. Not in data/reference (patch notes html missing)."
+    },
+    "perConstellationCap": {
+      "value": 1200,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "One third of the cap."
+    },
+    "slotsPerConstellation": {
+      "value": 4,
+      "source": "task statement",
+      "verified": true
+    },
+    "stars": [
+      {
+        "name": "Breakfall",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Reduces your fall damage taken by 7% per stage.",
+        "source": "tables/uesp_Online_Champion_t00.csv row 'Breakfall'"
+      },
+      {
+        "name": "Gilded Fingers",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your gold gained by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t00.csv row 'Gilded Fingers'"
+      },
+      {
+        "name": "Out of Sight",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 3,
+        "maxPoints": 30,
+        "effect": "Reduces the radius you can be detected while Sneaking by 1 meter per stage.",
+        "source": "tables/uesp_Online_Champion_t00.csv row 'Out of Sight'"
+      },
+      {
+        "name": "Professional Upkeep",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Reduces the cost of repairing your armor by 1% per stage.",
+        "source": "tables/uesp_Online_Champion_t00.csv row 'Professional Upkeep'"
+      },
+      {
+        "name": "Steed's Blessing",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Increase your out of combat Movement Speed by .4% per stage.",
+        "source": "tables/uesp_Online_Champion_t01.csv row 'Steed's Blessing'"
+      },
+      {
+        "name": "Sustaining Shadows",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Reduces the cost of Sneak by 1% per stage.",
+        "source": "tables/uesp_Online_Champion_t01.csv row 'Sustaining Shadows'"
+      },
+      {
+        "name": "Cutpurse's Art",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 25,
+        "stages": 1,
+        "maxPoints": 25,
+        "effect": "Increases the chance to get higher-quality loot when pickpocketing.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Cutpurse's Art'"
+      },
+      {
+        "name": "Discipline Artisan",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases experience gain for currently active skills and their skill lines  by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Discipline Artisan'"
+      },
+      {
+        "name": "Fleet Phantom",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 8,
+        "stages": 5,
+        "maxPoints": 40,
+        "effect": "Reduces the Movement Speed penalty of Sneak by 5% per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Fleet Phantom'"
+      },
+      {
+        "name": "Fortune's Favor",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases the amount of gold you find in treasure chests and safeboxes by 10% per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Fortune's Favor'"
+      },
+      {
+        "name": "Homemaker",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 25,
+        "stages": 1,
+        "maxPoints": 25,
+        "effect": "You have a 10% chance to find a second furnishing plan whenever you find a furnishing plan in the world.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Homemaker'"
+      },
+      {
+        "name": "Infamous",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 25,
+        "stages": 1,
+        "maxPoints": 25,
+        "effect": "Increases the value of fenced items by 25%.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Infamous'"
+      },
+      {
+        "name": "Inspiration Boost",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 15,
+        "stages": 3,
+        "maxPoints": 45,
+        "effect": "Increases your crafting inspiration gained by 10% per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Inspiration Boost'"
+      },
+      {
+        "name": "Liquid Efficiency",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Whenever you use a potion or poison you have a 10% chance to not consume it.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Liquid Efficiency'"
+      },
+      {
+        "name": "Meticulous Disassembly",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Improves the chances of extracting Woodworking, Blacksmithing, Clothing, and Jewelry Crafting ingredients and allows the refining of more powerful resins, tempers, tannins, and platings from raw materials.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Meticulous Disassembly'"
+      },
+      {
+        "name": "Plentiful Harvest",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "You have a 10% chance to gain double the yield from normal resource nodes per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Plentiful Harvest'"
+      },
+      {
+        "name": "Rationer",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 3,
+        "maxPoints": 30,
+        "effect": "Adds 10 minutes to the duration of any eaten food or drink per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Rationer'"
+      },
+      {
+        "name": "Soul Reservoir",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 30,
+        "stages": 1,
+        "maxPoints": 30,
+        "effect": "When you resurrect yourself or another player you have a 33% chance to not consume a Soul Gem.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Soul Reservoir'"
+      },
+      {
+        "name": "Steadfast Enchantment",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Your Weapon Enchantments have a 10% chance to not consume a charge when activated per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Steadfast Enchantment'"
+      },
+      {
+        "name": "Treasure Hunter",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Increases the quality of items you find in treasure chests.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Treasure Hunter'"
+      },
+      {
+        "name": "Wanderer",
+        "constellation": "craft",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Reduces the cost of Wayshrine usage by 10% per stage.",
+        "source": "tables/uesp_Online_Champion_t02.csv row 'Wanderer'"
+      },
+      {
+        "name": "Angler's Instincts",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 1,
+        "maxPoints": 25,
+        "effect": "Increases your chance of catching higher quality fish, akin to fishing with another player. This effect can stack other similar bonuses.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'Angler's Instincts'"
+      },
+      {
+        "name": "Fade Away",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Escaping from a Guard wipes 25% of your current Heat, but not Bounty.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'Fade Away'"
+      },
+      {
+        "name": "Friends in Low Places",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 1,
+        "maxPoints": 25,
+        "effect": "Removes 1000 gold from your bounty once per day when committing a crime where bounty is added. You must be level 50 for this passive to activate, and your current bounty must be at or greater than 1000 gold.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'Friends in Low Places'"
+      },
+      {
+        "name": "Gifted Rider",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your Mount Speed by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'Gifted Rider'"
+      },
+      {
+        "name": "Master Gatherer",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 15,
+        "stages": 5,
+        "maxPoints": 75,
+        "effect": "Reduces the time it takes to harvest by 10% per stage.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'Master Gatherer'"
+      },
+      {
+        "name": "Reel Technique",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Decreases the time it takes for a fish to bite by 25%.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'Reel Technique'"
+      },
+      {
+        "name": "Shadowstrike",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 75,
+        "stages": 1,
+        "maxPoints": 75,
+        "effect": "When you kill an enemy with Blade of Woe, you become invisible for 5 seconds after a short delay while distracting nearby enemies or potential witnesses. While under this effect you can cast Blade of Woe.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'Shadowstrike'"
+      },
+      {
+        "name": "War Mount",
+        "constellation": "craft",
+        "slottable": true,
+        "costPerStage": 75,
+        "stages": 1,
+        "maxPoints": 75,
+        "effect": "Improves your mastery with mounts, removing all mount Stamina costs outside of combat.",
+        "source": "tables/uesp_Online_Champion_t03.csv row 'War Mount'"
+      },
+      {
+        "name": "Eldritch Insight",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Grants 260 Max Magicka per stage.",
+        "source": "tables/uesp_Online_Champion_t04.csv row 'Eldritch Insight'"
+      },
+      {
+        "name": "Precision",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Grants 160 Critical Chance per stage.",
+        "source": "tables/uesp_Online_Champion_t04.csv row 'Precision'"
+      },
+      {
+        "name": "Tireless Discipline",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Grants 260 Max Stamina per stage.",
+        "source": "tables/uesp_Online_Champion_t04.csv row 'Tireless Discipline'"
+      },
+      {
+        "name": "Endless Endurance",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Increase your Max Stamina by 26 per stage.",
+        "source": "tables/uesp_Online_Champion_t05.csv row 'Endless Endurance'"
+      },
+      {
+        "name": "Untamed Aggression",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Increase your Weapon and Spell damage by 3 per stage.",
+        "source": "tables/uesp_Online_Champion_t05.csv row 'Untamed Aggression'"
+      },
+      {
+        "name": "Arcane Supremacy",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Increases Max Magicka by 26 per stage.",
+        "source": "tables/uesp_Online_Champion_t05.csv row 'Arcane Supremacy'"
+      },
+      {
+        "name": "Focused Mending",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your Healing Done with single target heals by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Focused Mending'"
+      },
+      {
+        "name": "Swift Renewal",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your Healing Done with healing over time effects by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Swift Renewal'"
+      },
+      {
+        "name": "Soothing Tide",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your Healing Done by area of effect heals by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Soothing Tide'"
+      },
+      {
+        "name": "Cleansing Revival",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Healing a target under 25% Health removes all harmful effects from them. This effect can occur once every 24 seconds.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Cleansing Revival'"
+      },
+      {
+        "name": "Rejuvenator",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Grants 41 Weapon and Spell Damage to your healing abilities per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Rejuvenator'"
+      },
+      {
+        "name": "Foresight",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "After you drink a potion, the cost of your Magicka and Stamina healing abilities used within 6 seconds are reduced by 75%.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Foresight'"
+      },
+      {
+        "name": "Reaving Blows",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "When you deal Direct Damage you heal for 7% of the damage done.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Reaving Blows'"
+      },
+      {
+        "name": "Wrathful Strikes",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Grants 41 Weapon and Spell Damage to your damaging abilities per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Wrathful Strikes'"
+      },
+      {
+        "name": "Occult Overload",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Whenever you kill an enemy under the effect of a status effect, they violently explode for 2560 Oblivion Damage per stage to all other enemies in a 4 meter radius.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Occult Overload'"
+      },
+      {
+        "name": "Backstabber",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your Critical Damage done by 2% per stage against enemies you are flanking.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Backstabber'"
+      },
+      {
+        "name": "Fighting Finesse",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Increases your Critical Damage and Critical Healing done by 4% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Fighting Finesse'"
+      },
+      {
+        "name": "Deadly Aim",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Increases your damage done with single target attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Deadly Aim'"
+      },
+      {
+        "name": "Thaumaturge",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Increases your damage done with damage over time effects by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Thaumaturge'"
+      },
+      {
+        "name": "Master-at-Arms",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Increases your damage done with direct damage attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Master-at-Arms'"
+      },
+      {
+        "name": "Biting Aura",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Increases your damage done with area of effect attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Biting Aura'"
+      },
+      {
+        "name": "Duelist's Rebuff",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Reduces your damage taken by single target attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Duelist's Rebuff'"
+      },
+      {
+        "name": "Unassailable",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Reduces your damage taken by area of effect attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Unassailable'"
+      },
+      {
+        "name": "Enduring Resolve",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Reduces your damage taken by damage over time attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Enduring Resolve'"
+      },
+      {
+        "name": "Riposte",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "When you block an attack from an enemy within 7 meters, your next direct damage attack made within 5 seconds deals 33% additional damage. This effect can occur once every 5 seconds.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Riposte'"
+      },
+      {
+        "name": "Bulwark",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "While you have a Shield or Frost Staff equipped, your Spell and Physical Resistance is increased by 1900.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Bulwark'"
+      },
+      {
+        "name": "Last Stand",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "When you take damage below 20% Health you gain Major Heroism, granting 3 Ultimate every 1.5 seconds for 9 seconds. This effect can occur once every 9 seconds.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Last Stand'"
+      },
+      {
+        "name": "Reinforced",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "When you begin Bracing, you gain a damage shield that absorbs 5140 damage for 3 seconds. This effect can occur once every 10 seconds.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Reinforced'"
+      },
+      {
+        "name": "Cutting Defense",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "You deal 504 Magic Damage to attackers whenever they damage you with a Direct Damage attack within 7 meters. This effect scales off the higher of your Physical or Spell Resistance and can activate your Weapon Enchantments and Poisons.",
+        "source": "tables/uesp_Online_Champion_t06.csv row 'Cutting Defense'"
+      },
+      {
+        "name": "Blessed",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Increases your Healing Done by 1% per stage.",
+        "source": "tables/uesp_Online_Champion_t07.csv row 'Blessed'"
+      },
+      {
+        "name": "Enlivening Overflow",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Overhealing yourself or an ally grants them Health, Magicka, and Stamina Recovery equal to .5% of your Max Magicka, up to a cap of 150, for 6 seconds. This effect can occur once every 12 seconds per target.",
+        "source": "tables/uesp_Online_Champion_t08.csv row 'Enlivening Overflow'"
+      },
+      {
+        "name": "From the Brink",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Whenever you heal yourself or an ally under 25% Health, you grant them a damage shield that absorbs up to 2200 damage per stage, for 6 seconds. This effect can occur once every 30 seconds per target.",
+        "source": "tables/uesp_Online_Champion_t08.csv row 'From the Brink'"
+      },
+      {
+        "name": "Salve of Renewal",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Whenever you remove a harmful effect from yourself or an ally, you sanctify the ground beneath them and heal them and allies within 8 meters for 1318 Health per stage. This effect can occur once every 10 seconds.",
+        "source": "tables/uesp_Online_Champion_t08.csv row 'Salve of Renewal'"
+      },
+      {
+        "name": "Hope Infusion",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Healing yourself or an ally under 50% Health grants them Minor Heroism for 1 second for every 300 Magicka Recovery you have. This effect can occur once every 10 seconds per target.",
+        "source": "tables/uesp_Online_Champion_t08.csv row 'Hope Infusion'"
+      },
+      {
+        "name": "Quick Recovery",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Increases your Healing Taken by 1% per stage.",
+        "source": "tables/uesp_Online_Champion_t09.csv row 'Quick Recovery'"
+      },
+      {
+        "name": "Hardy",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Reduces the damage you take from Martial attacks by 1% per stage. Affects Physical, Poison, Disease and Bleed Damage.",
+        "source": "tables/uesp_Online_Champion_t09.csv row 'Hardy'"
+      },
+      {
+        "name": "Elemental Aegis",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Reduces the damage you take from Magical attacks by 1% per stage. Affects Magic, Flame, Frost and Shock Damage.",
+        "source": "tables/uesp_Online_Champion_t09.csv row 'Elemental Aegis'"
+      },
+      {
+        "name": "Preparation",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Reduces your damage taken from non-player attacks by 5% per stage.",
+        "source": "tables/uesp_Online_Champion_t09.csv row 'Preparation'"
+      },
+      {
+        "name": "Resilience",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Grants 132 Critical Resistance per stage.",
+        "source": "tables/uesp_Online_Champion_t10.csv row 'Resilience'"
+      },
+      {
+        "name": "Ironclad",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Reduces your damage taken by direct damage attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t10.csv row 'Ironclad'"
+      },
+      {
+        "name": "Piercing",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Grants 350 Offensive Penetration per stage.",
+        "source": "tables/uesp_Online_Champion_t11.csv row 'Piercing'"
+      },
+      {
+        "name": "Flawless Ritual",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 20,
+        "stages": 2,
+        "maxPoints": 40,
+        "effect": "Increases your chance to apply a Magical status effect by 30% per stage.",
+        "source": "tables/uesp_Online_Champion_t11.csv row 'Flawless Ritual'"
+      },
+      {
+        "name": "War Mage",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 30,
+        "stages": 1,
+        "maxPoints": 30,
+        "effect": "Grants 100 Weapon and Spell Damage to Magical attacks. Affects Magic, Flame, Frost and Shock Damage.",
+        "source": "tables/uesp_Online_Champion_t11.csv row 'War Mage'"
+      },
+      {
+        "name": "Battle Mastery",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 20,
+        "stages": 2,
+        "maxPoints": 40,
+        "effect": "Increases your chance to apply a Martial status effect by 30% per stage.",
+        "source": "tables/uesp_Online_Champion_t11.csv row 'Battle Mastery'"
+      },
+      {
+        "name": "Mighty",
+        "constellation": "warfare",
+        "slottable": false,
+        "costPerStage": 30,
+        "stages": 1,
+        "maxPoints": 30,
+        "effect": "Grants 100 Weapon and Spell Damage to Martial attacks. Affects Physical, Poison, Disease and Bleed damage.",
+        "source": "tables/uesp_Online_Champion_t11.csv row 'Mighty'"
+      },
+      {
+        "name": "Weapons Expert",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your damage done with Light and Heavy Attacks by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t12.csv row 'Weapons Expert'"
+      },
+      {
+        "name": "Force of Nature",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Increases your Offensive Penetration by 660 for every status effect your target has.",
+        "source": "tables/uesp_Online_Champion_t12.csv row 'Force of Nature'"
+      },
+      {
+        "name": "Exploiter",
+        "constellation": "warfare",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your damage done against Off Balance enemies by 2% per stage",
+        "source": "tables/uesp_Online_Champion_t12.csv row 'Exploiter'"
+      },
+      {
+        "name": "Tumbling",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 15,
+        "stages": 2,
+        "maxPoints": 30,
+        "effect": "Reduces the cost of Roll Dodge by 120 Stamina per stage.",
+        "source": "tables/uesp_Online_Champion_t13.csv row 'Tumbling'"
+      },
+      {
+        "name": "Sprinter",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Reduces the cost of Sprint by 20 Stamina per stage.",
+        "source": "tables/uesp_Online_Champion_t13.csv row 'Sprinter'"
+      },
+      {
+        "name": "Tireless Guardian",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Reduces the cost of Block by 20 Stamina per stage.",
+        "source": "tables/uesp_Online_Champion_t13.csv row 'Tireless Guardian'"
+      },
+      {
+        "name": "Boundless Vitality",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Grants 28 Max Health per stage.",
+        "source": "tables/uesp_Online_Champion_t14.csv row 'Boundless Vitality'"
+      },
+      {
+        "name": "Fortified",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Grants 34.6 Armor per stage.",
+        "source": "tables/uesp_Online_Champion_t14.csv row 'Fortified'"
+      },
+      {
+        "name": "Rejuvenation",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 1,
+        "stages": 50,
+        "maxPoints": 50,
+        "effect": "Grants 1.8 Health, Magicka and Stamina recovery per stage.",
+        "source": "tables/uesp_Online_Champion_t14.csv row 'Rejuvenation'"
+      },
+      {
+        "name": "Defiance",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Reduces the cost of Break Free by 110 Stamina per stage.",
+        "source": "tables/uesp_Online_Champion_t15.csv row 'Defiance'"
+      },
+      {
+        "name": "Hero's Vigor",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Grants 280 Max Health per stage.",
+        "source": "tables/uesp_Online_Champion_t15.csv row 'Hero's Vigor'"
+      },
+      {
+        "name": "Piercing Gaze",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 3,
+        "maxPoints": 30,
+        "effect": "Increases your Stealth Detection by 1 meter per stage.",
+        "source": "tables/uesp_Online_Champion_t15.csv row 'Piercing Gaze'"
+      },
+      {
+        "name": "Tempered Soul",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Return to life after resurrection with 5% more resources per stage.",
+        "source": "tables/uesp_Online_Champion_t15.csv row 'Tempered Soul'"
+      },
+      {
+        "name": "Fortification",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 15,
+        "stages": 2,
+        "maxPoints": 30,
+        "effect": "Increases the amount of damage you can block by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t15.csv row 'Fortification'"
+      },
+      {
+        "name": "Savage Defense",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 15,
+        "stages": 2,
+        "maxPoints": 30,
+        "effect": "Reduces the cost of Bash by 45 Stamina per stage.",
+        "source": "tables/uesp_Online_Champion_t15.csv row 'Savage Defense'"
+      },
+      {
+        "name": "Bashing Brutality",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 2,
+        "maxPoints": 20,
+        "effect": "Increases your Bash damage by 60 per stage.",
+        "source": "tables/uesp_Online_Champion_t15.csv row 'Bashing Brutality'"
+      },
+      {
+        "name": "Hardened",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases the duration of Crowd Control Immunity by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Hardened'"
+      },
+      {
+        "name": "Peace of Mind",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases Magicka and Health Recovery while under the effects of Crowd Control Immunity by 40 per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Peace of Mind'"
+      },
+      {
+        "name": "Slippery",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "When you are affected by a disabling effect, you automatically Break Free for no cost. After using this effect, you become Winded and cannot trigger this effect or others like it for 21 seconds.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Slippery'"
+      },
+      {
+        "name": "Unchained",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "When you use Break Free, the cost of your next Stamina ability used within 5 seconds is reduced by 11% per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Unchained'"
+      },
+      {
+        "name": "Juggernaut",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "While under the effects of Crowd Control Immunity, you take 2% less damage per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Juggernaut'"
+      },
+      {
+        "name": "Expert Evasion",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Your next Roll Dodge is free of cost. After consuming this effect, you cannot gain it again for 30 seconds.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Expert Evasion'"
+      },
+      {
+        "name": "Rousing Speed",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Reduces the cost of Sprint by 50 Stamina per stage, while under the effects of Crowd Control Immunity.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Rousing Speed'"
+      },
+      {
+        "name": "Survival Instincts",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "While afflicted with a Status Effect, your core combat skills cost 5% less per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Survival Instincts'"
+      },
+      {
+        "name": "Spirit Mastery",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Decreases the time it takes to resurrect an ally by 33%.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Spirit Mastery'"
+      },
+      {
+        "name": "Shield Master",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Reduces the cost of your damage shield abilities by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Shield Master'"
+      },
+      {
+        "name": "Bastion",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases the effectiveness of your damage shields and damage against shielded enemies by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Bastion'"
+      },
+      {
+        "name": "Arcane Alacrity",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "While under the effects of a damage shield your dodge roll costs 160 less stamina per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Arcane Alacrity'"
+      },
+      {
+        "name": "Strategic Reserve",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Gain 30 Health Recovery for every 10 Ultimate you have.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Strategic Reserve'"
+      },
+      {
+        "name": "Siphoning Spells",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Restore 300 Magicka per stage, whenever you kill an enemy.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Siphoning Spells'"
+      },
+      {
+        "name": "Bloody Renewal",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Restore 300 Stamina per stage, whenever you kill an enemy.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'Bloody Renewal'"
+      },
+      {
+        "name": "On Guard",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "While under the effects of Crowd Control Immunity, increases the amount of damage you block by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t16.csv row 'On Guard'"
+      },
+      {
+        "name": "Mystic Tenacity",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Reduces the duration of Elemental Status Effects applied to you by 5% per stage",
+        "source": "tables/uesp_Online_Champion_t17.csv row 'Mystic Tenacity'"
+      },
+      {
+        "name": "Pain's Refuge",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Reduces your damage taken by 1% per negative effect active on you, up to a maximum of 20%",
+        "source": "tables/uesp_Online_Champion_t18.csv row 'Pain's Refuge'"
+      },
+      {
+        "name": "Sustained by Suffering",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your Health, Magicka, and Stamina Recovery by 30 per stage while under the effects of a negative effect.",
+        "source": "tables/uesp_Online_Champion_t18.csv row 'Sustained by Suffering'"
+      },
+      {
+        "name": "Relentlessness",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 50,
+        "stages": 1,
+        "maxPoints": 50,
+        "effect": "Being Stunned or Feared causes you to gain Major Protection for 3 seconds, reducing your damage taken by 10%.",
+        "source": "tables/uesp_Online_Champion_t18.csv row 'Relentlessness'"
+      },
+      {
+        "name": "Hasty",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 8,
+        "stages": 2,
+        "maxPoints": 16,
+        "effect": "Increases your movement speed when Sprinting by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t19.csv row 'Hasty'"
+      },
+      {
+        "name": "Refreshing Stride",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "While Sprinting you gain 100 Health and Magicka Recovery per stage.",
+        "source": "tables/uesp_Online_Champion_t20.csv row 'Refreshing Stride'"
+      },
+      {
+        "name": "Thrill of the Hunt",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 25,
+        "stages": 2,
+        "maxPoints": 50,
+        "effect": "Whenever you kill an enemy you gain Major Expedition for 3 seconds per stage, increasing your Movement Speed by 30%.",
+        "source": "tables/uesp_Online_Champion_t20.csv row 'Thrill of the Hunt'"
+      },
+      {
+        "name": "Celerity",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Increases your Movement Speed by 2% per stage.",
+        "source": "tables/uesp_Online_Champion_t20.csv row 'Celerity'"
+      },
+      {
+        "name": "Nimble Protector",
+        "constellation": "fitness",
+        "slottable": false,
+        "costPerStage": 3,
+        "stages": 2,
+        "maxPoints": 6,
+        "effect": "Increases your Movement Speed while Bracing by 3% per stage.",
+        "source": "tables/uesp_Online_Champion_t21.csv row 'Nimble Protector'"
+      },
+      {
+        "name": "Ward Master",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "Reduces your damage taken by 2% per stage while Blocking and under the effects of a Damage Shield.",
+        "source": "tables/uesp_Online_Champion_t22.csv row 'Ward Master'"
+      },
+      {
+        "name": "Soothing Shield",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "When you successfully block and attack you have a 15% chance to restore 151 Health per stage.",
+        "source": "tables/uesp_Online_Champion_t22.csv row 'Soothing Shield'"
+      },
+      {
+        "name": "Bracing Anchor",
+        "constellation": "fitness",
+        "slottable": true,
+        "costPerStage": 10,
+        "stages": 5,
+        "maxPoints": 50,
+        "effect": "While in combat, increase the amount of damage you can block by 4% per stage, but reduces your Movement Speed by 16% at all stages.",
+        "source": "tables/uesp_Online_Champion_t22.csv row 'Bracing Anchor'"
+      }
+    ]
+  },
+  "namedBuffs": {
+    "note": "Major and Minor buff magnitudes. Set bonuses and passives that grant a named buff resolve through this table in the parser.",
+    "buffs": {
+      "Minor Aegis": {
+        "description": "Take 5% less damage from Dungeon, Trial and Arena Monsters.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Aegis / Minor'",
+        "verified": true
+      },
+      "Major Aegis": {
+        "description": "Take 10% less damage from Dungeon, Trial and Arena Monsters.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Aegis / Major'",
+        "verified": true
+      },
+      "Minor Berserk": {
+        "description": "Increases all damage done by 5%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Berserk / Minor'",
+        "verified": true
+      },
+      "Major Berserk": {
+        "description": "Increases all damage done by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Berserk / Major'",
+        "verified": true
+      },
+      "Minor Brutality": {
+        "description": "Increases weapon damage by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Brutality / Minor'",
+        "verified": true
+      },
+      "Major Brutality": {
+        "description": "Increases weapon damage by 20%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Brutality / Major'",
+        "verified": true
+      },
+      "Minor Courage": {
+        "description": "Increase your Weapon and Spell Damage by 215",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Courage / Minor'",
+        "verified": true
+      },
+      "Major Courage": {
+        "description": "Increase your Weapon and Spell Damage by 430",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Courage / Major'",
+        "verified": true
+      },
+      "Minor Endurance": {
+        "description": "Increases stamina recovery by 15%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Endurance / Minor'",
+        "verified": true
+      },
+      "Major Endurance": {
+        "description": "Increases stamina recovery by 30%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Endurance / Major'",
+        "verified": true
+      },
+      "Minor Evasion": {
+        "description": "Reduces damage from area attacks by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Evasion / Minor'",
+        "verified": true
+      },
+      "Major Evasion": {
+        "description": "Reduces damage from area attacks by 20%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Evasion / Major'",
+        "verified": true
+      },
+      "Minor Expedition": {
+        "description": "Increases movement speed by 15%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Expedition / Minor'",
+        "verified": true
+      },
+      "Major Expedition": {
+        "description": "Increases movement speed by 30%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Expedition / Major'",
+        "verified": true
+      },
+      "Minor Force": {
+        "description": "Increases critical damage done by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Force / Minor'",
+        "verified": true
+      },
+      "Major Force": {
+        "description": "Increases critical damage done by 20%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Force / Major'",
+        "verified": true
+      },
+      "Minor Fortitude": {
+        "description": "Increases health recovery by 15%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Fortitude / Minor'",
+        "verified": true
+      },
+      "Major Fortitude": {
+        "description": "Increases health recovery by 30%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Fortitude / Major'",
+        "verified": true
+      },
+      "Minor Heroism": {
+        "description": "Generates 1 Ultimate every 1.5 seconds. (Only while in combat)",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Heroism / Minor'",
+        "verified": true
+      },
+      "Major Heroism": {
+        "description": "Generates 3 Ultimate every 1.5 seconds. (Only while in combat)",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Heroism / Major'",
+        "verified": true
+      },
+      "Minor Intellect": {
+        "description": "Increases magicka recovery by 15%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Intellect / Minor'",
+        "verified": true
+      },
+      "Major Intellect": {
+        "description": "Increases magicka recovery by 30%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Intellect / Major'",
+        "verified": true
+      },
+      "Minor Mending": {
+        "description": "Increases healing done by 8%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Mending / Minor'",
+        "verified": true
+      },
+      "Major Mending": {
+        "description": "Increases healing done by 16%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Mending / Major'",
+        "verified": true
+      },
+      "Minor Prophecy": {
+        "description": "Increases spell critical by 1314.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Prophecy / Minor'",
+        "verified": true
+      },
+      "Major Prophecy": {
+        "description": "Increases spell critical by 2629.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Prophecy / Major'",
+        "verified": true
+      },
+      "Minor Protection": {
+        "description": "Reduces damage taken by 5%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Protection / Minor'",
+        "verified": true
+      },
+      "Major Protection": {
+        "description": "Reduces damage taken by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Protection / Major'",
+        "verified": true
+      },
+      "Minor Resolve": {
+        "description": "Increases physical and spell resistance by 2974.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Resolve / Minor'",
+        "verified": true
+      },
+      "Major Resolve": {
+        "description": "Increases physical and spell resistance by 5948.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Resolve / Major'",
+        "verified": true
+      },
+      "Minor Savagery": {
+        "description": "Increases weapon critical by 1314.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Savagery / Minor'",
+        "verified": true
+      },
+      "Major Savagery": {
+        "description": "Increases weapon critical by 2629.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Savagery / Major'",
+        "verified": true
+      },
+      "Minor Slayer": {
+        "description": "Increases damage done to Dungeon, Trial and Arena Monsters by 5%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Slayer / Minor'",
+        "verified": true
+      },
+      "Major Slayer": {
+        "description": "Increases damage done to Dungeon, Trial and Arena Monsters by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Slayer / Major'",
+        "verified": true
+      },
+      "Minor Sorcery": {
+        "description": "Increases spell damage by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Sorcery / Minor'",
+        "verified": true
+      },
+      "Major Sorcery": {
+        "description": "Increases spell damage by 20%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Sorcery / Major'",
+        "verified": true
+      },
+      "Minor Toughness": {
+        "description": "Increases maximum health by 10%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Toughness / Minor'",
+        "verified": true
+      },
+      "Minor Vitality": {
+        "description": "Increases healing received and shield Strength by 6%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Vitality / Minor'",
+        "verified": true
+      },
+      "Major Vitality": {
+        "description": "Increases healing received and Shield Strength by 12%.",
+        "source": "tables/uesp_Online_Buffs_t00.csv row 'Vitality / Major'",
+        "verified": true
+      }
+    }
+  },
+  "slots": {
+    "armor": [
+      "head",
+      "shoulders",
+      "chest",
+      "hands",
+      "waist",
+      "legs",
+      "feet"
+    ],
+    "jewelry": [
+      "necklace",
+      "ring1",
+      "ring2"
+    ],
+    "weapon": [
+      "mainHand",
+      "offHand"
+    ],
+    "monsterSetSlots": [
+      "head",
+      "shoulders"
+    ],
+    "mythicMaxEquipped": {
+      "value": 1,
+      "source": "task statement; sets.csv marks 35 sets Mythic",
+      "verified": true
+    }
+  }
+}
