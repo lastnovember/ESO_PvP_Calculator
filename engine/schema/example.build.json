@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "name": "Example stamina Nightblade (brawler)",
+  "notes": "Illustrates every field. Not a recommended build.",
+
+  "race": "Orc",
+  "class": "Nightblade",
+  "classSkillLines": ["Assassination", "Shadow", "Siphoning"],
+
+  "attributes": { "health": 20, "magicka": 0, "stamina": 44 },
+
+  "championPoints": {
+    "enabled": true,
+    "slotted": {
+      "warfare": ["Wrathful Strikes", "Deadly Aim", "Master-at-Arms", "Fighting Finesse"],
+      "fitness": ["Boundless Vitality", "Fortified", "Rejuvenation", "Celerity"],
+      "craft":   ["Steed's Blessing", "Gifted Rider", "War Mount", "Sustaining Shadows"]
+    }
+  },
+
+  "mundus": "The Warrior",
+  "food": "bewitched-sugar-skulls",
+
+  "vampireStage": 0,
+  "werewolf": false,
+  "werewolfForm": false,
+  "battleSpirit": true,
+
+  "passives": { "mode": "all", "exclude": [] },
+
+  "gear": {
+    "head":      { "set": "Slimecraw",       "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "shoulders": { "set": "Slimecraw",       "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "chest":     { "set": "Rallying Cry",    "weight": "heavy",  "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "hands":     { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "waist":     { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "legs":      { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "feet":      { "set": "Rallying Cry",    "weight": "medium", "trait": "Impenetrable", "enchant": "Prismatic Defense" },
+    "necklace":  { "set": "Wretched Vitality", "trait": "Bloodthirsty", "enchant": "Weapon Damage" },
+    "ring1":     { "set": "Markyn Ring of Majesty", "trait": "Infused", "enchant": "Weapon Damage" },
+    "ring2":     { "set": "Wretched Vitality", "trait": "Infused", "enchant": "Weapon Damage" }
+  },
+
+  "bars": [
+    {
+      "mainHand": { "set": "Wretched Vitality", "type": "axe",    "trait": "Nirnhoned", "enchant": "Poison" },
+      "offHand":  { "set": "Wretched Vitality", "type": "dagger", "trait": "Sharpened", "enchant": "Weapon Damage" },
+      "skills": ["Surprise Attack", "Killer's Blade", "Rally", "Resolving Vigor", "Camouflaged Hunter"],
+      "ultimate": "Incapacitating Strike"
+    },
+    {
+      "mainHand": { "set": "Wretched Vitality", "type": "greatsword", "trait": "Defending", "enchant": "Absorb Stamina" },
+      "offHand":  null,
+      "skills": ["Dark Cloak", "Siphoning Attacks", "Relentless Focus", "Forward Momentum", "Race Against Time"],
+      "ultimate": "Dawnbreaker of Smiting"
+    }
+  ],
+
+  "flags": { "battleSpiritFlatHealth": false }
+}

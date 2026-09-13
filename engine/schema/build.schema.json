@@ -1,0 +1,226 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eso-pvp-calculator/build.schema.json",
+  "title": "ESO character build (phase 1: character sheet)",
+  "description": "A fully specified level 50, CP160, gold quality build. Fixed assumptions are not fields: level 50, CP160 gear, gold quality, set ranges resolve to their maximum. Fields reserved for later phases carry a 'reserved' note and are accepted but must hold their default value.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "race", "class", "attributes", "championPoints", "gear", "bars"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "name": { "type": "string", "maxLength": 80 },
+    "notes": { "type": "string" },
+
+    "race": { "$ref": "#/definitions/race" },
+    "class": { "$ref": "#/definitions/class" },
+    "classSkillLines": {
+      "description": "Subclassing (Update 46). The three class skill lines this character actually has. Defaults to the three lines of 'class'. Order does not matter.",
+      "type": "array", "minItems": 3, "maxItems": 3, "uniqueItems": true,
+      "items": { "$ref": "#/definitions/classSkillLine" }
+    },
+
+    "attributes": {
+      "type": "object", "additionalProperties": false,
+      "required": ["health", "magicka", "stamina"],
+      "properties": {
+        "health":  { "type": "integer", "minimum": 0, "maximum": 64 },
+        "magicka": { "type": "integer", "minimum": 0, "maximum": 64 },
+        "stamina": { "type": "integer", "minimum": 0, "maximum": 64 }
+      },
+      "$comment": "Engine validation: health + magicka + stamina must equal 64."
+    },
+
+    "championPoints": {
+      "type": "object", "additionalProperties": false,
+      "required": ["enabled"],
+      "properties": {
+        "enabled": { "type": "boolean", "description": "true = every passive (non slottable) star at max rank plus the slotted stars below. false = no Champion Points at all (Battlegrounds, no-CP campaigns)." },
+        "slotted": {
+          "type": "object", "additionalProperties": false,
+          "properties": {
+            "warfare": { "$ref": "#/definitions/slottedStars" },
+            "fitness": { "$ref": "#/definitions/slottedStars" },
+            "craft":   { "$ref": "#/definitions/slottedStars" }
+          }
+        }
+      }
+    },
+
+    "mundus": { "oneOf": [ { "$ref": "#/definitions/mundus" }, { "type": "null" } ] },
+
+    "food": {
+      "description": "Id of a food or drink from constants.json foods, null for no buff, or an explicit custom buff typed from the item tooltip.",
+      "oneOf": [ { "type": "string" }, { "type": "null" }, { "$ref": "#/definitions/customFood" } ]
+    },
+
+    "vampireStage": { "type": "integer", "minimum": 0, "maximum": 4, "default": 0, "description": "0 = not a vampire. 1 to 4 = vampire stage. Any stage above 0 unlocks the Vampire skill line for slotting and applies stage effects." },
+    "werewolf": { "type": "boolean", "default": false, "description": "Has Lycanthropy. Unlocks the Werewolf skill line for slotting." },
+    "werewolfForm": { "type": "boolean", "default": false, "description": "Compute the sheet while transformed. Werewolf passives that read 'WHILE IN WEREWOLF FORM' only apply when true." },
+
+    "battleSpirit": { "type": "boolean", "default": false, "description": "Standing in a PvP zone." },
+
+    "passives": {
+      "description": "Which passive skills are considered purchased at max rank. Default: every passive in every skill line the character has access to (class lines, racial, all armor and weapon lines, guilds, Alliance War, Vampire or Werewolf when unlocked).",
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "mode": { "enum": ["all", "none"], "default": "all" },
+        "exclude": { "type": "array", "items": { "type": "string" }, "default": [], "description": "Passive names to switch off when mode is 'all'." },
+        "include": { "type": "array", "items": { "type": "string" }, "default": [], "description": "Passive names to switch on when mode is 'none'." }
+      }
+    },
+
+    "gear": {
+      "type": "object", "additionalProperties": false,
+      "required": ["head", "shoulders", "chest", "hands", "waist", "legs", "feet", "necklace", "ring1", "ring2"],
+      "properties": {
+        "head":      { "$ref": "#/definitions/armorSlot" },
+        "shoulders": { "$ref": "#/definitions/armorSlot" },
+        "chest":     { "$ref": "#/definitions/armorSlot" },
+        "hands":     { "$ref": "#/definitions/armorSlot" },
+        "waist":     { "$ref": "#/definitions/armorSlot" },
+        "legs":      { "$ref": "#/definitions/armorSlot" },
+        "feet":      { "$ref": "#/definitions/armorSlot" },
+        "necklace":  { "$ref": "#/definitions/jewelrySlot" },
+        "ring1":     { "$ref": "#/definitions/jewelrySlot" },
+        "ring2":     { "$ref": "#/definitions/jewelrySlot" }
+      }
+    },
+
+    "bars": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "items": { "$ref": "#/definitions/bar" },
+      "description": "bars[0] is the front bar, bars[1] the back bar."
+    },
+
+    "flags": {
+      "description": "Engine strategy switches used during validation against fixtures. Omit for defaults.",
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "battleSpiritFlatHealth": { "type": "boolean", "default": false, "description": "UNVERIFIED legacy +5000 Max Health under Battle Spirit. Off until a fixture settles it." },
+        "strategies": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Named order-of-operation strategies, see engine docs." }
+      }
+    }
+  },
+
+  "definitions": {
+    "race": { "enum": ["Argonian", "Breton", "Dark Elf", "High Elf", "Imperial", "Khajiit", "Nord", "Orc", "Redguard", "Wood Elf"] },
+    "class": { "enum": ["Arcanist", "Dragonknight", "Necromancer", "Nightblade", "Sorcerer", "Templar", "Warden"] },
+    "classSkillLine": { "enum": [
+      "Ardent Flame", "Draconic Power", "Earthen Heart",
+      "Dark Magic", "Daedric Summoning", "Storm Calling",
+      "Assassination", "Shadow", "Siphoning",
+      "Aedric Spear", "Dawn's Wrath", "Restoring Light",
+      "Animal Companions", "Green Balance", "Winter's Embrace",
+      "Grave Lord", "Bone Tyrant", "Living Death",
+      "Herald of the Tome", "Soldier of Apocrypha", "Curative Runeforms"
+    ] },
+    "mundus": { "enum": ["The Apprentice", "The Atronach", "The Lady", "The Lord", "The Lover", "The Mage", "The Ritual", "The Serpent", "The Shadow", "The Steed", "The Thief", "The Tower", "The Warrior"] },
+
+    "customFood": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "maxHealth": { "type": "number", "default": 0 },
+        "maxMagicka": { "type": "number", "default": 0 },
+        "maxStamina": { "type": "number", "default": 0 },
+        "healthRecovery": { "type": "number", "default": 0 },
+        "magickaRecovery": { "type": "number", "default": 0 },
+        "staminaRecovery": { "type": "number", "default": 0 }
+      }
+    },
+
+    "slottedStars": {
+      "description": "Names of slottable stars (the 'Active Perks' and 'Base Active Perks' rows of the Champion tables), each treated as max rank. At most 4 per constellation.",
+      "type": "array", "maxItems": 4, "uniqueItems": true, "items": { "type": "string" }
+    },
+
+    "quality": {
+      "description": "Reserved. Only 'gold' is accepted in phase 1. green, blue and purple are planned.",
+      "enum": ["gold"], "default": "gold"
+    },
+    "weight": { "enum": ["light", "medium", "heavy"] },
+    "armorTrait":   { "enum": ["Sturdy", "Impenetrable", "Reinforced", "Well-fitted", "Training", "Infused", "Invigorating", "Divines", "Nirnhoned"] },
+    "weaponTrait":  { "enum": ["Powered", "Charged", "Precise", "Infused", "Defending", "Training", "Sharpened", "Decisive", "Nirnhoned"] },
+    "jewelryTrait": { "enum": ["Healthy", "Arcane", "Robust", "Bloodthirsty", "Harmony", "Infused", "Triune", "Protective", "Swift"] },
+
+    "armorEnchant":   { "enum": ["Health", "Magicka", "Stamina", "Prismatic Defense"] },
+    "jewelryEnchant": { "enum": [
+      "Weapon Damage", "Spell Damage", "Magicka Recovery", "Stamina Recovery", "Health Recovery", "Prismatic Recovery",
+      "Reduce Spell Cost", "Reduce Feat Cost", "Reduce Block Cost", "Increase Bash Damage",
+      "Potion Cooldown", "Potion Boost",
+      "Flame Resist", "Frost Resist", "Shock Resist", "Poison Resist", "Disease Resist",
+      "Decrease Physical Harm", "Decrease Spell Harm"
+    ] },
+    "weaponEnchant": {
+      "description": "All weapon glyphs are combat procs in phase 1 and do not change the sheet. Kept so the build is complete for later phases.",
+      "enum": [
+        "Flame", "Frost", "Shock", "Poison", "Disease", "Decrease Health",
+        "Absorb Health", "Absorb Magicka", "Absorb Stamina",
+        "Weapon Damage", "Crushing", "Weakening", "Hardening", "Prismatic Onslaught"
+      ]
+    },
+    "weaponType": { "enum": ["axe", "mace", "sword", "dagger", "greatsword", "battle axe", "maul", "bow", "inferno staff", "lightning staff", "ice staff", "restoration staff", "shield"] },
+
+    "setRef": {
+      "description": "Set name exactly as the page title in sets.csv without the 'Online:' prefix and without a trailing ' (set)'. Perfected trial and arena sets are separate names ('Perfected Saxhleel Champion'). null = no set.",
+      "oneOf": [ { "type": "string" }, { "type": "null" } ]
+    },
+
+    "armorSlot": {
+      "oneOf": [ { "type": "null" }, {
+        "type": "object", "additionalProperties": false,
+        "required": ["set", "weight", "trait", "enchant"],
+        "properties": {
+          "set":       { "$ref": "#/definitions/setRef" },
+          "weight":    { "$ref": "#/definitions/weight" },
+          "trait":     { "oneOf": [ { "$ref": "#/definitions/armorTrait" }, { "type": "null" } ] },
+          "enchant":   { "oneOf": [ { "$ref": "#/definitions/armorEnchant" }, { "type": "null" } ] },
+          "quality":   { "$ref": "#/definitions/quality" }
+        }
+      } ]
+    },
+
+    "jewelrySlot": {
+      "oneOf": [ { "type": "null" }, {
+        "type": "object", "additionalProperties": false,
+        "required": ["set", "trait", "enchant"],
+        "properties": {
+          "set":       { "$ref": "#/definitions/setRef" },
+          "trait":     { "oneOf": [ { "$ref": "#/definitions/jewelryTrait" }, { "type": "null" } ] },
+          "enchant":   { "oneOf": [ { "$ref": "#/definitions/jewelryEnchant" }, { "type": "null" } ] },
+          "quality":   { "$ref": "#/definitions/quality" }
+        }
+      } ]
+    },
+
+    "weaponSlot": {
+      "description": "A weapon or a shield. A shield is only valid in offHand, takes armor traits and armor enchants, has no weight and counts as one set piece.",
+      "oneOf": [ { "type": "null" }, {
+        "type": "object", "additionalProperties": false,
+        "required": ["set", "type", "trait", "enchant"],
+        "properties": {
+          "set":       { "$ref": "#/definitions/setRef" },
+          "type":      { "$ref": "#/definitions/weaponType" },
+          "trait":     { "oneOf": [ { "$ref": "#/definitions/weaponTrait" }, { "$ref": "#/definitions/armorTrait" }, { "type": "null" } ] },
+          "enchant":   { "oneOf": [ { "$ref": "#/definitions/weaponEnchant" }, { "$ref": "#/definitions/armorEnchant" }, { "type": "null" } ] },
+          "quality":   { "$ref": "#/definitions/quality" }
+        }
+      } ]
+    },
+
+    "bar": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mainHand", "offHand", "skills", "ultimate"],
+      "properties": {
+        "mainHand": { "$ref": "#/definitions/weaponSlot" },
+        "offHand":  { "$ref": "#/definitions/weaponSlot", "$comment": "Must be null when mainHand is a two handed weapon (greatsword, battle axe, maul, bow, any staff)." },
+        "skills": {
+          "description": "Up to 5 ability names, final nodes only: the morph name, or the base name if unmorphed. Only used for 'while slotted' effects.",
+          "type": "array", "maxItems": 5, "items": { "type": "string" }
+        },
+        "ultimate": { "oneOf": [ { "type": "string" }, { "type": "null" } ] }
+      }
+    }
+  }
+}
