@@ -1,0 +1,6 @@
+,Sorcerer Initiate,Elemental Arcanist,Arcane Warrior,War Mage,Eldritch Mender
+Sorcerer Initiate,,Crystal Shard,Arcane Warrior Bound Armor Lightning Flood,Negate Magic,Dark Exchange
+Elemental Arcanist,Crystal Shard,,Bound Armor Lightning Form,no conflicts,Conjured Ward
+Arcane Warrior,Arcane Warrior Bound Armor Lightning Flood,Bound Armor Lightning Form,,Dark Exchange Bound Armor Lightning Form Surge,Bound Armor
+War Mage,Negate Magic,no conflicts,Dark Exchange Bound Armor Lightning Form Surge,,Negate Magic Dark Exchange
+Eldritch Mender,Dark Exchange,Conjured Ward,Bound Armor,Negate Magic Dark Exchange,

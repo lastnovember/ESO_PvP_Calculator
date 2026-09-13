@@ -1,0 +1,41 @@
+Skill,Duration,Affects,Cost,Notes
+Dragonknight
+Flame Lash ( Ardent Flame ),2 sec.,Single Enemy,2700 Magicka,Only if target is Off Balanced
+Deep Breath ( Draconic Power ),2 sec.,Nearby Enemies,4320 Magicka,Only if interrupting spellcaster
+Stonefist ( Earthen Heart ),3 sec.,Single Enemy,4050 Magicka,
+,Stone Giant (morph),3240 Magicka
+Nightblade
+Incapacitating Strike ( Assassination ),3-4.5 sec.,Single Enemy,50 Ultimate,
+Teleport Strike ( Assassination ),2 sec.,Single Enemy,4050 Magicka,
+Veiled Strike ( Shadow ),4 sec.,Single Enemy,2700 Magicka,Only if attacking from stealth
+Soul Shred ( Siphoning ),3-3.5 sec.,Single Enemy,150 Ultimate,
+,Soul Tether (morph),4.5 sec.
+Sorcerer
+Summon Storm Atronach ( Daedric Summoning ),3 sec.,Enemies in Range,200 Ultimate,
+Summon Volatile Familiar ( Daedric Summoning ),3 sec.,Enemies near Familiar,3603 Magicka,
+Negate Magic ( Dark Magic ),8.5-10 sec.,Enemies in Range,225 Ultimate,
+Bolt Escape ( Storm Calling ),1.5-2 sec.,Enemies Around Origin,3780 Magicka,
+,Streak (morph),1.5 sec.,Enemies Along Path
+Templar
+Piercing Javelin ( Aedric Spear ),1.8 sec.,Single Enemy,4050 Magicka,
+,Aurora Javelin (morph),
+,Piercing Javelin (morph),3.1-3.5 sec.,3442 Stamina,
+Focused Charge ( Aedric Spear ),3 sec.,Single Enemy,3510 Magicka,Only if interrupting spellcaster
+,Explosive Charge (morph),Nearby Enemies
+,Toppling Charge (morph),1.5-2.4 sec.,Single Enemy,Works even if not interrupting
+Nova ( Dawn's Wrath ),2.5 sec.,Enemies in Range,250 Ultimate,Only via ​ Supernova Synergy
+,Solar Prison (morph),5 sec.,Only via ​ Gravity Crush Synergy
+Weapon
+Venom Arrow ( Bow ),3 sec.,Single Target,2430 Stamina,Only if interrupting spellcaster
+Scatter Shot ( Bow ),1.5 sec.,Single Target,2970 Stamina,
+Crushing Shock ( Destruction Staff ),3 sec.,Single Target,2700 Magicka,Only if interrupting spellcaster
+Shock Touch ( Destruction Staff ),(?),Single Enemy,4050 Magicka,
+Defensive Stance ( One Hand and Shield ),3-4 sec.,Single Enemy,2430 Stamina,Only if it reflects a spell
+Power Bash ( One Hand and Shield ),3 sec.,Single Enemy,3780-3510 Stamina,
+Shield Charge ( One Hand and Shield ),2 sec.,Single Enemy,3780 Stamina,
+,Invasion (morph),2-3 sec.,Stuns longer based on distance
+Dizzying Swing ( Two Handed ),3.5 sec.,Single Enemy,3240 Stamina,
+Other
+Volcanic Rune ( Mages Guild ),3-4 sec.,Enemies in Range,Magicka,
+Mesmerize ( Vampire ),5 sec.,Enemies in front of you,3780 Magicka,
+Pounce ( Werewolf ),2 sec.,Nearby Enemies,4050 Stamina,Only if target is Off Balanced

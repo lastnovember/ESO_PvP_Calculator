@@ -1,0 +1,14 @@
+Alliance,Race,+15% exp gain in skill,Max Magicka Magicka Recovery Spell Damage,Max Health Health Recovery,Max Stamina Stamina Recovery Weapon Damage,Other Bonuses
+Aldmeri Dominion,High Elf,Destruction Staff,+2000 Max +258,,+258,"Activating an ability restores 625 Magicka or Stamina , based on whichever is lowest, once every 6 sec. Take 5% less damage when using ability with a channel or cast time. Increased experience gain by 1%."
+Wood Elf,Bow,,,+2000 Max +258 Recovery,Increased movement speed by 5%. Increased physical and spell penetration by 950. Decreases fall damage taken by 10%. Poison and Disease Resistance increased by 2310. Increased stealth detection radius by 3 meters.
+Khajiit,Medium Armor,+915 Max +90 Recovery,+915 Max +90 Recovery,+915 Max +90 Recovery,Increased chance to successfully pickpocket by 5%. Decreased detection radius in Stealth by 3 meters. Increased Critical Damage and Critical healing by 12%
+""
+Daggerfall Covenant,Breton,Light Armor,+2000 Max +130 Recovery,,,"Increased Spell Resistance by 2310, doubled while affected with Burning , Chilled , or Concussed . Reduced cost of Magicka abilities by 7%. Increased alliance points gain by 1%."
+Redguard,One Hand and Shield,,,+2000 Max,Increased duration of any eaten food by 15 minutes. Reduced cost of weapon abilities by 8%. Reduces the effectiveness of snares by 15%. Dealing damage restores 1005 Stamina once every 5 seconds.
+Orc,Heavy Armor,+258,+1000 Max,+1000 Max +258,"Increased crafting inspiration gain by 10%. Dealing damage restores 2125 Health once every 4 seconds. The cost of Sprinting is reduced by 12%, and its speed bonus is increased by 10%."
+""
+Ebonheart Pact,Nord,Two Handed,,+1000 Max,+1500 Max,Consumed drinks duration increased by 15 minutes. Cold Resistance increased by 4620. When taking damage gain 5 Ultimate once every 10 seconds. Physical and Spell Resistance increased by 2600.
+Dark Elf,Dual Wield,+1910 Max +258,,+1910 Max +258,Reduces damage taken from environmental lava by 50%. Increased Flame Resistance by 4620.
+Argonian,Restoration Staff,+1000 Max,+1000 Max,+1000 Max,"Increased swimming speed by 50%. Increased healing done by 6%. Increased Disease and Poison Resistance by 2310. Restore 3125 Health , Magicka , and Stamina when drinking a potion."
+""
+Any,Imperial,One Hand and Shield,,+2000 Max,+2000 Max,Increased gold gain by 1%. Reduced cost of all abilities by 6%.

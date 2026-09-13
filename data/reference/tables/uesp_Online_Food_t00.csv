@@ -1,0 +1,91 @@
+,Increase Attribute Maximum Value by,
+,Name,Food Level,Dish Type,Health,Magicka,Stamina,Dur (mins)
+,Chicken Breast ( page ),1,Meat,385,0,0,35
+,Fishy Stick ( page ),1,Meat,0,0,0,35
+,Roast Pig ( page ),1,Meat,0,0,0,35
+,Baked Apples ( page ),1,Fruit,0,350,0,35
+,Banana Surprise ( page ),1,Fruit,0,350,0,35
+,Grape Preserves ( page ),1,Fruit,0,0,0,35
+,Baked Potato ( page ),1,Vegetable,0,0,350,35
+,Carrot Soup ( page ),1,Vegetable,0,0,0,35
+,Roast Corn ( page ),1,Vegetable,0,0,0,35
+,Flank Steak ( page ),5,Meat,0,0,0,35
+,Grilled Hare ( page ),5,Meat,0,0,0,35
+,Roast Venison ( page ),5,Meat,0,0,0,35
+,Melon Jelly ( page ),5,Fruit,0,0,0,35
+,Pumpkin Puree ( page ),5,Fruit,0,0,0,35
+,Tomato Soup ( page ),5,Fruit,0,0,0,35
+,Borscht ( page ),5,Vegetable,0,0,0,35
+,Green Salad ( page ),5,Vegetable,0,0,0,35
+,Steamed Radishes ( page ),5,Vegetable,0,0,0,35
+,Hunter's Pie ( page ),10,Meat,0,0,0,35
+,Rabbit Pasty ( page ),10,Meat,0,0,0,35
+,Pumpkin Cheesecake ( page ),10,Fruit,0,0,0,35
+,Carrot Cheesecake ( page ),10,Vegetable,0,0,0,35
+,Gilane Garlicky Greens ( page ),10,Vegetable,0,0,0,35
+,Radishes in Rice ( page ),10,Vegetable,0,0,0,35
+,Pan-Fried Trout ( page ),15,Meat,0,0,0,35
+,Rabbit Millet Pilaf ( page ),15,Meat,0,0,0,35
+,Stir-Fried Garlic Beef ( page ),15,Meat,0,0,0,35
+,Deshaan Honeydew Hors D'oeuvres ( page ),15,Fruit,0,0,0,35
+,Fried Green Tomatoes ( page ),15,Fruit,0,0,0,35
+,Balmora Cabbage Biscuits ( page ),15,Vegetable,0,0,1400,35
+,Port Hunding Cheese Fries ( page ),15,Vegetable,0,0,0,35
+,Spicy Beet Salad ( page ),15,Vegetable,0,0,0,35
+,Breton Pork Sausage ( page ),20,Meat,0,0,0,35
+,Venison Pasty ( page ),20,Meat,0,0,0,35
+,Whiterun Cheese-Baked Trout ( page ),20,Meat,0,0,0,35
+,Garlic Pumpkin Seeds ( page ),20,Fruit,0,0,0,35
+,Pellitine Tomato Rice ( page ),20,Fruit,0,0,0,35
+,Redoran Peppered Melon ( page ),20,Fruit,0,0,0,35
+,Alik'r Beets with Goat Cheese ( page ),20,Vegetable,0,0,1750,35
+,Nibenese Garlic Carrots ( page ),20,Vegetable,0,0,0,35
+,Cheese Pork Schnitzel ( page ),25,Meat,0,0,0,35
+,Chicken and Biscuits ( page ),25,Meat,0,0,0,35
+,Salted Cod ( page ),25,Meat,0,0,0,35
+,Cantaloupe Bread ( page ),25,Fruit,0,0,0,35
+,Cinnamon Gorapples ( page ),25,Fruit,0,0,0,35
+,Eidar Radish Salad ( page ),25,Vegetable,0,0,0,35
+,Potato Rice Blintzes ( page ),25,Vegetable,0,0,0,35
+,Rihad Beet and Garlic Salad ( page ),25,Vegetable,0,0,0,35
+,Elinhir Roast Anteloupe ( page ),30,Meat,0,0,0,35
+,Hare in Garlic Sauce ( page ),30,Meat,0,0,0,35
+,Senchal Curry Fish and Rice ( page ),30,Meat,0,0,0,35
+,Stormhold Baked Bananas ( page ),30,Fruit,0,0,0,35
+,Cinnamon Grape Jelly ( page ),30,Fruit,0,0,0,35
+,Cyrodilic Pumpkin Fritters ( page ),30,Fruit,0,0,0,35
+,Chorrol Corn on the Cob ( page ),30,Vegetable,0,0,0,35
+,Garlic Mashed Potatoes ( page ),30,Vegetable,0,0,0,35
+,Jerall View Inn Carrot Cake ( page ),30,Vegetable,0,0,0,35
+,Bruma Jugged Rabbit ( page ),35,Meat,0,0,0,35
+,Camlorn Pork Sausage ( page ),35,Meat,0,0,0,35
+,Crispy Cheddar Chicken ( page ),35,Meat,0,0,0,35
+,Apple Cobbler Supreme ( page ),35,Fruit,0,2800,0,35
+,Clan Mother's Banana Pilaf ( page ),35,Fruit,0,0,0,35
+,Rimmen Raisin Cookies ( page ),35,Fruit,0,0,0,35
+,Indoril Radish Tartlets ( page ),35,Vegetable,0,0,0,35
+,Roasted Beet and Millet Salad ( page ),35,Vegetable,0,0,0,35
+,Twice-Baked Potatoes ( page ),35,Vegetable,0,0,0,35
+,Mammoth Snout Pie ( page ),40,Meat,0,0,0,35
+,Summer Sundas Soup ( page ),40,Fruit,0,0,0,35
+,Cyrodilic Corn Bread ( page ),40,Vegetable,0,0,0,35
+,Akaviri Pork Fried Rice ( page ),45,Meat,0,0,0,35
+,Solstheim Elk and Scuttle ( page ),45,Meat,0,0,0,35
+,Mage's Gorapple Porridge ( page ),45,Fruit,0,0,0,35
+,Melon-Chevre Salad ( page ),45,Fruit,0,0,0,35
+,Vvardenfell Ash Yam Loaf ( page ),45,Vegetable,0,0,0,35
+,Curried Kwama Scrib Risotto ( page ),',Meat,0,0,0,35
+,Millet-Stuffed Pork Loin ( page ),',Meat,0,0,0,35
+,Hag Fen Pumpkin Pie ( page ),',Fruit,0,0,0,35
+,Orcrest Garlic Apple Jelly ( page ),',Fruit,0,0,0,35
+,Velothi Cabbage Soup ( page ),',Vegetable,0,0,0,35
+,Dunmeri Jerked Horse Haunch ( page ),',Meat,0,0,0,35
+,Kwama Egg Quiche ( page ),',Meat,0,0,0,35
+,Combwort Flatbread ( page ),',Fruit,0,0,0,35
+,Pickled Carrot Slurry ( page ),',Vegetable,0,0,0,35
+,The Skald-King's Patty Melt ( page ),',Meat,0,0,0,35
+,House Hlaalu Pumpkin Risotto ( page ),',Fruit,0,0,0,35
+,Nord Warrior Potato Porridge ( page ),',Vegetable,0,0,0,35
+,Garlic-and-Pepper Venison Steak ( page ),',Meat,0,0,0,35
+,Tomato Garlic Chutney ( page ),',Fruit,0,0,0,35
+,Bravil's Best Beet Risotto ( page ),',Vegetable,0,0,0,35

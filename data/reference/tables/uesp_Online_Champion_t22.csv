@@ -1,0 +1,4 @@
+Active Perks,Effect,Cost per Stage,Stages
+,Ward Master,Reduces your damage taken by 2% per stage while Blocking and under the effects of a Damage Shield.,10,5
+,Soothing Shield,When you successfully block and attack you have a 15% chance to restore 151 Health per stage.,10,5
+,Bracing Anchor,"While in combat, increase the amount of damage you can block by 4% per stage, but reduces your Movement Speed by 16% at all stages.",10,5

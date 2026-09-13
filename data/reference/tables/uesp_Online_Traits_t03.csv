@@ -1,0 +1,5 @@
+Trait,Description,Magnitude
+Normal,Fine,Superior,Epic,Legendary
+Ornate,This item sells to merchants for …% more.,280%,285%,290%,295%,300%
+Intricate,"Increase inspiration gained from deconstruction of this item by …, and gain additional refined material upon deconstruction of this item.",Armor/Weapons,280%,285%,290%,295%,300%
+Jewelry,300%,325%,350%,375%,400%

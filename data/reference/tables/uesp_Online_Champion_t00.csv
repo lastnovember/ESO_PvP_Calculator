@@ -1,0 +1,5 @@
+Base Perks,Effect,Cost per Stage,Stages
+,Breakfall,Reduces your fall damage taken by 7% per stage.,10,5
+,Gilded Fingers,Increases your gold gained by 2% per stage.,10,5
+,Out of Sight,Reduces the radius you can be detected while Sneaking by 1 meter per stage.,10,3
+,Professional Upkeep,Reduces the cost of repairing your armor by 1% per stage.,1,50

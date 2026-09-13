@@ -1,0 +1,4 @@
+Active Perks,Effect,Cost per Stage,Stages
+,Pain's Refuge,"Reduces your damage taken by 1% per negative effect active on you, up to a maximum of 20%",50,1
+,Sustained by Suffering,"Increases your Health, Magicka, and Stamina Recovery by 30 per stage while under the effects of a negative effect.",10,5
+,Relentlessness,"Being Stunned or Feared causes you to gain Major Protection for 3 seconds, reducing your damage taken by 10%.",50,1

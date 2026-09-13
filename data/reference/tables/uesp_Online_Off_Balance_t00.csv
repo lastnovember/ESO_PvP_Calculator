@@ -1,0 +1,21 @@
+Skill,Affects,Cost,Notes
+Lava Whip ( Ardent Flame ),Single Target,2700 Magicka,Target must be stunned or immobilized first.
+,Flame Lash (morph),"If target is already Off Balance, does more damage and heals you."
+Deep Breath ( Draconic Power ),Nearby Enemies,4320 Magicka,Target must be interrupted while spellcasting.
+Shattering Rocks ( Earthen Heart ),Single Target,3510 Magicka,"Occurs after 20 sec., 50% chance."
+Veiled Strike ( Assassination ),Single Target,2295 Magicka,Must cast while flanking.
+,Surprise Attack (morph),2295 Stamina
+,Concealed Weapon (morph),2295 Magicka
+Focused Charge ( Aedric Spear ),Single Target,3510 Magicka,"Includes Explosive charge morph, Target must be interrupted while spellcasting."
+,Toppling Charge (morph),"Stuns and sets Off Balance, interrupts if casting."
+Dive ( Animal Companions ),Single Target,2700 Magicka,Target must be at least 7 meters away.
+Death Scythe ( Bone Tyrant ),Enemies in Range,3240 Magicka,Only Ruinous Scythe apply off balance.
+,Ruinous Scythe (morph),2754 Stamina,"Applying the Hemorrhaging status effect, and setting them Off Balance."
+Venom Arrow ( Bow ),Single Target,2430 Stamina,Target must be interrupted while spellcasting.
+Crushing Shock ( Destruction Staff ),Single Target,2700 Magicka,Target must be interrupted while spellcasting.
+Wall of Elements ( Destruction Staff ),Enemies in Range,3510 Magicka,"Must use Lightning Staff, target must be Concussed first"
+Savage Feeding ( Vampire ),Single Target,Passive,"When Feeding on a target, must be from stealth"
+Pounce ( Werewolf ),Nearby Targets,4050 Stamina,Also stuns targets.
+Roar ( Werewolf ),Nearby Targets,4163 Stamina,Also inflicts Fear .
+Uppercut ( Two Handed ),Single Target,2700 Stamina,Only the morph (Dizzying Swing) applies the Off Balance.
+,Dizzying Swing (morph),Hitting an enemy that is already Off Balance stuns them for 2 seconds. Targets that are immune to Off Balance are snared by 40% for 2 seconds.

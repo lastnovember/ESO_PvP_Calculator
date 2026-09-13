@@ -1,0 +1,24 @@
+Active Perks,Effect,Cost per Stage,Stages
+,Focused Mending,Increases your Healing Done with single target heals by 2% per stage.,10,5
+,Swift Renewal,Increases your Healing Done with healing over time effects by 2% per stage.,10,5
+,Soothing Tide,Increases your Healing Done by area of effect heals by 2% per stage.,10,5
+,Cleansing Revival,Healing a target under 25% Health removes all harmful effects from them. This effect can occur once every 24 seconds.,50,1
+,Rejuvenator,Grants 41 Weapon and Spell Damage to your healing abilities per stage.,10,5
+,Foresight,"After you drink a potion, the cost of your Magicka and Stamina healing abilities used within 6 seconds are reduced by 75%.",50,1
+,Reaving Blows,When you deal Direct Damage you heal for 7% of the damage done.,50,1
+,Wrathful Strikes,Grants 41 Weapon and Spell Damage to your damaging abilities per stage.,10,5
+,Occult Overload,"Whenever you kill an enemy under the effect of a status effect, they violently explode for 2560 Oblivion Damage per stage to all other enemies in a 4 meter radius.",10,5
+,Backstabber,Increases your Critical Damage done by 2% per stage against enemies you are flanking.,10,5
+,Fighting Finesse,Increases your Critical Damage and Critical Healing done by 4% per stage.,25,2
+,Deadly Aim,Increases your damage done with single target attacks by 3% per stage.,25,2
+,Thaumaturge,Increases your damage done with damage over time effects by 3% per stage.,25,2
+,Master-at-Arms,Increases your damage done with direct damage attacks by 3% per stage.,25,2
+,Biting Aura,Increases your damage done with area of effect attacks by 3% per stage.,25,2
+,Duelist's Rebuff,Reduces your damage taken by single target attacks by 3% per stage.,25,2
+,Unassailable,Reduces your damage taken by area of effect attacks by 3% per stage.,25,2
+,Enduring Resolve,Reduces your damage taken by damage over time attacks by 3% per stage.,25,2
+,Riposte,"When you block an attack from an enemy within 7 meters, your next direct damage attack made within 5 seconds deals 33% additional damage. This effect can occur once every 5 seconds.",50,1
+,Bulwark,"While you have a Shield or Frost Staff equipped, your Spell and Physical Resistance is increased by 1900.",50,1
+,Last Stand,"When you take damage below 20% Health you gain Major Heroism, granting 3 Ultimate every 1.5 seconds for 9 seconds. This effect can occur once every 9 seconds.",50,1
+,Reinforced,"When you begin Bracing, you gain a damage shield that absorbs 5140 damage for 3 seconds. This effect can occur once every 10 seconds.",50,1
+,Cutting Defense,You deal 504 Magic Damage to attackers whenever they damage you with a Direct Damage attack within 7 meters. This effect scales off the higher of your Physical or Spell Resistance and can activate your Weapon Enchantments and Poisons.,50,1

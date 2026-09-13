@@ -1,0 +1,220 @@
+seq,source,tier,title,words,pdf,url
+1,esolog,esolog,Skill Coefficients,457046,,https://esolog.uesp.net/viewSkillCoef.php
+2,uesp,uesp,Alchemy,5230,002_uesp_Alchemy.pdf,https://en.uesp.net/wiki/Online:Alchemy
+3,uesp,uesp,Alliance War,4105,003_uesp_Alliance_War.pdf,https://en.uesp.net/wiki/Online:Alliance_War
+4,uesp,uesp,Arcanist,409,004_uesp_Arcanist.pdf,https://en.uesp.net/wiki/Online:Arcanist
+5,uesp,uesp,Arena Sets,1001,005_uesp_Arena_Sets.pdf,https://en.uesp.net/wiki/Online:Arena_Sets
+6,uesp,uesp,Armor,2377,006_uesp_Armor.pdf,https://en.uesp.net/wiki/Online:Armor
+7,uesp,uesp,Attributes,422,007_uesp_Attributes.pdf,https://en.uesp.net/wiki/Online:Attributes
+8,uesp,uesp,Battlegrounds,1745,008_uesp_Battlegrounds.pdf,https://en.uesp.net/wiki/Online:Battlegrounds
+9,uesp,uesp,Bleed Damage,3526,009_uesp_Bleed_Damage.pdf,https://en.uesp.net/wiki/Online:Bleed_Damage
+10,uesp,uesp,Buffs,3192,010_uesp_Buffs.pdf,https://en.uesp.net/wiki/Online:Buffs
+11,uesp,uesp,Campaigns,4374,011_uesp_Campaigns.pdf,https://en.uesp.net/wiki/Online:Campaigns
+12,uesp,uesp,Champion,3955,012_uesp_Champion.pdf,https://en.uesp.net/wiki/Online:Champion
+13,uesp,uesp,Champion/deprecated,2142,013_uesp_Champion_deprecated.pdf,https://en.uesp.net/wiki/Online:Champion/deprecated
+14,uesp,uesp,Class Sets,1552,014_uesp_Class_Sets.pdf,https://en.uesp.net/wiki/Online:Class_Sets
+15,uesp,uesp,Classes,828,015_uesp_Classes.pdf,https://en.uesp.net/wiki/Online:Classes
+16,uesp,uesp,Combat,3632,016_uesp_Combat.pdf,https://en.uesp.net/wiki/Online:Combat
+17,uesp,uesp,Craftable Sets,7095,017_uesp_Craftable_Sets.pdf,https://en.uesp.net/wiki/Online:Craftable_Sets
+18,uesp,uesp,Critical Damage,129,018_uesp_Critical_Damage.pdf,https://en.uesp.net/wiki/Online:Critical_Damage
+19,uesp,uesp,Cyrodiil,6152,019_uesp_Cyrodiil.pdf,https://en.uesp.net/wiki/Online:Cyrodiil
+20,uesp,uesp,Disease Damage,2714,020_uesp_Disease_Damage.pdf,https://en.uesp.net/wiki/Online:Disease_Damage
+21,uesp,uesp,Dragonknight,501,021_uesp_Dragonknight.pdf,https://en.uesp.net/wiki/Online:Dragonknight
+22,uesp,uesp,Drinks,2933,022_uesp_Drinks.pdf,https://en.uesp.net/wiki/Online:Drinks
+23,uesp,uesp,Dungeon Sets,11140,023_uesp_Dungeon_Sets.pdf,https://en.uesp.net/wiki/Online:Dungeon_Sets
+24,uesp,uesp,Enchanting,2250,024_uesp_Enchanting.pdf,https://en.uesp.net/wiki/Online:Enchanting
+25,uesp,uesp,Flame Damage,7107,025_uesp_Flame_Damage.pdf,https://en.uesp.net/wiki/Online:Flame_Damage
+26,uesp,uesp,Food,3282,026_uesp_Food.pdf,https://en.uesp.net/wiki/Online:Food
+27,uesp,uesp,Frost Damage,4992,027_uesp_Frost_Damage.pdf,https://en.uesp.net/wiki/Online:Frost_Damage
+28,uesp,uesp,Health,588,028_uesp_Health.pdf,https://en.uesp.net/wiki/Online:Health
+29,uesp,uesp,Immobilize,261,029_uesp_Immobilize.pdf,https://en.uesp.net/wiki/Online:Immobilize
+30,uesp,uesp,Imperial City,2045,030_uesp_Imperial_City.pdf,https://en.uesp.net/wiki/Online:Imperial_City
+31,uesp,uesp,Jewelry Sets,477,031_uesp_Jewelry_Sets.pdf,https://en.uesp.net/wiki/Online:Jewelry_Sets
+32,uesp,uesp,Leveling,2044,032_uesp_Leveling.pdf,https://en.uesp.net/wiki/Online:Leveling
+33,uesp,uesp,Magic Damage,14525,033_uesp_Magic_Damage.pdf,https://en.uesp.net/wiki/Online:Magic_Damage
+34,uesp,uesp,Magicka,516,034_uesp_Magicka.pdf,https://en.uesp.net/wiki/Online:Magicka
+35,uesp,uesp,Monster Helm Sets,5615,035_uesp_Monster_Helm_Sets.pdf,https://en.uesp.net/wiki/Online:Monster_Helm_Sets
+36,uesp,uesp,Movement Speed,1289,036_uesp_Movement_Speed.pdf,https://en.uesp.net/wiki/Online:Movement_Speed
+37,uesp,uesp,Mundus Stones,355,037_uesp_Mundus_Stones.pdf,https://en.uesp.net/wiki/Online:Mundus_Stones
+38,uesp,uesp,Necromancer,562,038_uesp_Necromancer.pdf,https://en.uesp.net/wiki/Online:Necromancer
+39,uesp,uesp,Nightblade,543,039_uesp_Nightblade.pdf,https://en.uesp.net/wiki/Online:Nightblade
+40,uesp,uesp,Oblivion Damage,605,040_uesp_Oblivion_Damage.pdf,https://en.uesp.net/wiki/Online:Oblivion_Damage
+41,uesp,uesp,Off Balance,562,041_uesp_Off_Balance.pdf,https://en.uesp.net/wiki/Online:Off_Balance
+42,uesp,uesp,Overland Sets,6569,042_uesp_Overland_Sets.pdf,https://en.uesp.net/wiki/Online:Overland_Sets
+43,uesp,uesp,PVP Sets,5526,043_uesp_PVP_Sets.pdf,https://en.uesp.net/wiki/Online:PVP_Sets
+44,uesp,uesp,Penetration,128,044_uesp_Penetration.pdf,https://en.uesp.net/wiki/Online:Penetration
+45,uesp,uesp,Physical Damage,10405,045_uesp_Physical_Damage.pdf,https://en.uesp.net/wiki/Online:Physical_Damage
+46,uesp,uesp,Poison Damage,2682,046_uesp_Poison_Damage.pdf,https://en.uesp.net/wiki/Online:Poison_Damage
+47,uesp,uesp,Poisons,852,047_uesp_Poisons.pdf,https://en.uesp.net/wiki/Online:Poisons
+48,uesp,uesp,Potions,2914,048_uesp_Potions.pdf,https://en.uesp.net/wiki/Online:Potions
+49,uesp,uesp,Provisioning,1264,049_uesp_Provisioning.pdf,https://en.uesp.net/wiki/Online:Provisioning
+50,uesp,uesp,Races,922,050_uesp_Races.pdf,https://en.uesp.net/wiki/Online:Races
+51,uesp,uesp,Sets,772,051_uesp_Sets.pdf,https://en.uesp.net/wiki/Online:Sets
+52,uesp,uesp,Shock Damage,5098,052_uesp_Shock_Damage.pdf,https://en.uesp.net/wiki/Online:Shock_Damage
+53,uesp,uesp,Siege Weapons,2408,053_uesp_Siege_Weapons.pdf,https://en.uesp.net/wiki/Online:Siege_Weapons
+54,uesp,uesp,Skills,2620,054_uesp_Skills.pdf,https://en.uesp.net/wiki/Online:Skills
+55,uesp,uesp,Sorcerer,551,055_uesp_Sorcerer.pdf,https://en.uesp.net/wiki/Online:Sorcerer
+56,uesp,uesp,Stamina,533,056_uesp_Stamina.pdf,https://en.uesp.net/wiki/Online:Stamina
+57,uesp,uesp,Stealth,1550,057_uesp_Stealth.pdf,https://en.uesp.net/wiki/Online:Stealth
+58,uesp,uesp,Stun,597,058_uesp_Stun.pdf,https://en.uesp.net/wiki/Online:Stun
+59,uesp,uesp,Synergy,2791,059_uesp_Synergy.pdf,https://en.uesp.net/wiki/Online:Synergy
+60,uesp,uesp,Templar,529,060_uesp_Templar.pdf,https://en.uesp.net/wiki/Online:Templar
+61,uesp,uesp,Traits,1954,061_uesp_Traits.pdf,https://en.uesp.net/wiki/Online:Traits
+62,uesp,uesp,Treasure Hunter (champion),132,062_uesp_Treasure_Hunter_champion.pdf,https://en.uesp.net/wiki/Online:Treasure_Hunter_(champion)
+63,uesp,uesp,Trial Sets,8060,063_uesp_Trial_Sets.pdf,https://en.uesp.net/wiki/Online:Trial_Sets
+64,uesp,uesp,Ultimate,575,064_uesp_Ultimate.pdf,https://en.uesp.net/wiki/Online:Ultimate
+65,uesp,uesp,Vampire,3418,065_uesp_Vampire.pdf,https://en.uesp.net/wiki/Online:Vampire
+66,uesp,uesp,Warden,538,066_uesp_Warden.pdf,https://en.uesp.net/wiki/Online:Warden
+67,uesp,uesp,Weapon Sets,225,067_uesp_Weapon_Sets.pdf,https://en.uesp.net/wiki/Online:Weapon_Sets
+68,uesp,uesp,Weapons,2529,068_uesp_Weapons.pdf,https://en.uesp.net/wiki/Online:Weapons
+69,uesp,uesp,Werewolf,4298,069_uesp_Werewolf.pdf,https://en.uesp.net/wiki/Online:Werewolf
+70,zos,combat-news,2023 Global Reveal–Unveiling the New Arcanist Class,586,070_zos_2023_Global_Reveal_Unveiling_the_New_Arcanist_Class.pdf,https://www.elderscrollsonline.com/en-us/news/post/63493
+71,zos,combat-news,2025 ESO Direct—Update 46 Preview,824,071_zos_2025_ESO_Direct_Update_46_Preview.pdf,https://www.elderscrollsonline.com/en-us/news/post/67841
+72,zos,combat-news,An Update on the Warden and Class Refresh,1266,072_zos_An_Update_on_the_Warden_and_Class_Refresh.pdf,https://www.elderscrollsonline.com/en-us/news/post/70311
+73,zos,combat-news,Anniversary Spotlight—Earn a Multi-Rider Mount with Scribing!,508,073_zos_Anniversary_Spotlight_Earn_a_Multi-Rider_Mount_with_Scribing.pdf,https://www.elderscrollsonline.com/en-us/news/post/66071
+74,zos,combat-news,Announcing The Elder Scrolls Online: Lost Depths & Update 35,630,074_zos_Announcing_The_Elder_Scrolls_Online_Lost_Depths_Update_35.pdf,https://www.elderscrollsonline.com/en-us/news/post/62487
+75,zos,combat-news,Begin Your Journey into the Arcanist Class with This New Developer Video,178,075_zos_Begin_Your_Journey_into_the_Arcanist_Class_with_This_New_Dev.pdf,https://www.elderscrollsonline.com/en-us/news/post/64175
+76,zos,combat-news,Capture New Collectibles during the Whitestrake’s Mayhem PvP Event!,1172,076_zos_Capture_New_Collectibles_during_the_Whitestrake_s_Mayhem_PvP.pdf,https://www.elderscrollsonline.com/en-us/news/post/69275
+77,zos,combat-news,Catch Up on the Class Identity Refresh Announcement & Livestream,214,077_zos_Catch_Up_on_the_Class_Identity_Refresh_Announcement_Livestre.pdf,https://www.elderscrollsonline.com/en-us/news/post/69089
+78,zos,combat-news,Check Out What You Missed During the Update 44 Preview Livestream,136,078_zos_Check_Out_What_You_Missed_During_the_Update_44_Preview_Lives.pdf,https://www.elderscrollsonline.com/en-us/news/post/66715
+79,zos,combat-news,Community Guides Special—Necrom & Update 38,574,079_zos_Community_Guides_Special_Necrom_Update_38.pdf,https://www.elderscrollsonline.com/en-us/news/post/64323
+80,zos,combat-news,Community Guides–Fallen Banners & Update 45,528,080_zos_Community_Guides_Fallen_Banners_Update_45.pdf,https://www.elderscrollsonline.com/en-us/news/post/67725
+81,zos,combat-news,Community Guides–Seasons of the Worm Cult Part 1 & Update 46,592,081_zos_Community_Guides_Seasons_of_the_Worm_Cult_Part_1_Update_46.pdf,https://www.elderscrollsonline.com/en-us/news/post/68263
+82,zos,combat-news,Community Guides–Whitestrake’s Mayhem PvP Special,552,082_zos_Community_Guides_Whitestrake_s_Mayhem_PvP_Special.pdf,https://www.elderscrollsonline.com/en-us/news/post/66431
+83,zos,combat-news,Community Guides—Firesong & Update 36,565,083_zos_Community_Guides_Firesong_Update_36.pdf,https://www.elderscrollsonline.com/en-us/news/post/63257
+84,zos,combat-news,Community Guides—Gold Road and Update 42,692,084_zos_Community_Guides_Gold_Road_and_Update_42.pdf,https://www.elderscrollsonline.com/en-us/news/post/66287
+85,zos,combat-news,Community Guides—Infinite Archive & Update 40,562,085_zos_Community_Guides_Infinite_Archive_Update_40.pdf,https://www.elderscrollsonline.com/en-us/news/post/64999
+86,zos,combat-news,Community Guides—Lost Depths & Update 35,626,086_zos_Community_Guides_Lost_Depths_Update_35.pdf,https://www.elderscrollsonline.com/en-us/news/post/62749
+87,zos,combat-news,Community Guides—Scribes of Fate & Update 37,613,087_zos_Community_Guides_Scribes_of_Fate_Update_37.pdf,https://www.elderscrollsonline.com/en-us/news/post/63851
+88,zos,combat-news,Community Guides—Scribing,538,088_zos_Community_Guides_Scribing.pdf,https://www.elderscrollsonline.com/en-us/news/post/66199
+89,zos,combat-news,Community Guides—Scribing and Subclassing Special,437,089_zos_Community_Guides_Scribing_and_Subclassing_Special.pdf,https://www.elderscrollsonline.com/en-us/news/post/68459
+90,zos,combat-news,Community Guides—Update 39,395,090_zos_Community_Guides_Update_39.pdf,https://www.elderscrollsonline.com/en-us/news/post/64599
+91,zos,combat-news,Community Guides—Update 41 and Scions of Ithelia,588,091_zos_Community_Guides_Update_41_and_Scions_of_Ithelia.pdf,https://www.elderscrollsonline.com/en-us/news/post/65727
+92,zos,combat-news,Community Guides—Update 43,512,092_zos_Community_Guides_Update_43.pdf,https://www.elderscrollsonline.com/en-us/news/post/66623
+93,zos,combat-news,Community Guides—Update 44,468,093_zos_Community_Guides_Update_44.pdf,https://www.elderscrollsonline.com/en-us/news/post/67133
+94,zos,combat-news,Community Guides—Update 47 & Feast of Shadows,457,094_zos_Community_Guides_Update_47_Feast_of_Shadows.pdf,https://www.elderscrollsonline.com/en-us/news/post/68627
+95,zos,combat-news,Community Guides—Update 49,510,095_zos_Community_Guides_Update_49.pdf,https://www.elderscrollsonline.com/en-us/news/post/69535
+96,zos,combat-news,Community Guides—Update 50,576,096_zos_Community_Guides_Update_50.pdf,https://www.elderscrollsonline.com/en-us/news/post/69967
+97,zos,combat-news,Community Guides—Whitestrake’s Mayhem and PvP,513,097_zos_Community_Guides_Whitestrake_s_Mayhem_and_PvP.pdf,https://www.elderscrollsonline.com/en-us/news/post/65613
+98,zos,combat-news,Community Spotlight – Geonhdrio’s Impenetrable Dwarven Armor,960,098_zos_Community_Spotlight_Geonhdrio_s_Impenetrable_Dwarven_Armor.pdf,https://www.elderscrollsonline.com/en-us/news/post/62683
+99,zos,combat-news,Community Spotlight—Ainaven Rules Cyrodiil with This Incredible Emperor Cosplay,700,099_zos_Community_Spotlight_Ainaven_Rules_Cyrodiil_with_This_Incredi.pdf,https://www.elderscrollsonline.com/en-us/news/post/63885
+100,zos,combat-news,Conquer the Battlefield & Earn a New Style During the Whitestrake’s Mayhem PvP Event,960,100_zos_Conquer_the_Battlefield_Earn_a_New_Style_During_the_Whitestr.pdf,https://www.elderscrollsonline.com/en-us/news/post/65535
+101,zos,combat-news,Cyrodiil Cries Out Again for PvP Vengeance!,539,101_zos_Cyrodiil_Cries_Out_Again_for_PvP_Vengeance.pdf,https://www.elderscrollsonline.com/en-us/news/post/68725
+102,zos,combat-news,Delve Deeper into Update 46’s Base Game Additions with ESO’s Developers,1198,102_zos_Delve_Deeper_into_Update_46_s_Base_Game_Additions_with_ESO_s.pdf,https://www.elderscrollsonline.com/en-us/news/post/68289
+103,zos,combat-news,Delve into the Infinite Archive & Update 40 during a Special Livestream Preview,209,103_zos_Delve_into_the_Infinite_Archive_Update_40_during_a_Special_L.pdf,https://www.elderscrollsonline.com/en-us/news/post/64615
+104,zos,combat-news,Discover 2025’s First Major ESO Release with the Update 45 Preview Livestream,177,104_zos_Discover_2025_s_First_Major_ESO_Release_with_the_Update_45_P.pdf,https://www.elderscrollsonline.com/en-us/news/post/67393
+105,zos,combat-news,Discover Update 50’s Player Experience Improvements,719,105_zos_Discover_Update_50_s_Player_Experience_Improvements.pdf,https://www.elderscrollsonline.com/en-us/news/post/69857
+106,zos,combat-news,Diving into the Dragonknight Class PTS Updates,2721,106_zos_Diving_into_the_Dragonknight_Class_PTS_Updates.pdf,https://www.elderscrollsonline.com/en-us/news/post/69353
+107,zos,combat-news,Dominate Your Rivals and Earn Unique Rewards During the Whitestrake’s Mayhem PvP Event,1023,107_zos_Dominate_Your_Rivals_and_Earn_Unique_Rewards_During_the_Whit.pdf,https://www.elderscrollsonline.com/en-us/news/post/62567
+108,zos,combat-news,Don’t Miss Out on Week 4’s Set Sail for High Isle Rewards & Streams!,248,108_zos_Don_t_Miss_Out_on_Week_4_s_Set_Sail_for_High_Isle_Rewards_St.pdf,https://www.elderscrollsonline.com/en-us/news/post/62375
+109,zos,combat-news,Don’t Miss the Infinite Archive & Update 40 Preview Livestream,534,109_zos_Don_t_Miss_the_Infinite_Archive_Update_40_Preview_Livestream.pdf,https://www.elderscrollsonline.com/en-us/news/post/64679
+110,zos,combat-news,ESO 2024 Global Reveal—Introducing Scribing,697,110_zos_ESO_2024_Global_Reveal_Introducing_Scribing.pdf,https://www.elderscrollsonline.com/en-us/news/post/65361
+111,zos,combat-news,ESO Devs Talk Update 40’s Group Finder and Grand Master Crafting Station,945,111_zos_ESO_Devs_Talk_Update_40_s_Group_Finder_and_Grand_Master_Craf.pdf,https://www.elderscrollsonline.com/en-us/news/post/64897
+112,zos,combat-news,ESO LIVE: JANUARY 29 @ 11AM EST—First Look at Scions of Ithelia & Update 41,210,112_zos_ESO_LIVE_JANUARY_29_11AM_EST_First_Look_at_Scions_of_Ithelia.pdf,https://www.elderscrollsonline.com/en-us/news/post/65463
+113,zos,combat-news,ESO Live: July 10 @ 12PM EDT—Update 39 Preview Stream,181,113_zos_ESO_Live_July_10_12PM_EDT_Update_39_Preview_Stream.pdf,https://www.elderscrollsonline.com/en-us/news/post/64391
+114,zos,combat-news,ESO Live: July 11 at 12PM EDT—Delving the Lost Depths & Update 35,273,114_zos_ESO_Live_July_11_at_12PM_EDT_Delving_the_Lost_Depths_Update_.pdf,https://www.elderscrollsonline.com/en-us/news/post/62413
+115,zos,combat-news,ESO Live: July 3 @ 1PM EDT—Update 43 Developer Preview,189,115_zos_ESO_Live_July_3_1PM_EDT_Update_43_Developer_Preview.pdf,https://www.elderscrollsonline.com/en-us/news/post/66329
+116,zos,combat-news,ESO Live: September 16 at 2:30PM EDT—Firesong & Update 36 Preview,265,116_zos_ESO_Live_September_16_at_2_30PM_EDT_Firesong_Update_36_Previ.pdf,https://www.elderscrollsonline.com/en-us/news/post/62819
+117,zos,combat-news,ESO’s Developers Share Subclassing System Secrets,1053,117_zos_ESO_s_Developers_Share_Subclassing_System_Secrets.pdf,https://www.elderscrollsonline.com/en-us/news/post/68091
+118,zos,combat-news,ESO’s Devs Share Insights into Update 49’s Player Experience Improvements,874,118_zos_ESO_s_Devs_Share_Insights_into_Update_49_s_Player_Experience.pdf,https://www.elderscrollsonline.com/en-us/news/post/69461
+119,zos,combat-news,Earn Greater Rewards & Glory with the New PvP Veterancy System,514,119_zos_Earn_Greater_Rewards_Glory_with_the_New_PvP_Veterancy_System.pdf,https://www.elderscrollsonline.com/en-us/news/post/69891
+120,zos,combat-news,Enjoy Community-Requested Upgrades to Your Player Experience with Update 49,1401,120_zos_Enjoy_Community-Requested_Upgrades_to_Your_Player_Experience.pdf,https://www.elderscrollsonline.com/en-us/news/post/69241
+121,zos,combat-news,Fallen Banners & Update 45 Now Live on All Platforms,912,121_zos_Fallen_Banners_Update_45_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/67679
+122,zos,combat-news,Fallen Banners & Update 45 Now Live on the Public Test Server,223,122_zos_Fallen_Banners_Update_45_Now_Live_on_the_Public_Test_Server.pdf,https://www.elderscrollsonline.com/en-us/news/post/67429
+123,zos,combat-news,Feast of Shadows & Update 47 Now Live on All Platforms,806,123_zos_Feast_of_Shadows_Update_47_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/68561
+124,zos,combat-news,Firesong DLC & Update 36 Now Available on the PC/Mac Public Test Server (PTS),230,124_zos_Firesong_DLC_Update_36_Now_Available_on_the_PC_Mac_Public_Te.pdf,https://www.elderscrollsonline.com/en-us/news/post/62847
+125,zos,combat-news,Five Ways to Get Ready for Seasons of the Worm Cult Part 1 & Update 46,637,125_zos_Five_Ways_to_Get_Ready_for_Seasons_of_the_Worm_Cult_Part_1_U.pdf,https://www.elderscrollsonline.com/en-us/news/post/68049
+126,zos,combat-news,Get Your Claws into the Season Zero Werewolf Update,1357,126_zos_Get_Your_Claws_into_the_Season_Zero_Werewolf_Update.pdf,https://www.elderscrollsonline.com/en-us/news/post/69937
+127,zos,combat-news,Get Your First Look at Update 48 & More in a New Preview Livestream,196,127_zos_Get_Your_First_Look_at_Update_48_More_in_a_New_Preview_Lives.pdf,https://www.elderscrollsonline.com/en-us/news/post/68671
+128,zos,combat-news,Get Your First Look at the New Dungeons and More during the Update 47 Preview Livestream,203,128_zos_Get_Your_First_Look_at_the_New_Dungeons_and_More_during_the_.pdf,https://www.elderscrollsonline.com/en-us/news/post/68389
+129,zos,combat-news,Get a Glimpse of ESO’s End-of-Year Adventures in the Update 44 Preview Livestream,170,129_zos_Get_a_Glimpse_of_ESO_s_End-of-Year_Adventures_in_the_Update_.pdf,https://www.elderscrollsonline.com/en-us/news/post/66609
+130,zos,combat-news,Gold Road Chapter & Update 42 Now Live on the PC/Mac Public Test Server!,248,130_zos_Gold_Road_Chapter_Update_42_Now_Live_on_the_PC_Mac_Public_Te.pdf,https://www.elderscrollsonline.com/en-us/news/post/65909
+131,zos,combat-news,Golden Pursuits—Battle Throughout Cyrodiil to Claim Bonus Rewards,320,131_zos_Golden_Pursuits_Battle_Throughout_Cyrodiil_to_Claim_Bonus_Re.pdf,https://www.elderscrollsonline.com/en-us/news/post/67737
+132,zos,combat-news,Golden Pursuits—Scribing for All!,333,132_zos_Golden_Pursuits_Scribing_for_All.pdf,https://www.elderscrollsonline.com/en-us/news/post/68301
+133,zos,combat-news,Infinite Archive & Update 40 Now Available on the PC/Mac Public Test Server!,233,133_zos_Infinite_Archive_Update_40_Now_Available_on_the_PC_Mac_Publi.pdf,https://www.elderscrollsonline.com/en-us/news/post/64751
+134,zos,combat-news,Infinite Archive & Update 40 Now Live on All Platforms,1214,134_zos_Infinite_Archive_Update_40_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/64849
+135,zos,combat-news,Japanese Localization Arrives on Consoles with ESO’s Update 40,164,135_zos_Japanese_Localization_Arrives_on_Consoles_with_ESO_s_Update_.pdf,https://www.elderscrollsonline.com/en-us/news/post/64685
+136,zos,combat-news,Leaping into the Dragonknight Class Refresh,5447,136_zos_Leaping_into_the_Dragonknight_Class_Refresh.pdf,https://www.elderscrollsonline.com/en-us/news/post/69219
+137,zos,combat-news,Learn About Gold Road’s Upcoming Scribing System in this 101-Style Video Guide,185,137_zos_Learn_About_Gold_Road_s_Upcoming_Scribing_System_in_this_101.pdf,https://www.elderscrollsonline.com/en-us/news/post/65899
+138,zos,combat-news,Learn the Basics of Housing & Update 43’s Home Tours,354,138_zos_Learn_the_Basics_of_Housing_Update_43_s_Home_Tours.pdf,https://www.elderscrollsonline.com/en-us/news/post/66563
+139,zos,combat-news,Learn to Combat the Pressures of Tanking with the New Tankxiety Tuesdays Livestream Series,181,139_zos_Learn_to_Combat_the_Pressures_of_Tanking_with_the_New_Tankxi.pdf,https://www.elderscrollsonline.com/en-us/news/post/67169
+140,zos,combat-news,Loremaster’s Archive—Scribing,2588,140_zos_Loremaster_s_Archive_Scribing.pdf,https://www.elderscrollsonline.com/en-us/news/post/66257
+141,zos,combat-news,Lost Depths DLC & Update 35 Now Available on the PC/Mac Public Test Server (PTS),264,141_zos_Lost_Depths_DLC_Update_35_Now_Available_on_the_PC_Mac_Public.pdf,https://www.elderscrollsonline.com/en-us/news/post/62529
+142,zos,combat-news,Lost Depths DLC & Update 35 Now Live on All Platforms,880,142_zos_Lost_Depths_DLC_Update_35_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/62693
+143,zos,combat-news,Necrom Chapter & Update 38 Now Live on the Public Test Server!,296,143_zos_Necrom_Chapter_Update_38_Now_Live_on_the_Public_Test_Server.pdf,https://www.elderscrollsonline.com/en-us/news/post/64015
+144,zos,combat-news,Obtain Dragon-Felling Weaponry via This New Prime Gaming Bundle!,390,144_zos_Obtain_Dragon-Felling_Weaponry_via_This_New_Prime_Gaming_Bun.pdf,https://www.elderscrollsonline.com/en-us/news/post/63939
+145,zos,combat-news,Player Experience Livestream—Update 50,148,145_zos_Player_Experience_Livestream_Update_50.pdf,https://www.elderscrollsonline.com/en-us/news/post/69593
+146,zos,combat-news,Player Experience Livestream—Update 51,182,146_zos_Player_Experience_Livestream_Update_51.pdf,https://www.elderscrollsonline.com/en-us/news/post/70011
+147,zos,combat-news,Scions of Ithelia & Update 41 Now Available on the Public Test Server!,230,147_zos_Scions_of_Ithelia_Update_41_Now_Available_on_the_Public_Test.pdf,https://www.elderscrollsonline.com/en-us/news/post/65487
+148,zos,combat-news,Scions of Ithelia & Update 41 Now Live on All Platforms,1166,148_zos_Scions_of_Ithelia_Update_41_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/65641
+149,zos,combat-news,Scribes of Fate & Update 37 Now Available on the Public Test Server!,230,149_zos_Scribes_of_Fate_Update_37_Now_Available_on_the_Public_Test_S.pdf,https://www.elderscrollsonline.com/en-us/news/post/63613
+150,zos,combat-news,Scribes of Fate & Update 37 Now Live on All Platforms,1016,150_zos_Scribes_of_Fate_Update_37_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/63801
+151,zos,combat-news,Scribing’s Developers Share Their Favorite Hand-Crafted Abilities,1025,151_zos_Scribing_s_Developers_Share_Their_Favorite_Hand-Crafted_Abil.pdf,https://www.elderscrollsonline.com/en-us/news/post/66057
+152,zos,combat-news,Seasons of the Worm Cult Part 1 & Update 46 Now Live on All Platforms,1394,152_zos_Seasons_of_the_Worm_Cult_Part_1_Update_46_Now_Live_on_All_Pl.pdf,https://www.elderscrollsonline.com/en-us/news/post/68093
+153,zos,combat-news,Seasons of the Worm Cult Part 1 & Update 46 Now Live on the Public Test Server,188,153_zos_Seasons_of_the_Worm_Cult_Part_1_Update_46_Now_Live_on_the_Pu.pdf,https://www.elderscrollsonline.com/en-us/news/post/67889
+154,zos,combat-news,Seasons of the Worm Cult Part 2 & Update 48 Now Live on All Platforms,1235,154_zos_Seasons_of_the_Worm_Cult_Part_2_Update_48_Now_Live_on_All_Pl.pdf,https://www.elderscrollsonline.com/en-us/news/post/68915
+155,zos,combat-news,Seasons of the Worm Cult Part 2 & Update 48 Now Live on the Public Test Server,173,155_zos_Seasons_of_the_Worm_Cult_Part_2_Update_48_Now_Live_on_the_Pu.pdf,https://www.elderscrollsonline.com/en-us/news/post/68703
+156,zos,combat-news,See the Numbers Behind Tales of Tribute’s First Month of PvP Matches,185,156_zos_See_the_Numbers_Behind_Tales_of_Tribute_s_First_Month_of_PvP.pdf,https://www.elderscrollsonline.com/en-us/news/post/62561
+157,zos,combat-news,Sharpen your PvP Skills with Dooma’s Battlegrounds Tips Video Guide!,382,157_zos_Sharpen_your_PvP_Skills_with_Dooma_s_Battlegrounds_Tips_Vide.pdf,https://www.elderscrollsonline.com/en-us/news/post/67221
+158,zos,combat-news,Specialize and Customize with ESO's Class Mastery,1462,158_zos_Specialize_and_Customize_with_ESO_s_Class_Mastery.pdf,https://www.elderscrollsonline.com/en-us/news/post/69859
+159,zos,combat-news,Stalk Tamriel’s PvP Battlefields & Earn Bonus Rewards During Whitestrake’s Mayhem,1045,159_zos_Stalk_Tamriel_s_PvP_Battlefields_Earn_Bonus_Rewards_During_W.pdf,https://www.elderscrollsonline.com/en-us/news/post/64081
+160,zos,combat-news,Survey These Dev Answers for the Cyrodiil Champions Community Q&A,289,160_zos_Survey_These_Dev_Answers_for_the_Cyrodiil_Champions_Communit.pdf,https://www.elderscrollsonline.com/en-us/news/post/67551
+161,zos,combat-news,Test ESO’s Upcoming Adventures with Update 51 on the PTS,232,161_zos_Test_ESO_s_Upcoming_Adventures_with_Update_51_on_the_PTS.pdf,https://www.elderscrollsonline.com/en-us/news/post/70247
+162,zos,combat-news,Test the Prince of Madness on the Update 50 PTS!,181,162_zos_Test_the_Prince_of_Madness_on_the_Update_50_PTS.pdf,https://www.elderscrollsonline.com/en-us/news/post/69737
+163,zos,combat-news,The Elder Scrolls Online: Firesong & Update 36 Now Live on All Platforms,1089,163_zos_The_Elder_Scrolls_Online_Firesong_Update_36_Now_Live_on_All_.pdf,https://www.elderscrollsonline.com/en-us/news/post/63075
+164,zos,combat-news,The Elder Scrolls Online: Firesong & Update 36 Preview,921,164_zos_The_Elder_Scrolls_Online_Firesong_Update_36_Preview.pdf,https://www.elderscrollsonline.com/en-us/news/post/62833
+165,zos,combat-news,The Elder Scrolls Online: Gold Road & Update 42 Now Live on All Platforms,1443,165_zos_The_Elder_Scrolls_Online_Gold_Road_Update_42_Now_Live_on_All.pdf,https://www.elderscrollsonline.com/en-us/news/post/66077
+166,zos,combat-news,The Elder Scrolls Online: Necrom & Update 38 Now Live on All Platforms,1472,166_zos_The_Elder_Scrolls_Online_Necrom_Update_38_Now_Live_on_All_Pl.pdf,https://www.elderscrollsonline.com/en-us/news/post/64219
+167,zos,combat-news,The First Changes of Update 49 and Season Zero Are Now Live on the Public Test Server,276,167_zos_The_First_Changes_of_Update_49_and_Season_Zero_Are_Now_Live_.pdf,https://www.elderscrollsonline.com/en-us/news/post/69229
+168,zos,combat-news,The Vengeance Campaign Returns with Newly Revamped Skill Lines and Golden Pursuits!,593,168_zos_The_Vengeance_Campaign_Returns_with_Newly_Revamped_Skill_Lin.pdf,https://www.elderscrollsonline.com/en-us/news/post/68369
+169,zos,combat-news,To Arms! Help Us Collect Vital Data by Battling Your Fellow Players in Cyrodiil,510,169_zos_To_Arms_Help_Us_Collect_Vital_Data_by_Battling_Your_Fellow_P.pdf,https://www.elderscrollsonline.com/en-us/news/post/67731
+170,zos,combat-news,Unlock the Scribing System for Free & Craft Custom Skills,349,170_zos_Unlock_the_Scribing_System_for_Free_Craft_Custom_Skills.pdf,https://www.elderscrollsonline.com/en-us/news/post/68421
+171,zos,combat-news,Update 35 Preview—Combat Changes,1524,171_zos_Update_35_Preview_Combat_Changes.pdf,https://www.elderscrollsonline.com/en-us/news/post/62493
+172,zos,combat-news,"Update 37 Preview—Screen Narration, Hide Shoulders, & More",778,172_zos_Update_37_Preview_Screen_Narration_Hide_Shoulders_More.pdf,https://www.elderscrollsonline.com/en-us/news/post/63725
+173,zos,combat-news,Update 39 Base-Game Patch Now Live on PC/Mac,782,173_zos_Update_39_Base-Game_Patch_Now_Live_on_PC_Mac.pdf,https://www.elderscrollsonline.com/en-us/news/post/64551
+174,zos,combat-news,Update 39 Now Available on the PC/Mac Public Test Server!,217,174_zos_Update_39_Now_Available_on_the_PC_Mac_Public_Test_Server.pdf,https://www.elderscrollsonline.com/en-us/news/post/64401
+175,zos,combat-news,Update 39 Preview—Base Game Improvements and Additions,992,175_zos_Update_39_Preview_Base_Game_Improvements_and_Additions.pdf,https://www.elderscrollsonline.com/en-us/news/post/64407
+176,zos,combat-news,Update 40 Brings All-New Improvements to Tamriel’s Adventurers,593,176_zos_Update_40_Brings_All-New_Improvements_to_Tamriel_s_Adventure.pdf,https://www.elderscrollsonline.com/en-us/news/post/64689
+177,zos,combat-news,Update 43 Base-Game Patch Now Live on All Platforms,517,177_zos_Update_43_Base-Game_Patch_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/66487
+178,zos,combat-news,Update 43 Is Now Available on the PC/Mac Public Test Server,176,178_zos_Update_43_Is_Now_Available_on_the_PC_Mac_Public_Test_Server.pdf,https://www.elderscrollsonline.com/en-us/news/post/66365
+179,zos,combat-news,Update 43 Preview—Home Tours,889,179_zos_Update_43_Preview_Home_Tours.pdf,https://www.elderscrollsonline.com/en-us/news/post/66495
+180,zos,combat-news,Update 43 Preview—Infinite Archive Updates,878,180_zos_Update_43_Preview_Infinite_Archive_Updates.pdf,https://www.elderscrollsonline.com/en-us/news/post/66519
+181,zos,combat-news,Update 43 Preview—Tour ESO’s Upcoming Base-Game Features & Improvements,791,181_zos_Update_43_Preview_Tour_ESO_s_Upcoming_Base-Game_Features_Imp.pdf,https://www.elderscrollsonline.com/en-us/news/post/66331
+182,zos,combat-news,Update 44 Base-Game Patch Now Live on All Platforms,1057,182_zos_Update_44_Base-Game_Patch_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/66869
+183,zos,combat-news,Update 44 Now Live on the Public Test Server!,169,183_zos_Update_44_Now_Live_on_the_Public_Test_Server.pdf,https://www.elderscrollsonline.com/en-us/news/post/66721
+184,zos,combat-news,Update 44 Preview—Battlegrounds Updates,1146,184_zos_Update_44_Preview_Battlegrounds_Updates.pdf,https://www.elderscrollsonline.com/en-us/news/post/66847
+185,zos,combat-news,"Update 44 Preview—Battlegrounds, New Companions, & More!",1303,185_zos_Update_44_Preview_Battlegrounds_New_Companions_More.pdf,https://www.elderscrollsonline.com/en-us/news/post/66701
+186,zos,combat-news,Update 44 Preview—Golden Pursuits,699,186_zos_Update_44_Preview_Golden_Pursuits.pdf,https://www.elderscrollsonline.com/en-us/news/post/66867
+187,zos,combat-news,Update 44 Preview—New Companions,983,187_zos_Update_44_Preview_New_Companions.pdf,https://www.elderscrollsonline.com/en-us/news/post/66831
+188,zos,combat-news,Update 44 Preview—Scribing and Skill Styles Update,937,188_zos_Update_44_Preview_Scribing_and_Skill_Styles_Update.pdf,https://www.elderscrollsonline.com/en-us/news/post/66875
+189,zos,combat-news,Update 45 Preview—Base Game Improvements,962,189_zos_Update_45_Preview_Base_Game_Improvements.pdf,https://www.elderscrollsonline.com/en-us/news/post/67601
+190,zos,combat-news,Update 45 Preview—Fallen Banners,847,190_zos_Update_45_Preview_Fallen_Banners.pdf,https://www.elderscrollsonline.com/en-us/news/post/67411
+191,zos,combat-news,Update 47 Preview—Base Game Improvements,876,191_zos_Update_47_Preview_Base_Game_Improvements.pdf,https://www.elderscrollsonline.com/en-us/news/post/68585
+192,zos,combat-news,Update 47 Preview—Feast on a New Dungeon Pack & More,544,192_zos_Update_47_Preview_Feast_on_a_New_Dungeon_Pack_More.pdf,https://www.elderscrollsonline.com/en-us/news/post/68403
+193,zos,combat-news,Update 47 and Feast of Shadows Are Now Available on the Public Test Server,199,193_zos_Update_47_and_Feast_of_Shadows_Are_Now_Available_on_the_Publ.pdf,https://www.elderscrollsonline.com/en-us/news/post/68409
+194,zos,combat-news,Update 49 Base-Game Patch Now Live on All Platforms,1438,194_zos_Update_49_Base-Game_Patch_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/69503
+195,zos,combat-news,Update 50 Base-Game Patch Now Live on All Platforms,1008,195_zos_Update_50_Base-Game_Patch_Now_Live_on_All_Platforms.pdf,https://www.elderscrollsonline.com/en-us/news/post/69965
+196,zos,combat-news,Update 50 is Now Available on the Public Test Server,281,196_zos_Update_50_is_Now_Available_on_the_Public_Test_Server.pdf,https://www.elderscrollsonline.com/en-us/news/post/69713
+197,zos,combat-news,Vengeance Returns Full-Time with Update 50!,367,197_zos_Vengeance_Returns_Full-Time_with_Update_50.pdf,https://www.elderscrollsonline.com/en-us/news/post/69939
+198,zos,combat-news,"Watch Streamers, Developers, and Special Guests Clash during the ESO Battlegrounds Brawl!",504,198_zos_Watch_Streamers_Developers_and_Special_Guests_Clash_during_t.pdf,https://www.elderscrollsonline.com/en-us/news/post/67199
+199,zos,combat-news,Watch the #ESOFam (Literally) Set Sail in Germany,177,199_zos_Watch_the_ESOFam_Literally_Set_Sail_in_Germany.pdf,https://www.elderscrollsonline.com/en-us/news/post/62471
+200,zos,deep-dive,Developer Deep Dive—ESO's Class Identity Refresh,2109,200_zos_Developer_Deep_Dive_ESO_s_Class_Identity_Refresh.pdf,https://www.elderscrollsonline.com/en-us/news/post/69039
+201,zos,deep-dive,Developer Deep Dive—Item Sets Part 2,1936,201_zos_Developer_Deep_Dive_Item_Sets_Part_2.pdf,https://www.elderscrollsonline.com/en-us/news/post/66841
+202,zos,deep-dive,Developer Deep Dive—Season Zero’s Challenge Difficulty,901,202_zos_Developer_Deep_Dive_Season_Zero_s_Challenge_Difficulty.pdf,https://www.elderscrollsonline.com/en-us/news/post/69313
+203,zos,deep-dive,Developer Deep Dive—Update 49’s Ability Refreshes,1589,203_zos_Developer_Deep_Dive_Update_49_s_Ability_Refreshes.pdf,https://www.elderscrollsonline.com/en-us/news/post/69465
+204,zos,deep-dive,ESO Deep Dive—Creating the Housing System’s Furnishings,2160,204_zos_ESO_Deep_Dive_Creating_the_Housing_System_s_Furnishings.pdf,https://www.elderscrollsonline.com/en-us/news/post/62789
+205,zos,deep-dive,ESO Developer Deep Dive–Giving Tamriel’s Characters Their Voice,2266,205_zos_ESO_Developer_Deep_Dive_Giving_Tamriel_s_Characters_Their_Vo.pdf,https://www.elderscrollsonline.com/en-us/news/post/64149
+206,zos,deep-dive,ESO Developer Deep Dive—Combat Core Values,918,206_zos_ESO_Developer_Deep_Dive_Combat_Core_Values.pdf,https://www.elderscrollsonline.com/en-us/news/post/63417
+207,zos,deep-dive,"ESO Developer Deep Dive—Item Sets, Part 1",2139,207_zos_ESO_Developer_Deep_Dive_Item_Sets_Part_1.pdf,https://www.elderscrollsonline.com/en-us/news/post/66547
+208,zos,deep-dive,ESO Developer Deep Dive—Lore Books,2283,208_zos_ESO_Developer_Deep_Dive_Lore_Books.pdf,https://www.elderscrollsonline.com/en-us/news/post/63175
+209,zos,deep-dive,Ready Your Expedition into Western Solstice with this Deep Dive,902,209_zos_Ready_Your_Expedition_into_Western_Solstice_with_this_Deep_D.pdf,https://www.elderscrollsonline.com/en-us/news/post/68105
+210,zos,guide,Guide to ESO Plus Membership,1968,210_zos_Guide_to_ESO_Plus_Membership.pdf,https://www.elderscrollsonline.com/en-us/guides/esoplusguide
+211,zos,guide,Guide to Master Writs,1272,211_zos_Guide_to_Master_Writs.pdf,https://www.elderscrollsonline.com/en-us/guides/masterwrits
+212,zos,guide,Guide to Subclassing,948,212_zos_Guide_to_Subclassing.pdf,https://www.elderscrollsonline.com/en-us/guides/subclassing
+213,zos,guide,Hero’s Return Guide,802,213_zos_Hero_s_Return_Guide.pdf,https://www.elderscrollsonline.com/en-us/guides/herosreturn
+214,zos,guide,Imperial City Guide,2083,214_zos_Imperial_City_Guide.pdf,https://www.elderscrollsonline.com/en-us/guides/imperialcity
+215,zos,guide,Outfit System: Basics Guide,1664,215_zos_Outfit_System_Basics_Guide.pdf,https://www.elderscrollsonline.com/en-us/guides/outfitbasics
+216,zos,guide,Tamriel Tomes Guide,1364,216_zos_Tamriel_Tomes_Guide.pdf,https://www.elderscrollsonline.com/en-us/guides/tamrieltomes
+217,zos,new-player-guide,New Player Guide: Group PvE Challenges,1456,217_zos_New_Player_Guide_Group_PvE_Challenges.pdf,https://www.elderscrollsonline.com/en-us/newplayerguide/pvegroup
+218,zos,new-player-guide,New Player Guide: Inventory & Items,1471,218_zos_New_Player_Guide_Inventory_Items.pdf,https://www.elderscrollsonline.com/en-us/newplayerguide/inventory
+219,zos,new-player-guide,New Player Guide: Player vs Player Challenges,1641,219_zos_New_Player_Guide_Player_vs_Player_Challenges.pdf,https://www.elderscrollsonline.com/en-us/newplayerguide/pvp

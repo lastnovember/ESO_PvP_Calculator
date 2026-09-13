@@ -1,0 +1,38 @@
+Skill,Increase,Duration,Affects,Cost/Trigger,Notes
+Dragonknight
+Wing Buffet ( Draconic Power ),30%,4 sec.,Self Only,4590-4320 Magicka,Major Expedition
+Nightblade
+Consuming Darkness ( Shadow ),70%,4 sec.,Ally (Synergy),200 Ultimate,Also restores Health
+Path of Darkness ( Shadow ),30%,2 sec.,Self and Allies,3510 Magicka,Major Expedition
+Concealed Weapon ( Assassination ),15%,Constant,Self Only,Constant,Minor Expedition while Slotted
+Templar
+Hasty Prayer ( Restoring Light ),15%,5 sec.,Self and Allies,4995 Magicka,"Minor Expedition , also restores Health"
+Sorcerer
+Lightning Form ( Storm Calling ),No increase without morphs
+,Hurricane (morph),15%,15 sec,Self Only,3240 Stamina,Minor Expedition
+Boundless Storm (morph),30%,6-7.5 sec.,4050 Magicka,Major Expedition
+Warden
+Falcon's Swiftness ( Animal Companions ),30%,6 sec.,Self Only,3240 Magicka,Major Expedition
+,Deceptive Predator (morph),30%,6 sec.,2700 Magicka,Major Expedition + Minor Evasion
+Bird of Prey (morph),30%,6 sec.,2700 Magicka,Major Expedition + Minor Berserk
+Racial / World
+Hunter's Eye ( Wood Elf ),1-5%,Constant,Self Only,,
+Amphibian ( Argonian ),50%,Constant,Self Only,Swimming,Innate ability
+Swift Warrior ( Orc ),3-10%,Constant,Self Only,Sprinting,
+Dark Stalker ( Vampire ),*,Constant,Self Only,Sneaking,Allows sneaking at normal run speed.
+Elusive Mist ( Vampire ),30%,4 sec.,Self Only,5940-5671 Magicka,Major Expedition
+Unnatural Movement ( Vampire ),*,Constant,Self Only,Sprinting,Reduces the cost of Sprint by 25/50%. If you continuously Sprint for 6/3 seconds you automatically become invisible.
+Werewolf Transformation ( Werewolf ),30% / 80%,Constant,Self Only,400-300 Ultimate,Increases running and sprint speed
+Equipment
+Athletics ( Medium Armor ),2-3% / slot,Constant,Self Only,Sprinting,
+Battlefield Mobility ( One Hand and Shield ),*,Constant,Self Only,Blocking,Reduces the blocking speed penalty to 48/36%
+Quick Cloak ( Dual Wield ),30%,4 sec.,Self Only,3780 Stamina,Major Expedition
+Hasty Retreat ( Bow ),30%,2-4 sec.,Self Only,Roll Dodging,Major Expedition
+Other
+Accelerate ( Psijic Order ),30%,4 sec,Self Only,3780-3510 Magicka,Major Expedition
+,Race Against Time (morph),30%,4 sec,3780-3510 Magicka,Major Expedition
+Channeled Acceleration (morph),30%,12 sec.,3510-3240 Magicka,Major Expedition
+Padomaic Sprint ( Dark Brotherhood ),30%,6-12 sec.,Self Only,Killing with Blade of Woe,Major Expedition
+Rapid Maneuver ( Assault ),30%,8 sec.,Self and Group,6426 Stamina,Major Expedition
+,Retreating Maneuver (morph),30%,8 sec.
+Charging Maneuver (morph),30%+15%,8 sec.,6426-6156 Stamina,Minor Expedition + Major Expedition

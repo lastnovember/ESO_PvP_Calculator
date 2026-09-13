@@ -1,0 +1,12 @@
+Trait,Material,Material Source,Description,Magnitude
+Normal,Fine,Superior,Epic,Legendary
+Healthy,Antimony,Refining Platinum Dust,Increase Maximum Health by …,844,877,910,932,965
+Arcane,Cobalt,Refining Platinum Dust,Increase Maximum Magicka by …,767,797,827,847,877
+Robust,Zinc,Refining Platinum Dust,Increase Maximum Stamina by …,767,797,827,847,877
+Bloodthirsty,Slaughterstone,"Writs, Weekly Trial Rewards",Increase Weapon and Spell Damage against enemies under 90% health by up to …,210,245,280,315,350
+Harmony,Dibellium,"Writs, Daily Random Normal Dungeon Rewards","Activating a Synergy restores ... Health , Magicka , and Stamina .",770,800,830,850,880
+Infused,Aurbic Amber,"Writs, Psijic Portals",Increase the effect of the enchantment by …%,24,33,42,51,60
+Triune,Dawn-Prism,"Writs, War Researchers",Increase Maximum Health by … and Maximum Magicka and Maximum Stamina by …,422,438,455,466,482
+384,399,414,424,439
+Protective,Titanium,"Writs, Jewelry Seams",Increase Spell Resistance and Physical Resistance by …,1053,1091,1128,1153,1190
+Swift,Gilding Wax,"Writs, Rolis Hlaalu",Increase Movement Speed by …%,3,4,5,6,7

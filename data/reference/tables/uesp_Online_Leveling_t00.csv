@@ -1,0 +1,6 @@
+Difficulty,XP Gain,Multiplier
+Very Easy,Very Low,0.1
+Easy,Low,0.75
+Standard,Standard,1
+Hard,High,1.5
+Very Hard,Very High,2.25

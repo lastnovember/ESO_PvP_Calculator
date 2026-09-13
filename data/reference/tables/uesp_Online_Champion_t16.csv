@@ -1,0 +1,17 @@
+Active Perks,Effect,Cost per Stage,Stages
+,Hardened,Increases the duration of Crowd Control Immunity by 3% per stage.,10,5
+,Peace of Mind,Increases Magicka and Health Recovery while under the effects of Crowd Control Immunity by 40 per stage.,10,5
+,Slippery,"When you are affected by a disabling effect, you automatically Break Free for no cost. After using this effect, you become Winded and cannot trigger this effect or others like it for 21 seconds.",50,1
+,Unchained,"When you use Break Free, the cost of your next Stamina ability used within 5 seconds is reduced by 11% per stage.",10,5
+,Juggernaut,"While under the effects of Crowd Control Immunity, you take 2% less damage per stage.",10,5
+,Expert Evasion,"Your next Roll Dodge is free of cost. After consuming this effect, you cannot gain it again for 30 seconds.",50,1
+,Rousing Speed,"Reduces the cost of Sprint by 50 Stamina per stage, while under the effects of Crowd Control Immunity.",10,5
+,Survival Instincts,"While afflicted with a Status Effect, your core combat skills cost 5% less per stage.",10,5
+,Spirit Mastery,Decreases the time it takes to resurrect an ally by 33%.,50,1
+,Shield Master,Reduces the cost of your damage shield abilities by 2% per stage.,10,5
+,Bastion,Increases the effectiveness of your damage shields and damage against shielded enemies by 3% per stage.,10,5
+,Arcane Alacrity,While under the effects of a damage shield your dodge roll costs 160 less stamina per stage.,10,5
+,Strategic Reserve,Gain 30 Health Recovery for every 10 Ultimate you have.,50,1
+,Siphoning Spells,"Restore 300 Magicka per stage, whenever you kill an enemy.",10,5
+,Bloody Renewal,"Restore 300 Stamina per stage, whenever you kill an enemy.",10,5
+,On Guard,"While under the effects of Crowd Control Immunity, increases the amount of damage you block by 2% per stage.",10,5

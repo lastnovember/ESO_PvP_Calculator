@@ -1,0 +1,9 @@
+Active Perks,Effect,Cost per Stage,Stages
+,Angler's Instincts,"Increases your chance of catching higher quality fish, akin to fishing with another player. This effect can stack other similar bonuses.",25,1
+,Fade Away,"Escaping from a Guard wipes 25% of your current Heat, but not Bounty.",50,1
+,Friends in Low Places,"Removes 1000 gold from your bounty once per day when committing a crime where bounty is added. You must be level 50 for this passive to activate, and your current bounty must be at or greater than 1000 gold.",25,1
+,Gifted Rider,Increases your Mount Speed by 2% per stage.,10,5
+,Master Gatherer,Reduces the time it takes to harvest by 10% per stage.,15,5
+,Reel Technique,Decreases the time it takes for a fish to bite by 25%.,50,1
+,Shadowstrike,"When you kill an enemy with Blade of Woe, you become invisible for 5 seconds after a short delay while distracting nearby enemies or potential witnesses. While under this effect you can cast Blade of Woe.",75,1
+,War Mount,"Improves your mastery with mounts, removing all mount Stamina costs outside of combat.",75,1

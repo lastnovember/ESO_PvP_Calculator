@@ -1,0 +1,65 @@
+Debuff Name,Type,Description,Sources,Icon
+Breach [ edit ],Minor,Decreases target's physical and spell resistance by 2974.,Abilities,"Deep Fissure , Fatewoven Armor , Petrify , Pierce Armor , Sundered ( Physical damage status), Wall of Frost against Chilled enemies",
+Sets,"Corpseburster , Dragon's Defilement , Hand of Mephala , The Saint and the Seducer , Sunderflame , Tarnished Nightmare (applies Sundered Status)"
+Scribing,"Breach on Mender's Bond , Smash , Soul Burst , Torchbearer , Ulfsild's Contingency"
+Potions,"Breach Potion or Poison, Increase Spell Resist Poison"
+Major,Decrease target's physical and spell resistance by 5948.,Abilities,"Crushing Weapon , Deep Fissure , Disintegrating Dragonfire , Mark Target , Puncture , Razor Caltrops , Rip and Tear , Unnerving Boneyard , Weakness to Elements",
+Sets,"Kynmarcher's Cruelty , Night Mother's Gaze"
+Scribing,Breach on Wield Soul
+Brittle [ edit ],Minor,Increases target's Crit Damage Taken by 10%,Abilities,"Chilled ( Frost damage status) with an Ice Staff equipped, Rune of the Colorless Pool",
+Sets,"The Saint and the Seducer , Glittering Goad"
+Scribing,"Brittle on Elemental Explosion , Mender's Bond"
+Major,Increases target's Crit Damage Taken by 20%,Abilities,Tundra's Maw,
+Sets,Nunatak
+Cowardice [ edit ],Minor,Reduces the target's Weapon and Spell Damage by 215,Abilities,"Corrupting Pollen , Erudite's Rigor , Power Extraction",
+Sets,"Healing Mage , The Saint and the Seducer"
+Scribing,"Cowardice on Elemental Explosion , Torchbearer , Trample"
+Potions,"Cowardice Potion or Poison, Increase Spell Power Poison"
+Major,Reduces the target's Weapon and Spell Damage by 430,Abilities,"Aspect of Terror , Bone Totem , Chains of Flame , Deafening Roar",
+Sets,"Kynmarcher's Cruelty , Nix-Hound's Howl , Gardener of Seasons , Vykosa"
+Scribing,"Cowardice on Shield Throw , Wield Soul"
+Defile [ edit ],Minor,Reduces target's Healing Taken and Shield Strength by 6%.,Abilities,"Diseased ( Disease damage status), Lethal Arrow , Render Flesh (applies to self)",
+Sets,"Affliction , Fasalla's Guile , Pirate Skeleton , Thurvokun (set) (applies Diseased Status)"
+Scribing,"Defile on Elemental Explosion , Trample"
+Potions,"Defile Potion or Poison, Vitality Poison"
+Major,Reduces target's Healing Taken and Shield Strength by 12%.,Abilities,"Blighted Blastbones , Corrupting Pollen , Dark Flare , Shifting Standard , Soul Harvest",
+Sets,"Durok's Bane , Kynmarcher's Cruelty , Ward of Cyrodiil"
+Scribing,Defile on Wield Soul
+Enervation [ edit ],Minor,Reduce Critical Damage by 10%,Sets,"Blunted Blades , Critical Riposte , Lady Malygda , Wizard's Riposte",
+Scribing,"Enervation on Elemental Explosion , Shield Throw , Ulfsild's Contingency"
+Potions,"Enervation Potion or Poison, Weapon Critical Poison"
+Major,N/A,,,
+Fracture [ edit ],Minor,Reduce Physical Resistance by 1320,Potions,"Fracture Potion or Poison, Increase Armor Poison",
+Major,N/A,,,
+Hindrance [ edit ],Minor,Reduce Movement Speed by 40%,Potions,"Hindrance Potion or Poison, Speed Poison",
+Major,N/A,,,
+Lifesteal [ edit ],Minor,Attacking the enemy restores 600 health per second,Abilities,"Blood Altar , Force Siphon , Leeching Vines , Runic Embrace",
+Sets,Call of the Undertaker
+Scribing,"Lifesteal on Elemental Explosion , Traveling Knife , Vault"
+Major,N/A,,,
+Magickasteal [ edit ],Minor,Attacking the enemy restores 168 magicka per second,Abilities,"Elemental Drain , Overcharged ( Magic damage status), Siphon Spirit",
+Scribing,"Magickasteal on Elemental Explosion , Soul Burst , Ulfsild's Contingency"
+Major,N/A,,,
+Maim [ edit ],Minor,Reduce Damage dealt by 5%,Abilities,"Chilled ( Frost damage status), Choking Talons , Grave Grasp , Inner Beast , Low Slash , Runic Jolt , Summon Shade , Sun Shield",
+Sets,"Knightmare , The Saint and the Seducer , Shadowrend , Thurvokun"
+Scribing,"Maim on Mender's Bond , Smash , Soul Burst , Traveling Knife , Vault"
+Potions,"Maim Potion or Poison, Increase Weapon Power Poison"
+Major,Reduce Damage dealt by 10%,Abilities,"Deafening Roar , Empowering Grasp , Encase , Frost Clench , Frozen Device , Icy Aura , Nova",
+Sets,"Bani's Torment , Kynmarcher's Cruelty , Lady Thorn , Reflected Fury , Silver Rose Vigil , Void Bash"
+Scribing,"Maim on Shield Throw , Wield Soul"
+Mangle [ edit ],Minor,Reduces target's max health by 10%.,Abilities,Pulsar,
+Scribing,"Mangle on Smash , Torchbearer , Trample"
+Verse,Tomefoolery
+Major,N/A,,,
+Timidity [ edit ],Minor,Drains 1 Ultimate every 1.5 seconds.,Sets,Baron Thirsk,
+Major,N/A,,,
+Uncertainty [ edit ],Minor,Reduces weapon/spell critical by 1314.,Sets,Critical Riposte,
+Scribing,"Uncertainty on Torchbearer , Traveling Knife"
+Potions,"Uncertainty Potion or Poison, Weapon Critical Poison, Spell Critical Poison"
+Major,N/A,,,
+Vulnerability [ edit ],Minor,Increase damage taken by 5%,Abilities,"Boneyard , Concussed status ( Shock damage status), Fossilize , Inner Beast , Rune of Eldritch Horror , Swarm , Teleport Strike",
+Sets,"Infallible Mage , Noble's Conquest , The Saint and the Seducer , Scavenging Demise , Wise Mage"
+Scribing,"Vulnerability on Mender's Bond , Trample , Traveling Knife , Ulfsild's Contingency , Vault"
+Potions,"Vulnerability Potion or Poison, Protection Poison"
+Major,Increase damage taken by 10%,Abilities,Frozen Colossus,
+Sets,"Archdruid Devyric , Kynmarcher's Cruelty , Turning Tide , Umbral Edge , Coup De Grâce , Stonehulk Domination"

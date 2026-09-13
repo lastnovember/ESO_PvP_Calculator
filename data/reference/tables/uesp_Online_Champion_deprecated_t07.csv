@@ -1,0 +1,5 @@
+Passive Unlocks,Rank,Effect
+,Spell Absorption,10,"Restores [x] Magicka when you take Flame, Frost, Shock, Magic, Earth, or Oblivion Damage equivalent to 30% of your Maximum Health.  This can only occur once every 10 seconds."
+,Bulwark,30,Increases your Spell and Physical Resistance by 1500 when you are using a Shield or a Frost Staff.
+,Critical Leech,75,Restore [x] Health when you deal direct Critical Damage. This can only occur once every 5 seconds.
+,Unchained,120,"Reduces the Stamina cost of abilities by 80% for 3 seconds after breaking free of a stun, knockdown, fear, disorient, or stagger."

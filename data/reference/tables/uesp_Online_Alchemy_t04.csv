@@ -1,0 +1,189 @@
+Three Effect Formulae
+Primary Effect,Side Effects,Reagents
+Breach,Ravage Health,Ravage Magicka,Emetic Russula,Beetle Scuttle,Violet Coprinus
+Detection,Fracture,Ravage Health,Corn Flower,Stinkhorn,Torchbug Thorax
+Increase Spell Power,Ravage Health,Corn Flower,Torchbug Thorax,Violet Coprinus
+Corn Flower,Wormwood,Violet Coprinus
+Restore Magicka,Corn Flower,Torchbug Thorax,Lady's Smock
+Corn Flower,Wormwood,Lady's Smock
+Increase Spell Resist,Cowardice,White Cap,Bugloss,Torchbug Thorax
+White Cap,Bugloss,Wormwood
+Hindrance,White Cap,Clam Gall,Wormwood
+Restore Magicka,Unstoppable,Corn Flower,Columbine,Wormwood
+Fracture,Ravage Health,Enervation,Nirnroot,Stinkhorn,Torchbug Thorax
+Ravage Stamina,Emetic Russula,Stinkhorn,Torchbug Thorax
+Increase Armor,Increase Spell Resist,Defile,Mountain Flower,Mudcrab Chitin,Clam Gall
+Mudcrab Chitin,Clam Gall,Imp Stool
+Restore Health,Bugloss,Mountain Flower,Mudcrab Chitin
+Maim,Enervation,Nirnroot,Mountain Flower,Imp Stool
+Ravage Stamina,Beetle Scuttle,Luminous Russula,Imp Stool
+Mudcrab Chitin,Luminous Russula,Imp Stool
+Protection,Defile,Mountain Flower,Mudcrab Chitin,Nightshade
+Mudcrab Chitin,Nightshade,Imp Stool
+Vitality,Powdered Mother of Pearl,Beetle Scuttle,Imp Stool
+Powdered Mother of Pearl,Mountain Flower,Beetle Scuttle
+Restore Health,Maim,Bugloss,Mountain Flower,Imp Stool
+Mountain Flower,Beetle Scuttle,Luminous Russula
+Mountain Flower,Blue Entoloma,Imp Stool
+Mountain Flower,Butterfly Wing,Imp Stool
+Mountain Flower,Columbine,Imp Stool
+Mountain Flower,Luminous Russula,Imp Stool
+Mountain Flower,Mudcrab Chitin,Luminous Russula
+Mountain Flower,Water Hyacinth,Imp Stool
+Restore Stamina,Mountain Flower,Columbine,Beetle Scuttle
+Mountain Flower,Mudcrab Chitin,Columbine
+Vitality,Mountain Flower,Butterfly Wing,Beetle Scuttle
+Vitality,Ravage Stamina,Fleshfly Larva,Beetle Scuttle,Imp Stool
+Increase Spell Power,Breach,Ravage Health,Blessed Thistle,Lady's Smock,Violet Coprinus
+Corn Flower,Beetle Scuttle,Violet Coprinus
+Corn Flower,Lady's Smock,Violet Coprinus
+Emetic Russula,Lady's Smock,Violet Coprinus
+Nightshade,Lady's Smock,Violet Coprinus
+Nirnroot,Lady's Smock,Violet Coprinus
+Stinkhorn,Lady's Smock,Violet Coprinus
+Restore Magicka,Breach,Corn Flower,Beetle Scuttle,Lady's Smock
+Ravage Health,Corn Flower,Blessed Thistle,Lady's Smock
+Corn Flower,Nightshade,Lady's Smock
+Corn Flower,Stinkhorn,Lady's Smock
+Nirnroot,Corn Flower,Lady's Smock
+Spell Critical,Corn Flower,Namira's Rot,Lady's Smock
+Corn Flower,Water Hyacinth,Lady's Smock
+Spell Critical,Breach,Namira's Rot,Lady's Smock,Violet Coprinus
+Water Hyacinth,Lady's Smock,Violet Coprinus
+Increase Spell Resist,Cowardice,Ravage Magicka,White Cap,Blue Entoloma,Clam Gall
+White Cap,Blue Entoloma,Mudcrab Chitin
+Hindrance,Defile,Bugloss,Clam Gall,Spider Egg
+Mudcrab Chitin,Clam Gall,Luminous Russula
+Mudcrab Chitin,Clam Gall,Spider Egg
+Mudcrab Chitin,Clam Gall,Wormwood
+White Cap,Clam Gall,Spider Egg
+Protection,Defile,Bugloss,Mudcrab Chitin,Nightshade
+White Cap,Mudcrab Chitin,Nightshade
+Restore Health,Cowardice,Bugloss,Blue Entoloma,Clam Gall
+Bugloss,Blue Entoloma,Mudcrab Chitin
+White Cap,Bugloss,Blue Entoloma
+White Cap,Bugloss,Butterfly Wing
+White Cap,Bugloss,Columbine
+White Cap,Bugloss,Luminous Russula
+White Cap,Bugloss,Mountain Flower
+White Cap,Bugloss,Water Hyacinth
+Hindrance,Bugloss,Clam Gall,Luminous Russula
+Restore Magicka,Bugloss,Columbine,Clam Gall
+Bugloss,Mudcrab Chitin,Columbine
+Vulnerability,Ravage Magicka,White Cap,Scrib Jelly,Clam Gall
+Increase Weapon Power,Fracture,Ravage Health,Corn Flower,Dragonthorn,Stinkhorn
+Dragonthorn,Stinkhorn,Blessed Thistle
+Dragonthorn,Stinkhorn,Nightshade
+Dragonthorn,Stinkhorn,Violet Coprinus
+Emetic Russula,Dragonthorn,Stinkhorn
+Nirnroot,Dragonthorn,Stinkhorn
+Stinkhorn,Torchbug Thorax,Blessed Thistle
+Restore Stamina,Fracture,Dragonthorn,Torchbug Thorax,Blessed Thistle
+Ravage Health,Corn Flower,Dragonthorn,Blessed Thistle
+Dragonthorn,Blessed Thistle,Violet Coprinus
+Dragonthorn,Nightshade,Blessed Thistle
+Nirnroot,Dragonthorn,Blessed Thistle
+Speed,Namira's Rot,Dragonthorn,Blessed Thistle
+Powdered Mother of Pearl,Dragonthorn,Blessed Thistle
+Scrib Jelly,Dragonthorn,Blessed Thistle
+Weapon Critical,Dragonthorn,Blessed Thistle,Water Hyacinth
+Dragonthorn,Blessed Thistle,Wormwood
+Speed,Ravage Health,Namira's Rot,Stinkhorn,Blessed Thistle
+Powdered Mother of Pearl,Stinkhorn,Blessed Thistle
+Scrib Jelly,Stinkhorn,Blessed Thistle
+Weapon Critical,Fracture,Dragonthorn,Stinkhorn,Water Hyacinth
+Dragonthorn,Stinkhorn,Wormwood
+Invisible,Hindrance,Defile,Blue Entoloma,Clam Gall,Spider Egg
+Nirnroot,Clam Gall,Spider Egg
+Ravage Health,Defile,Nirnroot,Nightshade,Spider Egg
+Lingering Health,Invisible,Ravage Magicka,Scrib Jelly,Blue Entoloma,Spider Egg
+Uncertainty,Nirnroot,Butterfly Wing,Spider Egg
+Vitality,Uncertainty,Powdered Mother of Pearl,Nirnroot,Butterfly Wing
+Vulnerability,Defile,Scrib Jelly,Clam Gall,Spider Egg
+Maim,Ravage Stamina,Enervation,Nirnroot,Luminous Russula,Imp Stool
+Torchbug Thorax,Luminous Russula,Imp Stool
+Hindrance,Clam Gall,Luminous Russula,Imp Stool
+Luminous Russula,Spider Egg,Imp Stool
+Wormwood,Luminous Russula,Imp Stool
+Protection,Breach,Ravage Health,Nightshade,Beetle Scuttle,Violet Coprinus
+Lingering Health,Vitality,Powdered Mother of Pearl,Butterfly Wing,Beetle Scuttle
+Ravage Health,Defile,Corn Flower,Mudcrab Chitin,Nightshade
+Emetic Russula,Mudcrab Chitin,Nightshade
+Mudcrab Chitin,Nightshade,Blessed Thistle
+Mudcrab Chitin,Nightshade,Violet Coprinus
+Mudcrab Chitin,Stinkhorn,Nightshade
+Nirnroot,Mudcrab Chitin,Nightshade
+Speed,Ravage Health,Powdered Mother of Pearl,Nightshade,Blessed Thistle
+Vitality,Powdered Mother of Pearl,Blessed Thistle,Beetle Scuttle
+Powdered Mother of Pearl,Namira's Rot,Beetle Scuttle
+Vitality,Breach,Powdered Mother of Pearl,Beetle Scuttle,Lady's Smock
+Powdered Mother of Pearl,Beetle Scuttle,Violet Coprinus
+Ravage Health,Ravage Magicka,Ravage Stamina,Emetic Russula,Fleshfly Larva,Violet Coprinus
+Emetic Russula,Scrib Jelly,Stinkhorn
+Emetic Russula,Stinkhorn,Violet Coprinus
+Emetic Russula,Violet Coprinus,Imp Stool
+Emetic Russula,White Cap,Stinkhorn
+Ravage Stamina,Enervation,Emetic Russula,Nirnroot,Imp Stool
+Nirnroot,Stinkhorn,Imp Stool
+Gradual Ravage Health,Emetic Russula,Fleshfly Larva,Nightshade
+Fleshfly Larva,Stinkhorn,Nightshade
+Restore Health,Cowardice,Ravage Magicka,White Cap,Blue Entoloma,Butterfly Wing
+White Cap,Blue Entoloma,Luminous Russula
+White Cap,Blue Entoloma,Water Hyacinth
+White Cap,Mountain Flower,Blue Entoloma
+Invisible,Cowardice,Bugloss,Blue Entoloma,Spider Egg
+Namira's Rot,Bugloss,Blue Entoloma
+Hindrance,Blue Entoloma,Luminous Russula,Spider Egg
+Lingering Health,Hindrance,Butterfly Wing,Luminous Russula,Spider Egg
+Invisible,Blue Entoloma,Butterfly Wing,Spider Egg
+Ravage Magicka,Scrib Jelly,Blue Entoloma,Butterfly Wing
+Vitality,Powdered Mother of Pearl,Blue Entoloma,Butterfly Wing
+Powdered Mother of Pearl,Bugloss,Butterfly Wing
+Powdered Mother of Pearl,Butterfly Wing,Luminous Russula
+Powdered Mother of Pearl,Butterfly Wing,Water Hyacinth
+Powdered Mother of Pearl,Columbine,Butterfly Wing
+Powdered Mother of Pearl,Mountain Flower,Butterfly Wing
+Maim,Hindrance,Mountain Flower,Clam Gall,Luminous Russula
+Mountain Flower,Luminous Russula,Spider Egg
+Mountain Flower,Wormwood,Luminous Russula
+Ravage Stamina,Blue Entoloma,Luminous Russula,Imp Stool
+Bugloss,Luminous Russula,Imp Stool
+Butterfly Wing,Luminous Russula,Imp Stool
+Luminous Russula,Water Hyacinth,Imp Stool
+Restore Magicka,Restore Stamina,Bugloss,Dragonthorn,Columbine
+Bugloss,Mountain Flower,Columbine
+Mountain Flower,Columbine,Lady's Smock
+Spell Critical,Bugloss,Water Hyacinth,Lady's Smock
+Columbine,Water Hyacinth,Lady's Smock
+Unstoppable,Bugloss,Columbine,Wormwood
+Namira's Rot,Bugloss,Columbine
+Restore Stamina,Unstoppable,Mountain Flower,Columbine,Wormwood
+Namira's Rot,Mountain Flower,Columbine
+Weapon Critical,Dragonthorn,Columbine,Water Hyacinth
+Mountain Flower,Dragonthorn,Water Hyacinth
+Spell Critical,Invisible,Namira's Rot,Blue Entoloma,Water Hyacinth
+Unstoppable,Hindrance,Columbine,Wormwood,Luminous Russula
+Invisible,Namira's Rot,Blue Entoloma,Columbine
+Vitality,Ravage Stamina,Fleshfly Larva,Butterfly Wing,Luminous Russula
+Weapon Critical,Hindrance,Wormwood,Luminous Russula,Water Hyacinth
+Restore Magicka,Spell Critical,Unstoppable,Namira's Rot,Columbine,Lady's Smock
+Restore Stamina,Speed,Unstoppable,Namira's Rot,Blessed Thistle,Columbine
+Unstoppable,Weapon Critical,Dragonthorn,Columbine,Wormwood
+Speed,Invisible,Ravage Health,Nirnroot,Namira's Rot,Blessed Thistle
+Ravage Magicka,Scrib Jelly,Namira's Rot,Blue Entoloma
+Lingering Health,Ravage Magicka,Emetic Russula,Powdered Mother of Pearl,Scrib Jelly
+Powdered Mother of Pearl,Scrib Jelly,Blue Entoloma
+Powdered Mother of Pearl,Scrib Jelly,Violet Coprinus
+Powdered Mother of Pearl,White Cap,Scrib Jelly
+Vitality,Powdered Mother of Pearl,Blessed Thistle,Butterfly Wing
+Powdered Mother of Pearl,Namira's Rot,Butterfly Wing
+Powdered Mother of Pearl,Scrib Jelly,Beetle Scuttle
+Powdered Mother of Pearl,Scrib Jelly,Butterfly Wing
+Powdered Mother of Pearl,Scrib Jelly,Torchbug Thorax
+Ravage Health,Ravage Magicka,Emetic Russula,Scrib Jelly,Blessed Thistle
+Scrib Jelly,Blessed Thistle,Violet Coprinus
+Vitality,Fracture,Ravage Stamina,Fleshfly Larva,Stinkhorn,Torchbug Thorax
+Ravage Stamina,Enervation,Fleshfly Larva,Torchbug Thorax,Imp Stool
+Uncertainty,Enervation,Nirnroot,Torchbug Thorax,Butterfly Wing
+Vulnerability,Ravage Magicka,Ravage Stamina,Emetic Russula,Fleshfly Larva,Scrib Jelly
+Ravage Stamina,Hindrance,Fleshfly Larva,Clam Gall,Luminous Russula

@@ -1,0 +1,5 @@
+Active Perks,Effect,Cost per Stage,Stages
+,Enlivening Overflow,"Overhealing yourself or an ally grants them Health, Magicka, and Stamina Recovery equal to .5% of your Max Magicka, up to a cap of 150, for 6 seconds. This effect can occur once every 12 seconds per target.",50,1
+,From the Brink,"Whenever you heal yourself or an ally under 25% Health, you grant them a damage shield that absorbs up to 2200 damage per stage, for 6 seconds. This effect can occur once every 30 seconds per target.",10,5
+,Salve of Renewal,"Whenever you remove a harmful effect from yourself or an ally, you sanctify the ground beneath them and heal them and allies within 8 meters for 1318 Health per stage. This effect can occur once every 10 seconds.",10,5
+,Hope Infusion,Healing yourself or an ally under 50% Health grants them Minor Heroism for 1 second for every 300 Magicka Recovery you have. This effect can occur once every 10 seconds per target.,50,1

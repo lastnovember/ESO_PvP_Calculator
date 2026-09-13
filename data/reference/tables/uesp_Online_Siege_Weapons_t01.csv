@@ -1,0 +1,23 @@
+,Weapon,Description,Toughness,Gold Price,AP Price
+Ballistae
+,Dominion Ballista Covenant Ballista Pact Ballista,Creates a ballista siege weapon whose bolt causes great damage to structures and enemies.,"100,000",,0001800 1800
+,Dominion Firebolt Ballista Covenant Firebolt Ballista Pact Firebolt Ballista,Creates a ballista siege weapon whose bolt causes flame damage to structures and also damages foes over time.,"100,000",00000450 450,0001200 1200
+,Dominion Lightning Ballista Covenant Lightning Ballista Pact Lightning Ballista,Creates a ballista siege weapon whose electrically charged bolt ensnares enemies and drains their Magicka.,"100,000",,0001200 1200
+,Dominion Cold Fire Ballista Covenant Cold Fire Ballista Pact Cold Fire Ballista,Creates a ballista siege weapon whose bolt causes flame damage to structures and also damages foes over time.,"100,000",,
+Catapults
+,Dominion Meatbag Catapult Covenant Meatbag Catapult Pact Meatbag Catapult,Creates a catapult siege weapon that fires a bag of diseased meat at its targets.,"150,000",,0001200 1200
+,Dominion Oil Catapult Covenant Oil Catapult Pact Oil Catapult,"Creates a catapult siege weapon that fires a jar of oil at its targets, ensnaring them and draining their Stamina.","150,000",,0001200 1200
+,Dominion Scattershot Catapult Covenant Scattershot Catapult Pact Scattershot Catapult,Creates a catapult siege weapon whose mass of small rocks causes damage to foes in a wide area.,"150,000",,0001200 1200
+Lancers
+,Dominion Fire Lancer Covenant Fire Lancer Pact Fire Lancer,Creates a Dwarven fire lancer siege weapon whose bolts deal flame damage to structures and also causes Burning.,"200,000",,
+,Dominion Frost Lancer Covenant Frost Lancer Pact Frost Lancer,Creates a Dwarven frost lancer siege weapon whose bolts deal frost damage to structures and also causes Chilled.,"200,000",,
+,Dominion Shock Lancer Covenant Shock Lancer Pact Shock Lancer,Creates a Dwarven shock lancer siege weapon whose bolts deal shock damage to structures and also causes Concussion.,"200,000",,
+Trebuchets
+,Dominion Firepot Trebuchet Covenant Firepot Trebuchet Pact Firepot Trebuchet,Creates a trebuchet weapon whose fireball causes burn damage to structures and foes.,"200,000",00000450 450,0001800 1800
+,Dominion Iceball Trebuchet Covenant Iceball Trebuchet Pact Iceball Trebuchet,Creates a trebuchet weapon whose iceball causes damage and ensnares players.,"200,000",,0001800 1800
+,Dominion Stone Trebuchet Covenant Stone Trebuchet Pact Stone Trebuchet,Creates a trebuchet weapon whose stones cause great damage to structures and foes.,"200,000",,0001800 1800
+,Dominion Cold Fire Trebuchet Covenant Cold Fire Trebuchet Pact Cold Fire Trebuchet,Creates a trebuchet weapon whose fireball causes burn damage to structures and foes.,"200,000",,
+,Dominion Cold Stone Trebuchet Covenant Cold Stone Trebuchet Pact Cold Stone Trebuchet,Creates a trebuchet weapon whose stones cause great damage to structures and foes.,"200,000",,
+Other
+,Dominion Battering Ram Covenant Battering Ram Pact Battering Ram,Creates a battering ram which can be used to destroy doors.,"200,000",,0001800 1800
+,Flaming Oil,Pours straight downwards. Very effective weapon against Rams and players operating a Ram.,"100,000",,0000800 800

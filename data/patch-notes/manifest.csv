@@ -1,0 +1,203 @@
+seq,date,title,applies_to,words,post_parts,pdf,source_url
+1,2015-06-23,Xbox One Patch Notes v1.0.0.5,xbox,1345,1,001_2015-06-23_Xbox_One_Patch_Notes_v1.0.0.5.pdf,https://forums.elderscrollsonline.com/en/discussion/184843
+2,2015-07-27,Xbox One Patch Notes v1.0.0.6,xbox,2494,1,002_2015-07-27_Xbox_One_Patch_Notes_v1.0.0.6.pdf,https://forums.elderscrollsonline.com/en/discussion/200553
+3,2015-07-30,Hotfix 7/30/15 - Camouflage Hunter,unlabeled,60,1,003_2015-07-30_Hotfix_7_30_15_-_Camouflage_Hunter.pdf,https://forums.elderscrollsonline.com/en/discussion/201984
+4,2015-08-06,Hotfix 8/6/15,unlabeled,42,1,004_2015-08-06_Hotfix_8_6_15.pdf,https://forums.elderscrollsonline.com/en/discussion/204791
+5,2015-08-11,Hotfix 8/11/15 - Vampire & Werewolf,unlabeled,125,1,005_2015-08-11_Hotfix_8_11_15_-_Vampire_Werewolf.pdf,https://forums.elderscrollsonline.com/en/discussion/206355
+6,2015-08-13,Hotfix 8/13/15 – Hallin’s Stand Mages Guild,unlabeled,44,1,006_2015-08-13_Hotfix_8_13_15_Hallin_s_Stand_Mages_Guild.pdf,https://forums.elderscrollsonline.com/en/discussion/207114
+7,2015-09-14,Xbox One Patch Notes v1.1.0.0,xbox,19142,16,007_2015-09-14_Xbox_One_Patch_Notes_v1.1.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/216413
+8,2015-09-21,Console Hotfix 9/21/15 - Cyrodiil Consumables and Jewelry Item Sets,all-platform,53,1,008_2015-09-21_Console_Hotfix_9_21_15_-_Cyrodiil_Consumables_and_Jewelry_Item_Sets.pdf,https://forums.elderscrollsonline.com/en/discussion/218876
+9,2015-09-28,Hotfix 9/28/15 – Trap Beast,unlabeled,53,1,009_2015-09-28_Hotfix_9_28_15_Trap_Beast.pdf,https://forums.elderscrollsonline.com/en/discussion/220552
+10,2015-10-12,Xbox One Patch Notes v1.1.1.0,xbox,1281,3,010_2015-10-12_Xbox_One_Patch_Notes_v1.1.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/223864
+11,2015-11-16,Xbox One Patch Notes v1.2.0.0,xbox,10795,18,011_2015-11-16_Xbox_One_Patch_Notes_v1.2.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/231371
+12,2015-12-01,Xbox One Patch Notes v1.2.1.0,xbox,360,3,012_2015-12-01_Xbox_One_Patch_Notes_v1.2.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/233691
+13,2015-12-08,Console Hotfix 12/8/15 - Awaken the Past,all-platform,56,1,013_2015-12-08_Console_Hotfix_12_8_15_-_Awaken_the_Past.pdf,https://forums.elderscrollsonline.com/en/discussion/235032
+14,2016-01-26,Xbox One Patch Notes v1.2.2.0,xbox,2251,4,014_2016-01-26_Xbox_One_Patch_Notes_v1.2.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/243303
+15,2016-03-08,Hotfix 3/8/16 @ 10am EST/15:00 GMT - Framerate Issues [COMPLETE],unlabeled,161,4,015_2016-03-08_Hotfix_3_8_16_10am_EST_15_00_GMT_-_Framerate_Issues_COMPLETE.pdf,https://forums.elderscrollsonline.com/en/discussion/251643
+16,2016-03-09,Hotfix 3/9/16 - Crash Fix [COMPLETE],unlabeled,91,2,016_2016-03-09_Hotfix_3_9_16_-_Crash_Fix_COMPLETE.pdf,https://forums.elderscrollsonline.com/en/discussion/252041
+17,2016-03-22,Xbox One Patch Notes v1.3.0.0,xbox,19273,18,017_2016-03-22_Xbox_One_Patch_Notes_v1.3.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/254892
+18,2016-04-05,Xbox One Game Hotfixes 4/5/16,xbox,77,1,018_2016-04-05_Xbox_One_Game_Hotfixes_4_5_16.pdf,https://forums.elderscrollsonline.com/en/discussion/258145
+19,2016-04-14,Console Hotfix 4/13/16 - Daughter of Giants,all-platform,62,1,019_2016-04-14_Console_Hotfix_4_13_16_-_Daughter_of_Giants.pdf,https://forums.elderscrollsonline.com/en/discussion/259927
+20,2016-04-19,Xbox One Patch Notes v1.3.1.0,xbox,1789,5,020_2016-04-19_Xbox_One_Patch_Notes_v1.3.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/260737
+21,2016-04-29,Hotfix with Downtime 4/29/16 – Survey Reports [COMPLETE],unlabeled,387,7,021_2016-04-29_Hotfix_with_Downtime_4_29_16_Survey_Reports_COMPLETE.pdf,https://forums.elderscrollsonline.com/en/discussion/263047
+22,2016-06-13,Xbox One Patch Notes v1.4.0.0,xbox,16623,19,022_2016-06-13_Xbox_One_Patch_Notes_v1.4.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/271706
+23,2016-07-05,Xbox One Patch Notes v1.4.1.0,xbox,1049,5,023_2016-07-05_Xbox_One_Patch_Notes_v1.4.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/277274
+24,2016-08-15,Xbox One Patch Notes v1.5.0.0,xbox,8824,19,024_2016-08-15_Xbox_One_Patch_Notes_v1.5.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/285123
+25,2016-08-30,Hotfix 8/30/16 – Crash with Xbox Live Friends List (Xbox One Only),xbox,55,1,025_2016-08-30_Hotfix_8_30_16_Crash_with_Xbox_Live_Friends_List_Xbox_One_Only.pdf,https://forums.elderscrollsonline.com/en/discussion/288277
+26,2016-09-12,Xbox One Patch Notes v1.5.1.0,xbox,909,6,026_2016-09-12_Xbox_One_Patch_Notes_v1.5.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/291175
+27,2016-10-10,Hotfix 10/11/16 - Grouping Issue in Cyrodiil [COMPLETE],unlabeled,164,2,027_2016-10-10_Hotfix_10_11_16_-_Grouping_Issue_in_Cyrodiil_COMPLETE.pdf,https://forums.elderscrollsonline.com/en/discussion/296577
+28,2016-10-11,Hotfix 10/11/16 – EU Realm Selection [COMPLETE],unlabeled,120,2,028_2016-10-11_Hotfix_10_11_16_EU_Realm_Selection_COMPLETE.pdf,https://forums.elderscrollsonline.com/en/discussion/296740
+29,2016-10-14,Hotfix 10/14/16 – Plunder Skull Trading,unlabeled,115,1,029_2016-10-14_Hotfix_10_14_16_Plunder_Skull_Trading.pdf,https://forums.elderscrollsonline.com/en/discussion/297451
+30,2016-10-17,Xbox One Patch Notes v1.6.0.0,xbox,14565,20,030_2016-10-17_Xbox_One_Patch_Notes_v1.6.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/298095
+31,2016-10-21,Hotfix 10/21/16 – Maw of Lorkhaj Chests (All Platforms),all-platform,54,1,031_2016-10-21_Hotfix_10_21_16_Maw_of_Lorkhaj_Chests_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/299140
+32,2016-11-28,Xbox One Patch Notes v1.6.1.0,xbox,1589,6,032_2016-11-28_Xbox_One_Patch_Notes_v1.6.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/305600
+33,2016-12-14,Xbox One Patch Notes v1.6.2.0,xbox,131,1,033_2016-12-14_Xbox_One_Patch_Notes_v1.6.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/308570
+34,2016-12-16,Hotfix 12/16/16 – New Life Festival: Double XP Buff (all platforms),all-platform,57,1,034_2016-12-16_Hotfix_12_16_16_New_Life_Festival_Double_XP_Buff_all_platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/308987
+35,2017-01-23,Hotfix 1/23/17 – Maw of Lorkhaj (All Platforms),all-platform,32,1,035_2017-01-23_Hotfix_1_23_17_Maw_of_Lorkhaj_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/315886
+36,2017-02-20,Fix for Recent Issue with Character Stats,unlabeled,120,1,036_2017-02-20_Fix_for_Recent_Issue_with_Character_Stats.pdf,https://forums.elderscrollsonline.com/en/discussion/323483
+37,2017-02-20,Xbox One Patch Notes v1.7.0.0,xbox,19533,20,037_2017-02-20_Xbox_One_Patch_Notes_v1.7.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/323560
+38,2017-02-27,Console Maintenance – Feb. 27 at 2pm EST,all-platform,65,1,038_2017-02-27_Console_Maintenance_Feb._27_at_2pm_EST.pdf,https://forums.elderscrollsonline.com/en/discussion/325415
+39,2017-03-20,Xbox One Patch Notes v1.7.1.0,xbox,1285,3,039_2017-03-20_Xbox_One_Patch_Notes_v1.7.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/330527
+40,2017-03-23,Hotfix 3/23/17 – Into the Maw Exploit Fix,unlabeled,85,1,040_2017-03-23_Hotfix_3_23_17_Into_the_Maw_Exploit_Fix.pdf,https://forums.elderscrollsonline.com/en/discussion/331084
+41,2017-04-03,Hotfix 4/3 - Jester's Festival Extension,unlabeled,100,2,041_2017-04-03_Hotfix_4_3_-_Jester_s_Festival_Extension.pdf,https://forums.elderscrollsonline.com/en/discussion/333105
+42,2017-04-05,Hotfix 4/5/17 - Anniversary Event Items,unlabeled,212,1,042_2017-04-05_Hotfix_4_5_17_-_Anniversary_Event_Items.pdf,https://forums.elderscrollsonline.com/en/discussion/333519
+43,2017-04-18,Xbox Patch Notes v1.7.2.0,xbox,295,3,043_2017-04-18_Xbox_Patch_Notes_v1.7.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/336336
+44,2017-05-24,Hotfix 5/24 - Mounting in Maw of Lorkhaj,unlabeled,41,1,044_2017-05-24_Hotfix_5_24_-_Mounting_in_Maw_of_Lorkhaj.pdf,https://forums.elderscrollsonline.com/en/discussion/346744
+45,2017-06-05,Xbox One Patch Notes v1.8.0.1 (Morrowind & Update 14),xbox,17082,20,045_2017-06-05_Xbox_One_Patch_Notes_v1.8.0.1_Morrowind_Update_14.pdf,https://forums.elderscrollsonline.com/en/discussion/350036
+46,2017-06-20,"Hotfix – Some Quests Unable to be Completed (June 20, 2017)",unlabeled,102,1,046_2017-06-20_Hotfix_Some_Quests_Unable_to_be_Completed_June_20_2017.pdf,https://forums.elderscrollsonline.com/en/discussion/354152
+47,2017-07-11,Xbox One Patch Notes v1.8.1.0,xbox,2417,5,047_2017-07-11_Xbox_One_Patch_Notes_v1.8.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/358949
+48,2017-08-28,Xbox One Patch Notes v1.9.0.0 (Horns of the Reach),xbox,11385,12,048_2017-08-28_Xbox_One_Patch_Notes_v1.9.0.0_Horns_of_the_Reach.pdf,https://forums.elderscrollsonline.com/en/discussion/368896
+49,2017-09-19,Xbox One Patch Notes v1.9.1.0,xbox,640,5,049_2017-09-19_Xbox_One_Patch_Notes_v1.9.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/372158
+50,2017-11-06,Xbox One Patch Notes v1.10.0.0 (Clockwork City),xbox,11472,14,050_2017-11-06_Xbox_One_Patch_Notes_v1.10.0.0_Clockwork_City.pdf,https://forums.elderscrollsonline.com/en/discussion/379456
+51,2017-11-30,Xbox One Patch Notes v1.10.1.0,xbox,1032,5,051_2017-11-30_Xbox_One_Patch_Notes_v1.10.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/383249
+52,2018-01-16,Xbox One Patch Notes v1.10.2.0,xbox,246,5,052_2018-01-16_Xbox_One_Patch_Notes_v1.10.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/390364
+53,2018-02-26,Xbox One Patch Notes v1.11.0.0,xbox,11245,13,053_2018-02-26_Xbox_One_Patch_Notes_v1.11.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/397991
+54,2018-03-20,Xbox One Patch Notes v1.11.1.0,xbox,826,6,054_2018-03-20_Xbox_One_Patch_Notes_v1.11.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/401468
+55,2018-04-03,Xbox One Patch Notes v1.11.2.0,xbox,35,1,055_2018-04-03_Xbox_One_Patch_Notes_v1.11.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/404235
+56,2018-05-29,Hotfix am 29.05.2018 - Kluftgeysire,unlabeled,79,2,056_2018-05-29_Hotfix_am_29.05.2018_-_Kluftgeysire.pdf,https://forums.elderscrollsonline.com/en/discussion/416017
+57,2018-06-04,Xbox One Patch Notes v1.12.0.0 (Summerset & Update 18),xbox,14577,13,057_2018-06-04_Xbox_One_Patch_Notes_v1.12.0.0_Summerset_Update_18.pdf,https://forums.elderscrollsonline.com/en/discussion/417183
+58,2018-06-19,Xbox One Patch Notes v1.12.1.0,xbox,988,7,058_2018-06-19_Xbox_One_Patch_Notes_v1.12.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/420551
+59,2018-07-17,Xbox One Patch Notes v1.12.2.0,xbox,527,1,059_2018-07-17_Xbox_One_Patch_Notes_v1.12.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/425855
+60,2018-08-27,Xbox One Patch Notes v1.13.0.0 - Wolfunter & Update 19,xbox,10479,11,060_2018-08-27_Xbox_One_Patch_Notes_v1.13.0.0_-_Wolfunter_Update_19.pdf,https://forums.elderscrollsonline.com/en/discussion/432761
+61,2018-09-17,Xbox One Patch Notes v1.13.1.0,xbox,391,1,061_2018-09-17_Xbox_One_Patch_Notes_v1.13.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/435812
+62,2018-10-01,Combat Pet Changes from Update 19,unlabeled,134,1,062_2018-10-01_Combat_Pet_Changes_from_Update_19.pdf,https://forums.elderscrollsonline.com/en/discussion/438763
+63,2018-10-03,Xbox One Patch Notes v1.13.2.0,xbox,62,1,063_2018-10-03_Xbox_One_Patch_Notes_v1.13.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/439019
+64,2018-10-23,Hotfix for Missing French Localization - Oct 23,unlabeled,39,1,064_2018-10-23_Hotfix_for_Missing_French_Localization_-_Oct_23.pdf,https://forums.elderscrollsonline.com/en/discussion/442188
+65,2018-10-23,Hotfix for Murkmire Rewards & Rewards for the Worthy - Oct 23,unlabeled,83,1,065_2018-10-23_Hotfix_for_Murkmire_Rewards_Rewards_for_the_Worthy_-_Oct_23.pdf,https://forums.elderscrollsonline.com/en/discussion/442262
+66,2018-11-05,Xbox One Patch Notes v1.14.0.0 - Murkmire & Update 20,xbox,11982,13,066_2018-11-05_Xbox_One_Patch_Notes_v1.14.0.0_-_Murkmire_Update_20.pdf,https://forums.elderscrollsonline.com/en/discussion/444457
+67,2018-11-27,Xbox One Patch Notes v1.14.1.0,xbox,554,1,067_2018-11-27_Xbox_One_Patch_Notes_v1.14.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/447271
+68,2019-01-15,Xbox One Patch Notes v1.14.2.0,xbox,297,1,068_2019-01-15_Xbox_One_Patch_Notes_v1.14.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/453059
+69,2019-03-11,Xbox One Patch Notes v1.15.0.0 - Wrathstone & Update 21,xbox,13235,15,069_2019-03-11_Xbox_One_Patch_Notes_v1.15.0.0_-_Wrathstone_Update_21.pdf,https://forums.elderscrollsonline.com/en/discussion/463159
+70,2019-04-04,Hotfix for Jubilee Cake Functionality - April 4,unlabeled,70,1,070_2019-04-04_Hotfix_for_Jubilee_Cake_Functionality_-_April_4.pdf,https://forums.elderscrollsonline.com/en/discussion/466853
+71,2019-04-09,Xbox One Patch Notes v1.15.1.0,xbox,881,1,071_2019-04-09_Xbox_One_Patch_Notes_v1.15.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/467435
+72,2019-04-18,Hotfix 4/18 - Gift Boxes for Cyrodiil Board Quests,unlabeled,73,2,072_2019-04-18_Hotfix_4_18_-_Gift_Boxes_for_Cyrodiil_Board_Quests.pdf,https://forums.elderscrollsonline.com/en/discussion/469558
+73,2019-06-03,Xbox One Patch Notes v1.16.0.0 (Elsweyr & Update 22),xbox,16624,18,073_2019-06-03_Xbox_One_Patch_Notes_v1.16.0.0_Elsweyr_Update_22.pdf,https://forums.elderscrollsonline.com/en/discussion/477882
+74,2019-06-18,Xbox One Patch Notes v1.16.1.0,xbox,1731,8,074_2019-06-18_Xbox_One_Patch_Notes_v1.16.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/480828
+75,2019-07-15,Xbox One Patch Notes v1.16.2.0,xbox,409,1,075_2019-07-15_Xbox_One_Patch_Notes_v1.16.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/485218
+76,2019-08-26,Xbox One Patch Notes v1.17.0.0 (Scalebreaker & Update 23),xbox,21501,15,076_2019-08-26_Xbox_One_Patch_Notes_v1.17.0.0_Scalebreaker_Update_23.pdf,https://forums.elderscrollsonline.com/en/discussion/491204
+77,2019-09-24,Xbox One Patch Notes v1.17.1.0,xbox,648,7,077_2019-09-24_Xbox_One_Patch_Notes_v1.17.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/495061
+78,2019-11-05,Xbox One Patch Notes v1.18.0.0 - Dragonhold & Update 24,xbox,11846,16,078_2019-11-05_Xbox_One_Patch_Notes_v1.18.0.0_-_Dragonhold_Update_24.pdf,https://forums.elderscrollsonline.com/en/discussion/500684
+79,2019-11-16,Dungeon Explorer costume removal,unlabeled,147,3,079_2019-11-16_Dungeon_Explorer_costume_removal.pdf,https://forums.elderscrollsonline.com/en/discussion/502195
+80,2019-12-02,Xbox One Patch Notes v1.18.1.0,xbox,1508,5,080_2019-12-02_Xbox_One_Patch_Notes_v1.18.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/504017
+81,2019-12-18,Xbox One Patch Notes v1.18.2.0,xbox,343,1,081_2019-12-18_Xbox_One_Patch_Notes_v1.18.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/505498
+82,2020-01-16,Xbox One Patch Notes v1.18.3.0,xbox,129,1,082_2020-01-16_Xbox_One_Patch_Notes_v1.18.3.0.pdf,https://forums.elderscrollsonline.com/en/discussion/508082
+83,2020-01-24,Cyrodiil Crash Hotfix - Jan 23,unlabeled,51,1,083_2020-01-24_Cyrodiil_Crash_Hotfix_-_Jan_23.pdf,https://forums.elderscrollsonline.com/en/discussion/509608
+84,2020-02-05,Xbox One Patch Notes v1.18.4.0,xbox,117,1,084_2020-02-05_Xbox_One_Patch_Notes_v1.18.4.0.pdf,https://forums.elderscrollsonline.com/en/discussion/511363
+85,2020-03-09,Xbox One Patch Notes v1.19.1.0 - Harrowstorm & Update 25,xbox,10270,20,085_2020-03-09_Xbox_One_Patch_Notes_v1.19.1.0_-_Harrowstorm_Update_25.pdf,https://forums.elderscrollsonline.com/en/discussion/515838
+86,2020-03-31,Xbox One Patch Notes v1.19.2.0,xbox,516,1,086_2020-03-31_Xbox_One_Patch_Notes_v1.19.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/519020
+87,2020-06-09,Xbox One Patch Notes v1.20.0.0 - Greymoor & Update 26,xbox,16426,19,087_2020-06-09_Xbox_One_Patch_Notes_v1.20.0.0_-_Greymoor_Update_26.pdf,https://forums.elderscrollsonline.com/en/discussion/532049
+88,2020-06-16,6/16 Hotfix - Dwarven Spiders in Nchuthnkarst,unlabeled,33,1,088_2020-06-16_6_16_Hotfix_-_Dwarven_Spiders_in_Nchuthnkarst.pdf,https://forums.elderscrollsonline.com/en/discussion/533266
+89,2020-06-23,Xbox One Patch Notes v1.20.1.0,xbox,951,6,089_2020-06-23_Xbox_One_Patch_Notes_v1.20.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/534238
+90,2020-07-15,Xbox One Patch Notes v1.20.2.0,xbox,410,1,090_2020-07-15_Xbox_One_Patch_Notes_v1.20.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/537562
+91,2020-07-24,July 24 Hotfix - Summerset Celebration,unlabeled,32,1,091_2020-07-24_July_24_Hotfix_-_Summerset_Celebration.pdf,https://forums.elderscrollsonline.com/en/discussion/538831
+92,2020-09-01,Xbox One Patch Notes v1.21.0.0 - Stonethorn & Update 27,xbox,14965,14,092_2020-09-01_Xbox_One_Patch_Notes_v1.21.0.0_-_Stonethorn_Update_27.pdf,https://forums.elderscrollsonline.com/en/discussion/543930
+93,2020-09-15,Xbox One Patch Notes v1.21.1.0,xbox,575,1,093_2020-09-15_Xbox_One_Patch_Notes_v1.21.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/545702
+94,2020-09-21,Hotfix on All Realms - Stuck Effects,all-platform,33,1,094_2020-09-21_Hotfix_on_All_Realms_-_Stuck_Effects.pdf,https://forums.elderscrollsonline.com/en/discussion/546498
+95,2020-09-30,Xbox One Patch Notes v1.21.2.0,xbox,279,1,095_2020-09-30_Xbox_One_Patch_Notes_v1.21.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/547632
+96,2020-11-09,Xbox One Patch Notes v1.22.0.0 - Markarth  & Update 28,xbox,10654,13,096_2020-11-09_Xbox_One_Patch_Notes_v1.22.0.0_-_Markarth_Update_28.pdf,https://forums.elderscrollsonline.com/en/discussion/552187
+97,2020-11-23,Xbox One Patch Notes v1.22.1.0,xbox,830,6,097_2020-11-23_Xbox_One_Patch_Notes_v1.22.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/553806
+98,2020-12-05,Xbox One Patch Notes v1.22.2.0,xbox,329,1,098_2020-12-05_Xbox_One_Patch_Notes_v1.22.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/555064
+99,2021-01-27,Xbox One Patch Notes v1.22.3.0,xbox,200,1,099_2021-01-27_Xbox_One_Patch_Notes_v1.22.3.0.pdf,https://forums.elderscrollsonline.com/en/discussion/559277
+100,2021-03-15,Xbox One Patch Notes v1.23.0.0 - Flames of Ambition DLC & Update 29,xbox,11600,20,100_2021-03-15_Xbox_One_Patch_Notes_v1.23.0.0_-_Flames_of_Ambition_DLC_Update_29.pdf,https://forums.elderscrollsonline.com/en/discussion/565748
+101,2021-04-05,Xbox One Patch Notes v1.23.1.0,xbox,583,1,101_2021-04-05_Xbox_One_Patch_Notes_v1.23.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/568495
+102,2021-04-20,Xbox One Patch Notes v1.23.2.0,xbox,439,1,102_2021-04-20_Xbox_One_Patch_Notes_v1.23.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/570826
+103,2021-06-08,Xbox Patch Notes v1.24.2.0 - Blackwood & Update 30,xbox,13543,18,103_2021-06-08_Xbox_Patch_Notes_v1.24.2.0_-_Blackwood_Update_30.pdf,https://forums.elderscrollsonline.com/en/discussion/576619
+104,2021-06-23,Xbox Patch Notes v1.24.3.0,xbox,1806,8,104_2021-06-23_Xbox_Patch_Notes_v1.24.3.0.pdf,https://forums.elderscrollsonline.com/en/discussion/578635
+105,2021-07-08,Xbox Patch Notes v1.24.4.0,xbox,950,4,105_2021-07-08_Xbox_Patch_Notes_v1.24.4.0.pdf,https://forums.elderscrollsonline.com/en/discussion/580375
+106,2021-07-28,Xbox Patch Notes v1.24.5.0,xbox,319,1,106_2021-07-28_Xbox_Patch_Notes_v1.24.5.0.pdf,https://forums.elderscrollsonline.com/en/discussion/582378
+107,2021-08-16,Exploit Hotfix on All Realms – August 17,all-platform,46,1,107_2021-08-16_Exploit_Hotfix_on_All_Realms_August_17.pdf,https://forums.elderscrollsonline.com/en/discussion/583851
+108,2021-09-07,Xbox Patch Notes v1.25.0.0 - Waking Flame & Update 31,xbox,11595,14,108_2021-09-07_Xbox_Patch_Notes_v1.25.0.0_-_Waking_Flame_Update_31.pdf,https://forums.elderscrollsonline.com/en/discussion/585895
+109,2021-09-22,Xbox Patch Notes v1.25.1.0,xbox,876,8,109_2021-09-22_Xbox_Patch_Notes_v1.25.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/587186
+110,2021-10-05,Xbox Patch Notes v1.25.2.0,xbox,361,1,110_2021-10-05_Xbox_Patch_Notes_v1.25.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/588333
+111,2021-11-15,Xbox Patch Notes v1.26.0.0 (Deadlands & Update 32),xbox,11546,23,111_2021-11-15_Xbox_Patch_Notes_v1.26.0.0_Deadlands_Update_32.pdf,https://forums.elderscrollsonline.com/en/discussion/591420
+112,2021-11-18,Hotfix All Realms- 11/18/2021,all-platform,73,1,112_2021-11-18_Hotfix_All_Realms-_11_18_2021.pdf,https://forums.elderscrollsonline.com/en/discussion/591659
+113,2021-12-01,Xbox Patch Notes v1.26.1.0,xbox,521,1,113_2021-12-01_Xbox_Patch_Notes_v1.26.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/592526
+114,2021-12-14,Xbox Patch Notes v1.26.2.0,xbox,262,1,114_2021-12-14_Xbox_Patch_Notes_v1.26.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/593648
+115,2021-12-22,Xbox Patch Notes v1.26.3.0,xbox,41,1,115_2021-12-22_Xbox_Patch_Notes_v1.26.3.0.pdf,https://forums.elderscrollsonline.com/en/discussion/594128
+116,2022-02-02,Xbox Patch Notes v1.26.4.0,xbox,341,1,116_2022-02-02_Xbox_Patch_Notes_v1.26.4.0.pdf,https://forums.elderscrollsonline.com/en/discussion/597203
+117,2022-03-28,Update 33 Console Known Issues,all-platform,237,1,117_2022-03-28_Update_33_Console_Known_Issues.pdf,https://forums.elderscrollsonline.com/en/discussion/601151
+118,2022-03-28,Xbox Patch Notes v1.27.0.0 - Ascending Tide & Update 33,xbox,8558,18,118_2022-03-28_Xbox_Patch_Notes_v1.27.0.0_-_Ascending_Tide_Update_33.pdf,https://forums.elderscrollsonline.com/en/discussion/601172
+119,2022-04-11,Xbox Patch Notes v1.27.1.0,xbox,258,1,119_2022-04-11_Xbox_Patch_Notes_v1.27.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/602459
+120,2022-04-26,Xbox Patch Notes v1.27.2.0,xbox,104,1,120_2022-04-26_Xbox_Patch_Notes_v1.27.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/603936
+121,2022-06-20,Xbox Patch Notes v1.28.0.0 - High Isle & Update 34,xbox,14018,18,121_2022-06-20_Xbox_Patch_Notes_v1.28.0.0_-_High_Isle_Update_34.pdf,https://forums.elderscrollsonline.com/en/discussion/608715
+122,2022-07-06,Xbox Patch Notes v1.28.1.0,xbox,1259,4,122_2022-07-06_Xbox_Patch_Notes_v1.28.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/610386
+123,2022-07-20,Xbox Patch Notes v1.28.2.0,xbox,522,1,123_2022-07-20_Xbox_Patch_Notes_v1.28.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/612328
+124,2022-07-25,Hotfix All Realms - 7/25/2022,all-platform,65,1,124_2022-07-25_Hotfix_All_Realms_-_7_25_2022.pdf,https://forums.elderscrollsonline.com/en/discussion/612881
+125,2022-09-06,Xbox Patch Notes v1.29.0.0 - Lost Depths & Update 35,xbox,16240,20,125_2022-09-06_Xbox_Patch_Notes_v1.29.0.0_-_Lost_Depths_Update_35.pdf,https://forums.elderscrollsonline.com/en/discussion/616862
+126,2022-09-20,Xbox Patch Notes v1.29.1.0,xbox,451,1,126_2022-09-20_Xbox_Patch_Notes_v1.29.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/618099
+127,2022-10-04,Xbox Patch Notes v1.29.2.0,xbox,231,1,127_2022-10-04_Xbox_Patch_Notes_v1.29.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/619204
+128,2022-11-14,Xbox Patch Notes v1.30.0.0 - Firesong DLC & Update 36,xbox,7273,16,128_2022-11-14_Xbox_Patch_Notes_v1.30.0.0_-_Firesong_DLC_Update_36.pdf,https://forums.elderscrollsonline.com/en/discussion/621882
+129,2022-11-15,Update 36 Console Launch - Fixed & Known Issues,all-platform,183,1,129_2022-11-15_Update_36_Console_Launch_-_Fixed_Known_Issues.pdf,https://forums.elderscrollsonline.com/en/discussion/621925
+130,2022-12-06,Xbox Patch Notes v1.30.1.0,xbox,1371,8,130_2022-12-06_Xbox_Patch_Notes_v1.30.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/623388
+131,2022-12-08,Voice Chat Accessibility Turned off on Console Servers - December 8,all-platform,89,1,131_2022-12-08_Voice_Chat_Accessibility_Turned_off_on_Console_Servers_-_December_8.pdf,https://forums.elderscrollsonline.com/en/discussion/623547
+132,2022-12-20,Xbox Patch Notes v1.30.2.0,xbox,360,1,132_2022-12-20_Xbox_Patch_Notes_v1.30.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/624240
+133,2023-02-09,Xbox Patch Notes v1.30.3.0,xbox,38,1,133_2023-02-09_Xbox_Patch_Notes_v1.30.3.0.pdf,https://forums.elderscrollsonline.com/en/discussion/627268
+134,2023-03-27,Hotfix for Xbox and PlayStation Consoles (3/27/2023),xbox,121,1,134_2023-03-27_Hotfix_for_Xbox_and_PlayStation_Consoles_3_27_2023.pdf,https://forums.elderscrollsonline.com/en/discussion/630112
+135,2023-03-28,Xbox Patch Notes v1.31.0.0 - Scribes of Fate DLC & Update 37,xbox,10785,17,135_2023-03-28_Xbox_Patch_Notes_v1.31.0.0_-_Scribes_of_Fate_DLC_Update_37.pdf,https://forums.elderscrollsonline.com/en/discussion/630149
+136,2023-04-10,Xbox Patch Notes v1.31.1.0,xbox,484,1,136_2023-04-10_Xbox_Patch_Notes_v1.31.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/631147
+137,2023-04-26,Xbox Patch Notes v1.31.2.0,xbox,181,1,137_2023-04-26_Xbox_Patch_Notes_v1.31.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/632384
+138,2023-06-19,Xbox Patch Notes v1.32.0.0 - Necrom & Update 38,xbox,11125,16,138_2023-06-19_Xbox_Patch_Notes_v1.32.0.0_-_Necrom_Update_38.pdf,https://forums.elderscrollsonline.com/en/discussion/636411
+139,2023-07-12,Xbox Patch Notes v1.32.1.0,xbox,1509,7,139_2023-07-12_Xbox_Patch_Notes_v1.32.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/638251
+140,2023-07-25,Xbox Patch Notes v1.32.2.0,xbox,622,1,140_2023-07-25_Xbox_Patch_Notes_v1.32.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/639439
+141,2023-08-29,Resolving Invisible Enemies In Various Zones,unlabeled,28,1,141_2023-08-29_Resolving_Invisible_Enemies_In_Various_Zones.pdf,https://forums.elderscrollsonline.com/en/discussion/641974
+142,2023-08-29,"Turning Off Suppressing Companions in Favor of Assistants - August 29, 2023",unlabeled,55,1,142_2023-08-29_Turning_Off_Suppressing_Companions_in_Favor_of_Assistants_-_August_29_.pdf,https://forums.elderscrollsonline.com/en/discussion/641998
+143,2023-09-01,Xbox Patch Notes v1.33.0.0 [Update 39],xbox,14045,22,143_2023-09-01_Xbox_Patch_Notes_v1.33.0.0_Update_39.pdf,https://forums.elderscrollsonline.com/en/discussion/642202
+144,2023-09-19,Xbox Patch Notes v1.33.1.0,xbox,512,1,144_2023-09-19_Xbox_Patch_Notes_v1.33.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/643443
+145,2023-10-03,Xbox Patch Notes v1.33.2.0,xbox,196,1,145_2023-10-03_Xbox_Patch_Notes_v1.33.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/644259
+146,2023-11-13,Xbox Patch Notes v1.34.0.0 [Update 40],xbox,8730,17,146_2023-11-13_Xbox_Patch_Notes_v1.34.0.0_Update_40.pdf,https://forums.elderscrollsonline.com/en/discussion/646924
+147,2023-12-06,Xbox Patch Notes v1.34.1.0,xbox,838,1,147_2023-12-06_Xbox_Patch_Notes_v1.34.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/648355
+148,2023-12-20,Xbox Patch Notes v1.34.2.0,xbox,274,1,148_2023-12-20_Xbox_Patch_Notes_v1.34.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/649070
+149,2024-01-18,Xbox Patch Notes v1.34.3.0,xbox,81,1,149_2024-01-18_Xbox_Patch_Notes_v1.34.3.0.pdf,https://forums.elderscrollsonline.com/en/discussion/650485
+150,2024-03-26,Xbox Patch Notes v1.35.0.0 - Scions of Ithelia DLC & Update 41,xbox,10792,15,150_2024-03-26_Xbox_Patch_Notes_v1.35.0.0_-_Scions_of_Ithelia_DLC_Update_41.pdf,https://forums.elderscrollsonline.com/en/discussion/655165
+151,2024-04-03,Xbox/PlayStation Hotfix: Resolve Issue To Access To ESO & The Free Play Event,xbox,72,1,151_2024-04-03_Xbox_PlayStation_Hotfix_Resolve_Issue_To_Access_To_ESO_The_Free_Play_E.pdf,https://forums.elderscrollsonline.com/en/discussion/655718
+152,2024-04-04,"Anniversary Jubilee Cake Slice Hotfix- April 4, 2024",unlabeled,60,1,152_2024-04-04_Anniversary_Jubilee_Cake_Slice_Hotfix-_April_4_2024.pdf,https://forums.elderscrollsonline.com/en/discussion/655786
+153,2024-04-10,Xbox Patch Notes v1.35.1.0,xbox,635,1,153_2024-04-10_Xbox_Patch_Notes_v1.35.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/656131
+154,2024-04-24,Xbox Patch Notes v1.35.2.0,xbox,161,1,154_2024-04-24_Xbox_Patch_Notes_v1.35.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/657424
+155,2024-06-11,"Fix for Issue with Crown Pack Purchases on Steam – June 12, 2024",unlabeled,64,1,155_2024-06-11_Fix_for_Issue_with_Crown_Pack_Purchases_on_Steam_June_12_2024.pdf,https://forums.elderscrollsonline.com/en/discussion/660331
+156,2024-06-15,"Fix For Zoning Disconnects and 334 Errors- June 15, 2024",unlabeled,127,2,156_2024-06-15_Fix_For_Zoning_Disconnects_and_334_Errors-_June_15_2024.pdf,https://forums.elderscrollsonline.com/en/discussion/660581
+157,2024-06-18,Xbox Patch Notes v1.36.0.0 | Gold Road & Update 42,xbox,11839,16,157_2024-06-18_Xbox_Patch_Notes_v1.36.0.0_Gold_Road_Update_42.pdf,https://forums.elderscrollsonline.com/en/discussion/660749
+158,2024-07-10,Xbox Patch Notes v1.36.1.0,xbox,1285,1,158_2024-07-10_Xbox_Patch_Notes_v1.36.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/662255
+159,2024-07-24,Xbox Patch Notes v1.36.2.0,xbox,490,1,159_2024-07-24_Xbox_Patch_Notes_v1.36.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/662942
+160,2024-09-04,Xbox Patch Notes v1.37.0.0,xbox,12343,20,160_2024-09-04_Xbox_Patch_Notes_v1.37.0.0.pdf,https://forums.elderscrollsonline.com/en/discussion/665037
+161,2024-09-18,Xbox Patch Notes v1.37.1.0,xbox,838,4,161_2024-09-18_Xbox_Patch_Notes_v1.37.1.0.pdf,https://forums.elderscrollsonline.com/en/discussion/665917
+162,2024-09-26,"Fix for Molag Bal Illusion Imp Fragments,  All Servers - Sept. 26, 2024",all-platform,38,1,162_2024-09-26_Fix_for_Molag_Bal_Illusion_Imp_Fragments_All_Servers_-_Sept._26_2024.pdf,https://forums.elderscrollsonline.com/en/discussion/666435
+163,2024-10-02,Xbox Patch Notes v1.37.2.0,xbox,329,3,163_2024-10-02_Xbox_Patch_Notes_v1.37.2.0.pdf,https://forums.elderscrollsonline.com/en/discussion/666739
+164,2024-10-30,"Hotfix for Nov. 1, 2024- Fixing Some Battlegrounds Bugs, Region Crash Issues, & Cryodiil Repair Kits",unlabeled,157,2,164_2024-10-30_Hotfix_for_Nov._1_2024-_Fixing_Some_Battlegrounds_Bugs_Region_Crash_Is.pdf,https://forums.elderscrollsonline.com/en/discussion/668104
+165,2024-11-13,Xbox Patch Notes v1.38.0.0 | Update 44,xbox,12171,15,165_2024-11-13_Xbox_Patch_Notes_v1.38.0.0_Update_44.pdf,https://forums.elderscrollsonline.com/en/discussion/668827
+166,2024-12-01,Xbox Patch Notes v1.38.1.0  | Update 44 Incremental Patch 1,xbox,846,7,166_2024-12-01_Xbox_Patch_Notes_v1.38.1.0_Update_44_Incremental_Patch_1.pdf,https://forums.elderscrollsonline.com/en/discussion/669647
+167,2024-12-17,Xbox Patch Notes v1.38.2.0 | Update 44 Incremental Patch 2,xbox,333,5,167_2024-12-17_Xbox_Patch_Notes_v1.38.2.0_Update_44_Incremental_Patch_2.pdf,https://forums.elderscrollsonline.com/en/discussion/670670
+168,2025-02-19,Xbox Patch Notes v1.38.3.0 | Update 44 Incremental Patch 3,xbox,35,2,168_2025-02-19_Xbox_Patch_Notes_v1.38.3.0_Update_44_Incremental_Patch_3.pdf,https://forums.elderscrollsonline.com/en/discussion/673601
+169,2025-03-25,Xbox Patch Notes v1.39.0.0 | Fallen Banners DLC & Update 45,xbox,8008,17,169_2025-03-25_Xbox_Patch_Notes_v1.39.0.0_Fallen_Banners_DLC_Update_45.pdf,https://forums.elderscrollsonline.com/en/discussion/675145
+170,2025-03-27,"Hotfix for Roksa the Warped Arms Pack, Mask, and Shoulder Styles (all megaservers)",all-platform,105,1,170_2025-03-27_Hotfix_for_Roksa_the_Warped_Arms_Pack_Mask_and_Shoulder_Styles_all_meg.pdf,https://forums.elderscrollsonline.com/en/discussion/675235
+171,2025-04-02,Xbox Patch Notes v1.39.1.0 | Update 45 Incremental Patch 1,xbox,553,6,171_2025-04-02_Xbox_Patch_Notes_v1.39.1.0_Update_45_Incremental_Patch_1.pdf,https://forums.elderscrollsonline.com/en/discussion/675528
+172,2025-04-07,Hotfix for Empty Bags of Jubilee Yesteryear and Reward Box Adjustments (all megaservers),all-platform,152,1,172_2025-04-07_Hotfix_for_Empty_Bags_of_Jubilee_Yesteryear_and_Reward_Box_Adjustments.pdf,https://forums.elderscrollsonline.com/en/discussion/675750
+173,2025-04-11,"Hotfix for the Update 46 Prologue Quest and Reaper Strikes-  April 11, 2025 (all megaservers)",all-platform,79,1,173_2025-04-11_Hotfix_for_the_Update_46_Prologue_Quest_and_Reaper_Strikes-_April_11_2.pdf,https://forums.elderscrollsonline.com/en/discussion/676067
+174,2025-04-15,Hotfix For Resolving Infinite Archive Region Crashes (all megaservers),all-platform,79,1,174_2025-04-15_Hotfix_For_Resolving_Infinite_Archive_Region_Crashes_all_megaservers.pdf,https://forums.elderscrollsonline.com/en/discussion/676391
+175,2025-04-23,Xbox Patch Notes v1.39.2.0 | Update 45 Incremental Patch 2,xbox,255,4,175_2025-04-23_Xbox_Patch_Notes_v1.39.2.0_Update_45_Incremental_Patch_2.pdf,https://forums.elderscrollsonline.com/en/discussion/676903
+176,2025-06-18,Xbox Patch Notes v1.40.0.0 | Update 46,xbox,13832,17,176_2025-06-18_Xbox_Patch_Notes_v1.40.0.0_Update_46.pdf,https://forums.elderscrollsonline.com/en/discussion/679227
+177,2025-07-09,Xbox Patch Notes v1.40.1.0 | Update 46 Inc. 1,xbox,1282,4,177_2025-07-09_Xbox_Patch_Notes_v1.40.1.0_Update_46_Inc._1.pdf,https://forums.elderscrollsonline.com/en/discussion/680312
+178,2025-07-23,Xbox Patch Notes v1.40.2.0 | Update 46 Inc. 2,xbox,458,3,178_2025-07-23_Xbox_Patch_Notes_v1.40.2.0_Update_46_Inc._2.pdf,https://forums.elderscrollsonline.com/en/discussion/681038
+179,2025-09-03,Xbox Patch Notes v1.41.0.0 | Update 47,xbox,7809,14,179_2025-09-03_Xbox_Patch_Notes_v1.41.0.0_Update_47.pdf,https://forums.elderscrollsonline.com/en/discussion/682702
+180,2025-09-16,Xbox Patch Notes v1.41.1.0 | Update 47 Console Incremental 1,xbox,693,7,180_2025-09-16_Xbox_Patch_Notes_v1.41.1.0_Update_47_Console_Incremental_1.pdf,https://forums.elderscrollsonline.com/en/discussion/683168
+181,2025-09-30,Xbox Patch Notes v1.41.2.0 | Update 47 Console Incremental 2,xbox,145,3,181_2025-09-30_Xbox_Patch_Notes_v1.41.2.0_Update_47_Console_Incremental_2.pdf,https://forums.elderscrollsonline.com/en/discussion/683635
+182,2025-10-15,Writhing Wall Event Hotfixes,unlabeled,79,1,182_2025-10-15_Writhing_Wall_Event_Hotfixes.pdf,https://forums.elderscrollsonline.com/en/discussion/684144
+183,2025-11-11,Xbox Patch Notes v1.42.0.0 | Update 48 Seasons of the Worm Cult Part 2,xbox,4061,9,183_2025-11-11_Xbox_Patch_Notes_v1.42.0.0_Update_48_Seasons_of_the_Worm_Cult_Part_2.pdf,https://forums.elderscrollsonline.com/en/discussion/685144
+184,2025-11-14,Writhing Fortress Hotfix - November 14,unlabeled,63,1,184_2025-11-14_Writhing_Fortress_Hotfix_-_November_14.pdf,https://forums.elderscrollsonline.com/en/discussion/685254
+185,2025-12-03,Xbox Patch Notes v1.42.1.0 | Update 48 Incremental 1,xbox,920,5,185_2025-12-03_Xbox_Patch_Notes_v1.42.1.0_Update_48_Incremental_1.pdf,https://forums.elderscrollsonline.com/en/discussion/686063
+186,2026-01-21,Xbox Patch Notes v1.42.2.0 | Update 48 Incremental 2,xbox,659,3,186_2026-01-21_Xbox_Patch_Notes_v1.42.2.0_Update_48_Incremental_2.pdf,https://forums.elderscrollsonline.com/en/discussion/687920
+187,2026-03-09,Update 49 Live Patch Notes: All Platforms,all-platform,12834,12,187_2026-03-09_Update_49_Live_Patch_Notes_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/689473
+188,2026-03-30,Update 49 Inc.1 Live Patch Notes: All Platforms,all-platform,535,4,188_2026-03-30_Update_49_Inc.1_Live_Patch_Notes_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/690278
+189,2026-04-02,Hotfix for Weekly Challenges - April 3,unlabeled,147,2,189_2026-04-02_Hotfix_for_Weekly_Challenges_-_April_3.pdf,https://forums.elderscrollsonline.com/en/discussion/690532
+190,2026-04-20,Update 49 Inc.2 Live Patch Notes: All Platforms,all-platform,601,6,190_2026-04-20_Update_49_Inc.2_Live_Patch_Notes_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/691497
+191,2026-04-30,Night Market Hotfix - April 30 (All Platforms),all-platform,45,1,191_2026-04-30_Night_Market_Hotfix_-_April_30_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/692111
+192,2026-04-30,Night Market Hotfix - Relic Splinters,unlabeled,91,2,192_2026-04-30_Night_Market_Hotfix_-_Relic_Splinters.pdf,https://forums.elderscrollsonline.com/en/discussion/692113
+193,2026-05-04,Night Market Hotfixes - May 4 (All Platforms),all-platform,205,1,193_2026-05-04_Night_Market_Hotfixes_-_May_4_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/692410
+194,2026-06-08,Update 50 Live Patch Notes: All Platforms,all-platform,17908,14,194_2026-06-08_Update_50_Live_Patch_Notes_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/693682
+195,2026-06-09,Hotfixes for June 9 (All Platforms),all-platform,164,1,195_2026-06-09_Hotfixes_for_June_9_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/693814
+196,2026-06-11,Hotfixes on All Platforms - June 12 @ 4am EDT/9am BST,all-platform,127,1,196_2026-06-11_Hotfixes_on_All_Platforms_-_June_12_4am_EDT_9am_BST.pdf,https://forums.elderscrollsonline.com/en/discussion/693945
+197,2026-06-12,All Platform Hotfix -June 12: Fixing Quen,all-platform,68,2,197_2026-06-12_All_Platform_Hotfix_-June_12_Fixing_Quen.pdf,https://forums.elderscrollsonline.com/en/discussion/693978
+198,2026-06-25,Hotfix – June 26 (Console Servers),all-platform,45,1,198_2026-06-25_Hotfix_June_26_Console_Servers.pdf,https://forums.elderscrollsonline.com/en/discussion/695021
+199,2026-06-29,Update 50 Inc.1 Live Patch Notes: All Platforms,all-platform,733,4,199_2026-06-29_Update_50_Inc.1_Live_Patch_Notes_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/695308
+200,2026-07-20,Update 50 Inc.2 Live Patch Notes: All Platforms,all-platform,869,3,200_2026-07-20_Update_50_Inc.2_Live_Patch_Notes_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/696428
+201,2026-08-10,Update 50 Inc.3 Live Patch Notes: All Platforms,all-platform,312,2,201_2026-08-10_Update_50_Inc.3_Live_Patch_Notes_All_Platforms.pdf,https://forums.elderscrollsonline.com/en/discussion/697520
+202,2026-08-10,Disabling Proc Sets in Vengeance- Starting at 1:00pm ET/ 17:00 UTC,unlabeled,99,2,202_2026-08-10_Disabling_Proc_Sets_in_Vengeance-_Starting_at_1_00pm_ET_17_00_UTC.pdf,https://forums.elderscrollsonline.com/en/discussion/697546

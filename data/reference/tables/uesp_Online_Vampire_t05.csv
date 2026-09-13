@@ -1,0 +1,11 @@
+Name,Line Rank,Skill Rank,Description
+,Feed,1,,"Allows you to feed on an unsuspecting target, killing them and increasing your Vampire Stage . Higher Stages make you a stronger Vampire at the cost of your humanity. Stages decrease over long periods of time. Stage 1/2/3/4 Health Recovery : -10%/-30%/-60%/-100% Flame Damage Taken: +5%/+8%/+13%/+20% Regular Ability Costs: +3%/+5%/+8%/+12% Vampire Ability Costs: -6%/-10%/-16%/-24%"
+,Dark Stalker,3,,Ignore the Movement Speed penalty of Sneak . Decreases the time it takes to enter Sneak by 25 %.
+7,,Ignore the Movement Speed penalty of Sneak. Decreases the time it takes to enter Sneak by 50 %.
+,Strike from the Shadows,4,,"While you are at Vampire Stage 2 or higher When you leave Sneak , invisibility , or Mist Form your Weapon and Spell Damage is increased by 150 for 6 seconds."
+8,,"While you are at Vampire Stage 2 or higher When you leave Sneak, invisibility, or Mist Form your Weapon and Spell Damage is increased by 300 for 6 seconds."
+,Blood Ritual,6,,Allows you to infect another player with Noxiphilic Sanguivoria once every week by returning to the Vampire ritual site. Players already infected with Lycanthropy cannot be infected with Noxiphilic Sanguivoria.
+,Undeath,6,,While you are at Vampire Stage 3 or higher Reduces your damage taken by up to 7 % based on your missing Health .
+9,,While you are at Vampire Stage 3 or higher Reduces your damage taken by up to 15 % based on your missing Health .
+,Unnatural Movement,7,,While you are at Vampire Stage 4 Reduces the cost of Sprint by 25 %. If you continuously Sprint for 6 seconds you automatically become invisible .
+10,,While you are at Vampire Stage 4 Reduces the cost of Sprint by 50 %. If you continuously Sprint for 3 seconds you automatically become invisible.

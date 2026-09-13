@@ -1,0 +1,10 @@
+Skill,Duration,Affects,Cost,Notes
+Dragonknight Standard ( Ardent Flame ),5 sec.,All Enemies Within AoE,250 Ultimate,Activated via Shackle synergy
+Dark Talons ( Draconic Power ),4 sec.,All Nearby Enemies,4050 Magicka,
+Crippling Grasp ( Siphoning ),2 sec.,Single Target,3240 Magicka,
+Daedric Mines ( Dark Magic ),2 sec.,Any Enemies Hit,6480 Magicka,
+Encase ( Dark Magic ),4 sec.,All Enemies in Front of You,4320 Magicka,
+Bombard ( Bow ),4 sec.,Any Enemies Hit,4050 Stamina,Also reduces Movement Speed when effect ends
+Frost Touch ( Destruction Staff ),(?),Single Target,4050 Magicka,
+Wall of Frost ( Destruction Staff ),(?),All Targets in Range,3510 Magicka,
+Trap Beast ( Fighters Guild ),2 sec.,Single Target,3780 Stamina,

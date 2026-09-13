@@ -1,0 +1,5 @@
+Passive Unlocks,Rank,Effect
+,Field Physician,10,Reduces damage received while resurrecting another player by 15%.
+,Infusion,30,Increases another player's Magicka Recovery by [x] for 8 seconds after you resurrect them.
+,Revival,75,Absorbs [x] damage for 5 seconds after you are resurrected .
+,Determination,120,Absorbs [x] damage for 15 seconds after drinking a potion.

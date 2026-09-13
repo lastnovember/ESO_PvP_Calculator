@@ -1,0 +1,5 @@
+Passive Perks,Effect,Cost per Stage,Stages
+,Quick Recovery,Increases your Healing Taken by 1% per stage.,10,2
+,Hardy,"Reduces the damage you take from Martial attacks by 1% per stage. Affects Physical, Poison, Disease and Bleed Damage.",10,2
+,Elemental Aegis,"Reduces the damage you take from Magical attacks by 1% per stage. Affects Magic, Flame, Frost and Shock Damage.",10,2
+,Preparation,Reduces your damage taken from non-player attacks by 5% per stage.,10,2

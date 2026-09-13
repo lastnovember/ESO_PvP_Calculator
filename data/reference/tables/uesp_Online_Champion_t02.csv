@@ -1,0 +1,16 @@
+Passive Perks,Effect,Cost per Stage,Stages
+,Cutpurse's Art,Increases the chance to get higher-quality loot when pickpocketing.,25,1
+,Discipline Artisan,Increases experience gain for currently active skills and their skill lines  by 3% per stage.,10,5
+,Fleet Phantom,Reduces the Movement Speed penalty of Sneak by 5% per stage.,8,5
+,Fortune's Favor,Increases the amount of gold you find in treasure chests and safeboxes by 10% per stage.,10,5
+,Homemaker,You have a 10% chance to find a second furnishing plan whenever you find a furnishing plan in the world.,25,1
+,Infamous,Increases the value of fenced items by 25%.,25,1
+,Inspiration Boost,Increases your crafting inspiration gained by 10% per stage.,15,3
+,Liquid Efficiency,Whenever you use a potion or poison you have a 10% chance to not consume it.,50,1
+,Meticulous Disassembly,"Improves the chances of extracting Woodworking, Blacksmithing, Clothing, and Jewelry Crafting ingredients and allows the refining of more powerful resins, tempers, tannins, and platings from raw materials.",50,1
+,Plentiful Harvest,You have a 10% chance to gain double the yield from normal resource nodes per stage.,10,5
+,Rationer,Adds 10 minutes to the duration of any eaten food or drink per stage.,10,3
+,Soul Reservoir,When you resurrect yourself or another player you have a 33% chance to not consume a Soul Gem.,30,1
+,Steadfast Enchantment,Your Weapon Enchantments have a 10% chance to not consume a charge when activated per stage.,10,5
+,Treasure Hunter,Increases the quality of items you find in treasure chests.,50,1
+,Wanderer,Reduces the cost of Wayshrine usage by 10% per stage.,10,5

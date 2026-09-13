@@ -1,0 +1,26 @@
+Name,Line Rank,Skill Rank,Description
+,Recipe Improvement,1,​,Allows the making of up to level 19 Recipes.
+20,,Allows the making of up to level 29 Recipes.
+30,,Allows the making of up to level 39 Recipes.
+40,,Allows the making of up to level 49 Recipes.
+50,,Allows the making of up to Champion 50 Recipes.
+50,,Allows the making of up to Champion 150 Recipes.
+,Recipe Quality,1,​,Allows the use of Standard (green) Recipes.
+10,,Allows the use of Difficult (blue) Recipes.
+35,,Allows the use of Complex (purple) Recipes.
+50,,Allows the use of Legendary (gold) Recipes.
+,Gourmand,3,,Adds 5 minutes to the duration of any eaten food.
+14,,Adds 10 minutes to the duration of any eaten food.
+43,,Adds 20 minutes to the duration of any eaten food.
+,Connoisseur,5,,Adds 5 minutes to the duration of any consumed drink.
+18,,Adds 10 minutes to the duration of any consumed drink.
+47,,Adds 20 minutes to the duration of any consumed drink.
+,Chef,7,,Creates 1 extra serving for each food recipe made.
+23,,Creates 2 extra servings for each food recipe made.
+33,,Creates 3 extra servings for each food recipe made.
+,Brewer,9,,Creates 1 extra serving for each drink recipe made.
+25,,Creates 2 extra servings for each drink recipe made.
+36,,Creates 3 extra servings for each drink recipe made.
+,Hireling,28,,A hireling will send you some provisioning ingredients every day.
+38,,A hireling will send you more provisioning ingredients every day. You have a chance at better quality ingredients.
+48,,A hireling will send you even more provisioning ingredients every day. You have a greater chance at better quality ingredients.

@@ -1,0 +1,11 @@
+Trait,Material,Description,Magnitude
+Normal,Fine,Superior,Epic,Legendary
+Sturdy,Quartz,Reduce block cost by …,2%,2.5%,3%,3.5%,4%
+Impenetrable,Diamond,Increase your Critical Resistance by … and this item takes 50% less durability damage.,121,124,127,129,132
+Reinforced,Sardonyx,Increases this item's armor value by …,12%,13%,14%,15%,16%
+Well-fitted,Almandine,Reduces the cost of sprinting and Roll Dodging by …,1.2%,2.4%,3.6%,4.8%,6%
+Training,Emerald,Increase experience gained from kills by …,7%,8%,9%,10%,11%
+Infused,Bloodstone,Increase armor enchantment effect by …,9%,13%,17%,21%,25%
+Invigorating,Garnet,"Increase Health Recovery , Magicka Recovery , and Stamina Recovery by …",8,10,12,14,16
+Divines,Sapphire,Increases Mundus Stone effects by …,5.1%,6.1%,7.1%,8.1%,9.1%
+Nirnhoned,Fortified Nirncrux,Increases Physical and Spell Resistance by …,220,228,236,244,253

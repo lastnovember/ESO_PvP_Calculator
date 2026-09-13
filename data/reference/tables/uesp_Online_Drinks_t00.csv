@@ -1,0 +1,115 @@
+,Increase Attribute Recovery by,
+,Name,Drink Level,Drink Type,Health,Magicka,Stamina,Dur (mins)
+,Golden Lager ( page ),1,Alcohol,0,0,0,35
+,Nut Brown Ale ( page ),1,Alcohol,0,0,0,35
+,Red Rye Beer ( page ),1,Alcohol,0,0,0,35
+,Jasmine Tea ( page ),1,Tea,0,0,0,35
+,Mint Chai ( page ),1,Tea,0,0,0,35
+,Rose Herbal Tea ( page ),1,Tea,0,0,0,35
+,Acai Tonic Infusion ( page ),1,Tonic,0,0,0,35
+,Ginkgo Tonic ( page ),1,Tonic,0,0,0,35
+,Guarana Tonic ( page ),1,Tonic,0,0,0,35
+,Bog-Iron Ale ( page ),5,Alcohol,0,0,0,35
+,Mazte ( page ),5,Alcohol,0,0,0,35
+,Surilie Syrah Wine ( page ),5,Alcohol,0,0,0,35
+,Bitter Tea ( page ),5,Tea,0,0,0,35
+,Comberry Chai ( page ),5,Tea,0,0,0,35
+,Lotus Tea ( page ),5,Tea,0,0,0,35
+,Black Coffee ( page ),5,Tonic,0,0,0,35
+,Ginseng Tonic ( page ),5,Tonic,0,0,0,35
+,Mate Infusion ( page ),5,Tonic,0,0,0,35
+,Clarified Syrah Wine ( page ),10,Alcohol,0,0,0,35
+,Four-Eye Grog ( page ),10,Alcohol,0,0,0,35
+,Lemon Flower Sake ( page ),10,Alcohol,0,0,0,35
+,Honeyberry Tea ( page ),10,Tea,0,0,0,35
+,Morning Reveille Tea ( page ),10,Tea,0,0,0,35
+,Sweetsting Tea ( page ),10,Tea,0,0,0,35
+,Meady-Matey Infusion ( page ),10,Tonic,0,0,0,35
+,Tonsil Tingle Tonic ( page ),10,Tonic,0,0,0,35
+,Yellow Goblin Tonic ( page ),10,Tonic,0,0,0,35
+,Old Clear-Eye Whiskey ( page ),15,Alcohol,0,0,0,35
+,Red Hippocras ( page ),15,Alcohol,0,0,0,35
+,Tawny Port ( page ),15,Alcohol,0,0,0,35
+,Gingerose Tea ( page ),15,Tea,0,0,0,35
+,Green Scourgut Tea ( page ),15,Tea,0,0,0,35
+,Sourflower Tea ( page ),15,Tea,0,0,0,35
+,Isinmate Infusion ( page ),15,Tonic,0,0,0,35
+,Kelp Kaveh ( page ),15,Tonic,0,0,0,35
+,Sweetberry Tonic ( page ),15,Tonic,0,0,0,35
+,Eltheric Hooch ( page ),20,Alcohol,0,0,0,35
+,Gossamer Mazte ( page ),20,Alcohol,0,0,0,35
+,Bitterlemon Tea ( page ),20,Tea,0,0,0,35
+,Seaflower Tea ( page ),20,Tea,0,0,0,35
+,Treacleberry Tea ( page ),20,Tea,0,0,0,35
+,Barley Nectar ( page ),20,Alcohol,0,0,175,35
+,Ginkgo Twist Tonic ( page ),20,Tonic,0,0,0,35
+,Taneth Coffee ( page ),20,Tonic,0,0,0,35
+,Yerba Zinger Tonic ( page ),20,Tonic,0,0,0,35
+,Ginger Wheat Beer ( page ),25,Alcohol,0,0,0,35
+,Honey Rye ( page ),25,Alcohol,0,0,0,35
+,Mermaid Whiskey ( page ),25,Alcohol,0,0,0,35
+,Enlightenment Tea ( page ),25,Tea,0,0,0,35
+,Mead de Menthe ( page ),25,Tea,0,0,0,35
+,Thrassian Chai ( page ),25,Tea,0,0,0,35
+,Athlete's Guzzle ( page ),25,Tonic,0,0,210,35
+,Busy Bee Brew ( page ),25,Tonic,0,0,0,35
+,Ginseng Sling ( page ),25,Tonic,0,0,0,35
+,Mulled Wine ( page ),30,Alcohol,0,0,0,35
+,Sour Mash ( page ),30,Alcohol,0,0,0,35
+,Spiced Mazte ( page ),30,Alcohol,0,0,0,35
+,Maormer Tea ( page ),30,Tea,0,0,0,35
+,Spiceberry Chai ( page ),30,Tea,0,0,0,35
+,Torval Mint Tea ( page ),30,Tea,0,0,0,35
+,Berrymead Tonic ( page ),30,Tonic,0,0,0,35
+,Dancing Grandma ( page ),30,Tonic,0,0,0,35
+,Pirate's Jig Tonic ( page ),30,Tonic,0,0,0,35
+,Nereid Wine ( page ),35,Alcohol,0,0,0,35
+,Rye-in-your-Eye ( page ),35,Alcohol,0,0,0,35
+,"Sorry, Honey Lager ( page )",35,Alcohol,0,0,0,35
+,Pink Profundity ( page ),35,Tea,0,0,0,35
+,Puckermint Tea ( page ),35,Tea,0,0,0,35
+,Winter Rose Tea ( page ),35,Tea,0,0,0,35
+,Crystal Clarity ( page ),35,Tonic,0,0,0,35
+,Rihad Qishr ( page ),35,Tonic,0,0,0,35
+,Seaberry Tonic ( page ),35,Tonic,0,0,0,35
+,Cheydinhal Sherry ( page ),40,Alcohol,0,0,0,35
+,Colovian Amber Ale ( page ),40,Alcohol,0,0,0,35
+,Gods-Blind-Me ( page ),40,Alcohol,0,0,0,35
+,Sweet Slaughterfish Tea ( page ),40,Tea,0,0,0,35
+,Two-Zephyr Tea ( page ),40,Tea,0,0,0,35
+,Vivec's Gingergreen Chai ( page ),40,Tea,0,0,0,35
+,Blue Road Marathon ( page ),40,Tonic,0,0,0,35
+,Infernal Infusion ( page ),40,Tonic,0,0,0,35
+,Sweet Persistence ( page ),40,Tonic,0,0,0,35
+,Sour Gin Fizz ( page ),45,Alcohol,0,0,0,35
+,Sweet Scamp Sake ( page ),45,Alcohol,0,0,0,35
+,Whiskey Sour ( page ),45,Alcohol,0,0,0,35
+,Camlorn Mint Tea ( page ),45,Tea,0,0,0,35
+,Jasminger Tea ( page ),45,Tea,0,0,0,35
+,Sweet Dreams Tea ( page ),45,Tea,0,0,0,35
+,Dreugh Spit ( page ),45,Tonic,0,0,0,35
+,Lemonic Invigoration ( page ),45,Tonic,0,0,0,35
+,Shimmerene Tonic ( page ),45,Tonic,0,0,0,35
+,Comely Wench Whisky ( page ),',Alcohol,0,0,0,35
+,Frothy Sargassum ( page ),',Alcohol,0,0,0,35
+,Rimmen Sour Bock ( page ),',Alcohol,0,0,0,35
+,Clan Mother's Cordial ( page ),',Tea,0,0,0,35
+,Mournhold Twister ( page ),',Tea,0,0,0,35
+,Grandpa's Bedtime Tonic ( page ),',Tonic,0,0,0,35
+,Sload Slime ( page ),',Tonic,0,0,0,35
+,Soothing Sundas Tonic ( page ),',Tonic,0,0,0,35
+,Arenthian Brandy ( page ),',Alcohol,0,0,0,35
+,Argonian Mud-Nectar ( page ),',Alcohol,0,0,0,35
+,Summer Sky Pale Ale ( page ),',Alcohol,0,0,0,35
+,Bitter Ritual Tea ( page ),',Tea,0,0,0,35
+,Five-Fireball Infusion ( page ),',Tea,0,0,0,35
+,Khenarthi's Wings Chai ( page ),',Tea,0,0,0,35
+,Sailor's Second Wind ( page ),',Tonic,0,0,0,35
+,Sipping Imga Tonic ( page ),',Tonic,0,0,0,35
+,Wamasu Spew ( page ),',Tonic,0,0,0,35
+,Alabaster Honey Rum ( page ),',Alcohol,0,0,0,35
+,Pirate Queen Mint Tea ( page ),',Tea,0,0,0,35
+,Nocturnal's Everblack Coffee ( page ),',Tonic,0,0,0,35
+,Kragenmoor Zinger Mazte ( page ),',Alcohol,0,0,0,35
+,Heart's Day Rose Tea ( page ),',Tea,0,0,0,35
+,Fredas Night Infusion ( page ),',Tonic,0,0,0,35

@@ -1,0 +1,15 @@
+Skill,Available at,Effect
+Blade of Woe ( Dark Brotherhood ),1,"Gives the ability to instantly kill an unsuspecting target, provided you approach them while in stealth from behind. It only gives 25% of the experience and cannot be used on difficult NPCs and on players."
+Blood Scion ( Vampire ),5,"When transformed, you can see enemies through walls."
+Dark Stalker ( Vampire ),3 / 7,Ignore the Movement Speed penalty while in Sneak. Decreases the time it takes to Sneak by 25%/50%.
+Feed ( Vampire ),1,"Allows you to feed on an unsuspecting target from behind, killing them and increasing your Vampire Stage ."
+Feline Ambush ( Khajiit ),25 / 35 / 50,Improved Stealth radius by 1/2/3 meters. Increases your Critical Damage and Critical healing by 4/8/12%.
+Hunter's Eye ( Wood Elf ),5 / 15 / 30,Increases your Stealth Detection radius by 1 meter.
+Improved Hiding ( Legerdemain ),1 / 6 / 11 / 16,Reduces the cost of Sneak by 10/20/30/40%.
+Improved Sneak ( Medium Armor ),14 / 34,Reduces the cost of Sneak by 4/7% per piece of Medium Armor equipped. Reduces the size of your detection area while Sneaking by 3/5% per piece of Medium Armor equipped.
+Light Armor Bonuses ( Light Armor ),1,Reduces the Movement Speed penalty of Sneak by 5% for each Light Armor piece equipped.
+Master Assassin ( Assassination ),8 / 18,Increases the duration of the stun from Sneak by 100%.
+Medium Armor Bonuses ( Medium Armor ),1,Reduces the cost of Sneak by 5% for each Medium Armor piece equipped.
+Prowl ( Werewolf ),1,Reduces your aggression radius from hostile monsters by 66% and grants you Stealth Detection for 6 seconds.
+Strike from the Shadows ( Vampire ),4 / 8,"(While you are at Vampire Stage 2 or higher) When you leave Sneak, invisibility, or Mist Form your Weapon and Spell Damage is increased by 150 / 300 for 6 seconds"
+Veil of Shadows ( Thieves Guild ),10,Decreases detection range of Witnesses and Guards by 10%.

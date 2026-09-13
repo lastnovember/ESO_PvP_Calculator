@@ -1,0 +1,6 @@
+Passive Perks,Effect,Cost per Stage,Stages
+,Piercing,Grants 350 Offensive Penetration per stage.,10,2
+,Flawless Ritual,Increases your chance to apply a Magical status effect by 30% per stage.,20,2
+,War Mage,"Grants 100 Weapon and Spell Damage to Magical attacks. Affects Magic, Flame, Frost and Shock Damage.",30,1
+,Battle Mastery,Increases your chance to apply a Martial status effect by 30% per stage.,20,2
+,Mighty,"Grants 100 Weapon and Spell Damage to Martial attacks. Affects Physical, Poison, Disease and Bleed damage.",30,1

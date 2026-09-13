@@ -1,0 +1,9 @@
+Attack type,Chance to apply status effect
+Weapon Enchantment's damage,20% base chance
+Weapon Alchemical Poison's damage,20% base chance
+Single-target direct attack ability,10% base chance
+Area-of-effect abilities,5 % base chance
+Single-target damage-over-time abilities,3% base chance
+Area-of-effect damage-over-time abilities,1% base chance
+All weapons' Light and Heavy attack,0% base chance
+Werewolf Light/Partially Charged/Heavy attack,3%/5%/10% base chance

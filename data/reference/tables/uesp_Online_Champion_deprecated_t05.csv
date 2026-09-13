@@ -1,0 +1,5 @@
+Passive Unlocks,Rank,Effect
+,Invigorating Bash,10,Gives you a 20% chance to restore [x] health when you bash an enemy.
+,Phase,30,"After using Roll Dodge, your Physical and Spell Resistance is increased by [x] for 3 seconds."
+,Resilient,75,Restores [x] Health when you take Critical Damage. Only relevant in PvP.
+,Reinforced,120,When activating block gain a damage shield for [x] every 10 seconds.

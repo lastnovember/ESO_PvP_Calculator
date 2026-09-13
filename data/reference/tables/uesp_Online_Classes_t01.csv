@@ -1,0 +1,66 @@
+Class,Specialisation,Weapons,Armor
+Acrobat,Melee,Dual Wield,Medium
+Arbalest,Ranged,Bow,Medium
+Arcanist,Melee and Magic,Unarmed,Light
+Archer,Ranged,Bow,Medium
+Armamancer,Melee,Staff,Medium
+Assassin,Melee,Dual Wield,Medium
+Battlemage,Melee and Magic,Staff,Light
+Beastcaller,Melee and Magic,One Hand and Shield,Heavy
+Berserker,Melee,Dual Wield,Medium
+Blood Mage,Magic,Staff (Fear),Light
+Bodyguard,Melee,One Hand and Shield,Heavy
+Bonecrafter,Melee and Magic,One Handed,Light
+Bonelord,Melee and Magic,One Handed,Light
+Bounty Hunter,Melee and Poison,Dual Wield,Medium
+Brute,Melee,One Hand and Shield,Heavy
+Cauterizer,Magic,Staff (Restoration),Light
+Chemist,Alchemy and Melee,One Handed,Light
+Chillfiend,Magic,Staff (Frost and Void),Light
+Conjurer,Magic,Staff (Fire),Light
+Dark Champion,Melee and Magic,Two Handed,Heavy
+Dreadweaver,Magic,Staff (Frost and Shadow),Light
+Eviscerator,Melee,One Hand and Shield,Heavy
+Fear Mage,Magic,Staff (Fear),Light
+Feral,Melee,Unarmed,Any
+Fire Mage,Magic,Staff (Fire),Light
+Flame Adept,Melee and Magic,Unarmed,Light
+Foot Soldier,Melee and Ranged,One Handed,Medium
+Frost Archer,Ranged,Bow,Medium
+Frost Mage,Magic,Staff (Frost),Light
+Geomancer,Magic,Staff (Fire),Light
+Healer,Magic,Staff (Restoration),Light
+Honor Guard,Melee and Ranged,One Handed,Heavy
+Icereaver,Melee and Magic,Two Handed,Heavy
+Knight,Melee,One Hand and Shield,Heavy
+Mage Guard,Magic,Staff (Lightning),Light
+Marsh Warrior,Melee and Magic,Two Handed,Heavy
+Mystic,Magic,Staff (Nature),Light
+Necromancer,Magic,Staff (Necromantic),Light
+Nightblade,Melee,Dual Wield,Medium
+Nullifier,Melee or Ranged,Two Handed or Staff,Heavy
+Pet Ranger,Ranged,Bow,Medium
+Poison Archer,Ranged,Bow,Medium
+Ravager,Melee,Two Handed,Heavy
+Reach Mage,Magic,Staff / One Handed,Light
+Sea Mage,Magic,Staff (Lightning),Light
+Shadow Mage,Magic,Staff (Shadow),Light
+Shaman,Melee and Magic,One Handed,Light
+Shade Sentinel,Melee and Magic,Dual Wield,Medium
+Sentry,Melee,One Hand and Torch,Heavy
+Skullguard,Melee and Magic,Two Handed,Medium
+Spellblade,Melee and Magic,Two Handed,Heavy
+Spirit Master,Magic,Staff,Light
+Storm Mage,Magic,Staff (Lightning),Light
+Sun Mage,Melee and Magic,Two Handed,Heavy
+Swashbuckler,Alchemy and Melee,One Handed,Light
+Tank,Melee,One Hand and Shield,Heavy
+Thundermaul,Melee,Two Handed,Heavy
+Time Bomb Mage,Magic,Staff,Light
+Umbral Aegis,Melee and Magic,One Hand and Shield,Heavy
+Vanquisher,Melee and Ranged,One Hand and Javelins,Medium
+Voidstalker,Melee,Dual Wield,Medium
+Void Mage,Magic,Staff (Void),Light
+Void Striker,Melee and Magic,Two Handed,Light
+Warpriest,Melee and Magic,One Hand and Shield,Heavy
+Worker (?),Melee,One Handed or Two Handed,Any

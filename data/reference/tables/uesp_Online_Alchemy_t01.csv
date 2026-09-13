@@ -1,0 +1,22 @@
+Name,Line Rank,Skill Rank,Description
+,Solvent Proficiency,1,​,Allows the Alchemist to use Natural Water and Grease to make Level 3 potions and poisons and Clear Water and Ichor to make Level 10 potions and poisons.
+10,,Allows the Alchemist to use Pristine Water and Slime to make Level 20 potions and poisons.
+20,,Allows the Alchemist to use Cleansed Water and Gall to make Level 30 potions and poisons.
+30,,Allows the Alchemist to use Filtered Water and Terebinthine to make Level 40 potions and poisons.
+40,,Allows the Alchemist to use Purified Water and Pitch-Bile to make Champion 10 potions and poisons.
+48,,Allows the Alchemist to use Cloud Mist and Tarblack to make Champion 50 potions and poisons.
+49,,Allows the Alchemist to use Star Dew and Night-Oil to make Champion 100 potions and poisons.
+50,,Allows the Alchemist to use Lorkhan's Tears and Alkahest to make Champion 150 potions and poisons.
+,Keen Eye: Reagents,2,,Herbs and fungi in the world will be easier to see when you are 20 meters or closer.
+6,,Herbs and fungi in the world will be easier to see when you are 30 meters or closer.
+17,,Herbs and fungi in the world will be easier to see when you are 40 meters or closer.
+,Medicinal Use,8,,"When using potions , resulting effects last 10% longer."
+35,,"When using potions, resulting effects last 20% longer."
+50,,"When using potions, resulting effects last 30% longer."
+,Chemistry,12,,Produces 1 extra potion or 4 extra poisons per crafting attempt.
+25,,Produces 2 extra potions or 8 extra poisons per crafting attempt.
+47,,Produces 3 extra potions or 12 extra poisons per crafting attempt.
+,Laboratory Use,15,,Allows the use of up to 3 reagents while mixing Potions or Poisons.
+,Snakeblood,23,,Reduces duration of negative effects in potions by 50% when consumed.
+33,,Reduces duration of negative effects in potions by 80% when consumed.
+43,,Reduces duration of negative effects in potions by 100% when consumed.

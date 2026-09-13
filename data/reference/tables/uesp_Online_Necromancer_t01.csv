@@ -1,0 +1,6 @@
+,Necromancer Initiate,Baleful Summoner,Deathbringer,Undying Warrior,Flesh Sculptor
+Necromancer Initiate,,Spirit Mender,Flame Skull Sacrificial Bones Expunge Frozen Colossus Bone Goliath Skeletal Mage Shocking Siphon,Bone Armor,Render Flesh Expunge Spirit Mender
+Baleful Summoner,Spirit Mender,,Flame Skull Frozen Colossus Bone Goliath Skeletal Mage Shocking Siphon,Bone Armor Spirit Mender,Render Flesh
+Deathbringer,Flame Skull Sacrificial Bones Expunge Frozen Colossus Bone Goliath Skeletal Mage Shocking Siphon,Flame Skull Frozen Colossus Bone Goliath Skeletal Mage Shocking Siphon,,Death Scythe Expunge,no conflicts
+Undying Warrior,Bone Armor,Bone Armor Spirit Mender,Death Scythe Expunge,,Expunge Spirit Mender
+Flesh Sculptor,Render Flesh Expunge Spirit Mender,Render Flesh,no conflicts,Expunge Spirit Mender,

@@ -1,0 +1,21 @@
+,Potion,Description,Quest
+Effects
+,Ashen Blood of Malacath,"A potent tincture, useful for myriad arcane practices.",(?)
+Locked scale bracket return: 0-88 Current upper bound: 0-91 Current lower bound: 0-75
+,Cyan Tincture,A potion of curious origin. Rumoured to aid spellcasting.,(?)
+Restore 298-8733 Magicka immediately. Grants Major Intellect and which increase your Magicka Recovery by 20% for 9.4-41.1 seconds. This effect scales from Level 0-88 to Level 0-91. Grants Major Sorcery which increases your Spell Damage by 20% for 13.4-45.1 seconds.
+,Glowing Cyan Tincture,A potion of curious origin. Rumoured to greatly aid spellcasting.,(?)
+Restore 298-8733 Magicka immediately. Grants Major Intellect and which increase your Magicka Recovery by 20% for 9.4-41.1 seconds. This effect scales from Level 0-88 to Level 0-91. Grants Major Sorcery which increases your Spell Damage by 20% for 9.4-41.1 seconds. Grants Major Prophecy which gives you 2191 Spell Critical Rating for 9.4-41.1 seconds.
+,Glowing Green Tincture,A potion of curious origin. Rumoured to greatly aid fighting ability.,(?)
+Restore 298-8445 Stamina immediately. Grants Major Endurance which increases your Stamina Recovery by 20% for 9.4-40 seconds. This effect scales from Level 0-85 to Level 0-88. Grants Major Brutality which increases your Weapon Damage by 20% for 9.4-40 seconds. Grants you Major Savagery which gives you 2191 Weapon Critical Rating for 9.4-40 seconds.
+,Green Tincture,A potion of curious origin. Rumoured to aid fighting ability.,(?)
+Restore 298-8733 Stamina immediately. Grants Major Endurance which increases your Stamina Recovery by 20% for 9.4-41.1 seconds. This effect scales from Level 0-88 to Level 0-91. Grants Major Brutality which increases your Weapon Damage by 20% for 13.4-45.1 seconds.
+,Heavy Red Tincture,A potion of curious origin. Rumoured to aid stealth and intrusion.,(?)
+Restore 329-9638 Health immediately. Grants Major Fortitude which increases your Health Recovery by 20% for 9.4-41.1 seconds. This effect scales from Level 0-88 to Level 0-91. Become immune to knockback and disabling effects for 4.1-12.5 seconds.
+,Orange Tincture,A potion of curious origin. Rumoured to aid detection.,(?)
+Increase your Stealth Detection by 20 meters for 4.1-12.5 seconds.
+,Shifting Violet Tincture,A potion of curious origin. Rumoured to aid stealth and intrusion.,(?)
+Vanish for 4.1-12.5 seconds. Grants Major Expedition which increases your Movement Speed by 30% for 13.4-45.1 seconds.
+,Torchbug Treacle,Restore 262 Health immediately. Grants Major Fortitude which increases your Health Regeneration by 20% for 3.3 seconds.,Cast Adrift
+,White Tincture,A potion of curious origin.,(?)
+Restore 329-9638 Health immediately. Grants Major Fortitude which increases your Health Recovery by 20% for 9.4-41.1 seconds. Restore 298-8733 Magicka and Stamina immediately. Grants Major Intellect and Major Endurance which increase your Magicka and Stamina Recovery by 20% for 9.4-41.1 seconds.

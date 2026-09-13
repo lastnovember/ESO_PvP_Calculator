@@ -1,0 +1,78 @@
+,Increase Attribute Maximum Value by,
+,Name,Food Level,Dish Type,Health,Magicka,Stamina,Dur (mins)
+,Cold Fish,1,Meat,385,0,0,35
+,Cold Roast Pig,1,Meat,385,0,0,35
+,Congealed Cheese,1,Meat,385,0,0,35
+,Stale Carrots,1,Meat,385,0,0,35
+,Stale Chicken Breast,1,Meat,385,0,0,35
+,Stale Fishy Stick,1,Meat,385,0,0,35
+,Stale Radish,1,Meat,385,0,0,35
+,Congealed Baked Apples,1,Fruit,0,385,0,35
+,Congealed Banana Surprise,1,Fruit,0,385,0,35
+,Congealed Grape Preserves,1,Fruit,0,385,0,35
+,Cold Baked Potato,1,Vegetable,0,0,385,35
+,Cold Carrot Soup,1,Vegetable,0,0,385,35
+,Cold Roast Corn,1,Vegetable,0,0,385,35
+,Stale Grilled Hare,5,Meat,770,0,0,35
+,Stale Roast Venison,5,Meat,770,0,0,35
+,Stale Flank Steak,5,Fruit,0,700,0,35
+,Congealed Melon Jelly,5,Fruit,0,700,0,35
+,Congealed Pumpkin Puree,5,Fruit,0,700,0,35
+,Congealed Tomato Soup,5,Fruit,0,700,0,35
+,Cold Borscht,5,Vegetable,0,0,700,35
+,Cold Green Salad,5,Vegetable,0,0,700,35
+,Stale Hunter's Pie,10,Meat,1155,0,0,35
+,Stale Rabbit Pasty,10,Meat,1155,0,0,35
+,Congealed Bravil Melon Salad,10,Fruit,0,1050,0,35
+,Congealed Bravil Millet Muffin,10,Fruit,0,1050,0,35
+,Congealed Pumpkin Cheesecake,10,Fruit,0,1050,0,35
+,Cold Carrot Cheesecake,10,Vegetable,0,0,1050,35
+,Cold Gilane Garlicky Greens,10,Vegetable,0,0,1050,35
+,Cold Radishes in Rice,10,Vegetable,0,0,1050,35
+,Stale Pan-Fried Trout,15,Meat,1540,0,0,35
+,Stale Rabbit Millet Pilaf,15,Meat,1540,0,0,35
+,Congealed Deshaan Honeydew Hors d'Ouevre,15,Fruit,0,1400,0,35
+,Congealed Fried Green Tomatoes,15,Fruit,0,1400,0,35
+,Cold Balmora Cabbage Biscuits,15,Vegetable,0,0,1400,35
+,Cold Port Hunding Cheese Fries,15,Vegetable,0,0,1400,35
+,Cold Spicy Beet Salad,15,Vegetable,0,0,1400,35
+,Stale Breton Pork Sausage,20,Meat,1925,0,0,35
+,Stale Whiterun Cheese-Baked Trout,20,Meat,1925,0,0,35
+,Congealed Garlic Pumpkin Seeds,20,Fruit,0,1750,0,35
+,Congealed Pellitine Tomato Rice,20,Fruit,0,1750,0,35
+,Congealed Redoran Peppered Melon,20,Fruit,0,1750,0,35
+,Cold Alik'r Beets with Goat Cheese,20,Vegetable,0,0,1750,35
+,Stale Cheese Pork Schnitzel,25,Meat,2310,0,0,35
+,Stale Cheese Pork Schnitzel,25,Meat,2310,0,0,35
+,Stale Chicken and Biscuits,25,Meat,2310,0,0,35
+,Stale Salted Cod,25,Meat,2310,0,0,35
+,Congealed Cantaloupe Bread,25,Fruit,0,2100,0,35
+,Congealed Cinnamon Gorapples,25,Fruit,0,2100,0,35
+,Cold Eidar Radish Salad,25,Vegetable,0,0,2100,35
+,Cold Potato Rice Blintzes,25,Vegetable,0,0,2100,35
+,Cold Rihad Beet and Garlic Salad,25,Vegetable,0,0,2100,35
+,Stale Elinhir Roast Anteloupe,30,Meat,2695,0,0,35
+,Stale Hare in Garlic Sauce,30,Meat,2695,0,0,35
+,Stale Senchal Curry Fish and Rice,30,Meat,2695,0,0,35
+,Congealed Cinnamon Grape Jelly,30,Fruit,0,2450,0,35
+,Congealed Cyrodilic Pumpkin Fritters,30,Fruit,0,2450,0,35
+,Cold Chorrol Corn On the Cob,30,Vegetable,0,0,2450,35
+,Cold Garlic Mashed Potatoes,30,Vegetable,0,0,2450,35
+,Cold Jerall View Inn Carrot Cake,30,Vegetable,0,0,2450,35
+,Congealed Jerall View Inn Carrot Cake,32,Vegetable,0,0,2450,35
+,Stale Bruma Jugged Rabbit,35,Meat,3080,0,0,35
+,Stale Camlorn Pork Sausage,35,Meat,3080,0,0,35
+,Stale Crispy Cheddar Chicken,35,Meat,3080,0,0,35
+,Congealed Apple Cobbler Supreme,35,Fruit,0,2800,0,35
+,Congealed Clan Mother's Banana Pilaf,35,Fruit,0,2800,0,35
+,Congealed Rimmen Raisin Cookies,35,Fruit,0,2800,0,35
+,Cold Indoril Radish Tartlets,35,Vegetable,0,0,2800,35
+,Cold Roasted Beet and Millet Salad,35,Vegetable,0,0,2800,35
+,Cold Twice-Baked Potatoes,35,Vegetable,0,0,2800,35
+,Stale Mammoth Snout Pie,40,Meat,3465,0,0,35
+,Cold Cyrodilic Corn Bread,40,Vegetable,0,0,3150,35
+,Stale Solstheim Elk and Scuttle,45,Meat,3850,0,0,35
+,Congealed Melon-Chevre Salad,45,Fruit,0,3500,0,35
+,Cold Vvardenfell Ash Yam Loaf,45,Vegetable,0,0,3500,35
+,Congealed Orcrest Garlic Apple Jelly,50,Fruit,0,3920,0,35
+,Cold West Weald Corn Chowder,50,Vegetable,0,0,3920,35
