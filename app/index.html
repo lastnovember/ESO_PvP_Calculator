@@ -1257,18 +1257,14 @@ return { computeSheet, validateBuild, countSetPieces, STRATEGIES, DEFAULT_STRATE
     if (!result) return;
     const counts = result.bars.map((b) => b.setCounts);
     const names = [...new Set([...Object.keys(counts[0] || {}), ...Object.keys(counts[1] || {})])];
-    if (!names.length) { $('gearHint').textContent = 'empty'; return; }
-    for (const [bi, label] of [[0, 'Front bar'], [1, 'Back bar']]) {
-      const line = el('div', { class: 'row', style: 'width:100%' }, [el('span', { class: 'fine', text: label, style: 'flex:0 0 72px' })]);
-      const list = names.map((n) => [n, counts[bi][n] || 0]).filter(([, c]) => c > 0).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-      for (const [n, c] of list) {
-        const meta = X.sets[n];
-        const full = Math.min(5, meta.maxPieces);
-        line.append(el('span', { class: 'pill ' + (c > meta.maxPieces ? 'bad' : c >= full ? 'ok' : ''), text: `${n} ${c}/${meta.maxPieces}`, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
-      }
-      host.append(line);
+    const rows = names.map((n) => { const a = counts[0][n] || 0; const b = counts[1][n] || 0; return { n, a, b, max: Math.max(a, b), tag: a === b ? '' : a > b ? 'FB' : 'BB' }; })
+      .sort((x, y) => y.max - x.max || x.n.localeCompare(y.n));
+    for (const r of rows) {
+      const meta = X.sets[r.n];
+      const full = Math.min(5, meta.maxPieces);
+      host.append(el('span', { class: 'pill ' + (r.max > meta.maxPieces ? 'bad' : r.max >= full ? 'ok' : ''), text: `${r.n} ${r.max}/${meta.maxPieces}${r.tag ? ' ' + r.tag : ''}`, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
     }
-    $('gearHint').textContent = names.map((n) => `${n} ${Math.max(counts[0][n] || 0, counts[1][n] || 0)}`).join(', ');
+    $('gearHint').textContent = rows.length ? rows.map((r) => `${r.n} ${r.max}${r.tag ? ' ' + r.tag : ''}`).join(', ') : 'empty';
   }
 
   // ------------------------------------------------------------ bars and skills
