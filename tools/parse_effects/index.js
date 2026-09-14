@@ -64,7 +64,13 @@ const MYTHIC_SLOT_WORDS = [
   [/\b(vestments|embrace|cuirass|cladding|robe|jerkin|hauberk)\b/i, 'chest'], [/\b(gaze|visage|helm|mask|crown|hood|hat)\b/i, 'head'],
   [/\b(spaulder|whispers|pauldron|shoulder)\b/i, 'shoulders'],
 ];
-const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s Fete': 'necklace', 'The Saint and the Seducer': 'chest', 'Faun\'s Lark Cladding': 'chest', 'Shapeshifter\'s Chain': 'necklace', 'Syrabane\'s Ward': 'shoulders', 'Esoteric Environment Greaves': 'legs', "Huntsman's Warmask": 'head', "The Shadow Queen's Cowl": 'head', "Prowler's Talisman": 'necklace', 'Shattered Paths Signet': 'ring', 'Monomyth Reforged': 'ring' };
+const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s Fete': 'necklace', 'The Saint and the Seducer': 'chest', 'Faun\'s Lark Cladding': 'chest', 'Shapeshifter\'s Chain': 'necklace', 'Syrabane\'s Ward': 'shoulders', 'Esoteric Environment Greaves': 'legs', "Huntsman's Warmask": 'head', "The Shadow Queen's Cowl": 'head', "Prowler's Talisman": 'necklace', 'Shattered Paths Signet': 'ring', 'Monomyth Reforged': 'ring',
+  // slots supplied by the user from in game tooltips (Update 50 sets.csv has no slot word in the name)
+  "Rakkhat's Voidmantle": 'shoulders', "Stormweaver's Cavort": 'legs' };
+// sets.csv dropped the leading stat line of some tooltips. Text here is the full in game tooltip as supplied by the user.
+const BONUS_TEXT_OVERRIDE = {
+  "Stormweaver's Cavort": { 1: 'Adds 300 Magicka Recovery. Sprint, Roll Dodge, Bash, Break Free, Sneak, and Block now consume Magicka instead of Stamina. You reduce your Magicka Recovery to 0 while Blocking, Sneaking, or Sprinting. You no longer reduce your Stamina Recovery to 0 while Blocking, Sneaking or Sprinting.' },
+};
 
 function buildSets() {
   const rows = csvObjects(readFileSync(join(REF, 'sets.csv'), 'utf8'));
@@ -98,7 +104,7 @@ function buildSets() {
       meta.weaponTypes = tags.filter((t) => /Staff|Bow|Two Handed|Dual Wield|One Hand and Shield|Shield|Greatsword|Battle Axe|Maul|Axe|Sword|Dagger|Mace/i.test(t));
     }
     for (const i of bonusIdx) {
-      const raw = r[`bonus_${i}`].trim();
+      const raw = ((BONUS_TEXT_OVERRIDE[name] || {})[i] || r[`bonus_${i}`]).trim();
       const b = parseBonus(raw, i, meta);
       meta.bonuses[String(i)] = b;
       stats.bonuses += 1;

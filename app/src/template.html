@@ -71,6 +71,7 @@ tr.diff td.n.b2 { color: var(--gold2); }
 .pill.ok { color: var(--good); border-color: #3f5b2e; }
 .pill.bad { color: var(--bad); border-color: #6a2e2a; }
 .checks { display: flex; flex-wrap: wrap; gap: 6px; }
+.bulk { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; margin: 6px 0 10px; background: var(--card2); }
 .checks label { display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--card2); font-size: 13px; }
 .breakdown { background: #0c0a07; border: 1px solid var(--line); border-radius: 4px; padding: 8px; margin: 6px 0; font-size: 13px; }
 .breakdown div { display: flex; justify-content: space-between; gap: 8px; padding: 2px 0; border-bottom: 1px dotted var(--line); }
@@ -154,11 +155,6 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       <div class="row" id="classMastery"></div></div>
       <h3>Skills</h3>
       <div id="skills"></div>
-      <h3>Attributes <span class="fine" id="attrLeft"></span></h3>
-      <div id="attributes"></div>
-      <h3>Champion Points</h3>
-      <div class="row"><label class="toggle"><input type="checkbox" id="cpEnabled"> Champion Points</label></div>
-      <div id="cpSlots"></div>
     </details>
 
     <details class="card" open>
@@ -180,11 +176,18 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       <h3>Guild and Alliance War Skill Lines (Passives)</h3>
       <div class="checks" id="lineToggles"></div>
       <div id="otherLinesWrap" class="hidden"><h3>Other lines</h3><div class="checks" id="otherLines"></div></div>
+      <h3>Attributes <span class="fine" id="attrLeft"></span></h3>
+      <div id="attributes"></div>
+      <h3>Champion Points</h3>
+      <div class="row"><label class="toggle"><input type="checkbox" id="cpEnabled"> Champion Points</label></div>
+      <div id="cpSlots"></div>
     </details>
 
     <details class="card span2" open>
       <summary><h2>Gear</h2><span class="hint" id="gearHint"></span></summary>
-      <details><summary class="fine">Bulk tools: fill a set, apply a trait, weight or enchant to many slots</summary>
+      <h3>Bulk editor</h3>
+      <div class="fine">Pick a set, trait, weight or enchant, check the slots below, then apply. Blank fields are left alone.</div>
+      <div class="bulk">
         <div class="row">
           <label class="f"><span>Set to fill</span><div class="combo" id="bulkSet"></div></label>
         </div>
@@ -195,7 +198,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         </div>
         <div class="checks" id="bulkSlots"></div>
         <div class="row"><button class="primary" id="bulkApply">Apply to checked slots</button><button id="bulkAll" class="small">Check all armor</button><button id="bulkJewelry" class="small">Check jewelry</button><button id="bulkNone" class="small">Clear checks</button></div>
-      </details>
+      </div>
       <h3>Weapons</h3>
       <div id="bars"></div>
       <h3>Armor and jewelry</h3>
@@ -210,7 +213,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 
     <details class="card span2">
       <summary><h2>Export and import</h2></summary>
-      <div class="row"><button id="copyBtn" class="small">Copy JSON</button><button id="applyJsonBtn" class="small primary">Load JSON below</button><button id="deleteBtn" class="small danger">Delete saved build</button></div>
+      <div class="row"><button id="copyBtn" class="small">Copy JSON</button><button id="fixtureBtn" class="small">Fixture template</button><button id="applyJsonBtn" class="small primary">Load JSON below</button><button id="deleteBtn" class="small danger">Delete saved build</button></div>
+      <div class="fine">Fixture template wraps this build with blank sheet readings. Fill in the numbers from your in game character sheet (both panels, both bars) and send the JSON back to calibrate the engine.</div>
       <textarea id="jsonBox" spellcheck="false"></textarea>
     </details>
   </div>
@@ -259,6 +263,32 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   const FOODS = C.foods.items;
   const SETS = Object.values(X.sets).sort((a, b) => a.name.localeCompare(b.name));
   const STARS = C.championPoints.stars.filter((s) => s.slottable);
+  // Champion Point themes, agreed with the user for the picker. A star missing here falls into "Other".
+  const CP_THEMES = {
+    warfare: {
+      'Damage': ['Deadly Aim', 'Master-at-Arms', 'Thaumaturge', 'Biting Aura', 'Fighting Finesse', 'Backstabber', 'Wrathful Strikes', 'Weapons Expert', 'Exploiter', 'Force of Nature', 'Occult Overload', 'Untamed Aggression'],
+      'Healing': ['Focused Mending', 'Swift Renewal', 'Soothing Tide', 'Rejuvenator', 'Cleansing Revival', 'Foresight', 'Enlivening Overflow', 'From the Brink', 'Salve of Renewal', 'Hope Infusion', 'Reaving Blows'],
+      'Damage reduction': ["Duelist's Rebuff", 'Unassailable', 'Enduring Resolve', 'Ironclad', 'Bulwark', 'Reinforced', 'Last Stand', 'Riposte', 'Cutting Defense', 'Resilience'],
+      'Resources': ['Endless Endurance', 'Arcane Supremacy'],
+    },
+    fitness: {
+      'Health and resources': ['Boundless Vitality', 'Rejuvenation', 'Sustained by Suffering', 'Siphoning Spells', 'Bloody Renewal', 'Strategic Reserve', 'Refreshing Stride', 'Peace of Mind'],
+      'Defense and shields': ['Fortified', 'Juggernaut', 'Ward Master', 'Bastion', 'Shield Master', "Pain's Refuge", 'Relentlessness', 'On Guard', 'Bracing Anchor', 'Soothing Shield'],
+      'Utility and CC': ['Celerity', 'Thrill of the Hunt', 'Hardened', 'Slippery', 'Unchained', 'Expert Evasion', 'Rousing Speed', 'Arcane Alacrity', 'Survival Instincts', 'Spirit Mastery'],
+    },
+    craft: {
+      'Movement': ["Steed's Blessing", 'Gifted Rider', 'War Mount'],
+      'Stealth and crime': ['Sustaining Shadows', 'Fade Away', 'Friends in Low Places', 'Shadowstrike'],
+      'Gathering and fishing': ['Master Gatherer', "Angler's Instincts", 'Reel Technique'],
+    },
+  };
+  const cpTheme = (con, name) => { for (const [theme, list] of Object.entries(CP_THEMES[con] || {})) if (list.includes(name)) return theme; return 'Other'; };
+  function cpOptions(con) {
+    const themes = [...Object.keys(CP_THEMES[con] || {}), 'Other'];
+    return STARS.filter((s) => s.constellation === con)
+      .map((s) => ({ value: s.name, label: s.name, note: s.effect, group: cpTheme(con, s.name), search: `${cpTheme(con, s.name)} ${s.name}` }))
+      .sort((a, b) => themes.indexOf(a.group) - themes.indexOf(b.group) || a.label.localeCompare(b.label));
+  }
   const SCRIBING = X.scribing || {};
   const POISONS = ['Drain Health Poison', 'Damage Health Poison', 'Ravage Health Poison', 'Drain Stamina Poison', 'Drain Magicka Poison', 'Enervating Poison', 'Escapist\'s Poison', 'Speed Drain Poison', 'Immobilizing Poison', 'Weakness Poison', 'Vulnerability Poison', 'Breaching Poison', 'Cowardice Poison', 'Defiling Poison', 'Crown Lethal Poison', 'Crown Enervating Poison'];
   const TOGGLE_LINES = ['Fighters Guild', 'Mages Guild', 'Psijic Order', 'Undaunted', 'Assault', 'Support', 'Soul Magic'];
@@ -415,7 +445,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const cp = $('cpSlots'); cp.innerHTML = '';
     if (build.championPoints.enabled) {
       for (const con of ['warfare', 'fitness', 'craft']) {
-        const all = STARS.filter((s) => s.constellation === con).map((s) => ({ value: s.name, label: s.name, note: s.effect }));
+        const all = cpOptions(con);
         const block = el('div', { class: 'cpblock ' + con }, [el('div', { class: 'lbl', text: con })]);
         const grid = el('div', { class: 'cpgrid' });
         const cur = build.championPoints.slotted[con] || [];
@@ -734,9 +764,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   function renderResults() {
     const host = $('results'); host.innerHTML = '';
     if (!result || !result.bars.length) return;
-    const table = (rows, panel) => {
+    const table = (rows, panel, heading = panel) => {
       const t = el('table');
-      t.append(el('tr', {}, [el('th', { text: panel }), el('th', { class: 'n', text: 'Front' }), el('th', { class: 'n', text: 'Back' })]));
+      t.append(el('tr', {}, [el('th', { text: heading }), el('th', { class: 'n', text: 'Front' }), el('th', { class: 'n', text: 'Back' })]));
       for (const [label, key, unit, bkey] of rows) {
         const a = result.bars[0][panel === 'Main sheet' ? 'main' : 'advanced'][key];
         const b = result.bars[1][panel === 'Main sheet' ? 'main' : 'advanced'][key];
@@ -760,7 +790,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     };
     host.append(table(MAIN_ROWS, 'Main sheet'));
     host.append(el('h3', { text: 'Advanced stats' }));
-    host.append(table(ADV_ROWS, 'Advanced'));
+    host.append(table(ADV_ROWS, 'Advanced', ''));
     const dropped = result.bars[0].dropped.filter((d) => d.reason && d.reason.startsWith('condition'));
     const det = el('details', {}, [el('summary', { class: 'fine', text: `${dropped.length} conditional effects not applied to the sheet on the front bar (combat or target dependent)` })]);
     const ul = el('div', { class: 'fine' });
@@ -837,6 +867,15 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   $('deleteBtn').addEventListener('click', () => { const s = loadStore(); const n = $('loadSel').value || build.name; if (n && s[n] && confirm(`Delete saved build "${n}"?`)) { delete s[n]; saveStore(s); renderLoadList(); } });
   $('resetBtn').addEventListener('click', () => { if (confirm('Clear every field?')) { build = defaultBuild(); $('buildName').value = ''; update(); } });
   $('exportBtn').addEventListener('click', () => { document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = JSON.stringify(build, null, 2); $('jsonBox').focus(); $('jsonBox').select(); });
+  $('fixtureBtn').addEventListener('click', () => {
+    // labels match engine/tests/fixtures/TEMPLATE.fixture.json so the runner can read them
+    const ADV_LABELS = ['Critical Chance', 'Critical Damage', 'Critical Resistance', 'Physical Penetration', 'Spell Penetration', 'Physical Resistance', 'Physical Mitigation', 'Spell Resistance', 'Spell Mitigation', 'Damage Done', 'Healing Done', 'Healing Taken', 'Damage Taken', 'Damage Shield Strength', 'Block Cost', 'Block Mitigation', 'Roll Dodge Cost', 'Sprint Cost', 'Break Free Cost', 'Bash Cost', 'Bash Damage', 'Movement Speed', 'Sprint Speed', 'Magicka Cost', 'Stamina Cost', 'Ultimate Cost'];
+    const blank = (labels) => Object.fromEntries(labels.map((label) => [label, null]));
+    const bar = () => ({ main: blank(MAIN_ROWS.map(([label]) => label)), advanced: blank(ADV_LABELS) });
+    const zone = () => ({ bar1: bar(), bar2: bar() });
+    const fx = { name: build.name || 'my character', notes: 'Platform, date, game version, anything odd (group buffs, potion, Emperor, keep bonuses).', gameVersion: '', tolerance: { flat: 1, percent: 0.15 }, build: JSON.parse(JSON.stringify(build)), readings: { outOfPvpZone: zone(), inPvpZone: zone() } };
+    document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = JSON.stringify(fx, null, 2); $('jsonBox').focus(); $('jsonBox').select();
+  });
   $('importBtn').addEventListener('click', () => { document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = ''; $('jsonBox').placeholder = 'Paste a build JSON here, then tap "Load JSON below"'; $('jsonBox').focus(); });
   $('copyBtn').addEventListener('click', async () => { try { await navigator.clipboard.writeText($('jsonBox').value); } catch (e) { $('jsonBox').select(); document.execCommand('copy'); } });
   $('applyJsonBtn').addEventListener('click', () => { try { const obj = JSON.parse($('jsonBox').value); if (obj.build && obj.readings) loadBuild(obj.build); else loadBuild(obj); } catch (e) { alert('Not valid JSON: ' + e.message); } });

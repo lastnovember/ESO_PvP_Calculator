@@ -42,8 +42,10 @@ Short record of modelling choices. One line each, newest at the bottom.
 - Results show both bars side by side and a per source breakdown per stat, plus the list of conditional effects the sheet did not apply.
 - The last edited build is restored on reload; named builds live in localStorage under one key.
 - Scribing: the twelve grimoires are slottable abilities of their skill line (Torchbearer counts as a Fighters Guild ability for Slayer, and so on) with focus, signature and affix pickers. Scripts act on cast and change no sheet value this phase, so the pickers only record the choice. Focus names come from the esolog coefficient table, affix scripts from the UESP Buffs page; the catalog is partial (UNKNOWNS.md).
-- Attribute points default to 0 and an unspent total is a warning, not an error; a total above 64 is an error.
+- Attribute points default to 0. Unspent points are not flagged at all (the page shows "N of 64" next to the heading); a total above 64 is an error.
 - A monster set picked on head or shoulders fills the other slot only when it is empty; afterwards either can be changed on its own.
 - Poisons: one per bar, a combat proc with no sheet effect. A poison overrides the weapon enchant while it has charges, so the page dims the enchant fields on that bar but keeps their values.
 - Sets that only drop in one weight (settype Light, Medium or Heavy Armor in sets.csv) lock the weight of their armor pieces. Monster sets and "All Weights" sets stay free.
 - Guild and Alliance War lines default on and are whole line toggles; Soul Magic is one of them so its abilities can be slotted.
+- Champion Point pickers group slottable stars by theme (Warfare: Damage, Healing, Damage reduction, Resources. Fitness: Health and resources, Defense and shields, Utility and CC. Craft: Movement, Stealth and crime, Gathering and fishing). The grouping is a UI convenience agreed with the user and lives in the app template, not in the engine data.
+- Two mythics have no slot word in their name and sets.csv gives none, so the parser carries the slot from the in game tooltip supplied by the user: Rakkhat's Voidmantle is medium shoulders, Stormweaver's Cavort is light legs. sets.csv also dropped the leading "Adds 300 Magicka Recovery" line of Stormweaver's Cavort, so the parser overrides that bonus text with the full tooltip.

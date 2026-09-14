@@ -160,7 +160,7 @@ test('validation: attribute sum, mythic limit, monster slot, two handed with off
   b.bars[0].mainHand = { set: null, type: 'bow', trait: null, enchant: null };
   b.bars[0].offHand = { set: null, type: 'shield', trait: null, enchant: null };
   const v = validateBuild(b, data);
-  assert.ok(v.warnings.some((e) => e.includes('unspent')));
+  assert.ok(!v.warnings.some((e) => e.includes('unspent')), 'unspent points are not a warning');
   assert.ok(v.errors.some((e) => e.includes('more than one mythic')));
   assert.ok(v.errors.some((e) => e.includes('monster set')));
   assert.ok(v.errors.some((e) => e.includes('off hand must be empty')));

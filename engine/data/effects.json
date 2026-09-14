@@ -11,8 +11,8 @@
     "total": 2414,
     "byStatus": {
      "ok": 1754,
-     "proc": 629,
-     "mixed": 13,
+     "proc": 628,
+     "mixed": 14,
      "unparsed": 12,
      "partial": 3,
      "empty": 3
@@ -37621,7 +37621,7 @@
      ]
     }
    },
-   "mythicSlot": null
+   "mythicSlot": "shoulders"
   },
   "Rallying Cry": {
    "name": "Rallying Cry",
@@ -46475,10 +46475,17 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Sprint, Roll Dodge, Bash, Break Free, Sneak, and Block now consume Magicka instead of Stamina. You reduce your Magicka Recovery to 0 while Blocking, Sneaking, or Sprinting. You no longer reduce your Stamina Recovery to 0 while Blocking, Sneaking or Sprinting.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 300 Magicka Recovery. Sprint, Roll Dodge, Bash, Break Free, Sneak, and Block now consume Magicka instead of Stamina. You reduce your Magicka Recovery to 0 while Blocking, Sneaking, or Sprinting. You no longer reduce your Stamina Recovery to 0 while Blocking, Sneaking or Sprinting.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "magickaRecovery",
+       "value": 300,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 300 Magicka Recovery."
+      },
       {
        "kind": "proc",
        "condition": {
@@ -46498,7 +46505,7 @@
      ]
     }
    },
-   "mythicSlot": null
+   "mythicSlot": "legs"
   },
   "Strength of the Automaton": {
    "name": "Strength of the Automaton",

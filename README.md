@@ -53,13 +53,16 @@ passive, star or buff the grammar did not fully understand.
 Fixtures are the ground truth. Each one holds a build and the numbers the game
 shows for it: both panels, both bars, once outside and once inside a PvP zone.
 
-1. Copy `engine/tests/fixtures/TEMPLATE.fixture.json` to
-   `engine/tests/fixtures/<name>.fixture.json`.
-2. Build the character in `app/index.html`, tap Export, paste the JSON into
-   the fixture's `build` field.
+1. Build the character in `app/index.html`, open "Export and import" and tap
+   "Fixture template". The JSON box now holds the build wrapped in a fixture
+   with every reading blank. Copy it.
+   (Or copy `engine/tests/fixtures/TEMPLATE.fixture.json` by hand and paste
+   the plain Export JSON into its `build` field.)
+2. Save it as `engine/tests/fixtures/<name>.fixture.json`.
 3. Read the numbers from the game into `readings`, following
    `engine/tests/fixtures/README.md` (phone friendly, one number per line,
-   leave what you cannot see as `null`).
+   leave what you cannot see as `null`). One bar outside a PvP zone is
+   enough to start; the rest can be filled in later.
 4. Run `npm test`. The runner prints game vs engine for every filled number and
    fails on differences beyond the tolerance. Values the engine cannot name are
    reported as "not modelled" so the panel list can grow.
