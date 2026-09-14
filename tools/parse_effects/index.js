@@ -211,7 +211,11 @@ const GRIMOIRES = {
   'Shield Throw': 'One Hand and Shield', 'Smash': 'Two Handed', 'Soul Burst': 'Soul Magic', 'Torchbearer': 'Fighters Guild',
   'Trample': 'Assault', 'Traveling Knife': 'Dual Wield', "Ulfsild's Contingency": 'Mages Guild', 'Vault': 'Bow', 'Wield Soul': 'Soul Magic',
 };
-const FOCUS_WORDS = { Bloody: 'Bleed Damage', Fiery: 'Flame Damage', Chilling: 'Frost Damage', Magical: 'Magic Damage', Venomous: 'Poison Damage', Pestilent: 'Disease Damage', Sundering: 'Physical Damage', Healing: 'Healing', Goading: 'Taunt', Binding: 'Immobilize', Dazing: 'Stun', Repelling: 'Knockback', Dispelling: 'Dispel', Warding: 'Damage Shield', Traumatic: 'Healing Absorption', Crag: 'Earth', Lunar: 'Lunar', Heavy: 'Heavy', Shocking: 'Shock Damage' };
+const FOCUS_WORDS = { Bloody: 'Bleed Damage', Fiery: 'Flame Damage', Chilling: 'Frost Damage', Magical: 'Magic Damage', Venomous: 'Poison Damage', Pestilent: 'Disease Damage', Sundering: 'Physical Damage', Healing: 'Healing', Goading: 'Taunt', Binding: 'Immobilize', Dazing: 'Stun', Repelling: 'Knockback', Dispelling: 'Dispel', Warding: 'Damage Shield', Traumatic: 'Healing Absorption', Shocking: 'Shock Damage' };
+// Focus scripts the esolog table does not name for any grimoire; the full list is community knowledge (UNKNOWNS.md).
+const FOCUS_EXTRA = ['Pull', 'Restore Resources'];
+// Signature scripts named in the patch notes (157 2024-06-18, 158, 160, 165). The rest of the catalog is not in the data.
+const SIGNATURE = ["Anchorite's Cruelty", "Anchorite's Potency", 'Class Mastery', 'Passive Master'];
 function buildScribing() {
   const rows = csvObjects(readFileSync(join(REF, 'tables', 'esolog_skill_coefficients_t00.csv'), 'utf8'));
   const focus = {};
@@ -222,21 +226,26 @@ function buildScribing() {
     if (!g || !FOCUS_WORDS[m[1]]) continue;
     (focus[g] = focus[g] || new Set()).add(FOCUS_WORDS[m[1]]);
   }
-  // affix scripts per grimoire from the Buffs page "Scribing" rows
-  const buffsCsv = parseCsv(readFileSync(join(REF, 'tables', 'uesp_Online_Buffs_t00.csv'), 'utf8'));
+  // affix scripts per grimoire from the Buffs and Debuffs pages "Scribing" rows, with the Major or Minor tier the grimoire grants
   const affix = {};
-  for (const row of buffsCsv) {
-    const i = row.indexOf('Scribing');
-    if (i < 0 || !row[i + 1]) continue;
-    const m = row[i + 1].match(/^(.+?) on (.+)$/);
-    if (!m) continue;
-    const script = m[1].trim();
-    for (const g of m[2].split(',').map((x) => x.trim())) if (GRIMOIRES[g]) (affix[g] = affix[g] || new Set()).add(script);
+  for (const table of ['uesp_Online_Buffs_t00.csv', 'uesp_Online_Buffs_t01.csv']) {
+    let tier = null;
+    for (const row of parseCsv(readFileSync(join(REF, 'tables', table), 'utf8'))) {
+      const c0 = (row[0] || '').trim(); const c1 = (row[1] || '').trim();
+      if (c0 === 'Major' || c0 === 'Minor') tier = c0;
+      else if (/\[ edit \]/.test(c0)) tier = (c1 === 'Major' || c1 === 'Minor') ? c1 : null;
+      const i = row.indexOf('Scribing');
+      if (i < 0 || !row[i + 1]) continue;
+      const m = row[i + 1].match(/^(.+?) on (.+)$/);
+      if (!m) continue;
+      const script = (tier ? tier + ' ' : '') + m[1].trim();
+      for (const g of m[2].split(',').map((x) => x.trim())) if (GRIMOIRES[g]) (affix[g] = affix[g] || new Set()).add(script);
+    }
   }
-  const allFocus = [...new Set(Object.values(FOCUS_WORDS))].sort();
+  const allFocus = [...new Set([...Object.values(FOCUS_WORDS), ...FOCUS_EXTRA])].sort();
   const out = {};
   for (const [g, line] of Object.entries(GRIMOIRES)) {
-    out[g] = { name: g, line, focus: focus[g] ? [...focus[g]].sort() : allFocus, affix: affix[g] ? [...affix[g]].sort() : [], signature: ['Class Mastery'] };
+    out[g] = { name: g, line, focus: focus[g] ? [...new Set([...focus[g], ...FOCUS_EXTRA])].sort() : allFocus, focusVerified: !!focus[g], affix: affix[g] ? [...affix[g]].sort() : [], signature: SIGNATURE };
   }
   return out;
 }

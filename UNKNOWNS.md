@@ -102,7 +102,7 @@ Named items are community tooltip values.
 
 | Item | Status |
 | --- | --- |
-| Full script catalog | Not in data/reference. `engine/data/effects.json` lists the focus scripts the esolog table names per grimoire (all focus names where a grimoire has none), the affix scripts the UESP Buffs page lists per grimoire, and Class Mastery as the only known signature script. Scripts change no sheet value in phase 1. |
+| Full script catalog | Not in data/reference. Affix scripts per grimoire, with their Major or Minor tier, come from the UESP Buffs and Debuffs pages and agree with the Update 43 note (160, 2024-09-04). Focus scripts come from the esolog names per grimoire (Smash, Vault, Trample), otherwise the full known list, with Pull and Restore Resources added from community knowledge. Signature scripts are only the four named in patch notes (Anchorite's Cruelty, Anchorite's Potency, Class Mastery, Passive Master); the pickers accept typed names for the rest. Scripts change no sheet value in phase 1. |
 
 ## Settled by patch notes
 

@@ -11,7 +11,7 @@
     "class": "Nightblade",
     "classSkillLines": ["Assassination", "Shadow", "Siphoning"],
     "classMastery": [],
-    "attributes": { "health": 0, "magicka": 0, "stamina": 64 },
+    "attributes": { "health": 0, "magicka": 0, "stamina": 0 },
     "championPoints": { "enabled": true, "slotted": { "warfare": [], "fitness": [], "craft": [] } },
     "mundus": null,
     "food": null,

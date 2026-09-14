@@ -44,3 +44,6 @@ Short record of modelling choices. One line each, newest at the bottom.
 - Scribing: the twelve grimoires are slottable abilities of their skill line (Torchbearer counts as a Fighters Guild ability for Slayer, and so on) with focus, signature and affix pickers. Scripts act on cast and change no sheet value this phase, so the pickers only record the choice. Focus names come from the esolog coefficient table, affix scripts from the UESP Buffs page; the catalog is partial (UNKNOWNS.md).
 - Attribute points default to 0 and an unspent total is a warning, not an error; a total above 64 is an error.
 - A monster set picked on head or shoulders fills the other slot only when it is empty; afterwards either can be changed on its own.
+- Poisons: one per bar, a combat proc with no sheet effect. A poison overrides the weapon enchant while it has charges, so the page dims the enchant fields on that bar but keeps their values.
+- Sets that only drop in one weight (settype Light, Medium or Heavy Armor in sets.csv) lock the weight of their armor pieces. Monster sets and "All Weights" sets stay free.
+- Guild and Alliance War lines default on and are whole line toggles; Soul Magic is one of them so its abilities can be slotted.

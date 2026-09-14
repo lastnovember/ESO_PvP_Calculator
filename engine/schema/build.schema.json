@@ -238,7 +238,8 @@
           "description": "Up to 5 ability names, final nodes only: the morph name, or the base name if unmorphed. Only used for 'while slotted' effects.",
           "type": "array", "maxItems": 5, "items": { "type": "string" }
         },
-        "ultimate": { "oneOf": [ { "type": "string" }, { "type": "null" } ] }
+        "ultimate": { "oneOf": [ { "type": "string" }, { "type": "null" } ] },
+        "poison": { "description": "Poison applied to this bar's weapons. A poison overrides the weapon enchant while it has charges. Combat proc, no sheet effect in phase 1.", "oneOf": [ { "type": "string" }, { "type": "null" } ], "default": null }
       }
     }
   }

@@ -51,7 +51,8 @@ const LS = String.fromCharCode(0x2028); const PS = String.fromCharCode(0x2029);
 const safe = (obj) => JSON.stringify(obj).split('</').join('<\\/').split(LS).join('\\u2028').split(PS).join('\\u2029');
 const data = `window.ESO_DATA = { constants: ${safe(constants)}, effects: ${safe(slim)} };`;
 
-const out = template.replace('/*__ENGINE__*/', () => engine).replace('/*__DATA__*/', () => data).replace('__BUILD_DATE__', new Date().toISOString().slice(0, 10));
+// The repository build makes no network requests; the hosted copy may add a Google Fonts link in place of this marker.
+const out = template.replace('/*__ENGINE__*/', () => engine).replace('/*__DATA__*/', () => data).replace('__BUILD_DATE__', new Date().toISOString().slice(0, 10)).replace('<!--__FONTS__-->', '');
 const dest = join(ROOT, 'app', 'index.html');
 writeFileSync(dest, out);
 console.log(`wrote ${dest} (${Math.round(statSync(dest).size / 1024)} KB)`);

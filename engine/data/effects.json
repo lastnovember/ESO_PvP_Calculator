@@ -77766,34 +77766,37 @@
     "Damage Shield",
     "Disease Damage",
     "Dispel",
-    "Earth",
     "Flame Damage",
     "Frost Damage",
     "Healing",
     "Healing Absorption",
-    "Heavy",
     "Immobilize",
     "Knockback",
-    "Lunar",
     "Magic Damage",
     "Physical Damage",
     "Poison Damage",
+    "Pull",
+    "Restore Resources",
     "Shock Damage",
     "Stun",
     "Taunt"
    ],
+   "focusVerified": false,
    "affix": [
-    "Berserk",
-    "Brutality and Sorcery",
-    "Courage",
-    "Heroism",
-    "Intellect and Endurance",
-    "Protection",
-    "Resolve",
-    "Savagery and Prophecy"
+    "Major Brutality and Sorcery",
+    "Major Savagery and Prophecy",
+    "Minor Berserk",
+    "Minor Courage",
+    "Minor Heroism",
+    "Minor Intellect and Endurance",
+    "Minor Protection",
+    "Minor Resolve"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Elemental Explosion": {
@@ -77805,14 +77808,26 @@
     "Healing Absorption",
     "Magic Damage",
     "Physical Damage",
+    "Pull",
+    "Restore Resources",
     "Shock Damage"
    ],
+   "focusVerified": true,
    "affix": [
-    "Brutality and Sorcery",
-    "Savagery and Prophecy"
+    "Major Brutality and Sorcery",
+    "Major Savagery and Prophecy",
+    "Minor Brittle",
+    "Minor Cowardice",
+    "Minor Defile",
+    "Minor Enervation",
+    "Minor Lifesteal",
+    "Minor Magickasteal"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Mender's Bond": {
@@ -77821,20 +77836,30 @@
    "focus": [
     "Damage Shield",
     "Healing",
-    "Magic Damage"
+    "Magic Damage",
+    "Pull",
+    "Restore Resources"
    ],
+   "focusVerified": true,
    "affix": [
-    "Courage",
     "Empower",
-    "Evasion",
-    "Force",
-    "Heroism",
-    "Intellect and Endurance",
-    "Protection",
-    "Vitality"
+    "Minor Breach",
+    "Minor Brittle",
+    "Minor Courage",
+    "Minor Evasion",
+    "Minor Force",
+    "Minor Heroism",
+    "Minor Intellect and Endurance",
+    "Minor Maim",
+    "Minor Protection",
+    "Minor Vitality",
+    "Minor Vulnerability"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Shield Throw": {
@@ -77846,15 +77871,24 @@
     "Knockback",
     "Magic Damage",
     "Physical Damage",
+    "Pull",
+    "Restore Resources",
     "Taunt"
    ],
+   "focusVerified": true,
    "affix": [
-    "Evasion",
-    "Resolve",
-    "Vitality"
+    "Major Cowardice",
+    "Major Evasion",
+    "Major Maim",
+    "Major Resolve",
+    "Major Vitality",
+    "Minor Enervation"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Smash": {
@@ -77863,27 +77897,33 @@
    "focus": [
     "Bleed Damage",
     "Damage Shield",
-    "Earth",
     "Healing",
-    "Heavy",
     "Knockback",
-    "Lunar",
     "Magic Damage",
     "Physical Damage",
     "Poison Damage",
+    "Pull",
+    "Restore Resources",
     "Stun",
     "Taunt"
    ],
+   "focusVerified": true,
    "affix": [
-    "Berserk",
-    "Brutality and Sorcery",
-    "Expedition",
-    "Force",
-    "Savagery and Prophecy",
-    "Vitality"
+    "Major Brutality and Sorcery",
+    "Major Savagery and Prophecy",
+    "Minor Berserk",
+    "Minor Breach",
+    "Minor Expedition",
+    "Minor Force",
+    "Minor Maim",
+    "Minor Mangle",
+    "Minor Vitality"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Soul Burst": {
@@ -77898,18 +77938,27 @@
     "Healing",
     "Magic Damage",
     "Physical Damage",
+    "Pull",
+    "Restore Resources",
     "Shock Damage"
    ],
+   "focusVerified": true,
    "affix": [
-    "Brutality and Sorcery",
-    "Courage",
-    "Expedition",
-    "Intellect and Endurance",
-    "Resolve",
-    "Savagery and Prophecy"
+    "Major Brutality and Sorcery",
+    "Major Savagery and Prophecy",
+    "Minor Breach",
+    "Minor Courage",
+    "Minor Expedition",
+    "Minor Intellect and Endurance",
+    "Minor Magickasteal",
+    "Minor Maim",
+    "Minor Resolve"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Torchbearer": {
@@ -77920,32 +77969,39 @@
     "Damage Shield",
     "Disease Damage",
     "Dispel",
-    "Earth",
     "Flame Damage",
     "Frost Damage",
     "Healing",
     "Healing Absorption",
-    "Heavy",
     "Immobilize",
     "Knockback",
-    "Lunar",
     "Magic Damage",
     "Physical Damage",
     "Poison Damage",
+    "Pull",
+    "Restore Resources",
     "Shock Damage",
     "Stun",
     "Taunt"
    ],
+   "focusVerified": false,
    "affix": [
-    "Brutality and Sorcery",
-    "Evasion",
-    "Heroism",
-    "Resolve",
-    "Savagery and Prophecy",
-    "Vitality"
+    "Major Brutality and Sorcery",
+    "Major Savagery and Prophecy",
+    "Minor Breach",
+    "Minor Cowardice",
+    "Minor Evasion",
+    "Minor Heroism",
+    "Minor Mangle",
+    "Minor Resolve",
+    "Minor Uncertainty",
+    "Minor Vitality"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Trample": {
@@ -77959,17 +78015,27 @@
     "Knockback",
     "Magic Damage",
     "Physical Damage",
+    "Pull",
+    "Restore Resources",
     "Stun"
    ],
+   "focusVerified": true,
    "affix": [
-    "Brutality and Sorcery",
-    "Expedition",
-    "Heroism",
-    "Protection",
-    "Savagery and Prophecy"
+    "Major Brutality and Sorcery",
+    "Major Expedition",
+    "Major Heroism",
+    "Major Protection",
+    "Major Savagery and Prophecy",
+    "Minor Cowardice",
+    "Minor Defile",
+    "Minor Mangle",
+    "Minor Vulnerability"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Traveling Knife": {
@@ -77980,17 +78046,27 @@
     "Frost Damage",
     "Physical Damage",
     "Poison Damage",
+    "Pull",
+    "Restore Resources",
     "Stun"
    ],
+   "focusVerified": true,
    "affix": [
-    "Berserk",
-    "Brutality and Sorcery",
-    "Expedition",
-    "Force",
-    "Savagery and Prophecy"
+    "Major Brutality and Sorcery",
+    "Major Savagery and Prophecy",
+    "Minor Berserk",
+    "Minor Expedition",
+    "Minor Force",
+    "Minor Lifesteal",
+    "Minor Maim",
+    "Minor Uncertainty",
+    "Minor Vulnerability"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Ulfsild's Contingency": {
@@ -78004,18 +78080,28 @@
     "Healing",
     "Immobilize",
     "Magic Damage",
+    "Pull",
+    "Restore Resources",
     "Shock Damage"
    ],
+   "focusVerified": true,
    "affix": [
-    "Brutality and Sorcery",
-    "Force",
-    "Intellect and Endurance",
-    "Protection",
-    "Resolve",
-    "Savagery and Prophecy"
+    "Major Brutality and Sorcery",
+    "Major Savagery and Prophecy",
+    "Minor Breach",
+    "Minor Enervation",
+    "Minor Force",
+    "Minor Intellect and Endurance",
+    "Minor Magickasteal",
+    "Minor Protection",
+    "Minor Resolve",
+    "Minor Vulnerability"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Vault": {
@@ -78029,19 +78115,28 @@
     "Immobilize",
     "Physical Damage",
     "Poison Damage",
+    "Pull",
+    "Restore Resources",
     "Taunt"
    ],
+   "focusVerified": true,
    "affix": [
-    "Berserk",
-    "Brutality and Sorcery",
-    "Evasion",
-    "Expedition",
-    "Force",
-    "Intellect and Endurance",
-    "Savagery and Prophecy"
+    "Major Brutality and Sorcery",
+    "Major Evasion",
+    "Major Savagery and Prophecy",
+    "Minor Berserk",
+    "Minor Expedition",
+    "Minor Force",
+    "Minor Intellect and Endurance",
+    "Minor Lifesteal",
+    "Minor Maim",
+    "Minor Vulnerability"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   },
   "Wield Soul": {
@@ -78056,19 +78151,29 @@
     "Healing",
     "Magic Damage",
     "Physical Damage",
+    "Pull",
+    "Restore Resources",
     "Shock Damage",
     "Stun"
    ],
+   "focusVerified": true,
    "affix": [
-    "Brutality and Sorcery",
     "Empower",
-    "Intellect and Endurance",
-    "Resolve",
-    "Savagery and Prophecy",
-    "Vitality"
+    "Major Breach",
+    "Major Brutality and Sorcery",
+    "Major Cowardice",
+    "Major Defile",
+    "Major Intellect and Endurance",
+    "Major Maim",
+    "Major Resolve",
+    "Major Savagery and Prophecy",
+    "Major Vitality"
    ],
    "signature": [
-    "Class Mastery"
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Mastery",
+    "Passive Master"
    ]
   }
  }
