@@ -567,14 +567,19 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const host = $('setSummary'); host.innerHTML = '';
     if (!result) return;
     const counts = result.bars.map((b) => b.setCounts);
-    const names = [...new Set([...Object.keys(counts[0] || {}), ...Object.keys(counts[1] || {})])].sort();
-    for (const n of names) {
-      const meta = X.sets[n]; const a = counts[0][n] || 0; const b = counts[1][n] || 0;
-      const txt = a === b ? `${n}: ${a}/${meta.maxPieces}` : `${n}: front ${a}/${meta.maxPieces}, back ${b}/${meta.maxPieces}`;
-      const full = Math.min(5, meta.maxPieces);
-      host.append(el('span', { class: 'pill ' + ((a > meta.maxPieces || b > meta.maxPieces) ? 'bad' : (a >= full || b >= full) ? 'ok' : ''), text: txt, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
+    const names = [...new Set([...Object.keys(counts[0] || {}), ...Object.keys(counts[1] || {})])];
+    if (!names.length) { $('gearHint').textContent = 'empty'; return; }
+    for (const [bi, label] of [[0, 'Front bar'], [1, 'Back bar']]) {
+      const line = el('div', { class: 'row', style: 'width:100%' }, [el('span', { class: 'fine', text: label, style: 'flex:0 0 72px' })]);
+      const list = names.map((n) => [n, counts[bi][n] || 0]).filter(([, c]) => c > 0).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      for (const [n, c] of list) {
+        const meta = X.sets[n];
+        const full = Math.min(5, meta.maxPieces);
+        line.append(el('span', { class: 'pill ' + (c > meta.maxPieces ? 'bad' : c >= full ? 'ok' : ''), text: `${n} ${c}/${meta.maxPieces}`, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
+      }
+      host.append(line);
     }
-    $('gearHint').textContent = names.length ? names.map((n) => `${n} ${Math.max(counts[0][n] || 0, counts[1][n] || 0)}`).join(', ') : 'empty';
+    $('gearHint').textContent = names.map((n) => `${n} ${Math.max(counts[0][n] || 0, counts[1][n] || 0)}`).join(', ');
   }
 
   // ------------------------------------------------------------ bars and skills
