@@ -234,6 +234,11 @@ function parseSentence(sentenceIn, conds, depth = 0) {
   if ((m = rest.match(/^Increases Weapon Damage and Spell Damage by ([\d.]+)% of off-hand weapon's damage/i))) return { status: 'ok', effects: mk('percentOfOffHandRating', toNum(m[1]), 'percent', base, raw) };
   // Skill specific damage: "Increases the damage Wall of Elements deals by 29-1250."
   if (/^Increases the damage [A-Z][\w' ]+ deals by/i.test(rest)) return conditional(raw, { type: 'attackCategory', detail: rest.slice(0, 80) });
+  // Ancient Knowledge: "Equipping an Ice Staff reduces the cost of blocking by 36% and increases the amount of damage you block by 20%."
+  if ((m = rest.match(/^Equipping an Ice Staff reduces the cost of blocking by ([\d.]+)% and increases the amount of damage you block by ([\d.]+)%/i))) {
+    const cond = mergeCond(base, { type: 'weapon', weapon: 'frost staff' });
+    return { status: 'ok', effects: [...mk('blockCost', -toNum(m[1]), 'percent', cond, raw), ...mk('blockMitigation', toNum(m[2]), 'percent', cond, raw)] };
+  }
   // Staff type clauses: "Inferno Staves increases your damage done with ..."
   if (/^(?:Inferno|Lightning|Ice|Frost) Sta(?:ff|ves) /i.test(rest)) return conditional(raw, { type: 'attackCategory', detail: rest.slice(0, 80) });
   // Set bonus / CP: "Adds 6-300 Weapon Damage and Spell Damage", "Grants 34.6 Armor per stage", "Grants 100 Weapon and Spell Damage to Magical attacks"

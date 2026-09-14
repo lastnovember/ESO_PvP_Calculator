@@ -25,10 +25,10 @@
     "byStatus": {
      "ok": 72,
      "proc": 158,
-     "unparsed": 3,
-     "mixed": 17
+     "mixed": 18,
+     "unparsed": 2
     },
-    "parsedPercent": 98.8
+    "parsedPercent": 99.2
    },
    "championStars": {
     "total": 118,
@@ -58719,7 +58719,7 @@
     "class": null,
     "aliases": [],
     "raw": "With Destruction Staff Equipped Inferno Staves increases your damage done with damage over time and Status Effects by 12%. Lightning Staves increases your damage done with direct damage and channeled effects by 12%. Equipping an Ice Staff reduces the cost of blocking by 36% and increases the amount of damage you block by 20%.",
-    "status": "unparsed",
+    "status": "mixed",
     "effects": [
      {
       "kind": "proc",
@@ -58738,8 +58738,41 @@
       "raw": "Lightning Staves increases your damage done with direct damage and channeled effects by 12%."
      },
      {
-      "kind": "unparsed",
-      "condition": null,
+      "stat": "blockCost",
+      "value": -36,
+      "kind": "percent",
+      "condition": {
+       "type": "all",
+       "of": [
+        {
+         "type": "weapon",
+         "weapon": "destruction staff"
+        },
+        {
+         "type": "weapon",
+         "weapon": "frost staff"
+        }
+       ]
+      },
+      "raw": "Equipping an Ice Staff reduces the cost of blocking by 36% and increases the amount of damage you block by 20%."
+     },
+     {
+      "stat": "blockMitigation",
+      "value": 20,
+      "kind": "percent",
+      "condition": {
+       "type": "all",
+       "of": [
+        {
+         "type": "weapon",
+         "weapon": "destruction staff"
+        },
+        {
+         "type": "weapon",
+         "weapon": "frost staff"
+        }
+       ]
+      },
       "raw": "Equipping an Ice Staff reduces the cost of blocking by 36% and increases the amount of damage you block by 20%."
      }
     ],

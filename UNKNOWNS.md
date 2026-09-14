@@ -105,6 +105,27 @@ Named items are community tooltip values.
 | Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
 | Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
 
+## Fixture 001 (Yeets-Swiftly, back bar, Eastern Elsweyr Gate, Battle Spirit on)
+
+One geared reading in Cyrodiil. What it settled is in DECISIONS.md (crit damage and Battle Spirit sheet semantics, harm glyphs). What it left open, with the size of the gap after the fixes:
+
+| Reading | Game | Engine | Gap and best reading of it |
+| --- | --- | --- | --- |
+| Max Magicka, Max Stamina | 21305, 18687 | 21483, 18865 | With base 12000 both are 178 high (168 before the 6% Undaunted Mettle); with the old 7958 both were 3874 short. One shared flat is off: the Prismatic Defense glyph total (2170 assumed), Lunar Blessings (915 from skills.csv) or the CP passives (520). |
+| Max Health | 32701 | 29788 | 2913 short. Base 16000, 122 per point, Orzorga's Smoked Bear Haunch 3080 and the +5000 Battle Spirit health are all unverified, so the gap cannot be split yet. |
+| Recoveries | 511, 1433, 1515 | 569, 1343, 1473 | Health: the game halves a value near 1022, the engine 1137. Magicka and Stamina need different flats to fit, so a percent source is off as well (Flourish 20%, Evocation 4%, Wind Walker 16%). |
+| Critical Chance | 27.4% | 15.5% | Exactly 12% (2629 rating) above every known passive source: Major Savagery and Major Prophecy were active. Source not in the build (potion or group buff). |
+| Critical Resistance | 2404 | 1084 | 1320 above Resilience (660) and Rallying Cry 3 piece (424). No known source; Rallying Cry 5 piece (1650) is a proc. |
+| Resistances | 21689, 22415 | 20864, 21590 | Both 825 short. Armor piece ratings are unverified community values. |
+| Penetration | 4879 | 4882 | 3 high. Lover 2744 with two Divines pieces; likely rounding per piece. |
+| Costs | bash 655, block 996, break free 4921, roll 3248, sprint 428 | 1157, 930, 2698, 2306, 335 | Base costs are unverified; break free and roll dodge run far above the assumed bases even after reductions, so the bases are wrong, not the reductions. |
+| Bash Damage | 685 | 120 | The sheet shows total bash damage, the engine only the bonus. Needs the base bash damage. |
+| Sprint Speed | 154% | 184% | Base sprint speed assumed 160% + Athletics 12% + Hasty; the sheet suggests a lower base or a different stacking. |
+| Healing Done | 22% | 2% | Combat Medic (+20% near a Keep) was active at the gate. Location dependent, correctly a proc. |
+| Damage Done | 6% | 0% | The sheet folds Deadly Aim (single target, 6%) into every damage type; Physical and Shock read 11% with Energized. The engine keeps conditional damage out of Damage Done. |
+
+A naked reading (no gear, no food, no Cyrodiil, both panels) settles base stats, per point values, base recoveries, base costs, base bash damage and sprint speed in one go; a second reading with only the seven Prismatic Defense pieces on then settles the glyph and armor values.
+
 ## Settled by data supplied later
 
 | Item | Settled by |

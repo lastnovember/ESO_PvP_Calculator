@@ -60,8 +60,8 @@ C['_meta'] = OrderedDict(
 # ---------------------------------------------------------------- base stats
 C['base'] = OrderedDict(
     maxHealth=unverified(16000, 'Naked level 50 Max Health with 0 attribute points. UESP Online:Health prose was archived as PDF only, not present in the repo.', [15000]),
-    maxMagicka=unverified(7958, 'Naked level 50 Max Magicka with 0 attribute points.', [12000]),
-    maxStamina=unverified(7958, 'Naked level 50 Max Stamina with 0 attribute points.', [12000]),
+    maxMagicka=unverified(12000, 'Naked level 50 Max Magicka with 0 attribute points. Fitted from fixture 001 (Yeets-Swiftly, back bar, Cyrodiil): with 7958 the sheet is 3874 short on both Magicka and Stamina before percent bonuses; with 12000 the residual is 168 on both. A naked reading settles it.', [7958]),
+    maxStamina=unverified(12000, 'Naked level 50 Max Stamina with 0 attribute points. Fitted from fixture 001, see maxMagicka.', [7958]),
     healthRecovery=unverified(484, 'Naked level 50 Health Recovery (per 2 second tick as shown on the sheet).'),
     magickaRecovery=unverified(514, 'Naked level 50 Magicka Recovery.'),
     staminaRecovery=unverified(514, 'Naked level 50 Stamina Recovery.'),
@@ -236,8 +236,8 @@ C['enchants'] = OrderedDict(
                values=[OrderedDict(stat='maxHealth', kind='flat'), OrderedDict(stat='maxMagicka', kind='flat'), OrderedDict(stat='maxStamina', kind='flat')])}
     ),
     jewelry=OrderedDict(
-        **{'Weapon Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Physical Harm'), values=[OrderedDict(stat='weaponDamage', kind='flat')]),
-           'Spell Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Magical Harm'), values=[OrderedDict(stat='spellDamage', kind='flat')]),
+        **{'Weapon Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Physical Harm. Grants Weapon and Spell Damage since Update 37: data/patch-notes/html 135 (2023-03-28): Glyph of Physical Harm and Glyph of Spell Harm: These enchantments now grant Weapon and Spell Damage, rather than only Weapon or Spell Damage.'), values=[OrderedDict(stat='weaponDamage', kind='flat'), OrderedDict(stat='spellDamage', kind='flat')]),
+           'Spell Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Magical Harm. Grants Weapon and Spell Damage since Update 37 (same note as Weapon Damage).'), values=[OrderedDict(stat='weaponDamage', kind='flat'), OrderedDict(stat='spellDamage', kind='flat')]),
            'Magicka Recovery': OrderedDict(magnitude=unverified(169, 'Glyph of Magicka Recovery'), values=[OrderedDict(stat='magickaRecovery', kind='flat')]),
            'Stamina Recovery': OrderedDict(magnitude=unverified(169, 'Glyph of Stamina Recovery'), values=[OrderedDict(stat='staminaRecovery', kind='flat')]),
            'Health Recovery': OrderedDict(magnitude=unverified(169, 'Glyph of Health Recovery'), values=[OrderedDict(stat='healthRecovery', kind='flat')]),

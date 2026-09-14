@@ -759,7 +759,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     ['Movement Speed', 'movementSpeedPercent', '%', 'movementSpeed'], ['Sprint Speed', 'sprintSpeedPercent', '%', 'sprintSpeed'],
     ['Magicka Cost', 'magickaCostPercent', '%', 'magickaCost'], ['Stamina Cost', 'staminaCostPercent', '%', 'staminaCost'], ['Ultimate Cost', 'ultimateCostPercent', '%', 'ultimateCost'],
     ['Ability range bonus (28m+)', 'abilityRangeBonusMeters', ' m', null],
+    ['Healing Taken with Battle Spirit', 'battleSpirit.healingTakenPercent', '%', 'healingTaken'], ['Damage Taken with Battle Spirit', 'battleSpirit.damageTakenPercent', '%', 'damageTaken'], ['Shield Strength with Battle Spirit', 'battleSpirit.damageShieldStrengthPercent', '%', 'damageShieldStrength'],
   ];
+  const pick = (obj, key) => key.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
   const BREAKDOWN_KEY = { maxHealth: 'maxHealth', maxMagicka: 'maxMagicka', maxStamina: 'maxStamina', healthRecovery: 'healthRecovery', magickaRecovery: 'magickaRecovery', staminaRecovery: 'staminaRecovery', weaponDamage: 'weaponDamage', spellDamage: 'spellDamage', weaponCritChance: 'weaponCritRating', spellCritChance: 'spellCritRating', critDamage: 'critDamage', physicalPenetration: 'physicalPenetration', spellPenetration: 'spellPenetration', physicalResistance: 'physicalResistance', spellResistance: 'spellResistance' };
   const fmt = (v, unit) => v == null ? '-' : (unit === '%' ? `${v}%` : unit ? `${v}${unit}` : Math.round(v).toLocaleString());
   function renderResults() {
@@ -769,8 +771,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       const t = el('table');
       t.append(el('tr', {}, [el('th', { text: heading }), el('th', { class: 'n', text: 'Front' }), el('th', { class: 'n', text: 'Back' })]));
       for (const [label, key, unit, bkey] of rows) {
-        const a = result.bars[0][panel === 'Main sheet' ? 'main' : 'advanced'][key];
-        const b = result.bars[1][panel === 'Main sheet' ? 'main' : 'advanced'][key];
+        const a = pick(result.bars[0][panel === 'Main sheet' ? 'main' : 'advanced'], key);
+        const b = pick(result.bars[1][panel === 'Main sheet' ? 'main' : 'advanced'], key);
+        if (key.startsWith('battleSpirit.') && a === undefined && b === undefined) continue;
         const tr = el('tr', { class: 'stat' + (a !== b ? ' diff' : '') }, [el('td', { text: label }), el('td', { class: 'n', text: fmt(a, unit) }), el('td', { class: 'n b2', text: fmt(b, unit) })]);
         const bk = panel === 'Main sheet' ? BREAKDOWN_KEY[key] : bkey;
         tr.addEventListener('click', () => { openBreakdown = openBreakdown === `${panel}:${key}` ? null : `${panel}:${key}`; renderResults(); });

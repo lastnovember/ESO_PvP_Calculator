@@ -21,21 +21,21 @@
       ]
     },
     "maxMagicka": {
-      "value": 7958,
+      "value": 12000,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Naked level 50 Max Magicka with 0 attribute points.",
+      "note": "Naked level 50 Max Magicka with 0 attribute points. Fitted from fixture 001 (Yeets-Swiftly, back bar, Cyrodiil): with 7958 the sheet is 3874 short on both Magicka and Stamina before percent bonuses; with 12000 the residual is 168 on both. A naked reading settles it.",
       "alternatives": [
-        12000
+        7958
       ]
     },
     "maxStamina": {
-      "value": 7958,
+      "value": 12000,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Naked level 50 Max Stamina with 0 attribute points.",
+      "note": "Naked level 50 Max Stamina with 0 attribute points. Fitted from fixture 001, see maxMagicka.",
       "alternatives": [
-        12000
+        7958
       ]
     },
     "healthRecovery": {
@@ -812,11 +812,15 @@
           "value": 174,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "Glyph of Increase Physical Harm"
+          "note": "Glyph of Increase Physical Harm. Grants Weapon and Spell Damage since Update 37: data/patch-notes/html 135 (2023-03-28): Glyph of Physical Harm and Glyph of Spell Harm: These enchantments now grant Weapon and Spell Damage, rather than only Weapon or Spell Damage."
         },
         "values": [
           {
             "stat": "weaponDamage",
+            "kind": "flat"
+          },
+          {
+            "stat": "spellDamage",
             "kind": "flat"
           }
         ]
@@ -826,9 +830,13 @@
           "value": 174,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "Glyph of Increase Magical Harm"
+          "note": "Glyph of Increase Magical Harm. Grants Weapon and Spell Damage since Update 37 (same note as Weapon Damage)."
         },
         "values": [
+          {
+            "stat": "weaponDamage",
+            "kind": "flat"
+          },
           {
             "stat": "spellDamage",
             "kind": "flat"

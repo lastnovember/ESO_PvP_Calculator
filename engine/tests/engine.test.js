@@ -133,8 +133,9 @@ test('Champion Points: passives always on, slottables only when slotted', () => 
 test('Battle Spirit halves Health Recovery and reports the advanced deltas', () => {
   const r = computeSheet(naked({ battleSpirit: true }), data);
   assert.equal(r.bars[0].main.healthRecovery, Math.round(B.healthRecovery.value * 0.5));
-  assert.equal(r.bars[0].advanced.healingTakenPercent, -55);
-  assert.equal(r.bars[0].advanced.damageTakenPercent, -50);
+  assert.equal(r.bars[0].advanced.healingTakenPercent, 0, 'sheet value leaves Battle Spirit out');
+  assert.equal(r.bars[0].advanced.battleSpirit.healingTakenPercent, -55);
+  assert.equal(r.bars[0].advanced.battleSpirit.damageTakenPercent, -50);
   assert.equal(r.bars[0].advanced.abilityRangeBonusMeters, 8);
   const flag = computeSheet(naked({ battleSpirit: true, flags: { battleSpiritFlatHealth: true } }), data);
   assert.equal(flag.bars[0].main.maxHealth, B.maxHealth.value + 5000);
@@ -179,13 +180,13 @@ test('strategies can be switched', () => {
 
 test('Class Mastery: only purchased passives, hidden while subclassing, target scoped Battle Spirit values', () => {
   const off = computeSheet(naked(), data);
-  assert.equal(off.bars[0].main.critDamage, B.critDamagePercent.value);
+  assert.equal(off.bars[0].main.critDamage, 0, 'sheet shows the bonus above base');
   const on = computeSheet(naked({ classMastery: ['Test Mastery'], battleSpirit: true }), data);
-  assert.equal(on.bars[0].main.critDamage, B.critDamagePercent.value + 25);
+  assert.equal(on.bars[0].main.critDamage, 25);
   const pvp = computeSheet(naked({ classMastery: ['Test Mastery'], battleSpirit: true }), data, { strategies: { battleSpiritTargetValues: 'pvpTarget' } });
-  assert.equal(pvp.bars[0].main.critDamage, B.critDamagePercent.value + 5);
+  assert.equal(pvp.bars[0].main.critDamage, 5);
   const sub = computeSheet(naked({ classMastery: ['Test Mastery'], classSkillLines: ['Assassination', 'Shadow', 'Ardent Flame'] }), data);
-  assert.equal(sub.bars[0].main.critDamage, B.critDamagePercent.value);
+  assert.equal(sub.bars[0].main.critDamage, 0);
   const bad = validateBuild(naked({ classMastery: ['Nope'] }), data);
   assert.ok(bad.errors.some((e) => e.includes('unknown Class Mastery')));
 });

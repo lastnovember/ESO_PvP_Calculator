@@ -592,8 +592,10 @@ function computeBar(build, data, barIndex, strategies) {
   const critOf = (stat) => v(B.critChancePercent) + acc.flat(stat) / v(B.critRatingPerPercent) + acc.pct('critChancePercent');
   const weaponCritChance = critOf('weaponCritRating');
   const spellCritChance = critOf('spellCritRating');
+  // The character sheet shows Critical Damage as the bonus above the base (50%): a naked character reads 0%,
+  // fixture 001 reads 33% for 5 + 8 + 12 + 8. The cap (125% total) is applied to the total, then the base removed.
   const critCap = v(B.critDamageCapPercent) + acc.flat('critDamageCap');
-  const critDamage = Math.min(v(B.critDamagePercent) + acc.pct('critDamage') + acc.flat('critDamage'), critCap);
+  const critDamage = Math.min(v(B.critDamagePercent) + acc.pct('critDamage') + acc.flat('critDamage'), critCap) - v(B.critDamagePercent);
 
   const resist = (stat) => (acc.flat(stat)) * (1 + acc.pct(stat) / 100);
   const physicalResistance = resist('physicalResistance');
@@ -653,9 +655,11 @@ function computeBar(build, data, barIndex, strategies) {
     spellMitigationPercent: round1(mitigation(spellResistance)),
     damageDonePercent: round1(acc.pct('damageDone')),
     healingDonePercent: round1(acc.pct('healingDone')),
-    healingTakenPercent: round1(combinePct('healingTaken', 'healingReceived')),
-    damageTakenPercent: round1(combinePct('damageTaken', 'damageTaken')),
-    damageShieldStrengthPercent: round1(combinePct('damageShieldStrength', 'damageShieldStrength')),
+    // The sheet leaves Battle Spirit out of these three (fixture 001 reads Healing Taken 4% in Cyrodiil);
+    // the Battle Spirit adjusted values sit in advanced.battleSpirit when it is active.
+    healingTakenPercent: round1(acc.pct('healingTaken')),
+    damageTakenPercent: round1(acc.pct('damageTaken')),
+    damageShieldStrengthPercent: round1(acc.pct('damageShieldStrength')),
     blockCost: Math.round(blockCost),
     blockMitigationPercent: round1(blockMitigation),
     rollDodgeCost: Math.round(rollDodgeCost),
@@ -670,8 +674,12 @@ function computeBar(build, data, barIndex, strategies) {
     magickaCostFlat: Math.round(acc.flat('magickaCostReduction')),
     staminaCostFlat: Math.round(acc.flat('staminaCostReduction')),
     ultimateCostPercent: round1(acc.pct('ultimateCost')),
-    healingTakenBattleSpiritPercent: bsPct('healingReceived'),
     abilityRangeBonusMeters: ctx.battleSpirit ? bsPct('abilityRangeOver28m') : 0,
+    battleSpirit: ctx.battleSpirit ? {
+      healingTakenPercent: round1(combinePct('healingTaken', 'healingReceived')),
+      damageTakenPercent: round1(combinePct('damageTaken', 'damageTaken')),
+      damageShieldStrengthPercent: round1(combinePct('damageShieldStrength', 'damageShieldStrength')),
+    } : null,
   };
   const breakdown = {};
   for (const [stat, b] of acc.buckets) breakdown[stat] = b.rows;
