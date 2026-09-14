@@ -202,6 +202,45 @@ function replaceSelf(c, name) {
   return c;
 }
 
+// ------------------------------------------------------------------ scribing
+// Grimoire to skill line. Scripts act on cast and have no sheet effect in phase 1; the
+// selection is kept so a build is complete. Focus names come from the esolog table,
+// affix scripts from the UESP Buffs page. See UNKNOWNS.md for what is missing.
+const GRIMOIRES = {
+  'Banner Bearer': 'Support', 'Elemental Explosion': 'Destruction Staff', "Mender's Bond": 'Restoration Staff',
+  'Shield Throw': 'One Hand and Shield', 'Smash': 'Two Handed', 'Soul Burst': 'Soul Magic', 'Torchbearer': 'Fighters Guild',
+  'Trample': 'Assault', 'Traveling Knife': 'Dual Wield', "Ulfsild's Contingency": 'Mages Guild', 'Vault': 'Bow', 'Wield Soul': 'Soul Magic',
+};
+const FOCUS_WORDS = { Bloody: 'Bleed Damage', Fiery: 'Flame Damage', Chilling: 'Frost Damage', Magical: 'Magic Damage', Venomous: 'Poison Damage', Pestilent: 'Disease Damage', Sundering: 'Physical Damage', Healing: 'Healing', Goading: 'Taunt', Binding: 'Immobilize', Dazing: 'Stun', Repelling: 'Knockback', Dispelling: 'Dispel', Warding: 'Damage Shield', Traumatic: 'Healing Absorption', Crag: 'Earth', Lunar: 'Lunar', Heavy: 'Heavy', Shocking: 'Shock Damage' };
+function buildScribing() {
+  const rows = csvObjects(readFileSync(join(REF, 'tables', 'esolog_skill_coefficients_t00.csv'), 'utf8'));
+  const focus = {};
+  for (const r of rows) {
+    const m = r['Skill Name'].match(/^([A-Z][a-z]+) (Smash|Vault|Trample|Knife|Throw|Explosion|Torchbearer|Bearer|Burst|Bond|Contingency|Soul)(?: \d)?$/);
+    if (!m) continue;
+    const g = Object.keys(GRIMOIRES).find((x) => x.endsWith(m[2]));
+    if (!g || !FOCUS_WORDS[m[1]]) continue;
+    (focus[g] = focus[g] || new Set()).add(FOCUS_WORDS[m[1]]);
+  }
+  // affix scripts per grimoire from the Buffs page "Scribing" rows
+  const buffsCsv = parseCsv(readFileSync(join(REF, 'tables', 'uesp_Online_Buffs_t00.csv'), 'utf8'));
+  const affix = {};
+  for (const row of buffsCsv) {
+    const i = row.indexOf('Scribing');
+    if (i < 0 || !row[i + 1]) continue;
+    const m = row[i + 1].match(/^(.+?) on (.+)$/);
+    if (!m) continue;
+    const script = m[1].trim();
+    for (const g of m[2].split(',').map((x) => x.trim())) if (GRIMOIRES[g]) (affix[g] = affix[g] || new Set()).add(script);
+  }
+  const allFocus = [...new Set(Object.values(FOCUS_WORDS))].sort();
+  const out = {};
+  for (const [g, line] of Object.entries(GRIMOIRES)) {
+    out[g] = { name: g, line, focus: focus[g] ? [...focus[g]].sort() : allFocus, affix: affix[g] ? [...affix[g]].sort() : [], signature: ['Class Mastery'] };
+  }
+  return out;
+}
+
 // ------------------------------------------------------------------ champion stars and buffs
 function buildStars() {
   const stars = {};
@@ -244,6 +283,12 @@ function buildBuffs() {
 export function build() {
   const S = buildSets();
   const K = buildSkills();
+  const SC = buildScribing();
+  // grimoires are slottable abilities of their skill line with no while slotted effects
+  for (const [g, meta] of Object.entries(SC)) {
+    K.actives[g] = { name: g, line: meta.line, group: 'Scribing', class: null, base: g, morph: false, ultimate: false, scribing: true, whileSlotted: [] };
+    if (K.lines[meta.line]) K.lines[meta.line].actives.push({ base: g, morphs: [], ultimate: false, scribing: true });
+  }
   const C = buildStars();
   const B = buildBuffs();
   const pct = (n, d) => (d ? Math.round((n / d) * 1000) / 10 : 0);
@@ -262,6 +307,7 @@ export function build() {
     skills: { passives: K.passives, actives: K.actives, lines: K.lines },
     championStars: C.stars,
     buffs: B.buffs,
+    scribing: SC,
   };
   return out;
 }

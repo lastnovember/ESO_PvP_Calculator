@@ -44,6 +44,7 @@ const slim = {
   },
   championStars: Object.fromEntries(Object.entries(effects.championStars).map(([k, s]) => [k, { ...s, effects: s.effects.map(slimEffect) }])),
   buffs: Object.fromEntries(Object.entries(effects.buffs).map(([k, b]) => [k, { name: b.name, raw: b.raw, effects: b.effects.map(slimEffect) }])),
+  scribing: effects.scribing,
 };
 
 const LS = String.fromCharCode(0x2028); const PS = String.fromCharCode(0x2029);

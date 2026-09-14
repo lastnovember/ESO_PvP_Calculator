@@ -98,6 +98,12 @@ Named items are community tooltip values.
 | Dual wield off hand contribution | 6% of off hand damage (Dual Wield Expert) | skills.csv tooltip. |
 | Werewolf form stat changes beyond passives | none modelled | |
 
+## Scribing
+
+| Item | Status |
+| --- | --- |
+| Full script catalog | Not in data/reference. `engine/data/effects.json` lists the focus scripts the esolog table names per grimoire (all focus names where a grimoire has none), the affix scripts the UESP Buffs page lists per grimoire, and Class Mastery as the only known signature script. Scripts change no sheet value in phase 1. |
+
 ## Settled by patch notes
 
 | Constant | Settled value | Note |

@@ -103,7 +103,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 .gear .hd small { color: var(--muted); font-weight: normal; }
 .gearrow { display: grid; grid-template-columns: 4fr 1.5fr 2.25fr 2.25fr; gap: 6px; }
 .gearrow.j { grid-template-columns: 4fr 3fr 3fr; }
-.gearrow.w { grid-template-columns: 2fr 4fr 2fr 2fr; }
+.gearrow.w { grid-template-columns: 2fr 4fr 2fr 2fr; margin: 4px 0; }
 .gearrow > * { min-width: 0; }
 .gearrow .c { font-size: 11px; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
 .gearrow input, .gearrow select { padding: 8px 6px; font-size: 13px; width: 100%; }
@@ -251,7 +251,10 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   const SETS = Object.values(X.sets).sort((a, b) => a.name.localeCompare(b.name));
   const STARS = C.championPoints.stars.filter((s) => s.slottable);
   const STORE_KEY = 'esoSheetBuilds';
-  const TOGGLE_LINES = ['Fighters Guild', 'Mages Guild', 'Psijic Order', 'Undaunted', 'Assault', 'Support'];
+  const TOGGLE_LINES = ['Fighters Guild', 'Mages Guild', 'Psijic Order', 'Undaunted', 'Assault', 'Support', 'Soul Magic'];
+  const SCRIBING = X.scribing || {};
+  const ONE_HANDED = ['axe', 'mace', 'sword', 'dagger'];
+  const TWO_HANDED_TYPES = ['greatsword', 'battle axe', 'maul', 'bow', 'inferno staff', 'lightning staff', 'ice staff', 'restoration staff'];
   const OTHER_LINES = ['Soul Magic', 'Legerdemain', 'Dark Brotherhood', 'Thieves Guild'].filter((l) => Object.values(X.skills.passives).some((p) => p.line === l && p.effects.some((e) => e.stat)));
 
   const setCategories = (meta) => {
@@ -272,11 +275,12 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   // ------------------------------------------------------------ state
   const defaultBuild = () => ({
     schemaVersion: 1, name: '', race: 'Nord', class: 'Dragonknight', classSkillLines: [...E.CLASS_LINES.Dragonknight], classMastery: [],
-    attributes: { health: 0, magicka: 0, stamina: 64 },
+    attributes: { health: 0, magicka: 0, stamina: 0 },
     championPoints: { enabled: true, slotted: { warfare: [], fitness: [], craft: [] } },
     mundus: null, food: null, vampireStage: 0, werewolf: false, werewolfForm: false, battleSpirit: false,
     passives: { mode: 'all', exclude: [] },
     skillLines: Object.fromEntries(TOGGLE_LINES.map((l) => [l, true])),
+    scribing: {},
     gear: Object.fromEntries([...ARMOR.map((s) => [s, { set: null, weight: 'medium', trait: null, enchant: null }]), ...JEWELRY.map((s) => [s, { set: null, trait: null, enchant: null }])]),
     bars: [{ mainHand: null, offHand: null, skills: [], ultimate: null }, { mainHand: null, offHand: null, skills: [], ultimate: null }],
     flags: { battleSpiritFlatHealth: false, strategies: {} },
@@ -479,7 +483,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       box.append(el('div', { class: 'hd' }, [SLOT_LABEL[slot], el('small', { text: tag })]));
       const row = el('div', { class: 'gearrow' + (isArmor ? '' : ' j') });
       const sc = el('div', { class: 'combo' }); row.append(field('Set', sc));
-      combo(sc, setOptionsFor(slot), item.set, (v) => { item.set = v; suggestMonster(slot, v); update(); }, 'no set');
+      combo(sc, setOptionsFor(slot), item.set, (v) => { item.set = v; fillMonsterPair(slot, v); update(); }, 'no set');
       if (isArmor) {
         const w = el('select'); for (const o of ['light', 'medium', 'heavy']) w.append(el('option', { value: o, text: window.innerWidth < 600 ? o[0].toUpperCase() : o[0].toUpperCase() + o.slice(1) }));
         w.value = item.weight; w.addEventListener('change', () => { item.weight = w.value; update(); });
@@ -493,7 +497,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       host.append(box);
     }
     // bulk tools
-    combo($('bulkSet'), SETS.map((m) => ({ value: m.name, label: setLabel(m), search: m.name })), bulk.set, (v) => { bulk.set = v; renderBulkChecks(); }, 'none');
+    combo($('bulkSet'), SETS.map((m) => ({ value: m.name, label: setLabel(m), search: m.name })), bulk.set, (v) => { bulk.set = v; bulk.checks.clear(); bulk.trait = null; bulk.enchant = null; bulk.weight = ''; renderGear(); }, 'none');
     combo($('bulkTrait'), [...ARMOR_TRAITS.map((t) => ({ value: `armor:${t}`, label: t, group: 'Armor and shield traits' })), ...JEWELRY_TRAITS.map((t) => ({ value: `jewelry:${t}`, label: t, group: 'Jewelry traits' })), ...WEAPON_TRAITS.map((t) => ({ value: `weapon:${t}`, label: t, group: 'Weapon traits' }))], bulk.trait, (v) => { bulk.trait = v; }, 'keep');
     combo($('bulkEnchant'), [...ARMOR_ENCHANTS.map((t) => ({ value: `armor:${t}`, label: t, group: 'Armor and shield glyphs' })), ...JEWELRY_ENCHANTS.map((t) => ({ value: `jewelry:${t}`, label: t, group: 'Jewelry glyphs' })), ...WEAPON_ENCHANTS.map((t) => ({ value: `weapon:${t}`, label: t, group: 'Weapon glyphs' }))], bulk.enchant, (v) => { bulk.enchant = v; }, 'keep');
     $('bulkWeight').value = bulk.weight || '';
@@ -549,17 +553,16 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     }
     update();
   }
-  function suggestMonster(slot, setName) {
+  // A monster set picked on head or shoulders fills the other slot when it is empty. The user can change either afterwards.
+  function fillMonsterPair(slot, setName) {
     if (!setName) return;
     const meta = X.sets[setName];
     if (!meta || !meta.monster) return;
     const other = slot === 'head' ? 'shoulders' : slot === 'shoulders' ? 'head' : null;
     if (!other) return;
-    const o = build.gear[other];
-    if (o && o.set === setName) return;
-    pendingSuggestion = { other, setName };
+    if (!build.gear[other]) build.gear[other] = itemDefaults(other);
+    if (!build.gear[other].set) build.gear[other].set = setName;
   }
-  let pendingSuggestion = null;
   function renderSetSummary() {
     const host = $('setSummary'); host.innerHTML = '';
     if (!result) return;
@@ -567,13 +570,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const names = [...new Set([...Object.keys(counts[0] || {}), ...Object.keys(counts[1] || {})])].sort();
     for (const n of names) {
       const meta = X.sets[n]; const a = counts[0][n] || 0; const b = counts[1][n] || 0;
-      const active = (k) => Object.keys(meta.bonuses).filter((p) => Number(p) <= k).length;
-      const txt = a === b ? `${n}: ${a}/${meta.maxPieces}` : `${n}: ${a}|${b} of ${meta.maxPieces}`;
-      host.append(el('span', { class: 'pill ' + ((a > meta.maxPieces || b > meta.maxPieces) ? 'bad' : (active(a) || active(b)) ? 'ok' : ''), text: txt, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
-    }
-    if (pendingSuggestion) {
-      const s = pendingSuggestion;
-      host.append(el('button', { class: 'small primary', text: `Also put ${s.setName} on ${SLOT_LABEL[s.other]}?`, onclick: () => { build.gear[s.other].set = s.setName; pendingSuggestion = null; update(); } }), el('button', { class: 'small', text: 'no', onclick: () => { pendingSuggestion = null; renderSetSummary(); } }));
+      const txt = a === b ? `${n}: ${a}/${meta.maxPieces}` : `${n}: front ${a}/${meta.maxPieces}, back ${b}/${meta.maxPieces}`;
+      const full = Math.min(5, meta.maxPieces);
+      host.append(el('span', { class: 'pill ' + ((a > meta.maxPieces || b > meta.maxPieces) ? 'bad' : (a >= full || b >= full) ? 'ok' : ''), text: txt, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
     }
     $('gearHint').textContent = names.length ? names.map((n) => `${n} ${Math.max(counts[0][n] || 0, counts[1][n] || 0)}`).join(', ') : 'empty';
   }
@@ -595,47 +594,78 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     for (const l of lineList) {
       for (const a of l.actives) {
         if (!!a.ultimate !== !!ultimate) continue;
+        if (a.scribing) { opts.push({ value: a.base, label: `${a.base}, scribed`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base} scribing grimoire` }); continue; }
         opts.push({ value: a.base, label: `${a.base}, unmorphed`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base}` });
-        for (const m of a.morphs) opts.push({ value: m, label: `${a.base} › ${m}`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base} ${m}` });
+        for (const m of a.morphs) opts.push({ value: m, label: `${a.base} \u203a ${m}`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base} ${m}` });
       }
     }
     return opts;
+  }
+  const barLayout = (bar) => {
+    if (!bar.mainHand) return '';
+    if (E.TWO_HANDED.has(bar.mainHand.type)) return 'twoHanded';
+    if (bar.offHand && bar.offHand.type === 'shield') return 'shield';
+    return 'dual';
+  };
+  const LAYOUTS = [['', 'No weapons'], ['twoHanded', 'Two handed, bow or staff'], ['dual', 'Dual wield'], ['shield', 'One hand and shield']];
+  function setLayout(bar, layout) {
+    const keep = (item, types) => (item && types.includes(item.type) ? item : null);
+    if (layout === '') { bar.mainHand = null; bar.offHand = null; }
+    else if (layout === 'twoHanded') { bar.mainHand = keep(bar.mainHand, TWO_HANDED_TYPES) || { set: null, type: 'greatsword', trait: null, enchant: null }; bar.offHand = null; }
+    else if (layout === 'dual') { bar.mainHand = keep(bar.mainHand, ONE_HANDED) || { set: null, type: 'sword', trait: null, enchant: null }; bar.offHand = keep(bar.offHand, ONE_HANDED) || { set: null, type: 'dagger', trait: null, enchant: null }; }
+    else { bar.mainHand = keep(bar.mainHand, ONE_HANDED) || { set: null, type: 'sword', trait: null, enchant: null }; bar.offHand = { set: null, type: 'shield', trait: null, enchant: null }; }
+  }
+  function weaponRow(bar, hand, label, types) {
+    const item = bar[hand];
+    const shield = item.type === 'shield';
+    const row = el('div', { class: 'gearrow w' });
+    const field = (lab, node) => el('label', { class: 'c' }, [lab, node]);
+    if (shield) row.append(field('Off hand', el('input', { type: 'text', value: 'shield', disabled: 'disabled' })));
+    else {
+      const ts = el('select'); for (const t of types) ts.append(el('option', { value: t, text: t }));
+      ts.value = item.type; ts.addEventListener('change', () => { item.type = ts.value; update(); });
+      row.append(field(label, ts));
+    }
+    const sc = el('div', { class: 'combo' }); row.append(field('Set', sc));
+    combo(sc, setOptionsFor(hand), item.set, (v) => { item.set = v; update(); }, 'no set');
+    const tc = el('div', { class: 'combo' }); row.append(field('Trait', tc));
+    combo(tc, (shield ? ARMOR_TRAITS : WEAPON_TRAITS).map((t) => ({ value: t, label: t })), item.trait, (v) => { item.trait = v; update(); }, 'none');
+    const ec = el('div', { class: 'combo' }); row.append(field('Enchant', ec));
+    combo(ec, (shield ? ARMOR_ENCHANTS : WEAPON_ENCHANTS).map((t) => ({ value: t, label: t })), item.enchant, (v) => { item.enchant = v; update(); }, 'none');
+    return row;
+  }
+  function scribingRow(name) {
+    const meta = SCRIBING[name];
+    if (!meta) return null;
+    const cur = build.scribing[name] || (build.scribing[name] = { focus: null, signature: null, affix: null });
+    const row = el('div', { class: 'gearrow j', style: 'margin: 2px 0 6px 22px' });
+    const field = (lab, node) => el('label', { class: 'c' }, [lab, node]);
+    for (const [key, opts] of [['focus', meta.focus], ['signature', meta.signature], ['affix', meta.affix]]) {
+      const c = el('div', { class: 'combo' }); row.append(field(key[0].toUpperCase() + key.slice(1) + ' script', c));
+      combo(c, opts.map((o) => ({ value: o, label: o })), cur[key], (v) => { cur[key] = v; update(false); }, 'none');
+    }
+    return row;
   }
   function renderBars() {
     const host = $('bars'); host.innerHTML = '';
     build.bars.forEach((bar, bi) => {
       const box = el('div', { class: 'slot' });
-      box.append(el('div', { class: 'name', text: `Bar ${bi + 1}` }));
-      for (const hand of ['mainHand', 'offHand']) {
-        const twoHanded = bar.mainHand && E.TWO_HANDED.has(bar.mainHand.type);
-        if (hand === 'offHand' && twoHanded) { bar.offHand = null; continue; }
-        const row = el('div', { class: 'row' });
-        const item = bar[hand];
-        const on = el('input', { type: 'checkbox' }); on.checked = !!item;
-        on.addEventListener('change', () => { bar[hand] = on.checked ? itemDefaults(hand) : null; update(); });
-        row.append(el('label', { class: 'toggle', style: 'flex:0 0 auto' }, [on, SLOT_LABEL[hand]]));
-        if (item) {
-          const types = hand === 'offHand' ? [...WEAPON_TYPES.filter((t) => !E.TWO_HANDED.has(t)), 'shield'] : WEAPON_TYPES;
-          const ts = el('select'); for (const t of types) ts.append(el('option', { value: t, text: t }));
-          ts.value = item.type; ts.addEventListener('change', () => { item.type = ts.value; if (E.TWO_HANDED.has(item.type)) bar.offHand = null; const cat = item.type === 'shield' ? 'armor' : 'weapon'; if (item.trait && !(cat === 'armor' ? ARMOR_TRAITS : WEAPON_TRAITS).includes(item.trait)) item.trait = null; if (item.enchant && !(cat === 'armor' ? ARMOR_ENCHANTS : WEAPON_ENCHANTS).includes(item.enchant)) item.enchant = null; update(); });
-          row.append(el('label', { class: 'f' }, [el('span', { text: 'Type' }), ts]));
-          const setLab = el('label', { class: 'f', style: 'flex:2 1 180px' }, [el('span', { text: 'Set' })]); const sc = el('div', { class: 'combo' }); setLab.append(sc); row.append(setLab);
-          combo(sc, setOptionsFor(hand), item.set, (v) => { item.set = v; update(); }, 'no set');
-          const shield = item.type === 'shield';
-          const tl = el('label', { class: 'f' }, [el('span', { text: 'Trait' })]); const tc = el('div', { class: 'combo' }); tl.append(tc); row.append(tl);
-          combo(tc, (shield ? ARMOR_TRAITS : WEAPON_TRAITS).map((t) => ({ value: t, label: t })), item.trait, (v) => { item.trait = v; update(); }, 'none');
-          const elb = el('label', { class: 'f' }, [el('span', { text: 'Enchant' })]); const ec = el('div', { class: 'combo' }); elb.append(ec); row.append(elb);
-          combo(ec, (shield ? ARMOR_ENCHANTS : WEAPON_ENCHANTS).map((t) => ({ value: t, label: t })), item.enchant, (v) => { item.enchant = v; update(); }, 'none');
-        }
-        box.append(row);
-      }
-      box.append(el('div', { class: 'fine', text: 'Slotted skills only matter for while slotted effects.' }));
+      const sel = el('select'); for (const [v, t] of LAYOUTS) sel.append(el('option', { value: v, text: t }));
+      sel.value = barLayout(bar);
+      sel.addEventListener('change', () => { setLayout(bar, sel.value); update(); });
+      box.append(el('div', { class: 'name' }, [`Bar ${bi + 1}`]), el('div', { class: 'row' }, [el('label', { class: 'f' }, [el('span', { text: 'Weapons' }), sel])]));
+      const layout = barLayout(bar);
+      if (layout === 'twoHanded') box.append(weaponRow(bar, 'mainHand', 'Weapon', TWO_HANDED_TYPES));
+      else if (layout === 'dual') { box.append(weaponRow(bar, 'mainHand', 'Main hand', ONE_HANDED)); box.append(weaponRow(bar, 'offHand', 'Off hand', ONE_HANDED)); }
+      else if (layout === 'shield') { box.append(weaponRow(bar, 'mainHand', 'Main hand', ONE_HANDED)); box.append(weaponRow(bar, 'offHand', 'Off hand', ['shield'])); }
+      box.append(el('div', { class: 'fine', style: 'margin-top:8px', text: 'Skills' }));
       const skillOpts = skillOptions(false);
       for (let i = 0; i < 5; i += 1) {
         const row = el('div', { class: 'row' });
         const c = el('div', { class: 'combo', style: 'flex:1' }); row.append(el('span', { class: 'fine', text: `${i + 1}`, style: 'flex:0 0 14px' }), c);
         combo(c, skillOpts, bar.skills[i] || null, (v) => { const arr = bar.skills.slice(); if (v && arr.includes(v) && arr[i] !== v) return; if (v) arr[i] = v; else arr.splice(i, 1); bar.skills = arr.filter(Boolean); update(); }, 'empty slot');
         box.append(row);
+        if (bar.skills[i] && SCRIBING[bar.skills[i]]) box.append(scribingRow(bar.skills[i]));
       }
       const row = el('div', { class: 'row' });
       const c = el('div', { class: 'combo', style: 'flex:1' }); row.append(el('span', { class: 'fine', text: 'U', style: 'flex:0 0 14px' }), c);
@@ -742,6 +772,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     b.championPoints.slotted = { warfare: [], fitness: [], craft: [], ...(b.championPoints.slotted || {}) };
     b.passives = { mode: 'all', exclude: [], ...(obj.passives || {}) };
     b.skillLines = { ...fresh.skillLines, ...(obj.skillLines || {}) };
+    b.scribing = { ...(obj.scribing || {}) };
     b.gear = { ...fresh.gear, ...(obj.gear || {}) };
     b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, ...((obj.bars || [])[i] || {}) }));
     b.flags = { battleSpiritFlatHealth: false, strategies: {}, ...(obj.flags || {}) };

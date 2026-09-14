@@ -64,6 +64,15 @@
 
     "battleSpirit": { "type": "boolean", "default": false, "description": "Standing in a PvP zone." },
 
+    "scribing": {
+      "description": "Scripts chosen for slotted grimoires, keyed by grimoire name. Scripts act on cast and do not change the sheet in phase 1; they are kept so a build is complete for later phases.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false,
+        "properties": { "focus": { "type": ["string", "null"] }, "signature": { "type": ["string", "null"] }, "affix": { "type": ["string", "null"] } }
+      }
+    },
+
     "skillLines": {
       "description": "Skill lines the character has, beyond class, racial, armor and weapon lines which are always present. Missing keys default to true for Fighters Guild, Mages Guild, Psijic Order, Undaunted, Assault, Support and Soul Magic, and false for anything else (Legerdemain, Dark Brotherhood, Thieves Guild).",
       "type": "object", "additionalProperties": { "type": "boolean" }

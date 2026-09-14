@@ -169,7 +169,8 @@ export function validateBuild(build, data) {
   if (!CLASS_LINES[build.class]) errors.push(`unknown class ${build.class}`);
   const a = build.attributes || {};
   const sum = (a.health || 0) + (a.magicka || 0) + (a.stamina || 0);
-  if (sum !== 64) errors.push(`attribute points must sum to 64, got ${sum}`);
+  if (sum > 64) errors.push(`attribute points exceed 64: ${sum}`);
+  else if (sum < 64) warnings.push(`${64 - sum} attribute points unspent`);
   if (build.classSkillLines) {
     if (build.classSkillLines.length !== 3) errors.push('classSkillLines must hold exactly 3 lines');
     const all = new Set(Object.values(CLASS_LINES).flat());

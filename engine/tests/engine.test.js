@@ -160,7 +160,7 @@ test('validation: attribute sum, mythic limit, monster slot, two handed with off
   b.bars[0].mainHand = { set: null, type: 'bow', trait: null, enchant: null };
   b.bars[0].offHand = { set: null, type: 'shield', trait: null, enchant: null };
   const v = validateBuild(b, data);
-  assert.ok(v.errors.some((e) => e.includes('sum to 64')));
+  assert.ok(v.warnings.some((e) => e.includes('unspent')));
   assert.ok(v.errors.some((e) => e.includes('more than one mythic')));
   assert.ok(v.errors.some((e) => e.includes('monster set')));
   assert.ok(v.errors.some((e) => e.includes('off hand must be empty')));
@@ -195,4 +195,24 @@ test('skillLines toggles switch guild passives off', () => {
   assert.equal(on.bars[0].main.weaponDamage, Math.round(B.weaponDamage.value * 1.03));
   const off = computeSheet(naked({ skillLines: { 'Fighters Guild': false }, bars: [{ mainHand: null, offHand: null, skills: ['Test FG Ability'], ultimate: null }, { mainHand: null, offHand: null, skills: [], ultimate: null }] }), data);
   assert.equal(off.bars[0].main.weaponDamage, B.weaponDamage.value);
+});
+
+// Real data: armor passives follow the equipped weights.
+test('real data: light armor passives scale with the piece count', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const b = naked();
+  for (const slot of ['head', 'shoulders', 'chest', 'hands', 'waist']) b.gear[slot] = { set: null, weight: 'light', trait: null, enchant: null };
+  b.gear.legs = { set: null, weight: 'heavy', trait: null, enchant: null };
+  b.gear.feet = { set: null, weight: 'medium', trait: null, enchant: null };
+  const r = computeSheet(b, real);
+  const rows = (stat, src) => r.bars[0].breakdown[stat].filter((x) => x.source === src).map((x) => x.value);
+  assert.deepEqual(rows('spellResistance', 'passive Spell Warding'), [726 * 5]);
+  assert.deepEqual(rows('weaponCritRating', 'passive Prodigy'), [219 * 5]);
+  assert.deepEqual(rows('physicalPenetration', 'passive Concentration'), [939 * 5]);
+  assert.deepEqual(rows('physicalResistance', 'passive Resolve'), [343 * 1]);
+  assert.deepEqual(rows('maxHealth', 'passive Juggernaut'), [2 * 1]);
+  assert.deepEqual(rows('weaponDamage', 'passive Agility'), [2 * 1]);
+  assert.deepEqual(rows('maxHealth', 'passive Undaunted Mettle'), [2 * 3]);
+  assert.ok(real.effects.skills.actives['Torchbearer'].scribing);
+  assert.equal(real.effects.skills.actives['Torchbearer'].line, 'Fighters Guild');
 });

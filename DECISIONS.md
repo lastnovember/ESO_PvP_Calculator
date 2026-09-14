@@ -41,3 +41,6 @@ Short record of modelling choices. One line each, newest at the bottom.
 - A set is offered on a slot only where it can be worn: monster sets on head and shoulders, arena weapon sets on weapons, mythics on their slot, three piece jewelry sets on jewelry and weapons. Weapon type restrictions of arena weapon sets are not enforced yet.
 - Results show both bars side by side and a per source breakdown per stat, plus the list of conditional effects the sheet did not apply.
 - The last edited build is restored on reload; named builds live in localStorage under one key.
+- Scribing: the twelve grimoires are slottable abilities of their skill line (Torchbearer counts as a Fighters Guild ability for Slayer, and so on) with focus, signature and affix pickers. Scripts act on cast and change no sheet value this phase, so the pickers only record the choice. Focus names come from the esolog coefficient table, affix scripts from the UESP Buffs page; the catalog is partial (UNKNOWNS.md).
+- Attribute points default to 0 and an unspent total is a warning, not an error; a total above 64 is an error.
+- A monster set picked on head or shoulders fills the other slot only when it is empty; afterwards either can be changed on its own.

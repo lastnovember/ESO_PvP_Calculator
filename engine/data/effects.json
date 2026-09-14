@@ -72195,6 +72195,138 @@
     "morph": false,
     "ultimate": false,
     "whileSlotted": []
+   },
+   "Banner Bearer": {
+    "name": "Banner Bearer",
+    "line": "Support",
+    "group": "Scribing",
+    "class": null,
+    "base": "Banner Bearer",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Elemental Explosion": {
+    "name": "Elemental Explosion",
+    "line": "Destruction Staff",
+    "group": "Scribing",
+    "class": null,
+    "base": "Elemental Explosion",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Mender's Bond": {
+    "name": "Mender's Bond",
+    "line": "Restoration Staff",
+    "group": "Scribing",
+    "class": null,
+    "base": "Mender's Bond",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Shield Throw": {
+    "name": "Shield Throw",
+    "line": "One Hand and Shield",
+    "group": "Scribing",
+    "class": null,
+    "base": "Shield Throw",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Smash": {
+    "name": "Smash",
+    "line": "Two Handed",
+    "group": "Scribing",
+    "class": null,
+    "base": "Smash",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Soul Burst": {
+    "name": "Soul Burst",
+    "line": "Soul Magic",
+    "group": "Scribing",
+    "class": null,
+    "base": "Soul Burst",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Torchbearer": {
+    "name": "Torchbearer",
+    "line": "Fighters Guild",
+    "group": "Scribing",
+    "class": null,
+    "base": "Torchbearer",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Trample": {
+    "name": "Trample",
+    "line": "Assault",
+    "group": "Scribing",
+    "class": null,
+    "base": "Trample",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Traveling Knife": {
+    "name": "Traveling Knife",
+    "line": "Dual Wield",
+    "group": "Scribing",
+    "class": null,
+    "base": "Traveling Knife",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Ulfsild's Contingency": {
+    "name": "Ulfsild's Contingency",
+    "line": "Mages Guild",
+    "group": "Scribing",
+    "class": null,
+    "base": "Ulfsild's Contingency",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Vault": {
+    "name": "Vault",
+    "line": "Bow",
+    "group": "Scribing",
+    "class": null,
+    "base": "Vault",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
+   },
+   "Wield Soul": {
+    "name": "Wield Soul",
+    "line": "Soul Magic",
+    "group": "Scribing",
+    "class": null,
+    "base": "Wield Soul",
+    "morph": false,
+    "ultimate": false,
+    "scribing": true,
+    "whileSlotted": []
    }
   },
   "lines": {
@@ -72377,6 +72509,12 @@
        "Healing Ward"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Mender's Bond",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -72623,6 +72761,12 @@
        "Arrow Barrage"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Vault",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -72923,6 +73067,12 @@
        "Steel Tornado"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Traveling Knife",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -73058,6 +73208,12 @@
        "Elemental Drain"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Elemental Explosion",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -73206,6 +73362,12 @@
        "Wrecking Blow"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Smash",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -73577,6 +73739,12 @@
        "Lightweight Beast Trap"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Torchbearer",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -73629,6 +73797,12 @@
        "Propelling Shield"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Banner Bearer",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -73849,6 +74023,12 @@
        "Shield Discipline"
       ],
       "ultimate": true
+     },
+     {
+      "base": "Shield Throw",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -74380,6 +74560,12 @@
        "Sturdy Horn"
       ],
       "ultimate": true
+     },
+     {
+      "base": "Trample",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -74616,6 +74802,12 @@
        "Shooting Star"
       ],
       "ultimate": true
+     },
+     {
+      "base": "Ulfsild's Contingency",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    },
@@ -74668,6 +74860,18 @@
        "Consuming Trap"
       ],
       "ultimate": false
+     },
+     {
+      "base": "Soul Burst",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
+     },
+     {
+      "base": "Wield Soul",
+      "morphs": [],
+      "ultimate": false,
+      "scribing": true
      }
     ]
    }
@@ -77550,6 +77754,321 @@
      "condition": null,
      "raw": "Increases healing received and Shield Strength by 12%."
     }
+   ]
+  }
+ },
+ "scribing": {
+  "Banner Bearer": {
+   "name": "Banner Bearer",
+   "line": "Support",
+   "focus": [
+    "Bleed Damage",
+    "Damage Shield",
+    "Disease Damage",
+    "Dispel",
+    "Earth",
+    "Flame Damage",
+    "Frost Damage",
+    "Healing",
+    "Healing Absorption",
+    "Heavy",
+    "Immobilize",
+    "Knockback",
+    "Lunar",
+    "Magic Damage",
+    "Physical Damage",
+    "Poison Damage",
+    "Shock Damage",
+    "Stun",
+    "Taunt"
+   ],
+   "affix": [
+    "Berserk",
+    "Brutality and Sorcery",
+    "Courage",
+    "Heroism",
+    "Intellect and Endurance",
+    "Protection",
+    "Resolve",
+    "Savagery and Prophecy"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Elemental Explosion": {
+   "name": "Elemental Explosion",
+   "line": "Destruction Staff",
+   "focus": [
+    "Flame Damage",
+    "Frost Damage",
+    "Healing Absorption",
+    "Magic Damage",
+    "Physical Damage",
+    "Shock Damage"
+   ],
+   "affix": [
+    "Brutality and Sorcery",
+    "Savagery and Prophecy"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Mender's Bond": {
+   "name": "Mender's Bond",
+   "line": "Restoration Staff",
+   "focus": [
+    "Damage Shield",
+    "Healing",
+    "Magic Damage"
+   ],
+   "affix": [
+    "Courage",
+    "Empower",
+    "Evasion",
+    "Force",
+    "Heroism",
+    "Intellect and Endurance",
+    "Protection",
+    "Vitality"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Shield Throw": {
+   "name": "Shield Throw",
+   "line": "One Hand and Shield",
+   "focus": [
+    "Frost Damage",
+    "Immobilize",
+    "Knockback",
+    "Magic Damage",
+    "Physical Damage",
+    "Taunt"
+   ],
+   "affix": [
+    "Evasion",
+    "Resolve",
+    "Vitality"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Smash": {
+   "name": "Smash",
+   "line": "Two Handed",
+   "focus": [
+    "Bleed Damage",
+    "Damage Shield",
+    "Earth",
+    "Healing",
+    "Heavy",
+    "Knockback",
+    "Lunar",
+    "Magic Damage",
+    "Physical Damage",
+    "Poison Damage",
+    "Stun",
+    "Taunt"
+   ],
+   "affix": [
+    "Berserk",
+    "Brutality and Sorcery",
+    "Expedition",
+    "Force",
+    "Savagery and Prophecy",
+    "Vitality"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Soul Burst": {
+   "name": "Soul Burst",
+   "line": "Soul Magic",
+   "focus": [
+    "Bleed Damage",
+    "Damage Shield",
+    "Disease Damage",
+    "Flame Damage",
+    "Frost Damage",
+    "Healing",
+    "Magic Damage",
+    "Physical Damage",
+    "Shock Damage"
+   ],
+   "affix": [
+    "Brutality and Sorcery",
+    "Courage",
+    "Expedition",
+    "Intellect and Endurance",
+    "Resolve",
+    "Savagery and Prophecy"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Torchbearer": {
+   "name": "Torchbearer",
+   "line": "Fighters Guild",
+   "focus": [
+    "Bleed Damage",
+    "Damage Shield",
+    "Disease Damage",
+    "Dispel",
+    "Earth",
+    "Flame Damage",
+    "Frost Damage",
+    "Healing",
+    "Healing Absorption",
+    "Heavy",
+    "Immobilize",
+    "Knockback",
+    "Lunar",
+    "Magic Damage",
+    "Physical Damage",
+    "Poison Damage",
+    "Shock Damage",
+    "Stun",
+    "Taunt"
+   ],
+   "affix": [
+    "Brutality and Sorcery",
+    "Evasion",
+    "Heroism",
+    "Resolve",
+    "Savagery and Prophecy",
+    "Vitality"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Trample": {
+   "name": "Trample",
+   "line": "Assault",
+   "focus": [
+    "Disease Damage",
+    "Dispel",
+    "Frost Damage",
+    "Healing Absorption",
+    "Knockback",
+    "Magic Damage",
+    "Physical Damage",
+    "Stun"
+   ],
+   "affix": [
+    "Brutality and Sorcery",
+    "Expedition",
+    "Heroism",
+    "Protection",
+    "Savagery and Prophecy"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Traveling Knife": {
+   "name": "Traveling Knife",
+   "line": "Dual Wield",
+   "focus": [
+    "Bleed Damage",
+    "Frost Damage",
+    "Physical Damage",
+    "Poison Damage",
+    "Stun"
+   ],
+   "affix": [
+    "Berserk",
+    "Brutality and Sorcery",
+    "Expedition",
+    "Force",
+    "Savagery and Prophecy"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Ulfsild's Contingency": {
+   "name": "Ulfsild's Contingency",
+   "line": "Mages Guild",
+   "focus": [
+    "Bleed Damage",
+    "Damage Shield",
+    "Flame Damage",
+    "Frost Damage",
+    "Healing",
+    "Immobilize",
+    "Magic Damage",
+    "Shock Damage"
+   ],
+   "affix": [
+    "Brutality and Sorcery",
+    "Force",
+    "Intellect and Endurance",
+    "Protection",
+    "Resolve",
+    "Savagery and Prophecy"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Vault": {
+   "name": "Vault",
+   "line": "Bow",
+   "focus": [
+    "Bleed Damage",
+    "Disease Damage",
+    "Flame Damage",
+    "Healing",
+    "Immobilize",
+    "Physical Damage",
+    "Poison Damage",
+    "Taunt"
+   ],
+   "affix": [
+    "Berserk",
+    "Brutality and Sorcery",
+    "Evasion",
+    "Expedition",
+    "Force",
+    "Intellect and Endurance",
+    "Savagery and Prophecy"
+   ],
+   "signature": [
+    "Class Mastery"
+   ]
+  },
+  "Wield Soul": {
+   "name": "Wield Soul",
+   "line": "Soul Magic",
+   "focus": [
+    "Bleed Damage",
+    "Damage Shield",
+    "Disease Damage",
+    "Flame Damage",
+    "Frost Damage",
+    "Healing",
+    "Magic Damage",
+    "Physical Damage",
+    "Shock Damage",
+    "Stun"
+   ],
+   "affix": [
+    "Brutality and Sorcery",
+    "Empower",
+    "Intellect and Endurance",
+    "Resolve",
+    "Savagery and Prophecy",
+    "Vitality"
+   ],
+   "signature": [
+    "Class Mastery"
    ]
   }
  }
