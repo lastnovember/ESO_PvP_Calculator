@@ -1292,29 +1292,31 @@ return { computeSheet, validateBuild, countSetPieces, STRATEGIES, DEFAULT_STRATE
   }
   const barLayout = (bar) => {
     if (!bar.mainHand) return '';
-    if (E.TWO_HANDED.has(bar.mainHand.type)) return 'twoHanded';
-    if (bar.offHand && bar.offHand.type === 'shield') return 'shield';
-    return 'dual';
+    return E.TWO_HANDED.has(bar.mainHand.type) ? 'twoHanded' : 'oneHanded';
   };
-  const LAYOUTS = [['', 'No weapons'], ['twoHanded', 'Two handed, bow or staff'], ['dual', 'Dual wield'], ['shield', 'One hand and shield']];
+  const LAYOUTS = [['', 'No weapons'], ['twoHanded', 'Two handed'], ['oneHanded', 'One handed']];
+  const OFF_HAND_TYPES = [...ONE_HANDED, 'shield'];
   function setLayout(bar, layout) {
     const keep = (item, types) => (item && types.includes(item.type) ? item : null);
     if (layout === '') { bar.mainHand = null; bar.offHand = null; }
     else if (layout === 'twoHanded') { bar.mainHand = keep(bar.mainHand, TWO_HANDED_TYPES) || { set: null, type: 'greatsword', trait: null, enchant: null }; bar.offHand = null; }
-    else if (layout === 'dual') { bar.mainHand = keep(bar.mainHand, ONE_HANDED) || { set: null, type: 'sword', trait: null, enchant: null }; bar.offHand = keep(bar.offHand, ONE_HANDED) || { set: null, type: 'dagger', trait: null, enchant: null }; }
-    else { bar.mainHand = keep(bar.mainHand, ONE_HANDED) || { set: null, type: 'sword', trait: null, enchant: null }; bar.offHand = { set: null, type: 'shield', trait: null, enchant: null }; }
+    else { bar.mainHand = keep(bar.mainHand, ONE_HANDED) || { set: null, type: 'sword', trait: null, enchant: null }; bar.offHand = keep(bar.offHand, OFF_HAND_TYPES) || { set: null, type: 'dagger', trait: null, enchant: null }; }
   }
   function weaponRow(bar, hand, label, types) {
     const item = bar[hand];
     const shield = item.type === 'shield';
     const row = el('div', { class: 'gearrow w' });
     const field = (lab, node) => el('label', { class: 'c' }, [lab, node]);
-    if (shield) row.append(field('Off hand', el('input', { type: 'text', value: 'shield', disabled: 'disabled' })));
-    else {
-      const ts = el('select'); for (const t of types) ts.append(el('option', { value: t, text: t }));
-      ts.value = item.type; ts.addEventListener('change', () => { item.type = ts.value; update(); });
-      row.append(field(label, ts));
-    }
+    const ts = el('select'); for (const t of types) ts.append(el('option', { value: t, text: t }));
+    ts.value = item.type;
+    ts.addEventListener('change', () => {
+      item.type = ts.value;
+      const cat = item.type === 'shield' ? 'armor' : 'weapon';
+      if (item.trait && !(cat === 'armor' ? ARMOR_TRAITS : WEAPON_TRAITS).includes(item.trait)) item.trait = null;
+      if (item.enchant && !(cat === 'armor' ? ARMOR_ENCHANTS : WEAPON_ENCHANTS).includes(item.enchant)) item.enchant = null;
+      update();
+    });
+    row.append(field(label, ts));
     const sc = el('div', { class: 'combo' }); row.append(field('Set', sc));
     combo(sc, setOptionsFor(hand), item.set, (v) => { item.set = v; update(); }, 'no set');
     const tc = el('div', { class: 'combo' }); row.append(field('Trait', tc));
@@ -1345,8 +1347,7 @@ return { computeSheet, validateBuild, countSetPieces, STRATEGIES, DEFAULT_STRATE
       box.append(el('div', { class: 'name' }, [`Bar ${bi + 1}`]), el('div', { class: 'row' }, [el('label', { class: 'f' }, [el('span', { text: 'Weapons' }), sel])]));
       const layout = barLayout(bar);
       if (layout === 'twoHanded') box.append(weaponRow(bar, 'mainHand', 'Weapon', TWO_HANDED_TYPES));
-      else if (layout === 'dual') { box.append(weaponRow(bar, 'mainHand', 'Main hand', ONE_HANDED)); box.append(weaponRow(bar, 'offHand', 'Off hand', ONE_HANDED)); }
-      else if (layout === 'shield') { box.append(weaponRow(bar, 'mainHand', 'Main hand', ONE_HANDED)); box.append(weaponRow(bar, 'offHand', 'Off hand', ['shield'])); }
+      else if (layout === 'oneHanded') { box.append(weaponRow(bar, 'mainHand', 'Main hand', ONE_HANDED)); box.append(weaponRow(bar, 'offHand', 'Off hand', OFF_HAND_TYPES)); }
       box.append(el('div', { class: 'fine', style: 'margin-top:8px', text: 'Skills' }));
       const skillOpts = skillOptions(false);
       for (let i = 0; i < 5; i += 1) {
