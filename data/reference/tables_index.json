@@ -3183,6 +3183,63 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Scribing",
+    "table": 0,
+    "rows": 12,
+    "cols": 4,
+    "csv": "uesp_Online_Scribing_t00.csv",
+    "header": [
+      "Grimoire",
+      "Price",
+      "Skill Line",
+      "Requirement"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Scribing",
+    "table": 1,
+    "rows": 21,
+    "cols": 4,
+    "csv": "uesp_Online_Scribing_t01.csv",
+    "header": [
+      "Script",
+      "Price",
+      "Grimoires",
+      "Requirements"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Scribing",
+    "table": 2,
+    "rows": 20,
+    "cols": 5,
+    "csv": "uesp_Online_Scribing_t02.csv",
+    "header": [
+      "Script",
+      "Effect",
+      "Price",
+      "Grimoires",
+      "Requirements"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Scribing",
+    "table": 3,
+    "rows": 26,
+    "cols": 4,
+    "csv": "uesp_Online_Scribing_t03.csv",
+    "header": [
+      "Script",
+      "Price",
+      "Grimoires",
+      "Requirements"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Shock Damage",
     "table": 0,
     "rows": 79,

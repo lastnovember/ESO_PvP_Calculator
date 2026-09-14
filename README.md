@@ -50,16 +50,20 @@ passive, star or buff the grammar did not fully understand.
 
 ## Scribing script catalog
 
-`data/reference/scribing_scripts.json` lists every focus, signature and affix
-script and the grimoires that take each. It is extracted from a PDF print of
-the UESP page Online:Scribing by `tools/extract_scribing_pdf.py` (needs
-`pdfminer.six`; the PDF itself is not in the repository). To refresh it:
+The UESP page Online:Scribing is archived like the other UESP pages: its four
+data tables are `data/reference/tables/uesp_Online_Scribing_t00.csv`
+(Grimoires), `t01` (Focus Scripts), `t02` (Signature Scripts) and `t03`
+(Affix Scripts), listed in `tables_index.json` and `manifest.csv` (seq 220).
+The page shows compatible grimoires as icons, so the tables are produced from a
+PDF print of the page by `tools/extract_scribing_pdf.py` (needs `pdfminer.six`;
+the PDF itself is not in the repository):
 
 ```
-python3 tools/extract_scribing_pdf.py Online-Scribing.pdf > catalog.json
+python3 tools/extract_scribing_pdf.py Online-Scribing.pdf data/reference/tables
 ```
 
-then merge the three sections into the JSON file and run `npm run effects`.
+It rewrites the four CSVs, prints the `tables_index.json` entries, and refuses
+to run if a row or an icon cannot be placed. Then run `npm run effects`.
 
 ## Fill in a fixture from the game
 

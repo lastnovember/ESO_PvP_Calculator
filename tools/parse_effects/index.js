@@ -217,11 +217,18 @@ const GRIMOIRES = {
   'Shield Throw': 'One Hand and Shield', 'Smash': 'Two Handed', 'Soul Burst': 'Soul Magic', 'Torchbearer': 'Fighters Guild',
   'Trample': 'Assault', 'Traveling Knife': 'Dual Wield', "Ulfsild's Contingency": 'Mages Guild', 'Vault': 'Bow', 'Wield Soul': 'Soul Magic',
 };
-// The script catalog (focus, signature, affix, and which grimoires take each) is extracted from
-// the UESP Online:Scribing page by tools/extract_scribing_pdf.py into data/reference/scribing_scripts.json.
+// The script catalog (focus, signature, affix, and which grimoires take each) is the UESP page
+// Online:Scribing, archived as tables/uesp_Online_Scribing_t01..t03.csv by tools/extract_scribing_pdf.py.
 // The UESP Buffs and Debuffs pages add the Major or Minor tier an affix grants on a given grimoire.
-const SCRIPTS = JSON.parse(readFileSync(join(REF, 'scribing_scripts.json'), 'utf8'));
+// Older names for scripts, kept so saved builds still load: the 2025 note renamed Class Mastery to
+// Class Flourish "to avoid confusion with the Class Mastery system"; Passive Master and Healing
+// Absorption are the 2024 note and esolog names for what the page calls Wayfarer's Mastery and Trauma.
+const SCRIPT_ALIASES = { 'Class Mastery': 'Class Flourish', 'Passive Master': "Wayfarer's Mastery", 'Healing Absorption': 'Trauma' };
+function scriptTable(file) {
+  return csvObjects(readFileSync(join(REF, 'tables', file), 'utf8')).map((r) => ({ ...r, grimoires: r.Grimoires.split(',').map((x) => x.trim()).filter(Boolean) }));
+}
 function buildScribing() {
+  const SCRIPTS = { focus: scriptTable('uesp_Online_Scribing_t01.csv'), signature: scriptTable('uesp_Online_Scribing_t02.csv'), affix: scriptTable('uesp_Online_Scribing_t03.csv') };
   const tier = {};
   for (const table of ['uesp_Online_Buffs_t00.csv', 'uesp_Online_Buffs_t01.csv']) {
     let t = null;
@@ -238,7 +245,7 @@ function buildScribing() {
   }
   const perGrimoire = (section) => {
     const out = {};
-    for (const [script, v] of Object.entries(SCRIPTS[section])) for (const g of (v.grimoires || v)) (out[g] = out[g] || []).push(script);
+    for (const r of SCRIPTS[section]) for (const g of r.grimoires) (out[g] = out[g] || []).push(r.Script);
     return out;
   };
   const focus = perGrimoire('focus'); const signature = perGrimoire('signature'); const affix = perGrimoire('affix');
@@ -252,9 +259,9 @@ function buildScribing() {
     };
   }
   out._meta = {
-    source: SCRIPTS._meta.source,
-    aliases: SCRIPTS._meta.aliases,
-    signatureDescriptions: Object.fromEntries(Object.entries(SCRIPTS.signature).map(([n, v]) => [n, v.description])),
+    source: 'UESP Online:Scribing tables (data/reference/tables/uesp_Online_Scribing_t01..t03.csv) with affix tiers from the UESP Buffs and Debuffs pages',
+    aliases: SCRIPT_ALIASES,
+    signatureDescriptions: Object.fromEntries(SCRIPTS.signature.map((r) => [r.Script, r.Effect])),
   };
   return out;
 }
@@ -335,7 +342,7 @@ export function build() {
     note: 'parsedPercent counts a text as covered when every sentence was understood: as a sheet effect, a named buff, a combat or target proc (kept as kind proc), or flavor. partial and unparsed count against coverage.',
   };
   const out = {
-    _meta: { generatedBy: 'tools/parse_effects/index.js', sources: ['data/reference/sets.csv', 'data/reference/skills.csv', 'data/reference/scribing_scripts.json', 'engine/data/constants.json'], coverage },
+    _meta: { generatedBy: 'tools/parse_effects/index.js', sources: ['data/reference/sets.csv', 'data/reference/skills.csv', 'data/reference/tables/uesp_Online_Scribing_t01..t03.csv', 'engine/data/constants.json'], coverage },
     sets: S.sets,
     skills: { passives: K.passives, actives: K.actives, lines: K.lines },
     championStars: C.stars,

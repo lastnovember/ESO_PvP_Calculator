@@ -4,7 +4,7 @@
   "sources": [
    "data/reference/sets.csv",
    "data/reference/skills.csv",
-   "data/reference/scribing_scripts.json",
+   "data/reference/tables/uesp_Online_Scribing_t01..t03.csv",
    "engine/data/constants.json"
   ],
   "coverage": {
@@ -78179,7 +78179,7 @@
    ]
   },
   "_meta": {
-   "source": "UESP, Online:Scribing (https://en.uesp.net/wiki/Online:Scribing), printed to PDF 2026-09-14 and supplied by the user. Script names and the per script grimoire lists come from the three script tables (Focus, Signature, Affix). The Grimoires column is icons, so tools/extract_scribing_pdf.py identifies the twelve icons by their image bytes: the icon order in every row is the navbox grimoire order and the focus rows agree with the esolog ability IDs for the nine grimoires that have them. All 292 icons in the tables were assigned to a row.",
+   "source": "UESP Online:Scribing tables (data/reference/tables/uesp_Online_Scribing_t01..t03.csv) with affix tiers from the UESP Buffs and Debuffs pages",
    "aliases": {
     "Class Mastery": "Class Flourish",
     "Passive Master": "Wayfarer's Mastery",
