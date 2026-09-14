@@ -106,3 +106,19 @@ test('effects.json: coverage and known entries', () => {
   assert.ok(effects.skills.passives['Landslide'] || effects.skills.passives['Battle Roar']);
   assert.equal(Object.values(effects.skills.passives).filter((p) => p.line === 'Class Mastery').length, 35);
 });
+
+test('scribing: every grimoire has its own focus, signature and affix lists from the UESP catalog', () => {
+  const S = effects.scribing;
+  const grimoires = Object.keys(S).filter((k) => !k.startsWith('_'));
+  assert.equal(grimoires.length, 12);
+  for (const g of grimoires) for (const k of ['focus', 'signature', 'affix']) assert.ok(S[g][k].length > 0, `${g} ${k}`);
+  const u = S["Ulfsild's Contingency"];
+  assert.ok(u.signature.includes('Lingering Torment') && u.signature.includes("Sage's Remedy"));
+  assert.ok(!u.signature.includes('Class Mastery') && u.signature.includes('Class Flourish'), 'renamed script uses the new name');
+  assert.ok(!u.signature.includes("Anchorite's Cruelty"), 'Anchorite scripts are Soul Magic only');
+  assert.deepEqual(S['Wield Soul'].signature.filter((x) => x.startsWith('Anchorite')), ["Anchorite's Cruelty", "Anchorite's Potency"]);
+  assert.ok(S.Trample.focus.includes('Dispel') && !S.Smash.focus.includes('Dispel'));
+  assert.ok(u.affix.includes('Minor Breach'), 'tier from the Buffs page is kept');
+  assert.equal(S._meta.aliases['Class Mastery'], 'Class Flourish');
+  assert.ok(S._meta.signatureDescriptions['Lingering Torment']);
+});

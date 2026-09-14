@@ -217,45 +217,45 @@ const GRIMOIRES = {
   'Shield Throw': 'One Hand and Shield', 'Smash': 'Two Handed', 'Soul Burst': 'Soul Magic', 'Torchbearer': 'Fighters Guild',
   'Trample': 'Assault', 'Traveling Knife': 'Dual Wield', "Ulfsild's Contingency": 'Mages Guild', 'Vault': 'Bow', 'Wield Soul': 'Soul Magic',
 };
-const FOCUS_WORDS = { Bloody: 'Bleed Damage', Fiery: 'Flame Damage', Chilling: 'Frost Damage', Magical: 'Magic Damage', Venomous: 'Poison Damage', Pestilent: 'Disease Damage', Sundering: 'Physical Damage', Healing: 'Healing', Goading: 'Taunt', Binding: 'Immobilize', Dazing: 'Stun', Repelling: 'Knockback', Dispelling: 'Dispel', Warding: 'Damage Shield', Traumatic: 'Healing Absorption', Shocking: 'Shock Damage' };
-// Focus scripts the esolog table does not name for any grimoire; the full list is community knowledge (UNKNOWNS.md).
-const FOCUS_EXTRA = ['Pull', 'Restore Resources'];
-// Signature scripts. No table in data/reference lists them (the esolog table only carries the
-// numeric effect rows of a few scripts, without names), so this is every name the patch notes use
-// (157 2024-06-18, 159, 160, 169, 176). Which grimoires accept which script is not in the data either,
-// so every grimoire offers the whole list and the picker accepts a typed name. See UNKNOWNS.md.
-const SIGNATURE = ["Anchorite's Cruelty", "Anchorite's Potency", "Cavalier's Charge", 'Class Mastery', 'Damage Over Time', "Druid's Resurgence", 'Leeching Thirst', 'Passive Master', "Sage's Remedy", "War Mage's Defense"];
+// The script catalog (focus, signature, affix, and which grimoires take each) is extracted from
+// the UESP Online:Scribing page by tools/extract_scribing_pdf.py into data/reference/scribing_scripts.json.
+// The UESP Buffs and Debuffs pages add the Major or Minor tier an affix grants on a given grimoire.
+const SCRIPTS = JSON.parse(readFileSync(join(REF, 'scribing_scripts.json'), 'utf8'));
 function buildScribing() {
-  const rows = csvObjects(readFileSync(join(REF, 'tables', 'esolog_skill_coefficients_t00.csv'), 'utf8'));
-  const focus = {};
-  for (const r of rows) {
-    const m = r['Skill Name'].match(/^([A-Z][a-z]+) (Smash|Vault|Trample|Knife|Throw|Explosion|Torchbearer|Bearer|Burst|Bond|Contingency|Soul)(?: \d)?$/);
-    if (!m) continue;
-    const g = Object.keys(GRIMOIRES).find((x) => x.endsWith(m[2]));
-    if (!g || !FOCUS_WORDS[m[1]]) continue;
-    (focus[g] = focus[g] || new Set()).add(FOCUS_WORDS[m[1]]);
-  }
-  // affix scripts per grimoire from the Buffs and Debuffs pages "Scribing" rows, with the Major or Minor tier the grimoire grants
-  const affix = {};
+  const tier = {};
   for (const table of ['uesp_Online_Buffs_t00.csv', 'uesp_Online_Buffs_t01.csv']) {
-    let tier = null;
+    let t = null;
     for (const row of parseCsv(readFileSync(join(REF, 'tables', table), 'utf8'))) {
       const c0 = (row[0] || '').trim(); const c1 = (row[1] || '').trim();
-      if (c0 === 'Major' || c0 === 'Minor') tier = c0;
-      else if (/\[ edit \]/.test(c0)) tier = (c1 === 'Major' || c1 === 'Minor') ? c1 : null;
+      if (c0 === 'Major' || c0 === 'Minor') t = c0;
+      else if (/\[ edit \]/.test(c0)) t = (c1 === 'Major' || c1 === 'Minor') ? c1 : null;
       const i = row.indexOf('Scribing');
-      if (i < 0 || !row[i + 1]) continue;
+      if (i < 0 || !row[i + 1] || !t) continue;
       const m = row[i + 1].match(/^(.+?) on (.+)$/);
       if (!m) continue;
-      const script = (tier ? tier + ' ' : '') + m[1].trim();
-      for (const g of m[2].split(',').map((x) => x.trim())) if (GRIMOIRES[g]) (affix[g] = affix[g] || new Set()).add(script);
+      for (const g of m[2].split(',').map((x) => x.trim())) if (GRIMOIRES[g]) (tier[g] = tier[g] || {})[m[1].trim()] = t;
     }
   }
-  const allFocus = [...new Set([...Object.values(FOCUS_WORDS), ...FOCUS_EXTRA])].sort();
+  const perGrimoire = (section) => {
+    const out = {};
+    for (const [script, v] of Object.entries(SCRIPTS[section])) for (const g of (v.grimoires || v)) (out[g] = out[g] || []).push(script);
+    return out;
+  };
+  const focus = perGrimoire('focus'); const signature = perGrimoire('signature'); const affix = perGrimoire('affix');
   const out = {};
   for (const [g, line] of Object.entries(GRIMOIRES)) {
-    out[g] = { name: g, line, focus: focus[g] ? [...new Set([...focus[g], ...FOCUS_EXTRA])].sort() : allFocus, focusVerified: !!focus[g], affix: affix[g] ? [...affix[g]].sort() : [], signature: SIGNATURE };
+    out[g] = {
+      name: g, line,
+      focus: (focus[g] || []).slice().sort(),
+      signature: (signature[g] || []).slice().sort(),
+      affix: (affix[g] || []).map((a) => ((tier[g] || {})[a] ? `${tier[g][a]} ${a}` : a)).sort(),
+    };
   }
+  out._meta = {
+    source: SCRIPTS._meta.source,
+    aliases: SCRIPTS._meta.aliases,
+    signatureDescriptions: Object.fromEntries(Object.entries(SCRIPTS.signature).map(([n, v]) => [n, v.description])),
+  };
   return out;
 }
 
@@ -304,6 +304,7 @@ export function build() {
   const SC = buildScribing();
   // grimoires are slottable abilities of their skill line with no while slotted effects
   for (const [g, meta] of Object.entries(SC)) {
+    if (g.startsWith('_')) continue;
     K.actives[g] = { name: g, line: meta.line, group: 'Scribing', class: null, base: g, morph: false, ultimate: false, scribing: true, whileSlotted: [] };
     if (K.lines[meta.line]) K.lines[meta.line].actives.push({ base: g, morphs: [], ultimate: false, scribing: true });
   }
@@ -334,7 +335,7 @@ export function build() {
     note: 'parsedPercent counts a text as covered when every sentence was understood: as a sheet effect, a named buff, a combat or target proc (kept as kind proc), or flavor. partial and unparsed count against coverage.',
   };
   const out = {
-    _meta: { generatedBy: 'tools/parse_effects/index.js', sources: ['data/reference/sets.csv', 'data/reference/skills.csv', 'engine/data/constants.json'], coverage },
+    _meta: { generatedBy: 'tools/parse_effects/index.js', sources: ['data/reference/sets.csv', 'data/reference/skills.csv', 'data/reference/scribing_scripts.json', 'engine/data/constants.json'], coverage },
     sets: S.sets,
     skills: { passives: K.passives, actives: K.actives, lines: K.lines },
     championStars: C.stars,

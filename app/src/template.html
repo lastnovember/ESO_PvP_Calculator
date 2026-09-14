@@ -485,7 +485,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const row = el('div', { class: 'scripts' });
     for (const [key, opts] of [['focus', meta.focus], ['signature', meta.signature], ['affix', meta.affix]]) {
       const c = el('div', { class: 'combo' }); row.append(el('label', { class: 'c' }, [key[0].toUpperCase() + key.slice(1), c]));
-      combo(c, opts.map((o) => ({ value: o, label: o })), cur[key], (v) => { cur[key] = v; update(false); }, 'none', true);
+      const desc = key === 'signature' ? ((SCRIBING._meta || {}).signatureDescriptions || {}) : {};
+      combo(c, opts.map((o) => ({ value: o, label: o, note: desc[o] || '' })), cur[key], (v) => { cur[key] = v; update(false); }, 'none', true);
     }
     return row;
   }
@@ -834,6 +835,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     b.passives = { mode: 'all', exclude: [], ...(obj.passives || {}) };
     b.skillLines = { ...fresh.skillLines, ...(obj.skillLines || {}) };
     b.scribing = { ...(obj.scribing || {}) };
+    // scripts renamed since the build was saved (Class Mastery is now Class Flourish, and so on)
+    const alias = (SCRIBING._meta || {}).aliases || {};
+    for (const sc of Object.values(b.scribing)) for (const k of ['focus', 'signature', 'affix']) if (sc && alias[sc[k]]) sc[k] = alias[sc[k]];
     b.gear = { ...fresh.gear, ...(obj.gear || {}) };
     b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null, ...((obj.bars || [])[i] || {}) }));
     b.flags = { battleSpiritFlatHealth: false, strategies: {}, ...(obj.flags || {}) };

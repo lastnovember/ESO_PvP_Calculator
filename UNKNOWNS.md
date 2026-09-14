@@ -102,7 +102,15 @@ Named items are community tooltip values.
 
 | Item | Status |
 | --- | --- |
-| Full script catalog | Not in data/reference. Affix scripts per grimoire, with their Major or Minor tier, come from the UESP Buffs and Debuffs pages and agree with the Update 43 note (160, 2024-09-04). Focus scripts come from the esolog names per grimoire (the 500SSGGG ability IDs encode focus script and grimoire), with Pull and Restore Resources added from community knowledge. Signature scripts: no file names them. The esolog table has effect rows for a few (a 20 second damage over time, a heal every 2 seconds, a damage shield every 3 seconds, caltrops for Trample, a bash for Shield Throw) but without script names. The picker offers the ten names found in patch notes (Anchorite's Cruelty, Anchorite's Potency, Cavalier's Charge, Class Mastery, Damage Over Time, Druid's Resurgence, Leeching Thirst, Passive Master, Sage's Remedy, War Mage's Defense) on every grimoire and accepts a typed name for the rest. To settle it: the in game Scribing altar list per grimoire, or the UESP "Online:Scribing" signature table, saved as text. Scripts change no sheet value in phase 1. |
+| Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
+| Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
+
+## Settled by data supplied later
+
+| Item | Settled by |
+| --- | --- |
+| Scribing script catalog (21 focus, 20 signature, 26 affix, and which grimoires take each) | UESP Online:Scribing page printed 2026-09-14, extracted by `tools/extract_scribing_pdf.py` into `data/reference/scribing_scripts.json`. Class Mastery is Class Flourish now (patch note), Passive Master reads Wayfarer's Mastery and Healing Absorption reads Trauma on the page; old build files are mapped on load. |
+| Rakkhat's Voidmantle, Stormweaver's Cavort slots and text | In game tooltips supplied by the user (medium shoulders, light legs, plus the missing 300 Magicka Recovery line). |
 
 ## Settled by patch notes
 

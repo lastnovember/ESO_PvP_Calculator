@@ -48,6 +48,19 @@ npm test
 `node tools/parse_effects/index.js --report` also lists every set bonus,
 passive, star or buff the grammar did not fully understand.
 
+## Scribing script catalog
+
+`data/reference/scribing_scripts.json` lists every focus, signature and affix
+script and the grimoires that take each. It is extracted from a PDF print of
+the UESP page Online:Scribing by `tools/extract_scribing_pdf.py` (needs
+`pdfminer.six`; the PDF itself is not in the repository). To refresh it:
+
+```
+python3 tools/extract_scribing_pdf.py Online-Scribing.pdf > catalog.json
+```
+
+then merge the three sections into the JSON file and run `npm run effects`.
+
 ## Fill in a fixture from the game
 
 Fixtures are the ground truth. Each one holds a build and the numbers the game

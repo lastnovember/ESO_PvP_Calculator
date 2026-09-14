@@ -4,6 +4,7 @@
   "sources": [
    "data/reference/sets.csv",
    "data/reference/skills.csv",
+   "data/reference/scribing_scripts.json",
    "engine/data/constants.json"
   ],
   "coverage": {
@@ -77769,26 +77770,25 @@
    "name": "Banner Bearer",
    "line": "Support",
    "focus": [
-    "Bleed Damage",
-    "Damage Shield",
-    "Disease Damage",
-    "Dispel",
     "Flame Damage",
-    "Frost Damage",
-    "Healing",
-    "Healing Absorption",
     "Immobilize",
-    "Knockback",
     "Magic Damage",
+    "Mitigation",
+    "Multi-Target",
     "Physical Damage",
-    "Poison Damage",
-    "Pull",
     "Restore Resources",
-    "Shock Damage",
-    "Stun",
-    "Taunt"
+    "Shock Damage"
    ],
-   "focusVerified": false,
+   "signature": [
+    "Cavalier's Charge",
+    "Class Flourish",
+    "Crusader's Defiance",
+    "Druid's Resurgence",
+    "Sage's Remedy",
+    "Thief's Swiftness",
+    "Warmage's Defense",
+    "Wayfarer's Mastery"
+   ],
    "affix": [
     "Major Brutality and Sorcery",
     "Major Savagery and Prophecy",
@@ -77798,55 +77798,40 @@
     "Minor Intellect and Endurance",
     "Minor Protection",
     "Minor Resolve"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
    ]
   },
   "Elemental Explosion": {
    "name": "Elemental Explosion",
    "line": "Destruction Staff",
    "focus": [
+    "Dispel",
     "Flame Damage",
     "Frost Damage",
-    "Healing Absorption",
+    "Knockback",
     "Magic Damage",
     "Physical Damage",
-    "Pull",
-    "Restore Resources",
-    "Shock Damage"
+    "Shock Damage",
+    "Stun",
+    "Trauma"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Assassin's Misery",
+    "Class Flourish",
+    "Druid's Resurgence",
+    "Hunter's Snare",
+    "Immobilizing Strike",
+    "Lingering Torment",
+    "Warmage's Defense"
+   ],
    "affix": [
     "Major Brutality and Sorcery",
-    "Major Savagery and Prophecy",
     "Minor Brittle",
     "Minor Cowardice",
     "Minor Defile",
     "Minor Enervation",
     "Minor Lifesteal",
-    "Minor Magickasteal"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
+    "Minor Magickasteal",
+    "Off Balance"
    ]
   },
   "Mender's Bond": {
@@ -77854,37 +77839,32 @@
    "line": "Restoration Staff",
    "focus": [
     "Damage Shield",
+    "Generate Ultimate",
     "Healing",
+    "Immobilize",
     "Magic Damage",
-    "Pull",
+    "Mitigation",
     "Restore Resources"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Class Flourish",
+    "Crusader's Defiance",
+    "Druid's Resurgence",
+    "Hunter's Snare",
+    "Knight's Valor",
+    "Sage's Remedy",
+    "Warmage's Defense"
+   ],
    "affix": [
     "Empower",
     "Minor Breach",
     "Minor Brittle",
     "Minor Courage",
-    "Minor Evasion",
-    "Minor Force",
     "Minor Heroism",
     "Minor Intellect and Endurance",
     "Minor Maim",
     "Minor Protection",
-    "Minor Vitality",
-    "Minor Vulnerability"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
+    "Minor Vitality"
    ]
   },
   "Shield Throw": {
@@ -77895,31 +77875,30 @@
     "Immobilize",
     "Knockback",
     "Magic Damage",
+    "Multi-Target",
     "Physical Damage",
     "Pull",
-    "Restore Resources",
     "Taunt"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Class Flourish",
+    "Druid's Resurgence",
+    "Fencer's Parry",
+    "Knight's Valor",
+    "Lingering Torment",
+    "Sage's Remedy",
+    "Thief's Swiftness",
+    "Wayfarer's Mastery"
+   ],
    "affix": [
+    "Interrupt",
     "Major Cowardice",
     "Major Evasion",
     "Major Maim",
     "Major Resolve",
     "Major Vitality",
-    "Minor Enervation"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
+    "Minor Enervation",
+    "Off Balance"
    ]
   },
   "Smash": {
@@ -77933,15 +77912,22 @@
     "Magic Damage",
     "Physical Damage",
     "Poison Damage",
-    "Pull",
-    "Restore Resources",
     "Stun",
     "Taunt"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Class Flourish",
+    "Crusader's Defiance",
+    "Druid's Resurgence",
+    "Fencer's Parry",
+    "Immobilizing Strike",
+    "Leeching Thirst",
+    "Lingering Torment",
+    "Sage's Remedy",
+    "Wayfarer's Mastery"
+   ],
    "affix": [
-    "Major Brutality and Sorcery",
-    "Major Savagery and Prophecy",
+    "Interrupt",
     "Minor Berserk",
     "Minor Breach",
     "Minor Expedition",
@@ -77949,18 +77935,6 @@
     "Minor Maim",
     "Minor Mangle",
     "Minor Vitality"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
    ]
   },
   "Soul Burst": {
@@ -77973,16 +77947,23 @@
     "Flame Damage",
     "Frost Damage",
     "Healing",
+    "Immobilize",
     "Magic Damage",
     "Physical Damage",
     "Pull",
-    "Restore Resources",
     "Shock Damage"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Flourish",
+    "Crusader's Defiance",
+    "Hunter's Snare",
+    "Lingering Torment",
+    "Sage's Remedy"
+   ],
    "affix": [
-    "Major Brutality and Sorcery",
-    "Major Savagery and Prophecy",
+    "Interrupt",
     "Minor Breach",
     "Minor Courage",
     "Minor Expedition",
@@ -77990,18 +77971,6 @@
     "Minor Magickasteal",
     "Minor Maim",
     "Minor Resolve"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
    ]
   },
   "Torchbearer": {
@@ -78009,28 +77978,24 @@
    "line": "Fighters Guild",
    "focus": [
     "Bleed Damage",
-    "Damage Shield",
-    "Disease Damage",
-    "Dispel",
     "Flame Damage",
     "Frost Damage",
+    "Generate Ultimate",
     "Healing",
-    "Healing Absorption",
-    "Immobilize",
     "Knockback",
-    "Magic Damage",
     "Physical Damage",
-    "Poison Damage",
-    "Pull",
-    "Restore Resources",
-    "Shock Damage",
-    "Stun",
-    "Taunt"
+    "Stun"
    ],
-   "focusVerified": false,
+   "signature": [
+    "Class Flourish",
+    "Crusader's Defiance",
+    "Druid's Resurgence",
+    "Gladiator's Tenacity",
+    "Hunter's Snare",
+    "Lingering Torment",
+    "Warrior's Opportunity"
+   ],
    "affix": [
-    "Major Brutality and Sorcery",
-    "Major Savagery and Prophecy",
     "Minor Breach",
     "Minor Cowardice",
     "Minor Evasion",
@@ -78039,18 +78004,6 @@
     "Minor Resolve",
     "Minor Uncertainty",
     "Minor Vitality"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
    ]
   },
   "Trample": {
@@ -78060,37 +78013,32 @@
     "Disease Damage",
     "Dispel",
     "Frost Damage",
-    "Healing Absorption",
     "Knockback",
     "Magic Damage",
     "Physical Damage",
-    "Pull",
-    "Restore Resources",
-    "Stun"
+    "Stun",
+    "Trauma"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Assassin's Misery",
+    "Cavalier's Charge",
+    "Class Flourish",
+    "Hunter's Snare",
+    "Immobilizing Strike",
+    "Lingering Torment",
+    "Thief's Swiftness",
+    "Warrior's Opportunity",
+    "Wayfarer's Mastery"
+   ],
    "affix": [
-    "Major Brutality and Sorcery",
     "Major Expedition",
     "Major Heroism",
-    "Major Protection",
     "Major Savagery and Prophecy",
     "Minor Cowardice",
     "Minor Defile",
     "Minor Mangle",
-    "Minor Vulnerability"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
+    "Minor Vulnerability",
+    "Off Balance"
    ]
   },
   "Traveling Knife": {
@@ -78099,35 +78047,33 @@
    "focus": [
     "Bleed Damage",
     "Frost Damage",
+    "Magic Damage",
+    "Multi-Target",
     "Physical Damage",
     "Poison Damage",
     "Pull",
-    "Restore Resources",
     "Stun"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Assassin's Misery",
+    "Class Flourish",
+    "Fencer's Parry",
+    "Hunter's Snare",
+    "Leeching Thirst",
+    "Lingering Torment",
+    "Warmage's Defense",
+    "Warrior's Opportunity",
+    "Wayfarer's Mastery"
+   ],
    "affix": [
-    "Major Brutality and Sorcery",
     "Major Savagery and Prophecy",
     "Minor Berserk",
     "Minor Expedition",
-    "Minor Force",
     "Minor Lifesteal",
     "Minor Maim",
     "Minor Uncertainty",
-    "Minor Vulnerability"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
+    "Minor Vulnerability",
+    "Off Balance"
    ]
   },
   "Ulfsild's Contingency": {
@@ -78140,15 +78086,20 @@
     "Frost Damage",
     "Healing",
     "Immobilize",
+    "Knockback",
     "Magic Damage",
-    "Pull",
-    "Restore Resources",
     "Shock Damage"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Class Flourish",
+    "Gladiator's Tenacity",
+    "Growing Impact",
+    "Hunter's Snare",
+    "Lingering Torment",
+    "Sage's Remedy",
+    "Warrior's Opportunity"
+   ],
    "affix": [
-    "Major Brutality and Sorcery",
-    "Major Savagery and Prophecy",
     "Minor Breach",
     "Minor Enervation",
     "Minor Force",
@@ -78157,18 +78108,6 @@
     "Minor Protection",
     "Minor Resolve",
     "Minor Vulnerability"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
    ]
   },
   "Vault": {
@@ -78180,36 +78119,28 @@
     "Flame Damage",
     "Healing",
     "Immobilize",
-    "Physical Damage",
     "Poison Damage",
-    "Pull",
-    "Restore Resources",
     "Taunt"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Class Flourish",
+    "Crusader's Defiance",
+    "Druid's Resurgence",
+    "Hunter's Snare",
+    "Lingering Torment",
+    "Sage's Remedy",
+    "Thief's Swiftness",
+    "Wayfarer's Mastery"
+   ],
    "affix": [
-    "Major Brutality and Sorcery",
     "Major Evasion",
     "Major Savagery and Prophecy",
-    "Minor Berserk",
     "Minor Expedition",
     "Minor Force",
-    "Minor Intellect and Endurance",
     "Minor Lifesteal",
     "Minor Maim",
-    "Minor Vulnerability"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
+    "Minor Vulnerability",
+    "Off Balance"
    ]
   },
   "Wield Soul": {
@@ -78225,11 +78156,17 @@
     "Magic Damage",
     "Physical Damage",
     "Pull",
-    "Restore Resources",
     "Shock Damage",
     "Stun"
    ],
-   "focusVerified": true,
+   "signature": [
+    "Anchorite's Cruelty",
+    "Anchorite's Potency",
+    "Class Flourish",
+    "Druid's Resurgence",
+    "Lingering Torment",
+    "Sage's Remedy"
+   ],
    "affix": [
     "Empower",
     "Major Breach",
@@ -78237,23 +78174,39 @@
     "Major Cowardice",
     "Major Defile",
     "Major Intellect and Endurance",
-    "Major Maim",
     "Major Resolve",
-    "Major Savagery and Prophecy",
     "Major Vitality"
-   ],
-   "signature": [
-    "Anchorite's Cruelty",
-    "Anchorite's Potency",
-    "Cavalier's Charge",
-    "Class Mastery",
-    "Damage Over Time",
-    "Druid's Resurgence",
-    "Leeching Thirst",
-    "Passive Master",
-    "Sage's Remedy",
-    "War Mage's Defense"
    ]
+  },
+  "_meta": {
+   "source": "UESP, Online:Scribing (https://en.uesp.net/wiki/Online:Scribing), printed to PDF 2026-09-14 and supplied by the user. Script names and the per script grimoire lists come from the three script tables (Focus, Signature, Affix). The Grimoires column is icons, so tools/extract_scribing_pdf.py identifies the twelve icons by their image bytes: the icon order in every row is the navbox grimoire order and the focus rows agree with the esolog ability IDs for the nine grimoires that have them. All 292 icons in the tables were assigned to a row.",
+   "aliases": {
+    "Class Mastery": "Class Flourish",
+    "Passive Master": "Wayfarer's Mastery",
+    "Healing Absorption": "Trauma"
+   },
+   "signatureDescriptions": {
+    "Anchorite's Cruelty": "consume soul gem to deal oblivion damage",
+    "Anchorite's Potency": "consume soul gem to grant ultimate",
+    "Assassin's Misery": "improved use of status effects",
+    "Cavalier's Charge": "increase to damage as ability persists",
+    "Class Flourish": "class signature enhancement",
+    "Crusader's Defiance": "removal of debilitating effects",
+    "Druid's Resurgence": "resource restoration",
+    "Fencer's Parry": "deflection of next direct damage attack",
+    "Gladiator's Tenacity": "damage reduction",
+    "Growing Impact": "enhanced buff and debuff application",
+    "Hunter's Snare": "slowing",
+    "Immobilizing Strike": "immobilization",
+    "Knight's Valor": "improved use of bash or blocking",
+    "Leeching Thirst": "heal for percentage of damage done",
+    "Lingering Torment": "damage over time",
+    "Sage's Remedy": "healing over time",
+    "Thief's Swiftness": "improvement to your mobility",
+    "Warmage's Defense": "damage shield",
+    "Warrior's Opportunity": "improve your next direct damage attack",
+    "Wayfarer's Mastery": "improved functionality of skill line passives"
+   }
   }
  }
 }
