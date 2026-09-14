@@ -369,6 +369,8 @@ function applyEffects(acc, effects, ctx, data, source, strategies) {
 
 function activePassives(build, data) {
   const lines = new Set(ALWAYS_LINES);
+  // guild, Alliance War and world lines can be switched off; other lines can be switched on
+  for (const [line, on] of Object.entries(build.skillLines || {})) { if (on) lines.add(line); else lines.delete(line); }
   for (const l of (build.classSkillLines || CLASS_LINES[build.class] || [])) lines.add(l);
   lines.add(build.race);
   if ((build.vampireStage || 0) > 0) lines.add('Vampire');

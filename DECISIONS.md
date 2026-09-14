@@ -37,7 +37,7 @@ Short record of modelling choices. One line each, newest at the bottom.
 ## App
 
 - One page, vanilla JavaScript, no framework, no runtime requests. The build script converts the ES module engine into a plain script and inlines a slimmed effects.json (per effect raw text dropped, bonus and passive text kept) so the page stays near 1 MB.
-- Skill pickers list final nodes only (unmorphed base, or a morph) grouped by line, own class first. Passives are not picked; they are all on by default with an exclusion list.
+- Skill pickers list final nodes only (unmorphed base, or a morph) grouped by line, own class first. Passives are never picked one by one: class, racial, armor and weapon passives follow the build automatically (weapon passives follow each bar's weapons through their conditions), Vampire and Werewolf follow their toggles, and guild plus Alliance War lines are on or off as whole lines (`skillLines`). Lines with no sheet effect (crafting, Legerdemain and the like) are not shown.
 - A set is offered on a slot only where it can be worn: monster sets on head and shoulders, arena weapon sets on weapons, mythics on their slot, three piece jewelry sets on jewelry and weapons. Weapon type restrictions of arena weapon sets are not enforced yet.
 - Results show both bars side by side and a per source breakdown per stat, plus the list of conditional effects the sheet did not apply.
 - The last edited build is restored on reload; named builds live in localStorage under one key.

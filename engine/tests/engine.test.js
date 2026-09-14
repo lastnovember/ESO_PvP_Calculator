@@ -189,3 +189,10 @@ test('Class Mastery: only purchased passives, hidden while subclassing, target s
   const bad = validateBuild(naked({ classMastery: ['Nope'] }), data);
   assert.ok(bad.errors.some((e) => e.includes('unknown Class Mastery')));
 });
+
+test('skillLines toggles switch guild passives off', () => {
+  const on = computeSheet(naked({ bars: [{ mainHand: null, offHand: null, skills: ['Test FG Ability'], ultimate: null }, { mainHand: null, offHand: null, skills: [], ultimate: null }] }), data);
+  assert.equal(on.bars[0].main.weaponDamage, Math.round(B.weaponDamage.value * 1.03));
+  const off = computeSheet(naked({ skillLines: { 'Fighters Guild': false }, bars: [{ mainHand: null, offHand: null, skills: ['Test FG Ability'], ultimate: null }, { mainHand: null, offHand: null, skills: [], ultimate: null }] }), data);
+  assert.equal(off.bars[0].main.weaponDamage, B.weaponDamage.value);
+});

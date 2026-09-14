@@ -64,6 +64,11 @@
 
     "battleSpirit": { "type": "boolean", "default": false, "description": "Standing in a PvP zone." },
 
+    "skillLines": {
+      "description": "Skill lines the character has, beyond class, racial, armor and weapon lines which are always present. Missing keys default to true for Fighters Guild, Mages Guild, Psijic Order, Undaunted, Assault, Support and Soul Magic, and false for anything else (Legerdemain, Dark Brotherhood, Thieves Guild).",
+      "type": "object", "additionalProperties": { "type": "boolean" }
+    },
+
     "passives": {
       "description": "Which passive skills are considered purchased at max rank. Default: every passive in every skill line the character has access to (class lines, racial, all armor and weapon lines, guilds, Alliance War, Vampire or Werewolf when unlocked).",
       "type": "object", "additionalProperties": false,
