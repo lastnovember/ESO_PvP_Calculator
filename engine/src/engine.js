@@ -321,10 +321,18 @@ function evaluateCondition(cond, ctx, data) {
     case 'perStage': return 1;
     case 'slotted': {
       if (cond.ability) return ctx.slotted.has(cond.ability) ? 1 : 0;
-      if (cond.line) {
+      if (cond.line || cond.class) {
+        // "for each Sorcerer ability slotted" counts every ability of that class, whatever its line;
+        // "for each Shadow ability slotted" counts one line. The ultimate slot counts too (ctx.slotted).
         const actives = data.effects.skills.actives;
+        const want = (cond.line || cond.class).toLowerCase();
         let n = 0;
-        for (const name of ctx.slotted) { const a = actives[name]; if (a && a.line === cond.line) n += 1; }
+        for (const name of ctx.slotted) {
+          const a = actives[name];
+          if (!a) continue;
+          const have = cond.class ? (a.class || '') : (a.line || '');
+          if (have.toLowerCase() === want || have.toLowerCase() === want + 's') n += 1;
+        }
         return cond.perAbility ? n : (n > 0 ? 1 : 0);
       }
       return 0;

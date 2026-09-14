@@ -220,8 +220,11 @@ const GRIMOIRES = {
 const FOCUS_WORDS = { Bloody: 'Bleed Damage', Fiery: 'Flame Damage', Chilling: 'Frost Damage', Magical: 'Magic Damage', Venomous: 'Poison Damage', Pestilent: 'Disease Damage', Sundering: 'Physical Damage', Healing: 'Healing', Goading: 'Taunt', Binding: 'Immobilize', Dazing: 'Stun', Repelling: 'Knockback', Dispelling: 'Dispel', Warding: 'Damage Shield', Traumatic: 'Healing Absorption', Shocking: 'Shock Damage' };
 // Focus scripts the esolog table does not name for any grimoire; the full list is community knowledge (UNKNOWNS.md).
 const FOCUS_EXTRA = ['Pull', 'Restore Resources'];
-// Signature scripts named in the patch notes (157 2024-06-18, 158, 160, 165). The rest of the catalog is not in the data.
-const SIGNATURE = ["Anchorite's Cruelty", "Anchorite's Potency", 'Class Mastery', 'Passive Master'];
+// Signature scripts. No table in data/reference lists them (the esolog table only carries the
+// numeric effect rows of a few scripts, without names), so this is every name the patch notes use
+// (157 2024-06-18, 159, 160, 169, 176). Which grimoires accept which script is not in the data either,
+// so every grimoire offers the whole list and the picker accepts a typed name. See UNKNOWNS.md.
+const SIGNATURE = ["Anchorite's Cruelty", "Anchorite's Potency", "Cavalier's Charge", 'Class Mastery', 'Damage Over Time', "Druid's Resurgence", 'Leeching Thirst', 'Passive Master', "Sage's Remedy", "War Mage's Defense"];
 function buildScribing() {
   const rows = csvObjects(readFileSync(join(REF, 'tables', 'esolog_skill_coefficients_t00.csv'), 'utf8'));
   const focus = {};
@@ -304,6 +307,20 @@ export function build() {
     K.actives[g] = { name: g, line: meta.line, group: 'Scribing', class: null, base: g, morph: false, ultimate: false, scribing: true, whileSlotted: [] };
     if (K.lines[meta.line]) K.lines[meta.line].actives.push({ base: g, morphs: [], ultimate: false, scribing: true });
   }
+  // slotted conditions name a skill line in prose ("Animal Companion ability"); map them onto the real line names
+  const lineNames = Object.keys(K.lines);
+  const canonLine = (name) => {
+    if (K.lines[name]) return name;
+    const low = name.toLowerCase();
+    return lineNames.find((l) => l.toLowerCase() === low || l.toLowerCase() === low + 's' || l.toLowerCase() === low + ' magic') || name;
+  };
+  const fixCond = (c) => {
+    if (!c) return;
+    if (c.type === 'slotted' && c.line) c.line = canonLine(c.line);
+    if (c.type === 'all' && Array.isArray(c.of)) c.of.forEach(fixCond);
+  };
+  for (const p of Object.values(K.passives)) for (const e of p.effects) fixCond(e.condition);
+  for (const a of Object.values(K.actives)) for (const e of a.whileSlotted || []) fixCond(e.condition);
   const C = buildStars();
   const B = buildBuffs();
   const pct = (n, d) => (d ? Math.round((n / d) * 1000) / 10 : 0);

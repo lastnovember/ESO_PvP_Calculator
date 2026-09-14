@@ -216,3 +216,41 @@ test('real data: light armor passives scale with the piece count', async () => {
   assert.ok(real.effects.skills.actives['Torchbearer'].scribing);
   assert.equal(real.effects.skills.actives['Torchbearer'].line, 'Fighters Guild');
 });
+
+// Real data: "for each X ability slotted" and "with an X ability slotted" passives count the bar.
+test('real data: slotted passives count abilities on the bar', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const rows = (r, stat, src) => (r.bars[0].breakdown[stat] || []).filter((x) => x.source === src).map((x) => x.value);
+
+  // Warden: Advanced Species is 5% Critical Damage per Animal Companions ability; Flourish needs one slotted.
+  const w = naked(); w.class = 'Warden'; w.classSkillLines = ['Animal Companions', 'Green Balance', "Winter's Embrace"];
+  w.bars[0].skills = ['Cutting Dive', 'Deep Fissure', 'Blue Betty']; w.bars[0].ultimate = 'Eternal Guardian';
+  w.bars[1].skills = ['Arctic Blast'];
+  let r = computeSheet(w, real);
+  assert.deepEqual(rows(r, 'critDamage', 'passive Advanced Species'), [5 * 4], 'three morphs plus the ultimate count');
+  assert.deepEqual(rows(r, 'magickaRecovery', 'passive Flourish'), [20]);
+  assert.deepEqual(rows(r, 'physicalResistance', 'passive Frozen Armor'), [], 'nothing from Winter\'s Embrace on the front bar');
+  assert.deepEqual((r.bars[1].breakdown.physicalResistance || []).filter((x) => x.source === 'passive Frozen Armor').map((x) => x.value), [1240], 'one Winter\'s Embrace ability on the back bar');
+  assert.deepEqual((r.bars[1].breakdown.critDamage || []).filter((x) => x.source === 'passive Advanced Species'), [], 'no Animal Companions ability on the back bar');
+
+  // Sorcerer: Expert Mage is 108 Weapon and Spell Damage per Sorcerer ability, any Sorcerer line.
+  const s = naked(); s.class = 'Sorcerer'; s.classSkillLines = ['Dark Magic', 'Daedric Summoning', 'Storm Calling'];
+  s.bars[0].skills = ['Crystal Fragments', 'Hardened Ward', 'Streak']; s.bars[0].ultimate = 'Greater Storm Atronach';
+  r = computeSheet(s, real);
+  assert.deepEqual(rows(r, 'weaponDamage', 'passive Expert Mage'), [108 * 4]);
+
+  // Nightblade: Pressure Points per Nightblade ability, Hemorrhage with any Assassination ability, Dark Vigor per Shadow ability.
+  const n = naked(); n.class = 'Nightblade'; n.classSkillLines = ['Assassination', 'Shadow', 'Siphoning'];
+  n.bars[0].skills = ['Killer\'s Blade', 'Shadowy Disguise', 'Dark Cloak', 'Siphoning Attacks'];
+  r = computeSheet(n, real);
+  assert.deepEqual(rows(r, 'weaponCritRating', 'passive Pressure Points'), [438 * 4]);
+  assert.deepEqual(rows(r, 'critDamage', 'passive Hemorrhage'), [10]);
+  assert.deepEqual(rows(r, 'maxHealth', 'passive Dark Vigor'), [5 * 2]);
+  assert.deepEqual(rows(r, 'maxMagicka', 'passive Magicka Flood'), [6]);
+
+  // Guild lines: Magicka Controller counts a scribed Mages Guild grimoire, Slayer counts Fighters Guild abilities.
+  const g = naked(); g.bars[0].skills = ['Ulfsild\'s Contingency', 'Inner Light', 'Camouflaged Hunter']; g.bars[0].ultimate = 'Dawnbreaker of Smiting';
+  r = computeSheet(g, real);
+  assert.deepEqual(rows(r, 'maxMagicka', 'passive Magicka Controller'), [2 * 2]);
+  assert.deepEqual(rows(r, 'weaponDamage', 'passive Slayer'), [3 * 2]);
+});

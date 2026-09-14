@@ -58554,7 +58554,7 @@
       "kind": "percent",
       "condition": {
        "type": "slotted",
-       "line": "Animal Companion",
+       "line": "Animal Companions",
        "perAbility": true
       },
       "raw": "Increases your Critical Damage by 5% for each Animal Companion ability slotted."
@@ -61080,7 +61080,7 @@
       "kind": "percent",
       "condition": {
        "type": "slotted",
-       "line": "Animal Companion"
+       "line": "Animal Companions"
       },
       "raw": "Increases your Magicka and Stamina recovery by 20%."
      },
@@ -61090,7 +61090,7 @@
       "kind": "percent",
       "condition": {
        "type": "slotted",
-       "line": "Animal Companion"
+       "line": "Animal Companions"
       },
       "raw": "Increases your Magicka and Stamina recovery by 20%."
      }
@@ -61098,7 +61098,7 @@
     "prefixConditions": [
      {
       "type": "slotted",
-      "line": "Animal Companion"
+      "line": "Animal Companions"
      }
     ]
    },
@@ -77802,8 +77802,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Elemental Explosion": {
@@ -77833,8 +77839,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Mender's Bond": {
@@ -77865,8 +77877,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Shield Throw": {
@@ -77894,8 +77912,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Smash": {
@@ -77929,8 +77953,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Soul Burst": {
@@ -77964,8 +77994,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Torchbearer": {
@@ -78007,8 +78043,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Trample": {
@@ -78041,8 +78083,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Traveling Knife": {
@@ -78072,8 +78120,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Ulfsild's Contingency": {
@@ -78107,8 +78161,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Vault": {
@@ -78142,8 +78202,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   },
   "Wield Soul": {
@@ -78179,8 +78245,14 @@
    "signature": [
     "Anchorite's Cruelty",
     "Anchorite's Potency",
+    "Cavalier's Charge",
     "Class Mastery",
-    "Passive Master"
+    "Damage Over Time",
+    "Druid's Resurgence",
+    "Leeching Thirst",
+    "Passive Master",
+    "Sage's Remedy",
+    "War Mage's Defense"
    ]
   }
  }
