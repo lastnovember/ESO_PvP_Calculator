@@ -105,27 +105,22 @@ Named items are community tooltip values.
 | Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
 | Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
 
-## Fixtures 001 and 002 (Yeets-Swiftly, same gear; 001 back bar in Cyrodiil, 002 front bar outside)
+## Fixtures 001 to 003 (Yeets-Swiftly: 001 geared back bar in Cyrodiil, 002 geared front bar outside, 003 naked front bar outside)
 
-Two geared readings with different attribute splits. Settled (see DECISIONS.md): 111 Magicka per point, Battle Spirit +1600 Max Health before percent bonuses, block cost base 1750 with the Ice Staff reduction multiplying separately, sprint cost base 500, "slotted on either bar" buffs, sheet semantics for crit damage and Battle Spirit. Still open, with the gap after those fixes:
+The naked reading fixed the base values (DECISIONS.md and constants sources). Everything on the naked main sheet, and Max Magicka, Max Stamina, Critical Chance, Critical Damage, Critical Resistance, block, bash, break free and sprint costs and Sprint Speed on the geared sheets, now match. Still open:
 
 | Reading | Game | Engine | Gap and best reading of it |
 | --- | --- | --- | --- |
-| Max Magicka, Max Stamina | 21305 and 22546, 18687 | 21483 and 22728, 18865 | Both 178 high on both fixtures (168 before the 6% Undaunted Mettle). One shared flat is 168 too big: the seven Prismatic Defense glyphs (2170 assumed), Lunar Blessings (915) or the two CP passives (520). Base 12000 is a fit; 11832 with everything else as assumed is the other reading. |
-| Max Health | 32701 and 30001 | 31548 and 28849 | Both 1152 short (1047 before the 10%). Base health 16000, Orzorga's Smoked Bear Haunch 3080 and the Prismatic health values are the candidates; the two fixtures move together, so the gap is a constant. |
-| Recoveries | 1022, 1433 and 1457, 1515 | 1137, 1343 and 1365, 1473 | Health 107 high before percents, Magicka 73 short, Stamina 31 short. Three different offsets, so more than the base values is off: the food's recovery (338 assumed for all three) or Robustness (90) may differ per stat. |
-| Weapon and Spell Damage, dual wield | 4362 | 4107 | Back bar (ice staff) is exact, so the base 1000 and every flat are right. Dual wield is 236 short before the 8%: main hand 1335 x 1.15 Nirnhoned plus 6% of the off hand (Ambidextrous) leaves 236 that no passive explains. Please confirm the two mace traits and which is main hand. |
-| Critical Resistance | 2404 | 1084 | 1320 above Resilience (660) and Rallying Cry 3 piece (424), in and out of Cyrodiil. No source in the build. |
-| Resistances | 21689 and 22415; 18413 and 19139 | 20864 and 21590; 17588 and 18314 | 825 short on both bars and both readings: a constant, so armor piece ratings or Markyn's 1157 per set. |
-| Penetration | 4879, 9491 | 4882, 9494 | 3 high; The Lover 2744 x (1 + 2 x 9.1%) rounds differently per piece. |
-| Costs: bash, break free, roll dodge | 655, 4921, 3248 | 1157, 2698, 2306 | Bases assumed 1283, 3060, 2891 are wrong. Fits with the known reductions: bash base 765 ((765 - 90) x 0.97), break free 5400 ((5400 - 220) x 0.95), roll dodge 3973 ((3973 - 240) x 0.87). Not applied until a naked reading confirms the reductions. |
-| Bash Damage | 630 (maces), 685 (ice staff) | 120 | The sheet shows total bash damage and it differs by weapon; base bash damage is not modelled. |
-| Block Mitigation | 54, 64 | 53, 63 | 50 x (1 + 8%) and 50 x (1 + 28%): 2% more than heavy armor (2%) plus Fortification (4%) give. Unknown 2% source. |
-| Sprint Speed | 154% | 184% | Base assumed 160% plus Athletics 12% and Hasty 4%: the sheet says 154, so the base sprint bonus is nearer 138% or the passives do not add to it. |
-| Healing Done | 22% (Cyrodiil), 2% | 2% | Combat Medic near a Keep. |
-| Damage Done | 6% (back), 11% (front) | 0, 5 | The sheet folds Deadly Aim (single target) into every damage type; Minor Berserk from Bird of Prey shows only on the bar it is slotted on. |
-
-A naked reading (no gear, no food, outside Cyrodiil) settles base stats, base recoveries, base costs, bash damage and sprint speed; armor only afterwards settles glyphs and ratings.
+| Max Health, geared | 30001 (002), 32701 (001) | fitted | Base 16000 and 122 per point are settled; the geared gap was the food. Orzorga's Smoked Bear Haunch is now 4316 Health (fitted) with the Prismatic small piece at 192; the tooltip would confirm both. |
+| Recoveries, geared | 1022, 1457, 1515 | 1022 with food 406; Magicka fits 411, Stamina 369 | Base 514/514/309 are settled by the naked sheet. The food's three recovery values do not fit one number with Evocation 4% and Wind Walker 16%, so either the food differs per stat or one of those passives is off. Tooltip wanted. |
+| Weapon and Spell Damage, dual wield | 4362 | 4107 | Naked and staff bar are exact (base 1000). Dual wield is 236 short before the 8%: main hand 1335 x 1.15 Nirnhoned plus 6% of the off hand leaves 236. Mace traits and hands to confirm. |
+| Resistances, geared | 18413 and 19139 | 17588 and 18314 | 825 short on every geared reading, naked is exact (Fortified 1730). Armor piece ratings (unverified) or Markyn's per set armor; an armor only reading splits it. |
+| Penetration | 3444 naked, 9491 geared | 3444, 9494 | Naked exact (Lover 2744). Geared 3 high: the two Divines pieces round per piece. |
+| Roll Dodge Cost | 3800 naked, 3248 geared | 3800, 3306 | Base 4040 settled. The geared reduction is 14.5%, not the 13% the passives add up to (Athletics 16, light 3, heavy +6); percent then flat with multiplicative groups gives 3250. Open. |
+| Block Mitigation | 52 naked, 54 and 64 geared | 52, 53, 63 | 2% more from armor than heavy armor's 1% per piece gives. Open. |
+| Bash Damage | 184 naked, 630 maces, 685 staff | 120 | The sheet shows total bash damage and it depends on the weapon; only the bonus is modelled. |
+| Damage Done | 11% | 5% | The sheet folds Deadly Aim (single target) into every damage type. Intended difference. |
+| Sneak Cost | 59 naked, 34 geared | not modelled | |
 
 ## Settled by data supplied later
 

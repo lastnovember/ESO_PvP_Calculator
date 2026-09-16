@@ -1,0 +1,162 @@
+{
+  "name": "003 Yeets-Swiftly naked, front bar, Elden Root Wayshrine (no Battle Spirit)",
+  "status": "open",
+  "notes": "Xbox, 2026-09-16, five phone photos. No armor, jewelry, weapons or food; The Lover mundus kept; same skills on the bars; 49 Magicka and 15 Health points. Active effects shown: Minor Berserk (Bird of Prey), Gallop (Continuous Attack), Boon The Lover, Major Savagery and Prophecy (Merciless Resolve). Front bar. Settles base Max Health 16000, Max Magicka and Stamina 12000, base Magicka and Stamina Recovery 514, Health Recovery 309 (540 less Capacitor 141 and Robustness 90), block cost 1750 (1710 after Tireless Guardian), sprint cost 500, bash 765, break free 5400, roll dodge 4040, sprint speed base 140%, and the 1320 baseline Critical Resistance. Sneak cost 59 and Bash Damage 184 are not modelled.",
+  "gameVersion": "Update 50 era, 2026-09",
+  "tolerance": {
+    "flat": 1,
+    "percent": 0.15
+  },
+  "build": {
+    "schemaVersion": 1,
+    "name": "Yeets-Swiftly naked",
+    "race": "Khajiit",
+    "class": "Warden",
+    "classSkillLines": [
+      "Animal Companions",
+      "Assassination",
+      "Storm Calling"
+    ],
+    "classMastery": [],
+    "attributes": {
+      "health": 15,
+      "magicka": 49,
+      "stamina": 0
+    },
+    "championPoints": {
+      "enabled": true,
+      "slotted": {
+        "warfare": [
+          "Fighting Finesse",
+          "Deadly Aim",
+          "Resilience",
+          "Duelist's Rebuff"
+        ],
+        "fitness": [
+          "Celerity",
+          "Survival Instincts",
+          "Pain's Refuge",
+          "Fortified"
+        ],
+        "craft": [
+          "War Mount",
+          "Gifted Rider",
+          "Steed's Blessing",
+          "Sustaining Shadows"
+        ]
+      }
+    },
+    "mundus": "The Lover",
+    "food": null,
+    "vampireStage": 0,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": false,
+    "passives": {
+      "mode": "all",
+      "exclude": []
+    },
+    "skillLines": {
+      "Fighters Guild": true,
+      "Mages Guild": true,
+      "Psijic Order": true,
+      "Undaunted": true,
+      "Assault": true,
+      "Support": true,
+      "Soul Magic": true
+    },
+    "scribing": {
+      "Ulfsild's Contingency": {
+        "focus": "Shock Damage",
+        "signature": "Class Flourish",
+        "affix": "Minor Force"
+      },
+      "Wield Soul": {
+        "focus": "Healing",
+        "signature": "Anchorite's Potency",
+        "affix": "Major Vitality"
+      }
+    },
+    "gear": {
+      "head": null,
+      "chest": null,
+      "shoulders": null,
+      "waist": null,
+      "hands": null,
+      "legs": null,
+      "feet": null,
+      "necklace": null,
+      "ring1": null,
+      "ring2": null
+    },
+    "bars": [
+      {
+        "mainHand": null,
+        "offHand": null,
+        "skills": [
+          "Surprise Attack",
+          "Deep Fissure",
+          "Bird of Prey",
+          "Ulfsild's Contingency",
+          "Merciless Resolve"
+        ],
+        "ultimate": "Incapacitating Strike",
+        "poison": null
+      },
+      {
+        "mainHand": null,
+        "offHand": null,
+        "skills": [
+          "Bull Netch",
+          "Hurricane",
+          "Resolving Vigor",
+          "Streak",
+          "Wield Soul"
+        ],
+        "ultimate": "Temporal Guard",
+        "poison": null
+      }
+    ],
+    "flags": {
+      "battleSpiritFlatHealth": true,
+      "strategies": {}
+    }
+  },
+  "readings": {
+    "outOfPvpZone": {
+      "bar1": {
+        "main": {
+          "Max Health": 19305,
+          "Max Magicka": 19251,
+          "Max Stamina": 13435,
+          "Health Recovery": 540,
+          "Magicka Recovery": 909,
+          "Stamina Recovery": 894,
+          "Weapon Damage": 1000,
+          "Spell Damage": 1000,
+          "Weapon Critical": 29.4,
+          "Spell Critical": 29.4,
+          "Critical Damage": 40,
+          "Physical Penetration": 3444,
+          "Spell Penetration": 3444,
+          "Physical Resistance": 1731,
+          "Spell Resistance": 1731
+        },
+        "advanced": {
+          "Critical Resistance": 1980,
+          "Bash Cost": 675,
+          "Block Cost": 1710,
+          "Break Free Cost": 5180,
+          "Roll Dodge Cost": 3800,
+          "Sprint Cost": 460,
+          "Bash Damage": 184,
+          "Block Mitigation": 52,
+          "Sprint Speed": 144,
+          "Healing Done": 2,
+          "Healing Taken": 2,
+          "Damage Done": 11
+        }
+      }
+    }
+  }
+}

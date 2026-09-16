@@ -639,7 +639,8 @@ function computeBar(build, data, barIndex, strategies) {
   if (acc.override('blockMitigation') != null) blockMitigation = acc.override('blockMitigation');
 
   const movementSpeed = Math.min(v(B.movementSpeedPercent) + acc.pct('movementSpeed'), v(B.movementSpeedCapPercent));
-  const sprintSpeed = Math.min(v(B.sprintSpeedPercent) + acc.pct('movementSpeed') + acc.pct('sprintSpeed'), v(B.movementSpeedCapPercent));
+  // The sheet's Sprint Speed is the sprint base plus sprint bonuses only (fixture 003: 144 = 140 + Hasty 4 with Celerity slotted)
+  const sprintSpeed = Math.min(v(B.sprintSpeedPercent) + acc.pct('sprintSpeed'), v(B.movementSpeedCapPercent));
 
   const bsPct = (stat) => {
     const e = C.battleSpirit.effects.find((x) => x.stat === stat);
@@ -664,7 +665,7 @@ function computeBar(build, data, barIndex, strategies) {
     weaponCritChancePercent: round1(weaponCritChance),
     spellCritChancePercent: round1(spellCritChance),
     critDamagePercent: round1(critDamage),
-    critResistance: Math.round(acc.flat('critResistance')),
+    critResistance: Math.round(v(B.critResistance) + acc.flat('critResistance')),
     physicalPenetration: main.physicalPenetration,
     spellPenetration: main.spellPenetration,
     physicalResistance: main.physicalResistance,

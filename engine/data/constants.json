@@ -13,48 +13,37 @@
   "base": {
     "maxHealth": {
       "value": 16000,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Naked level 50 Max Health with 0 attribute points. UESP Online:Health prose was archived as PDF only, not present in the repo.",
-      "alternatives": [
-        15000
-      ]
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19305 = 16000 + 15 x 122 + Lunar Blessings 915 + Hero's Vigor 560.",
+      "verified": true
     },
     "maxMagicka": {
       "value": 12000,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Naked level 50 Max Magicka with 0 attribute points. Fitted from fixture 001 (Yeets-Swiftly, back bar, Cyrodiil): with 7958 the sheet is 3874 short on both Magicka and Stamina before percent bonuses; with 12000 the residual is 168 on both. A naked reading settles it.",
-      "alternatives": [
-        7958
-      ]
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19251 = (12000 + 49 x 111 + 915 + 520) x 1.02 Magicka Controller.",
+      "verified": true
     },
     "maxStamina": {
       "value": 12000,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Naked level 50 Max Stamina with 0 attribute points. Fitted from fixture 001, see maxMagicka.",
-      "alternatives": [
-        7958
-      ]
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 13435 = 12000 + 915 + 520.",
+      "verified": true
     },
     "healthRecovery": {
-      "value": 484,
+      "value": 309,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Naked level 50 Health Recovery (per 2 second tick as shown on the sheet)."
+      "note": "Naked level 50 Health Recovery. fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 540 = base + Capacitor 141 + Robustness 90, so 309 if both passives give Health Recovery the full amount. The split is the unverified part.",
+      "alternatives": [
+        484
+      ]
     },
     "magickaRecovery": {
       "value": 514,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Naked level 50 Magicka Recovery."
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 909 = (514 + 141 + 90) x 1.22 (Flourish 20%, Magicka Controller 2%).",
+      "verified": true
     },
     "staminaRecovery": {
       "value": 514,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Naked level 50 Stamina Recovery."
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 894 = (514 + 141 + 90) x 1.20 (Flourish).",
+      "verified": true
     },
     "weaponDamage": {
       "value": 1000,
@@ -134,34 +123,24 @@
       "note": "Flat reductions are subtracted from the base first, then percentage reductions (STRATEGIES.costOrder flatThenPercent); armor passives add up, a weapon passive multiplies separately (STRATEGIES.costWeaponPercent)."
     },
     "rollDodgeCost": {
-      "value": 2891,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Stamina cost of Roll Dodge.",
-      "alternatives": [
-        3060
-      ]
+      "value": 4040,
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 3800 on the sheet with Tumbling 240 taken off first. Geared (fixture 002) reads 3248 where the additive passive model gives 3306; the percent stacking for Roll Dodge is still open.",
+      "verified": true
     },
     "sprintCostPerSecond": {
       "value": 500,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Stamina cost of Sprint per second. Fitted from fixtures 001 and 002: (500 - 40 Sprinter) x 0.93 (Grace -3%, medium -4%) = 428 on the sheet. A naked reading confirms it.",
-      "alternatives": [
-        400
-      ]
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 460 = 500 - Sprinter 40; geared (500 - 40) x 0.93 = 428.",
+      "verified": true
     },
     "breakFreeCost": {
-      "value": 3060,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Stamina cost of Break Free."
+      "value": 5400,
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 5180 = 5400 - Defiance 220; geared (5400 - 220) x 0.95 = 4921.",
+      "verified": true
     },
     "bashCost": {
-      "value": 1283,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Stamina cost of Bash."
+      "value": 765,
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 675 = 765 - Savage Defense 90; geared (765 - 90) x 0.97 = 655.",
+      "verified": true
     },
     "movementSpeedPercent": {
       "value": 100,
@@ -173,6 +152,12 @@
       "value": 200,
       "source": "tables/uesp_Online_Movement_Speed_t00.csv row 'Walking'",
       "verified": true
+    },
+    "critResistance": {
+      "value": 1320,
+      "source": "data/patch-notes/html 087 (2020-06-09): All players will now have a baseline of 20% Critical Damage Reduction in the form of Critical Resistance, starting at level 10.",
+      "verified": true,
+      "note": "20% at 66 Critical Resistance per percent. Fixture 003 (naked) reads 1980 = 1320 + Resilience 660."
     },
     "sprintSpeedPercent": {
       "value": 140,
@@ -189,12 +174,8 @@
     },
     "healthPerPoint": {
       "value": 122,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Max Health granted by one attribute point at level 50. Fixtures 001 and 002 (22 and 15 points, same gear) fit 122 with a round 1600 Battle Spirit health; 111 would leave 1677.",
-      "alternatives": [
-        111
-      ]
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points) with base 16000, and fixtures 001 and 002 seven points apart.",
+      "verified": true
     },
     "magickaPerPoint": {
       "value": 111,
@@ -719,10 +700,10 @@
           "note": "Glyph of Health, large piece"
         },
         "small": {
-          "value": 477,
+          "value": 385,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "Glyph of Health, small piece"
+          "note": "Glyph of Health, small piece: 40.3% of the large piece, the ratio fixtures 002 and 003 give for Prismatic Defense (seven pieces total 2002 Magicka with 434 on the three large pieces)"
         },
         "values": [
           {
@@ -739,10 +720,10 @@
           "note": "Glyph of Magicka, large piece"
         },
         "small": {
-          "value": 434,
+          "value": 350,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "Glyph of Magicka, small piece"
+          "note": "Glyph of Magicka, small piece: 40.3% of the large piece, see Health"
         },
         "values": [
           {
@@ -759,10 +740,10 @@
           "note": "Glyph of Stamina, large piece"
         },
         "small": {
-          "value": 434,
+          "value": 350,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "Glyph of Stamina, small piece"
+          "note": "Glyph of Stamina, small piece: 40.3% of the large piece, see Health"
         },
         "values": [
           {
@@ -784,13 +765,13 @@
         },
         "small": {
           "value": [
-            239,
-            217,
-            217
+            192,
+            175,
+            175
           ],
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "Glyph of Prismatic Defense, small piece: Health, Magicka, Stamina"
+          "note": "Glyph of Prismatic Defense, small piece: Health, Magicka, Stamina. Fixtures 002 and 003: seven pieces (three large at 434) total 2002 Magicka and Stamina, so a small piece is 175, 40.3% of a large one; Health scaled the same way."
         },
         "values": [
           {
@@ -1464,14 +1445,14 @@
         "name": "Orzorga's Smoked Bear Haunch",
         "kind": "drink",
         "stats": {
-          "maxHealth": 3080,
-          "healthRecovery": 338,
-          "magickaRecovery": 338,
-          "staminaRecovery": 338
+          "maxHealth": 4316,
+          "healthRecovery": 406,
+          "magickaRecovery": 406,
+          "staminaRecovery": 406
         },
         "source": "UNVERIFIED",
         "verified": false,
-        "note": "Community tooltip value."
+        "note": "Fitted from fixtures 002 and 003 (geared minus naked, same character): Max Health 4316 with Prismatic small pieces at 192, Health Recovery 406 (1022 = (309 + 141 + 90 + 406) x 1.08). Magicka and Stamina Recovery fit 411 and 369 with the assumed Evocation and Wind Walker percents, so 406 is used for all three and the in game tooltip is wanted."
       },
       {
         "id": "ghastly-eye-bowl",

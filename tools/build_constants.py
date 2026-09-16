@@ -59,12 +59,12 @@ C['_meta'] = OrderedDict(
 
 # ---------------------------------------------------------------- base stats
 C['base'] = OrderedDict(
-    maxHealth=unverified(16000, 'Naked level 50 Max Health with 0 attribute points. UESP Online:Health prose was archived as PDF only, not present in the repo.', [15000]),
-    maxMagicka=unverified(12000, 'Naked level 50 Max Magicka with 0 attribute points. Fitted from fixture 001 (Yeets-Swiftly, back bar, Cyrodiil): with 7958 the sheet is 3874 short on both Magicka and Stamina before percent bonuses; with 12000 the residual is 168 on both. A naked reading settles it.', [7958]),
-    maxStamina=unverified(12000, 'Naked level 50 Max Stamina with 0 attribute points. Fitted from fixture 001, see maxMagicka.', [7958]),
-    healthRecovery=unverified(484, 'Naked level 50 Health Recovery (per 2 second tick as shown on the sheet).'),
-    magickaRecovery=unverified(514, 'Naked level 50 Magicka Recovery.'),
-    staminaRecovery=unverified(514, 'Naked level 50 Stamina Recovery.'),
+    maxHealth=sourced(16000, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19305 = 16000 + 15 x 122 + Lunar Blessings 915 + Hero\'s Vigor 560.'),
+    maxMagicka=sourced(12000, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19251 = (12000 + 49 x 111 + 915 + 520) x 1.02 Magicka Controller.'),
+    maxStamina=sourced(12000, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 13435 = 12000 + 915 + 520.'),
+    healthRecovery=unverified(309, 'Naked level 50 Health Recovery. fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 540 = base + Capacitor 141 + Robustness 90, so 309 if both passives give Health Recovery the full amount. The split is the unverified part.', [484]),
+    magickaRecovery=sourced(514, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 909 = (514 + 141 + 90) x 1.22 (Flourish 20%, Magicka Controller 2%).'),
+    staminaRecovery=sourced(514, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 894 = (514 + 141 + 90) x 1.20 (Flourish).'),
     weaponDamage=unverified(1000, 'Sheet Weapon Damage with no weapon equipped and no bonuses.', [0]),
     spellDamage=unverified(1000, 'Sheet Spell Damage with no weapon equipped and no bonuses.', [0]),
     critChancePercent=unverified(10, 'Base Critical Chance for every character.'),
@@ -77,18 +77,19 @@ C['base'] = OrderedDict(
     blockMitigationPercent=unverified(50, 'Base fraction of damage blocked.'),
     blockMitigationCapPercent=sourced(90, pn('076', '2019-08-26', 'Block mitigation now has a cap of 90%.')),
     blockCost=sourced(1750, 'fixtures 001 and 002 (Yeets-Swiftly): (1750 - 40 Tireless Guardian) x 0.91 (medium -12%, light +3%) = 1556 on the mace bar and x 0.64 more (Ice Staff) = 996 on the staff bar, both exact. The 2018 note (053, 2018-02-26) set 1730; no later note names the base, the sheet says 1750.', 'Flat reductions are subtracted from the base first, then percentage reductions (STRATEGIES.costOrder flatThenPercent); armor passives add up, a weapon passive multiplies separately (STRATEGIES.costWeaponPercent).'),
-    rollDodgeCost=unverified(2891, 'Base Stamina cost of Roll Dodge.', [3060]),
-    sprintCostPerSecond=unverified(500, 'Base Stamina cost of Sprint per second. Fitted from fixtures 001 and 002: (500 - 40 Sprinter) x 0.93 (Grace -3%, medium -4%) = 428 on the sheet. A naked reading confirms it.', [400]),
-    breakFreeCost=unverified(3060, 'Base Stamina cost of Break Free.'),
-    bashCost=unverified(1283, 'Base Stamina cost of Bash.'),
+    rollDodgeCost=sourced(4040, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 3800 on the sheet with Tumbling 240 taken off first. Geared (fixture 002) reads 3248 where the additive passive model gives 3306; the percent stacking for Roll Dodge is still open.'),
+    sprintCostPerSecond=sourced(500, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 460 = 500 - Sprinter 40; geared (500 - 40) x 0.93 = 428.'),
+    breakFreeCost=sourced(5400, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 5180 = 5400 - Defiance 220; geared (5400 - 220) x 0.95 = 4921.'),
+    bashCost=sourced(765, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 675 = 765 - Savage Defense 90; geared (765 - 90) x 0.97 = 655.'),
     movementSpeedPercent=sourced(100, src('uesp_Online_Movement_Speed_t00.csv', 'Walking'), 'Default walking speed 100%, maximum 200%.'),
     movementSpeedCapPercent=sourced(200, src('uesp_Online_Movement_Speed_t00.csv', 'Walking')),
+    critResistance=sourced(1320, pn('087', '2020-06-09', 'All players will now have a baseline of 20% Critical Damage Reduction in the form of Critical Resistance, starting at level 10.'), '20% at 66 Critical Resistance per percent. Fixture 003 (naked) reads 1980 = 1320 + Resilience 660.'),
     sprintSpeedPercent=sourced(140, src('uesp_Online_Movement_Speed_t00.csv', 'Running'), 'Running (sprint) default 140%, maximum 200%.'),
 )
 
 C['attributePoints'] = OrderedDict(
     total=sourced(64, 'task statement (level 50 characters have 64 attribute points)'),
-    healthPerPoint=unverified(122, 'Max Health granted by one attribute point at level 50. Fixtures 001 and 002 (22 and 15 points, same gear) fit 122 with a round 1600 Battle Spirit health; 111 would leave 1677.', [111]),
+    healthPerPoint=sourced(122, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points) with base 16000, and fixtures 001 and 002 seven points apart.'),
     magickaPerPoint=sourced(111, 'fixtures 001 and 002 (Yeets-Swiftly): 42 and 49 points with the same gear differ by 777 Max Magicka before percent bonuses, 7 x 111.'),
     staminaPerPoint=unverified(111, 'Max Stamina granted by one attribute point at level 50.'),
 )
@@ -227,12 +228,12 @@ C['enchants'] = OrderedDict(
     note='Truly Superb (CP160) gold glyph magnitudes. None of these are in data/reference; all are UNVERIFIED community values. Armor glyphs have a large value on head, chest, legs and shield, and a small value elsewhere.',
     armorLargeSlots=['head', 'chest', 'legs', 'shield'],
     armor=OrderedDict(
-        **{'Health': OrderedDict(large=unverified(954, 'Glyph of Health, large piece'), small=unverified(477, 'Glyph of Health, small piece'), values=[OrderedDict(stat='maxHealth', kind='flat')]),
-           'Magicka': OrderedDict(large=unverified(868, 'Glyph of Magicka, large piece'), small=unverified(434, 'Glyph of Magicka, small piece'), values=[OrderedDict(stat='maxMagicka', kind='flat')]),
-           'Stamina': OrderedDict(large=unverified(868, 'Glyph of Stamina, large piece'), small=unverified(434, 'Glyph of Stamina, small piece'), values=[OrderedDict(stat='maxStamina', kind='flat')]),
+        **{'Health': OrderedDict(large=unverified(954, 'Glyph of Health, large piece'), small=unverified(385, 'Glyph of Health, small piece: 40.3% of the large piece, the ratio fixtures 002 and 003 give for Prismatic Defense (seven pieces total 2002 Magicka with 434 on the three large pieces)'), values=[OrderedDict(stat='maxHealth', kind='flat')]),
+           'Magicka': OrderedDict(large=unverified(868, 'Glyph of Magicka, large piece'), small=unverified(350, 'Glyph of Magicka, small piece: 40.3% of the large piece, see Health'), values=[OrderedDict(stat='maxMagicka', kind='flat')]),
+           'Stamina': OrderedDict(large=unverified(868, 'Glyph of Stamina, large piece'), small=unverified(350, 'Glyph of Stamina, small piece: 40.3% of the large piece, see Health'), values=[OrderedDict(stat='maxStamina', kind='flat')]),
            'Prismatic Defense': OrderedDict(
                large=unverified([477, 434, 434], 'Glyph of Prismatic Defense, large piece: Health, Magicka, Stamina'),
-               small=unverified([239, 217, 217], 'Glyph of Prismatic Defense, small piece: Health, Magicka, Stamina'),
+               small=unverified([192, 175, 175], 'Glyph of Prismatic Defense, small piece: Health, Magicka, Stamina. Fixtures 002 and 003: seven pieces (three large at 434) total 2002 Magicka and Stamina, so a small piece is 175, 40.3% of a large one; Health scaled the same way.'),
                values=[OrderedDict(stat='maxHealth', kind='flat'), OrderedDict(stat='maxMagicka', kind='flat'), OrderedDict(stat='maxStamina', kind='flat')])}
     ),
     jewelry=OrderedDict(
@@ -295,7 +296,7 @@ foods = [
     food('dubious-camoran-throne', 'Dubious Camoran Throne', 'drink', 'Community tooltip value.', maxHealth=2856, maxStamina=3161, staminaRecovery=315),
     food('jewels-of-misrule', 'Jewels of Misrule', 'drink', 'Community tooltip value.', maxHealth=3326, healthRecovery=315, magickaRecovery=315, staminaRecovery=315),
     food('lava-foot-soup-and-saltrice', 'Lava Foot Soup-and-Saltrice', 'drink', 'Community tooltip value.', maxStamina=3080, staminaRecovery=338),
-    food('orzorgas-smoked-bear-haunch', "Orzorga's Smoked Bear Haunch", 'drink', 'Community tooltip value.', maxHealth=3080, healthRecovery=338, magickaRecovery=338, staminaRecovery=338),
+    food('orzorgas-smoked-bear-haunch', "Orzorga's Smoked Bear Haunch", 'drink', 'Fitted from fixtures 002 and 003 (geared minus naked, same character): Max Health 4316 with Prismatic small pieces at 192, Health Recovery 406 (1022 = (309 + 141 + 90 + 406) x 1.08). Magicka and Stamina Recovery fit 411 and 369 with the assumed Evocation and Wind Walker percents, so 406 is used for all three and the in game tooltip is wanted.', maxHealth=4316, healthRecovery=406, magickaRecovery=406, staminaRecovery=406),
     food('ghastly-eye-bowl', 'Ghastly Eye Bowl', 'drink', 'Community tooltip value.', maxMagicka=3080, magickaRecovery=338),
     food('green-drink-magicka-recovery', 'Green single recovery drink (Magicka Recovery)', 'drink', 'Crown Star-Magic Tea description on UESP Drinks page, era of the text unknown.', True, src('uesp_Online_Drinks_t06.csv', 'Crown Star-Magic Tea'), magickaRecovery=565),
     food('green-drink-stamina-recovery', 'Green single recovery drink (Stamina Recovery)', 'drink', 'Crown Endurance Tonic description on UESP Drinks page.', True, src('uesp_Online_Drinks_t06.csv', 'Crown Endurance Tonic'), staminaRecovery=565),
