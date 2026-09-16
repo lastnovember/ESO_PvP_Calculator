@@ -121,6 +121,7 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Bash Damage | 184 naked, 630 maces, 685 staff | 120 | The sheet shows total bash damage and it depends on the weapon; only the bonus is modelled. |
 | Damage Done | 11% | 5% | The sheet folds Deadly Aim (single target) into every damage type. Intended difference. |
 | Sneak Cost | 59 naked, 34 geared | not modelled | |
+| Back bar naked (fixture 004): Max Health 21236, Resistances 6003 | 19305 x 1.10 and 1730 + 4272 | 19305, 1730 | With Bull Netch, Hurricane, Resolving Vigor, Streak, Wield Soul and Temporal Guard slotted and nothing equipped, the sheet shows 10% more Max Health and 4272 more resistance than the front bar. The archived skill texts (Update 44) and every note through 2026-08 have no "while slotted" health or resistance on these abilities; Resolving Vigor's Minor Resolve (2974) is "after casting". Tooltips of Resolving Vigor and Hurricane, and the rest of the Active Effects list below Major Prophecy, would settle it. The other 22 readings of that bar match. |
 
 ## Settled by data supplied later
 
