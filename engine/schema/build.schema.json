@@ -115,7 +115,7 @@
       "description": "Engine strategy switches used during validation against fixtures. Omit for defaults.",
       "type": "object", "additionalProperties": false,
       "properties": {
-        "battleSpiritFlatHealth": { "type": "boolean", "default": false, "description": "UNVERIFIED legacy +5000 Max Health under Battle Spirit. Off until a fixture settles it." },
+        "battleSpiritFlatHealth": { "type": "boolean", "default": true, "description": "Battle Spirit flat Max Health (1600 before percent bonuses, settled by fixtures 001 and 002). Set false to leave it out." },
         "strategies": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Named order-of-operation strategies, see engine docs." }
       }
     }

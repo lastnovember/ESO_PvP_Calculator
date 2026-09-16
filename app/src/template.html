@@ -324,7 +324,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     scribing: {},
     gear: Object.fromEntries([...ARMOR.map((s) => [s, { set: null, weight: 'medium', trait: null, enchant: null }]), ...JEWELRY.map((s) => [s, { set: null, trait: null, enchant: null }])]),
     bars: [{ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null }, { mainHand: null, offHand: null, skills: [], ultimate: null, poison: null }],
-    flags: { battleSpiritFlatHealth: false, strategies: {} },
+    flags: { battleSpiritFlatHealth: true, strategies: {} },
   });
   let build = defaultBuild();
   let result = null;
@@ -843,7 +843,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     for (const sc of Object.values(b.scribing)) for (const k of ['focus', 'signature', 'affix']) if (sc && alias[sc[k]]) sc[k] = alias[sc[k]];
     b.gear = { ...fresh.gear, ...(obj.gear || {}) };
     b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null, ...((obj.bars || [])[i] || {}) }));
-    b.flags = { battleSpiritFlatHealth: false, strategies: {}, ...(obj.flags || {}) };
+    b.flags = { battleSpiritFlatHealth: true, strategies: {}, ...(obj.flags || {}) };
     if (!b.classSkillLines || b.classSkillLines.length !== 3) b.classSkillLines = [...(E.CLASS_LINES[b.class] || E.CLASS_LINES.Dragonknight)];
     if (!Array.isArray(b.classMastery)) b.classMastery = [];
     build = b; $('buildName').value = build.name || '';

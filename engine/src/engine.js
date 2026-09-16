@@ -75,6 +75,9 @@ export const STRATEGIES = {
   // 'sheet': the sheet shows the unreduced value (default).
   // 'pvpTarget': use the reduced value whenever build.battleSpirit is on.
   battleSpiritTargetValues: ['sheet', 'pvpTarget'],
+  // Cost percent reductions: armor passives add up, a weapon passive (Ice Staff block cost) multiplies on top.
+  // Fixtures 001 and 002: (1750 - 40) x 0.91 = 1556 on maces, x 0.64 more = 996 on the ice staff.
+  costWeaponPercent: ['multiplicative', 'additive'],
 };
 
 export const DEFAULT_STRATEGIES = Object.fromEntries(
@@ -127,12 +130,12 @@ function stripSetName(name) {
 }
 
 class Bucket {
-  constructor() { this.flat = 0; this.percent = 0; this.rows = []; this.override = null; }
-  add(kind, value, source) {
+  constructor() { this.flat = 0; this.percent = 0; this.weaponPercents = []; this.rows = []; this.override = null; }
+  add(kind, value, source, group) {
     if (kind === 'flat') this.flat += value;
-    else if (kind === 'percent') this.percent += value;
+    else if (kind === 'percent') { this.percent += value; if (group === 'weapon') this.weaponPercents.push(value); }
     else if (kind === 'set') this.override = value;
-    this.rows.push({ source, kind, value });
+    this.rows.push({ source, kind, value, ...(group ? { group } : {}) });
   }
 }
 
@@ -142,10 +145,11 @@ class Accumulator {
     if (!this.buckets.has(stat)) this.buckets.set(stat, new Bucket());
     return this.buckets.get(stat);
   }
-  add(stat, kind, value, source) {
+  add(stat, kind, value, source, group) {
     const targets = STAT_ALIASES[stat] || [stat];
-    for (const t of targets) this.bucket(t).add(kind, value, source);
+    for (const t of targets) this.bucket(t).add(kind, value, source, group);
   }
+  weaponPercents(stat) { return this.buckets.has(stat) ? this.buckets.get(stat).weaponPercents : []; }
   // Named buffs (Major Resolve etc.) do not stack with themselves.
   addNamed(name, effects, source) {
     if (this.named.has(name)) { this.dropped.push({ source, reason: `${name} already active from ${this.named.get(name)}` }); return; }
@@ -291,6 +295,7 @@ function barContext(build, barIndex, strategies) {
     oneHandAndShield: !!(mh && oh && oh.type === 'shield'),
     weaponTypes: weapons,
     slotted: new Set([...(bar.skills || []), ...(bar.ultimate ? [bar.ultimate] : [])]),
+    slottedAnyBar: new Set((build.bars || []).flatMap((b) => [...(b.skills || []), ...(b.ultimate ? [b.ultimate] : [])])),
     battleSpirit: !!build.battleSpirit,
     vampireStage: build.vampireStage || 0,
     werewolf: !!build.werewolf,
@@ -320,7 +325,7 @@ function evaluateCondition(cond, ctx, data) {
     case 'outOfCombat': return 1;
     case 'perStage': return 1;
     case 'slotted': {
-      if (cond.ability) return ctx.slotted.has(cond.ability) ? 1 : 0;
+      if (cond.ability) return (cond.eitherBar ? ctx.slottedAnyBar : ctx.slotted).has(cond.ability) ? 1 : 0;
       if (cond.line || cond.class) {
         // "for each Sorcerer ability slotted" counts every ability of that class, whatever its line;
         // "for each Shadow ability slotted" counts one line. The ultimate slot counts too (ctx.slotted).
@@ -371,8 +376,15 @@ function applyEffects(acc, effects, ctx, data, source, strategies) {
     if (m === 0) continue;
     let value = e.value * m;
     if (e.cap != null) value = Math.min(value, e.cap);
-    acc.add(e.stat, e.kind, value, source);
+    acc.add(e.stat, e.kind, value, source, hasWeaponCondition(e.condition) ? 'weapon' : undefined);
   }
+}
+
+function hasWeaponCondition(c) {
+  if (!c) return false;
+  if (c.type === 'weapon' || c.type === 'weaponTypeCount') return true;
+  if (c.type === 'all') return c.of.some(hasWeaponCondition);
+  return false;
 }
 
 function activePassives(build, data) {
@@ -414,11 +426,12 @@ function collect(build, data, barIndex, strategies) {
   // passives
   for (const [name, p] of activePassives(build, data)) applyEffects(acc, p.effects, ctx, data, `passive ${name}`, strategies);
 
-  // while slotted effects of abilities on this bar
-  for (const name of ctx.slotted) {
+  // while slotted effects: every slotted ability is offered, its condition decides (active bar, or either bar)
+  for (const name of ctx.slottedAnyBar) {
     const a = E.skills.actives[name];
     if (!a) { notes.push(`unknown ability ${name}`); continue; }
-    applyEffects(acc, a.whileSlotted, ctx, data, `slotted ${name}`, strategies);
+    const effs = ctx.slotted.has(name) ? a.whileSlotted : (a.whileSlotted || []).filter((e) => e.condition && evaluateCondition(e.condition, ctx, data) > 0);
+    applyEffects(acc, effs, ctx, data, `slotted ${name}`, strategies);
   }
 
   // Champion Points
@@ -556,15 +569,16 @@ function computeBar(build, data, barIndex, strategies) {
   const a = build.attributes;
   const pts = C.attributePoints;
 
-  const maxStat = (stat, base, points, perPoint) => {
-    let flat = acc.flat(stat);
+  const maxStat = (stat, base, points, perPoint, extraFlat = 0) => {
+    let flat = acc.flat(stat) + extraFlat;
     let after = 0;
     if (strategies.maxStatPercentBase === 'excludeFood' && foodStats) { after = foodStats.stats[stat] || 0; flat -= after; }
     let val = (v(base) + points * v(perPoint) + flat) * (1 + acc.pct(stat) / 100) + after;
     return val;
   };
-  let maxHealth = maxStat('maxHealth', B.maxHealth, a.health, pts.healthPerPoint);
-  if (ctx.battleSpirit && build.flags && build.flags.battleSpiritFlatHealth) maxHealth += v(C.battleSpirit.legacyFlatMaxHealth);
+  // Battle Spirit flat Max Health (1600, fixtures 001 and 002) goes in before percent bonuses, like the 2016 fix says
+  const bsFlatHealth = ctx.battleSpirit && !(build.flags && build.flags.battleSpiritFlatHealth === false) ? v(C.battleSpirit.legacyFlatMaxHealth) : 0;
+  let maxHealth = maxStat('maxHealth', B.maxHealth, a.health, pts.healthPerPoint, bsFlatHealth);
   const maxMagicka = maxStat('maxMagicka', B.maxMagicka, a.magicka, pts.magickaPerPoint);
   const maxStamina = maxStat('maxStamina', B.maxStamina, a.stamina, pts.staminaPerPoint);
 
@@ -606,9 +620,13 @@ function computeBar(build, data, barIndex, strategies) {
   const spellPenetration = acc.flat('spellPenetration');
 
   const cost = (stat, base) => {
-    const flat = acc.flat(stat); const pct = acc.pct(stat);
-    if (strategies.costOrder === 'percentThenFlat') return v(base) * (1 + pct / 100) + flat;
-    return (v(base) + flat) * (1 + pct / 100);
+    const flat = acc.flat(stat);
+    const weapon = acc.weaponPercents(stat);
+    const additive = strategies.costWeaponPercent === 'additive';
+    const pct = additive ? acc.pct(stat) : acc.pct(stat) - weapon.reduce((a, b) => a + b, 0);
+    const mult = (1 + pct / 100) * (additive ? 1 : weapon.reduce((a, b) => a * (1 + b / 100), 1));
+    if (strategies.costOrder === 'percentThenFlat') return v(base) * mult + flat;
+    return (v(base) + flat) * mult;
   };
   const blockCost = cost('blockCost', B.blockCost);
   const rollDodgeCost = cost('rollDodgeCost', B.rollDodgeCost);

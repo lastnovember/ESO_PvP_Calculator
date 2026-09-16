@@ -57,5 +57,5 @@
     }
   ],
 
-  "flags": { "battleSpiritFlatHealth": false }
+  "flags": { "battleSpiritFlatHealth": true }
 }

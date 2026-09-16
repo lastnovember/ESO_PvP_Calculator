@@ -138,7 +138,9 @@ test('Battle Spirit halves Health Recovery and reports the advanced deltas', () 
   assert.equal(r.bars[0].advanced.battleSpirit.damageTakenPercent, -50);
   assert.equal(r.bars[0].advanced.abilityRangeBonusMeters, 8);
   const flag = computeSheet(naked({ battleSpirit: true, flags: { battleSpiritFlatHealth: true } }), data);
-  assert.equal(flag.bars[0].main.maxHealth, B.maxHealth.value + 5000);
+  assert.equal(flag.bars[0].main.maxHealth, B.maxHealth.value + data.constants.battleSpirit.legacyFlatMaxHealth.value);
+  const off = computeSheet(naked({ battleSpirit: true, flags: { battleSpiritFlatHealth: false } }), data);
+  assert.equal(off.bars[0].main.maxHealth, B.maxHealth.value, 'flag false leaves the flat health out');
 });
 
 test('mundus scaled by Divines, food flat, glyph large and small pieces', () => {

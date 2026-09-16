@@ -204,7 +204,7 @@ function hasSelfSlot(c) {
 function replaceSelf(c, name) {
   if (!c) return c;
   if (c.type === 'all') return { type: 'all', of: c.of.map((x) => replaceSelf(x, name)) };
-  if (c.type === 'slotted' && c.ability === '$self') return { type: 'slotted', ability: name };
+  if (c.type === 'slotted' && c.ability === '$self') return { ...c, ability: name };
   return c;
 }
 

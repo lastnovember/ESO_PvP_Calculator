@@ -63,7 +63,9 @@ test('Battle Spirit alternate values are kept as conditions, not discarded', () 
 
 test('while slotted effects on abilities', () => {
   const r = parseText('While slotted on either bar, you gain Minor Expedition, increasing your Movement Speed by 15%.');
-  assert.deepEqual(r.effects, [{ buff: 'Minor Expedition', condition: { type: 'slotted', ability: '$self' }, raw: r.effects[0].raw }]);
+  assert.deepEqual(r.effects, [{ buff: 'Minor Expedition', condition: { type: 'slotted', ability: '$self', eitherBar: true }, raw: r.effects[0].raw }], 'on either bar is kept');
+  const b = parseText('While slotted you gain Minor Berserk, increasing your damage done by 5%.');
+  assert.deepEqual(b.effects[0].condition, { type: 'slotted', ability: '$self' }, 'plain while slotted is the active bar only');
   const m = parseText('While slotted you gain Major Savagery and Prophecy, increasing your Weapon Critical and Spell Critical rating by 2629 and your Max Magicka is increased by [2 / 3 / 4 / 5]%.');
   assert.deepEqual(m.effects.map((e) => e.buff || [e.stat, e.value]), ['Major Savagery', 'Major Prophecy', ['maxMagicka', 5]]);
 });

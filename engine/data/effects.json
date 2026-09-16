@@ -65965,7 +65965,8 @@
       "buff": "Minor Protection",
       "condition": {
        "type": "slotted",
-       "ability": "Bound Armor"
+       "ability": "Bound Armor",
+       "eitherBar": true
       },
       "raw": "While slotted on either ability bar, you gain Minor Protection, reducing your damage taken by 5%."
      }
@@ -65984,7 +65985,8 @@
       "buff": "Major Prophecy",
       "condition": {
        "type": "slotted",
-       "ability": "Bound Armaments"
+       "ability": "Bound Armaments",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Critical Rating by 2629."
      },
@@ -65992,7 +65994,8 @@
       "buff": "Major Savagery",
       "condition": {
        "type": "slotted",
-       "ability": "Bound Armaments"
+       "ability": "Bound Armaments",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Critical Rating by 2629."
      }
@@ -66011,7 +66014,8 @@
       "buff": "Minor Protection",
       "condition": {
        "type": "slotted",
-       "ability": "Bound Aegis"
+       "ability": "Bound Aegis",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Minor Protection and Minor Resolve, reducing your damage taken by 5% and increasing your Armor by 2974."
      },
@@ -66019,7 +66023,8 @@
       "buff": "Minor Resolve",
       "condition": {
        "type": "slotted",
-       "ability": "Bound Aegis"
+       "ability": "Bound Aegis",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Minor Protection and Minor Resolve, reducing your damage taken by 5% and increasing your Armor by 2974."
      }
@@ -67909,7 +67914,8 @@
       "buff": "Major Prophecy",
       "condition": {
        "type": "slotted",
-       "ability": "Grim Focus"
+       "ability": "Grim Focus",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      },
@@ -67917,7 +67923,8 @@
       "buff": "Major Savagery",
       "condition": {
        "type": "slotted",
-       "ability": "Grim Focus"
+       "ability": "Grim Focus",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      }
@@ -67936,7 +67943,8 @@
       "buff": "Major Prophecy",
       "condition": {
        "type": "slotted",
-       "ability": "Relentless Focus"
+       "ability": "Relentless Focus",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      },
@@ -67944,7 +67952,8 @@
       "buff": "Major Savagery",
       "condition": {
        "type": "slotted",
-       "ability": "Relentless Focus"
+       "ability": "Relentless Focus",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      }
@@ -67963,7 +67972,8 @@
       "buff": "Major Prophecy",
       "condition": {
        "type": "slotted",
-       "ability": "Merciless Resolve"
+       "ability": "Merciless Resolve",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      },
@@ -67971,7 +67981,8 @@
       "buff": "Major Savagery",
       "condition": {
        "type": "slotted",
-       "ability": "Merciless Resolve"
+       "ability": "Merciless Resolve",
+       "eitherBar": true
       },
       "raw": "When slotted on either bar, you gain Major Prophecy and Major Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      }
@@ -68270,7 +68281,8 @@
       "buff": "Major Prophecy",
       "condition": {
        "type": "slotted",
-       "ability": "Inferno"
+       "ability": "Inferno",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Major Prophecy and Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      },
@@ -68278,7 +68290,8 @@
       "buff": "Major Savagery",
       "condition": {
        "type": "slotted",
-       "ability": "Inferno"
+       "ability": "Inferno",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Major Prophecy and Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      }
@@ -68297,7 +68310,8 @@
       "buff": "Major Prophecy",
       "condition": {
        "type": "slotted",
-       "ability": "Incinerate"
+       "ability": "Incinerate",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Major Prophecy and Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      },
@@ -68305,7 +68319,8 @@
       "buff": "Major Savagery",
       "condition": {
        "type": "slotted",
-       "ability": "Incinerate"
+       "ability": "Incinerate",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Major Prophecy and Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      }
@@ -68324,7 +68339,8 @@
       "buff": "Major Prophecy",
       "condition": {
        "type": "slotted",
-       "ability": "Cauterize"
+       "ability": "Cauterize",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Major Prophecy and Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      },
@@ -68332,7 +68348,8 @@
       "buff": "Major Savagery",
       "condition": {
        "type": "slotted",
-       "ability": "Cauterize"
+       "ability": "Cauterize",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Major Prophecy and Savagery, increasing your Spell Critical and Weapon Critical rating by 2629."
      }
@@ -69912,7 +69929,8 @@
       "buff": "Minor Fortitude",
       "condition": {
        "type": "slotted",
-       "ability": "Repentance"
+       "ability": "Repentance",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Minor Fortitude, Minor Endurance, and Minor Intellect, increasing your Health, Stamina, and Magicka Recovery by 15%."
      },
@@ -69920,7 +69938,8 @@
       "buff": "Minor Endurance",
       "condition": {
        "type": "slotted",
-       "ability": "Repentance"
+       "ability": "Repentance",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Minor Fortitude, Minor Endurance, and Minor Intellect, increasing your Health, Stamina, and Magicka Recovery by 15%."
      },
@@ -69928,7 +69947,8 @@
       "buff": "Minor Intellect",
       "condition": {
        "type": "slotted",
-       "ability": "Repentance"
+       "ability": "Repentance",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Minor Fortitude, Minor Endurance, and Minor Intellect, increasing your Health, Stamina, and Magicka Recovery by 15%."
      }
@@ -70618,7 +70638,8 @@
       "buff": "Minor Protection",
       "condition": {
        "type": "slotted",
-       "ability": "Shadow Cloak"
+       "ability": "Shadow Cloak",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Minor Protection, reducing your damage taken by 5%."
      }
@@ -70637,7 +70658,8 @@
       "buff": "Minor Protection",
       "condition": {
        "type": "slotted",
-       "ability": "Shadowy Disguise"
+       "ability": "Shadowy Disguise",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Minor Protection, reducing your damage taken by 5%."
      }
@@ -70656,7 +70678,8 @@
       "buff": "Minor Protection",
       "condition": {
        "type": "slotted",
-       "ability": "Dark Cloak"
+       "ability": "Dark Cloak",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Minor Protection, reducing your damage taken by 5%."
      }
@@ -71628,7 +71651,8 @@
       "buff": "Major Brutality",
       "condition": {
        "type": "slotted",
-       "ability": "Tome-Bearer's Inspiration"
+       "ability": "Tome-Bearer's Inspiration",
+       "eitherBar": true
       },
       "raw": "While slotted on either ability bar, gain Major Brutality and Major Sorcery, increasing your Weapon Damage and Spell Damage by 20%."
      },
@@ -71636,7 +71660,8 @@
       "buff": "Major Sorcery",
       "condition": {
        "type": "slotted",
-       "ability": "Tome-Bearer's Inspiration"
+       "ability": "Tome-Bearer's Inspiration",
+       "eitherBar": true
       },
       "raw": "While slotted on either ability bar, gain Major Brutality and Major Sorcery, increasing your Weapon Damage and Spell Damage by 20%."
      }
@@ -71655,7 +71680,8 @@
       "buff": "Major Brutality",
       "condition": {
        "type": "slotted",
-       "ability": "Inspired Scholarship"
+       "ability": "Inspired Scholarship",
+       "eitherBar": true
       },
       "raw": "While slotted on either ability bar, gain Major Brutality and Major Sorcery, increasing your Weapon Damage and Spell Damage by 20%."
      },
@@ -71663,7 +71689,8 @@
       "buff": "Major Sorcery",
       "condition": {
        "type": "slotted",
-       "ability": "Inspired Scholarship"
+       "ability": "Inspired Scholarship",
+       "eitherBar": true
       },
       "raw": "While slotted on either ability bar, gain Major Brutality and Major Sorcery, increasing your Weapon Damage and Spell Damage by 20%."
      }
@@ -71682,7 +71709,8 @@
       "buff": "Major Brutality",
       "condition": {
        "type": "slotted",
-       "ability": "Recuperative Treatise"
+       "ability": "Recuperative Treatise",
+       "eitherBar": true
       },
       "raw": "While slotted on either ability bar, gain Major Brutality and Major Sorcery, increasing your Weapon Damage and Spell Damage by 20%."
      },
@@ -71690,7 +71718,8 @@
       "buff": "Major Sorcery",
       "condition": {
        "type": "slotted",
-       "ability": "Recuperative Treatise"
+       "ability": "Recuperative Treatise",
+       "eitherBar": true
       },
       "raw": "While slotted on either ability bar, gain Major Brutality and Major Sorcery, increasing your Weapon Damage and Spell Damage by 20%."
      }
@@ -71948,7 +71977,8 @@
       "buff": "Minor Expedition",
       "condition": {
        "type": "slotted",
-       "ability": "Concealed Weapon"
+       "ability": "Concealed Weapon",
+       "eitherBar": true
       },
       "raw": "While slotted on either bar, you gain Minor Expedition, increasing your Movement Speed by 15%."
      }

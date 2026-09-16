@@ -128,10 +128,10 @@
       "verified": true
     },
     "blockCost": {
-      "value": 1730,
-      "source": "data/patch-notes/html 053 (2018-02-26): Decreased the base cost of Block to 1730 from 2160.",
+      "value": 1750,
+      "source": "fixtures 001 and 002 (Yeets-Swiftly): (1750 - 40 Tireless Guardian) x 0.91 (medium -12%, light +3%) = 1556 on the mace bar and x 0.64 more (Ice Staff) = 996 on the staff bar, both exact. The 2018 note (053, 2018-02-26) set 1730; no later note names the base, the sheet says 1750.",
       "verified": true,
-      "note": "Same note: flat reductions to the cost of Block are subtracted from the base cost first, then percentage reductions apply (STRATEGIES.costOrder flatThenPercent)."
+      "note": "Flat reductions are subtracted from the base first, then percentage reductions (STRATEGIES.costOrder flatThenPercent); armor passives add up, a weapon passive multiplies separately (STRATEGIES.costWeaponPercent)."
     },
     "rollDodgeCost": {
       "value": 2891,
@@ -143,10 +143,13 @@
       ]
     },
     "sprintCostPerSecond": {
-      "value": 400,
+      "value": 500,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Base Stamina cost of Sprint per second."
+      "note": "Base Stamina cost of Sprint per second. Fitted from fixtures 001 and 002: (500 - 40 Sprinter) x 0.93 (Grace -3%, medium -4%) = 428 on the sheet. A naked reading confirms it.",
+      "alternatives": [
+        400
+      ]
     },
     "breakFreeCost": {
       "value": 3060,
@@ -188,16 +191,15 @@
       "value": 122,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Max Health granted by one attribute point at level 50.",
+      "note": "Max Health granted by one attribute point at level 50. Fixtures 001 and 002 (22 and 15 points, same gear) fit 122 with a round 1600 Battle Spirit health; 111 would leave 1677.",
       "alternatives": [
         111
       ]
     },
     "magickaPerPoint": {
       "value": 111,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Max Magicka granted by one attribute point at level 50."
+      "source": "fixtures 001 and 002 (Yeets-Swiftly): 42 and 49 points with the same gear differ by 777 Max Magicka before percent bonuses, 7 x 111.",
+      "verified": true
     },
     "staminaPerPoint": {
       "value": 111,
@@ -1608,10 +1610,10 @@
       }
     ],
     "legacyFlatMaxHealth": {
-      "value": 5000,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Flat Max Health bonus. data/patch-notes/html 014 (2016-01-26): Battle Spirit Health bonus will no longer be modified or increased by other Health percentage increases (temporary). data/patch-notes/html 017 (2016-03-22): fixed: Battle Spirit Health bonus would not be modified by Health percentage increases. data/patch-notes/html 022 (2016-06-13): All pets and summons will now have 5000 additional health in PvP areas. data/patch-notes/html 076 (2019-08-26): Pets will now properly gain the extra 5000 Health from Battle Spirit. No removal note through 2026-08-10 and no player facing statement of the current value. UESP does not list it. Behind flags.battleSpiritFlatHealth, default off, until a PvP zone fixture settles it. If it exists the 2016-03-22 fix means it IS multiplied by Health percentage bonuses."
+      "value": 1600,
+      "source": "fixtures 001 and 002 (Yeets-Swiftly): same gear, 22 Health points in Cyrodiil read 32701 and 15 points outside read 30001; 7 points are 7 x 122 x 1.10, the rest is 1600 x 1.10, so Battle Spirit adds 1600 Max Health before percent bonuses. Older notes said 5000: data/patch-notes/html 017 (2016-03-22): fixed: Battle Spirit Health bonus would not be modified by Health percentage increases. data/patch-notes/html 076 (2019-08-26): Pets will now properly gain the extra 5000 Health from Battle Spirit. No note carries the change to 1600.",
+      "verified": true,
+      "note": "Applied whenever Battle Spirit is on unless flags.battleSpiritFlatHealth is false."
     }
   },
   "vampireStages": {

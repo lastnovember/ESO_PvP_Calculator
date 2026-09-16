@@ -258,20 +258,22 @@ function parseSentence(sentenceIn, conds, depth = 0) {
   if ((m = rest.match(/^Grants you ((?:Major|Minor) [A-Z][a-z]+(?:,? (?:and )?(?:Major |Minor )?[A-Z][a-z]+)*)(?:,| increasing| reducing|\.|$)/i))) {
     return { status: 'ok', effects: parseBuffList(m[1]).map((b) => ({ buff: b, condition: base, raw })) };
   }
-  if ((m = rest.match(/^(?:While|When) slotted(?: on either (?:ability )?bar)?,?\s*(?:you )?gain ((?:Major|Minor) [A-Za-z]+(?:,? (?:and )?(?:Major |Minor )?[A-Z][a-z]+)*)(.*)$/i))) {
-    const buffs = parseBuffList(m[1]);
-    const cond = mergeCond(base, { type: 'slotted', ability: '$self' });
+  // "When slotted on either bar" applies from the other bar too (fixture 001: Merciless Resolve's Major Savagery
+  // shows on the ice staff bar); plain "While slotted" needs the ability on the active bar (Bird of Prey's Minor Berserk does not).
+  if ((m = rest.match(/^(?:While|When) slotted( on either (?:ability )?bar)?,?\s*(?:you )?gain ((?:Major|Minor) [A-Za-z]+(?:,? (?:and )?(?:Major |Minor )?[A-Z][a-z]+)*)(.*)$/i))) {
+    const buffs = parseBuffList(m[2]);
+    const cond = mergeCond(base, { type: 'slotted', ability: '$self', ...(m[1] ? { eitherBar: true } : {}) });
     const effs = buffs.map((b) => ({ buff: b, condition: cond, raw }));
-    const extra = m[2].match(/your Max Magicka is increased by ([\d.]+)%/i);
+    const extra = m[3].match(/your Max Magicka is increased by ([\d.]+)%/i);
     if (extra) effs.push(...mk('maxMagicka', toNum(extra[1]), 'percent', cond, raw));
     return { status: 'ok', effects: effs };
   }
-  if ((m = rest.match(/^(?:While|When) slotted(?: on either (?:ability )?bar)?( and you have a shield equipped)?,?\s*(.+)$/i))) {
-    let cond = { type: 'slotted', ability: '$self' };
-    if (m[1]) cond = mergeCond(cond, { type: 'weapon', weapon: 'shield' });
-    const inner = parseSentence(m[2], [...conds, cond], depth + 1);
+  if ((m = rest.match(/^(?:While|When) slotted( on either (?:ability )?bar)?( and you have a shield equipped)?,?\s*(.+)$/i))) {
+    let cond = { type: 'slotted', ability: '$self', ...(m[1] ? { eitherBar: true } : {}) };
+    if (m[2]) cond = mergeCond(cond, { type: 'weapon', weapon: 'shield' });
+    const inner = parseSentence(m[3], [...conds, cond], depth + 1);
     if (inner.effects.some((e) => e.stat || e.buff)) return inner;
-    return conditional(raw, { type: 'combat', detail: m[2].slice(0, 80) });
+    return conditional(raw, { type: 'combat', detail: m[3].slice(0, 80) });
   }
 
   // Explanatory sentence about a named buff: "Major Expedition increases your Movement Speed by 30%."
