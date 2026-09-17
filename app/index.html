@@ -80,6 +80,16 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 .topbar { position: sticky; top: 0; z-index: 20; background: var(--bg); padding: 8px 0; border-bottom: 1px solid var(--line2); margin-bottom: 10px; }
 .topbar .row { margin: 0; }
 .topbar input.name { flex: 1 1 160px; }
+.topbar .menu { display: none; }
+/* Phones: the build menu collapses behind one button; desktop keeps the full row */
+@media (max-width: 600px) {
+  .topbar .menu { display: flex; width: 100%; justify-content: space-between; align-items: center; background: var(--card2); border: 1px solid var(--line2); color: var(--text); }
+  .topbar .menu .nm { color: var(--gold2); font-family: var(--display); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .topbar .row { display: none; margin-top: 8px; }
+  .topbar.open .row { display: flex; }
+  /* 16px stops iOS from zooming into the JSON box on focus */
+  textarea { font-size: 16px; }
+}
 .fine { font-size: 12px; color: var(--muted); }
 [hidden] { display: none !important; }
 .hidden { display: none !important; }
@@ -131,7 +141,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 </head>
 <body>
 <div class="wrap">
-  <div class="topbar">
+  <div class="topbar" id="topbar">
+    <button class="menu" id="menuBtn" type="button" aria-controls="topbar"><span>Build menu</span><span class="nm" id="menuName"></span><span>&#9662;</span></button>
     <div class="row">
       <input class="name" id="buildName" placeholder="Build name">
       <button class="primary" id="saveBtn">Save</button>
@@ -1733,7 +1744,7 @@ return { computeSheet, validateBuild, countSetPieces, STRATEGIES, DEFAULT_STRATE
     b.flags = { battleSpiritFlatHealth: true, esoPlus: true, itemQuality: false, strategies: {}, ...(obj.flags || {}) };
     if (!b.classSkillLines || b.classSkillLines.length !== 3) b.classSkillLines = [...(E.CLASS_LINES[b.class] || E.CLASS_LINES.Dragonknight)];
     if (!Array.isArray(b.classMastery)) b.classMastery = [];
-    build = b; $('buildName').value = build.name || '';
+    build = b; $('buildName').value = build.name || ''; $('menuName').textContent = build.name || '';
     update(true);
   }
 
@@ -1756,12 +1767,21 @@ return { computeSheet, validateBuild, countSetPieces, STRATEGIES, DEFAULT_STRATE
   $('werewolfForm').addEventListener('change', (ev) => { build.werewolfForm = ev.target.checked; update(); });
   $('battleSpirit').addEventListener('change', (ev) => { build.battleSpirit = ev.target.checked; update(); });
   $('esoPlus').addEventListener('change', (ev) => { build.flags.esoPlus = ev.target.checked; update(); });
-  $('buildName').addEventListener('change', (ev) => { build.name = ev.target.value; });
+  $('buildName').addEventListener('change', (ev) => { build.name = ev.target.value; $('menuName').textContent = build.name || ''; });
   $('saveBtn').addEventListener('click', saveBuild);
   $('loadSel').addEventListener('change', (ev) => { const s = loadStore(); if (s[ev.target.value]) loadBuild(s[ev.target.value]); });
   $('deleteBtn').addEventListener('click', () => { const s = loadStore(); const n = $('loadSel').value || build.name; if (n && s[n] && confirm(`Delete saved build "${n}"?`)) { delete s[n]; saveStore(s); renderLoadList(); } });
   $('resetBtn').addEventListener('click', () => { if (confirm('Clear every field?')) { build = defaultBuild(); $('buildName').value = ''; update(); } });
-  $('exportBtn').addEventListener('click', () => { document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = JSON.stringify(build, null, 2); $('jsonBox').focus(); $('jsonBox').select(); });
+  const TOUCH = window.matchMedia('(pointer: coarse)').matches;
+  function showJson(text, placeholder) {
+    document.querySelector('details.card:last-of-type').open = true;
+    $('jsonBox').value = text; if (placeholder) $('jsonBox').placeholder = placeholder;
+    $('topbar').classList.remove('open');
+    if (TOUCH) { $('jsonBox').scrollIntoView({ block: 'start', behavior: 'smooth' }); return; }
+    $('jsonBox').focus(); if (text) $('jsonBox').select();
+  }
+  $('menuBtn').addEventListener('click', () => { $('topbar').classList.toggle('open'); });
+  $('exportBtn').addEventListener('click', () => showJson(JSON.stringify(build, null, 2)));
   $('fixtureBtn').addEventListener('click', () => {
     // labels match engine/tests/fixtures/TEMPLATE.fixture.json so the runner can read them
     const ADV_LABELS = ['Critical Chance', 'Critical Damage', 'Critical Resistance', 'Physical Penetration', 'Spell Penetration', 'Physical Resistance', 'Physical Mitigation', 'Spell Resistance', 'Spell Mitigation', 'Damage Done', 'Healing Done', 'Healing Taken', 'Damage Taken', 'Damage Shield Strength', 'Block Cost', 'Block Mitigation', 'Roll Dodge Cost', 'Sprint Cost', 'Break Free Cost', 'Bash Cost', 'Bash Damage', 'Movement Speed', 'Sprint Speed', 'Magicka Cost', 'Stamina Cost', 'Ultimate Cost'];
@@ -1769,9 +1789,9 @@ return { computeSheet, validateBuild, countSetPieces, STRATEGIES, DEFAULT_STRATE
     const bar = () => ({ main: blank(MAIN_ROWS.map(([label]) => label)), advanced: blank(ADV_LABELS) });
     const zone = () => ({ bar1: bar(), bar2: bar() });
     const fx = { name: build.name || 'my character', notes: 'Platform, date, game version, anything odd (group buffs, potion, Emperor, keep bonuses).', gameVersion: '', tolerance: { flat: 1, percent: 0.15 }, build: JSON.parse(JSON.stringify(build)), readings: { outOfPvpZone: zone(), inPvpZone: zone() } };
-    document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = JSON.stringify(fx, null, 2); $('jsonBox').focus(); $('jsonBox').select();
+    showJson(JSON.stringify(fx, null, 2));
   });
-  $('importBtn').addEventListener('click', () => { document.querySelector('details.card:last-of-type').open = true; $('jsonBox').value = ''; $('jsonBox').placeholder = 'Paste a build JSON here, then tap "Load JSON below"'; $('jsonBox').focus(); });
+  $('importBtn').addEventListener('click', () => showJson('', 'Paste a build JSON here, then tap "Load JSON below"'));
   $('copyBtn').addEventListener('click', async () => { try { await navigator.clipboard.writeText($('jsonBox').value); } catch (e) { $('jsonBox').select(); document.execCommand('copy'); } });
   $('applyJsonBtn').addEventListener('click', () => { try { const obj = JSON.parse($('jsonBox').value); if (obj.build && obj.readings) loadBuild(obj.build); else loadBuild(obj); } catch (e) { alert('Not valid JSON: ' + e.message); } });
   $('bulkApply').addEventListener('click', bulkApply);

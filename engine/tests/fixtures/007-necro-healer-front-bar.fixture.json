@@ -1,0 +1,234 @@
+{
+  "name": "007 Necromancer healer (Lastnovember), front bar, Cyrodiil (readings pending)",
+  "status": "open",
+  "captured": "2026-09-17 (build only, photos pending)",
+  "location": "",
+  "bar": "front (restoration staff)",
+  "attributes": {
+    "health": 47,
+    "magicka": 17,
+    "stamina": 0
+  },
+  "mundus": "The Lady",
+  "food": "Orzorga's Smoked Bear Haunch",
+  "photos": [],
+  "notes": "Breton Necromancer subclassed Restoring Light and Green Balance, healer PvP build: Earthgore, Trainee, Robes of Transmutation, Spell Power Cure, Markyn. Battle Spirit on for the photos. Readings to be filled from the character sheet photos.",
+  "gameVersion": "Update 50 era, 2026-09",
+  "tolerance": {
+    "flat": 1,
+    "percent": 0.15
+  },
+  "sheetExtras": {},
+  "activeEffects": [],
+  "build": {
+    "schemaVersion": 1,
+    "name": "Necro healer",
+    "race": "Breton",
+    "class": "Necromancer",
+    "classSkillLines": [
+      "Restoring Light",
+      "Green Balance",
+      "Living Death"
+    ],
+    "classMastery": [],
+    "attributes": {
+      "health": 47,
+      "magicka": 17,
+      "stamina": 0
+    },
+    "championPoints": {
+      "enabled": true,
+      "slotted": {
+        "warfare": [
+          "Soothing Tide",
+          "Cleansing Revival",
+          "Swift Renewal",
+          "Resilience"
+        ],
+        "fitness": [
+          "Celerity",
+          "Pain's Refuge",
+          "Slippery",
+          "Fortified"
+        ],
+        "craft": [
+          "War Mount",
+          "Gifted Rider",
+          "Steed's Blessing",
+          "Sustaining Shadows"
+        ]
+      }
+    },
+    "mundus": "The Lady",
+    "food": "orzorgas-smoked-bear-haunch",
+    "vampireStage": 0,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": true,
+    "passives": {
+      "mode": "all",
+      "exclude": []
+    },
+    "skillLines": {
+      "Fighters Guild": true,
+      "Mages Guild": true,
+      "Psijic Order": true,
+      "Undaunted": true,
+      "Assault": true,
+      "Support": true,
+      "Soul Magic": true
+    },
+    "scribing": {
+      "Ulfsild's Contingency": {
+        "focus": "Healing",
+        "signature": "Class Flourish",
+        "affix": "Minor Resolve"
+      }
+    },
+    "gear": {
+      "head": {
+        "set": "Earthgore",
+        "weight": "heavy",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "chest": {
+        "set": "Armor of the Trainee",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Prismatic Defense"
+      },
+      "shoulders": {
+        "set": "Earthgore",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "waist": {
+        "set": "Robes of Transmutation",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "hands": {
+        "set": "Spell Power Cure",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "legs": {
+        "set": "Robes of Transmutation",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "feet": {
+        "set": "Robes of Transmutation",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "necklace": {
+        "set": "Spell Power Cure",
+        "trait": "Protective",
+        "enchant": "Spell Damage"
+      },
+      "ring1": {
+        "set": "Markyn Ring of Majesty",
+        "trait": "Protective",
+        "enchant": "Spell Damage"
+      },
+      "ring2": {
+        "set": "Spell Power Cure",
+        "trait": "Protective",
+        "enchant": "Spell Damage"
+      }
+    },
+    "bars": [
+      {
+        "mainHand": {
+          "set": "Robes of Transmutation",
+          "type": "restoration staff",
+          "trait": "Powered",
+          "enchant": "Weapon Damage"
+        },
+        "offHand": null,
+        "skills": [
+          "Enchanted Growth",
+          "Spirit Guardian",
+          "Overflowing Altar",
+          "Extended Ritual",
+          "Race Against Time"
+        ],
+        "ultimate": "Healing Thicket",
+        "poison": null
+      },
+      {
+        "mainHand": {
+          "set": "Spell Power Cure",
+          "type": "dagger",
+          "trait": "Powered",
+          "enchant": "Weapon Damage"
+        },
+        "offHand": {
+          "set": "Spell Power Cure",
+          "type": "shield",
+          "trait": "Reinforced",
+          "enchant": "Stamina"
+        },
+        "skills": [
+          "Budding Seeds",
+          "Restoring Focus",
+          "Echoing Vigor",
+          "Ulfsild's Contingency",
+          "Siege Weapon Shield"
+        ],
+        "ultimate": "Renewing Animation",
+        "poison": null
+      }
+    ],
+    "flags": {
+      "battleSpiritFlatHealth": true,
+      "esoPlus": true,
+      "itemQuality": false,
+      "strategies": {}
+    }
+  },
+  "readings": {
+    "inPvpZone": {
+      "bar1": {
+        "main": {
+          "Max Health": null,
+          "Max Magicka": null,
+          "Max Stamina": null,
+          "Health Recovery": null,
+          "Magicka Recovery": null,
+          "Stamina Recovery": null,
+          "Weapon Damage": null,
+          "Spell Damage": null,
+          "Weapon Critical": null,
+          "Spell Critical": null,
+          "Critical Damage": null,
+          "Physical Penetration": null,
+          "Spell Penetration": null,
+          "Physical Resistance": null,
+          "Spell Resistance": null
+        },
+        "advanced": {
+          "Critical Resistance": null,
+          "Bash Cost": null,
+          "Block Cost": null,
+          "Break Free Cost": null,
+          "Roll Dodge Cost": null,
+          "Sprint Cost": null,
+          "Bash Damage": null,
+          "Block Mitigation": null,
+          "Sprint Speed": null,
+          "Healing Done": null,
+          "Healing Taken": null,
+          "Damage Done": null
+        }
+      }
+    }
+  }
+}
