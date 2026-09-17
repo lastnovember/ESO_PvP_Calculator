@@ -41,3 +41,10 @@ combination that matches.
 The keys in `main` and `advanced` are the labels the game uses as best known.
 If your game shows a different label, rename the key; the runner maps common
 spellings. Unknown keys are listed, never silently ignored.
+
+## Record of readings
+
+`REVISIONS.md` lists every reading taken so far, what it changed and what it left open.
+Each fixture JSON also carries `captured`, `location`, `bar`, `attributes`, `photos` (downscaled
+copies in `photos/`), `sheetExtras` (every number on the sheet the runner does not compare yet)
+and `activeEffects` (the buff list on the character sheet at the time).

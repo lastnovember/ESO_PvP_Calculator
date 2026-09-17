@@ -1,12 +1,73 @@
 {
   "name": "003 Yeets-Swiftly naked, front bar, Elden Root Wayshrine (no Battle Spirit)",
   "status": "open",
+  "captured": "2026-09-16",
+  "location": "Elden Root Wayshrine (Grahtwood)",
+  "bar": "front",
+  "attributes": {
+    "magicka": 49,
+    "health": 15,
+    "stamina": 0
+  },
+  "mundus": "The Lover",
+  "food": "none",
+  "photos": [
+    "photos/003-main.jpg",
+    "photos/003-advanced-1.jpg",
+    "photos/003-advanced-2.jpg",
+    "photos/003-advanced-3.jpg",
+    "photos/003-active-effects.jpg"
+  ],
   "notes": "Xbox, 2026-09-16, five phone photos. No armor, jewelry, weapons or food; The Lover mundus kept; same skills on the bars; 49 Magicka and 15 Health points. Active effects shown: Minor Berserk (Bird of Prey), Gallop (Continuous Attack), Boon The Lover, Major Savagery and Prophecy (Merciless Resolve). Front bar. Settles base Max Health 16000, Max Magicka and Stamina 12000, base Magicka and Stamina Recovery 514, Health Recovery 309 (540 less Capacitor 141 and Robustness 90), block cost 1750 (1710 after Tireless Guardian), sprint cost 500, bash 765, break free 5400, roll dodge 4040, sprint speed base 140%, and the 1320 baseline Critical Resistance. Sneak cost 59 and Bash Damage 184 are not modelled.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
     "percent": 0.15
   },
+  "sheetExtras": {
+    "Sneak Cost": 59,
+    "Block Move Speed": 42,
+    "Sneak Speed": 60,
+    "Sprint Speed": 144,
+    "resistancePercent": {
+      "Flame": 2.6,
+      "Frost": 2.6,
+      "Shock": 2.6,
+      "Magic": 2.6,
+      "Disease": 2.6,
+      "Poison": 2.6,
+      "Bleed": 2.6
+    },
+    "damagePercent": {
+      "Physical": 16,
+      "Bleed": 11,
+      "Disease": 11,
+      "Flame": 11,
+      "Frost": 11,
+      "Magic": 11,
+      "Oblivion": 11,
+      "Poison": 11,
+      "Shock": 16
+    },
+    "Critical Damage": 40,
+    "Healing Done": 2,
+    "Critical Healing": 20,
+    "Healing Taken": 2,
+    "Experience": 10,
+    "Gold": 10,
+    "Crafting Inspiration": 10,
+    "Tel Var": 10,
+    "Alliance Points": 10
+  },
+  "activeEffects": [
+    "ESO Plus Member",
+    "Increased Experience (50% scroll, 26 minutes left)",
+    "Minor Berserk",
+    "Gallop",
+    "Boon: The Lover",
+    "Major Savagery",
+    "Major Prophecy"
+  ],
   "build": {
     "schemaVersion": 1,
     "name": "Yeets-Swiftly naked",

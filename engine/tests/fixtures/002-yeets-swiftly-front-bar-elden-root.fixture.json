@@ -1,12 +1,64 @@
 {
   "name": "002 Yeets-Swiftly, front bar, Elden Root Wayshrine (no Battle Spirit)",
   "status": "open",
+  "captured": "2026-09-16",
+  "location": "Elden Root Wayshrine (Grahtwood)",
+  "bar": "front (mace and mace)",
+  "attributes": {
+    "magicka": 49,
+    "health": 15,
+    "stamina": 0
+  },
+  "mundus": "The Lover",
+  "food": "Orzorga's Smoked Bear Haunch (per the user)",
+  "photos": [
+    "photos/002-main.jpg",
+    "photos/002-advanced-1.jpg",
+    "photos/002-advanced-2.jpg",
+    "photos/002-advanced-3.jpg"
+  ],
   "notes": "Xbox, 2026-09-16, four phone photos, same gear and food as fixture 001 with 49 Magicka and 15 Health points. Outside Cyrodiil. The reading is the front bar (dual maces): Weapon Damage 4362, Penetration 9491, Critical 33.4% match that bar. Health Recovery 1022 is the unhalved value of fixture 001's 511. Damage type percents: 11% everywhere (Deadly Aim 6% + Minor Berserk from Bird of Prey 5%), Physical and Shock 16% (Energized). Critical Healing 28%.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
     "percent": 0.15
   },
+  "sheetExtras": {
+    "Sneak Cost": 34,
+    "Block Move Speed": 42,
+    "Sneak Speed": 62,
+    "Sprint Speed": 154,
+    "resistancePercent": {
+      "Flame": 29.0,
+      "Frost": 29.0,
+      "Shock": 29.0,
+      "Magic": 29.0,
+      "Disease": 27.9,
+      "Poison": 27.9,
+      "Bleed": 27.9
+    },
+    "damagePercent": {
+      "Physical": 16,
+      "Bleed": 11,
+      "Disease": 11,
+      "Flame": 11,
+      "Frost": 11,
+      "Magic": 11,
+      "Oblivion": 11,
+      "Poison": 11,
+      "Shock": 16
+    },
+    "Critical Damage": 48,
+    "Healing Done": 2,
+    "Critical Healing": 28,
+    "Healing Taken": 4,
+    "Experience": 10,
+    "Gold": 10,
+    "Crafting Inspiration": 10,
+    "Tel Var": 10,
+    "Alliance Points": 10
+  },
+  "activeEffects": "not photographed",
   "build": {
     "schemaVersion": 1,
     "name": "Yeets-Swiftly",

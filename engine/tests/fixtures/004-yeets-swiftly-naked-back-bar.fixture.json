@@ -1,12 +1,73 @@
 {
   "name": "004 Yeets-Swiftly naked, back bar, Elden Root Wayshrine (no Battle Spirit)",
   "status": "open",
+  "captured": "2026-09-16",
+  "location": "Elden Root Wayshrine (Grahtwood)",
+  "bar": "back",
+  "attributes": {
+    "magicka": 49,
+    "health": 15,
+    "stamina": 0
+  },
+  "mundus": "The Lover",
+  "food": "none",
+  "photos": [
+    "photos/004-main.jpg",
+    "photos/004-advanced-1.jpg",
+    "photos/004-advanced-2.jpg",
+    "photos/004-advanced-3.jpg",
+    "photos/004-active-effects.jpg"
+  ],
   "notes": "Xbox, 2026-09-16, five phone photos, same state as fixture 003 with the back bar active (Bull Netch, Hurricane, Resolving Vigor, Streak, Wield Soul, Temporal Guard). Active effects shown: Minor Protection (Temporal Guard slotted), Gallop, Boon The Lover, Major Savagery and Prophecy (Merciless Resolve on the other bar). Max Health 21236 is fixture 003's 19305 x 1.10 (Resolving Vigor slotted). Weapon Damage 1216 = 1000 + 2 x 108 Expert Mage. Resistance 6003 is 4272 above Fortified. Bash Damage 176 against 184 on the front bar.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
     "percent": 0.15
   },
+  "sheetExtras": {
+    "Sneak Cost": 59,
+    "Block Move Speed": 42,
+    "Sneak Speed": 60,
+    "Sprint Speed": 144,
+    "resistancePercent": {
+      "Flame": 2.6,
+      "Frost": 2.6,
+      "Shock": 2.6,
+      "Magic": 2.6,
+      "Disease": 2.6,
+      "Poison": 2.6,
+      "Bleed": 2.6
+    },
+    "damagePercent": {
+      "Physical": 11,
+      "Bleed": 6,
+      "Disease": 6,
+      "Flame": 6,
+      "Frost": 6,
+      "Magic": 6,
+      "Oblivion": 6,
+      "Poison": 6,
+      "Shock": 11
+    },
+    "Critical Damage": 25,
+    "Healing Done": 2,
+    "Critical Healing": 20,
+    "Healing Taken": 2,
+    "Experience": 10,
+    "Gold": 10,
+    "Crafting Inspiration": 10,
+    "Tel Var": 10,
+    "Alliance Points": 10
+  },
+  "activeEffects": [
+    "ESO Plus Member",
+    "Increased Experience",
+    "Minor Protection",
+    "Gallop",
+    "Boon: The Lover",
+    "Major Savagery",
+    "Major Prophecy (list continues below the photo)"
+  ],
   "build": {
     "schemaVersion": 1,
     "name": "Yeets-Swiftly naked",
