@@ -65,6 +65,14 @@ python3 tools/extract_scribing_pdf.py Online-Scribing.pdf data/reference/tables
 It rewrites the four CSVs, prints the `tables_index.json` entries, and refuses
 to run if a row or an icon cannot be placed. Then run `npm run effects`.
 
+## Skills for Claude Code
+
+`.claude/skills/archive-check` is the procedure for verifying any value against the archive
+(patch notes first, then the esolog table, the UESP tables, and the fixtures) and citing it.
+`.claude/skills/fixture-calibration` is the procedure for turning stat sheet photos into a
+fixture and settling constants from the differences. `tools/patch_notes_text.py` builds the
+searchable patch note text both skills grep (`.cache/patch-notes-text`, git ignored).
+
 ## Fill in a fixture from the game
 
 Fixtures are the ground truth. Each one holds a build and the numbers the game
