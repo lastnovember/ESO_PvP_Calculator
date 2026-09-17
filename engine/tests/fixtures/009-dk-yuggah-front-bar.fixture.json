@@ -17,7 +17,7 @@
     "photos/009-advanced-2.jpg",
     "photos/009-advanced-3.jpg"
   ],
-  "notes": "Xbox, 2026-09-17, four phone photos (no Active Effects page). Argonian Dragonknight, native class with Class Mastery Inexorable Descent and Wildfire Embers, Bloodspawn, Trainee, Rallying Cry, Essence Thief, Markyn (Swift), The Mage, Bewitched Sugar Skulls, 52 Magicka and 12 Health. In Cyrodiil, Battle Spirit on; the user said the Undaunted skill line is not unlocked on this character, so skillLines.Undaunted is false.",
+  "notes": "Xbox, 2026-09-17, four phone photos (no Active Effects page). Argonian Dragonknight, native class with Class Mastery Inexorable Descent and Wildfire Embers, Bloodspawn, Trainee, Rallying Cry, Essence Thief, Markyn (Swift), The Mage, Bewitched Sugar Skulls, 52 Magicka and 12 Health. In Cyrodiil, Battle Spirit on; the user said the Undaunted skill line is not unlocked on this character, so skillLines.Undaunted is false. Update 2026-09-17 (crawl pass): Magicka Recovery matches with note 135's Spell Harm glyph recovery (10 + 16 + 16). Resistances 70 LOW in the engine, the same 70 the Templar reads high.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,

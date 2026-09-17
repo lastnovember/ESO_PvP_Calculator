@@ -189,6 +189,26 @@ now apply; Gaze of Sithis and Velothi parse in full. Match counts unchanged (no 
 a two handed melee weapon or an Emperor). Magicka Recovery, roll dodge and the armor slot factors
 stay open: the pages hold no rating table and no recovery source the engine lacks.
 
+## 2026-09-17, full crawl pass (1550 UESP pages, 41 forum threads, 150 ZOS articles, 205 patch notes as text)
+
+- Patch note 135 (2023-03-28, Update 37): Physical Harm glyphs add 10 Stamina Recovery and Spell
+  Harm glyphs 10 Magicka Recovery at all qualities. Scaled by Infused (16), this is the Magicka
+  Recovery gap on every character: Yeets 42, DK 42, Necro 30, Templar 26. Fixtures 001 and 002
+  corrected to Spell Damage glyphs (user: "I chose Weapon Damage glyphs instead of Spell Damage ones
+  on the jewelry"); the correction entries carry the old value.
+- The same pair (001 back bar 1433, 002 front bar 1457, Magicka Controller only on the front bar)
+  pins the pre-percent recovery at 1156, so Bear Haunch's 369.65 is truncated to 369: Magicka and
+  Stamina food values truncate, Health values round.
+- Templar (005, 006): Health 415, Magicka 1411 and 1389, Stamina 1785 are exact with Roksa the
+  Warped's 70 per recovery (note 194 and the set page) and nothing from the ring exported as
+  Prismatic Recovery. That glyph is set to 0 until its tooltip is known.
+- Roll dodge: the Light, Medium and Heavy Armor Bonuses pages confirm 3, 4 and 3 percent per
+  piece; the order that fits Yeets and the DK within 1 is still not found.
+- No armor rating table anywhere in the crawl (Armor, the armor line pages, Nirnhoned, the ZOS
+  articles): the fitted medium 1995 and light 1354 chest values stand. The Templar reads 70 above
+  and the DK 70 below the engine, one quality step (4%) of a medium head, shoulder, leg or foot piece.
+- Match counts: 001 50, 002 50, 003 55, 004 52, 005 46, 006 48, 007 50, 008 50, 009 51, 010 51.
+
 ## Open questions for the next reading
 
 - Answered 2026-09-17: the Necromancer has every Support passive (so Combat Medic at that gate was
@@ -198,14 +218,12 @@ stay open: the pages hold no rating table and no recovery source the engine lack
   gaps (dual wield 236 and 876, resistances 514 to 859, Magicka Recovery +11 to +42, roll dodge)
   are worked from the archive and from differencing the readings on file.
 
-- Tooltip text of Orzorga's Smoked Bear Haunch (three characters read Magicka Recovery high).
+- Answered by the crawl (2026-09-17): the Magicka Recovery offsets were the harm glyphs' 10 recovery (note 135); Bear Haunch's tooltip is no longer needed.
 - Armor value on each armor piece tooltip, any character (resistances 514 to 825 short on all).
 - A reading of the necromancer outside Cyrodiil: Healing Done should drop by 12 if Curative Curse
   is the Battle Spirit reading, and the crit and Magicka Recovery offsets should stay.
 
-- Templar: is Unnatural Resistance bought; tooltip of the Prismatic Recovery ring glyph; tooltip
-  of Orzorga's Smoked Bear Haunch; the armor value on each equipped piece's tooltip (seven
-  numbers); Physical and Bleed Damage percents re-read at rest.
+- Templar: the glyph on the Protective ring (exported as Prismatic Recovery, reads as nothing on the sheet) and the quality of the two Roksa pieces (resistances 70 high in the engine, one purple medium piece's worth); Physical and Bleed Damage percents re-read at rest.
 - Templar naked front bar (no gear, no food, mundus may stay), then with only the two axes, then
   only the main axe: settles the vampire Health Recovery, the sneak cost, and the dual wield and
   Nirnhoned Weapon Damage rules.
@@ -213,6 +231,5 @@ stay open: the pages hold no rating table and no recovery source the engine lack
 - Tooltips of Resolving Vigor and Hurricane as they read now, and the rest of the back bar's
   Active Effects list.
 - Trait on each mace and which one is main hand (dual wield Weapon Damage 236 short).
-- Exact tooltip of Orzorga's Smoked Bear Haunch (recovery fits 411 Magicka, 369 Stamina, 406 Health).
 - An armor only reading to split armor ratings from Markyn's per set armor (resistances 825 short
   on every geared reading).

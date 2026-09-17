@@ -480,3 +480,21 @@ test('real data: dual wield off hand share, active buffs, vampire penalty withou
   assert.equal(computeSheet(v, real).bars[0].main.healthRecovery, Math.round(base * 0.4));
   assert.equal(real.effects.skills.passives['Unnatural Resistance'], undefined);
 });
+
+test('real data: harm glyphs add 10 recovery scaled by Infused, Prismatic Recovery reads 0 until settled', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked();
+  const before = computeSheet(n, real).bars[0].main;
+  n.gear.necklace = { set: null, trait: 'Arcane', enchant: 'Spell Damage' };
+  n.gear.ring1 = { set: null, trait: 'Infused', enchant: 'Spell Damage' };
+  n.gear.ring2 = { set: null, trait: 'Infused', enchant: 'Weapon Damage' };
+  const r = computeSheet(n, real).bars[0];
+  const mag = r.breakdown.magickaRecovery.filter((x) => /glyph/.test(x.source)).map((x) => x.value);
+  const sta = r.breakdown.staminaRecovery.filter((x) => /glyph/.test(x.source)).map((x) => x.value);
+  assert.deepEqual(mag, [10, 16], 'Spell Harm: 10 plain, 16 Infused (note 135)');
+  assert.deepEqual(sta, [16], 'Physical Harm: 16 on the Infused ring');
+  assert.equal(r.main.weaponDamage - before.weaponDamage, 174 + 278 + 278, 'the damage part is unchanged');
+  n.gear.ring2 = { set: null, trait: 'Protective', enchant: 'Prismatic Recovery' };
+  const p = computeSheet(n, real).bars[0];
+  assert.equal(p.breakdown.healthRecovery.filter((x) => /Prismatic/.test(x.source)).length, 0, 'a zero magnitude adds no row');
+});

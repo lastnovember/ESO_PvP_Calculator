@@ -262,12 +262,12 @@ C['enchants'] = OrderedDict(
                values=[OrderedDict(stat='maxHealth', kind='flat'), OrderedDict(stat='maxMagicka', kind='flat'), OrderedDict(stat='maxStamina', kind='flat')])}
     ),
     jewelry=OrderedDict(
-        **{'Weapon Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Physical Harm. Grants Weapon and Spell Damage since Update 37: data/patch-notes/html 135 (2023-03-28): Glyph of Physical Harm and Glyph of Spell Harm: These enchantments now grant Weapon and Spell Damage, rather than only Weapon or Spell Damage.'), values=[OrderedDict(stat='weaponDamage', kind='flat'), OrderedDict(stat='spellDamage', kind='flat')]),
-           'Spell Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Magical Harm. Grants Weapon and Spell Damage since Update 37 (same note as Weapon Damage).'), values=[OrderedDict(stat='weaponDamage', kind='flat'), OrderedDict(stat='spellDamage', kind='flat')]),
+        **{'Weapon Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Physical Harm. Grants Weapon and Spell Damage since Update 37: data/patch-notes/html 135 (2023-03-28): Glyph of Physical Harm and Glyph of Spell Harm: These enchantments now grant Weapon and Spell Damage, rather than only Weapon or Spell Damage.'), values=[OrderedDict(stat='weaponDamage', kind='flat'), OrderedDict(stat='spellDamage', kind='flat'), OrderedDict(stat='staminaRecovery', kind='flat', magnitude=sourced(10, pn('135', '2023-03-28', 'Physical Harm glyphs now add 10 Stamina Recovery at all qualities, while Spell Harm glyphs now add 10 Magicka Recovery at all qualities.'), 'Scaled by the Infused jewelry trait like the damage part (16 on a gold Infused piece).'))]),
+           'Spell Damage': OrderedDict(magnitude=unverified(174, 'Glyph of Increase Magical Harm. Grants Weapon and Spell Damage since Update 37 (same note as Weapon Damage).'), values=[OrderedDict(stat='weaponDamage', kind='flat'), OrderedDict(stat='spellDamage', kind='flat'), OrderedDict(stat='magickaRecovery', kind='flat', magnitude=sourced(10, pn('135', '2023-03-28', 'Physical Harm glyphs now add 10 Stamina Recovery at all qualities, while Spell Harm glyphs now add 10 Magicka Recovery at all qualities.'), 'Scaled by the Infused jewelry trait like the damage part (16 on a gold Infused piece). Fits fixtures 002 (Yeets, plain plus two Infused: 42), 007/008 (Necro, three plain: 30), 009/010 (DK, plain plus two Infused: 42) and 005/006 (Templar, plain plus one Infused: 26) to within rounding.'))]),
            'Magicka Recovery': OrderedDict(magnitude=unverified(169, 'Glyph of Magicka Recovery'), values=[OrderedDict(stat='magickaRecovery', kind='flat')]),
            'Stamina Recovery': OrderedDict(magnitude=unverified(169, 'Glyph of Stamina Recovery'), values=[OrderedDict(stat='staminaRecovery', kind='flat')]),
            'Health Recovery': OrderedDict(magnitude=unverified(169, 'Glyph of Health Recovery'), values=[OrderedDict(stat='healthRecovery', kind='flat')]),
-           'Prismatic Recovery': OrderedDict(magnitude=unverified(84, 'Glyph of Prismatic Recovery, each of the three recoveries'), values=[OrderedDict(stat='healthRecovery', kind='flat'), OrderedDict(stat='magickaRecovery', kind='flat'), OrderedDict(stat='staminaRecovery', kind='flat')]),
+           'Prismatic Recovery': OrderedDict(magnitude=unverified(0, 'Glyph of Prismatic Recovery, each of the three recoveries. The one reading with the glyph (fixtures 005 and 006: Templar, Wood Elf vampire stage 3, Smoked Bear Haunch, Roksa the Warped, a plain Protective ring exported as Prismatic Recovery) shows no share from it: Magicka Recovery 1411 = (514 + 141 + 369 + 26 harm glyph recovery + 70 Roksa) x 1.26, Stamina Recovery 1785 = (514 + 141 + 258 + 369 + 70) x 1.32, Health Recovery 415 = (309 + 141 + 406 + 70) x 1.12 x 0.4, all exact, and any glyph share above 0 breaks all three. Either the ring carries a different glyph than the export says or the glyph does not show on the sheet. Set to 0 until a tooltip of that ring or a second reading settles the magnitude (community value about 69 each).', [69]), values=[OrderedDict(stat='healthRecovery', kind='flat'), OrderedDict(stat='magickaRecovery', kind='flat'), OrderedDict(stat='staminaRecovery', kind='flat')]),
            'Reduce Spell Cost': OrderedDict(magnitude=unverified(203, 'Glyph of Reduce Spell Cost'), values=[OrderedDict(stat='magickaCostReduction', kind='flat')]),
            'Reduce Feat Cost': OrderedDict(magnitude=unverified(203, 'Glyph of Reduce Feat Cost'), values=[OrderedDict(stat='staminaCostReduction', kind='flat')]),
            'Reduce Block Cost': OrderedDict(magnitude=unverified(203, 'Glyph of Shielding'), values=[OrderedDict(stat='blockCost', kind='flat', negative=True)]),
@@ -346,6 +346,10 @@ foods = [
 # Food buffs in the esolog coefficient table are listed at a lower level; the CP160 gold values are
 # the table values times 1.1735 (Bewitched Sugar Skulls 3937/3622/393 in the table against the
 # known 4620/4250/462; Smoked Bear Haunch 3675/346/315 against the fixture fit 4316/406/369).
+# Magicka and Stamina values are truncated, not rounded: Bear Haunch recovery is 369 (315 x 1.1735 = 369.65).
+# Fixtures 001 and 002 (Yeets, same jewelry, Magicka Controller only on the front bar) read 1433 = 1156 x 1.24
+# and 1457 = 1156 x 1.26, which pins the pre-percent total at 1156 = 514 + 141 + 90 + 42 + 369; with 370 the
+# back bar would read 1434. Health values keep rounding (4316, 4624, 406 and 462 all need it).
 FOOD_SCALE = 1.1735
 # Health values scale a touch higher than Magicka and Stamina ones: Bear Haunch Max Health 4316 (fixtures 002 and 005)
 # over the esolog 3675 is 1.17442, and Sugar Skulls Max Health 4624 (fixture 009: 30684) is 3937 x 1.17442, while
@@ -372,7 +376,7 @@ def esolog_food(id_):
     stats = OrderedDict()
     for n, keys in slots.items():
         for k in keys:
-            stats[k] = int(round(consts[n] * (FOOD_SCALE_HEALTH if k in ('maxHealth', 'healthRecovery') else FOOD_SCALE)))
+            stats[k] = int(round(consts[n] * FOOD_SCALE_HEALTH)) if k in ('maxHealth', 'healthRecovery') else int(consts[n] * FOOD_SCALE)
     return food(id_, name, kind, f'esolog buff "{buff}" ({row[7].strip()}) x {FOOD_SCALE} for CP160 gold.', True, src('esolog_skill_coefficients_t00.csv', buff), **stats)
 foods = [f for f in foods if f['id'] not in ESOLOG_FOODS] + [esolog_food(i) for i in ESOLOG_FOODS]
 C['foods'] = OrderedDict(note='Food and drink catalog. The app also accepts custom values typed from a tooltip. Racial food duration passives do not change magnitudes.', items=foods)

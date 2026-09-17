@@ -17,7 +17,7 @@
     "photos/001-advanced-2.jpg",
     "photos/001-advanced-3.jpg"
   ],
-  "notes": "Xbox, 2026-09-14, four phone photos of the character sheet supplied by the user with the build exported from the app. Location Eastern Elsweyr Gate is in Cyrodiil, so Battle Spirit is taken as active (Health Recovery 511 is half of a plausible 1022; the sheet's Healing Taken 4% does not show the Battle Spirit penalty). The reading is the back bar: Weapon Damage 4038 and Penetration 4879 match that bar. Healing Done 22% includes Combat Medic (+20% near a Keep). Critical Chance 27.4% is 12% above every known passive source, which is Major Savagery and Prophecy; source unknown (potion or group buff?). Critical Resistance 2404 is 1320 above the known sources. Damage Done 6% on the sheet is Deadly Aim (single target) and Physical and Shock 11% add Energized. The user did not check Battle Spirit; the same readings out of Cyrodiil would settle the Health Recovery and Health questions.",
+  "notes": "Xbox, 2026-09-14, four phone photos of the character sheet supplied by the user with the build exported from the app. Location Eastern Elsweyr Gate is in Cyrodiil, so Battle Spirit is taken as active (Health Recovery 511 is half of a plausible 1022; the sheet's Healing Taken 4% does not show the Battle Spirit penalty). The reading is the back bar: Weapon Damage 4038 and Penetration 4879 match that bar. Healing Done 22% includes Combat Medic (+20% near a Keep). Critical Chance 27.4% is 12% above every known passive source, which is Major Savagery and Prophecy; source unknown (potion or group buff?). Critical Resistance 2404 is 1320 above the known sources. Damage Done 6% on the sheet is Deadly Aim (single target) and Physical and Shock 11% add Energized. The user did not check Battle Spirit; the same readings out of Cyrodiil would settle the Health Recovery and Health questions. Update 2026-09-17 (crawl pass): the jewelry glyphs are Spell Damage (user); with note 135's 10 Magicka Recovery per Spell Harm glyph (16 Infused) and Bear Haunch recovery truncated to 369, Magicka Recovery 1433 = 1156 x 1.24 and Stamina Recovery 1515 match.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
@@ -175,17 +175,17 @@
       "necklace": {
         "set": "Rallying Cry",
         "trait": "Bloodthirsty",
-        "enchant": "Weapon Damage"
+        "enchant": "Spell Damage"
       },
       "ring1": {
         "set": "Markyn Ring of Majesty",
         "trait": "Infused",
-        "enchant": "Weapon Damage"
+        "enchant": "Spell Damage"
       },
       "ring2": {
         "set": "Rallying Cry",
         "trait": "Infused",
-        "enchant": "Weapon Damage"
+        "enchant": "Spell Damage"
       }
     },
     "bars": [
@@ -282,8 +282,8 @@
       "date": "2026-09-17",
       "field": "build.gear.necklace/ring1/ring2.enchant",
       "from": "Weapon Damage",
-      "to": "(pending the exact glyph name)",
-      "reason": "User reports the jewelry glyphs were entered as Weapon Damage but are a different glyph. Both harm glyphs grant the same Weapon and Spell Damage since Update 37 (note 135), so the sheet numbers do not change; the field is corrected once the glyph name is known."
+      "to": "Spell Damage",
+      "reason": "User, 2026-09-17: the jewelry glyphs were entered as Weapon Damage but the character wears Spell Damage (Spell Harm) glyphs, which account for 10 Magicka Recovery per item. Both harm glyphs grant the same Weapon and Spell Damage since Update 37 (note 135); the same note adds 10 Magicka Recovery to Spell Harm and 10 Stamina Recovery to Physical Harm, scaled by Infused. With Spell Damage glyphs the Magicka and Stamina Recovery readings match."
     }
   ]
 }

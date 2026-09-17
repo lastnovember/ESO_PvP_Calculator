@@ -579,7 +579,12 @@ function collect(build, data, barIndex, strategies) {
         const g = C.enchants.jewelry[it.enchant];
         if (g && g.magnitude && g.magnitude.value != null) {
           const mult = infused ? 1 + C.traits.jewelry.Infused.values[0].value / 100 : 1;
-          for (const e of g.values) acc.add(e.stat, e.kind || 'flat', Math.round(g.magnitude.value * mult) * (e.negative ? -1 : 1), `${src} glyph ${it.enchant}`);
+          // a value may carry its own magnitude (the harm glyphs' 10 recovery, the Prismatic Recovery health share)
+          for (const e of g.values) {
+            const mag = e.magnitude ? v(e.magnitude) : g.magnitude.value;
+            if (!mag) continue;
+            acc.add(e.stat, e.kind || 'flat', Math.round(mag * mult) * (e.negative ? -1 : 1), `${src} glyph ${it.enchant}`);
+          }
         }
       }
       // weapon glyphs: procs, no sheet effect

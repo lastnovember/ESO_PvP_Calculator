@@ -58,9 +58,9 @@ table at the bottom with the fixture name.
 | Health | 954 large piece, 477 small piece |
 | Magicka, Stamina | 868 large, 434 small |
 | Prismatic Defense | 477 / 434 / 434 large, 239 / 217 / 217 small |
-| Weapon Damage, Spell Damage (jewelry) | 174 |
+| Weapon Damage, Spell Damage (jewelry) | 174 Weapon and Spell Damage, plus 10 Stamina Recovery (Physical Harm) or 10 Magicka Recovery (Spell Harm), 16 on an Infused piece (note 135, verified) |
 | Health, Magicka, Stamina Recovery (jewelry) | 169 |
-| Prismatic Recovery | 84 each |
+| Prismatic Recovery | 0 each (the only reading with one, Templar 005/006, shows no share; community about 69) |
 | Reduce Spell Cost, Reduce Feat Cost | 203 |
 | Reduce Block Cost (Shielding) | 203 |
 | Potion Cooldown | 5.2 s |
@@ -110,18 +110,16 @@ Named items are community tooltip values.
 | Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
 | Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
 
-## Open gaps across the ten readings (2026-09-17, after the dual wield, vampire and armor fits)
+## Open gaps across the ten readings (2026-09-17, after the full crawl pass)
 
-Every reading now matches 43 to 55 of its numbers (`engine/tests/fixtures/INDEX.md`). What is left, in every case the same on both bars of a character:
+Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.md`). What is left, in every case the same on both bars of a character:
 
 | Gap | Readings | Game vs engine | Best reading of it |
 | --- | --- | --- | --- |
-| Magicka Recovery | all four characters | +14 (Templar), +34 and +37 (Necro), +45 (DK), +50 and +52 (Yeets) after percents; +11, +29, +42, +41 before | Not race (Argonian and Khajiit read the same 41), not food (the DK eats Sugar Skulls), not glyphs, not Max Magicka. It grows with Magicka attribute points (0, 17, 49, 52 points give 11, 29, 41, 42) and flattens above 40, but the UESP Magicka page says outright that the attribute does not raise recovery and gives base 514 at level 50 with no attribute term, and none of the nine archived forum threads on recovery names a scaling source. Its formula puts one skill group in a separate multiplier with food divided out; tried against the readings it does not fit either. Open. |
-| Resistances | all geared readings | within 14 to 73 after the armor fit (was 514 to 859) | The slot factors (big 0.879, small 0.5 of the chest) are still community values. The archived UESP Armor page (2026-09-12) has no rating table and the Nirnhoned page gives only the Nirnhoned armor value, so the fit stands. |
+| Prismatic Recovery glyph | Templar 005 and 006 | the ring exported as Prismatic Recovery adds nothing | With the Spell Harm glyph recovery and Bear Haunch recovery 369, Health 415, Magicka 1411 and 1389, Stamina 1785 are exact only when that ring adds 0 to all three; any share breaks all of them (69 each would read 446, 1498, 1876). Roksa the Warped's 70 per recovery is in those numbers (note 194 and the set page agree on 70). Either the ring carries another glyph or the glyph does not show. Needs the ring tooltip, the one thing the archive cannot give. |
+| Resistances | all geared readings | Yeets engine +19, Necro +14, Templar +70, DK -70 | The slot factors (big 0.879, small 0.5 of the chest) are still community values; the full crawl (1550 pages, the armor line pages, Nirnhoned, the ZOS articles) holds no rating table. The Templar and DK offsets are exactly 4% of a medium head, shoulder, leg or foot piece (1754), one quality step, in opposite directions. |
 | Roll Dodge Cost | Yeets 3248 (engine 3306), DK 3315 (3344), Necro 3420 (exact) | | No order (flat first or percent first, additive or multiplicative) with any per piece values from 0 to 6% fits all three within 1; the closest is flat first, additive, medium 4, heavy 2, light 2.5 (total error 10). Tumbling is at both stages everywhere (user). The archived armor line pages list the passives by name only. |
-| Health Recovery, vampire | Templar 415 (engine 452) | | The 60% stage penalty is right (Unnatural Resistance is gone); the remaining 37 is exactly the Prismatic Recovery ring's 84 through Constitution and the penalty, so that glyph's Health Recovery share is the suspect. |
 | Weapon and Spell Critical | Necro 19.4 and 16.4 (engine 18.5 and 15.5) | | One percent (about 206 rating) on both bars from no archived source. |
-| Stamina Recovery | Templar 1785 (engine 1804) | | 15 before percents, the only stamina miss on file. |
 | Physical and Bleed Damage | Templar front bar 10 and 5 (engine 5 and 0) | | A buff running out during the photos (the same reading carries Major Brutality and Sorcery in its first photo). |
 | Yeets back bar naked (004) | Max Health 21236 (19305), resistances 6003 (1730) | | 10% Max Health and 4272 resistance from something slotted on that bar; no archived "while slotted" text on Bull Netch, Hurricane, Resolving Vigor, Streak, Wield Soul or Temporal Guard gives it. |
 | Bash Damage | all | not modelled | Weapon dependent total; the sheet's number is not the bonus. |
@@ -138,6 +136,7 @@ Every reading now matches 43 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 
 | Constant | Settled value | Note |
 | --- | --- | --- |
+| Harm glyph recovery | Spell Harm (Spell Damage) 10 Magicka Recovery, Physical Harm (Weapon Damage) 10 Stamina Recovery at every quality, scaled by Infused (16) | 135, 2023-03-28 (Update 37). Closes the Magicka Recovery gap on all four characters: Yeets and DK 42 (plain plus two Infused), Necro 30, Templar 26. |
 | Battle Spirit damage taken | -50% | 108, 2021-09-07 (up from 44%) |
 | Battle Spirit healing received | -55% | 108, 2021-09-07. History: 50% (2015-09-14), 60%, 55% (2020-11-09), 50%, 55% |
 | Battle Spirit Health Recovery | -50% | 103, 2021-06-08 (new penalty) |
@@ -161,6 +160,8 @@ Every reading now matches 43 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 
 | Constant | Settled value | Fixture |
 | --- | --- | --- |
+| Food Magicka and Stamina values | truncated, not rounded (Bear Haunch recovery 369 = 315 x 1.1735 = 369.65 cut) | 001 and 002: the same jewelry reads 1433 = 1156 x 1.24 on the back bar and 1457 = 1156 x 1.26 on the front bar, which pins the pre-percent sum at 1156; 370 would read 1434 |
+| Roksa the Warped 1 item | 70 Health, Magicka and Stamina Recovery, counted | 005 and 006 (with the Prismatic Recovery ring at 0) |
 | Orzorga's Smoked Bear Haunch Max Health | 4316 (esolog x 1.1735 gives 4313) | 002 and 005 |
 | Block Mitigation heavy armor | one point per piece added after the Champion Point percent | 002, 003, 005 |
 | Spell Warding under an armor percent | not multiplied (Spell = Physical + 726) | 005, 006 |

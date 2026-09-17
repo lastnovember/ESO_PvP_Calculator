@@ -1100,6 +1100,16 @@
           {
             "stat": "spellDamage",
             "kind": "flat"
+          },
+          {
+            "stat": "staminaRecovery",
+            "kind": "flat",
+            "magnitude": {
+              "value": 10,
+              "source": "data/patch-notes/html 135 (2023-03-28): Physical Harm glyphs now add 10 Stamina Recovery at all qualities, while Spell Harm glyphs now add 10 Magicka Recovery at all qualities.",
+              "verified": true,
+              "note": "Scaled by the Infused jewelry trait like the damage part (16 on a gold Infused piece)."
+            }
           }
         ]
       },
@@ -1118,6 +1128,16 @@
           {
             "stat": "spellDamage",
             "kind": "flat"
+          },
+          {
+            "stat": "magickaRecovery",
+            "kind": "flat",
+            "magnitude": {
+              "value": 10,
+              "source": "data/patch-notes/html 135 (2023-03-28): Physical Harm glyphs now add 10 Stamina Recovery at all qualities, while Spell Harm glyphs now add 10 Magicka Recovery at all qualities.",
+              "verified": true,
+              "note": "Scaled by the Infused jewelry trait like the damage part (16 on a gold Infused piece). Fits fixtures 002 (Yeets, plain plus two Infused: 42), 007/008 (Necro, three plain: 30), 009/010 (DK, plain plus two Infused: 42) and 005/006 (Templar, plain plus one Infused: 26) to within rounding."
+            }
           }
         ]
       },
@@ -1165,10 +1185,13 @@
       },
       "Prismatic Recovery": {
         "magnitude": {
-          "value": 84,
+          "value": 0,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "Glyph of Prismatic Recovery, each of the three recoveries"
+          "note": "Glyph of Prismatic Recovery, each of the three recoveries. The one reading with the glyph (fixtures 005 and 006: Templar, Wood Elf vampire stage 3, Smoked Bear Haunch, Roksa the Warped, a plain Protective ring exported as Prismatic Recovery) shows no share from it: Magicka Recovery 1411 = (514 + 141 + 369 + 26 harm glyph recovery + 70 Roksa) x 1.26, Stamina Recovery 1785 = (514 + 141 + 258 + 369 + 70) x 1.32, Health Recovery 415 = (309 + 141 + 406 + 70) x 1.12 x 0.4, all exact, and any glyph share above 0 breaks all three. Either the ring carries a different glyph than the export says or the glyph does not show on the sheet. Set to 0 until a tooltip of that ring or a second reading settles the magnitude (community value about 69 each).",
+          "alternatives": [
+            69
+          ]
         },
         "values": [
           {
@@ -1790,8 +1813,8 @@
         "stats": {
           "maxHealth": 4316,
           "healthRecovery": 406,
-          "magickaRecovery": 370,
-          "staminaRecovery": 370
+          "magickaRecovery": 369,
+          "staminaRecovery": 369
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Smoked Bear Haunch'",
         "verified": true,
@@ -1819,7 +1842,7 @@
           "maxHealth": 3329,
           "healthRecovery": 406,
           "maxStamina": 3080,
-          "staminaRecovery": 338
+          "staminaRecovery": 337
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Artaeum Takeaway Broth'",
         "verified": true,
@@ -1833,7 +1856,7 @@
           "maxHealth": 3329,
           "healthRecovery": 406,
           "maxMagicka": 3080,
-          "magickaRecovery": 338
+          "magickaRecovery": 337
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Clockwork Citrus Filet'",
         "verified": true,
@@ -1870,8 +1893,8 @@
         "name": "Jewels of Misrule",
         "kind": "drink",
         "stats": {
-          "staminaRecovery": 370,
-          "magickaRecovery": 370,
+          "staminaRecovery": 369,
+          "magickaRecovery": 369,
           "maxHealth": 4069
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Jewels of Misrule'",
@@ -1907,8 +1930,8 @@
         "name": "Witchmother's Party Punch",
         "kind": "drink",
         "stats": {
-          "magickaRecovery": 370,
-          "staminaRecovery": 370,
+          "magickaRecovery": 369,
+          "staminaRecovery": 369,
           "healthRecovery": 406
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Witchmother's Party Punch'",

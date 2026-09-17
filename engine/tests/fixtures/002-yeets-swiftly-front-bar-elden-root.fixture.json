@@ -17,7 +17,7 @@
     "photos/002-advanced-2.jpg",
     "photos/002-advanced-3.jpg"
   ],
-  "notes": "Xbox, 2026-09-16, four phone photos, same gear and food as fixture 001 with 49 Magicka and 15 Health points. Outside Cyrodiil. The reading is the front bar (dual maces): Weapon Damage 4362, Penetration 9491, Critical 33.4% match that bar. Health Recovery 1022 is the unhalved value of fixture 001's 511. Damage type percents: 11% everywhere (Deadly Aim 6% + Minor Berserk from Bird of Prey 5%), Physical and Shock 16% (Energized). Critical Healing 28%.",
+  "notes": "Xbox, 2026-09-16, four phone photos, same gear and food as fixture 001 with 49 Magicka and 15 Health points. Outside Cyrodiil. The reading is the front bar (dual maces): Weapon Damage 4362, Penetration 9491, Critical 33.4% match that bar. Health Recovery 1022 is the unhalved value of fixture 001's 511. Damage type percents: 11% everywhere (Deadly Aim 6% + Minor Berserk from Bird of Prey 5%), Physical and Shock 16% (Energized). Critical Healing 28%. Update 2026-09-17 (crawl pass): the jewelry glyphs are Spell Damage (user); Magicka Recovery 1457 = 1156 x 1.26 (Magicka Controller on this bar) with the 10 and 16 recovery per Spell Harm glyph and Bear Haunch recovery 369.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
@@ -175,17 +175,17 @@
       "necklace": {
         "set": "Rallying Cry",
         "trait": "Bloodthirsty",
-        "enchant": "Weapon Damage"
+        "enchant": "Spell Damage"
       },
       "ring1": {
         "set": "Markyn Ring of Majesty",
         "trait": "Infused",
-        "enchant": "Weapon Damage"
+        "enchant": "Spell Damage"
       },
       "ring2": {
         "set": "Rallying Cry",
         "trait": "Infused",
-        "enchant": "Weapon Damage"
+        "enchant": "Spell Damage"
       }
     },
     "bars": [
@@ -278,8 +278,8 @@
       "date": "2026-09-17",
       "field": "build.gear.necklace/ring1/ring2.enchant",
       "from": "Weapon Damage",
-      "to": "(pending the exact glyph name)",
-      "reason": "User reports the jewelry glyphs were entered as Weapon Damage but are a different glyph. Both harm glyphs grant the same Weapon and Spell Damage since Update 37 (note 135), so the sheet numbers do not change; the field is corrected once the glyph name is known."
+      "to": "Spell Damage",
+      "reason": "User, 2026-09-17: the jewelry glyphs were entered as Weapon Damage but the character wears Spell Damage (Spell Harm) glyphs, which account for 10 Magicka Recovery per item. Both harm glyphs grant the same Weapon and Spell Damage since Update 37 (note 135); the same note adds 10 Magicka Recovery to Spell Harm and 10 Stamina Recovery to Physical Harm, scaled by Infused. With Spell Damage glyphs the Magicka and Stamina Recovery readings match."
     }
   ]
 }
