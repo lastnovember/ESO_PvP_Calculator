@@ -115,6 +115,7 @@
       "description": "Engine strategy switches used during validation against fixtures. Omit for defaults.",
       "type": "object", "additionalProperties": false,
       "properties": {
+        "esoPlus": { "type": "boolean", "default": true, "description": "ESO Plus member: the sheet shows 10% Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points." },
         "battleSpiritFlatHealth": { "type": "boolean", "default": true, "description": "Battle Spirit flat Max Health (1600 before percent bonuses, settled by fixtures 001 and 002). Set false to leave it out." },
         "strategies": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Named order-of-operation strategies, see engine docs." }
       }

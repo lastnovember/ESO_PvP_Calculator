@@ -172,6 +172,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       </div>
       <div class="row">
         <label class="toggle"><input type="checkbox" id="battleSpirit"> Battle Spirit</label>
+        <label class="toggle"><input type="checkbox" id="esoPlus"> ESO Plus</label>
       </div>
       <h3>Guild and Alliance War Skill Lines (Passives)</h3>
       <div class="checks" id="lineToggles"></div>
@@ -324,7 +325,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     scribing: {},
     gear: Object.fromEntries([...ARMOR.map((s) => [s, { set: null, weight: 'medium', trait: null, enchant: null }]), ...JEWELRY.map((s) => [s, { set: null, trait: null, enchant: null }])]),
     bars: [{ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null }, { mainHand: null, offHand: null, skills: [], ultimate: null, poison: null }],
-    flags: { battleSpiritFlatHealth: true, strategies: {} },
+    flags: { battleSpiritFlatHealth: true, esoPlus: true, strategies: {} },
   });
   let build = defaultBuild();
   let result = null;
@@ -533,6 +534,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     $('wwFormWrap').classList.toggle('hidden', !build.werewolf);
     $('werewolfForm').checked = !!build.werewolfForm;
     $('battleSpirit').checked = !!build.battleSpirit;
+    $('esoPlus').checked = !(build.flags && build.flags.esoPlus === false);
     const lt = $('lineToggles'); lt.innerHTML = '';
     for (const line of TOGGLE_LINES) {
       const cb = el('input', { type: 'checkbox' }); cb.checked = build.skillLines[line] !== false;
@@ -740,30 +742,35 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   }
 
   // ------------------------------------------------------------ results
+  // Same order as the in game character sheet (fixtures 001 to 004), with Critical Damage and Critical Healing added to the main sheet
   const MAIN_ROWS = [
-    ['Max Health', 'maxHealth'], ['Max Magicka', 'maxMagicka'], ['Max Stamina', 'maxStamina'],
-    ['Health Recovery', 'healthRecovery'], ['Magicka Recovery', 'magickaRecovery'], ['Stamina Recovery', 'staminaRecovery'],
-    ['Weapon Damage', 'weaponDamage'], ['Spell Damage', 'spellDamage'],
-    ['Weapon Critical', 'weaponCritChance', '%'], ['Spell Critical', 'spellCritChance', '%'], ['Critical Damage', 'critDamage', '%'],
-    ['Physical Penetration', 'physicalPenetration'], ['Spell Penetration', 'spellPenetration'],
-    ['Physical Resistance', 'physicalResistance'], ['Spell Resistance', 'spellResistance'],
+    ['Max Magicka', 'maxMagicka'], ['Max Health', 'maxHealth'], ['Max Stamina', 'maxStamina'],
+    ['Magicka Recovery', 'magickaRecovery'], ['Health Recovery', 'healthRecovery'], ['Stamina Recovery', 'staminaRecovery'],
+    ['Spell Damage', 'spellDamage'], ['Spell Critical', 'spellCritChance', '%'], ['Spell Penetration', 'spellPenetration'],
+    ['Weapon Damage', 'weaponDamage'], ['Weapon Critical', 'weaponCritChance', '%'], ['Physical Penetration', 'physicalPenetration'],
+    ['Spell Resistance', 'spellResistance'], ['Physical Resistance', 'physicalResistance'],
+    ['Critical Resistance', 'critResistance', '', 'critResistance'],
+    ['Critical Damage', 'critDamage', '%'], ['Critical Healing', 'critHealing', '%'],
   ];
   const ADV_ROWS = [
-    ['Critical Chance (weapon)', 'weaponCritChancePercent', '%', 'weaponCritRating'], ['Critical Chance (spell)', 'spellCritChancePercent', '%', 'spellCritRating'], ['Critical Damage', 'critDamagePercent', '%', 'critDamage'], ['Critical Resistance', 'critResistance', '', 'critResistance'],
-    ['Physical Penetration', 'physicalPenetration', '', 'physicalPenetration'], ['Spell Penetration', 'spellPenetration', '', 'spellPenetration'],
-    ['Physical Resistance', 'physicalResistance', '', 'physicalResistance'], ['Physical Mitigation', 'physicalMitigationPercent', '%', 'physicalResistance'],
-    ['Spell Resistance', 'spellResistance', '', 'spellResistance'], ['Spell Mitigation', 'spellMitigationPercent', '%', 'spellResistance'],
-    ['Damage Done', 'damageDonePercent', '%', 'damageDone'], ['Healing Done', 'healingDonePercent', '%', 'healingDone'], ['Healing Taken', 'healingTakenPercent', '%', 'healingTaken'], ['Damage Taken', 'damageTakenPercent', '%', 'damageTaken'], ['Damage Shield Strength', 'damageShieldStrengthPercent', '%', 'damageShieldStrength'],
-    ['Block Cost', 'blockCost', '', 'blockCost'], ['Block Mitigation', 'blockMitigationPercent', '%', 'blockMitigation'],
-    ['Roll Dodge Cost', 'rollDodgeCost', '', 'rollDodgeCost'], ['Sprint Cost (per second)', 'sprintCost', '', 'sprintCost'], ['Break Free Cost', 'breakFreeCost', '', 'breakFreeCost'], ['Bash Cost', 'bashCost', '', 'bashCost'], ['Bash Damage bonus', 'bashDamageBonus', '', 'bashDamage'],
-    ['Movement Speed', 'movementSpeedPercent', '%', 'movementSpeed'], ['Sprint Speed', 'sprintSpeedPercent', '%', 'sprintSpeed'],
-    ['Magicka Cost', 'magickaCostPercent', '%', 'magickaCost'], ['Stamina Cost', 'staminaCostPercent', '%', 'staminaCost'], ['Ultimate Cost', 'ultimateCostPercent', '%', 'ultimateCost'],
+    ['Bash Cost', 'bashCost', '', 'bashCost'], ['Block Cost', 'blockCost', '', 'blockCost'], ['Break Free Cost', 'breakFreeCost', '', 'breakFreeCost'], ['Dodge Roll Cost', 'rollDodgeCost', '', 'rollDodgeCost'],
+    ['Sneak Cost', 'sneakCost', '', 'sneakCost'], ['Sprint Cost', 'sprintCost', '', 'sprintCost'], ['Bash Damage bonus', 'bashDamageBonus', '', 'bashDamage'], ['Block Mitigation', 'blockMitigationPercent', '%', 'blockMitigation'],
+    ['Block Move Speed', 'blockMoveSpeedPercent', '%', 'blockMoveSpeed'], ['Sneak Speed', 'sneakSpeedPercent', '%', 'sneakSpeedPenalty'], ['Sprint Speed', 'sprintSpeedPercent', '%', 'sprintSpeed'],
+    ['Flame Resistance', 'flameResistancePercent', '%', 'spellResistance'], ['Shock Resistance', 'shockResistancePercent', '%', 'spellResistance'], ['Frost Resistance', 'frostResistancePercent', '%', 'spellResistance'], ['Magic Resistance', 'magicResistancePercent', '%', 'spellResistance'],
+    ['Disease Resistance', 'diseaseResistancePercent', '%', 'physicalResistance'], ['Poison Resistance', 'poisonResistancePercent', '%', 'physicalResistance'], ['Bleed Resistance', 'bleedResistancePercent', '%', 'physicalResistance'],
+    ['Critical Damage', 'critDamagePercent', '%', 'critDamage'],
+    ['Physical Damage', 'physicalDamagePercent', 'dmg', 'damageDone'], ['Bleed Damage', 'bleedDamagePercent', 'dmg', 'damageDone'], ['Disease Damage', 'diseaseDamagePercent', 'dmg', 'damageDone'], ['Flame Damage', 'flameDamagePercent', 'dmg', 'damageDone'], ['Frost Damage', 'frostDamagePercent', 'dmg', 'damageDone'],
+    ['Magic Damage', 'magicDamagePercent', 'dmg', 'damageDone'], ['Oblivion Damage', 'oblivionDamagePercent', 'dmg', 'damageDone'], ['Poison Damage', 'poisonDamagePercent', 'dmg', 'damageDone'], ['Shock Damage', 'shockDamagePercent', 'dmg', 'damageDone'],
+    ['Healing Done', 'healingDonePercent', 'dmg', 'healingDone'], ['Critical Healing', 'critHealingPercent', '%', 'critHealing'], ['Healing Taken', 'healingTakenPercent', 'dmg', 'healingTaken'],
+    ['Experience', 'experiencePercent', '%', null], ['Gold', 'goldPercent', '%', null], ['Crafting Inspiration', 'craftingInspirationPercent', '%', null], ['Tel Var', 'telVarPercent', '%', null], ['Alliance Points', 'alliancePointsPercent', '%', null],
+    ['Damage Taken', 'damageTakenPercent', '%', 'damageTaken'], ['Damage Shield Strength', 'damageShieldStrengthPercent', '%', 'damageShieldStrength'], ['Magicka Cost', 'magickaCostPercent', '%', 'magickaCost'], ['Stamina Cost', 'staminaCostPercent', '%', 'staminaCost'], ['Ultimate Cost', 'ultimateCostPercent', '%', 'ultimateCost'],
     ['Ability range bonus (28m+)', 'abilityRangeBonusMeters', ' m', null],
     ['Healing Taken with Battle Spirit', 'battleSpirit.healingTakenPercent', '%', 'healingTaken'], ['Damage Taken with Battle Spirit', 'battleSpirit.damageTakenPercent', '%', 'damageTaken'], ['Shield Strength with Battle Spirit', 'battleSpirit.damageShieldStrengthPercent', '%', 'damageShieldStrength'],
   ];
   const pick = (obj, key) => key.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
   const BREAKDOWN_KEY = { maxHealth: 'maxHealth', maxMagicka: 'maxMagicka', maxStamina: 'maxStamina', healthRecovery: 'healthRecovery', magickaRecovery: 'magickaRecovery', staminaRecovery: 'staminaRecovery', weaponDamage: 'weaponDamage', spellDamage: 'spellDamage', weaponCritChance: 'weaponCritRating', spellCritChance: 'spellCritRating', critDamage: 'critDamage', physicalPenetration: 'physicalPenetration', spellPenetration: 'spellPenetration', physicalResistance: 'physicalResistance', spellResistance: 'spellResistance' };
-  const fmt = (v, unit) => v == null ? '-' : (unit === '%' ? `${v}%` : unit ? `${v}${unit}` : Math.round(v).toLocaleString());
+  // 'dmg' rows mirror the sheet's FLAT 0 / PERCENT n pair
+  const fmt = (v, unit) => v == null ? '-' : (unit === '%' ? `${v}%` : unit === 'dmg' ? `0 / ${v}%` : unit ? `${v}${unit}` : Math.round(v).toLocaleString());
   function renderResults() {
     const host = $('results'); host.innerHTML = '';
     if (!result || !result.bars.length) return;
@@ -771,8 +778,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       const t = el('table');
       t.append(el('tr', {}, [el('th', { text: heading }), el('th', { class: 'n', text: 'Front' }), el('th', { class: 'n', text: 'Back' })]));
       for (const [label, key, unit, bkey] of rows) {
-        const a = pick(result.bars[0][panel === 'Main sheet' ? 'main' : 'advanced'], key);
-        const b = pick(result.bars[1][panel === 'Main sheet' ? 'main' : 'advanced'], key);
+        const src = (bar) => (panel === 'Main sheet' && bar.main[key] === undefined ? bar.advanced : bar[panel === 'Main sheet' ? 'main' : 'advanced']);
+        const a = pick(src(result.bars[0]), key);
+        const b = pick(src(result.bars[1]), key);
         if (key.startsWith('battleSpirit.') && a === undefined && b === undefined) continue;
         const tr = el('tr', { class: 'stat' + (a !== b ? ' diff' : '') }, [el('td', { text: label }), el('td', { class: 'n', text: fmt(a, unit) }), el('td', { class: 'n b2', text: fmt(b, unit) })]);
         const bk = panel === 'Main sheet' ? BREAKDOWN_KEY[key] : bkey;
@@ -843,7 +851,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     for (const sc of Object.values(b.scribing)) for (const k of ['focus', 'signature', 'affix']) if (sc && alias[sc[k]]) sc[k] = alias[sc[k]];
     b.gear = { ...fresh.gear, ...(obj.gear || {}) };
     b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null, ...((obj.bars || [])[i] || {}) }));
-    b.flags = { battleSpiritFlatHealth: true, strategies: {}, ...(obj.flags || {}) };
+    b.flags = { battleSpiritFlatHealth: true, esoPlus: true, strategies: {}, ...(obj.flags || {}) };
     if (!b.classSkillLines || b.classSkillLines.length !== 3) b.classSkillLines = [...(E.CLASS_LINES[b.class] || E.CLASS_LINES.Dragonknight)];
     if (!Array.isArray(b.classMastery)) b.classMastery = [];
     build = b; $('buildName').value = build.name || '';
@@ -868,6 +876,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   $('werewolf').addEventListener('change', (ev) => { build.werewolf = ev.target.checked; if (!build.werewolf) build.werewolfForm = false; pruneSkills(); update(); });
   $('werewolfForm').addEventListener('change', (ev) => { build.werewolfForm = ev.target.checked; update(); });
   $('battleSpirit').addEventListener('change', (ev) => { build.battleSpirit = ev.target.checked; update(); });
+  $('esoPlus').addEventListener('change', (ev) => { build.flags.esoPlus = ev.target.checked; update(); });
   $('buildName').addEventListener('change', (ev) => { build.name = ev.target.value; });
   $('saveBtn').addEventListener('click', saveBuild);
   $('loadSel').addEventListener('change', (ev) => { const s = loadStore(); if (s[ev.target.value]) loadBuild(s[ev.target.value]); });

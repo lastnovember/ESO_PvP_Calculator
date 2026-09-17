@@ -8,6 +8,7 @@ prints the list so the two can be kept in step).
 
 Run:  python3 tools/build_constants.py
 """
+import re
 import csv, json, os, re, sys
 from collections import OrderedDict
 
@@ -85,6 +86,10 @@ C['base'] = OrderedDict(
     movementSpeedCapPercent=sourced(200, src('uesp_Online_Movement_Speed_t00.csv', 'Walking')),
     critResistance=sourced(1320, pn('087', '2020-06-09', 'All players will now have a baseline of 20% Critical Damage Reduction in the form of Critical Resistance, starting at level 10.'), '20% at 66 Critical Resistance per percent. Fixture 003 (naked) reads 1980 = 1320 + Resilience 660.'),
     sprintSpeedPercent=sourced(140, src('uesp_Online_Movement_Speed_t00.csv', 'Running'), 'Running (sprint) default 140%, maximum 200%.'),
+    blockMoveSpeedPercent=unverified(42, 'Block Move Speed on the sheet. Fixtures 001 to 004 all read 42% (naked and geared, no shield); Battlefield Mobility changes it with a shield.'),
+    sneakSpeedPercent=unverified(60, 'Sneak Speed on the sheet. Fixtures 003 and 004 (naked) read 60%; light armor reduces the 40 point penalty by 5% per piece (fixture 002 with one light piece reads 62%).'),
+    sneakCost=unverified(118, 'Base Stamina cost of Sneak per tick. Fitted: fixtures 003 and 004 read 59 with Sustaining Shadows slotted (1% per stage, 50 stages, so half). The geared 34 (fixture 002) does not follow from the medium armor reductions yet.'),
+    esoPlusBonusPercent=sourced(10, 'fixtures 001 to 004: Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points all read 10% with ESO Plus Member in the active effects.'),
 )
 
 C['attributePoints'] = OrderedDict(
@@ -306,6 +311,33 @@ foods = [
     food('blue-drink-magicka-stamina-recovery', 'Blue dual recovery drink (Magicka and Stamina Recovery)', 'drink', 'UESP scaling table.', True, src('uesp_Online_Drinks_t05.csv', 'last column'), magickaRecovery=457, staminaRecovery=457),
     food('purple-tri-recovery-drink', 'Purple tri recovery drink', 'drink', 'Crown Refreshing Drink description on UESP Drinks page.', True, src('uesp_Online_Drinks_t06.csv', 'Crown Refreshing Drink'), healthRecovery=446, magickaRecovery=410, staminaRecovery=410),
 ]
+# Food buffs in the esolog coefficient table are listed at a lower level; the CP160 gold values are
+# the table values times 1.1735 (Bewitched Sugar Skulls 3937/3622/393 in the table against the
+# known 4620/4250/462; Smoked Bear Haunch 3675/346/315 against the fixture fit 4316/406/369).
+FOOD_SCALE = 1.1735
+ESOLOG_FOODS = {
+    'orzorgas-smoked-bear-haunch': ("Orzorga's Smoked Bear Haunch", 'drink', 'Smoked Bear Haunch', {1: ['maxHealth'], 2: ['healthRecovery'], 3: ['magickaRecovery', 'staminaRecovery']}),
+    'bewitched-sugar-skulls': ('Bewitched Sugar Skulls', 'food', 'Bewitched Sugar Skulls', {1: ['maxHealth'], 2: ['maxStamina', 'maxMagicka'], 3: ['healthRecovery']}),
+    'artaeum-takeaway-broth': ('Artaeum Takeaway Broth', 'food', 'Artaeum Takeaway Broth', {1: ['maxHealth'], 2: ['healthRecovery'], 3: ['maxStamina'], 4: ['staminaRecovery']}),
+    'clockwork-citrus-filet': ('Clockwork Citrus Filet', 'food', 'Clockwork Citrus Filet', {1: ['maxHealth'], 2: ['healthRecovery'], 3: ['maxMagicka'], 4: ['magickaRecovery']}),
+    'dubious-camoran-throne': ('Dubious Camoran Throne', 'drink', 'Dubious Camoran Throne', {1: ['staminaRecovery'], 2: ['maxStamina'], 3: ['maxHealth']}),
+    'witchmothers-potent-brew': ("Witchmother's Potent Brew", 'drink', "Witchmother's Potent Brew", {1: ['magickaRecovery'], 2: ['maxMagicka'], 3: ['maxHealth']}),
+    'jewels-of-misrule': ('Jewels of Misrule', 'drink', 'Jewels of Misrule', {1: ['staminaRecovery', 'magickaRecovery'], 2: ['maxHealth']}),
+    'lava-foot-soup-and-saltrice': ('Lava Foot Soup-and-Saltrice', 'drink', 'Lava Foot Soup & Saltrice', {1: ['maxStamina'], 2: ['staminaRecovery']}),
+    'mud-ball': ('Mud Ball', 'food', 'Mud Ball', {1: ['maxMagicka', 'maxStamina']}),
+    'witchmothers-party-punch': ("Witchmother's Party Punch", 'drink', "Witchmother's Party Punch", {1: ['magickaRecovery', 'staminaRecovery'], 2: ['healthRecovery']}),
+}
+def esolog_food(id_):
+    name, kind, buff, slots = ESOLOG_FOODS[id_]
+    rows = [r for r in table('esolog_skill_coefficients_t00.csv') if r and r[0].strip() == buff]
+    row = rows[0]
+    consts = {int(m.group(1)): float(m.group(2)) for m in re.finditer(r'<<(\d+)>> = ([\d.]+) \(Constant\)', row[8])}
+    stats = OrderedDict()
+    for n, keys in slots.items():
+        for k in keys:
+            stats[k] = int(round(consts[n] * FOOD_SCALE))
+    return food(id_, name, kind, f'esolog buff "{buff}" ({row[7].strip()}) x {FOOD_SCALE} for CP160 gold.', True, src('esolog_skill_coefficients_t00.csv', buff), **stats)
+foods = [f for f in foods if f['id'] not in ESOLOG_FOODS] + [esolog_food(i) for i in ESOLOG_FOODS]
 C['foods'] = OrderedDict(note='Food and drink catalog. The app also accepts custom values typed from a tooltip. Racial food duration passives do not change magnitudes.', items=foods)
 
 # ---------------------------------------------------------------- Battle Spirit

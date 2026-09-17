@@ -232,6 +232,18 @@ function parseSentence(sentenceIn, conds, depth = 0) {
   }
   // Dual Wield Expert: "Increases Weapon Damage and Spell Damage by 6% of off-hand weapon's damage."
   if ((m = rest.match(/^Increases Weapon Damage and Spell Damage by ([\d.]+)% of off-hand weapon's damage/i))) return { status: 'ok', effects: mk('percentOfOffHandRating', toNum(m[1]), 'percent', base, raw) };
+  // Damage done by attack category (Deadly Aim, Master-at-Arms, Biting Aura, Thaumaturge): kept as their own stats;
+  // the character sheet folds the single target one into every damage type (fixtures 001 to 004)
+  if ((m = rest.match(/^Increases your damage done with (single target attacks|direct damage attacks|area of effect attacks|damage over time effects) by ([\d.]+)%/i))) {
+    const stat = { 'single target attacks': 'damageDoneSingleTarget', 'direct damage attacks': 'damageDoneDirect', 'area of effect attacks': 'damageDoneAoe', 'damage over time effects': 'damageDoneDot' }[m[1].toLowerCase()];
+    const [pc, rem] = perClause(rest.slice(m[0].length).trim().replace(/^\.$/, ''));
+    return done(mk(stat, toNum(m[2]), 'percent', mergeCond(base, pc), raw), rem);
+  }
+  // Damage done by damage type (Energized): "Increases your Physical and Shock Damage by 5%."
+  if ((m = rest.match(/^Increases your ((?:Physical|Bleed|Disease|Flame|Frost|Magic|Oblivion|Poison|Shock)(?:,? (?:and )?(?:Physical|Bleed|Disease|Flame|Frost|Magic|Oblivion|Poison|Shock))*) Damage by ([\d.]+)%\.?$/i))) {
+    const types = m[1].split(/,? and |, /).map((t) => t.trim());
+    return { status: 'ok', effects: types.flatMap((t) => mk('damageDone' + t[0].toUpperCase() + t.slice(1).toLowerCase(), toNum(m[2]), 'percent', base, raw)) };
+  }
   // Skill specific damage: "Increases the damage Wall of Elements deals by 29-1250."
   if (/^Increases the damage [A-Z][\w' ]+ deals by/i.test(rest)) return conditional(raw, { type: 'attackCategory', detail: rest.slice(0, 80) });
   // Ancient Knowledge: "Equipping an Ice Staff reduces the cost of blocking by 36% and increases the amount of damage you block by 20%."

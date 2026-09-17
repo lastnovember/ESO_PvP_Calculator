@@ -653,6 +653,24 @@ function computeBar(build, data, barIndex, strategies) {
     return strategies.battleSpiritPercents === 'additive' ? base + bs : ((1 + base / 100) * (1 + bs / 100) - 1) * 100;
   };
 
+  const critHealing = acc.pct('critHealing');
+  // Sneak cost: every percent source multiplies on its own (fixtures 002 to 004: 118 x 0.5 Sustaining Shadows
+  // x 0.8 Medium Armor Bonuses x 0.72 Improved Sneak = 34), unlike block where the armor passives add up.
+  const sneakCost = (v(B.sneakCost) + acc.flat('sneakCost')) * (acc.bucket('sneakCost').rows.filter((r) => r.kind === 'percent').reduce((m, r) => m * (1 + r.value / 100), 1));
+  const blockMoveSpeed = v(B.blockMoveSpeedPercent) + acc.pct('blockMoveSpeed');
+  // Sneak speed: the 60% base already reflects the Champion Point passives (fixtures 003 and 004 read 60 naked with
+  // Fleet Phantom in), so only non CP reductions of the 40 point penalty apply
+  const sneakPenaltyPct = acc.bucket('sneakSpeedPenalty').rows.filter((r) => r.kind === 'percent' && !/^CP /.test(r.source)).reduce((a, r) => a + r.value, 0);
+  const sneakSpeed = 100 - (100 - v(B.sneakSpeedPercent)) * (1 + sneakPenaltyPct / 100);
+  // The sheet lists a percent per damage type: general damage done, plus the single target CP star it folds in,
+  // plus the type's own bonus (Energized). Flat is always 0 on the sheet so far.
+  const typedDamage = {};
+  for (const t of ['Physical', 'Bleed', 'Disease', 'Flame', 'Frost', 'Magic', 'Oblivion', 'Poison', 'Shock']) {
+    typedDamage[t.toLowerCase() + 'DamagePercent'] = round1(acc.pct('damageDone') + acc.pct('damageDoneSingleTarget') + acc.pct('damageDone' + t));
+  }
+  const spellMit = round1(mitigation(spellResistance)); const physMit = round1(mitigation(physicalResistance));
+  const esoPlus = !(build.flags && build.flags.esoPlus === false) ? v(B.esoPlusBonusPercent) : 0;
+
   const main = {
     maxHealth: Math.round(maxHealth), maxMagicka: Math.round(maxMagicka), maxStamina: Math.round(maxStamina),
     healthRecovery: Math.round(healthRecovery), magickaRecovery: Math.round(magickaRecovery), staminaRecovery: Math.round(staminaRecovery),
@@ -660,6 +678,7 @@ function computeBar(build, data, barIndex, strategies) {
     weaponCritChance: round1(weaponCritChance), spellCritChance: round1(spellCritChance), critDamage: round1(critDamage),
     physicalPenetration: Math.round(physicalPenetration), spellPenetration: Math.round(spellPenetration),
     physicalResistance: Math.round(physicalResistance), spellResistance: Math.round(spellResistance),
+    critHealing: round1(critHealing),
   };
   const advanced = {
     weaponCritChancePercent: round1(weaponCritChance),
@@ -693,6 +712,16 @@ function computeBar(build, data, barIndex, strategies) {
     magickaCostFlat: Math.round(acc.flat('magickaCostReduction')),
     staminaCostFlat: Math.round(acc.flat('staminaCostReduction')),
     ultimateCostPercent: round1(acc.pct('ultimateCost')),
+    sneakCost: Math.round(sneakCost),
+    blockMoveSpeedPercent: round1(blockMoveSpeed),
+    sneakSpeedPercent: round1(sneakSpeed),
+    flameResistancePercent: spellMit, frostResistancePercent: spellMit, shockResistancePercent: spellMit, magicResistancePercent: spellMit,
+    diseaseResistancePercent: physMit, poisonResistancePercent: physMit, bleedResistancePercent: physMit,
+    ...typedDamage,
+    damageDoneSingleTargetPercent: round1(acc.pct('damageDoneSingleTarget')),
+    healingDoneFlat: 0, healingTakenFlat: 0,
+    critHealingPercent: round1(critHealing),
+    experiencePercent: esoPlus, goldPercent: esoPlus, craftingInspirationPercent: esoPlus, telVarPercent: esoPlus, alliancePointsPercent: esoPlus,
     abilityRangeBonusMeters: ctx.battleSpirit ? bsPct('abilityRangeOver28m') : 0,
     battleSpirit: ctx.battleSpirit ? {
       healingTakenPercent: round1(combinePct('healingTaken', 'healingReceived')),

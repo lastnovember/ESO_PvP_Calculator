@@ -22,6 +22,7 @@ export const MAIN_KEYS = {
   'critical damage': 'critDamage',
   'physical penetration': 'physicalPenetration', 'spell penetration': 'spellPenetration',
   'physical resistance': 'physicalResistance', 'spell resistance': 'spellResistance',
+  'critical healing': 'critHealing', 'critical resistance': 'critResistance',
 };
 export const ADVANCED_KEYS = {
   'critical chance': 'weaponCritChancePercent', 'weapon critical': 'weaponCritChancePercent', 'spell critical': 'spellCritChancePercent',
@@ -36,6 +37,10 @@ export const ADVANCED_KEYS = {
   'break free cost': 'breakFreeCost', 'bash cost': 'bashCost', 'bash damage': 'bashDamageBonus',
   'movement speed': 'movementSpeedPercent', 'sprint speed': 'sprintSpeedPercent',
   'magicka cost': 'magickaCostPercent', 'stamina cost': 'staminaCostPercent', 'ultimate cost': 'ultimateCostPercent',
+  'sneak cost': 'sneakCost', 'block move speed': 'blockMoveSpeedPercent', 'sneak speed': 'sneakSpeedPercent', 'critical healing': 'critHealingPercent',
+  'experience': 'experiencePercent', 'gold': 'goldPercent', 'crafting inspiration': 'craftingInspirationPercent', 'tel var': 'telVarPercent', 'alliance points': 'alliancePointsPercent',
+  ...Object.fromEntries(['flame', 'frost', 'shock', 'magic', 'disease', 'poison', 'bleed'].map((t) => [`${t} resistance`, `${t}ResistancePercent`])),
+  ...Object.fromEntries(['physical', 'bleed', 'disease', 'flame', 'frost', 'magic', 'oblivion', 'poison', 'shock'].map((t) => [`${t} damage`, `${t}DamagePercent`])),
 };
 
 const PERCENT_KEYS = new Set(['weaponCritChance', 'spellCritChance', 'critDamage']);
@@ -59,7 +64,7 @@ function compare(fixture) {
           filled += 1;
           const key = map[label.toLowerCase().trim()];
           if (!key) { unknown.push(`${zone}/${barKey}/${panel}/${label}`); continue; }
-          const computed = out[key];
+          const computed = out[key] !== undefined ? out[key] : result.bars[idx].advanced[key];
           const exp = typeof expected === 'string' ? Number(expected.replace(/[%,\s]/g, '')) : expected;
           const isPct = panel === 'advanced' ? /Percent$/.test(key) : PERCENT_KEYS.has(key);
           const tol = isPct ? (fixture.tolerance?.percent ?? 0.15) : (fixture.tolerance?.flat ?? 1);
@@ -67,6 +72,24 @@ function compare(fixture) {
           rows.push({ zone, bar: barKey, panel, key: label, expected: exp, computed, ok });
         }
       }
+    }
+  }
+  // sheetExtras: the rest of the sheet, same zone and bar as the readings
+  if (fixture.sheetExtras && fixture.readings) {
+    const zone = Object.keys(fixture.readings)[0]; const barKey = Object.keys(fixture.readings[zone])[0]; const idx = barKey === 'bar2' ? 1 : 0;
+    const result = computeSheet({ ...fixture.build, battleSpirit: zone === 'inPvpZone' }, data);
+    const flat = { ...fixture.sheetExtras };
+    for (const [t, val] of Object.entries(fixture.sheetExtras.resistancePercent || {})) flat[`${t} Resistance`] = val;
+    for (const [t, val] of Object.entries(fixture.sheetExtras.damagePercent || {})) flat[`${t} Damage`] = val;
+    delete flat.resistancePercent; delete flat.damagePercent;
+    for (const [label, expected] of Object.entries(flat)) {
+      if (expected === null || typeof expected === 'object') continue;
+      const key = ADVANCED_KEYS[label.toLowerCase().trim()];
+      if (!key) { unknown.push(`${zone}/${barKey}/extras/${label}`); continue; }
+      filled += 1;
+      const computed = result.bars[idx].advanced[key];
+      const tol = /Percent$/.test(key) ? (fixture.tolerance?.percent ?? 0.15) : (fixture.tolerance?.flat ?? 1);
+      rows.push({ zone, bar: barKey, panel: 'extras', key: label, expected, computed, ok: computed != null && Math.abs(computed - expected) <= tol });
     }
   }
   return { rows, unknown, filled };

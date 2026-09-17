@@ -164,6 +164,29 @@
       "source": "tables/uesp_Online_Movement_Speed_t00.csv row 'Running'",
       "verified": true,
       "note": "Running (sprint) default 140%, maximum 200%."
+    },
+    "blockMoveSpeedPercent": {
+      "value": 42,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Block Move Speed on the sheet. Fixtures 001 to 004 all read 42% (naked and geared, no shield); Battlefield Mobility changes it with a shield."
+    },
+    "sneakSpeedPercent": {
+      "value": 60,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Sneak Speed on the sheet. Fixtures 003 and 004 (naked) read 60%; light armor reduces the 40 point penalty by 5% per piece (fixture 002 with one light piece reads 62%)."
+    },
+    "sneakCost": {
+      "value": 118,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Base Stamina cost of Sneak per tick. Fitted: fixtures 003 and 004 read 59 with Sustaining Shadows slotted (1% per stage, 50 stages, so half). The geared 34 (fixture 002) does not follow from the medium armor reductions yet."
+    },
+    "esoPlusBonusPercent": {
+      "value": 10,
+      "source": "fixtures 001 to 004: Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points all read 10% with ESO Plus Member in the active effects.",
+      "verified": true
     }
   },
   "attributePoints": {
@@ -1335,48 +1358,6 @@
         "note": "Community tooltip value."
       },
       {
-        "id": "bewitched-sugar-skulls",
-        "name": "Bewitched Sugar Skulls",
-        "kind": "food",
-        "stats": {
-          "maxHealth": 4620,
-          "maxMagicka": 4250,
-          "maxStamina": 4250,
-          "healthRecovery": 406
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value."
-      },
-      {
-        "id": "artaeum-takeaway-broth",
-        "name": "Artaeum Takeaway Broth",
-        "kind": "food",
-        "stats": {
-          "maxHealth": 3724,
-          "maxStamina": 3458,
-          "healthRecovery": 406,
-          "staminaRecovery": 406
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value. data/patch-notes/html 073 (2019-06-03): Reduced the Max Health and Max Resource granted by these foods by approximately 15%, recovery slightly increased."
-      },
-      {
-        "id": "clockwork-citrus-filet",
-        "name": "Clockwork Citrus Filet",
-        "kind": "food",
-        "stats": {
-          "maxHealth": 3724,
-          "maxMagicka": 3458,
-          "healthRecovery": 406,
-          "magickaRecovery": 406
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value. data/patch-notes/html 073 (2019-06-03): Reduced the Max Health and Max Resource granted by these foods by approximately 15%, recovery slightly increased."
-      },
-      {
         "id": "candied-jesters-coins",
         "name": "Candied Jester's Coins",
         "kind": "food",
@@ -1387,72 +1368,6 @@
         "source": "UNVERIFIED",
         "verified": false,
         "note": "Community tooltip value. Same as blue Health and Stamina food."
-      },
-      {
-        "id": "witchmothers-potent-brew",
-        "name": "Witchmother's Potent Brew",
-        "kind": "drink",
-        "stats": {
-          "maxHealth": 2856,
-          "maxMagicka": 3161,
-          "magickaRecovery": 315
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value."
-      },
-      {
-        "id": "dubious-camoran-throne",
-        "name": "Dubious Camoran Throne",
-        "kind": "drink",
-        "stats": {
-          "maxHealth": 2856,
-          "maxStamina": 3161,
-          "staminaRecovery": 315
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value."
-      },
-      {
-        "id": "jewels-of-misrule",
-        "name": "Jewels of Misrule",
-        "kind": "drink",
-        "stats": {
-          "maxHealth": 3326,
-          "healthRecovery": 315,
-          "magickaRecovery": 315,
-          "staminaRecovery": 315
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value."
-      },
-      {
-        "id": "lava-foot-soup-and-saltrice",
-        "name": "Lava Foot Soup-and-Saltrice",
-        "kind": "drink",
-        "stats": {
-          "maxStamina": 3080,
-          "staminaRecovery": 338
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value."
-      },
-      {
-        "id": "orzorgas-smoked-bear-haunch",
-        "name": "Orzorga's Smoked Bear Haunch",
-        "kind": "drink",
-        "stats": {
-          "maxHealth": 4316,
-          "healthRecovery": 406,
-          "magickaRecovery": 406,
-          "staminaRecovery": 406
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Fitted from fixtures 002 and 003 (geared minus naked, same character): Max Health 4316 with Prismatic small pieces at 192, Health Recovery 406 (1022 = (309 + 141 + 90 + 406) x 1.08). Magicka and Stamina Recovery fit 411 and 369 with the assumed Evocation and Wind Walker percents, so 406 is used for all three and the in game tooltip is wanted."
       },
       {
         "id": "ghastly-eye-bowl",
@@ -1547,6 +1462,138 @@
         "source": "tables/uesp_Online_Drinks_t06.csv row 'Crown Refreshing Drink'",
         "verified": true,
         "note": "Crown Refreshing Drink description on UESP Drinks page."
+      },
+      {
+        "id": "orzorgas-smoked-bear-haunch",
+        "name": "Orzorga's Smoked Bear Haunch",
+        "kind": "drink",
+        "stats": {
+          "maxHealth": 4313,
+          "healthRecovery": 406,
+          "magickaRecovery": 370,
+          "staminaRecovery": 370
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Smoked Bear Haunch'",
+        "verified": true,
+        "note": "esolog buff \"Smoked Bear Haunch\" (Increase Max Health by <<1>>, Health Recovery by <<2>> and Stamina and Magicka Recovery by <<3>> for <<4>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "bewitched-sugar-skulls",
+        "name": "Bewitched Sugar Skulls",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 4620,
+          "maxStamina": 4250,
+          "maxMagicka": 4250,
+          "healthRecovery": 461
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Bewitched Sugar Skulls'",
+        "verified": true,
+        "note": "esolog buff \"Bewitched Sugar Skulls\" (Increase Max Health by <<1>>, Max Stamina and Magicka by <<2>>, and Health Recovery by <<3>> for <<4>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "artaeum-takeaway-broth",
+        "name": "Artaeum Takeaway Broth",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 3327,
+          "healthRecovery": 406,
+          "maxStamina": 3080,
+          "staminaRecovery": 338
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Artaeum Takeaway Broth'",
+        "verified": true,
+        "note": "esolog buff \"Artaeum Takeaway Broth\" (Increase Max Health by <<1>>, Health Recovery by <<2>>, Max Stamina by <<3>> and Stamina Recovery by <<4>> for <<5>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "clockwork-citrus-filet",
+        "name": "Clockwork Citrus Filet",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 3327,
+          "healthRecovery": 406,
+          "maxMagicka": 3080,
+          "magickaRecovery": 338
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Clockwork Citrus Filet'",
+        "verified": true,
+        "note": "esolog buff \"Clockwork Citrus Filet\" (Increase Max Health by <<1>>, Health Recovery by <<2>>, Max Magicka by <<3>> and Magicka Recovery by <<4>> for <<5>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "dubious-camoran-throne",
+        "name": "Dubious Camoran Throne",
+        "kind": "drink",
+        "stats": {
+          "staminaRecovery": 326,
+          "maxStamina": 2957,
+          "maxHealth": 3204
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Dubious Camoran Throne'",
+        "verified": true,
+        "note": "esolog buff \"Dubious Camoran Throne\" (Increase Stamina Recovery by <<1>>, Max Stamina by <<2>> and Max Health by <<3>> for <<4>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "witchmothers-potent-brew",
+        "name": "Witchmother's Potent Brew",
+        "kind": "drink",
+        "stats": {
+          "magickaRecovery": 326,
+          "maxMagicka": 2957,
+          "maxHealth": 3204
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Witchmother's Potent Brew'",
+        "verified": true,
+        "note": "esolog buff \"Witchmother's Potent Brew\" (Increase Magicka Recovery by <<1>>, Max Magicka by <<2>> and Max Health by <<3>> for <<4>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "jewels-of-misrule",
+        "name": "Jewels of Misrule",
+        "kind": "drink",
+        "stats": {
+          "staminaRecovery": 370,
+          "magickaRecovery": 370,
+          "maxHealth": 4066
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Jewels of Misrule'",
+        "verified": true,
+        "note": "esolog buff \"Jewels of Misrule\" (Increase Stamina and Magicka Recovery by <<1>> and Max Health by <<2>> for <<3>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "lava-foot-soup-and-saltrice",
+        "name": "Lava Foot Soup-and-Saltrice",
+        "kind": "drink",
+        "stats": {
+          "maxStamina": 5298,
+          "staminaRecovery": 529
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Lava Foot Soup & Saltrice'",
+        "verified": true,
+        "note": "esolog buff \"Lava Foot Soup & Saltrice\" (Increase Max Stamina by <<1>> and Stamina Recovery by <<2>> for <<3>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "mud-ball",
+        "name": "Mud Ball",
+        "kind": "food",
+        "stats": {
+          "maxMagicka": 5298,
+          "maxStamina": 5298
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Mud Ball'",
+        "verified": true,
+        "note": "esolog buff \"Mud Ball\" (Increase Max Magicka and Max Stamina by <<1>> for <<2>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "witchmothers-party-punch",
+        "name": "Witchmother's Party Punch",
+        "kind": "drink",
+        "stats": {
+          "magickaRecovery": 370,
+          "staminaRecovery": 370,
+          "healthRecovery": 406
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Witchmother's Party Punch'",
+        "verified": true,
+        "note": "esolog buff \"Witchmother's Party Punch\" (Increase Magicka and Stamina Recovery by <<1>>, and Health Recovery by <<2>> for <<3>>.) x 1.1735 for CP160 gold."
       }
     ]
   },
