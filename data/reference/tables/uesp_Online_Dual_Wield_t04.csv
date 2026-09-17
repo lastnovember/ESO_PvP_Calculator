@@ -1,0 +1,11 @@
+Name,Line Rank,Skill Rank,Description
+,Slaughter,5,,WHILE DUAL WIELDING Increases damage with Dual Wield abilities by 10 % against enemies with under 25% Health .
+30,,WHILE DUAL WIELDING Increases damage with Dual Wield abilities by 20 % against enemies with under 25% Health .
+,Dual Wield Expert,10,,WHILE DUAL WIELDING Increases Weapon and Spell Damage by 3 % of off-hand weapon's damage.
+17,,WHILE DUAL WIELDING Increases Weapon and Spell Damage by 6 % of off-hand weapon's damage.
+,Controlled Fury,25,,WHILE DUAL WIELDING Reduces the Stamina cost of Dual Wield abilities by 7 %.
+34,,WHILE DUAL WIELDING Reduces the Stamina cost of Dual Wield abilities by 15 %.
+,Ruffian,28,,"WHILE USING DUAL WIELDING ATTACKS Gives you an 8 % damage bonus when attacking stunned , immobilized , or silenced enemies."
+46,,"WHILE USING DUAL WIELDING ATTACKS Gives you an 15 % damage bonus when attacking stunned, immobilized, or silenced enemies."
+,Twin Blade and Blunt,41,,WHILE DUAL WIELDING Grants a bonus based on the type of weapon equipped: Each axe increases your Critical Damage done by 3 %. Each mace increases your Offensive Penetration by 743 . Each sword increases your Weapon and Spell Damage by 64 . Each dagger increases your Critical Chance rating by 328 .
+50,,WHILE DUAL WIELDING Grants a bonus based on the type of weapon equipped: Each axe increases your Critical Damage done by 6 %. Each mace increases your Offensive Penetration by 1487 . Each sword increases your Weapon and Spell Damage by 129 . Each dagger increases your Critical Chance rating by 657 .

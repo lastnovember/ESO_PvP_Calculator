@@ -1,0 +1,147 @@
+{{Trail|Places|nocat=1}}[[Category:Online-Places| Mundus Stones]]
+[[File:ON-place-The Apprentice (Cyrodiil).jpg|thumb|left|A Mundus Stone in Cyrodiil]]
+[[File:ON-mapicon-MundusStone.png|right]]
+'''Mundus Stones''' are standing stones dedicated to the Constellations. Activating one will grant you a permanent blessing, although only one blessing can be active at a time. The [[Online:Twice-Born Star|Twice-Born Star]] set allows a character to have two blessings at the same time.
+
+{{FMI}}
+{{NewLeft}}
+{|class=wikitable
+!Stone!!Aldmeri<br>Dominion!!Daggerfall<br>Covenant!!Ebonheart<br>Pact!!Cyrodiil!!Effect!!Value!!Full [[ON:Divines|Divines]]<br>armor value
+|-
+![[Online:The Apprentice (Mundus Stone)|The Apprentice]]
+|{{Map Link|The Apprentice|world=Reaper's March|Reaper's March}}
+|{{Map Link|The Apprentice|world=Bangkorai|Bangkorai}}
+|{{Map Link|The Apprentice|world=The Rift|The Rift}}
+|{{Map Link|The Apprentice|world=Cyrodiil|Cyrodiil}}
+|Increases Spell Damage
+|{{ESO MundusStoneValue|Apprentice}}
+|389
+|-
+![[Online:The Atronach (Mundus Stone)|The Atronach]]
+|{{Map Link|The Atronach|world=Greenshade|Greenshade}}
+|{{Map Link|The Atronach|world=Rivenspire|Rivenspire}}
+|{{Map Link|The Atronach|world=Shadowfen|Shadowfen}}
+|{{Map Link|The Atronach|world=Cyrodiil|Cyrodiil}}
+|Increases Magicka Recovery
+|{{ESO MundusStoneValue|Atronach}}
+|507
+|-
+![[Online:The Lady (Mundus Stone)|The Lady]]
+|{{Map Link|The Lady|world=Auridon|Auridon}}
+|{{Map Link|The Lady|world=Glenumbra|Glenumbra}}
+|{{Map Link|The Lady|world=Stonefalls|Stonefalls}}
+|{{Map Link|The Lady|world=Cyrodiil|Cyrodiil}}
+|Increases Physical and Spell Resistance
+|{{ESO MundusStoneValue|Lady}}
+|4489
+|-
+![[Online:The Lord (Mundus Stone)|The Lord]]
+|{{Map Link|The Lord|world=Grahtwood|Grahtwood}}
+|{{Map Link|The Lord|world=Stormhaven|Stormhaven}}
+|{{Map Link|The Lord|world=Deshaan|Deshaan}}
+|{{intnote|Lord}}
+|Increases Maximum Health
+|{{ESO MundusStoneValue|Lord}}
+|3639
+|-
+![[Online:The Lover (Mundus Stone)|The Lover]]
+|{{Map Link|The Lover|world=Auridon|Auridon}}
+|{{Map Link|The Lover|world=Glenumbra|Glenumbra}}
+|{{Map Link|The Lover|world=Stonefalls|Stonefalls}}
+|{{Map Link|The Lover|world=Cyrodiil|Cyrodiil}}
+|Increases Physical and Spell Penetration
+|{{ESO MundusStoneValue|Lover}}
+|4489
+|-
+![[Online:The Mage (Mundus Stone)|The Mage]]
+|{{Map Link|The Mage|world=Grahtwood|Grahtwood}}
+|{{Map Link|The Mage|world=Stormhaven|Stormhaven}}
+|{{Map Link|The Mage|world=Deshaan|Deshaan}}
+|{{Map Link|The Mage|world=Cyrodiil|Cyrodiil}}
+|Increases Maximum Magicka
+|{{ESO MundusStoneValue|Mage}}
+|3309
+|-
+![[Online:The Ritual (Mundus Stone)|The Ritual]]
+|{{Map Link|The Ritual|world=Malabal Tor|Malabal Tor}}
+|{{Map Link|The Ritual|world=Alik'r Desert|Alik'r Desert}}
+|{{Map Link|The Ritual|world=Eastmarch|Eastmarch}}
+|{{Map Link|The Ritual|world=Cyrodiil|Cyrodiil}}
+|Increases Healing Done
+|{{ESO MundusStoneValue|Ritual}}%
+|13%
+|-
+![[Online:The Serpent (Mundus Stone)|The Serpent]]
+|{{Map Link|The Serpent|world=Greenshade|Greenshade}}
+|{{Map Link|The Serpent|world=Rivenspire|Rivenspire}}
+|{{Map Link|The Serpent|world=Shadowfen|Shadowfen}}
+|{{Map Link|The Serpent|world=Cyrodiil|Cyrodiil}}
+|Increases Stamina Recovery
+|{{ESO MundusStoneValue|Serpent}}
+|507
+|-
+![[Online:The Shadow (Mundus Stone)|The Shadow]]
+|{{Map Link|The Shadow|world=Greenshade|Greenshade}}
+|{{Map Link|The Shadow|world=Rivenspire|Rivenspire}}
+|{{Map Link|The Shadow|world=Shadowfen|Shadowfen}}
+|{{Map Link|The Shadow|world=Cyrodiil|Cyrodiil}}
+|Increases Critical Damage and Healing done
+|{{ESO MundusStoneValue|Shadow}}%
+|17%
+|-
+![[Online:The Steed (Mundus Stone)|The Steed]]
+|{{Map Link|The Steed|world=Reaper's March|Reaper's March}}
+|{{Map Link|The Steed|world=Bangkorai|Bangkorai}}
+|{{Map Link|The Steed|world=The Rift|The Rift}}
+|{{Map Link|The Steed|world=Cyrodiil|Cyrodiil}}
+|Increases Health Recovery and Movement Speed
+|{{ESO MundusStoneValue|SteedHP}} / {{ESO MundusStoneValue|SteedMS}}%
+|389 / 16%
+|-
+![[Online:The Thief (Mundus Stone)|The Thief]]
+|{{Map Link|The Thief|world=Malabal Tor|Malabal Tor}}
+|{{Map Link|The Thief|world=Alik'r Desert|Alik'r Desert}}
+|{{Map Link|The Thief|world=Eastmarch|Eastmarch}}
+|{{Map Link|The Thief|world=Cyrodiil|Cyrodiil}}
+|Increases Weapon and Spell Critical Strike ratings
+|{{ESO MundusStoneValue|Thief}}
+|1982
+|-
+![[Online:The Tower (Mundus Stone)|The Tower]]
+|{{Map Link|The Tower|world=Grahtwood|Grahtwood}}
+|{{Map Link|The Tower|world=Stormhaven|Stormhaven}}
+|{{Map Link|The Tower|world=Deshaan|Deshaan}}
+|{{Map Link|The Tower|world=Cyrodiil|Cyrodiil}}
+|Increases Maximum Stamina
+|{{ESO MundusStoneValue|Tower}}
+|3309
+|-
+![[Online:The Warrior (Mundus Stone)|The Warrior]]
+|{{Map Link|The Warrior|world=Malabal Tor|Malabal Tor}}
+|{{Map Link|The Warrior|world=Alik'r Desert|Alik'r Desert}}
+|{{Map Link|The Warrior|world=Eastmarch|Eastmarch}}
+|{{Map Link|The Warrior|world=Cyrodiil|Cyrodiil}}
+|Increases Weapon Damage
+|{{ESO MundusStoneValue|Warrior}}
+|389
+|}
+{{Note|Lord||The Lord is the only stone not found in Cyrodiil.}}
+
+Armor with the [[ON:Divines|Divines]] [[ON:Traits|Trait]] increases the effect of Mundus Stones, depending on the Armor's quality. Each [[ON:Divines|Divines]] piece gives an additional:
+{|class=wikitable
+!Quality!!|{{ESO Quality Color|b|Base}}!!|{{ESO Quality Color|f|Fine}}!!|{{ESO Quality Color|s|Superior}}!!|{{ESO Quality Color|e|Epic}}!!|{{ESO Quality Color|l|Legendary}}
+|-
+!Value
+| {{#expr:100 * {{ESO DivinesGearValue|base}} }}%
+| {{#expr:100 * {{ESO DivinesGearValue|fine}} }}%
+| {{#expr:100 * {{ESO DivinesGearValue|superior}} }}%
+| {{#expr:100 * {{ESO DivinesGearValue|epic}} }}%
+| {{#expr:100 * {{ESO DivinesGearValue|legendary}} }}%
+|}
+
+==Notes==
+*There are three unmarked, broken Mundus Stones in [[Online:Craglorn|Craglorn]] dedicated to the Lord, Lady and Steed. They are related to the quest [[Online:The Corrupted Stone|The Corrupted Stone]] and can't be used to change blessings. 
+*No DLC zones contain any Mundus Stones whatsoever (even [[Online:Western Skyrim|Western Skyrim]], which had [[Skyrim:Standing Stone|Standing Stones]] in ''[[Skyrim:Skyrim|Skyrim]]'').
+
+{{Online Places}}
+{{stub|Place}}

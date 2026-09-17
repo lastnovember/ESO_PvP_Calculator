@@ -1,0 +1,26 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Grand Healing,2,Instant,Ground,28 meters,8 meters,10 seconds,3510 Magicka
+"Summon restoring spirits with your staff, healing you and your allies in the target area for [12276 / 12419 / 12551 / 12694] Health over 10 seconds."
+,,Illustrious Healing,"Increases the duration. Duration: [12 / 13 / 14 / 15] seconds. Summon restoring spirits with your staff, healing you and your allies in the target area for [14963 / 16120 / 17277 / 18421] Health over [12 / 13 / 14 / 15] seconds."
+,Healing Springs,"You gain Magicka Recovery for each target healed. Summon restoring spirits with your staff, healing you and your allies in the target area for 12661 Health over 10 seconds. Increases your Magicka Recovery by [12 / 13 / 14 / 15] for each target affected, stacking up to 20 times."
+""
+,Regeneration,4,Instant,Area,–,28 meters,10 seconds,2700 Magicka
+"Share your staff's life-giving energy, healing you or a nearby ally for [9222 / 9318 / 9420 / 9522] Health over 10 seconds."
+,,Rapid Regeneration,"The healing happens faster over a shorter duration and increases in healing on low Health targets. Duration: 5 seconds. Share your staff's life-giving energy, healing you or a nearby ally for [9522 / 9624 / 9726 / 9834] Health over 5 seconds. The healing increases by up to 50 % more on targets under 100% Health ."
+,Radiating Regeneration,"Heals two additional targets. Share your staff's life-giving energy, healing you or up to 3 nearby allies for [9522 / 9624 / 9726 / 9834] over 10 seconds."
+""
+,Blessing of Protection,14,Instant,Area,–,20 meters,10 seconds,4860 Magicka
+"Slam your staff down to activate its blessings, healing you and your allies in front of you for [6918 / 6994 / 7070 / 7146] Health . Also grants Minor Resolve , increasing you and your allies' Physical Resistance and Spell Resistance by 2974 for 10 seconds."
+,,Blessing of Restoration,"Increases the size, healing done, and duration. Duration: 20 seconds. Slam your staff down to activate its blessings, healing you and your allies in front of you for [7861 / 7947 / 8033 / 8120] Health . Also grants Minor Resolve, increasing you and your allies' Physical Resistance and Spell Resistance by 2974 for 20 seconds."
+,Combat Prayer,"Also grants Minor Berserk, increasing you and your allies' damage done. Cost decreases as ability ranks up. Cost: [4860 / 4770 / 4680 / 4590] Magicka . Slam your staff down to activate its blessings, healing you and your allies in front of you for 7146 Health . Also grants Minor Berserk and Minor Resolve increasing you and your allies' damage done by 5 % and Physical Resistance and Spell Resistance by 2974 for 10 seconds."
+""
+,Steadfast Ward,20,Instant,Area,–,28 meters,6 seconds,4590 Magicka
+"Call on your staff's strength to protect you or the lowest health ally around you with a damage shield that absorbs [6149 / 6216 / 6284 / 6351] damage for 6 seconds. The shield's strength is increased by up to 100 %, depending on the severity of the target's wounds."
+,,Ward Ally,"Cast two shields instead of one, with one shield always on yourself. Reduces the cost as the ability ranks up. Cost: [4590 / 4500 / 4410 / 4320] Magicka . Call on your staff's strength to protect you and the lowest health ally around you with a damage shield that absorbs 6352 damage. The shield's strength is increased by up to 100 %, depending on the severity of the target's wounds."
+,Healing Ward,"Heals target based on the shield's strength every second it persists. Call on your staff's strength to protect you or the lowest health ally around you with a damage shield that absorbs [6352 / 6421 / 6491 / 6561] damage. The shield's strength is increased by up to 100 %, depending on the severity of the target's wounds. While the shield persists, the target is healed for 33 % of the shield's remaining strength every second."
+""
+,Force Siphon,38,Instant,Enemy,28 meters,–,24 seconds,Free
+"Duration: [18 / 20 / 22 / 24] seconds. Focus your staff's power to apply Minor Lifesteal to an enemy for [18 / 20 / 22 / 24] seconds, healing you and your allies for 600 Health every 1 second when damaging them."
+,,Siphon Spirit,"Also applies Minor Magickasteal to the enemy. Duration: [24 / 26 / 28 / 30] seconds. Focus your staff's power to apply Minor Lifesteal to an enemy for [24 / 26 / 28 / 30] seconds, healing you and your allies for 600 Health every 1 second when damaging them. Also applies Minor Magickasteal to the enemy for [24 / 26 / 28 / 30] seconds, causing you and your allies to restore 168 Magicka every 1 second when damaging them."
+,Quick Siphon,"Allies who hit the enemy target also gain Minor Expedition. Duration: [24 / 26 / 28 / 30] seconds. Focus your staff's power to apply Minor Lifesteal to an enemy for [24 / 26 / 28 / 30] seconds, healing you and your allies for 600 Health every 1 second when damaging them. When you or an ally hits the target, they gain Minor Expedition , which increases their Movement Speed by 15 % for 4 seconds."
+""

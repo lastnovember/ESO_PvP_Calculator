@@ -1,0 +1,8 @@
+{{Trail|Sets}}[[Category:Online-Sets|Class Sets]]'''Class Sets''' are [[ON:Sets|sets]] that provide players of the specified class with various bonuses when items of the same set are equipped simultaneously. Players not of the class the set is for cannot equip that set.
+
+{{/Drops}}
+
+==Sets==
+{{ESO Set Table|Aerie's Cry|Aetheric Lancer|Basalt-Blooded Warrior|Beacon of Oblivion|Corpseburster|Gardener of Seasons|Monolith of Storms|Nobility in Decay|Pyrebrand|Reawakened Hierophant|Soulcleaver|Spattering Disjunction|Umbral Edge|Wrathsun}}
+
+{{Online Sets}}

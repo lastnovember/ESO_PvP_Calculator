@@ -1,0 +1,9 @@
+{{Online Champion 2.0 Summary
+|titlename=Out of Sight
+|sign=Craft
+|type=passive
+|stagepoints=10
+|maxpoints=30
+|desc=Reduces the radius you can be detected while Sneaking by 1 meter per stage.
+}}
+'''Out of Sight''' reduces the radius you can be detected while sneaking by up to 3 meters. This cumulates with other similar bonuses such as [[ON:Night Mother's Embrace|Night Mother's Embrace]] and [[ON:Feline Ambush|Feline Ambush]].

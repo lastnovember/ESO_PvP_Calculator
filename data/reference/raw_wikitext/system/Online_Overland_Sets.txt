@@ -1,0 +1,20 @@
+{{Trail|Sets}}[[Category:Online-Sets| Overland Sets]]'''Overland Sets''' are [[ON:Sets|sets]] that provide players with various bonuses when items of the same set are equipped simultaneously. Items constituting overland sets can only be found on monsters or in treasure chests in their respective zones. All overland sets are bind-on-equip. All sets will drop items for all armor and weapon slots, but normally only in a specific armor weight, as listed below. 
+
+*In the case of zones which lack certain of the features (World Bosses, Delves, Overland Events or Public Dungeons), it may sometimes be the case that the items from a certain set will only drop from Treasure Chests, due to the other possible sources not being available.
+
+{{/Vanilla Drops}}
+
+__TOC__
+
+==Alliance Zones==
+{{ESO Set List|desc=y|type=both|Order of Diagna|Robes of the Withered Hand|Sword-Singer|Armor of the Veiled Heritance|Queen's Elegance|Twin Sisters|Seventh Legion Brute|Spriggan's Thorns|Vampire Lord (set)|Meridia's Blessed Armor|Prisoner's Rags|Stygian|Way of Air|Way of Fire|Way of Martial Knowledge|Mother's Sorrow|Night Mother's Embrace|Plague Doctor|Akaviri Dragonguard|Fiord's Legacy|Stendarr's Embrace|Bloodthorn's Touch|Hide of the Werewolf|Wyrd Tree's Blessing|Green Pact|Ranger's Gait|Syrabane's Grip|Beekeeper's Gear|Shadow Dancer's Raiment|Wilderqueen's Arch|Salvation|Spinner's Garments|Thunderbug's Carapace|Senche's Bite|Skooma Smuggler|Soulshine|Darkstride|Necropotence|Vampire Cloak|Hatchling's Shell|Robes of the Hist|Swamp Raider|Shadow of the Red Mountain|Shalk Exoskeleton|Silks of the Sun|Dreamer's Mantle|Night Terror (set)|Storm Knight's Plate|Draugr's Heritage|Witchman Armor|Ysgramor's Birthright}}
+
+==DLC and Chapter Zones==
+{{ESO Set List|desc=y|type=both|Bahraha's Curse|Syvarra's Scales|Flanking Strategist|Hide of Morihaus|Sithis' Touch|Briarheart|Mark of the Pariah|Trinimac's Valor|Livewire|Mad Tinkerer|Unfathomable Darkness|Defiler|War Maiden|Warrior-Poet|Wisdom of Vanus|Grace of Gloom|Gryphon's Ferocity|Bright-Throat's Boast|Champion of the Hist|Dead-Water's Guile|Crafty Alfiq|Vesture of Darloc Brae|Call of the Undertaker|Marauder's Haste|Dragonguard Elite|Senchal Defender|Eternal Vigor|Venomous Smite|Winter's Respite|Radiant Bastion|Voidcaller|Witch-Knight's Defiance|Bog Raider|Deadlands Assassin|Frostbite|Eye of the Grasp|Hexos' Ward|Kynmarcher's Cruelty|Blessing of High Isle|Steadfast's Mettle|Systres' Scowl|Back-Alley Gourmand|Bastion of the Draoife|Phoenix Moth Theurge|Adamant Lurker|Camonna Tong (set)|Vivec's Duality|Ayleid Refuge|Macabre Vintage|Symmetry of the Weald|Three Queens Wellspring|Death-Dancer|Full Belly Barricade}}
+
+==Starter Zones==
+This includes [[ON:Bal Foyen|Bal Foyen]], [[ON:Betnikh|Betnikh]], [[ON:Bleakrock Isle|Bleakrock Isle]], [[ON:Khenarthi's Roost|Khenarthi's Roost]], and [[ON:Stros M'Kai|Stros M'Kai]].
+
+{{ESO Set List|desc=y|type=both|Armor of the Trainee}}
+
+{{Online Sets}}

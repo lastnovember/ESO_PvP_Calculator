@@ -1,0 +1,25 @@
+{{Trail|Combat}}
+'''Weapon Damage''' represents the damage done by non-staff weapons and abilities with a {{ESO Stamina Link}} cost.  Your Weapon Damage can be improved by many [[:Category:Online-Sets with Weapon/Spell Damage|sets]] (click for complete list), as well the [[ON:Major Brutality|Major Brutality]] and [[ON:Minor Brutality|Minor Brutality]] effects, which increase your damage by 20% and 10% respectively.
+
+==Skills==
+;[[ON:Earthen Heart|Earthen Heart]] ([[ON:Dragonknight|Dragonknight]])
+*[[ON:Igneous Weapons|Igneous Weapons]] — grants [[ON:Major Brutality|Major Brutality]] to you and allies for 30 seconds
+;[[ON:Siphoning|Siphoning]] ([[ON:Nightblade|Nightblade]])
+*[[ON:Drain Power|Drain Power]] — Grants [[ON:Major Brutality|Major Brutality]] for 20 seconds
+;[[ON:Storm Calling|Storm Calling]] ([[ON:Sorcerer|Sorcerer]])
+*[[ON:Surge|Surge]] — Grants [[ON:Major Brutality|Major Brutality]] for 33 seconds
+;[[ON:Aedric Spear|Aedric Spear]] ([[ON:Templar|Templar]])
+*[[ON:Balanced Warrior|Balanced Warrior]] — Increases Weapon Damage by 3-6%
+;[[ON:Werewolf|Werewolf]]
+*[[ON:Hircine's Bounty|Hircine's Rage]] — Grants [[ON:Major Brutality|Major Brutality]] for 20 seconds
+;[[ON:Fighters Guild|Fighters Guild]]
+*[[Online:Slayer|Slayer]] — Each slotted Fighters Guild ability increases 3% of weapon and spell damage (as of level 3)
+;[[Online:Two Handed|Two Handed]]
+*[[ON:Momentum|Momentum]] - Provides Major Brutallity and Major Sorcery for yourself for 40 seconds.
+;[[Online:Dual_Wield|Dual Wield]]
+*[[Online:Hidden Blade|Hidden Blade]] - Provides Major Brutallity and Major Sorcery for yourself for 20 seconds.
+==Alchemy==
+*Potions of {{Effect Link|Increase Weapon Power}} grant [[ON:Major Brutality|Major Brutality]]
+*Poisons of {{Effect Link|Increase Weapon Power}} grant [[ON:Minor Brutality|Minor Brutality]]
+
+{{stub|Effect}}

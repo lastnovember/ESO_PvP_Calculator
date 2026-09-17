@@ -1,0 +1,201 @@
+<noinclude>{{Trail|Factions}}{{About|the faction|one of the various places|{{pl|Category:Online-Places|Category:Online-Places|from{{=}}Fighters&#32;Guild#mw-pages}}}}[[File:ON-banner-Fighters Guild.png|thumb|right|The Fighters Guild Crest]]</noinclude>
+The [[Online:Fighters Guild|Fighters Guild]] is a mercenary organization which has a presence all throughout [[ON:Tamriel|Tamriel]].<noinclude> 
+
+To join, go to any Fighters Guild hall and speak with [[Online:Aicessar|Aicessar]], [[Online:Basile Fenandre|Basile Fenandre]], or [[Online:Hilan (Dark Elf)|Hilan]] (regardless of your alliance) and tell them you're ready to join. To gain reputation with them, you must destroy [[Online:Dark Anchor|Dark Anchors]] and [[ON:Mirrormoor Mosaics|Mirrormoor Mosaics]] or kill [[Online:Daedra|Daedra]] and undead. Good relations with the guild has many benefits, including new skills and abilities.
+{{FMI}}
+==Quests==
+[[File:ON-banner-Fighter's Guild.png|150px|right]]
+*Joining Quests
+:{{ESO Alliances
+|Dominion={{Quest Link|Aicessar's Invitation}}
+|Covenant={{Quest Link|Basile's Invitation}}
+|Pact={{Quest Link|Hilan's Invitation}}}}
+*{{Quest Link|Anchors from the Harbour}}
+*{{Quest Link|The Dangerous Past}}
+*{{Quest Link|The Prismatic Core}}
+*{{Quest Link|Proving the Deed}}
+*{{Quest Link|Will of the Council}}
+
+===Bounty Quests===
+* {{Quest Link|Bounty: Black Daggers}}
+* {{Quest Link|Bounty: Goblins}}
+* {{Quest Link|Bounty: Gray Vipers}}
+* {{Quest Link|Bounty: Shadowed Path}}
+
+===Dark Anchor Dailies===
+These quests are available after joining the Fighters Guild, and are offered by [[ON:Cardea Gallus|Cardea Gallus]] located within the Fighters Guild buildings of [[ON:Elden Root|Elden Root]] (Grahtwood), [[ON:Mournhold|Mournhold]] (Deshaan) and [[ON:Wayrest|Wayrest]] (Stormhaven). These quests will send you to destroy one [[ON:Dark Anchor|Dark Anchor]] in a random zone. These quests can be shared with other members of your group, so it is possible to do up to 15 of these quests in a day. These quests will give Fighters Guild reputation, as well as a small box of rewards. These quests are one way of obtaining the [[ON:Draugr Style|Draugr motif]]. Quests are given on a fixed 15 day cycle.
+
+*{{Quest Link|Dark Anchors in Alik'r Desert}}
+*{{Quest Link|Dark Anchors in Bangkorai}}
+*{{Quest Link|Dark Anchors in Stonefalls}}
+*{{Quest Link|Dark Anchors in Deshaan}}
+*{{Quest Link|Dark Anchors in Shadowfen}}
+*{{Quest Link|Dark Anchors in Eastmarch}}
+*{{Quest Link|Dark Anchors in the Rift}}
+*{{Quest Link|Dark Anchors in Auridon}}
+*{{Quest Link|Dark Anchors in Grahtwood}}
+*{{Quest Link|Dark Anchors in Malabal Tor}}
+*{{Quest Link|Dark Anchors in Greenshade}}
+*{{Quest Link|Dark Anchors in Reaper's March}}
+*{{Quest Link|Dark Anchors in Glenumbra}}
+*{{Quest Link|Dark Anchors in Stormhaven}}
+*{{Quest Link|Dark Anchors in Rivenspire}}
+
+==Skill Perks==
+{{/Progression}}
+{{ESO Skill Notes}}
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{{NewLine}}
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+|-
+{{Online Skill Link|Dawnbreaker}}
+|}
+
+===Active Abilities===
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+|-
+{{Online Skill Link|Silver Bolts}}
+{{Online Skill Link|Circle of Protection}}
+{{Online Skill Link|Expert Hunter}}
+{{Online Skill Link|Trap Beast}}
+|}
+
+===Passive Abilities===
+{| class="wikitable"
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Intimidating Presence}}
+{{Online Skill Link|Slayer}}
+{{Online Skill Link|Banish the Wicked}}
+{{Online Skill Link|Skilled Tracker}}
+{{Online Skill Link|Bounty Hunter}}
+|}
+
+==Reputation==
+All guilds use reputation for leveling purposes. Fighters Guild {{ESO Reputation|FG}} Reputation is earned by killing undead and Daedra, as well as by completing [[Online:Dark Anchors|Dark Anchor]] [[Online:Dolmens|Dolmens]] and [[ON:Mirrormoor Mosaics|Mirrormoor Mosaics]]. You receive {{ESO Reputation|FG|1}} for one kill, {{ESO Reputation|FG|5}} for killing undead and Daedra bosses, {{ESO Reputation|FG|20}} for destroying a Dark Anchor, {{ESO Reputation|FG|10}} for completing a Dark Anchor [[#Dark Anchor Dailies|daily quest]], {{ESO Reputation|FG|25}} for each{{vn|}} Dark Anchor [[Online:Stay Out Of Tamriel|contract achievement]] and {{ESO Reputation|FG|23}} (15 + Boss + 3 Valkynazes) for completing a Mirrormoor Moasaic.
+
+The reward coffer for daily quests has a small chance for an Fighters Guild Citation worth {{ESO Reputation|FG|70}}. These citations can be stacked and traded.
+
+{| class="wikitable"
+|-
+! Rank !! Reputation Required<br>for Next Rank !! Total Reputation<br>for Rank
+|-
+| 1 || 80 || 0
+|-
+| 2 || 240 || 80
+|-
+| 3 || 400 || 320
+|-
+| 4 || 560 || 720
+|-
+| 5 || 720 || 1280
+|-
+| 6 || 880 || 2000
+|-
+| 7 || 1120 || 2880
+|-
+| 8 || 1360 || 4000
+|-
+| 9 || 1600 || 5360
+|-
+| 10 || - || 6960
+|}
+* Note: Killing undead and daedra summoned by enemy players such as [[ON:Summon Winged Twilight|Summon Winged Twilight]] and [[ON:Skeletal Mage|Skeletal Mage]] also give Fighters Guild reputation.
+
+==Members==
+{{People Table|
+{{People|title=[[Online:Council of Province Generals|Council of Province Generals]]|Guildmaster Sees-All-Colors||Borogilmith||Countess Hakruba||General Flaminius Auctor||Ra'zaym Iron-Ear||Svalkmar the Crude}}
+{{People|title=[[ON:Fighters Guild (Abah's Landing)|Abah's Landing Guild Hall]]|Dredhedil|{{Service Icon|Steward}}|Hunts-with-Daggers||Indyen||Kalrarj||Nuula Seran|{{Service Icon|Armsman}}}}
+{{People|title=[[Online:Fighters Guild (Alcaire Castle)|Alcaire Castle Branch]]|Ashzu|{{Service Icon|Steward}}|Gianon|{{Service Icon|Armsman}}|Journeyman Thetathor}}
+{{People|title=[[Online:Fighters Guild (Aldcroft)|Aldcroft Guild Hall]]|Afehaba||Gladba gro-Ghol|{{Service Icon|Steward}}|Kamika|{{Service Icon|Armsman}}}}
+{{People|title=[[Online:Fighters Guild (Alinor)|Alinor Guild Hall]]|Emerel|{{Service Icon|Armsman}}|Lilthelfin||Rathornith|{{Service Icon|Steward}}|Salk||Sloobdakha||Sorexius Sylla||Tar-Makka||Thonlynn}}
+{{People|title=[[Online:Fighters Guild (Alten Corimont)|Alten Corimont Branch]]|Buujhan|{{Service Icon|Steward}}|Ervynu||Idrenia}}
+{{People|title=[[Online:Fighters Guild (Anvil)|Anvil Guild Hall]]|Bahara|{{Service Icon|Armsman}}|Shabeh af-Naifa||Basile Fenandre||Ralis Athren}}
+{{People|title=[[Online:Fighters Guild (Arenthia)|Arenthia Guild Hall]]|Glud Two-Axes|{{Service Icon|Armsman}}|Merani||Muzuli|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Guildhall (Baandari Trading Post)|Baandari Trading Post Guild Hall]]|Armory Sergeant Cayliss|{{Service Icon|Armsman}}{{intnote|qd}}|Naburr|{{Service Icon|Armsman}}|Provost Riud|{{intnote|qd}}|Sadelia|{{Service Icon|Steward}}}}
+{{People|title=[[ON:Fighters Guild (Balmora)|Balmora Guild Branch]]|Delte Nethri|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Bangkorai Garrison)|Bangkorai Garrison Branch]]|Rathul-do|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Star-Gazers' Observatory|Belkarth Branch]]|Agwodir|{{Service Icon|Armsman}}|Qarafa||Thais|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Bergama)|Bergama Guild Hall]]|Armory Sergeant Cayliss|{{Service Icon|Armsman}}{{intnote|qd}}|Homeira||Malakeh||Provost Riud|{{intnote|qd}}|Sees-Many-Fish||Usralia|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Crosswych)|Crosswych Guild Branch]]|Kalad|{{Service Icon|Armsman}}|Octin Murric||Sergeant Magarakh|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Daggerfall)|Daggerfall Guild Hall]]|Basile Fenandre|{{Service Icon|Steward}}|Lucas|{{Service Icon|Armsman}}}}
+{{People|title=[[Online:Fighters Guild (Davon's Watch)|Davon's Watch Guild Hall]]|Frikkhild||Hilan (Dark Elf)|{{Service Icon|Steward}}|Neyna|{{Service Icon|Armsman}}|Varam}}
+{{People|title=[[Online:Fighters Guild (Dune)|Dune Guild Hall]]|Durodir||Hamiran-do|{{Service Icon|Steward}}|Shagareg gra-Urkub|{{Service Icon|Armsman}}}}
+{{People|title=[[Online:The Earth Forge|The Earth Forge]]|Apprentice||Dalama||Farmorion|{{Service Icon|Clothier}}|Fighter Dulzob|{{intnote|qd}}|Fighter Taralen|{{intnote|qd}}|Fimius Barbula|{{Service Icon|Armsman}}|Franja Snowpeak|{{Service Icon|Carpenter}}|Mabgruhl gra-Born|{{Service Icon|Blacksmith}}|Mollier Cine||Odeel-Medul||Olahanar||Ris Maren||Nanaglar}}
+{{People|title=[[Online:Fighters Guild (Ebonheart)|Ebonheart Guild Branch]]|Dull-Scales||Foni Svel||Hladvyr Llarys||Malkar (Ebonheart)||Munbi Svel|{{Service Icon|Armorer}}|Nali Radas||Picks-Many-Fights|{{Service Icon|Steward}}|Sirk the Hammer}}
+{{People|title=[[Online:Fighters Guild (Elden Root)|Elden Root Guild Hall]]|Althah||Cardea Gallus|{{Service Icon|Repeatable Quest Giver}}|Bark-Scraper|{{Service Icon|Woodworker}}|Calpelion|{{Service Icon|Clothier}}|Claudius||Colmorion||Githriian||Glalongoth||Laryantil||Mevilis Varyoni||Midrasud||Mizarbuk||Nendilir||Ontogu gro-Bashnarz|{{Service Icon|Blacksmith}}|Samati|{{Service Icon|Armsman}}|Savio||Sirimunda||Tundanarne|{{Service Icon|Steward}}|Zahanabi}}
+{{People|title=[[Online:Fighters Guild (Evermore)|Evermore Guild Hall]]|Arianna Stende||Gibal||Kurz gra-Murtag||Larhoth||Mirarbinat||Provost Mabilete||Sergeant Qasim|{{Service Icon|Armsman}}|Vedra|{{Service Icon|Steward}}|Yvayne Dugot}}
+{{People|title=[[Online:Fighters Guild (Firsthold)|Firsthold Guild Hall]]|Halelmathras||Hymonim|{{Service Icon|Steward}}|Runs-Across-Water|{{Service Icon|Armsman}}|Siniaritaale}}
+{{People|title=[[Online:Fighters Guild (Fort Amol)|Fort Amol Branch]]|Belvin Redoran|{{Service Icon|Armsman}}|Raki|{{Service Icon|Steward}}}}
+|
+{{People|title=[[ON:Fungal Grotto II|Fungal Grotto]]|Apprentice Fasarel||Defender Two-Blades||Journeyman Gulvera||Swordsman Ranarwa}}
+{{People|title=[[Online:Fighters Guild (Hallin's Stand)|Hallin's Stand Guild Hall]]|Charlemund Prevette||Fethesena Nerendas||Hlura Llarvys|{{Service Icon|Steward}}|Nienras||Sabirah the Zealous||Sgugh gra-Shagronk|{{Service Icon|Armsman}}|Thungdosh}}
+{{People|title=[[Online:Fighters Guild (Haven)|Haven Guild Hall]]|Angelenwen||Gwannas|{{Service Icon|Armsman}}|Lekellae Caprenia|{{Service Icon|Steward}}|Revisii Seloth}}
+{{People|title=[[Online:Fighters Guild (Hissmir)|Hissmir Branch]]|Adzi-Mota||Birila||Drujal||Lig gra-Murug|{{Service Icon|Steward}}|Olik-Jah||Onai-Ruul|{{Service Icon|Weaponsmith}}|Topith-Kuz|{{Service Icon|Armorer}}}}
+{{People|title=[[Online:Fighters Guildhall (Hollow City)|Hollow City Guild Hall]]|Aleeta|{{Service Icon|Armsman}}|Candion||Egarfin the Bold||Ferva Hloril||Hahnin||Messenger Narfild Deepcrag||Sinfay||Valorone||Vikord Skullcleaver||Vosh gra-Kreeg|{{Service Icon|Steward}}}}
+{{People|title=[[ON:Fighters Guild (Hoarfrost Downs)|Hoarfrost Downs Branch]]|Jaddveig Owlcloak|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Jorunn's Stand)|Jorunn's Stand Guild Branch]]|Zavour Emard|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Kragenmoor)|Kragenmoor Branch]]|Akethi|{{Service Icon|Blacksmith}}|Baring Hammertongue|{{Service Icon|Clothier}}|Dyleso|{{Service Icon|Steward}}|Erandil (Kragenmoor)||Zunala}}
+{{People|title=[[ON:Fighters Guildhall (Kozanset)|Kozanset Guild Hall]]|Guibor|{{Service Icon|Armsman}}|Hjognar|{{Service Icon|Steward}}|Tariyeh||Ulu gra-Korith||Yggruk}}
+{{People|title=[[Online:Fighters Guild (Lillandril)|Lillandril Guild Hall]]|Guardian Nolinare||Telonre||Nebhavar|{{Service Icon|Steward}}|Loraaldel|{{Service Icon|Armsman}}|Kelurm}}
+{{People|title=[[Online:Guild Hall (Lilmoth)|Lilmoth Guild Hall]]|Claws-the-Ghosts|{{intnote|qd}}|Hitari|{{Service Icon|Armsman}}|Stoneclaws|{{Service Icon|Steward}}|Strikes-Quickly}}
+{{People|title=[[Online:Fighters Guild (Marbruk)|Marbruk Guild Hall]]|Ardorin|{{Service Icon|Armsman}}|Carimalda||Drivas|{{Service Icon|Weaponsmith}}|Hrolvar|{{Service Icon|Steward}}|Iniel Laftrius||Kasynac Luric||Laelrion||Lowindor||Tarak|{{Service Icon|Woodworker}}|Triirma}}
+{{People|title=[[Online:Fighters Guild (Martyr's Crossing)|Martyr's Crossing Branch]]|Furious Jawna||Lumgol||Qabin|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Guildhall (Morkul Stronghold)|Morkul Stronghold Guild Branch]]|Shebakh gra-Murkha|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Mournhold)|Mournhold Guild Hall]]|Bahree||Bald Holgrim||Belderi Llenim|{{Service Icon|Armsman}}|Carth Northwind||Cardea Gallus|{{Service Icon|Repeatable Quest Giver}}|Duk-Marza||Hanyarie||Muronad Girvu||Nardis|{{Service Icon|Steward}}|Pactuld||Viiron}}
+{{People|title=[[Online:Guild Hall (Nimalten)|Nimalten Guild Hall]]|Angbjar the New Guy||Irthor|{{Service Icon|Steward}}|Sergeant Chalda}}
+{{People|title=Northern High Rock Gate|Ikran|{{Service Icon|Repeatable Quest Giver}}}}
+{{People|title=[[Online:Fighters Guild (Northpoint)|Northpoint Guild Branch]]|Savi Adrys|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild and Bank|Orsinium Guild Hall]]|Ehshaz||Garlor|{{Service Icon|Merchant}}|Mabgrorga||Murotha|{{Service Icon|Armsman}}|Nargbagorn}}
+{{People|title=[[Online:Fighters Guild (Rawl'kha)|Rawl'kha Guild Hall]]|Ashalki|{{Service Icon|Brewer}}|Gurum|{{Service Icon|Steward}}|Panreth||Thathas||Zaydak|{{Service Icon|Armsman}}}}
+{{People|title=[[Online:Fighters Guild (Redfur Trading Post)|Redfur Trading Post Branch]]|Aldarenya||Hjarfi Winter-Mane|{{Service Icon|Steward}}|Jarina|{{Service Icon|Armsman}}|Muram}}
+{{People|title=[[Online:Fighters Guild (Riften)|Riften Guild Hall]]|Alfa||Carodus Atius||Falaki||General Ivandi||Captain Viveka||Guldir||Innarrek||Izzayya||Kharbeff||Pain-Giver|{{Service Icon|Steward}}|Sergeant Krathon||Sethisa Herethi||Tarir|{{Service Icon|Armsman}}|Tenduldirel}}
+{{People|title=[[Online:Fighters Guild Encampment|Sadrith Mora Guild Branch]]|Vedelea Tenim|{{Service Icon|Steward}}}}
+|
+{{People|title=[[Online:Fighters Guild (Sentinel)|Sentinel Guild Hall]]|Ahdan (Redguard)||Aza gra-Birgo|{{Service Icon|Armsman}}|Baileet||Bumava||Elsonia||Feristyr||Hannibal Virane||Hareeya||Hareld Falvo|{{Service Icon|Steward}}|Nazila||Orrun||Rahim af-Nazila||Zir at-Owynok||Valentique}}
+{{People|title=[[Online:Fighters Guild (Shimmerene)|Shimmerene Guild Hall]]|Aicessar|{{Service Icon|Steward}}|Idaug||Jehrz||Kulira||Layedril||Merfnovira||Olincilion||Sanarskar||Telalril||Vahazi|{{Service Icon|Armsman}}}}
+{{People|title=[[Online:Fighters Guild (Shinji's Scarp)|Shinji's Scarp Branch]]|Guth|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Guild Hall (Shor's Stone)|Shor's Stone Guild  Hall]]|Alanne|{{Service Icon|Steward}}|Farvild Drakesbane||Otried|{{Service Icon|Armsman}}}}
+{{People|title=[[Online:Fighters Guild (Shornhelm)|Shornhelm Guild Hall]]|Burzura||Flat-Head||Halar Cadiou|{{Service Icon|Armsman}}|Junah al-Satakalaam||Marzul gro-Orgak|{{Service Icon|Steward}}|Nienornith||Nuzhi||Shubesha}}
+{{People|title=[[Online:Guildhall (Silvenar)|Silvenar Guild Hall]]|Adelhild|{{Service Icon|Steward}}|Dunurra|{{Service Icon|Armsman}}|Milwalin|{{Service Icon|Merchant}}}}
+{{People|title=[[ON:Fighters Guild (Skywatch)|Skywatch Fighters Guild]]|Bondileth|{{Service Icon|Steward}}|Nirthindor||Sevame Dreth||Vaford the Cynical|{{Service Icon|Armsman}}}}
+{{People|title=Southern Morrowind Gate|Arkas|{{Service Icon|Repeatable Quest Giver}}}}
+{{People|title=[[ON:Spindleclutch I|Spindleclutch]]|At'avar||Big Rabbu||Cerise the Widow-Maker||Elnis||Elysette||Faulor||Glathut||Guardian Sud-Hareem||Kalmuzan||Mereel||Praxin Douare}}
+{{People|title=[[Online:Stormhold Guild Hall|Stormhold Guild Hall]]|Axe-Fist||Bunach (Stormhold)||Hogfinn|{{Service Icon|Steward}}|Inue||Omeeta|{{Service Icon|Armsman}}|Othora||Padeel||Rania (Dark Elf)||Teeka||Vurvyn (Stormhold)}}
+{{People|title=[[Online:Fighters Guild (Tal'Deic Fortress)|Tal'Deic Fortress Branch]]|Grugues|{{Service Icon|Steward}}}}
+{{People|title=[[Online:Fighters Guild (Velyn Harbor)|Velyn Harbor Guild Hall]]|Bredrel||Fimaz-ra|{{Service Icon|Armsman}}|General Elirwen||Lindel|{{Service Icon|Steward}}|Valentique}}
+{{People|title=[[ON:Canton of St. Delyn the Wise|Vivec City Branch]]|Aicessar|{{Service Icon|Steward}}|Amarz the Shield-Maker|{{Service Icon|Woodworker}}|Erikar Five-Blades|{{Service Icon|Armsman}}|Natalo Calogerus||Riray Dalo||Svargret Goodsword|{{Service Icon|Armorer}}|Vadethes Senoril}}
+{{People|title=[[Online:Fighters Guild (Vulkhel Guard)|Vulkhel Guard Guild Hall]]|Aicessar|{{Service Icon|Steward}}|Apprentice Odrethin||Candion||Pladina Axilla|{{Service Icon|Armsman}}|Warder Calithil}}
+{{People|title=[[Online:Fighters Guild (Vulkwasten)|Vulkwasten Guild Hall]]|Alana||Edherien|{{Service Icon|Steward}}|Elphiniel||Rakhhi||Tamshur}}
+{{People|title=[[Online:Fighters Guild Hall (Wayrest)|Wayrest Guild Hall]]|Charlisse Alinie||Cardea Gallus|{{Service Icon|Repeatable Quest Giver}}|Hafizah|{{Service Icon|Armsman}}|Lihidar at-Shadal||Vush gra-Kreeg|{{Service Icon|Steward}}}}
+{{People|title=Western Elsweyr Gate|Sebazi|{{Service Icon|Repeatable Quest Giver}}}}
+{{People|title=[[Online:Fighters Guild (Windhelm)|Windhelm Guild Hall]]|Aeyne Redoran||Agka||Anaka the Ink-Blooded||Araki Ice-Heart||Armory Sergeant Cayliss|{{Service Icon|Armsman}}{{intnote|qd}}|Armory Sergeant Fretild|{{Service Icon|Armsman}}|Arns Tharam||Bjertha||Cooks-the-Meat||Galmar War-Wolf||Hrolfgald||Ingritha||Nirthongoth||Njial|{{Service Icon|Steward}}|Odela||Orrnar Redoran||Provost Riud|{{intnote|qd}}|Walks-Through-Fog|{{Service Icon|Armsman}}|Grackle|(Pet)|Grish (Windhelm)|(Pet)}}
+{{People|title=[[Online:Thalmor Headquarters|Woodhearth Branch]]|Anirmelda|{{Service Icon|Armsman}}|Silversteel|{{Service Icon|Steward}}|Vilbjorn the Wolf|{{Service Icon|Armsman}}}}
+|
+{{People|title=Other Members|An-Jeen-Seek||Aelif||Akhita|{{intnote|qd}}|Bera Moorsmith|{{intnote|qd}}|Bizurr||Borgath the Axe||Bura-Natoo||Calanyese||Captain Alphaury||Captain Arakh||Captain Eilram||Champion Marcauld||Darien Gautier||Fighter Aerdil||Fighter Katuraz||Fronjolf||Galfinar||Grundskar||Gwilir||Halana||Henrinora||Hunts-in-Shadow||Jofnir Iceblade|(Previous Guildmaster)|Kilian Wennell||Merric at-Aswala||Naer||Prince Azah||Rulanir|(Former)|Sergeant Kamu||Skordo the Knife||Tethis||Valentique}}
+{{People|title=Generic Members|Camp Defender||Defender||Guild Blade||Fighters Guild Berserker||Fighters Guild Bodyguard||Fighters Guild Captain||Fighters Guild Defender||Fighters Guild Gladiator||<s>[[ON:Fighters Guild Guard|Fighters Guild Guard]]</s>||Fighters Guild Recruit||Fighters Guild Sentry||Fighters Guild Soldier (The Endless Stair)||Fighters Guild Sorcerer||Fighters Guild Survivor||Fighters Guild Swordmaster||Fighters Guild Templar||Fighters Guild Thundermaul||Prisoner (Tower of Lies)||Protector}}
+}}
+
+{{Note|qd|†|''Quest-related''}}
+
+==Achievements==
+There are six [[ON:Character Achievements#Guilds|achievements]] associated with this faction:
+{{#local:showreward|1}}
+{{ESO Achievements List|multi=
+{{EAL/Group
+  |Associate of the Fighters Guild|{{ESO ArmorDye Icon|Fighters Guild Red|link=1}}
+  |Fighters Guild Veteran|{{ESO ArmorDye Icon|Champion Red|link=1}}<br>'''Title''': Fighters Guild Victor
+  |Fighters Guild Skill Master|{{ESO ArmorDye Icon|Syffim Red|link=1}}}}
+{{EAL/Group|groupline=thick
+  |first=No Ground Given
+  |Return to Sender|
+  |Stay Out Of Tamriel|}}
+}}
+
+==Notes==
+* Prior to Update 39, the daily quest to destroy one Dark Anchor required destroying three Dark Anchors.
+{{Online Factions}}
+{{Online Skills}}
+[[Category:Online-Skill Lines]][[Category:Online-Skill Lines-Guild]]

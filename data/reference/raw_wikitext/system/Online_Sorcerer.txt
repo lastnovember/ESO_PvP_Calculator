@@ -1,0 +1,107 @@
+{{Trail|Classes}}__NOTOC__{{About|the player class|the NPC|Sorcerer (NPC)}}
+[[File:ON-icon-class-Sorcerer.png|frameless|left]]
+'''Sorcerer''' is a [[Online:Classes|class]] in ''[[Online:Online|Elder Scrolls Online]]''. Sorcerer is the class with the most magical abilities. It contains three skill lines, which each contain different types of spells for different roles. It is typically focused on lightning magic, similarly to the Dragonknight's emphasis on fire magic and Warden's use of ice magic.
+
+::'''In-Game Description''': ''Sorcerers can use conjuration and destruction spells to hurl lightning bolts and create shock fields, wield dark magic to snare and stun, and summon Daedric combat followers from Oblivion to assist them.''
+
+{{NewLeft}}
+==Skills==
+===Dark Magic===
+[[Online:Dark Magic|Dark Magic]] is one of three class skill lines available to Sorcerer characters. Skills in this line focus on stuns and utility spells and are good for a supporting role.
+
+===Daedric Summoning===
+[[Online:Daedric Summoning|Daedric Summoning]] is one of three class skill lines available to Sorcerer characters. This is very similar to [[Lore:Conjuration|Conjuration]] in that you summon Daedric creatures, such as atronachs and familiars.
+
+===Storm Calling===
+[[Online:Storm Calling|Storm Calling]] is one of three class skill lines available to Sorcerer characters. Skills in this line focus on magical DPS (damage per second) and burst damage, mostly themed towards lightning magic.
+
+===Class Mastery===
+[[ON:Class Mastery#Sorcerer|Class Mastery]] is available if the player is not [[Online:Subclassing|subclassing]].
+
+==Builds==
+{|class=wikitable
+!Build!!Role!!Description!!Primary Stat
+|-
+|[[ON:Sorcerer Initiate|Sorcerer Initiate]]
+|New Players
+|Master ancient spells that control deadly force as a powerful Sorcerer.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Elemental Arcanist|Elemental Arcanist]]
+|Damage{{icon|role|Damage|18}}
+|Channel the power of ice, fire, lightning and Oblivion to weave powerful, destructive spells.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Arcane Warrior|Arcane Warrior]]
+|Damage{{icon|role|Damage|18}}
+|Merge your martial and magical skill by empowering your weapon strikes with arcane energy.
+|{{ESO Stamina Link}}
+|-
+|[[ON:War Mage|War Mage]]
+|Tank{{icon|role|Tank|18}}
+|Wade Confidently into battle, protected by heavy armor and potent sorcery.
+|{{ESO Health Link}}
+|-
+|[[ON:Eldritch Mender|Eldritch Mender]]
+|Healer{{icon|role|Healer|18}}
+|Protect and bolster your allies with powerful wards and shields while draining your enemies of their vitality.
+|{{ESO Magicka Link}}
+|}
+
+===Compatible Builds===
+It is possible to build a character which meets or mostly meets the recommendations of multiple builds simultaneously.  The chart below shows skill morphs which conflict between different builds.
+{|class=wikitable {{AL|C}}
+! !!Sorcerer<br>Initiate!!Elemental<br>Arcanist!!Arcane<br>Warrior!!War<br>Mage!!Eldritch<br>Mender
+|-
+!Sorcerer<br>Initiate
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Crystal Shard|Crystal Shard]]
+|{{BG|#ffbb00}}|[[ON:Arcane Warrior|Arcane Warrior]]<br>[[ON:Bound Armor|Bound Armor]]<br>[[ON:Lightning Flood|Lightning Flood]]
+|{{BG|#aaff00}}|[[ON:Negate Magic|Negate Magic]]
+|{{BG|#aaff00}}|[[ON:Dark Exchange|Dark Exchange]]
+|-
+!Elemental<br>Arcanist
+|{{BG|#aaff00}}|[[ON:Crystal Shard|Crystal Shard]]
+|{{BG|#000000}}|
+|{{BG|#ffff00}}|[[ON:Bound Armor|Bound Armor]]<br>[[ON:Lightning Form|Lightning Form]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#aaff00}}|[[ON:Conjured Ward|Conjured Ward]]
+|-
+!Arcane<br>Warrior
+|{{BG|#ffbb00}}|[[ON:Arcane Warrior|Arcane Warrior]]<br>[[ON:Bound Armor|Bound Armor]]<br>[[ON:Lightning Flood|Lightning Flood]]
+|{{BG|#ffff00}}|[[ON:Bound Armor|Bound Armor]]<br>[[ON:Lightning Form|Lightning Form]]
+|{{BG|#000000}}|
+|{{BG|#ff7700}}|[[ON:Dark Exchange|Dark Exchange]]<br>[[ON:Bound Armor|Bound Armor]]<br>[[ON:Lightning Form|Lightning Form]]<br>[[ON:Surge|Surge]]
+|{{BG|#aaff00}}|[[ON:Bound Armor|Bound Armor]]
+|-
+!War<br>Mage
+|{{BG|#aaff00}}|[[ON:Negate Magic|Negate Magic]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#ff7700}}|[[ON:Dark Exchange|Dark Exchange]]<br>[[ON:Bound Armor|Bound Armor]]<br>[[ON:Lightning Form|Lightning Form]]<br>[[ON:Surge|Surge]]
+|{{BG|#000000}}|
+|{{BG|#ffff00}}|[[ON:Negate Magic|Negate Magic]]<br>[[ON:Dark Exchange|Dark Exchange]]
+|-
+!Eldritch<br>Mender
+|{{BG|#aaff00}}|[[ON:Dark Exchange|Dark Exchange]]
+|{{BG|#aaff00}}|[[ON:Conjured Ward|Conjured Ward]]
+|{{BG|#aaff00}}|[[ON:Bound Armor|Bound Armor]]
+|{{BG|#ffff00}}|[[ON:Negate Magic|Negate Magic]]<br>[[ON:Dark Exchange|Dark Exchange]]
+|{{BG|#000000}}|
+|}
+
+The Sorcerer does not allow any triple-builds; the closest you can get is Sorcerer Initiate, Elemental Arcanist, and War Mage, which has only two conflicted morphs.
+
+==Gallery==
+<gallery>
+File:ON-render-Sorcerer.jpg|A Sorcerer
+</gallery>
+
+==See Also==
+===Books===
+*{{Book Link|Dark Magic: Three Pretexts}}
+*{{Book Link|Mora'at's Theory of Lightning}}
+*{{Book Link|Principles of Conjuration}}
+*{{Book Link|Sorcery is Not Necromancy!}}
+*{{Book Link|On the Utility of Shock Magic}}
+
+{{Online Skills Sorcerer}}

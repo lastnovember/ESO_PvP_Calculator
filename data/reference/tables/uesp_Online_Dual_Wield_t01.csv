@@ -1,0 +1,6 @@
+,Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Lacerate,50,0.5 seconds,Area,–,8 meters,8 seconds,150 Ultimate
+"Slash enemies in front of you, causing them to bleed for [18440 / 18640 / 18845 / 19045] Bleed Damage over 8 seconds and healing you for 50 % of the damage done. Each tick applies the Hemorrhaging status effect ."
+,,Rend,"Increases the duration. Duration: 16 seconds. Slash enemies in front of you, causing them to bleed for [34281 / 34659 / 35046 / 35406] Bleed Damage over 16 seconds and healing you for 50 % of the damage done. Each tick applies the Hemorrhaging status effect."
+,Thrive in Chaos,"Converts into a conal [ sic ] attack. Each enemy hit increases your damage done. Radius: 15 meters, Target: Cone. Slash enemies in front of you, causing them to bleed for 19045 Bleed Damage over 8 seconds and healing you for 50 % of the damage done. Each enemy hit increases your damage done by [3 / 4 / 5 / 6] % for 15 seconds. This effect can stack up to 6 times. Each tick applies the Hemorrhaging status effect."
+""

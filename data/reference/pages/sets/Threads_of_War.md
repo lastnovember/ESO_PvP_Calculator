@@ -1,0 +1,18 @@
+# Online:Threads of War
+
+Source: https://en.uesp.net/wiki/Online:Threads_of_War
+License: CC BY-SA, UESP
+
+Threads of War is one of the craftable sets providing special bonuses to armor and weapons. It is available for crafting to players pursuing blacksmithing, clothing, woodworking, and/or jewelry crafting professions. The special crafting site with stations dedicated to the creation of this set is located at Deserter's Lagoon in West Weald.
+
+To make an item for this set, a crafter must first complete research on seven traits for that particular item at a corresponding crafting station.
+
+### Bonuses
+
+2 items: Adds 34-1487 Offensive Penetration
+3 items: Adds 3-129 Weapon Damage and Spell Damage
+4 items: Adds 15-657 Critical Chance
+5 items: Your Light and fully-charged Heavy Attacks gain 100% Status Effect Chance. The Status Effect is based on the damage type of your weapon.
+
+### Crafting Site
+Deserter's Lagoon

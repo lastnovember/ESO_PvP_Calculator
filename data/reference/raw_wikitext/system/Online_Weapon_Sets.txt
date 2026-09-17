@@ -1,0 +1,27 @@
+{{Trail|Sets}}[[Category:Online-Sets| Weapon Sets]]'''Weapon Sets''' are [[Online:Sets|sets]] of [[Online:Weapons|weapons]] and shields that provide special bonuses to players when the items of the same set are equipped simultaneously. They do not include [[Online:Armor|armor pieces]] other than shields.  Note that most of these sets consist only of a single two-handed weapon, so only one item is needed to receive the full bonus. The way to obtain them depends on the type of the set.
+
+==Asylum Weapons==
+[[File:ON-icon-weapon-Ebony Staff-Apostle.png|right]]
+[[ON:Asylum Weapons|Asylum Weapons]] drop in [[Online:Asylum Sanctorium|Asylum Sanctorium]]{{ESO DLC|Clockwork City}}, a [[ON:Trials|trial]] in the [[Online:Clockwork City|Clockwork City]]. Perfected versions of the weapons drop on Veteran mode. All weapons bear the [[ON:Asylum Style|Asylum Style]].
+{{NewLine}}
+
+==Blackrose Weapons==
+[[File:ON-icon-weapon-Staff-Honor Guard.png|right]]
+[[ON:Blackrose Weapons|Blackrose Weapons]] drop in [[Online:Blackrose Prison|Blackrose Prison]]{{ESO DLC|Murkmire}}, an [[ON:Arenas|arena]] in [[Online:Murkmire|Murkmire]]. Perfected versions of the weapons drop on Veteran mode. All weapons bear the [[ON:Honor Guard Style|Honor Guard Style]].
+{{NewLine}}
+
+==Maelstrom Weapons==
+[[File:ON-icon-weapon-Staff-Maelstrom.png|right|]]
+[[ON:Maelstrom Weapons|Maelstrom Weapons]] drop in [[Online:Maelstrom Arena (place)|Maelstrom Arena]]{{ESO DLC|Orsinium}}. Perfected versions of the weapons drop on Veteran mode. All weapons bear the [[ON:Maelstrom Style|Maelstrom Style]].
+{{NewLine}}
+
+==Master's Weapons==
+[[File:ON-icon-weapon-Yew Staff-High Elf.png|right]]
+[[ON:Master's Weapons|Master's Weapons]] drop in [[Online:Dragonstar Arena|Dragonstar Arena]]. Perfected versions of the weapons drop on Veteran mode. All weapons bear a different [[ON:Tier 5 Racial Styles|Tier 5 Racial Style]].
+{{NewLine}}
+
+==Vateshran Weapons==
+[[File:ON-icon-weapon-Staff-Ancestral Reach.png|right]]
+[[ON:Vateshran Weapons|Vateshran Weapons]] drop in [[Online:Vateshran Hollows|Vateshran Hollows]]{{ESO DLC|Markarth}}, a solo [[ON:Arenas|arena]] in [[Online:The Reach|The Reach]]. Perfected versions of the weapons drop on Veteran mode. All weapons bear a resemblance to the [[ON:Ancestral Reach Style|Ancestral Reach]] weapons, but corrupted by void essence.
+{{NewLine}}
+{{Online Sets}}

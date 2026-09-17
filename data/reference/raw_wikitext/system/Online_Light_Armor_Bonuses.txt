@@ -1,0 +1,15 @@
+{{Online Skill Summary
+|id=150185
+|line=Light Armor
+|type=Passive
+|icon=Light Armor-Light Armor Bonuses
+|desc=Each piece of [[Online:Light Armor|Light Armor]] does the following: Reduces damage taken from Magical attacks by '''1'''% Reduces the cost of [[Online:Roll Dodge|Roll Dodge]] by '''3'''% Reduces the [[Online:Movement Speed|Movement Speed]] penalty of [[Online:Stealth|Sneak]] by '''5'''% Reduces the cost of [[Online:Break Free|Break Free]] by '''5'''% Reduces the cost of [[Online:Combat|Bash]] by '''3'''%
+|linerank1=1
+}}
+
+<!--
+==Notes==
+* -->
+
+{{Online Skills Armor}}
+{{ESO Skills With|Passive Effect|Reduce Damage Taken|Reduce Activity Cost|Improve Stealth}}

@@ -1,0 +1,6 @@
+,Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Elemental Storm,50,Instant,Ground,28 meters,8 meters,7 seconds,250 Ultimate
+"Create a cataclysmic storm at the target location that builds for 2 seconds then lays waste to all enemies in the area, dealing [4612 / 4662 / 4713 / 4764] Magic Damage every 1 second for 7 seconds."
+,,Elemental Rage,"Increases the damage and gains a new effect depending on your staff type. Create a cataclysmic storm at the target location that builds for 2 seconds then lays waste to all enemies in the area, dealing [5955 / 6020 / 6086 / 6151] Magic Damage every 1 second for 7 seconds. Fiery Rage increases the damage by 15 %. Icy Rage immobilizes enemies hit for 3 seconds. Thunderous Rage increases the duration by 2 seconds."
+,Eye of the Storm,"The storm is cast above you instead, and follows you wherever you move. Target: Area. Create a cataclysmic storm above you that builds for 2 seconds then lays waste to all enemies nearby, dealing [4764 / 4816 / 4868 / 4921] Magic Damage every 1 second for 7 seconds."
+""

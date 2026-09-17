@@ -1,0 +1,154 @@
+{{Trail|Skill Lines}}{{Update|Werewolf went through major update, including the quests. Needs overhaul}}
+{{About|becoming a werewolf|werewolf NPCs|Werewolf (NPC)}}
+{{/Progression}}
+[[File:ON-misc-Player Werewolf.jpg|thumb|left|A Werewolf]]
+'''Werewolves''' are players infected with a certain strain of [[Lore:Lycanthropy|lycanthropy]], which allows them to transform into bipedal wolf-like beasts. Becoming a werewolf adds the related skill line with which you can unlock extra bonuses.
+{{NewLeft}}
+__TOC__
+
+==Benefits and Disadvantages==
+{{Update|Werewolf Refresh from Update 50 has changed how things work. This section needs to be updated}}
+Werewolves deal [[ON:Bleed Damage|bleed damage]] with their melee light and heavy attacks which have an increased chance of applying the [[ON:Hemorrhaging|Hemorrhaging]] status effect and have increased stamina and stamina recovery. They can also use their forearms to block and bash, similar to normal weapon use. During the transformation, they retain buffs, passive skills from most skill lines, and benefits of equipped weapons and armor, including weapon enchantments. They also keep active buffs with a duration such as [[ON:Lightning Form|Lightning Form]] after they transform. Unlike in previous Elder Scrolls games, player werewolves can still interact with most objects, change equipped armor and weapons, speak with NPCs (who generally behave normally rather than attacking or fleeing), and end the transformation at will (by using the transformation skill a second time).
+
+The main disadvantage of the werewolf transformation is that, while it lasts, the only active skills that can be used are the five from the werewolf skill line. Another significant disadvantage is the limited time on transformations, though this time can be increased by various means using the werewolf skill line. The time remaining of your transformation is shown as a small blue bar under your magicka bar. Also, werewolves will be stunned while transforming and returning to their original form. While in beast form, werewolves are also more vulnerable to [[ON:Poison Damage|Poison Damage]].  Whether in beast form or not, they are vulnerable to extra damage (20% instead of the 10% for humans) from [[ON:Fighters Guild|Fighters Guild]] abilities from players who have the [[ON:Skilled Tracker|Skilled Tracker]] passive skill. You cannot use crafting stations and do fishing while in beast form, you will get a grayed "Your paws are too clumsy" instead of the action text. You cannot use your mounts while in beast form, you will get the message "Your paws are too clumsy to handle reins". You are forced in third person camera while in beast form.
+
+All werewolves receive the Lycanthropy bonus, which is active all the time (whether you are in werewolf form or not):
+{| class="wikitable"
+!colspan=2|Bonus!!Effect
+|-
+|{{ESO Passive Icon|sk|Werewolf-Call of the Pack}}||'''Lycanthropy'''||
+You can transform into a savage beast.
+*Take 15% more damage from Poison Attacks while in werewolf form
+|}
+
+==Becoming a Werewolf==
+In order to become a werewolf, you must be infected with the disease [[Lore:Sanies Lupinus|Sanies Lupinus]]. There are a few ways of contracting this disease. One is to be scratched by one of a few special werewolf NPCs. These can appear in [[ON:The Rift|The Rift]], [[ON:Bangkorai|Bangkorai]] or [[ON:Reaper's March|Reaper's March]]. It is not necessary to kill the werewolf; once scratched, you can run away, allowing other players to contract the disease from the same werewolf.
+
+A second way you can contract Sanies Lupinus is to be infected by another player who is already a werewolf, and has the [[ON:Shadow of the Bloodmoon|Shadow of the Bloodmoon]] ability. Meet them at one of the [[Online:Werewolf Ritual Site|Werewolf Ritual Site]]s, and the other player will be able to bite you. Each werewolf player can use this ability once a week. 
+
+You can also approach [[ON:Firralthel|Firralthel]] at one of the [[Online:Shrine of Hircine|Shrines of Hircine]] and ask him to infect you. You can come across him in the wild, be advised by [[ON:Leane Luseph|Leane Luseph]] (who is found in [[ON:Ebonheart|Ebonheart]], [[ON:Skywatch|Skywatch]] or [[ON:Aldcroft|Aldcroft]]) or from using the free Quest Starter from the [[ON:Crown Store|Crown Store]].
+
+The fourth way you gain the Werewolf Skill Line is by purchasing it from the Crown Store for {{ESO Crowns|3,000}}. You do not need to do the following quest if you take this route, as the initial disease stage is skipped and the skill line is unlocked immediately to maximum rank. Note: If you purchase a werewolf bite from the Crown Store, make sure that you are logged onto the character you wish to apply the bite to when you purchase it. It will only apply to that single character. We would not recommend this route compared to the others mentioned.
+
+Once you have the disease you'll need to go to {{ESO AD}} [[Online:Rawl'kha|Rawl'kha]] (Reaper's March), {{ESO EP}} [[Online:Riften|Riften]] (The Rift), or {{ESO DC}} [[Online:Evermore|Evermore]] (Bangkorai), depending on your alliance; you will be approached by an NPC, [[Online:Thoreki|Thoreki]], who senses your "blessing", and offers the quest [[Online:Hircine's Gift|Hircine's Gift]]. Upon completion of this quest, you'll gain access to the Werewolf skill tree and the ability to transform. If you instead seek a local priest, they will cure the Sanies Lupinus and you will not become a werewolf.
+
+There is one zone for each faction where both contagious werewolves and the Hircine's Gift quest giver reside.
+
+===Aldmeri Dominion===
+*Firralthel can be found at the [[Online:Shrine of Hircine (Auridon)|Shrine of Hircine]] in [[Online:Auridon|Auridon]] along the northwest coast to the southwest of [[ON:Mehrunes' Spite|Mehrunes' Spite]].
+*The werewolf questline in Dominion lands begins in [[Online:Reaper's March|Reaper's March]]. Once infected, seek out [[Online:Thoreki|Thoreki]] at the wayshrine in [[Online:Rawl'kha|Rawl'kha]].
+*Players will be directed to the [[Online:Werewolf Ritual Site (Reaper's March)|Werewolf Ritual Site]] west of the [[Online:Fort Sphinxmoth Wayshrine|Fort Sphinxmoth Wayshrine]].
+
+===Daggerfall Covenant===
+*Firralthel can be found at the [[Online:Shrine of Hircine (Glenumbra)|Shrine of Hircine]] in [[Online:Glenumbra|Glenumbra]] in the northern [[Online:Hag Fen|Hag Fen]] area.
+*Contagious werewolves in Covenant lands are found in Northern [[Online:Bangkorai|Bangkorai]]. They spawn all along the road that leads from [[Online:Troll's Toothpick Wayshrine|Troll's Toothpick Wayshrine]], winds through the [[Online:Viridian Woods|Viridian Woods]], and ends at the gates of [[Online:Pelin Graveyard|Pelin Graveyard]]. They can also be found in Southern Bangkorai, north/south of Old Tower Wayshrine. Once infected, seek out [[Online:Thoreki|Thoreki]] in [[Online:Evermore|Evermore]].
+*Players will be directed to the [[Online:Werewolf Ritual Site (Bangkorai)|Werewolf Ritual Site]] just northeast of the [[Online:Viridian Woods|Viridian Woods]], located before the end of the waterfall.
+
+===Ebonheart Pact===
+*Firralthel can be found at the [[Online:Shrine of Hircine (Stonefalls)|Shrine of Hircine]] in [[ON:Stonefalls|Stonefalls]], east of the [[Online:Sulfur Pools Wayshrine|Sulfur Pools Wayshrine]].
+*The werewolf questline for the Pact begins in [[Online:The Rift|The Rift]] in the city of [[Online:Riften|Riften]]. [[Online:Thoreki|Thoreki]] is waiting near the Fighters Guild.
+*Players will be directed to the [[Online:Werewolf Ritual Site (The Rift)|Werewolf Ritual Site]] just northeast of [[Online:Giant Camp (Rift)|Giant Camp]].
+
+==Curing Lycanthropy==
+
+To cure your lycanthropy, seek out [[Online:Prelate Sabinus|Prelate Sabinus]] in the [[Online:Mages Guild|Mages Guild]] hall in {{ESO Alliances|Pact=[[Online:Riften|Riften]]|Covenant=[[Online:Evermore|Evermore]], or&nbsp;|Dominion=[[Online:Rawl'kha|Rawl'kha]],&nbsp;|inline=y}}. He is also present in every capital city; [[Online:Mournhold|Mournhold]], [[Online:Elden Root|Elden Root]], [[Online:Wayrest|Wayrest]], as well as the DLC cities of [[Online:Orsinium|Orsinium]], [[Online:Vivec City|Vivec City]], [[Online:Alinor|Alinor]], [[Online:Rimmen|Rimmen]], [[Online:Solitude|Solitude]], [[Online:Leyawiin|Leyawiin]], [[Online:Gonfalon Bay|Gonfalon Bay]] and [[Online:Necrom|Necrom]]. You will be requested to donate a small amount of gold before being instantly cured.
+
+==Skill Perks==
+{{ESO Skill Notes}}
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Werewolf Transformation}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Pounce}}
+{{Online Skill Link|Hircine's Bounty}}
+{{Online Skill Link|Roar}}
+{{Online Skill Link|Gnash}}
+{{Online Skill Link|Rending Claws}}
+|}
+
+===Passive Abilities===
+Passive abilities are active all the time.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Insatiable Hunger}}
+{{Online Skill Link|Master of the Chase}}
+{{Online Skill Link|Blood Rage}}
+{{Online Skill Link|Shadow of the Bloodmoon}}
+{{Online Skill Link|Feral Cruelty}}
+{{Online Skill Link|Call of the Hunt}}
+|}
+
+===Advancement===
+Earn kills while in Werewolf form to advance this skill line. Each kill advances your skill rank by 5 points.
+{| class="wikitable"
+|-
+! Rank !! Points Required<br>for Next Rank !! Total Points<br>for Rank
+|-
+| 1 || 25 || 0
+|-
+| 2 || 50 || 25
+|-
+| 3 || 75 || 75
+|-
+| 4 || 100 || 150
+|-
+| 5 || 125 || 250
+|-
+| 6 || 150 || 375
+|-
+| 7 || 175 || 525
+|-
+| 8 || 200 || 700
+|-
+| 9 || 225 || 900
+|-
+| 10 || - || 1125
+|}
+
+==Equipment==
+* The 5-item [[Online:Salvation|Salvation]] set bonus "Reduce cost of Werewolf Transformation by 33%" results in a net cost of 200 Ultimate.
+
+==Achievements==
+There are seven [[ON:Character Achievements|achievements]] associated with Lycanthropy:
+{{#local:showreward|1}}{{ESO Achievements List
+|Lycanthropy (achievement)|{{ESO ArmorDye Icon|Wolf's Fur Brown|link=1}}<br>'''Skill Line''': [[ON:Werewolf|Werewolf]]
+|Lycanthropy Master|{{ESO ArmorDye Icon|Lycanthrope Gray|link=1}}
+|Werewolf Corpse Taster|
+|Werewolf Corpse Eater|
+|Werewolf Corpse Devourer|
+|Wandering Werewolf|
+|Werewolf Sire|
+}}
+
+==Notes==
+{{Update|Following notes need to be checked due to major changes with Update 50}}
+* As of [[Online:Patch/4.1.5|Patch 4.1.5]], skill points spent in the Werewolf skill line are refunded after you cure yourself of Lycanthropy.
+* Any experience you previously gained will remain, allowing you to become a [[Lore:Lycanthropy|werewolf]] again at a later point without any progression loss if you choose to cure yourself.
+* Leveling up the Active skills in the Werewolf line can take longer than expected, since you will only earn experience towards these skills while they are slotted in your skill bar, which can only happen while you are in werewolf form.  The Werewolf Transformation skill itself will level even when you are not in werewolf form, so long as it is slotted (since it is an Ultimate), but the regular Active skills require you to transform regularly in order to level them.
+* As of [[Online:Patch/4.1.5|Patch 4.1.5]], the ability bar can be rearranged without being in werewolf form.
+*As of [[Online:Patch/6.0.5|Patch 6.0.5]], Werewolf skills were altered. Transforming into a Werewolf and using Werewolf active abilities will now be considered a criminal act, and there are now seven Achievements associated with being a Werewolf under Character Achievements.
+* It is possible to remain permanently transformed as a werewolf while visiting the [[Online:Hunter's Glade|Hunter's Glade]]{{Crown Store}} player home.
+* Werewolves do not have any animation for when they use a [[ON:Skyshard|Skyshard]].
+* You always transform back to your humanoid form when changing zone. Teleporting inside the same zone works normally. You will get interrupted if you use a door while changing back to your human form.
+* Your light, medium and heavy attacks can proc your equipped weapon's enchantment. In the case of Dual-Wielding, it chooses one of the two enchantments at random, but each enchantment keeps its own cooldown.
+
+==Gallery==
+<gallery>
+File:ON-render-Werewolf Update Banner.jpg|Werewolf Refresh
+File:ON-render-Werewolves in Vvardenfell.jpg|Werewolf Refresh
+</gallery>
+
+==Bugs==
+{{bug|When in werewolf form, a player is unable to interact with the crow assistants, banker [[Online:Baron Jangleplume|Baron Jangleplume]] and merchant [[Online:Peddler of Prizes|Peddler of Prizes]].}}
+
+{{Online Skills}}
+
+[[Category:Online-Skill Lines-World]]

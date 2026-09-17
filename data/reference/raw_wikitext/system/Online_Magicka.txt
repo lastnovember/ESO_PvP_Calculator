@@ -1,0 +1,34 @@
+{{Trail|Attributes}}
+{{ESO Magicka Link|}} is the magical energy that is used to cast [[Online:Skills|Magicka Skills]]. It is equivalent to the [[Wikipedia:magic point|magic points]] (MP or mana) used by other RPGs.
+
+==Maximum Magicka==
+The amount of magicka you have depends on your character's [[Online:Leveling|level]]. Each time you level up, your maximum magicka [[Online:Attributes|attribute]] will increase.  You can choose additionally increase your maximum magicka using attribute points
+
+A level 1 character will begin the game with 1220 magicka. This will increase by 220 every level, resulting in 12 000 maximum magicka at level 50. Every point placed into the magicka attribute will increase it by 111 points. A level 50 character with all 64 attribute points placed into magicka will have a base maximum magicka of 19104 points. This is before any additional increases to the stat.
+
+Your magicka attribute can be increased by using equipment with a [[Online:Glyph of Magicka|Glyph of Magicka]] or [[Online:Glyph of Prismatic Defense|Glyph of Prismatic Defense]] enchantment, with the [[Online:The Mage (Mundus Stone)|Mage]] Mundus Stone, through the boosts from some item [[Online:Sets|sets]], and through many [[Online:Skills|skill]] lines. A level 50 character may further increase their maximum magicka with the [[Online:Champion|champion]] perks [[Online:Eldritch Insight|Eldritch Insight]] and [[Online:Arcane Supremacy|Arcane Supremacy]]. [[Online:Food|Food]] can be used to temporarily increase maximum magicka.
+
+[[Online:High Elf|Altmer]], [[Online:Breton|Breton]], [[Online:Khajiit|Khajiit]], [[Online:Argonian|Argonian]], and [[Online:Dark Elf|Dunmer]] may additionally increase their maximum magicka through their racial abilities.
+
+The formula for calculating maximum magicka is:
+<code>Magicka = (220 * Level + 1000 + 111 * Attribute.Magicka + Item.Magicka + Set.Magicka + Food.Magicka + Mundus.Magicka + Skill2.Magicka)*(1 + Skill.Magicka + Buff.Magicka)</code>
+
+==Magicka Recovery==
+Magicka Recovery is how fast your magicka recovers. This stat increases as you level. Increasing the magicka attribute will not increase magicka recovery.
+
+A level 1 character will begin the game with a magicka recovery of 58. This will increase by approximately 9.3 points per level, rounded to the nearest integer. A level 50 character will have a base magicka recovery of 514 points.
+
+Magicka recovery can be increased by abilities and sets giving the [[Online:Buffs#Intellect|Intellect]] buff, the [[Online:The Atronach (Mundus Stone)|Atronach]] Mundus Stone, through item set bonuses, from [[Online:Jewelry|jewelry]] with a [[Online:Glyph of Magicka Recovery|glyph of magicka recovery]] and from many skill trees. Characters over level 50 may increase their magicka recovery with the [[Online:Rejuvenation|Rejuvenation]] champion perk. Some [[Online:Drinks|drinks]] can temporarily increase magicka recovery.
+
+Khajiit may increase their magicka recovery through racial abilities.
+
+The formula for magicka recovery is:
+<code>MagickaRegen = (round(9.30612 * Level + 48.7) + Item.MagickaRegen + Set.MagickaRegen + Mundus.MagickaRegen + (Food.MagickaRegen)*(1/(1 + Skill2.MagickaRegen)))*(1 + CP.MagickaRegen + Skill.MagickaRegen + Buff.MagickaRegen)*(1 + Skill2.MagickaRegen)</code>
+
+==Restoring Magicka==
+Your available magicka is decreased each time you cast a spell. The blue bar in the bottom left of the screen shows you the current status of your magicka (although this bar will be invisible when magicka is full). There are a number of ways to [[Online:Restore Magicka|restore magicka]]:
+* Magicka slowly regenerates over time. You regenerate faster outside of combat than inside of combat. Magicka will not regenerate while you are casting a spell.
+* Restore magicka effects are available from:
+** [[Online:Potions#Magicka Potions|Magicka potions]] and crafted potions with the [[Online:Restore Magicka|Restore Magicka]] effect
+
+* Whenever your character [[Online:Leveling|levels up]], your magicka is fully restored

@@ -1,0 +1,6 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Annulment,22,Instant,Self,–,–,6 seconds,4590 Magicka
+"Requires 5 pieces of light armor equipped Convert a portion of your Magicka into a protective ward, gaining a damage shield that absorbs [9000 / 9098 / 9198 / 9297] damage for 6 seconds. Damage shield strength capped at 50 % of your Max Health ."
+,,Dampen Magic,"Each piece of Light Armor worn increases damage absorbed. Increases shield cap value. Requires 5 pieces of light armor equipped Convert a portion of your Magicka into a protective ward, gaining a damage shield that absorbs 9297 damage for 6 seconds. Damage shield strength capped at 60 % of your Max Health . Each piece of Light Armor worn increases the amount of damage absorbed by [3 / 4 / 5 / 6] %."
+,Harness Magicka,"Restores Magicka whenever you absorb damage. Requires 5 pieces of light armor equipped Convert a portion of your Magicka into a protective ward, gaining a damage shield that absorbs 9297 damage for 6 seconds. Damage shield strength capped at 50 % of your Max Health . While active, whenever the shield absorbs damage, you restore 229 Magicka . Each piece of Light Armor worn increases the Magicka restored by [30 / 31 / 32 / 33] %. This effect can occur up to 3 times."
+""

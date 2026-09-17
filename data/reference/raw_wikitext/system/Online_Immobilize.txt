@@ -1,0 +1,30 @@
+{{Trail|Combat}}
+[[File:ON-icon-misc-Root.png|right]]
+'''Immobilize''', also known as '''Root''', is a debilitating status effect that prevents a target from moving from their location, though they can still attack and defend themselves as normal.  You can escape the effect by performing a Roll Dodge or Break Free action.  Abilities which have a movement built in such as [[ON:Bolt Escape|Bolt Escape]] or [[ON:Teleport Strike|Teleport Strike]] still work, but you are still immobilized after you teleport.  Many tougher enemies are immune to this effect.
+
+==Skills==
+{|class=wikitable
+!colspan=2|Skill!!Duration!!Affects!!Cost!!Notes
+|-
+|colspan=2|[[ON:Dragonknight Standard|Dragonknight Standard]] ([[ON:Ardent Flame|Ardent Flame]])||5 sec.||All Enemies Within AoE||{{ESO Ultimate Link|250}}||Activated via [[Online:Shackle|Shackle]] synergy
+|-
+|colspan=2|[[ON:Dark Talons|Dark Talons]] ([[ON:Draconic Power|Draconic Power]])||4 sec.||All Nearby Enemies||{{ESO Magicka Link|4050}}||
+|-
+|colspan=2|[[ON:Crippling Grasp|Crippling Grasp]] ([[ON:Siphoning|Siphoning]])||2 sec.||Single Target||{{ESO Magicka Link|3240}}||
+|-
+|colspan=2|[[ON:Daedric Mines|Daedric Mines]] ([[ON:Dark Magic|Dark Magic]])||2 sec.||Any Enemies Hit||{{ESO Magicka Link|6480}}||
+|-
+|colspan=2|[[ON:Encase|Encase]] ([[ON:Dark Magic|Dark Magic]])||4 sec.||All Enemies in Front of You||{{ESO Magicka Link|4320}}||
+|-
+|colspan=2|[[ON:Bombard|Bombard]] ([[ON:Bow|Bow]])||4 sec.||Any Enemies Hit||{{ESO Stamina Link|4050}}||Also reduces Movement Speed when effect ends
+|-
+|colspan=2|[[ON:Destructive Touch|Frost Touch]] ([[ON:Destruction Staff|Destruction Staff]])||{{huh}}||Single Target||{{ESO Magicka Link|4050}}||
+|-
+|colspan=2|[[ON:Wall of Elements|Wall of Frost]] ([[ON:Destruction Staff|Destruction Staff]])||{{huh}}||All Targets in Range||{{ESO Magicka Link|3510}}||
+|-
+|colspan=2|[[ON:Trap Beast|Trap Beast]] ([[ON:Fighters Guild|Fighters Guild]])||2 sec.||Single Target||{{ESO Stamina Link|3780}}||
+|}
+
+==Notes==
+*The [[ON:Eternal Hunt|Eternal Hunt]] set causes you to leave behind a trap when performing a Roll Dodge which will [[ON:Poison Damage|Poison]] and Immobilize enemies who trigger it for 1.5 seconds.
+*Poisons with the [[ON:Entrapment|Entrapment]] or [[ON:Unstoppable|Unstoppable]] effect will Immobilize your targets.  Entrapment's effect lasts longer, but Unstoppable also protects you from Crowd Control effects.

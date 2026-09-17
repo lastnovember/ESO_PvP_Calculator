@@ -33,15 +33,19 @@ Online:Food,Food.md,3403,https://en.uesp.net/wiki/Online:Food
 Online:Frost Damage,Frost_Damage.md,1262,https://en.uesp.net/wiki/Online:Frost_Damage
 Online:Health,Health.md,586,https://en.uesp.net/wiki/Online:Health
 Online:Heavy Armor,Heavy_Armor.md,285,https://en.uesp.net/wiki/Online:Heavy_Armor
+Online:Heavy Armor Bonuses,Heavy_Armor_Bonuses.md,97,https://en.uesp.net/wiki/Online:Heavy_Armor_Bonuses
+Online:Heavy Armor Penalties,Heavy_Armor_Penalties.md,95,https://en.uesp.net/wiki/Online:Heavy_Armor_Penalties
 Online:Immobilize,Immobilize.md,274,https://en.uesp.net/wiki/Online:Immobilize
 Online:Imperial City,Imperial_City.md,1111,https://en.uesp.net/wiki/Online:Imperial_City
 Online:Jewelry Sets,Jewelry_Sets.md,232,https://en.uesp.net/wiki/Online:Jewelry_Sets
 Online:Leveling,Leveling.md,2537,https://en.uesp.net/wiki/Online:Leveling
 Online:Light Armor,Light_Armor.md,318,https://en.uesp.net/wiki/Online:Light_Armor
+Online:Light Armor Bonuses,Light_Armor_Bonuses.md,60,https://en.uesp.net/wiki/Online:Light_Armor_Bonuses
 Online:Mages Guild,Mages_Guild.md,798,https://en.uesp.net/wiki/Online:Mages_Guild
 Online:Magic Damage,Magic_Damage.md,1557,https://en.uesp.net/wiki/Online:Magic_Damage
 Online:Magicka,Magicka.md,513,https://en.uesp.net/wiki/Online:Magicka
 Online:Medium Armor,Medium_Armor.md,279,https://en.uesp.net/wiki/Online:Medium_Armor
+Online:Medium Armor Bonuses,Medium_Armor_Bonuses.md,125,https://en.uesp.net/wiki/Online:Medium_Armor_Bonuses
 Online:Monster Helm Sets,Monster_Helm_Sets.md,286,https://en.uesp.net/wiki/Online:Monster_Helm_Sets
 Online:Movement Speed,Movement_Speed.md,1491,https://en.uesp.net/wiki/Online:Movement_Speed
 Online:Mundus Stones,Mundus_Stones.md,337,https://en.uesp.net/wiki/Online:Mundus_Stones
@@ -88,3 +92,1460 @@ Online:Weapon Damage,Weapon_Damage.md,187,https://en.uesp.net/wiki/Online:Weapon
 Online:Weapon Sets,Weapon_Sets.md,219,https://en.uesp.net/wiki/Online:Weapon_Sets
 Online:Weapons,Weapons.md,463,https://en.uesp.net/wiki/Online:Weapons
 Online:Werewolf,Werewolf.md,1659,https://en.uesp.net/wiki/Online:Werewolf
+Online:Ashen Grip,sets/Ashen_Grip.md,325,https://en.uesp.net/wiki/Online:Ashen_Grip
+Online:Alessia's Bulwark,sets/Alessia_s_Bulwark.md,127,https://en.uesp.net/wiki/Online:Alessia's_Bulwark
+Online:Affliction,sets/Affliction.md,182,https://en.uesp.net/wiki/Online:Affliction
+Online:Akaviri Dragonguard,sets/Akaviri_Dragonguard.md,271,https://en.uesp.net/wiki/Online:Akaviri_Dragonguard
+Online:Alessian Order (set),sets/Alessian_Order_set.md,143,https://en.uesp.net/wiki/Online:Alessian_Order_(set)
+Online:Almalexia's Mercy,sets/Almalexia_s_Mercy.md,145,https://en.uesp.net/wiki/Online:Almalexia's_Mercy
+Online:Archer's Mind,sets/Archer_s_Mind.md,91,https://en.uesp.net/wiki/Online:Archer's_Mind
+Online:The Arch-Mage,sets/The_Arch-Mage.md,126,https://en.uesp.net/wiki/Online:The_Arch-Mage
+Online:Craftable Sets,sets/Craftable_Sets.md,1740,https://en.uesp.net/wiki/Online:Craftable_Sets
+Online:Arena Sets,sets/Arena_Sets.md,78,https://en.uesp.net/wiki/Online:Arena_Sets
+Online:Armor of Truth,sets/Armor_of_Truth.md,154,https://en.uesp.net/wiki/Online:Armor_of_Truth
+Online:Arms of Infernace,sets/Arms_of_Infernace.md,92,https://en.uesp.net/wiki/Online:Arms_of_Infernace
+Online:Arms of the Ancestors,sets/Arms_of_the_Ancestors.md,72,https://en.uesp.net/wiki/Online:Arms_of_the_Ancestors
+Online:Armor Master,sets/Armor_Master.md,135,https://en.uesp.net/wiki/Online:Armor_Master
+Online:Monster Helm Sets,sets/Monster_Helm_Sets.md,286,https://en.uesp.net/wiki/Online:Monster_Helm_Sets
+Online:Trial Sets,sets/Trial_Sets.md,166,https://en.uesp.net/wiki/Online:Trial_Sets
+Online:Agility (set),sets/Agility_set.md,138,https://en.uesp.net/wiki/Online:Agility_(set)
+Online:Armor of the Code,sets/Armor_of_the_Code.md,138,https://en.uesp.net/wiki/Online:Armor_of_the_Code
+Online:Armor of the Seducer,sets/Armor_of_the_Seducer.md,117,https://en.uesp.net/wiki/Online:Armor_of_the_Seducer
+Online:Aspect of Mazzatun,sets/Aspect_of_Mazzatun.md,99,https://en.uesp.net/wiki/Online:Aspect_of_Mazzatun
+Online:Overland Sets,sets/Overland_Sets.md,144,https://en.uesp.net/wiki/Online:Overland_Sets
+Online:Armor of the Veiled Heritance,sets/Armor_of_the_Veiled_Heritance.md,258,https://en.uesp.net/wiki/Online:Armor_of_the_Veiled_Heritance
+Online:Dungeon Sets,sets/Dungeon_Sets.md,93,https://en.uesp.net/wiki/Online:Dungeon_Sets
+Online:Armor of the Trainee,sets/Armor_of_the_Trainee.md,373,https://en.uesp.net/wiki/Online:Armor_of_the_Trainee
+Online:Amber Plasm,sets/Amber_Plasm.md,100,https://en.uesp.net/wiki/Online:Amber_Plasm
+Online:Weapon Sets,sets/Weapon_Sets.md,219,https://en.uesp.net/wiki/Online:Weapon_Sets
+Online:Automated Defense,sets/Automated_Defense.md,128,https://en.uesp.net/wiki/Online:Automated_Defense
+Online:Assassin's Guile,sets/Assassin_s_Guile.md,111,https://en.uesp.net/wiki/Online:Assassin's_Guile
+Online:Asylum Weapons,sets/Asylum_Weapons.md,256,https://en.uesp.net/wiki/Online:Asylum_Weapons
+Online:Jewelry Sets,sets/Jewelry_Sets.md,232,https://en.uesp.net/wiki/Online:Jewelry_Sets
+Online:Adept Rider,sets/Adept_Rider.md,116,https://en.uesp.net/wiki/Online:Adept_Rider
+Online:Aegis of Galenwe,sets/Aegis_of_Galenwe.md,134,https://en.uesp.net/wiki/Online:Aegis_of_Galenwe
+Online:Arms of Relequen,sets/Arms_of_Relequen.md,196,https://en.uesp.net/wiki/Online:Arms_of_Relequen
+Online:Auroran's Thunder,sets/Auroran_s_Thunder.md,126,https://en.uesp.net/wiki/Online:Auroran's_Thunder
+Online:Azureblight Reaper,sets/Azureblight_Reaper.md,164,https://en.uesp.net/wiki/Online:Azureblight_Reaper
+Online:Ancient Dragonguard,sets/Ancient_Dragonguard.md,181,https://en.uesp.net/wiki/Online:Ancient_Dragonguard
+Online:Aegis Caller,sets/Aegis_Caller.md,135,https://en.uesp.net/wiki/Online:Aegis_Caller
+Online:Arkasis's Genius,sets/Arkasis_s_Genius.md,93,https://en.uesp.net/wiki/Online:Arkasis's_Genius
+Online:Aetherial Ascension,sets/Aetherial_Ascension.md,112,https://en.uesp.net/wiki/Online:Aetherial_Ascension
+Online:Archdruid Devyric (set),sets/Archdruid_Devyric_set.md,148,https://en.uesp.net/wiki/Online:Archdruid_Devyric_(set)
+Online:Abyssal Brace,sets/Abyssal_Brace.md,100,https://en.uesp.net/wiki/Online:Abyssal_Brace
+Online:Apocryphal Inspiration,sets/Apocryphal_Inspiration.md,102,https://en.uesp.net/wiki/Online:Apocryphal_Inspiration
+Online:Adamant Lurker,sets/Adamant_Lurker.md,82,https://en.uesp.net/wiki/Online:Adamant_Lurker
+Online:Ansuul's Torment,sets/Ansuul_s_Torment.md,124,https://en.uesp.net/wiki/Online:Ansuul's_Torment
+Online:Anthelmir's Construct (set),sets/Anthelmir_s_Construct_set.md,175,https://en.uesp.net/wiki/Online:Anthelmir's_Construct_(set)
+Online:Baan Dar's Blessing,sets/Baan_Dar_s_Blessing.md,164,https://en.uesp.net/wiki/Online:Baan_Dar's_Blessing
+Online:Ayleid Refuge,sets/Ayleid_Refuge.md,103,https://en.uesp.net/wiki/Online:Ayleid_Refuge
+Online:Aetheric Lancer,sets/Aetheric_Lancer.md,184,https://en.uesp.net/wiki/Online:Aetheric_Lancer
+Online:Aerie's Cry,sets/Aerie_s_Cry.md,189,https://en.uesp.net/wiki/Online:Aerie's_Cry
+Online:Arkay's Charity,sets/Arkay_s_Charity.md,122,https://en.uesp.net/wiki/Online:Arkay's_Charity
+Online:Bloodthorn's Touch,sets/Bloodthorn_s_Touch.md,149,https://en.uesp.net/wiki/Online:Bloodthorn's_Touch
+Online:Barkskin,sets/Barkskin.md,140,https://en.uesp.net/wiki/Online:Barkskin
+Online:Beckoning Steel,sets/Beckoning_Steel.md,156,https://en.uesp.net/wiki/Online:Beckoning_Steel
+Online:Bastion of the Heartland,sets/Bastion_of_the_Heartland.md,137,https://en.uesp.net/wiki/Online:Bastion_of_the_Heartland
+Online:Blessing of the Potentates,sets/Blessing_of_the_Potentates.md,116,https://en.uesp.net/wiki/Online:Blessing_of_the_Potentates
+Online:Buffer of the Swift,sets/Buffer_of_the_Swift.md,123,https://en.uesp.net/wiki/Online:Buffer_of_the_Swift
+Online:Bloodspawn (set),sets/Bloodspawn_set.md,134,https://en.uesp.net/wiki/Online:Bloodspawn_(set)
+Online:Briarheart,sets/Briarheart.md,182,https://en.uesp.net/wiki/Online:Briarheart
+Online:Black Rose,sets/Black_Rose.md,142,https://en.uesp.net/wiki/Online:Black_Rose
+Online:Berserking Warrior,sets/Berserking_Warrior.md,135,https://en.uesp.net/wiki/Online:Berserking_Warrior
+Online:Brands of Imperium,sets/Brands_of_Imperium.md,159,https://en.uesp.net/wiki/Online:Brands_of_Imperium
+Online:Bahraha's Curse,sets/Bahraha_s_Curse.md,146,https://en.uesp.net/wiki/Online:Bahraha's_Curse
+Online:Burning Spellweave,sets/Burning_Spellweave.md,161,https://en.uesp.net/wiki/Online:Burning_Spellweave
+Online:Beekeeper's Gear,sets/Beekeeper_s_Gear.md,125,https://en.uesp.net/wiki/Online:Beekeeper's_Gear
+Online:Bone Pirate's Tatters,sets/Bone_Pirate_s_Tatters.md,134,https://en.uesp.net/wiki/Online:Bone_Pirate's_Tatters
+Online:Blooddrinker,sets/Blooddrinker.md,79,https://en.uesp.net/wiki/Online:Blooddrinker
+Online:Caustic Arrow,sets/Caustic_Arrow.md,101,https://en.uesp.net/wiki/Online:Caustic_Arrow
+Online:Broken Soul,sets/Broken_Soul.md,72,https://en.uesp.net/wiki/Online:Broken_Soul
+Online:Caluurion's Legacy,sets/Caluurion_s_Legacy.md,143,https://en.uesp.net/wiki/Online:Caluurion's_Legacy
+Online:Blood Moon,sets/Blood_Moon.md,123,https://en.uesp.net/wiki/Online:Blood_Moon
+Online:Balorgh (set),sets/Balorgh_set.md,127,https://en.uesp.net/wiki/Online:Balorgh_(set)
+Online:Battalion Defender,sets/Battalion_Defender.md,170,https://en.uesp.net/wiki/Online:Battalion_Defender
+Online:Battlefield Acrobat,sets/Battlefield_Acrobat.md,147,https://en.uesp.net/wiki/Online:Battlefield_Acrobat
+Online:Bright-Throat's Boast,sets/Bright-Throat_s_Boast.md,114,https://en.uesp.net/wiki/Online:Bright-Throat's_Boast
+Online:Champion of the Hist,sets/Champion_of_the_Hist.md,111,https://en.uesp.net/wiki/Online:Champion_of_the_Hist
+Online:Blackrose Weapons,sets/Blackrose_Weapons.md,239,https://en.uesp.net/wiki/Online:Blackrose_Weapons
+Online:Call of the Undertaker,sets/Call_of_the_Undertaker.md,234,https://en.uesp.net/wiki/Online:Call_of_the_Undertaker
+Online:Bani's Torment,sets/Bani_s_Torment.md,130,https://en.uesp.net/wiki/Online:Bani's_Torment
+Online:Bloodlord's Embrace,sets/Bloodlord_s_Embrace.md,968,https://en.uesp.net/wiki/Online:Bloodlord's_Embrace
+Online:Baron Zaudrus (set),sets/Baron_Zaudrus_set.md,173,https://en.uesp.net/wiki/Online:Baron_Zaudrus_(set)
+Online:Bahsei's Mania,sets/Bahsei_s_Mania.md,122,https://en.uesp.net/wiki/Online:Bahsei's_Mania
+Online:Bog Raider,sets/Bog_Raider.md,98,https://en.uesp.net/wiki/Online:Bog_Raider
+Online:Belharza's Band,sets/Belharza_s_Band.md,967,https://en.uesp.net/wiki/Online:Belharza's_Band
+Online:Baron Thirsk (set),sets/Baron_Thirsk_set.md,189,https://en.uesp.net/wiki/Online:Baron_Thirsk_(set)
+Online:Blessing of High Isle,sets/Blessing_of_High_Isle.md,120,https://en.uesp.net/wiki/Online:Blessing_of_High_Isle
+Online:Back-Alley Gourmand,sets/Back-Alley_Gourmand.md,88,https://en.uesp.net/wiki/Online:Back-Alley_Gourmand
+Online:Bastion of the Draoife,sets/Bastion_of_the_Draoife.md,110,https://en.uesp.net/wiki/Online:Bastion_of_the_Draoife
+Online:Camonna Tong (set),sets/Camonna_Tong_set.md,144,https://en.uesp.net/wiki/Online:Camonna_Tong_(set)
+Online:Basalt-Blooded Warrior,sets/Basalt-Blooded_Warrior.md,150,https://en.uesp.net/wiki/Online:Basalt-Blooded_Warrior
+Online:Black-Glove Grounding,sets/Black-Glove_Grounding.md,120,https://en.uesp.net/wiki/Online:Black-Glove_Grounding
+Online:Blind Path Induction,sets/Blind_Path_Induction.md,104,https://en.uesp.net/wiki/Online:Blind_Path_Induction
+Online:Blunted Blades,sets/Blunted_Blades.md,179,https://en.uesp.net/wiki/Online:Blunted_Blades
+Online:The Blind (set),sets/The_Blind_set.md,140,https://en.uesp.net/wiki/Online:The_Blind_(set)
+Online:Beacon of Oblivion,sets/Beacon_of_Oblivion.md,152,https://en.uesp.net/wiki/Online:Beacon_of_Oblivion
+Online:Bulwark Ruination,sets/Bulwark_Ruination.md,110,https://en.uesp.net/wiki/Online:Bulwark_Ruination
+Online:Blackfeather Flight,sets/Blackfeather_Flight.md,113,https://en.uesp.net/wiki/Online:Blackfeather_Flight
+Online:Black Foundry Steel,sets/Black_Foundry_Steel.md,97,https://en.uesp.net/wiki/Online:Black_Foundry_Steel
+Online:Black Gem Monstrosity (set),sets/Black_Gem_Monstrosity_set.md,137,https://en.uesp.net/wiki/Online:Black_Gem_Monstrosity_(set)
+Online:Bar-Sakka (set),sets/Bar-Sakka_set.md,145,https://en.uesp.net/wiki/Online:Bar-Sakka_(set)
+Online:Death's Wind,sets/Death_s_Wind.md,138,https://en.uesp.net/wiki/Online:Death's_Wind
+Online:Darkstride,sets/Darkstride.md,77,https://en.uesp.net/wiki/Online:Darkstride
+Online:Curse Eater,sets/Curse_Eater.md,158,https://en.uesp.net/wiki/Online:Curse_Eater
+Online:Crest of Cyrodiil,sets/Crest_of_Cyrodiil.md,320,https://en.uesp.net/wiki/Online:Crest_of_Cyrodiil
+Online:Deadly Strike,sets/Deadly_Strike.md,184,https://en.uesp.net/wiki/Online:Deadly_Strike
+Online:Clever Alchemist,sets/Clever_Alchemist.md,130,https://en.uesp.net/wiki/Online:Clever_Alchemist
+Online:Crusader,sets/Crusader.md,338,https://en.uesp.net/wiki/Online:Crusader
+Online:Defending Warrior,sets/Defending_Warrior.md,128,https://en.uesp.net/wiki/Online:Defending_Warrior
+Online:Desert Rose,sets/Desert_Rose.md,139,https://en.uesp.net/wiki/Online:Desert_Rose
+Online:Combat Physician,sets/Combat_Physician.md,101,https://en.uesp.net/wiki/Online:Combat_Physician
+Online:The Destruction Suite,sets/The_Destruction_Suite.md,95,https://en.uesp.net/wiki/Online:The_Destruction_Suite
+Online:Chokethorn (set),sets/Chokethorn_set.md,170,https://en.uesp.net/wiki/Online:Chokethorn_(set)
+Online:Cropsford/Sets,sets/Cropsford_Sets.md,15,https://en.uesp.net/wiki/Online:Cropsford/Sets
+Online:Cheydinhal/Sets,sets/Cheydinhal_Sets.md,146,https://en.uesp.net/wiki/Online:Cheydinhal/Sets
+Online:Daedric Trickery,sets/Daedric_Trickery.md,204,https://en.uesp.net/wiki/Online:Daedric_Trickery
+Online:Defiler,sets/Defiler.md,207,https://en.uesp.net/wiki/Online:Defiler
+Online:Coward's Gear,sets/Coward_s_Gear.md,119,https://en.uesp.net/wiki/Online:Coward's_Gear
+Online:Chaotic Whirlwind,sets/Chaotic_Whirlwind.md,180,https://en.uesp.net/wiki/Online:Chaotic_Whirlwind
+Online:Concentrated Force,sets/Concentrated_Force.md,141,https://en.uesp.net/wiki/Online:Concentrated_Force
+Online:Cruel Flurry,sets/Cruel_Flurry.md,129,https://en.uesp.net/wiki/Online:Cruel_Flurry
+Online:Crushing Wall,sets/Crushing_Wall.md,92,https://en.uesp.net/wiki/Online:Crushing_Wall
+Online:Defensive Position,sets/Defensive_Position.md,170,https://en.uesp.net/wiki/Online:Defensive_Position
+Online:Destructive Impact,sets/Destructive_Impact.md,153,https://en.uesp.net/wiki/Online:Destructive_Impact
+Online:Curse of Doylemish,sets/Curse_of_Doylemish.md,119,https://en.uesp.net/wiki/Online:Curse_of_Doylemish
+Online:Dead-Water's Guile,sets/Dead-Water_s_Guile.md,107,https://en.uesp.net/wiki/Online:Dead-Water's_Guile
+Online:Coldharbour's Favorite,sets/Coldharbour_s_Favorite.md,183,https://en.uesp.net/wiki/Online:Coldharbour's_Favorite
+Online:Claw of Yolnahkriin,sets/Claw_of_Yolnahkriin.md,180,https://en.uesp.net/wiki/Online:Claw_of_Yolnahkriin
+Online:Crafty Alfiq,sets/Crafty_Alfiq.md,147,https://en.uesp.net/wiki/Online:Crafty_Alfiq
+Online:Daring Corsair,sets/Daring_Corsair.md,139,https://en.uesp.net/wiki/Online:Daring_Corsair
+Online:Critical Riposte,sets/Critical_Riposte.md,153,https://en.uesp.net/wiki/Online:Critical_Riposte
+Online:Dauntless Combatant,sets/Dauntless_Combatant.md,144,https://en.uesp.net/wiki/Online:Dauntless_Combatant
+Online:Crimson Twilight,sets/Crimson_Twilight.md,124,https://en.uesp.net/wiki/Online:Crimson_Twilight
+Online:Dagon's Dominion,sets/Dagon_s_Dominion.md,88,https://en.uesp.net/wiki/Online:Dagon's_Dominion
+Online:Death Dealer's Fete,sets/Death_Dealer_s_Fete.md,943,https://en.uesp.net/wiki/Online:Death_Dealer's_Fete
+Online:Deadlands Assassin,sets/Deadlands_Assassin.md,152,https://en.uesp.net/wiki/Online:Deadlands_Assassin
+Online:Crimson Oath's Rive,sets/Crimson_Oath_s_Rive.md,136,https://en.uesp.net/wiki/Online:Crimson_Oath's_Rive
+Online:Dark Convergence,sets/Dark_Convergence.md,235,https://en.uesp.net/wiki/Online:Dark_Convergence
+Online:Deadlands Demolisher,sets/Deadlands_Demolisher.md,159,https://en.uesp.net/wiki/Online:Deadlands_Demolisher
+Online:Coral Riptide,sets/Coral_Riptide.md,130,https://en.uesp.net/wiki/Online:Coral_Riptide
+Online:Deeproot Zeal,sets/Deeproot_Zeal.md,93,https://en.uesp.net/wiki/Online:Deeproot_Zeal
+Online:Chimera's Rebuke,sets/Chimera_s_Rebuke.md,136,https://en.uesp.net/wiki/Online:Chimera's_Rebuke
+Online:Claw of the Forest Wraith,sets/Claw_of_the_Forest_Wraith.md,117,https://en.uesp.net/wiki/Online:Claw_of_the_Forest_Wraith
+Online:Cryptcanon Vestments,sets/Cryptcanon_Vestments.md,927,https://en.uesp.net/wiki/Online:Cryptcanon_Vestments
+Online:Colovian Highlands General,sets/Colovian_Highlands_General.md,124,https://en.uesp.net/wiki/Online:Colovian_Highlands_General
+Online:Class Sets,sets/Class_Sets.md,39,https://en.uesp.net/wiki/Online:Class_Sets
+Online:Deprecated Item Sets,sets/Deprecated_Item_Sets.md,237,https://en.uesp.net/wiki/Online:Deprecated_Item_Sets
+Online:Cinders of Anthelmir,sets/Cinders_of_Anthelmir.md,150,https://en.uesp.net/wiki/Online:Cinders_of_Anthelmir
+Online:Corpseburster,sets/Corpseburster.md,178,https://en.uesp.net/wiki/Online:Corpseburster
+Online:Death-Dancer,sets/Death-Dancer.md,99,https://en.uesp.net/wiki/Online:Death-Dancer
+Online:Coup De Grâce,sets/Coup_De_Gr_ce.md,81,https://en.uesp.net/wiki/Online:Coup_De_Grâce
+Online:Eyes of Mara,sets/Eyes_of_Mara.md,119,https://en.uesp.net/wiki/Online:Eyes_of_Mara
+Online:Duneripper's Scales,sets/Duneripper_s_Scales.md,115,https://en.uesp.net/wiki/Online:Duneripper's_Scales
+Online:Dreugh King Slayer,sets/Dreugh_King_Slayer.md,170,https://en.uesp.net/wiki/Online:Dreugh_King_Slayer
+Online:Engine Guardian,sets/Engine_Guardian.md,170,https://en.uesp.net/wiki/Online:Engine_Guardian
+Online:Eagle Eye,sets/Eagle_Eye.md,103,https://en.uesp.net/wiki/Online:Eagle_Eye
+Online:Eternal Hunt,sets/Eternal_Hunt.md,148,https://en.uesp.net/wiki/Online:Eternal_Hunt
+Online:Destructive Mage,sets/Destructive_Mage.md,136,https://en.uesp.net/wiki/Online:Destructive_Mage
+Online:Draugr's Heritage,sets/Draugr_s_Heritage.md,127,https://en.uesp.net/wiki/Online:Draugr's_Heritage
+Online:Durok's Bane,sets/Durok_s_Bane.md,140,https://en.uesp.net/wiki/Online:Durok's_Bane
+Online:Ebon Armory,sets/Ebon_Armory.md,255,https://en.uesp.net/wiki/Online:Ebon_Armory
+Online:Elemental Succession,sets/Elemental_Succession.md,124,https://en.uesp.net/wiki/Online:Elemental_Succession
+Online:Elf Bane,sets/Elf_Bane.md,152,https://en.uesp.net/wiki/Online:Elf_Bane
+Online:Endurance,sets/Endurance.md,182,https://en.uesp.net/wiki/Online:Endurance
+Online:Essence Thief,sets/Essence_Thief.md,146,https://en.uesp.net/wiki/Online:Essence_Thief
+Online:Eternal Warrior,sets/Eternal_Warrior.md,148,https://en.uesp.net/wiki/Online:Eternal_Warrior
+Online:Embershield,sets/Embershield.md,164,https://en.uesp.net/wiki/Online:Embershield
+Online:Fasalla's Guile,sets/Fasalla_s_Guile.md,188,https://en.uesp.net/wiki/Online:Fasalla's_Guile
+Online:Dreamer's Mantle,sets/Dreamer_s_Mantle.md,113,https://en.uesp.net/wiki/Online:Dreamer's_Mantle
+Online:Draugr Hulk,sets/Draugr_Hulk.md,109,https://en.uesp.net/wiki/Online:Draugr_Hulk
+Online:Dungeon Sets/Drops,sets/Dungeon_Sets_Drops.md,106,https://en.uesp.net/wiki/Online:Dungeon_Sets/Drops
+Online:Earthgore,sets/Earthgore.md,158,https://en.uesp.net/wiki/Online:Earthgore
+Online:Draugr's Rest,sets/Draugr_s_Rest.md,124,https://en.uesp.net/wiki/Online:Draugr's_Rest
+Online:Domihaus,sets/Domihaus.md,180,https://en.uesp.net/wiki/Online:Domihaus
+Online:Disciplined Slash,sets/Disciplined_Slash.md,109,https://en.uesp.net/wiki/Online:Disciplined_Slash
+Online:Eye of Nahviintaas,sets/Eye_of_Nahviintaas.md,135,https://en.uesp.net/wiki/Online:Eye_of_Nahviintaas
+Online:False God's Devotion,sets/False_God_s_Devotion.md,138,https://en.uesp.net/wiki/Online:False_God's_Devotion
+Online:Dragon's Defilement,sets/Dragon_s_Defilement.md,121,https://en.uesp.net/wiki/Online:Dragon's_Defilement
+Online:Dro'zakar's Claws,sets/Dro_zakar_s_Claws.md,99,https://en.uesp.net/wiki/Online:Dro'zakar's_Claws
+Online:Dragonguard Elite,sets/Dragonguard_Elite.md,194,https://en.uesp.net/wiki/Online:Dragonguard_Elite
+Online:Draugrkin's Grip,sets/Draugrkin_s_Grip.md,84,https://en.uesp.net/wiki/Online:Draugrkin's_Grip
+Online:Eternal Vigor,sets/Eternal_Vigor.md,252,https://en.uesp.net/wiki/Online:Eternal_Vigor
+Online:Dragon's Appetite,sets/Dragon_s_Appetite.md,157,https://en.uesp.net/wiki/Online:Dragon's_Appetite
+Online:Elemental Catalyst,sets/Elemental_Catalyst.md,134,https://en.uesp.net/wiki/Online:Elemental_Catalyst
+Online:Executioner's Blade,sets/Executioner_s_Blade.md,139,https://en.uesp.net/wiki/Online:Executioner's_Blade
+Online:Explosive Rebuke,sets/Explosive_Rebuke.md,133,https://en.uesp.net/wiki/Online:Explosive_Rebuke
+Online:Drake's Rush,sets/Drake_s_Rush.md,108,https://en.uesp.net/wiki/Online:Drake's_Rush
+Online:Encratis's Behemoth,sets/Encratis_s_Behemoth.md,148,https://en.uesp.net/wiki/Online:Encratis's_Behemoth
+Online:Diamond's Victory,sets/Diamond_s_Victory.md,175,https://en.uesp.net/wiki/Online:Diamond's_Victory
+Online:Trial Sets/Drops,sets/Trial_Sets_Drops.md,110,https://en.uesp.net/wiki/Online:Trial_Sets/Drops
+Online:Eye of the Grasp,sets/Eye_of_the_Grasp.md,93,https://en.uesp.net/wiki/Online:Eye_of_the_Grasp
+Online:Enervating Aura,sets/Enervating_Aura.md,202,https://en.uesp.net/wiki/Online:Enervating_Aura
+Online:Dov-rha Sabatons,sets/Dov-rha_Sabatons.md,990,https://en.uesp.net/wiki/Online:Dov-rha_Sabatons
+Online:Druid's Braid,sets/Druid_s_Braid.md,155,https://en.uesp.net/wiki/Online:Druid's_Braid
+Online:Euphotic Gatekeeper (set),sets/Euphotic_Gatekeeper_set.md,150,https://en.uesp.net/wiki/Online:Euphotic_Gatekeeper_(set)
+Online:Faun's Lark Cladding,sets/Faun_s_Lark_Cladding.md,954,https://en.uesp.net/wiki/Online:Faun's_Lark_Cladding
+Online:Esoteric Environment Greaves,sets/Esoteric_Environment_Greaves.md,837,https://en.uesp.net/wiki/Online:Esoteric_Environment_Greaves
+Online:Farstrider,sets/Farstrider.md,112,https://en.uesp.net/wiki/Online:Farstrider
+Online:Dolorous Arena,sets/Dolorous_Arena.md,141,https://en.uesp.net/wiki/Online:Dolorous_Arena
+Online:Fellowship's Fortitude,sets/Fellowship_s_Fortitude.md,106,https://en.uesp.net/wiki/Online:Fellowship's_Fortitude
+Online:Footman's Fortune,sets/Footman_s_Fortune.md,73,https://en.uesp.net/wiki/Online:Footman's_Fortune
+Online:Hatchling's Shell,sets/Hatchling_s_Shell.md,207,https://en.uesp.net/wiki/Online:Hatchling's_Shell
+Online:Healer's Habit,sets/Healer_s_Habit.md,88,https://en.uesp.net/wiki/Online:Healer's_Habit
+Online:Fiord's Legacy,sets/Fiord_s_Legacy.md,312,https://en.uesp.net/wiki/Online:Fiord's_Legacy
+Online:Grace of the Ancients,sets/Grace_of_the_Ancients.md,107,https://en.uesp.net/wiki/Online:Grace_of_the_Ancients
+Online:Glorious Defender,sets/Glorious_Defender.md,112,https://en.uesp.net/wiki/Online:Glorious_Defender
+Online:Hawk's Eye,sets/Hawk_s_Eye.md,202,https://en.uesp.net/wiki/Online:Hawk's_Eye
+Online:Healing Mage,sets/Healing_Mage.md,128,https://en.uesp.net/wiki/Online:Healing_Mage
+Online:Flanking Strategist,sets/Flanking_Strategist.md,97,https://en.uesp.net/wiki/Online:Flanking_Strategist
+Online:Heem-Jas' Retribution,sets/Heem-Jas_Retribution.md,111,https://en.uesp.net/wiki/Online:Heem-Jas'_Retribution
+Online:Hand of Mephala,sets/Hand_of_Mephala.md,147,https://en.uesp.net/wiki/Online:Hand_of_Mephala
+Online:Gossamer,sets/Gossamer.md,93,https://en.uesp.net/wiki/Online:Gossamer
+Online:Galerion's Revenge,sets/Galerion_s_Revenge.md,181,https://en.uesp.net/wiki/Online:Galerion's_Revenge
+Online:Grothdarr (set),sets/Grothdarr_set.md,152,https://en.uesp.net/wiki/Online:Grothdarr_(set)
+Online:Green Pact,sets/Green_Pact.md,156,https://en.uesp.net/wiki/Online:Green_Pact
+Online:Flame Blossom,sets/Flame_Blossom.md,125,https://en.uesp.net/wiki/Online:Flame_Blossom
+Online:Hagraven's Garden,sets/Hagraven_s_Garden.md,124,https://en.uesp.net/wiki/Online:Hagraven's_Garden
+Online:Fortified Brass,sets/Fortified_Brass.md,102,https://en.uesp.net/wiki/Online:Fortified_Brass
+Online:Grand Rejuvenation,sets/Grand_Rejuvenation.md,108,https://en.uesp.net/wiki/Online:Grand_Rejuvenation
+Online:Giant Spider (set),sets/Giant_Spider_set.md,128,https://en.uesp.net/wiki/Online:Giant_Spider_(set)
+Online:Grace of Gloom,sets/Grace_of_Gloom.md,144,https://en.uesp.net/wiki/Online:Grace_of_Gloom
+Online:Gryphon's Ferocity,sets/Gryphon_s_Ferocity.md,127,https://en.uesp.net/wiki/Online:Gryphon's_Ferocity
+Online:Hanu's Compassion,sets/Hanu_s_Compassion.md,101,https://en.uesp.net/wiki/Online:Hanu's_Compassion
+Online:Haven of Ursus,sets/Haven_of_Ursus.md,133,https://en.uesp.net/wiki/Online:Haven_of_Ursus
+Online:Grave-Stake Collector,sets/Grave-Stake_Collector.md,132,https://en.uesp.net/wiki/Online:Grave-Stake_Collector
+Online:Gallant Charge,sets/Gallant_Charge.md,158,https://en.uesp.net/wiki/Online:Gallant_Charge
+Online:Frozen Watcher,sets/Frozen_Watcher.md,117,https://en.uesp.net/wiki/Online:Frozen_Watcher
+Online:Grundwulf (set),sets/Grundwulf_set.md,117,https://en.uesp.net/wiki/Online:Grundwulf_(set)
+Online:Grave Guardian (set),sets/Grave_Guardian_set.md,95,https://en.uesp.net/wiki/Online:Grave_Guardian_(set)
+Online:Force Overflow,sets/Force_Overflow.md,147,https://en.uesp.net/wiki/Online:Force_Overflow
+Online:Frenzied Momentum,sets/Frenzied_Momentum.md,159,https://en.uesp.net/wiki/Online:Frenzied_Momentum
+Online:Foolkiller's Ward,sets/Foolkiller_s_Ward.md,137,https://en.uesp.net/wiki/Online:Foolkiller's_Ward
+Online:Harpooner's Wading Kilt,sets/Harpooner_s_Wading_Kilt.md,953,https://en.uesp.net/wiki/Online:Harpooner's_Wading_Kilt
+Online:Gaze of Sithis,sets/Gaze_of_Sithis.md,1029,https://en.uesp.net/wiki/Online:Gaze_of_Sithis
+Online:Glorgoloch the Destroyer (set),sets/Glorgoloch_the_Destroyer_set.md,201,https://en.uesp.net/wiki/Online:Glorgoloch_the_Destroyer_(set)
+Online:Frostbite,sets/Frostbite.md,206,https://en.uesp.net/wiki/Online:Frostbite
+Online:Harvester's Hope-Ring,sets/Harvester_s_Hope-Ring.md,87,https://en.uesp.net/wiki/Online:Harvester's_Hope-Ring
+Online:Heartland Conqueror,sets/Heartland_Conqueror.md,118,https://en.uesp.net/wiki/Online:Heartland_Conqueror
+Online:Grisly Gourmet,sets/Grisly_Gourmet.md,154,https://en.uesp.net/wiki/Online:Grisly_Gourmet
+Online:Glacial Guardian,sets/Glacial_Guardian.md,156,https://en.uesp.net/wiki/Online:Glacial_Guardian
+Online:Gryphon's Reprisal,sets/Gryphon_s_Reprisal.md,149,https://en.uesp.net/wiki/Online:Gryphon's_Reprisal
+Online:Hew and Sunder,sets/Hew_and_Sunder.md,175,https://en.uesp.net/wiki/Online:Hew_and_Sunder
+Online:Grave Inevitability,sets/Grave_Inevitability.md,138,https://en.uesp.net/wiki/Online:Grave_Inevitability
+Online:Gardener of Seasons,sets/Gardener_of_Seasons.md,188,https://en.uesp.net/wiki/Online:Gardener_of_Seasons
+Online:Fledgling's Nest,sets/Fledgling_s_Nest.md,140,https://en.uesp.net/wiki/Online:Fledgling's_Nest
+Online:Heroic Unity,sets/Heroic_Unity.md,103,https://en.uesp.net/wiki/Online:Heroic_Unity
+Online:Full Belly Barricade,sets/Full_Belly_Barricade.md,91,https://en.uesp.net/wiki/Online:Full_Belly_Barricade
+Online:Harmony in Chaos,sets/Harmony_in_Chaos.md,137,https://en.uesp.net/wiki/Online:Harmony_in_Chaos
+Online:Glittering Goad (set),sets/Glittering_Goad_set.md,198,https://en.uesp.net/wiki/Online:Glittering_Goad_(set)
+Online:Gorethief,sets/Gorethief.md,168,https://en.uesp.net/wiki/Online:Gorethief
+Online:Kagrenac's Hope,sets/Kagrenac_s_Hope.md,311,https://en.uesp.net/wiki/Online:Kagrenac's_Hope
+Online:Hist Bark,sets/Hist_Bark.md,120,https://en.uesp.net/wiki/Online:Hist_Bark
+Online:Hunding's Rage,sets/Hunding_s_Rage.md,124,https://en.uesp.net/wiki/Online:Hunding's_Rage
+Online:Knightmare,sets/Knightmare.md,156,https://en.uesp.net/wiki/Online:Knightmare
+Online:The Ice Furnace,sets/The_Ice_Furnace.md,163,https://en.uesp.net/wiki/Online:The_Ice_Furnace
+Online:Hircine's Veneer,sets/Hircine_s_Veneer.md,154,https://en.uesp.net/wiki/Online:Hircine's_Veneer
+Online:Hide of the Werewolf,sets/Hide_of_the_Werewolf.md,235,https://en.uesp.net/wiki/Online:Hide_of_the_Werewolf
+Online:Immortal Warrior,sets/Immortal_Warrior.md,121,https://en.uesp.net/wiki/Online:Immortal_Warrior
+Online:The Juggernaut,sets/The_Juggernaut.md,152,https://en.uesp.net/wiki/Online:The_Juggernaut
+Online:Hunt Leader,sets/Hunt_Leader.md,101,https://en.uesp.net/wiki/Online:Hunt_Leader
+Online:Infallible Mage,sets/Infallible_Mage.md,163,https://en.uesp.net/wiki/Online:Infallible_Mage
+Online:Jolting Arms,sets/Jolting_Arms.md,133,https://en.uesp.net/wiki/Online:Jolting_Arms
+Online:Kyne's Kiss,sets/Kyne_s_Kiss.md,164,https://en.uesp.net/wiki/Online:Kyne's_Kiss
+Online:Hide of Morihaus,sets/Hide_of_Morihaus.md,108,https://en.uesp.net/wiki/Online:Hide_of_Morihaus
+Online:Kvatch Gladiator,sets/Kvatch_Gladiator.md,131,https://en.uesp.net/wiki/Online:Kvatch_Gladiator
+Online:Imperial Physique,sets/Imperial_Physique.md,167,https://en.uesp.net/wiki/Online:Imperial_Physique
+Online:Iceheart (set),sets/Iceheart_set.md,166,https://en.uesp.net/wiki/Online:Iceheart_(set)
+Online:Jailbreaker,sets/Jailbreaker.md,145,https://en.uesp.net/wiki/Online:Jailbreaker
+Online:Knight-Errant's Mail,sets/Knight-Errant_s_Mail.md,178,https://en.uesp.net/wiki/Online:Knight-Errant's_Mail
+Online:Ilambris,sets/Ilambris.md,163,https://en.uesp.net/wiki/Online:Ilambris
+Online:Infernal Guardian (set),sets/Infernal_Guardian_set.md,162,https://en.uesp.net/wiki/Online:Infernal_Guardian_(set)
+Online:Kra'gh,sets/Kra_gh.md,142,https://en.uesp.net/wiki/Online:Kra'gh
+Online:Knight Slayer,sets/Knight_Slayer.md,126,https://en.uesp.net/wiki/Online:Knight_Slayer
+Online:Impregnable Armor,sets/Impregnable_Armor.md,135,https://en.uesp.net/wiki/Online:Impregnable_Armor
+Online:Inventor's Guard,sets/Inventor_s_Guard.md,128,https://en.uesp.net/wiki/Online:Inventor's_Guard
+Online:Ironblood,sets/Ironblood.md,113,https://en.uesp.net/wiki/Online:Ironblood
+Online:Innate Axiom,sets/Innate_Axiom.md,170,https://en.uesp.net/wiki/Online:Innate_Axiom
+Online:Jorvuld's Guidance,sets/Jorvuld_s_Guidance.md,92,https://en.uesp.net/wiki/Online:Jorvuld's_Guidance
+Online:Jailer's Tenacity,sets/Jailer_s_Tenacity.md,99,https://en.uesp.net/wiki/Online:Jailer's_Tenacity
+Online:Indomitable Fury,sets/Indomitable_Fury.md,166,https://en.uesp.net/wiki/Online:Indomitable_Fury
+Online:Hollowfang Thirst,sets/Hollowfang_Thirst.md,136,https://en.uesp.net/wiki/Online:Hollowfang_Thirst
+Online:Hiti's Hearth,sets/Hiti_s_Hearth.md,134,https://en.uesp.net/wiki/Online:Hiti's_Hearth
+Online:Kjalnar's Nightmare,sets/Kjalnar_s_Nightmare.md,175,https://en.uesp.net/wiki/Online:Kjalnar's_Nightmare
+Online:Kyne's Wind,sets/Kyne_s_Wind.md,138,https://en.uesp.net/wiki/Online:Kyne's_Wind
+Online:Kraglen's Howl,sets/Kraglen_s_Howl.md,117,https://en.uesp.net/wiki/Online:Kraglen's_Howl
+Online:Hex Siphon,sets/Hex_Siphon.md,135,https://en.uesp.net/wiki/Online:Hex_Siphon
+Online:Kinras's Wrath,sets/Kinras_s_Wrath.md,142,https://en.uesp.net/wiki/Online:Kinras's_Wrath
+Online:Hist Whisperer,sets/Hist_Whisperer.md,135,https://en.uesp.net/wiki/Online:Hist_Whisperer
+Online:Immolator Charr (set),sets/Immolator_Charr_set.md,137,https://en.uesp.net/wiki/Online:Immolator_Charr_(set)
+Online:Hrothgar's Chill,sets/Hrothgar_s_Chill.md,230,https://en.uesp.net/wiki/Online:Hrothgar's_Chill
+Online:Hexos' Ward,sets/Hexos_Ward.md,119,https://en.uesp.net/wiki/Online:Hexos'_Ward
+Online:Iron Flask,sets/Iron_Flask.md,115,https://en.uesp.net/wiki/Online:Iron_Flask
+Online:Kargaeda (set),sets/Kargaeda_set.md,167,https://en.uesp.net/wiki/Online:Kargaeda_(set)
+Online:Icy Conjurer,sets/Icy_Conjurer.md,121,https://en.uesp.net/wiki/Online:Icy_Conjurer
+Online:Judgment of Akatosh,sets/Judgment_of_Akatosh.md,208,https://en.uesp.net/wiki/Online:Judgment_of_Akatosh
+Online:Jerall Mountains Warchief,sets/Jerall_Mountains_Warchief.md,179,https://en.uesp.net/wiki/Online:Jerall_Mountains_Warchief
+Online:Highland Sentinel,sets/Highland_Sentinel.md,164,https://en.uesp.net/wiki/Online:Highland_Sentinel
+Online:Jerensi's Bladestorm,sets/Jerensi_s_Bladestorm.md,139,https://en.uesp.net/wiki/Online:Jerensi's_Bladestorm
+Online:Kazpian's Cruel Signet,sets/Kazpian_s_Cruel_Signet.md,173,https://en.uesp.net/wiki/Online:Kazpian's_Cruel_Signet
+Online:Huntsman's Warmask,sets/Huntsman_s_Warmask.md,956,https://en.uesp.net/wiki/Online:Huntsman's_Warmask
+Online:Magnus' Gift,sets/Magnus_Gift.md,125,https://en.uesp.net/wiki/Online:Magnus'_Gift
+Online:Light of Cyrodiil,sets/Light_of_Cyrodiil.md,171,https://en.uesp.net/wiki/Online:Light_of_Cyrodiil
+Online:Maw of the Infernal (set),sets/Maw_of_the_Infernal_set.md,196,https://en.uesp.net/wiki/Online:Maw_of_the_Infernal_(set)
+Online:Lord Warden,sets/Lord_Warden.md,151,https://en.uesp.net/wiki/Online:Lord_Warden
+Online:Law of Julianos,sets/Law_of_Julianos.md,117,https://en.uesp.net/wiki/Online:Law_of_Julianos
+Online:Molag Kena (set),sets/Molag_Kena_set.md,136,https://en.uesp.net/wiki/Online:Molag_Kena_(set)
+Online:Mark of the Pariah,sets/Mark_of_the_Pariah.md,174,https://en.uesp.net/wiki/Online:Mark_of_the_Pariah
+Online:Meritorious Service,sets/Meritorious_Service.md,156,https://en.uesp.net/wiki/Online:Meritorious_Service
+Online:Leeching Plate,sets/Leeching_Plate.md,175,https://en.uesp.net/wiki/Online:Leeching_Plate
+Online:Magicka Furnace,sets/Magicka_Furnace.md,136,https://en.uesp.net/wiki/Online:Magicka_Furnace
+Online:Lunar Bastion,sets/Lunar_Bastion.md,150,https://en.uesp.net/wiki/Online:Lunar_Bastion
+Online:Leki's Focus,sets/Leki_s_Focus.md,184,https://en.uesp.net/wiki/Online:Leki's_Focus
+Online:Marksman's Crest,sets/Marksman_s_Crest.md,217,https://en.uesp.net/wiki/Online:Marksman's_Crest
+Online:Mighty Chudan (set),sets/Mighty_Chudan_set.md,113,https://en.uesp.net/wiki/Online:Mighty_Chudan_(set)
+Online:Meridia's Blessed Armor,sets/Meridia_s_Blessed_Armor.md,352,https://en.uesp.net/wiki/Online:Meridia's_Blessed_Armor
+Online:Lamia's Song,sets/Lamia_s_Song.md,137,https://en.uesp.net/wiki/Online:Lamia's_Song
+Online:Medusa,sets/Medusa.md,111,https://en.uesp.net/wiki/Online:Medusa
+Online:Leviathan,sets/Leviathan.md,127,https://en.uesp.net/wiki/Online:Leviathan
+Online:Light Speaker,sets/Light_Speaker.md,213,https://en.uesp.net/wiki/Online:Light_Speaker
+Online:Master Architect,sets/Master_Architect.md,131,https://en.uesp.net/wiki/Online:Master_Architect
+Online:Mechanical Acuity,sets/Mechanical_Acuity.md,164,https://en.uesp.net/wiki/Online:Mechanical_Acuity
+Online:Mad Tinkerer,sets/Mad_Tinkerer.md,211,https://en.uesp.net/wiki/Online:Mad_Tinkerer
+Online:Livewire,sets/Livewire.md,157,https://en.uesp.net/wiki/Online:Livewire
+Online:Merciless Charge,sets/Merciless_Charge.md,124,https://en.uesp.net/wiki/Online:Merciless_Charge
+Online:Mantle of Siroria,sets/Mantle_of_Siroria.md,169,https://en.uesp.net/wiki/Online:Mantle_of_Siroria
+Online:Might of the Lost Legion,sets/Might_of_the_Lost_Legion.md,130,https://en.uesp.net/wiki/Online:Might_of_the_Lost_Legion
+Online:Mender's Ward,sets/Mender_s_Ward.md,102,https://en.uesp.net/wiki/Online:Mender's_Ward
+Online:Mighty Glacier,sets/Mighty_Glacier.md,128,https://en.uesp.net/wiki/Online:Mighty_Glacier
+Online:Maelstrom Weapons,sets/Maelstrom_Weapons.md,229,https://en.uesp.net/wiki/Online:Maelstrom_Weapons
+Online:Master's Weapons,sets/Master_s_Weapons.md,210,https://en.uesp.net/wiki/Online:Master's_Weapons
+Online:Maarselok (set),sets/Maarselok_set.md,167,https://en.uesp.net/wiki/Online:Maarselok_(set)
+Online:Marauder's Haste,sets/Marauder_s_Haste.md,123,https://en.uesp.net/wiki/Online:Marauder's_Haste
+Online:Malacath's Band of Brutality,sets/Malacath_s_Band_of_Brutality.md,916,https://en.uesp.net/wiki/Online:Malacath's_Band_of_Brutality
+Online:Lady Thorn (set),sets/Lady_Thorn_set.md,169,https://en.uesp.net/wiki/Online:Lady_Thorn_(set)
+Online:Legacy of Karth,sets/Legacy_of_Karth.md,129,https://en.uesp.net/wiki/Online:Legacy_of_Karth
+Online:Magma Incarnate (set),sets/Magma_Incarnate_set.md,167,https://en.uesp.net/wiki/Online:Magma_Incarnate_(set)
+Online:Kynmarcher's Cruelty,sets/Kynmarcher_s_Cruelty.md,124,https://en.uesp.net/wiki/Online:Kynmarcher's_Cruelty
+Online:Markyn Ring of Majesty,sets/Markyn_Ring_of_Majesty.md,888,https://en.uesp.net/wiki/Online:Markyn_Ring_of_Majesty
+Online:Lady Malygda (set),sets/Lady_Malygda_set.md,172,https://en.uesp.net/wiki/Online:Lady_Malygda_(set)
+Online:Maligalig's Maelstrom,sets/Maligalig_s_Maelstrom.md,127,https://en.uesp.net/wiki/Online:Maligalig's_Maelstrom
+Online:Lefthander's Aegis Belt,sets/Lefthander_s_Aegis_Belt.md,951,https://en.uesp.net/wiki/Online:Lefthander's_Aegis_Belt
+Online:Mara's Balm,sets/Mara_s_Balm.md,184,https://en.uesp.net/wiki/Online:Mara's_Balm
+Online:Languor of Peryite,sets/Languor_of_Peryite.md,186,https://en.uesp.net/wiki/Online:Languor_of_Peryite
+Online:Monolith of Storms,sets/Monolith_of_Storms.md,183,https://en.uesp.net/wiki/Online:Monolith_of_Storms
+Online:Macabre Vintage,sets/Macabre_Vintage.md,129,https://en.uesp.net/wiki/Online:Macabre_Vintage
+Online:Lucent Echoes,sets/Lucent_Echoes.md,142,https://en.uesp.net/wiki/Online:Lucent_Echoes
+Online:Lamp Knight's Art,sets/Lamp_Knight_s_Art.md,109,https://en.uesp.net/wiki/Online:Lamp_Knight's_Art
+Online:Lucilla's Windshield,sets/Lucilla_s_Windshield.md,135,https://en.uesp.net/wiki/Online:Lucilla's_Windshield
+Online:Mad God's Dancing Shoes,sets/Mad_God_s_Dancing_Shoes.md,1012,https://en.uesp.net/wiki/Online:Mad_God's_Dancing_Shoes
+Online:Lustrous Soulwell,sets/Lustrous_Soulwell.md,112,https://en.uesp.net/wiki/Online:Lustrous_Soulwell
+Online:Night's Silence,sets/Night_s_Silence.md,113,https://en.uesp.net/wiki/Online:Night's_Silence
+Online:Night Mother's Gaze,sets/Night_Mother_s_Gaze.md,184,https://en.uesp.net/wiki/Online:Night_Mother's_Gaze
+Online:Oblivion's Foe,sets/Oblivion_s_Foe.md,232,https://en.uesp.net/wiki/Online:Oblivion's_Foe
+Online:Orgnum's Scales,sets/Orgnum_s_Scales.md,154,https://en.uesp.net/wiki/Online:Orgnum's_Scales
+Online:Nikulas' Heavy Armor,sets/Nikulas_Heavy_Armor.md,249,https://en.uesp.net/wiki/Online:Nikulas'_Heavy_Armor
+Online:Necropotence,sets/Necropotence.md,213,https://en.uesp.net/wiki/Online:Necropotence
+Online:The Morag Tong,sets/The_Morag_Tong.md,147,https://en.uesp.net/wiki/Online:The_Morag_Tong
+Online:Nightflame,sets/Nightflame.md,156,https://en.uesp.net/wiki/Online:Nightflame
+Online:Night Terror (set),sets/Night_Terror_set.md,219,https://en.uesp.net/wiki/Online:Night_Terror_(set)
+Online:Nerien'eth (set),sets/Nerien_eth_set.md,144,https://en.uesp.net/wiki/Online:Nerien'eth_(set)
+Online:Morkuldin,sets/Morkuldin.md,180,https://en.uesp.net/wiki/Online:Morkuldin
+Online:Noble's Conquest,sets/Noble_s_Conquest.md,145,https://en.uesp.net/wiki/Online:Noble's_Conquest
+Online:Night Mother's Embrace,sets/Night_Mother_s_Embrace.md,355,https://en.uesp.net/wiki/Online:Night_Mother's_Embrace
+Online:Noble Duelist's Silks,sets/Noble_Duelist_s_Silks.md,185,https://en.uesp.net/wiki/Online:Noble_Duelist's_Silks
+Online:Oblivion's Edge,sets/Oblivion_s_Edge.md,184,https://en.uesp.net/wiki/Online:Oblivion's_Edge
+Online:Overwhelming Surge,sets/Overwhelming_Surge.md,176,https://en.uesp.net/wiki/Online:Overwhelming_Surge
+Online:Para Bellum,sets/Para_Bellum.md,98,https://en.uesp.net/wiki/Online:Para_Bellum
+Online:Moondancer,sets/Moondancer.md,134,https://en.uesp.net/wiki/Online:Moondancer
+Online:Order of Diagna,sets/Order_of_Diagna.md,285,https://en.uesp.net/wiki/Online:Order_of_Diagna
+Online:Mother's Sorrow,sets/Mother_s_Sorrow.md,228,https://en.uesp.net/wiki/Online:Mother's_Sorrow
+Online:Netch's Touch,sets/Netch_s_Touch.md,201,https://en.uesp.net/wiki/Online:Netch's_Touch
+Online:Nocturnal's Favor,sets/Nocturnal_s_Favor.md,130,https://en.uesp.net/wiki/Online:Nocturnal's_Favor
+Online:Overland Sets/Vanilla Drops,sets/Overland_Sets_Vanilla_Drops.md,121,https://en.uesp.net/wiki/Online:Overland_Sets/Vanilla_Drops
+Online:Moon Hunter,sets/Moon_Hunter.md,94,https://en.uesp.net/wiki/Online:Moon_Hunter
+Online:Naga Shaman,sets/Naga_Shaman.md,143,https://en.uesp.net/wiki/Online:Naga_Shaman
+Online:New Moon Acolyte,sets/New_Moon_Acolyte.md,119,https://en.uesp.net/wiki/Online:New_Moon_Acolyte
+Online:Mother Ciannait (set),sets/Mother_Ciannait_set.md,135,https://en.uesp.net/wiki/Online:Mother_Ciannait_(set)
+Online:Mythic Items,sets/Mythic_Items.md,1890,https://en.uesp.net/wiki/Online:Mythic_Items
+Online:Pearls of Ehlnofey,sets/Pearls_of_Ehlnofey.md,931,https://en.uesp.net/wiki/Online:Pearls_of_Ehlnofey
+Online:Overland Sets/DLC Drops,sets/Overland_Sets_DLC_Drops.md,144,https://en.uesp.net/wiki/Online:Overland_Sets/DLC_Drops
+Online:Nazaray (set),sets/Nazaray_set.md,126,https://en.uesp.net/wiki/Online:Nazaray_(set)
+Online:Nunatak (set),sets/Nunatak_set.md,168,https://en.uesp.net/wiki/Online:Nunatak_(set)
+Online:Mora's Whispers,sets/Mora_s_Whispers.md,990,https://en.uesp.net/wiki/Online:Mora's_Whispers
+Online:Order's Wrath,sets/Order_s_Wrath.md,125,https://en.uesp.net/wiki/Online:Order's_Wrath
+Online:Oakensoul Ring,sets/Oakensoul_Ring.md,1034,https://en.uesp.net/wiki/Online:Oakensoul_Ring
+Online:Pearlescent Ward,sets/Pearlescent_Ward.md,167,https://en.uesp.net/wiki/Online:Pearlescent_Ward
+Online:Nocturnal's Ploy,sets/Nocturnal_s_Ploy.md,198,https://en.uesp.net/wiki/Online:Nocturnal's_Ploy
+Online:Pangrit Denmother,sets/Pangrit_Denmother.md,111,https://en.uesp.net/wiki/Online:Pangrit_Denmother
+Online:Old Growth Brewer,sets/Old_Growth_Brewer.md,125,https://en.uesp.net/wiki/Online:Old_Growth_Brewer
+Online:Nix-Hound's Howl,sets/Nix-Hound_s_Howl.md,144,https://en.uesp.net/wiki/Online:Nix-Hound's_Howl
+Online:Ozezan the Inferno (set),sets/Ozezan_the_Inferno_set.md,121,https://en.uesp.net/wiki/Online:Ozezan_the_Inferno_(set)
+Online:Peace and Serenity,sets/Peace_and_Serenity.md,126,https://en.uesp.net/wiki/Online:Peace_and_Serenity
+Online:Nibenay Bay Battlereeve,sets/Nibenay_Bay_Battlereeve.md,125,https://en.uesp.net/wiki/Online:Nibenay_Bay_Battlereeve
+Online:Nobility in Decay,sets/Nobility_in_Decay.md,161,https://en.uesp.net/wiki/Online:Nobility_in_Decay
+Online:Oakfather's Retribution,sets/Oakfather_s_Retribution.md,175,https://en.uesp.net/wiki/Online:Oakfather's_Retribution
+Online:Mora Scribe's Thesis,sets/Mora_Scribe_s_Thesis.md,148,https://en.uesp.net/wiki/Online:Mora_Scribe's_Thesis
+Online:Netch Oil,sets/Netch_Oil.md,87,https://en.uesp.net/wiki/Online:Netch_Oil
+Online:Noxious Boulder,sets/Noxious_Boulder.md,150,https://en.uesp.net/wiki/Online:Noxious_Boulder
+Online:Orpheon the Tactician (set),sets/Orpheon_the_Tactician_set.md,156,https://en.uesp.net/wiki/Online:Orpheon_the_Tactician_(set)
+Online:Monomyth Reforged,sets/Monomyth_Reforged.md,872,https://en.uesp.net/wiki/Online:Monomyth_Reforged
+Online:Pelinal's Wrath,sets/Pelinal_s_Wrath.md,397,https://en.uesp.net/wiki/Online:Pelinal's_Wrath
+Online:Perfected Chaotic Whirlwind,sets/Perfected_Chaotic_Whirlwind.md,189,https://en.uesp.net/wiki/Online:Perfected_Chaotic_Whirlwind
+Online:Perfected Concentrated Force,sets/Perfected_Concentrated_Force.md,153,https://en.uesp.net/wiki/Online:Perfected_Concentrated_Force
+Online:Perfected Defensive Position,sets/Perfected_Defensive_Position.md,179,https://en.uesp.net/wiki/Online:Perfected_Defensive_Position
+Online:Perfected Disciplined Slash,sets/Perfected_Disciplined_Slash.md,118,https://en.uesp.net/wiki/Online:Perfected_Disciplined_Slash
+Online:Perfected Piercing Spray,sets/Perfected_Piercing_Spray.md,117,https://en.uesp.net/wiki/Online:Perfected_Piercing_Spray
+Online:Perfected Claw of Yolnahkriin,sets/Perfected_Claw_of_Yolnahkriin.md,173,https://en.uesp.net/wiki/Online:Perfected_Claw_of_Yolnahkriin
+Online:Perfected Eye of Nahviintaas,sets/Perfected_Eye_of_Nahviintaas.md,143,https://en.uesp.net/wiki/Online:Perfected_Eye_of_Nahviintaas
+Online:Perfected False God's Devotion,sets/Perfected_False_God_s_Devotion.md,155,https://en.uesp.net/wiki/Online:Perfected_False_God's_Devotion
+Online:Perfected Aegis of Galenwe,sets/Perfected_Aegis_of_Galenwe.md,142,https://en.uesp.net/wiki/Online:Perfected_Aegis_of_Galenwe
+Online:Perfected Arms of Relequen,sets/Perfected_Arms_of_Relequen.md,181,https://en.uesp.net/wiki/Online:Perfected_Arms_of_Relequen
+Online:Perfected Caustic Arrow,sets/Perfected_Caustic_Arrow.md,112,https://en.uesp.net/wiki/Online:Perfected_Caustic_Arrow
+Online:Perfected Cruel Flurry,sets/Perfected_Cruel_Flurry.md,141,https://en.uesp.net/wiki/Online:Perfected_Cruel_Flurry
+Online:Perfected Crushing Wall,sets/Perfected_Crushing_Wall.md,101,https://en.uesp.net/wiki/Online:Perfected_Crushing_Wall
+Online:Perfected Destructive Impact,sets/Perfected_Destructive_Impact.md,165,https://en.uesp.net/wiki/Online:Perfected_Destructive_Impact
+Online:Perfected Gallant Charge,sets/Perfected_Gallant_Charge.md,166,https://en.uesp.net/wiki/Online:Perfected_Gallant_Charge
+Online:Perfected Grand Rejuvenation,sets/Perfected_Grand_Rejuvenation.md,117,https://en.uesp.net/wiki/Online:Perfected_Grand_Rejuvenation
+Online:Perfected Kyne's Wind,sets/Perfected_Kyne_s_Wind.md,146,https://en.uesp.net/wiki/Online:Perfected_Kyne's_Wind
+Online:Perfected Mantle of Siroria,sets/Perfected_Mantle_of_Siroria.md,180,https://en.uesp.net/wiki/Online:Perfected_Mantle_of_Siroria
+Online:Perfected Mender's Ward,sets/Perfected_Mender_s_Ward.md,111,https://en.uesp.net/wiki/Online:Perfected_Mender's_Ward
+Online:Perfected Merciless Charge,sets/Perfected_Merciless_Charge.md,133,https://en.uesp.net/wiki/Online:Perfected_Merciless_Charge
+Online:Perfected Precise Regeneration,sets/Perfected_Precise_Regeneration.md,106,https://en.uesp.net/wiki/Online:Perfected_Precise_Regeneration
+Online:Perfected Puncturing Remedy,sets/Perfected_Puncturing_Remedy.md,219,https://en.uesp.net/wiki/Online:Perfected_Puncturing_Remedy
+Online:Perfected Radial Uppercut,sets/Perfected_Radial_Uppercut.md,103,https://en.uesp.net/wiki/Online:Perfected_Radial_Uppercut
+Online:Perfected Rampaging Slash,sets/Perfected_Rampaging_Slash.md,172,https://en.uesp.net/wiki/Online:Perfected_Rampaging_Slash
+Online:Perfected Roaring Opportunist,sets/Perfected_Roaring_Opportunist.md,162,https://en.uesp.net/wiki/Online:Perfected_Roaring_Opportunist
+Online:Perfected Spectral Cloak,sets/Perfected_Spectral_Cloak.md,132,https://en.uesp.net/wiki/Online:Perfected_Spectral_Cloak
+Online:Perfected Stinging Slashes,sets/Perfected_Stinging_Slashes.md,133,https://en.uesp.net/wiki/Online:Perfected_Stinging_Slashes
+Online:Perfected Executioner's Blade,sets/Perfected_Executioner_s_Blade.md,148,https://en.uesp.net/wiki/Online:Perfected_Executioner's_Blade
+Online:Perfected Force Overflow,sets/Perfected_Force_Overflow.md,156,https://en.uesp.net/wiki/Online:Perfected_Force_Overflow
+Online:Perfected Frenzied Momentum,sets/Perfected_Frenzied_Momentum.md,168,https://en.uesp.net/wiki/Online:Perfected_Frenzied_Momentum
+Online:Perfected Point-Blank Snipe,sets/Perfected_Point-Blank_Snipe.md,123,https://en.uesp.net/wiki/Online:Perfected_Point-Blank_Snipe
+Online:Perfected Bahsei's Mania,sets/Perfected_Bahsei_s_Mania.md,133,https://en.uesp.net/wiki/Online:Perfected_Bahsei's_Mania
+Online:Perfected Saxhleel Champion,sets/Perfected_Saxhleel_Champion.md,141,https://en.uesp.net/wiki/Online:Perfected_Saxhleel_Champion
+Online:Perfected Coral Riptide,sets/Perfected_Coral_Riptide.md,138,https://en.uesp.net/wiki/Online:Perfected_Coral_Riptide
+Online:Perfected Pearlescent Ward,sets/Perfected_Pearlescent_Ward.md,175,https://en.uesp.net/wiki/Online:Perfected_Pearlescent_Ward
+Online:Perfected Pillager's Profit,sets/Perfected_Pillager_s_Profit.md,148,https://en.uesp.net/wiki/Online:Perfected_Pillager's_Profit
+Online:Perfected Ansuul's Torment,sets/Perfected_Ansuul_s_Torment.md,132,https://en.uesp.net/wiki/Online:Perfected_Ansuul's_Torment
+Online:Perfected Peace and Serenity,sets/Perfected_Peace_and_Serenity.md,137,https://en.uesp.net/wiki/Online:Perfected_Peace_and_Serenity
+Online:Perfected Lucent Echoes,sets/Perfected_Lucent_Echoes.md,150,https://en.uesp.net/wiki/Online:Perfected_Lucent_Echoes
+Online:Perfected Mora Scribe's Thesis,sets/Perfected_Mora_Scribe_s_Thesis.md,155,https://en.uesp.net/wiki/Online:Perfected_Mora_Scribe's_Thesis
+Online:Perfected Slivers of the Null Arca,sets/Perfected_Slivers_of_the_Null_Arca.md,176,https://en.uesp.net/wiki/Online:Perfected_Slivers_of_the_Null_Arca
+Online:Perfected Harmony in Chaos,sets/Perfected_Harmony_in_Chaos.md,148,https://en.uesp.net/wiki/Online:Perfected_Harmony_in_Chaos
+Online:Perfected Kazpian's Cruel Signet,sets/Perfected_Kazpian_s_Cruel_Signet.md,184,https://en.uesp.net/wiki/Online:Perfected_Kazpian's_Cruel_Signet
+Online:Perfected Dolorous Arena,sets/Perfected_Dolorous_Arena.md,149,https://en.uesp.net/wiki/Online:Perfected_Dolorous_Arena
+Online:Perfected Recovery Convergence,sets/Perfected_Recovery_Convergence.md,155,https://en.uesp.net/wiki/Online:Perfected_Recovery_Convergence
+Online:PVP Sets,sets/PVP_Sets.md,267,https://en.uesp.net/wiki/Online:PVP_Sets
+Online:Prisoner's Rags,sets/Prisoner_s_Rags.md,327,https://en.uesp.net/wiki/Online:Prisoner's_Rags
+Online:Phoenix,sets/Phoenix.md,178,https://en.uesp.net/wiki/Online:Phoenix
+Online:Powerful Assault,sets/Powerful_Assault.md,164,https://en.uesp.net/wiki/Online:Powerful_Assault
+Online:Permafrost,sets/Permafrost.md,83,https://en.uesp.net/wiki/Online:Permafrost
+Online:Poisonous Serpent,sets/Poisonous_Serpent.md,134,https://en.uesp.net/wiki/Online:Poisonous_Serpent
+Online:Prayer Shawl,sets/Prayer_Shawl.md,172,https://en.uesp.net/wiki/Online:Prayer_Shawl
+Online:Quick Serpent,sets/Quick_Serpent.md,131,https://en.uesp.net/wiki/Online:Quick_Serpent
+Online:Queen's Elegance,sets/Queen_s_Elegance.md,296,https://en.uesp.net/wiki/Online:Queen's_Elegance
+Online:Plague Doctor,sets/Plague_Doctor.md,220,https://en.uesp.net/wiki/Online:Plague_Doctor
+Online:Pirate Skeleton,sets/Pirate_Skeleton.md,135,https://en.uesp.net/wiki/Online:Pirate_Skeleton
+Online:Pillar of Nirn,sets/Pillar_of_Nirn.md,139,https://en.uesp.net/wiki/Online:Pillar_of_Nirn
+Online:Piercing Spray,sets/Piercing_Spray.md,108,https://en.uesp.net/wiki/Online:Piercing_Spray
+Online:Precise Regeneration,sets/Precise_Regeneration.md,97,https://en.uesp.net/wiki/Online:Precise_Regeneration
+Online:Puncturing Remedy,sets/Puncturing_Remedy.md,210,https://en.uesp.net/wiki/Online:Puncturing_Remedy
+Online:Rampaging Slash,sets/Rampaging_Slash.md,156,https://en.uesp.net/wiki/Online:Rampaging_Slash
+Online:Perfected Timeless Blessing,sets/Perfected_Timeless_Blessing.md,136,https://en.uesp.net/wiki/Online:Perfected_Timeless_Blessing
+Online:Plague Slinger,sets/Plague_Slinger.md,125,https://en.uesp.net/wiki/Online:Plague_Slinger
+Online:Prophet's,sets/Prophet_s.md,245,https://en.uesp.net/wiki/Online:Prophet's
+Online:Radial Uppercut,sets/Radial_Uppercut.md,94,https://en.uesp.net/wiki/Online:Radial_Uppercut
+Online:Perfected Tooth of Lokkestiiz,sets/Perfected_Tooth_of_Lokkestiiz.md,135,https://en.uesp.net/wiki/Online:Perfected_Tooth_of_Lokkestiiz
+Online:Perfected Thunderous Volley,sets/Perfected_Thunderous_Volley.md,120,https://en.uesp.net/wiki/Online:Perfected_Thunderous_Volley
+Online:Perfected Titanic Cleave,sets/Perfected_Titanic_Cleave.md,132,https://en.uesp.net/wiki/Online:Perfected_Titanic_Cleave
+Online:Perfected Vestment of Olorime,sets/Perfected_Vestment_of_Olorime.md,165,https://en.uesp.net/wiki/Online:Perfected_Vestment_of_Olorime
+Online:Perfected Virulent Shot,sets/Perfected_Virulent_Shot.md,129,https://en.uesp.net/wiki/Online:Perfected_Virulent_Shot
+Online:Perfected Vrol's Command,sets/Perfected_Vrol_s_Command.md,141,https://en.uesp.net/wiki/Online:Perfected_Vrol's_Command
+Online:Perfected Wild Impulse,sets/Perfected_Wild_Impulse.md,141,https://en.uesp.net/wiki/Online:Perfected_Wild_Impulse
+Online:Perfected Yandir's Might,sets/Perfected_Yandir_s_Might.md,166,https://en.uesp.net/wiki/Online:Perfected_Yandir's_Might
+Online:Perfected Void Bash,sets/Perfected_Void_Bash.md,143,https://en.uesp.net/wiki/Online:Perfected_Void_Bash
+Online:Perfected Wrath of Elements,sets/Perfected_Wrath_of_Elements.md,191,https://en.uesp.net/wiki/Online:Perfected_Wrath_of_Elements
+Online:Pestilent Host,sets/Pestilent_Host.md,127,https://en.uesp.net/wiki/Online:Pestilent_Host
+Online:Point-Blank Snipe,sets/Point-Blank_Snipe.md,111,https://en.uesp.net/wiki/Online:Point-Blank_Snipe
+Online:Radiant Bastion,sets/Radiant_Bastion.md,89,https://en.uesp.net/wiki/Online:Radiant_Bastion
+Online:Vateshran Weapons,sets/Vateshran_Weapons.md,225,https://en.uesp.net/wiki/Online:Vateshran_Weapons
+Online:Perfected Stone-Talker's Oath,sets/Perfected_Stone-Talker_s_Oath.md,160,https://en.uesp.net/wiki/Online:Perfected_Stone-Talker's_Oath
+Online:Perfected Sul-Xan's Torment,sets/Perfected_Sul-Xan_s_Torment.md,150,https://en.uesp.net/wiki/Online:Perfected_Sul-Xan's_Torment
+Online:Plaguebreak,sets/Plaguebreak.md,234,https://en.uesp.net/wiki/Online:Plaguebreak
+Online:Prior Thierric,sets/Prior_Thierric.md,178,https://en.uesp.net/wiki/Online:Prior_Thierric
+Online:Rallying Cry,sets/Rallying_Cry.md,277,https://en.uesp.net/wiki/Online:Rallying_Cry
+Online:Perfected Whorl of the Depths,sets/Perfected_Whorl_of_the_Depths.md,181,https://en.uesp.net/wiki/Online:Perfected_Whorl_of_the_Depths
+Online:Pillager's Profit,sets/Pillager_s_Profit.md,140,https://en.uesp.net/wiki/Online:Pillager's_Profit
+Online:Phylactery's Grasp,sets/Phylactery_s_Grasp.md,125,https://en.uesp.net/wiki/Online:Phylactery's_Grasp
+Online:Rage of the Ursauk,sets/Rage_of_the_Ursauk.md,115,https://en.uesp.net/wiki/Online:Rage_of_the_Ursauk
+Online:Phoenix Moth Theurge,sets/Phoenix_Moth_Theurge.md,111,https://en.uesp.net/wiki/Online:Phoenix_Moth_Theurge
+Online:Perfected Test of Resolve,sets/Perfected_Test_of_Resolve.md,178,https://en.uesp.net/wiki/Online:Perfected_Test_of_Resolve
+Online:Perfected Transformative Hope,sets/Perfected_Transformative_Hope.md,161,https://en.uesp.net/wiki/Online:Perfected_Transformative_Hope
+Online:Perfected Xoryn's Masterpiece,sets/Perfected_Xoryn_s_Masterpiece.md,132,https://en.uesp.net/wiki/Online:Perfected_Xoryn's_Masterpiece
+Online:Pyrebrand,sets/Pyrebrand.md,197,https://en.uesp.net/wiki/Online:Pyrebrand
+Online:Rakkhat's Voidmantle,sets/Rakkhat_s_Voidmantle.md,909,https://en.uesp.net/wiki/Online:Rakkhat's_Voidmantle
+Online:Prowler's Talisman,sets/Prowler_s_Talisman.md,787,https://en.uesp.net/wiki/Online:Prowler's_Talisman
+Online:Seventh Legion Brute,sets/Seventh_Legion_Brute.md,299,https://en.uesp.net/wiki/Online:Seventh_Legion_Brute
+Online:Senche's Bite,sets/Senche_s_Bite.md,156,https://en.uesp.net/wiki/Online:Senche's_Bite
+Online:Relics of the Rebellion,sets/Relics_of_the_Rebellion.md,113,https://en.uesp.net/wiki/Online:Relics_of_the_Rebellion
+Online:Ranger's Gait,sets/Ranger_s_Gait.md,98,https://en.uesp.net/wiki/Online:Ranger's_Gait
+Online:Shadow Dancer's Raiment,sets/Shadow_Dancer_s_Raiment.md,246,https://en.uesp.net/wiki/Online:Shadow_Dancer's_Raiment
+Online:Ravager,sets/Ravager.md,167,https://en.uesp.net/wiki/Online:Ravager
+Online:Scourge Harvester,sets/Scourge_Harvester.md,189,https://en.uesp.net/wiki/Online:Scourge_Harvester
+Online:Redistributor,sets/Redistributor.md,136,https://en.uesp.net/wiki/Online:Redistributor
+Online:Reactive Armor,sets/Reactive_Armor.md,145,https://en.uesp.net/wiki/Online:Reactive_Armor
+"Online:Relics of the Physician, Ansur",sets/Relics_of_the_Physician_Ansur.md,75,"https://en.uesp.net/wiki/Online:Relics_of_the_Physician,_Ansur"
+Online:Robes of Alteration Mastery,sets/Robes_of_Alteration_Mastery.md,128,https://en.uesp.net/wiki/Online:Robes_of_Alteration_Mastery
+Online:Robes of Destruction Mastery,sets/Robes_of_Destruction_Mastery.md,93,https://en.uesp.net/wiki/Online:Robes_of_Destruction_Mastery
+Online:Robes of the Hist,sets/Robes_of_the_Hist.md,169,https://en.uesp.net/wiki/Online:Robes_of_the_Hist
+Online:Sanctuary,sets/Sanctuary.md,179,https://en.uesp.net/wiki/Online:Sanctuary
+Online:Scathing Mage,sets/Scathing_Mage.md,141,https://en.uesp.net/wiki/Online:Scathing_Mage
+Online:Sentry (set),sets/Sentry_set.md,151,https://en.uesp.net/wiki/Online:Sentry_(set)
+Online:Sergeant's Mail,sets/Sergeant_s_Mail.md,228,https://en.uesp.net/wiki/Online:Sergeant's_Mail
+Online:Roar of Alkosh,sets/Roar_of_Alkosh.md,272,https://en.uesp.net/wiki/Online:Roar_of_Alkosh
+Online:Robes of Transmutation,sets/Robes_of_Transmutation.md,201,https://en.uesp.net/wiki/Online:Robes_of_Transmutation
+Online:Salvation,sets/Salvation.md,157,https://en.uesp.net/wiki/Online:Salvation
+Online:Robes of the Withered Hand,sets/Robes_of_the_Withered_Hand.md,272,https://en.uesp.net/wiki/Online:Robes_of_the_Withered_Hand
+Online:Rattlecage,sets/Rattlecage.md,170,https://en.uesp.net/wiki/Online:Rattlecage
+Online:Selene (set),sets/Selene_set.md,138,https://en.uesp.net/wiki/Online:Selene_(set)
+Online:Sellistrix,sets/Sellistrix.md,146,https://en.uesp.net/wiki/Online:Sellistrix
+Online:Sentinel of Rkugamz (set),sets/Sentinel_of_Rkugamz_set.md,145,https://en.uesp.net/wiki/Online:Sentinel_of_Rkugamz_(set)
+Online:Shacklebreaker,sets/Shacklebreaker.md,110,https://en.uesp.net/wiki/Online:Shacklebreaker
+Online:Savage Werewolf,sets/Savage_Werewolf.md,129,https://en.uesp.net/wiki/Online:Savage_Werewolf
+Online:Scavenging Demise,sets/Scavenging_Demise.md,138,https://en.uesp.net/wiki/Online:Scavenging_Demise
+Online:Senche-raht's Grit,sets/Senche-raht_s_Grit.md,126,https://en.uesp.net/wiki/Online:Senche-raht's_Grit
+Online:Renald's Resolve,sets/Renald_s_Resolve.md,115,https://en.uesp.net/wiki/Online:Renald's_Resolve
+Online:Senchal Defender,sets/Senchal_Defender.md,159,https://en.uesp.net/wiki/Online:Senchal_Defender
+Online:Roaring Opportunist,sets/Roaring_Opportunist.md,154,https://en.uesp.net/wiki/Online:Roaring_Opportunist
+Online:Ring of the Wild Hunt,sets/Ring_of_the_Wild_Hunt.md,924,https://en.uesp.net/wiki/Online:Ring_of_the_Wild_Hunt
+Online:Red Eagle's Fury,sets/Red_Eagle_s_Fury.md,175,https://en.uesp.net/wiki/Online:Red_Eagle's_Fury
+Online:Ring of the Pale Order,sets/Ring_of_the_Pale_Order.md,1071,https://en.uesp.net/wiki/Online:Ring_of_the_Pale_Order
+Online:Saxhleel Champion,sets/Saxhleel_Champion.md,133,https://en.uesp.net/wiki/Online:Saxhleel_Champion
+Online:Rush of Agony,sets/Rush_of_Agony.md,152,https://en.uesp.net/wiki/Online:Rush_of_Agony
+Online:Scorion's Feast,sets/Scorion_s_Feast.md,152,https://en.uesp.net/wiki/Online:Scorion's_Feast
+Online:Serpent's Disdain,sets/Serpent_s_Disdain.md,117,https://en.uesp.net/wiki/Online:Serpent's_Disdain
+Online:Sea-Serpent's Coil,sets/Sea-Serpent_s_Coil.md,958,https://en.uesp.net/wiki/Online:Sea-Serpent's_Coil
+Online:Ritemaster's Bond,sets/Ritemaster_s_Bond.md,147,https://en.uesp.net/wiki/Online:Ritemaster's_Bond
+Online:Runecarver's Blaze,sets/Runecarver_s_Blaze.md,102,https://en.uesp.net/wiki/Online:Runecarver's_Blaze
+Online:Roksa the Warped (set),sets/Roksa_the_Warped_set.md,142,https://en.uesp.net/wiki/Online:Roksa_the_Warped_(set)
+Online:Seeker Synthesis,sets/Seeker_Synthesis.md,129,https://en.uesp.net/wiki/Online:Seeker_Synthesis
+Online:Reawakened Hierophant,sets/Reawakened_Hierophant.md,166,https://en.uesp.net/wiki/Online:Reawakened_Hierophant
+Online:Reflected Fury,sets/Reflected_Fury.md,146,https://en.uesp.net/wiki/Online:Reflected_Fury
+Online:Rourken Steamguards,sets/Rourken_Steamguards.md,979,https://en.uesp.net/wiki/Online:Rourken_Steamguards
+Online:The Saint and the Seducer,sets/The_Saint_and_the_Seducer.md,981,https://en.uesp.net/wiki/Online:The_Saint_and_the_Seducer
+Online:Recovery Convergence,sets/Recovery_Convergence.md,147,https://en.uesp.net/wiki/Online:Recovery_Convergence
+Online:The Ruckus (set),sets/The_Ruckus_set.md,200,https://en.uesp.net/wiki/Online:The_Ruckus_(set)
+Online:Song of Lamae,sets/Song_of_Lamae.md,326,https://en.uesp.net/wiki/Online:Song_of_Lamae
+Online:Shalidor's Curse,sets/Shalidor_s_Curse.md,163,https://en.uesp.net/wiki/Online:Shalidor's_Curse
+Online:Spectre's Eye,sets/Spectre_s_Eye.md,153,https://en.uesp.net/wiki/Online:Spectre's_Eye
+Online:Soulshine,sets/Soulshine.md,217,https://en.uesp.net/wiki/Online:Soulshine
+Online:Silks of the Sun,sets/Silks_of_the_Sun.md,312,https://en.uesp.net/wiki/Online:Silks_of_the_Sun
+Online:Stendarr's Embrace,sets/Stendarr_s_Embrace.md,303,https://en.uesp.net/wiki/Online:Stendarr's_Embrace
+Online:Shadow Walker (set),sets/Shadow_Walker_set.md,140,https://en.uesp.net/wiki/Online:Shadow_Walker_(set)
+Online:Shield of the Valiant,sets/Shield_of_the_Valiant.md,130,https://en.uesp.net/wiki/Online:Shield_of_the_Valiant
+Online:Spawn of Mephala (set),sets/Spawn_of_Mephala_set.md,150,https://en.uesp.net/wiki/Online:Spawn_of_Mephala_(set)
+Online:Shield Breaker,sets/Shield_Breaker.md,141,https://en.uesp.net/wiki/Online:Shield_Breaker
+Online:Shroud of the Lich,sets/Shroud_of_the_Lich.md,179,https://en.uesp.net/wiki/Online:Shroud_of_the_Lich
+Online:Sheer Venom,sets/Sheer_Venom.md,182,https://en.uesp.net/wiki/Online:Sheer_Venom
+Online:Spell Power Cure,sets/Spell_Power_Cure.md,157,https://en.uesp.net/wiki/Online:Spell_Power_Cure
+Online:Sithis' Touch,sets/Sithis_Touch.md,277,https://en.uesp.net/wiki/Online:Sithis'_Touch
+Online:Spriggan's Thorns,sets/Spriggan_s_Thorns.md,232,https://en.uesp.net/wiki/Online:Spriggan's_Thorns
+Online:Spinner's Garments,sets/Spinner_s_Garments.md,150,https://en.uesp.net/wiki/Online:Spinner's_Garments
+Online:Skooma Smuggler,sets/Skooma_Smuggler.md,133,https://en.uesp.net/wiki/Online:Skooma_Smuggler
+Online:Shalk Exoskeleton,sets/Shalk_Exoskeleton.md,272,https://en.uesp.net/wiki/Online:Shalk_Exoskeleton
+Online:Spider Cultist Cowl,sets/Spider_Cultist_Cowl.md,207,https://en.uesp.net/wiki/Online:Spider_Cultist_Cowl
+Online:Spelunker,sets/Spelunker.md,171,https://en.uesp.net/wiki/Online:Spelunker
+Online:Shadowrend (set),sets/Shadowrend_set.md,146,https://en.uesp.net/wiki/Online:Shadowrend_(set)
+Online:Slimecraw (set),sets/Slimecraw_set.md,106,https://en.uesp.net/wiki/Online:Slimecraw_(set)
+Online:Shadow of the Red Mountain,sets/Shadow_of_the_Red_Mountain.md,310,https://en.uesp.net/wiki/Online:Shadow_of_the_Red_Mountain
+Online:Stinging Slashes,sets/Stinging_Slashes.md,123,https://en.uesp.net/wiki/Online:Stinging_Slashes
+Online:Sload's Semblance,sets/Sload_s_Semblance.md,177,https://en.uesp.net/wiki/Online:Sload's_Semblance
+Online:Soldier of Anguish,sets/Soldier_of_Anguish.md,199,https://en.uesp.net/wiki/Online:Soldier_of_Anguish
+Online:Spectral Cloak,sets/Spectral_Cloak.md,123,https://en.uesp.net/wiki/Online:Spectral_Cloak
+Online:Spell Strategist,sets/Spell_Strategist.md,271,https://en.uesp.net/wiki/Online:Spell_Strategist
+Online:Steadfast Hero,sets/Steadfast_Hero.md,169,https://en.uesp.net/wiki/Online:Steadfast_Hero
+Online:Spell Parasite,sets/Spell_Parasite.md,118,https://en.uesp.net/wiki/Online:Spell_Parasite
+Online:Snow Treaders,sets/Snow_Treaders.md,939,https://en.uesp.net/wiki/Online:Snow_Treaders
+Online:Shapeshifter's Chain,sets/Shapeshifter_s_Chain.md,905,https://en.uesp.net/wiki/Online:Shapeshifter's_Chain
+Online:Silver Rose Vigil,sets/Silver_Rose_Vigil.md,145,https://en.uesp.net/wiki/Online:Silver_Rose_Vigil
+Online:Spaulder of Ruin,sets/Spaulder_of_Ruin.md,947,https://en.uesp.net/wiki/Online:Spaulder_of_Ruin
+Online:Spriggan's Vigor,sets/Spriggan_s_Vigor.md,111,https://en.uesp.net/wiki/Online:Spriggan's_Vigor
+Online:Steadfast's Mettle,sets/Steadfast_s_Mettle.md,87,https://en.uesp.net/wiki/Online:Steadfast's_Mettle
+Online:Snake in the Stars,sets/Snake_in_the_Stars.md,227,https://en.uesp.net/wiki/Online:Snake_in_the_Stars
+Online:Shell Splitter,sets/Shell_Splitter.md,170,https://en.uesp.net/wiki/Online:Shell_Splitter
+Online:Shattered Fate,sets/Shattered_Fate.md,103,https://en.uesp.net/wiki/Online:Shattered_Fate
+Online:Soulcleaver,sets/Soulcleaver.md,163,https://en.uesp.net/wiki/Online:Soulcleaver
+Online:Sluthrug's Hunger,sets/Sluthrug_s_Hunger.md,116,https://en.uesp.net/wiki/Online:Sluthrug's_Hunger
+Online:The Shadow Queen's Cowl,sets/The_Shadow_Queen_s_Cowl.md,1044,https://en.uesp.net/wiki/Online:The_Shadow_Queen's_Cowl
+Online:Slivers of the Null Arca,sets/Slivers_of_the_Null_Arca.md,167,https://en.uesp.net/wiki/Online:Slivers_of_the_Null_Arca
+Online:Spattering Disjunction,sets/Spattering_Disjunction.md,156,https://en.uesp.net/wiki/Online:Spattering_Disjunction
+Online:Shared Pain,sets/Shared_Pain.md,143,https://en.uesp.net/wiki/Online:Shared_Pain
+Online:Siegemaster's Focus,sets/Siegemaster_s_Focus.md,124,https://en.uesp.net/wiki/Online:Siegemaster's_Focus
+Online:Squall of Retribution (set),sets/Squall_of_Retribution_set.md,132,https://en.uesp.net/wiki/Online:Squall_of_Retribution_(set)
+Online:Shared Burden,sets/Shared_Burden.md,117,https://en.uesp.net/wiki/Online:Shared_Burden
+Online:Spellshredder,sets/Spellshredder.md,64,https://en.uesp.net/wiki/Online:Spellshredder
+Online:Shattered Paths Signet,sets/Shattered_Paths_Signet.md,1035,https://en.uesp.net/wiki/Online:Shattered_Paths_Signet
+Online:Storm Knight's Plate,sets/Storm_Knight_s_Plate.md,130,https://en.uesp.net/wiki/Online:Storm_Knight's_Plate
+Online:Sunderflame,sets/Sunderflame.md,209,https://en.uesp.net/wiki/Online:Sunderflame
+Online:Thunderbug's Carapace,sets/Thunderbug_s_Carapace.md,107,https://en.uesp.net/wiki/Online:Thunderbug's_Carapace
+Online:Stygian,sets/Stygian.md,369,https://en.uesp.net/wiki/Online:Stygian
+Online:Tava's Favor,sets/Tava_s_Favor.md,126,https://en.uesp.net/wiki/Online:Tava's_Favor
+Online:Storm Master,sets/Storm_Master.md,212,https://en.uesp.net/wiki/Online:Storm_Master
+Online:Syrabane's Grip,sets/Syrabane_s_Grip.md,162,https://en.uesp.net/wiki/Online:Syrabane's_Grip
+Online:Swamp Raider,sets/Swamp_Raider.md,251,https://en.uesp.net/wiki/Online:Swamp_Raider
+Online:Syvarra's Scales,sets/Syvarra_s_Scales.md,148,https://en.uesp.net/wiki/Online:Syvarra's_Scales
+Online:Thews of the Harbinger,sets/Thews_of_the_Harbinger.md,193,https://en.uesp.net/wiki/Online:Thews_of_the_Harbinger
+Online:Sword-Singer,sets/Sword-Singer.md,246,https://en.uesp.net/wiki/Online:Sword-Singer
+Online:Sword Dancer,sets/Sword_Dancer.md,167,https://en.uesp.net/wiki/Online:Sword_Dancer
+Online:Strength of the Automaton,sets/Strength_of_the_Automaton.md,186,https://en.uesp.net/wiki/Online:Strength_of_the_Automaton
+Online:Stormfist (set),sets/Stormfist_set.md,152,https://en.uesp.net/wiki/Online:Stormfist_(set)
+Online:Swarm Mother (set),sets/Swarm_Mother_set.md,156,https://en.uesp.net/wiki/Online:Swarm_Mother_(set)
+Online:Thunderous Volley,sets/Thunderous_Volley.md,110,https://en.uesp.net/wiki/Online:Thunderous_Volley
+Online:Thurvokun (set),sets/Thurvokun_set.md,194,https://en.uesp.net/wiki/Online:Thurvokun_(set)
+Online:Stonekeeper,sets/Stonekeeper.md,147,https://en.uesp.net/wiki/Online:Stonekeeper
+Online:Symphony of Blades (set),sets/Symphony_of_Blades_set.md,503,https://en.uesp.net/wiki/Online:Symphony_of_Blades_(set)
+Online:Stuhn's Favor,sets/Stuhn_s_Favor.md,126,https://en.uesp.net/wiki/Online:Stuhn's_Favor
+Online:Thrassian Stranglers,sets/Thrassian_Stranglers.md,897,https://en.uesp.net/wiki/Online:Thrassian_Stranglers
+Online:Template Drop Healer,sets/Template_Drop_Healer.md,60,https://en.uesp.net/wiki/Online:Template_Drop_Healer
+Online:Template Drop Healer P,sets/Template_Drop_Healer_P.md,67,https://en.uesp.net/wiki/Online:Template_Drop_Healer_P
+Online:Template Drop Magi,sets/Template_Drop_Magi.md,60,https://en.uesp.net/wiki/Online:Template_Drop_Magi
+Online:Template Drop Magi P,sets/Template_Drop_Magi_P.md,67,https://en.uesp.net/wiki/Online:Template_Drop_Magi_P
+Online:Template Drop Stamina,sets/Template_Drop_Stamina.md,60,https://en.uesp.net/wiki/Online:Template_Drop_Stamina
+Online:Template Drop Stamina P,sets/Template_Drop_Stamina_P.md,67,https://en.uesp.net/wiki/Online:Template_Drop_Stamina_P
+Online:Template Drop Tank,sets/Template_Drop_Tank.md,60,https://en.uesp.net/wiki/Online:Template_Drop_Tank
+Online:Template Drop Tank P,sets/Template_Drop_Tank_P.md,67,https://en.uesp.net/wiki/Online:Template_Drop_Tank_P
+Online:Stone Husk (set),sets/Stone_Husk_set.md,198,https://en.uesp.net/wiki/Online:Stone_Husk_(set)
+Online:Talfyg's Treachery,sets/Talfyg_s_Treachery.md,94,https://en.uesp.net/wiki/Online:Talfyg's_Treachery
+Online:Stone-Talker's Oath,sets/Stone-Talker_s_Oath.md,152,https://en.uesp.net/wiki/Online:Stone-Talker's_Oath
+Online:Sul-Xan's Torment,sets/Sul-Xan_s_Torment.md,142,https://en.uesp.net/wiki/Online:Sul-Xan's_Torment
+Online:Thunder Caller,sets/Thunder_Caller.md,138,https://en.uesp.net/wiki/Online:Thunder_Caller
+Online:Storm-Cursed's Revenge,sets/Storm-Cursed_s_Revenge.md,112,https://en.uesp.net/wiki/Online:Storm-Cursed's_Revenge
+Online:Systres' Scowl,sets/Systres_Scowl.md,105,https://en.uesp.net/wiki/Online:Systres'_Scowl
+Online:Stone's Accord,sets/Stone_s_Accord.md,114,https://en.uesp.net/wiki/Online:Stone's_Accord
+Online:Stormweaver's Cavort,sets/Stormweaver_s_Cavort.md,931,https://en.uesp.net/wiki/Online:Stormweaver's_Cavort
+Online:Syrabane's Ward,sets/Syrabane_s_Ward.md,910,https://en.uesp.net/wiki/Online:Syrabane's_Ward
+Online:Telvanni Enforcer,sets/Telvanni_Enforcer.md,89,https://en.uesp.net/wiki/Online:Telvanni_Enforcer
+Online:Telvanni Efficiency,sets/Telvanni_Efficiency.md,141,https://en.uesp.net/wiki/Online:Telvanni_Efficiency
+Online:Test of Resolve,sets/Test_of_Resolve.md,171,https://en.uesp.net/wiki/Online:Test_of_Resolve
+Online:Tarnished Nightmare,sets/Tarnished_Nightmare.md,125,https://en.uesp.net/wiki/Online:Tarnished_Nightmare
+Online:Tharriker's Strike,sets/Tharriker_s_Strike.md,140,https://en.uesp.net/wiki/Online:Tharriker's_Strike
+Online:Threads of War,sets/Threads_of_War.md,130,https://en.uesp.net/wiki/Online:Threads_of_War
+Online:Symmetry of the Weald,sets/Symmetry_of_the_Weald.md,99,https://en.uesp.net/wiki/Online:Symmetry_of_the_Weald
+Online:Three Queens Wellspring,sets/Three_Queens_Wellspring.md,86,https://en.uesp.net/wiki/Online:Three_Queens_Wellspring
+Online:Tide-Born Wildstalker,sets/Tide-Born_Wildstalker.md,116,https://en.uesp.net/wiki/Online:Tide-Born_Wildstalker
+Online:Stonehulk Domination,sets/Stonehulk_Domination.md,96,https://en.uesp.net/wiki/Online:Stonehulk_Domination
+Online:Thousand Eyes (set),sets/Thousand_Eyes_set.md,210,https://en.uesp.net/wiki/Online:Thousand_Eyes_(set)
+Online:Vampire's Kiss,sets/Vampire_s_Kiss.md,320,https://en.uesp.net/wiki/Online:Vampire's_Kiss
+Online:Torug's Pact,sets/Torug_s_Pact.md,139,https://en.uesp.net/wiki/Online:Torug's_Pact
+Online:Twilight's Embrace,sets/Twilight_s_Embrace.md,115,https://en.uesp.net/wiki/Online:Twilight's_Embrace
+Online:Twice-Born Star,sets/Twice-Born_Star.md,110,https://en.uesp.net/wiki/Online:Twice-Born_Star
+Online:Treasures of the Earthforge,sets/Treasures_of_the_Earthforge.md,113,https://en.uesp.net/wiki/Online:Treasures_of_the_Earthforge
+Online:Twin Sisters,sets/Twin_Sisters.md,254,https://en.uesp.net/wiki/Online:Twin_Sisters
+Online:Valkyn Skoria (set),sets/Valkyn_Skoria_set.md,214,https://en.uesp.net/wiki/Online:Valkyn_Skoria_(set)
+Online:Undaunted Infiltrator,sets/Undaunted_Infiltrator.md,126,https://en.uesp.net/wiki/Online:Undaunted_Infiltrator
+Online:Undaunted Bastion,sets/Undaunted_Bastion.md,159,https://en.uesp.net/wiki/Online:Undaunted_Bastion
+Online:Undaunted Unweaver,sets/Undaunted_Unweaver.md,145,https://en.uesp.net/wiki/Online:Undaunted_Unweaver
+Online:Trinimac's Valor,sets/Trinimac_s_Valor.md,169,https://en.uesp.net/wiki/Online:Trinimac's_Valor
+Online:Vengeance Leech,sets/Vengeance_Leech.md,114,https://en.uesp.net/wiki/Online:Vengeance_Leech
+Online:Tormentor,sets/Tormentor.md,183,https://en.uesp.net/wiki/Online:Tormentor
+Online:Twice-Fanged Serpent,sets/Twice-Fanged_Serpent.md,106,https://en.uesp.net/wiki/Online:Twice-Fanged_Serpent
+Online:Twilight Remedy,sets/Twilight_Remedy.md,136,https://en.uesp.net/wiki/Online:Twilight_Remedy
+Online:Varen's Legacy,sets/Varen_s_Legacy.md,138,https://en.uesp.net/wiki/Online:Varen's_Legacy
+Online:Velidreth (set),sets/Velidreth_set.md,154,https://en.uesp.net/wiki/Online:Velidreth_(set)
+Online:Vampire Lord (set),sets/Vampire_Lord_set.md,278,https://en.uesp.net/wiki/Online:Vampire_Lord_(set)
+Online:Vampire Cloak,sets/Vampire_Cloak.md,216,https://en.uesp.net/wiki/Online:Vampire_Cloak
+Online:Treasure Hunter,sets/Treasure_Hunter.md,139,https://en.uesp.net/wiki/Online:Treasure_Hunter
+Online:Toothrow,sets/Toothrow.md,165,https://en.uesp.net/wiki/Online:Toothrow
+Online:Tremorscale (set),sets/Tremorscale_set.md,161,https://en.uesp.net/wiki/Online:Tremorscale_(set)
+Online:The Troll King (set),sets/The_Troll_King_set.md,134,https://en.uesp.net/wiki/Online:The_Troll_King_(set)
+Online:Trial by Fire,sets/Trial_by_Fire.md,111,https://en.uesp.net/wiki/Online:Trial_by_Fire
+Online:Vanguard's Challenge,sets/Vanguard_s_Challenge.md,127,https://en.uesp.net/wiki/Online:Vanguard's_Challenge
+Online:Unfathomable Darkness,sets/Unfathomable_Darkness.md,189,https://en.uesp.net/wiki/Online:Unfathomable_Darkness
+Online:Timeless Blessing,sets/Timeless_Blessing.md,127,https://en.uesp.net/wiki/Online:Timeless_Blessing
+Online:Titanic Cleave,sets/Titanic_Cleave.md,123,https://en.uesp.net/wiki/Online:Titanic_Cleave
+Online:Trappings of Invigoration,sets/Trappings_of_Invigoration.md,106,https://en.uesp.net/wiki/Online:Trappings_of_Invigoration
+Online:Ulfnor's Favor,sets/Ulfnor_s_Favor.md,87,https://en.uesp.net/wiki/Online:Ulfnor's_Favor
+Online:Tzogvin's Warband,sets/Tzogvin_s_Warband.md,116,https://en.uesp.net/wiki/Online:Tzogvin's_Warband
+Online:Vastarie's Tutelage,sets/Vastarie_s_Tutelage.md,137,https://en.uesp.net/wiki/Online:Vastarie's_Tutelage
+Online:Tooth of Lokkestiiz,sets/Tooth_of_Lokkestiiz.md,126,https://en.uesp.net/wiki/Online:Tooth_of_Lokkestiiz
+Online:Titanborn Strength,sets/Titanborn_Strength.md,104,https://en.uesp.net/wiki/Online:Titanborn_Strength
+Online:Unchained Aggressor,sets/Unchained_Aggressor.md,130,https://en.uesp.net/wiki/Online:Unchained_Aggressor
+Online:Venomous Smite,sets/Venomous_Smite.md,232,https://en.uesp.net/wiki/Online:Venomous_Smite
+Online:Torc of Tonal Constancy,sets/Torc_of_Tonal_Constancy.md,902,https://en.uesp.net/wiki/Online:Torc_of_Tonal_Constancy
+Online:Unleashed Terror,sets/Unleashed_Terror.md,136,https://en.uesp.net/wiki/Online:Unleashed_Terror
+Online:True-Sworn Fury,sets/True-Sworn_Fury.md,104,https://en.uesp.net/wiki/Online:True-Sworn_Fury
+Online:Unleashed Ritualist,sets/Unleashed_Ritualist.md,84,https://en.uesp.net/wiki/Online:Unleashed_Ritualist
+Online:Turning Tide,sets/Turning_Tide.md,128,https://en.uesp.net/wiki/Online:Turning_Tide
+Online:Transformative Hope,sets/Transformative_Hope.md,153,https://en.uesp.net/wiki/Online:Transformative_Hope
+Online:Velothi Ur-Mage's Amulet,sets/Velothi_Ur-Mage_s_Amulet.md,782,https://en.uesp.net/wiki/Online:Velothi_Ur-Mage's_Amulet
+Online:Torc of the Last Ayleid King,sets/Torc_of_the_Last_Ayleid_King.md,893,https://en.uesp.net/wiki/Online:Torc_of_the_Last_Ayleid_King
+Online:Umbral Edge,sets/Umbral_Edge.md,134,https://en.uesp.net/wiki/Online:Umbral_Edge
+Online:Tracker's Lash,sets/Tracker_s_Lash.md,131,https://en.uesp.net/wiki/Online:Tracker's_Lash
+Online:Vandorallen's Resonance,sets/Vandorallen_s_Resonance.md,129,https://en.uesp.net/wiki/Online:Vandorallen's_Resonance
+Online:Tools of the Trapmaster,sets/Tools_of_the_Trapmaster.md,123,https://en.uesp.net/wiki/Online:Tools_of_the_Trapmaster
+Online:Unflinching Ultimate,sets/Unflinching_Ultimate.md,63,https://en.uesp.net/wiki/Online:Unflinching_Ultimate
+Online:Whitestrake's Retribution,sets/Whitestrake_s_Retribution.md,313,https://en.uesp.net/wiki/Online:Whitestrake's_Retribution
+Online:Willow's Path,sets/Willow_s_Path.md,115,https://en.uesp.net/wiki/Online:Willow's_Path
+Online:Way of Fire,sets/Way_of_Fire.md,134,https://en.uesp.net/wiki/Online:Way_of_Fire
+Online:Wyrd Tree's Blessing,sets/Wyrd_Tree_s_Blessing.md,113,https://en.uesp.net/wiki/Online:Wyrd_Tree's_Blessing
+Online:Viper's Sting,sets/Viper_s_Sting.md,167,https://en.uesp.net/wiki/Online:Viper's_Sting
+Online:Witchman Armor,sets/Witchman_Armor.md,103,https://en.uesp.net/wiki/Online:Witchman_Armor
+Online:Way of Air,sets/Way_of_Air.md,134,https://en.uesp.net/wiki/Online:Way_of_Air
+Online:Way of Martial Knowledge,sets/Way_of_Martial_Knowledge.md,138,https://en.uesp.net/wiki/Online:Way_of_Martial_Knowledge
+Online:Ward of Cyrodiil,sets/Ward_of_Cyrodiil.md,183,https://en.uesp.net/wiki/Online:Ward_of_Cyrodiil
+Online:Wrath of the Imperium,sets/Wrath_of_the_Imperium.md,161,https://en.uesp.net/wiki/Online:Wrath_of_the_Imperium
+Online:Wilderqueen's Arch,sets/Wilderqueen_s_Arch.md,117,https://en.uesp.net/wiki/Online:Wilderqueen's_Arch
+Online:Vestments of the Warlock,sets/Vestments_of_the_Warlock.md,130,https://en.uesp.net/wiki/Online:Vestments_of_the_Warlock
+Online:Vicious Serpent,sets/Vicious_Serpent.md,172,https://en.uesp.net/wiki/Online:Vicious_Serpent
+Online:Willpower,sets/Willpower.md,151,https://en.uesp.net/wiki/Online:Willpower
+Online:Winterborn (set),sets/Winterborn_set.md,138,https://en.uesp.net/wiki/Online:Winterborn_(set)
+Online:Wise Mage,sets/Wise_Mage.md,130,https://en.uesp.net/wiki/Online:Wise_Mage
+Online:Vicious Death,sets/Vicious_Death.md,212,https://en.uesp.net/wiki/Online:Vicious_Death
+Online:Warrior's Fury,sets/Warrior_s_Fury.md,211,https://en.uesp.net/wiki/Online:Warrior's_Fury
+Online:The Worm's Raiment,sets/The_Worm_s_Raiment.md,208,https://en.uesp.net/wiki/Online:The_Worm's_Raiment
+Online:Way of the Arena,sets/Way_of_the_Arena.md,130,https://en.uesp.net/wiki/Online:Way_of_the_Arena
+Online:Widowmaker,sets/Widowmaker.md,116,https://en.uesp.net/wiki/Online:Widowmaker
+Online:Vicecanon of Venom,sets/Vicecanon_of_Venom.md,181,https://en.uesp.net/wiki/Online:Vicecanon_of_Venom
+Online:Ysgramor's Birthright,sets/Ysgramor_s_Birthright.md,229,https://en.uesp.net/wiki/Online:Ysgramor's_Birthright
+Online:Warrior-Poet,sets/Warrior-Poet.md,140,https://en.uesp.net/wiki/Online:Warrior-Poet
+Online:War Maiden,sets/War_Maiden.md,230,https://en.uesp.net/wiki/Online:War_Maiden
+Online:War Machine,sets/War_Machine.md,128,https://en.uesp.net/wiki/Online:War_Machine
+Online:Wizard's Riposte,sets/Wizard_s_Riposte.md,117,https://en.uesp.net/wiki/Online:Wizard's_Riposte
+Online:Wisdom of Vanus,sets/Wisdom_of_Vanus.md,117,https://en.uesp.net/wiki/Online:Wisdom_of_Vanus
+Online:Vestment of Olorime,sets/Vestment_of_Olorime.md,249,https://en.uesp.net/wiki/Online:Vestment_of_Olorime
+Online:Vykosa,sets/Vykosa.md,131,https://en.uesp.net/wiki/Online:Vykosa
+Online:Virulent Shot,sets/Virulent_Shot.md,120,https://en.uesp.net/wiki/Online:Virulent_Shot
+Online:Wild Impulse,sets/Wild_Impulse.md,132,https://en.uesp.net/wiki/Online:Wild_Impulse
+Online:Vesture of Darloc Brae,sets/Vesture_of_Darloc_Brae.md,209,https://en.uesp.net/wiki/Online:Vesture_of_Darloc_Brae
+Online:Z'en's Redress,sets/Z_en_s_Redress.md,126,https://en.uesp.net/wiki/Online:Z'en's_Redress
+Online:Winter's Respite,sets/Winter_s_Respite.md,235,https://en.uesp.net/wiki/Online:Winter's_Respite
+Online:Yandir's Might,sets/Yandir_s_Might.md,223,https://en.uesp.net/wiki/Online:Yandir's_Might
+Online:Vrol's Command,sets/Vrol_s_Command.md,133,https://en.uesp.net/wiki/Online:Vrol's_Command
+Online:Void Bash,sets/Void_Bash.md,134,https://en.uesp.net/wiki/Online:Void_Bash
+Online:Voidcaller,sets/Voidcaller.md,123,https://en.uesp.net/wiki/Online:Voidcaller
+Online:Witch-Knight's Defiance,sets/Witch-Knight_s_Defiance.md,95,https://en.uesp.net/wiki/Online:Witch-Knight's_Defiance
+Online:Wrath of Elements,sets/Wrath_of_Elements.md,182,https://en.uesp.net/wiki/Online:Wrath_of_Elements
+Online:Wretched Vitality,sets/Wretched_Vitality.md,212,https://en.uesp.net/wiki/Online:Wretched_Vitality
+Online:Whorl of the Depths,sets/Whorl_of_the_Depths.md,173,https://en.uesp.net/wiki/Online:Whorl_of_the_Depths
+Online:Vivec's Duality,sets/Vivec_s_Duality.md,94,https://en.uesp.net/wiki/Online:Vivec's_Duality
+Online:Wrathsun,sets/Wrathsun.md,167,https://en.uesp.net/wiki/Online:Wrathsun
+Online:Xoryn's Masterpiece,sets/Xoryn_s_Masterpiece.md,124,https://en.uesp.net/wiki/Online:Xoryn's_Masterpiece
+Online:Vykand's Soulfury,sets/Vykand_s_Soulfury.md,125,https://en.uesp.net/wiki/Online:Vykand's_Soulfury
+Online:Xanmeer Spellweaver,sets/Xanmeer_Spellweaver.md,100,https://en.uesp.net/wiki/Online:Xanmeer_Spellweaver
+Online:Xanmeer Genesis,sets/Xanmeer_Genesis.md,123,https://en.uesp.net/wiki/Online:Xanmeer_Genesis
+Online:Zaan,sets/Zaan.md,185,https://en.uesp.net/wiki/Online:Zaan
+Online:Zoal the Ever-Wakeful (set),sets/Zoal_the_Ever-Wakeful_set.md,153,https://en.uesp.net/wiki/Online:Zoal_the_Ever-Wakeful_(set)
+Online:Skills,skills/Skills.md,2716,https://en.uesp.net/wiki/Online:Skills
+Online:Emperor,skills/Emperor.md,600,https://en.uesp.net/wiki/Online:Emperor
+Online:Balanced Warrior,skills/Balanced_Warrior.md,228,https://en.uesp.net/wiki/Online:Balanced_Warrior
+Online:Amphibian,skills/Amphibian.md,111,https://en.uesp.net/wiki/Online:Amphibian
+Online:Argonian Resistance,skills/Argonian_Resistance.md,235,https://en.uesp.net/wiki/Online:Argonian_Resistance
+Online:Assassin's Blade,skills/Assassin_s_Blade.md,650,https://en.uesp.net/wiki/Online:Assassin's_Blade
+Online:Backlash,skills/Backlash.md,2237,https://en.uesp.net/wiki/Online:Backlash
+Online:Ancient Knowledge,skills/Ancient_Knowledge.md,684,https://en.uesp.net/wiki/Online:Ancient_Knowledge
+Online:Ash Cloud,skills/Ash_Cloud.md,937,https://en.uesp.net/wiki/Online:Ash_Cloud
+Online:Aspect Improvement,skills/Aspect_Improvement.md,116,https://en.uesp.net/wiki/Online:Aspect_Improvement
+Online:Banish the Wicked,skills/Banish_the_Wicked.md,195,https://en.uesp.net/wiki/Online:Banish_the_Wicked
+Online:Annulment,skills/Annulment.md,1159,https://en.uesp.net/wiki/Online:Annulment
+Online:Athletics,skills/Athletics.md,124,https://en.uesp.net/wiki/Online:Athletics
+Online:Absorb,skills/Absorb.md,118,https://en.uesp.net/wiki/Online:Absorb
+Online:Aspect of Terror,skills/Aspect_of_Terror.md,1173,https://en.uesp.net/wiki/Online:Aspect_of_Terror
+Online:Barrier,skills/Barrier.md,594,https://en.uesp.net/wiki/Online:Barrier
+Online:Arcane Fighter,skills/Arcane_Fighter.md,89,https://en.uesp.net/wiki/Online:Arcane_Fighter
+Online:Arrow Spray,skills/Arrow_Spray.md,792,https://en.uesp.net/wiki/Online:Arrow_Spray
+Online:Balanced Blade,skills/Balanced_Blade.md,134,https://en.uesp.net/wiki/Online:Balanced_Blade
+Online:Accuracy,skills/Accuracy.md,70,https://en.uesp.net/wiki/Online:Accuracy
+Online:Acrobat,skills/Acrobat.md,115,https://en.uesp.net/wiki/Online:Acrobat
+Online:Ashlander,skills/Ashlander.md,124,https://en.uesp.net/wiki/Online:Ashlander
+Online:Adrenaline Rush,skills/Adrenaline_Rush.md,360,https://en.uesp.net/wiki/Online:Adrenaline_Rush
+Online:Agility (skill),skills/Agility_skill.md,297,https://en.uesp.net/wiki/Online:Agility_(skill)
+Online:Advanced Species,skills/Advanced_Species.md,217,https://en.uesp.net/wiki/Online:Advanced_Species
+Online:Arctic Wind,skills/Arctic_Wind.md,1487,https://en.uesp.net/wiki/Online:Arctic_Wind
+Online:Accelerated Growth,skills/Accelerated_Growth.md,108,https://en.uesp.net/wiki/Online:Accelerated_Growth
+Online:Agony,skills/Agony.md,480,https://en.uesp.net/wiki/Online:Agony
+Online:Accelerate,skills/Accelerate.md,513,https://en.uesp.net/wiki/Online:Accelerate
+Online:Amplitude,skills/Amplitude.md,245,https://en.uesp.net/wiki/Online:Amplitude
+Online:Accursed Charge,skills/Accursed_Charge.md,43,https://en.uesp.net/wiki/Online:Accursed_Charge
+Online:Antiquarian Insight,skills/Antiquarian_Insight.md,199,https://en.uesp.net/wiki/Online:Antiquarian_Insight
+Online:Augur,skills/Augur.md,320,https://en.uesp.net/wiki/Online:Augur
+Online:Basalt Barrier,skills/Basalt_Barrier.md,98,https://en.uesp.net/wiki/Online:Basalt_Barrier
+Online:Baneslayer,skills/Baneslayer.md,116,https://en.uesp.net/wiki/Online:Baneslayer
+Online:Abor's Augmented Ward,skills/Abor_s_Augmented_Ward.md,101,https://en.uesp.net/wiki/Online:Abor's_Augmented_Ward
+Online:Bashing Bulwark,skills/Bashing_Bulwark.md,76,https://en.uesp.net/wiki/Online:Bashing_Bulwark
+Online:Arcane Nova,skills/Arcane_Nova.md,97,https://en.uesp.net/wiki/Online:Arcane_Nova
+Online:Abyssal Impact,skills/Abyssal_Impact.md,682,https://en.uesp.net/wiki/Online:Abyssal_Impact
+Online:Aegis of the Unseen,skills/Aegis_of_the_Unseen.md,100,https://en.uesp.net/wiki/Online:Aegis_of_the_Unseen
+Online:Arcanist's Domain,skills/Arcanist_s_Domain.md,474,https://en.uesp.net/wiki/Online:Arcanist's_Domain
+Online:Apocryphal Gate,skills/Apocryphal_Gate.md,506,https://en.uesp.net/wiki/Online:Apocryphal_Gate
+Online:Skill Styles,skills/Skill_Styles.md,2824,https://en.uesp.net/wiki/Online:Skill_Styles
+Online:Azurah's Embrace,skills/Azurah_s_Embrace.md,93,https://en.uesp.net/wiki/Online:Azurah's_Embrace
+Online:Atoning Spirit,skills/Atoning_Spirit.md,105,https://en.uesp.net/wiki/Online:Atoning_Spirit
+Online:Banner Bearer,skills/Banner_Bearer.md,751,https://en.uesp.net/wiki/Online:Banner_Bearer
+Online:Above and Beyond,skills/Above_and_Beyond.md,118,https://en.uesp.net/wiki/Online:Above_and_Beyond
+Online:Abyssal Emergence,skills/Abyssal_Emergence.md,107,https://en.uesp.net/wiki/Online:Abyssal_Emergence
+Online:Ambidextrous,skills/Ambidextrous.md,51,https://en.uesp.net/wiki/Online:Ambidextrous
+Online:Bastion of Light,skills/Bastion_of_Light.md,198,https://en.uesp.net/wiki/Online:Bastion_of_Light
+Online:Burning Light,skills/Burning_Light.md,537,https://en.uesp.net/wiki/Online:Burning_Light
+Online:Blur,skills/Blur.md,661,https://en.uesp.net/wiki/Online:Blur
+Online:Caltrops,skills/Caltrops.md,1222,https://en.uesp.net/wiki/Online:Caltrops
+Online:Bound Armor,skills/Bound_Armor.md,1459,https://en.uesp.net/wiki/Online:Bound_Armor
+Online:Blood Magic,skills/Blood_Magic.md,431,https://en.uesp.net/wiki/Online:Blood_Magic
+Online:Burning Heart,skills/Burning_Heart.md,98,https://en.uesp.net/wiki/Online:Burning_Heart
+Online:Battle Roar,skills/Battle_Roar.md,373,https://en.uesp.net/wiki/Online:Battle_Roar
+Online:Bounty Hunter,skills/Bounty_Hunter.md,105,https://en.uesp.net/wiki/Online:Bounty_Hunter
+Online:Battlefield Mobility,skills/Battlefield_Mobility.md,103,https://en.uesp.net/wiki/Online:Battlefield_Mobility
+Online:Brewer,skills/Brewer.md,79,https://en.uesp.net/wiki/Online:Brewer
+Online:Blessing of Protection,skills/Blessing_of_Protection.md,702,https://en.uesp.net/wiki/Online:Blessing_of_Protection
+Online:Capacitor,skills/Capacitor.md,65,https://en.uesp.net/wiki/Online:Capacitor
+Online:Bolt Escape,skills/Bolt_Escape.md,1290,https://en.uesp.net/wiki/Online:Bolt_Escape
+Online:Battle Resurrection,skills/Battle_Resurrection.md,160,https://en.uesp.net/wiki/Online:Battle_Resurrection
+Online:Battle Rush,skills/Battle_Rush.md,123,https://en.uesp.net/wiki/Online:Battle_Rush
+Online:Blood Altar,skills/Blood_Altar.md,1100,https://en.uesp.net/wiki/Online:Blood_Altar
+Online:Bone Shield,skills/Bone_Shield.md,1159,https://en.uesp.net/wiki/Online:Bone_Shield
+Online:Blood Ritual,skills/Blood_Ritual.md,169,https://en.uesp.net/wiki/Online:Blood_Ritual
+Online:Bat Swarm,skills/Bat_Swarm.md,639,https://en.uesp.net/wiki/Online:Bat_Swarm
+Online:Blade Cloak,skills/Blade_Cloak.md,1103,https://en.uesp.net/wiki/Online:Blade_Cloak
+Online:Blood Rage,skills/Blood_Rage.md,265,https://en.uesp.net/wiki/Online:Blood_Rage
+Online:Bloodmoon,skills/Bloodmoon.md,103,https://en.uesp.net/wiki/Online:Bloodmoon
+Online:Call of the Pack,skills/Call_of_the_Pack.md,281,https://en.uesp.net/wiki/Online:Call_of_the_Pack
+Online:Brawny,skills/Brawny.md,91,https://en.uesp.net/wiki/Online:Brawny
+Online:Blade of Woe,skills/Blade_of_Woe.md,729,https://en.uesp.net/wiki/Online:Blade_of_Woe
+Online:Berserker Strike,skills/Berserker_Strike.md,802,https://en.uesp.net/wiki/Online:Berserker_Strike
+Online:Betty Netch (skill),skills/Betty_Netch_skill.md,894,https://en.uesp.net/wiki/Online:Betty_Netch_(skill)
+Online:Bond with Nature,skills/Bond_with_Nature.md,181,https://en.uesp.net/wiki/Online:Bond_with_Nature
+Online:Bone Armor,skills/Bone_Armor.md,527,https://en.uesp.net/wiki/Online:Bone_Armor
+Online:Bitter Harvest,skills/Bitter_Harvest.md,459,https://en.uesp.net/wiki/Online:Bitter_Harvest
+Online:Blastbones,skills/Blastbones.md,1119,https://en.uesp.net/wiki/Online:Blastbones
+Online:Boneyard,skills/Boneyard.md,1046,https://en.uesp.net/wiki/Online:Boneyard
+Online:Bone Totem,skills/Bone_Totem.md,928,https://en.uesp.net/wiki/Online:Bone_Totem
+Online:Bone Goliath Transformation,skills/Bone_Goliath_Transformation.md,651,https://en.uesp.net/wiki/Online:Bone_Goliath_Transformation
+Online:Blood Frenzy,skills/Blood_Frenzy.md,672,https://en.uesp.net/wiki/Online:Blood_Frenzy
+Online:Blood Scion,skills/Blood_Scion.md,448,https://en.uesp.net/wiki/Online:Blood_Scion
+Online:Bulwark (Companion),skills/Bulwark_Companion.md,93,https://en.uesp.net/wiki/Online:Bulwark_(Companion)
+Online:Blood Transfusion,skills/Blood_Transfusion.md,77,https://en.uesp.net/wiki/Online:Blood_Transfusion
+Online:Blazing Grasp,skills/Blazing_Grasp.md,104,https://en.uesp.net/wiki/Online:Blazing_Grasp
+Online:Blessed Sacrament,skills/Blessed_Sacrament.md,107,https://en.uesp.net/wiki/Online:Blessed_Sacrament
+Online:Beam of Reproach,skills/Beam_of_Reproach.md,135,https://en.uesp.net/wiki/Online:Beam_of_Reproach
+Online:Biting Trap,skills/Biting_Trap.md,109,https://en.uesp.net/wiki/Online:Biting_Trap
+Online:Blade of the Crossing,skills/Blade_of_the_Crossing.md,117,https://en.uesp.net/wiki/Online:Blade_of_the_Crossing
+Online:Blessing at the Peak,skills/Blessing_at_the_Peak.md,106,https://en.uesp.net/wiki/Online:Blessing_at_the_Peak
+Online:Burnished Scales,skills/Burnished_Scales.md,52,https://en.uesp.net/wiki/Online:Burnished_Scales
+Online:Booming Voice,skills/Booming_Voice.md,111,https://en.uesp.net/wiki/Online:Booming_Voice
+Online:Bountiful Harvest,skills/Bountiful_Harvest.md,107,https://en.uesp.net/wiki/Online:Bountiful_Harvest
+Online:Bright Harbinger,skills/Bright_Harbinger.md,111,https://en.uesp.net/wiki/Online:Bright_Harbinger
+Online:Calculated Defense,skills/Calculated_Defense.md,192,https://en.uesp.net/wiki/Online:Calculated_Defense
+Online:Call of the Hunt,skills/Call_of_the_Hunt.md,192,https://en.uesp.net/wiki/Online:Call_of_the_Hunt
+Online:Chemistry,skills/Chemistry.md,100,https://en.uesp.net/wiki/Online:Chemistry
+Online:Combustion,skills/Combustion.md,792,https://en.uesp.net/wiki/Online:Combustion
+Online:Continuous Attack,skills/Continuous_Attack.md,271,https://en.uesp.net/wiki/Online:Continuous_Attack
+Online:Combat Frenzy,skills/Combat_Frenzy.md,56,https://en.uesp.net/wiki/Online:Combat_Frenzy
+Online:Daedric Protection,skills/Daedric_Protection.md,156,https://en.uesp.net/wiki/Online:Daedric_Protection
+Online:Daedric Curse,skills/Daedric_Curse.md,1520,https://en.uesp.net/wiki/Online:Daedric_Curse
+Online:Conjured Ward,skills/Conjured_Ward.md,1648,https://en.uesp.net/wiki/Online:Conjured_Ward
+Online:Crystal Shard,skills/Crystal_Shard.md,1670,https://en.uesp.net/wiki/Online:Crystal_Shard
+Online:Daedric Mines,skills/Daedric_Mines.md,1287,https://en.uesp.net/wiki/Online:Daedric_Mines
+Online:Controlled Fury,skills/Controlled_Fury.md,106,https://en.uesp.net/wiki/Online:Controlled_Fury
+Online:Circle of Protection,skills/Circle_of_Protection.md,793,https://en.uesp.net/wiki/Online:Circle_of_Protection
+Online:Constitution,skills/Constitution.md,237,https://en.uesp.net/wiki/Online:Constitution
+Online:Concentration,skills/Concentration.md,315,https://en.uesp.net/wiki/Online:Concentration
+Online:Connoisseur,skills/Connoisseur.md,153,https://en.uesp.net/wiki/Online:Connoisseur
+Online:Chef,skills/Chef.md,80,https://en.uesp.net/wiki/Online:Chef
+Online:Cycle of Life,skills/Cycle_of_Life.md,105,https://en.uesp.net/wiki/Online:Cycle_of_Life
+Online:Cleansing Ritual,skills/Cleansing_Ritual.md,1517,https://en.uesp.net/wiki/Online:Cleansing_Ritual
+Online:Catalyst,skills/Catalyst.md,155,https://en.uesp.net/wiki/Online:Catalyst
+Online:Cripple,skills/Cripple.md,903,https://en.uesp.net/wiki/Online:Cripple
+Online:Combat Medic,skills/Combat_Medic.md,53,https://en.uesp.net/wiki/Online:Combat_Medic
+Online:Cleave,skills/Cleave.md,1407,https://en.uesp.net/wiki/Online:Cleave
+Online:Critical Charge,skills/Critical_Charge.md,1163,https://en.uesp.net/wiki/Online:Critical_Charge
+Online:Carpentry,skills/Carpentry.md,650,https://en.uesp.net/wiki/Online:Carpentry
+Online:Consuming Darkness (skill),skills/Consuming_Darkness_skill.md,634,https://en.uesp.net/wiki/Online:Consuming_Darkness_(skill)
+Online:Cutpurse,skills/Cutpurse.md,119,https://en.uesp.net/wiki/Online:Cutpurse
+Online:Craftsman,skills/Craftsman.md,126,https://en.uesp.net/wiki/Online:Craftsman
+Online:Conditioning,skills/Conditioning.md,72,https://en.uesp.net/wiki/Online:Conditioning
+Online:Clemency,skills/Clemency.md,94,https://en.uesp.net/wiki/Online:Clemency
+Online:Crystallized Shield,skills/Crystallized_Shield.md,904,https://en.uesp.net/wiki/Online:Crystallized_Shield
+Online:Clairvoyance,skills/Clairvoyance.md,45,https://en.uesp.net/wiki/Online:Clairvoyance
+Online:Concentrated Barrier,skills/Concentrated_Barrier.md,303,https://en.uesp.net/wiki/Online:Concentrated_Barrier
+Online:Curative Curse,skills/Curative_Curse.md,129,https://en.uesp.net/wiki/Online:Curative_Curse
+Online:Corpse Consumption,skills/Corpse_Consumption.md,63,https://en.uesp.net/wiki/Online:Corpse_Consumption
+Online:Coalescence,skills/Coalescence.md,195,https://en.uesp.net/wiki/Online:Coalescence
+Online:Crag Smash,skills/Crag_Smash.md,74,https://en.uesp.net/wiki/Online:Crag_Smash
+Online:Crushing Claws,skills/Crushing_Claws.md,80,https://en.uesp.net/wiki/Online:Crushing_Claws
+Online:Cunning,skills/Cunning.md,63,https://en.uesp.net/wiki/Online:Cunning
+Online:Crystal Blast (Companion),skills/Crystal_Blast_Companion.md,74,https://en.uesp.net/wiki/Online:Crystal_Blast_(Companion)
+Online:Char,skills/Char.md,106,https://en.uesp.net/wiki/Online:Char
+Online:Cold Snap,skills/Cold_Snap.md,99,https://en.uesp.net/wiki/Online:Cold_Snap
+Online:Crimson Font,skills/Crimson_Font.md,102,https://en.uesp.net/wiki/Online:Crimson_Font
+Online:Circumvented Fate,skills/Circumvented_Fate.md,92,https://en.uesp.net/wiki/Online:Circumvented_Fate
+Online:Chakram Shields,skills/Chakram_Shields.md,555,https://en.uesp.net/wiki/Online:Chakram_Shields
+Online:Crescent Scythe,skills/Crescent_Scythe.md,94,https://en.uesp.net/wiki/Online:Crescent_Scythe
+Online:Chains of Flame,skills/Chains_of_Flame.md,311,https://en.uesp.net/wiki/Online:Chains_of_Flame
+Online:Core of Flame,skills/Core_of_Flame.md,233,https://en.uesp.net/wiki/Online:Core_of_Flame
+Online:Class Mastery,skills/Class_Mastery.md,307,https://en.uesp.net/wiki/Online:Class_Mastery
+Online:Conservation of Energy,skills/Conservation_of_Energy.md,145,https://en.uesp.net/wiki/Online:Conservation_of_Energy
+Online:Cutthroat's Focus,skills/Cutthroat_s_Focus.md,137,https://en.uesp.net/wiki/Online:Cutthroat's_Focus
+Online:Cycle Unending,skills/Cycle_Unending.md,188,https://en.uesp.net/wiki/Online:Cycle_Unending
+Online:Elemental Talent,skills/Elemental_Talent.md,273,https://en.uesp.net/wiki/Online:Elemental_Talent
+Online:Dragonknight Standard,skills/Dragonknight_Standard.md,1261,https://en.uesp.net/wiki/Online:Dragonknight_Standard
+Online:Death Stroke,skills/Death_Stroke.md,1224,https://en.uesp.net/wiki/Online:Death_Stroke
+Online:Encase,skills/Encase.md,997,https://en.uesp.net/wiki/Online:Encase
+Online:Dark Exchange,skills/Dark_Exchange.md,929,https://en.uesp.net/wiki/Online:Dark_Exchange
+Online:Eclipse,skills/Eclipse.md,1910,https://en.uesp.net/wiki/Online:Eclipse
+Online:Elemental Force,skills/Elemental_Force.md,148,https://en.uesp.net/wiki/Online:Elemental_Force
+Online:Destruction Expert,skills/Destruction_Expert.md,212,https://en.uesp.net/wiki/Online:Destruction_Expert
+Online:Destructive Touch,skills/Destructive_Touch.md,1603,https://en.uesp.net/wiki/Online:Destructive_Touch
+Online:Elder Dragon,skills/Elder_Dragon.md,319,https://en.uesp.net/wiki/Online:Elder_Dragon
+Online:Dragon Leap,skills/Dragon_Leap.md,1026,https://en.uesp.net/wiki/Online:Dragon_Leap
+Online:Dark Talons,skills/Dark_Talons.md,760,https://en.uesp.net/wiki/Online:Dark_Talons
+Online:Dragon Blood,skills/Dragon_Blood.md,1087,https://en.uesp.net/wiki/Online:Dragon_Blood
+Online:Drain Essence,skills/Drain_Essence.md,763,https://en.uesp.net/wiki/Online:Drain_Essence
+Online:Dual Wield Expert,skills/Dual_Wield_Expert.md,141,https://en.uesp.net/wiki/Online:Dual_Wield_Expert
+Online:Dexterity,skills/Dexterity.md,292,https://en.uesp.net/wiki/Online:Dexterity
+Online:Deadly Bash,skills/Deadly_Bash.md,377,https://en.uesp.net/wiki/Online:Deadly_Bash
+Online:Deflect Bolts,skills/Deflect_Bolts.md,77,https://en.uesp.net/wiki/Online:Deflect_Bolts
+Online:Defensive Posture,skills/Defensive_Posture.md,724,https://en.uesp.net/wiki/Online:Defensive_Posture
+Online:Dark Veil,skills/Dark_Veil.md,113,https://en.uesp.net/wiki/Online:Dark_Veil
+Online:Drain Power,skills/Drain_Power.md,984,https://en.uesp.net/wiki/Online:Drain_Power
+Online:Dark Stalker,skills/Dark_Stalker.md,188,https://en.uesp.net/wiki/Online:Dark_Stalker
+Online:Dawnbreaker,skills/Dawnbreaker.md,1006,https://en.uesp.net/wiki/Online:Dawnbreaker
+Online:Dark Vigor,skills/Dark_Vigor.md,88,https://en.uesp.net/wiki/Online:Dark_Vigor
+Online:Devour,skills/Devour.md,673,https://en.uesp.net/wiki/Online:Devour
+Online:Dynamic,skills/Dynamic.md,104,https://en.uesp.net/wiki/Online:Dynamic
+Online:Diplomat,skills/Diplomat.md,136,https://en.uesp.net/wiki/Online:Diplomat
+Online:Elemental Storm,skills/Elemental_Storm.md,769,https://en.uesp.net/wiki/Online:Elemental_Storm
+Online:Dive,skills/Dive.md,1046,https://en.uesp.net/wiki/Online:Dive
+Online:Emerald Moss,skills/Emerald_Moss.md,119,https://en.uesp.net/wiki/Online:Emerald_Moss
+Online:Deliberation,skills/Deliberation.md,151,https://en.uesp.net/wiki/Online:Deliberation
+Online:Death Scythe,skills/Death_Scythe.md,429,https://en.uesp.net/wiki/Online:Death_Scythe
+Online:Death Gleaning,skills/Death_Gleaning.md,157,https://en.uesp.net/wiki/Online:Death_Gleaning
+Online:Disdain Harm,skills/Disdain_Harm.md,127,https://en.uesp.net/wiki/Online:Disdain_Harm
+Online:Death Knell,skills/Death_Knell.md,179,https://en.uesp.net/wiki/Online:Death_Knell
+Online:Dismember,skills/Dismember.md,90,https://en.uesp.net/wiki/Online:Dismember
+Online:Dilation,skills/Dilation.md,155,https://en.uesp.net/wiki/Online:Dilation
+Online:Drake's Blood,skills/Drake_s_Blood.md,93,https://en.uesp.net/wiki/Online:Drake's_Blood
+Online:Dynamic (Companion),skills/Dynamic_Companion.md,65,https://en.uesp.net/wiki/Online:Dynamic_(Companion)
+Online:Divine Destruction,skills/Divine_Destruction.md,88,https://en.uesp.net/wiki/Online:Divine_Destruction
+Online:Destructive Blast,skills/Destructive_Blast.md,107,https://en.uesp.net/wiki/Online:Destructive_Blast
+Online:Elemental Barricade,skills/Elemental_Barricade.md,87,https://en.uesp.net/wiki/Online:Elemental_Barricade
+Online:Deprecated Skills,skills/Deprecated_Skills.md,101,https://en.uesp.net/wiki/Online:Deprecated_Skills
+Online:Elemental Explosion,skills/Elemental_Explosion.md,520,https://en.uesp.net/wiki/Online:Elemental_Explosion
+Online:Dark Moon Totem,skills/Dark_Moon_Totem.md,127,https://en.uesp.net/wiki/Online:Dark_Moon_Totem
+Online:Dragonfire Breath,skills/Dragonfire_Breath.md,244,https://en.uesp.net/wiki/Online:Dragonfire_Breath
+Online:Earthspike Mantle,skills/Earthspike_Mantle.md,241,https://en.uesp.net/wiki/Online:Earthspike_Mantle
+Online:Devout Guardian,skills/Devout_Guardian.md,167,https://en.uesp.net/wiki/Online:Devout_Guardian
+Online:Fiery Grip,skills/Fiery_Grip.md,1152,https://en.uesp.net/wiki/Online:Fiery_Grip
+Online:Fiery Breath,skills/Fiery_Breath.md,982,https://en.uesp.net/wiki/Online:Fiery_Breath
+Online:Expert Summoner,skills/Expert_Summoner.md,429,https://en.uesp.net/wiki/Online:Expert_Summoner
+Online:Exploitation,skills/Exploitation.md,136,https://en.uesp.net/wiki/Online:Exploitation
+Online:Enduring Rays,skills/Enduring_Rays.md,190,https://en.uesp.net/wiki/Online:Enduring_Rays
+Online:Eternal Mountain,skills/Eternal_Mountain.md,82,https://en.uesp.net/wiki/Online:Eternal_Mountain
+Online:Expert Hunter,skills/Expert_Hunter.md,1222,https://en.uesp.net/wiki/Online:Expert_Hunter
+Online:Evocation,skills/Evocation.md,197,https://en.uesp.net/wiki/Online:Evocation
+Online:Everlasting Magic,skills/Everlasting_Magic.md,137,https://en.uesp.net/wiki/Online:Everlasting_Magic
+Online:Entropy,skills/Entropy.md,708,https://en.uesp.net/wiki/Online:Entropy
+Online:Fire Rune,skills/Fire_Rune.md,897,https://en.uesp.net/wiki/Online:Fire_Rune
+Online:Equilibrium,skills/Equilibrium.md,789,https://en.uesp.net/wiki/Online:Equilibrium
+Online:Evasion,skills/Evasion.md,618,https://en.uesp.net/wiki/Online:Evasion
+Online:Essence Drain,skills/Essence_Drain.md,270,https://en.uesp.net/wiki/Online:Essence_Drain
+Online:Energized,skills/Energized.md,85,https://en.uesp.net/wiki/Online:Energized
+Online:Expert Mage,skills/Expert_Mage.md,173,https://en.uesp.net/wiki/Online:Expert_Mage
+Online:Impulse,skills/Impulse.md,1030,https://en.uesp.net/wiki/Online:Impulse
+Online:Executioner (skill),skills/Executioner_skill.md,270,https://en.uesp.net/wiki/Online:Executioner_(skill)
+Online:Feline Ambush,skills/Feline_Ambush.md,320,https://en.uesp.net/wiki/Online:Feline_Ambush
+Online:Finders Keepers,skills/Finders_Keepers.md,233,https://en.uesp.net/wiki/Online:Finders_Keepers
+Online:Feral Guardian,skills/Feral_Guardian.md,1469,https://en.uesp.net/wiki/Online:Feral_Guardian
+Online:Falcon's Swiftness,skills/Falcon_s_Swiftness.md,588,https://en.uesp.net/wiki/Online:Falcon's_Swiftness
+Online:Flourish,skills/Flourish.md,76,https://en.uesp.net/wiki/Online:Flourish
+Online:Engraver,skills/Engraver.md,162,https://en.uesp.net/wiki/Online:Engraver
+Online:Expunge,skills/Expunge.md,289,https://en.uesp.net/wiki/Online:Expunge
+Online:Flame Skull,skills/Flame_Skull.md,457,https://en.uesp.net/wiki/Online:Flame_Skull
+Online:Eviscerate,skills/Eviscerate.md,474,https://en.uesp.net/wiki/Online:Eviscerate
+Online:Excavator's Reserves,skills/Excavator_s_Reserves.md,39,https://en.uesp.net/wiki/Online:Excavator's_Reserves
+Online:Farsight (skill),skills/Farsight_skill.md,166,https://en.uesp.net/wiki/Online:Farsight_(skill)
+Online:Feed,skills/Feed.md,363,https://en.uesp.net/wiki/Online:Feed
+Online:Flexibility,skills/Flexibility.md,159,https://en.uesp.net/wiki/Online:Flexibility
+Online:Firmness,skills/Firmness.md,134,https://en.uesp.net/wiki/Online:Firmness
+Online:Fiery Flail,skills/Fiery_Flail.md,78,https://en.uesp.net/wiki/Online:Fiery_Flail
+Online:Enchanted,skills/Enchanted.md,64,https://en.uesp.net/wiki/Online:Enchanted
+Online:Entomb,skills/Entomb.md,87,https://en.uesp.net/wiki/Online:Entomb
+Online:Fear of the Unknown,skills/Fear_of_the_Unknown.md,82,https://en.uesp.net/wiki/Online:Fear_of_the_Unknown
+Online:Fate Omen's Inspiration,skills/Fate_Omen_s_Inspiration.md,91,https://en.uesp.net/wiki/Online:Fate_Omen's_Inspiration
+Online:Fatecarver,skills/Fatecarver.md,608,https://en.uesp.net/wiki/Online:Fatecarver
+Online:Fated Fortune,skills/Fated_Fortune.md,58,https://en.uesp.net/wiki/Online:Fated_Fortune
+Online:Fatewoven Armor,skills/Fatewoven_Armor.md,246,https://en.uesp.net/wiki/Online:Fatewoven_Armor
+Online:Erudition,skills/Erudition.md,47,https://en.uesp.net/wiki/Online:Erudition
+Online:Extinguishing Breath,skills/Extinguishing_Breath.md,109,https://en.uesp.net/wiki/Online:Extinguishing_Breath
+Online:Explosive Fortitude,skills/Explosive_Fortitude.md,96,https://en.uesp.net/wiki/Online:Explosive_Fortitude
+Online:Fan the Flames,skills/Fan_the_Flames.md,91,https://en.uesp.net/wiki/Online:Fan_the_Flames
+Online:An Eye for Exploitation,skills/An_Eye_for_Exploitation.md,133,https://en.uesp.net/wiki/Online:An_Eye_for_Exploitation
+Online:Erudite's Rigor,skills/Erudite_s_Rigor.md,149,https://en.uesp.net/wiki/Online:Erudite's_Rigor
+Online:Fate Realigned,skills/Fate_Realigned.md,127,https://en.uesp.net/wiki/Online:Fate_Realigned
+Online:Feral Cruelty,skills/Feral_Cruelty.md,151,https://en.uesp.net/wiki/Online:Feral_Cruelty
+Online:Focused Charge,skills/Focused_Charge.md,1073,https://en.uesp.net/wiki/Online:Focused_Charge
+Online:Force Shock,skills/Force_Shock.md,795,https://en.uesp.net/wiki/Online:Force_Shock
+Online:Flurry,skills/Flurry.md,1036,https://en.uesp.net/wiki/Online:Flurry
+Online:Fortress,skills/Fortress.md,154,https://en.uesp.net/wiki/Online:Fortress
+Online:Gourmand,skills/Gourmand.md,146,https://en.uesp.net/wiki/Online:Gourmand
+Online:Grand Healing,skills/Grand_Healing.md,528,https://en.uesp.net/wiki/Online:Grand_Healing
+Online:Force Siphon,skills/Force_Siphon.md,553,https://en.uesp.net/wiki/Online:Force_Siphon
+Online:Healing Ritual,skills/Healing_Ritual.md,673,https://en.uesp.net/wiki/Online:Healing_Ritual
+Online:Forceful,skills/Forceful.md,222,https://en.uesp.net/wiki/Online:Forceful
+Online:Grim Focus,skills/Grim_Focus.md,2281,https://en.uesp.net/wiki/Online:Grim_Focus
+Online:Follow Up,skills/Follow_Up.md,188,https://en.uesp.net/wiki/Online:Follow_Up
+Online:Hawk Eye,skills/Hawk_Eye.md,274,https://en.uesp.net/wiki/Online:Hawk_Eye
+Online:Hasty Retreat,skills/Hasty_Retreat.md,158,https://en.uesp.net/wiki/Online:Hasty_Retreat
+Online:Gift of Magnus,skills/Gift_of_Magnus.md,77,https://en.uesp.net/wiki/Online:Gift_of_Magnus
+Online:Haggling,skills/Haggling.md,164,https://en.uesp.net/wiki/Online:Haggling
+Online:Guard (skill),skills/Guard_skill.md,805,https://en.uesp.net/wiki/Online:Guard_(skill)
+Online:Frost Cloak,skills/Frost_Cloak.md,459,https://en.uesp.net/wiki/Online:Frost_Cloak
+Online:Frozen Gate,skills/Frozen_Gate.md,999,https://en.uesp.net/wiki/Online:Frozen_Gate
+Online:Fungal Growth,skills/Fungal_Growth.md,428,https://en.uesp.net/wiki/Online:Fungal_Growth
+Online:Healing Seed,skills/Healing_Seed.md,814,https://en.uesp.net/wiki/Online:Healing_Seed
+Online:Frozen Armor,skills/Frozen_Armor.md,128,https://en.uesp.net/wiki/Online:Frozen_Armor
+Online:Glacial Presence,skills/Glacial_Presence.md,445,https://en.uesp.net/wiki/Online:Glacial_Presence
+Online:Grace,skills/Grace.md,275,https://en.uesp.net/wiki/Online:Grace
+Online:Frozen Colossus,skills/Frozen_Colossus.md,976,https://en.uesp.net/wiki/Online:Frozen_Colossus
+Online:Grave Grasp,skills/Grave_Grasp.md,1171,https://en.uesp.net/wiki/Online:Grave_Grasp
+Online:Health Avarice,skills/Health_Avarice.md,87,https://en.uesp.net/wiki/Online:Health_Avarice
+Online:Future Focus,skills/Future_Focus.md,131,https://en.uesp.net/wiki/Online:Future_Focus
+Online:Hand Brush,skills/Hand_Brush.md,154,https://en.uesp.net/wiki/Online:Hand_Brush
+Online:Heavy Shovel,skills/Heavy_Shovel.md,327,https://en.uesp.net/wiki/Online:Heavy_Shovel
+Online:Heavy Armor Bonuses,skills/Heavy_Armor_Bonuses.md,97,https://en.uesp.net/wiki/Online:Heavy_Armor_Bonuses
+Online:Heavy Armor Penalties,skills/Heavy_Armor_Penalties.md,95,https://en.uesp.net/wiki/Online:Heavy_Armor_Penalties
+Online:Haste (Companion),skills/Haste_Companion.md,77,https://en.uesp.net/wiki/Online:Haste_(Companion)
+Online:Flow,skills/Flow.md,144,https://en.uesp.net/wiki/Online:Flow
+Online:Ghostly Evasion,skills/Ghostly_Evasion.md,97,https://en.uesp.net/wiki/Online:Ghostly_Evasion
+Online:Gore,skills/Gore.md,91,https://en.uesp.net/wiki/Online:Gore
+Online:Gallant Blitz,skills/Gallant_Blitz.md,110,https://en.uesp.net/wiki/Online:Gallant_Blitz
+Online:Fungal Forage,skills/Fungal_Forage.md,99,https://en.uesp.net/wiki/Online:Fungal_Forage
+Online:Harnessed Quintessence,skills/Harnessed_Quintessence.md,108,https://en.uesp.net/wiki/Online:Harnessed_Quintessence
+Online:Gibbering Shield,skills/Gibbering_Shield.md,313,https://en.uesp.net/wiki/Online:Gibbering_Shield
+Online:Healing Tides,skills/Healing_Tides.md,70,https://en.uesp.net/wiki/Online:Healing_Tides
+Online:Haze of Cinders,skills/Haze_of_Cinders.md,100,https://en.uesp.net/wiki/Online:Haze_of_Cinders
+Online:Heart of Stone,skills/Heart_of_Stone.md,51,https://en.uesp.net/wiki/Online:Heart_of_Stone
+Online:Hearthfire,skills/Hearthfire.md,293,https://en.uesp.net/wiki/Online:Hearthfire
+Online:Focused Killer,skills/Focused_Killer.md,48,https://en.uesp.net/wiki/Online:Focused_Killer
+Online:Font of Power,skills/Font_of_Power.md,143,https://en.uesp.net/wiki/Online:Font_of_Power
+Online:Glacial Obstinance,skills/Glacial_Obstinance.md,131,https://en.uesp.net/wiki/Online:Glacial_Obstinance
+Online:Gnash,skills/Gnash.md,949,https://en.uesp.net/wiki/Online:Gnash
+Online:Green-Keeper's Hide,skills/Green-Keeper_s_Hide.md,83,https://en.uesp.net/wiki/Online:Green-Keeper's_Hide
+Online:Keen Eye: Reagents,skills/Keen_Eye_Reagents.md,129,https://en.uesp.net/wiki/Online:Keen_Eye:_Reagents
+Online:Highborn,skills/Highborn.md,117,https://en.uesp.net/wiki/Online:Highborn
+Online:Inferno,skills/Inferno.md,1266,https://en.uesp.net/wiki/Online:Inferno
+Online:Hemorrhage,skills/Hemorrhage.md,143,https://en.uesp.net/wiki/Online:Hemorrhage
+Online:Keen Eye: Ore,skills/Keen_Eye_Ore.md,89,https://en.uesp.net/wiki/Online:Keen_Eye:_Ore
+Online:Keen Eye: Cloth,skills/Keen_Eye_Cloth.md,93,https://en.uesp.net/wiki/Online:Keen_Eye:_Cloth
+Online:Illuminate,skills/Illuminate.md,135,https://en.uesp.net/wiki/Online:Illuminate
+Online:Iron Skin,skills/Iron_Skin.md,187,https://en.uesp.net/wiki/Online:Iron_Skin
+Online:Inhale,skills/Inhale.md,796,https://en.uesp.net/wiki/Online:Inhale
+Online:Hidden Blade,skills/Hidden_Blade.md,941,https://en.uesp.net/wiki/Online:Hidden_Blade
+Online:Helping Hands,skills/Helping_Hands.md,391,https://en.uesp.net/wiki/Online:Helping_Hands
+Online:Keen Eye: Rune Stones,skills/Keen_Eye_Rune_Stones.md,118,https://en.uesp.net/wiki/Online:Keen_Eye:_Rune_Stones
+Online:Intimidating Presence,skills/Intimidating_Presence.md,127,https://en.uesp.net/wiki/Online:Intimidating_Presence
+Online:Juggernaut,skills/Juggernaut.md,124,https://en.uesp.net/wiki/Online:Juggernaut
+Online:Improved Sneak,skills/Improved_Sneak.md,123,https://en.uesp.net/wiki/Online:Improved_Sneak
+Online:Implosion,skills/Implosion.md,264,https://en.uesp.net/wiki/Online:Implosion
+Online:Heavy Weapons,skills/Heavy_Weapons.md,479,https://en.uesp.net/wiki/Online:Heavy_Weapons
+Online:Inner Fire,skills/Inner_Fire.md,1244,https://en.uesp.net/wiki/Online:Inner_Fire
+Online:Keen Eye: Wood,skills/Keen_Eye_Wood.md,89,https://en.uesp.net/wiki/Online:Keen_Eye:_Wood
+Online:Improved Hiding,skills/Improved_Hiding.md,70,https://en.uesp.net/wiki/Online:Improved_Hiding
+Online:Kickback,skills/Kickback.md,204,https://en.uesp.net/wiki/Online:Kickback
+Online:Hireling (Enchanting),skills/Hireling_Enchanting.md,180,https://en.uesp.net/wiki/Online:Hireling_(Enchanting)
+Online:Hireling (Provisioning),skills/Hireling_Provisioning.md,185,https://en.uesp.net/wiki/Online:Hireling_(Provisioning)
+Online:Hunter's Eye,skills/Hunter_s_Eye.md,470,https://en.uesp.net/wiki/Online:Hunter's_Eye
+Online:Imperial Mettle,skills/Imperial_Mettle.md,93,https://en.uesp.net/wiki/Online:Imperial_Mettle
+Online:Hircine's Bounty,skills/Hircine_s_Bounty.md,1210,https://en.uesp.net/wiki/Online:Hircine's_Bounty
+Online:Infectious Claws,skills/Infectious_Claws.md,1195,https://en.uesp.net/wiki/Online:Infectious_Claws
+Online:Impaling Shards,skills/Impaling_Shards.md,715,https://en.uesp.net/wiki/Online:Impaling_Shards
+Online:Icy Aura,skills/Icy_Aura.md,216,https://en.uesp.net/wiki/Online:Icy_Aura
+Online:Keen Eye: Jewelry,skills/Keen_Eye_Jewelry.md,94,https://en.uesp.net/wiki/Online:Keen_Eye:_Jewelry
+Online:Jewelry Extraction,skills/Jewelry_Extraction.md,101,https://en.uesp.net/wiki/Online:Jewelry_Extraction
+Online:Imbue Weapon,skills/Imbue_Weapon.md,717,https://en.uesp.net/wiki/Online:Imbue_Weapon
+Online:Keen Eye: Dig Sites,skills/Keen_Eye_Dig_Sites.md,95,https://en.uesp.net/wiki/Online:Keen_Eye:_Dig_Sites
+Online:Keen Eye: Treasure Chests,skills/Keen_Eye_Treasure_Chests.md,107,https://en.uesp.net/wiki/Online:Keen_Eye:_Treasure_Chests
+Online:Impeccable Shot,skills/Impeccable_Shot.md,104,https://en.uesp.net/wiki/Online:Impeccable_Shot
+Online:Holy Ground,skills/Holy_Ground.md,108,https://en.uesp.net/wiki/Online:Holy_Ground
+Online:Hurricane Visage,skills/Hurricane_Visage.md,92,https://en.uesp.net/wiki/Online:Hurricane_Visage
+Online:Infest,skills/Infest.md,103,https://en.uesp.net/wiki/Online:Infest
+Online:The Imperfect Ring,skills/The_Imperfect_Ring.md,480,https://en.uesp.net/wiki/Online:The_Imperfect_Ring
+Online:Implacable Outcome,skills/Implacable_Outcome.md,60,https://en.uesp.net/wiki/Online:Implacable_Outcome
+Online:Hideous Clarity,skills/Hideous_Clarity.md,69,https://en.uesp.net/wiki/Online:Hideous_Clarity
+Online:Intricate Runeforms,skills/Intricate_Runeforms.md,60,https://en.uesp.net/wiki/Online:Intricate_Runeforms
+Online:Igneous Armor,skills/Igneous_Armor.md,106,https://en.uesp.net/wiki/Online:Igneous_Armor
+Online:Internal Conflict,skills/Internal_Conflict.md,79,https://en.uesp.net/wiki/Online:Internal_Conflict
+Online:Inexorable Descent,skills/Inexorable_Descent.md,99,https://en.uesp.net/wiki/Online:Inexorable_Descent
+Online:Ink-Scribe's Verve,skills/Ink-Scribe_s_Verve.md,115,https://en.uesp.net/wiki/Online:Ink-Scribe's_Verve
+Online:Insatiable Hunger,skills/Insatiable_Hunger.md,276,https://en.uesp.net/wiki/Online:Insatiable_Hunger
+Online:Judgment's Brand,skills/Judgment_s_Brand.md,99,https://en.uesp.net/wiki/Online:Judgment's_Brand
+Online:Medicinal Use,skills/Medicinal_Use.md,162,https://en.uesp.net/wiki/Online:Medicinal_Use
+Online:Laboratory Use,skills/Laboratory_Use.md,471,https://en.uesp.net/wiki/Online:Laboratory_Use
+Online:Lava Whip,skills/Lava_Whip.md,1789,https://en.uesp.net/wiki/Online:Lava_Whip
+Online:Life Mender,skills/Life_Mender.md,219,https://en.uesp.net/wiki/Online:Life_Mender
+Online:Master Assassin,skills/Master_Assassin.md,364,https://en.uesp.net/wiki/Online:Master_Assassin
+Online:Mark Target,skills/Mark_Target.md,835,https://en.uesp.net/wiki/Online:Mark_Target
+Online:Magma Armor,skills/Magma_Armor.md,770,https://en.uesp.net/wiki/Online:Magma_Armor
+Online:Mage Adept,skills/Mage_Adept.md,68,https://en.uesp.net/wiki/Online:Mage_Adept
+Online:Magicka Controller,skills/Magicka_Controller.md,129,https://en.uesp.net/wiki/Online:Magicka_Controller
+Online:Magelight,skills/Magelight.md,1151,https://en.uesp.net/wiki/Online:Magelight
+Online:Low Slash,skills/Low_Slash.md,617,https://en.uesp.net/wiki/Online:Low_Slash
+Online:Mending,skills/Mending.md,224,https://en.uesp.net/wiki/Online:Mending
+Online:Light Weaver,skills/Light_Weaver.md,391,https://en.uesp.net/wiki/Online:Light_Weaver
+Online:Master Ritualist,skills/Master_Ritualist.md,164,https://en.uesp.net/wiki/Online:Master_Ritualist
+Online:Magicka Flood,skills/Magicka_Flood.md,119,https://en.uesp.net/wiki/Online:Magicka_Flood
+Online:Malevolent Offering,skills/Malevolent_Offering.md,881,https://en.uesp.net/wiki/Online:Malevolent_Offering
+Online:Mages' Fury,skills/Mages_Fury.md,1160,https://en.uesp.net/wiki/Online:Mages'_Fury
+Online:Lightning Form,skills/Lightning_Form.md,1312,https://en.uesp.net/wiki/Online:Lightning_Form
+Online:Lightning Splash,skills/Lightning_Splash.md,1187,https://en.uesp.net/wiki/Online:Lightning_Splash
+Online:Magicka Aid,skills/Magicka_Aid.md,128,https://en.uesp.net/wiki/Online:Magicka_Aid
+Online:Lumberjack Hireling,skills/Lumberjack_Hireling.md,184,https://en.uesp.net/wiki/Online:Lumberjack_Hireling
+Online:Long Shots,skills/Long_Shots.md,402,https://en.uesp.net/wiki/Online:Long_Shots
+Online:Light Fingers,skills/Light_Fingers.md,293,https://en.uesp.net/wiki/Online:Light_Fingers
+Online:Locksmith,skills/Locksmith.md,190,https://en.uesp.net/wiki/Online:Locksmith
+Online:Magicka Mastery,skills/Magicka_Mastery.md,190,https://en.uesp.net/wiki/Online:Magicka_Mastery
+Online:Magicka Detonation,skills/Magicka_Detonation.md,979,https://en.uesp.net/wiki/Online:Magicka_Detonation
+Online:Martial Training,skills/Martial_Training.md,200,https://en.uesp.net/wiki/Online:Martial_Training
+Online:Lacerate,skills/Lacerate.md,644,https://en.uesp.net/wiki/Online:Lacerate
+Online:Living Vines,skills/Living_Vines.md,347,https://en.uesp.net/wiki/Online:Living_Vines
+Online:Lotus Flower,skills/Lotus_Flower.md,543,https://en.uesp.net/wiki/Online:Lotus_Flower
+Online:Maturation,skills/Maturation.md,151,https://en.uesp.net/wiki/Online:Maturation
+Online:Lapidary Research,skills/Lapidary_Research.md,690,https://en.uesp.net/wiki/Online:Lapidary_Research
+Online:Meditate,skills/Meditate.md,306,https://en.uesp.net/wiki/Online:Meditate
+Online:Mend Wounds,skills/Mend_Wounds.md,813,https://en.uesp.net/wiki/Online:Mend_Wounds
+Online:Lunar Blessings,skills/Lunar_Blessings.md,142,https://en.uesp.net/wiki/Online:Lunar_Blessings
+Online:Life amid Death,skills/Life_amid_Death.md,331,https://en.uesp.net/wiki/Online:Life_amid_Death
+Online:Last Gasp,skills/Last_Gasp.md,48,https://en.uesp.net/wiki/Online:Last_Gasp
+Online:Malacath's Vengeance,skills/Malacath_s_Vengeance.md,113,https://en.uesp.net/wiki/Online:Malacath's_Vengeance
+Online:Light Armor Bonuses,skills/Light_Armor_Bonuses.md,60,https://en.uesp.net/wiki/Online:Light_Armor_Bonuses
+Online:Light Armor Penalties,skills/Light_Armor_Penalties.md,42,https://en.uesp.net/wiki/Online:Light_Armor_Penalties
+Online:Medium Armor Bonuses,skills/Medium_Armor_Bonuses.md,125,https://en.uesp.net/wiki/Online:Medium_Armor_Bonuses
+Online:Masque of Torment,skills/Masque_of_Torment.md,77,https://en.uesp.net/wiki/Online:Masque_of_Torment
+Online:Life Absorption,skills/Life_Absorption.md,82,https://en.uesp.net/wiki/Online:Life_Absorption
+Online:Life Siphon,skills/Life_Siphon.md,84,https://en.uesp.net/wiki/Online:Life_Siphon
+Online:Kindle,skills/Kindle.md,88,https://en.uesp.net/wiki/Online:Kindle
+Online:Mender's Bond,skills/Mender_s_Bond.md,811,https://en.uesp.net/wiki/Online:Mender's_Bond
+Online:Landslide,skills/Landslide.md,156,https://en.uesp.net/wiki/Online:Landslide
+Online:Lead from the Front,skills/Lead_from_the_Front.md,120,https://en.uesp.net/wiki/Online:Lead_from_the_Front
+Online:Malevolent Promise,skills/Malevolent_Promise.md,199,https://en.uesp.net/wiki/Online:Malevolent_Promise
+Online:Master of the Chase,skills/Master_of_the_Chase.md,133,https://en.uesp.net/wiki/Online:Master_of_the_Chase
+Online:Piercing Spear,skills/Piercing_Spear.md,199,https://en.uesp.net/wiki/Online:Piercing_Spear
+Online:Piercing Javelin,skills/Piercing_Javelin.md,932,https://en.uesp.net/wiki/Online:Piercing_Javelin
+Online:Metalworking,skills/Metalworking.md,317,https://en.uesp.net/wiki/Online:Metalworking
+Online:Miner Hireling,skills/Miner_Hireling.md,187,https://en.uesp.net/wiki/Online:Miner_Hireling
+Online:Metal Extraction,skills/Metal_Extraction.md,96,https://en.uesp.net/wiki/Online:Metal_Extraction
+Online:Metallurgy,skills/Metallurgy.md,646,https://en.uesp.net/wiki/Online:Metallurgy
+Online:Outfitter Hireling,skills/Outfitter_Hireling.md,214,https://en.uesp.net/wiki/Online:Outfitter_Hireling
+Online:Persistence,skills/Persistence.md,94,https://en.uesp.net/wiki/Online:Persistence
+Online:Negate Magic,skills/Negate_Magic.md,1270,https://en.uesp.net/wiki/Online:Negate_Magic
+Online:Nova,skills/Nova.md,1179,https://en.uesp.net/wiki/Online:Nova
+Online:Penetrating Magic,skills/Penetrating_Magic.md,113,https://en.uesp.net/wiki/Online:Penetrating_Magic
+Online:Mountain's Blessing,skills/Mountain_s_Blessing.md,232,https://en.uesp.net/wiki/Online:Mountain's_Blessing
+Online:Molten Weapons,skills/Molten_Weapons.md,1114,https://en.uesp.net/wiki/Online:Molten_Weapons
+Online:Obsidian Shield,skills/Obsidian_Shield.md,958,https://en.uesp.net/wiki/Online:Obsidian_Shield
+Online:Petrify,skills/Petrify.md,928,https://en.uesp.net/wiki/Online:Petrify
+Online:Potency Improvement,skills/Potency_Improvement.md,262,https://en.uesp.net/wiki/Online:Potency_Improvement
+Online:Persuasive Will,skills/Persuasive_Will.md,61,https://en.uesp.net/wiki/Online:Persuasive_Will
+Online:Might of the Guild,skills/Might_of_the_Guild.md,177,https://en.uesp.net/wiki/Online:Might_of_the_Guild
+Online:Meteor,skills/Meteor.md,863,https://en.uesp.net/wiki/Online:Meteor
+Online:Path of Darkness,skills/Path_of_Darkness.md,1333,https://en.uesp.net/wiki/Online:Path_of_Darkness
+Online:Overload,skills/Overload.md,1422,https://en.uesp.net/wiki/Online:Overload
+Online:Momentum,skills/Momentum.md,911,https://en.uesp.net/wiki/Online:Momentum
+Online:Necrotic Orb,skills/Necrotic_Orb.md,1871,https://en.uesp.net/wiki/Online:Necrotic_Orb
+Online:Mist Form,skills/Mist_Form.md,1646,https://en.uesp.net/wiki/Online:Mist_Form
+Online:Poison Arrow,skills/Poison_Arrow.md,1068,https://en.uesp.net/wiki/Online:Poison_Arrow
+Online:Opportunist,skills/Opportunist.md,124,https://en.uesp.net/wiki/Online:Opportunist
+Online:Padomaic Sprint,skills/Padomaic_Sprint.md,219,https://en.uesp.net/wiki/Online:Padomaic_Sprint
+Online:Piercing Howl,skills/Piercing_Howl.md,1261,https://en.uesp.net/wiki/Online:Piercing_Howl
+Online:Panacea,skills/Panacea.md,662,https://en.uesp.net/wiki/Online:Panacea
+Online:Nature's Grasp,skills/Nature_s_Grasp.md,695,https://en.uesp.net/wiki/Online:Nature's_Grasp
+Online:Nature's Gift,skills/Nature_s_Gift.md,126,https://en.uesp.net/wiki/Online:Nature's_Gift
+Online:Piercing Cold,skills/Piercing_Cold.md,576,https://en.uesp.net/wiki/Online:Piercing_Cold
+Online:Platings Expertise,skills/Platings_Expertise.md,288,https://en.uesp.net/wiki/Online:Platings_Expertise
+Online:Near-Death Experience,skills/Near-Death_Experience.md,113,https://en.uesp.net/wiki/Online:Near-Death_Experience
+Online:Pariah's Resolve,skills/Pariah_s_Resolve.md,117,https://en.uesp.net/wiki/Online:Pariah's_Resolve
+Online:Mesmerize,skills/Mesmerize.md,229,https://en.uesp.net/wiki/Online:Mesmerize
+Online:Penetrating Strikes,skills/Penetrating_Strikes.md,123,https://en.uesp.net/wiki/Online:Penetrating_Strikes
+Online:Perennial Bloom,skills/Perennial_Bloom.md,95,https://en.uesp.net/wiki/Online:Perennial_Bloom
+Online:Petals of the Hunter,skills/Petals_of_the_Hunter.md,97,https://en.uesp.net/wiki/Online:Petals_of_the_Hunter
+Online:On Guard (Companion),skills/On_Guard_Companion.md,84,https://en.uesp.net/wiki/Online:On_Guard_(Companion)
+Online:Piercing Arrow,skills/Piercing_Arrow.md,76,https://en.uesp.net/wiki/Online:Piercing_Arrow
+Online:Mending Incantation,skills/Mending_Incantation.md,97,https://en.uesp.net/wiki/Online:Mending_Incantation
+Online:Mystic Fortress,skills/Mystic_Fortress.md,99,https://en.uesp.net/wiki/Online:Mystic_Fortress
+Online:Parallel,skills/Parallel.md,67,https://en.uesp.net/wiki/Online:Parallel
+Online:Perigean Armor,skills/Perigean_Armor.md,120,https://en.uesp.net/wiki/Online:Perigean_Armor
+Online:Penance of Lorkhaj,skills/Penance_of_Lorkhaj.md,109,https://en.uesp.net/wiki/Online:Penance_of_Lorkhaj
+Online:Mountain Giant,skills/Mountain_Giant.md,83,https://en.uesp.net/wiki/Online:Mountain_Giant
+Online:Nocturnal Inspiration,skills/Nocturnal_Inspiration.md,104,https://en.uesp.net/wiki/Online:Nocturnal_Inspiration
+Online:Nothing Wasted,skills/Nothing_Wasted.md,202,https://en.uesp.net/wiki/Online:Nothing_Wasted
+Online:Radial Sweep,skills/Radial_Sweep.md,1003,https://en.uesp.net/wiki/Online:Radial_Sweep
+Online:Puncturing Strikes,skills/Puncturing_Strikes.md,1778,https://en.uesp.net/wiki/Online:Puncturing_Strikes
+Online:Resourceful,skills/Resourceful.md,416,https://en.uesp.net/wiki/Online:Resourceful
+Online:Pressure Points,skills/Pressure_Points.md,157,https://en.uesp.net/wiki/Online:Pressure_Points
+Online:Reach,skills/Reach.md,136,https://en.uesp.net/wiki/Online:Reach
+Online:Rapid Maneuver,skills/Rapid_Maneuver.md,1201,https://en.uesp.net/wiki/Online:Rapid_Maneuver
+Online:Rebate,skills/Rebate.md,328,https://en.uesp.net/wiki/Online:Rebate
+Online:Power Stone,skills/Power_Stone.md,41,https://en.uesp.net/wiki/Online:Power_Stone
+Online:Prism,skills/Prism.md,124,https://en.uesp.net/wiki/Online:Prism
+Online:Restoring Spirit,skills/Restoring_Spirit.md,63,https://en.uesp.net/wiki/Online:Restoring_Spirit
+Online:Resolve,skills/Resolve.md,146,https://en.uesp.net/wiki/Online:Resolve
+Online:Rapid Mending,skills/Rapid_Mending.md,317,https://en.uesp.net/wiki/Online:Rapid_Mending
+Online:Recovery,skills/Recovery.md,279,https://en.uesp.net/wiki/Online:Recovery
+Online:Prodigy,skills/Prodigy.md,234,https://en.uesp.net/wiki/Online:Prodigy
+Online:Puncture,skills/Puncture.md,534,https://en.uesp.net/wiki/Online:Puncture
+Online:Power Bash,skills/Power_Bash.md,922,https://en.uesp.net/wiki/Online:Power_Bash
+Online:Recipe Quality,skills/Recipe_Quality.md,88,https://en.uesp.net/wiki/Online:Recipe_Quality
+Online:Recipe Improvement,skills/Recipe_Improvement.md,153,https://en.uesp.net/wiki/Online:Recipe_Improvement
+Online:Restoration Expert,skills/Restoration_Expert.md,66,https://en.uesp.net/wiki/Online:Restoration_Expert
+Online:Restoration Master,skills/Restoration_Master.md,64,https://en.uesp.net/wiki/Online:Restoration_Master
+Online:Regeneration,skills/Regeneration.md,503,https://en.uesp.net/wiki/Online:Regeneration
+Online:Restoring Aura,skills/Restoring_Aura.md,831,https://en.uesp.net/wiki/Online:Restoring_Aura
+Online:Refreshing Shadows,skills/Refreshing_Shadows.md,90,https://en.uesp.net/wiki/Online:Refreshing_Shadows
+Online:Purge,skills/Purge.md,618,https://en.uesp.net/wiki/Online:Purge
+Online:Resin Expertise,skills/Resin_Expertise.md,168,https://en.uesp.net/wiki/Online:Resin_Expertise
+Online:Radiant Destruction,skills/Radiant_Destruction.md,1261,https://en.uesp.net/wiki/Online:Radiant_Destruction
+Online:Ranger,skills/Ranger.md,44,https://en.uesp.net/wiki/Online:Ranger
+Online:Pursuit,skills/Pursuit.md,295,https://en.uesp.net/wiki/Online:Pursuit
+Online:Pounce,skills/Pounce.md,1678,https://en.uesp.net/wiki/Online:Pounce
+Online:Resist Affliction,skills/Resist_Affliction.md,197,https://en.uesp.net/wiki/Online:Resist_Affliction
+Online:Resist Flame,skills/Resist_Flame.md,138,https://en.uesp.net/wiki/Online:Resist_Flame
+Online:Red Diamond,skills/Red_Diamond.md,270,https://en.uesp.net/wiki/Online:Red_Diamond
+Online:Resist Frost,skills/Resist_Frost.md,190,https://en.uesp.net/wiki/Online:Resist_Frost
+Online:Rapid Fire,skills/Rapid_Fire.md,825,https://en.uesp.net/wiki/Online:Rapid_Fire
+Online:Render Flesh,skills/Render_Flesh.md,344,https://en.uesp.net/wiki/Online:Render_Flesh
+Online:Restoring Tether,skills/Restoring_Tether.md,655,https://en.uesp.net/wiki/Online:Restoring_Tether
+Online:Reanimate,skills/Reanimate.md,338,https://en.uesp.net/wiki/Online:Reanimate
+Online:Rapid Rot,skills/Rapid_Rot.md,81,https://en.uesp.net/wiki/Online:Rapid_Rot
+Online:Protective Scale,skills/Protective_Scale.md,753,https://en.uesp.net/wiki/Online:Protective_Scale
+Online:Preemptive Power,skills/Preemptive_Power.md,23,https://en.uesp.net/wiki/Online:Preemptive_Power
+Online:Raging Storm,skills/Raging_Storm.md,99,https://en.uesp.net/wiki/Online:Raging_Storm
+Online:Quick Fix,skills/Quick_Fix.md,85,https://en.uesp.net/wiki/Online:Quick_Fix
+Online:Provoke,skills/Provoke.md,92,https://en.uesp.net/wiki/Online:Provoke
+Online:Razor Cape,skills/Razor_Cape.md,100,https://en.uesp.net/wiki/Online:Razor_Cape
+Online:Rejuvenation (Companion),skills/Rejuvenation_Companion.md,80,https://en.uesp.net/wiki/Online:Rejuvenation_(Companion)
+Online:Psychic Lesion,skills/Psychic_Lesion.md,106,https://en.uesp.net/wiki/Online:Psychic_Lesion
+Online:Remedy Cascade,skills/Remedy_Cascade.md,368,https://en.uesp.net/wiki/Online:Remedy_Cascade
+Online:Pound of Flesh,skills/Pound_of_Flesh.md,178,https://en.uesp.net/wiki/Online:Pound_of_Flesh
+Online:Rending Claws,skills/Rending_Claws.md,995,https://en.uesp.net/wiki/Online:Rending_Claws
+Online:Resolute Defense,skills/Resolute_Defense.md,130,https://en.uesp.net/wiki/Online:Resolute_Defense
+Online:Searing Heat,skills/Searing_Heat.md,395,https://en.uesp.net/wiki/Online:Searing_Heat
+Online:Searing Strike,skills/Searing_Strike.md,1135,https://en.uesp.net/wiki/Online:Searing_Strike
+Online:Rune Prison,skills/Rune_Prison.md,983,https://en.uesp.net/wiki/Online:Rune_Prison
+Online:Scaled Armor,skills/Scaled_Armor.md,309,https://en.uesp.net/wiki/Online:Scaled_Armor
+Online:Ruffian,skills/Ruffian.md,78,https://en.uesp.net/wiki/Online:Ruffian
+Online:Sacred Ground,skills/Sacred_Ground.md,507,https://en.uesp.net/wiki/Online:Sacred_Ground
+Online:Rite of Passage,skills/Rite_of_Passage.md,763,https://en.uesp.net/wiki/Online:Rite_of_Passage
+Online:Rushed Ceremony,skills/Rushed_Ceremony.md,592,https://en.uesp.net/wiki/Online:Rushed_Ceremony
+Online:Rune Focus,skills/Rune_Focus.md,1557,https://en.uesp.net/wiki/Online:Rune_Focus
+Online:Shadow Barrier,skills/Shadow_Barrier.md,428,https://en.uesp.net/wiki/Online:Shadow_Barrier
+Online:Reverse Slash,skills/Reverse_Slash.md,933,https://en.uesp.net/wiki/Online:Reverse_Slash
+Online:Savage Feeding,skills/Savage_Feeding.md,122,https://en.uesp.net/wiki/Online:Savage_Feeding
+Online:Scatter Shot,skills/Scatter_Shot.md,817,https://en.uesp.net/wiki/Online:Scatter_Shot
+Online:Savage Strength,skills/Savage_Strength.md,433,https://en.uesp.net/wiki/Online:Savage_Strength
+Online:Roar,skills/Roar.md,1616,https://en.uesp.net/wiki/Online:Roar
+Online:Runestone Extraction,skills/Runestone_Extraction.md,61,https://en.uesp.net/wiki/Online:Runestone_Extraction
+Online:Ruination (skill),skills/Ruination_skill.md,309,https://en.uesp.net/wiki/Online:Ruination_(skill)
+Online:Robustness,skills/Robustness.md,229,https://en.uesp.net/wiki/Online:Robustness
+Online:Reveler,skills/Reveler.md,130,https://en.uesp.net/wiki/Online:Reveler
+Online:Rugged,skills/Rugged.md,282,https://en.uesp.net/wiki/Online:Rugged
+Online:Revealing Flare,skills/Revealing_Flare.md,667,https://en.uesp.net/wiki/Online:Revealing_Flare
+Online:Scales of Pitiless Justice,skills/Scales_of_Pitiless_Justice.md,137,https://en.uesp.net/wiki/Online:Scales_of_Pitiless_Justice
+Online:Scorch,skills/Scorch.md,1059,https://en.uesp.net/wiki/Online:Scorch
+Online:Savage Beast,skills/Savage_Beast.md,87,https://en.uesp.net/wiki/Online:Savage_Beast
+Online:Secluded Grove,skills/Secluded_Grove.md,430,https://en.uesp.net/wiki/Online:Secluded_Grove
+Online:Revitalize,skills/Revitalize.md,191,https://en.uesp.net/wiki/Online:Revitalize
+Online:See the Unseen,skills/See_the_Unseen.md,318,https://en.uesp.net/wiki/Online:See_the_Unseen
+Online:Reusable Parts,skills/Reusable_Parts.md,172,https://en.uesp.net/wiki/Online:Reusable_Parts
+Online:Ruinous Cyclone,skills/Ruinous_Cyclone.md,140,https://en.uesp.net/wiki/Online:Ruinous_Cyclone
+Online:Rourken's Rebuke,skills/Rourken_s_Rebuke.md,102,https://en.uesp.net/wiki/Online:Rourken's_Rebuke
+Online:Sanguine's Rose,skills/Sanguine_s_Rose.md,362,https://en.uesp.net/wiki/Online:Sanguine's_Rose
+Online:Scrier's Patience,skills/Scrier_s_Patience.md,26,https://en.uesp.net/wiki/Online:Scrier's_Patience
+Online:Scry,skills/Scry.md,137,https://en.uesp.net/wiki/Online:Scry
+Online:Scorching Strike,skills/Scorching_Strike.md,82,https://en.uesp.net/wiki/Online:Scorching_Strike
+Online:Searing Weapons,skills/Searing_Weapons.md,89,https://en.uesp.net/wiki/Online:Searing_Weapons
+Online:Second Wind,skills/Second_Wind.md,76,https://en.uesp.net/wiki/Online:Second_Wind
+Online:Scathing Rune,skills/Scathing_Rune.md,95,https://en.uesp.net/wiki/Online:Scathing_Rune
+Online:Sever,skills/Sever.md,79,https://en.uesp.net/wiki/Online:Sever
+Online:Ritual of Salvation,skills/Ritual_of_Salvation.md,116,https://en.uesp.net/wiki/Online:Ritual_of_Salvation
+Online:Reverse Entropy,skills/Reverse_Entropy.md,79,https://en.uesp.net/wiki/Online:Reverse_Entropy
+Online:Savage Instinct,skills/Savage_Instinct.md,120,https://en.uesp.net/wiki/Online:Savage_Instinct
+Online:Runeblades,skills/Runeblades.md,363,https://en.uesp.net/wiki/Online:Runeblades
+Online:Runic Jolt,skills/Runic_Jolt.md,274,https://en.uesp.net/wiki/Online:Runic_Jolt
+Online:Runespite Ward,skills/Runespite_Ward.md,416,https://en.uesp.net/wiki/Online:Runespite_Ward
+Online:Runic Defense,skills/Runic_Defense.md,436,https://en.uesp.net/wiki/Online:Runic_Defense
+Online:Rune of Eldritch Horror,skills/Rune_of_Eldritch_Horror.md,273,https://en.uesp.net/wiki/Online:Rune_of_Eldritch_Horror
+Online:Runemend,skills/Runemend.md,334,https://en.uesp.net/wiki/Online:Runemend
+Online:Sacrificial Bones,skills/Sacrificial_Bones.md,1263,https://en.uesp.net/wiki/Online:Sacrificial_Bones
+Online:Ruinous Outburst,skills/Ruinous_Outburst.md,110,https://en.uesp.net/wiki/Online:Ruinous_Outburst
+Online:Sepulchral Chill,skills/Sepulchral_Chill.md,102,https://en.uesp.net/wiki/Online:Sepulchral_Chill
+Online:Skyshards,skills/Skyshards.md,474,https://en.uesp.net/wiki/Online:Skyshards
+Online:Soul Trap,skills/Soul_Trap.md,918,https://en.uesp.net/wiki/Online:Soul_Trap
+Online:Spear Wall,skills/Spear_Wall.md,183,https://en.uesp.net/wiki/Online:Spear_Wall
+Online:Spear Shards,skills/Spear_Shards.md,2174,https://en.uesp.net/wiki/Online:Spear_Shards
+Online:Snakeblood,skills/Snakeblood.md,175,https://en.uesp.net/wiki/Online:Snakeblood
+Online:Solar Flare,skills/Solar_Flare.md,1306,https://en.uesp.net/wiki/Online:Solar_Flare
+Online:Slaughter,skills/Slaughter.md,59,https://en.uesp.net/wiki/Online:Slaughter
+Online:Slayer,skills/Slayer.md,346,https://en.uesp.net/wiki/Online:Slayer
+Online:Skilled Tracker,skills/Skilled_Tracker.md,272,https://en.uesp.net/wiki/Online:Skilled_Tracker
+Online:Silver Bolts,skills/Silver_Bolts.md,1317,https://en.uesp.net/wiki/Online:Silver_Bolts
+Online:Shield Charge,skills/Shield_Charge.md,580,https://en.uesp.net/wiki/Online:Shield_Charge
+Online:Shadow Cloak,skills/Shadow_Cloak.md,2403,https://en.uesp.net/wiki/Online:Shadow_Cloak
+Online:Soul Siphoner,skills/Soul_Siphoner.md,103,https://en.uesp.net/wiki/Online:Soul_Siphoner
+Online:Soul Shred,skills/Soul_Shred.md,1009,https://en.uesp.net/wiki/Online:Soul_Shred
+Online:Siphoning Strikes,skills/Siphoning_Strikes.md,1358,https://en.uesp.net/wiki/Online:Siphoning_Strikes
+Online:Soul Summons,skills/Soul_Summons.md,98,https://en.uesp.net/wiki/Online:Soul_Summons
+Online:Soul Shatter,skills/Soul_Shatter.md,178,https://en.uesp.net/wiki/Online:Soul_Shatter
+Online:Soul Lock,skills/Soul_Lock.md,162,https://en.uesp.net/wiki/Online:Soul_Lock
+Online:Soul Strike,skills/Soul_Strike.md,836,https://en.uesp.net/wiki/Online:Soul_Strike
+Online:Siege Shield,skills/Siege_Shield.md,503,https://en.uesp.net/wiki/Online:Siege_Shield
+Online:Snipe,skills/Snipe.md,848,https://en.uesp.net/wiki/Online:Snipe
+Online:Solvent Proficiency,skills/Solvent_Proficiency.md,408,https://en.uesp.net/wiki/Online:Solvent_Proficiency
+Online:Shadowy Supplier,skills/Shadowy_Supplier.md,232,https://en.uesp.net/wiki/Online:Shadowy_Supplier
+Online:Shadow Rider,skills/Shadow_Rider.md,36,https://en.uesp.net/wiki/Online:Shadow_Rider
+Online:Spectral Assassin (skill),skills/Spectral_Assassin_skill.md,60,https://en.uesp.net/wiki/Online:Spectral_Assassin_(skill)
+Online:Shield Wall,skills/Shield_Wall.md,447,https://en.uesp.net/wiki/Online:Shield_Wall
+Online:Sleet Storm,skills/Sleet_Storm.md,875,https://en.uesp.net/wiki/Online:Sleet_Storm
+Online:Skeletal Mage,skills/Skeletal_Mage.md,809,https://en.uesp.net/wiki/Online:Skeletal_Mage
+Online:Shocking Siphon,skills/Shocking_Siphon.md,923,https://en.uesp.net/wiki/Online:Shocking_Siphon
+Online:Shadow Slash,skills/Shadow_Slash.md,78,https://en.uesp.net/wiki/Online:Shadow_Slash
+Online:Slayer's Blade,skills/Slayer_s_Blade.md,82,https://en.uesp.net/wiki/Online:Slayer's_Blade
+Online:Son of Kozanset,skills/Son_of_Kozanset.md,67,https://en.uesp.net/wiki/Online:Son_of_Kozanset
+Online:Solar Ward,skills/Solar_Ward.md,95,https://en.uesp.net/wiki/Online:Solar_Ward
+Online:Spear of Light,skills/Spear_of_Light.md,104,https://en.uesp.net/wiki/Online:Spear_of_Light
+Online:Shocking Burst,skills/Shocking_Burst.md,98,https://en.uesp.net/wiki/Online:Shocking_Burst
+Online:Shared Wards,skills/Shared_Wards.md,103,https://en.uesp.net/wiki/Online:Shared_Wards
+Online:Shields of Erudition,skills/Shields_of_Erudition.md,90,https://en.uesp.net/wiki/Online:Shields_of_Erudition
+Online:Sleetmail,skills/Sleetmail.md,85,https://en.uesp.net/wiki/Online:Sleetmail
+Online:Snow Squall,skills/Snow_Squall.md,98,https://en.uesp.net/wiki/Online:Snow_Squall
+Online:Sniping Silver,skills/Sniping_Silver.md,93,https://en.uesp.net/wiki/Online:Sniping_Silver
+Online:Skeletal Aegis,skills/Skeletal_Aegis.md,110,https://en.uesp.net/wiki/Online:Skeletal_Aegis
+Online:Shield Throw,skills/Shield_Throw.md,694,https://en.uesp.net/wiki/Online:Shield_Throw
+Online:Smash,skills/Smash.md,734,https://en.uesp.net/wiki/Online:Smash
+Online:Soul Burst,skills/Soul_Burst.md,805,https://en.uesp.net/wiki/Online:Soul_Burst
+Online:Shattered Spirit,skills/Shattered_Spirit.md,100,https://en.uesp.net/wiki/Online:Shattered_Spirit
+Online:A Soul Ablaze,skills/A_Soul_Ablaze.md,45,https://en.uesp.net/wiki/Online:A_Soul_Ablaze
+Online:Shadow of the Bloodmoon,skills/Shadow_of_the_Bloodmoon.md,109,https://en.uesp.net/wiki/Online:Shadow_of_the_Bloodmoon
+Online:Share the Spoils,skills/Share_the_Spoils.md,109,https://en.uesp.net/wiki/Online:Share_the_Spoils
+Online:Sun Shield,skills/Sun_Shield.md,1244,https://en.uesp.net/wiki/Online:Sun_Shield
+Online:Spell Recharge,skills/Spell_Recharge.md,401,https://en.uesp.net/wiki/Online:Spell_Recharge
+Online:Teleport Strike,skills/Teleport_Strike.md,1233,https://en.uesp.net/wiki/Online:Teleport_Strike
+Online:Temper Expertise,skills/Temper_Expertise.md,172,https://en.uesp.net/wiki/Online:Temper_Expertise
+Online:Tailoring,skills/Tailoring.md,500,https://en.uesp.net/wiki/Online:Tailoring
+Online:Stitching,skills/Stitching.md,650,https://en.uesp.net/wiki/Online:Stitching
+Online:Tannin Expertise,skills/Tannin_Expertise.md,183,https://en.uesp.net/wiki/Online:Tannin_Expertise
+Online:Summon Storm Atronach,skills/Summon_Storm_Atronach.md,1280,https://en.uesp.net/wiki/Online:Summon_Storm_Atronach
+Online:Summon Unstable Familiar,skills/Summon_Unstable_Familiar.md,2174,https://en.uesp.net/wiki/Online:Summon_Unstable_Familiar
+Online:Summon Winged Twilight,skills/Summon_Winged_Twilight.md,1510,https://en.uesp.net/wiki/Online:Summon_Winged_Twilight
+Online:Sun Fire,skills/Sun_Fire.md,833,https://en.uesp.net/wiki/Online:Sun_Fire
+Online:Spiked Armor,skills/Spiked_Armor.md,787,https://en.uesp.net/wiki/Online:Spiked_Armor
+Online:Stonefist,skills/Stonefist.md,1297,https://en.uesp.net/wiki/Online:Stonefist
+Online:Spell Warding,skills/Spell_Warding.md,72,https://en.uesp.net/wiki/Online:Spell_Warding
+Online:Sword and Board,skills/Sword_and_Board.md,125,https://en.uesp.net/wiki/Online:Sword_and_Board
+Online:Steadfast Ward,skills/Steadfast_Ward.md,721,https://en.uesp.net/wiki/Online:Steadfast_Ward
+Online:Summon Shade,skills/Summon_Shade.md,1892,https://en.uesp.net/wiki/Online:Summon_Shade
+Online:Strife,skills/Strife.md,883,https://en.uesp.net/wiki/Online:Strife
+Online:Surge,skills/Surge.md,563,https://en.uesp.net/wiki/Online:Surge
+Online:Supernatural Recovery,skills/Supernatural_Recovery.md,108,https://en.uesp.net/wiki/Online:Supernatural_Recovery
+Online:Syrabane's Boon,skills/Syrabane_s_Boon.md,102,https://en.uesp.net/wiki/Online:Syrabane's_Boon
+Online:Spell Attunement,skills/Spell_Attunement.md,232,https://en.uesp.net/wiki/Online:Spell_Attunement
+Online:Stealthy,skills/Stealthy.md,100,https://en.uesp.net/wiki/Online:Stealthy
+Online:Stalwart,skills/Stalwart.md,218,https://en.uesp.net/wiki/Online:Stalwart
+Online:Swift Warrior,skills/Swift_Warrior.md,367,https://en.uesp.net/wiki/Online:Swift_Warrior
+Online:Synergy,skills/Synergy.md,2855,https://en.uesp.net/wiki/Online:Synergy
+Online:Swiftly Forgotten,skills/Swiftly_Forgotten.md,161,https://en.uesp.net/wiki/Online:Swiftly_Forgotten
+Online:Swarm,skills/Swarm.md,784,https://en.uesp.net/wiki/Online:Swarm
+Online:Spell Orb,skills/Spell_Orb.md,306,https://en.uesp.net/wiki/Online:Spell_Orb
+Online:Spirit Mender,skills/Spirit_Mender.md,576,https://en.uesp.net/wiki/Online:Spirit_Mender
+Online:Sundering Swing,skills/Sundering_Swing.md,83,https://en.uesp.net/wiki/Online:Sundering_Swing
+Online:Strike from the Shadows,skills/Strike_from_the_Shadows.md,80,https://en.uesp.net/wiki/Online:Strike_from_the_Shadows
+Online:Survivalist,skills/Survivalist.md,65,https://en.uesp.net/wiki/Online:Survivalist
+Online:Sun Brand,skills/Sun_Brand.md,89,https://en.uesp.net/wiki/Online:Sun_Brand
+Online:Swoop,skills/Swoop.md,94,https://en.uesp.net/wiki/Online:Swoop
+Online:Staggering Swing,skills/Staggering_Swing.md,88,https://en.uesp.net/wiki/Online:Staggering_Swing
+Online:Sunder,skills/Sunder.md,86,https://en.uesp.net/wiki/Online:Sunder
+Online:Swift Assault,skills/Swift_Assault.md,81,https://en.uesp.net/wiki/Online:Swift_Assault
+Online:Spinning Steel,skills/Spinning_Steel.md,83,https://en.uesp.net/wiki/Online:Spinning_Steel
+Online:Starfall,skills/Starfall.md,76,https://en.uesp.net/wiki/Online:Starfall
+Online:Splintered Secrets,skills/Splintered_Secrets.md,95,https://en.uesp.net/wiki/Online:Splintered_Secrets
+Online:Spirited,skills/Spirited.md,66,https://en.uesp.net/wiki/Online:Spirited
+Online:Strands of the Lattice,skills/Strands_of_the_Lattice.md,129,https://en.uesp.net/wiki/Online:Strands_of_the_Lattice
+Online:Subclassing,skills/Subclassing.md,368,https://en.uesp.net/wiki/Online:Subclassing
+Online:Superheated Ward,skills/Superheated_Ward.md,1205,https://en.uesp.net/wiki/Online:Superheated_Ward
+Online:The Storm Voice,skills/The_Storm_Voice.md,195,https://en.uesp.net/wiki/Online:The_Storm_Voice
+Online:Sphere of Influence,skills/Sphere_of_Influence.md,190,https://en.uesp.net/wiki/Online:Sphere_of_Influence
+Online:Static Reverberation,skills/Static_Reverberation.md,205,https://en.uesp.net/wiki/Online:Static_Reverberation
+Online:Steadfast Candescence,skills/Steadfast_Candescence.md,104,https://en.uesp.net/wiki/Online:Steadfast_Candescence
+Online:Unraveling,skills/Unraveling.md,95,https://en.uesp.net/wiki/Online:Unraveling
+Online:Unholy Knowledge,skills/Unholy_Knowledge.md,81,https://en.uesp.net/wiki/Online:Unholy_Knowledge
+Online:Tri Focus,skills/Tri_Focus.md,1021,https://en.uesp.net/wiki/Online:Tri_Focus
+Online:Twin Blade and Blunt,skills/Twin_Blade_and_Blunt.md,759,https://en.uesp.net/wiki/Online:Twin_Blade_and_Blunt
+Online:Twin Slashes,skills/Twin_Slashes.md,825,https://en.uesp.net/wiki/Online:Twin_Slashes
+Online:Trap Beast,skills/Trap_Beast.md,1409,https://en.uesp.net/wiki/Online:Trap_Beast
+Online:Unstoppable (skill),skills/Unstoppable_skill.md,1250,https://en.uesp.net/wiki/Online:Unstoppable_(skill)
+Online:Veiled Strike,skills/Veiled_Strike.md,1443,https://en.uesp.net/wiki/Online:Veiled_Strike
+Online:Transfer,skills/Transfer.md,111,https://en.uesp.net/wiki/Online:Transfer
+Online:Uppercut,skills/Uppercut.md,945,https://en.uesp.net/wiki/Online:Uppercut
+Online:Trapping Webs,skills/Trapping_Webs.md,1221,https://en.uesp.net/wiki/Online:Trapping_Webs
+Online:Undeath,skills/Undeath.md,151,https://en.uesp.net/wiki/Online:Undeath
+Online:Unnatural Resistance,skills/Unnatural_Resistance.md,113,https://en.uesp.net/wiki/Online:Unnatural_Resistance
+Online:Trafficker,skills/Trafficker.md,122,https://en.uesp.net/wiki/Online:Trafficker
+Online:Tough,skills/Tough.md,84,https://en.uesp.net/wiki/Online:Tough
+Online:Unflinching Rage,skills/Unflinching_Rage.md,316,https://en.uesp.net/wiki/Online:Unflinching_Rage
+Online:Undaunted Command,skills/Undaunted_Command.md,123,https://en.uesp.net/wiki/Online:Undaunted_Command
+Online:Undaunted Mettle,skills/Undaunted_Mettle.md,216,https://en.uesp.net/wiki/Online:Undaunted_Mettle
+Online:Timely Escape,skills/Timely_Escape.md,104,https://en.uesp.net/wiki/Online:Timely_Escape
+Online:Veil of Shadows,skills/Veil_of_Shadows.md,91,https://en.uesp.net/wiki/Online:Veil_of_Shadows
+Online:Undo,skills/Undo.md,610,https://en.uesp.net/wiki/Online:Undo
+Online:Time Stop,skills/Time_Stop.md,525,https://en.uesp.net/wiki/Online:Time_Stop
+Online:Undead Confederate,skills/Undead_Confederate.md,105,https://en.uesp.net/wiki/Online:Undead_Confederate
+Online:Vampiric Drain,skills/Vampiric_Drain.md,288,https://en.uesp.net/wiki/Online:Vampiric_Drain
+Online:Trowel,skills/Trowel.md,273,https://en.uesp.net/wiki/Online:Trowel
+Online:Unnatural Movement,skills/Unnatural_Movement.md,134,https://en.uesp.net/wiki/Online:Unnatural_Movement
+Online:Vanish,skills/Vanish.md,90,https://en.uesp.net/wiki/Online:Vanish
+Online:Twilight Mantle,skills/Twilight_Mantle.md,88,https://en.uesp.net/wiki/Online:Twilight_Mantle
+Online:Unleashed Rage,skills/Unleashed_Rage.md,112,https://en.uesp.net/wiki/Online:Unleashed_Rage
+Online:Tough (Companion),skills/Tough_Companion.md,64,https://en.uesp.net/wiki/Online:Tough_(Companion)
+Online:Thunderous Strike,skills/Thunderous_Strike.md,94,https://en.uesp.net/wiki/Online:Thunderous_Strike
+Online:Trickster's Trap,skills/Trickster_s_Trap.md,77,https://en.uesp.net/wiki/Online:Trickster's_Trap
+Online:Triptych Physic,skills/Triptych_Physic.md,90,https://en.uesp.net/wiki/Online:Triptych_Physic
+Online:The Triune Word,skills/The_Triune_Word.md,83,https://en.uesp.net/wiki/Online:The_Triune_Word
+Online:Tendrils of the Colorless Sea,skills/Tendrils_of_the_Colorless_Sea.md,102,https://en.uesp.net/wiki/Online:Tendrils_of_the_Colorless_Sea
+Online:Trick Shot,skills/Trick_Shot.md,83,https://en.uesp.net/wiki/Online:Trick_Shot
+Online:Tome-Bearer's Inspiration,skills/Tome-Bearer_s_Inspiration.md,394,https://en.uesp.net/wiki/Online:Tome-Bearer's_Inspiration
+Online:The Unblinking Eye,skills/The_Unblinking_Eye.md,369,https://en.uesp.net/wiki/Online:The_Unblinking_Eye
+Online:Vault,skills/Vault.md,824,https://en.uesp.net/wiki/Online:Vault
+Online:Traveling Knife,skills/Traveling_Knife.md,842,https://en.uesp.net/wiki/Online:Traveling_Knife
+Online:Ulfsild's Contingency,skills/Ulfsild_s_Contingency.md,960,https://en.uesp.net/wiki/Online:Ulfsild's_Contingency
+Online:Torchbearer,skills/Torchbearer.md,722,https://en.uesp.net/wiki/Online:Torchbearer
+Online:Trample,skills/Trample.md,818,https://en.uesp.net/wiki/Online:Trample
+Online:Third Moon's Chosen,skills/Third_Moon_s_Chosen.md,65,https://en.uesp.net/wiki/Online:Third_Moon's_Chosen
+Online:Varmiina's Visage,skills/Varmiina_s_Visage.md,70,https://en.uesp.net/wiki/Online:Varmiina's_Visage
+Online:Traumatic Burns,skills/Traumatic_Burns.md,90,https://en.uesp.net/wiki/Online:Traumatic_Burns
+Online:Tundra's Maw,skills/Tundra_s_Maw.md,81,https://en.uesp.net/wiki/Online:Tundra's_Maw
+Online:Unbound Potential,skills/Unbound_Potential.md,95,https://en.uesp.net/wiki/Online:Unbound_Potential
+Online:Veil's Forfeit,skills/Veil_s_Forfeit.md,156,https://en.uesp.net/wiki/Online:Veil's_Forfeit
+Online:Warmth,skills/Warmth.md,295,https://en.uesp.net/wiki/Online:Warmth
+Online:World in Ruin,skills/World_in_Ruin.md,362,https://en.uesp.net/wiki/Online:World_in_Ruin
+Online:War Horn,skills/War_Horn.md,666,https://en.uesp.net/wiki/Online:War_Horn
+Online:Wall of Elements,skills/Wall_of_Elements.md,1823,https://en.uesp.net/wiki/Online:Wall_of_Elements
+Online:Weakness to Elements,skills/Weakness_to_Elements.md,964,https://en.uesp.net/wiki/Online:Weakness_to_Elements
+Online:Whirlwind,skills/Whirlwind.md,506,https://en.uesp.net/wiki/Online:Whirlwind
+Online:Wind Walker,skills/Wind_Walker.md,189,https://en.uesp.net/wiki/Online:Wind_Walker
+Online:Wood Extraction,skills/Wood_Extraction.md,97,https://en.uesp.net/wiki/Online:Wood_Extraction
+Online:Woodworking (skill),skills/Woodworking_skill.md,344,https://en.uesp.net/wiki/Online:Woodworking_(skill)
+Online:Volley,skills/Volley.md,1116,https://en.uesp.net/wiki/Online:Volley
+Online:Werewolf Transformation,skills/Werewolf_Transformation.md,4097,https://en.uesp.net/wiki/Online:Werewolf_Transformation
+Online:Y'ffre's Endurance,skills/Y_ffre_s_Endurance.md,184,https://en.uesp.net/wiki/Online:Y'ffre's_Endurance
+Online:Wayfarer,skills/Wayfarer.md,146,https://en.uesp.net/wiki/Online:Wayfarer
+Online:Vigor,skills/Vigor.md,875,https://en.uesp.net/wiki/Online:Vigor
+Online:Warp Strike,skills/Warp_Strike.md,73,https://en.uesp.net/wiki/Online:Warp_Strike
+Online:Vigorous Tentacular Eruption,skills/Vigorous_Tentacular_Eruption.md,127,https://en.uesp.net/wiki/Online:Vigorous_Tentacular_Eruption
+Online:Zone of Recuperation,skills/Zone_of_Recuperation.md,94,https://en.uesp.net/wiki/Online:Zone_of_Recuperation
+Online:Viper's Bite,skills/Viper_s_Bite.md,88,https://en.uesp.net/wiki/Online:Viper's_Bite
+Online:Wellspring of the Abyss,skills/Wellspring_of_the_Abyss.md,102,https://en.uesp.net/wiki/Online:Wellspring_of_the_Abyss
+Online:Vitalizing Glyphic,skills/Vitalizing_Glyphic.md,466,https://en.uesp.net/wiki/Online:Vitalizing_Glyphic
+Online:Vinedusk Training,skills/Vinedusk_Training.md,331,https://en.uesp.net/wiki/Online:Vinedusk_Training
+Online:Wield Soul,skills/Wield_Soul.md,837,https://en.uesp.net/wiki/Online:Wield_Soul
+Online:Volcanic Arms,skills/Volcanic_Arms.md,89,https://en.uesp.net/wiki/Online:Volcanic_Arms
+Online:Wing Buffet,skills/Wing_Buffet.md,242,https://en.uesp.net/wiki/Online:Wing_Buffet
+Online:Wild Adaptation,skills/Wild_Adaptation.md,105,https://en.uesp.net/wiki/Online:Wild_Adaptation
+Online:Wildfire Embers,skills/Wildfire_Embers.md,161,https://en.uesp.net/wiki/Online:Wildfire_Embers

@@ -1,0 +1,6 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Barrier,6,Instant,Area,–,12 meters,30 seconds,250 Ultimate
+Invoke defensive tactics to protect yourself and nearby group members with wards that each absorb up to [30750 / 31088 / 31426 / 31764] damage for 30 seconds.
+,,Reviving Barrier,Shielded targets heal over time. Invoke defensive tactics to protect yourself and nearby group members with wards that each absorb up to 31764 damage for 30 seconds. The wards also heal you and your group members for [14280 / 14430 / 14595 / 14745] Health over 15 seconds.
+,Replenishing Barrier,"Each time a ward dissolves you restore Magicka . Invoke defensive tactics to protect yourself and nearby group members with wards that each absorb up to 31764 damage. Each time a ward dissolves, you restore [1200 / 1300 / 1400 / 1500] Magicka ."
+""

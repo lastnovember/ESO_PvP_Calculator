@@ -1,0 +1,10 @@
+{{Online Champion 2.0 Summary
+|titlename=Defiance
+|sign=Fitness
+|type=passive
+|stagepoints=10
+|maxpoints=20
+|desc=Reduces the cost of Break Free by 110 Stamina per stage.
+}}
+
+{{stub|Champion}}

@@ -1,0 +1,6 @@
+,Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Panacea,50,Instant,Area,–,28 meters,5 seconds,125 Ultimate
+"Release the rejuvenating energies of your staff to swirl around you, healing you or an ally for [7687 / 7771 / 7856 / 7940] Health every 1 second for 5 seconds."
+,,Life Giver,"Also automatically casts Regeneration, Blessing of Protection, and Steadfast Ward. Release the rejuvenating energies of your staff to swirl around you, healing you or an ally for [7940 / 8027 / 8114 / 8202] Health every 1 second for 5 seconds. When you activate this ability you automatically cast Regeneration , Blessing of Protection , and Steadfast Ward at no cost. These will update based on which morph of each ability you have taken."
+,Light's Champion,"Any friendly target healed gains Major Force, increasing Critical Damage dealt. Release the rejuvenating energies of your staff to swirl around you, healing you or a nearby ally for 7940 Health every 1 second for 5 seconds. Any friendly target you heal gains Major Force for [5 / 6 / 7 / 8] seconds, increasing their Critical Damage by 20 %."
+""

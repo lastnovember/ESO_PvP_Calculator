@@ -1,0 +1,76 @@
+{{Trail2|Skill Lines|Weapon|link2=Weapons}}
+{{/Progression}}
+[[File:ON-icon-skill-One Hand and Shield.png|frameless|left]]
+'''One Hand and Shield''' is one of the six [[Online:Skills#Weapon|weapon skills]] available in Elder Scrolls Online. Skills in this line focus on damage mitigation and various methods of stunning or controlling enemies. In addition, completing a fully charged heavy attack on an enemy will recharge the user's stamina based on their level. Use of these abilities, as well as progression through this skill line, requires equipping a one-handed weapon and a shield at the same time. Note that only equipping a shield will not train this skill, while still providing the benefit of the armor, trait and enchantment.
+{{NewLeft}}
+== Learning ==
+The One Hand and Shield skill line is granted the first time you kill an enemy with a weapon and shield equipped.  You can increase your skill by engaging in combat with a weapon and shield equipped, or by having One Hand and Shield skills slotted.  The more skills you have slotted, the faster your skill will increase.  [[ON:Imperial|Imperial]]s and [[ON:Redguard|Redguard]]s are naturally gifted with One Hand and Shield, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase One Hand and Shield are:
+
+*[[ON:The Chopping Block|The Chopping Block]]
+*[[ON:A Grifter's Apology|A Grifter's Apology]]
+*[[ON:Mace Etiquette|Mace Etiquette]]
+*[[ON:Saving Your Hide|Saving Your Hide]]
+*[[ON:Sword-Wisdom of Saikhalar|Sword-Wisdom of Saikhalar]]
+
+==Skill Perks==
+One Hand and Shield has an associated skill line that is revealed through use of a One-Handed weapon and Shield. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Shield Wall}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, while a one-handed weapon and shield are equipped, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Puncture}}
+{{Online Skill Link|Low Slash}}
+{{Online Skill Link|Defensive Posture}}
+{{Online Skill Link|Shield Charge}}
+{{Online Skill Link|Power Bash}}
+|}
+===Weapon Sets===
+These sets add effects to abilities. 
+{|class=wikitable
+!colspan=2|Ability Name!!width=1|Weapon set name!! Description
+|-
+|rowspan=2|{{ESO Active Icon|sk|One Hand and Shield-Puncture|64}}||rowspan=2|[[Online:Puncture|Puncture]]||[[ON:Puncturing Remedy|Puncturing Remedy]]||{{ON:Puncturing Remedy}}
+|-
+|[[ON:Perfected Puncturing Remedy|Perfected Puncturing Remedy]]||{{ON:Perfected Puncturing Remedy}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|One Hand and Shield-Low Slash|64}}||rowspan=2|[[ON:Low Slash|Low Slash]]||[[ON:Rampaging Slash|Rampaging Slash]]||{{ON:Rampaging_Slash}}
+|-
+|[[ON:Perfected Rampaging Slash|Perfected Rampaging Slash]]||{{ON:Perfected Rampaging_Slash}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|One Hand and Shield-Defensive Posture|64}}||rowspan=2|[[ON:Defensive Posture|Defensive Posture]]||[[ON:Defensive Position|Defensive Position]]||{{ON:Defensive_Position}}
+|-
+|[[ON:Perfected Defensive Position|Perfected Defensive Position]]||{{ON:Perfected Defensive_Position}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|One Hand and Shield-Shield Charge|64}}||rowspan=2|[[ON:Shield Charge|Shield Charge]]||[[ON:Gallant Charge|Gallant Charge]]||{{ON:Gallant Charge}}
+|-
+|[[ON:Perfected Gallant Charge|Perfected Gallant Charge]]||{{ON:Perfected Gallant Charge}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|One Hand and Shield-Power Bash|64}}||rowspan=2|[[ON:Power Bash|Power Bash]]||[[ON:Void Bash|Void Bash]]||{{ON:Void Bash}}
+|-
+|[[ON:Perfected Void Bash|Perfected Void Bash]]||{{ON:Perfected Void Bash}}
+|}
+===Other Sets===
+* Wearing five pieces of the [[ON:Knight-Errant's Mail|Knight-Errant's Mail]] set from [[ON:Blackheart Haven|Blackheart Haven]] increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} of your One Hand and Shield abilities and heals you when you cast one.
+* Wearing five pieces of the [[ON:Red Eagle's Fury|Red Eagle's Fury]] set from the [[ON:Red Eagle Redoubt|Red Eagle Redoubt]] crafting site increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} damage of all your weapon abilities, One Hand and Shield included, but it also increases their cost.
+* Wearing five pieces of the [[ON:Daring Corsair|Daring Corsair]] set from the [[ON:Cat's-Claw Station|Cat's-Claw Station]] crafting site decreases the {{ESO Stamina Link}} and {{ESO Magicka Link}} costs of all your weapon abilities by 10%, and grants you [[ON:Minor Heroism|Minor Heroism]] for 8 seconds after you use a weapon skill.
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as a one handed weapon and shield is equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!! Description
+{{Online Skill Link|Fortress}}
+{{Online Skill Link|Sword and Board}}
+{{Online Skill Link|Deadly Bash}}
+{{Online Skill Link|Deflect Bolts}}
+{{Online Skill Link|Battlefield Mobility}}
+|}
+{{Online Skills}}

@@ -1,0 +1,6 @@
+,Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Rapid Fire,50,,Enemy,28 meters,–,–,175 Ultimate
+"Unleash a barrage of arrows at an enemy, dealing [46107 / 46611 / 47115 / 47637] Physical Damage over 4 seconds. You can move at full speed and are immune to all disabling effects while channeling this attack. This ability is considered direct damage."
+,,Toxic Barrage,"Deals Poison Damage. Dealing damage with the attack injects them with poison, dealing additional damage over time. Unleash a barrage of arrows at an enemy, dealing 47619 Poison Damage over 4 seconds. After dealing damage you poison the enemy, dealing an additional [26460 / 26760 / 27040 / 27340] Poison Damage over 8 seconds after a 1 second delay. You can move at full speed and are immune to all disabling effects while channeling this attack. This ability is considered direct damage."
+,Ballista,"Create a turret to channel the attack for you, but for less damage. Casting Time: Instant, Channel Time: , Duration: 5 seconds, Range: 25 meters. Create a turret to unleash a barrage of arrows at an enemy, dealing [41236 / 41691 / 42133 / 42588] Physical Damage over 5 seconds."
+""

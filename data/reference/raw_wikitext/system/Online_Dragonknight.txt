@@ -1,0 +1,116 @@
+{{Trail|Classes}}__NOTOC__
+[[File:ON-icon-class-Dragonknight.png|frameless|left]]
+'''Dragonknight''' is a [[Online:Classes|class]] in ''[[Online:Online|Elder Scrolls Online]]''. It is geared primarily towards tanking characters, but also utilizing fire to deal magic damage.
+
+::'''In-Game Description''': ''These skillful masters-at-arms use the ancient Akaviri martial arts tradition of battle-spirit, and wield fearsome magic that pounds, shatters and physically alters the world around them.''
+{{NewLeft}}
+==Skills==
+===Ardent Flame===
+[[Online:Ardent Flame|Ardent Flame]] is geared towards [[ON:Fire Damage|fire damage]].
+
+===Draconic Power===
+[[Online:Draconic Power|Draconic Power]] is geared mainly towards self-preservation and tanking.
+
+===Earthen Heart===
+[[Online:Earthen Heart|Earthen Heart]] is a mix of self-defense and support abilities.
+
+===Class Mastery===
+[[ON:Class Mastery#Dragonknight|Class Mastery]] available if not [[Online:Subclassing|subclassing]].
+
+==Builds==
+{|class=wikitable
+!Build!!Role!!Description!!Primary Stat
+|-
+|[[ON:Dragonknight Initiate|Dragonknight Initiate]]
+|New Players
+|Learn to channel your inner dragon through the mastery of Dragonknight abilities.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Inferno Dragon|Inferno Dragon]]
+|Damage{{icon|role|Damage|18}}
+|Set your enemies ablaze in an inferno of destructive magic.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Venomous Dragon|Venomous Dragon]]
+|Damage{{icon|role|Damage|18}}
+|Control the field of battle with lethal poisons and furious strikes
+|{{ESO Stamina Link}}
+|-
+|[[ON:Stoneskin Dragon|Stoneskin Dragon]]
+|Tank{{icon|role|Tank|18}}
+|Channel your fury and charge into the fray like a raging, heavily-armored dragon.
+|{{ESO Health Link}}
+|-
+|[[ON:Elder Dragon (build)|Elder Dragon]]
+|Healer{{icon|role|Healer|18}}
+|Safeguard your allies by granting them powerful boons such as shields, health, and power.
+|{{ESO Magicka Link}}
+|}
+
+===Compatible Builds===
+It is possible to build a character which meets or mostly meets the recommendations of multiple builds simultaneously.  The chart below shows skill morphs which conflict between different builds.
+{|class=wikitable {{AL|C}}
+! !!Dragonknight<br>Initiate!!Inferno<br>Dragon!!Venomous<br>Dragon!!Stoneskin<br>Dragon!!Elder<br>Dragon
+|-
+!Dragonknight<br>Initiate
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Dragon Blood|Dragon Blood]]
+|{{BG|#ff7700}}|[[ON:Searing Strike|Searing Strike]]<br>[[ON:Magma Armor|Magma Armor]]<br>[[ON:Molten Weapons|Molten Weapons]]<br>[[ON:Obsidian Shard|Obsidian Shard]]
+|{{BG|#ffff00}}|[[ON:Dark Talons|Dark Talons]]<br>[[ON:Obsidian Shield|Obsidian Shield]]
+|{{BG|#ffff00}}|[[ON:Molten Weapons|Molten Weapons]]<br>[[ON:Obsidian Shield|Obsidian Shield]]
+|-
+!Inferno<br>Dragon
+|{{BG|#aaff00}}|[[ON:Dragon Blood|Dragon Blood]]
+|{{BG|#000000}}|
+|{{BG|#ffbb00}}|[[ON:Searing Strike|Searing Strike]]<br>[[ON:Fiery Breath|Fiery Breath]]<br>[[ON:Molten Weapons|Molten Weapons]]
+|{{BG|#ffff00}}|[[ON:Dark Talons|Dark Talons]]<br>[[ON:Dragon Blood|Dragon Blood]]
+|{{BG|#aaff00}}|[[ON:Molten Weapons|Molten Weapons]]
+|-
+!Venomous<br>Dragon
+|{{BG|#ff7700}}|[[ON:Searing Strike|Searing Strike]]<br>[[ON:Magma Armor|Magma Armor]]<br>[[ON:Molten Weapons|Molten Weapons]]<br>[[ON:Obsidian Shard|Obsidian Shard]]
+|{{BG|#ffbb00}}|[[ON:Searing Strike|Searing Strike]]<br>[[ON:Fiery Breath|Fiery Breath]]<br>[[ON:Molten Weapons|Molten Weapons]]
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Magma Armor|Magma Armor]]
+|{{BG|#ffff00}}|[[ON:Inferno|Inferno]]<br>[[ON:Magma Armor|Magma Armor]]
+|-
+!Stoneskin<br>Dragon
+|{{BG|#ffff00}}|[[ON:Dark Talons|Dark Talons]]<br>[[ON:Obsidian Shield|Obsidian Shield]]
+|{{BG|#ffff00}}|[[ON:Dark Talons|Dark Talons]]<br>[[ON:Dragon Blood|Dragon Blood]]
+|{{BG|#aaff00}}|[[ON:Magma Armor|Magma Armor]]
+|{{BG|#000000}}|
+|{{BG|#00ff00}}| no conflicts
+|-
+!Elder<br>Dragon
+|{{BG|#ffff00}}|[[ON:Molten Weapons|Molten Weapons]]<br>[[ON:Obsidian Shield|Obsidian Shield]]
+|{{BG|#aaff00}}|[[ON:Molten Weapons|Molten Weapons]]
+|{{BG|#ffff00}}|[[ON:Inferno|Inferno]]<br>[[ON:Magma Armor|Magma Armor]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#000000}}|
+|}
+
+The Dragonknight does not allow any triple-builds with fewer than three conflicting morphs.  The two triple combinations with the least conflicts are Stoneskin Dragon, Elder Dragon, and either Inferno Dragon or Venomous Dragon.
+
+==Gallery==
+<gallery>
+File:ON-render-Dragonknight.jpg|A Dragonknight
+File:ON-render-Dragonknight Refresh Banner.jpg|Dragonknight Rework Render
+File:ON-render-Dragonknight Standard Ability.jpg|Dragonknight Standard
+File:ON-render-Fiery Breath Ability.jpg|Fiery Breath
+File:ON-render-Dragonknight fights Vampires.jpg|Dragonknight vs. Vampires
+File:ON-render-Dragonknight in Arena.jpg|Dragonknight in Kvatch Arena
+</gallery>
+
+==See Also==
+*For more information, see the [[Lore:Dragonknights|lore]] article.
+{{Bullet Link|Leaping into the Dragonknight Class Refresh|Article about the 2026 Dragonknight Class rework.|ns_base=GEN}}
+
+===Books===
+*{{Book Link|Ardent Flame: Draconic or Endemic?}}
+*{{Book Link|Forged in the Heart of Mundus}}
+*{{Book Link|Legacy of the Dragonguard}}
+*{{Book Link|Mythical Beast, Real Powers}}
+*{{Book Link|To Smite with Dragon Claws}}
+
+==Notes==
+*The Dragonknight class icon is known as 'Dragonguard' in the game file, suggesting it may have been an earlier name for the class. 
+{{Online Skills Dragonknight}}

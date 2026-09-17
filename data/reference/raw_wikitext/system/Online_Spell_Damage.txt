@@ -1,0 +1,24 @@
+{{Trail|Combat}}
+
+'''Spell Damage''' represents the damage done by spells or abilities with a {{ESO Magicka Link}} cost.  Your Spell Damage can be improved by many [[:Category:Online-Sets with Weapon/Spell Damage|sets]] (click for complete list), as well the [[ON:Major Sorcery|Major Sorcery]] and [[ON:Minor Sorcery|Minor Sorcery]] effects, which increase your damage by 20% and 10% respectively.
+
+==Skills==
+;[[ON:Earthen Heart|Earthen Heart]] ([[ON:Dragonknight|Dragonknight]])
+*[[ON:Molten Weapons|Molten Weapons]] — grants [[ON:Major Sorcery|Major Sorcery]] to you and allies for 30 seconds
+;[[ON:Siphoning|Siphoning]] ([[ON:Nightblade|Nightblade]])
+*[[ON:Drain Power|Sap Essence]] — grants [[ON:Major Sorcery|Major Sorcery]] for 20 seconds
+;[[ON:Storm Calling|Storm Calling]] ([[ON:Sorcerer|Sorcerer]])
+*[[ON:Surge|Power Surge]] — grants [[ON:Major Sorcery|Major Sorcery]] for 33 seconds
+;[[ON:Dawn's Wrath|Dawn's Wrath]] ([[ON:Templar|Templar]])
+*[[ON:Illuminate|Illuminate]] — grants [[ON:Minor Sorcery|Minor Sorcery]] to you and allies for 10-20 seconds when using any Dawn's Wrath skill
+;[[ON:Mages Guild|Mages Guild]]
+*[[ON:Entropy|Entropy]] — grants [[ON:Major Sorcery|Major Sorcery]] for 20 seconds
+
+==Alchemy==
+*Potions of {{Effect Link|Increase Spell Power}} grant [[ON:Major Sorcery|Major Sorcery]]
+*Poisons of {{Effect Link|Increase Spell Power}} grant [[ON:Minor Sorcery|Minor Sorcery]]
+
+==Notes==
+* Although it is called Spell Damage, it may be useful to think of it as "Spell Power," since it also increases the amount of healing done by spells and abilities.
+
+{{stub|Effect}}

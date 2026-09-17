@@ -1,0 +1,81 @@
+{{Trail2|Skill Lines|Weapon|link2=Weapons}}
+{{/Progression}}
+[[File:ON-icon-skill-Restoration Staff.png|frameless|left]]
+'''Restoration Staff''' is one of the six [[Online:Skills#Weapon|weapon skills]] available in Elder Scrolls Online. Most active and passive abilities enabled by '''Restoration Staves''' focus on protecting and healing allies, while others help recharge the user's magicka. In addition, dealing a fully-charged heavy attack to an enemy will also recharge the user's magicka based on their level. The use of these abilities, and progression in the skill line, require equipping a Restoration type staff.
+{{NewLeft}}
+== Learning ==
+The Restoration Staff skill line is granted the first time you kill an enemy with a restoration staff equipped.  You can increase your skill by engaging in combat with a restoration staff equipped, or by having Restoration Staff skills slotted.  The more skills you have slotted, the faster your skill will increase.  [[ON:Argonian|Argonian]]s are naturally gifted with Restoration Staves, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.
+
+*[[ON:Almalexia and the Mudcrab|Almalexia and the Mudcrab]]
+*[[ON:Cantillon's Correspondence|Cantillon's Correspondence]]
+*[[ON:Journal of Thracius Mento|Journal of Thracius Mento]]
+*[[ON:Notes on Racial Phylogeny|Notes on Racial Phylogeny]]
+*[[ON:Precepts of Stendarr|Precepts of Stendarr]]
+
+==Skill Perks==
+Restoration Staves have an associated skill line that is revealed through use of a Restoration Staff. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Panacea}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, while a restoration staff is equipped, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Grand Healing}}
+{{Online Skill Link|Regeneration}}
+{{Online Skill Link|Blessing of Protection}}
+{{Online Skill Link|Steadfast Ward}}
+{{Online Skill Link|Force Siphon}}
+|}
+
+===Weapon Sets===
+These sets add effects to abilities. 
+{|class=wikitable
+!colspan=2|Ability Name!!width=1|Weapon set name!! Description
+|-
+|rowspan=2|{{ESO Active Icon|sk|Restoration Staff-Grand Healing|64}}||rowspan=2|[[Online:Grand Healing|Grand Healing]]||[[ON:Grand Rejuvenation|Grand Rejuvenation]]||{{ON:Grand Rejuvenation}}
+|-
+|[[ON:Perfected Grand Rejuvenation|Perfected Grand Rejuvenation]]||{{ON:Perfected Grand Rejuvenation}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Restoration Staff-Regeneration|64}}||rowspan=2|[[ON:Regeneration|Regeneration]]||[[ON:Precise Regeneration|Precise Regeneration]]||{{ON:Precise Regeneration}}
+|-
+|[[ON:Perfected Precise Regeneration|Perfected Precise Regeneration]]||{{ON:Perfected Precise Regeneration}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Restoration Staff-Blessing of Protection|64}}||rowspan=2|[[ON:Blessing of Protection|Blessing of Protection]]||[[ON:Timeless Blessing|Timeless Blessing]]||{{ON:Timeless Blessing}}
+|-
+|[[ON:Perfected Timeless Blessing|Perfected Timeless Blessing]]||{{ON:Perfected Timeless Blessing}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Restoration Staff-Steadfast Ward|64}}||rowspan=2|[[ON:Steadfast Ward|Steadfast Ward]]||[[ON:Mender's Ward|Mender's Ward]]||{{ON:Mender's Ward}}
+|-
+|[[ON:Perfected Mender's Ward|Perfected Mender's Ward]]||{{ON:Perfected Mender's Ward}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Restoration Staff-Force Siphon|64}}||rowspan=2|[[ON:Force Siphon|Force Siphon]]||[[ON:Force Overflow|Force Overflow]]||{{ON:Force Overflow}}
+|-
+|[[ON:Perfected Force Overflow|Perfected Force Overflow]]||{{ON:Perfected Force Overflow}}
+|}
+
+===Other Sets===
+* Wearing five pieces of the [[ON:Light Speaker|Light Speaker]] set from the [[ON:Elden Hollow I|Elden Hollow I]] and [[ON:Elden Hollow II|II]] group dungeons increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} of your Restoration Staff abilities.
+* Wearing five pieces of the [[ON:Red Eagle's Fury|Red Eagle's Fury]] set from the [[ON:Red Eagle Redoubt|Red Eagle Redoubt]] crafting site increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} damage of all your weapon abilities, Restoration Staff included, but it also increases their cost.
+* Wearing five pieces of the [[ON:Daring Corsair|Daring Corsair]] set from the [[ON:Cat's-Claw Station|Cat's-Claw Station]] crafting site decreases the {{ESO Stamina Link}} and {{ESO Magicka Link}} costs of all your weapon abilities by 10%, and grants you [[ON:Minor Heroism|Minor Heroism]] for 8 seconds after you use a weapon skill.
+* Wearing five pieces of the [[ON:Eyes of Mara|Eyes of Mara]] set from the [[ON:Mara's Eye Manufactory|Mara's Eye Manufactory]] crafting site decreases the cost of your Restoration Staff abilities by 15%.
+* Wearing five pieces of the [[ON:Wisdom of Vanus|Wisdom of Vanus]] set from the [[ON:Summerset|Summerset]] overland grants [[ON:Major Mending|Major Mending]] for 5 seconds. This duration increases by 1 second for each rank of the Restoration Staff passive [[ON:Essence Drain|Essence Drain]], if you are using a Restoration Staff.
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as a restoration staff is equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!! Description
+{{Online Skill Link|Essence Drain}}
+{{Online Skill Link|Restoration Expert}}
+{{Online Skill Link|Cycle of Life}}
+{{Online Skill Link|Absorb}}
+{{Online Skill Link|Restoration Master}}
+|}
+
+{{Online Skills}}

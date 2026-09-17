@@ -1,0 +1,165 @@
+{{Mod Header|Imperial City|icon=ON-icon-Imperial City.png}}{{About|the place|the DLC|Imperial City (DLC)}}{{Online Place Summary
+|type=Zone
+|description=the central city and capital of [[Online:Cyrodiil|Cyrodiil]] and the former Empire.
+|image=ON-place-Imperial City.jpg
+|imgdesc=The Imperial City
+|addabove=The
+|mapworld=ava_whole
+|mapname=Imperial City
+|level=
+|discoverable=
+|completion=
+|quests=8
+|pois=6
+|locales=6
+|setstations=3
+|groupdungeons=2
+|worldbosses=11
+|skyshard=13
+|alliance=Disputed
+|location=The center of [[Online:Cyrodiil|Cyrodiil]]
+|marker_id=ImperialCity
+|marker_icon=ON-icon-location.png
+|loadscreen=ON-load-Imperial City 03.jpg
+|loadtext=At the center of Cyrodiil stands the Imperial City. There, the Three Alliances vie with Daedric overlords and each other for control of the White-Gold Tower.
+}}[[File:ON-map-Imperial City.jpg|thumb|right|Map of the Imperial City [[Online:Imperial Districts|districts]]]] The bridges to the city are all blocked with impenetrable force fields, and attempting to swim across will only result in your quick demise due to the infestation of [[Online:Slaughterfish|slaughterfish]]. Entry is available through the [[Online:Alliance War|Alliance War]] menu to all players.
+
+The Imperial City is divided between the [[Online:Imperial Sewers|Imperial Sewers]] and the six [[Online:Imperial Districts|Imperial Districts]]. Each [[Online:Alliances|Alliance]] has a small base in the sewers which provides quick access to the districts, but getting back to base from the districts requires traversing the sewers. Gameplay within the sewers is similar to a large [[Online:Public Dungeons|Public Dungeon]] with PvP, while the districts function as [[Online:Quest Hubs|Quest Hubs]] and battlegrounds. [[Online:Tel Var Stones|Tel Var Stones]] are earned and used within the City, but can be lost by dying. The Imperial City also contains the entrances to two PvE [[Online:Group Dungeons|Group Dungeons]], although these are separate from the campaign.
+{{NewLeft}}
+==Places==
+
+===[[ON:Imperial Districts|Imperial Districts]]===
+Completing the Objective in each District counts towards '''{{Anchor|Points of Interest}}''' for Zone Completion.
+* {{Place Link|Arboretum}}
+* {{Place Link|Arena District}}
+* {{Place Link|Elven Gardens District}}
+* {{Place Link|Memorial District}}
+* {{Place Link|Nobles District}}
+* {{Place Link|Temple District}}
+
+===[[ON:Imperial Sewers|Imperial Sewers]]===
+Killing the marked bosses in each section of the Sewers counts towards '''{{Anchor|World Bosses}}''' for Zone Completion.
+* {{Place Link|Abyssal Depths}}
+* {{Place Link|Aldmeri Dominion Base}}
+* {{Place Link|Alessian Tombs}}
+* {{Place Link|Antediluvian Vaults}}
+* {{Place Link|Barathrum Centrata}}
+* {{Place Link|Daggerfall Covenant Base}}
+* {{Place Link|Ebonheart Pact Base}}
+* {{Place Link|Harena Hypogeum}}
+* {{Place Link|Irrigation Tunnels}}
+* {{Place Link|Lambent Passage}}
+* {{Place Link|Vile Drainage}}
+* {{Place Link|Wavering Veil}}
+* {{Place Link|Weaver's Nest}}
+
+===Striking Locales===
+* {{Place Link|Alik'ri Alcove}}
+* {{Place Link|Bloodmist Slaughterhouse}}
+* {{Place Link|Drain-Dweller's Outpost}}
+* {{Place Link|Headsman's Bone Pile}}
+* {{Place Link|Inquisitor's Retreat}}
+* {{Place Link|Unfinished Memoirs}}
+
+===Set Stations===
+* {{Place Link|Arboretum Armory}}
+* {{Place Link|Memorial Armory}}
+* {{Place Link|Nobles Armory}}
+
+===Trophy Vaults===
+* {{Place Link|Bone Shard Trophy Vault}}
+* {{Place Link|Clawed Trophy Vault}}
+* {{Place Link|Daedric Embers Trophy Vault}}
+* {{Place Link|Daedric Shackle Trophy Vault}}
+* {{Place Link|Ethereal Trophy Vault}}
+* {{Place Link|Legionary Trophy Vault}}
+* {{Place Link|Monstrous Tooth Trophy Vault}}
+* {{Place Link|Planar Armor Trophy Vault}}
+
+===Group Dungeons===
+* {{Place Link|Imperial City Prison}}
+* {{Place Link|White-Gold Tower}}
+
+===Unmarked Locations===
+* {{Place Link|Dragonfire Cathedral|Ancient Underground}}
+
+====[[ON:Patrolling Horrors|Patrolling Horrors]]====
+Partolling Horrors are not marked on the map, but function in the same way as overland [[ON:World Bosses|World Bosses]].
+{{Bullet Link|Amoncrul|a giant Bone Colossus found in the Nobles District.}}
+{{Bullet Link|Baron Thirsk|a Grievous Twilight found in the Nobles District.}}
+{{Bullet Link|Glorgoloch the Destroyer|a Flesh Colossus found in the Arena District.}}
+{{Bullet Link|Immolator Charr|a flaming Ogrim found in the Temple District.}}
+{{Bullet Link|King Khrogo|a Daedroth found in the Arena District.}}
+{{Bullet Link|Lady Malygda|a Spider Daedra found in the Arboretum District.}}
+{{Bullet Link|Mazaluhad (Lich)|a Lich found in the Temple District.}}
+{{Bullet Link|Nunatak|a Frost Atronach found in the Memorial District.}}
+{{Bullet Link|The Screeching Matron|a Clannfear found in the Elven Gardens District.}}
+{{Bullet Link|Volghass|a Flesh Atronach found in the Memorial District.}}
+{{Bullet Link|Ysenda Resplendent|a Harvester found in the Arboretum District.}}
+{{Bullet Link|Zoal the Ever-Wakeful|a Watcher found in the Elven Gardens District.}}
+
+===Battlegrounds===
+Despite being located in the Imperial City, the Arcane University Battleground does not require the Imperial City DLC. It was originally part of the [[ON:Morrowind|Morrowind]] Chapter, but was later made available to all players.
+* {{Place Link|Arcane University}}
+
+==Quests== 
+===Story Quests===
+*{{Quest Link|City on the Brink}}
+*{{Quest Link|The Imperial Standard}}
+*{{Quest Link|The Bleeding Temple}}
+*{{Quest Link|The Watcher in the Walls}}
+*{{Quest Link|Of Brands and Bones}}
+*{{Quest Link|The Lock and the Legion}}
+*{{Quest Link|Knowledge is Power}}
+*{{Quest Link|The Sublime Brazier}}
+
+===Scouting Quests===
+*{{Quest Link|Scouting the Arboretum}}
+*{{Quest Link|Scouting the Arena District}}
+*{{Quest Link|Scouting the Elven Gardens}}
+*{{Quest Link|Scouting the Memorial District}}
+*{{Quest Link|Scouting the Nobles District}}
+*{{Quest Link|Scouting the Temple District}}
+
+===District Quests===
+*{{Quest Link|Dousing the Fires of Industry}} ([[Online:Elven Gardens District|Elven Gardens District]])
+*{{Quest Link|Historical Accuracy}} ([[Online:Arboretum|Arboretum]])
+*{{Quest Link|The Lifeblood of an Empire}} ([[Online:Arena District|Arena District]])
+*{{Quest Link|Priceless Treasures}} ([[Online:Temple District|Temple District]])
+*{{Quest Link|Speaking For The Dead}} ([[Online:Memorial District|Memorial District]])
+*{{Quest Link|Watch Your Step}} ([[Online:Nobles District|Nobles District]])
+
+===Dungeon Quests===
+* {{Quest Link|Imperial City Prison Pledge}}
+* {{Quest Link|Planemeld Obverse}}
+* {{Quest Link|Pledge: Imperial City Prison}}
+* {{Quest Link|Pledge: White-Gold Tower}}
+* {{Quest Link|Summary Execution}}
+* {{Quest Link|White-Gold Tower Pledge}}
+
+===Other Quests===
+*{{Quest Link|Sand, Snow, and Blood}}
+<!--
+==Skyshards==
+-->
+
+==Achievements==
+*''See: [[ON:Imperial City Achievements|Imperial City Achievements]]''
+
+==Notes==
+*Unlike the rest of Cyrodiil, locations where you have to enter dialogue grant a glowing blue "{{ESO Icon Abbr|skill|Support-Stalwart Guard|24}} Sanctuary" passive effect. Glowing players from different Alliances can see each other, but can't fight.
+**Each rally point in the districts also grant "{{ESO Icon Abbr|skill|Support-Stalwart Guard|24}} Sanctuary" when standing on the trap door, as well as "{{ESO Icon Abbr|skill|Dark Magic-Blood Magic|24}} Chain Pull Range Suppression", "{{ESO Icon Abbr|skill|Dark Magic-Blood Magic|24}} Frozen Gate Suppression" and "{{ESO Icon Abbr|skill|Support-Stalwart Guard|24}} {{sic|Nature Grasp|Nature's Grasp}} Suppression" effects to the players on the rally point platform. They prevent you from getting attacked by enemies, from getting pulled by many skills, from getting teleported by [[ON:Frozen Gate|Frozen Gate]] and prevents enemies from using [[ON:Nature's Grasp|Nature Grasp]] on you which could be used to exploit.
+*Many quests and NPCs were cut from the final release because play testers had a hard time discerning what they should be doing with all of the different quests around them. The cut quests, NPCs, etc are detailed [[Online:Cut Content/Imperial City|here]].
+*At its launch in Update 7, the Imperial City shared its campaign population with the rest of Cyrodiil. It was split off into its own separate [[Online:Campaigns|campaign]] group after Update 22.
+*Prior to Update 22, the Imperial City was accessible via three sewer entrances located in [[Online:Cyrodiil|Cyrodiil]], provided your Alliance met the campaign-specific requirements. At launch, all Alliances across all campaigns had open access to the city; alternative access requirements, in which an Alliance must be in control of a certain number of [[Online:keeps|keeps]] in order to enter the city, were later added to some campaigns. When Imperial City was transferred into its own campaign, the sewer entrances in Cyrodiil were destroyed.
+*The Imperial City also appears in [[Arena:Imperial City|''Arena'']], [[OB:The Imperial City|''Oblivion'']], [[OBMobile:Places|''Oblivion'' Mobile]], and [[LG:The Siege of the Imperial City|Legends]].
+*The city as shown in the [[GEN:Trailers|Cinematic Trailers]] more closely resembles the city as it appears in [[OB:Oblivion|''Oblivion'']] than the city as it appears in ESO, with one main bridge leading out of the western district instead of three bridges unattached to the city, and a [[OB:Market District|northeastern district]] filled with buildings and without a [[Online:Memorial District|central garden]].
+*The city as seen in ESO is rotated 30° counter-clockwise from its orientation in ''Oblivion''.  This appears to be a mistake, as it means that the entrance to the [[ON:Imperial City Prison|Imperial City Prison]] does not line up with the actual location of the prison still visible on the Cyrodiil map.
+<!-- ==Maps== -->
+
+==Gallery==
+<gallery mode=packed>
+File:ON-misc-Imperial City Promo.jpg|Imperial City Promotional Info
+File:ON-node-Chest (Imperial City).jpg|A chest from the City
+</gallery>
+{{Online Subzones}}

@@ -1,0 +1,293 @@
+{{Trail}}[[Category:Online-Alliance War| Alliance War]][[File:ON-concept-22.jpg|thumb|left|A three-way battle for the Ruby Throne]]{{TOCright}}
+The '''Alliance War''' is the ongoing conflict between the [[#Aldmeri Dominion|Aldmeri Dominion]], the [[#Daggerfall Covenant|Daggerfall Covenant]], and the [[#Ebonheart Pact|Ebonheart Pact]] to wrest control of the Ruby Throne from the [[Lore:Empire of Cyrodiil (Interregnum)|Empire of Cyrodiil]]. Starting at Level 10, players will have the opportunity to join in the battle in [[Online:Cyrodiil|Cyrodiil]] for their chosen alliance.
+
+Every player who enters Cyrodiil is given the [[Online:Battle Spirit|Battle Spirit]] bonus, regardless of their level. On a player below Level 50 {{ESO Champion|150}}, this also stacks with "[[Online:Battle Leveling|battle leveling]]", which scales up their attributes, armor, and damage ratings in order to remain competitive.
+
+Players are free to travel almost anywhere in the zone; exceptions include the Border Keep areas of the opposing alliances, which are inaccessible unless the interposing [[Online:Artifact Gates|Artifact Gate]] is open. Attempting to bypass a closed Artifact Gate will result in instant death from scripted damage. However, when these gates are open, enemy players can gain access to the Border Keep area up to the walls of the Border Keep, including the now-accessible [[Online:Scroll Temples|Scroll Temple]]. Conversely, the doors into the actual Border Keep are never accessible to players of the two opposing factions.
+
+{| style="margin: 1em auto 1em auto; text-align:center;"
+|<blockquote>
+''The Imperial Throne sits empty.<br>
+''The Dragonfires cold; unlit.<br> 
+''And from every corner, darkness grows.<br> 
+''Now, ancient enemies band together.<br> 
+''Unlikely alliances are forged.<br> 
+''Old ambitions rekindled.<br>
+''And as enemies rise faster than allies,<br>
+''salvation cannot come from one hero alone,<br>
+''but from many.
+</blockquote>
+|}
+For historical information, see the lore article on the [[Lore:Three Banners War|Three Banners War]].
+
+==Gameplay==
+===[[Online:Campaigns|Campaigns]]===
+At the start of the game you will be assigned an alliance based on your race. At Level 10, you will be able to go to [[Online:Cyrodiil|Cyrodiil]] and start participating in a [[Online:Campaigns|Campaign]]. These are separate instances of Cyrodiil with their own groups of players, durations and rules. A player can choose one campaign as their "Home Campaign." Alliance Points earned in this campaign are credited towards the end of campaign awards and Alliance War Leaderboards, which can include, gold, jewelry, and [[on:Transmute Crystals|transmute crystals]].  The home campaign can be changed at the end of a campaign or during a campaign at a cost of [[Online:Alliance Points|Alliance Points]]. Players may enter other campaigns as "Guest Campaigns", which allows players to enter a different instance of Cyrodiil and gain Alliance Points; however their progress in a Guest Campaign will not count towards end of campaign rewards or be recorded on the Alliance War Leaderboards.
+
+===[[Online:Alliance Points|Alliance Points]]===
+All players will begin the Alliance War with the rank of Citizen, and by completing the tutorial quest [[Online:Welcome to Cyrodiil|Welcome to Cyrodiil]], you will become enlisted as a Volunteer. As you gain Alliance Points, you will increase your [[Online:Alliance Points#Alliance_War_Ranks|Alliance War Rank]] further, as well as your level in the two PvP-oriented [[Online:Skills#Alliance War|Skill Lines]], [[Online:Assault|Assault]] and [[Online:Support|Support]]. Each rank gained will reward you with one skill point. Within your Home Campaign, your accumulated Alliance Points will also determine your position on the leaderboards.
+
+===[[Online:Keeps|Keeps]], [[Online:Resources|Resources]] and [[Online:Outposts|Outposts]]===
+The main objective within Cyrodiil is to capture [[Online:Keeps|Keeps]], [[Online:Resources|Resources]] and [[Online:Outposts|Outposts]] for your alliance, thus increasing your Alliance Points and your alliance's position on the Campaign [[Online:Campaigns#Scoring|scoreboard]]. To capture a location, the attacking alliance must gain entry to its keep using [[Online:Siege Weapons|Siege Weapons]] to destroy the walls or gates, and must then take control of the enemy flags. Keeps and Outposts have two flags in the inner structure, while resources have one flag near the tower. Each alliance general offers a range of repeatable [[#Quests|quests]] designed to direct players through the motions of capturing a keep or resource. Other quests are available from the alliance generals as well, which include scouting out enemy-controlled areas of the map, killing enemy players, and retrieving [[Online:Elder Scrolls|Elder Scrolls]] for alliance-wide benefits.
+
+===[[Online:Elder Scrolls|Elder Scrolls]]===
+Elder Scrolls are 'capture-the-flag' objectives. Each alliance initially controls two scrolls that they store in the [[Online:Scroll Temples|Scroll Temples]] near their [[Online:Border Keeps|Border Keeps]]. To capture the scrolls of the enemy alliances, you must assault their [[Online:Artifact Gates|Artifact Gates]], recover the scroll from the temple, and return it to one of your home keeps. Controlling scrolls improves your alliance's position on the Campaign scoreboard, as well as providing a number of passive bonuses. Each scroll provides either a defensive or offensive bonus to the controlling alliance.
+
+===Crowning an [[Online:Emperor|Emperor]]===
+By capturing all six of the keeps surrounding the Imperial City, your alliance will have the opportunity to crown a player as [[Online:Emperor|Emperor]]. The Emperor is chosen as the player with the most Alliance Points in the current Campaign. All players within the alliance which currently has the Emperor receive a max health boost while in Cyrodiil.
+
+===[[Online:AvA Towns|AvA Towns]]===
+Three towns in Cyrodiil—[[Online:Bruma|Bruma]], [[Online:Cropsford|Cropsford]], and [[Online:Vlastarus|Vlastarus]]—can be captured and brought under the control of one of the Alliances. Each town has three PvP objective flags, all of which must be captured to gain control of the town for your alliance. The controlling alliance of each town has access to a special quartermaster who sells Epic-quality set items. The towns also act as quest hubs for a number of repeatable PvE quests in the area.
+
+===[[Online:Milegates|Milegates]]===
+Six milegates and three bridges in Cyrodiil can be destroyed to hinder passage between different regions. They cannot be controlled by any alliance, but their destruction can be used to control the battlefield by forcing enemies to take a longer alternative route.
+
+===[[Online:Transitus Network|Transitus Network]]===
+Travel around Cyrodiil is similar to travel around the alliance's home territories, although due to the size of the zone, the use of a [[Online:Mounts|mount]] is recommended to cut travel times. Cyrodiil also has a special fast-travel system, separate from the [[Online:Wayshrines|Wayshrines]] in the other zones; the only wayshrines in Cyrodiil serve to return you to the alliance home territories from the battlefield. Instead, fast-travel is handled by the [[Online:Transitus Network|Transitus Network]], a supply-line system whose extent and range is determined by which keeps and [[Online:Outposts|outposts]] your alliance controls.
+
+===[[Online:Siege Weapons|Siege Weapons]]===
+There are several types of weapons which may be used in the Alliance War.<br>
+Weapons also improve with increased rank.<br>
+[[Online:Forward Camps|Forward Camps]] are also considered [[Online:Siege Weapons|Siege Weapons]].
+All these items may  be purchased from [[Online:Alliance Quartermasters|Quartermasters]] at Keeps as well as received as rewards from [[Online:Cyrodiil#Quests|Quests]], [[Online:Campaigns|Campaigns]], and 
+[[Online:Cyrodiil#Settlement_Quests|Settlement Dailies]].
+
+===[[Online:Imperial City|Imperial City]]===
+The Imperial City is divided between the [[Online:Imperial Sewers|Imperial Sewers]], which act as a large PvP-enabled [[Online:Public Dungeons|Public Dungeon]], and the six [[Online:Imperial Districts|Imperial Districts]]. Each district is a combined close-quarters PvE and PvP area, and has one PvP capture point located on the bridge by the district's inner wall.
+
+===Quests and Dungeons===
+Beyond the PvP content, Cyrodiil also includes a host of PvE challenges, including [[Online:Delves|dungeon-delving]], [[Online:Dark Anchors|dark anchor]] dolmens, and a number of settlements offering repeatable [[Online:Cyrodiil#Quests|quests]]. There are also [[Online:Crafting|materials]] to gather, [[Online:Skyshards|Skyshards]] to find, and dozens of Ayleid ruins and other places of interest to explore. For more details on Cyrodiil's PvE content, see [[Online:Cyrodiil|Cyrodiil]].
+
+=== Safe Zones ===
+The following markers are used in an informative capacity on the wiki to indicate whether an area is safe from PvP enemies, and do not appear in-game.
+* [[File:ON-mapicon-BorderKeep.png|22px]] Areas that are under the full control of one alliance are indicated with a shield icon.
+** ''Restricted'' areas, which enemies cannot enter, include the three alliance [[Online:Border Keeps|Border Gates]] and the [[Online:Imperial Sewers#Alliance Bases|Alliance Bases]] in the [[Online:Imperial City|Imperial City]].
+** ''Protected'' areas, which are usually safe from enemies except under special circumstances (e.g., a [[Online:Scroll Temples|Scroll Temple]] is not safe if an [[Online:Artifact Gates|Artifact Gate]] is open), include [[Online:Scroll Temples|Scroll Temples]], Rally Points in the [[Online:Imperial Districts|Imperial Districts]], and Safe Houses in the [[Online:AvA Towns|AvA Towns]].
+* [[File:ON-icon-Imperial.png|22px]] Certain areas have PvP disabled within them, while at the same time are still open to all alliances, and these are indicated with the Imperial icon.
+** ''Neutral'' areas, such as group dungeons, are solely PvE areas.
+** ''Sanctuary'' areas place players under a flag of truce, where they cannot attack other players, and cannot be attacked by other players. Most quest objective buildings within the [[Online:Imperial City|Imperial City]] are Sanctuary areas.
+* [[File:ON-mapicon-Battle.png|22px]] The rest of Cyrodiil is open for player combat, and these places are marked as ''Disputed''.
+
+== History ==
+In {{Year|2E 430}} the [[Lore:Second Empire|Second Empire]] was dealt a fatal blow and began to fall apart. Ever since then, the nine provinces of [[Online:Tamriel|Tamriel]] have largely insulated themselves from outside interference. That changed in {{Year|2E 579}}, when a massive arcane explosion occurred in the [[Online:Imperial City|Imperial City]], sending shockwaves across [[Lore:Nirn|Nirn]]. Emperor {{Lore Link|Varen Aquilarios}} of Cyrodiil vanished, leaving his wife [[Online:Clivia Tharn|Clivia Tharn]] and her father [[Online:Abnur Tharn|Abnur]], Chancellor of the Elder Council, as the leaders of Cyrodiil. Increasing numbers of [[Online:Daedra|Daedra]] began to be seen around Tamriel, and the constellation of [[Online:The Serpent (Celestial)|the Serpent]] grew and grew until it dominated the night sky.
+
+When they discovered that this was the doing of [[Online:Molag Bal|Molag Bal]], as he tried to steal Nirn, and that the answer to the problem was to relight the [[Lore:Dragonfires|Dragonfires]], the alliances turned their attention to Cyrodiil to try and wrest control of the Ruby Throne.
+
+===Alliances===
+====Imperial Legion====
+The [[Online:Imperial Legion|Imperial]]s have become more and more hostile to the other races during the course of the [[Lore:Interregnum|Interregnum]], and stand alone in the war for the Ruby Throne. They are not destined to fill the position, but have aims of their own in creating a new empire. The line of Reachmen who previously occupied the Imperial City, the [[Lore:Longhouse Emperors|Longhouse Emperors]], have recently been ousted by the armies of the [[Lore:Colovian Estates|Colovian Estates]] under Varen Aquilarios after [[Lore:Leovic|the last Longhouse Emperor]]'s legalizing Daedra worship. Following the disappearance of newly-crowned Emperor Aquilarios, the Imperial leaders joined forces with supporters of Molag Bal, ushering in a time of madness, murder, and decay.
+
+====Aldmeri Dominion====
+[[File:ON-concept-Queen Ayrenn.jpg|thumb|right|Queen Ayrenn directs her troops.]]
+The '''[[Online:Aldmeri Dominion|Aldmeri Dominion]]''' was formed in {{Year|2E 580}} with the aim of restoring the rule of Tamriel to the elven races. It comprises the [[Online:High Elf|Altmer]] from the [[Lore:Summerset Isles|Summerset Isles]], the [[Online:Wood Elf|Bosmer]] of [[Lore:Valenwood|Valenwood]], and the [[Online:Khajiit|Khajiit]] of [[Lore:Elsweyr|Elsweyr]].
+
+The Altmer are the dominant race in attempting to complete the Dominion's aims, having begun their work well before it became clear that the Ruby Throne was at stake. The Khajiit had recently faced devastation at the hands of the Knahaten Flu, and agreed to join the Dominion as payment for the debt they owed to [[Online:Queen Ayrenn|Queen Ayrenn]], who had helped them restore order after the plague. The Bosmer joined following a plea from the Altmer that their combined forces might prevent the younger races of Tamriel from bringing disaster to the world, as they had so many times in the past.
+
+{{NewLine}}
+
+====Daggerfall Covenant====
+[[File:ON-concept-20.jpg|thumb|left|King Emeric surveys the scene of a battle.]]
+The '''[[Online:Daggerfall Covenant|Daggerfall Covenant]]''' was primarily a defensive agreement between the kingdoms of High Rock, which evolved into much more following a civil war within the province in {{Year|2E 566}}. It now comprises the [[Online:Breton|Breton]]s of [[Lore:High Rock|High Rock]], the [[Online:Orc|Orc]]s of [[Online:Orsinium|Orsinium]], and the [[Online:Redguard|Redguard]]s of [[Lore:Hammerfell|Hammerfell]].
+
+Led by [[Online:High King Emeric|High King Emeric]], the Covenant aims to resurrect the Second Empire. While the Bretons and Redguards would benefit greatly if they won, it is the Orcs who stand to gain the most, if the "terms" of the Covenant are upheld. They have a longstanding aim of establishing their own province, to make a home for the Orcs that they have been denied time and time again. Historically, the Orcs were considered no better than [[Online:Goblin|goblin]]s, and it is only recently that the other races have begun to acknowledge them as sentient, if not equals. The result of this attitude was the ransacking of Orsinium every time it was established, thus denying the Orcs a chance of creating a home.
+
+{{NewLine}}
+====Ebonheart Pact====
+[[File:ON-concept-19.jpg|thumb|right|King Jorunn rallies his troops.]]
+The '''[[Online:Ebonheart Pact|Ebonheart Pact]]''' is an alliance of necessity, born when the three provinces joined together to repel an [[Online:Akaviri|Akaviri]] invasion in {{Year|2E 572}}. It comprises the [[Online:Nord|Nord]]s of [[Lore:Skyrim|Skyrim]], the [[Online:Dark Elf|Dunmer]] of [[Lore:Morrowind|Morrowind]], and the [[Online:Argonian|Argonian]]s of [[Lore:Black Marsh|Black Marsh]].
+
+Led by [[Online:Jorunn the Skald-King|High King Jorunn]], the pact was developed so the three provinces could hold their own against the other two alliances. The three races have a long history of antagonism and war between themselves, which hasn't been completely forgotten after the formal alliance was created. Their aim is to preserve their independence, and to do this they aim to seize the throne for themselves, so that no empire can arise to take it away.
+
+{{NewLine}}
+
+==Quests==
+===Introductory Quests===
+* {{Quest Link|Welcome to Cyrodiil}}
+* {{Quest Link|Siege Warfare}}
+* {{Quest Link|Reporting for Duty}}
+
+* {{Quest Link|City on the Brink}}
+
+* {{Quest Link|Chaos Magic}}
+
+;''The remainder of this section lists the PvP quests in Cyrodiil. For PvE quests, see [[Online:Cyrodiil#Quests|Cyrodiil Quests]]. For Imperial City DLC{{Crown Store}} quests, see [[Online:Imperial City#Quests|Imperial City Quests]].''
+
+===Battle Missions===
+*{{Quest Link|Capture Alessia Farm}}
+*{{Quest Link|Capture Alessia Lumbermill}}
+*{{Quest Link|Capture Alessia Mine}}
+*{{Quest Link|Capture Aleswell Farm}}
+*{{Quest Link|Capture Aleswell Lumbermill}}
+*{{Quest Link|Capture Aleswell Mine}}
+*{{Quest Link|Capture Arrius Farm}}
+*{{Quest Link|Capture Arrius Lumbermill}}
+*{{Quest Link|Capture Arrius Mine}}
+*{{Quest Link|Capture Ash Farm}}
+*{{Quest Link|Capture Ash Lumbermill}}
+*{{Quest Link|Capture Ash Mine}}
+*{{Quest Link|Capture Black Boot Farm}}
+*{{Quest Link|Capture Black Boot Lumbermill}}
+*{{Quest Link|Capture Black Boot Mine}}
+*{{Quest Link|Capture Bloodmayne Farm}}
+*{{Quest Link|Capture Bloodmayne Lumbermill}}
+*{{Quest Link|Capture Bloodmayne Mine}}
+*{{Quest Link|Capture Blue Road Farm}}
+*{{Quest Link|Capture Blue Road Lumbermill}}
+*{{Quest Link|Capture Blue Road Mine}}
+*{{Quest Link|Capture Brindle Farm}}
+*{{Quest Link|Capture Brindle Lumbermill}}
+*{{Quest Link|Capture Brindle Mine}}
+*{{Quest Link|Capture Chalman Farm}}
+*{{Quest Link|Capture Chalman Lumbermill}}
+*{{Quest Link|Capture Chalman Mine}}
+*{{Quest Link|Capture Dragonclaw Farm}}
+*{{Quest Link|Capture Dragonclaw Lumbermill}}
+*{{Quest Link|Capture Dragonclaw Mine}}
+*{{Quest Link|Capture Drakelowe Farm}}
+*{{Quest Link|Capture Drakelowe Lumbermill}}
+*{{Quest Link|Capture Drakelowe Mine}}
+*{{Quest Link|Capture Faregyl Farm}}
+*{{Quest Link|Capture Faregyl Lumbermill}}
+*{{Quest Link|Capture Faregyl Mine}}
+*{{Quest Link|Capture Farragut Farm}}
+*{{Quest Link|Capture Farragut Lumbermill}}
+*{{Quest Link|Capture Farragut Mine}}
+*{{Quest Link|Capture Glademist Farm}}
+*{{Quest Link|Capture Glademist Lumbermill}}
+*{{Quest Link|Capture Glademist Mine}}
+*{{Quest Link|Capture Kingscrest Farm}}
+*{{Quest Link|Capture Kingscrest Lumbermill}}
+*{{Quest Link|Capture Kingscrest Mine}}
+*{{Quest Link|Capture Rayles Farm}}
+*{{Quest Link|Capture Rayles Lumbermill}}
+*{{Quest Link|Capture Rayles Mine}}
+*{{Quest Link|Capture Roebeck Farm}}
+*{{Quest Link|Capture Roebeck Lumbermill}}
+*{{Quest Link|Capture Roebeck Mine}}
+*{{Quest Link|Capture Warden Farm}}
+*{{Quest Link|Capture Warden Lumbermill}}
+*{{Quest Link|Capture Warden Mine}}
+
+===Bounty Missions===
+*{{Quest Link|Kill Enemy Arcanists}}
+*{{Quest Link|Kill Enemy Dragonknights}}
+*{{Quest Link|Kill Enemy Necromancers}}
+*{{Quest Link|Kill Enemy Nightblades}}
+*{{Quest Link|Kill Enemy Players}}
+*{{Quest Link|Kill Enemy Sorcerers}}
+*{{Quest Link|Kill Enemy Templars}}
+*{{Quest Link|Kill Enemy Wardens}}
+
+===Conquest Missions===
+*{{Quest Link|Capture All 3 Towns}}
+*{{Quest Link|Capture Any Nine Resources}}
+*{{Quest Link|Capture Any Three Keeps}}
+*{{Quest Link|Kill 150 Enemy Players}}
+
+===Scouting Missions===
+*{{Quest Link|Scout Alessia Farm}}
+*{{Quest Link|Scout Alessia Lumbermill}}
+*{{Quest Link|Scout Alessia Mine}}
+*{{Quest Link|Scout Aleswell Farm}}
+*{{Quest Link|Scout Aleswell Lumbermill}}
+*{{Quest Link|Scout Aleswell Mine}}
+*{{Quest Link|Scout Arrius Farm}}
+*{{Quest Link|Scout Arrius Keep}}
+*{{Quest Link|Scout Arrius Lumbermill}}
+*{{Quest Link|Scout Arrius Mine}}
+*{{Quest Link|Scout Ash Farm}}
+*{{Quest Link|Scout Ash Lumbermill}}
+*{{Quest Link|Scout Ash Mine}}
+*{{Quest Link|Scout Black Boot Farm}}
+*{{Quest Link|Scout Black Boot Lumbermill}}
+*{{Quest Link|Scout Black Boot Mine}}
+*{{Quest Link|Scout Bloodmayne Farm}}
+*{{Quest Link|Scout Bloodmayne Lumbermill}}
+*{{Quest Link|Scout Bloodmayne Mine}}
+*{{Quest Link|Scout Blue Road Farm}}
+*{{Quest Link|Scout Blue Road Keep}}
+*{{Quest Link|Scout Blue Road Lumbermill}}
+*{{Quest Link|Scout Blue Road Mine}}
+*{{Quest Link|Scout Brindle Farm}}
+*{{Quest Link|Scout Brindle Lumbermill}}
+*{{Quest Link|Scout Brindle Mine}}
+*{{Quest Link|Scout Castle Alessia}}
+*{{Quest Link|Scout Castle Black Boot}}
+*{{Quest Link|Scout Castle Bloodmayne}}
+*{{Quest Link|Scout Castle Brindle}}
+*{{Quest Link|Scout Castle Faregyl}}
+*{{Quest Link|Scout Castle Roebeck}}
+*{{Quest Link|Scout Chalman Farm}}
+*{{Quest Link|Scout Chalman Keep}}
+*{{Quest Link|Scout Chalman Lumbermill}}
+*{{Quest Link|Scout Chalman Mine}}
+*{{Quest Link|Scout Dragonclaw Farm}}
+*{{Quest Link|Scout Dragonclaw Lumbermill}}
+*{{Quest Link|Scout Dragonclaw Mine}}
+*{{Quest Link|Scout Drakelowe Farm}}
+*{{Quest Link|Scout Drakelowe Keep}}
+*{{Quest Link|Scout Drakelowe Lumbermill}}
+*{{Quest Link|Scout Drakelowe Mine}}
+*{{Quest Link|Scout Faregyl Farm}}
+*{{Quest Link|Scout Faregyl Lumbermill}}
+*{{Quest Link|Scout Faregyl Mine}}
+*{{Quest Link|Scout Farragut Farm}}
+*{{Quest Link|Scout Farragut Keep}}
+*{{Quest Link|Scout Farragut Lumbermill}}
+*{{Quest Link|Scout Farragut Mine}}
+*{{Quest Link|Scout Fort Aleswell}}
+*{{Quest Link|Scout Fort Ash}}
+*{{Quest Link|Scout Fort Dragonclaw}}
+*{{Quest Link|Scout Fort Glademist}}
+*{{Quest Link|Scout Fort Rayles}}
+*{{Quest Link|Scout Fort Warden}}
+*{{Quest Link|Scout Glademist Farm}}
+*{{Quest Link|Scout Glademist Lumbermill}}
+*{{Quest Link|Scout Glademist Mine}}
+*{{Quest Link|Scout Kingscrest Farm}}
+*{{Quest Link|Scout Kingscrest Keep}}
+*{{Quest Link|Scout Kingscrest Lumbermill}}
+*{{Quest Link|Scout Kingscrest Mine}}
+*{{Quest Link|Scout Rayles Farm}}
+*{{Quest Link|Scout Rayles Lumbermill}}
+*{{Quest Link|Scout Rayles Mine}}
+*{{Quest Link|Scout Roebeck Farm}}
+*{{Quest Link|Scout Roebeck Lumbermill}}
+*{{Quest Link|Scout Roebeck Mine}}
+*{{Quest Link|Scout Warden Farm}}
+*{{Quest Link|Scout Warden Lumbermill}}
+*{{Quest Link|Scout Warden Mine}}
+
+===Warfront Missions===
+*{{Quest Link|Capture Castle Alessia}}
+*{{Quest Link|Capture Castle Black Boot}}
+*{{Quest Link|Capture Castle Bloodmayne}}
+*{{Quest Link|Capture Castle Brindle}}
+*{{Quest Link|Capture Castle Faregyl}}
+*{{Quest Link|Capture Castle Roebeck}}
+*{{Quest Link|Capture Fort Aleswell}}
+*{{Quest Link|Capture Fort Ash}}
+*{{Quest Link|Capture Fort Dragonclaw}}
+*{{Quest Link|Capture Fort Glademist}}
+*{{Quest Link|Capture Fort Rayles}}
+*{{Quest Link|Capture Fort Warden}}
+*{{Quest Link|Capture Arrius Keep}}
+*{{Quest Link|Capture Blue Road Keep}}
+*{{Quest Link|Capture Chalman Keep}}
+*{{Quest Link|Capture Drakelowe Keep}}
+*{{Quest Link|Capture Farragut Keep}}
+*{{Quest Link|Capture Kingscrest Keep}}
+
+===Elder Scrolls Missions===
+*{{Quest Link|The Elder Scroll of Alma Ruma}}
+*{{Quest Link|The Elder Scroll of Altadoon}}
+*{{Quest Link|The Elder Scroll of Chim}}
+*{{Quest Link|The Elder Scroll of Ghartok}}
+*{{Quest Link|The Elder Scroll of Mnem}}
+*{{Quest Link|The Elder Scroll of Ni-Mohk}}
+
+== Bugs ==
+{{Bug|If you hit level 50 in a Cyrodiil dungeon while in the Below Level 50 campaign, you will have no in-game way out.}}
+** Quit or log out of your game and when you re-load, you will be back where you entered Cyrodiil from.
+
+{{Online Skills Alliance War}}

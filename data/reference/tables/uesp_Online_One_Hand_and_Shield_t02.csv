@@ -1,0 +1,26 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Puncture,2,Instant,Enemy,7 meters,–,–,1350 Stamina
+"Thrust your weapon with disciplined precision at an enemy, dealing [3074 / 3107 / 3141 / 3175] Physical Damage and taunting them to attack you for 15 seconds. Also inflicts Major Breach on the enemy, reducing their Physical and Spell Resistance by 5948 for 15 seconds."
+,,Ransack,"You also gain Minor Protection, reducing your damage taken. Thrust your weapon with disciplined precision at an enemy, dealing [3175 / 3209 / 3244 / 3279] Physical Damage and taunting them to attack you for 15 seconds. Also inflicts Major Breach on the enemy, reducing their Physical and Spell Resistance by 5948 for 15 seconds. You also gain Minor Protection , reducing your damage taken by 5 % for 15 seconds."
+,Pierce Armor,"Also inflicts Minor Breach, further reducing the enemy's Resistances. Thrust your weapon with disciplined precision at an enemy, dealing [3175 / 3209 / 3244 / 3279] Physical Damage and taunting them to attack you for 15 seconds. Also inflicts Minor Breach and Major Breach on the enemy, reducing their Physical Resistance and Spell Resistance by 2974 and 5948 for 15 seconds."
+""
+,Low Slash,4,Instant,Enemy,7 meters,–,–,2970 Stamina
+"Surprise an enemy with a deep lunge, dealing [3690 / 3730 / 3771 / 3811] Physical Damage and afflicting them with Minor Maim , reducing their damage done by 5 % for 15 seconds."
+,,Deep Slash,"Increases the damage dealt. Now hits all targets near the initial enemy hit, and snares them. Area: 6 meters. Surprise an enemy with a sweeping lunge, dealing [4764 / 4816 / 4868 / 4921] Physical Damage to them and other nearby enemies, afflicting them with Minor Maim, reducing their damage done by 5 % for 15 seconds. Enemies hit also have their Movement Speed reduced by 30 % for 4 seconds."
+,Heroic Slash,"You gain Minor Heroism, increasing your Ultimate generation. Surprise an enemy with a deep lunge, dealing [3811 / 3852 / 3894 / 3936] Physical Damage and afflicting them with Minor Maim, reducing their damage done by 5 % for 15 seconds. You gain Minor Heroism , granting you 1 Ultimate every 1.5 seconds for 15 seconds."
+""
+,Defensive Posture,14,Instant,Self,–,–,6 seconds,4320 Stamina
+"Bolster your defenses, gaining a damage shield that absorbs up to [4800 / 4852 / 4905 / 4958] damage for 6 seconds. This portion of the ability scales off your Max Health . You reflect the next harmful direct damage projectile cast at you. This effect can occur once per cast."
+,,Defensive Stance,"While slotted and with a shield equipped, you reduce the cost of block and increase the amount of damage you can block. Bolster your defenses, gaining a damage shield that absorbs up to 4958 damage for 6 seconds. This portion of the ability scales off your Max Health . You reflect the next harmful direct damage projectile cast at you, once per cast. While slotted and you have a shield equipped, the amount of damage you can block is increased by 10 % and the cost of blocking is reduced by 10 %."
+,Absorb Missile,"Projectiles that are absorbed by the damage shield heal you, rather than reflect. Bolster your defenses, gaining a damage shield that absorbs up to 4958 damage for 6 seconds. While the shield persists, you are healed for [2479 / 2506 / 2533 / 2560] Health the next time a harmful direct damage projectile hits you. This effect can occur once per cast. This ability scales off your Max Health ."
+""
+,Shield Charge,20,Instant,Enemy,22 meters,–,–,3780 Stamina
+"Rush an enemy and ram them, dealing [3690 / 3730 / 3771 / 3811] Physical Damage and stunning them for 3 seconds."
+,,Shielded Assault,"Gain a damage shield after the attack. Rush an enemy and ram them, dealing 3811 Physical Damage and stunning them for 3 seconds. You gain a damage shield after the attack, absorbing [4957 / 5011 / 5066 / 5120] damage for 6 seconds. This portion of the ability scales off your Max Health ."
+,Invasion,"Stuns longer based on the distance traveled. Reduces the cost. Cost: 3510 Stamina . Rush an enemy and ram them, dealing 3811 Physical Damage and stunning them for [3 / 3.3 / 3.7 / 4] seconds. Stuns up to 50 % longer based on the distance traveled."
+""
+,Power Bash,38,Instant,Enemy,7 meters,–,–,2700 Stamina
+"Strike an enemy full-force with your shield, dealing [6149 / 6216 / 6284 / 6351] Physical Damage . This ability's damage is considered Bash damage and interrupts the enemy if they are casting."
+,,Reverberating Bash,"Initial damage is halved, but stuns the target.  After the stun ends, the enemy takes the damage again. Strike an enemy full-force with your shield, dealing 3175 Physical Damage and stunning them for [2 / 2.3 / 2.7 / 3] seconds. After the stun ends, the enemy takes an additional 3175 Physical Damage. This ability's damage is considered Bash damage and interrupts the enemy if they are casting."
+,Power Slam,"Blocking any attack reduces the cost of your next Power Slam. Strike an enemy full-force with your shield, dealing [6352 / 6421 / 6491 / 6561] Physical Damage. While slotted, blocking any attack grants you Resentment, which reduces the cost of your next Power Slam cast within 10 seconds by [47 / 48 / 49 / 50] %. This ability's damage is considered Bash damage and interrupts the enemy if they are casting."
+""

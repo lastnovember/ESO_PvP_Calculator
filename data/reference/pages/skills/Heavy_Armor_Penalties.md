@@ -1,0 +1,14 @@
+# Online:Heavy Armor Penalties
+
+Source: https://en.uesp.net/wiki/Online:Heavy_Armor_Penalties
+License: CC BY-SA, UESP
+
+Online Skill Summary
+id=152780
+line=Heavy Armor
+type=Passive
+icon=Heavy Armor-Heavy Armor Penalties
+desc=Each piece of Heavy Armor does the following: Increases damage taken from Magical attacks by 1% Reduces the Movement Speed bonus of Sprint by 1% Increases the cost of Roll Dodge by 3% Increases the size of your detection area while Sneaking by 10%
+linerank1=1
+
+Heavy Armor Penalties gives penalties for each heavy armor you wear, for up to 7% more damage taken from magical attacks, 7% less speed while sprinting, 21% increased cost of roll dodge and 70% larger detection area when sneaking.

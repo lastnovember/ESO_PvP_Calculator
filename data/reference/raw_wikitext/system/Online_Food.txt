@@ -1,0 +1,835 @@
+{{Trail|Items}}{{TOCright}}
+'''Food''' is a general term for items that temporarily increase maximum value of one, two or of all three [[Online:Attributes|attributes]]. 
+
+This page lists all the food entries that can be purchased from the [[Online:Chefs|chefs]] and [[Online:Chefs & Brewers|chef & brewer]] vendors or found throughout {{Lore Link|Tamriel}}. Please note that meals on this list are of Normal Quality, in contrast to the entries [[Online:Provisioning|cooked]] by player, and they increase only one of the attributes at a time.
+
+Items on this list increase an attribute maximum value for 35 minutes and have a 5 second cooldown. If different entries are consumed one after another, the effects do not stack. 
+==Staple Food==
+These foods are '''{{ESO Quality Color|n|Normal Quality}}''' versions of craftable '''{{ESO Quality Color|f|Fine}}''' [[ON:Food Recipes|Food Recipes]].  They are less potent than their crafted versions.  These may be found randomly on tables and in cauldrons and stew pots throughout the world, or they may be purchased from [[ON:Innkeepers|Innkeepers]] or [[ON:Chefs|Chefs]].  They may also be received as quest rewards from the [[ON:Fighters Guild|Fighters Guild]], [[ON:Mages Guild|Mages Guild]], and [[ON:Undaunted|Undaunted]] daily quests.
+
+{|class="wikitable sortable" {{AL|C}}
+!colspan=4|&nbsp;!!colspan=3 style="padding: 1em"|Increase Attribute Maximum Value by!!
+|-
+!class="unsortable"|&nbsp;!!width=15%|Name!!Food Level!!Dish Type!!{{ESO Health Link}}!!{{ESO Magicka Link}}!!{{ESO Stamina Link}}!!Dur (mins)
+{{Online Staple Entry|Chicken Breast}}
+{{Online Staple Entry|Fishy Stick}}
+{{Online Staple Entry|Roast Pig}}
+{{Online Staple Entry|Baked Apples}}
+{{Online Staple Entry|Banana Surprise}}
+{{Online Staple Entry|Grape Preserves}}
+{{Online Staple Entry|Baked Potato}}
+{{Online Staple Entry|Carrot Soup}}
+{{Online Staple Entry|Roast Corn}}
+{{Online Staple Entry|Flank Steak}}
+{{Online Staple Entry|Grilled Hare}}
+{{Online Staple Entry|Roast Venison}}
+{{Online Staple Entry|Melon Jelly}}
+{{Online Staple Entry|Pumpkin Puree}}
+{{Online Staple Entry|Tomato Soup}}
+{{Online Staple Entry|Borscht}}
+{{Online Staple Entry|Green Salad}}
+{{Online Staple Entry|Steamed Radishes}}
+{{Online Staple Entry|Hunter's Pie}}
+{{Online Staple Entry|Rabbit Pasty}}
+{{Online Staple Entry|Pumpkin Cheesecake}}
+{{Online Staple Entry|Carrot Cheesecake}}
+{{Online Staple Entry|Gilane Garlicky Greens}}
+{{Online Staple Entry|Radishes in Rice}}
+{{Online Staple Entry|Pan-Fried Trout}}
+{{Online Staple Entry|Rabbit Millet Pilaf}}
+{{Online Staple Entry|Stir-Fried Garlic Beef}}
+{{Online Staple Entry|Deshaan Honeydew Hors D'oeuvres}}
+{{Online Staple Entry|Fried Green Tomatoes}}
+{{Online Staple Entry|Balmora Cabbage Biscuits}}
+{{Online Staple Entry|Port Hunding Cheese Fries}}
+{{Online Staple Entry|Spicy Beet Salad}}
+{{Online Staple Entry|Breton Pork Sausage}}
+{{Online Staple Entry|Venison Pasty}}
+{{Online Staple Entry|Whiterun Cheese-Baked Trout}}
+{{Online Staple Entry|Garlic Pumpkin Seeds}}
+{{Online Staple Entry|Pellitine Tomato Rice}}
+{{Online Staple Entry|Redoran Peppered Melon}}
+{{Online Staple Entry|Alik'r Beets with Goat Cheese}}
+{{Online Staple Entry|Nibenese Garlic Carrots}}
+{{Online Staple Entry|Cheese Pork Schnitzel}}
+{{Online Staple Entry|Chicken and Biscuits}}
+{{Online Staple Entry|Salted Cod}}
+{{Online Staple Entry|Cantaloupe Bread}}
+{{Online Staple Entry|Cinnamon Gorapples}}
+{{Online Staple Entry|Eidar Radish Salad}}
+{{Online Staple Entry|Potato Rice Blintzes}}
+{{Online Staple Entry|Rihad Beet and Garlic Salad}}
+{{Online Staple Entry|Elinhir Roast Antelope}}
+{{Online Staple Entry|Hare in Garlic Sauce}}
+{{Online Staple Entry|Senchal Curry Fish and Rice}}
+{{Online Staple Entry|Stormhold Baked Bananas}}
+{{Online Staple Entry|Cinnamon Grape Jelly}}
+{{Online Staple Entry|Cyrodilic Pumpkin Fritters}}
+{{Online Staple Entry|Chorrol Corn on the Cob}}
+{{Online Staple Entry|Garlic Mashed Potatoes}}
+{{Online Staple Entry|Jerall View Inn Carrot Cake}}
+{{Online Staple Entry|Bruma Jugged Rabbit}}
+{{Online Staple Entry|Camlorn Pork Sausage}}
+{{Online Staple Entry|Crispy Cheddar Chicken}}
+{{Online Staple Entry|Apple Cobbler Supreme}}
+{{Online Staple Entry|Clan Mother's Banana Pilaf}}
+{{Online Staple Entry|Rimmen Raisin Cookies}}
+{{Online Staple Entry|Indoril Radish Tartlets}}
+{{Online Staple Entry|Roasted Beet and Millet Salad}}
+{{Online Staple Entry|Twice-Baked Potatoes}}
+{{Online Staple Entry|Mammoth Snout Pie}}
+{{Online Staple Entry|Summer Sundas Soup}}
+{{Online Staple Entry|Cyrodilic Cornbread}}
+{{Online Staple Entry|Akaviri Pork Fried Rice}}
+{{Online Staple Entry|Solstheim Elk and Scuttle}}
+{{Online Staple Entry|Mage's Gorapple Porridge}}
+{{Online Staple Entry|Melon-Chevre Salad}}
+{{Online Staple Entry|Vvardenfell Ash Yam Loaf}}
+{{Online Staple Entry|Curried Kwama Scrib Risotto}}
+{{Online Staple Entry|Millet-Stuffed Pork Loin}}
+{{Online Staple Entry|Hag Fen Pumpkin Pie}}
+{{Online Staple Entry|Orcrest Garlic Apple Jelly}}
+{{Online Staple Entry|Velothi Cabbage Soup}}
+{{Online Staple Entry|Dunmeri Jerked Horse Haunch}}
+{{Online Staple Entry|Kwama Egg Quiche}}
+{{Online Staple Entry|Combwort Flatbread}}
+{{Online Staple Entry|Pickled Carrot Slurry}}
+{{Online Staple Entry|The Skald-King's Patty Melt}}
+{{Online Staple Entry|House Hlaalu Pumpkin Risotto}}
+{{Online Staple Entry|Nord Warrior Potato Porridge}}
+{{Online Staple Entry|Garlic-and-Pepper Venison Steak}}
+{{Online Staple Entry|Tomato Garlic Chutney}}
+{{Online Staple Entry|Bravil's Best Beet Risotto}}
+|}
+
+==Generic Food==
+These items can be found out in the open and are generally of poor quality, but low quality food is better than nothing.
+
+[[File:ON-icon-food-Ham.png|right]]
+==={{Item Link|Crusty Bread|id=94211}}===
+These increase your {{ESO Health Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Health
+|colspan=1|0
+|colspan=3|413
+|colspan=5|826
+|colspan=5|1239
+|colspan=5|1652
+|colspan=3|2065
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Health
+|colspan=2|2065
+|colspan=5|2478
+|colspan=5|2891
+|colspan=5|3304
+|colspan=5|3717
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Health
+|colspan=5|4130
+|colspan=2|4625
+|colspan=2|4708
+|colspan=1|4790
+|colspan=1|5203
+|colspan=2|5286
+|colspan=2|5369
+|colspan=2|5864
+|colspan=2|5947
+|colspan=1|6029
+|colspan=2|6277
+|}
+
+[[File:ON-icon-food-Sweetroll.png|right]]
+==={{Item Link|Crusty Sweetroll|id=94210}}===
+These increase your {{ESO Magicka Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Health
+|colspan=1|0
+|colspan=3|378
+|colspan=5|756
+|colspan=5|1134
+|colspan=5|1512
+|colspan=3|1890
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Health
+|colspan=2|1890
+|colspan=5|2268
+|colspan=5|2646
+|colspan=5|3024
+|colspan=5|3402
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Health
+|colspan=5|3780
+|colspan=2|4233
+|colspan=2|4309
+|colspan=1|4384
+|colspan=1|4762
+|colspan=2|4838
+|colspan=2|4914
+|colspan=2|5367
+|colspan=2|5443
+|colspan=1|5518
+|colspan=2|5745
+|}
+
+[[File:ON-icon-food-Cooking Fat.png|right]]
+==={{Item Link|Flavorless Paste|id=132530}}===
+Flavorless Paste is found in the Nutriment Dispensers scattered around the [[ON:Clockwork City|Clockwork City]].  They increase your {{ESO Health Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Health
+|colspan=1|0
+|colspan=3|413
+|colspan=5|826
+|colspan=5|1239
+|colspan=5|1652
+|colspan=3|2065
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Health
+|colspan=2|2065
+|colspan=5|2478
+|colspan=5|2891
+|colspan=5|3304
+|colspan=5|3717
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Health
+|colspan=5|4130
+|colspan=2|4625
+|colspan=2|4708
+|colspan=1|4790
+|colspan=1|5203
+|colspan=2|5286
+|colspan=2|5369
+|colspan=2|5864
+|colspan=2|5947
+|colspan=1|6029
+|colspan=2|6277
+|}
+
+==Deprecated Food==
+These are legacy food items created prior to [[ON:Update 6|Update 6]], which overhauled the Provisioning system.  They can still be used as normal, but may no longer be created
+
+{|class="wikitable sortable" {{AL|C}}
+!colspan=4|&nbsp;!!colspan=3 style="padding: 1em"|Increase Attribute Maximum Value by!!
+|-
+!class="unsortable"|&nbsp;!!width=15%|Name!!Food Level!!Dish Type!!{{ESO Health Link}}!!{{ESO Magicka Link}}!!{{ESO Stamina Link}}!!Dur (mins)
+|-
+|{{icon|f|Grilled Fish}}||{{Item Link|Cold Fish|quality=n|id=30589}}||'''1'''||{{ESO Quality Color|n|Meat}}||385||0||0||35
+|-
+|{{icon|f|Roast Beef}}||{{Item Link|Cold Roast Pig|quality=n|id=37870}}||'''1'''||{{ESO Quality Color|n|Meat}}||385||0||0||35
+|-
+|{{icon|f|Stew}}||{{Item Link|Congealed Cheese|quality=n|id=30586}}||'''1'''||{{ESO Quality Color|n|Meat}}||385||0||0||35
+|-
+|{{icon|f|Carrots}}||{{Item Link|Stale Carrots|quality=n|id=30590}}||'''1'''||{{ESO Quality Color|n|Meat}}||385||0||0||35
+|-
+|{{icon|f|Poultry}}||{{Item Link|Stale Chicken Breast|quality=n|id=30458}}||'''1'''||{{ESO Quality Color|n|Meat}}||385||0||0||35
+|-
+|{{icon|f|Fish Sticks}}||{{Item Link|Stale Fishy Stick|quality=n|id=37774}}||'''1'''||{{ESO Quality Color|n|Meat}}||385||0||0||35
+|-
+|{{icon|f|Seaweed}}||{{Item Link|Stale Radish|quality=n|id=30588}}||'''1'''||{{ESO Quality Color|n|Meat}}||385||0||0||35
+|-
+|{{icon|f|Grilled Apples}}||{{Item Link|Congealed Baked Apples|quality=n|id=37775}}||'''1'''||{{ESO Quality Color|n|Fruit}}||0||385||0||35
+|-
+|{{icon|f|Open Top Pie}}||{{Item Link|Congealed Banana Surprise|quality=n|id=37871}}||'''1'''||{{ESO Quality Color|n|Fruit}}||0||385||0||35
+|-
+|{{icon|f|Jam Pot}}||{{Item Link|Congealed Grape Preserves|quality=n|id=30460}}||'''1'''||{{ESO Quality Color|n|Fruit}}||0||385||0||35
+|-
+|{{icon|f|Grilled Potato}}||{{Item Link|Cold Baked Potato|quality=n|id=37869}}||'''1'''||{{ESO Quality Color|n|Vegetable}}||0||0||385||35
+|-
+|{{icon|f|Stew Bowl}}||{{Item Link|Cold Carrot Soup|quality=n|id=37773}}||'''1'''||{{ESO Quality Color|n|Vegetable}}||0||0||385||35
+|-
+|{{icon|f|Grilled Corn}}||{{Item Link|Cold Roast Corn|quality=n|id=30456}}||'''1'''||{{ESO Quality Color|n|Vegetable}}||0||0||385||35
+|-
+|{{icon|f|Rabbit Meat}}||{{Item Link|Stale Grilled Hare|quality=n|id=30459}}||'''5'''||{{ESO Quality Color|n|Meat}}||770||0||0||35
+|-
+|{{icon|f|Roast Beef}}||{{Item Link|Stale Roast Venison|quality=n|id=37876}}||'''5'''||{{ESO Quality Color|n|Meat}}||770||0||0||35
+|-
+|{{icon|f|Grilled Steak}}||{{Item Link|Stale Flank Steak|quality=n|id=37780}}||'''5'''||{{ESO Quality Color|n|Fruit}}||0||700||0||35
+|-
+|{{icon|f|Jam Pot}}||{{Item Link|Congealed Melon Jelly|quality=n|id=37781}}||'''5'''||{{ESO Quality Color|n|Fruit}}||0||700||0||35
+|-
+|{{icon|f|Red Soup}}||{{Item Link|Congealed Pumpkin Puree|quality=n|id=30461}}||'''5'''||{{ESO Quality Color|n|Fruit}}||0||700||0||35
+|-
+|{{icon|f|Yellow Soup}}||{{Item Link|Congealed Tomato Soup|quality=n|id=37877}}||'''5'''||{{ESO Quality Color|n|Fruit}}||0||700||0||35
+|-
+|{{icon|f|Red Soup}}||{{Item Link|Cold Borscht|quality=n|id=37875}}||'''5'''||{{ESO Quality Color|n|Vegetable}}||0||0||700||35
+|-
+|{{icon|f|Salad 01}}||{{Item Link|Cold Green Salad|quality=n|id=30457}}||'''5'''||{{ESO Quality Color|n|Vegetable}}||0||0||700||35
+|-
+|{{icon|f|Pot Pie}}||{{Item Link|Stale Hunter's Pie|quality=n|id=32071}}||'''10'''||{{ESO Quality Color|n|Meat}}||1155||0||0||35
+|-
+|{{icon|f|Fruit Pie}}||{{Item Link|Stale Rabbit Pasty|quality=n|id=37786}}||'''10'''||{{ESO Quality Color|n|Meat}}||1155||0||0||35
+|-
+|{{icon|f|Salad 04}}||{{Item Link|Congealed Bravil Melon Salad|quality=n|id=32072}}||'''10'''||{{ESO Quality Color|n|Fruit}}||0||1050||0||35
+|-
+|{{icon|f|Muffin}}||{{Item Link|Congealed Bravil Millet Muffin|quality=n|id=37883}}||'''10'''||{{ESO Quality Color|n|Fruit}}||0||1050||0||35
+|-
+|{{icon|f|Blue Cake}}||{{Item Link|Congealed Pumpkin Cheesecake|quality=n|id=37787}}||'''10'''||{{ESO Quality Color|n|Fruit}}||0||1050||0||35
+|-
+|{{icon|f|Red Cake}}||{{Item Link|Cold Carrot Cheesecake|quality=n|id=37785}}||'''10'''||{{ESO Quality Color|n|Vegetable}}||0||0||1050||35
+|-
+|{{icon|f|Risotto}}||{{Item Link|Cold Gilane Garlicky Greens|quality=n|id=37881}}||'''10'''||{{ESO Quality Color|n|Vegetable}}||0||0||1050||35
+|-
+|{{icon|f|White Rice}}||{{Item Link|Cold Radishes in Rice|quality=n|id=32070}}||'''10'''||{{ESO Quality Color|n|Vegetable}}||0||0||1050||35
+|-
+|{{icon|f|Fish Skillet}}||{{Item Link|Stale Pan-Fried Trout|quality=n|id=32077}}||'''15'''||{{ESO Quality Color|n|Meat}}||1540||0||0||35
+|-
+|{{icon|f|Risotto}}||{{Item Link|Stale Rabbit Millet Pilaf|quality=n|id=37888}}||'''15'''||{{ESO Quality Color|n|Meat}}||1540||0||0||35
+|-
+|{{icon|f|Grilled Apples}}||{{Item Link|Congealed Deshaan Honeydew Hors {{sic|d'Ouevre|d'Oeuvre|nolink=1}}|quality=n|id=37793}}||'''15'''||{{ESO Quality Color|n|Fruit}}||0||1400||0||35
+|-
+|{{icon|f|Covered Pot}}||{{Item Link|Congealed Fried Green Tomatoes|quality=n|id=37889}}||'''15'''||{{ESO Quality Color|n|Fruit}}||0||1400||0||35
+|-
+|{{icon|f|Biscuits}}||{{Item Link|Cold Balmora Cabbage Biscuits|quality=n|id=37791}}||'''15'''||{{ESO Quality Color|n|Vegetable}}||0||0||1400||35
+|-
+|{{icon|f|Fish Sticks}}||{{Item Link|Cold Port Hunding Cheese Fries|quality=n|id=32076}}||'''15'''||{{ESO Quality Color|n|Vegetable}}||0||0||1400||35
+|-
+|{{icon|f|Salad 01}}||{{Item Link|Cold Spicy Beet Salad|quality=n|id=37887}}||'''15'''||{{ESO Quality Color|n|Vegetable}}||0||0||1400||35
+|-
+|{{icon|f|Sausage}}||{{Item Link|Stale Breton Pork Sausage|quality=n|id=37798}}||'''20'''||{{ESO Quality Color|n|Meat}}||1925||0||0||35
+|-
+|{{icon|f|Fish Skillet}}||{{Item Link|Stale Whiterun Cheese-Baked Trout|quality=n|id=37894}}||'''20'''||{{ESO Quality Color|n|Meat}}||1925||0||0||35
+|-
+|{{icon|f|Coffee}}||{{Item Link|Congealed Garlic Pumpkin Seeds|quality=n|id=37895}}||'''20'''||{{ESO Quality Color|n|Fruit}}||0||1750||0||35
+|-
+|{{icon|f|Fried Rice}}||{{Item Link|Congealed Pellitine Tomato Rice|quality=n|id=37799}}||'''20'''||{{ESO Quality Color|n|Fruit}}||0||1750||0||35
+|-
+|{{icon|f|Fruit Plate 03}}||{{Item Link|Congealed Redoran Peppered Melon|quality=n|id=32096}}||'''20'''||{{ESO Quality Color|n|Fruit}}||0||1750||0||35
+|-
+|{{icon|f|Salad 04}}||{{Item Link|Cold Alik'r Beets with Goat Cheese|quality=n|id=37797}}||'''20'''||{{ESO Quality Color|n|Vegetable}}||0||0||1750||35
+|-
+|{{icon|f|Steak Skillet}}||{{Item Link|Stale Cheese Pork Schnitzel|quality=n|id=32095}}||'''25'''||{{ESO Quality Color|n|Meat}}||2310||0||0||35
+|-
+|{{icon|f|Risotto}}||{{Item Link|Stale Cheese Pork Schnitzel|quality=n|id=37804}}||'''25'''||{{ESO Quality Color|n|Meat}}||2310||0||0||35
+|-
+|{{icon|f|Poultry}}||{{Item Link|Stale Chicken and Biscuits|quality=n|id=32101}}||'''25'''||{{ESO Quality Color|n|Meat}}||2310||0||0||35
+|-
+|{{icon|f|Grilled Fish}}||{{Item Link|Stale Salted Cod|quality=n|id=37900}}||'''25'''||{{ESO Quality Color|n|Meat}}||2310||0||0||35
+|-
+|{{icon|f|Baguette}}||{{Item Link|Congealed Cantaloupe Bread|quality=n|id=37901}}||'''25'''||{{ESO Quality Color|n|Fruit}}||0||2100||0||35
+|-
+|{{icon|f|Grilled Apples}}||{{Item Link|Congealed Cinnamon Gorapples|quality=n|id=37805}}||'''25'''||{{ESO Quality Color|n|Fruit}}||0||2100||0||35
+|-
+|{{icon|f|Salad 02}}||{{Item Link|Cold Eidar Radish Salad|quality=n|id=37899}}||'''25'''||{{ESO Quality Color|n|Vegetable}}||0||0||2100||35
+|-
+|{{icon|f|Crepe}}||{{Item Link|Cold Potato Rice Blintzes|quality=n|id=32094}}||'''25'''||{{ESO Quality Color|n|Vegetable}}||0||0||2100||35
+|-
+|{{icon|f|Salad 01}}||{{Item Link|Cold Rihad Beet and Garlic Salad|quality=n|id=37803}}||'''25'''||{{ESO Quality Color|n|Vegetable}}||0||0||2100||35
+|-
+|{{icon|f|Roast Beef}}||{{Item Link|Stale Elinhir Roast Anteloupe|quality=n|id=40298}}||'''30'''||{{ESO Quality Color|n|Meat}}||2695||0||0||35
+|-
+|{{icon|f|Green Stew}}||{{Item Link|Stale Hare in Garlic Sauce|quality=n|id=32119}}||'''30'''||{{ESO Quality Color|n|Meat}}||2695||0||0||35
+|-
+|{{icon|f|Seafood Skillet}}||{{Item Link|Stale Senchal Curry Fish and Rice|quality=n|id=37810}}||'''30'''||{{ESO Quality Color|n|Meat}}||2695||0||0||35
+|-
+|{{icon|f|Jam Pot}}||{{Item Link|Congealed Cinnamon Grape Jelly|quality=n|id=37811}}||'''30'''||{{ESO Quality Color|n|Fruit}}||0||2450||0||35
+|-
+|{{icon|f|Fried Meat 01}}||{{Item Link|Congealed Cyrodilic Pumpkin Fritters|quality=n|id=37907}}||'''30'''||{{ESO Quality Color|n|Fruit}}||0||2450||0||35
+|-
+|{{icon|f|Grilled Corn}}||{{Item Link|Cold Chorrol Corn On the Cob|quality=n|id=37905}}||'''30'''||{{ESO Quality Color|n|Vegetable}}||0||0||2450||35
+|-
+|{{icon|f|White Rice}}||{{Item Link|Cold Garlic Mashed Potatoes|quality=n|id=37809}}||'''30'''||{{ESO Quality Color|n|Vegetable}}||0||0||2450||35
+|-
+|{{icon|f|Purple Cake}}||{{Item Link|Cold Jerall View Inn Carrot Cake|quality=n|id=32100}}||'''30'''||{{ESO Quality Color|n|Vegetable}}||0||0||2450||35
+|-
+|{{icon|f|Red Cake}}||{{Item Link|Congealed Jerall View Inn Carrot Cake|quality=n|id=32120}}||'''32'''||{{ESO Quality Color|n|Vegetable}}||0||0||2450||35
+|-
+|{{icon|f|Porkchop}}||{{Item Link|Stale Bruma Jugged Rabbit|quality=n|id=37912}}||'''35'''||{{ESO Quality Color|n|Meat}}||3080||0||0||35
+|-
+|{{icon|f|Ham}}||{{Item Link|Stale Camlorn Pork Sausage|quality=n|id=37816}}||'''35'''||{{ESO Quality Color|n|Meat}}||3080||0||0||35
+|-
+|{{icon|f|Poultry}}||{{Item Link|Stale Crispy Cheddar Chicken|quality=n|id=32125}}||'''35'''||{{ESO Quality Color|n|Meat}}||3080||0||0||35
+|-
+|{{icon|f|Open Top Pie}}||{{Item Link|Congealed Apple Cobbler Supreme|quality=n|id=32126}}||'''35'''||{{ESO Quality Color|n|Fruit}}||0||2800||0||35
+|-
+|{{icon|f|White Rice}}||{{Item Link|Congealed Clan Mother's Banana Pilaf|quality=n|id=37817}}||'''35'''||{{ESO Quality Color|n|Fruit}}||0||2800||0||35
+|-
+|{{icon|f|Biscuit}}||{{Item Link|Congealed Rimmen Raisin Cookies|quality=n|id=37913}}||'''35'''||{{ESO Quality Color|n|Fruit}}||0||2800||0||35
+|-
+|{{icon|f|Tart}}||{{Item Link|Cold Indoril Radish Tartlets|quality=n|id=32118}}||'''35'''||{{ESO Quality Color|n|Vegetable}}||0||0||2800||35
+|-
+|{{icon|f|Salad 01}}||{{Item Link|Cold Roasted Beet and Millet Salad|quality=n|id=37815}}||'''35'''||{{ESO Quality Color|n|Vegetable}}||0||0||2800||35
+|-
+|{{icon|f|Grilled Potato}}||{{Item Link|Cold Twice-Baked Potatoes|quality=n|id=37911}}||'''35'''||{{ESO Quality Color|n|Vegetable}}||0||0||2800||35
+|-
+|{{icon|f|Fruit Pie}}||{{Item Link|Stale Mammoth Snout Pie|quality=n|id=32143}}||'''40'''||{{ESO Quality Color|n|Meat}}||3465||0||0||35
+|-
+|{{icon|f|Cornbread}}||{{Item Link|Cold Cyrodilic Corn Bread|quality=n|id=32124}}||'''40'''||{{ESO Quality Color|n|Vegetable}}||0||0||3150||35
+|-
+|{{icon|f|Green Stew}}||{{Item Link|Stale Solstheim Elk and Scuttle|quality=n|id=32149}}||'''45'''||{{ESO Quality Color|n|Meat}}||3850||0||0||35
+|-
+|{{icon|f|Salad 04}}||{{Item Link|Congealed Melon-Chevre Salad|quality=n|id=32144}}||'''45'''||{{ESO Quality Color|n|Fruit}}||0||3500||0||35
+|-
+|{{icon|f|Baguette}}||{{Item Link|Cold Vvardenfell Ash Yam Loaf|quality=n|id=32142}}||'''45'''||{{ESO Quality Color|n|Vegetable}}||0||0||3500||35
+|-
+|{{icon|f|Jam Pot}}||{{Item Link|Congealed Orcrest Garlic Apple Jelly|quality=n|id=32150}}||'''50'''||{{ESO Quality Color|n|Fruit}}||0||3920||0||35
+|-
+|{{icon|f|Red Soup}}||{{Item Link|Cold West Weald Corn Chowder|quality=n|id=32148}}||'''50'''||{{ESO Quality Color|n|Vegetable}}||0||0||3920||35
+|}
+[[File:ON-icon-food-Ham.png|right]]
+
+==={{Item Link|Stale Bread|id=30585}}===
+These increase your {{ESO Health Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21||22||23||24||25
+|-
+!Health
+|colspan=1|0
+|colspan=3|413
+|colspan=5|826
+|colspan=5|1239
+|colspan=5|1652
+|colspan=5|2065
+|colspan=1|2478
+|-{{ThickLine}}
+!Level
+|26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44||45||46||47||48||49||50
+|-
+!Health
+|colspan=4|2478
+|colspan=5|2891
+|colspan=5|3304
+|colspan=5|3717
+|colspan=5|4130
+|colspan=1|4625
+|}
+
+[[File:ON-icon-food-Sweetroll.png|right]]
+==={{Item Link|Stale Sweetroll|id=74721}}===
+These increase your {{ESO Magicka Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21||22||23||24||25
+|-
+!Health
+|colspan=1|0
+|colspan=3|378
+|colspan=5|756
+|colspan=5|1134
+|colspan=5|1512
+|colspan=5|1890
+|colspan=1|2268
+|-{{ThickLine}}
+!Level
+|26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44||45||46||47||48||49||50
+|-
+!Health
+|colspan=4|2268
+|colspan=5|2646
+|colspan=5|3024
+|colspan=5|3402
+|colspan=5|3780
+|colspan=1|4233
+|}
+
+==Alliance Food==
+These items can only be purchased with [[ON:Alliance Points|Alliance Points]] from vendors in [[ON:Cyrodiil|Cyrodiil]].  (The first 9 levels of these items technically exist, but are unavailable since you can't enter Cyrodiil until level 10 at the minimum.)
+
+[[File:ON-icon-food-Brown Cake.png|right]]
+==={{Item Link|Cyrodilic Field Treat|id=71075}}===
+These increase your {{ESO Health Link|Max}} and {{ESO Magicka Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|{{BG|#eeeeee}}|<s>1</s>||{{BG|#eeeeee}}|<s>2</s>||{{BG|#eeeeee}}|<s>3</s>||{{BG|#eeeeee}}|<s>4</s>||{{BG|#eeeeee}}|<s>5</s>||{{BG|#eeeeee}}|<s>6</s>||{{BG|#eeeeee}}|<s>7</s>||{{BG|#eeeeee}}|<s>8</s>||{{BG|#eeeeee}}|<s>9</s>||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Health
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>329</s>
+|colspan=5 {{BG|#eeeeee}}|<s>658</s>
+|colspan=5|987
+|colspan=5|1316
+|colspan=3|1645
+|-
+!Magicka
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>301</s>
+|colspan=5 {{BG|#eeeeee}}|<s>602</s>
+|colspan=5|903
+|colspan=5|1204
+|colspan=3|1505
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Health
+|colspan=2|1645
+|colspan=5|1974
+|colspan=4|2303
+|colspan=1|2303
+|colspan=5|2632
+|colspan=5|2961
+|-
+!Magicka
+|colspan=5|2709
+|colspan=2|1505
+|colspan=5|1806
+|colspan=4|2107
+|colspan=1|2107
+|colspan=5|2408
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Health
+|colspan=5|3290
+|colspan=2|3684
+|colspan=2|3750
+|colspan=1|3816
+|colspan=1|4145
+|colspan=2|4211
+|colspan=2|4277
+|colspan=2|4671
+|colspan=2|4737
+|colspan=1|4803
+|colspan=2|5000
+|-
+!Magicka
+|colspan=5|3010
+|colspan=2|3371
+|colspan=2|3431
+|colspan=1|3491
+|colspan=1|3792
+|colspan=2|3852
+|colspan=2|3913
+|colspan=2|4274
+|colspan=2|4334
+|colspan=1|4394
+|colspan=2|4575
+|}
+
+[[File:ON-icon-food-Biscuits.png|right]]
+==={{Item Link|Cyrodilic Field Tack|id=71074}}===
+These increase your {{ESO Health Link|Max}} and {{ESO Stamina Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|{{BG|#eeeeee}}|<s>1</s>||{{BG|#eeeeee}}|<s>2</s>||{{BG|#eeeeee}}|<s>3</s>||{{BG|#eeeeee}}|<s>4</s>||{{BG|#eeeeee}}|<s>5</s>||{{BG|#eeeeee}}|<s>6</s>||{{BG|#eeeeee}}|<s>7</s>||{{BG|#eeeeee}}|<s>8</s>||{{BG|#eeeeee}}|<s>9</s>||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Health
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>329</s>
+|colspan=5 {{BG|#eeeeee}}|<s>658</s>
+|colspan=5|987
+|colspan=5|1316
+|colspan=3|1645
+|-
+!Stamina
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>301</s>
+|colspan=5 {{BG|#eeeeee}}|<s>602</s>
+|colspan=5|903
+|colspan=5|1204
+|colspan=3|1505
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Health
+|colspan=2|1645
+|colspan=5|1974
+|colspan=5|2303
+|colspan=5|2632
+|colspan=5|2961
+|-
+!Stamina
+|colspan=2|1505
+|colspan=5|1806
+|colspan=5|2107
+|colspan=5|2408
+|colspan=5|2709
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Health
+|colspan=5|3290
+|colspan=2|3684
+|colspan=2|3750
+|colspan=1|3816
+|colspan=1|4145
+|colspan=2|4211
+|colspan=2|4277
+|colspan=2|4671
+|colspan=2|4737
+|colspan=1|4803
+|colspan=2|5000
+|-
+!Stamina
+|colspan=5|3010
+|colspan=2|3371
+|colspan=2|3431
+|colspan=1|3491
+|colspan=1|3792
+|colspan=2|3852
+|colspan=2|3913
+|colspan=2|4274
+|colspan=2|4334
+|colspan=1|4394
+|colspan=2|4575
+|}
+
+[[File:ON-icon-food-Cornbread.png|right]]
+==={{Item Link|Cyrodilic Field Bar|id=71076}}===
+These increase your {{ESO Magicka Link|Max}} and {{ESO Stamina Link|Max}}.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|{{BG|#eeeeee}}|<s>1</s>||{{BG|#eeeeee}}|<s>2</s>||{{BG|#eeeeee}}|<s>3</s>||{{BG|#eeeeee}}|<s>4</s>||{{BG|#eeeeee}}|<s>5</s>||{{BG|#eeeeee}}|<s>6</s>||{{BG|#eeeeee}}|<s>7</s>||{{BG|#eeeeee}}|<s>8</s>||{{BG|#eeeeee}}|<s>9</s>||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Magicka
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>301</s>
+|colspan=5 {{BG|#eeeeee}}|<s>602</s>
+|colspan=5|903
+|colspan=5|1204
+|colspan=3|1505
+|-
+!Stamina
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>301</s>
+|colspan=5 {{BG|#eeeeee}}|<s>602</s>
+|colspan=5|903
+|colspan=5|1204
+|colspan=3|1505
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Magicka
+|colspan=2|1505
+|colspan=5|1806
+|colspan=4|2107
+|colspan=1|2107
+|colspan=5|2408
+|colspan=5|2709
+|-
+!Stamina
+|colspan=2|1505
+|colspan=5|1806
+|colspan=4|2107
+|colspan=1|2107
+|colspan=5|2408
+|colspan=5|2709
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Magicka
+|colspan=5|3010
+|colspan=2|3371
+|colspan=2|3431
+|colspan=1|3491
+|colspan=1|3792
+|colspan=2|3852
+|colspan=2|3913
+|colspan=2|4274
+|colspan=2|4334
+|colspan=1|4394
+|colspan=2|4575
+|-
+!Stamina
+|colspan=5|3010
+|colspan=2|3371
+|colspan=2|3431
+|colspan=1|3491
+|colspan=1|3792
+|colspan=2|3852
+|colspan=2|3913
+|colspan=2|4274
+|colspan=2|4334
+|colspan=1|4394
+|colspan=2|4575
+|}
+
+==Crown Food==
+These items can only be purchased from the [[ON:Crown Store|Crown Store]] or the [[ON:Gold Coast Bazaar|Gold Coast Bazaar]] if noted.
+
+{|class=wikitable
+!rowspan=2| !!rowspan=2|Food!!Description!!rowspan=2|Price
+|-
+!Effects
+|-
+|{{icon|f|Crown Hearty Health Hash}}||{{Item Link|Crown Hearty Health Hash|quality=f|id=64494}}
+|Increase {{ESO Health Link|Max}} by 5905 for 2 hours. These effects are scaled based on your level, up to Veteran Rank 10.
+|{{huh}}
+|-
+|{{icon|f|Crown Mystical Mince Pie}}||{{Item Link|Crown Mystical Mince Pie|quality=f|id=64495}}
+|Increase {{ESO Magicka Link|Max}} by 5373 for 2 hours. These effects are scaled based on your level, up to Veteran Rank 10.
+|{{huh}}
+|-
+|{{icon|f|Crown Staunchness Stew}}||{{Item Link|Crown Staunchness Stew|quality=f|id=64496}}
+|Increase {{ESO Stamina Link|Max}} by 5373 for 2 hours. These effects are scaled based on your level, up to Veteran Rank 10.
+|{{huh}}
+|-{{ThickLine}}
+|rowspan=2|{{icon|f|Crown Combat Mystic's Stew}}||rowspan=2|{{Item Link|Crown Combat Mystic's Stew|quality=s|id=124675}}
+|''Use of this food increases maximum Health and Magicka.''
+|rowspan=2|{{huh}}
+|-
+|Increase {{ESO Magicka Link|Max}} by 4575 and {{ESO Health Link|Max}} by 5054 for 1 hour. These effects are scaled based on your level.
+|-
+|rowspan=2|{{icon|f|Crown Vigorous Ragout}}||rowspan=2|{{Item Link|Crown Vigorous Ragout|quality=s|id=124676}}
+|''Use of this food increases maximum Health and Stamina.''
+|rowspan=2|{{huh}}
+|-
+|Increase {{ESO Stamina Link|Max}} by 4575 and {{ESO Health Link|Max}} by 5054 for 1 hour. These effects are scaled based on your level.
+|-{{ThickLine}}
+|rowspan=2|{{icon|f|Crown Crate Fortifying Meal}}||rowspan=2|{{Item Link|Crown Crate Fortifying Meal|quality=e|id=94437}}
+|''The revivifying ingredients in this Fortifying Meal will increase your Health, Magicka, and Stamina for one hour.''
+|rowspan=2|{{huh}}
+|-
+|Increase {{ESO Health Link|Max}} by 3936, {{ESO Magicka Link|Max}} by 3617, and {{ESO Stamina Link|Max}} by 3617 for 1 hour. These effects are scaled based on your level.
+|-
+|{{icon|f|Crown Fortifying Meal}}||{{Item Link|Crown Fortifying Meal|quality=e|id=64711}}{{intnote|gcb}}
+|Increase {{ESO Health Link|Max}} by 3936, {{ESO Magicka Link|Max}} by 3617, and {{ESO Stamina Link|Max}} by 3617 for 2 hours. These effects are scaled based on your level.
+|{{ESO TB|100}} (20 units)
+|}
+{{note|gcb|3=Can be purchased from the Gold Coast Bazaar}}
+
+==Miscellaneous==
+{|class=wikitable
+!rowspan=2| !!rowspan=2|Food!!Description!!rowspan=2|Price
+|-
+!Effects
+|-
+|rowspan=2|{{icon|f|High Hrothgar Festival Mints}}||rowspan=2|{{Item Link|High Hrothgar Festival Mints|id=112442}}
+|''These breath mints are supposedly concocted at a remote mountain peak. Chewing a handful produces a glacial sensation and an exceptionally frosty breath.''
+|rowspan=2|{{huh}}
+|-
+|Momentarily turns your skin to ice.
+|-
+|rowspan=2|{{icon|f|Spoiled Food}}||rowspan=2|{{Item Link|Spoiled Food|id=57660}}
+|''Foul smelling food.''
+|rowspan=2|
+|-
+|Causes you to vomit.
+|}
+
+{{Online Items}}

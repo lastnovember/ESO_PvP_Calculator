@@ -1,0 +1,63 @@
+{{Trail|Combat}}
+{{About|The effect in combat|Scribing script|Off Balance (script)}}
+[[File:ON-misc-Offbalance.jpg|thumb|left|An Off Balance enemy]]
+'''Off Balance''' is a debilitating effect in itself but it is mostly used to trigger other negative effects. It can be caused by various attacks, but most commonly by Blocking a melee Heavy Attack.
+
+Applying Off Balance stuns the target. When an enemy is Off Balance, they can be knocked down with a Heavy Attack whose damage and resources restoration are boosted by 70%. Both the knockdown and the stun will not occur if the target is immune to crowd control but it will still be vulnerable to effects against Off Balance targets. You cannot get rid of Off Balance by breaking free of the crowd control or by using a cleansing ability.
+
+Off Balance will last 7 seconds regardless of the source or the target and gives an Off Balance Immunity of 15 seconds when it ends.
+
+Off Balance debuff icon: {{ESO Icon Abbr|misc|Off Balance}}
+
+Off Balance Immunity icon: {{ESO Icon Abbr|achievement|Assassinate the Emperor}}
+{{NewLine}}
+==Skills==
+{|class=wikitable
+!colspan=2|Skill!!Affects!!Cost!!Notes
+|-
+|colspan=2|[[ON:Lava Whip|Lava Whip]] ([[ON:Ardent Flame|Ardent Flame]])||rowspan=2|Single Target||rowspan=2|{{ESO Magicka Link|2700}}||Target must be stunned or immobilized first.
+|-
+|width=20| ||[[ON:Flame Lash|Flame Lash]] (morph)||If target is already Off Balance, does more damage and heals you.
+|-
+|colspan=2|[[ON:Deep Breath|Deep Breath]] ([[ON:Draconic Power|Draconic Power]])||Nearby Enemies||{{ESO Magicka Link|4320}}||Target must be interrupted while spellcasting.
+|-
+|colspan=2|[[ON:Shattering Rocks|Shattering Rocks]] ([[ON:Earthen Heart|Earthen Heart]])||Single Target||{{ESO Magicka Link|3510}}||Occurs after 20 sec., 50% chance.
+|-
+|colspan=2|[[ON:Veiled Strike|Veiled Strike]] ([[ON:Assassination|Assassination]])||rowspan=3|Single Target||{{ESO Magicka Link|2295}}||rowspan=3|Must cast while flanking.
+|-
+| ||[[ON:Surprise Attack|Surprise Attack]] (morph)||{{ESO Stamina Link|2295}}
+|-
+| ||[[ON:Concealed Weapon|Concealed Weapon]] (morph)||{{ESO Magicka Link|2295}}
+|-
+|colspan=2|[[ON:Focused Charge|Focused Charge]] ([[ON:Aedric Spear|Aedric Spear]])||rowspan=2|Single Target||rowspan=2|{{ESO Magicka Link|3510}}||Includes Explosive charge morph, Target must be interrupted while spellcasting.
+|-
+|width=20| ||[[ON:Toppling Charge|Toppling Charge]] (morph)||Stuns and sets Off Balance, interrupts if casting.
+|-
+|colspan=2|[[ON:Dive|Dive]] ([[ON:Animal Companions|Animal Companions]])||Single Target||{{ESO Magicka Link|2700}}||Target must be at least 7 meters away.
+|-
+|colspan=2|[[ON:Death Scythe|Death Scythe]] ([[ON:Bone Tyrant|Bone Tyrant]])||rowspan=2|Enemies in Range||{{ESO Magicka Link|3240}}|| Only Ruinous Scythe apply off balance.
+|-
+|width=20| ||[[ON:Ruinous Scythe|Ruinous Scythe]] (morph)||{{ESO Stamina Link|2754}}||Applying the Hemorrhaging status effect, and setting them Off Balance.
+|-
+|colspan=2|[[ON:Venom Arrow|Venom Arrow]] ([[ON:Bow|Bow]])||Single Target||{{ESO Stamina Link|2430}}||Target must be interrupted while spellcasting.
+|-
+|colspan=2|[[ON:Crushing Shock|Crushing Shock]] ([[ON:Destruction Staff|Destruction Staff]])||Single Target||{{ESO Magicka Link|2700}}||Target must be interrupted while spellcasting.
+|-
+|colspan=2|{{nowrap|[[ON:Wall of Elements|Wall of Elements]] ([[ON:Destruction Staff|Destruction Staff]])}}||Enemies in Range||{{ESO Magicka Link|3510}}||Must use Lightning Staff, target must be [[on:Concussion|Concussed]] first
+|-
+|colspan=2|[[ON:Savage Feeding|Savage Feeding]] ([[ON:Vampire|Vampire]])||Single Target||'''Passive'''||When Feeding on a target, must be from stealth
+|-
+|colspan=2|[[ON:Pounce|Pounce]] ([[ON:Werewolf|Werewolf]])||Nearby Targets||{{ESO Stamina Link|4050}}||Also stuns targets.
+|-
+|colspan=2|[[ON:Roar|Roar]] ([[ON:Werewolf|Werewolf]])||Nearby Targets||{{ESO Stamina Link|4163}}||Also inflicts [[ON:Fear|Fear]].
+|-
+|colspan=2|[[ON:Uppercut|Uppercut]] ([[ON:Two Handed|Two Handed]])||rowspan=2|Single Target||rowspan=2|{{ESO Stamina Link|2700}}||Only the morph (Dizzying Swing) applies the Off Balance.
+|-
+|width=20| ||[[ON:Dizzying Swing|Dizzying Swing]](morph)|| Hitting an enemy that is already Off Balance stuns them for 2 seconds. Targets that are immune to Off Balance are snared by 40% for 2 seconds.
+|}
+
+==Notes==
+* With [[on:Update 34|Update 34]], [[on:Champion|Champion Points]] in the [[ON:Exploiter|Exploiter]] perk under [[on:Extended Might|Extended Might]] in the [[on:warfare|Warfare]] tree will increase your damage done against Off Balance enemies by up to 10%.
+* Prior to [[ON:Update 29|Update 29]], [[ON:Champion/deprecated|Champion Points]] provided the following effects:
+**The [[ON:Tactician (champion)|Tactician]] perk from 120 points in [[ON:The Atronach (champion)|The Atronach]] will set enemies Off Balance when you perform a Roll Dodge near them.
+**The Exploiter perk from 75 points in [[ON:The Ritual (champion)|The Ritual]] will increase your damage done against Off Balanced enemies.

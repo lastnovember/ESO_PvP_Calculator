@@ -1,0 +1,71 @@
+{{Trail|Items}}{{TOCright|limit=2}}'''Armor''' comes in many shapes and sizes. There are three types of armor available: '''[[ON:Light Armor|light]]''', '''[[ON:Medium Armor|medium]]''', and '''[[ON:Heavy Armor|heavy]]'''. Light armor is geared toward mages, medium armor is geared toward stamina users, and heavy armor (the most protective type of armor) is geared toward frontline warriors. There are no limits to what armor you can wear; you can wear any armor or equip any [[ON:Weapons|weapon]], regardless of [[ON:Races|race]], [[ON:Classes|class]], or [[ON:Factions|alliance]]. 
+
+In a switch back to the older gameplay of [[Oblivion:Oblivion|Oblivion]] and [[Morrowind:Morrowind|Morrowind]], armor will degrade in combat and other circumstances (such as dying and respawning). There are repair kits you can carry around to make repairs in the field, or you can pay any merchant to do the work for you. Previously, the armor rating of a single piece of armor would gradually decrease as it degraded. As of patch 2.1.5, the armor rating stays the same until the piece of armor is fully damaged, after which its rating will be zero until repaired.
+
+Armor is split into seven body sections, with different types for light, medium, and heavy armors: [[ON:Hats (armor)|hats]], [[ON:helmets|helmets]], and [[ON:helms|helms]] for the head; [[ON:epaulets|epaulets]], [[ON:Arm Cops|arm cops]], and [[ON:pauldrons|pauldrons]] for the shoulders; [[ON:robes|robes]] (or [[ON:jerkins|jerkins]]), [[ON:jacks|jacks]], and [[ON:cuirasses|cuirasses]] for the torso; [[ON:gloves|gloves]], [[ON:bracers|bracers]], and [[ON:gauntlets|gauntlets]] for the hands; [[ON:sashes|sashes]], [[ON:belts|belts]], and [[ON:girdles|girdles]] for the waist; [[ON:breeches|breeches]], [[ON:guards|guards]], and [[ON:greaves|greaves]] for the legs; and [[ON:shoes|shoes]], [[ON:boots|boots]], and [[ON:sabatons|sabatons]] for the feet. In addition, there are four more equipment slots for a [[ON:Disguises|disguise]]/[[ON:Costumes|costume]], two [[ON:Jewelry|rings]], and a [[ON:Jewelry|necklace]], as well as two hand slots. A [[ON:Shields|shield]] can be equipped in one of the hands to add to the armor rating and allow the use of [[ON:One Hand and Shield|One Hand and Shield]] skills.
+{{NewLine}}
+==Armor Materials==
+There are thirty materials that appear in ''The Elder Scrolls Online''.
+
+===Light===
+<cleanspace>
+{{/Material|pm|Jute|Homespun}}
+{{/Material|pm|Flax|Linen}}
+{{/Material|pm|Cotton|Cotton}}
+{{/Material|pm|Spidersilk|Spidersilk}}
+{{/Material|pm|Ebonthread|Ebonthread}}
+{{/Material|pm|Kresh Fiber|Kresh}}
+{{/Material|pm|Ironthread|Ironthread}}
+{{/Material|pm|Silverweave|Silverweave}}
+{{/Material|pm|Void Cloth|Shadowspun}}
+{{/Material|pm|Ancestor Silk|Ancestor Silk}}
+</cleanspace>
+
+===Medium===
+<cleanspace>
+{{/Material|pm|Rawhide|Rawhide}}
+{{/Material|pm|Leather|Hide}}
+{{/Material|pm|Leather|Leather}}
+{{/Material|pm|Thick Leather|Full-Leather}}
+{{/Material|pm|Fell Hide|Fell}}
+{{/Material|pm|Topgrain Hide|Brigandine}}
+{{/Material|pm|Iron Hide|Ironhide}}
+{{/Material|pm|Superb Hide|Superb}}
+{{/Material|pm|Shadowhide|Shadowhide}}
+{{/Material|pm|Rubedo Leather|Rubedo Leather}}
+</cleanspace>
+
+===Heavy===
+<cleanspace>
+{{/Material|ingot|Iron Ingot|Iron}}
+{{/Material|ingot|Steel Ingot|Steel}}
+{{/Material|ingot|Orichalcum Ingot|Orichalc}}
+{{/Material|ingot|Dwarven Ingot|Dwarven}}
+{{/Material|ingot|Ebony Ingot|Ebon}}
+{{/Material|ingot|Calcinium Ingot|Calcinium}}
+{{/Material|ingot|Galatite Ingot|Galatite}}
+{{/Material|ingot|Quicksilver Ingot|Quicksilver}}
+{{/Material|ingot|Voidstone Ingot|Voidsteel}}
+{{/Material|ingot|Rubedite Ingot|Rubedite}}
+</cleanspace>
+
+==Styles==
+:''Main article: [[ON:Styles|Styles]]''{{ON:Styles}}
+
+==Traits==
+{{#lsth:ON:Traits}}{{#lsth:ON:Traits|Armor Traits}}
+
+==Enchantments==
+The following enchantments (all additive) can be added to armor:
+* {{Item Link|id=45833|Deni}}: [[ON:Glyph of Stamina|Glyph of Stamina]] - Increases {{ESO Stamina Link|Maximum}}
+* {{Item Link|id=68342|Hakeijo}}: [[ON:Glyph of Prismatic Defense|Glyph of Prismatic Defense]] - Increases '''Maximum''' {{ESO Health Link}}, {{ESO Magicka Link}}, and {{ESO Stamina Link}}
+* {{Item Link|id=45832|Makko}}: [[ON:Glyph of Magicka|Glyph of Magicka]] - Increases {{ESO Magicka Link|Maximum}}
+* {{Item Link|id=45831|Oko}}: [[ON:Glyph of Health|Glyph of Health]] - Increases {{ESO Health Link|Maximum}}
+
+==Gallery==
+<gallery>
+File:ON-concept-16.jpg|Heavy Armor (High Elf, Nord, Breton)
+File:ON-concept-Heavy Armor.jpg|Heavy Armor (Redguard, Wood Elf, Dark Elf)
+File:ON-concept-Heavy Armor 03.jpg|Heavy Armor (Argonian, Orc, Khajiit)
+</gallery>
+{{Online Skills Armor}}

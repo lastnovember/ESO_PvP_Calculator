@@ -1,0 +1,66 @@
+{{Trail|Items}}[[Category:Online-Weapons| ]] {{about|weapon items|the merchant type|Online:Weapons (vendor)}} {{TOCright|limit=2}}'''Weapons''' in Online fall into five categories. They are:
+*'''[[ON:Bows|Bows]]''', used by the [[ON:Bow|Bow]] skill
+*'''[[ON:Destruction Staves|Destruction Staves]]''', (Inferno, Ice, and Lightning Staves) used by the [[ON:Destruction Staff|Destruction Staff]] skill
+*'''One handed weapons,''' including [[ON:Daggers|Daggers]], [[ON:Swords|Swords]], [[ON:Axes|Axes]], and [[ON:Maces|Maces]], which may either be combined with a [[ON:Shields|Shield]] for the [[ON:One Hand and Shield|One Hand and Shield]] skill, or used with one in each hand for the [[ON:Dual Wield|Dual Wield]] skill. All one-handed weapons can be wielded in either hand.
+*'''Two handed weapons,''' including [[ON:Greatswords|Greatswords]], [[ON:Battle Axes|Battle Axes]], and [[ON:Mauls|Mauls]], used by the [[ON:Two Handed|Two Handed]] skill
+*'''[[ON:Restoration Staves|Restoration Staves]],''' used by the [[ON:Restoration Staff|Restoration Staff]] skill
+
+Weapons are not [[ON:Classes|class]] or [[ON:Races|race]] locked, they can be used by any player character.
+
+[[File:ON-concept-Weapons.jpg|thumb|right|A selection of weapons]]
+
+===Unlocking Skill Lines===
+
+Equipping a weapon from any class and killing a target will unlock an associated skill line. Using a one-handed weapon without a shield or second weapon is an exception to this, however, since it doesn't match any of the skill lines. To use unlocked abilities from skill lines you must have that type of weapon equipped (e.g. to use Grand Healing from the Restoration staff skill a Restoration Staff must be equipped).
+
+===Differences Between Weapons===
+
+For the most part there is no functional difference between weapons in the same category, so a dagger and an axe with the same damage rating will have exactly the same effect. The only exceptions are: 
+* The different types of staves do different elemental damage (Ice, Fire, Lightning).
+* Two passive skills give different bonuses depending on which weapon you have equipped:
+** [[ON:Heavy Weapons|Heavy Weapons]] (Two Handed) add extra damage for [[ON:Greatswords|Greatswords]], increase critical effectiveness for [[ON:Battle Axes|Battle Axes]] and armor penetration for [[ON:Mauls|Mauls]].
+** [[ON:Twin Blade and Blunt|Twin Blade and Blunt]] (Dual Wield) adds extra damage over time for [[ON:Axes|Axes]], armor penetration for [[ON:Maces|Maces]], increased damage for [[ON:Swords|Swords]] and increased critical ratings for [[ON:Daggers|Daggers]].
+
+==Weapon Materials==
+There are twenty materials that appear in ''The Elder Scrolls Online''.
+
+===Melee===
+<cleanspace>
+{{/Material|ingot|Iron Ingot|Iron}}
+{{/Material|ingot|Steel Ingot|Steel}}
+{{/Material|ingot|Orichalcum Ingot|Orichalc}}
+{{/Material|ingot|Dwarven Ingot|Dwarven}}
+{{/Material|ingot|Ebony Ingot|Ebon}}
+{{/Material|ingot|Calcinium Ingot|Calcinium}}
+{{/Material|ingot|Galatite Ingot|Galatite}}
+{{/Material|ingot|Quicksilver Ingot|Quicksilver}}
+{{/Material|ingot|Voidstone Ingot|Voidsteel}}
+{{/Material|ingot|Rubedite Ingot|Rubedite}}
+</cleanspace>
+
+===Ranged===
+<cleanspace>
+{{/Material|sanded wood|Sanded Maple|Maple}}
+{{/Material|sanded wood|Sanded Oak|Oak}}
+{{/Material|sanded wood|Sanded Beech|Beech}}
+{{/Material|sanded wood|Sanded Hickory|Hickory}}
+{{/Material|sanded wood|Sanded Yew|Yew}}
+{{/Material|sanded wood|Sanded Birch|Birch}}
+{{/Material|sanded wood|Sanded Ash|Ash}}
+{{/Material|sanded wood|Sanded Mahogany|Mahogany}}
+{{/Material|sanded wood|Sanded Nightwood|Nightwood}}
+{{/Material|sanded wood|Sanded Ruby Ash|Ruby Ash}}
+</cleanspace>
+
+==Styles==
+{{ON:Styles}}
+
+==Traits==
+{{#lsth:ON:Traits}}{{#lsth:ON:Traits|Weapon Traits}}
+
+==Notes==
+*On the possibility of new weapons, [[General:Rich Lambert|Rich Lambert]] stated ''"I mean, anything is possible in the future. We're going on nine years now. We didn't have many of the things in the game now when we launched. New weapons and weapons skill lines are difficult, though, as we'd have to do a lot of art. There are a hundred different motifs in the game and they all have weapons associated with them. If we added a new weapon, we would have to add that to all of them. That's just one small consideration to think about that. It would be a huge undertaking."''{{Ref|name=NecromQA|[https://wccftech.com/elder-scrolls-online-shadow-over-morrowind-qa-creative-director-talks-necrom-chapter-community-requests/ Elder Scrolls Online Shadow Over Morrowind Q&A – Creative Director Talks Necrom Chapter & Community Requests]}}
+
+==References==
+<references />
+{{Online Skills Weapon}}

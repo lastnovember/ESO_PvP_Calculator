@@ -1,0 +1,21 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Siege Shield,2,Instant,Area,–,10 meters,20 seconds,8100 Magicka
+Duration: [17 / 18 / 19 / 20] seconds. Create a protective sphere over your location that reduces damage taken from siege weapons by 50 % for you and nearby allies.
+,,Siege Weapon Shield,"Your and allied siege weapons in the bubble take reduced damage from other siege weapons. Create a protective sphere over your location that reduces damage taken from siege weapons by 50 % for you and nearby allies. The sphere also protects you and your allies' siege weapons, reducing damage from enemy siege weapons by [60 / 65 / 70 / 75] %."
+,Propelling Shield,"Costs less and allies in the shield gain increased range. Cost: 7830 Magicka . Create a protective sphere over your location that reduces damage taken from siege weapons by 50 % for you and nearby allies. Also increases the range of abilities with a range greater than 28 meters by [4 / 5 / 6 / 7] meters. Does not affect Leap, Move Position, and Pull abilities."
+""
+,Purge,4,Instant,Area,–,18 meters,–,7830 Magicka
+"Cost: [8100 / 8010 / 7920 / 7830] Magicka . Cleanse yourself and your group, removing up to 3 negative effects immediately."
+,,Efficient Purge,"Reduces the cost. Cost: [5670 / 5580 / 5490 / 5400] Magicka . Cleanse yourself and your group, removing up to 3 negative effects immediately."
+,Cleanse,"If a negative effect is removed, the target is healed. Cleanse yourself and your group, removing 3 negative effects immediately. For every negative effect removed, the target is healed for [2 / 3 / 4 / 5] % of their Max Health ."
+""
+,Guard,5,Instant,{{{target}}},15 meters,–,–,3402 Stamina
+"Cost: [3672 / 3582 / 3492 / 3402] Stamina . Create a lifebond between you and an allied player. While bonded, 30 % of the damage they take is instead redistributed to you. The bond will remain until you recast the spell or move more than 15 meters away from your ally."
+,,Mystic Guard,"You and your bonded ally also gain Minor Vitality, increasing your healing received. Cost: [3402 / 3312 / 3222 / 3132] Stamina . Create a lifebond between you and an allied player. While bonded, 30 % of the damage they take is instead redistributed to you. You and your bonded ally also gain Minor Vitality , increasing your healing received and damage shield strength by 6 %. The bond will remain until you recast the spell or move more than 15 meters away from your ally."
+,Stalwart Guard,"You and your bonded ally also gain Minor Force, increasing your Critical Damage. Cost: [3402 / 3312 / 3222 / 3132] Stamina . Create a lifebond between you and an allied player. While bonded, 30 % of the damage they take is instead redistributed to you. You and your bonded ally also gain Minor Force , increasing your Critical Damage by 10 %. The bond will remain until you recast the spell or move more than 15 meters away from your ally."
+""
+,Revealing Flare,7,Instant,Ground,28 meters,10 meters,5 seconds,5130 Magicka
+"Cost: [5400 / 5310 / 5220 / 5130] Magicka . Launch a blinding flare, revealing stealthed and invisible enemies in the target area for 5 seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. While slotted you gain Major Protection , reducing your damage taken by 10 %."
+,,Lingering Flare,"The flare lasts longer. Duration: [7 / 8 / 9 / 10] seconds. Launch a blinding flare, revealing stealthed and invisible enemies in the target area for [7 / 8 / 9 / 10] seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. While slotted you gain Major Protection, reducing your damage taken by 10 %."
+,Blinding Flare,"Exposed enemies are also stunned. Launch a blinding flare, revealing stealthed and invisible enemies in the target area for 5 seconds. Exposed enemies are stunned for [2 / 2.7 / 3.3 / 4] seconds, and cannot return to stealth or invisibility for 4 seconds. While slotted you gain Major Protection, reducing your damage taken by 10 %."
+""

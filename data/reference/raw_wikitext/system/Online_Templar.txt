@@ -1,0 +1,109 @@
+{{Trail|Classes}}__NOTOC__
+[[File:ON-icon-class-Templar.png|frameless|left]]
+'''Templar''' is a [[Online:Classes|class]] in ''[[Online:Online|Elder Scrolls Online]]''. They wield the powers of light and the burning sun to smite the wicked, or to heal and support the wounded.
+::'''In-Game Description''': ''These traveling knights call upon the powers of light and the burning sun to deal massive damage to their enemies while restoring health, magicka, and stamina to their allies.'' 
+{{NewLeft}}
+==Skills==
+===Aedric Spear===
+[[Online:Aedric Spear|Aedric Spear]] uses the power of light to deal damage at any range and protect the caster with a powerful shield.
+
+===Dawn's Wrath===
+[[Online:Dawn's Wrath|Dawn's Wrath]] represents the power of the sun, using light and fire to damage enemies directly, assist allies with their damage, or reflecting enemy damage.
+
+===Restoring Light===
+[[Online:Restoring Light|Restoring Light]] is focused on defensive support and strong healing abilities.
+
+===Class Mastery===
+[[ON:Class Mastery#Templar|Class Mastery]] available if not [[Online:Subclassing|subclassing]].
+
+==Builds==
+{|class=wikitable
+!Build!!Role!!Description!!Primary Stat
+|-
+|[[ON:Templar Initiate|Templar Initiate]]
+|New Players
+|Extend your knowledge on brilliant Aedric spells through the Templar order.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Gleaming Champion|Gleaming Champion]]
+|Damage{{icon|role|Damage|18}}
+|Dazzle and burn your enemies with Aedric light while turning the battlefield to your advantage.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Luminous Warrior|Luminous Warrior]]
+|Damage{{icon|role|Damage|18}}
+|Visit swift justice upon your foes with stunning strikes up close and deadly arrows from afar.
+|{{ESO Stamina Link}}
+|-
+|[[ON:Bastion of Light (build)|Bastion of Light]]
+|Tank{{icon|role|Tank|18}}
+|Walk the path of a valiant knight and become an immovable, undying foe of the wicked.
+|{{ESO Health Link}}
+|-
+|[[ON:Beacon of Hope|Beacon of Hope]]
+|Healer{{icon|role|Healer|18}}
+|Bring out the best in your allies by showering them with holy light, protective auras, and empowering spells.
+|{{ESO Magicka Link}}
+|}
+
+===Compatible Builds===
+It is possible to build a character which meets or mostly meets the recommendations of multiple builds simultaneously.  The chart below shows skill morphs which conflict between different builds.
+{|class=wikitable {{AL|C}}
+! !!Templar<br>Initiate!!Gleaming<br>Champion!!Luminous<br>Warrior!!Bastion<br>of Light!!Beacon<br>of Hope
+|-
+!Templar<br>Initiate
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Cleansing Ritual|Cleansing Ritual]]
+|{{BG|#ff7700}}|[[ON:Radial Sweep|Radial Sweep]]<br>[[ON:Puncturing Strikes|Puncturing Strikes]]<br>[[ON:Piercing Javelin|Piercing Javelin]]<br>[[ON:Backlash|Backlash]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#00ff00}}| no conflicts
+|-
+!Gleaming<br>Champion
+|{{BG|#aaff00}}|[[ON:Cleansing Ritual|Cleansing Ritual]]
+|{{BG|#000000}}|
+|{{BG|#ffbb00}}|[[ON:Radial Sweep|Radial Sweep]]<br>[[ON:Puncturing Strikes|Puncturing Strikes]]<br>[[ON:Backlash|Backlash]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#aaff00}}|[[ON:Spear Shards|Spear Shards]]
+|-
+!Luminous<br>Warrior
+|{{BG|#ff7700}}|[[ON:Radial Sweep|Radial Sweep]]<br>[[ON:Puncturing Strikes|Puncturing Strikes]]<br>[[ON:Piercing Javelin|Piercing Javelin]]<br>[[ON:Backlash|Backlash]]
+|{{BG|#ffbb00}}|[[ON:Radial Sweep|Radial Sweep]]<br>[[ON:Puncturing Strikes|Puncturing Strikes]]<br>[[ON:Backlash|Backlash]]
+|{{BG|#000000}}|
+|{{BG|#ffbb00}}|[[ON:Radial Sweep|Radial Sweep]]<br>[[ON:Spear Shards|Spear Shards]]<br>[[ON:Nova|Nova]]
+|{{BG|#ffff00}}|[[ON:Spear Shards|Spear Shards]]<br>[[ON:Nova|Nova]]
+|-
+!Bastion<br>of Light
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#ffbb00}}|[[ON:Radial Sweep|Radial Sweep]]<br>[[ON:Spear Shards|Spear Shards]]<br>[[ON:Nova|Nova]]
+|{{BG|#000000}}|
+|{{BG|#00ff00}}| no conflicts
+|-
+!Beacon<br>of Hope
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#aaff00}}|[[ON:Spear Shards|Spear Shards]]
+|{{BG|#ffff00}}|[[ON:Spear Shards|Spear Shards]]<br>[[ON:Nova|Nova]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#000000}}|
+|}
+
+The Templar actually allows for two triple-builds.  You can meet the requirements for Bastion of Light, Beacon of Hope, and either Templar Initiate or Gleaming Champion.  (Only one skill prevents you from doing all 4 four of these as a quadruple-build.)
+
+==Gallery==
+<gallery>
+File:ON-render-Templar.jpg|A Templar
+</gallery>
+
+==See Also==
+*For more information, see the [[Lore:Templars|lore]] article.
+
+===Books===
+*{{Book Link|Aura of the Righteous}}
+*{{Book Link|The Friend of All Mortals}}
+*{{Book Link|Letter From Isobel}}
+*{{Book Link|Precepts of Stendarr}}
+*{{Book Link|Rituals of the Harmonious Masters}}
+*{{Book Link|Stendarr's Divine Spear}}
+
+
+{{Online Skills Templar}}

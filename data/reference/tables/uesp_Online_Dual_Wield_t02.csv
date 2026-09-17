@@ -1,0 +1,26 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Flurry,2,,Enemy,7 meters,–,–,2700 Stamina
+"Flood an enemy with steel, battering them with four consecutive attacks that each deal [1767 / 1786 / 1805 / 1825] Physical Damage ."
+,,Rapid Strikes,"Reduces the cost and each hit increases the damage of the subsequent hit. Cost: 2430 Stamina . Flood an enemy with steel, battering them with four consecutive attacks that each deal [1826 / 1846 / 1866 / 1886] Physical Damage. Each hit increases the damage of the subsequent hit by 5 %."
+,Bloodthirst,"Converts into Bleed Damage and heals you for a percentage of the damage caused. Flood an enemy with steel, battering them with four consecutive attacks that each deal [1826 / 1846 / 1866 / 1886] Bleed Damage and heal you for 33 % of the damage caused."
+""
+,Twin Slashes,4,Instant,Enemy,7 meters,–,20 seconds,2700 Stamina
+"Slice an enemy with both weapons to cause deep lacerations, dealing [1537 / 1553 / 1570 / 1587] Bleed Damage with each weapon and causing them to bleed for an additional [9210 / 9300 / 9410 / 9510] Bleed Damage over 20 seconds."
+,,Rending Slashes,"Increases the initial damage, applies the Hemorrhaging status effect, and reduces the enemy's Movement Speed. Slice an enemy with both weapons to cause deep lacerations, dealing [1905 / 1925 / 1946 / 1967] Bleed Damage with each weapon and causing them to bleed for an additional 9520 Bleed Damage over 20 seconds. Enemies hit by the initial hit are afflicted with the Hemorrhaging status effect . You also reduce their Movement Speed by 30 % for 4 seconds."
+,Blood Craze,"Whenever an enemy is damaged from the attack you are healed. Slice an enemy with both weapons to cause deep lacerations, dealing 1587 Bleed Damage with each weapon and causing them to bleed for an additional 9520 Bleed Damage over 20 seconds. You heal for [952 / 962 / 973 / 983] Health anytime this ability deals damage."
+""
+,Whirlwind,14,Instant,Area,–,6 meters,–,3510 Stamina
+"Launch yourself into a lethal spin, dealing [4612 / 4662 / 4713 / 4764] Physical Damage to nearby enemies. Deals up to 33 % more damage to enemies with less than 50% Health ."
+,,Whirling Blades,"Increases the bonus damage against low health targets. Launch yourself into a lethal spin, dealing [4764 / 4816 / 4868 / 4921] Physical Damage to nearby enemies. Deals up to 100 % more damage to enemies with less than 50% Health ."
+,Steel Tornado,"Increases the radius. Reduces cost as ability ranks up. Cost: [3510 / 3420 / 3330 / 3240] Stamina , Radius: 9 meters. Launch yourself into a lethal spin, releasing a flurry of blades around you that deals 4764 Physical Damage to nearby enemies. Deals up to 33 % more damage to enemies with less than 50% Health ."
+""
+,Blade Cloak,20,Instant,Area,–,5 meters,20 seconds,3780 Stamina
+"Envelop yourself in a protective cloak of razors, gaining Major Evasion for 20 seconds, reducing damage from area attacks by 20 %. Every 2 seconds the shrapnel will pulse, dealing [1117 / 1129 / 1141 / 1153] Physical Damage to all enemies within 5 meters."
+,,Quick Cloak,"Increases duration and grants Major Expedition for a short duration after casting. Duration: [24 / 26 / 28 / 30] seconds. Envelop yourself in a protective cloak of razors, gaining Major Evasion for [24 / 26 / 28 / 30] seconds, reducing damage from area attacks by 20 %. Every 2 seconds the shrapnel will pulse, dealing 1154 Physical Damage to all enemies within 5 meters. You also gain Major Expedition for 4 seconds, increasing your Movement Speed by 30 %."
+,Deadly Cloak,"Increases the damage done. Envelop yourself in a protective cloak of razors, gaining Major Evasion for 20 seconds, reducing damage from area attacks by 20 %. Every 2 seconds the shrapnel will pulse, dealing [1501 / 1517 / 1534 / 1550] Physical Damage to all enemies within 5 meters."
+""
+,Hidden Blade,38,Instant,Enemy,22 meters,–,–,3780 Stamina
+"Fire a secret dagger from your sleeve at an enemy, dealing [3690 / 3730 / 3771 / 3811] Physical Damage and granting you Major Brutality and Sorcery , increasing your Weapon and Spell Damage by 20 % for 20 seconds. If the enemy hit is casting an ability they are interrupted , set Off Balance , and stunned for 3 seconds."
+,,Shrouded Daggers,"Increases the damage, and the dagger now bounces up to a total of three times. Area: 8 meters. Fire a secret dagger from your sleeve that bounces up to 3 times to nearby enemies, dealing [4764 / 4816 / 4868 / 4921] Physical Damage per hit. If enemies hit are casting they are interrupted, set Off Balance, and stunned for 3 seconds. You also gain Major Brutality and Sorcery, increasing your Weapon and Spell Damage by 20 % for 20 seconds."
+,Flying Blade,"Casting the ability again against the same target causes you to jump to them. Extends the duration of Major Brutality and Sorcery. Fire a secret dagger from your sleeve at an enemy, dealing [3811 / 3852 / 3894 / 3936] Physical Damage and marking them for 5 seconds. If the enemy hit is casting an ability they are interrupted, set Off Balance, and stunned for 3 seconds. Reactivating this ability on them allows you to jump to a marked enemy free of cost, dealing [5717 / 5779 / 5842 / 5905] Physical Damage. Casting grants you Major Brutality and Sorcery, increasing your Weapon and Spell Damage by 20 % for 40 seconds."
+""

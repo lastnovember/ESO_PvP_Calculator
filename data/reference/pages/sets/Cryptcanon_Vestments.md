@@ -1,0 +1,53 @@
+# Online:Cryptcanon Vestments
+
+Source: https://en.uesp.net/wiki/Online:Cryptcanon_Vestments
+License: CC BY-SA, UESP
+
+Cryptcanon Vestments (achievement)
+:Canons of the Dark Elf faith must learn to interpret the wisdom of the ancestors, a complex and subtle source of power. They must respect the thousands of departed of over any living soul, the weight of tradition emphasizing the many over the few.
+Cryptcanon Vestments is a Mythic light chest armor that comes with the Infused trait. It can be obtained through the Antiquities system. It was released as part of the Necrom Chapter.
+
+### Bonuses
+
+1 item: You can no longer cast Ultimate abilities. Instead, casting an Ultimate ability transfers your Ultimate resource to your living group members, divided equally among them. Gain Minor Heroism while you are in combat.
+
+### Fragments
+- Five fragments are required to create the item, all of which require a master-quality Lead in order to scry, and are classed as master difficulty to excavate.
+- You are required to be at least level 7 in Scrying, and have the Antiquarian Insight IV passive in order to scry Master difficulty leads.
+- Fragment Leads are largely found in the same zone as where the fragment is excavated, save for a few cases where it may be found in different zone.
+
+Icon | Lead | Source | Zone | colspan=3|Codex Entry
+
+Ancestor Samite Undershirt | Bal Sunnar final boss | Telvanni Peninsula
+An extremely ornate inner garment, I've never seen this level of care and detail given to an early Tribunal era weave like this. Whoever this was made for must have played an incredibly influential role in the region. - Reginus Buca
+The Dark Elf priesthood is a mystery to me, especially prior to Tribunal-era cultural norms, but this strikes me as quite similar to some early Necrom-region vestments I've seen before. It's also one of the least ugly Dunmer garments I've seen. - Ugron gro-Thumog
+Aesthetic commentary aside, a beautiful piece of clothing meant to venerate an ancestor priest. The role the dead play in Dark Elf culture is hard to understand, but you need only look at the time and attention given to this piece to see it firsthand. - Amalien
+
+Scrib Chitin Padding | Corlys the Chainmaker world boss | Telvanni Peninsula
+I've seen natural kwama materials used in thousands of different ways, and the scrib chitin shaped for these pieces was done by a master artisan. I suspect a student of the Saruse school of ashlands materials shaping. - Reginus Buca
+Incredible what the Dark Elves can do with these little bugs. This garment is obviously ceremonial, but as with all ashlands garb it's functional as some measure of protective armor. For clergy in dark places, no doubt. - Ugron gro-Thumog
+Easy to forget, given the Dark Elf view on undeath, that tending to ancestors can sometimes be hazardous. The original wearer of this garment no doubt looked to this padding to ensure longevity in their role. - Amalien
+
+Ancestor Samite Stole | Uzur the All-Seeing delve boss | Telvanni Peninsula
+A simple clerical stole in the Velothi style, but with a unique shape language and exquisite craftsmanship. I've seen hundreds of examples of these kinds of garments, and this is a wholly singular piece. No doubt a priest of great esteem. - Reginus Buca
+Dark Elves are so unlike my own people. Ornament where we would make things functional. The reverence for death sewn into the details of this stole screams Necrom to me, but I suppose it could be related to a lesser city of the dead somewhere else. - Ugron gro-Thumog
+You're exactly correct, Thumog. A garment from far-flung Necrom, the end-goal of so many pilgrimages. The finery draped around these ancestor priests no doubt helped ease the minds of many families, proof that their loved ones were in good hands. - Amalien
+
+Netchbeak Clasps | Treasure chests | Telvanni Peninsula
+What an ingenious use of natural materials. These clasps were carved from netch beaks, each interlocking set at a time, the small toothsome ridges used to hold and keep the hooked fasteners in place. Delightful. - Reginus Buca
+I have never once looked at a netch and considered its parts fit for clothing. A lack of imagination on my part, I suppose. Micro-runes carved into these clasps seem to indicate a connection to Dark Elf death culture. Fascinating. - Ugron gro-Thumog
+This kind of adaptation is a hallmark of Morrowind culture, further back than we have written records. I find fascinating the duality of the fine cloth these were meant to adorn and the humble nature of the material itself. Symbology for life and death? - Amalien
+
+Ancestor Samite Sash | Delve or World Boss daily reward | Telvanni Peninsula
+By far the most ostentatious sash I've ever laid eyes upon. Crafted in traditional Velothi style, but with materials and a level of care far beyond what I'd expect from a simple clergy's garb. - Reginus Buca
+No simple clergy, this, just as you say Reginus. I believe this was for an Archcanon of the Dark Elf ancestor cult. I recognize some of the micro-runes. The way that the Elves of Morrowind view death is endlessly fascinating to me. - Ugron gro-Thumog
+The need for Dark Elf pilgrims to connect with those who have gone before no doubt prompted this finery. Imagine this glowing in the light of a hundred candles, the peace and serenity it would bring to those gathered for a reverential ceremony. - Amalien
+
+### Gallery
+
+File:ON-item-Cryptcanon Vestments.jpg|Cryptcanon Vestments
+File:ON-item-Cryptcanon Vestments (ultimate).jpg|Resource transfer
+
+## Achievements
+There are two achievements associated with this item:
+Antiquarian Chase: Necrom

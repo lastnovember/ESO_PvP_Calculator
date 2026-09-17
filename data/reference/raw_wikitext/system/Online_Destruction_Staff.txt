@@ -1,0 +1,92 @@
+{{Trail2|Skill Lines|Weapon|link2=Weapons}}
+{{/Progression}}
+<div style=float:left>
+{|class=hiddentable
+|-
+|colspan=2|<center>[[File:ON-icon-skill-Destruction Staff Fire.png|frameless]]</center>
+|-
+|[[File:ON-icon-skill-Destruction Staff Ice.png|frameless]]||[[File:ON-icon-skill-Destruction Staff Lightning.png|frameless]]
+|}
+</div>
+'''Destruction Staff''' is one of the six [[Online:Skills#Weapon|weapon skills]] available in Elder Scrolls Online. You can advance through this skill line by equipping a [[Online:Destruction_Staves|Destruction type staff]].
+None of its skills actually deal [[ON:Magic Damage|Magic Damage]] per se, instead each staff changes the skills based on the elemental type associated with the staff, those being:
+:Inferno Staves will only deal [[ON:Fire Damage|flame damage]];
+:Ice Staves will only deal [[ON:Frost Damage|frost damage]];
+:Lightning Staves will only deal [[ON:Shock Damage|shock damage]]. 
+One example of this is the skill [[ON:Destructive Touch|Destructive Touch]], whose damage type changes with the type of staff, but also applies a different effect based on it. An Inferno Staff causes an enemy to be [[ON:Knockback|knocked back]], an Ice Staff [[ON:immobilize|immobilize]]s an enemy, and a Lightning Staff deals damage in an area.
+
+== Learning ==
+The Destruction Staff skill line is granted the first time you kill an enemy with a destruction staff equipped.  You can increase your skill by engaging in combat with a destruction staff equipped, or by having Destruction Staff skills slotted.  The more skills you have slotted, the faster your skill will increase.  [[ON:High Elf|High Elves]] are naturally gifted with Destruction Staves, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Destruction Staff are:
+
+*[[ON:Destruction or Distraction|Destruction or Distraction]]
+*[[ON:A Hypothetical Treachery, Part 1|A Hypothetical Treachery, Part 1]]
+*[[ON:Oshgura's Destruction Journal|Oshgura's Destruction Journal]]
+*[[ON:Prudence in Practice|Prudence in Practice]]
+*[[ON:The Vanishing Crux|The Vanishing Crux]]
+
+
+==Skill Perks==
+Destruction Staves have an associated skill line that is revealed through use of a Destruction Staff. Known abilities are listed below.
+{{ESO Skill Notes}}
+* While the descriptions for Elemental Storm, Wall of Elements, Destructive Touch, and Impulse say they deal Magic Damage, when slotted, this will change to the type of elemental damage (Flame, Frost, Shock) that matches your staff
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Elemental Storm}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, while a destruction staff is equipped, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Force Shock}}
+{{Online Skill Link|Wall of Elements}}
+{{Online Skill Link|Destructive Touch}}
+{{Online Skill Link|Weakness to Elements}}
+{{Online Skill Link|Impulse}}
+|}
+
+===Weapon Sets===
+These sets add effects to abilities. 
+{|class=wikitable
+!colspan=2|Ability Name!!width=1|Weapon set name!! Description
+|-
+|rowspan=2|{{ESO Active Icon|sk|Destruction Staff-Force Shock|64}}||rowspan=2|[[Online:Force Shock|Force Shock]]||[[ON:Concentrated Force|Concentrated Force]]||{{ON:Concentrated Force}}
+|-
+|[[ON:Perfected Concentrated Force|Perfected Concentrated Force]]||{{ON:Perfected Concentrated Force}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Destruction Staff-Wall of Elements|64}}||rowspan=2|[[ON:Wall of Elements|Wall of Elements]]||[[ON:Crushing Wall|Crushing Wall]]||{{ON:Crushing Wall}}
+|-
+|[[ON:Perfected Crushing Wall|Perfected Crushing Wall]]||{{ON:Perfected Crushing Wall}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Destruction Staff-Destructive Touch|64}}||rowspan=2|[[ON:Destructive Touch|Destructive Touch]]||[[ON:Destructive Impact|Destructive Impact]]||{{ON:Destructive Impact}}
+|-
+|[[ON:Perfected Destructive Impact|Perfected Destructive Impact]]||{{ON:Perfected Destructive Impact}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Destruction Staff-Weakness to Elements|64}}||rowspan=2|[[ON:Weakness to Elements|Weakness to Elements]]||[[ON:Wrath of Elements|Wrath of Elements]]||{{ON:Wrath of Elements}}
+|-
+|[[ON:Perfected Wrath of Elements|Perfected Wrath of Elements]]||{{ON:Perfected Wrath of Elements}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Destruction Staff-Impulse|64}}||rowspan=2|[[ON:Impulse|Impulse]]||[[ON:Wild Impulse|Wild Impulse]]||{{ON:Wild Impulse}}
+|-
+|[[ON:Perfected Wild Impulse|Perfected Wild Impulse]]||{{ON:Perfected Wild Impulse}}
+|}
+===Other Sets===
+* Wearing five pieces of the [[ON:Spider Cultist Cowl|Spider Cultist Cowl]] set from the [[ON:Fungal Grotto I|Fungal Grotto I]] and [[ON:Fungal Grotto II|II]] group dungeons increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} of your Destruction Staff abilities.
+* Wearing five pieces of the [[ON:Red Eagle's Fury|Red Eagle's Fury]] set from the [[ON:Red Eagle Redoubt|Red Eagle Redoubt]] crafting site increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} damage of all your weapon abilities, Destruction Staff included, but it also increases their cost.
+* Wearing five pieces of the [[ON:Daring Corsair|Daring Corsair]] set from the [[ON:Cat's-Claw Station|Cat's-Claw Station]] crafting site decreases the {{ESO Stamina Link}} and {{ESO Magicka Link}} costs of all your weapon abilities by 10%, and grants you [[ON:Minor Heroism|Minor Heroism]] for 8 seconds after you use a weapon skill.
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as a destruction staff is equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Tri Focus}}
+{{Online Skill Link|Penetrating Magic}}
+{{Online Skill Link|Elemental Force}}
+{{Online Skill Link|Ancient Knowledge}}
+{{Online Skill Link|Destruction Expert}}
+|}
+
+{{Online Skills}}

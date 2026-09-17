@@ -1,0 +1,761 @@
+Xbox One Patch Notes v1.11.0.0
+Xbox One Patch Notes v1.11.0.0
+Posted 2018-02-26 by ZOS_GinaBruno ·
+forums.elderscrollsonline.com/en/discussion/397991 ·
+archived 2026-09-12
+Welcome to The Elder Scrolls Online v1.11.0.0 and the Dragon Bones DLC Game Pack! As with previous updates, the base game patch will be available to everyone who owns The Elder Scrolls Online and the DLC Game Pack will automatically download with it, allowing you instant access to the new content when you purchase it or activate an ESO Plus membership. Anyone who owns ESO and has an active ESO Plus membership will also automatically have access to the Dragon Bones DLC Game Pack. If your ESO Plus membership ends or lapses, you will no longer have access to the DLC Game Pack content and areas, but you will still have any items you earned while you had access.
+In this update, you’ll be able to explore and conquer two all-new 4 player dungeons – Fang Lair and Scalecaller Peak. These dungeons offer new item sets, Monster Masks, achievements and unique rewards! We’ve also added two new Battlegrounds maps – Mor Khazgur and Deeping Drome – which are available to anyone who owns The Elder Scrolls Online: Morrowind.
+In the base game patch, we’ve added several new features including the highly-anticipated Outfit System, which gives you the freedom to customize the visual appearance of your gear, and Home Storage Furnishings! We’ve also added two new systems to aid players as they adventure throughout Tamriel: a Level Up Advisor and Skills Advisor. And as always, we’ve made several adjustments and improvements to combat abilities, including an overhaul to our Synergy system, and several bug fixes.
+We hope you enjoy this new update, which is approximately 38.27GB in size.
+New Features / Updates / Big Changes
+Dragon Bones DLC Game Pack
+Two New Dungeons
+New Collectibles
+New Item Sets
+New Achievements
+Morrowind
+Battlegrounds
+Base Game Update
+Outfits
+Home Storage Furnishings
+Master Writ Updates
+Furnishing Updates
+Level Up Advisor
+Skills Advisor
+Champion Point Increase
+Fixes & Improvements
+Clockwork City
+Dark Brotherhood
+Horns of the Reach
+Imperial City
+Morrowind
+Orsinium
+Thieves Guild
+Combat & Gameplay
+Combat Balance
+Combat Fixes & Improvements
+Itemization Balance
+Itemization Fixes & Improvements
+Base Game
+Alliance War & PvP
+Art & Animation
+Combat & Gameplay
+Crafting & Economy
+Crown Store & Crown Crates
+Dungeons & Group Content
+Exploration & Itemization
+Housing
+Miscellaneous
+Quests & Zones
+UI
+Dragon Bones DLC
+Two New Dungeons
+Fang Lair
+Fang Lair was once a large Dwemer mine. Their glory however was laid low by the Dragon Thurvokun centuries ago. The Dragon used the Dwarven halls as its lair for uncountless years, so much so that the original name of the mine was lost and it became simply known as, Fang Lair. Thurvokun eventually passed but great power remained in the Dwemer halls. Adventurers from all corners of Tamriel sought to plumb the depths of Fang Lair to steal the treasures for themselves and all met ruin. Now, Orryn the Black, a particularly powerful necromancer, and his followers have come to enact a ritual with which to raise the ancient Dragon and unleash it upon Nirn.
+Scalecaller Peak
+Scalecaller was an ancient Dragon Priest dedicated to the dragon, Thorvokun. When she was living, her power was immense and her reign seemed unchecked. That is, until she was betrayed by her followers and the link between her and her dragon was severed. Her cult spread to the winds to avoid persecution but still maintained vigil for their fallen lord. Now, the time has come and the descendants of the Cult of Scalecaller have the means to bring the ancient Dragon Priest back to life.
+Fang Lair and Scalecaller Peak are 4-Player Dungeons which can be reached via Bangkorai and Stormhaven respectively.
+Fang Lair’s entrance is in northern Bangkorai, north of the Troll’s Toothpick delve.
+Scalecaller Peak’s entrance is in North-Eastern Stormhaven, north of Wind Keep Wayshrine.
+Both Dungeons include a Normal version in addition to a challenging Veteran version.
+You can obtain unique item sets, including two new Undaunted Monster Mask sets, only available within the Dungeons.
+Unique Achievement awards are also available for completing the dungeons, including:
+Unique Player Skin
+Unique Hat
+Several Titles
+Unique housing items
+New Collectibles
+Renegade Dragon Priest Mask: Travel to Fang Lair or Scalecaller Peak to unlock this imposing hat (note: this is the reward for owning the Dragon Bones DLC game pack).
+Trophy, Thurvokun: Defeat Thurvokun in Fang Lair to take this skeletal dragon head home.
+Bust, Thurvokun: Defeat Fang Lair on Veteran difficulty to earn this bronze bust of Thurvokun.
+Trophy, Scalecaller: Defeat Zaan in Scalecaller Peak to unlock Zaan’s mounted head for display in your home.
+Bust, Scalecaller: Defeat Scalecaller Peak on Veteran difficulty to earn a bust of this ancient Dragon Priest.
+Blackmarrow Necromancer Skin: Complete the “Scalecaller Peak Challenger” achievement to earn the right to bear these uncanny sigils.
+Worm Wizard: Unlock this sinister Personality by completing the “Fang Lair Challenger” achievement.
+New Item Sets
+There are 8 new Item Sets available from the two dungeons, Scalecaller Peak and Fang Lair. Each dungeon has 1 Light Armor, 1 Medium Armor, 1 Heavy Armor, and 1 Monster Mask Item Set to acquire.
+Fang Lair
+Caluurion’s Legacy (Light)
+(2) Spell Critical
+(3) Spell Power
+(4) Spell Critical
+(5) When you deal Critical Damage with a single target Magicka ability, you launch a Fire, Ice, Shock, or Disease ball at your target that deals 12,900 damage and applies a status effect. This effect can occur once every 10 seconds.
+Trappings of Invigoration (Medium)
+(2) Stamina Recovery
+(3) Max Stamina
+(4) Stamina Recovery
+(5) When you cast an ability while under 33% Stamina, you restore 9000 Stamina. This effect can occur once every 1 minute.
+Ulfnor’s Favor (Heavy)
+(2) Max Health(3) Magicka Recovery
+(3) Stamina Recovery
+(4) Healing Taken
+(5) Increases the Magicka or Stamina your Heavy Attacks restore by 30%.
+Thurvokun (Monster)
+Max Health
+When a nearby enemy damages you, summon a growing pool of desecrated bile for 8 seconds. Enemies in the bile receive 430 Disease Damage every 1 second and are afflicted with Minor Maim and Minor Defile, reducing their damage done and healing received by 15%. This effect can occur once every 8 seconds.
+Scalecaller Peak
+Jorvuld’s Guidance (Light)
+Magicka Recovery
+Magicka Recovery
+Healing Done
+Increases the duration of all Major buffs, Minor buffs, and damage shields you apply to yourself and allies by 40%.
+Plague Slinger (Medium)
+(2) Weapon Damage
+(3) Max Health
+(4) Weapon Damage
+(5) When you take damage, you summon a Skeever corpse which will launch a poison ball that deals 5160 Poison Damage every 1.5 seconds at the nearest enemy for 6 seconds. This effect can occur once every 15 seconds.
+Curse of Doylemish (Heavy)
+(2) Max Health
+(3) Max Health
+(4) Spell Damage
+(4) Weapon Damage
+(5) When you hit a taunted monster with a fully-charged Heavy Attack or any enemy that is stunned or immobilized with a fully-charged Heavy Attack, you deal an additional 12040 Physical Damage. This effect can occur once every 7 seconds.
+Zaan (Monster)
+Spell Critical
+When you deal Critical Damage with a Light or Heavy Attack to a nearby enemy, a beam of fire will connect you to your enemy. The beam deals 3440 Flame Damage every 1 second for 5 seconds. Every second, this damage increases by 50%. The beam is broken if the enemy moves 10 meters away from you. This effect can occur every 15 seconds.
+New Achievements
+Dragon Bones comes with more than 35 new achievements, including 4 new titles to unlock. Complete both dungeons on Veteran difficulty to unlock the Nacreous Purple dye!
+Morrowind
+Battlegrounds
+Two new maps have been added for Battlegrounds.
+Mor Khazgur: The mountaintop stronghold of Mor Khazgur has been a center of Orcish culture since the Merethic Era. Like Orsinium, it has been destroyed and rebuilt repeatedly, a cycle that will doubtless continue into the future.
+Deeping Drome: Scholars who study the long-lost Dwarven race love to speculate on the original purposes of abandoned Dwemer sites. None of them have any credible ideas as to the function of the mysterious Deeping Drome.
+Base Game Updates
+Outfits
+The new Outfit System is now available, and allows you the freedom to customize the visual appearance of your character including both the style and dyes. With Outfits, you get to determine the appearance of every aspect of your character, piece by piece, regardless of what you are (or aren’t) wearing underneath.
+To begin customizing your outfit, simply locate an Outfit Station, which are available in most cities and displayed on local town maps, and equip an Outfit via the drop down menu.
+Every Dye Station previously found in the world has been upgraded into an Outfit Station.
+In addition to dyeing your equipped armor, hats, and costumes as it did before, these updated stations now also allow you to create and customize the style and dye choices of each slot of your outfits in exchange for gold.
+You can freely preview as many changes to your outfits as you like, and will only be charged when you finalize your choices. You can also purchase Outfit Change Tokens from the Crown Store, which allow you to completely bypass the gold cost of an outfit change. You can always choose whether to use gold or Outfit Change Tokens when finalizing your selections.
+Outfit Styles
+Before you can modify the appearance of an equipment slot, you first need to unlock the style of the desired appearance. These styles are tracked in a new Outfit Styles category of your collections, which showcases all available styles and provides hints on how to obtain them.
+Learning Styles
+The primary way to learn Outfit Styles is by reading Motif books and chapters. In addition to unlocking the ability to craft in that style, learning a Motif now also teaches you how to apply that style to your Outfits.
+As this Outfit Style knowledge is an account-wide collectible, learning how to craft helms in the Glass style (for example) on any character allows you to use that to override the appearance of the helm slot of any Outfit on any of your characters.
+These style collectibles are retroactively unlocked for all the styles you already know how to craft after logging in with a character with the associated Motif knowledge.
+In addition to Motifs, completing the “Soul Shriven in Coldharbour” quest awards a set of Prisoner’s clothing styles, and you can expect additional unique gear and weapon appearances to become available in the future as well.
+Customization
+Each slot in an Outfit can be customized individually.
+Any weight of equipment can be used in your outfits for a given slot. This means that an Outfit can override the style of your chest slot to look like a heavy armor cuirass, even when wearing a light armor jerkin or leather jack, but cannot make your feet look like they are wearing gloves instead of boots.
+This selection and appearance persists while the Outfit is active even, if you change your equipped armor.
+You can also set an Outfit to hide your currently equipped helm with the “Hide Helmet” Outfit style, which is always available.
+The “Hide Helmet” option has been replaced with a “Hide Polymorph Helmet” option, and the general functionality to hide your helmet has been moved to a collectible hat.
+Each Outfit selection can also be re-colored, similar to equipment dyeing, using the same dyes you've unlocked via achievements.
+In addition to armor, weapons can also be visually changed through the Outfit System.
+Weapon slots are divided into one-handed weapons, shields, two-handed weapons, bows, and staves.
+You can customize the primary and backup weapons in an Outfit separately, and will only see the weapon types that you currently have equipped. You can simply swap weapons to change which weapon types you are customizing, or swap weapon sets to adjust your other set. If you only override the appearance of two handed weapons in your active outfit, and then change to dual wielding, you will see the equipped weapons without a style override, whereas switching to another two-hander will continue to show your style override.
+Please note that costumes, polymorphs, hats, and disguises will always override any armor styles in your applied outfit.
+Additionally, weapon slots in Outfits can be dyed as desired, utilizing the same dyes available for armor. Yes, really.
+Material Dyes
+In addition to the existing dyes, we've also added a new category of "Material" or "Mixed" dyes. These dyes correspond to the color of gear crafted from each of the ten ranks of durable materials, and are each unlocked by deconstructing a piece of equipment made from materials of that rank.
+For example, deconstructing an iron axe will unlock the "Rank 1 Materials" dye, which matches the colors found on Iron, Rawhide, Jute, or Maple equipment.
+This allows you the flexibility to recreate any look you may have found appealing while leveling up through various tiers of equipment.
+Multiple Outfits
+Everyone will receive one free customizable outfit per character, and can unlock additional outfits in the Crown Store. These outfits are character-specific, so you can customize each character uniquely right off the bat!
+Once an Outfit is set, you can switch between Outfits at no cost at any time via any of the following:
+The character UI screen
+The new equipment styles category of the Collection system
+The Outfit Station interface itself
+You may also deactivate the Outfit at any time, which will return your appearance to showing your currently equipped gear and cosmetic collectibles.
+Outfits can also be named as you see fit to help keep track of your growing wardrobe.
+Converting
+"Convert to Imperial" and "Convert to Morag Tong" are no longer used from the inventory on specific items, and are instead incorporated into the Outfit System.
+If you possess these collectibles, the Imperial and Morag Tong Outfit Styles are automatically available, and do not cost gold to apply to your Outfits. This means anyone with these account upgrades can choose to make any Outfit slot on any character appear in the Morag Tong or Imperial style free of cost, without actually modifying the item itself.
+Furnishing Stations
+Dye Stations found in homes are visually unchanged, but have been upgraded to the full Outfit Station functionality.
+A new furnishing with the visual of the new Outfit station is now available on the new Master Writ achievement mediator, Faustina Curio, with all of the above associated functionality. Purchase is unlocked by completion of the Alliance Style Master achievement, which can be earned by learning all 9 of the starting racial styles (not including Imperial).
+Home Storage Furnishings
+We’re pleased to introduce a new form of collectible – storage furnishings! These account-wide items allow you to store 30 or 60 items per collectible, depending on the size. You can acquire four 30-slot coffers and four 60-slot chests, for a combined total of up to 360 storage slots. All four coffers share the same visual appearance, but each has a unique name and can be nicknamed for easy organization. Chests work the same way, with their own shared appearance.
+You can purchase storage coffers and chests from the Achievement Mediator, the Crown Store, or from Tel Var Merchants. You can also earn a storage coffer from the Level Up Advisor (detailed below) upon reaching level 18.
+To use a storage furnishing, first travel to your home and navigate to the new Storage section of the Services category of the Housing Editor to place your collectible. Once you’ve placed a storage furnishing, you can use it at any time to deposit or withdraw items from that particular collectible. Each one has its own storage, which is separate from all other item storage.
+Unlike bank storage, ingredients stored in chests and coffers will not be used when crafting, and stored equipment will not appear in deconstruction, research, or upgrade windows at Crafting Stations.
+Since these are collectibles, you can place each one in as many homes as you like, and will see the same items regardless of which home you open that particular chest or coffer in.
+Master Writ Updates
+Rolis Hlaalu, the Mastercraft Mediator who sells furnishings and recipes for Writ Vouchers, has changed some of his offerings.  He retired several of his furniture plans and now offers 6 new furniture plans. Visit him to see what he is selling.
+Additionally, Rolis Hlaalu has a new assistant: Faustina Curio, the Achievement Mediator. This new merchant sells plans and furnishings for Writ Vouchers to characters that have attained certain achievements. Among these items are plans that Rolis previously stopped selling, as well as new furnishing documents that contain Morrowind furnishing plans. You can find Faustina Curio right next to Rolis Hlaalu, at the Writ drop-off area.
+Furnishing Updates
+When previewing a furnishing, you can now toggle through each of the different states for that furnishing.  This means you can toggle through lit and extinguished states, or active and inactive appearances before deciding whether to buy it.
+Added new furnishings to the Undaunted Quartermaster that can be purchased for gold after completing certain Dragon Bones achievements. Additionally, monsters in Fang Lair and Scalecaller Peak have a small chance to drop various decorative Puspocket Mushroom furnishings, as well as a rare Praxis for a Blackmarrow furnishing.
+Zanil Theran, the Luxury Furnisher, is bringing back some of his previous offerings. Each week you can expect to see at least one offering that you’ve never been seen before, complementing the offerings from a prior week.
+Level Up Advisor
+This new system is designed to teach new players about the many facets of combat and progression in ESO. It contains useful rewards for new and veteran players alike as you progress from levels 2-50, and every five levels, you will receive a milestone reward with something special such as a mount, Crown Crate, costume, or a helpful weapon. Simply open the Character UI to claim your rewards! Below, you’ll find the list of milestone rewards:
+Level 5: Two Green-quality Rings, part of a basic 2-piece Item Set that grants a Max Health bonus
+Level 10: Sorrel Horse
+Level 15: A choice of 6 blue-quality weapons
+Level 20: A costume of choice and a Fire Atronach Crown Crate
+Level 25: A choice of 6 purple-quality weapons
+Level 30: 4,000 gold and a Fire Atronach Crown Crate
+Level 35: A choice of 10 purple-quality crafting-improvement materials
+Level 40: 6,000 gold, The Prisoner’s Rags Outfit Style, and an Outfit Token
+Level 45: An Undaunted Key
+Level 50: 10,000 gold and a Fire Atronach Crown Crate
+Skills Advisor
+This new system makes recommendations on how to spend skill points based on the build you select. You can use this system to mold your character as you’re leveling up, or to help you re-specialize your build after reaching max level. To support this system, we’ve made some adjustments in the UI:
+The Skill menu has been modified to accommodate the Skill Advisor system. Abilities and morphs will now be listed as recommended based on the build selected.
+Morphed abilities will now display their base ability name in their tooltips.
+Note that the Skill Advisor can be toggled off at any point.
+Champion Point Increase
+The Champion Point cap has been raised by 30 points (10 in each red/blue/green constellation) for a total of 720 Champion Points. The Champion Point experience curve has been automatically adjusted with this new cap so earlier Champion Points require less experience and can be earned faster.
+General
+Fixed a number of animation memory issues causing some NPCs to blink in and out of existence.
+Factotum bards no longer run away like other dynamic humanoids, what with their flappy flailing arms and all.
+Fixed an issue where you would see snow flickering on the roof of some smaller Nord houses.
+Figure
+The Radius Mask and Radius Rebreather no longer deform your character’s head while crouched.
+General
+Rubble piles and switches found throughout Clockwork City will now make appropriate noises.
+Monster Abilities
+Kagouti Fabricant: Stamp no longer appears to impact targets that dodge or otherwise avoid the attack.
+General
+Fixed a number of VO/text mismatches within quests, typos, and spelling issues in the quest tracker.
+The NPC Virurarie will no longer appear in two places.
+The Precursor has learned his lefts and rights—installing his right leg no longer causes his left leg to appear, and vice versa.  (It turns out your left hand is the one that makes an “L” shape if you hold it with your palm facing out. Handy, right?)
+Quests
+Brass Fortress Dailies: Razgurug will now offer you the Alchemy daily again when it comes up in the rotation.
+Deepening Shadows:
+Gascone’s VO over the loudspeaker will now be more audible while inside the Ventral Terminus.
+Gascone no longer appears to have a full health bar if you decide to shank him.
+Luciana’s arm will no longer clip into her body while talking to her during this quest.
+Of Knives and Long Shadows: Fixed a handful of issues with Lilatha’s VO that should or should not have appropriate echo effects, depending on the circumstance.
+Tasty Tongue Varnish: Maurice Ouren no longer tries to lean against nothing.
+Where Shadows Lie: Fixed an issue where the map and compass icons would direct you to the wrong direction.
+Figure
+Fixed a visible seam appearing on the top of the skull of the Mazzatun Staff.
+Monsters
+Fixed an issue where some non-humanoid or boss-difficulty monsters could be killed using the Blade of Woe.
+A number of world bosses have installed thick metal backplates in response to a recent publication of “An Occultist’s Guide to Preternatural Stabbing,” which included a brief description of the Blade of Woe.
+Dungeons
+Bloodroot Forge
+Fixed an issue where you would occasionally not receive loot after defeating the Earthgore Amalgam exceptionally quickly.
+Crafting Motifs
+The chance of obtaining a Xivkyn Motif chapter from a Daedric Cache in Imperial City is now dependent on your Tel Var Stone multiplier: the more Stones you carry, the more likely you are to obtain a Xivkyn Motif chapter. If you have a full 4x Tel Var Stone multiplier, you are guaranteed to receive a chapter.
+General
+Adjusted the tooltips on Key Fragments found in the Imperial City to improve clarity.
+Battlegrounds
+Battlegrounds are once again No-CP for all levels.
+Decreased the respawn timer for player character to 20 seconds from 30 seconds for Chaosball in Ald Carac.
+Increased the Alliance Point rewards for your team’s placement in Battlegrounds. This equates to the following:
+12,000 AP if your team comes in first place
+10,000 AP if your team comes in second place
+7,000 AP if your team comes in third place
+You will no longer be able to negate damage from Chaosball effects.
+Player characters can once again be interrupted while picking up Relics even if they are CC Immune.
+Animation
+Pilgrims that you rescue from attacking Cliff Striders will no longer stay cowering forever.
+Telvanni elevator animations will now display properly during the quest Reclaiming Vos.
+General
+Fixed a number of edge cases where audio wasn’t playing properly for certain monsters and player abilities.
+Polished the audio for many of the abilities.
+Polished many locations where the sound and/or music didn’t quite fit the space or, in some cases, was missing entirely.
+Improved the audio used by a number of monsters, critters and objects in the world.
+Fixed a number mismatched or erroneous text/voice-over pairings throughout the game.
+Improved and, in some cases, added new audio for a number of quests.
+Warden, Balance Changes
+Animal Companions
+Dive: The damage from this ability and its morphs can now be dodged.
+Green Balance
+Healing Seed: Reduced the cost of this ability and its morphs by approximately 28%.
+Warden, Bug Fixes
+Animal Companions
+Bird of Prey: Fixed an issue where the tooltip for this ability stated it lasted for 14 seconds, instead of the correct duration of 10 seconds.
+Feral Guardian: Fixed an issue where the Guardian’s Wrath and Guardian’s Savagery special attacks from this ability and its morphs could not hit some larger monsters, such as Saint Olms.
+Swarm: Fixed an issue where this ability and its morphs were not being considered damage over time effects for various passive bonuses or procs.
+Winter’s Embrace
+Frozen Retreat (Frozen Gate morph): Fixed an issue where the synergy from this morph would fail to teleport you if you had an ally targeted with your reticle.
+General
+Fixed an issue that caused certain weapons and armor found on weapon racks, or otherwise lying around in Morrowind, to sell for more gold and deconstruct for more materials than intended.
+Eidetic Memory
+“Sadrith Mora Tax Records” are now visible, along with the other post-quest versions of tax records in Vivec City.
+“Pierced Note” will now be visible after completion of the quest Family Reunion.
+Quests
+Ancestral Adversity: You will no longer encounter missing door pins into Veloth Ancestral Tomb if you ditch Narsis partway through the experience.
+Broken Bonds: Naryu is no longer immune to being knocked down for a few seconds after each part of her combat tutorial.
+Enslaved by Love: Fixed an issue where grouped players could accidentally block one another during the collection of Star Shells.
+Heart of a Telvanni: Fixed an issue where you could occasionally not use the exit door to the mine.
+Of Faith and Family: You will no longer be able to target an NPC named “Rockfall.”
+Ritual of Knowledge: Events in Ashalmawia will now respawn appropriately, and not too soon for those not on the relevant content.
+Animation
+Fixed an issue where several lights approaching Pariah's Pinnacle would not flicker the way flames should.
+Maelstrom Arena
+The Spiderkith Captain and Spiderkith Elite Enervator will once again cast the ability Lightning Grasp.
+Quests
+Draugr Dilemma: Fixed an issue where Narsis Dren was not consistently starting his scene in the treasure vault.
+Eidetic Memory
+The book "In Defense of Prince Hubalajad", by Lady Cinnabar of Taneth, can now be found in Leaping Frog Sundries in Abah's Landing.
+Maw of Lorkhaj
+Fixed an issue where some weapons from Maw of Lorkhaj item sets (Twilight Remedy, Moondancer, Lunar Bastion, and Roar of Alkosh) were not properly displaying their special, purple visual effects, and were instead display the effects for their enchantment.
+Quests
+A Flawless Plan: You will no longer speak to Zeira’s kneecaps after collecting Tall Papa’s Ashes.
+Shell Game: The compass pin to meet Walks-Softly in the family quarters is now in a better location.
+The Long Game: Improved the directions leading you through No Shira Citadel on the quest step “Escape the Iron Wheel Headquarters.”
+General
+Area of Effect abilities now deal full damage to all targets hit, instead of having a damage penalty after hitting 7 or more targets. Secondary effects from those Area of Effect abilities (snares, stuns, etc.) are still capped at 6 targets.
+Developer Comment:
+Spoiler Warning
+Spoiler
+We want to encourage more tactical group play where players are encouraged to spread out instead of stacking in a tight ball. We’re still evaluating this aspect of AoE caps, and will make adjustments in the future as necessary.
+Cast Time & Interrupts
+Developer Comments – Cast Time and Interrupt Changes:
+Spoiler Warning
+Spoiler
+We’ve updated the rules for interrupting cast time abilities to provide a better opportunity for you to successfully cast them, and clear counterplay for enemies to interrupt them. Reducing the Movement Speed penalty allows you to more easily position yourself while casting, and makes those abilities more fluid with the fast pace of combat. Allowing crowd control immunity to also grant interrupt immunity removes the gameplay loop of trying to cast an ability and having it be interrupted repeatedly. The 3 second lockout period gives you a chance to capitalize on a crucial interrupt without allowing the enemy to simply immediately recast the ability you just interrupted.
+Rebalanced and globally updated all cast time and channeled abilities, along with the ruleset for interrupting those abilities.
+Reduced the Movement Speed penalty while casting or channeling an ability to a 25% penalty from 50%.
+Melee cast time and channeled abilities (Uppercut, Puncturing Strikes, etc.) and some ranged abilities (Rapid Fire) are still exceptions to this rule and allow you to move at full speed.
+When an ability is interrupted, it is now put on a 3-second cooldown where it cannot be used.
+Melee cast time and channeled abilities (Uppercut, Puncturing Strikes, etc.), Ultimate abilities (Soul Strike, Rite of Passage, etc.), and Heavy Attacks are still exceptions to this rule and cannot be interrupted.
+When a cast time or channeled ability is interrupted, you will be staggered, stunned, and set Off Balance. After the stun ends, you gain crowd control immunity.
+Crowd control immunity now grants immunity to all interrupt effects. After a cast time or channeled ability is interrupted, you will be immune to any future interrupts until crowd control immunity wears off.
+This rule only applies to players. Monsters are still exceptions to this rule, and can be interrupted at any time.
+You will now see the red “interruptible” telegraph on enemy player characters if they are casting or channeling an interruptible ability, and are not crowd control immune.
+Synergies
+Developer Comments – Synergy Updates:
+Spoiler Warning
+Spoiler
+The global changes to synergies will result in them being more responsive and more rewarding to use. We’ve updated and fixed numerous bugs for obtaining the synergy prompt, and took synergies off the global cooldown so that you can immediately use them as soon as you see that prompt. Synergies now all have a distinct visual effect to clearly communicate where and when a synergy is available. Finally, many synergies were significantly buffed to ensure that it always feels worth it to use them, which you can read more about below.
+Removed Synergies from the global cooldown, and they can now be activated while using other abilities.
+Synergies now have a shared one second cooldown with other synergies.
+Developer Comment:
+Spoiler Warning
+Spoiler
+As synergies are now off the global cooldown, this change was necessary to prevent “synergy bombs” where players could activate multiple synergies in the same second.
+Synergies now display a unique, prominent visual effect indicating if a synergy is available and can be used by your character.
+This visual effect will be hidden if you are on cooldown for that particular synergy, or are otherwise unable to use synergies.
+Updated the tooltips for Synergy abilities to better describe their effects, and the name of the synergy is now highlighted in the tooltip.
+Synergies will now grant the synergy prompt to the three closest allies to the center of the synergy, up from only one ally. If one ally uses the synergy, the prompt will be removed for the other two allies.
+The Purify, Hidden Refresh, Blood Funnel, and Blood Feast synergies are exceptions to this rule – the prompt is given to all allies in the area that meet the conditions of the synergy, and the prompt will not be removed for all other allies if one ally uses it.
+Fixed an issue where numerous synergies were granting the synergy prompt to the furthest ally instead of the closest, and were granting the synergy prompt to pets and NPCs instead of players.
+Fixed an issue where you could have multiple synergy prompts on you at a time, causing the prompt to fluctuate back and forth between the competing synergies.
+Fixed an issue where the Supernova, Gravity Crush, and Hidden Refresh synergies had a Magicka cost.
+Some individual synergies have received additional fine-tuning and rebalancing:
+Blood Altar
+Increased the radius of the Minor Lifesteal debuff applied by this ability and its morphs to 28 meters from 8 meters.
+Slightly adjusted the visual effects due to the radius increase.
+The Minor Lifesteal debuff applied by this ability and its morphs will no longer aggro monsters.
+Blood Funnel and Blood Feast (Blood Altar & morphs)
+Increased the radius of the prompt to 28 meters.
+Bone Wall and Spinal Surge (Bone Shield & morphs)
+The prompt will now be available up to 6 seconds after Bone Shield is cast, even if the Bone Shield caster’s damage shield is removed.
+Grants a damage shield for 100% of your Max Health for 6 seconds, instead of 60% of your Max Health for 10 seconds.
+Developer Comments:
+Spoiler Warning
+Spoiler
+We’ve shortened the duration of this damage shield to match the duration of all other damage shields in the game, but increased the value of the shield to compensate.
+If an ally uses the synergy and applies the damage shield to you, you will now also be placed on cooldown for that synergy.
+The Spinal Surge synergy from the Bone Surge morph now grants Major Vitality instead of Minor Vitality.
+Combustion and Healing Combustion (Necrotic Orb & morphs)
+Fixed an issue where using the synergy would not explode the closest orb to you.
+Frozen Retreat (Frozen Retreat)
+Also grants Major Expedition for 8 seconds after teleporting.
+Renamed to “Icy Escape”.
+Hidden Refresh (Consuming Darkness & morphs)
+The prompt is now visible to allies under 70% health, up from 50% health.
+Increased the Movement Speed bonus to 70% from 50%.
+The Movement Speed bonus and heal over time are now separate components from the invisibility bonus, and will remain on your character for 4 seconds regardless if the invisibility is broken or not.
+Impale (Dark Talons & morphs)
+Now only damages enemies held within the talons, instead of all enemies around you.
+Increased the damage done by approximately 25%.
+Renamed to “Ignite”.
+Developer Comments:
+Spoiler Warning
+Spoiler
+Since this synergy now specifically hits enemies held within the talons, we’ve increased the damage it deals to compensate.
+Radiate (Inner Fire & morphs)
+The prompt is now only visible to allies positioned further than 18 meters away from the taunted enemy.
+Spawn Broodlings, Black Widows, and Arachnophobia (Trapping Webs & morphs)
+The prompt is now only visible to allies positioned further than 18 meters away from the webbed enemy.
+Developer Comments:
+Spoiler Warning
+Spoiler
+We’ve changed some synergies, such as Spawn Broodlings or Radiate, to only be available to ranged players. This balances the amount of synergies available to both melee and ranged players.
+The prompt will now be available against all enemies within the webs, even if they cannot be snared.
+This means that the prompt will be available against boss or flying enemies.
+The spiders summoned now inherit your damage done bonuses, such as Major and Minor Berserk or the Mighty Champion passive.
+Fixed an issue where the spiders summoned would throttle their attacks against the same target. They will now use their bite attack as quickly as they are able to (approximately every 1.5 seconds).
+Summon Storm Atronach
+The Atronach summoned by this ability and its morphs now inherit your damage done bonuses, such as Major and Minor Berserk or the Elemental Expert Champion passive. The Atronach now also uses the highest of your Magicka or Stamina-based stats, instead of using an average of your Magicka and Stamina-based stats. It will now use your armor or spell penetration statistic when dealing damage, as well as you critical damage modifiers such as Major Force.
+The Atronach summoned by this ability and the Summon Charged Atronach morph now last for 18/19/20/21 seconds, up from 15/16/17/18 seconds.
+Block Costs
+Decreased the base cost of Block to 1730 from 2160.
+Jewelry enchantments that reduce the cost of Block are now subtracted from this base cost first, then percentage reductions to the cost of Block are applied. This means stacking Jewelry enchantments and block cost reduction passives will now be less effective than before.
+Ancient Knowledge (Destruction Staff passive) now reduces the cost of Block by 18/36%, up from 15/30%.
+Developer Comments - Block Cost Changes:
+Spoiler Warning
+Spoiler
+The changes to Block’s costs are meant to reduce the extreme differences between builds that specialize in blocking and ones that do not. We’ve lowered the base cost of Block to ensure that all builds can have an easier time blocking attacks without being completely drained of Stamina. We’ve also changed Block cost jewelry enchantments to work similarly to Magicka or Stamina cost reduction jewelry enchantments. Builds utilizing those enchantments (and other reductions to Block cost) were too effective at keeping block up. Finally, we’ve buffed Ancient Knowledge so that it is comparable to the Fortress passive, which brings the gap between traditional Sword and Shield tanking and Frost Staff tanking closer.
+Heavy Attacks & Off Balance
+Using a Heavy Attack against an Off Balance enemy will now only consume the Off Balance debuff if the enemy is successfully stunned.
+This means that using a Heavy Attack against an Off Balance boss enemy will not consume the Off Balance effect, as bosses are immune to crowd control effects.
+This new behavior also applies to the Power Lash ability. You can use Power Lash on an enemy until the Off Balance effect expires or is consumed.
+Using a Heavy Attack against an Off Balance enemy player character will now stun them, in the same way that it stuns monsters.
+This new behavior also applies to the Power Lash ability. You can use Power Lash to stun enemy Players.
+Using a fully-charged Heavy Attack against an Off Balance enemy will now restore double the amount of resources.
+Boss enemies can only be set Off Balance once every 15 seconds. After the first Off Balance debuff ends on a boss enemy, they will be immune to subsequent Off Balance debuffs until this immunity duration is over.
+The Off Balance visual effects are now larger and more prominent if the enemy has a larger model size.
+Your ground-based area of effect abilities will now persist after you leave combat, rather than being removed immediately.
+Developer Comments - Heavy Attack and Off Balance Changes:
+Spoiler Warning
+Spoiler
+We’ve changed the way the Off Balance debuff works in Dungeon and Trial situations so there is more consistency for all groups in how this debuff is applied and used. Heavy Attacks (and abilities such as Flame Lash) no longer immediately consume the Off Balance debuff against bosses so you don’t penalize your group for capitalizing on an Off Balance opportunity. We’ve also significantly increased the resources you receive when you Heavy Attack an Off Balance enemy, so builds that have sustain issues now have a clear window of time to fill their Magicka and Stamina bars back up. Finally, bosses are now immune to the Off Balance debuff for a short period of time. This makes heavy attack usage more strategic as there is a limited amount of time during the fight when its usage is optimal.
+Standardized Off Balance across the game so that all applicable abilities and procs apply the effect for 5 seconds.
+Developer Comment:
+Spoiler Warning
+Spoiler
+This will unify the Off Balance mechanic into a consistent experience. You now have the same amount of time to take advantage of a target being Off Balance, regardless of which ability activated the effect.
+Block & Dodge Rulesets
+We’ve updated several abilities so they better adhere to our block and dodge mechanics. The system is set up to be intuitive – attacks on the ground such as fire or Caltrops cannot be blocked or dodged. We also want dodging to be useful during some instances, and blocking to be useful at other times. The ruleset is as follows:
+Attacks that can be blocked, but not dodged
+AoE explosions such as Radial Sweep, Spear Shards’ initial hit, or Drain Power.
+Beam attacks such as Radiant Destruction, Lightning Staff, or Soul Strike.
+Attacks that cannot be blocked or dodged
+Damage on the ground such as Wall of Elements, Caltrops, or Lightning Splash.
+Effects that are on or inside a player character, such as Daedric Curse, or Backlash. (Damage over time effects)
+Attacks that can be dodged, but not blocked
+Secondary effects that penetrate Block such as the Damage over Time from Sunfire, the surprise attack armor debuff, or the snare from Low Slash snare.
+Note: Block continues to provide stun immunity, so it will stop a secondary effect like the stun from Stonefist.
+Exceptions to these rules will be stated each ability’s tooltip, such as Fiery Grip which cannot be dodged or reflected.
+Dragonknight
+Ardent Flame
+Flame Lash (Lava Whip morph): The Power Lash attack from this morph now has a 3 second cooldown.
+Lava Whip: This ability and its morphs no longer have a cooldown when they can set the enemy target Off Balance. Striking a stunned or immobile enemy will always set them Off Balance.
+Searing Strike: The initial direct damage from this ability and its morphs can now be blocked and dodged.
+Nightblade
+Assassination
+Assassin’s Blade: The damage from this ability and its morphs can now be blocked and dodged.
+Grim Focus: The stacks you build towards the bow proc for this ability and its morphs will now remain if you recast the ability early, or if the ability expires. The partial stacks are removed if you exit combat.
+Known Issue: Currently, this ability will generate stacks towards the Assassin’s Will and Scourge procs when the Light or Heavy Attack successfully hits its target. In our next patch, we'll adjust this so the stacks will generate when you begin the Light or Heavy Attack against the enemy target.
+Developer Comment:
+Spoiler Warning
+Spoiler
+This change makes the ability effectiveness more consistent among players of different skill levels. It still rewards more skilled play, but is less punishing when someone makes a mistake.
+Teleport Strike: Decreased the damage dealt by this ability and its morphs by approximately 13%.
+Developer Comments – Gap Closer Abilities:
+Spoiler Warning
+Spoiler
+We’ve decreased the damage values on numerous gap closer abilities – not just Teleport Strike, but other charge abilities such as Critical Charge or Focused Charge as well. Gap closers in ESO have no cooldown and can hit for extreme amounts of damage, so there is very little opportunity cost in forcing your enemies to use them. Decreasing their damage ensures that ranged players utilizing movement and terrain to maintain their distance are better rewarded for that advantage.
+Shadow
+Shadow Image (Summon Shade morph): If you are further than 28 meters away from your shade, this morph will now revert back to allowing you to summon a new shade, rather than letting you attempt to teleport to the shade and fail.
+Siphoning
+Malevolent Offering: Reduced the health cost of this ability and the Healthy Offering morph to 4925 from 6751.
+Shrewd Offering (Malevolent Offering morph): Reduced the health cost of this morph to 4320 from 5940.
+Templar
+Aedric Spear
+Focused Charge: Decreased the damage dealt by this ability and its morphs by approximately 18%.
+Puncturing Strikes:
+Refactored the damage done by this ability and its morphs so it works more intuitively with damage taken bonuses on the enemy. Previously, Puncturing Strike’s bonus damage to the closest enemy would be additive with damage taken bonuses, such as Minor Vulnerability. This will result in increased damage on targets with Minor Vulnerability.
+Increased the width of the damage area of this ability and its morphs by 1 meter. It now hits targets in an 8x6 rectangle in front of you (8 meters long, 6 meters wide), previously 8x5.
+Developer Comment:
+Spoiler Warning
+Spoiler
+This change will help Templars land jabs more consistently, particularly while strafing.
+Dawn’s Wrath
+Solar Barrage (Solar Flare morph): The damage from this morph can now be blocked, but cannot be dodged.
+Weapon
+Two Handed
+Cleave: The initial direct damage from this ability and its morphs can now be blocked, but cannot be dodged.
+Critical Charge: Decreased the damage dealt by this ability and its morphs by approximately 11%.
+Critical Rush (Critical Charge morph): Decreased the damage bonus based on distance traveled granted by this morph to 40% from 68%.
+Stampede (Critical Charge morph): Decreased the duration of the snare applied by this morph to 4 seconds from 8 seconds.
+One Hand and Shield
+Low Slash: Reduced the duration of the snare applied by this ability and its morphs to 4 seconds from 12 seconds.
+Developer Comment:
+Spoiler Warning
+Spoiler
+Powerful snares should have a short duration, while weaker snares should have a long duration; Low Slash fell outside of this ruleset and needed to be adjusted. We have plans to do a more comprehensive pass on snare durations in the future.
+Shield Charge: Decreased the damage dealt by this ability and its morphs by approximately 20%.
+Dual Wield
+Whirlwind: The damage from this ability and its morphs can now be blocked, but cannot be dodged.
+Destruction Staff
+Elemental Storm: Reduced the radius of this ability and its morphs to 8 meters from 10 meters.
+World
+Soul Magic
+Soul Assault: This ability and its morphs no longer snare the enemy target.
+Developer Comment:
+Spoiler Warning
+Spoiler
+One of the main counters to channeled abilities is being able to break light of sight/out range the ability, which is extremely difficult when faced with a 70% snare.
+Vampire
+Clouding Swarm (Bat Swarm morph): You can no longer cast the Materialize attack from this morph while in midair.
+Werewolf
+Pounce: Decreased the damage dealt by this ability and its morphs by approximately 16%.
+Alliance War
+Assault
+Magicka Detonation: Reduced the cast time of this ability and the Inevitable Detonation morph to 1.5 seconds from 1.8 seconds.
+General
+Fixed an issue where the stun animation from a Sneak attack was showing on the enemy before your weapon or attack visually hit them.
+Fixed an issue where the Health Recovery reduction from Major and Minor Defile was not reducing Health Recovery increases from some sources, such as drink buffs or the Troll King Item Set.
+Fixed an issue where damaging procs from passive abilities or Item Sets were not benefiting from your Spell or Physical Penetration in some situations.
+Fixed an issue where some abilities, such as Light Attacks or Entropy, could break invisibility on an enemy if used at the exact moment they went invisible.
+Dragonknight
+Ardent Flame
+Dragonknight Standard: Fixed an issue where this ability and its morphs could not be dispelled by Negate Magic or the Earthgore Item Set.
+Flame Lash (Lava Whip morph): Fixed an issue where the Power Lash attack from this morph could not be dodged.
+Draconic Power
+Reflective Scale: Fixed an issue where recasting this ability and its morphs would not refresh the amount of projectile reflections allowed.
+Earthen Heart
+Ash Cloud: Fixed an issue where this ability and its morphs could occasionally expire too early, causing you to lose out on the final tick of damage.
+Shattering Rocks (Petrify morph): Fixed an issue where Rank IV of this morph was not setting secondary targets Off Balance.
+Nightblade
+Assassination
+Soul Harvest (Death Stroke morph): Fixed an issue where you could not dodge this morph.
+Shadow
+Shadow Cloak: Fixed an issue where this ability or its morphs could be removed by another ability immediately after it was activated.
+Shadow Image (Summon Shade moprh): Fixed an issue where teleporting or attempting to teleport to your shade would cause you to lose some character functionality, such as the ability to mount or interact with objects.
+Veiled Strike: Fixed an issue where this ability and its morphs would still stun and set an enemy Off Balance even if they could detect you with detection potions.
+Siphoning
+Strife: Fixed an issue where the heal over time from this ability and its morphs would still apply to you even if the enemy dodged the attack.
+Templar
+Aedric Spear
+Piercing Javelin: Fixed an issue where your character would appear to teleport around after getting hit by this ability or its morphs.
+Spear Shards: Fixed an issue where this ability and its morphs could not be dispelled by Negate Magic or the Earthgore Item Set.
+Dawn’s Wrath
+Backlash: Fixed an issue where multiple Templars using this ability and its morphs against the same target would not deal the full amount of intended damage.
+Radiant Oppression (Radiant Destruction morph): Fixed an issue where the execute bonus damage and Magicka bonus damage from this morph were not multiplicative with each other. This fix will result in higher damage done with this morph.
+Weapon
+One Hand & Shield
+Low Slash: Fixed an issue where the snare from this ability and its morphs could be blocked.
+Restoration Staff
+Healing Ward: This ability will now heal targets more reliably after the ward expires during high-latency scenarios.
+Armor
+Heavy Armor
+Unstoppable (Immovable morph): Fixed an issue where this morph was increasing the duration of the skill by a lower amount than intended for each piece of Heavy Armor worn.
+Alliance War
+Assault
+Caltrops: Fixed an issue where the visual effects of this ability and its morphs would remain even after the ability had been dispelled by Negate Magic or the Earthgore Item Set.
+Rapid Maneuvers: Fixed an issue where the buff from this ability and its morphs would be removed if you used Shadow Cloak near monsters or NPCs.
+Razor Caltrops (Caltrops morph): Fixed an issue where the initial direct damage from this morph had a radius of 12 meters, instead of the intended 8 meter radius.
+Racial
+Imperial Skills
+Red Diamond: Fixed an issue where this passive ability would display a generic icon in your buff trackers when it triggered.
+Champion System
+Fixed an issue where Champion abilities that reduce the cost of core mechanics (Block, Sprint, etc.) were still working in non-Champion enabled PvP campaigns.
+Item Sets
+Earthgore: This item set’s proc now only dispels one enemy Area of Effect ability in its radius, instead of all of them.
+Seventh Legion Brute: This Item Set’s proc now has a 2 second cooldown.
+Developer Comment:
+Spoiler Warning
+Spoiler
+This set was scaling too effectively when fighting more than one opponent; the short cooldown brings the set more in line with what was originally intended.
+General
+Fixed an issue where numerous class abilities were not interacting correctly with the Overwhelming Surge or Innate Axiom Item Sets.
+Item Sets
+Grand Rejuvenation: Fixed an issue where the Stamina restore from this Item Set’s proc was not centered on the Grand Healing cast.
+Soulshine: Fixed an issue where this item set’s bonus was not applying to the Solar Barrage morph.
+Storm Knight’s Plate: Fixed an issue where this item set’s 2 and 3-piece bonuses were granting a lower amount of Spell Resistance than intended.
+General
+Increased the length of time Ayleid well buffs last in Cyrodiil to 30 minutes from 10 minutes.
+Scattershot weapons now properly note they apply a 20% damage taken debuff to enemy player characters.
+Closed the “hole” under the stairs at Aleswell.
+Keeps in Cyrodiil can no longer be permanently claimed by a guild.
+Slightly increased the Forward Camp deployment radius to prevent placement on inner Keep structures.
+Slightly increased the Forward Camp deployment angle checks to allow for more forgiving placement on terrain.
+Once you reach level 10, you will now be able to use the Alliance War activity finder regardless of your Champion Rank.
+You will no longer fall through Outpost or Keep grates when hit by abilities that cause knockbacks.
+Fixed an issue where quests obtained from Mission Boards were not consistently available.
+Oil will now correctly pour through gatehouse grates at Fort Aleswell, Blue Road Keep and Castle Roebeck.
+Cross-alliance groups can no longer group queue for Cyrodiil. When queuing in this situation, you will now be entered into your respective alliance solo queue.
+You can once again exit the top portion of a large Keep corner that has been destroyed.
+You can no longer stand on the build-out sections from destroyed Keep corners.
+Players who are queued for Cyrodiil and have group members go offline will now have their queue paused until the offline members are removed by the group leader.
+You will no longer be able to invite members of other alliances into your group while queued for Cyrodiil.
+Itemization
+Imperial NPCs in Cyrodiil now have a chance to drop keep repair kits and other consumables.
+Consolidated the armor rewards for winning a 30-day campaign into a single “Champion’s Cache” container. This also resolves the issue where you would sometimes see a question mark as the 7th reward item in your mail.
+General
+Fixed an issue that would cause larger player characters to not appear in high resolution until you got very close to them.
+Animation
+Fixed an issue where monsters using a light attack would cause the enemy to look away from you.
+Your active Personality will no longer stop working after interacting with harvest nodes.
+Figure
+Fixed the available dye slots for the following items:
+Yokudan Style Heavy Armor Helm
+The Morrowind Slave Pants & Slave Shirt
+Fixed an issue where the elbow pads on Heavy Armor hands were not displaying correctly in the Celestial Style on medium graphics settings.
+The item icon and in-game appearance for Khajiit style Shadowhide Bracers is now visually consistent.
+Kneepads no longer float when female characters equip the Silken Ring boots.
+The Emperor’s Regalia Costume has been reverted to its original state.
+Larger noses on male characters no longer clip through the Daggerfall Covenant Iron helmet.
+Improved the visuals of the Mohawk-style Khajiit hair.
+Adjusted the visuals from the inside of the Priest of the Green’s skirt.
+Fixed a visual issue that would occur when combining Wood Elf Horns and the Standing Wave hairstyle.
+Fixtures
+Improved the texture on the backs of painting furnishings.
+Texture
+Fixed an issue where the rear textures on bear cubs could warp while they were running.
+Monsters
+Fixed several issues where monster abilities could cause game objects to be moved outside valid locations.
+Monster Abilities
+Daedroth
+Improved the timing of various Daedroth attacks to better match their effects.
+All telegraphs from Ground Tremor now correspond to their effective radius.
+The interrupt telegraph from Ground Tremor has been made more conspicuous.
+Ground Tremor no longer allows the Daedroth to turn while casting, and can now be cast while silent.
+Ground Tremor now interfaces correctly with tutorials.
+Limited the frequency with which Ground Tremor could damage a player running parallel to its path.
+NPC Dragonknights have renewed their contract with the guild of flags and standards. NPC Dragonknights across Tamriel once again unfurl standards upon their foes.
+Nightblade
+Teleport Strike now appears correctly, and can also now be cast while silent.
+Approaching a Nightblade NPC no longer cancels a Teleport Strike in progress.
+Alchemy
+Fixed an issue resulting in some long-duration poisons having no difference between their two-reagent and three-reagent durations. Three-reagent durations are now consistently longer.
+Adjusted the duration for all Immovable potions. The base duration has been reduced from a cap of 12.5 seconds to 8 seconds, leading to a Medicinal Use maximum of 10.4 seconds.
+Blacksmithing
+Fixed an issue where there were two different “Diagram: Dwarven Pipeline Cap, Sealed” plans that appeared identical, but could not stack. One of these will continue to drop, while the other has been banished to the darkness forever more, never to be seen again.
+Collectibles
+Fixed an issue that caused the Midyear Victor's Laurel Wreath to be found in the Hats category instead of the Facial Accessories category of your Collections menu.
+Crafting Motifs
+With the release of the Outfit System, we've adjusted the drop rates for a number of Crafting Motifs to help ensure certain impressive or prestigious Motifs retain a degree of rarity. In most cases, this reduction is marginal. This change affects the following Crafting Motifs:
+Aldmeri Dominion
+Ancient Elf
+Assassins League
+Barbaric
+Celestial
+Daedric
+Daggerfall Covenant
+Dro-m'Athra
+Ebonheart Pact
+Mercenary
+Minotaur
+Outlaw
+Primal
+Ra Gada
+The Glass Motif can now be purchased from Rolis Hlaalu, the Mastercraft Mediator with Writ Vouchers.
+Glass Motif Fragments no longer drop from Crafting Writ reward containers.
+If you have Glass Motif Fragments in your inventory, the Merethic Restorative Resin can still be found in the wares of Mystic vendors the world over for the same price as before (10,000g).
+Fixed an issue where certain style books and style chapters could be deleted without waiting 3 seconds first.
+Consumables
+The “Spring-Loaded Infusion” drink now correctly increases your maximum Stamina, as originally intended.
+Transmutation
+Rewards for the Worthy mails now only grant a guaranteed Transmutation Geode once per day per account.
+Previously, they would give a guaranteed Transmutation Geode once per day per character.
+The chance to get Transmutation Geodes from additional mails is unchanged.
+Fixed an issue that caused the quest "Taking the Undaunted Pledge" to unintentionally award a Transmutation Geode in addition to its normal rewards.
+Fixed a rare issue where excess Transmute Crystals could be lost when your ESO Plus membership expired.
+General
+Added an additional purchasable character slot.
+The look of the Telvanni Master Wizard Costume now matches what’s advertised in the Crown Store image.
+Fixed an issue that prevented you from purchasing the Vampire and Werewolf bites in the Crown Store.
+Art
+Fixed the Winter Broadrim Hats so that they no longer clip with certain hairstyles.
+The Brass Fortress Rebreather no longer appears with a gap around the collar, or causes your character’s head to appear deformed.
+Collectibles
+The Witch Knight Charger now has a default nickname: "Knightmare". If you've already set a nickname for this mount, you will need to reapply the nickname.
+Fixed an issue where the Wild Hunt Transform memento was only lasting 15 seconds. It now lasts 3 glorious minutes.
+Fixed an issue that prevented other players from seeing the full splendor of your Wild Hunt Transform memento.
+Personalities
+Footsteps will now be heard correctly when using the Duchess personality.
+The arms on female characters will no longer rise up gradually when using the Brassy Assassin personality.
+Dungeons
+Blackheart Haven
+The Undying Pillagers and Bone Scouts summoned by Blackheart will now pursue you all throughout the fighting area.
+City of Ash II
+Xivilai Fulminator and Xivilai Boltaic will once again cast the ability Lightning Grasp.
+General
+Monster Mask and Shoulder pieces will now display their item style as "Undaunted". This style cannot be crafted, and serves only to categorize Monster Mask and Shoulders. For now…
+Fixed an issue where some Daedric chests had a chance to contain Crackling Lodestones (the monster trophy rarely found when defeating Storm Atronachs).
+Fixed an issue where Unidentified Enchantment boxes, from the Slithering Brood and The Serpent's Fang quests, would not provide any rewards to characters lower than Level 10. They now provide a purple-quality enchantment to characters of any level.
+Collectibles
+As we’re now granting all players a free Sorrel Horse at Level 10 via the new Level-Up Advisor system, we've removed the Sorrel Horse from the wares of Stablemasters throughout Tamriel.
+Fixed an issue that allowed Mementos to be used while mounted, which caused a number of visual issues.
+Eidetic Memory
+Fixed an issue that could prevent the lore library from correctly displaying certain book collections. This was a display issue only, and none of your eidetic memories have actually been lost.
+“Adainaz's Journal” will now be available in Darkshade Caverns II, as originally intended.
+“Letter to Sonya” is now visible after completion of the quest Torn Asunder.
+Multiple books in the Lion's Den and Halls of the Dead will now be easier to read and interact with (and won’t show up as “Giant Warning” everywhere under the sun).
+The bulletin board bestower for The Precursor is now a readable book on Zanon's desk after you have completed the quest.
+Survey Reports
+Survey Reports now display additional text to indicate their purpose and value.
+Homes
+The loft space of the Exorcised Coven Cottage is no longer blocked off, and is now accessible.
+Filled in a small gap between two walls in an interior corner of Mournoth Keep.
+Fixed an issue where some rocks in Pariah's Pinnacle would appear to change the amount of snow cover as you approached them.
+Made a number of small improvements to the invisible collision boundaries in Daggerfall Overlook.
+The trim around the main door to the Orbservatory Prior no longer appears to float slightly.
+Furnishings
+Updated the "Hagraven Cauldron, Rough Stone" furnishing.  It is now called “Hagraven Cauldron, Ritual”, and can be lit to produce bright green flames. This furnishing can be found in the “Enchanted Lights” category of the Housing Editor.
+Several furnishings that were previously only in pre-furnished homes can now be purchased for crowns in the Housing Editor.
+Adjusted the size description of several furnishings to improve consistency.
+Fixed an issue where certain tuffets could not be sat upon once placed in your home.
+Fixed an issue where some non-combat pets had inaccurate nameplates when placed as a furnishing.
+The icon for the "Fabrication Sphere, Inactive" and "Apparatus, Boiler" furnishings now better matches their appearance.
+Fixed an issue where there were two carpets with the name "Imperial Carpet, Dibella". There is now an "Imperial Carpet, Gilded Dibella" and an "Imperial Carpet, Verdant Dibella".
+The "Saplings, Fragile Autumn Birch" furnishing is no longer sold from the Housing Editor, and has been replaced with the identical "Saplings, Marsh Cluster".
+This is to resolve an issue where the "Saplings, Marsh Cluster" and "Saplings, Fragile Autumn Birch" furnishings were visually identical, but acquired in different ways.
+The Imperial Fountain of the Bay can now be activated, and will have small streams of water pouring from its spouts while active.
+Fixed an issue where the "Tribunal Tablet of Almalexia" furnishing would become bound to you after it was crafted. Going forward, this furnishing will no longer bind itself to you.
+Improved the collision with the Hew’s Bane Lantern furnishing.
+Itemization
+Target Dummies of all varieties now behave like dungeon bosses for the purposes of status effects applied to them.
+General
+Implemented some fixes and improvements to ensure more consistent load times, and reduce the frequency of long load screens.
+Note: There may still be some remaining issues related to grouping, and are still working on fixing these issues.
+Fixed an issue where the performance in Maelstrom Arena could degrade over time.
+Fixed an audio-related game crash.
+Alik’r Desert
+Tharayya's Trail: You can now acquire this quest directly from Tharayya's Journal, Entry 10, within the Aldunz delve.
+Auridon
+Ensuring Security: Improved the visual interactions with all crates, barrels, sacks, and cargo containers associated with this quest.
+Bangkorai
+Crypt of the Exiles:
+A certain wandering ghost will no longer wander and get stuck on tombs.
+A pack of skeevers deep in the complex will no longer force characters into the wall.
+Trials and Tribulations: All monsters associated with this quest will now scale appropriately to your level instead of being incredibly weaksauce.
+Craglorn
+Dawn of the Exalted Viper:
+Kelmen Locke is no longer hanging around in the Star-Gazer Observatory after he should be extremely very ultra-dead.
+Regnet Cassipia will no longer be hanging around outside of Serpent's Nest after the events of this quest.
+Rkundzelft: Fixed an issue where going through a particular door would put you immediately in beat down range of a bunch of Dwarven spiders.
+The Time-Lost Warrior: Titus Valerius is no longer hanging out at the Observatory during and after the quest.
+Fighters Guild
+Will of the Council: Jofnir’s head will no longer appear cut off near the end of the quest while you’re speaking with him.
+The Earth Forge: The map after you complete this quest will now display appropriately.
+Grahtwood
+Scars Never Fade: Slightly adjusted the scene between No-Fingers, Slim-Jah, and Uta-Tei so you hear audio during a certain tragic moment.
+The Unquiet Dead: It is now easier to interact with the altars to reinforce the Inner Sanctum.
+Khenarthi’s Roost
+The Perils of Diplomacy: You can once again use the inkwell and blank paper to forge a letter from Zali.
+Main Quest
+Foundry of Woe: Monsters in this instance now properly have a chance to drop loot.
+God of Schemes: Fixed an issue that would occasionally prevent Molag Bal from grabbing your character.
+Soul Shriven in Coldharbour: You will no longer receive a TRACKER GOAL TEXT error when logging into the Wailing Prison for the first time after creating a new character, or doing the tutorial with a post-Morrowind character.
+Stonefalls
+You will no longer be directed throughout interiors of Davon’s Watch via a maddening tangle of non-Euclidian nightmares, sending you through non-existent doors outside of time and space.
+Stros M’kai
+Innocent Scoundrel:
+The interaction camera with Jakarn will no longer get hung up on the bars when he's in his cell.
+You will no longer be able to charge through cell doors in The Grave to kill rats, or get knocked through them by NPCs.
+General
+Fixed an issue that would cause UI elements to load in slowly when first loading into the game.
+The load screen art will now be consistent to the zone you’re loading into.
+Fixed some inconsistencies with how numbers display across all languages.
+Fixed a number of entries that were lacking icons in the lore library.
+Moved the "Quest Giver Icons" option to the interface menu from the nameplates menu.
+Fixed several issues that could occur when attempting to purchase a home while your character was jumping.
+As part of an ongoing effort to standardize icons across the game, we updated a number of placeholder and existing icons and images.
+Timed notifications are now prioritized over non-timed notifications to help prevent you from missing them.
+Items that are bound to your current character are now referred to as "Character Bound" in the tooltip. All functionality remains the same.
+Fixed an issue where you could get stuck in the conversation window when attempting to open another UI window after beginning a conversation.
+Fixed an issue where large quest area markers on the map could display incorrectly.
+Alliance War & PvP
+Fixed an issue where Guest Campaign information was being inaccurately shown in the Campaign menu while not in the campaign. The information will now accurately display while in a Cyrodiil campaign.
+Collectibles
+Assistants no longer appear active in your UI after being disabled by traveling to a new zone.
+Fixed an issue where the "new" icon wasn't displaying on collectible entries in the Gamepad Collections menu.
+Crafting
+Bound recipes will now display as bound.
+When improving a Bind-on-Pickup Tradable item, the preview tooltip will now communicate that the item will become bound to you.
+The Creation tab at Crafting Stations will now remember the level you have selected, rather than the number of materials. This is to prevent accidentally crafting the wrong level gear when switching between slots that require different material amounts, such as Helmet and Pants.
+Fixed an issue where items in the Deconstruct menu would not sort correctly.
+Crown Store
+Replaced multiple missing assets in the Crown Store.
+Fixed an issue in the Crown Store UI where you could attempt to preview a home the same way other products are previewed (instead of being sent directly to the home).
+Gameplay
+Health costs on ability tooltips will now be colored red, to match the paradigm used for Stamina and Magicka costs.
+Guild reputation gains will now appear in the Loot History UI.
+Added a delay to the Ready Check UI to prevent accidentally accepting or declining while navigating menus.
+Guilds & Guild Features
+Fixed an issue where being demoted while viewing a Guild bank could change the Guild bank you were looking at.
+Fixed an issue where rugs and carpets did not have their own subcategory in the Guild Store search for Parlor furnishings.
+Fixed an issue where Target Dummies and Crafting Stations did not have their own subcategories in the Guild Store search for furnishings.
+Quests
+Fixed an issue where the quest tracker could reset your tracked quest after viewing your Journal.

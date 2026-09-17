@@ -1,0 +1,336 @@
+{{Trail|Traits}}
+'''Nirnhoned''' is a trait which can be found on both weapons and armor.  Exemplary items with this trait can only be found by completing the [[ON:Dawn of the Exalted Viper|Dawn of the Exalted Viper]] quest in [[ON:Craglorn|Craglorn]], and you can only receive one per character. In addition, weapons with Nirnhoned trait can drop in trials and arenas.  To learn the other traits, you must get other players (or other characters on your own account) to craft items for you to research.  Once you have researched the trait on a given item type, you can craft Nirnhoned items by using {{icon|tr|Potent Nirncrux|18}} {{Item Link|Potent Nirncrux|id=56863}} for weapons or {{icon|tr|Fortified Nirncrux|18}} {{Item Link|Fortified Nirncrux|id=56862}} for armor.  Both of these materials can only be found rarely by harvesting blacksmithing, jewelry, woodworking, or cloth [[ON:Nodes|nodes]]; or from killing creatures that drop medium armor [[ON:Clothing Materials#Medium_Armor|clothing materials]] in [[ON:Craglorn|Craglorn]].  Weapons with the Nirnhoned trait will do more damage, while Nirnhoned armor will increase your Physical and Spell Resistance by an amount dependent on the level and quality of the item.
+
+===Weapons===
+{|class=wikitable {{AL|R}}
+!colspan=5|Damage Increase
+|-
+!{{C|5}}{{ESO Quality Color|n|Normal}}
+!{{C|5}}{{ESO Quality Color|f|Fine}}
+!{{C|5}}{{ESO Quality Color|s|Superior}}
+!{{C|5}}{{ESO Quality Color|e|Epic}}
+!{{C|5}}{{ESO Quality Color|l|Legendary}}
+|-
+|{{ESO Quality Colors|11%|12%|13%|14%|15%}}
+|}
+
+====One-Handed and Ranged====
+{|class=wikitable {{AL|R}}
+!rowspan=2|Material!!rowspan=2|Level!!colspan=5|Base Damage!!rowspan=68| !!colspan=5|Nirnhoned Damage
+|-
+!{{C|12}}{{ESO Quality Color|n|Normal}}
+!{{C|12}}{{ESO Quality Color|f|Fine}}
+!{{C|12}}{{ESO Quality Color|s|Superior}}
+!{{C|12}}{{ESO Quality Color|e|Epic}}
+!{{C|12}}{{ESO Quality Color|l|Legendary}}
+!{{C|12}}{{ESO Quality Color|n|Normal}}
+!{{C|12}}{{ESO Quality Color|f|Fine}}
+!{{C|12}}{{ESO Quality Color|s|Superior}}
+!{{C|12}}{{ESO Quality Color|e|Epic}}
+!{{C|12}}{{ESO Quality Color|l|Legendary}}
+|-
+|rowspan=7 {{AL|L}}|Iron/<br>Maple
+| 1||{{ESO Quality Colors|168|204|239|275|311}}||{{ESO Quality Colors|186|228|270| 313| 357}}
+|-
+| 4||{{ESO Quality Colors|215|251|287|323|358}}||{{ESO Quality Colors|238|281|324| 368| 411}}
+|-
+| 6||{{ESO Quality Colors|251|287|323|358|394}}||{{ESO Quality Colors|278|321|364| 408| 453}}
+|-
+| 8||{{ESO Quality Colors|275|311|346|382|418}}||{{ESO Quality Colors|305|348|390| 435| 480}}
+|-
+|10||{{ESO Quality Colors|299|334|370|406|442}}||{{ESO Quality Colors|331|374|418| 462| 508}}
+|-
+|12||{{ESO Quality Colors|323|358|394|430|465}}||{{ESO Quality Colors|358|400|445| 490| 534}}
+|-
+|14||{{ESO Quality Colors|346|382|418|453|489}}||{{ESO Quality Colors|384|427|472| 516| 562}}
+|-
+|rowspan=5 {{AL|L}}|Steel/<br>Oak
+|16||{{ESO Quality Colors|370|406|442|477|513}}||{{ESO Quality Colors|410|454|499| 543| 589}}
+|-
+|18||{{ESO Quality Colors|394|430|465|501|537}}||{{ESO Quality Colors|437|481|525| 571| 617}}
+|-
+|20||{{ESO Quality Colors|418|453|489|525|561}}||{{ESO Quality Colors|463|507|552| 598| 645}}
+|-
+|22||{{ESO Quality Colors|442|477|513|549|584}}||{{ESO Quality Colors|490|534|579| 625| 671}}
+|-
+|24||{{ESO Quality Colors|465|501|537|572|608}}||{{ESO Quality Colors|516|561|606| 652| 699}}
+|-
+|rowspan=5 {{AL|L}}|Orichalcum/<br>Beech
+|26||{{ESO Quality Colors|489|525|561|596|632}}||{{ESO Quality Colors|542|588|633| 679| 726}}
+|-
+|28||{{ESO Quality Colors|513|549|584|620|656}}||{{ESO Quality Colors|569|614|659| 706| 754}}
+|-
+|30||{{ESO Quality Colors|537|572|608|644|680}}||{{ESO Quality Colors|596|640|687| 734| 782}}
+|-
+|32||{{ESO Quality Colors|561|596|632|668|703}}||{{ESO Quality Colors|622|667|714| 761| 808}}
+|-
+|34||{{ESO Quality Colors|584|620|656|691|727}}||{{ESO Quality Colors|648|694|741| 787| 836}}
+|-
+|rowspan=5 {{AL|L}}|Dwarven/<br>Hickory
+|36||{{ESO Quality Colors|608|644|680|715|751}}||{{ESO Quality Colors|674|721|768| 815| 863}}
+|-
+|38||{{ESO Quality Colors|632|668|703|739|775}}||{{ESO Quality Colors|701|748|794| 842| 891}}
+|-
+|40||{{ESO Quality Colors|656|691|727|763|799}}||{{ESO Quality Colors|728|773|821| 869| 918}}
+|-
+|42||{{ESO Quality Colors|680|715|751|787|822}}||{{ESO Quality Colors|754|800|848| 897| 945}}
+|-
+|44||{{ESO Quality Colors|703|739|775|810|846}}||{{ESO Quality Colors|780|827|875| 923| 972}}
+|-
+|rowspan=3 {{AL|L}}|Ebony/<br>Yew
+|46||{{ESO Quality Colors|727|763|799|834|870}}||{{ESO Quality Colors|806|854|902| 950|1000}}
+|-
+|48||{{ESO Quality Colors|751|787|822|858|894}}||{{ESO Quality Colors|833|881|928| 978|1028}}
+|-
+|50||{{ESO Quality Colors|775|810|846|882|918}}||{{ESO Quality Colors|860|907|955|1005|1055}}
+|-
+|rowspan=3 {{AL|L}}|Calcinium/<br>Birch
+|{{ESO Champion|10}}||{{ESO Quality Colors| 775| 810| 846| 870| 906}}||{{ESO Quality Colors| 860| 907| 955| 991|1041}}
+|-
+|{{ESO Champion|20}}||{{ESO Quality Colors| 799| 834| 870| 894| 929}}||{{ESO Quality Colors| 886| 934| 983|1019|1068}}
+|-
+|{{ESO Champion|30}}||{{ESO Quality Colors| 810| 846| 882| 906| 941}}||{{ESO Quality Colors| 899| 947| 996|1032|1082}}
+|-
+|rowspan=3 {{AL|L}}|Galatite/<br>Ash
+|{{ESO Champion|40}}||{{ESO Quality Colors| 834| 870| 906| 929| 965}}||{{ESO Quality Colors| 925| 974|1023|1059|1109}}
+|-
+|{{ESO Champion|50}}||{{ESO Quality Colors| 846| 882| 918| 941| 977}}||{{ESO Quality Colors| 939| 987|1037|1072|1123}}
+|-
+|{{ESO Champion|60}}||{{ESO Quality Colors| 870| 906| 941| 965|1001}}||{{ESO Quality Colors| 965|1014|1063|1100|1151}}
+|-
+|rowspan=2 {{AL|L}}|Quicksilver/<br>Mahogany
+|{{ESO Champion|70}}||{{ESO Quality Colors| 882| 918| 953| 977|1013}}||{{ESO Quality Colors| 979|1028|1076|1113|1164}}
+|-
+|{{ESO Champion|80}}||{{ESO Quality Colors| 906| 941| 977|1001|1037}}||{{ESO Quality Colors|1005|1053|1104|1141|1192}}
+|-
+|rowspan=6 {{AL|L}}|Voidsteel/<br>Nightwood
+|{{ESO Champion|90}}||{{ESO Quality Colors| 918| 953| 989|1013|1048}}||{{ESO Quality Colors|1018|1067|1117|1154|1205}}
+|-
+|{{ESO Champion|100}}||{{ESO Quality Colors| 941| 977|1013|1037|1072}}||{{ESO Quality Colors|1044|1094|1144|1182|1232}}
+|-
+|{{ESO Champion|110}}||{{ESO Quality Colors| 953| 989|1025|1048|1084}}||{{ESO Quality Colors|1057|1107|1158|1194|1246}}
+|-
+|{{ESO Champion|120}}||{{ESO Quality Colors| 977|1013|1048|1072|1108}}||{{ESO Quality Colors|1084|1134|1184|1222|1274}}
+|-
+|{{ESO Champion|130}}||{{ESO Quality Colors| 989|1025|1060|1084|1120}}||{{ESO Quality Colors|1097|1148|1197|1235|1288}}
+|-
+|{{ESO Champion|140}}||{{ESO Quality Colors|1013|1048|1084|1108|1144}}||{{ESO Quality Colors|1124|1173|1224|1263|1315}}
+|-
+|rowspan=2 {{AL|L}}|Rubedite/<br>Ruby Ash
+|{{ESO Champion|150}}||{{ESO Quality Colors|1025|1060|1096|1108|1235}}||{{ESO Quality Colors|1137|1187|1238|1276|1420}}
+|-
+|{{ESO Champion|160}}||{{ESO Quality Colors|1037|1072|1108|1132|1335}}||{{ESO Quality Colors|1151|1200|1252|1290|1535}}
+|}
+
+====Two-Handed====
+{|class=wikitable {{AL|R}}
+!rowspan=2|Material!!rowspan=2|Level!!colspan=5|Base Damage!!rowspan=68| !!colspan=5|Nirnhoned Damage
+|-
+!{{C|12}}{{ESO Quality Color|n|Normal}}
+!{{C|12}}{{ESO Quality Color|f|Fine}}
+!{{C|12}}{{ESO Quality Color|s|Superior}}
+!{{C|12}}{{ESO Quality Color|e|Epic}}
+!{{C|12}}{{ESO Quality Color|l|Legendary}}
+!{{C|12}}{{ESO Quality Color|n|Normal}}
+!{{C|12}}{{ESO Quality Color|f|Fine}}
+!{{C|12}}{{ESO Quality Color|s|Superior}}
+!{{C|12}}{{ESO Quality Color|e|Epic}}
+!{{C|12}}{{ESO Quality Color|l|Legendary}}
+|-
+|rowspan=7 {{AL|L}}|Iron/<br>Maple
+| 1||{{ESO Quality Colors|198|240|282| 324| 366}}||{{ESO Quality Colors| 219| 268| 318| 369| 420}}
+|-
+| 4||{{ESO Quality Colors|254|296|338| 380| 422}}||{{ESO Quality Colors| 281| 331| 381| 433| 485}}
+|-
+| 6||{{ESO Quality Colors|296|338|380| 422| 464}}||{{ESO Quality Colors| 328| 378| 429| 481| 533}}
+|-
+| 8||{{ESO Quality Colors|324|366|408| 450| 492}}||{{ESO Quality Colors| 359| 409| 461| 513| 565}}
+|-
+|10||{{ESO Quality Colors|352|394|436| 478| 520}}||{{ESO Quality Colors| 390| 441| 492| 544| 598}}
+|-
+|12||{{ESO Quality Colors|380|422|464| 506| 548}}||{{ESO Quality Colors| 421| 472| 524| 576| 630}}
+|-
+|14||{{ESO Quality Colors|408|450|492| 534| 576}}||{{ESO Quality Colors| 452| 504| 555| 608| 662}}
+|-
+|rowspan=5 {{AL|L}}|Steel/<br>Oak
+|16||{{ESO Quality Colors|436|478|520| 562| 604}}||{{ESO Quality Colors| 483| 535| 587| 640| 694}}
+|-
+|18||{{ESO Quality Colors|464|506|548| 590| 632}}||{{ESO Quality Colors| 515| 566| 619| 672| 726}}
+|-
+|20||{{ESO Quality Colors|492|534|576| 618| 660}}||{{ESO Quality Colors| 546| 598| 650| 704| 759}}
+|-
+|22||{{ESO Quality Colors|520|562|604| 646| 688}}||{{ESO Quality Colors| 577| 629| 682| 736| 791}}
+|-
+|24||{{ESO Quality Colors|548|590|632| 674| 716}}||{{ESO Quality Colors| 608| 660| 714| 768| 823}}
+|-
+|rowspan=5 {{AL|L}}|Orichalcum/<br>Birch
+|26||{{ESO Quality Colors|576|618|660| 702| 744}}||{{ESO Quality Colors| 639| 692| 745| 800| 855}}
+|-
+|28||{{ESO Quality Colors|604|646|688| 730| 772}}||{{ESO Quality Colors| 670| 723| 777| 832| 887}}
+|-
+|30||{{ESO Quality Colors|632|674|716| 758| 800}}||{{ESO Quality Colors| 701| 754| 809| 864| 920}}
+|-
+|32||{{ESO Quality Colors|660|702|744| 786| 828}}||{{ESO Quality Colors| 732| 786| 840| 896| 952}}
+|-
+|34||{{ESO Quality Colors|688|730|772| 814| 856}}||{{ESO Quality Colors| 763| 817| 872| 927| 984}}
+|-
+|rowspan=5 {{AL|L}}|Dwarven/<br>Hickory
+|36||{{ESO Quality Colors|716|758|800| 842| 884}}||{{ESO Quality Colors| 794| 848| 904| 959|1016}}
+|-
+|38||{{ESO Quality Colors|744|786|828| 870| 912}}||{{ESO Quality Colors| 825| 880| 935| 991|1048}}
+|-
+|40||{{ESO Quality Colors|772|814|856| 898| 940}}||{{ESO Quality Colors| 856| 911| 967|1023|1081}}
+|-
+|42||{{ESO Quality Colors|800|842|884| 926| 968}}||{{ESO Quality Colors| 888| 943| 998|1055|1113}}
+|-
+|44||{{ESO Quality Colors|828|870|912| 954| 996}}||{{ESO Quality Colors| 919| 974|1030|1087|1145}}
+|-
+|rowspan=3 {{AL|L}}|Ebony/<br>Ash
+|46||{{ESO Quality Colors|856|898|940| 982|1024}}||{{ESO Quality Colors| 950|1005|1062|1119|1177}}
+|-
+|48||{{ESO Quality Colors|884|926|968|1010|1052}}||{{ESO Quality Colors| 981|1037|1093|1151|1209}}
+|-
+|50||{{ESO Quality Colors|912|954|996|1038|1080}}||{{ESO Quality Colors|1012|1068|1125|1183|1242}}
+|-
+|rowspan=3 {{AL|L}}|Calcinium/<br>Yew
+|{{ESO Champion|10}}||{{ESO Quality Colors| 912| 954| 996|1024|1066}}||{{ESO Quality Colors|1012|1068|1125|1167|1225}}
+|-
+|{{ESO Champion|20}}||{{ESO Quality Colors| 940| 982|1024|1052|1094}}||{{ESO Quality Colors|1043|1099|1157|1199|1258}}
+|-
+|{{ESO Champion|30}}||{{ESO Quality Colors| 954| 996|1038|1066|1108}}||{{ESO Quality Colors|1058|1115|1172|1215|1274}}
+|-
+|rowspan=3 {{AL|L}}|Galatite/<br>Beech
+|{{ESO Champion|40}}||{{ESO Quality Colors| 982|1024|1066|1094|1136}}||{{ESO Quality Colors|1090|1146|1204|1247|1306}}
+|-
+|{{ESO Champion|50}}||{{ESO Quality Colors| 996|1038|1080|1108|1150}}||{{ESO Quality Colors|1105|1162|1220|1263|1322}}
+|-
+|{{ESO Champion|60}}||{{ESO Quality Colors|1024|1066|1108|1136|1178}}||{{ESO Quality Colors|1136|1193|1252|1295|1354}}
+|-
+|rowspan=2 {{AL|L}}|Quicksilver/<br>Mahogany
+|{{ESO Champion|70}}||{{ESO Quality Colors|1038|1080|1122|1150|1192}}||{{ESO Quality Colors|1152|1209|1267|1311|1370}}
+|-
+|{{ESO Champion|80}}||{{ESO Quality Colors|1066|1108|1150|1178|1220}}||{{ESO Quality Colors|1183|1240|1299|1342|1403}}
+|-
+|rowspan=6 {{AL|L}}|Voidsteel/<br>Nightwood
+|{{ESO Champion|90}}||{{ESO Quality Colors|1080|1122|1164|1192|1234}}||{{ESO Quality Colors|1198|1256|1315|1358|1419}}
+|-
+|{{ESO Champion|100}}||{{ESO Quality Colors|1108|1150|1192|1220|1262}}||{{ESO Quality Colors|1229|1288|1346|1390|1451}}
+|-
+|{{ESO Champion|110}}||{{ESO Quality Colors|1122|1164|1206|1234|1276}}||{{ESO Quality Colors|1245|1303|1362|1406|1467}}
+|-
+|{{ESO Champion|120}}||{{ESO Quality Colors|1150|1192|1234|1262|1304}}||{{ESO Quality Colors|1276|1335|1394|1438|1499}}
+|-
+|{{ESO Champion|130}}||{{ESO Quality Colors|1164|1206|1248|1276|1318}}||{{ESO Quality Colors|1292|1350|1410|1454|1515}}
+|-
+|{{ESO Champion|140}}||{{ESO Quality Colors|1192|1234|1276|1304|1346}}||{{ESO Quality Colors|1323|1382|1441|1486|1547}}
+|-
+|rowspan=2 {{AL|L}}|Rubedite/<br>Ruby Ash
+|{{ESO Champion|150}}||{{ESO Quality Colors|1206|1248|1290|1318|1453}}||{{ESO Quality Colors|1338|1397|1457|1502|1670}}
+|-
+|{{ESO Champion|160}}||{{ESO Quality Colors|1220|1262|1304|1332|1571}}||{{ESO Quality Colors|1354|1413|1473|1518|1806}}
+|}
+
+===Armor===
+{|class=wikitable {{AL|R}}
+!rowspan=2|Material!!rowspan=2|Level!!colspan=5|Resistance
+|-
+!{{C|7}}{{ESO Quality Color|n|Normal}}
+!{{C|7}}{{ESO Quality Color|f|Fine}}
+!{{C|7}}{{ESO Quality Color|s|Superior}}
+!{{C|7}}{{ESO Quality Color|e|Epic}}
+!{{C|7}}{{ESO Quality Color|l|Legendary}}
+|-
+|rowspan=7 {{AL|L}}|Iron/<br>Rawhide/<br>Jute
+| 1||{{ESO Quality Colors|  7| 17| 28| 38| 49}}
+|-
+| 4||{{ESO Quality Colors| 21| 31| 42| 52| 63}}
+|-
+| 6||{{ESO Quality Colors| 31| 42| 52| 63| 73}}
+|-
+| 8||{{ESO Quality Colors| 38| 49| 59| 70| 80}}
+|-
+|10||{{ESO Quality Colors| 45| 56| 66| 77| 87}}
+|-
+|12||{{ESO Quality Colors| 52| 63| 73| 84| 94}}
+|-
+|14||{{ESO Quality Colors| 59| 70| 80| 91|101}}
+|-
+|rowspan=5 {{AL|L}}|Steel/<br>Hide/<br>Linen
+|16||{{ESO Quality Colors| 66| 77| 87| 98|108}}
+|-
+|18||{{ESO Quality Colors| 73| 84| 94|105|115}}
+|-
+|20||{{ESO Quality Colors| 80| 91|101|112|122}}
+|-
+|22||{{ESO Quality Colors| 87| 98|108|119|129}}
+|-
+|24||{{ESO Quality Colors| 94|105|115|126|136}}
+|-
+|rowspan=5 {{AL|L}}|Orichalcum/<br>Leather/<br>Cotton
+|26||{{ESO Quality Colors|101|112|122|133|143}}
+|-
+|28||{{ESO Quality Colors|108|119|129|140|150}}
+|-
+|30||{{ESO Quality Colors|115|126|136|147|157}}
+|-
+|32||{{ESO Quality Colors|122|133|143|154|164}}
+|-
+|34||{{ESO Quality Colors|129|140|150|161|171}}
+|-
+|rowspan=5 {{AL|L}}|Dwarven/<br>Full-Leather/<br>Spidersilk
+|36||{{ESO Quality Colors|136|147|157|168|178}}
+|-
+|38||{{ESO Quality Colors|143|154|164|175|185}}
+|-
+|40||{{ESO Quality Colors|150|161|171|182|192}}
+|-
+|42||{{ESO Quality Colors|157|168|178|189|199}}
+|-
+|44||{{ESO Quality Colors|164|175|185|196|206}}
+|-
+|rowspan=3 {{AL|L}}|Ebony/<br>Fell Hide/<br>Ebonthread
+|46||{{ESO Quality Colors|171|182|192|203|213}}
+|-
+|48||{{ESO Quality Colors|178|189|199|210|220}}
+|-
+|50||{{ESO Quality Colors|185|196|206|217|227}}
+|-
+|rowspan=3 {{AL|L}}|Calcinium/<br>Brigandine/<br>Kresh
+|{{ESO Champion|10}}||{{ESO Quality Colors|185|196|206|213|224}}
+|-
+|{{ESO Champion|20}}||{{ESO Quality Colors|192|203|213|220|231}}
+|-
+|{{ESO Champion|30}}||{{ESO Quality Colors|196|206|217|224|234}}
+|-
+|rowspan=3 {{AL|L}}|Galatite/<br>Ironhide/<br>Ironthread
+|{{ESO Champion|40}}||{{ESO Quality Colors|203|213|224|231|241}}
+|-
+|{{ESO Champion|50}}||{{ESO Quality Colors|206|217|227|234|245}}
+|-
+|{{ESO Champion|60}}||{{ESO Quality Colors|213|224|234|241|252}}
+|-
+|rowspan=2 {{AL|L}}|Quicksilver/<br>Superb Hide/<br>Silverweave
+|{{ESO Champion|70}}||{{ESO Quality Colors|217|227|238|245|255}}
+|-
+|{{ESO Champion|80}}||{{ESO Quality Colors|224|234|245|252|262}}
+|-
+|rowspan=6 {{AL|L}}|Voidsteel/<br>Shadowhide/<br>Shadowspun
+|{{ESO Champion|90}}||{{ESO Quality Colors|227|238|248|255|266}}
+|-
+|{{ESO Champion|100}}||{{ESO Quality Colors|234|245|255|262|273}}
+|-
+|{{ESO Champion|110}}||{{ESO Quality Colors|238|248|259|266|276}}
+|-
+|{{ESO Champion|120}}||{{ESO Quality Colors|245|255|266|273|283}}
+|-
+|{{ESO Champion|130}}||{{ESO Quality Colors|248|259|269|276|287}}
+|-
+|{{ESO Champion|140}}||{{ESO Quality Colors|255|266|276|283|294}}
+|-
+|rowspan=2 {{AL|L}}|Rubedite/<br>Rubedo Leather/<br>Ancestor Silk
+|{{ESO Champion|150}}||{{ESO Quality Colors|259|269|280|287|297}}
+|-
+|{{ESO Champion|160}}||{{ESO Quality Colors|262|273|283|290|301}}
+|}
+
+{{Online Traits}}

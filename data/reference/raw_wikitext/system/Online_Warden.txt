@@ -1,0 +1,113 @@
+{{Trail|Classes}}{{Mod Header|Crown Store}}__NOTOC__{{about|the class|other uses|Warden (disambiguation)}}
+[[File:ON-icon-class-Warden.png|frameless|left]]
+'''Warden''' is a [[Online:Classes|class]] in ''[[Online:Online|Elder Scrolls Online]]''. It was originally only available to players who had purchased the ''[[Online:Morrowind|Morrowind]]'' [[Online:Chapters|Chapter]] and later available as a separate [[Online:Crown Store|Crown Store]] Upgrade for {{ESO Crowns|1500}}, but it has been integrated into the base game on March 9, 2026. Warden is a nature-themed class, with a focus on frost magic and animal companions.
+
+::'''In-Game Description''': ''Wardens are defenders of the Green, master storytellers whose nature tales become magical reality. They wield frost spells against enemies and summon animals to aid them.'' 
+{{NewLeft}}
+==Skills==
+===Animal Companions===
+[[Online:Animal Companions|Animal Companions]] is geared towards summoning animals to aid you in battle.
+
+===Green Balance===
+[[Online:Green Balance|Green Balance]] is geared towards healing and buffs.
+
+===Winter's Embrace===
+[[Online:Winter's Embrace|Winter's Embrace]] is geared towards dealing [[Online:Frost Damage|Frost Damage]] and tanking.
+
+===Class Mastery===
+[[ON:Class Mastery#Warden|Class Mastery]] is available if the player is not [[Online:Subclassing|subclassing]].
+
+==Builds==
+{|class=wikitable
+!Build!!Role!!Description!!Primary Stat
+|-
+|[[ON:Warden Initiate|Warden Initiate]]
+|New Players
+|Learn to harness the powers and beasts of nature as you traverse the ways of the Warden
+|{{ESO Magicka Link}}
+|-
+|[[ON:Beast Caller|Beast Caller]]
+|Damage{{icon|role|Damage|18}}
+|Summon up the wrath of the wild by calling on great beasts to overpower your enemies.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Savage Stalker|Savage Stalker]]
+|Damage{{icon|role|Damage|18}}
+|Use potent toxins and savage beasts to weaken your foes while you pelt them from afar with skillful archery.
+|{{ESO Stamina Link}}
+|-
+|[[ON:Guardian of the Wild|Guardian of the Wild]]
+|Tank{{icon|role|Tank|18}}
+|Channel nature's resilience with freezing barriers and restorative, nourishing vines.
+|{{ESO Health Link}}
+|-
+|[[ON:Master Herbalist|Master Herbalist]]
+|Healer{{icon|role|Healer|18}}
+|Draw on nature's bounty to summon plants that heal and empower your wounded allies.
+|{{ESO Magicka Link}}
+|}
+
+===Compatible Builds===
+It is possible to build a character which meets or mostly meets the recommendations of multiple builds simultaneously.  The chart below shows skill morphs which conflict between different builds.
+{|class=wikitable {{AL|C}}
+! !!Warden<br>Initiate!!Beast<br>Caller!!Savage<br>Stalker!!Guardian<br>of the Wild!!Master<br>Herbalist
+|-
+!Warden<br>Initiate
+|{{BG|#000000}}|
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#ff7700}}|[[ON:Dive|Dive]]<br>[[ON:Scorch|Scorch]]<br>[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Fungal Growth|Fungal Growth]]<br>[[ON:Lotus Flower|Lotus Flower]]
+|{{BG|#ffbb00}}|[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Falcon's Swiftness|Falcon's Swiftness]]<br>[[ON:Impaling Shards|Impaling Shards]]
+|{{BG|#00ff00}}| no conflicts
+|-
+!Beast<br>Caller
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#000000}}|
+|{{BG|#ff7700}}|[[ON:Dive|Dive]]<br>[[ON:Scorch|Scorch]]<br>[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Fungal Growth|Fungal Growth]]<br>[[ON:Lotus Flower|Lotus Flower]]
+|{{BG|#ffbb00}}|[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Sleet Storm|Sleet Storm]]<br>[[ON:Impaling Shards|Impaling Shards]]
+|{{BG|#00ff00}}| no conflicts
+|-
+!Savage<br>Stalker
+|{{BG|#ff7700}}|[[ON:Dive|Dive]]<br>[[ON:Scorch|Scorch]]<br>[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Fungal Growth|Fungal Growth]]<br>[[ON:Lotus Flower|Lotus Flower]]
+|{{BG|#ff7700}}|[[ON:Dive|Dive]]<br>[[ON:Scorch|Scorch]]<br>[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Fungal Growth|Fungal Growth]]<br>[[ON:Lotus Flower|Lotus Flower]]
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Falcon's Swiftness|Falcon's Swiftness]]
+|{{BG|#ffbb00}}|[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Fungal Growth|Fungal Growth]]<br>[[ON:Lotus Flower|Lotus Flower]]
+|-
+!Guardian<br>of the Wild
+|{{BG|#ffbb00}}|[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Falcon's Swiftness|Falcon's Swiftness]]<br>[[ON:Impaling Shards|Impaling Shards]]
+|{{BG|#ffbb00}}|[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Sleet Storm|Sleet Storm]]<br>[[ON:Impaling Shards|Impaling Shards]]
+|{{BG|#aaff00}}|[[ON:Falcon's Swiftness|Falcon's Swiftness]]
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Betty Netch (skill)|Betty Netch]]
+|-
+!Master<br>Herbalist
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#ffbb00}}|[[ON:Betty Netch (skill)|Betty Netch]]<br>[[ON:Fungal Growth|Fungal Growth]]<br>[[ON:Lotus Flower|Lotus Flower]]
+|{{BG|#aaff00}}|[[ON:Betty Netch (skill)|Betty Netch]]
+|{{BG|#000000}}|
+|}
+
+The Warden allows for one triple-build.  You can meet the requirements for Warden Initiate, Beast Caller, and Master Herbalist all at once.  Neither of the other two builds can be fully mixed with anything, however.
+
+==Gallery==
+These images were taken from the Morrowind trailer, and do not accurately represent in-game graphics.
+<gallery>
+File:ON-render-Warden.jpg|A Warden
+File:ON-trailer-morrowind-Warden Casting.jpg|A Warden using frost magic
+File:ON-trailer-morrowind-Warden Ice Wall.jpg|A Warden blocking a blast of fire with an ice wall
+File:ON-trailer-morrowind-Warden and Bear.jpg|A Warden with a bear companion
+</gallery>
+
+==See Also==
+*For more information, see the [[Lore:Wardens|lore]] article.
+
+===Books===
+*{{Book Link|Who Are the Wardens?}}
+
+==Notes==
+*The Warden class was initially planned during development, but it was scrapped before the game's first public [[Online:Beta|beta]].
+*The warden shown in the Morrowind trailer is named [[Lore:Boldekh|Boldekh]], according to [[Online:Naryu's Journal|Naryu's Journal]].
+
+
+{{Online Skills Warden}}

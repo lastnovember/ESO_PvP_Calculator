@@ -1,0 +1,102 @@
+{{About|the skill line|the achievement and related title|Emperor!}}
+{{Trail2|Skill Lines|Alliance War}}
+[[File:ON-costume-Emperor's Regalia (Male).jpg|thumb|left|A character in Emperor's Regalia]]{{TOCright}}
+For each Campaign in the [[ON:Alliance War|Alliance War]], it is possible for a player to be selected as '''Emperor'''. There can only be one Emperor for each Campaign, though there may be multiple campaigns, and thus multiple Emperors. In order to be crowned Emperor, your [[ON:Alliances|Alliance]] must control all six of the [[ON:Keeps|Keeps]] surrounding the Imperial City ([[ON:Chalman Keep|Chalman Keep]], [[ON:Blue Road Keep|Blue Road Keep]], [[ON:Castle Alessia|Castle Alessia]], [[ON:Castle Roebeck|Castle Roebeck]], [[ON:Fort Ash|Fort Ash]] and [[ON:Fort Aleswell|Fort Aleswell]]) and you must be the highest-ranked player in your Alliance. Your ranking is affected by the number of [[ON:Alliance Points|Alliance Points]] you have, which can be earned by participating in PvP battles. Your crown will be forfeit if your Alliance loses control of all six surrounding Keeps or if you leave the Campaign for another.
+
+By becoming Emperor, you also gain a unique [[Online:Emperor's Regalia|costume]] and the "Emperor" and "Empress" title. After being deposed, your title will change to "Former Emperor" and "Former Empress" but you will still have access to the costume.
+
+Emperors cannot wield [[Online:Volendrung|Volendrung]] for balance reasons.
+
+{{FMI|Battlefield Emperors}}
+{{NewLine}}
+==Skill Perks==
+As Emperor, you gain access to several innate Passive abilities.  These are only available while you are Emperor and in your home campaign, and will be removed if you are deposed or leave [[ON:Cyrodiil|Cyrodiil]].
+
+===Innate Abilities===
+Innate abilities are active all the time, and do not require the investment of skill points.
+{|class=wikitable
+!colspan=2|Name!!Description
+|-
+|{{ESO Passive Icon|sk|Emperor-Domination}}
+|'''[[ON:Domination (skill)|Domination]]'''
+|Increases your {{ESO Health Link}}, {{ESO Magicka Link}}, and {{ESO Stamina Link}} '''Recovery''' while in your campaign, depending on how many Home Keeps you own.
+
+1 or less Keep: 50%<br>
+2 Keeps: 60%<br>
+3 Keeps: 70%<br>
+4 Keeps: 80%<br>
+5 Keeps: 90%<br>
+6 Keeps: 100%
+|-
+|{{ESO Passive Icon|sk|Emperor-Authority}}
+|'''[[ON:Authority|Authority]]'''
+|Increases your {{ESO Ultimate Link}} generation while in your campaign, depending on how many Home Keeps you own.
+
+1 or less Keep: 50%<br>
+2 Keeps: 60%<br>
+3 Keeps: 70%<br>
+4 Keeps: 80%<br>
+5 Keeps: 90%<br>
+6 Keeps: 100%
+|-
+|{{ESO Passive Icon|sk|Emperor-Monarch}}
+|'''[[ON:Monarch|Monarch]]'''
+|Increases your [[Online:Healing Received|healing received]] while in your campaign, depending on how many Home Keeps you own.
+
+1 or less Keep: 25%<br>
+2 Keeps: 30%<br>
+3 Keeps: 35%<br>
+4 Keeps: 40%<br>
+5 Keeps: 45%<br>
+6 Keeps: 50%
+|-
+|{{ESO Passive Icon|sk|Emperor-Tactician}}
+|'''[[ON:Tactician|Tactician]]'''
+|Increases your damage done with Siege Weapons to Keeps and other Siege Weapons while in your campaign, depending on how many Home Keeps you own.
+
+1 or less Keep: 50%<br>
+2 Keeps: 60%<br>
+3 Keeps: 70%<br>
+4 Keeps: 80%<br>
+5 Keeps: 90%<br>
+6 Keeps: 100%
+|-
+|{{ESO Passive Icon|sk|Emperor-Emperor}}
+|'''[[ON:Emperor (skill)|Emperor]]'''
+|Increases your '''Max''' {{ESO Health Link}}, {{ESO Magicka Link}}, and {{ESO Stamina Link}} while in your campaign, depending on how many Home Keeps you own.
+
+1 or less Keep: 38%<br>
+2 Keeps: 45%<br>
+3 Keeps: 53%<br>
+4 Keeps: 60%<br>
+5 Keeps: 68%<br>
+6 Keeps: 75%
+|}
+
+==System Mail==
+The Elder Council of the Empire will send you a letter congratulating you for becoming an Emperor.
+{| class="wikitable" width="40%"
+! Emperor
+|-
+|
+''Congratulations! Thanks to your exemplary efforts and the work of the warriors in your alliance, you have been crowned Emperor of Cyrodiil.<br>Long may you reign!<br>
+|}
+
+== Gallery ==
+<gallery>
+File:ON-render-Emperor of Cyrodiil.jpg|Promotional screenshot
+File:ON-concept-Emperor Armor.jpg|Concept art
+</gallery>
+
+== Notes ==
+* Before [[Online:Patch/2.1.4|Patch 2.1.4]], Former Emperors would retain a weaker version of some of the Passive abilities, but would lose access to the costume.
+
+== Patch Notes ==
+{{ESO Patch Note|2.2.4|* Tactician: Fixed an issue where this passive was not increasing your siege damage as described.}}
+{{ESO Patch Note|2.3.5|* Tactician: Fixed an issue where this passive was not increasing the damage of Siege Weapons.}}
+{{ESO Patch Note|2.4.5|* Tactician: Fixed an issue where this passive ability was increasing the damage of Siege Weapons against players and monsters.}}
+{{ESO Patch Note|2.7.5|* Monarch: Fixed an issue where this passive ability was only increasing the healing received from your own heals instead of all heals.}}
+{{ESO Patch Note|5.1.5|* You can no longer generate Ultimate while in a transformation, such as [[ON:Bone Goliath Transformation|Bone Goliath Transformation]] or [[ON:Werewolf Transformation|Werewolf]], while you are Emperor.}}
+
+{{Online Skills}}
+{{ESO Skills With|PvP Bonus|Health Recovery|Magicka Recovery|Stamina Recovery|Ultimate Gain|Increase Healing Received|Increase Damage Dealt|Increase Max Health|Increase Max Magicka|Increase Max Stamina|Passive Effect}}

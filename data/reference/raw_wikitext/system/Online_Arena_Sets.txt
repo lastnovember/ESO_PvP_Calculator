@@ -1,0 +1,13 @@
+{{Trail|Sets}}{{Online Update|update=41}}[[Category:Online-Sets| Dropped Sets]]'''Arena Sets''' are five-piece [[ON:Sets|sets]] of [[ON:Armor|armor]], [[ON:Weapons|weapons]] and [[ON:Jewelry|jewelry]] that provide players with various bonuses when items of the same set are equipped simultaneously. Items constituting arena sets can only be found in reward chests for completing rounds of [[ON:Dragonstar Arena|Dragonstar Arena]], [[ON:Maelstrom Arena (place)|Maelstrom Arena]]{{ESO DLC|Orsinium}} and [[ON:Vateshran_Hollows|Vateshran Hollows]]{{ESO DLC|Markarth}}. Dragonstar Arena sets are bind-on-equip while Maelstrom Arena and Vateshran Hollows sets are bind-on-pickup.
+
+__TOC__
+===[[ON:Dragonstar Arena|Dragonstar Arena]]===
+{{ESO Set List|desc=y|type=settype|Archer's Mind|Footman's Fortune|Healer's Habit|Robes of Destruction Mastery}}
+
+===[[ON:Maelstrom Arena (place)|Maelstrom Arena]]{{ESO DLC|Orsinium}}===
+{{ESO Set List|desc=y|type=settype|Elemental Succession|Glorious Defender|Hunt Leader|Para Bellum|Permafrost|Winterborn (set)}}
+
+===[[ON:Vateshran_Hollows|Vateshran Hollows]]{{ESO DLC|Markarth}}===
+{{ESO Set List|desc=y|type=settype|Explosive Rebuke|Hex Siphon|Pestilent Host}}
+
+{{Online Sets}}

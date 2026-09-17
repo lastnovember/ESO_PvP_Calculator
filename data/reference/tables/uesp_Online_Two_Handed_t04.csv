@@ -1,0 +1,11 @@
+Name,Line Rank,Skill Rank,Description
+,Forceful,5,,WITH TWO-HANDED WEAPON EQUIPPED Your Light and Heavy Attacks damage up to 3 other nearby enemies for 50 % of the damage inflicted to the primary target.
+34,,WITH TWO-HANDED WEAPON EQUIPPED Your Light and Heavy Attacks damage up to 3 other nearby enemies for 100 % of the damage inflicted to the primary target.
+,Heavy Weapons,10,,WITH A TWO-HANDED WEAPON EQUIPPED Grants a bonus based on the type of weapon equipped: Swords increase your Weapon and Spell Damage by 129 . Axes increase your Critical Damage done by 6 %. Maces increase your Offensive Penetration by 1487 .
+25,,WITH A TWO-HANDED WEAPON EQUIPPED Grants a bonus based on the type of weapon equipped: Swords increase your Weapon and Spell Damage by 258 . Axes increase your Critical Damage done by 12 %. Maces increase your Offensive Penetration by 2974 .
+,Balanced Blade,17,,WITH TWO-HANDED WEAPON EQUIPPED Reduces the Stamina cost of your Two-Handed abilities by 7 %.
+28,,WITH TWO-HANDED WEAPON EQUIPPED Reduces the Stamina cost of your Two-Handed abilities by 15 %.
+,Follow Up,30,,"WITH TWO-HANDED WEAPON EQUIPPED When you complete a fully-charged Heavy Attack , your damage done with Two Handed attacks increases by 5 % for 4 seconds."
+46,,"WITH TWO-HANDED WEAPON EQUIPPED When you complete a fully-charged Heavy Attack, your damage done with Two Handed attacks increases by 10 % for 4 seconds."
+,Battle Rush,41,,WITH TWO-HANDED WEAPON EQUIPPED Increases your Stamina Recovery by 15 % for 10 seconds after killing a target.
+50,,WITH TWO-HANDED WEAPON EQUIPPED Increases your Stamina Recovery by 30 % for 10 seconds after killing a target.

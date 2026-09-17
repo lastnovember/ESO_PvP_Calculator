@@ -1,0 +1,43 @@
+{{Trail2|Skill Lines|Armor}}__NOTOC__
+{{/Progression}}
+'''Light Armor''' is a [[Online:skills|skill]] in [[Online:Online|Elder Scrolls Online]]. It consists largely of robes and cloth armor. As with the other armor skills, there are only passive skills and a single active ability. These skills mainly aid magic using characters.
+
+== Learning ==
+The Light Armor skill line is granted the first time you equip 3 pieces of Light Armor.  You can increase your skill by taking or blocking damage while wearing Light Armor, or earning experience with the Annulment skill slotted.  The more pieces you are wearing, the faster your skill will increase.  [[ON:Breton|Breton]]s are naturally gifted with Light Armor, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Light Armor are:
+{|
+|
+*[[ON:Call to the Faithful (book)|Call to the Faithful]]
+*[[ON:Jornibret's Last Dance|Jornibret's Last Dance]]
+*[[ON:Report: Quality of Recruits|Report: Quality of Recruits]]
+*[[ON:Undeniable Truths of Attire|Undeniable Truths of Attire]]
+*[[ON:Xil-Go's Spell|Xil-Go's Spell]]
+|}
+
+==Skill Perks==
+Light Armor has an associated skill line that is revealed through wearing, and taking damage in, one or more piece(s) of Light Armor. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Active Abilities===
+These abilities must be activated manually, while wearing at least one piece of Light Armor, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Annulment}}
+|}
+
+===Sets===
+{{ESO Set List|desc=y|type=both|Armor Master}}
+
+===Passive Abilities===
+Passive abilities are active all the time; some provide a benefit per piece of Light Armor equipped, so they are effectively always on (with a value that can be 0), while others may require a minimum number of pieces in order to apply (these typically provide a static value once turned on, rather than scaling per piece).
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Light Armor Bonuses}}
+{{Online Skill Link|Light Armor Penalties}}
+{{Online Skill Link|Grace}}
+{{Online Skill Link|Evocation}}
+{{Online Skill Link|Spell Warding}}
+{{Online Skill Link|Prodigy}}
+{{Online Skill Link|Concentration}}
+|}
+
+{{Online Skills}}

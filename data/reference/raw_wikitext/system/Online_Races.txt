@@ -1,0 +1,253 @@
+{{Trail}}
+This page details the ten playable '''races''' in [[Online:Online|Elder Scrolls Online]], as well as the many non-playable NPC races you can encounter.
+
+"NPCs" are programmed and classified differently than [[Online:Creatures|"creatures"]] in-game, with the former sharing similar shapes and animations to the playable characters while the latter consist of non-humanoid monsters and animals; this article defines "races" based on this technical categorization.
+
+==Playable Races==
+There are ten playable races in ESO. Each race has a home province (with the exception of [[Online:Orc|Orcs]]), as well as an [[Online:Factions|alliance]] that they are a member of. The races can be organized by what alliance they are loyal to:
+
+{|class="wikitable vtop"
+|-
+!width=25%| [[Online:Aldmeri Dominion|Aldmeri Dominion]]
+!width=25%| [[Online:Daggerfall Covenant|Daggerfall Covenant]]
+!width=25%| [[Online:Ebonheart Pact|Ebonheart Pact]]
+!width=25%| Other
+|-
+|
+* [[Online:High Elf|Altmer]] ''(High Elves)''
+* [[Online:Wood Elf|Bosmer]] ''(Wood Elves)''
+* [[Online:Khajiit|Khajiit]]
+|
+* [[Online:Breton|Breton]]
+* [[Online:Orc|Orc]] ''(Orsimer)''
+* [[Online:Redguard|Redguard]] 
+|
+* [[Online:Argonian|Argonian]] ''(Saxhleel)''
+* [[Online:Dark Elf|Dunmer]] ''(Dark Elves)''
+* [[Online:Nord|Nord]] 
+|
+*[[Online:Imperial|Imperial]] ''(Cyrodiils)''
+|}
+
+;Gallery
+<gallery>
+File:ON-prerelease-Dominion Faces.jpg|Altmer, Bosmer, and Khajiit
+File:ON-prerelease-Daggerfall Faces.jpg|Breton, Redguard, and Orc
+File:ON-prerelease-Ebonheart Faces.jpg|Argonian, Dunmer, and Nord
+</gallery>
+
+===Skills===
+All playable races have an associated [[Online:Skills|skill line]] that complements their lore, such as the Dunmer proficiency with fire based magicka, which unlocks at level 5. The skill lines also give a bonus to one weapon or armor type which also complements their lore, such as the Nords bonus to Two Handed weapons.
+
+{| class="wikitable" style="text-align:center"
+|+ Race bonuses at maximum level
+! [[Online:Alliance|Alliance]]
+! [[Online:Races|Race]]
+! +15% exp<br>gain in [[Online:Skills|skill]]
+! {{ESO Magicka Link|Max}}<br>{{ESO Magicka Link||Recovery}}<br>{{ESO Spell Damage Link}} [[File:ON-icon-effect-Alchemy-Increase Spell Power.png|16px|link=Online:Spell Damage|Spell Damage]]
+! {{ESO Health Link|Max}}<br>{{ESO Health Link||Recovery}}
+! {{ESO Stamina Link|Max}}<br>{{ESO Stamina Link||Recovery}}<br>{{ESO Weapon Damage Link}}[[File:ON-icon-effect-Alchemy-Increase Weapon Power.png|16px|link=Online:Weapon Damage|Weapon Damage]]
+! Other Bonuses
+|-
+!rowspan=3|[[File:ON-banner-Aldmeri Dominion.png|60px|link=Online:Aldmeri Dominion|Aldmeri Dominion]]<br>[[Online:Aldmeri Dominion|Aldmeri<br>Dominion]]
+| [[File:ON-icon-Altmer.png|link=Online:Altmer|60px|Altmer]]<br>[[Online:High Elf|High Elf]]
+| [[Online:Destruction Staff|Destruction Staff]]
+| {{ESO Magicka Link|||+2000 Max}}<br>{{ESO Spell Damage Link||||+258}} [[File:ON-icon-effect-Alchemy-Increase Spell Power.png|16px|link=Online:Spell Damage|Spell Damage]]
+|
+|{{ESO Weapon Damage Link||||+258}} [[File:ON-icon-effect-Alchemy-Increase Weapon Power.png|16px|link=Online:Weapon Damage|Weapon Damage]]
+| style="text-align:left" |
+* Activating an ability restores 625 {{ESO Magicka Link}} or {{ESO Stamina Link}}, based on whichever is lowest, once every 6 sec.
+* Take 5% less damage when using ability with a channel or cast time.
+* Increased experience gain by 1%.
+|-
+| [[File:ON-icon-Bosmer.png|60px|link=Online:Bosmer|Bosmer]]<br>[[Online:Wood Elf|Wood Elf]]
+| [[Online:Bow|Bow]]
+|
+| 
+| {{ESO Stamina Link|||+2000 Max}}<br>{{ESO Stamina Link|||+258 Recovery}}
+| style="text-align:left" |
+* Increased [[ON:Movement Speed|movement speed]] by 5%.
+* Increased physical and spell [[ON:Penetration|penetration]] by 950.
+* Decreases fall damage taken by 10%.
+* [[Online:Poison Damage|Poison]] and [[Online:Disease Damage|Disease]] Resistance increased by 2310.
+* Increased [[Online: Stealth|stealth]] detection radius by 3 meters.
+|-
+| [[File:ON-icon-Khajiit.png|60px|link=Online:Khajiit|Khajiit]]<br>[[Online:Khajiit|Khajiit]]
+| [[Online:Medium Armor|Medium Armor]]
+| {{ESO Magicka Link|||+915 Max}}<br>{{ESO Magicka Link|||+90 Recovery}}
+| {{ESO Health Link|||+915 Max}}<br>{{ESO Health Link|||+90 Recovery}}
+| {{ESO Stamina Link|||+915 Max}}<br>{{ESO Stamina Link|||+90 Recovery}}
+| style="text-align:left" |
+* Increased chance to successfully [[ON:Pickpocket|pickpocket]] by 5%.
+* Decreased detection radius in [[Online: Stealth|Stealth]] by 3 meters.
+* Increased [[Online:Critical Damage|Critical Damage]] and [[ON:Critical Healing|Critical healing]] by 12%
+|-
+! colspan=7 |
+|-
+!rowspan=3|[[File:ON-banner-Daggerfall Covenant.png|60px|link=Online:Daggerfall Covenant|Daggerfall Covenant]]<br>[[Online:Daggerfall Covenant|Daggerfall<br>Covenant]]
+|[[File:ON-icon-Breton.png|60px|link=Online:Breton|Breton]]<br>[[Online:Breton|Breton]]
+| [[Online:Light Armor|Light Armor]]
+| {{ESO Magicka Link|||+2000 Max}}<br>{{ESO Magicka Link|||+130 Recovery}}
+|
+|
+| style="text-align:left" |
+* Increased {{ESO Resistance Link|Spell}} by 2310, doubled while affected with [[Online:Burning|Burning]], [[Online:Chilled|Chilled]], or [[Online:Concussion|Concussed]].
+* Reduced cost of {{ESO Magicka Link}} abilities by 7%.
+* Increased [[Online: Alliance Points|alliance points]] gain by 1%.
+|-
+| [[File:ON-icon-Redguard.png|60px|link=Online:Redguard|Redguard]]<br>[[Online:Redguard|Redguard]]
+| [[Online:One Hand and Shield|One Hand and Shield]]
+|
+|
+| {{ESO Stamina Link|||+2000 Max}}
+|style="text-align:left" |
+* Increased duration of any eaten food by 15 minutes.
+* Reduced cost of [[Online:Weapons|weapon]] abilities by 8%.
+* Reduces the effectiveness of snares by 15%.
+* Dealing damage restores 1005 {{ESO Stamina Link}} once every 5 seconds.
+|-
+| [[File:ON-icon-Orc.png|60px|link=Online:Orc|Orc]]<br>[[Online:Orc|Orc]]
+| [[Online:Heavy Armor|Heavy Armor]]
+| {{ESO Spell Damage Link||||+258}} [[File:ON-icon-effect-Alchemy-Increase Spell Power.png|16px|link=Online:Spell Damage|Spell Damage]]
+| {{ESO Health Link|||+1000 Max}}<br>
+| {{ESO Stamina Link|||+1000 Max}}<br>{{ESO Weapon Damage Link||||+258}} [[File:ON-icon-effect-Alchemy-Increase Weapon Power.png|16px|link=Online:Weapon Damage|Weapon Damage]]
+|style="text-align:left" |
+* Increased crafting inspiration gain by 10%.
+* Dealing damage restores 2125 {{ESO Health Link}} once every 4 seconds.
+* The cost of Sprinting is reduced by 12%, and its [[Online:Movement Speed|speed]] bonus is increased by 10%.
+|-
+! colspan=7 |
+|-
+!rowspan=3| [[File:ON-banner-Ebonheart Pact.png|60px|link=Online:Ebonheart Pact|Ebonheart Pact]]<br>[[Online:Ebonheart Pact|Ebonheart<br>Pact]]
+| [[File:ON-icon-Nord.png|60px|link=Online:Nord|Nord]]<br>[[Online:Nord|Nord]]
+| [[Online:Two Handed|Two Handed]]
+|
+| {{ESO Health Link|||+1000 Max}}
+| {{ESO Stamina Link|||+1500 Max}}
+| style="text-align:left" |
+* Consumed [[ON:Beverage Recipes|drinks]] duration increased by 15 minutes.
+* [[Online:Frost Damage|Cold]] Resistance increased by 4620. 
+* When taking damage gain 5 {{ESO Ultimate Link}} once every 10 seconds.
+* {{ESO Resistance Link|Physical|||y}} and {{ESO Resistance Link|Spell}} increased by 2600.
+|- 
+| [[File:ON-icon-Dunmer.png|60px|link=Online:Dunmer|Dunmer]]<br>[[Online:Dark Elf|Dark Elf]]
+| [[Online:Dual Wield|Dual Wield]] 
+| {{ESO Magicka Link|||+1910 Max}}<br>{{ESO Spell Damage Link||||+258}} [[File:ON-icon-effect-Alchemy-Increase Spell Power.png|16px|link=Online:Spell Damage|Spell Damage]]
+|
+| {{ESO Stamina Link|||+1910 Max}}<br>{{ESO Weapon Damage Link||||+258}} [[File:ON-icon-effect-Alchemy-Increase Weapon Power.png|16px|link=Online:Weapon Damage|Weapon Damage]]
+| style="text-align:left" |
+* Reduces damage taken from environmental lava by 50%.
+* Increased [[Online:Flame Damage|Flame]] Resistance by 4620.
+|-
+| [[File:ON-icon-Argonian.png|60px|link=Online:Argonian|Argonian]]<br>[[Online:Argonian|Argonian]]
+| [[Online:Restoration Staff|Restoration Staff]]
+| {{ESO Magicka Link|||+1000 Max}}
+| {{ESO Health Link|||+1000 Max}}
+| {{ESO Stamina Link|||+1000 Max}}
+| style="text-align:left" |
+* Increased swimming speed by 50%.
+* Increased healing done by 6%.
+* Increased [[Online:Disease Damage|Disease]] and [[Online:Poison Damage|Poison]] Resistance by 2310.
+* Restore 3125 {{ESO Health Link}}, {{ESO Magicka Link}}, and {{ESO Stamina Link}} when drinking a potion.
+|-
+! colspan=7 |
+|-
+! Any
+| [[File:ON-concept-Imperial symbol.png|50px|link=Online:Imperial|Imperial]]<br>[[Online:Imperial|Imperial]]
+| [[Online:One Hand and Shield|One Hand and Shield]]
+| 
+| {{ESO Health Link|||+2000 Max}}
+| {{ESO Stamina Link|||+2000 Max}}
+| style="text-align:left" |
+* Increased gold gain by 1%.
+* Reduced cost of all abilities by 6%.
+|}
+Many of the above 'other bonuses' do not unlock until player level 25 or above. Details can be found on each race's associated page.
+
+==Non-Playable Races==
+There are a number of other races throughout the game that are not available for you to play as (although some are available as [[Online:Polymorphs|polymorphs]]):
+
+===Subspecies of Playable Races===
+Khajiit:
+*[[Online:Alfiq|Alfiq]]*
+*[[Online:Cathay-raht|Cathay-raht]]
+*[[Online:Dagi|Dagi]]
+*[[Online:Dagi-raht|Dagi-raht]]
+*[[Online:Pahmar|Pahmar]]
+*[[Online:Pahmar-raht|Pahmar-raht]]
+*[[Online:Senche-raht|Senche-raht]]*
+
+Argonian:
+*[[Online:Naga|Naga]]
+*[[Online:Argonian Behemoth|Argonian Behemoth]]*
+
+''*These races are of the same species as playable ones, but are classified as "creatures" in-game due to being non-humanoid.''
+
+===Other Extant Races===
+*[[Online:Akaviri|Akaviri]]
+*[[Online:Maormer|Maormer]]
+*[[Online:Reachfolk|Reachfolk]]
+
+===Historical Races===
+These races are extinct in the present day, but can be encountered in undead form or in flashbacks.
+*[[Online:Ayleid|Ayleid]]
+*[[Online:Chimer|Chimer]]
+*[[Online:Dwemer|Dwemer]]
+*[[Online:Kothringi|Kothringi]]
+*[[Online:Nede|Nede]]
+*[[Online:Snow Elf|Snow Elf]]
+
+===Monstrous Humanoids===
+These races are uncivilized beings that are nonetheless humanoid enough to share the same programming template as NPCs from playable races as opposed to being "creatures".
+*[[Online:Falmer|Falmer]]
+*[[Online:Goblin|Goblin]]
+*[[Online:Riekling|Riekling]]
+*[[Online:Riekr|Riekr]]
+*[[Online:Sea Giant|Sea Giant]]
+*[[Online:Spriggan|Spriggan]] (humanoid versions)
+
+===Daedric Races===
+These races are varieties of the demonic Daedra that are classified as humanoid NPCs as opposed to their more monstrous brethren.
+*[[Online:Auroran|Auroran]]
+*[[Online:Dark Seducer|Dark Seducer]]
+*[[Online:Dremora|Dremora]]
+*[[Online:Fire Behemoth|Fire Behemoth]]
+*[[Online:Golden Saint|Golden Saint]]
+*[[Online:Havocrel|Havocrel]]
+*[[Online:Huntsman|Huntsman]]
+*[[Online:Glass Atronach|Glass Atronach]] (humanoid versions)
+*[[Online:Iron Atronach|Iron Atronach]] (humanoid versions)
+*[[Online:Storm Atronach|Storm Atronach]] (humanoid versions)
+*[[Online:Pumpkin Spectre|Pumpkin Spectre]]
+*[[Online:Shrike|Shrike]]
+*[[Online:Skaafin|Skaafin]]
+*[[Online:Spiderkith|Spiderkith]]
+*[[Online:Wraith-of-Crows|Wraith-of-Crows]]
+*[[Online:Xivilai|Xivilai]]
+*[[Online:Xivkyn|Xivkyn]]
+
+===Synthetic Races===
+The following are inorganic humanoid beings.
+*[[Online:Dwarven Architon|Dwarven Architon]]
+*[[Online:Factotum|Factotum]]
+*[[Online:Voskrona Guardian|Voskrona Guardian]]
+
+===Technical Races===
+These "races" do not fictionally represent such, but are still programmed and classified as their own in-game humanoid "species".
+*[[Online:Blood Scion|Blood Scion]]
+*[[Online:Bone Goliath|Bone Goliath]]
+*[[Online:Draugr|Draugr]] ([[Online:Dragon Priest|Dragon Priest]])
+*[[Online:Hushed|Hushed]]
+*[[Online:Mannequin|Mannequin]]
+*[[Online:Shade|Shade]]
+*[[Online:Scarecrow Spectre|Scarecrow Spectre]]
+*[[Online:Skeleton|Skeleton]]
+*[[Online:Soulrazer Knight|Soulrazer Knight]]
+
+==Notes==
+* Your choice of Alliance when [[Online:Character Creation|creating your character]], usually dictated by race, is the single biggest influence on how your game will differ compared to other players.
+** The [[Online:Explorer's Pack|Explorer's Pack]] and {{Crown Link|Adventurer Pack}} remove the limitation on races within Alliances, allowing any race to be played in any Alliance.
+* The Imperials are only a playable race for those with the [[Online:Imperial Edition|Imperial Edition]] of the game.
+
+{{Online Races}}
+{{Online Skills Racial}}

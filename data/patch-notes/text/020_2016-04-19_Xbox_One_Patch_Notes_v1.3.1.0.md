@@ -1,0 +1,145 @@
+Xbox One Patch Notes v1.3.1.0
+Xbox One Patch Notes v1.3.1.0
+Posted 2016-04-19 by ZOS_GinaBruno ·
+forums.elderscrollsonline.com/en/discussion/260737 ·
+archived 2026-09-12
+OVERVIEW
+The Elder Scrolls Online: Tamriel Unlimited v1.3.1.0 is an incremental patch for Xbox One that addresses several issues in Imperial City, Orsinium, and Thieves Guild DLCs including fixes in Maw of Lorkhaj. We also have fixes for general gameplay including being able to obtain multiple Mundus Stone buffs, being incorrectly charged resource costs, having to wait in a Dungeon queue with a full group, and improvements to jumping on top of fixtures. Also included are fixes to several quests including Snakes in the Sand, Proving the Deed, and Beasts of Falinesti, and improvements to overall performance. The size of this patch is approximately 2.3GB.
+FIXES & IMPROVEMENTS
+Imperial City DLC Game Pack
+Orsinium DLC Game Pack
+Thieves Guild DLC Game Pack
+Base Game Patch
+FIXES & IMPROVEMENTS, IMPERIAL CITY DLC GAME PACK
+Combat & Gameplay
+General
+Enemies in the Imperial City will no longer spawn based on the number of player characters in the area, but based on how frequently they are killed.
+Quests & Zones
+Imperial City Sewers
+Enemies that get knocked back through walls during the Central Sewer event will no longer break their portals if they were the last enemy of that wave.
+Exploration & Itemization
+General
+Fixed an issue where you could receive rewards from a specific chest more times than intended.
+You will now receive the Dungeon Finder completion rewards from White Gold Tower.
+FIXES & IMPROVEMENTS, ORSINIUM DLC GAME PACK
+Exploration & Itemization
+Achievements
+The Perfect Run: This Veteran Maelstrom Arena achievement can no longer be completed if the Arena is started via a saved Quest Step.
+Quests & Zones
+Quests
+Cultural Affections: You will now be able to collect the bear musk from the corpse.
+FIXES & IMPROVEMENTS, THIEVES GUILD DLC GAME PACK
+Audio
+General
+Fixed an issue where music was playing at the incorrect time in some Thieves Guild areas.
+Crafting & Economy
+General
+Fixed an issue where certain high-level swords crafted in the Outlaw style had the incorrect visual. This will affect previously crafted swords, which will now appear in the correct Outlaw style.
+Dungeons & Group Content
+Maw of Lorkhaj Trial
+General
+Removed some extraneous candles and optimized effects to improve consistency and performance within the Trial.
+Fixed an issue that was occasionally preventing monsters from being visible.
+Implemented some potential fixes for missing effects in this Trial. This is an ongoing work in progress.
+Boss 1: Zhaj’hassa the Forgotten
+You will no longer be able to leave Zhaj’hassa’s area before he appears.
+Boss 2: False Moon Twins, S’Kinra and Vashai
+Dead player characters will now have their Lunar or Shadow Aspect removed when one of the bosses is killed.
+Boss 3: Rakkhat, the Fang of Lorkhaj
+Dro-m'Athra Assassins and Dro-m'Athra Dreadstalkers will now have increased damage after being hit by Rakkhat's Annihilation Sphere, as intended.
+Corrected the range of Rakkhat's Crushing Void ability to only affect targets within melee range.
+Rakkhat will now relocate via teleportation during Crushing Void to his desired destination instead of occasionally skating across the floor.
+Rakkhat can now use his Void Blast projectile attack outside melee range.
+Silenced player characters will no longer receive the Celestial Purge synergy prompt. Now, only player characters with the Lunar Bastion buff are eligible to be granted the Celestial Purge synergy from Adara'hai.
+There will now be visual effects triggered when someone collides with one of Rakkhat's defensive orbs during his Wrath of the Void ability.
+The defense granted by one of Rakkhat’s orbs during Wrath of the Void is now properly removed regardless of when the orb explodes.
+Veteran Maw of Lorkhaj Trial
+Boss 3: Rakkhat, the Fang of Lorkhaj
+Fixed an issue where groups that defeated Rakkhat on Veteran mode could receive Hard Mode loot without actually defeating the Hard Mode version of the encounter.
+Once per week, Veteran Rakkhat will award one Gold-quality jewelry set piece. Subsequent Veteran victories will have a reduced chance to award one Purple-quality set piece.
+Once per week, Hard Mode Rakkhat will award two Gold-quality jewelry set pieces, as well as The Rid-Thar's Moon Pearls - an item valued at 10,000 gold by any honest merchant. Subsequent Hard Mode victories will award one Gold-quality jewelry set piece.
+Exploration & Itemization
+General
+Updated the acquire hint for the Dro-m'Athra Skin collectible to better reflect how you obtain it. It now reads: "Acquired for completing Veteran Maw of Lorkhaj, while it is scaled to Veteran Rank 16."
+Achievements
+Updated the text for the Veteran Maw of Lorkhaj achievements to match their requirements.  They now correctly indicate that they must be completed in a Trial scaled to Veteran Rank 16.
+A Cutpurse Above: Items from Kari's Hit List now provide direction on where they should be placed.
+Time Trial Maw of Lorkhaj: Fixed a minor typo in the description for this achievement.
+Quests & Zones
+General
+Mage Guards will no longer teleport you into places that are impossible to escape from.
+Heists
+Fixed an issue where enemies would not spawn under some very specific circumstances.
+Hidden caches in Heists can now only be interacted with while on the quest.
+Quests
+Partners in Crime: Fixed an issue with Quen’s lip syncing during the initial dialogue with her.
+The Long Game: Zeira will now speak to you again if you leave her initial conversation, allowing you to turn in the quest.
+FIXES & IMPROVEMENTS, BASE GAME PATCH
+Audio
+General
+Fixed an issue where audio could fail to update after zoning to a new area.
+Combat & Gameplay
+General
+Reduced the cooldown for the daily rewards from using the Dungeon Finder to 20 hours from 24 hours.
+It will now be easier to jump and move forward to land on top of fixtures and terrain.
+Fixed an issue where you could use multiple knockback abilities (such as Meteor) on monsters to cause them to become stuck in the air.
+Fixed an issue where you were able to obtain multiple Mundus Stone buffs.
+Developer Note
+: We have completely overhauled the Mundus Stone buff system, fixing several issues in the process. All characters with active Mundus Stone buffs will have them removed upon login. The Mundus Stone buff system now remembers the order in which the buffs were applied, and removes buffs in the correct order when using the Twice-Born Star item set.
+Fixed an issue where a full group of 4 players would have to wait in a queue when using the Grouping Tool.
+Fixed an issue where summoned pets and followers would not travel with you correctly after using a wayshrine to a different part of the same zone.
+Fixed an issue where abilities that failed to cast due to invalid locations or invalid targets would still charge the caster resources.
+Fixed an issue where abilities (notably Regeneration and its morphs) could be cast multiple times while ignoring the global cooldown.
+Fixed an issue where spell reflection abilities (such as Reflective Scale) would charge the reflecting player the resource costs of that spell.
+Fixed an issue where your mount’s Stamina bar was not updating properly and becoming desynced from the mount’s actual Stamina.
+Fixed an issue that could, in rare cases, prevent you from reaching Rank 10 in the Fighters and Mages Guild skill lines.
+Note
+: This fix is retroactive, so if you found yourself stuck at Rank 9 previously, you should now be Rank 10 when you log in.
+Fixed an issue where the camera in third-person view could become detached briefly when using movement abilities, such as Bolt Escape.
+Fixed an issue where the animations from charge abilities (Shield Charge, Critical Charge, etc.) would not properly play if you sheathed your weapon immediately after casting them.
+Fixed an issue where the Minor Aegis and Minor Slayer buffs from item sets such as Twilight Remedy or Roar of Alkosh would be removed when your character died.
+Nightblade
+Assassination
+Grim Focus: Fixed an issue where the Assassin’s Will proc from this ability could be interrupted.
+World
+Vampire
+Bat Swarm: This ability and its morphs will now be more responsive, and apply their damage and effects quicker after they are cast.
+Champion System
+Fixed an issue where the Champion UI was showing the incorrect bonus values when you redistributed your Champion Points.
+Crown Store
+General
+Clarified the tooltip for the Crown Mimic Stone to indicate that they allow you to craft in any known style, instead of any style. This description is now consistent between the item, the Crown Store, and the associated tutorial.
+Sand-Kissed Salwar Ensemble: The pants from this costume will no longer have a large flare at the bottom of the leg, and will more closely follow the contour of your body.
+Exploration & Itemization
+Achievements
+When an achievement generates a DVR recording, that recording will now have a title that matches the achievement.
+Item Sets
+Akatosh’s Blessed Armor: Fixed an issue where the blind debuff applied by this item set could be used on certain boss monsters.
+Leki’s Focus: Fixed an issue where this item set was reducing all of your damage and healing done, rather than only your area of effect damage and healing done.
+Justice System
+General
+Fixed an issue that occasionally caused the bounty meter to temporarily display a lower bounty than you actually possessed; now, guards will no longer accost you while you appear to have no bounty.
+Miscellaneous
+General
+Made some minor improvements to overall game performance.
+Fixed a number of commonly occurring crashes, including the crash that would occur when entering Selene’s Web.
+Fixed an issue where your game could crash after wearing the goblin costume received from the Shadowsilk Gem.
+Quests & Zones
+Alik’r Desert
+Snakes in the Sands: You will now be able to interact with the victims to administer antidote.
+Cadwell’s Silver/Gold
+Anyone who started Cadwell’s Silver but are not yet level 50 will now be able to travel to both of the other alliances’ starting wayshrines as originally intended.
+Craglorn
+The Missing Guardian: Fixed an issue where interacting with the whirlpool associated with this quest would not take you to Reinhold's Retreat.
+Fighters Guild
+Proving the Deed: Ebonheart Pact player characters will now be able to properly interact with the backpack.
+Glenumbra
+Reclaiming the Elements: Some monsters associated with this quest will now actually stay dead when you kill them.
+Greenshade
+Beasts of Falinesti: Pariel will now respond to combat, and be able to be subdued on the quest.
+UI
+General
+Fixed an issue where you would receive an error if you bought back the last item in the “Buy Back” window, and attempted to hit the selection button again.
+The random Activity Finder reward text is no longer truncated in the German and French game clients.
+Mail
+Fixed an issue where mail attachments would occasionally not attach properly.

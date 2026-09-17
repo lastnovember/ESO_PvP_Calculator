@@ -1,0 +1,108 @@
+{{Mod Header|Necrom}}{{Trail|Classes}}__NOTOC__{{incomplete|Add info from official website, trailers, interviews, and preview videos}}{{about|the player class|the Champion Ability|Arcanist (champion)}}
+[[File:ON-icon-class-Arcanist.png|frameless|left]]
+[[ON:Arcanist|Arcanist]] is a [[Online:Classes|class]] in ''[[Online:Online|Elder Scrolls Online]]''. It is available to players who have purchased the ''[[Online:Necrom (Chapter)|Necrom]]'' [[Online:Chapters|Chapter]]. It is also purchasable in the Crown Store for {{ESO Crowns|1,500}} as of June 3, 2024 on PC/Mac or June 18, 2024 on consoles.
+Become empowered by the secrets of Apocrypha and the forbidden knowledge of Hermaeus Mora. The Arcanist is a powerful new Class capable of destructive, restorative, or defensive magic by channeling the arcane, ancient runes, and lost tomes of power.  
+
+'''In-Game Description''': ''Channel the eldritch powers of Apocrypha as an Arcanist. These scholarly spellcasters channel secret runes and abyssal spells to destroy their enemies, heal their allies, and defend against any foe.'' 
+{{NewLeft}}
+== Skills ==
+
+===Herald of the Tome===
+[[Online:Herald of the Tome|Herald of the Tome]] is an apocryphal magic skill line with damage dealing abilities.
+
+===Soldier of Apocrypha===
+[[Online:Soldier of Apocrypha|Soldier of Apocrypha]] is a set of abilities focused towards defense, tanking, and debuffing.
+
+===Curative Runeforms===
+[[Online:Curative Runeforms|Curative Runeforms]] is a mix of healing, shielding and buffing abilities.
+
+===Class Mastery===
+[[ON:Class Mastery#Arcanist|Class Mastery]] available if not [[Online:Subclassing|subclassing]].
+
+==Builds==
+{|class=wikitable
+!Build!!Role!!Description!!Primary Stat
+|-
+|[[ON:Arcanist Initiate|Arcanist Initiate]]
+|New Players
+|The forces of tides, tentacles and fate are close at hand. Rise, Arcanist, and take the power that is rightfully yours.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Desolation Scholar|Desolation Scholar]]
+|Damage{{icon|role|Damage|18}}
+|Combine turbulent elemental forces and the dread strength of Apocrypha to devastate your foes with overwhelming power.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Claymore of the Deeps|Claymore of the Deeps]]
+|Damage{{icon|role|Damage|18}}
+|Take up a dire blade and your Apocryphal tome to assault foes from close and mid-range.
+|{{ESO Stamina Link}}
+|-
+|[[ON:Rune Knight (player class)|Rune Knight]]
+|Tank{{icon|role|Tank|18}}
+|Runes are your armor and the grace of Mora your shield. Sustain yourself against even the strongest assault through your connection to Apocrypha.
+|{{ESO Health Link}}
+|-
+|[[ON:Occult Hierophant|Occult Hierophant]]
+|Healer{{icon|role|Healer|18}}
+|Your runes spark with the swell of the Abyssal tides, restoring your comrades through force of intellect alone.
+|{{ESO Magicka Link}}
+|}
+
+===Compatible Builds===
+{{huh}}
+<!--
+It is possible to build a character which meets or mostly meets the recommendations of multiple builds simultaneously.  The chart below shows skill morphs which conflict between different builds.
+{|class=wikitable {{AL|C}}
+! !!Arcanist<br>Initiate!!Baleful<br>Summoner!!Deathbringer!!Undying<br>Warrior!!Flesh<br>Sculptor
+|-
+!Arcanist<br>Initiate
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#ff3300}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Blastbones|Blastbones]]<br>[[ON:Expunge|Expunge]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#aaff00}}|[[ON:Bone Armor|Bone Armor]]
+|{{BG|#ffbb00}}|[[ON:Render Flesh|Render Flesh]]<br>[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|-
+!Baleful<br>Summoner
+|{{BG|#aaff00}}|[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#000000}}|
+|{{BG|#ff7700}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#ffff00}}|[[ON:Bone Armor|Bone Armor]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#aaff00}}|[[ON:Render Flesh|Render Flesh]]
+|-
+!Deathbringer
+|{{BG|#ff3300}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Blastbones|Blastbones]]<br>[[ON:Expunge|Expunge]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#ff7700}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#000000}}|
+|{{BG|#ffff00}}|[[ON:Death Scythe|Death Scythe]]<br>[[ON:Expunge|Expunge]]
+|{{BG|#00ff00}}| no conflicts
+|-
+!Undying<br>Warrior
+|{{BG|#aaff00}}|[[ON:Bone Armor|Bone Armor]]
+|{{BG|#ffff00}}|[[ON:Bone Armor|Bone Armor]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#ffff00}}|[[ON:Death Scythe|Death Scythe]]<br>[[ON:Expunge|Expunge]]
+|{{BG|#000000}}|
+|{{BG|#ffff00}}|[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|-
+!Flesh<br>Sculptor
+|{{BG|#ffbb00}}|[[ON:Render Flesh|Render Flesh]]<br>[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#aaff00}}|[[ON:Render Flesh|Render Flesh]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#ffff00}}|[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#000000}}|
+|}
+-->
+
+==See Also==
+*{{Book Link|Apocrypha, Apocrypha}}
+*{{Book Link|What's an Arcanist?}}
+*'''''[[Lore:Loremaster's Archive - The Arcanists|Loremaster's Archive - The Arcanists]]'''''
+*'''''[[Lore:Meet the Character - Azandar al-Cybiades|Meet the Character - Azandar al-Cybiades]]'''''
+*For more information, see the [[Lore:Arcanists|lore]] article.
+
+==Gallery==
+<gallery>
+File:ON-render-Arcanist.jpg|An Arcanist
+File:ON-skill-Arcanist Crux.jpg|An Arcanist with three Crux
+</gallery>
+{{Online Skills Arcanist}}
