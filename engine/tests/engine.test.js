@@ -376,10 +376,10 @@ test('real data: fixture 008 rules (Curative Curse under Battle Spirit, Deadly B
   const n = naked(); n.race = 'Breton'; n.class = 'Necromancer'; n.classSkillLines = ['Grave Lord', 'Bone Tyrant', 'Living Death'];
   n.championPoints = { enabled: true, slotted: { warfare: [], fitness: [], craft: [] } };
   let r = computeSheet(n, real);
-  assert.equal(r.bars[0].advanced.healingDonePercent, 0);
+  assert.equal(r.bars[0].advanced.healingDonePercent, 2, 'Blessed alone');
   n.battleSpirit = true;
   r = computeSheet(n, real);
-  assert.equal(r.bars[0].advanced.healingDonePercent, 12, 'Curative Curse counts Battle Spirit as a negative effect');
+  assert.equal(r.bars[0].advanced.healingDonePercent, 14, 'Curative Curse counts Battle Spirit as a negative effect');
   n.battleSpirit = false;
   // dagger and shield: Deadly Bash halves the base before the Savage Defense flat, the shield adds 1720 x 1.16
   const before = computeSheet(n, real).bars[0];
