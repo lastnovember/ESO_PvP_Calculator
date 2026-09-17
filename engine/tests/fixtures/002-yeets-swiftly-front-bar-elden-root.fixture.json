@@ -272,5 +272,14 @@
         }
       }
     }
-  }
+  },
+  "corrections": [
+    {
+      "date": "2026-09-17",
+      "field": "build.gear.necklace/ring1/ring2.enchant",
+      "from": "Weapon Damage",
+      "to": "(pending the exact glyph name)",
+      "reason": "User reports the jewelry glyphs were entered as Weapon Damage but are a different glyph. Both harm glyphs grant the same Weapon and Spell Damage since Update 37 (note 135), so the sheet numbers do not change; the field is corrected once the glyph name is known."
+    }
+  ]
 }

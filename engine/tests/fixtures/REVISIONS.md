@@ -165,6 +165,19 @@ top of two heavy pieces), penetration 2578, crit, Healing Done 28 near the gate.
 are the same numbers as the front bar: Magicka Recovery +45, resistances 859 short on both bars
 (so Defending's 3276 is confirmed again), Roll Dodge 3315 against 3344, Bash Damage.
 
+## 2026-09-17, calibration pass over all ten readings
+
+Changes (this commit): dual wield off hand share 23.67% of the off hand rating (fixtures 002, 005
+and 009 agree to 0.05% once fixture 005 is read with Major Brutality and Sorcery up, recorded as
+a correction with `activeBuffs`); Unnatural Resistance dropped (removed in Greymoor, note 087),
+so the Templar's Health Recovery reads 452 against 415 instead of 848; medium and light armor
+chests fitted to 1995 and 1354 over the four geared characters (resistances within 14 to 73
+instead of 514 to 859); the sheet's Damage Done line folds the single target star; `activeBuffs`
+in the build; the `reading-log` skill, `corrections` entries and `npm run fixtures` (INDEX.md).
+
+Match counts after the pass: 001 49/56, 002 49/56, 003 55/56, 004 52/56, 005 43/51, 006 45/51,
+007 49/55, 008 49/55, 009 50/55, 010 50/55.
+
 ## Open questions for the next reading
 
 - Answered 2026-09-17: the Necromancer has every Support passive (so Combat Medic at that gate was

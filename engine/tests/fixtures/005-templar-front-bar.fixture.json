@@ -247,7 +247,11 @@
       "esoPlus": true,
       "itemQuality": false,
       "strategies": {}
-    }
+    },
+    "activeBuffs": [
+      "Major Brutality",
+      "Major Sorcery"
+    ]
   },
   "readings": {
     "outOfPvpZone": {
@@ -290,5 +294,17 @@
     "Roll Dodge Cost": 0,
     "note": "Reads 0 because Expert Evasion is slotted and primed (next Roll Dodge free); the regular cost is not readable from this sheet.",
     "Bleed Damage": "5% on the first advanced page, 0% on the next page a moment later; Physical Damage 10% may carry the same transient 5%."
-  }
+  },
+  "corrections": [
+    {
+      "date": "2026-09-17",
+      "field": "build.activeBuffs",
+      "from": null,
+      "to": [
+        "Major Brutality",
+        "Major Sorcery"
+      ],
+      "reason": "Weapon and Spell Damage 4471 fits the dual wield share (23.67%, fixtures 002 and 009) only with these two up (Critical Surge is on this bar); the Active Effects photo was taken later and the Bleed Damage 5% read on one page and 0% on the next, so buffs were running out during the photos."
+    }
+  ]
 }

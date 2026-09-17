@@ -68,6 +68,9 @@ const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s F
   // slots supplied by the user from in game tooltips (Update 50 sets.csv has no slot word in the name)
   "Rakkhat's Voidmantle": 'shoulders', "Stormweaver's Cavort": 'legs' };
 // sets.csv dropped the leading stat line of some tooltips. Text here is the full in game tooltip as supplied by the user.
+// Passives the archive still lists but the game removed. data/patch-notes/html 087 (2020-06-09, Greymoor):
+// "Unnatural Resistance: This ability has been removed from the game and replaced with Undeath."
+const REMOVED_PASSIVES = new Set(['Unnatural Resistance']);
 const BONUS_TEXT_OVERRIDE = {
   // Velothi: the UESP row runs the permanent Minor Force into a monster only clause; split so the buff parses. The
   // row's tag list names Physical/Spell Penetration but carries no number for it (UNKNOWNS.md).
@@ -172,6 +175,7 @@ function buildSkills() {
         continue;
       }
       if (id) seenIds.set(id, name);
+      if (REMOVED_PASSIVES.has(name)) { stats.removed = (stats.removed || 0) + 1; continue; }
       const parsed = parseText(desc);
       const cls = grp.class || (line === 'Class Mastery' ? (MASTERY_CLASS[name] || classFromIcon(r[`${P}icon`])) : null);
       passives[name] = { name, line, group: grp.group, class: cls, aliases: [], raw: desc, status: parsed.status, effects: parsed.effects.map(cleanEffect), prefixConditions: parsed.prefixConditions };

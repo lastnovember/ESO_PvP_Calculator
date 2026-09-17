@@ -113,61 +113,22 @@ Named items are community tooltip values.
 | Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
 | Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
 
-## Fixtures 001 to 003 (Yeets-Swiftly: 001 geared back bar in Cyrodiil, 002 geared front bar outside, 003 naked front bar outside)
+## Open gaps across the ten readings (2026-09-17, after the dual wield, vampire and armor fits)
 
-The naked reading fixed the base values (DECISIONS.md and constants sources). Everything on the naked main sheet, and Max Magicka, Max Stamina, Critical Chance, Critical Damage, Critical Resistance, block, bash, break free and sprint costs and Sprint Speed on the geared sheets, now match. Still open:
+Every reading now matches 43 to 55 of its numbers (`engine/tests/fixtures/INDEX.md`). What is left, in every case the same on both bars of a character:
 
-| Reading | Game | Engine | Gap and best reading of it |
+| Gap | Readings | Game vs engine | Best reading of it |
 | --- | --- | --- | --- |
-| Max Health, geared | 30001 (002), 32701 (001) | fitted | Base 16000 and 122 per point are settled; the geared gap was the food. Orzorga's Smoked Bear Haunch is now 4316 Health (fitted) with the Prismatic small piece at 192; the tooltip would confirm both. |
-| Recoveries, geared | 1022, 1457, 1515 | 1022 with food 406; Magicka fits 411, Stamina 369 | Base 514/514/309 are settled by the naked sheet. The food's three recovery values do not fit one number with Evocation 4% and Wind Walker 16%, so either the food differs per stat or one of those passives is off. Tooltip wanted. |
-| Weapon and Spell Damage, dual wield | 4362 | 4107 | Naked and staff bar are exact (base 1000). Dual wield is 236 short before the 8%: main hand 1335 x 1.15 Nirnhoned plus 6% of the off hand leaves 236. Mace traits and hands to confirm. |
-| Resistances, geared | 18413 and 19139 | 17588 and 18314 | 825 short on every geared reading, naked is exact (Fortified 1730). Armor piece ratings (unverified) or Markyn's per set armor; an armor only reading splits it. |
-| Penetration | 3444 naked, 9491 geared | 3444, 9494 | Naked exact (Lover 2744). Geared 3 high: the two Divines pieces round per piece. |
-| Roll Dodge Cost | 3800 naked, 3248 geared | 3800, 3306 | Base 4040 settled. The geared reduction is 14.5%, not the 13% the passives add up to (Athletics 16, light 3, heavy +6); percent then flat with multiplicative groups gives 3250. Open. |
-| Block Mitigation | 52 naked, 54 and 64 geared | 52, 53, 63 | 2% more from armor than heavy armor's 1% per piece gives. Open. |
-| Bash Damage | 184 naked, 630 maces, 685 staff | 120 | The sheet shows total bash damage and it depends on the weapon; only the bonus is modelled. |
-| Damage Done | 11% | 5% | The sheet folds Deadly Aim (single target) into every damage type. Intended difference. |
-| Sneak Cost | 59 naked, 34 geared | not modelled | |
-| Back bar naked (fixture 004): Max Health 21236, Resistances 6003 | 19305 x 1.10 and 1730 + 4272 | 19305, 1730 | With Bull Netch, Hurricane, Resolving Vigor, Streak, Wield Soul and Temporal Guard slotted and nothing equipped, the sheet shows 10% more Max Health and 4272 more resistance than the front bar. The archived skill texts (Update 44) and every note through 2026-08 have no "while slotted" health or resistance on these abilities; Resolving Vigor's Minor Resolve (2974) is "after casting". Tooltips of Resolving Vigor and Hurricane, and the rest of the Active Effects list below Major Prophecy, would settle it. The other 22 readings of that bar match. |
-
-## Fixture 005 (Templar, Lastnovember: geared front bar, dual axes, Elden Root, vampire stage 3)
-
-27 of 51 readings match, including Max Magicka and Stamina, penetration, crit chance, Critical Damage, Critical Resistance, bash, block and break free costs, Block Mitigation, Sprint Speed, Sneak Speed, Healing Done and Taken, Critical Healing and every damage type but two. Still open:
-
-| Reading | Game | Engine | Gap and best reading of it |
-| --- | --- | --- | --- |
-| Weapon and Spell Damage, dual axes | 4471 | 3490 | 981 high in the game, 876 before the 12% (Agility 6 + Balanced Warrior 6). Main axe Sharpened 1335, off axe Nirnhoned 1535 x 6% (Dual Wield Expert) = 92, Expert Mage 108 (one Sorcerer ability), Mechanical Acuity 129, glyphs 174 + 278, base 1000. Fixture 002 (maces, Nirnhoned main) is 236 short with the same model, so the off hand and Nirnhoned rules are wrong in a way one reading cannot separate. A reading with only the two axes equipped, then only the main axe, would settle both. |
-| Health Recovery | 415 | 848 | Unnatural Resistance is bought (user confirmed, all vampire passives), so the archive's rule (stage 3 at -25% with the passive) gives 848 and the sheet reads 415, about half. (309 + 141 Capacitor + 70 Roksa + 406 food) x 1.12 x 0.40 = 415 exactly, which is the plain -60% stage penalty with the Prismatic Recovery glyph's 84 left out; no reading of the archive produces that with the passive bought. The Unnatural Resistance text in skills.csv may be stale (the only patch note is a 2015 UI fix); the vampire section of a newer note would settle it. |
-| Resistances | 16765 and 17491 (front), 20041 and 20767 (back) | 16220 and 16946, 19496 and 20222 | 545 short on both bars once Defending (3276) enters without the 6% (fixture 006 pinned that: the gap between the bars was exactly 6% of 3276). Spell = Physical + 726 (Spell Warding) is exact on both bars. Yeets reads 825 short on both bars with different armor, so the armor piece ratings (unverified community values) are the suspect; the tooltip armor value of each equipped piece (seven numbers) would replace them. Whether Resolve and Protective take the 6% is also unknown (they are multiplied now). |
-| Magicka and Stamina Recovery | 1411 and 1785 | 1397 and 1804 | +11 and -15 before the percents (Evocation 4, Flourish 20, Magicka Controller 2; Flourish 20, Wind Walker 12). Yeets reads +41 Magicka on both bars and 0 Stamina, the Dragonknight +41.6 with no recovery food, the Necromancer +29. The user notes Yeets' jewelry carried Weapon Damage glyphs where the export said Spell Damage; both glyphs grant the same Weapon and Spell Damage since Update 37 (note 135) and neither adds recovery, so the export slip changes nothing on the sheet. |
-| Sneak Cost | 55 | 40 | 118 x 0.79 (Improved Sneak, 3 medium) x 0.85 (Medium Armor Bonuses) x 0.5 (Sustaining Shadows) = 40; Yeets' 34 fits the same model with 4 medium. 55 = 59 x 0.93, as if the medium armor reductions were nearly absent. A naked Templar reading (59 expected) would show whether the vampire changes it. |
-| Physical Damage 10%, Bleed Damage 5% (front bar only) | 10, 5 | 5, 0 | Energized gives 5% Physical and Shock, and the back bar (fixture 006) reads exactly that. The front bar's extra 5% Physical (and the Bleed 5% that read 0% on the next page) belongs to something on that bar: the two axes, Lacerate, Blood for Blood, Deep Fissure, Critical Surge, Ulfsild's Contingency (Bleed focus, Class Flourish) or Binding Javelin; no archived text gives a slotted Physical Damage bonus for any of them. Re-read at rest, and a reading with one of them unslotted would name it. |
-| Roll Dodge Cost | 0 | 3572 | Expert Evasion slotted: the sheet shows 0 while the free roll is primed. The regular cost is not readable from this sheet. |
-| Bash Damage | 556 axes, 608 staff | 120 | Total bash damage depends on the weapon (Yeets: 630 maces, 685 staff, 184 naked); the fixed bonus is all the engine has. Not modelled. |
-
-## Fixtures 007 and 008 (Necromancer healer "Z antilles": geared front bar with a restoration staff and back bar with dagger and shield, Cyrodiil with Battle Spirit)
-
-42 of 55 readings match on each bar, including Max Health (without any Battle Spirit flat), Max Magicka and Stamina, Health and Stamina Recovery, Weapon and Spell Damage, penetration, Critical Resistance, every cost (Bash Cost 257 with Deadly Bash), Block Mitigation and Block Move Speed with the shield, Sneak Cost (Sustaining Shadows at 10 stages), Sneak and Sprint Speed, Critical Damage and Healing, Healing Done (Curative Curse under Battle Spirit), Healing Taken and the currency bonuses. Still open, the same on both bars:
-
-| Reading | Game | Engine | Gap and best reading of it |
-| --- | --- | --- | --- |
-| Magicka Recovery | 1210 (front), 1335 (back) | 1176, 1298 | +29 and +32 before Evocation's 16% (514 + 130 Spell Attunement + 370 food). Every character reads Magicka Recovery high (Yeets +41, Templar +11 before percents) while Stamina Recovery is exact here; the Bear Haunch tooltip is the missing input. |
-| Weapon and Spell Critical | 19.4 (front), 16.4 (back) | 18.5, 15.5 | One more percent (about 206 rating) on both bars than Prodigy 876, Precision 320 and Robes of Transmutation 657 give. No archived text names a resting crit source in Restoring Light, Green Balance, Living Death or the Breton line. |
-| Resistances | 22171 and 27385 (front), 24166 and 29380 (back) | 21450 and 26664, 23445 and 28659 | 721 short on both bars once the shield is 1720 (the bar to bar difference, 1995 = 1720 x 1.16, is exact). No percent in play. Markyn reads two sets with 3 or more pieces (2314). Yeets 825 and the Templar 514 with different armor: the armor piece ratings (unverified) or a flat the three share. Piece tooltips wanted. |
-| Bash Damage | 678 (staff), 1222 (shield) | 120, 620 | Not modelled beyond the flat bonuses (weapon dependent; Deadly Bash's 500 shows in the difference but not alone). |
-
-## Fixtures 009 and 010 (Dragonknight "Yuggah Yuggah": geared front bar with dual maces and back bar with an ice staff, Cyrodiil gate, Battle Spirit, Undaunted line off)
-
-41 of 55 readings match on the front bar and 43 of 55 on the back bar (Weapon Damage 3598, Block Cost 1062 and Block Mitigation 69 with the staff are exact), including Max Health (Sugar Skulls 4624), Max Magicka and Stamina, Health and Stamina Recovery, crit, penetration, Critical Resistance and Damage, every cost but roll dodge, Block Mitigation, Sneak Cost, Sneak and Sprint Speed, Healing Done (Combat Medic near the gate), Healing Taken and Critical Healing. Still open:
-
-| Reading | Game | Engine | Gap and best reading of it |
-| --- | --- | --- | --- |
-| Magicka Recovery | 600 | 555 | 514 x 1.08 (Evocation, 2 light) is 555; the game has 41.6 more before the percent. Yeets reads +41.3, the Necromancer +29, the Templar +11, all before percents, and this character eats Sugar Skulls (no recovery), so the Bear Haunch is not the cause. No archived source; Max Magicka, attribute points and race do not track it. |
-| Weapon and Spell Damage, dual maces | 4145 | 3895 | 236 flat before Agility's 6%, exactly Yeets' gap with the same weapons (Nirnhoned main, Sharpened off). The Templar's axes (Sharpened main, Nirnhoned off) need 876. The off hand rule is wrong in a way that depends on which hand carries Nirnhoned; readings with one weapon at a time would settle it. |
-| Resistances | 20714 and 22166 (front), 23990 and 25442 (back) | 19855 and 21307, 23131 and 24583 | 859 short on both bars (Defending's 3276 enters exactly). Four characters now: Yeets 825, Templar 514, Necromancer 721, Dragonknight 859. No per weight, per slot, Reinforced or Markyn model fits all four, so the piece tooltips are needed. |
-| Roll Dodge Cost | 3315 | 3344 | 4040 x (1 - 0.12 + 0.06 - 0.06) - 240 is exact here (percent before the Tumbling flat, additive), but Yeets' 3248 needs the multiplicative groups and the Necromancer's 3420 needs flat first. Tumbling is at both stages on every character (user confirmed), so the per piece values (Athletics 4, heavy 3, light 3) or the order are wrong in a way three readings do not pin. |
-| Bash Damage | 639 | 120 | Not modelled. |
+| Magicka Recovery | all four characters | +14 (Templar), +34 and +37 (Necro), +45 (DK), +50 and +52 (Yeets) after percents; +11, +29, +42, +41 before | Not race (Argonian and Khajiit read the same 41), not food (the DK eats Sugar Skulls), not glyphs, not Max Magicka. It grows with Magicka attribute points (0, 17, 49, 52 points give 11, 29, 41, 42) and flattens above 40; no archived source scales recovery with points. |
+| Resistances | all geared readings | within 14 to 73 after the armor fit (was 514 to 859) | The slot factors (big 0.879, small 0.5 of the chest) are still community values; a rating table would remove the residuals. |
+| Roll Dodge Cost | Yeets 3248 (engine 3306), DK 3315 (3344), Necro 3420 (exact) | | No order (flat first or percent first, additive or multiplicative) with any per piece values from 0 to 6% fits all three within 1; the closest is flat first, additive, medium 4, heavy 2, light 2.5 (total error 10). Tumbling is at both stages everywhere (user). |
+| Health Recovery, vampire | Templar 415 (engine 452) | | The 60% stage penalty is right (Unnatural Resistance is gone); the remaining 37 is exactly the Prismatic Recovery ring's 84 through Constitution and the penalty, so that glyph's Health Recovery share is the suspect. |
+| Weapon and Spell Critical | Necro 19.4 and 16.4 (engine 18.5 and 15.5) | | One percent (about 206 rating) on both bars from no archived source. |
+| Stamina Recovery | Templar 1785 (engine 1804) | | 15 before percents, the only stamina miss on file. |
+| Physical and Bleed Damage | Templar front bar 10 and 5 (engine 5 and 0) | | A buff running out during the photos (the same reading carries Major Brutality and Sorcery in its first photo). |
+| Yeets back bar naked (004) | Max Health 21236 (19305), resistances 6003 (1730) | | 10% Max Health and 4272 resistance from something slotted on that bar; no archived "while slotted" text on Bull Netch, Hurricane, Resolving Vigor, Streak, Wield Soul or Temporal Guard gives it. |
+| Bash Damage | all | not modelled | Weapon dependent total; the sheet's number is not the bonus. |
+| Penetration | Yeets 9491 and 4879 (engine 9494 and 4882) | | Two Divines pieces round per piece. |
 
 ## Settled by data supplied later
 
@@ -214,7 +175,11 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Curative Curse under Battle Spirit | applies (Healing Done +12 on both bars) | 007, 008 |
 | Deadly Bash order | halves the base before the flat and the armor percent (257) | 008 |
 | Block Move Speed with a shield | 54 (fit, one reading) | 008 |
-| Combat Medic near a keep | 20% on the sheet under Battle Spirit (`flags.nearKeep`) | 001, 009 |
+| Combat Medic near a keep | 20% on the sheet under Battle Spirit (`flags.cyrodiil.nearKeep`) | 001, 009 |
+| Dual wield off hand | 23.67% of the off hand rating, trait included (Dual Wield Expert inside it) | 002, 005, 009 |
+| Vampire stage penalty | full stage value; Unnatural Resistance removed in Greymoor (note 087) | 005, 006 |
+| Medium and light armor | chest 1995 and 1354 (fit, residuals 14 to 73) | 002, 005, 007, 009 |
+| Damage Done line | folds the single target star | 001 to 004 |
 | Food health scale | 1.17442 for Max Health and Health Recovery, 1.1735 for Magicka and Stamina (Sugar Skulls 4624/4250, Bear Haunch 4316) | 002, 005, 009 |
 | Critical Healing sources | Dexterity, Fighting Finesse, The Shadow (not Piercing Spear, Twin Blade and Blunt, Advanced Species, Hemorrhage, Feline Ambush counts) | 002, 003, 005 |
 | Sneak Speed with Dark Stalker | 100 | 005 |

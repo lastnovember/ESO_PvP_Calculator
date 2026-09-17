@@ -455,3 +455,25 @@ test('real data: Torc of the Last Ayleid King disables every other set; Velothi 
   n.gear.necklace = { set: "Velothi Ur-Mage's Amulet", trait: null, enchant: null };
   assert.ok(computeSheet(n, real).bars[0].breakdown.critDamage.some((x) => /Velothi.*Minor Force/.test(x.source)));
 });
+
+test('real data: dual wield off hand share, active buffs, vampire penalty without Unnatural Resistance', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked();
+  n.bars[0].mainHand = { set: null, type: 'mace', trait: 'Nirnhoned', enchant: null };
+  n.bars[0].offHand = { set: null, type: 'mace', trait: 'Sharpened', enchant: null };
+  const one = computeSheet({ ...n, bars: [{ ...n.bars[0], offHand: null }, n.bars[1]] }, real).bars[0].main.weaponDamage;
+  const two = computeSheet(n, real).bars[0].main.weaponDamage;
+  assert.equal(two - one, Math.round(1335 * 0.2367), 'off hand adds 23.67% of its rating');
+  n.bars[0].offHand.trait = 'Nirnhoned';
+  assert.equal(computeSheet(n, real).bars[0].main.weaponDamage - one, Math.round(1535 * 0.2367), 'trait counts on the off hand');
+  // active buffs go through the named buff table and do not stack with themselves
+  n.activeBuffs = ['Major Brutality', 'Major Brutality', 'Major Resolve'];
+  const r = computeSheet(n, real).bars[0];
+  assert.equal(r.breakdown.weaponDamage.filter((x) => /Major Brutality/.test(x.source)).length, 1);
+  assert.ok(r.breakdown.physicalResistance.some((x) => /Major Resolve/.test(x.source)));
+  // vampire stage 3: the full 60% penalty, no Unnatural Resistance anywhere
+  const v = naked(); v.vampireStage = 3;
+  const base = computeSheet(naked(), real).bars[0].main.healthRecovery;
+  assert.equal(computeSheet(v, real).bars[0].main.healthRecovery, Math.round(base * 0.4));
+  assert.equal(real.effects.skills.passives['Unnatural Resistance'], undefined);
+});

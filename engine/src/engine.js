@@ -67,7 +67,7 @@ export const STRATEGIES = {
   // Dual wield off hand weapon rating contribution.
   // 'passiveOnly': only through the Dual Wield Expert passive (default).
   // 'full': off hand rating added like the main hand.
-  offHandRating: ['passiveOnly', 'full'],
+  offHandRating: ['fitted', 'passiveOnly', 'full'],
   // Precise trait. 'rating': percent * critRatingPerPercent (default).
   // 'percent': added as a percent.
   preciseTrait: ['rating', 'percent'],
@@ -597,6 +597,12 @@ function collect(build, data, barIndex, strategies) {
   const foodStats = resolveFood(build.food, C);
   if (foodStats) for (const [stat, val] of Object.entries(foodStats.stats)) if (val) acc.add(stat, 'flat', val, `food ${foodStats.name}`);
 
+  // Buffs the user marks as up (potions, skills cast before the reading): named buffs, no self stacking
+  for (const name of build.activeBuffs || []) {
+    const buff = data.effects.buffs[name];
+    if (buff) acc.addNamed(name, buff.effects, 'active buff'); else notes.push(`unknown buff ${name}`);
+  }
+
   // Cyrodiil campaign state (flags.cyrodiil, only under Battle Spirit): where the character stands and what the
   // alliance holds. Combat Medic near a keep is read from fixtures 001 and 009 (20 above every other source at a
   // gate); the scroll, enemy keep and Emperorship values come from the UESP campaign tables (constants.cyrodiil).
@@ -636,10 +642,9 @@ function collect(build, data, barIndex, strategies) {
   // vampire stage
   if (ctx.vampireStage > 0) {
     const st = C.vampireStages.stages[String(ctx.vampireStage)];
-    let hr = st.healthRecovery.value;
-    const unnatural = activePassives(build, data).some(([n]) => n === 'Unnatural Resistance');
-    if (unnatural) hr = { 1: -10, 2: 0, 3: -25, 4: -50 }[ctx.vampireStage];
-    acc.add('vampireHealthRecoveryPenalty', 'percent', hr, `vampire stage ${ctx.vampireStage}`);
+    // The stage penalty applies in full: Unnatural Resistance was removed in Greymoor (note 087, replaced by Undeath)
+    // and is no longer in effects.json.
+    acc.add('vampireHealthRecoveryPenalty', 'percent', st.healthRecovery.value, `vampire stage ${ctx.vampireStage}`);
     acc.add('abilityCost', 'percent', st.regularAbilityCost.value, `vampire stage ${ctx.vampireStage}`);
     acc.add('flameDamageTaken', 'percent', st.flameDamageTaken.value, `vampire stage ${ctx.vampireStage}`);
   }
@@ -696,7 +701,12 @@ function computeBar(build, data, barIndex, strategies) {
 
   // off hand rating through Dual Wield Expert: percentOfOffHand bucket holds the percent
   let offHandFlat = 0;
-  if (acc.flat('offHandRating') && acc.pct('percentOfOffHandRating')) offHandFlat = acc.flat('offHandRating') * acc.pct('percentOfOffHandRating') / 100;
+  // Dual wield: the off hand reaches the sheet as a fixed share of its rating (23.67%, fitted from fixtures 002, 005 and
+  // 009 which agree to 0.05%; Dual Wield Expert's 6% is inside it). 'passiveOnly' keeps the archived 6% alone.
+  if (acc.flat('offHandRating')) {
+    if (strategies.offHandRating === 'fitted') offHandFlat = acc.flat('offHandRating') * v(C.items.dualWieldOffHandPercent) / 100;
+    else if (acc.pct('percentOfOffHandRating')) offHandFlat = acc.flat('offHandRating') * acc.pct('percentOfOffHandRating') / 100;
+  }
   const weaponDamage = (v(B.weaponDamage) + acc.flat('weaponDamage') + offHandFlat) * (1 + acc.pct('weaponDamage') / 100);
   const spellDamage = (v(B.spellDamage) + acc.flat('spellDamage') + offHandFlat) * (1 + acc.pct('spellDamage') / 100);
 
@@ -816,7 +826,8 @@ function computeBar(build, data, barIndex, strategies) {
     physicalMitigationPercent: round1(mitigation(physicalResistance)),
     spellResistance: main.spellResistance,
     spellMitigationPercent: round1(mitigation(spellResistance)),
-    damageDonePercent: round1(acc.pct('damageDone')),
+    // The sheet's Damage Done folds the single target star in (fixtures 001 to 004: 11 = Minor Berserk 5 + Deadly Aim 6)
+    damageDonePercent: round1(acc.pct('damageDone') + acc.pct('damageDoneSingleTarget')),
     healingDonePercent: round1(acc.pct('healingDone')),
     // The sheet leaves Battle Spirit out of these three (fixture 001 reads Healing Taken 4% in Cyrodiil);
     // the Battle Spirit adjusted values sit in advanced.battleSpirit when it is active.

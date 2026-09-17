@@ -1465,43 +1465,43 @@
       },
       "medium": {
         "head": {
-          "value": 1567,
+          "value": 1754,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "medium head"
+          "note": "medium head (0.879 x fitted chest 1995)"
         },
         "shoulders": {
-          "value": 1567,
+          "value": 1754,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "medium shoulders"
         },
         "chest": {
-          "value": 1782,
+          "value": 1995,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "medium chest"
+          "note": "medium chest, fitted over fixtures 002, 005, 007, 009"
         },
         "hands": {
-          "value": 891,
+          "value": 998,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "medium hands"
+          "note": "medium hands (0.5 x chest)"
         },
         "waist": {
-          "value": 891,
+          "value": 998,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "medium waist"
         },
         "legs": {
-          "value": 1567,
+          "value": 1754,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "medium legs"
         },
         "feet": {
-          "value": 1567,
+          "value": 1754,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "medium feet"
@@ -1509,43 +1509,43 @@
       },
       "light": {
         "head": {
-          "value": 1015,
+          "value": 1190,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "light head"
+          "note": "light head (0.879 x fitted chest 1354)"
         },
         "shoulders": {
-          "value": 1015,
+          "value": 1190,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "light shoulders"
         },
         "chest": {
-          "value": 1155,
+          "value": 1354,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "light chest"
+          "note": "light chest, fitted over fixtures 002, 005, 007, 009"
         },
         "hands": {
-          "value": 578,
+          "value": 677,
           "source": "UNVERIFIED",
           "verified": false,
-          "note": "light hands"
+          "note": "light hands (0.5 x chest)"
         },
         "waist": {
-          "value": 578,
+          "value": 677,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "light waist"
         },
         "legs": {
-          "value": 1015,
+          "value": 1190,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "light legs"
         },
         "feet": {
-          "value": 1015,
+          "value": 1190,
           "source": "UNVERIFIED",
           "verified": false,
           "note": "light feet"
@@ -1562,6 +1562,12 @@
       "source": "UNVERIFIED",
       "verified": false,
       "note": "Damage rating of any gold CP160 weapon. Applies to Weapon Damage and Spell Damage on the sheet."
+    },
+    "dualWieldOffHandPercent": {
+      "value": 23.67,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Share of the off hand weapon rating (trait included) that reaches Weapon and Spell Damage while dual wielding, Dual Wield Expert included. Fitted from three readings that agree to 0.05%: fixture 002 (maces, Nirnhoned main: 4362 = (3523 + 200 + 0.2367 x 1335) x 1.08), fixture 009 (same, 4145 at 6%) and fixture 005 (axes, Nirnhoned off hand, Major Brutality and Sorcery up: 4471 = (3024 + 0.2367 x 1535) x 1.32). The archived Dual Wield Expert text (6%) is part of it; the rest is not named by any note."
     },
     "twoHandedTypes": [
       "greatsword",

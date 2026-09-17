@@ -8,7 +8,8 @@
     "test": "node --test \"engine/tests/**/*.test.js\"",
     "constants": "python3 tools/build_constants.py",
     "effects": "node tools/parse_effects/index.js",
-    "build": "node tools/build_app/index.js"
+    "build": "node tools/build_app/index.js",
+    "fixtures": "node tools/fixtures_index.js"
   },
   "engines": { "node": ">=20" }
 }

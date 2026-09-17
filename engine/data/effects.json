@@ -21,11 +21,11 @@
     "parsedPercent": 99.4
    },
    "passives": {
-    "total": 250,
+    "total": 249,
     "byStatus": {
      "ok": 75,
      "proc": 155,
-     "mixed": 18,
+     "mixed": 17,
      "unparsed": 2
     },
     "parsedPercent": 99.2
@@ -64895,49 +64895,6 @@
      }
     ]
    },
-   "Unnatural Resistance": {
-    "name": "Unnatural Resistance",
-    "line": "Vampire",
-    "group": "World",
-    "class": null,
-    "aliases": [],
-    "raw": "Reduces the severity of the Health Recovery determent in Vampirism stages 2 through 4. Stage 2 no longer reduces your Health Recovery. Stage 3 reduces Health Recovery by 25%. Stage 4 reduces Health Recovery by 50%.",
-    "status": "mixed",
-    "effects": [
-     {
-      "stat": "vampireUnnaturalResistance",
-      "value": 1,
-      "kind": "flat",
-      "condition": null,
-      "raw": "Reduces the severity of the Health Recovery determent in Vampirism stages 2 through 4."
-     },
-     {
-      "kind": "proc",
-      "condition": {
-       "type": "combat",
-       "detail": "Stage 2 no longer reduces your Health Recovery."
-      },
-      "raw": "Stage 2 no longer reduces your Health Recovery."
-     },
-     {
-      "kind": "proc",
-      "condition": {
-       "type": "combat",
-       "detail": "Stage 3 reduces Health Recovery by 25%."
-      },
-      "raw": "Stage 3 reduces Health Recovery by 25%."
-     },
-     {
-      "kind": "proc",
-      "condition": {
-       "type": "combat",
-       "detail": "Stage 4 reduces Health Recovery by 50%."
-      },
-      "raw": "Stage 4 reduces Health Recovery by 50%."
-     }
-    ],
-    "prefixConditions": []
-   },
    "Veil's Forfeit": {
     "name": "Veil's Forfeit",
     "line": "Class Mastery",
@@ -79712,8 +79669,7 @@
      "Savage Feeding",
      "Strike from the Shadows",
      "Undeath",
-     "Unnatural Movement",
-     "Unnatural Resistance"
+     "Unnatural Movement"
     ],
     "actives": [
      {

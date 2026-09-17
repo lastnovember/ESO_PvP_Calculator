@@ -195,6 +195,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         <label class="f"><span>Food or drink</span><div class="combo" id="food"></div></label>
       </div>
       <div id="customFood" class="row hidden"></div>
+      <details id="buffsWrap"><summary class="fine">Buffs up right now (potion, a skill cast before reading the sheet)</summary><div class="checks" id="buffsList"></div></details>
       <div class="row">
         <label class="toggle"><input type="checkbox" id="vampire"> Vampire</label>
         <select id="vampireStage" class="hidden" style="flex:0 0 auto"><option value="1">Stage 1</option><option value="2">Stage 2</option><option value="3">Stage 3</option><option value="4">Stage 4</option></select>
@@ -641,6 +642,14 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         lab.append(inp); cf.append(lab);
       }
     } else cf.classList.add('hidden');
+    // named buffs the user marks as up: Major and Minor pairs from the buff table
+    const bl = $('buffsList'); bl.innerHTML = '';
+    const active = new Set(build.activeBuffs || []);
+    for (const name of Object.keys(X.buffs || {}).sort((a, b) => a.replace(/^(Major|Minor) /, '').localeCompare(b.replace(/^(Major|Minor) /, '')) || a.localeCompare(b))) {
+      const cb = el('input', { type: 'checkbox' }); cb.checked = active.has(name);
+      cb.addEventListener('change', () => { const set = new Set(build.activeBuffs || []); if (cb.checked) set.add(name); else set.delete(name); build.activeBuffs = [...set]; if (!build.activeBuffs.length) delete build.activeBuffs; update(); });
+      bl.append(el('label', { title: (X.buffs[name].effects || []).map((e) => `${e.stat} ${e.value}${e.kind === 'percent' ? '%' : ''}`).join(', ') }, [cb, name]));
+    }
     $('vampire').checked = build.vampireStage > 0;
     $('vampireStage').classList.toggle('hidden', !(build.vampireStage > 0));
     if (build.vampireStage > 0) $('vampireStage').value = String(build.vampireStage);
@@ -677,6 +686,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     if (build.mundus) parts.push(build.mundus.replace('The ', ''));
     if (build.food) parts.push(typeof build.food === 'object' ? 'custom food' : (FOODS.find((f) => f.id === build.food) || {}).name || build.food);
     if (build.vampireStage) parts.push(`vampire ${build.vampireStage}`);
+    if (build.activeBuffs && build.activeBuffs.length) parts.push(build.activeBuffs.join(', '));
     if (build.werewolf) parts.push('werewolf');
     if (build.battleSpirit) parts.push('Battle Spirit' + (cy.enabled ? ' (Cyrodiil sim)' : ''));
     $('buffHint').textContent = parts.join(', ');

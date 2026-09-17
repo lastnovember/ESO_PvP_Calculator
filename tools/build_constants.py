@@ -288,11 +288,15 @@ C['items'] = OrderedDict(
     ),
     armor=OrderedDict(
         heavy=OrderedDict(head=unverified(2437, 'heavy head'), shoulders=unverified(2437, 'heavy shoulders'), chest=unverified(2772, 'heavy chest'), hands=unverified(1386, 'heavy hands'), waist=unverified(1386, 'heavy waist'), legs=unverified(2437, 'heavy legs'), feet=unverified(2437, 'heavy feet')),
-        medium=OrderedDict(head=unverified(1567, 'medium head'), shoulders=unverified(1567, 'medium shoulders'), chest=unverified(1782, 'medium chest'), hands=unverified(891, 'medium hands'), waist=unverified(891, 'medium waist'), legs=unverified(1567, 'medium legs'), feet=unverified(1567, 'medium feet')),
-        light=OrderedDict(head=unverified(1015, 'light head'), shoulders=unverified(1015, 'light shoulders'), chest=unverified(1155, 'light chest'), hands=unverified(578, 'light hands'), waist=unverified(578, 'light waist'), legs=unverified(1015, 'light legs'), feet=unverified(1015, 'light feet')),
+        # Medium and light chest values fitted by least squares over four geared characters (fixtures 002, 005, 007, 009)
+        # with the heavy chest held at 2772 and the slot factors kept: medium 1995, light 1354 (the community 1782 and
+        # 1155 left every character 514 to 859 short). Residuals after the fit: Yeets -14, Templar -63, Necro -13, DK +73.
+        medium=OrderedDict(head=unverified(1754, 'medium head (0.879 x fitted chest 1995)'), shoulders=unverified(1754, 'medium shoulders'), chest=unverified(1995, 'medium chest, fitted over fixtures 002, 005, 007, 009'), hands=unverified(998, 'medium hands (0.5 x chest)'), waist=unverified(998, 'medium waist'), legs=unverified(1754, 'medium legs'), feet=unverified(1754, 'medium feet')),
+        light=OrderedDict(head=unverified(1190, 'light head (0.879 x fitted chest 1354)'), shoulders=unverified(1190, 'light shoulders'), chest=unverified(1354, 'light chest, fitted over fixtures 002, 005, 007, 009'), hands=unverified(677, 'light hands (0.5 x chest)'), waist=unverified(677, 'light waist'), legs=unverified(1190, 'light legs'), feet=unverified(1190, 'light feet')),
     ),
     shieldArmor=sourced(1720, 'fixture 008 (Z antilles): back bar with a Reinforced shield reads 24166 against 22171 on the staff bar, 1995 = 1720 x 1.16.'),
     weaponDamage=unverified(1335, 'Damage rating of any gold CP160 weapon. Applies to Weapon Damage and Spell Damage on the sheet.'),
+    dualWieldOffHandPercent=unverified(23.67, 'Share of the off hand weapon rating (trait included) that reaches Weapon and Spell Damage while dual wielding, Dual Wield Expert included. Fitted from three readings that agree to 0.05%: fixture 002 (maces, Nirnhoned main: 4362 = (3523 + 200 + 0.2367 x 1335) x 1.08), fixture 009 (same, 4145 at 6%) and fixture 005 (axes, Nirnhoned off hand, Major Brutality and Sorcery up: 4471 = (3024 + 0.2367 x 1535) x 1.32). The archived Dual Wield Expert text (6%) is part of it; the rest is not named by any note.'),
     twoHandedTypes=['greatsword', 'battle axe', 'maul', 'bow', 'inferno staff', 'lightning staff', 'ice staff', 'restoration staff'],
     twoHandedSetPieces=sourced(2, 'sets.csv settype Weapon rows hold their bonus in bonus_2 (2 items) for a single two handed weapon; task statement', 'A two handed weapon counts as two set pieces.'),
 )

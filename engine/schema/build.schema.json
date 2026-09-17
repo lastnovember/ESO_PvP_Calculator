@@ -70,6 +70,10 @@
     "werewolf": { "type": "boolean", "default": false, "description": "Has Lycanthropy. Unlocks the Werewolf skill line for slotting." },
     "werewolfForm": { "type": "boolean", "default": false, "description": "Compute the sheet while transformed. Werewolf passives that read 'WHILE IN WEREWOLF FORM' only apply when true." },
 
+    "activeBuffs": {
+      "description": "Named buffs up at the time of the reading (potion, a skill cast before the sheet was read): Major Brutality, Major Sorcery, Minor Resolve and so on. Applied through the named buff table, never stacking with the same buff from gear or passives.",
+      "type": "array", "uniqueItems": true, "items": { "type": "string" }
+    },
     "battleSpirit": { "type": "boolean", "default": false, "description": "Standing in a PvP zone." },
 
     "scribing": {
