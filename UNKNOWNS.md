@@ -139,17 +139,16 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Roll Dodge Cost | 0 | 3572 | Expert Evasion slotted: the sheet shows 0 while the free roll is primed. The regular cost is not readable from this sheet. |
 | Bash Damage | 556 axes, 608 staff | 120 | Total bash damage depends on the weapon (Yeets: 630 maces, 685 staff, 184 naked); the fixed bonus is all the engine has. Not modelled. |
 
-## Fixture 007 (Necromancer healer "Z antilles": geared front bar, restoration staff, Cyrodiil with Battle Spirit)
+## Fixtures 007 and 008 (Necromancer healer "Z antilles": geared front bar with a restoration staff and back bar with dagger and shield, Cyrodiil with Battle Spirit)
 
-40 of 55 readings match, including Max Health (without any Battle Spirit flat), Max Magicka and Stamina, Health and Stamina Recovery, Weapon and Spell Damage, penetration, Critical Resistance, every cost, Block Mitigation, Sneak Cost (Sustaining Shadows at 10 stages), Sneak and Sprint Speed, Critical Damage and Healing, Healing Taken and the currency bonuses. Still open:
+42 of 55 readings match on each bar, including Max Health (without any Battle Spirit flat), Max Magicka and Stamina, Health and Stamina Recovery, Weapon and Spell Damage, penetration, Critical Resistance, every cost (Bash Cost 257 with Deadly Bash), Block Mitigation and Block Move Speed with the shield, Sneak Cost (Sustaining Shadows at 10 stages), Sneak and Sprint Speed, Critical Damage and Healing, Healing Done (Curative Curse under Battle Spirit), Healing Taken and the currency bonuses. Still open, the same on both bars:
 
 | Reading | Game | Engine | Gap and best reading of it |
 | --- | --- | --- | --- |
-| Magicka Recovery | 1210 | 1176 | +29 before Evocation's 16% (514 + 130 Spell Attunement + 370 food). Every character reads Magicka Recovery high (Yeets +41, Templar +11 before percents) while Stamina Recovery is exact here; the Bear Haunch tooltip is the missing input. |
-| Weapon and Spell Critical | 19.4 | 18.5 | One more percent (about 206 rating) than Prodigy 876, Precision 320 and Robes of Transmutation 657 give. No archived text names a resting crit source in Restoring Light, Green Balance, Living Death or the Breton line. |
-| Resistances | 22171 and 27385 | 21450 and 26664 | 721 short on both, no percent in play. Markyn reads two sets with 3 or more pieces (2314). Yeets 825 and the Templar 514 with different armor: the armor piece ratings (unverified) or a flat the three share. Piece tooltips wanted. |
-| Healing Done | 31 | 19 | +12 over Blessed 2, Earthgore 4, Robes of Transmutation 4 and Powered 9. Candidates that sum to 12: Curative Curse at rank 2 (12% while a negative effect is on you, if Battle Spirit counts) or Mending 6 (shown at full) plus Restoration Master 6. Combat Medic (20%, near a keep) does not fit at a gate. The back bar reading separates them (no staff there). |
-| Bash Damage | 678 | 120 | Not modelled (weapon dependent). |
+| Magicka Recovery | 1210 (front), 1335 (back) | 1176, 1298 | +29 and +32 before Evocation's 16% (514 + 130 Spell Attunement + 370 food). Every character reads Magicka Recovery high (Yeets +41, Templar +11 before percents) while Stamina Recovery is exact here; the Bear Haunch tooltip is the missing input. |
+| Weapon and Spell Critical | 19.4 (front), 16.4 (back) | 18.5, 15.5 | One more percent (about 206 rating) on both bars than Prodigy 876, Precision 320 and Robes of Transmutation 657 give. No archived text names a resting crit source in Restoring Light, Green Balance, Living Death or the Breton line. |
+| Resistances | 22171 and 27385 (front), 24166 and 29380 (back) | 21450 and 26664, 23445 and 28659 | 721 short on both bars once the shield is 1720 (the bar to bar difference, 1995 = 1720 x 1.16, is exact). No percent in play. Markyn reads two sets with 3 or more pieces (2314). Yeets 825 and the Templar 514 with different armor: the armor piece ratings (unverified) or a flat the three share. Piece tooltips wanted. |
+| Bash Damage | 678 (staff), 1222 (shield) | 120, 620 | Not modelled beyond the flat bonuses (weapon dependent; Deadly Bash's 500 shows in the difference but not alone). |
 
 ## Settled by data supplied later
 
@@ -192,6 +191,10 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Ice staff block (Ancient Knowledge) | Block Cost 1029 and Block Mitigation 65 with the settled cost and mitigation rules | 006 |
 | Battle Spirit flat Max Health | none (the flag keeps the earlier 1600 reading available) | 007 |
 | Sneak Cost | 118 x Sustaining Shadows stages bought x the medium armor reductions (34, 55, 94) | 002, 005, 007 |
+| Shield armor | 1720 gold (1995 Reinforced) | 008 |
+| Curative Curse under Battle Spirit | applies (Healing Done +12 on both bars) | 007, 008 |
+| Deadly Bash order | halves the base before the flat and the armor percent (257) | 008 |
+| Block Move Speed with a shield | 54 (fit, one reading) | 008 |
 | Critical Healing sources | Dexterity, Fighting Finesse, The Shadow (not Piercing Spear, Twin Blade and Blunt, Advanced Species, Hemorrhage, Feline Ambush counts) | 002, 003, 005 |
 | Sneak Speed with Dark Stalker | 100 | 005 |
 | Disease and Poison Resistance | physical rating plus Resist Affliction 2310, over 660 | 005 |

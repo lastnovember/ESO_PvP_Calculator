@@ -78,6 +78,7 @@ export const STRATEGIES = {
   // Cost percent reductions: armor passives add up, a weapon passive (Ice Staff block cost) multiplies on top.
   // Fixtures 001 and 002: (1750 - 40) x 0.91 = 1556 on maces, x 0.64 more = 996 on the ice staff.
   costWeaponPercent: ['multiplicative', 'additive'],
+  bashWeaponPercent: ['onBase', 'afterFlat'],
 };
 
 export const DEFAULT_STRATEGIES = Object.fromEntries(
@@ -592,6 +593,14 @@ function collect(build, data, barIndex, strategies) {
   const foodStats = resolveFood(build.food, C);
   if (foodStats) for (const [stat, val] of Object.entries(foodStats.stats)) if (val) acc.add(stat, 'flat', val, `food ${foodStats.name}`);
 
+  // Curative Curse (Living Death): "while you have a negative effect on you". Battle Spirit counts: fixtures 007 and
+  // 008 read Healing Done 12 above every other source on both bars in Cyrodiil. Outside Cyrodiil it stays a proc.
+  if (ctx.battleSpirit && activePassives(build, data).some(([n]) => n === 'Curative Curse')) {
+    const cc = data.effects.skills.passives['Curative Curse'];
+    const m = cc && /by (\d+(?:\.\d+)?)%/.exec(cc.raw || '');
+    if (m) acc.add('healingDone', 'percent', Number(m[1]), 'passive Curative Curse (Battle Spirit is a negative effect)');
+  }
+
   // vampire stage
   if (ctx.vampireStage > 0) {
     const st = C.vampireStages.stages[String(ctx.vampireStage)];
@@ -687,7 +696,12 @@ function computeBar(build, data, barIndex, strategies) {
     const weapon = acc.weaponPercents(stat);
     const additive = strategies.costWeaponPercent === 'additive';
     const pct = additive ? acc.pct(stat) : acc.pct(stat) - weapon.reduce((a, b) => a + b, 0);
-    const mult = (1 + pct / 100) * (additive ? 1 : weapon.reduce((a, b) => a * (1 + b / 100), 1));
+    const wmult = additive ? 1 : weapon.reduce((a, b) => a * (1 + b / 100), 1);
+    // Bash: the weapon passive (Deadly Bash, 50% less) changes the base before the flat and the armor percent:
+    // fixture 008 reads 257 = (765 x 0.5 - 90) x 0.88 where (765 - 90) x 0.88 x 0.5 would be 297. Block keeps the
+    // flat first order (fixture 006: 1029 = (1750 - 40) x 0.94 x 0.64; fixture 008: 1193 = (1750 - 40) x 1.09 x 0.64).
+    if (stat === 'bashCost' && strategies.bashWeaponPercent !== 'afterFlat') return (v(base) * wmult + flat) * (1 + pct / 100);
+    const mult = (1 + pct / 100) * wmult;
     if (strategies.costOrder === 'percentThenFlat') return v(base) * mult + flat;
     return (v(base) + flat) * mult;
   };
@@ -723,6 +737,10 @@ function computeBar(build, data, barIndex, strategies) {
   // Sneak cost: every percent source multiplies on its own (fixtures 002 to 004: 118 x 0.5 Sustaining Shadows
   // x 0.8 Medium Armor Bonuses x 0.72 Improved Sneak = 34), unlike block where the armor passives add up.
   const sneakCost = (v(B.sneakCost) + acc.flat('sneakCost')) * (acc.bucket('sneakCost').rows.filter((r) => r.kind === 'percent').reduce((m, r) => m * (1 + r.value / 100), 1));
+  // Battlefield Mobility (shield): the sheet reads 54 instead of 42 (fixture 008); the passive text gives the penalty
+  // as 36%, which would read 64, so the 12 points are a fit from one reading (unverified).
+  const bfm = ctx.bar.offHand && ctx.bar.offHand.type === 'shield' && activePassives(build, data).some(([n]) => n === 'Battlefield Mobility') ? v(C.base.blockMoveSpeedShieldBonus) : 0;
+  if (bfm) acc.add('blockMoveSpeed', 'percent', bfm, 'passive Battlefield Mobility (fit, fixture 008)');
   const blockMoveSpeed = v(B.blockMoveSpeedPercent) + acc.pct('blockMoveSpeed');
   // Sneak speed: the 60% base already reflects the Champion Point passives (fixtures 003 and 004 read 60 naked with
   // Fleet Phantom in), so only non CP reductions of the 40 point penalty apply

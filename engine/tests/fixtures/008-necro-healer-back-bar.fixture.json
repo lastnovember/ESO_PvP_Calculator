@@ -1,0 +1,283 @@
+{
+  "name": "008 Necromancer healer \"Z antilles\" (Lastnovember), back bar (dagger and shield), Western Elsweyr Gate (Cyrodiil, Battle Spirit)",
+  "status": "open",
+  "captured": "2026-09-17",
+  "location": "Western Elsweyr Gate (Cyrodiil)",
+  "bar": "back (dagger Powered, shield Reinforced)",
+  "attributes": {
+    "health": 47,
+    "magicka": 17,
+    "stamina": 0
+  },
+  "mundus": "The Lady",
+  "food": "Orzorga's Smoked Bear Haunch",
+  "photos": [
+    "photos/008-main.jpg",
+    "photos/008-advanced-1.jpg",
+    "photos/008-advanced-2.jpg",
+    "photos/008-advanced-3.jpg",
+    "photos/008-active-effects.jpg"
+  ],
+  "notes": "Xbox, 2026-09-17, five phone photos, same state as 007 with the back bar active (Spell Power Cure dagger and shield). Active effects as 007.",
+  "gameVersion": "Update 50 era, 2026-09",
+  "tolerance": {
+    "flat": 1,
+    "percent": 0.15
+  },
+  "sheetExtras": {
+    "Sneak Cost": 94,
+    "Block Move Speed": 54,
+    "Sneak Speed": 68,
+    "Sprint Speed": 145,
+    "resistancePercent": {
+      "Flame": 44.5,
+      "Frost": 44.5,
+      "Shock": 44.5,
+      "Magic": 44.5,
+      "Disease": 36.6,
+      "Poison": 36.6,
+      "Bleed": 36.6
+    },
+    "damagePercent": {
+      "Physical": 0,
+      "Bleed": 0,
+      "Disease": 0,
+      "Flame": 0,
+      "Frost": 0,
+      "Magic": 0,
+      "Oblivion": 0,
+      "Poison": 0,
+      "Shock": 0
+    },
+    "Critical Damage": 2,
+    "Healing Done": 26.5,
+    "Critical Healing": 2,
+    "Healing Taken": 4,
+    "Experience": 10,
+    "Gold": 10,
+    "Crafting Inspiration": 10,
+    "Alliance Points": 10,
+    "Tel Var": 10
+  },
+  "activeEffects": [
+    "ESO Plus Member",
+    "Battle Spirit",
+    "Smoked Bear Haunch",
+    "Gallop",
+    "Boon: The Lady"
+  ],
+  "build": {
+    "schemaVersion": 1,
+    "name": "Necro healer",
+    "race": "Breton",
+    "class": "Necromancer",
+    "classSkillLines": [
+      "Restoring Light",
+      "Green Balance",
+      "Living Death"
+    ],
+    "classMastery": [],
+    "attributes": {
+      "health": 47,
+      "magicka": 17,
+      "stamina": 0
+    },
+    "championPoints": {
+      "enabled": true,
+      "slotted": {
+        "warfare": [
+          "Soothing Tide",
+          "Cleansing Revival",
+          "Swift Renewal",
+          "Resilience"
+        ],
+        "fitness": [
+          "Celerity",
+          "Pain's Refuge",
+          "Slippery",
+          "Fortified"
+        ],
+        "craft": [
+          "War Mount",
+          "Gifted Rider",
+          "Steed's Blessing",
+          "Sustaining Shadows"
+        ]
+      },
+      "points": {
+        "Sustaining Shadows": 10
+      }
+    },
+    "mundus": "The Lady",
+    "food": "orzorgas-smoked-bear-haunch",
+    "vampireStage": 0,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": true,
+    "passives": {
+      "mode": "all",
+      "exclude": []
+    },
+    "skillLines": {
+      "Fighters Guild": true,
+      "Mages Guild": true,
+      "Psijic Order": true,
+      "Undaunted": true,
+      "Assault": true,
+      "Support": true,
+      "Soul Magic": true
+    },
+    "scribing": {
+      "Ulfsild's Contingency": {
+        "focus": "Healing",
+        "signature": "Class Flourish",
+        "affix": "Minor Resolve"
+      }
+    },
+    "gear": {
+      "head": {
+        "set": "Earthgore",
+        "weight": "heavy",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "chest": {
+        "set": "Armor of the Trainee",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Prismatic Defense"
+      },
+      "shoulders": {
+        "set": "Earthgore",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "waist": {
+        "set": "Robes of Transmutation",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "hands": {
+        "set": "Spell Power Cure",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "legs": {
+        "set": "Robes of Transmutation",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "feet": {
+        "set": "Robes of Transmutation",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "necklace": {
+        "set": "Spell Power Cure",
+        "trait": "Protective",
+        "enchant": "Spell Damage"
+      },
+      "ring1": {
+        "set": "Markyn Ring of Majesty",
+        "trait": "Protective",
+        "enchant": "Spell Damage"
+      },
+      "ring2": {
+        "set": "Spell Power Cure",
+        "trait": "Protective",
+        "enchant": "Spell Damage"
+      }
+    },
+    "bars": [
+      {
+        "mainHand": {
+          "set": "Robes of Transmutation",
+          "type": "restoration staff",
+          "trait": "Powered",
+          "enchant": "Weapon Damage"
+        },
+        "offHand": null,
+        "skills": [
+          "Enchanted Growth",
+          "Spirit Guardian",
+          "Overflowing Altar",
+          "Extended Ritual",
+          "Race Against Time"
+        ],
+        "ultimate": "Healing Thicket",
+        "poison": null
+      },
+      {
+        "mainHand": {
+          "set": "Spell Power Cure",
+          "type": "dagger",
+          "trait": "Powered",
+          "enchant": "Weapon Damage"
+        },
+        "offHand": {
+          "set": "Spell Power Cure",
+          "type": "shield",
+          "trait": "Reinforced",
+          "enchant": "Stamina"
+        },
+        "skills": [
+          "Budding Seeds",
+          "Restoring Focus",
+          "Echoing Vigor",
+          "Ulfsild's Contingency",
+          "Siege Weapon Shield"
+        ],
+        "ultimate": "Renewing Animation",
+        "poison": null
+      }
+    ],
+    "flags": {
+      "battleSpiritFlatHealth": false,
+      "esoPlus": true,
+      "itemQuality": false,
+      "strategies": {}
+    }
+  },
+  "readings": {
+    "inPvpZone": {
+      "bar2": {
+        "main": {
+          "Max Health": 33289,
+          "Max Magicka": 22249,
+          "Max Stamina": 16313,
+          "Health Recovery": 386,
+          "Magicka Recovery": 1335,
+          "Stamina Recovery": 918,
+          "Weapon Damage": 3409,
+          "Spell Damage": 3409,
+          "Weapon Critical": 16.4,
+          "Spell Critical": 16.4,
+          "Critical Damage": 2,
+          "Physical Penetration": 4456,
+          "Spell Penetration": 4456,
+          "Physical Resistance": 24166,
+          "Spell Resistance": 29380
+        },
+        "advanced": {
+          "Critical Resistance": 3196,
+          "Bash Cost": 257,
+          "Block Cost": 1193,
+          "Break Free Cost": 4144,
+          "Roll Dodge Cost": 3420,
+          "Sprint Cost": 401,
+          "Bash Damage": 1222,
+          "Block Mitigation": 64,
+          "Sprint Speed": 145,
+          "Healing Done": 26.5,
+          "Healing Taken": 4,
+          "Damage Done": null
+        }
+      }
+    }
+  }
+}

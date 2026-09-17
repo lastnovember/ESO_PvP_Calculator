@@ -123,11 +123,27 @@ to each slotted star.
 two sets), Healing Done 31 against 19 (Curative Curse 12, or Mending 6 plus Restoration Master 6),
 Bash Damage.
 
+## 008, 2026-09-17, geared, back bar (dagger and shield), Western Elsweyr Gate (Cyrodiil)
+
+Same state as 007 with the back bar active (Spell Power Cure dagger, Powered, and a Reinforced
+shield). Active effects as 007.
+
+Changes (this commit): Healing Done is 12 above every other source on both bars, so Curative
+Curse counts Battle Spirit as a negative effect (the engine applies it under Battle Spirit);
+Deadly Bash parses (500 bash damage, 50% less cost) and its percent changes the bash base before
+the Savage Defense flat and the armor percent (257 = (765 x 0.5 - 90) x 0.88); a gold shield is
+1720 armor (the bar to bar difference 1995 = 1720 x 1.16); Battlefield Mobility reads Block Move
+Speed 54 (fit). Block Cost 1193 and Block Mitigation 64 with the shield matched at once.
+
+42 of 55 match. Open, identical on both bars: Magicka Recovery about +30 before percents, crit
+about +1, resistances 721 short, Bash Damage.
+
 ## Open questions for the next reading
 
-- Necromancer back bar (dagger and shield): separates the Healing Done candidates.
 - Tooltip text of Orzorga's Smoked Bear Haunch (three characters read Magicka Recovery high).
 - Armor value on each armor piece tooltip, any character (resistances 514 to 825 short on all).
+- A reading of the necromancer outside Cyrodiil: Healing Done should drop by 12 if Curative Curse
+  is the Battle Spirit reading, and the crit and Magicka Recovery offsets should stay.
 
 - Templar: is Unnatural Resistance bought; tooltip of the Prismatic Recovery ring glyph; tooltip
   of Orzorga's Smoked Bear Haunch; the armor value on each equipped piece's tooltip (seven

@@ -230,6 +230,11 @@ function parseSentence(sentenceIn, conds, depth = 0) {
     const cond = mergeCond(base, { type: 'setsWithPieces', min: Number(m[5]) });
     return { status: 'ok', effects: [...mk(statFor(m[2]), toNum(m[1]), 'flat', cond, raw), ...mk(statFor(m[4]), toNum(m[3]), 'flat', cond, raw)] };
   }
+  // Deadly Bash: "Improves your standard Bash attacks, causing them to deal 500 more damage and cost 50% less Stamina."
+  // (fixture 008: Bash Cost 257 = (765 x 0.5 - 90) x 0.88 with a shield)
+  if ((m = rest.match(/^Improves your standard Bash attacks, causing them to deal ([\d.]+) more damage and cost ([\d.]+)% less Stamina/i))) {
+    return { status: 'ok', effects: [...mk('bashDamage', toNum(m[1]), 'flat', base, raw), ...mk('bashCost', -toNum(m[2]), 'percent', base, raw)] };
+  }
   // Dual Wield Expert: "Increases Weapon Damage and Spell Damage by 6% of off-hand weapon's damage."
   if ((m = rest.match(/^Increases Weapon Damage and Spell Damage by ([\d.]+)% of off-hand weapon's damage/i))) return { status: 'ok', effects: mk('percentOfOffHandRating', toNum(m[1]), 'percent', base, raw) };
   // Damage done by attack category (Deadly Aim, Master-at-Arms, Biting Aura, Thaumaturge): kept as their own stats;

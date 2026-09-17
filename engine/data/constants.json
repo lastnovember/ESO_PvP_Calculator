@@ -165,6 +165,12 @@
       "verified": true,
       "note": "Running (sprint) default 140%, maximum 200%."
     },
+    "blockMoveSpeedShieldBonus": {
+      "value": 12,
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "Fixture 008: Block Move Speed 54 with a shield and Battlefield Mobility against 42 without. The passive text (penalty 36%) would give 64; one reading, kept as a fit."
+    },
     "blockMoveSpeedPercent": {
       "value": 42,
       "source": "UNVERIFIED",
@@ -1547,10 +1553,9 @@
       }
     },
     "shieldArmor": {
-      "value": 1880,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Armor rating of a gold CP160 shield."
+      "value": 1720,
+      "source": "fixture 008 (Z antilles): back bar with a Reinforced shield reads 24166 against 22171 on the staff bar, 1995 = 1720 x 1.16.",
+      "verified": true
     },
     "weaponDamage": {
       "value": 1335,

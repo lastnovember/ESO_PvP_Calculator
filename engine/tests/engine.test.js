@@ -370,3 +370,23 @@ test('real data: fixture 007 rules (CP star points, Battle Spirit adds no flat h
   n.flags = { battleSpiritFlatHealth: true };
   assert.equal(computeSheet(n, real).bars[0].main.maxHealth, plain + 1600, 'legacy flag keeps the 1600');
 });
+
+test('real data: fixture 008 rules (Curative Curse under Battle Spirit, Deadly Bash on the base, shield 1720, Battlefield Mobility)', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked(); n.race = 'Breton'; n.class = 'Necromancer'; n.classSkillLines = ['Grave Lord', 'Bone Tyrant', 'Living Death'];
+  n.championPoints = { enabled: true, slotted: { warfare: [], fitness: [], craft: [] } };
+  let r = computeSheet(n, real);
+  assert.equal(r.bars[0].advanced.healingDonePercent, 0);
+  n.battleSpirit = true;
+  r = computeSheet(n, real);
+  assert.equal(r.bars[0].advanced.healingDonePercent, 12, 'Curative Curse counts Battle Spirit as a negative effect');
+  n.battleSpirit = false;
+  // dagger and shield: Deadly Bash halves the base before the Savage Defense flat, the shield adds 1720 x 1.16
+  const before = computeSheet(n, real).bars[0];
+  n.bars[0].mainHand = { set: null, type: 'dagger', trait: null, enchant: null };
+  n.bars[0].offHand = { set: null, type: 'shield', trait: 'Reinforced', enchant: null };
+  r = computeSheet(n, real);
+  assert.equal(r.bars[0].advanced.bashCost, Math.round(765 * 0.5 - 90));
+  assert.equal(r.bars[0].main.physicalResistance - before.main.physicalResistance, Math.round(1720 * 1.16));
+  assert.equal(r.bars[0].advanced.blockMoveSpeedPercent, 54);
+});

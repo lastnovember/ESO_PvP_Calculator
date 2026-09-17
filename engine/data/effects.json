@@ -23,8 +23,8 @@
    "passives": {
     "total": 250,
     "byStatus": {
-     "ok": 74,
-     "proc": 156,
+     "ok": 75,
+     "proc": 155,
      "mixed": 18,
      "unparsed": 2
     },
@@ -60151,13 +60151,25 @@
     "class": null,
     "aliases": [],
     "raw": "WITH ONE HAND WEAPON AND SHIELD EQUIPPED Improves your standard Bash attacks, causing them to deal 500 more damage and cost 50% less Stamina.",
-    "status": "proc",
+    "status": "ok",
     "effects": [
      {
-      "kind": "proc",
+      "stat": "bashDamage",
+      "value": 500,
+      "kind": "flat",
       "condition": {
-       "type": "combat",
-       "detail": "Improves your standard Bash attacks, causing them to deal 500 more damage and co"
+       "type": "weapon",
+       "weapon": "one hand and shield"
+      },
+      "raw": "Improves your standard Bash attacks, causing them to deal 500 more damage and cost 50% less Stamina."
+     },
+     {
+      "stat": "bashCost",
+      "value": -50,
+      "kind": "percent",
+      "condition": {
+       "type": "weapon",
+       "weapon": "one hand and shield"
       },
       "raw": "Improves your standard Bash attacks, causing them to deal 500 more damage and cost 50% less Stamina."
      }
