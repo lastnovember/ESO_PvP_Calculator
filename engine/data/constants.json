@@ -1783,17 +1783,17 @@
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Smoked Bear Haunch'",
         "verified": true,
-        "note": "esolog buff \"Smoked Bear Haunch\" (Increase Max Health by <<1>>, Health Recovery by <<2>> and Stamina and Magicka Recovery by <<3>> for <<4>>.) x 1.1735 for CP160 gold. Max Health 4316 from fixtures 002 (30001 = (16000 + 1600 ... ) geared minus naked) and 005 (36217, engine 36214 with 4313)."
+        "note": "esolog buff \"Smoked Bear Haunch\" (Increase Max Health by <<1>>, Health Recovery by <<2>> and Stamina and Magicka Recovery by <<3>> for <<4>>.) x 1.1735 for CP160 gold."
       },
       {
         "id": "bewitched-sugar-skulls",
         "name": "Bewitched Sugar Skulls",
         "kind": "food",
         "stats": {
-          "maxHealth": 4620,
+          "maxHealth": 4624,
           "maxStamina": 4250,
           "maxMagicka": 4250,
-          "healthRecovery": 461
+          "healthRecovery": 462
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Bewitched Sugar Skulls'",
         "verified": true,
@@ -1804,7 +1804,7 @@
         "name": "Artaeum Takeaway Broth",
         "kind": "food",
         "stats": {
-          "maxHealth": 3327,
+          "maxHealth": 3329,
           "healthRecovery": 406,
           "maxStamina": 3080,
           "staminaRecovery": 338
@@ -1818,7 +1818,7 @@
         "name": "Clockwork Citrus Filet",
         "kind": "food",
         "stats": {
-          "maxHealth": 3327,
+          "maxHealth": 3329,
           "healthRecovery": 406,
           "maxMagicka": 3080,
           "magickaRecovery": 338
@@ -1834,7 +1834,7 @@
         "stats": {
           "staminaRecovery": 326,
           "maxStamina": 2957,
-          "maxHealth": 3204
+          "maxHealth": 3206
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Dubious Camoran Throne'",
         "verified": true,
@@ -1847,7 +1847,7 @@
         "stats": {
           "magickaRecovery": 326,
           "maxMagicka": 2957,
-          "maxHealth": 3204
+          "maxHealth": 3206
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Witchmother's Potent Brew'",
         "verified": true,
@@ -1860,7 +1860,7 @@
         "stats": {
           "staminaRecovery": 370,
           "magickaRecovery": 370,
-          "maxHealth": 4066
+          "maxHealth": 4069
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Jewels of Misrule'",
         "verified": true,

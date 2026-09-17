@@ -191,6 +191,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       </div>
       <div class="row">
         <label class="toggle"><input type="checkbox" id="battleSpirit"> Battle Spirit</label>
+        <label class="toggle" id="nearKeepWrap" title="Combat Medic: 20% Healing Done near a Keep"><input type="checkbox" id="nearKeep"> Near a keep</label>
         <label class="toggle"><input type="checkbox" id="esoPlus"> ESO Plus</label>
       </div>
       <h3>Guild and Alliance War Skill Lines (Passives)</h3>
@@ -590,6 +591,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     $('wwFormWrap').classList.toggle('hidden', !build.werewolf);
     $('werewolfForm').checked = !!build.werewolfForm;
     $('battleSpirit').checked = !!build.battleSpirit;
+    $('nearKeep').checked = !!(build.flags && build.flags.nearKeep);
+    $('nearKeepWrap').classList.toggle('hidden', !build.battleSpirit);
     $('esoPlus').checked = !(build.flags && build.flags.esoPlus === false);
     const lt = $('lineToggles'); lt.innerHTML = '';
     for (const line of TOGGLE_LINES) {
@@ -959,6 +962,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   $('werewolf').addEventListener('change', (ev) => { build.werewolf = ev.target.checked; if (!build.werewolf) build.werewolfForm = false; pruneSkills(); update(); });
   $('werewolfForm').addEventListener('change', (ev) => { build.werewolfForm = ev.target.checked; update(); });
   $('battleSpirit').addEventListener('change', (ev) => { build.battleSpirit = ev.target.checked; update(); });
+  $('nearKeep').addEventListener('change', (ev) => { build.flags.nearKeep = ev.target.checked; if (!build.flags.nearKeep) delete build.flags.nearKeep; update(); });
   $('esoPlus').addEventListener('change', (ev) => { build.flags.esoPlus = ev.target.checked; update(); });
   $('buildName').addEventListener('change', (ev) => { build.name = ev.target.value; $('menuName').textContent = build.name || ''; });
   $('saveBtn').addEventListener('click', saveBuild);

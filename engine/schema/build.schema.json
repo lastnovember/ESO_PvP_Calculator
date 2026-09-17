@@ -124,6 +124,7 @@
       "type": "object", "additionalProperties": false,
       "properties": {
         "itemQuality": { "type": "boolean", "default": false, "description": "When true, each item's quality field is used; when false every item counts as gold." },
+        "nearKeep": { "type": "boolean", "default": false, "description": "Standing near a Keep in Cyrodiil (Battle Spirit on): Combat Medic adds 20% Healing Done to the sheet (fixtures 001 and 009)." },
         "esoPlus": { "type": "boolean", "default": true, "description": "ESO Plus member: the sheet shows 10% Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points." },
         "battleSpiritFlatHealth": { "type": "boolean", "default": false, "description": "Add 1600 flat Max Health under Battle Spirit. Off: fixture 007 (Cyrodiil) reads exactly without it; fixtures 001 and 002 had suggested it." },
         "strategies": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Named order-of-operation strategies, see engine docs." }

@@ -593,6 +593,14 @@ function collect(build, data, barIndex, strategies) {
   const foodStats = resolveFood(build.food, C);
   if (foodStats) for (const [stat, val] of Object.entries(foodStats.stats)) if (val) acc.add(stat, 'flat', val, `food ${foodStats.name}`);
 
+  // Combat Medic (Support): "Increases your healing done by 20% when you are near a Keep". flags.nearKeep says so:
+  // fixtures 001 and 009 (both at a Cyrodiil gate) read Healing Done 20 above every other source.
+  if (ctx.battleSpirit && build.flags && build.flags.nearKeep && activePassives(build, data).some(([n]) => n === 'Combat Medic')) {
+    const cm = data.effects.skills.passives['Combat Medic'];
+    const m = cm && /by (\d+(?:\.\d+)?)%/.exec(cm.raw || '');
+    if (m) acc.add('healingDone', 'percent', Number(m[1]), 'passive Combat Medic (near a keep)');
+  }
+
   // Curative Curse (Living Death): "while you have a negative effect on you". Battle Spirit counts: fixtures 007 and
   // 008 read Healing Done 12 above every other source on both bars in Cyrodiil. Outside Cyrodiil it stays a proc.
   if (ctx.battleSpirit && activePassives(build, data).some(([n]) => n === 'Curative Curse')) {

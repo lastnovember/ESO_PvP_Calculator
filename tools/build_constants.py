@@ -332,6 +332,11 @@ foods = [
 # the table values times 1.1735 (Bewitched Sugar Skulls 3937/3622/393 in the table against the
 # known 4620/4250/462; Smoked Bear Haunch 3675/346/315 against the fixture fit 4316/406/369).
 FOOD_SCALE = 1.1735
+# Health values scale a touch higher than Magicka and Stamina ones: Bear Haunch Max Health 4316 (fixtures 002 and 005)
+# over the esolog 3675 is 1.17442, and Sugar Skulls Max Health 4624 (fixture 009: 30684) is 3937 x 1.17442, while
+# Sugar Skulls Max Magicka and Stamina read 4250 = 3622 x 1.1735 (fixture 009 exact). Health Recovery lands on the
+# same number either way (406, 462).
+FOOD_SCALE_HEALTH = 4316 / 3675
 ESOLOG_FOODS = {
     'orzorgas-smoked-bear-haunch': ("Orzorga's Smoked Bear Haunch", 'drink', 'Smoked Bear Haunch', {1: ['maxHealth'], 2: ['healthRecovery'], 3: ['magickaRecovery', 'staminaRecovery']}),
     'bewitched-sugar-skulls': ('Bewitched Sugar Skulls', 'food', 'Bewitched Sugar Skulls', {1: ['maxHealth'], 2: ['maxStamina', 'maxMagicka'], 3: ['healthRecovery']}),
@@ -352,14 +357,9 @@ def esolog_food(id_):
     stats = OrderedDict()
     for n, keys in slots.items():
         for k in keys:
-            stats[k] = int(round(consts[n] * FOOD_SCALE))
+            stats[k] = int(round(consts[n] * (FOOD_SCALE_HEALTH if k in ('maxHealth', 'healthRecovery') else FOOD_SCALE)))
     return food(id_, name, kind, f'esolog buff "{buff}" ({row[7].strip()}) x {FOOD_SCALE} for CP160 gold.', True, src('esolog_skill_coefficients_t00.csv', buff), **stats)
 foods = [f for f in foods if f['id'] not in ESOLOG_FOODS] + [esolog_food(i) for i in ESOLOG_FOODS]
-# Two geared readings of different characters (fixtures 002 and 005) both need 4316 Max Health from the Bear Haunch
-# where the esolog value x 1.1735 gives 4313; the recoveries keep the scaled table values (406 fits fixture 002).
-_bh = next(f for f in foods if f['id'] == 'orzorgas-smoked-bear-haunch')
-_bh['stats']['maxHealth'] = 4316
-_bh['note'] += ' Max Health 4316 from fixtures 002 (30001 = (16000 + 1600 ... ) geared minus naked) and 005 (36217, engine 36214 with 4313).'
 C['foods'] = OrderedDict(note='Food and drink catalog. The app also accepts custom values typed from a tooltip. Racial food duration passives do not change magnitudes.', items=foods)
 
 # ---------------------------------------------------------------- Battle Spirit

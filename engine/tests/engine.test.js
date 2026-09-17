@@ -390,3 +390,15 @@ test('real data: fixture 008 rules (Curative Curse under Battle Spirit, Deadly B
   assert.equal(r.bars[0].main.physicalResistance - before.main.physicalResistance, Math.round(1720 * 1.16));
   assert.equal(r.bars[0].advanced.blockMoveSpeedPercent, 54);
 });
+
+test('real data: fixture 009 rules (Combat Medic near a keep, food health scale)', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked(); n.battleSpirit = true; n.championPoints = { enabled: true, slotted: { warfare: [], fitness: [], craft: [] } };
+  const base = computeSheet(n, real).bars[0].advanced.healingDonePercent;
+  n.flags = { nearKeep: true };
+  assert.equal(computeSheet(n, real).bars[0].advanced.healingDonePercent, base + 20, 'Combat Medic near a keep');
+  n.battleSpirit = false;
+  assert.equal(computeSheet(n, real).bars[0].advanced.healingDonePercent, base, 'only under Battle Spirit');
+  const skulls = constants.foods.items.find((f) => f.id === 'bewitched-sugar-skulls').stats;
+  assert.deepEqual([skulls.maxHealth, skulls.maxMagicka, skulls.maxStamina, skulls.healthRecovery], [4624, 4250, 4250, 462]);
+});

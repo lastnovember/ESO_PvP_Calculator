@@ -138,7 +138,32 @@ Speed 54 (fit). Block Cost 1193 and Block Mitigation 64 with the shield matched 
 42 of 55 match. Open, identical on both bars: Magicka Recovery about +30 before percents, crit
 about +1, resistances 721 short, Bash Damage.
 
+## 009, 2026-09-17, geared, front bar (dual maces), Western Elsweyr Gate (Cyrodiil)
+
+Fourth character: Argonian Dragonknight "Yuggah Yuggah" (native class, Class Mastery Inexorable
+Descent and Wildfire Embers), Bloodspawn, Trainee, Rallying Cry, Essence Thief, Markyn (Swift),
+The Mage, Bewitched Sugar Skulls, 52 Magicka and 12 Health. Four photos, no Active Effects page.
+The user said the Undaunted line is not unlocked on this character (skillLines.Undaunted false).
+
+Changes (this commit): Combat Medic's 20% goes on the sheet near a Keep (`flags.nearKeep`; this
+reading and Yeets' 001 at the other gate both carry it, the Necromancer at the same gate did not,
+which needs an answer on whether that character has the Support passive); food health values
+scale by 1.17442 and Magicka and Stamina values by 1.1735 (Sugar Skulls 4624 and 4250 both exact,
+the Bear Haunch 4316 falls out of the same scale).
+
+41 of 55 match. Open: Magicka Recovery +41.6 before the percent (same as Yeets, and this
+character has no recovery food, so the food is cleared), Weapon Damage 236 flat short (same as
+Yeets, same weapons), resistances 859 short, Roll Dodge Cost 29 short, Bash Damage.
+
 ## Open questions for the next reading
+
+- Does the Necromancer have the Support line's Combat Medic passive? (Its gate reading showed no
+  20%.) Does any character have Tumbling at one stage?
+- Dragonknight or Yeets: one reading with only the main mace equipped, one with only the off hand
+  mace, one with both. Settles the dual wield rule that both characters miss by 236.
+- Armor value on each armor piece tooltip, any character (four characters, four different gaps).
+- Any character's Magicka Recovery with all armor removed (percents gone): shows whether the +41
+  is a flat.
 
 - Tooltip text of Orzorga's Smoked Bear Haunch (three characters read Magicka Recovery high).
 - Armor value on each armor piece tooltip, any character (resistances 514 to 825 short on all).
