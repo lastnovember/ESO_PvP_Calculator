@@ -1,0 +1,186 @@
+{{Trail}}{{TOCright}}[[File:ON-misc-Skills Menu.jpg|A player perusing the Skills menu|thumb|right]]
+In Elder Scrolls Online, you advance your character by using different abilities, granted to you through different skill lines. In order to increase your progression in a skill line, you must use those skills. There are three types of skills: Passive Skills, Active Skills, and Ultimate Skills.
+
+'''Passive Skills''' provide a bonus all the time. Some require certain items to be equipped or Active Skills to be slotted, but otherwise you don't need to think about them. They generally have a number of upgrades available, which can be acquired by increasing your level in the relevant skill line. In most cases, this is achieved by using the Active Skills within the same skill line. In other cases, such as crafting skills, this can be achieved via crafting items or research. Each upgrade costs an additional skill point. Some Passive Skills do not require an investment of skill points, but are instead provided free as a result of certain situations. For example, each [[ON:Races|race]] gets one free passive which increases their experience gain with a given skill.  The first level of each of the [[ON:Crafting|Crafting]] quality skills is free.  There are free Passive Skills associated with becoming a [[ON:Werewolf|Werewolf]] or [[ON:Vampire|Vampire]], as well as some provided by the keeps and resources owned by your [[ON:Alliance|Alliance]] if you take part in the [[ON:Alliance War|Alliance War]]. All current [[ON:Emperor|Emperor]]s also receive some free Passive Skills.
+
+'''Active Skills''' are the ones you'll be using most in the game. They cost either {{ESO Stamina Link|}} or {{ESO Magicka Link|}} to use. You can have up to five slotted in your Action Bar, by default bound to the 1-5 keys. At character level 15, when you acquire Weapon Swapping, you gain an additional 5 slots for your alternate weapon. Like Passive Skills, they become available once a certain level in the skill line is reached. However, they cannot be upgraded, but rather improve through use. They have 4 Ranks, after which they may be Morphed into a new version. You will have two Morph options, which add different effects to the skill. Morphing a skill costs an additional skill point. Once a skill is Morphed, it can increase in Rank 4 more times, but may not be Morphed again (so you can't get both Morph bonuses for any skill). Using your Active Skills will increase your overall level in the skill line, making new skills become available as you progress.
+
+'''Ultimate Skills''' are similar to Active Skills, but instead of using Stamina or Magicka as most Active Skills do, these use a third resource called [[ON:Ultimate|Ultimate]]. Ultimate builds over time as you fight, and (with [[ON:Overload|one exception]]) completely depletes when you perform an Ultimate Skill. No skill line has more than one Ultimate Skill, if it has one at all. Like Active Skills, they become available after a certain level in the skill line, raise in Ranks, and can be Morphed into new skills after Rank IV. You may only have one Ultimate Skill slotted at a time (two if you have Weapon Swapping after reaching level 15). By default it is bound to the 'R' key.
+
+==Class==
+Each of the game's [[ON:Classes|classes]] has three skill lines associated with it, which are immediately available to your character and are specific to your class. To advance in the skill line, at least one active skill from the skill line must be slotted (as one of the regular five skills, or as the active Ultimate) on whichever of your two skill bars is in use at the moment of gaining experience points.
+
+{|class=hiddentable style="border-spacing: 1.5em 0.2em; text-align: center;"
+![[ON:Dragonknight|Dragonknight]]
+![[ON:Sorcerer|Sorcerer]]
+![[ON:Nightblade|Nightblade]]
+![[ON:Templar|Templar]]
+![[ON:Warden|Warden]]{{Crown Store}}
+![[ON:Necromancer|Necromancer]]{{ESO EL}}
+![[ON:Arcanist|Arcanist]]{{ESO NE}}
+|-
+|[[ON:Ardent Flame|Ardent Flame]]<br>[[ON:Draconic Power|Draconic Power]]<br>[[ON:Earthen Heart|Earthen Heart]]
+|[[ON:Dark Magic|Dark Magic]]<br>[[ON:Daedric Summoning|Daedric Summoning]]<br>[[ON:Storm Calling|Storm Calling]]
+|[[ON:Assassination|Assassination]]<br>[[ON:Shadow|Shadow]]<br>[[ON:Siphoning|Siphoning]]
+|[[ON:Aedric Spear|Aedric Spear]]<br>[[ON:Dawn's Wrath|Dawn's Wrath]]<br>[[ON:Restoring Light|Restoring Light]]
+|[[ON:Winter's Embrace|Winter's Embrace]]<br>[[ON:Green Balance|Green Balance]]<br>[[ON:Animal Companions|Animal Companions]]
+|[[ON:Grave Lord|Grave Lord]]<br>[[ON:Bone Tyrant|Bone Tyrant]]<br>[[ON:Living Death|Living Death]]
+|[[ON:Herald of the Tome|Herald of the Tome]]<br>[[ON:Soldier of Apocrypha|Soldier of Apocrypha]]<br>[[ON:Curative Runeforms|Curative Runeforms]]
+|}
+
+Additionally, [[ON:Class Mastery|Class Mastery]] is available if not [[Online:Subclassing|subclassing]].
+
+==Weapon==
+There are six weapon skill lines, each linked to a specific type of weapon. These lines are:
+{|
+|
+*[[ON:Two Handed|Two Handed]]
+*[[ON:One Hand and Shield|One Hand and Shield]]
+*[[ON:Dual Wield|Dual Wield]]
+|
+*[[ON:Bow|Bow]]
+*[[ON:Destruction Staff|Destruction Staff]]
+*[[ON:Restoration Staff|Restoration Staff]]
+|}
+Any class can advance in any of the Weapon skill lines by holding the appropriate weapon at the moment of gaining experience (whether that experience is gained by killing a monster, completing a quest or by any other means).  Advancement will be faster by slotting one of the active weapon skills on your current skill bar (skills 1-5, or the Ultimate) when gaining experience points, with more slotted skills granting faster advancement.  If you slot weapon skills for a weapon you are not holding (e.g. slot a dual-wield skill while holding a two-handed weapon), both the individual skills (from I to IV) and the overall weapon skill (from 1 to 50) will gain progress.
+
+==Armor==
+There are three armor skill lines:
+*[[ON:Light_Armor|Light Armor]]
+*[[ON:Medium_Armor|Medium Armor]]
+*[[ON:Heavy_Armor|Heavy Armor]]
+Any class can advance in any of the Armor skill lines, while wearing the appropriate armor type. Only 1 piece need be worn, but progress will be faster the more pieces you wear of that type.
+
+==Racial==
+Each [[ON:Races|race]] has its own skill line which becomes available at level 5. Your overall character level determines the abilities you may choose from your racial skills. See:
+{|
+|
+*[[ON:Argonian|Argonian]]
+*[[ON:Breton|Breton]]
+*[[ON:Dark Elf|Dark Elf]]
+*[[ON:High Elf|High Elf]]
+*[[ON:Imperial|Imperial]]
+|
+*[[ON:Khajiit|Khajiit]]
+*[[ON:Nord|Nord]]
+*[[ON:Orc|Orc]]
+*[[ON:Redguard|Redguard]]
+*[[ON:Wood Elf|Wood Elf]]
+|}
+
+Progress in the Racial skill lines is directly equivalent to your character's overall experience level.
+
+==World==
+Not all of the skill lines are visible at the beginning of the game. You must discover other skill lines around the world, by completing certain quests, or finding certain items. The six World skill lines are:
+*[[ON:Excavation|Excavation]] {{ESO GM}} - obtained by the quest [[ON:The Antiquarian Circle (quest)|The Antiquarian Circle]]
+*[[ON:Legerdemain|Legerdemain]] - obtained by breaking the law
+*[[ON:Werewolf|Lycanthropy]] - obtained by becoming a werewolf
+*[[ON:Scrying|Scrying]] {{ESO GM}} - obtained by the quest [[ON:The Antiquarian Circle (quest)|The Antiquarian Circle]]
+*[[ON:Soul Magic|Soul Magic]] - obtained by progress through the main quest
+*[[ON:Vampire|Vampirism]] - obtained by becoming a vampire
+
+==Guild==
+The Guild skill lines include lines for NPC guilds:
+*[[ON:Dark Brotherhood|Dark Brotherhood]]{{ESO DLC|Dark Brotherhood}}
+*[[ON:Fighters Guild|Fighters Guild]]
+*[[ON:Mages Guild|Mages Guild]]
+*[[ON:Psijic Order|Psijic Order]]{{ESO SS}}
+*[[ON:Thieves Guild|Thieves Guild]]{{ESO DLC|Thieves Guild}}
+*[[ON:Undaunted|Undaunted]]
+
+Progress in the Guild quest lines (usually from 1 to 10 - the Thieves and Dark Brotherhood go up to 12) is done by doing guild faction quests, both in the faction's quest storylines and other repeatable quests (usually daily) that are related to the faction. In most cases (except for the Psijic Order which consists only of the quest storyline), you will HAVE to do some of the repeatable stuff to level your faction reputation up high enough to continue the storyline, or to level it up to maximum after the storyline is completed, because the storyline itself does not give you enough progress to reach the next stage of the quest storyline.
+
+*Fighters Guild progress is gained by killing undeads, Daedra or werewolves anywhere, and by doing daily quests to clear Dark Anchors. 
+*Mages Guild progress is gained by finding Lorebooks, and by doing daily quests involving finding relics in Public Dungeons.
+*Thieves Guild and Dark Brotherhood progress are made by doing repeatable quests (thefts or murders, respectively).  Some of these quests are daily, others can be repeated as often as you like.
+*Psijic Order has no daily or otherwise repeatable quests, and progress is obtained only through the quest storyline.
+*Undaunted faction reputation is gained by clearing Dungeon quest storylines (once per dungeon), or by doing the daily Pledges from the three quest givers at the Undaunted Enclave, or by doing the daily solo delve quests given by Bolgrul at the enclave. The Undaunted have no overarching quest storyline.
+
+==Alliance War==
+Alliance War skill lines are the Player vs Player lines. These include siege weapons and other PvP abilities. Currently there are three Alliance War skill lines in the game:
+*[[ON:Assault|Assault]]
+*[[ON:Support|Support]]
+*[[ON:Emperor|Emperor]] - a set of passive abilities possessed only by current Emperors
+
+Progress in the Assault and Support lines comes as you gain Alliance War points for any PVP or alliance-war related activities - killing other players (in Cyrodiil, Imperial City or Battlegrounds), completing daily quests in Cyrodiil (both the war quests, and the PVE quests in Cyrodiil's various towns), capturing or successfully defending keeps and resources, capturing Elder Scrolls, and competing in Battlegrounds. Even getting Alliance Points from daily rewards from your ESO+ subscription counts towards Assault/Support progress on whichever of your characters is used to claim the reward.  You only need to reach about halfway from level 13 to 14 in Alliance War rank, to max out the Assault and Support lines at 10 each (they both increase together at the same rate).
+
+===Artifacts===
+In addition to the above, participating in the Alliance War has a chance to provide you with the use of certain unique [[ON:Artifacts|Artifacts]] that grant you special powers:
+*[[ON:Volendrung|Volendrung]]
+*[[ON:Auriel's Bow|Auriel's Bow]] ''(upcoming)''
+*[[ON:Sanguine's Rose|Sanguine's Rose]] ''(upcoming)''
+
+==Craft==
+[[ON:Crafting|Crafting]] skill lines are each related to a profession and help boost the products you create in the related profession. These include:
+*[[ON:Alchemy|Alchemy]] - which allows you to craft custom potions
+*[[ON:Blacksmithing|Blacksmithing]] - allows you to craft custom melee weapons and heavy armor
+*[[ON:Clothing|Clothing]] - allows you to craft custom light and medium armor
+*[[ON:Enchanting|Enchanting]] - allows you to craft custom enchantments to apply to your gear
+*[[ON:Jewelry Crafting|Jewelry Crafting]]{{ESO SS}} - allows you to craft custom rings and necklaces
+*[[ON:Provisioning|Provisioning]] - allows you to craft custom food and beverages
+*[[ON:Woodworking|Woodworking]] - allows you to craft custom bows, staves, and shields
+
+In all seven cases, you learn by doing it, and by completing the daily crafting writs once you have been certified as a craftsman of that skill. In the case of Blacksmithing, Clothing, Enchanting, Jewelry Crafting and Woodworking, you learn even faster by deconstructing found items (although you gain almost no progress from deconstructing an item you made yourself - however, you get full progress from deconstructing items made by another character, even if that other character is one of your own on the same account). The higher the quality of item you deconstruct, the more "inspiration" is gained towards that craft, especially if the item in question has the "Intricate" trait.  Alchemy and Provisioning have no Deconstruction, and Enchanting has no equivalent to the Intricate trait on worn/wielded equipment.
+
+==Dungeon==
+These skills are temporarily available as part of certain [[ON:Group Dungeons|group dungeon]] mechanics:
+*Skeevaton
+*[[ON:Werewolf Behemoth#Transformation|Werewolf Behemoth]]
+
+==Earning Skill Points==
+There are several methods of earning skill points, listed below, up to a current total of 579 points including all Chapters and other DLCs:
+*[[ON:Leveling|Leveling]] your character, up to level 50 (64 Skill Points)
+*Completing quests in the [[ON:Main Quest|main quest]] (11 Skill Points)
+*Completing quest chains in the [[ON:Aldmeri Dominion#Quests|Dominion]], [[ON:Daggerfall Covenant#Quests|Covenant]], [[ON:Ebonheart Pact#Quests|Pact]], and [[ON:Coldharbour#Quests|Coldharbour]] main storylines (3 in Coldharbour: 16 in Covenant, 15 in Pact, 15 in Dominion)
+*Completing the [[ON:Imperial City|Imperial City]]{{ESO DLC|Imperial City}} storyline (1 Skill Point)
+*Completing the [[ON:Wrothgar#Quests|Reforging Orsinium]]{{ESO DLC|Orsinium}} storyline (3 Skill Points)
+*Completing the Divine Power, Morag Tong, and House Telvanni quest chains on [[ON:Vvardenfell|Vvardenfell]]{{ESO MW}} (3 Skill Points)
+*Completing the [[ON:Summerset#Story Quests|Summerset]]{{ESO SS}} storyline (3 Skill Points)
+*Completing the [[ON:Elsweyr#Story Quests|Elsweyr]]{{ESO EL}} storyline (3 Skill Points)
+*Completing the [[ON:Greymoor#Story Quests|Greymoor]]{{ESO GM}} storyline (3 Skill Points)
+*Completing the [[ON:Blackwood#Story Quests|Blackwood]]{{ESO BW}} storyline (2 Skill Points)
+*Completing the [[ON:High Isle#Story Quests|High Isle]]{{ESO HI}} storyline (3 Skill Points)
+*Completing the [[ON:Necrom#Story Quests|Necrom]]{{ESO NE}} storyline (9 Skill Points)
+*Completing the [[ON:West Weald#Story Quests|West Weald]]{{ESO GR}} storyline (5 Skill Points)
+*Completing the [[ON:Western Solstice#Story Quests|Western Solstice]] storyline (3 Skill Points)
+*Completing the [[ON:Eastern Solstice#Story Quests|Eastern Solstice]] storyline (6 Skill Points)
+*Reading the [[ON:Trophies#Folium Discognitum|Folium Discognitum]] (''Optional'' quest reward from [[ON:Mages Guild#Quests|Mages Guild]] quest chain) (2 Skill Points)
+*Completing the primary quest chain of the [[ON:Thieves Guild|Thieves Guild]]{{ESO DLC|Thieves Guild}} storyline (6 Skill Points)
+*Completing the primary quest chain of the [[ON:Dark Brotherhood|Dark Brotherhood]]{{ESO DLC|Dark Brotherhood}} storyline (8 Skill Points)
+*Completing the primary quest chain of the [[ON:Clockwork City|Clockwork City]]{{ESO DLC|Clockwork City}} storyline (8 Skill Points)
+*Completing the primary quest chain of the [[ON:Murkmire|Murkmire]]{{ESO DLC|Murkmire}} storyline (7 Skill Points)
+*Completing the primary quest chain of the [[ON:Dragonhold|Dragonhold]]{{ESO DLC|Dragonhold}} storyline (6 Skill Points)
+*Completing the primary quest chain of the [[ON:Markarth|Markarth]]{{ESO DLC|Markarth}} storyline (6 Skill Points)
+*Completing the primary quest chain of the [[ON:The Deadlands|The Deadlands]]{{ESO DLC|The Deadlands}} storyline (6 Skill Points)
+*Completing the primary quest chain of the [[ON:Galen|Galen]]{{ESO DLC|Firesong}} storyline (6 Skill Points)
+*Completing the epilogue of the [[ON:Season of the Dragon|Season of the Dragon]]{{ESO EL}}{{ESO DLC|Dragonhold}} storyline (3 Skill Points)
+*Completing the epilogue of the [[ON:Dark Heart of Skyrim|Dark Heart of Skyrim]]{{ESO GM}}{{ESO DLC|Markarth}} storyline (3 Skill Points)
+*Completing the epilogue of the [[ON:Gates of Oblivion|Gates of Oblivion]]{{ESO BW}}{{ESO DLC|The Deadlands}} storyline (3 Skill Points)
+*Completing the epilogue of the [[ON:Legacy of the Bretons|Legacy of the Bretons]]{{ESO HI}}{{ESO DLC|Firesong}} storyline (3 Skill Points)
+*Completing the epilogue of the [[ON:Secrets of Apocrypha|Secrets of Apocrypha]]{{ESO NE}}{{ESO GR}} storyline (3 Skill Points)
+*Absorbing [[ON:Skyshards|skyshards]] (113 Skill Points in the base game: 80 more including all [[ON:DLC|DLC]]s{{Crown Store}} (up to [[ON:Galen|Galen]]) and all [[ON:Chapters|Chapters]]{{ESO MW}}{{ESO SS}}{{ESO EL}}{{ESO GM}}{{ESO BW}}{{ESO HI}}{{ESO NE}}{{ESO GR}}, and Season Zones)
+*Ranking up in the [[ON:Alliance War|Alliance War]] (50 Skill Points)
+*Completing group challenges in [[ON:Public Dungeons|public dungeons]] (18 Skill Points in the base game, 18 more in expansions and Chapters - 2 each in [[ON:Orsinium|Orsinium]]{{ESO DLC|Orsinium}}, [[ON:Vvardenfell|Vvardenfell]]{{ESO MW}}, [[ON:Summerset (Chapter)|Summerset]]{{ESO SS}}, [[ON:Elsweyr|Elsweyr]]{{ESO EL}} [[ON:Greymoor|Greymoor]]{{ESO GM}}, [[ON:Blackwood|Blackwood]]{{ESO BW}}, [[ON:High Isle|High Isle]]{{ESO HI}}, [[ON:Necrom|Necrom]]{{ESO NE}}, [[ON:West Weald|West Weald]]{{ESO GR}} and [[ON:Solstice|Solstice]])
+*Completing the [[ON:Public Dungeons|public dungeon]] quests in [[ON:High Isle|High Isle]]{{ESO HI}} (2 Skill Points)
+*Completing the story quest in [[ON:Group Dungeons|group dungeons]] (24 Skill Points in the base game, one for each completed dungeon storyline quest: plus 30 more including those added by [[ON:Imperial City|Imperial City]]{{ESO DLC|Imperial City}}, [[ON:Shadows of the Hist|Shadows of the Hist]]{{ESO DLC|Shadows of the Hist}}, [[ON:Horns of the Reach|Horns of the Reach]]{{ESO DLC|Horns of the Reach}}, [[ON:Dragon Bones|Dragon Bones]]{{ESO DLC|Dragon Bones}}, [[ON:Wolfhunter|Wolfhunter]]{{ESO DLC|Wolfhunter}}, [[ON:Wrathstone|Wrathstone]]{{ESO DLC|Wrathstone}}, [[ON:Scalebreaker|Scalebreaker]]{{ESO DLC|Scalebreaker}}, [[ON:Harrowstorm|Harrowstorm]]{{ESO DLC|Harrowstorm}}, [[ON:Stonethorn|Stonethorn]]{{ESO DLC|Stonethorn}} [[ON:Flames of Ambition|Flames of Ambition]]{{ESO DLC|Flames of Ambition}}, [[ON:Waking Flame|Waking Flame]]{{ESO DLC|Waking Flame}}, [[ON:Ascending Tide|Ascending Tide]]{{ESO DLC|Ascending Tide}}, [[ON:Lost Depths|Lost Depths]]{{ESO DLC|Lost Depths}}, [[ON:Scribes of Fate|Scribes of Fate]]{{ESO DLC|Scribes of Fate}}, [[ON:Scions of Ithelia|Scions of Ithelia]]{{ESO DLC|Scions of Ithelia}}, [[ON:Fallen Banners|Fallen Banners]]{{ESO DLC|Fallen Banners}} and [[ON:Feast of Shadows|Feast of Shadows]]{{ESO DLC|Fallen Banners}})
+*Completing [[ON:Orsinium|Orsinium]]{{ESO DLC|Orsinium}} [[ON:Maelstrom Arena (place)|Maelstrom Arena]] (1 Skill Point)
+*Completing all Scribing quests (1 Skill point) 
+
+Spent skill points can be refunded at a [[ON:Shrines|Rededication Shrine]] for a fee of 50 Gold per point, or with a {{Item Link|Skill Respecification Scroll|id=64524|quality=5}}{{Crown Store}} available in the [[ON:Crown Store|Crown Store]]. Note that the cost scales up with how many skill points you have acquired (including from Skyshards), and even if you only refund a single skill point and leave the others unchanged, you still have to pay the full cost (e.g. If you have acquired 10 skill points, you will have to pay 500 gold, regardless of how many skill points you want to refund). 
+
+===Unobtainable Skill Points===
+* Two of the skill points listed above are unobtainable if you decide not to accept the [[ON:Trophies#Folium Discognitum|Folium Discognitum]] in the Mages Guild questline.
+* One additional Skill Point (not listed above) was granted to any character who completed a Chapter-specific tutorial quest between the release of ''[[ON:Morrowind|Morrowind]]'' (Update 14) and the release of Update 44, after which [[ON:Soul Shriven in Coldharbour|Soul Shriven in Coldharbour]] was restored as the tutorial quest for all new characters.
+
+==Notes==
+*As of patch 2.1.6 there were a total of 517 abilities, ultimates, morphs, and passives to spend skill points on for any given character, in the base game.  This assumes one Racial skill group, three Class skill groups (for one class), and all possible Weapon, Armor, World (including both Lycanthropy and Vampire), Guild, Alliance War, and Crafting skill groups.
+*Oddly, the Daggerfall Covenant quest line has 1 more skill point than the other two factions (16 instead of 15), due to there being 4 skill points available in Glenumbra, rather than the usual 3 per province. Not that this matters, since in the end, anyone can play through all three factions and get their skill points.
+*The [[ON:Thieves Guild|Thieves Guild]] DLC adds 11 more options to spend skill points on.
+*The [[ON:Dark Brotherhood|Dark Brotherhood]] DLC adds another 11 options.
+*The [[ON:Summerset (Chapter)|Summerset]] Chapter adds 36 more options between the [[ON:Psijic Order|Psijic Order]] and [[ON:Jewelry Crafting|Jewelry Crafting]] lines.
+*The [[On:Greymoor|Greymoor]] Chapter added 27 more options between the [[ON:Excavation|Excavation]] and [[ON:Scrying|Scrying]] skills.
+*Despite the name, [[ON:Riding Skill|Riding Skill]] is not technically considered to be a skill.
+*When you have the Skills menu open, passing players will see your character reading a book with a brown cover.
+{{Online Skills}}
+
+[[Category:Online-Skills| Skills]]

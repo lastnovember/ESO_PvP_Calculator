@@ -1,0 +1,1012 @@
+[
+  {
+    "id": 184843,
+    "slug": "xbox-one-patch-notes-v1-0-0-5",
+    "tier": "xbox"
+  },
+  {
+    "id": 200553,
+    "slug": "xbox-one-patch-notes-v1-0-0-6",
+    "tier": "xbox"
+  },
+  {
+    "id": 201984,
+    "slug": "hotfix-7-30-15-camouflage-hunter",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 204791,
+    "slug": "hotfix-8-6-15",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 206355,
+    "slug": "hotfix-8-11-15-vampire-werewolf",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 207114,
+    "slug": "hotfix-8-13-15-hallin-s-stand-mages-guild",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 216413,
+    "slug": "xbox-one-patch-notes-v1-1-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 218876,
+    "slug": "console-hotfix-9-21-15-cyrodiil-consumables-and-jewelry-item-sets",
+    "tier": "all-platform"
+  },
+  {
+    "id": 220552,
+    "slug": "hotfix-9-28-15-trap-beast",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 223864,
+    "slug": "xbox-one-patch-notes-v1-1-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 231371,
+    "slug": "xbox-one-patch-notes-v1-2-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 233691,
+    "slug": "xbox-one-patch-notes-v1-2-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 235032,
+    "slug": "console-hotfix-12-8-15-awaken-the-past",
+    "tier": "all-platform"
+  },
+  {
+    "id": 243303,
+    "slug": "xbox-one-patch-notes-v1-2-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 251643,
+    "slug": "hotfix-3-8-16-10am-est-15-00-gmt-framerate-issues-complete",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 252041,
+    "slug": "hotfix-3-9-16-crash-fix-complete",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 254892,
+    "slug": "xbox-one-patch-notes-v1-3-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 258145,
+    "slug": "xbox-one-game-hotfixes-4-5-16",
+    "tier": "xbox"
+  },
+  {
+    "id": 259927,
+    "slug": "console-hotfix-4-13-16-daughter-of-giants",
+    "tier": "all-platform"
+  },
+  {
+    "id": 260737,
+    "slug": "xbox-one-patch-notes-v1-3-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 263047,
+    "slug": "hotfix-with-downtime-4-29-16-survey-reports-complete",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 271706,
+    "slug": "xbox-one-patch-notes-v1-4-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 277274,
+    "slug": "xbox-one-patch-notes-v1-4-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 285123,
+    "slug": "xbox-one-patch-notes-v1-5-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 288277,
+    "slug": "hotfix-8-30-16-crash-with-xbox-live-friends-list-xbox-one-only",
+    "tier": "xbox"
+  },
+  {
+    "id": 291175,
+    "slug": "xbox-one-patch-notes-v1-5-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 296577,
+    "slug": "hotfix-10-11-16-grouping-issue-in-cyrodiil-complete",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 296740,
+    "slug": "hotfix-10-11-16-eu-realm-selection-complete",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 297451,
+    "slug": "hotfix-10-14-16-plunder-skull-trading",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 298095,
+    "slug": "xbox-one-patch-notes-v1-6-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 299140,
+    "slug": "hotfix-10-21-16-maw-of-lorkhaj-chests-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 305600,
+    "slug": "xbox-one-patch-notes-v1-6-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 308570,
+    "slug": "xbox-one-patch-notes-v1-6-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 308987,
+    "slug": "hotfix-12-16-16-new-life-festival-double-xp-buff-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 315886,
+    "slug": "hotfix-1-23-17-maw-of-lorkhaj-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 323483,
+    "slug": "fix-for-recent-issue-with-character-stats",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 323560,
+    "slug": "xbox-one-patch-notes-v1-7-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 325415,
+    "slug": "console-maintenance-feb-27-at-2pm-est",
+    "tier": "all-platform"
+  },
+  {
+    "id": 330527,
+    "slug": "xbox-one-patch-notes-v1-7-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 331084,
+    "slug": "hotfix-3-23-17-into-the-maw-exploit-fix",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 333105,
+    "slug": "hotfix-4-3-jesters-festival-extension",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 333519,
+    "slug": "hotfix-4-5-17-anniversary-event-items",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 336336,
+    "slug": "xbox-patch-notes-v1-7-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 346744,
+    "slug": "hotfix-5-24-mounting-in-maw-of-lorkhaj",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 350036,
+    "slug": "xbox-one-patch-notes-v1-8-0-1-morrowind-update-14",
+    "tier": "xbox"
+  },
+  {
+    "id": 354152,
+    "slug": "hotfix-some-quests-unable-to-be-completed-june-20-2017",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 358949,
+    "slug": "xbox-one-patch-notes-v1-8-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 368896,
+    "slug": "xbox-one-patch-notes-v1-9-0-0-horns-of-the-reach",
+    "tier": "xbox"
+  },
+  {
+    "id": 372158,
+    "slug": "xbox-one-patch-notes-v1-9-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 379456,
+    "slug": "xbox-one-patch-notes-v1-10-0-0-clockwork-city",
+    "tier": "xbox"
+  },
+  {
+    "id": 383249,
+    "slug": "xbox-one-patch-notes-v1-10-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 390364,
+    "slug": "xbox-one-patch-notes-v1-10-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 397991,
+    "slug": "xbox-one-patch-notes-v1-11-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 401468,
+    "slug": "xbox-one-patch-notes-v1-11-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 404235,
+    "slug": "xbox-one-patch-notes-v1-11-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 416017,
+    "slug": "hotfix-am-29-05-2018-kluftgeysire",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 417183,
+    "slug": "xbox-one-patch-notes-v1-12-0-0-summerset-update-18",
+    "tier": "xbox"
+  },
+  {
+    "id": 420551,
+    "slug": "xbox-one-patch-notes-v1-12-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 425855,
+    "slug": "xbox-one-patch-notes-v1-12-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 432761,
+    "slug": "xbox-one-patch-notes-v1-13-0-0-wolfunter-update-19",
+    "tier": "xbox"
+  },
+  {
+    "id": 435812,
+    "slug": "xbox-one-patch-notes-v1-13-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 438763,
+    "slug": "combat-pet-changes-from-update-19",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 439019,
+    "slug": "xbox-one-patch-notes-v1-13-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 442188,
+    "slug": "hotfix-for-missing-french-localization-oct-23",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 442262,
+    "slug": "hotfix-for-murkmire-rewards-rewards-for-the-worthy-oct-23",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 444457,
+    "slug": "xbox-one-patch-notes-v1-14-0-0-murkmire-update-20",
+    "tier": "xbox"
+  },
+  {
+    "id": 447271,
+    "slug": "xbox-one-patch-notes-v1-14-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 453059,
+    "slug": "xbox-one-patch-notes-v1-14-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 463159,
+    "slug": "xbox-one-patch-notes-v1-15-0-0-wrathstone-update-21",
+    "tier": "xbox"
+  },
+  {
+    "id": 466853,
+    "slug": "hotfix-for-jubilee-cake-functionality-april-4",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 467435,
+    "slug": "xbox-one-patch-notes-v1-15-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 469558,
+    "slug": "hotfix-4-18-gift-boxes-for-cyrodiil-board-quests",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 477882,
+    "slug": "xbox-one-patch-notes-v1-16-0-0-elsweyr-update-22",
+    "tier": "xbox"
+  },
+  {
+    "id": 480828,
+    "slug": "xbox-one-patch-notes-v1-16-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 485218,
+    "slug": "xbox-one-patch-notes-v1-16-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 491204,
+    "slug": "xbox-one-patch-notes-v1-17-0-0-scalebreaker-update-23",
+    "tier": "xbox"
+  },
+  {
+    "id": 495061,
+    "slug": "xbox-one-patch-notes-v1-17-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 500684,
+    "slug": "xbox-one-patch-notes-v1-18-0-0-dragonhold-update-24",
+    "tier": "xbox"
+  },
+  {
+    "id": 502195,
+    "slug": "dungeon-explorer-costume-removal",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 504017,
+    "slug": "xbox-one-patch-notes-v1-18-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 505498,
+    "slug": "xbox-one-patch-notes-v1-18-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 508082,
+    "slug": "xbox-one-patch-notes-v1-18-3-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 509608,
+    "slug": "cyrodiil-crash-hotfix-jan-23",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 511363,
+    "slug": "xbox-one-patch-notes-v1-18-4-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 515838,
+    "slug": "xbox-one-patch-notes-v1-19-1-0-harrowstorm-update-25",
+    "tier": "xbox"
+  },
+  {
+    "id": 519020,
+    "slug": "xbox-one-patch-notes-v1-19-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 532049,
+    "slug": "xbox-one-patch-notes-v1-20-0-0-greymoor-update-26",
+    "tier": "xbox"
+  },
+  {
+    "id": 533266,
+    "slug": "6-16-hotfix-dwarven-spiders-in-nchuthnkarst",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 534238,
+    "slug": "xbox-one-patch-notes-v1-20-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 537562,
+    "slug": "xbox-one-patch-notes-v1-20-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 538831,
+    "slug": "july-24-hotfix-summerset-celebration",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 543930,
+    "slug": "xbox-one-patch-notes-v1-21-0-0-stonethorn-update-27",
+    "tier": "xbox"
+  },
+  {
+    "id": 545702,
+    "slug": "xbox-one-patch-notes-v1-21-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 546498,
+    "slug": "hotfix-on-all-realms-stuck-effects",
+    "tier": "all-platform"
+  },
+  {
+    "id": 547632,
+    "slug": "xbox-one-patch-notes-v1-21-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 552187,
+    "slug": "xbox-one-patch-notes-v1-22-0-0-markarth-update-28",
+    "tier": "xbox"
+  },
+  {
+    "id": 553806,
+    "slug": "xbox-one-patch-notes-v1-22-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 555064,
+    "slug": "xbox-one-patch-notes-v1-22-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 559277,
+    "slug": "xbox-one-patch-notes-v1-22-3-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 565748,
+    "slug": "xbox-one-patch-notes-v1-23-0-0-flames-of-ambition-dlc-update-29",
+    "tier": "xbox"
+  },
+  {
+    "id": 568495,
+    "slug": "xbox-one-patch-notes-v1-23-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 570826,
+    "slug": "xbox-one-patch-notes-v1-23-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 576619,
+    "slug": "xbox-patch-notes-v1-24-2-0-blackwood-update-30",
+    "tier": "xbox"
+  },
+  {
+    "id": 578635,
+    "slug": "xbox-patch-notes-v1-24-3-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 580375,
+    "slug": "xbox-patch-notes-v1-24-4-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 582378,
+    "slug": "xbox-patch-notes-v1-24-5-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 583851,
+    "slug": "exploit-hotfix-on-all-realms-august-17",
+    "tier": "all-platform"
+  },
+  {
+    "id": 585895,
+    "slug": "xbox-patch-notes-v1-25-0-0-waking-flame-update-31",
+    "tier": "xbox"
+  },
+  {
+    "id": 587186,
+    "slug": "xbox-patch-notes-v1-25-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 588333,
+    "slug": "xbox-patch-notes-v1-25-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 591420,
+    "slug": "xbox-patch-notes-v1-26-0-0-deadlands-update-32",
+    "tier": "xbox"
+  },
+  {
+    "id": 591659,
+    "slug": "hotfix-all-realms-11-18-2021",
+    "tier": "all-platform"
+  },
+  {
+    "id": 592526,
+    "slug": "xbox-patch-notes-v1-26-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 593648,
+    "slug": "xbox-patch-notes-v1-26-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 594128,
+    "slug": "xbox-patch-notes-v1-26-3-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 597203,
+    "slug": "xbox-patch-notes-v1-26-4-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 601151,
+    "slug": "update-33-console-known-issues",
+    "tier": "all-platform"
+  },
+  {
+    "id": 601172,
+    "slug": "xbox-patch-notes-v1-27-0-0-ascending-tide-update-33",
+    "tier": "xbox"
+  },
+  {
+    "id": 602459,
+    "slug": "xbox-patch-notes-v1-27-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 603936,
+    "slug": "xbox-patch-notes-v1-27-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 608715,
+    "slug": "xbox-patch-notes-v1-28-0-0-high-isle-update-34",
+    "tier": "xbox"
+  },
+  {
+    "id": 610386,
+    "slug": "xbox-patch-notes-v1-28-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 612328,
+    "slug": "xbox-patch-notes-v1-28-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 612881,
+    "slug": "hotfix-all-realms-7-25-2022",
+    "tier": "all-platform"
+  },
+  {
+    "id": 616862,
+    "slug": "xbox-patch-notes-v1-29-0-0-lost-depths-update-35",
+    "tier": "xbox"
+  },
+  {
+    "id": 618099,
+    "slug": "xbox-patch-notes-v1-29-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 619204,
+    "slug": "xbox-patch-notes-v1-29-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 621882,
+    "slug": "xbox-patch-notes-v1-30-0-0-firesong-dlc-update-36",
+    "tier": "xbox"
+  },
+  {
+    "id": 621925,
+    "slug": "update-36-console-launch-fixed-known-issues",
+    "tier": "all-platform"
+  },
+  {
+    "id": 623388,
+    "slug": "xbox-patch-notes-v1-30-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 623547,
+    "slug": "voice-chat-accessibility-turned-off-on-console-servers-december-8",
+    "tier": "all-platform"
+  },
+  {
+    "id": 624240,
+    "slug": "xbox-patch-notes-v1-30-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 627268,
+    "slug": "xbox-patch-notes-v1-30-3-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 630112,
+    "slug": "hotfix-for-xbox-and-playstation-consoles-3-27-2023",
+    "tier": "xbox"
+  },
+  {
+    "id": 630149,
+    "slug": "xbox-patch-notes-v1-31-0-0-scribes-of-fate-dlc-update-37",
+    "tier": "xbox"
+  },
+  {
+    "id": 631147,
+    "slug": "xbox-patch-notes-v1-31-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 632384,
+    "slug": "xbox-patch-notes-v1-31-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 636411,
+    "slug": "xbox-patch-notes-v1-32-0-0-necrom-update-38",
+    "tier": "xbox"
+  },
+  {
+    "id": 638251,
+    "slug": "xbox-patch-notes-v1-32-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 639439,
+    "slug": "xbox-patch-notes-v1-32-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 641974,
+    "slug": "resolving-invisible-enemies-in-various-zones",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 641998,
+    "slug": "turning-off-suppressing-companions-in-favor-of-assistants-august-29-2023",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 642202,
+    "slug": "xbox-patch-notes-v1-33-0-0-update-39",
+    "tier": "xbox"
+  },
+  {
+    "id": 643443,
+    "slug": "xbox-patch-notes-v1-33-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 644259,
+    "slug": "xbox-patch-notes-v1-33-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 646924,
+    "slug": "xbox-patch-notes-v1-34-0-0-update-40",
+    "tier": "xbox"
+  },
+  {
+    "id": 648355,
+    "slug": "xbox-patch-notes-v1-34-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 649070,
+    "slug": "xbox-patch-notes-v1-34-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 650485,
+    "slug": "xbox-patch-notes-v1-34-3-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 655165,
+    "slug": "xbox-patch-notes-v1-35-0-0-scions-of-ithelia-dlc-update-41",
+    "tier": "xbox"
+  },
+  {
+    "id": 655718,
+    "slug": "xbox-playstation-hotfix-resolve-issue-to-access-to-eso-the-free-play-event",
+    "tier": "xbox"
+  },
+  {
+    "id": 655786,
+    "slug": "anniversary-jubilee-cake-slice-hotfix-april-4-2024",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 656131,
+    "slug": "xbox-patch-notes-v1-35-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 657424,
+    "slug": "xbox-patch-notes-v1-35-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 660331,
+    "slug": "fix-for-issue-with-crown-pack-purchases-on-steam-june-12-2024",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 660581,
+    "slug": "fix-for-zoning-disconnects-and-334-errors-june-15-2024",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 660749,
+    "slug": "xbox-patch-notes-v1-36-0-0-gold-road-update-42",
+    "tier": "xbox"
+  },
+  {
+    "id": 662255,
+    "slug": "xbox-patch-notes-v1-36-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 662942,
+    "slug": "xbox-patch-notes-v1-36-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 665037,
+    "slug": "xbox-patch-notes-v1-37-0-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 665917,
+    "slug": "xbox-patch-notes-v1-37-1-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 666435,
+    "slug": "fix-for-molag-bal-illusion-imp-fragments-all-servers-sept-26-2024",
+    "tier": "all-platform"
+  },
+  {
+    "id": 666739,
+    "slug": "xbox-patch-notes-v1-37-2-0",
+    "tier": "xbox"
+  },
+  {
+    "id": 668104,
+    "slug": "hotfix-for-nov-1-2024-fixing-some-battlegrounds-bugs-region-crash-issues-cryodiil-repair-kits",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 668827,
+    "slug": "xbox-patch-notes-v1-38-0-0-update-44",
+    "tier": "xbox"
+  },
+  {
+    "id": 669647,
+    "slug": "xbox-patch-notes-v1-38-1-0-update-44-incremental-patch-1",
+    "tier": "xbox"
+  },
+  {
+    "id": 670670,
+    "slug": "xbox-patch-notes-v1-38-2-0-update-44-incremental-patch-2",
+    "tier": "xbox"
+  },
+  {
+    "id": 673601,
+    "slug": "xbox-patch-notes-v1-38-3-0-update-44-incremental-patch-3",
+    "tier": "xbox"
+  },
+  {
+    "id": 675145,
+    "slug": "xbox-patch-notes-v1-39-0-0-fallen-banners-dlc-update-45",
+    "tier": "xbox"
+  },
+  {
+    "id": 675235,
+    "slug": "hotfix-for-roksa-the-warped-arms-pack-mask-and-shoulder-styles-all-megaservers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 675528,
+    "slug": "xbox-patch-notes-v1-39-1-0-update-45-incremental-patch-1",
+    "tier": "xbox"
+  },
+  {
+    "id": 675750,
+    "slug": "hotfix-for-empty-bags-of-jubilee-yesteryear-and-reward-box-adjustments-all-megaservers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 676067,
+    "slug": "hotfix-for-the-update-46-prologue-quest-and-reaper-strikes-april-11-2025-all-megaservers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 676391,
+    "slug": "hotfix-for-resolving-infinite-archive-region-crashes-all-megaservers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 676903,
+    "slug": "xbox-patch-notes-v1-39-2-0-update-45-incremental-patch-2",
+    "tier": "xbox"
+  },
+  {
+    "id": 679227,
+    "slug": "xbox-patch-notes-v1-40-0-0-update-46",
+    "tier": "xbox"
+  },
+  {
+    "id": 680312,
+    "slug": "xbox-patch-notes-v1-40-1-0-update-46-inc-1",
+    "tier": "xbox"
+  },
+  {
+    "id": 681038,
+    "slug": "xbox-patch-notes-v1-40-2-0-update-46-inc-2",
+    "tier": "xbox"
+  },
+  {
+    "id": 682702,
+    "slug": "xbox-patch-notes-v1-41-0-0-update-47",
+    "tier": "xbox"
+  },
+  {
+    "id": 683168,
+    "slug": "xbox-patch-notes-v1-41-1-0-update-47-console-incremental-1",
+    "tier": "xbox"
+  },
+  {
+    "id": 683635,
+    "slug": "xbox-patch-notes-v1-41-2-0-update-47-console-incremental-2",
+    "tier": "xbox"
+  },
+  {
+    "id": 684144,
+    "slug": "writhing-wall-event-hotfixes",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 685144,
+    "slug": "xbox-patch-notes-v1-42-0-0-update-48-seasons-of-the-worm-cult-part-2",
+    "tier": "xbox"
+  },
+  {
+    "id": 685254,
+    "slug": "writhing-fortress-hotfix-november-14",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 686063,
+    "slug": "xbox-patch-notes-v1-42-1-0-update-48-incremental-1",
+    "tier": "xbox"
+  },
+  {
+    "id": 687920,
+    "slug": "xbox-patch-notes-v1-42-2-0-update-48-incremental-2",
+    "tier": "xbox"
+  },
+  {
+    "id": 689473,
+    "slug": "update-49-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 690278,
+    "slug": "update-49-inc-1-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 690532,
+    "slug": "hotfix-for-weekly-challenges-april-3",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 691497,
+    "slug": "update-49-inc-2-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 692111,
+    "slug": "night-market-hotfix-april-30-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 692113,
+    "slug": "night-market-hotfix-relic-splinters",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 692410,
+    "slug": "night-market-hotfixes-may-4-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 693682,
+    "slug": "update-50-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 693814,
+    "slug": "hotfixes-for-june-9-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 693945,
+    "slug": "hotfixes-on-all-platforms-june-12-4am-edt-9am-bst",
+    "tier": "all-platform"
+  },
+  {
+    "id": 693978,
+    "slug": "all-platform-hotfix-june-12-fixing-quen",
+    "tier": "all-platform"
+  },
+  {
+    "id": 695021,
+    "slug": "hotfix-june-26-console-servers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 695308,
+    "slug": "update-50-inc-1-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 696428,
+    "slug": "update-50-inc-2-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 697520,
+    "slug": "update-50-inc-3-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 697546,
+    "slug": "disabling-proc-sets-in-vengeance-starting-at-1-00pm-et-17-00-utc",
+    "tier": "unlabeled"
+  }
+]

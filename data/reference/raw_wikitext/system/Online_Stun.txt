@@ -1,0 +1,105 @@
+{{Trail|Combat}}
+{{About|the effect in combat|the Alchemy effect formerly known as Stun|Entrapment|Scribing script|Stun (script)}}
+[[File:ON-icon-misc-Stun.png|right]]
+'''Stun''' is a debilitating effect that prevents a target from attacking, defending, or moving for a short time.  The simplest way to Stun an enemy is to interrupt them while casting a spell, most easily with a [[Online:Interrupt|Bash]] attack.  You can escape from a Stun using a [[Online:Break Free|Break Free]] action.  Certain tougher enemies are immune to Stun effects.
+
+==Skills==
+{|class=wikitable
+!colspan=2|Skill!!Duration!!Affects!!Cost!!Notes
+|-
+!colspan=6|[[ON:Dragonknight|Dragonknight]]
+|-
+|colspan=2|[[ON:Flame Lash|Flame Lash]] ([[ON:Ardent Flame|Ardent Flame]])||2 sec.||Single Enemy||{{ESO Magicka Link|2700}}||Only if target is [[ON:Off Balance|Off Balance]]d
+|-
+|colspan=2|[[ON:Deep Breath|Deep Breath]] ([[ON:Draconic Power|Draconic Power]])||2 sec.||Nearby Enemies||{{ESO Magicka Link|4320}}||Only if interrupting spellcaster
+|-
+|colspan=2|[[ON:Stonefist|Stonefist]] ([[ON:Earthen Heart|Earthen Heart]])||rowspan=2|3 sec.||rowspan=2|Single Enemy||{{ESO Magicka Link|4050}}||rowspan=2|
+|-
+|width=20| ||[[ON:Stone Giant|Stone Giant]] (morph)||{{ESO Magicka Link|3240}}
+|-
+!colspan=6|[[ON:Nightblade|Nightblade]]
+|-
+|colspan=2|[[ON:Incapacitating Strike|Incapacitating Strike]] ([[ON:Assassination|Assassination]])||3-4.5 sec.||Single Enemy||{{ESO Ultimate Link|50}}||
+|-
+|colspan=2|[[ON:Teleport Strike|Teleport Strike]] ([[ON:Assassination|Assassination]])||2 sec.||Single Enemy||{{ESO Magicka Link|4050}}||
+|-
+|colspan=2|[[ON:Veiled Strike|Veiled Strike]] ([[ON:Shadow|Shadow]])||4 sec.||Single Enemy||{{ESO Magicka Link|2700}}||Only if attacking from stealth
+|-
+|colspan=2|[[ON:Soul Shred|Soul Shred]] ([[ON:Siphoning|Siphoning]])||3-3.5 sec.||rowspan=2|Single Enemy||rowspan=2|{{ESO Ultimate Link|150}}||rowspan=2|
+|-
+| ||[[ON:Soul Tether|Soul Tether]] (morph)||4.5 sec.
+|-
+!colspan=6|[[ON:Sorcerer|Sorcerer]]
+|-
+|colspan=2|[[ON:Summon Storm Atronach|Summon Storm Atronach]] ([[ON:Daedric Summoning|Daedric Summoning]])||3 sec.||Enemies in Range||{{ESO Ultimate Link|200}}||
+|-
+|colspan=2|{{nowrap|[[ON:Summon Volatile Familiar|Summon Volatile Familiar]] ([[ON:Daedric Summoning|Daedric Summoning]])}}||3 sec.||Enemies near Familiar||{{ESO Magicka Link|3603}}||
+|-
+|colspan=2|[[ON:Negate Magic|Negate Magic]] ([[ON:Dark Magic|Dark Magic]])||8.5-10 sec.||Enemies in Range||{{ESO Ultimate Link|225}}||
+|-
+|colspan=2|[[ON:Bolt Escape|Bolt Escape]] ([[ON:Storm Calling|Storm Calling]])||1.5-2 sec.||Enemies Around Origin||rowspan=2|{{ESO Magicka Link|3780}}||rowspan=2|
+|-
+| ||[[ON:Streak|Streak]] (morph)||1.5 sec.||Enemies Along Path
+|-
+!colspan=6|[[ON:Templar|Templar]]
+|-
+|colspan=2|[[ON:Piercing Javelin|Piercing Javelin]] ([[ON:Aedric Spear|Aedric Spear]])||rowspan=2|1.8 sec.||rowspan=3|Single Enemy||rowspan=2|{{ESO Magicka Link|4050}}||
+|-
+| ||[[ON:Aurora Javelin|Aurora Javelin]] (morph)||
+|-
+| ||[[ON:Piercing Javelin|Piercing Javelin]] (morph)||3.1-3.5 sec.||{{ESO Stamina Link|3442}}||
+|-
+|colspan=2|[[ON:Focused Charge|Focused Charge]] ([[ON:Aedric Spear|Aedric Spear]])||rowspan=2|3 sec.||Single Enemy||rowspan=3|{{ESO Magicka Link|3510}}||rowspan=2|Only if interrupting spellcaster
+|-
+| ||[[ON:Explosive Charge|Explosive Charge]] (morph)||Nearby Enemies
+|-
+| ||[[ON:Toppling Charge|Toppling Charge]] (morph)||1.5-2.4 sec.||Single Enemy||Works even if not interrupting
+|-
+|colspan=2|[[ON:Nova|Nova]] ([[ON:Dawn's Wrath|Dawn's Wrath]])||2.5 sec.||rowspan=2|Enemies in Range||rowspan=2|{{ESO Ultimate Link|250}}||Only via {{ESO Synergy Link|Supernova}} Synergy
+|-
+| ||[[ON:Solar Prison|Solar Prison]] (morph)||5 sec.||Only via {{ESO Synergy Link|Gravity Crush|Supernova}} Synergy
+|-
+!colspan=6|Weapon
+|-
+|colspan=2|[[ON:Venom Arrow|Venom Arrow]] ([[ON:Bow|Bow]])||3 sec.||Single Target||{{ESO Stamina Link|2430}}||Only if interrupting spellcaster
+|-
+|colspan=2|[[ON:Scatter Shot|Scatter Shot]] ([[ON:Bow|Bow]])||1.5 sec.||Single Target||{{ESO Stamina Link|2970}}||
+|-
+|colspan=2|[[ON:Crushing Shock|Crushing Shock]] ([[ON:Destruction Staff|Destruction Staff]])||3 sec.||Single Target||{{ESO Magicka Link|2700}}||Only if interrupting spellcaster
+|-
+|colspan=2|[[ON:Destructive Touch|Shock Touch]] ([[ON:Destruction Staff|Destruction Staff]])||{{huh}}||Single Enemy||{{ESO Magicka Link|4050}}||
+|-
+|colspan=2|[[ON:Defensive Stance|Defensive Stance]] ([[ON:One Hand and Shield|One Hand and Shield]])||3-4 sec.||Single Enemy||{{ESO Stamina Link|2430}}||Only if it reflects a spell
+|-
+|colspan=2|[[ON:Power Bash|Power Bash]] ([[ON:One Hand and Shield|One Hand and Shield]])||3 sec.||Single Enemy||{{ESO Stamina Link|3780-3510}}||
+|-
+|colspan=2|[[ON:Shield Charge|Shield Charge]] ([[ON:One Hand and Shield|One Hand and Shield]])||2 sec.||rowspan=2|Single Enemy||rowspan=2|{{ESO Stamina Link|3780}}||
+|-
+| ||[[ON:Invasion|Invasion]] (morph)||2-3 sec.||Stuns longer based on distance
+|-
+|colspan=2|[[ON:Dizzying Swing|Dizzying Swing]] ([[ON:Two Handed|Two Handed]])||3.5 sec.||Single Enemy||{{ESO Stamina Link|3240}}||
+|-
+!colspan=6|Other
+|-
+|colspan=2|[[ON:Volcanic Rune|Volcanic Rune]] ([[ON:Mages Guild|Mages Guild]])||3-4 sec.||Enemies in Range||{{ESO Magicka Link|}}||
+|-
+|colspan=2|[[ON:Mesmerize|Mesmerize]] ([[ON:Vampire|Vampire]])||5 sec.||Enemies in front of you||{{ESO Magicka Link|3780}}||
+|-
+|colspan=2|[[ON:Pounce|Pounce]] ([[ON:Werewolf|Werewolf]])||2 sec.||Nearby Enemies||{{ESO Stamina Link|4050}}||Only if target is [[ON:Off Balance|Off Balance]]d
+|}
+
+==Sets==
+{|class=wikitable
+!Set!!Duration!!Affects!!Triggered by!!Cooldown!!Notes
+|-
+|[[ON:Death's Wind|Death's Wind]]||4 sec.||Nearby Enemies||Hit by melee attack||30 sec.||Only if below {{ESO Health Link|35%}}
+|-
+|[[ON:Defiler|Defiler]]||5 sec.||All enemies in front||Dealing Critical Damage||5 sec.||Enemies hit by poison attack
+|-
+|[[ON:Mad Tinkerer|Mad Tinkerer]]||2 sec.||Enemies in path of fabricant||Dealing Damage||8 sec.||Aims at nearest enemy
+|-
+|[[ON:Sellistrix|Sellistrix]]||3 sec.||Nearby Enemies||Dealing Damage||5 sec.||10% chance per attack
+|}
+
+==Other==
+*Poisons of [[ON:Stun|Stun]] will stun enemies for 2.2-10 sec.  (Potions with the effect will stun you instead.)

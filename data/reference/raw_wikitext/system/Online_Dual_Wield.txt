@@ -1,0 +1,79 @@
+{{Trail2|Skill Lines|Weapon|link2=Weapons}}
+{{/Progression}}
+[[File:ON-icon-skill-Dual Wield.png|frameless|left]]
+'''Dual Wield''' is one of the six [[Online:Skills#Weapon|weapon skills]] available in Elder Scrolls Online. You can advance through this skill line by equipping two One-Handed weapons.
+{{NewLeft}}
+== Learning ==
+The Dual Wield skill line is granted the first time you kill an enemy with two weapons equipped.  You can increase your skill by engaging in combat with two weapons equipped, or by having Dual Wield skills slotted.  The more skills you have slotted, the faster your skill will increase.  [[ON:Dark Elf|Dark Elves]] are naturally gifted at Dual Wielding, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Dual Wield are:
+
+*[[ON:Crush, Slash, Bash, and Stab|Crush, Slash, Bash, and Stab]]
+*[[ON:Exiled from Exile, Volume 7|Exiled from Exile, Volume 7]]
+*[[ON:Glinting Talons|Glinting Talons]]
+*[[ON:Mazubar-do's Advice|Mazubar-do's Advice]]
+*[[ON:Quotes from the Greats|Quotes from the Greats]]
+
+
+==Skill Perks==
+Dual Wield has an associated skill line that is revealed through use of a One-Handed weapon in each hand. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Lacerate}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, while two one-handed weapons are equipped, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Flurry}}
+{{Online Skill Link|Twin Slashes}}
+{{Online Skill Link|Whirlwind}}
+{{Online Skill Link|Blade Cloak}}
+{{Online Skill Link|Hidden Blade}}
+|}
+
+===Weapon Sets===
+These sets add effects to abilities. 
+{|class=wikitable
+!colspan=2|Ability Name!!width=1|Weapon set name!! Description
+|-
+|rowspan=2|{{ESO Active Icon|sk|Dual Wield-Flurry|64}}||rowspan=2|[[Online:Flurry|Flurry]]||[[ON:Cruel Flurry|Cruel Flurry]]||{{ON:Cruel Flurry}}
+|-
+|[[ON:Perfected Cruel Flurry|Perfected Cruel Flurry]]||{{ON:Perfected Cruel Flurry}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Dual Wield-Twin Slashes|64}}||rowspan=2|[[ON:Twin Slashes|Twin Slashes]]||[[ON:Stinging Slashes|Stinging Slashes]]||{{ON:Stinging Slashes}}
+|-
+|[[ON:Perfected Stinging Slashes|Perfected Stinging Slashes]]||{{ON:Perfected Stinging Slashes}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Dual Wield-Whirlwind|64}}||rowspan=2|[[ON:Whirlwind|Whirlwind]]||[[ON:Chaotic Whirlwind|Chaotic Whirlwind]]||{{ON:Chaotic Whirlwind}}
+|-
+|[[ON:Perfected Chaotic Whirlwind|Perfected Chaotic Whirlwind]]||{{ON:Perfected Chaotic Whirlwind}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Dual Wield-Blade Cloak|64}}||rowspan=2|[[ON:Blade Cloak|Blade Cloak]]||[[ON:Spectral Cloak|Spectral Cloak]]||{{ON:Spectral Cloak}}
+|-
+|[[ON:Perfected Spectral Cloak|Perfected Spectral Cloak]]||{{ON:Perfected Spectral Cloak}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Dual Wield-Hidden Blade|64}}||rowspan=2|[[ON:Hidden Blade|Hidden Blade]]||[[ON:Executioner's Blade|Executioner's Blade]]||{{ON:Executioner's Blade}}
+|-
+|[[ON:Perfected Executioner's Blade|Perfected Executioner's Blade]]||{{ON:Perfected Executioner's Blade}}
+|}
+===Other Sets===
+* Wearing five pieces of the [[ON:Sword Dancer|Sword Dancer]] set from the [[ON:Blessed Crucible|Blessed Crucible]] group dungeon increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} of your Dual Wield abilities.
+* Wearing five pieces of the [[ON:Red Eagle's Fury|Red Eagle's Fury]] set from the [[ON:Red Eagle Redoubt|Red Eagle Redoubt]] crafting site increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} damage of all your weapon abilities, Dual Wield included, but it also increases their cost.
+* Wearing five pieces of the [[ON:Daring Corsair|Daring Corsair]] set from the [[ON:Cat's-Claw Station|Cat's-Claw Station]] crafting site decreases the {{ESO Stamina Link}} and {{ESO Magicka Link}} costs of all your weapon abilities by 10%, and grants you [[ON:Minor Heroism|Minor Heroism]] for 8 seconds after you use a weapon skill.
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as two one-handed weapons are equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!! Description
+{{Online Skill Link|Slaughter}}
+{{Online Skill Link|Dual Wield Expert}}
+{{Online Skill Link|Controlled Fury}}
+{{Online Skill Link|Ruffian}}
+{{Online Skill Link|Twin Blade and Blunt}}
+|}
+
+{{Online Skills}}

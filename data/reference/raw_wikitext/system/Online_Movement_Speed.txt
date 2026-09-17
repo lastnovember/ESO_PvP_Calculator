@@ -1,0 +1,206 @@
+{{Trail|Combat}}
+'''Movement Speed''' is the speed at which you move when walking, running, sprinting, riding, or swimming.  Activities such as sneaking or blocking will naturally reduce your speed.  There are many effects which will increase your movement speed or decrease the speed of your enemies.  Most notable are effects which provide the [[ON:Major Expedition|Major Expedition]] or [[ON:Minor Expedition|Minor Expedition]].  The effect that increases speed while mounted is called [[ON:Major Gallop|Gallop]]. Note that multiple effects which provide the same buff will ''not'' stack, though you can stack a Major effect with a Minor one, and any speed boosts that are not providing Major or Minor Expedition will stack with both of these.
+{|class="wikitable"
+!Movement Type!!Default!!Maximum
+|-
+|'''Walking'''||100%||200%
+|-
+|'''Running'''||140%||200%
+|-
+|'''Swimming'''||60%||120%
+|}
+{{TOClimit|2}}
+
+==Increase Movement Speed==
+[[File:ON-icon-misc-Major Expedition.png|right]]
+===Skills===
+{|class=wikitable
+!colspan=2|Skill!!Increase!!Duration!!Affects!!Cost/Trigger!!Notes
+|-
+!colspan=7|[[ON:Dragonknight|Dragonknight]]
+|-
+|colspan=2|[[ON:Wing Buffet|Wing Buffet]] ([[ON:Draconic Power|Draconic Power]])||30%||4 sec.||Self Only||{{ESO Magicka Link|4590-4320}}||[[ON:Major Expedition|Major Expedition]]
+|-
+!colspan=7|[[ON:Nightblade|Nightblade]]
+|-
+|colspan=2|[[ON:Consuming Darkness (skill)|Consuming Darkness]] ([[ON:Shadow|Shadow]])||70%||4 sec.||Ally (Synergy)||{{ESO Ultimate Link|200}}||Also restores {{ESO Health Link|}}
+|-
+|colspan=2|[[ON:Path of Darkness|Path of Darkness]] ([[ON:Shadow|Shadow]])||30%||2 sec.||Self and Allies||{{ESO Magicka Link|3510}}||[[ON:Major Expedition|Major Expedition]]
+|-
+|colspan=2|[[ON:Concealed Weapon|Concealed Weapon]] ([[ON:Assassination|Assassination]])||15%||Constant||Self Only||Constant||[[ON:Minor Expedition|Minor Expedition]] while Slotted
+|-
+!colspan=7|[[ON:Templar|Templar]]
+|-
+|colspan=2|[[ON:Hasty Prayer|Hasty Prayer]] ([[ON:Restoring Light|Restoring Light]])||15%||5 sec.||Self and Allies||{{ESO Magicka Link|4995}}||[[ON:Minor Expedition|Minor Expedition]], also restores {{ESO Health Link|}}
+|-
+!colspan=7|[[ON:Sorcerer|Sorcerer]]
+|-
+|colspan=6|[[ON:Lightning Form|Lightning Form]] ([[ON:Storm Calling|Storm Calling]])||No increase without morphs
+|-
+|width=20 rowspan=2| ||[[ON:Hurricane|Hurricane]] (morph)||15%||15 sec||rowspan=2|Self Only||{{ESO Stamina Link|3240}}||[[ON:Minor Expedition|Minor Expedition]]
+|-
+|[[ON:Boundless Storm|Boundless Storm]] (morph)||30%||6-7.5 sec.||{{ESO Magicka Link|4050}}||[[ON:Major Expedition|Major Expedition]]
+|-
+!colspan=7|[[ON:Warden|Warden]]
+|-
+|colspan=2|[[ON:Falcon's Swiftness|Falcon's Swiftness]] ([[ON:Animal Companions|Animal Companions]])||30%||6 sec.||rowspan=3|Self Only||{{ESO Magicka Link|3240}}||[[ON:Major Expedition|Major Expedition]]
+|-
+|width=20 rowspan=2| ||[[ON:Deceptive Predator|Deceptive Predator]] (morph)||30%||6 sec.||{{ESO Magicka Link|2700}}||[[ON:Major Expedition|Major Expedition]] + [[ON:Minor Evasion|Minor Evasion]]
+|-
+|[[ON:Bird of Prey|Bird of Prey]] (morph)||30%||6 sec.||{{ESO Magicka Link|2700}}||[[ON:Major Expedition|Major Expedition]] + [[ON:Minor Berserk|Minor Berserk]]
+|-
+!colspan=7|[[ON:Races|Racial]] / World
+|-
+|colspan=2|[[ON:Hunter's Eye|Hunter's Eye]] ([[ON:Wood Elf|Wood Elf]])||1-5%||Constant||Self Only||||
+|-
+|colspan=2|[[ON:Amphibian|Amphibian]] ([[ON:Argonian|Argonian]])||50%||Constant||Self Only||Swimming||Innate ability
+|-
+|colspan=2|[[ON:Swift Warrior|Swift Warrior]] ([[ON:Orc|Orc]])||3-10%||Constant||Self Only||Sprinting||
+|-
+|colspan=2|[[ON:Dark Stalker|Dark Stalker]] ([[ON:Vampire|Vampire]])||*||Constant||Self Only||Sneaking||Allows sneaking at normal run speed.
+|-
+|colspan=2|[[ON:Elusive Mist|Elusive Mist]] ([[ON:Vampire|Vampire]])||30%||4 sec.||Self Only||{{ESO Magicka Link|5940-5671}}||[[ON:Major Expedition|Major Expedition]]
+|-
+|colspan=2|[[ON:Unnatural Movement|Unnatural Movement]] ([[ON:Vampire|Vampire]])||*||Constant||Self Only||Sprinting||Reduces the cost of Sprint by 25/50%. If you continuously Sprint for 6/3 seconds you automatically become invisible.
+|-
+|colspan=2|[[ON:Werewolf Transformation|Werewolf Transformation]] ([[ON:Werewolf|Werewolf]])||30% / 80%||Constant||Self Only||{{ESO Ultimate Link|400-300}}||Increases running and sprint speed
+|-
+!colspan=7|Equipment
+|-
+|colspan=2|[[ON:Athletics|Athletics]] ([[ON:Medium Armor|Medium Armor]])||2-3% / slot||Constant||Self Only||Sprinting||
+|-
+|colspan=2|{{nowrap|[[ON:Battlefield Mobility|Battlefield Mobility]] ([[ON:One Hand and Shield|One Hand and Shield]])}}||*||Constant||Self Only||Blocking||Reduces the blocking speed penalty to 48/36%
+|-
+|colspan=2|[[ON:Quick Cloak|Quick Cloak]] ([[ON:Dual Wield|Dual Wield]])||30%||4 sec.||Self Only||{{ESO Stamina Link|3780}}||[[ON:Major Expedition|Major Expedition]]
+|-
+|colspan=2|[[ON:Hasty Retreat|Hasty Retreat]] ([[ON:Bow|Bow]])||30%||2-4 sec.||Self Only||Roll Dodging||[[ON:Major Expedition|Major Expedition]]
+|-
+!colspan=7|Other
+|-
+|colspan=2|[[ON:Accelerate|Accelerate]] ([[ON:Psijic Order|Psijic Order]])||30%||4 sec||rowspan=3|Self Only||{{ESO Magicka Link|3780-3510}}||[[ON:Major Expedition|Major Expedition]]
+|-
+|width=20 rowspan=2| ||[[ON:Race Against Time|Race Against Time]] (morph)||30%||4 sec||{{ESO Magicka Link|3780-3510}}||[[ON:Major Expedition|Major Expedition]]
+|-
+|[[ON:Channeled Acceleration|Channeled Acceleration]] (morph)||30%||12 sec.||{{ESO Magicka Link|3510-3240}}||[[ON:Major Expedition|Major Expedition]]
+|-
+|colspan=2|[[ON:Padomaic Sprint|Padomaic Sprint]] ([[ON:Dark Brotherhood|Dark Brotherhood]])||30%||6-12 sec.||Self Only||Killing with Blade of Woe||[[ON:Major Expedition|Major Expedition]]
+|-
+|colspan=2|[[ON:Rapid Maneuver|Rapid Maneuver]] ([[ON:Assault|Assault]])||30%||8 sec.||rowspan=3|Self and Group||rowspan=2|{{ESO Stamina Link|6426}}||rowspan=2|[[ON:Major Expedition|Major Expedition]]
+|-
+|width=20 rowspan=2| ||[[ON:Retreating Maneuver|Retreating Maneuver]] (morph)||30%||8 sec.
+|-
+|[[ON:Charging Maneuver|Charging Maneuver]] (morph)||30%+15%||8 sec.||{{ESO Stamina Link|6426-6156}}||[[ON:Minor Expedition|Minor Expedition]] + [[ON:Major Expedition|Major Expedition]]
+|}
+
+===Sets===
+{ ** denotes a unique buff }
+{|class=wikitable
+!Set!!Increase!!Duration!!Trigger!!Notes
+|-
+|[[ON:Adept Rider|Adept Rider]]||30%||Constant||Constant||[[ON:Major Expedition|Major Expedition]], [[ON:Major Gallop|Gallop]]
+|-
+|[[ON:Coward's Gear|Coward's Gear]]||30%||Constant||Sprinting||[[ON:Major Expedition|Major Expedition]], makes user "immune"<br>to other Major Expedition sources
+|-
+|[[ON:Dreugh King Slayer|Dreugh King Slayer]]||30%||8 sec.||Killing an Enemy||[[ON:Major Expedition|Major Expedition]]
+|-
+|[[ON:False God's Devotion|False God's Devotion]]||30%||8 sec.||Recently damaged enemy dies||[[ON:Major Expedition|Major Expedition]]
+|-
+|[[ON:Fiord's Legacy|Fiord's Legacy]]||15%||Constant||Sprinting||** Does not work while mounted
+|-
+|[[ON:Gryphon's Ferocity|Gryphon's Ferocity]]||15%||10 sec.||Dealing direct damage||[[ON:Minor Expedition|Minor Expedition]]
+|-
+|[[ON:Jailbreaker|Jailbreaker]]||15%||Constant||Constant||[[ON:Minor Expedition|Minor Expedition]]
+|-
+|[[ON:Marauder's Haste|Marauder's Haste]]||20%||9 sec.||Casting a damage shield ability||** Stacks with other buffs.
+|-
+|-
+|[[ON:Perfected False God's Devotion|Perfected False God's Devotion]]||30%||8 sec.||Recently damaged Enemy dies||[[ON:Major Expedition|Major Expedition]]
+|-
+|[[ON:Quick Serpent|Quick Serpent]]||30%||8 sec.||Recently damaged Enemy dies||[[ON:Major Expedition|Major Expedition]]
+|-
+|[[ON:Ring of the Wild Hunt|Ring of the Wild Hunt]]||15% / 45%||Constant||Constant||** 15% in combat, 45% out of combat.
+|-
+|-
+|[[ON:Skooma Smuggler|Skooma Smuggler]]||30%||30 sec.||Drinking a Potion||[[ON:Major Expedition|Major Expedition]]
+|-
+|[[ON:Vicious Serpent|Vicious Serpent]]||30%||8 sec.||Recently damaged Enemy dies||[[ON:Major Expedition|Major Expedition]]
+|}
+
+===Other===
+*The [[ON:Steed's Blessing|Steed's Blessing]] perk in the [[ON:Craft|Craft]] tree increases your out of combat movement speed by 0.4% per stage, for up to 20% at 50 points.
+*The [[ON:Hasty|Hasty]] perk in the [[ON:Fitness|Fitness]]: [[ON:Wind Chaser|Wind Chaser]] tree increases your movement speed when Sprinting by 2% per stage, for up to 4% at 16 points.
+*The [[ON:Celerity|Celerity]] perk in the [[ON:Fitness|Fitness]]: [[ON:Wind Chaser|Wind Chaser]] tree increases your Movement Speed by 2% per stage, for up to 10% at 50 points.
+*[[ON:The Steed (Mundus Stone)|The Steed]] Mundus Stone increases your movement speed by 10% (without [[ON:Divines|Divines]] traits), and only while running (''not'' mounted).
+*Drinking a potion of [[ON:Speed|Speed]] grants you [[ON:Major Expedition|Major Expedition]], increase your movement speed by 30% for 3.9-15.7 sec., or 5.9-16.2 sec. as a triple effect.
+*Using a poison of [[ON:Speed|Speed]] does the same, but with a reduced duration of 1.2-5.5 sec., or 1.7-6.0 sec. as a triple effect.
+*The [[ON:Swift|Swift]] jewelry trait increases all movement speed by 3–7%.
+*The [[ON:Gifted Rider|Gifted Rider]] perk in the [[ON:Craft|Craft]] tree increases your mount speed by 2% per stage, for up to 10% at 100 points. Gifted Rider will stack multiplicatively with Gallop.
+
+==Reduce Movement Speed==
+[[File:ON-icon-misc-Snare.png|right]]
+===Skills===
+{{incomplete|Outdated information such as resource costs and abilities that apply snare.}}
+{|class=wikitable
+!colspan=2|Skill!!Decrease!!Duration!!Affects!!Cost!!Notes
+|-
+!colspan=7|[[ON:Dragonknight|Dragonknight]]
+|-
+|colspan=2|[[ON:Ash Cloud|Ash Cloud]] ([[ON:Earthen Heart|Earthen Heart]])||70%||12-15 sec.||Enemies in Range||{{ESO Magicka Link|4590}}||While in range or 1.1 sec. after leaving
+|-
+|colspan=2|[[ON:Warmth|Warmth]] ([[ON:Ardent Flame|Ardent Flame]])||15-30%||2-4 sec.||Any Enemy Hit||'''Passive'''||Applies to all [[ON:Ardent Flame|Ardent Flame]] abilities
+|-
+!colspan=7|[[ON:Nightblade|Nightblade]]
+|-
+|colspan=2|[[ON:Lotus Fan|Lotus Fan]] ([[ON:Assassination|Assassination]])||60-80%||8 sec.||Single Target||{{ESO Magicka Link|4050}}||
+|-
+|colspan=2|[[ON:Mass Hysteria|Mass Hysteria]] ([[ON:Shadow|Shadow]])||50-53%||4 sec.||Up to 3 Enemies||{{ESO Magicka Link|3780}}||
+|-
+|colspan=2|[[ON:Consuming Darkness (skill)|Consuming Darkness]] ([[ON:Shadow|Shadow]])||70%||12-15.5 sec.||Enemies in Range||{{ESO Ultimate Link|200}}||
+|-
+|colspan=2|[[ON:Cripple|Cripple]] ([[ON:Siphoning|Siphoning]])||30%||8 sec.||Single Enemy||{{ESO Magicka Link|3240}}||
+|-
+|width=20 rowspan=1| ||[[ON:Debilitate|Debilitate]] (morph)||50%||8 sec.||Single Enemy||{{ESO Magicka Link|3240}}||
+|-
+!colspan=7|[[ON:Templar|Templar]]
+|-
+|colspan=2|[[ON:Solar Disturbance|Solar Disturbance]] ([[ON:Dawn's Wrath|Dawn's Wrath]])||62-65%||8 sec.||Enemies in Range||{{ESO Ultimate Link|250}}||
+|-
+|colspan=2|[[ON:Sun Fire|Sun Fire]] ([[ON:Dawn's Wrath|Dawn's Wrath]])||40%||5 sec.||Single Target||{{ESO Magicka Link|2700}}||
+|-
+!colspan=7|Weapon
+|-
+|colspan=2|[[ON:Draining Shot|Draining Shot]] ([[ON:Bow|Bow]])||60%||3 sec.||Single Enemy||{{ESO Stamina Link|2970}}||
+|-
+|colspan=2|[[ON:Wall of Elements|Wall of Frost]] ([[ON:Destruction Staff|Destruction Staff]])||{{huh}}||6 sec.||Enemies in Range||{{ESO Magicka Link|3510-3240}}||
+|-
+|colspan=2|[[ON:Deep Slash|Deep Slash]] ([[ON:One Hand and Shield|One Hand and Shield]])||30%||4 sec.||Single Enemy||{{ESO Stamina Link|2970}}||
+|-
+|colspan=2|[[ON:Rending Slashes|Rending Slashes]] ([[ON:Dual Wield|Dual Wield]])||30%||4 sec.||Single Enemy||{{ESO Stamina Link|2700}}||
+|-
+!colspan=7|Alliance War
+|-
+|colspan=2|[[ON:Caltrops|Caltrops]] ([[ON:Assault|Assault]])||50%||{{huh}}||Enemies in Range||{{ESO Stamina Link|2295}}||
+|-
+!colspan=7|Other
+|-
+|colspan=2|[[ON:Ice Comet|Ice Comet]] ([[ON:Mages Guild|Mages Guild]])||50%||5-8 sec.||Enemies in Range||{{ESO Ultimate Link|200}}||
+|-
+|-
+|colspan=2|[[ON:Trapping Webs|Trapping Webs]] ([[ON:Undaunted|Undaunted]])||50%||5 sec.||Enemies in Range||{{ESO Stamina Link|3511}}||
+|}
+
+===Sets===
+{|class=wikitable
+!Set!!Decrease!!Duration!!Affects!!Trigger!!Notes
+|-
+|[[ON:Bahraha's Curse|Bahraha's Curse]]||60%||5 sec.||Enemies in Range||Dealing Damage||
+|-
+|[[ON:Wilderqueen's Arch|Wilderqueen's Arch]]||15%||3 sec.||Any Enemy Hit||Using [[ON:Bow|Bow]] Attacks||
+|-
+|[[ON:Winterborn (set)|Winterborn]]||50%||2 sec.||Nearby Enemies||Dealing [[ON:Frost Damage|Frost Damage]]||
+|}
+
+===Other===
+*Using a Poison of [[ON:Hindrance|Hindrance]] reduces targets' Movement by 50% for 2.2-10 sec., or 3.2-10.0 sec. as a triple-effect.  (Drinking a Potion of Reduce Speed will have the same effect on you, with a much longer duration.)
+*Using a Poison of [[ON:Speed|Speed]] reduces targets' Movement by 50% for 1.2-5.8 sec., or 1.7-6.0 sec. as a triple-effect.
+*There is a cap of 200% speed when running, and 120% while swimming

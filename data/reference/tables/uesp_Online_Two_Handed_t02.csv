@@ -1,0 +1,26 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Uppercut,2,0.5 seconds,Enemy,7 meters,–,–,2700 Stamina
+"Slam an enemy with an upward swing, dealing [7072 / 7149 / 7227 / 7305] Physical Damage ."
+,,Dizzying Swing,"Also sets the enemy Off Balance. Hitting Off Balance enemies stuns them. Enemies that are immune to Off Balance are snared. Slam an enemy with an upward swing, dealing [7305 / 7385 / 7465 / 7546] Physical Damage and setting them Off Balance for 7 seconds. Hitting an enemy that is already Off Balance stuns them for 2 seconds. Targets that are immune to Off Balance are snared by 40 % for 2 seconds."
+,Wrecking Blow,"Grants you Empower and Major Berserk after casting. Slam an enemy with an upward swing, dealing [7305 / 7385 / 7465 / 7546] Physical Damage. Grants you Major Berserk and Empower for 3 seconds, increasing damage done by 10 % and increasing damage done with Heavy Attacks against monsters by 150 %."
+""
+,Critical Charge,4,Instant,Enemy,22 meters,–,–,3780 Stamina
+"Launch across the earth and smash an enemy, dealing [3690 / 3730 / 3771 / 3811] Physical Damage . This attack is always a Critical Strike."
+,,Stampede,"Increases the cost and the charge now deals damage in an area around the target, and leaves residual damage at the impact area. Cost: 4590 Stamina , Duration: 15 seconds, Area: 5 meters. Launch across the earth and smash an enemy, dealing 3811 Physical Damage to them and all nearby enemies. This attack is always a Critical Strike. After reaching your target, you sunder the ground beneath you, dealing [844 / 852 / 861 / 872] Physical Damage to all enemies in the area every 1 second for 15 seconds."
+,Critical Rush,"Deals more damage based on the distance traveled. Reduces the cost. Cost: [3510 / 3420 / 3330 / 3240] Stamina . Launch across the earth and smash an enemy, dealing 3811 Physical Damage. Deals up to 50 % more damage based on the distance traveled. This attack is always a Critical Strike."
+""
+,Cleave,14,Instant,Cone,–,7 meters,–,3510 Stamina
+"Focus your strength into a mighty swing, dealing [4612 / 4662 / 4713 / 4764] Physical Damage to enemies in front of you. You also gain a damage shield that absorbs [4608 / 4657 / 4709 / 4759] damage for 6 seconds."
+,,Carve,"Converts into Bleed Damage and applies a bleed over time to enemies hit. Focus your strength into a mighty swing, dealing 4764 Bleed Damage to enemies in front of you, and causing them to bleed for an additional [7608 / 7686 / 7773 / 7857] Bleed Damage over 12 seconds. Hitting a target that is already affected from this ability extends the duration by 10 seconds, up to a maximum of 32 . You also gain a damage shield that absorbs 4765 damage for 6 seconds."
+,Brawler,"Damage shield now increases in strength for each enemy hit. Focus your strength into a mighty swing, dealing 4764 Physical Damage to enemies in front of you. You also gain a damage shield that absorbs [4765 / 4816 / 4869 / 4921] damage for 6 seconds. Each enemy hit increases the damage shield's strength by 50 %, up to 300 %."
+""
+,Reverse Slash,20,Instant,Enemy,7 meters,–,–,2430 Stamina
+"Shift your grip and strike an enemy down, dealing [3074 / 3107 / 3141 / 3175] Physical Damage . Deals up to 300 % more damage to enemies with less than 50% Health ."
+,,Reverse Slice,"Now deals its damage in an area around the initial target. Area: 5 meters. Shift your grip and unleash a devastating slice, dealing [3175 / 3209 / 3244 / 3279] Physical Damage to your foe and all nearby enemies. Deals up to 300 % more damage to enemies with less than 50% Health ."
+,Executioner,"Converts to Bleed Damage and reduces the cost. Increases the amount of bonus damage dealt to low health targets. Cost: 2160 Stamina . Shift your grip and cut deep, dealing 3175 Bleed Damage to your foe. Deals up to [385 / 390 / 395 / 400] % more damage to enemies with less than 50% Health ."
+""
+,Momentum,38,Instant,Self,–,–,30 seconds,3780 Stamina
+"Duration: [27 / 28 / 29 / 30] seconds. Focus your strength and resolve to gain Major Brutality and Sorcery , increasing your Weapon and Spell Damage by 20 %, as well as gaining Minor Endurance , increasing your Stamina Recovery by 15 % for [27 / 28 / 29 / 30] seconds."
+,,Forward Momentum,"Reduces the cost, increases the duration, and provides a brief immunity to snares and immobilizations. Cost: [3510 / 3420 / 3330 / 3240] Stamina , Duration: 60 seconds. Focus your strength and resolve to gain Major Brutality and Sorcery, increasing your Weapon and Spell Damage by 20 %, as well as gaining Minor Endurance, increasing your Stamina Recovery by 15 % for 1 minute. Activating this ability removes all snares and immobilizations from you and grants immunity to them for 4 seconds."
+,Rally,"Also heals you when the effect expires. Focus your strength and resolve to gain Major Brutality and Sorcery, increasing your Weapon and Spell Damage by 20 %, as well as gaining Minor Endurance, increasing your Stamina Recovery by 15 % for 30 seconds. You heal for [4764 / 4816 / 4868 / 4921] Health when Rally ends. The final heal is increased by 20 % every 2 seconds, up to a maximum of 200 %."
+""

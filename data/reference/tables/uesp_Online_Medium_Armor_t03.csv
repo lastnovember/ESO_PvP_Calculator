@@ -1,0 +1,13 @@
+Name,Line Rank,Skill Rank,Description
+,Medium Armor Bonuses,1,,Each piece of Medium Armor does the following: Reduces the cost of Sprint by 1 % Reduces the cost of Sneak by 5 % Reduces the cost of Block by 3 % Reduces damage taken from Area of Effect attacks by 2 % for 2 seconds after you use Roll Dodge Increases Movement Speed by 2 % while immune to crowd control
+,Dexterity,2,,Increases your Critical Damage and Healing done rating by 1 % for every 2 pieces of Medium Armor equipped.
+10,,Increases your Critical Damage and Healing done rating by 1 % for every piece of Medium Armor equipped.
+30,,Increases your Critical Damage and Healing done rating by 2 % for every piece of Medium Armor equipped.
+,Wind Walker,6,,Increases your Stamina Recovery by 2 % for each piece of Medium Armor equipped. Reduces the Stamina cost of your abilities by 1 % for each piece of Medium Armor equipped.
+18,,Increases your Stamina Recovery by 4 % per piece of Medium Armor equipped. Reduces the Stamina cost of your abilities by 2 % per piece of Medium Armor equipped.
+,Improved Sneak,14,,Reduces the cost of Sneak by 4 % for each piece of Medium Armor equipped. Reduces the size of your detection area while Sneaking by 3 % for each piece of Medium Armor equipped.
+34,,Reduces the cost of Sneak by 7 % for each piece of Medium Armor equipped. Reduces the size of your detection area while Sneaking by 5 % for each piece of Medium Armor equipped.
+,Agility,38,,Increases your Weapon and Spell Damage by 1 % for each piece of Medium Armor worn.
+46,,Increases your Weapon and Spell Damage by 2 % for each piece of Medium Armor worn.
+,Athletics,42,,Increases the Movement Speed bonus of Sprint by 2 % for each piece of Medium Armor equipped. Reduces the cost of Roll Dodge by 2 % for each piece of Medium Armor equipped.
+50,,Increases the Movement Speed bonus of Sprint by 3 % for each piece of Medium Armor equipped. Reduces the cost of Roll Dodge by 4 % for each piece of Medium Armor equipped.

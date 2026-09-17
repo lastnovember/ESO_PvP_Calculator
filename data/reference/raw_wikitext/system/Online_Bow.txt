@@ -1,0 +1,79 @@
+{{Trail2|Skill Lines|Weapon|link2=Weapons}}
+{{/Progression}}
+[[File:ON-icon-skill-Bow.png|frameless|left]]'''Bow''' is one of the six [[Online:Skills#Weapon|weapon skills]] available in Elder Scrolls Online. You can advance through this skill line by equipping and using a [[Online:Bows|bow]].
+
+{{NewLeft}}
+== Learning ==
+The Bow skill line is granted the first time you kill an enemy with a bow equipped.  You can increase your skill by engaging in combat with a bow equipped, or by having Bow skills slotted.  The more skills you have slotted, the faster your skill will increase.  [[ON:Wood Elf|Wood Elves]] are naturally gifted with bows, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Bow are:
+*[[ON:An Archer's Archive|An Archer's Archive]]
+*[[ON:Bliss|Bliss]]
+*[[ON:Father of the Niben, Fragment One|Father of the Niben, Fragment One]]
+*[[ON:The Source of the Bone|The Source of the Bone]]
+*[[ON:Sporting Chance|Sporting Chance]]
+
+==Skill Perks==
+Bows have an associated skill line that is revealed through use of a Bow. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Rapid Fire}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, while a bow is equipped, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Snipe}}
+{{Online Skill Link|Volley}}
+{{Online Skill Link|Scatter Shot}}
+{{Online Skill Link|Arrow Spray}}
+{{Online Skill Link|Poison Arrow}}
+|}
+
+===Weapon Sets===
+These sets add effects to abilities. 
+{|class=wikitable
+!colspan=2|Ability Name!!width=1|Weapon set name!! Description
+|-
+|rowspan=2|{{ESO Active Icon|sk|Bow-Snipe|64}}||rowspan=2|[[Online:Snipe|Snipe]]||[[ON:Point-Blank Snipe|Point-Blank Snipe]]||{{ON:Point-Blank Snipe}}
+|-
+|[[ON:Perfected Point-Blank Snipe|Perfected Point-Blank Snipe]]||{{ON:Perfected Point-Blank Snipe}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Bow-Volley|64}}||rowspan=2|[[ON:Volley|Volley]]||[[ON:Thunderous Volley|Thunderous Volley]]||{{ON:Thunderous Volley}}
+|-
+|[[ON:Perfected Thunderous Volley|Perfected Thunderous Volley]]||{{ON:Perfected Thunderous Volley}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Bow-Scatter Shot|64}}||rowspan=2|[[ON:Scatter Shot|Scatter Shot]]||[[ON:Virulent Shot|Virulent Shot]]||{{ON:Virulent Shot}}
+|-
+|[[ON:Perfected Virulent Shot|Perfected Virulent Shot]]||{{ON:Perfected Virulent Shot}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Bow-Arrow Spray|64}}||rowspan=2|[[ON:Arrow Spray|Arrow Spray]]||[[ON:Piercing Spray|Piercing Spray]]||{{ON:Piercing Spray}}
+|-
+|[[ON:Perfected Piercing Spray|Perfected Piercing Spray]]||{{ON:Perfected Piercing Spray}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Bow-Poison Arrow|64}}||rowspan=2|[[ON:Poison Arrow|Poison Arrow]]||[[ON:Caustic Arrow|Caustic Arrow]]||{{ON:Caustic Arrow}}
+|-
+|[[ON:Perfected Caustic Arrow|Perfected Caustic Arrow]]||{{ON:Perfected Caustic Arrow}}
+|}
+===Other Sets===
+* Wearing five pieces of the [[ON:Hawk's Eye|Hawk's Eye]] set from [[ON:Cyrodiil|Cyrodiil]] reduces the cost and increases the damage of your bow abilities by 6%.
+* Wearing five pieces of the [[ON:Marksman's Crest|Marksman's Crest]] set from [[ON:Cyrodiil|Cyrodiil]] reduces the cost of your {{ESO Stamina Link}} abilities by 5% and increases the damage of your Bow abilities against Players by 8%.
+* Wearing five pieces of the [[ON:Red Eagle's Fury|Red Eagle's Fury]] set from [[ON:Red Eagle Redoubt|Red Eagle Redoubt]] crafting site increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} damage of all your weapon abilities, Bow included, but it also increases their cost.
+* Wearing five pieces of the [[ON:Wilderqueen's Arch|Wilderqueen's Arch]] set from overland [[ON:Greenshade|Greenshade]] makes your Bow attacks reduce the [[Online:Movement Speed|Movement Speed]] of any enemy they hit by 0-15% and increase your Movement Speed by 0-15% for 3 seconds.
+* Wearing five pieces of the [[ON:Daring Corsair|Daring Corsair]] set from the [[ON:Cat's-Claw Station|Cat's-Claw Station]] crafting site decreases the {{ESO Stamina Link}} and {{ESO Magicka Link}} costs of all your weapon abilities by 10%, and grants you [[ON:Minor Heroism|Minor Heroism]] for 8 seconds after you use a weapon skill.
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as a bow is equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Vinedusk Training}}
+{{Online Skill Link|Accuracy}}
+{{Online Skill Link|Ranger}}
+{{Online Skill Link|Hawk Eye}}
+{{Online Skill Link|Hasty Retreat}}
+|}
+
+{{Online Skills}}

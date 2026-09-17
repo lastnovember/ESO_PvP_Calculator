@@ -1,0 +1,10 @@
+Name,Line Rank,Skill Rank,Description
+,Persuasive Will,1,,Allows you to Persuade NPCs in conversation.
+,Mage Adept,3,,Reduces the Magicka and Health cost of your Mages Guild abilities by 8 %.
+5,,Reduces the Magicka and Health cost of your Mages Guild abilities by 15 %.
+,Everlasting Magic,5,,Increases the duration of your Mages Guild abilities by 1 second.
+7,,Increases the duration of your Mages Guild abilities by 2 seconds.
+,Magicka Controller,7,,Increases your Max Magicka and Magicka Recovery by 1 % for each Mages Guild ability slotted.
+9,,Increases your Max Magicka and Magicka Recovery by 2 % for each Mages Guild ability slotted.
+,Might of the Guild,9,,"Casting a Mages Guild ability grants you Empower , increasing the damage of your Heavy Attacks against monsters by 150 % for 5 seconds."
+10,,"Casting a Mages Guild ability grants you Empower, increasing the damage of your Heavy Attacks against monsters by 150 % for 10 seconds."

@@ -1,0 +1,241 @@
+{{Trail|Alliance War}}
+'''Siege Weapons''' are constructs used by players within [[Online:Cyrodiil|Cyrodiil]] for the [[Online:Alliance War|Alliance War]], mainly for the purpose of attacking or defending [[Online:Keeps|keeps]]. They may be purchased from [[Online:Siege Merchants|Siege Merchants]] and Quartermasters, either with player gold or [[Online:Alliance Points|Alliance Points]]. Siege weapons must be set up from the [[Online:Controls#Combat|Quick Slot]] wheel, and may not be deployed on sloped ground or too close to another siege weapon. Once deployed, you may exit the weapon and allow another allied player to fire it, but it can only be packed up by the player that originally set it up. Attackers and defenders may only deploy up to 20 siege weapons each at any keep (Defensers get 25 with the keep's Lumbermill at level 1 and 30 at level 2). Enemy siege weapons may be targeted by friendly siege weapons (except rams), damaging the weapon and any nearby enemy players, and destroying the weapon when its toughness reaches zero.
+
+Siege weapons are alliance-specific, and can only be used by their matching alliance.  You can store them in your bank or guild bank and trade them to other characters in your account or other players, but only they may only be used by members of the same alliance.
+
+With the exception of battering rams, all siege weapons are immobile once deployed. In order to relocate them, they must be stowed, which can only be done when they are loaded and ready to fire. Once you deploy a siege weapon, you are locked into operation of that weapon, and can perform no other actions (except [[Online:Chat|chatting]]). In order to perform other actions, you must either stow the weapon (X button), or exit the weapon (Alt or Option), the latter of which will leave the weapon deployed, where it can be used by another friendly player.
+
+When deployed, siege weapons slowly decay, losing toughness over time, even if not being fired. If a siege weapon is deployed and left unmanned, it will decay at a much faster rate, quickly falling apart and disappearing. Siege weapons may also be lit on fire by enemy players, causing them to take 4,000 flame damage every 2 seconds for 1 minute. Burning siege weapons can be extinguished, which causes you to throw a bucket of water on them, dousing the flames. Siege weapons that are at less than full toughness can also be repaired with repair kits.
+
+The Cold Fire and Cold Stone variants can only be obtained by completing [[Online:Dolmens|dolmens]] in Cyrodiil, or randomly from reward boxes during special PVP events such as [[Online:Whitestrake's Mayhem|Whitestrake's Mayhem]].
+
+==Weapon Types==
+There are six types of siege weapons:
+
+*'''Ballistae''' are good in all situations. Ballistae have a shorter reload time than trebuchets, but have lower damage and toughness. Ballistae come in four varieties: standard (strong against structures), Fire (causes fire damage to enemies over time), Lightning (ensnares enemies), and Cold Fire (stronger than Fire).
+*'''Battering Rams''' are only effective for destroying the doors and gates of enemy keeps. Additional players may assist in the operation of a ram by standing near its structure while it is deployed, each of whom will increase its damage and its movement speed. Once deployed, rams can only move very slowly, so they are best deployed close to the enemy's door. Three allied players are required for the ram to be active and its efficiency improves for each additional player for up to six players. Only one Battering Ram can be deployed per Alliance at a keep.
+*'''Catapults''' are mostly effective against enemies, especially in chokepoints, and come in three varieties: Oil (ensnares enemies), Meatbag {{ESO Icon|ON-icon-misc-Draining Poison.png||24}} (causes a ground area dealing disease damage and reducing healing taken) , and Scattershot (causes a ground area dealing physical damage and increases enemies' damage taken by 20%). Catapults have a shorter reload time than ballistae and are 50% tougher. They have a shorter range than trebuchets but a similar high trajectory than can deliver missiles over some obstacles.
+*'''Flaming Oils''' are very effective against everything and are used mostly against enemy battering rams and players at gate keeps, but they can only hit targets close to and directly below them.
+*'''Trebuchets''' are best used to destroy the walls and doors of enemy keeps but they deal terrible damage against enemy siege weapons. They have higher toughness than ballistae and catapults, have a very high arcing trajectory that can drop missiles behind enemy walls or atop higher elevations and deal higher damage but take longer to reload. Trebuchets come in five varieties: Stone (strong against structures), Firepot (causes fire damage over time to enemies), Iceball (ensnares enemies), Cold Fire (causes higher fire damage over time to enemies) and Cold Stone (stronger than Stone).
+*'''Lancers''' were introduced in [[ON:Greymoor|Greymoor]]. These [[Lore:Dwemer|Dwemer]]-made weapons are variants of the Ballista and fire five low accucary shots per burst. They come in three elemental types and can only be obtained via the [[ON:Antiquities|Antiquities]] system. The Lead for them can only be found in {{Item Link|Gladiator's Rucksacks|itemid=138812|quality=3}} by completing a [[Online:Alliance_War#Conquest_Missions|Conquest daily quest]] in [[ON:Cyrodiil|Cyrodiil]], rewarding one of the following items: {{Item Link|Fire Lancer Construction Crate|itemid=166475|quality=4}}, {{Item Link|Frost Lancer Construction Crate|itemid=166476|quality=4}}, {{Item Link|Shock Lancer Construction Crate|itemid=166477|quality=4}}.
+
+==Damage and Effects==
+Here are the damage and effects siege weapons have against Enemy Players, other Siege weapons and against structures. What applies to Enemy Players also apply to enemy NPCs.
+{|class=wikitable
+! !!Weapon!!Effects against Enemy Players!!Effects against Siege Weapons!!Effects against Structures
+|-
+|{{icon|ava|Ballista}}||Ballista||14,000 physical damage in an area||14,000 damage in an area||2,000 damage
+|-
+|{{icon|ava|Ballista}}||Firebolt Ballista||14,000 flame damage in an area then 14,000 flame damage every 2 seconds for 4 seconds to players hit. Each Fire Ballista applies its own effect dealing damage over time.||14,000 damage in an area||1,000 damage
+|-
+|{{icon|ava|Ballista}}||Lightning Ballista||Immediately snares and applies a DoT effect on hit which only deals damage after 2 seconds, dealing 14,000 shock damage every second for 2 seconds. Each Lightning Ballista applies its own effect dealing damage over time. {{huh|Magicka drain ?}}||14,000 damage in an area||1,000 damage
+|-
+|{{icon|ava|Cold Fire Ballista}}||Cold Fire Ballista||20,800 flame damage in an area then 20,800 flame damage every 2 seconds for 4 seconds to players hit. Each Cold Fire Ballista applies its own effect dealing damage over time.||20,800 damage in an area||1,000 damage
+|-
+|{{icon|ava|Battering Ram}}||Battering Ram||None||None||Can only move and attack with at least 3 players nearby. Movement Speed and Damage Dealt scale up to six players nearby. Deals 8,000 damage every 8 seconds (with 6 nearby players) to gates only.
+|-
+|{{icon|ava|Catapult}}||Meatbag Catapult||On impact, creates an area dealing 10,000 disease damage every second that applies/refreshes a 6 second-long effect {{ESO Icon|ON-icon-misc-Draining Poison.png||24}} reducing the healing taken by ~50%. Targets take damage from each area they stand in. Each Meatbag Catapult applies its own effect but the healing reduction does not stack.||3,000 damage in an area||500 damage
+|-
+|{{icon|ava|Catapult}}||Oil Catapult||On impact, deals 10,000 flame damage in an area then leaves a ground area applying/refreshing every second a 6 second-long strong snare effect. {{huh|Stamina drain ?}}||500 damage in an area||500 damage
+|-
+|{{icon|ava|Catapult}}||Scattershot Catapult||On impact, leaves an area for 6 seconds dealing 7,000 physical damage every second and applies/reapplies a 20% damage vulnerability effect for 6 seconds to players inside.||None.||200 damage
+|-
+|{{icon|ava|Flame Lancer}}||Fire Lancer||Per hit, 14,000 flame damage in an area and always applies [[ON:Burning|Burning]].||3,500 damage in an area per hit||500 damage per hit
+|-
+|{{icon|ava|Frost Lancer}}||Frost Lancer||Per hit, 14,000 frost damage in an area and always applies [[ON:Chilled|Chilled]].||3,500 damage in an area per hit||500 damage per hit
+|-
+|{{icon|ava|Shock Lancer}}||Shock Lancer||Per hit, 14,000 shock damage in an area and always applies [[ON:Concussion|Concussion]].||3,500 damage in an area per hit||500 damage per hit
+|-
+|{{icon|ava|Trebuchet}}||Firepot Trebuchet||25,000 flame damage in an area then 15,000 flame damage every 2 seconds for 4 seconds to players hit. Each Firepot Trebuchet applies its own effect dealing damage over time.||3,000 damage in an area||3,500 damage
+|-
+|{{icon|ava|Trebuchet}}||Iceball Trebuchet||25,000 frost damage in an area and applies a 6 second-long snare.||500 damage in an area||3,000 damage
+|-
+|{{icon|ava|Trebuchet}}||Stone Trebuchet||35,000 physical damage in an area.||800 damage in an area||4,000 damage
+|-
+|{{icon|ava|Cold Fire Trebuchet}}||Cold Fire Trebuchet||30,000 flame damage in an area and 20,000 flame damage every 2 seconds for 6 seconds to players hit. Each Cold Fire Trebuchet applies its own effect dealing damage over time.||4,500 damage in an area||3,500 damage
+|-
+|{{icon|ava|Cold Stone Trebuchet}}||Cold Stone Trebuchet||40,000 physical damage in an area ||1,200 damage in an area||4,000 damage
+|-
+|{{icon|ava|Flaming Oil}}||Flaming Oil||Applies the DoT on hit, 10,000 flame damage over time every 2 seconds for 6 seconds in an area. Each Flaming Oil applies its own effect dealing damage over time.||Applies the DoT on hit, 10,000 flame damage over time every 2 seconds for 6 seconds in an area. Each Flaming Oil applies its own effect dealing damage over time.||None
+|}
+
+==Items==
+There are three types for each weapon, depending on alliance.
+{|class=wikitable
+! !!Weapon!!Description!!Toughness!!Gold Price!!AP Price
+|-
+!colspan=6|Ballistae
+|-
+|{{icon|ava|Ballista}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Ballista|id=36567}}
+  |Covenant={{Item Link|Covenant Ballista|id=36569}}
+  |Pact={{Item Link|Pact Ballista|id=36568}}}}}}
+|Creates a ballista siege weapon whose bolt causes great damage to structures and enemies.
+|100,000|| ||{{nowrap|{{ESO AP|1800}}}}
+|-
+|{{icon|ava|Ballista}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Firebolt Ballista|id=27970}}
+  |Covenant={{Item Link|Covenant Firebolt Ballista|id=27972}}
+  |Pact={{Item Link|Pact Firebolt Ballista|id=27971}}}}}}
+|Creates a ballista siege weapon whose bolt causes flame damage to structures and also damages foes over time.
+|100,000||{{nowrap|{{ESO Price|450}}}}||{{nowrap|{{ESO AP|1200}}}}
+|-
+|{{icon|ava|Ballista}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Lightning Ballista|id=27973}}
+  |Covenant={{Item Link|Covenant Lightning Ballista|id=27975}}
+  |Pact={{Item Link|Pact Lightning Ballista|id=27974}}}}}}
+|Creates a ballista siege weapon whose electrically charged bolt ensnares enemies and drains their Magicka.
+|100,000|| ||{{nowrap|{{ESO AP|1200}}}}
+|-
+|{{icon|ava|Cold Fire Ballista}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Cold Fire Ballista|id=64515}}
+  |Covenant={{Item Link|Covenant Cold Fire Ballista|id=64517}}
+  |Pact={{Item Link|Pact Cold Fire Ballista|id=64516}}}}}}
+|Creates a ballista siege weapon whose bolt causes flame damage to structures and also damages foes over time.
+|100,000|| ||
+|-
+!colspan=6|Catapults
+|-
+|{{icon|ava|Catapult}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Meatbag Catapult|id=27964}}
+  |Covenant={{Item Link|Covenant Meatbag Catapult|id=27966}}
+  |Pact={{Item Link|Pact Meatbag Catapult|id=27965}}}}}}
+|Creates a catapult siege weapon that fires a bag of diseased meat at its targets.
+|150,000|| ||{{nowrap|{{ESO AP|1200}}}}
+|-
+|{{icon|ava|Catapult}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Oil Catapult|id=27967}}
+  |Covenant={{Item Link|Covenant Oil Catapult|id=27969}}
+  |Pact={{Item Link|Pact Oil Catapult|id=27968}}}}}}
+|Creates a catapult siege weapon that fires a jar of oil at its targets, ensnaring them and draining their Stamina.
+|150,000|| ||{{nowrap|{{ESO AP|1200}}}}
+|-
+|{{icon|ava|Catapult}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Scattershot Catapult|id=44770}}
+  |Covenant={{Item Link|Covenant Scattershot Catapult|id=44773}}
+  |Pact={{Item Link|Pact Scattershot Catapult|id=44777}}}}}}
+|Creates a catapult siege weapon whose mass of small rocks causes damage to foes in a wide area.
+|150,000|| ||{{nowrap|{{ESO AP|1200}}}}
+|-
+!colspan=6|Lancers
+|-
+|{{icon|ava|Flame Lancer}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Fire Lancer|id=160528|quality=4}}
+  |Covenant={{Item Link|Covenant Fire Lancer|id=160530|quality=4}}
+  |Pact={{Item Link|Pact Fire Lancer|id=160529|quality=4}}}}}}
+|Creates a Dwarven fire lancer siege weapon whose bolts deal flame damage to structures and also causes Burning.
+|200,000|| ||
+|-
+|{{icon|ava|Frost Lancer}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Frost Lancer|id=160534|quality=4}}
+  |Covenant={{Item Link|Covenant Frost Lancer|id=160536|quality=4}}
+  |Pact={{Item Link|Pact Frost Lancer|id=160535|quality=4}}}}}}
+|Creates a Dwarven frost lancer siege weapon whose bolts deal frost damage to structures and also causes Chilled.
+|200,000|| ||
+|-
+|{{icon|ava|Shock Lancer}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Shock Lancer|id=160531|quality=4}}
+  |Covenant={{Item Link|Covenant Shock Lancer|id=160533|quality=4}}
+  |Pact={{Item Link|Pact Shock Lancer|id=160532|quality=4}}}}}}
+|Creates a Dwarven shock lancer siege weapon whose bolts deal shock damage to structures and also causes Concussion.
+|200,000|| ||
+|-
+!colspan=6|Trebuchets
+|-
+|{{icon|ava|Trebuchet}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Firepot Trebuchet|id=27105}}
+  |Covenant={{Item Link|Covenant Firepot Trebuchet|id=27115}}
+  |Pact={{Item Link|Pact Firepot Trebuchet|id=27114}}}}}}
+|Creates a trebuchet weapon whose fireball causes burn damage to structures and foes.
+|200,000||{{nowrap|{{ESO Price|450}}}}||{{nowrap|{{ESO AP|1800}}}}
+|-
+|{{icon|ava|Trebuchet}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Iceball Trebuchet|id=44768}}
+  |Covenant={{Item Link|Covenant Iceball Trebuchet|id=44771}}
+  |Pact={{Item Link|Pact Iceball Trebuchet|id=44775}}}}}}
+|Creates a trebuchet weapon whose iceball causes damage and ensnares players.
+|200,000|| ||{{nowrap|{{ESO AP|1800}}}}
+|-
+|{{icon|ava|Trebuchet}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Stone Trebuchet|id=44769}}
+  |Covenant={{Item Link|Covenant Stone Trebuchet|id=44772}}
+  |Pact={{Item Link|Pact Stone Trebuchet|id=44776}}}}}}
+|Creates a trebuchet weapon whose stones cause great damage to structures and foes.
+|200,000|| ||{{nowrap|{{ESO AP|1800}}}}
+|-
+|{{icon|ava|Cold Fire Trebuchet}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Cold Fire Trebuchet|id=64512}}
+  |Covenant={{Item Link|Covenant Cold Fire Trebuchet|id=64514}}
+  |Pact={{Item Link|Pact Cold Fire Trebuchet|id=64513}}}}}}
+|Creates a trebuchet weapon whose fireball causes burn damage to structures and foes.
+|200,000|| ||
+|-
+|{{icon|ava|Cold Stone Trebuchet}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Cold Stone Trebuchet|id=64520}}
+  |Covenant={{Item Link|Covenant Cold Stone Trebuchet|id=64518}}
+  |Pact={{Item Link|Pact Cold Stone Trebuchet|id=64519}}}}}}
+|Creates a trebuchet weapon whose stones cause great damage to structures and foes.
+|200,000|| ||
+|-
+!colspan=6|Other
+|-
+|{{icon|ava|Battering Ram}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Battering Ram|id=27136}}
+  |Covenant={{Item Link|Covenant Battering Ram|id=27835}}
+  |Pact={{Item Link|Pact Battering Ram|id=27850}}}}}}
+|Creates a battering ram which can be used to destroy doors.
+|200,000|| ||{{nowrap|{{ESO AP|1800}}}}
+|-
+|{{icon|ava|Flaming Oil}}|||{{Item Link|Flaming Oil|id=30359}}
+|Pours straight downwards. Very effective weapon against Rams and players operating a Ram.
+|100,000|| ||{{nowrap|{{ESO AP|800}}}}
+|}
+===Vengeance===
+During the [[ON:Campaigns#Vengeance|Vengeance]] campaign, you were given special Siege Weapons in infinite quantities.
+{|class=wikitable
+! !!Weapon!!Description!!Equivalence
+|-
+|{{icon|ava|Ballista}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Ballista of Vengeance|id=214323}}
+  |Covenant={{Item Link|Covenant Ballista of Vengeance|id=214325}}
+  |Pact={{Item Link|Pact Ballista of Vengeance|id=214324}}}}}}
+|Creates a ballista siege weapon whose bolt causes great damage to structures and enemies.
+|Equivalent to a [[ON:Siege Weapons#Damage and Effects|Ballista]].
+|-
+|{{icon|ava|Trebuchet}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Stone Trebuchet of Vengeance|id=214318}}
+  |Covenant={{Item Link|Covenant Stone Trebuchet of Vengeance|id=214320}}
+  |Pact={{Item Link|Pact Stone Trebuchet of Vengeance|id=214319}}}}}}
+|Creates a trebuchet weapon whose stones cause great damage to structures and foes.
+|Equivalent to a [[ON:Siege Weapons#Damage and Effects|Stone Trebuchet]].
+|-
+|{{icon|ava|Battering Ram}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Battering Ram of Vengeance|id=214326}}
+  |Covenant={{Item Link|Covenant Battering Ram of Vengeance|id=214327}}
+  |Pact={{Item Link|Pact Battering Ram of Vengeance|id=214328}}}}}}
+|Creates a battering ram which can be used to destroy doors.
+|Equivalent to a [[ON:Siege Weapons#Damage and Effects|Battering Ram]].
+|-
+|{{icon|ava|Flaming Oil}}||{{nowrap|{{Item Link|Flaming Oil of Vengeance|id=214329}}
+|Very effective weapon against Rams and players operating a Ram.
+|Works like the common [[ON:Siege Weapons#Damage and Effects|Flaming Oil]] against Siege Weapons, however it deals ticks of ~18,571 flame damage to players instead of 10,000 flame damage.
+|-
+|{{icon|ava|Cold Fire Ballista}}||{{nowrap|{{ESO Alliances
+  |Dominion={{Item Link|Dominion Cold Fire Ballista of Vengeance|id=223697}}
+  |Covenant={{Item Link|Covenant Cold Fire Ballista of Vengeance|id=223770}}
+  |Pact={{Item Link|Pact Cold Fire Ballista of Vengeance|id=223768}}}}}}
+|Obtainable via Vengeance dolmens Reward Chest only. It is sent to the inventory after installing a common ballista of Vengeance. It can be destroyed and lost (unlike autoreplaceble common ballista of Vengeance). It does not disappear after relog to Vengeance.
+|
+|}
+
+==PvE usage==
+In PvE, you do not place your own siege weapon. Instead they are directly available on the terrain and you cannot stow them, and when destroyed they do not disappear.
+*In [[ON:Hel Ra Citadel|Hel Ra Citadel]], enemies can use ballistae and pour Flaming Oil on your allies below. You must either kill the enemies or burn the siege weapons.
+*In two instances, Ballistae are provided directly on the terrain for your usage in PvE:
+**During [[ON:The Sublime Brazier|The Sublime Brazier]] quest in the [[ON:Dragonfire Cathedral|Dragonfire Cathedral]], where you could use two Firebolt Ballistae against Dremora opponents.
+**In the [[ON:Writhing Fortress|Writhing Fortress]], where both "Repaired Fire Ballista" and "Repaired Cold Fire Ballista" can be used and need to be repaired by either gathering "Ballista Parts" from barrels or from a synergy left by defeated enemies. They deal 90,000 damage against structures and on average 3,4 million Flame Damage against enemies. Shooting on your feet or allied companions will deal moderate flame damage in an area (Cold Fire Ballista Bolt) then moderate flame damage over time (Burning) (Not the status effect). The ballistae also lose 50,000 {{ESO Health Link}} per shot, which is half of their health. In particular, the bosses [[ON:Guuffetarez|Guuffertarez]] and mostly [[ON:Zysax|Zysax]] can only be harmed by them.
+
+==Notes==
+*The [[ON:Sundering Swing|Sundering Swing]] skill obtained from wielding [[ON:Volendrung|Volendrung]] can be used to damage structures without requiring the use of siege weapons.
+*The Cold Fire Ballistae are called "Cold Harbor Ballista" in the death recap.
+{{Online PvP}}

@@ -1,0 +1,429 @@
+{{Online Place Summary
+|type=Zone
+|description=the central province of [[Online:Tamriel|Tamriel]] and home of the [[Online:Imperial|Imperials]], who stand alone in the [[Online:Alliance War|Alliance War]].
+|image=ON-place-Southern Niben Basin.jpg
+|imgdesc=Cyrodiil
+|mapworld=ava_whole
+|mapname=
+|level=10+ (See [[#Notes|note]])
+|battle_level={{ESO Champion|150}}
+|quests=1
+|delves=18
+|pois=47
+|locales=5
+|setstations=3
+|worldevents=10
+|skyshard=46
+|alliance=Disputed
+|regions=[[Online:Aldmeri Territory|Aldmeri Territory]], [[Online:Daggerfall Territory|Daggerfall Territory]], [[Online:Ebonheart Territory|Ebonheart Territory]]
+|location=Central Tamriel
+|marker_icon=ON-icon-location.png
+|alliance_icon=ON-mapicon-Battle.png
+|color={{ESO Alliance Color|CY}}
+|loadscreen=ON-load-Cyrodiil 02.jpg
+|loadtext=The Imperial province of Cyrodiil dominates central Tamriel. With the Empire's collapse, armies of the Dominion, Covenant, and Pact have all invaded Cyrodiil, vying for the Imperial throne and control of the greatest prize in the land.
+}} __NOTOC__ It can be accessed once a player receives the [[Online:Cyrodiil Awaits!|Cyrodiil Awaits!]] message through the in-game mail system at Level 10. Despite the name, the zone encompasses only the central part of the [[ON:Cyrodiil (province)|actual province]].
+Cyrodiil's geography is mostly low-lands and forests, with mountains around its borders. The central [[Lore:Heartlands|Heartlands]] is the area around the [[Online:Imperial City|Imperial City]]; the island is almost wholly used for the city while the land to the east is used for farming. The [[Lore:Nibenay Valley|Nibenay Valley]] to the south is too small to have its own unique geological features; it is a mix of the [[Lore:Great Forest|Great Forest]] to the north and west of the Heartlands, and the [[Lore:Nibenay Basin|Nibenay Basin]]'s plains to the east of the Heartlands. The [[Online:Jerall Mountains|Jerall Mountains]] form the border with [[Lore:Skyrim|Skyrim]] to the north.
+
+Politically, the region is in flux, with armies of the three [[Online:Alliances|Alliances]] continually fighting over strategic positions. Nominally however, northwestern Cyrodiil is considered [[Online:Daggerfall Territory|Daggerfall Territory]], northeastern Cyrodiil is considered [[Online:Ebonheart Territory|Ebonheart Territory]], and southwestern Cyrodiil is considered [[Online:Aldmeri Territory|Aldmeri Territory]]. Remnants of the [[Online:Imperial Legion|Imperial Legion]] still control parts of the Imperial City, and legionaries can be found in small military camps all across the region.
+
+At this time of war between the alliances, [[Online:Molag Bal|Molag Bal]] is also attempting to pull [[Lore:Nirn|Nirn]] into [[Online:Coldharbour|Coldharbour]] with the use of huge [[Online:Dark Anchor|Dark Anchors]] attached to Tamriel, a number of which are found in Cyrodiil. The largest of these is located over the Imperial City.
+
+For more historical information, see the [[Lore:Cyrodiil|lore article]].
+{{TOCright|limit=3}}
+{{NewLeft}}
+==Places==
+
+===[[Online:Border Keeps|Border Keeps]], [[Online:Artifact Gates|Artifact Gates]] and [[Online:Scroll Temples|Scroll Temples]]===
+====Aldmeri Dominion Territory====
+* {{Place Link|Eastern Elsweyr Gate}}
+* {{Place Link|Western Elsweyr Gate}}
+* {{Place Link|Gate of Altadoon}}
+* {{Place Link|Gate of Mnem}}
+* {{Place Link|Scroll Temple of Altadoon}}
+* {{Place Link|Scroll Temple of Mnem}}
+
+====Daggerfall Covenant Territory====
+* {{Place Link|Northern High Rock Gate}}
+* {{Place Link|Southern High Rock Gate}}
+* {{Place Link|Gate of Alma Ruma}}
+* {{Place Link|Gate of Ni-Mohk}}
+* {{Place Link|Scroll Temple of Alma Ruma}}
+* {{Place Link|Scroll Temple of Ni-Mohk}}
+
+====Ebonheart Pact Territory====
+* {{Place Link|Northern Morrowind Gate}}
+* {{Place Link|Southern Morrowind Gate}}
+* {{Place Link|Gate of Chim}}
+* {{Place Link|Gate of Ghartok}}
+* {{Place Link|Scroll Temple of Chim}}
+* {{Place Link|Scroll Temple of Ghartok}}
+
+===[[Online:Keeps|Keeps]] and [[Online:Outposts|Outposts]]===
+====Aldmeri Dominion Territory====
+* {{Place Link|Carmala Outpost}}
+* {{Place Link|Castle Alessia}}
+* {{Place Link|Castle Black Boot}}
+* {{Place Link|Castle Bloodmayne}}
+* {{Place Link|Castle Brindle}}
+* {{Place Link|Castle Faregyl}}
+* {{Place Link|Castle Roebeck}}
+* {{Place Link|Nikel Outpost}}
+
+====Daggerfall Covenant Territory====
+* {{Place Link|Bleaker's Outpost}}
+* {{Place Link|Fort Aleswell}}
+* {{Place Link|Fort Ash}}
+* {{Place Link|Fort Dragonclaw}}
+* {{Place Link|Fort Glademist}}
+* {{Place Link|Fort Rayles}}
+* {{Place Link|Fort Warden}}
+* {{Place Link|Winter's Peak Outpost}}
+
+====Ebonheart Pact Territory====
+* {{Place Link|Arrius Keep}}
+* {{Place Link|Blue Road Keep}}
+* {{Place Link|Chalman Keep}}
+* {{Place Link|Drakelowe Keep}}
+* {{Place Link|Farragut Keep}}
+* {{Place Link|Harlun's Outpost}}
+* {{Place Link|Kingscrest Keep}}
+* {{Place Link|Sejanus Outpost}}
+
+===[[ON:AvA Towns|AvA Towns]]===
+* {{Place Link|Bruma}}
+* {{Place Link|Cropsford}}
+* {{Place Link|Vlastarus}}
+
+===[[Online:Milegates|Imperial Bridges and Milegates]]===
+* {{Place Link|Alessia Bridge}}
+* {{Place Link|Ash Milegate}}
+* {{Place Link|Chalman Milegate}}
+* {{Place Link|Chorrol Milegate}}
+* {{Place Link|Niben River Bridge}}
+* {{Place Link|Horunn Milegate}}
+* {{Place Link|Bay Bridge}}
+* {{Place Link|Priory Milegate}}
+* {{Place Link|Kingscrest Milegate}}
+
+===Delves===
+* {{Place Link|Bloodmayne Cave}}
+* {{Place Link|Breakneck Cave}}
+* {{Place Link|Capstone Cave}}
+* {{Place Link|Cracked Wood Cave}}
+* {{Place Link|Echo Cave}}
+* {{Place Link|Haynote Cave}}
+* {{Place Link|Kingscrest Cavern}}
+* {{Place Link|Lipsand Tarn}}
+* {{Place Link|Muck Valley Cavern}}
+* {{Place Link|Newt Cave}}
+* {{Place Link|Nisin Cave}}
+* {{Place Link|Pothole Caverns}}
+* {{Place Link|Quickwater Cave}}
+* {{Place Link|Red Ruby Cave}}
+* {{Place Link|Serpent Hollow Cave}}
+* {{Place Link|Toadstool Hollow}}
+* {{Place Link|Underpall Cave}}
+* {{Place Link|Vahtacen}}
+
+===Points of Interest===
+* {{Place Link|Abbey of the Eight}}
+* {{Place Link|Barren Cave}}
+* {{Place Link|Burned Estate}}
+* {{Place Link|Cheydinhal}}
+* {{Place Link|Chorrol}}
+* {{Place Link|Cloud Ruler Temple}}
+* {{Place Link|Coldcorn Ruin}}
+* {{Place Link|Crooked Finger Redoubt}}
+* {{Place Link|Gray Viper Outpost}}
+* {{Place Link|Hackdirt}}
+* {{Place Link|Harlun's Watch}}
+* {{Place Link|Hedoran Estate}}
+* {{Place Link|Highlander Camp}}
+* {{Place Link|Homestead Ruins}}
+* {{Place Link|Howling Cave}}
+* {{Place Link|Ice-Heart Home}}
+* {{Place Link|Lunar Fang Docks}}
+* {{Place Link|Riverwatch}}
+* {{Place Link|Shurgak Clan Estate}}
+* {{Place Link|Temple of the Ancestor Moths}}
+* {{Place Link|Thalara's Winery}}
+* {{Place Link|Waterside Mine}}
+* {{Place Link|Weye}}
+* {{Place Link|Weynon Priory}}
+* {{Place Link|Wilminn's Winery}}
+* {{Place Link|Zimar's Winery}}
+
+====Ayleid Ruins====
+* {{Place Link|Anga}}
+* {{Place Link|Belda}}
+* {{Place Link|Ceyatatar}}
+* {{Place Link|Culotte}}
+* {{Place Link|Fanacas}}
+* {{Place Link|Fanacasecul}}
+* {{Place Link|Hrotanda Vale}}
+* {{Place Link|Juras Falls}}
+* {{Place Link|Lake Mist Ruins}}
+* {{Place Link|Lindai}}
+* {{Place Link|Moranda}}
+* {{Place Link|Nagastani}}
+* {{Place Link|Narsinfel}}
+* {{Place Link|Ninendava}}
+* {{Place Link|Nornal}}
+* {{Place Link|Nornalhorst}}
+* {{Place Link|Piukanda}}
+* {{Place Link|Sardavar Leed}}
+* {{Place Link|Sedor}}
+* {{Place Link|Sercen}}
+* {{Place Link|Wenyandawik}}
+
+===Striking Locales===
+* {{Place Link|Abandoned Orchard}}
+* {{Place Link|Empire Tower}}
+* {{Place Link|Moffka's Lament}}
+* {{Place Link|White Fall Mountain}}
+* {{Place Link|Wooden Hand Outlook}}
+
+===Set Stations===
+* {{Place Link|Bruma Armory}}
+* {{Place Link|Cropsford Armory}}
+* {{Place Link|Vlastarus Armory}}
+
+===Mundus Stones===
+* {{Place Link|The Apprentice (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Atronach (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Lady (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Lover (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Mage (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Ritual (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Serpent (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Shadow (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Steed (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Thief (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Tower (Mundus Stone)|zone=Cyrodiil}}
+* {{Place Link|The Warrior (Mundus Stone)|zone=Cyrodiil}}
+
+===World Events===
+* {{Place Link|Applewatch Wood Dolmen}}
+* {{Place Link|Bruma (dolmen)}}
+* {{Place Link|Cheydinhal Foothills Dolmen}}
+* {{Place Link|Eastern Shore Dolmen}}
+* {{Place Link|Great Forest Dolmen}}
+* {{Place Link|Greenmead Dolmen}}
+* {{Place Link|Niben Basin Dolmen}}
+* {{Place Link|Nibenay Valley Dolmen}}
+* {{Place Link|Northwestern Shore Dolmen}}
+* {{Place Link|Winter's Reach Dolmen}}
+
+===Wayshrines===
+;Aldmeri Dominion
+* {{Place Link|Eastern Elsweyr Gate Wayshrine}}
+* {{Place Link|Western Elsweyr Gate Wayshrine}}
+;Daggerfall Covenant
+* {{Place Link|North High Rock Gate Wayshrine}}
+* {{Place Link|South High Rock Gate Wayshrine}}
+;Ebonheart Pact
+* {{Place Link|North Morrowind Gate Wayshrine}}
+* {{Place Link|South Morrowind Gate Wayshrine}}
+
+===Unmarked Locations===
+* {{Place Link|Abandoned Homestead}}
+* {{Place Link|Agrippa Mento's House}}
+* {{Place Link|Anutwyll}}
+* {{Place Link|Applewatch}}
+* {{Place Link|Arvina Estate}}
+* {{Place Link|Beriel's Lament}}
+* {{Place Link|Bleaker's Way}}
+* {{Place Link|Blessed Water}}
+* {{Place Link|Bravil}}
+* {{Place Link|Caractacus}}
+* {{Place Link|Carmala Outlook}}
+* {{Place Link|Clearwater Camp}}
+* {{Place Link|Crown Point (place)}}
+* {{Place Link|Gottlesfont Priory}}
+* {{Place Link|Green Lake}}
+* {{Place Link|Green Leaf Glade}}
+* {{Place Link|Horunn Outlook}}
+* {{Place Link|Imperial Outpost}}
+* {{Place Link|Kemen}}
+* {{Place Link|Lake Arrius}}
+* {{Place Link|Lake Rumare}}
+* {{Place Link|Magia Ruins}}
+* {{Place Link|Mist Mirror Refuge}}
+* {{Place Link|Mist Morrow Tower}}
+* {{Place Link|Niben Bay}}
+* {{Place Link|Niben River}}
+* {{Place Link|Pell's Gate}}
+* {{Place Link|Refugee Camp}}
+* {{Place Link|Rielle}}
+* {{Place Link|Sancre Tor}}
+* {{Place Link|Scinia Ruins}}
+* {{Place Link|Shadowed Path Tower}}
+* {{Place Link|Silverscale Pond}}
+* {{Place Link|Thaellin's Shack}}
+* {{Place Link|Thorn Lodge}}
+* {{Place Link|Timberscar Hollow}}
+* {{Place Link|Urasek Ruins}}
+* {{Place Link|Vaermina's Shrine}}
+* {{Place Link|Variela's Watchtower}}
+* {{Place Link|Vindasel}}
+* {{Place Link|Virtue Outlook}}
+* {{Place Link|Vlastarus Towers}}
+* {{Place Link|Western Larsius River}}
+
+For a list of places that are unmarked and cannot be accessed through normal means, see [[Online:Out-of-Bounds Locations in Cyrodiil|Out-of-Bounds Locations in Cyrodiil]].
+
+===Connected Worlds===
+* {{Place Link|Cheesemonger's Hollow (Chaos Magic)}}
+
+==Quests==
+===Alliance Quests===
+* {{Quest Link|Welcome to Cyrodiil}}
+* {{Quest Link|Siege Warfare}}
+* {{Quest Link|Reporting for Duty}}
+
+* {{Quest Link|City on the Brink}}
+
+* {{Quest Link|Chaos Magic}}
+
+;''The remainder of this section lists the PvE quests in Cyrodiil. For PvP quests, see [[Online:Alliance War#Quests|Alliance War Quests]]. For Imperial City DLC{{Crown Store}} quests, see [[Online:Imperial City#Quests|Imperial City Quests]].''
+
+===Settlement Quests===
+====[[Online:Bruma|Bruma]]====
+*{{Quest Link|Dangerously Low}}
+*{{Quest Link|Capstone Caps}}
+*{{Quest Link|Lost and Alone}}
+*{{Quest Link|The Standing Stones}}
+*{{Quest Link|Enemy Reinforcements}}
+*{{Quest Link|Know thy Enemy}}
+*{{Quest Link|Requests for Aid}}
+*{{Quest Link|Bring Down the Magister}}
+*{{Quest Link|The Unseen}}
+*{{Quest Link|Timely Intervention}}
+====[[Online:Cheydinhal|Cheydinhal]]====
+*{{Quest Link|Thorns in Our Side}}
+*{{Quest Link|Spice}}
+*{{Quest Link|Prisoners of War}}
+*{{Quest Link|The Burned Estate}}
+*{{Quest Link|Ayleid Treasure}}
+*{{Quest Link|Bloodied Waters}}
+*{{Quest Link|Keepsake}}
+*{{Quest Link|A Debt Come Due}}
+*{{Quest Link|Stacking the Odds}}
+*{{Quest Link|For Piety's Sake}}
+====[[Online:Chorrol|Chorrol]] and [[Online:Weynon Priory|Weynon Priory]]====
+*{{Quest Link|Death to the Black Daggers!}}
+*{{Quest Link|Guard Work is Never Done}}
+*{{Quest Link|Field of Fire}}
+*{{Quest Link|The High Cost of Lying}}
+*{{Quest Link|The Cache}}
+*{{Quest Link|Abominations}}
+*{{Quest Link|Claw of Akatosh}}
+*{{Quest Link|Overdue Supplies}}
+*{{Quest Link|The Lich}}
+*{{Quest Link|Black Dagger Supplies}}
+====[[Online:Cropsford|Cropsford]]====
+*{{Quest Link|Seeds of Hope}}
+*{{Quest Link|Offerings to Zenithar}}
+*{{Quest Link|Harvest Time}}
+*{{Quest Link|The Dead of Culotte}}
+*{{Quest Link|Crown Point (quest)}}
+*{{Quest Link|Bloody Hand Spies!}}
+*{{Quest Link|The Hedoran Estate}}
+*{{Quest Link|Securing Knowledge}}
+*{{Quest Link|Goblin's Delight}}
+*{{Quest Link|Timberscar Troubles}}
+====[[Online:Vlastarus|Vlastarus]]====
+*{{Quest Link|The Direct Approach}}
+*{{Quest Link|Death to the Crone}}
+*{{Quest Link|An Evil Presence}}
+*{{Quest Link|Bear Essentials}}
+*{{Quest Link|Mementos (quest)}}
+*{{Quest Link|Rock Bone Diplomacy}}
+*{{Quest Link|Stolen Banner}}
+*{{Quest Link|For a Friend}}
+*{{Quest Link|Essence of Flame}}
+*{{Quest Link|Silver Scales}}
+
+===Wilderness Quests===
+*{{Quest Link|Articles of Faith}}
+*{{Quest Link|Best Left Unknown}}
+*{{Quest Link|Better Late Than Never}}
+*{{Quest Link|Catch of the Day}}
+*{{Quest Link|Cause and Effect}}
+*{{Quest Link|Congratulations!}}
+*{{Quest Link|Distant Relatives}}
+*{{Quest Link|Heirloom}}
+*{{Quest Link|Homeward}}
+*{{Quest Link|Medicinal Herbs}}
+*{{Quest Link|Misplaced Knowledge}}
+*{{Quest Link|Nirnroot Wine}}
+*{{Quest Link|Out for a Walk}}
+*{{Quest Link|Regret}}
+*{{Quest Link|Sands of Sentinel}}
+*{{Quest Link|Secrets Revealed}}
+*{{Quest Link|Special Delivery}}
+*{{Quest Link|Spoils of War}}
+*{{Quest Link|Supplies for Applewatch}}
+*{{Quest Link|The Changing Kind}}
+*{{Quest Link|The Devils You Know}}
+*{{Quest Link|The Doctor's Bag}}
+*{{Quest Link|The High Cost of Travel}}
+*{{Quest Link|The List}}
+*{{Quest Link|The Message}}
+*{{Quest Link|The Shurgak Job}}
+*{{Quest Link|The Silver Flute}}
+
+===Fighters Guild Quests===
+* {{Quest Link|Bounty: Black Daggers}}
+* {{Quest Link|Bounty: Goblins}}
+* {{Quest Link|Bounty: Gray Vipers}}
+* {{Quest Link|Bounty: Shadowed Path}}
+
+==Skyshards==
+There are a total of 46 Skyshards to be found in Cyrodiil, which is split 15 per each Alliance Territory, and 1 atop [[ON:White Fall Mountain|White Fall Mountain]] in Ebonheart Territory.
+{{Showhide/Start|Aldmeri Dominion}}
+{{ON:Cyrodiil Aldmeri Skyshard Hunter/chart}}
+{{Showhide/End}}
+{{Showhide/Start|Daggerfall Covenant}}
+{{ON:Cyrodiil Covenant Skyshards/chart}}
+{{Showhide/End}}
+{{Showhide/Start|Ebonheart Pact}}
+{{ON:Cyrodiil Pact Skyshard Hunter/chart}}
+{{Showhide/End}}
+{{Showhide/Start|Other}}
+{|class=wikitable
+!Clue!!colspan=2|Location!!Notes
+|-
+|''Where White Fall reaches for Aetherius.''
+|At the top of [[ON:White Fall Mountain|White Fall Mountain]]
+|{{Map Link|2210}}
+|
+|}
+{{Showhide/End}}
+
+==Notes==
+* Each alliance controls a number of safe areas within Cyrodiil. These places are indicated on the wiki using different iconography depending on the function of the area. See [[Online:Alliance War#Safe Zones|Safe Zones]] for details.
+* Unlike most other zones, Cyrodiil had no set level range before [[ON:One Tamriel|One Tamriel]]. It could be accessed at {{ESO Veteran|normal=10}} and [[Online:Battle Leveling|battle-leveling]] combined with the many [[Online:Campaigns#Bonuses|campaign bonuses]] made it possible for lower level players to participate in PvP. PvE enemies were last set at {{ESO Champion|140}} ({{ESO Veteran|veteran=14}}), although previously they were scaled to {{ESO Veteran|veteran=12}}, {{ESO Veteran|veteran=5}}, and originally {{ESO Veteran|normal=50}}. The Imperial City was scaled to {{ESO Champion|160}} ({{ESO Veteran|veteran=16}}).
+* Cyrodiil is the largest zone in Elder Scrolls Online, and to make sure battles can be won, there is limited fast-traveling. It is a good idea to bring a horse as it can take some time to travel on foot between areas. You cannot fast-travel to a keep under attack; you must make your way on foot or horseback.
+* Some villages are alliance-neutral &mdash; no NPCs will pose a threat. However, alliance-affiliated NPC guards will patrol towns controlled by alliances, and they will react to enemy alliance players. Other villages have been overrun by enemy factions who will attack anyone regardless of their affiliation.
+{{NewLine}}
+
+==Maps==
+{{Multiple Images|align=left|width=250
+|image1=ON-map-Cyrodiil.jpg|caption1=A map of Cyrodiil
+|image2=ON-map-Cyrodiil (unmarked locations).jpg|caption2=Map of Cyrodiil with area names and unmarked locations
+}}
+{{NewLine}}
+
+==Gallery==
+<gallery>
+File:ON-load-Cyrodiil.jpg|[[ON:Loading Screens/deprecated|Old loading screen]]
+File:ON-concept-Conflict in Cyrodiil, Part 1.jpg|A town in Cyrodiil in flames
+File:ON-concept-20.jpg|A band of warriors with the Imperial City in the background
+File:ON-concept-21.jpg|A desolate view of the Imperial City
+File:ON-concept-22.jpg|A battle inside the Imperial City
+File:ON-wallpaper-Cyrodiil Under Siege-1366x768.jpg|A keep in Cyrodiil under attack
+</gallery>
+
+{{Online Subzones}}

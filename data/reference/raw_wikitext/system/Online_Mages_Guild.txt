@@ -1,0 +1,132 @@
+<noinclude>{{Trail|Factions}}{{About|the faction|one of the various places|{{pl|Category:Online-Places|Category:Online-Places|from{{=}}Mages&#32;Guild#mw-pages}}}}</noinclude>
+The [[Online:Mages Guild|Mages Guild]] is an organization dedicated to magical learning with a presence all throughout [[ON:Tamriel|Tamriel]]. It was founded by [[ON:Vanus Galerion|Vanus Galerion]] following his departure from the [[ON:Psijic Order|Psijic Order]].<noinclude>
+
+To join, go to any Mages Guild hall and speak with [[Online:Curinure|Curinure]], [[Online:Nemarc|Nemarc]], or [[Online:Rudrasa|Rudrasa]] (regardless of your alliance) and tell them you're ready to join. To gain reputation with them, you must bring them lost tomes of [[Online:Shalidor's Library|Tamrielic lore]]. Each lorebook adds five points to the Mages Guild skill line, and an increasing number of points is required to gain a rank. Good relations with the guild can earn you new skills, perks, and abilities. The Mages Guild quest line is focused around the Daedric Prince of Madness, [[Online:Sheogorath|Sheogorath]].
+
+The Mages Guild, along with the [[Online:Fighters Guild|Fighters Guild]], is also at the head of an assault into [[Online:Coldharbour|Coldharbour]] which takes place at the culmination of the [[Online:Story Quests|Alliance Storyline]] and [[Online:Main Quest|Main Quest]]. Note that progression through the Mages Guild quest line does not affect this in any way.
+
+{{FMI}}
+
+==Quests==
+*Joining Quests
+:{{ESO Alliances
+|Dominion={{Quest Link|Curinure's Invitation}}
+|Covenant={{Quest Link|Nemarc's Invitation}}
+|Pact={{Quest Link|Rudrasa's Invitation}}}}
+*{{Quest Link|Long Lost Lore}}
+*{{Quest Link|Simply Misplaced}}
+*{{Quest Link|Circus of Cheerful Slaughter (quest)}}
+*{{Quest Link|Chateau of the Ravenous Rodent (quest)}}
+*{{Quest Link|The Mad God's Bargain}}
+*{{Quest Link|The Arch-Mage's Boon}}
+
+===Public Dungeon Dailies===
+These quests are available after joining the Mages Guild, and are offered by [[ON: Alvur Baren|Alvur Baren]] located within the Mages Guild buildings of Elden Root (Grahtwood), Mournhold (Deshaan), and Wayrest (Stormhaven). These quests will send you to a random public dungeon to retrieve an artifact associated with Sheogorath. These quests can be shared with other members of your group, so it is possible to do up to 15 of these quests in a day. These quests will give Mages Guild reputation, as well as a small box of rewards. These quests are one way of obtaining the [[ON: Draugr Style|Draugr motif]].
+
+*{{Quest Link|Madness in Alik'r Desert}}
+*{{Quest Link|Madness in Auridon}}
+*{{Quest Link|Madness in Bangkorai}}
+*{{Quest Link|Madness in Deshaan}}
+*{{Quest Link|Madness in Eastmarch}}
+*{{Quest Link|Madness in Glenumbra}}
+*{{Quest Link|Madness in Grahtwood}}
+*{{Quest Link|Madness in Greenshade}}
+*{{Quest Link|Madness in Malabal Tor}}
+*{{Quest Link|Madness in Reaper's March}}
+*{{Quest Link|Madness in Rivenspire}}
+*{{Quest Link|Madness in Shadowfen}}
+*{{Quest Link|Madness in Stonefalls}}
+*{{Quest Link|Madness in Stormhaven}}
+*{{Quest Link|Madness in the Rift}}
+
+==Skill Perks==
+{{/Progression}}
+{{ESO Skill Notes}}
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{{NewLine}}
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Meteor}}
+|}
+
+===Active Abilities===
+{| class="wikitable"
+!colspan=2|Name!!width=2|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Magelight}}
+{{Online Skill Link|Entropy}}
+{{Online Skill Link|Fire Rune}}
+{{Online Skill Link|Equilibrium}}
+|}
+
+===Passive Abilities===
+{| class="wikitable"
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Persuasive Will}}
+{{Online Skill Link|Mage Adept}}
+{{Online Skill Link|Everlasting Magic}}
+{{Online Skill Link|Magicka Controller}}
+{{Online Skill Link|Might of the Guild}}
+|}
+
+==Reputation==
+All guilds use reputation for leveling purposes. Mages Guild {{ESO Reputation|MG}} Reputation is gained by finding [[Online:Shalidor's Library|Lorebooks]]. Each Lorebook recovered grants {{ESO Reputation|MG|5}}, while completing a collection of lorebooks grants {{ESO Reputation|MG|20}}. You can also earn {{ESO Reputation|MG|10}} for each completed Public Dungeon [[#Public Dungeon Dailies|daily quest]], and {{ESO Reputation|MG|5}} for each{{vn|plain}} [[Online:The Madness Isn't Catching|relic recovery achievement]]. Finally destroying a [[ON:Soul Reaper|Soul Reaper]] awards {{ESO Reputation|MG|20}} (once per day). It takes {{ESO Reputation|MG|1380}} Reputation points to reach Mages Guild Rank 10, and it is possible to earn {{ESO Reputation|MG|1365}} by collecting all Lorebooks within your home alliance territories, Coldharbour and Cyrodiil. The remaining {{ESO Reputation|MG|15}} must come from dailies or the zone collections of the other alliance areas.
+
+The reward coffer for daily quests has a small chance for a Mages Guild Citation worth 15 {{ESO Reputation|MG}}. These citations can be stacked and traded.
+
+{| class="wikitable"
+|-
+! Rank !! Reputation Required<br>for Next Rank !! Total Reputation<br>for Rank
+|-
+| 1 || 70 || 0
+|-
+| 2 || 90 || 70
+|-
+| 3 || 110 || 160
+|-
+| 4 || 130 || 270
+|-
+| 5 || 150 || 400
+|-
+| 6 || 170 || 550
+|-
+| 7 || 190 || 720
+|-
+| 8 || 210 || 910
+|-
+| 9 || 260 || 1120
+|-
+| 10 || - || 1380
+|}
+
+==Generic Members==
+*[[Online:Mages Guild Adept|Mages Guild Adept]]
+*[[Online:Mages Guild Apprentice|Mages Guild Apprentice]]
+*[[Online:Mages Guild Conjurer|Mages Guild Conjurer]]
+*[[Online:Mages Guild Destroyer|Mages Guild Destroyer]]
+*[[Online:Mages Guild Healer|Mages Guild Healer]]
+*[[Online:Mages Guild Researcher|Mages Guild Researcher]]
+*[[Online:Mages Guild Scholar|Mages Guild Scholar]]
+*[[Online:Mages Guild Warlock|Mages Guild Warlock]]
+*[[Online:Mages Guild Wizard|Mages Guild Wizard]]
+
+==Achievements==
+There are six [[ON:Character Achievements#Guilds|achievements]] associated with this faction:
+{{#local:showreward|1}}
+{{ESO Achievements List|multi=
+{{EAL/Group
+  |Student of the Mages Guild|{{ESO ArmorDye Icon|Mages Guild Blue|link=1}}
+  |Arch-Mage (achievement)|{{ESO ArmorDye Icon|Eyevea Blue|link=1}}<br>'''Title''': Master Wizard
+  |Mages Guild Skill Master|{{ESO ArmorDye Icon|Arcane Blue|link=1}}}}
+{{EAL/Group|groupline=thick
+  |first=The Madness Isn't Catching
+  |But I'd Say It's Rather Fetching|
+  |With Butterflies A-Retching|}}
+}}
+
+==Notes==
+*For historical information on the Mages Guild, see the [[Lore:Mages Guild|lore article]].
+*The Everlasting Magic passive only affects the duration of your Mages Guild Skills, not the amount of damage.  For example, at level 2 of the passive, Degeneration will do 4653 damage over 12 seconds (387 dps) instead of over 10 seconds (465 dps).
+{{Online Factions}}
+{{Online Skills}}
+[[Category:Online-Skill Lines]][[Category:Online-Skill Lines-Guild]]

@@ -1,0 +1,50 @@
+# Online:The Saint and the Seducer
+
+Source: https://en.uesp.net/wiki/Online:The_Saint_and_the_Seducer
+License: CC BY-SA, UESP
+
+The Saint and the Seducer (achievement)
+:Twin visages stare out at you from this medallion. One implacable and determined. One sly and smirking. Which calls to you?
+The Saint and the Seducer is a Mythic necklace that comes with the Prismatic enchanment. It can be obtained through the Antiquities system. It was released as part of the Gold Road Chapter.
+
+### Bonuses
+
+1 item: While in combat, you gain one of five random Major buffs which changes every 10 seconds. Enemies within 12 meters of you gain one of five random Minor debuffs depending on which buff you have. The available effects are: Major Berserk and Minor Maim Major Resolve and Minor Breach Major Force and Minor Brittle Major Evasion and Minor Vulnerability Major Courage and Minor Cowardice
+
+### Fragments
+- Five fragments are required to create the item, all of which require a master-quality Lead in order to scry, and are classed as master difficulty to excavate.
+- You are required to be at least level 7 in Scrying, and have the Antiquarian Insight IV passive in order to scry Master difficulty leads.
+- Fragment Leads are largely found in the same zone as where the fragment is excavated, save for a few cases where it may be found in different zone.
+
+Icon | Lead | Source | Zone | colspan=3|Codex Entry
+
+Cylarne-crafted Yoke | style="white-space: nowrap;"| Maelstrom Arena Reward Chests | style="white-space: nowrap;"| West Weald
+A yoke to a necklace of exquisite beauty, the style of crafting is something I've never quite seen before. It seems almost as if made by two pairs of hands, two different artisans, though its diminuative size makes that almost impossible. - Amalien
+One artisan clearly was an arrogant master of their craft. They took extravagant glee in showing off their skill, though the half of the yoke they've made seems somewhat sterile as a result. - Amalien
+The other artisan to this piece was, for lack of a better phrase, a mad genius. Artistry for the sake of it, needless complexity, to the point where their half of the yoke is most likely quite difficult to actually slip into place against a chain. - Amalien
+
+Dark Seducer Cameo | style="white-space: nowrap;"| Bosses in the Vile Manse, Reaper's March | style="white-space: nowrap;"| West Weald
+A cameo of a Dark Seducer, companion to a Golden Saint cameo being examined by Reginus. The detail is remarkable, almost as if the artisan made this piece at a larger scale to capture fine details and somehow reduced it in size again to fit on a necklace. - Amalien
+After some odd comments from colleagues I took up outside my office after hours to read a book and listen. A strange sort of lilting song started up as dusk settled in. I confirmed it with my own eyes, this cameo sings when no one is around to observe it. - Amalien
+After Reginus' time with the Aureal cameo I thought it might be interesting to bring both companion pieces together for co-examination. A note here for the files: never do that again. My eyebrows are still growing in and Reginus will be bruised for weeks. - Amalien
+
+Enjaen Saltchain Links | style="white-space: nowrap;"| Bosses Dezanu and Calls-to-Nature in Sheogorath's Tongue, Stonefalls | style="white-space: nowrap;"| West Weald
+Our consulatations for the Circle regularly force me to look up variations on the word fascinating. Just to be sure my missives to the group don't sound repetitve. Daedric in origin, I would say this chain is mesmeric. Reginus? - Amalien
+I quite like transfixing. Definitely Daedric, but the links are made from an alchemical admixture of saltwater. The tomes I referenced indicate there are only a few realmic bodies that might fit the bill. Notes back to you Amalien. - Reginus Buca
+The Shivering Isles. Under magical examination the salt crystals appear to the same as those taken from the Enjaen Sea to the East of the realm's main landmass. I read a paper once noting that the seawater also held trace metals in the water. Riveting. - Amalien
+
+Golden Saint Cameo | style="white-space: nowrap;"| Staada World Boss at Lesser Circle | style="white-space: nowrap;"| West Weald
+An exquisite likeness of an Aureal Daedra and the companion piece to a similar cameo of a Mazken Amalien is examining. The detail on this is remarkable, perhaps done with specialized tools. At the very least, would require a master craftsman's skill. - Reginus Buca
+This relic sat on my desk as I worked on other artifacts, and I would swear this thing is looking at me. Making strange faces. I wouldn't mention it in an official note I had not caught it trying to sneak a peek at my notes on its Dark Seducer twin. - Reginus Buca
+I can confirm after a visit Reginus' desk that this cameo is indeed "making faces" at him. I've arranged a consulation with an Arcanist Gabrielle knows through her correspondence series, perhaps he will have some insights into this phenomenon. - Amalien
+
+Vitharn-crafted Bail | style="white-space: nowrap;"| Chests from Dark Anchors around Tamriel | style="white-space: nowrap;"| West Weald
+If I was a scholar at a lesser institution like Shad Astula I might presume this necklace clasping was crafted at a bucolic near Cyrodiil. Instead, as I am rigorous, I tested it and found a number of Daedric micro-etchings beneath my lens. - Reginus Buca
+An excellent observation. And quite true, these were done by a follower of a Prince with pretensions of normalcy. Or delusions. Hmm. These micro-runes also contain a surprising amount of magickal power. - Amalien
+I referenced the University's collection of Dementia-crafted items, to great success. Originating in that cursed county seat within the Shivering Isles, this clasping no doubt bears a tragic tale all its own. - Amalien
+
+### Notes
+
+## Achievements
+There are two achievements associated with this item:
+Antiquarian Chase: West Weald

@@ -1,0 +1,11 @@
+{{Trail|Combat}}
+'''Critical Damage''' is a value that represents the increased damage a given attack will do when performing a Critical Strike. How often you will deal Critical Damage depends upon the higher of your [[ON:Spell Critical (effect)|Spell Critical]] and [[ON: Weapon Critical (effect)|Weapon Critical]]. Critical Damage starts with a base damage increase of 50%, and is capped at 125%. NPCs do not have any [[ON:Critical Resistance|Critical Resistance]], though enemy players will.
+
+There are several ways to increase this:
+*[[ON:Races|Racial]] and [[On:Classes|Class]] passives, such as [[ON:Feline Ambush|Feline Ambush]] and [[ON:Aedric Spear|Aedric Spear]].
+*[[ON:The Shadow (Mundus Stone)|The Shadow]] Mundus Stone.
+*[[ON:Champion Points|Champion Point]] Slottables, [[ON:Fighting Finesse|Fighting Finesse]] and [[ON:Backstabber|Backstabber]].
+*[[ON:Major Brittle|Major]] and [[ON:Minor Brittle|Minor]] Brittle.
+*[[ON:Major Force|Major]] and [[ON:Minor Force|Minor]] Force.
+*Wearing [[ON:Dexterity|Medium armor]] pieces.
+*Additionally some sets contain Critical Damage as part of the 5 piece bonus. See : [[:Category:Online-Sets with Increase Critical Damage]]

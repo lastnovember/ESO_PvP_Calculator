@@ -1,0 +1,11 @@
+Name,Line Rank,Skill Rank,Description
+,Essence Drain,5,,"WITH RESTORATION STAFF EQUIPPED You gain Major Mending for 2 seconds after completing a fully-charged Heavy Attack , increasing your healing done by 16 %. You also heal yourself or an ally within 12 meters of the target for 25 % of the damage inflicted by the final hit of a fully-charged Heavy Attack."
+34,,"WITH RESTORATION STAFF EQUIPPED You gain Major Mending for 4 seconds after completing a fully-charged Heavy Attack, increasing your healing done by 16 %. You also heal yourself or an ally within 12 meters of the target for 50 % of the damage inflicted by the final hit of a fully-charged Heavy Attack."
+,Restoration Expert,10,,WITH RESTORATION STAFF EQUIPPED Increases your healing by 8 % on allies under 30% Health .
+17,,WITH RESTORATION STAFF EQUIPPED Increases your healing by 15 % on allies under 30% Health .
+,Cycle of Life,25,,WITH RESTORATION STAFF EQUIPPED Your fully-charged Heavy Attacks restore 15% more Magicka .
+30,,WITH RESTORATION STAFF EQUIPPED Your fully-charged Heavy Attacks restore 30% more Magicka .
+,Absorb,28,,WITH RESTORATION STAFF EQUIPPED Restores 300 Magicka whenever you block an attack. This effect can occur once every .25 seconds.
+46,,WITH RESTORATION STAFF EQUIPPED Restores 600 Magicka whenever you block an attack. This effect can occur once every .25 seconds.
+,Restoration Master,41,,WITH RESTORATION STAFF EQUIPPED Increases healing with Restoration Staff spells by 3 %.
+50,,WITH RESTORATION STAFF EQUIPPED Increases healing with Restoration Staff spells by 5 %.

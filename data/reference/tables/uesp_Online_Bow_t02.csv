@@ -1,0 +1,26 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Snipe,2,0.8 seconds,Enemy,35 meters,–,–,2700 Stamina
+"Plant a masterfully aimed arrow in an enemy's vital spot, dealing [6365 / 6435 / 6505 / 6575] Physical Damage ."
+,,Lethal Arrow,"Deals Poison Damage and always applies the Poisoned status effect. Also applies Minor Defile to the enemy. Plant a masterfully aimed arrow in an enemy's vital spot, dealing [6574 / 6646 / 6718 / 6790] Poison Damage and applying the Poisoned status effect . Also afflicts enemy with Minor Defile , which reduces their healing received and damage shield strength by 6 % for 4 seconds."
+,Focused Aim,"Increases the range, always applies the Sundered status effect, and reduces cost as the ability ranks up. Cost: [2700 / 2610 / 2520 / 2430] Stamina , Range: 40 meters. Plant a masterfully aimed arrow in an enemy's vital spot, dealing 6574 Physical Damage and applying the Sundered status effect."
+""
+,Volley,4,Instant,Ground,28 meters,5 meters,10 seconds,2700 Stamina
+"Launch a multitude of arrows into the sky to rain down, dealing [909 / 920 / 928 / 939] Physical Damage to enemies in the target area every 1 second for 8 seconds, after a 2 second delay."
+,,Endless Hail,"Increases the duration. Duration: [12 / 13 / 14 / 15] seconds. Launch a multitude of arrows into the sky to rain down, dealing 939 Physical Damage to enemies in the target area every 1 second for [10 / 11 / 12 / 13] seconds, after a 2 second delay."
+,Arrow Barrage,"Increases the radius and damage done. Radius: 7 meters. Launch a multitude of arrows into the sky to rain down, dealing [1222 / 1234 / 1247 / 1260] Physical Damage to enemies in the target area every 1 second for 8 seconds, after a 2 second delay."
+""
+,Scatter Shot,14,Instant,Enemy,22 meters,–,–,3780 Stamina
+"Blast an enemy with an explosive arrow, dealing [3690 / 3730 / 3771 / 3811] Physical Damage , knocking them back 8 meters."
+,,Magnum Shot,"Deals increased damage and reduces the cost. Cost: 3510 Stamina . Blast an enemy with an explosive arrow, dealing [4573 / 4623 / 4673 / 4723] Physical Damage and knocking them back 8 meters."
+,Draining Shot,"Heals you if enemy is successfully hit, but snares them instead of stunning . Blast an enemy with an enchanted arrow, dealing 3811 Physical Damage and reducing their Movement Speed by 60 % for 3 seconds. If the enemy is hit, you heal for [6351 / 6420 / 6489 / 6559] ."
+""
+,Arrow Spray,20,Instant,Area,–,20 meters,–,3510 Stamina
+"Fire a burst of arrows in one shot, dealing [4612 / 4662 / 4713 / 4764] Physical Damage to enemies in front of you."
+,,Bombard,"Immobilizes enemies hit and reduces the cost as the ability ranks up. Cost: [3510 / 3420 / 3330 / 3240] Stamina , Duration: 4 seconds. Fire a burst of arrows in one shot, dealing 4764 Physical Damage to enemies in front of you. Enemies hit are immobilized for 4 seconds."
+,Acid Spray,"Deals Poison Damage and adds additional damage over time. Duration: 4 seconds. Fire a burst of arrows in one shot, dealing 4764 Poison Damage to enemies in front of you, and dealing an additional [4335 / 4385 / 4430 / 4480] Poison Damage over 5 seconds."
+""
+,Poison Arrow,38,Instant,Enemy,28 meters,–,20 seconds,2700 Stamina
+"Shoot an arrow coated in Baandari poison at an enemy, dealing [3074 / 3107 / 3141 / 3175] Poison Damage and an additional [9210 / 9300 / 9410 / 9510] Poison Damage over 20 seconds."
+,,Venom Arrow,"Interrupts enemies hit if they are casting. Grants Major Brutality and Sorcery after casting. Reduces cost as ability ranks up. Cost: [2700 / 2610 / 2520 / 2430] Stamina . Shoot an arrow coated in Shadowscale poison at an enemy, dealing 3175 Poison Damage and an additional 9520 Poison Damage over 20 seconds. If the enemy hit is casting an ability they are interrupted , set Off Balance , and stunned for 3 seconds. After casting you gain Major Brutality and Sorcery , increasing your Weapon and Spell Damage for 20 seconds."
+,Poison Injection,"Deals additional damage to low Health enemies. Shoot an arrow coated in Baandari poison at an enemy, dealing 3175 Poison Damage and an additional 9520 Poison Damage over 20 seconds. Deals up to [105 / 110 / 115 / 120] % more damage to enemies under 50% Health ."
+""

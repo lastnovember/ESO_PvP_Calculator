@@ -1,0 +1,10 @@
+{{Online Champion 2.0 Summary
+|titlename=Force of Nature
+|sign=Extended Might
+|type=slotted
+|stagepoints=50
+|maxpoints=50
+|desc=Increases your Offensive Penetration by 660 for every status effect your target has.
+}}
+
+{{stub|Champion}}

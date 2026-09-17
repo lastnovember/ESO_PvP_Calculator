@@ -1,0 +1,93 @@
+__NOTOC__{{Trail|Crafting}}
+{{/Progression}}
+'''Provisioning''' is a [[Online:Crafting|crafting]] profession in ''[[Online:Online|Elder Scrolls Online]]'' used to transform [[Online:Provisioning Ingredients|provisioning ingredients]] into cooked food and brewed drinks. It is the equivalent of cooking in [[Skyrim:Skyrim|Skyrim]]. Provisioning [[Online:Recipes|recipe]]s are broken into two categories, [[Online:Food Recipes|Food Recipes]] and [[Online:Beverage Recipes|Beverage Recipes]]. You must be at a Cooking Fire in order to create any items. Once you are [[ON:Crafting_Certification|Certified]] in this craft, you will have access to repeatable [[ON:Crafting_Writs|Crafting Writ quests]].
+
+In general, provisioning ingredients can be found by searching sacks, barrels, baskets and crates. [[ON:Grocers|Grocers]] also sell ingredients, but have a limited selection. Various creatures throughout the world can also be hunted for meat.
+
+In the other professions, you are able to make items as soon as you have the materials. However, in Provisioning you must have found and learned a recipe before you are able to create any Food or Drink. Recipes may be found as random drops, especially in containers such as Cupboards and Chests and they may be bought from Chefs and Brewers, Guild Stores, or from other players. Completing [[Online:Provisioner Writ|Provisioning Writs]] will give the player a random level specific recipe. In addition to their normal stock of recipes, Chefs and Brewers will have the appropriate recipe for the daily Provisioning Writ.
+
+Food items boost at least one of the three stats, Health, Magicka, or Stamina for a period of time. Drinks provide more rapid regeneration of at least one of the three stats over a period of time.
+
+Recipes come in four strengths. {{ESO Quality Color|f|Standard Recipes}} are the weakest, and affect only one stat. {{ESO Quality Color|s|Difficult Recipes}} are intermediate, and affect two stats. {{ESO Quality Color|e|Complex Recipes}} are more powerful, and will affect all three stats. {{ESO Quality Color|l|Legendary Recipes}} require the rarest ingredients and usually provide unique bonuses not found elsewhere.
+
+In addition to food and drinks, the Provisioning skill allows you to craft [[ON:Furnishing Designs|furnishings]] for your home. [[Online:Fishing|Fish]] can also be fileted at a Cooking Fire.
+
+== Learning ==
+The Provisioning skill line is granted the first time you activate a cooking fire. You can increase your skill by crafting food or drinks, learning recipes, and by completing [[ON:Provisioner Writ|Provisioner Writ]]s or [[ON:A Masterful Feast|Master Writs]].  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere. The skill books which increase Provisioning are:
+*[[ON:Cooking Mastery, The Easy Way|Cooking Mastery, The Easy Way]]
+*[[ON:Seafood Supper|Seafood Supper]]
+*[[ON:Redoran Cooking Secrets|Redoran Cooking Secrets]]
+*[[ON:A New Recipe?|A New Recipe?]]
+*[[ON:Baandari Mutton Stew|Baandari Mutton Stew]]
+
+== Provisioner Dialogue ==
+You can learn about this profession by asking some of the chefs, brewers or grocers.
+:'''Can you tell me about provisioning?''' 
+:''"Of course! We provisioners practice the arts of cooking and brewing.<br>Good food requires the best ingredients. We gather fresh meat and produce from crates, barrels, and the like. If we're lucky, we'll also find recipes in chests, trunks, and desks."''
+:'''So you get ingredients and recipes&mdash;what then?'''
+:''"Once you've copied the recipe down and acquired the necessary ingredients, that's when the real fun begins. Cooking pots and rotisseries can be found all over. You need only find one, select a recipe, and then indulge in the simple joy of cooking!"''
+:'''What sort of food can I make?'''
+:''"Don't forget drink!<br>Hearty meals will fill your belly, increasing your general well-being&mdash;both body and soul. Strong drink can stimulate the humors, allowing you to recover more quickly.<br>If you're lucky, you might find a recipe that does both!"''
+
+==Stats Affected by Recipes==
+'''{{ESO Quality Color|f|Standard Recipes:}}'''
+* Health: {{ESO Quality Color|f|Meat Dishes}} and {{ESO Quality Color|f|Alcoholic Drinks}}
+* Magicka: {{ESO Quality Color|f|Fruit Dishes}} and {{ESO Quality Color|f|Teas}}
+* Stamina: {{ESO Quality Color|f|Vegetable Dishes}} and {{ESO Quality Color|f|Tonics}}
+
+'''{{ESO Quality Color|s|Difficult Recipes:}}'''
+* Health and Magicka: {{ESO Quality Color|s|Savouries}} and {{ESO Quality Color|s|Liqueurs}}
+* Health and Stamina: {{ESO Quality Color|s|Ragout}} and {{ESO Quality Color|s|Tinctures}}
+* Magicka and Stamina: {{ESO Quality Color|s|Entremet}} and {{ESO Quality Color|s|Cordial Teas}}
+
+'''{{ESO Quality Color|e|Complex Recipes:}}'''
+* Health, Magicka and Stamina: {{ESO Quality Color|e|Gourmet}} and {{ESO Quality Color|e|Distillates}}
+
+'''{{ESO Quality Color|l|Legendary Recipes:}}'''
+* Unique combinations of bonuses: They are found under {{ESO Quality Color|l|Delicacies}}, but not all are marked as gold.
+
+==Skill Perks==
+Provisioning has an associated skill line that is revealed through use of the Provisioning profession. Abilities are listed below.
+===Passive Abilities===
+Passive abilities are active all the time, and affect the outcome of Provisioning related activities.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Recipe Improvement}}
+{{Online Skill Link|Recipe Quality}}
+{{Online Skill Link|Gourmand}}
+{{Online Skill Link|Connoisseur}}
+{{Online Skill Link|Chef}}
+{{Online Skill Link|Brewer}}
+{{Online Skill Link|Hireling (Provisioning)}}
+|}
+
+===Skill points===
+The table below shows the amount of [[Online:Skills|skill points]] required in order to max out the [[Online:Provisioning|Provisioning]] skill line.
+
+{| class="wikitable sortable"
+|-
+! Order!! Progression !! Skill points required
+|-
+| 1 || [[Online:Recipe Improvement|Recipe Improvement]] || 5
+|-
+| 2 || [[Online:Recipe Quality|Recipe Quality]] || 3
+|-
+| 3 || [[Online:Gourmand|Gourmand]] || 3 
+|-
+| 4 || [[Online:Connoisseur|Connoisseur]] || 3 
+|-
+| 5 || [[Online:Chef|Chef]] || 3
+|-
+| 6 || [[Online:Brewer|Brewer]] || 3
+|-
+| 7 || [[Online:Hireling (Provisioning)|Hireling]] || 3 
+|-class="sortbottom"
+|'''Totals:'''||'''All'''||'''23'''
+|}
+
+== Achievements ==
+There are a number of achievements associated with Provisioning.
+{{/Achievements}}
+
+{{Online Skills}}
+[[Category:Online-Skill Lines]][[Category:Online-Skill Lines-Crafting]]

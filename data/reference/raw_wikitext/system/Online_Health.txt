@@ -1,0 +1,38 @@
+{{Trail|Attributes}}
+{{ESO Health Link}} is the amount of damage that any person or creature can take before dying. It is equivalent to [[Wikipedia:hit point|hit points]] (HP) used in other games.
+
+==Maximum Health==
+The amount of health you have depends on your character's [[Online:Leveling|level]]. Each time you level up, your maximum health [[Online:Attributes|attribute]] increases.  You can additionally choose to increase your maximum health by allocating attribute points to it.
+
+A level 1 character starts with 1300 health points and gains 300 points of health per level, resulting in 16000 health points at level 50. Additionally, every stat point allocated to health increases the stat by 122 points. A level 50 character with all 64 stat points allocated to health will have the maximum base health of 23808 points. This is without taking into account any of the numerous bonuses available.
+
+Your health attribute can be increased using equipment with a [[Online:Glyph of Health|Glyph of Health]] or [[Online:Glyph of Prismatic Defense|Glyph of Prismatic Defense]] enchantment, with skills and items giving the [[Online:Buffs#Toughness|Toughness]] buff, through [[Online:Jewelry|jewelry]] with the [[Online:Healthy (trait)|healthy]] and [[Online:Triune|triune]] traits, with certain [[Online:Sets|set bonuses]] and with the [[Online:The Lord (Mundus Stone)|Lord Mundus Stone]]. Characters over level 50 can further increase their health with the [[Online:Champion|champion]] perks [[Online:Boundless Vitality|Boundless Vitality]] and [[Online:Hero's Vigor|Hero's Vigor]]. [[Online:Food|Food]] can be used to temporarily increase maximum health.
+
+[[Online:Argonian|Argonian]]s, [[Online:Imperial|Imperial]]s, [[Online:Nord|Nord]]s, and [[Online:Orc|Orc]]s can increase their maximum health with racial traits.
+
+The formula for maximum health is:
+<code>Health = (300 * Level + 1000 + 122 * Attribute.Health + Item.Health + Set.Health + Food.Health + Skill2.Health + Mundus.Health)*(1 + Skill.Health + Buff.Health)</code>
+
+
+==Health Recovery==
+Health recovery refers to how quickly your health regenerates. This increases as your character levels. Increasing the health stat does not increase health recovery.
+
+A level 1 character starts with a health regeneration of 35. Health recovery increases by approximately 5.59 points per level, rounded to the nearest integer. A level 50 character with no other bonuses will have a health recovery of 309 points.
+
+Health recovery can be increased by using equipment with the [[Online:Invigorating|invigorating]] effect, through bonuses from some item sets, with the [[Online:The Steed (Mundus Stone)|Steed]] Mundus Stone, through skills or items offering the [[Online:Buffs#Fortitude|fortitude]] buff, from jewelry with a [[Online:Glyph of Health Recovery|glyph of health recovery]], and with many passive abilities from skill trees. Characters over level 50 can increase their health recovery with the champion perk [[Online:Rejuvenation|Rejuvenation]]. Certain [[Online:Drinks|Drinks]] can increase health recovery for a duration of time. Characters afflicted with [[Online:Vampire|vampirism]] will suffer increasing penalties to their health recovery depending on their vampire stage.
+
+[[Online:Khajiit|Khajiit]], Nords, and Orcs can increase their health recovery with racial traits.
+
+The formula for health recovery is:
+<code>HealthRegen = (round(5.592 * Level + 29.4) + Item.HealthRegen + Set.HealthRegen + floor(Set.HealthRegenResistFactor * (PhysicalResist + SpellResist)) + Mundus.HealthRegen + (Food.HealthRegen)*(1/(1 + Skill2.HealthRegen)))*(1 + CP.HealthRegen + Skill.HealthRegen + Buff.HealthRegen)*(1 + Skill2.HealthRegen)*(1 + Vampire.HealthRegen)</code>
+
+
+==Restoring Health==
+You lose health when taking damage. The red bar in the bottom center of the screen shows you the current status of your health (although this bar will be invisible when health is full). There are many ways to [[Online:Healing|restore health]]:
+* Health slowly regenerates over time. You regenerate faster outside of combat than during combat. Most NPCs do not regenerate health during combat.
+* Healing effects are available from:
+** [[Online:Potions#Health Potions|Health potions]] and crafted potions with the [[Online:Restore Health|Restore Health]] effect
+** Some [[Online:Skills|skills]] healing yourself or others
+* Your health regeneration rate can be increased by:
+* Whenever your character [[Online:Leveling|levels up]], your health is fully restored.
+* In [[ON:Player Housing|player houses]], you can activate an [[Online:Aetherial Well|Aetherial Well]]{{Crown Store}} furnishing to restore all attributes.

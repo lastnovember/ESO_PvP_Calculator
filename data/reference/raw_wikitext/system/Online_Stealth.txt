@@ -1,0 +1,184 @@
+{{Trail|Combat}}
+'''Stealth''', also known as '''Sneak''', governs your ability to escape detection by others through reducing your visibility and noisiness. It is primarily useful for evading confrontation with enemies, and for executing surprise attacks that inflict critical damage. 
+
+In previous Elder Scrolls games, "Stealth" and "Sneak" are different concepts: stealth being a grouping of (more-or-less loosely) conceptually related skills, of which sneak was one. In ESO, there is not a distinct, developed skill line for this behavior, and any character can sneak. Similarly, being "stealthed" in ESO usually refers to a sneaking character who is hidden from enemies.
+
+==Skill Usage==
+Toggling the [[Online:Controls#Sneak|sneak control]] causes the player to crouch or stand, indicating that you have entered or left sneak mode. Moving while sneaking will burn stamina; if the player stops moving, stamina regenerates normally.
+
+While sneaking, the crosshair becomes a special "eye" reticle indicating the following statuses:
+{| {{AL|M}}
+|{{Image Overlay|ON-icon-achievement-Blank.png|ON-icon-stealth-Hidden.png|32px}} A horizontal line indicates you are completely hidden, or "stealthed". This is accompanied by the text <font style="font-variant:small-
+caps">HIDDEN</font>, and your character gains a shadow over their location. In this state, a successful pickpocket won't incur a bounty.
+|-
+|{{Image Overlay|ON-icon-achievement-Blank.png|ON-icon-stealth-Danger.png|32px}} The "eye" begins to open as you get near to a potential witness, or if an NPC begins to search for you. A partially-open "eye" with the text "HIDDEN" means you are hidden, as long as you do nothing to break stealth (i.e.--pickpocket, assault). The eye can also begin to open if you get near an enemy that can see through your Stealth/disguise. A red stealth eye is seen above the enemy and a "DANGER" is displayed above your stealth eye instead of "HIDDEN".
+|-
+|{{Image Overlay|ON-icon-achievement-Blank.png|ON-icon-stealth-Detected.png|32px}} A solid oval means that somebody knows where you are or can see you. This is accompanied by the text "DETECTED".  Note that you will also see this icon and text whenever interacting with objects even if there are no witnesses around to see you.
+|}
+
+=== Sneak Attacks ===
+You perform a sneak attack when you physically strike someone who is unaware of your presence. Sneak attacks stun the targets hit, unless they are under the influence of a [[ON:Radiant Magelight|Radiant Magelight]].
+
+* The sneak multiplier is only applied to the physical damage done by a weapon, i.e. the damage shown for the weapon in your inventory.
+** [[Online:Poison Damage|Poison]] and [[Online:Enchanting|enchantment]]-related damage enhancements are added to damage inflicted by power attacks, their effects are not increased by performing sneak attacks
+* Sneak damage applies to all attack types, including dual-wield weapons, bows, and skills.
+
+If a sneak attack does not kill an enemy, you will become detected -- by the enemy themselves and by any of their allies within detection range.  This seems to be true even if it does not appear that the enemies "ought" to be able to know where the attack came from -- e.g., by an arrow fired from cover.
+
+Also, when you attack from sneak, you immediately leave sneak.  Leaving sneak automatically has the benefit of making you instantly able to attack/defend/run without being handicapped in your movement speed, but may factor into the fact that you become immediately visible.
+
+Subsequently crouching to return to sneak, or using concealing skills such as the Nightblade's Shadow Cloak, will have whatever success in hiding you again that they would in any combat situation: mixed, depending on your circumstances. However, if you can regain sneak, you can immediately attack again and have the usual sneak multipliers apply.
+
+[[File:ON-icon-misc-Reveal.png|right]]
+
+=== Sneak Suppression ===
+Sometimes your ability to sneak is suppressed.  There are various things that can cause this:
+*An NPC guard with a lamp, found in places associated with the [[ON:Thieves Guild|Thieves Guild]], [[ON:Dark Brotherhood|Dark Brotherhood]], or [[ON:Morrowind|Morrowind]] DLCs.  While sneaking, you will see a shining circle on the ground around them.  You cannot sneak within this circle, and possibly for a few seconds after leaving it.  If you are in a restricted area or have a bounty on your head, the guard will generally try to arrest or attack you if you are spotted.
+*Some traps in these same areas can temporarily inhibit your ability to sneak.  Try to keep an eye out for any trip wires or leaky pots which can explode and deal damage in addition to suppressing your stealth.
+*In PVP zones, other players may use a Potion or Poison with the [[ON:Detection|Detection]] trait against you, preventing you from entering stealth unless you can [[ON:Cleansing|purge]] the effect somehow.
+*The [[ON:Expert Hunter|Expert Hunter]], [[ON:Magelight|Magelight]], [[ON:Piercing Mark|Piercing Mark]], [[ON:Revealing Flare|Revealing Flare]] and [[ON:Soul Strike|Soul Strike]] abilities can also inhibit stealth in PVP areas.  (You may also use these abilities to detect NPCs who are using stealth, though these are also much more common in PVP zones.)
+*The [[ON:Way of Air|Way of Air]] and [[ON:Sentry (set)|Sentry]] sets give bonuses that increase the wearer's stealth detection radius.
+* You will not be able to sneak while wearing a disguise, which can be done for certain quests. Instead, a message will display stating that sneaking would cause suspicion.
+* You cannot sneak normally in [[ON:Werewolf|Werewolf]] form, though sources which give [[ON:Invisibility|Invisibility]] still work.
+
+==Sneak Buffs==
+Sneak is improved by buffs such as a decrease in the distance at which you can be detected, an increase of the damage from stealth, a reduction of its cost and other bonuses.
+
+===Skills===
+{|class=sortable wikitable border="1"
+! Skill !! Available at !! Effect
+|-
+! [[ON:Blade of Woe|Blade of Woe]] ([[ON:Dark Brotherhood|Dark Brotherhood]])
+| style="text-align:center" | 1
+| Gives the ability to instantly kill an unsuspecting target, provided you approach them while in stealth from behind. It only gives 25% of the experience and cannot be used on difficult NPCs and on players.
+|-
+! [[ON:Blood Scion|Blood Scion]] ([[ON:Vampire|Vampire]])
+| style="text-align:center" | 5
+| When transformed, you can see enemies through walls.
+|-
+! [[ON:Dark Stalker|Dark Stalker]] ([[ON:Vampire|Vampire]])
+| style="text-align:center" | 3 / 7
+| Ignore the Movement Speed penalty while in Sneak.<br>Decreases the time it takes to Sneak by 25%/50%.
+|-
+! [[ON:Feed|Feed]] ([[ON:Vampire|Vampire]])
+| style="text-align:center" | 1
+| Allows you to feed on an unsuspecting target from behind, killing them and increasing your [[Online:Vampire#Vampire Stages|Vampire Stage]].
+|-
+! [[ON:Feline_Ambush|Feline Ambush]] ([[ON:Khajiit|Khajiit]])
+| style="text-align:center" | 25 / 35 / 50
+| Improved Stealth radius by 1/2/3 meters. Increases your Critical Damage and Critical healing by 4/8/12%.
+|-
+! [[ON:Hunter's Eye|Hunter's Eye]] ([[ON:Wood Elf|Wood Elf]])
+| style="text-align:center" | 5 / 15 / 30
+| Increases your [[Online:Detection|Stealth Detection]] radius by '''1''' meter.
+|-
+! [[ON:Improved Hiding|Improved Hiding]] ([[ON:Legerdemain|Legerdemain]])
+| style="text-align:center" | 1 / 6 / 11 / 16
+| Reduces the cost of Sneak by 10/20/30/40%.
+|-
+! [[ON:Improved Sneak|Improved Sneak]] ([[ON:Medium Armor|Medium Armor]])
+| style="text-align:center" | 14 / 34
+| Reduces the cost of Sneak by 4/7% per piece of Medium Armor equipped.<br>Reduces the size of your detection area while Sneaking by 3/5% per piece of Medium Armor equipped.
+|-
+! [[ON:Light Armor Bonuses|Light Armor Bonuses]] ([[ON:Light Armor|Light Armor]])
+| style="text-align:center" | 1
+| Reduces the Movement Speed penalty of Sneak by 5% for each Light Armor piece equipped.
+|-
+! [[ON:Master Assassin|Master Assassin]] ([[ON:Assassination|Assassination]])
+| style="text-align:center" | 8 / 18
+| Increases the duration of the stun from Sneak by 100%.
+|-
+! [[ON:Medium Armor Bonuses|Medium Armor Bonuses]] ([[ON:Medium Armor|Medium Armor]])
+| style="text-align:center" | 1
+| Reduces the cost of Sneak by 5% for each Medium Armor piece equipped.
+|-
+! [[ON:Prowl|Prowl]] ([[ON:Werewolf|Werewolf]])
+| style="text-align:center" | 1
+| Reduces your aggression radius from hostile monsters by 66% and grants you Stealth Detection for 6 seconds.
+|-
+! [[ON:Strike from the Shadows|Strike from the Shadows]] ([[ON:Vampire|Vampire]])
+| style="text-align:center" | 4 / 8
+| <small>(While you are at Vampire Stage 2 or higher)</small> When you leave Sneak, invisibility, or Mist Form your {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} is increased by '''150''' / '''300''' for '''6''' seconds
+|-
+! [[ON:Veil of Shadows|Veil of Shadows]] ([[ON:Thieves Guild|Thieves Guild]])
+| style="text-align:center" | 10
+| Decreases detection range of Witnesses and Guards by 10%.
+|}
+
+===Sets===
+{|class=sortable wikitable border="1"
+!Set!!Pieces!!Effect
+|-
+! [[ON:Archer's Mind|Archer's Mind]]
+| style="text-align:center" | 5/5
+| Increases your [[Online:Critical Damage|Critical Damage]] and [[Online:Critical Healing|Healing]] by 8%. Increases your Critical Damage and Healing by an additional 16% when you are [[Online:Stealth|Sneak]]ing or Invisible.
+|-
+! [[ON:Night Mother's Embrace|Night Mother's Embrace]]
+| style="text-align:center" | 5/5
+| Reduce the range you can be detected while hidden by 2 meters. Reduces Sneak cost by 10%.
+|-
+! [[ON:Night Terror (set)|Night Terror (set)]]
+| style="text-align:center" | 3/5
+| Decrease detection radius by 2 meters. Reduces Sneak cost by 10-27%.
+|-
+! [[ON:Night's Silence|Night's Silence]]
+| style="text-align:center" | 5/5
+| Ignore [[ON:Movement Speed|Movement Speed]] penalty while Sneaking.
+|-
+! [[ON:The Shadow Queen's Cowl|The Shadow Queen's Cowl]]
+| style="text-align:center" | 1/1
+| While crouched, you can see Witnesses and Guards through walls. Successfully pickpocketing a Witness or Guard applies Distracted to them for 10 seconds, [[Online:Stun|stun]]ning them and decreasing their Stealth detection radius by 30 meters for the duration.
+|-
+! [[ON:Shadow Dancer's Raiment|Shadow Dancer's Raiment]]
+| style="text-align:center" | 5/5
+| After leaving [[Online:Stealth|Sneak]] or [[Online:Invisibility|invisibility]], you dodge all incoming attacks within the next 1 second. This effect can occur once every 8 seconds.
+|-
+! [[ON:Shadow Walker (set)|Shadow Walker (set)]]
+| style="text-align:center" | 5/5
+| Restore '''25-2150''' {{ESO Health Link}} and {{ESO Stamina Link}} every second while hidden and not moving.
+|-
+! [[ON:Stormweaver's Cavort|Stormweaver's Cavort]] 
+| style="text-align:center" | 1/1
+| [[Online:Stealth|Sneak]] now consume {{ESO Magicka Link}} instead of {{ESO Stamina Link}}. You reduce your {{ESO Magicka Link||Recovery}} to 0 while Sneaking. You no longer reduce your {{ESO Stamina Link||Recovery}} to 0 while Sneaking.
+|-
+! [[ON:Stygian|Stygian]]
+| style="text-align:center" | 5/5
+| When you leave [[Online:Stealth|Sneak]] or [[Online:Invisibility|invisibility]] while in combat, your {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} is increased by 8-369 for 15 seconds.
+|-
+! [[ON:Vesture of Darloc Brae|Vesture of Darloc Brae]]
+| style="text-align:center" | 4/5
+| Reduce the range you can be detected while hidden by 2 meters. Reduces Sneak cost by 10%.
+|-
+|}
+
+===Champion Points===
+{|class=sortable wikitable border="1"
+!Perks!!Stages!!CP per stage!!Effect
+|-
+! [[ON:Sustaining Shadows|Sustaining Shadows]]
+| style="text-align:center" | 50
+| style="text-align:center" | 1
+| Reduces the cost of Sneak by 1% per stage
+|-
+! [[ON:Out of Sight (champion)|Out of Sight]]
+| style="text-align:center" | 3
+| style="text-align:center" | 10
+| Reduces the radius you can be detected while Sneaking by 1 meter per stage.
+|-
+! [[ON:Fleet Phantom|Fleet Phantom]]
+| style="text-align:center" | 5
+| style="text-align:center" | 8
+| Reduces the Movement Speed penalty of Sneak by 5% per stage.
+|}
+
+==Sneak Penalties==
+Sneak is penalized when wearing heavy armor.
+
+===Skills===
+{|class=sortable wikitable border="1"
+! Skill !! Available at !! Effect
+|-
+! [[ON:Heavy Armor Penalties|Heavy Armor Penalties]] ([[ON:Heavy Armor|Heavy Armor]])
+| style="text-align:center" | 1
+| Increases the size of your detection area while Sneaking by 10% for each Heavy Armor piece equipped.
+|}

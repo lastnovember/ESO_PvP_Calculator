@@ -1,0 +1,6 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Evasion,22,Instant,Self,–,–,20 seconds,3213 Stamina
+"Duration: [17 / 18 / 19 / 20] seconds. Requires 5 pieces of medium armor equipped Shroud yourself in mist to gain Major Evasion , reducing damage taken from area attacks by 20 % for [17 / 18 / 19 / 20] seconds."
+,,Shuffle,"Each piece of Medium Armor worn removes and grants immunity to snares and immobilizations. Cost: [3213 / 3123 / 3033 / 2943] Stamina . Requires 5 pieces of medium armor equipped Shroud yourself in mist to gain Major Evasion, decreasing damage taken from area attacks by 20 % for 20 seconds. Each piece of Medium Armor worn removes and grants immunity to snares and immobilizations for 1 second."
+,Elude,"When you take area damage, you gain Major Expedition. Each piece of Medium Armor worn increases the duration of this ability. Duration: 16 seconds. Requires 5 pieces of medium armor equipped Shroud yourself in mist to gain Major Evasion, reducing damage taken from area attacks by 20 % for (2 * # Medium Armor + 16). While this effect is active, when you take damage from a direct area of effect attack you gain Major Expedition for ( # Medium Armor ), increasing your Movement Speed by 30 %. Each piece of Medium Armor worn increases the duration of this ability."
+""

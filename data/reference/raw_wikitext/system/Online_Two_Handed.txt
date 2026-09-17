@@ -1,0 +1,76 @@
+{{Trail2|Skill Lines|Weapon|link2=Weapons}}
+{{/Progression}}
+[[File:ON-icon-skill-Two Handed.png|frameless|left]]
+'''Two Handed''' is one of the six [[Online:Skills#Weapon|weapon skills]] available in Elder Scrolls Online. You can advance through this skill line by equipping a two-handed weapon. 
+{{NewLeft}}
+== Learning ==
+The Two Handed skill line is granted the first time you kill an enemy with a two-handed weapon equipped.  You can increase your skill by engaging in combat with a two-handed weapon equipped, or by having Two Handed skills slotted.  The more skills you have slotted, the faster your skill will increase.  [[ON:Nord|Nord]]s are naturally gifted with Two Handed weapons, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Two Handed are:
+*[[ON:Ceryolminwe's Translation|Ceryolminwe's Translation]]
+*[[ON:A Hero's Weapon|A Hero's Weapon]]
+*[[ON:How to Win a Fight|How to Win a Fight]]
+*[[ON:The Legendary Sancre Tor, 1st Ed.|The Legendary Sancre Tor]]
+*[[ON:Wuunding and Tumult|Wuunding and Tumult]]
+
+==Skill Perks==
+Two Handed weapons have an associated skill line that is revealed through use of a Two-Handed weapon. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Berserker Strike}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, while a two-handed weapon is equipped, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Uppercut}}
+{{Online Skill Link|Critical Charge}}
+{{Online Skill Link|Cleave}}
+{{Online Skill Link|Reverse Slash}}
+{{Online Skill Link|Momentum}}
+|}
+
+===Weapon Sets===
+These sets add effects to abilities. 
+{|class=wikitable
+!colspan=2|Ability Name!!width=1|Weapon set name!! Description
+|-
+|rowspan=2|{{ESO Active Icon|sk|Two Handed-Uppercut|64}}||rowspan=2|[[Online:Uppercut|Uppercut]]||[[ON:Radial Uppercut|Radial Uppercut]]||{{ON:Radial Uppercut}}
+|-
+|[[ON:Perfected Radial Uppercut|Perfected Radial Uppercut]]||{{ON:Perfected Radial Uppercut}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Two Handed-Critical Charge|64}}||rowspan=2|[[ON:Critical Charge|Critical Charge]]||[[ON:Merciless Charge|Merciless Charge]]||{{ON:Merciless Charge}}
+|-
+|[[ON:Perfected Merciless Charge|Perfected Merciless Charge]]||{{ON:Perfected Merciless Charge}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Two Handed-Cleave|64}}||rowspan=2|[[ON:Cleave|Cleave]]||[[ON:Titanic Cleave|Titanic Cleave]]||{{ON:Titanic Cleave}}
+|-
+|[[ON:Perfected Titanic Cleave|Perfected Titanic Cleave]]||{{ON:Perfected Titanic Cleave}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Two Handed-Reverse Slash|64}}||rowspan=2|[[ON:Reverse Slash|Reverse Slash]]||[[ON:Disciplined Slash|Disciplined Slash]]||{{ON:Disciplined Slash}}
+|-
+|[[ON:Perfected Disciplined Slash|Perfected Disciplined Slash]]||{{ON:Perfected Disciplined Slash}}
+|-{{ThickLine}}
+|rowspan=2|{{ESO Active Icon|sk|Two Handed-Momentum|64}}||rowspan=2|[[ON:Momentum|Momentum]]||[[ON:Frenzied Momentum|Frenzied Momentum]]||{{ON:Frenzied Momentum}}
+|-
+|[[ON:Perfected Frenzied Momentum|Perfected Frenzied Momentum]]||{{ON:Perfected Frenzied Momentum}}
+|}
+===Other Sets===
+* Wearing five pieces of the [[ON:Sword-Singer|Sword Singer]] set from the [[ON:Alik'r Desert|Alik'r Desert]] increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} of your Two Handed abilities.
+* Wearing five pieces of the [[ON:Red Eagle's Fury|Red Eagle's Fury]] set from the [[ON:Red Eagle Redoubt|Red Eagle Redoubt]] crafting site increases the {{ESO Weapon Damage Link|||y}} and {{ESO Spell Damage Link}} of all your weapon abilities, Two Handed included, but it also increases their cost.
+* Wearing five pieces of the [[ON:Daring Corsair|Daring Corsair]] set from the [[ON:Cat's-Claw Station|Cat's-Claw Station]] crafting site decreases the {{ESO Stamina Link}} and {{ESO Magicka Link}} costs of all your weapon abilities by 10%, and grants you [[ON:Minor Heroism|Minor Heroism]] for 8 seconds after you use a weapon skill.
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as a two-handed weapon is equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!! Description
+{{Online Skill Link|Forceful}}
+{{Online Skill Link|Heavy Weapons}}
+{{Online Skill Link|Balanced Blade}}
+{{Online Skill Link|Follow Up}}
+{{Online Skill Link|Battle Rush}}
+|}
+{{Online Skills}}

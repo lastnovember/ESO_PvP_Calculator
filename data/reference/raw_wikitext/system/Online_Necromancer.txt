@@ -1,0 +1,109 @@
+{{Mod Header|Elsweyr}}{{Trail|Classes}}__NOTOC__{{about|the player class|the character class|Necromancer (NPC class)|other uses|Necromancer (disambiguation)}}
+[[File:ON-icon-class-Necromancer.png|frameless|left]]
+'''Necromancer''' is a [[Online:Classes|class]] in ''[[Online:Online|Elder Scrolls Online]]''. It can be purchased from the [[ON:Crown Store|Crown Store]] for {{ESO Crowns|1500}}. Necromancers are death bringers who use a mix of Illusion, Destruction, and Conjuration spells, and mostly deal with the undead and fear. It is available to players who have purchased the retail version of the ''[[Online:Elsweyr|Elsweyr]]'' [[ON:Chapters|Chapter]], but is '''not''' included with the [[Online:Elsweyr (DLC)|DLC version of Elsweyr]].
+
+Performing certain Necromancer abilities in front of some NPCs (for example, [[Online:Tamriel Guard|guards]]) will incur a [[Online:Justice|bounty]]. These skills are marked as {{ESO Criminal Act}}.
+
+::'''In-Game Description''': ''Masters of death, Necromancers can call upon corpses to serve as undead thralls and weave ghastly spells to both harm and heal.''
+{{NewLine}}
+==Skills==
+===Grave Lord===
+[[Online:Grave Lord|Grave Lord]] is elemental magic skill with pure damage dealing abilities.
+
+===Bone Tyrant===
+[[Online:Bone Tyrant|Bone Tyrant]] is a set of abilities focused towards defense and tanking.
+
+===Living Death===
+[[Online:Living Death|Living Death]] is a mix of healing and resurrecting abilities.
+
+===Class Mastery===
+[[ON:Class Mastery#Necromancer|Class Mastery]] is available if not [[Online:Subclassing|subclassing]].
+
+==Builds==
+{|class=wikitable
+!Build!!Role!!Description!!Primary Stat
+|-
+|[[ON:Necromancer Initiate|Necromancer Initiate]]
+|New Players
+|Wield the power of death itself to strike fear into the hearts of your enemies as a terrifying Necromancer.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Baleful Summoner|Baleful Summoner]]
+|Damage{{icon|role|Damage|18}}
+|Control an army of the dead to overrun your enemies while channeling destructive elemental magic.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Deathbringer|Deathbringer]]
+|Damage{{icon|role|Damage|18}}
+|Use close strikes and ranged assaults to cripple your enemies with lethal poisons and diseases.
+|{{ESO Stamina Link}}
+|-
+|[[ON:Undying Warrior|Undying Warrior]]
+|Tank{{icon|role|Tank|18}}
+|Drain the life from the living and dead alike to become an unkillable horror on the battlefield.
+|{{ESO Health Link}}
+|-
+|[[ON:Flesh Sculptor|Flesh Sculptor]]
+|Healer{{icon|role|Healer|18}}
+|Stave off death's cold touch by siphoning power from the recently deceased and using it to aid your allies.
+|{{ESO Magicka Link}}
+|}
+
+===Compatible Builds===
+It is possible to build a character which meets or mostly meets the recommendations of multiple builds simultaneously.  The chart below shows skill morphs which conflict between different builds.
+{|class=wikitable {{AL|C}}
+! !!Necromancer<br>Initiate!!Baleful<br>Summoner!!Deathbringer!!Undying<br>Warrior!!Flesh<br>Sculptor
+|-
+!Necromancer<br>Initiate
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#ff3300}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Sacrificial Bones|Sacrificial Bones]]<br>[[ON:Expunge|Expunge]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#aaff00}}|[[ON:Bone Armor|Bone Armor]]
+|{{BG|#ffbb00}}|[[ON:Render Flesh|Render Flesh]]<br>[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|-
+!Baleful<br>Summoner
+|{{BG|#aaff00}}|[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#000000}}|
+|{{BG|#ff7700}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#ffff00}}|[[ON:Bone Armor|Bone Armor]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#aaff00}}|[[ON:Render Flesh|Render Flesh]]
+|-
+!Deathbringer
+|{{BG|#ff3300}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Sacrificial Bones|Sacrificial Bones]]<br>[[ON:Expunge|Expunge]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#ff7700}}|[[ON:Flame Skull|Flame Skull]]<br>[[ON:Frozen Colossus|Frozen Colossus]]<br>[[ON:Bone Goliath Transformation|Bone Goliath]]<br>[[Online:Skeletal Mage|Skeletal Mage]]<br>[[ON:Shocking Siphon|Shocking Siphon]]
+|{{BG|#000000}}|
+|{{BG|#ffff00}}|[[ON:Death Scythe|Death Scythe]]<br>[[ON:Expunge|Expunge]]
+|{{BG|#00ff00}}| no conflicts
+|-
+!Undying<br>Warrior
+|{{BG|#aaff00}}|[[ON:Bone Armor|Bone Armor]]
+|{{BG|#ffff00}}|[[ON:Bone Armor|Bone Armor]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#ffff00}}|[[ON:Death Scythe|Death Scythe]]<br>[[ON:Expunge|Expunge]]
+|{{BG|#000000}}|
+|{{BG|#ffff00}}|[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|-
+!Flesh<br>Sculptor
+|{{BG|#ffbb00}}|[[ON:Render Flesh|Render Flesh]]<br>[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#aaff00}}|[[ON:Render Flesh|Render Flesh]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#ffff00}}|[[ON:Expunge|Expunge]]<br>[[Online:Spirit Mender|Spirit Mender]]
+|{{BG|#000000}}|
+|}
+
+Necromancer is one of the more difficult classes for mixing builds. There is only one dual-build which does not have any conflicting morphs, between Deathbringer and Flesh Sculptor, though these are incompatible for other reasons, since the former is Stamina-based and the latter is Magicka-based. There are no triple-builds with fewer than 2 conflicting morphs.
+
+==Gallery==
+<gallery>
+File:ON-render-Necromancer Class.jpg|A Necromancer
+File:ON-costume-Grim Harvester (Female).jpg|[[ON:Grim Harvester|Grim Harvester]] costume (female)
+File:ON-costume-Grim Harvester (Male).jpg|Grim Harvester costume (male khajiit)
+</gallery>
+
+==See Also==
+===Books===
+*{{Book Link|A World of Corpses}}
+*{{Book Link|Achieving Harmony with Death}}
+*{{Book Link|Benevolent Necromancy, it Exists}}
+
+
+{{Online Skills Necromancer}}

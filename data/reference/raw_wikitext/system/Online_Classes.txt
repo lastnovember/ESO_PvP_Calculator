@@ -1,0 +1,173 @@
+[[File:ON-icon-interface-Character Creation-Class.png|right]]{{Trail}}
+In ''[[Online:Online|Elder Scrolls Online]]'', every character must choose a '''class''' at the start of the game. Each of the seven classes are open to customization, although some may be more suited to certain roles than others. All [[Online:Weapons|weapons]] and [[Online:Armor|armor]] are available, no matter your chosen class or [[Online:Races|race]].
+
+Every class comes with three unique [[Online:Skills|skill]] lines. Up to two of these can be swapped with skill lines from other classes via [[Online:Subclassing|subclassing]].
+
+==Playable Classes==
+{|
+|[[File:ON-icon-class-Dragonknight full.png|40px|link=Online:Dragonknight|Dragonknight]]
+|The '''[[Online:Dragonknight|Dragonknight]]''' class is best suited for tanking-oriented characters due to the [[Online:Draconic Power|Draconic Power]] and [[Online:Earthen Heart|Earthen Heart]] skill lines, although the [[Online:Ardent Flame|Ardent Flame]] skill line does provide some rather literal firepower.
+|-
+|[[File:ON-icon-class-Nightblade full.png|40px|link=Online:Nightblade|Nightblade]]
+|The '''[[Online:Nightblade|Nightblade]]''' class is best suited for characters with a stealth focus, reflected by its skill lines of [[Online:Assassination|Assassination]], [[Online:Shadow|Shadow]], and [[Online:Siphoning|Siphoning]].
+|-
+|[[File:ON-icon-class-Sorcerer full.png|40px|link=Online:Sorcerer|Sorcerer]]
+|The '''[[Online:Sorcerer|Sorcerer]]''' class is the most magically-focused class, and have access to [[Online:Dark Magic|Dark Magic]], [[Online:Daedric Summoning|Daedric Summoning]], and [[Online:Storm Calling|Storm Calling]].
+|-
+|[[File:ON-icon-class-Templar full.png|40px|link=Online:Templar|Templar]]
+|The '''[[Online:Templar|Templar]]''' class has both decent magical and melee capabilities. Their [[Online:Aedric Spear|Aedric Spear]] skill line is focused on improving their melee abilities, while the [[Online:Restoring Light|Restoring Light]] and [[Online:Dawn's Wrath|Dawn's Wrath]] skill lines primarily augment their magical powers.
+|-
+|[[File:ON-icon-class-Warden full.png|40px|link=Online:Warden|Warden]]
+|The '''[[Online:Warden|Warden]]'''{{Crown Store}} class focuses on nature-based magic, with the [[Online:Animal Companions|Animal Companions]] skill line for damage-dealing and [[Online:Green Balance|Green Balance]] skill line for healing, as well as a frost magic line called [[Online:Winter's Embrace|Winter's Embrace]].{{ESO MW}}{{intnote|warden|[a]}}
+|-
+||[[File:ON-icon-class-Necromancer full.png|40px|link=Online:Necromancer|Necromancer]]
+|The '''[[Online:Necromancer|Necromancer]]'''{{Crown Store}} class is for those who wish to master death magic. It is a versatile class, offering the [[ON:Bone Tyrant|Bone Tyrant]] skill line for tanking abilities, [[ON:Grave Lord|Grave Lord]] for damage dealing, and [[ON:Living Death|Living Death]] for healing.{{ESO EL}}{{intnote|necro|[b]}}
+|-
+||[[File:ON-icon-class-Arcanist full.png|40px|link=Online:Arcanist|Arcanist]]
+|The '''[[Online:Arcanist|Arcanist]]'''{{Crown Store}} class channels the eldritch power of Apocrypha. It is a versatile class, with the [[Online:Herald of the Tome|Herald of the Tome]] skill line for damage dealing, [[Online:Soldier of Apocrypha|Soldier of Apocrypha]] for tanking abilities, and [[Online:Curative Runeforms|Curative Runeforms]] for healing. {{ESO NE}}{{intnote|arcanist|[c]}}
+|}
+
+{{Note|warden|^a|The Warden class was included with the [[ON:Chapters|Chapter]] version of [[Online:Morrowind|Morrowind]], but can now be purchased separately from the [[ON:Crown Store|Crown Store]] for {{ESO Crowns|1500}}}}
+{{Note|necro|^b|The Necromancer class is available in the [[ON:Elsweyr|Elsweyr Chapter]], but can now be purchased separately from the [[ON:Crown Store|Crown Store]] for {{ESO Crowns|1500}}}}
+{{Note|arcanist|^c|The Arcanist class is available in the [[ON:Necrom (Chapter)|Necrom Chapter]], but can now be purchased separately from the [[ON:Crown Store|Crown Store]] for {{ESO Crowns|1500}}}}
+
+==NPC Classes==
+{|class="wikitable sortable"
+!Class!!Specialisation!!Weapons!!Armor
+|-
+|[[ON:Acrobat (NPC class)|Acrobat]]{{ESO DLC|The Deadlands}}||Melee||Dual Wield||{{Sort|3}}|Medium
+|-
+|[[ON:Arbalest|Arbalest]]{{ESO MW}}||Ranged||Bow||{{Sort|3}}|Medium
+|-
+|[[ON:Arcanist (NPC class)|Arcanist]]{{ESO NE}}||Melee and Magic||Unarmed||{{Sort|2}}|Light
+|-
+|[[ON:Archer|Archer]]||Ranged||Bow||{{Sort|3}}|Medium
+|-
+|[[ON:Armamancer|Armamancer]]{{ESO BW}}||Melee||Staff||{{Sort|3}}|Medium
+|-
+|[[ON:Assassin (NPC class)|Assassin]]||Melee||Dual Wield||{{Sort|3}}|Medium
+|-
+|[[ON:Battlemage|Battlemage]]||Melee and Magic||Staff||{{Sort|2}}|Light
+|-
+|[[ON:Beastcaller|Beastcaller]]{{ESO MW}}||Melee and Magic||One Hand and Shield||{{Sort|4}}|Heavy
+|-
+|[[ON:Berserker|Berserker]]||Melee||Dual Wield||{{Sort|3}}|Medium
+|-
+|[[ON:Blood Mage|Blood Mage]]{{ESO GM}}||Magic||Staff (Fear)||{{Sort|2}}|Light
+|-
+|[[ON:Bodyguard (NPC class)|Bodyguard]]{{ESO DLC|Thieves Guild}}||Melee||One Hand and Shield||{{Sort|4}}|Heavy
+|-
+|[[ON:Bonecrafter|Bonecrafter]]||Melee and Magic||One Handed||{{Sort|2}}|Light
+|-
+|[[ON:Bonelord|Bonelord]]||Melee and Magic||One Handed||{{Sort|2}}|Light
+|-
+|[[ON:Bounty Hunter (NPC class)|Bounty Hunter]]{{ESO MW}}||Melee and Poison||Dual Wield||{{Sort|3}}|Medium
+|-
+|[[ON:Brute (NPC class)|Brute]]||Melee||One Hand and Shield||{{Sort|4}}|Heavy
+|-
+|[[ON:Cauterizer|Cauterizer]]||Magic||Staff (Restoration)||{{Sort|2}}|Light
+|-
+|[[ON:Chemist|Chemist]]{{ESO DLC|Murkmire}}||Alchemy and Melee|| One Handed||{{Sort|2}}|Light
+|-
+|[[ON:Chillfiend|Chillfiend]]|| Magic||Staff (Frost and Void)||{{Sort|2}}|Light
+|-
+|[[ON:Conjurer (NPC class)|Conjurer]]{{ESO BW}}||Magic||Staff (Fire)||{{Sort|2}}|Light
+|-
+|[[ON:Dark Champion|Dark Champion]]{{ESO HI}}|| Melee and Magic || Two Handed ||{{Sort|2}}|Heavy
+|-
+|[[ON:Dreadweaver|Dreadweaver]]|| Magic || Staff (Frost and Shadow) ||{{Sort|2}}|Light
+|-
+|[[ON:Eviscerator|Eviscerator]]|| Melee ||One Hand and Shield ||{{Sort|4}}|Heavy
+|-
+|[[ON:Fear Mage|Fear Mage]]||Magic||Staff (Fear)||{{Sort|2}}|Light
+|-
+|[[ON:Feral|Feral]]||Melee||Unarmed||{{Sort|1}}|Any
+|-
+|[[ON:Fire Mage|Fire Mage]]||Magic||Staff (Fire)||{{Sort|2}}|Light
+|-
+|[[ON:Flame Adept|Flame Adept]]{{ESO DLC|Dragonhold}}||Melee and Magic||Unarmed||{{Sort|2}}|Light
+|-
+|[[ON:Foot Soldier|Foot Soldier]]||Melee and Ranged||One Handed||{{Sort|3}}|Medium
+|-
+|[[ON:Frost Archer|Frost Archer]]{{ESO DLC|Dragonhold}}||Ranged||Bow||{{Sort|3}}|Medium
+|-
+|[[ON:Frost Mage|Frost Mage]]||Magic||Staff (Frost)||{{Sort|2}}|Light
+|-
+|[[ON:Geomancer|Geomancer]]{{ESO HI}}||Magic||Staff (Fire)||{{Sort|2}}|Light
+|-
+|[[ON:Healer|Healer]]||Magic||Staff (Restoration)||{{Sort|2}}|Light
+|-
+|[[ON:Honor Guard|Honor Guard]]||Melee and Ranged||One Handed||{{Sort|4}}|Heavy
+|-
+|[[ON:Icereaver|Icereaver]]{{ESO EL}}||Melee and Magic||Two Handed||{{Sort|4}}|Heavy
+|-
+|[[ON:Knight|Knight]]||Melee||One Hand and Shield||{{Sort|4}}|Heavy
+|-
+|[[ON:Mage Guard|Mage Guard]]||Magic||Staff (Lightning)||{{Sort|2}}|Light
+|-
+|[[ON:Marsh Warrior|Marsh Warrior]]{{ESO BW}}||Melee and Magic||Two Handed||{{Sort|2}}|Heavy
+|-
+|[[ON:Mystic (NPC class)|Mystic]]{{ESO BW}}||Magic||Staff (Nature)||{{Sort|2}}|Light
+|-
+|[[ON:Necromancer (NPC class)|Necromancer]]||Magic||Staff (Necromantic)||{{Sort|2}}|Light
+|-
+|[[ON:Nightblade (NPC class)|Nightblade]]||Melee||Dual Wield||{{Sort|3}}|Medium
+|-
+|[[ON:Nullifier|Nullifier]]||Melee or Ranged||Two Handed or Staff||{{Sort|4}}|Heavy
+|-
+|[[ON:Pet Ranger|Pet Ranger]]||Ranged||Bow||{{Sort|3}}|Medium
+|-
+|[[ON:Poison Archer|Poison Archer]]{{ESO DLC|Thieves Guild}}||Ranged||Bow||{{Sort|3}}|Medium
+|-
+|[[ON:Ravager (NPC class)|Ravager]]||Melee||Two Handed||{{Sort|4}}|Heavy
+|-
+|[[ON:Reach Mage|Reach Mage]]{{ESO DLC|Orsinium}}||Magic||Staff / One Handed||{{Sort|2}}|Light
+|-
+|[[ON:Sea Mage|Sea Mage]]{{ESO DLC|Thieves Guild}}||Magic||Staff (Lightning)||{{Sort|2}}|Light
+|-
+|[[ON:Shadow Mage|Shadow Mage]]{{ESO DLC|Dark Brotherhood}}||Magic||Staff (Shadow)||{{Sort|2}}|Light
+|-
+|[[ON:Shaman (NPC class)|Shaman]]||Melee and Magic||One Handed||{{Sort|2}}|Light
+|-
+|[[ON:Shade Sentinel|Shade Sentinel]]{{ESO DLC|Clockwork City}}||Melee and Magic||Dual Wield||{{Sort|3}}|Medium
+|-
+|[[ON:Sentry|Sentry]]||Melee||One Hand and Torch||{{Sort|4}}|Heavy
+|-
+|[[ON:Skullguard (NPC class)|Skullguard]]||Melee and Magic||Two Handed||{{Sort|4}}|Medium
+|-
+|[[ON:Spellblade|Spellblade]]||Melee and Magic||Two Handed||{{Sort|4}}|Heavy
+|-
+|[[ON:Spirit Master|Spirit Master]]||Magic||Staff||{{Sort|2}}|Light
+|-
+|[[ON:Storm Mage|Storm Mage]]||Magic||Staff (Lightning)||{{Sort|2}}|Light
+|-
+|[[ON:Sun Mage|Sun Mage]]{{ESO DLC|Murkmire}}||Melee and Magic||Two Handed||{{Sort|4}}|Heavy
+|-
+|[[ON:Swashbuckler|Swashbuckler]]{{ESO DLC|Dragonhold}}||Alchemy and Melee||One Handed||{{Sort|2}}|Light
+|-
+|[[ON:Tank|Tank]]||Melee||One Hand and Shield||{{Sort|4}}|Heavy
+|-
+|[[ON:Thundermaul (NPC class)|Thundermaul]]||Melee||Two Handed||{{Sort|4}}|Heavy
+|-
+|[[ON:Time Bomb Mage|Time Bomb Mage]]||Magic||Staff||{{Sort|2}}|Light
+|-
+|[[ON:Umbral Aegis|Umbral Aegis]]{{ESO HI}}||Melee and Magic||One Hand and Shield||{{Sort|4}}|Heavy
+|-
+|[[ON:Vanquisher|Vanquisher]]{{ESO DLC|Orsinium}}||Melee and Ranged||One Hand and Javelins||{{Sort|3}}|Medium
+|-
+|[[ON:Voidstalker|Voidstalker]]||Melee||Dual Wield||{{Sort|3}}|Medium
+|-
+|[[ON:Void Mage (NPC class)|Void Mage]]{{ESO DLC|Markarth}}||Magic||Staff (Void)||{{Sort|2}}|Light
+|-
+|[[ON:Void Striker|Void Striker]]{{ESO DLC|Clockwork City}}||Melee and Magic||Two Handed||{{Sort|2}}|Light
+|-
+|[[ON:Warpriest|Warpriest]]{{ESO DLC|Orsinium}}||Melee and Magic||One Hand and Shield||{{Sort|4}}|Heavy
+|-
+|[[ON:Worker (NPC class)|Worker]]{{huh}}||Melee||One Handed or Two Handed||{{Sort|1}}|Any
+|-
+|}
+
+==Notes==
+* The [[ON:Warden|Warden]] class was planned during the [[ON:Beta|beta]] but was scrapped before being added again in Update 14. A sixth class, the [[Online:Battlemage#Notes|Battlemage]], was also originally planned.
+
+[[Category:Online-Classes| ]]

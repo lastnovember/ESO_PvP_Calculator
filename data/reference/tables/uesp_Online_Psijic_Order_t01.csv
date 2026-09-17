@@ -1,0 +1,6 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,Undo,10,Instant,Self,–,–,–,165 Ultimate
+"Cost: [180 / 175 / 170 / 165] Ultimate . Step backwards in time, resetting your Health , Magicka , Stamina , and position to what they were 4 seconds ago."
+,,Precognition,"You can cast the ability while crowd controlled and will automatically gain Crowd Control Immunity. Cost: [165 / 160 / 155 / 150] Ultimate . Step backwards in time, resetting your Health , Magicka , Stamina , and position to what they were 4 seconds ago. You can cast this ability while you are crowd controlled and it automatically grants you Crowd Control Immunity."
+,Temporal Guard,"While slotted your damage taken is reduced. Cost: [165 / 160 / 155 / 150] Ultimate . Step backwards in time, resetting your Health , Magicka , Stamina , and position to what they were 4 seconds ago. While slotted you gain Minor Protection , reducing your damage taken by 5 %."
+""

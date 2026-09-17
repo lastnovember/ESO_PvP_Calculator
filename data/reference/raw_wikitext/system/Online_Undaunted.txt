@@ -1,0 +1,303 @@
+<noinclude>{{Trail|Factions}}{{About|the faction|the title|Truly Undaunted}}[[File:ON-banner-Undaunted.png|right|300px|]]</noinclude>
+The [[Online:Undaunted|Undaunted]] are a faction of dungeon-delving adventurers who set the scene for each of the [[Online:Group Dungeons|Group Dungeons]] and [[Online:Trials|Trials]] that can be found in [[ON:Tamriel|Tamriel]].<noinclude>
+
+The locations of each of the base-game dungeons can be discovered by talking to Undaunted members within the tavern in the main city of each zone, while DLC dungeons become accessible upon unlocking the related DLC. Note that all dungeons and trials can be traveled to directly from a [[Online:Wayshrines|wayshrine]] once you have learned their location. 
+
+The Undaunted skill-line focuses on group utility and provides skills that aid allies in group combat, as well as dealing wide-ranging damage. All of the abilities give the opportunity to activate a [[Online:synergy|synergy]]. To level the skill-line, players gain [[ON:Undaunted#Repuation|reputation]] by completing [[Online:Dungeons Achievements|Dungeon Achievements]] (not including those in the Public Dungeons section), [[#Pledges|Pledges]] and delve dailies. A player must be at least level 10 to join the Undaunted with the "[[ON:One of the Undaunted|One of the Undaunted]]" quest. Accepting the quest will unlock the skill line.
+
+{{FMI}}
+{{TOClimit|2}}
+
+==Quests==
+*{{Quest Link|One of the Undaunted}}
+===Base Game Dungeons===
+====Aldmeri Dominion====
+* '''Banished Cells I''' — {{Quest Link|Banishing the Banished}}
+* '''Banished Cells II''' — {{Quest Link|The Plan}}
+* '''City of Ash I''' — {{Quest Link|Razor's Edge}}
+* '''City of Ash II''' — {{Quest Link|Return to Ash}}
+* '''Elden Hollow I''' — {{Quest Link|Ancient Remains}}
+* '''Elden Hollow II''' — {{Quest Link|Consuming Darkness (quest)}}
+* '''Selene's Web''' — {{Quest Link|Knowledge Gained}}
+* '''Tempest Island''' — {{Quest Link|Eye of the Storm (quest)}}
+
+====Daggerfall Covenant====
+* '''Blackheart Haven''' — {{Quest Link|Jumping Ship}}
+* '''Crypt of Hearts I''' — {{Quest Link|Lover's Torment}}
+* '''Crypt of Hearts II''' — {{Quest Link|Edge of Darkness}}
+* '''Spindleclutch I''' — {{Quest Link|Deadly Whispers}}
+* '''Spindleclutch II''' — {{Quest Link|Blood Relations}}
+* '''Volenfell''' — {{Quest Link|Blood and Sand}}
+* '''Wayrest Sewers I''' — {{Quest Link|Deception in the Dark}}
+* '''Wayrest Sewers II''' — {{Quest Link|No Second Chances}}
+
+====Ebonheart Pact====
+* '''Arx Corinium''' — {{Quest Link|Force of Nature}}
+* '''Blessed Crucible''' — {{Quest Link|Fires of Battle}}
+* '''Darkshade Caverns I''' — {{Quest Link|Mine All Mine}}
+* '''Darkshade Caverns II''' — {{Quest Link|What Was Lost}}
+* '''Direfrost Keep''' — {{Quest Link|Nobles' Rest}}
+* '''Fungal Grotto I''' — {{Quest Link|Kings of the Grotto}}
+* '''Fungal Grotto II''' — {{Quest Link|Lighting the Shadows}}
+
+====Neutral====
+*'''Vaults of Madness''' — {{Quest Link|Mind of Madness}}
+
+===DLC Dungeons{{Crown Store}}===
+====Imperial City====
+* '''Imperial City Prison''' — {{Quest Link|Summary Execution}}
+* '''White-Gold Tower''' — {{Quest Link|Planemeld Obverse}}
+
+====Shadows of the Hist====
+* '''Cradle of Shadows''' — {{Quest Link|Silk and Shadow}}
+* '''Ruins of Mazzatun''' — {{Quest Link|Sap and Stone}}
+
+====Horns of the Reach====
+*'''Bloodroot Forge''' — {{Quest Link|Blood for Blood}}
+*'''Falkreath Hold''' — {{Quest Link|Falkreath's Demise}}
+
+====Dragon Bones====
+*'''Fang Lair''' — {{Quest Link|Casting the Bones}}
+*'''Scalecaller Peak''' — {{Quest Link|Plans of Pestilence}}
+
+====Wolfhunter====
+*'''March of Sacrifices''' — {{Quest Link|The Great Hunt}}
+*'''Moon Hunter Keep''' — {{Quest Link|Moonlight Ascent}}
+
+====Wrathstone====
+*'''Depths of Malatar''' — {{Quest Link|The Guiding Light}}
+*'''Frostvault''' — {{Quest Link|Lock and Keystone}}
+
+====Scalebreaker====
+*'''Moongrave Fane''' — {{Quest Link|The Sanguine Successor}}
+*'''Lair of Maarselok''' — {{Quest Link|The Azure Blight}}
+
+====Harrowstorm====
+*'''Icereach''' — {{Quest Link|The Frozen Isle}}
+*'''Unhallowed Grave''' — {{Quest Link|Unhallowed Grave (quest)}}
+
+====Stonethorn====
+*'''Castle Thorn''' — {{Quest Link|Blood of the Past}}
+*'''Stone Garden''' — {{Quest Link|Method and Madness}}
+
+====Flames of Ambition====
+*'''Black Drake Villa''' — {{Quest Link|Burning Secrets}}
+*'''The Cauldron''' — {{Quest Link|Into the Deep}}
+
+====Waking Flame====
+*'''Red Petal Bastion''' — {{Quest Link|A Rose of Many Thorns}}
+*'''The Dread Cellar''' — {{Quest Link|Quaking Dread}}
+
+====Ascending Tide====
+*'''Coral Aerie''' — {{Quest Link|An Order Gone Awry}}
+*'''Shipwright's Regret''' — {{Quest Link|Wright of Passage}}
+
+====Lost Depths====
+*'''Earthen Root Enclave''' — {{Quest Link|The Stonelore Defense}}
+*'''Graven Deep''' — {{Quest Link|Haunted Depths}}
+
+====Scibes of Fate====
+*'''Bal Sunnar''' — {{Quest Link|Unstuck From Time}}
+*'''Scrivener's Hall''' — {{Quest Link|A War of Scribes}}
+
+====Scions of Ithelia====
+*'''Oathsworn Pit''' — {{Quest Link|Victory Through Strife}}
+*'''Bedlam Veil'''— {{Quest Link|The Forgotten Vault}}
+
+====Fallen Banners====
+*'''Lep Seclusa''' — {{Quest Link|Upstart Emperor}}
+*'''Exiled Redoubt'''— {{Quest Link|Undying Requiem}}
+
+====Feast of Shadows====
+*'''Black Gem Foundry''' — {{Quest Link|Deadly Armaments}}
+*'''Naj-Caldeesh'''— {{Quest Link|Unearthed and Unexplored}}
+
+===Trials===
+* '''Hel Ra Citadel''' — {{Quest Link|Assaulting the Citadel}}
+* '''Aetherian Archive''' — {{Quest Link|The Mage's Tower}}
+* '''Sanctum Ophidia''' — {{Quest Link|The Oldest Ghost}}
+* '''Maw of Lorkhaj''' — {{Quest Link|Into the Maw}}{{ESO DLC|Thieves Guild}}
+* '''Halls of Fabrication''' — {{Quest Link|Forging the Future}}{{ESO MW}}
+* '''Asylum Sanctorium''' — {{Quest Link|Saints' Mercy}}{{ESO DLC|Clockwork City}}
+* '''Cloudrest''' — {{Quest Link|Woe of the Welkynars}}{{ESO SS}}
+* '''Sunspire''' — {{Quest Link|The Return of Alkosh}}{{ESO EL}}
+* '''Kyne's Aegis''' — {{Quest Link|The Fight for Kyne's Aegis}}{{ESO GM}}
+* '''Rockgrove''' — {{Quest Link|Of Stone and Steam}}{{ESO BW}}
+* '''Dreadsail Reef''' — {{Quest Link|Reavers of the Reef}}{{ESO HI}}
+* '''Sanity's Edge''' — {{Quest Link|War Within}}{{ESO NE}}
+
+==Delve Dailies==
+Delve Dailies are repeatable quests offered by [[ON:Bolgrul|Bolgrul]], located at the Undaunted Enclave in each Alliance capital. These quests will send you to a specific delve in the world. Unlike pledges, these quests can be shared with your group, and thus it is possible to do up to 15 of these quests in a day per character. These quests will award 10 Undaunted reputation, as well as a small box of rewards. These quests are one way of obtaining the [[ON:Draugr Style|Draugr motif]].
+
+*{{Quest Link|Ancestor Wards in Deshaan}}
+*{{Quest Link|Ancient Armaments in Bangkorai}}
+*{{Quest Link|Ayleid Trinkets in Grahtwood}}
+*{{Quest Link|Culinary Justice in Greenshade}}
+*{{Quest Link|Cursed Baubles of Stormhaven}}
+*{{Quest Link|Darkness Blooms in Rivenspire}}
+*{{Quest Link|Dwarven Relics of Stonefalls}}
+*{{Quest Link|Give and Take in Shadowfen}}
+*{{Quest Link|Icy Intrigue in Eastmarch}}
+*{{Quest Link|Inflamed Pyres of The Rift}}
+*{{Quest Link|Mascot Theft in Reaper's March}}
+*{{Quest Link|Molten Pearls of Alik'r Desert}}
+*{{Quest Link|Red Rook Ransack in Glenumbra}}
+*{{Quest Link|The Spirit Trap in Malabal Tor}}
+*{{Quest Link|Veiled Darkness in Auridon}}
+
+==Pledges==
+:''Main Article: [[Online:Undaunted Pledges|Undaunted Pledges]]''
+[[File:ON-misc-Undaunted reward chests.jpg|thumb|right|The old [[ON:Undaunted Chests|reward chests]] available at the Undaunted Enclave]]
+The Undaunted Pledges are repeatable quests which become available at Level 45 from the Undaunted Enclave in your Alliance Capital, and task your group with clearing out a [[ON:Group Dungeons|Group Dungeon]] on either normal or veteran difficulty. It is possible to complete up to three pledges per character per day, a different one offered by the [[Online:Pledge Masters|three Pledge Masters]] at the Undaunted enclave.
+
+==Daily Dungeons==
+The Undaunted also offer rewards for completing random dungeons through the [[Online:Grouping Tools|dungeon finder]]. Unlike pledges, there are no objectives to complete and no quest is given. The rewards and experience are automatically sent to you the moment the final boss of the dungeon dies. Completing the Daily event will grant Premium Undaunted Exploration Supplies. This event has a 20 hour cooldown per character, which means that any subsequent completion with the same character before the time is up will grant Undaunted Exploration Supplies. This is the same regardless of whether the dungeon is set to {{ESO Veteran|normal=Normal}} or {{ESO Veteran|veteran=Veteran}} difficulty.
+
+{| class="wikitable"
+!Premium Undaunted Exploration Supplies!!Undaunted Exploration Supplies
+|-
+|Five soul gems||One soul gem
+|-
+|A complete [[ON:Style Materials|style material]] piece from the non-standard motifs (Cassiterite, Charcoal of Remorse, Dwemer Frame, Goldscale, Laurel, Malachite, Rogue's Soot, Tainted Blood)
+|A [[ON:Style Materials|style material]] fragment from the non-standard motifs (Cassiterite Sand, Ashes of Remorse, Dwemer Scrap, Ancient Scale, Malachite Shard) or occasionally a whole style material (Laurel, Rogue's Soot)
+|-
+|A leveled {{ESO Quality Color|4|Epic}} item from the [[ON:Agility (set)|Agility]], [[ON:Endurance|Endurance]], or [[Online:Willpower|Willpower]] sets.
+|A leveled {{ESO Quality Color|3|Superior}} item from the [[ON:Agility (set)|Agility]], [[ON:Endurance|Endurance]], or [[Online:Willpower|Willpower]] sets.
+|-
+|Chance to get Dibellium or Pulverized Dibellium
+|Chance to get Pulverized Dibellium
+|-
+|{{Item Link|Transmutation Geode (10)|id=134590|quality=2}}
+|{{Item Link|Transmutation Geode (1)|id=134583|quality=1}}
+|-
+|A bound [[ON:Scribing#Affix Scripts|Affix Script]]
+|-
+|{{ESO XP|dd}} XP ({{ESO XP Table|dd|50}} XP at Level 50) ||{{ESO XP|rd}} XP ({{ESO XP Table|rd|50}} XP at Level 50)
+|}
+
+==Locations==
+The Undaunted have a meeting place in each of the major zones.  They will give you the locations of [[ON:Dungeons|Dungeons]] both in your own alliance's territory and the other two zones of corresponding level to where you meet them, allowing you to fast-travel to them even without being able to access the rest of the zone.  Also, one member at each location will give you the option to buy them a drink.  Doing so at each of these locations will earn you the [[ON:This One's On Me|This One's On Me]] achievement. Note that members of the Undaunted can be encountered at places outside the scope of this list.
+===[[ON:Aldmeri Dominion|Aldmeri Dominion]]===
+*[[ON:Vulkhel Guard|Vulkhel Guard]] - Upstairs at the [[ON:Salted Wings Tavern|Salted Wings Tavern]]
+*[[ON:Elden Root|Elden Root]] - [[Online:Undaunted Enclave (Elden Root)|Undaunted Enclave]]
+*[[ON:Marbruk|Marbruk]] - Just outside [[ON:The Parchment & Horn|The Parchment & Horn]]
+*[[ON:Velyn Harbor|Velyn Harbor]] - In a camp by the west side of the road coming from [[ON:Greenshade|Greenshade]]
+*[[ON:Rawl'kha|Rawl'kha]] - At [[ON:The Waxing Crescent|The Waxing Crescent]], near the stairs to the upper floor
+===[[ON:Daggerfall Covenant|Daggerfall Covenant]]===
+*[[ON:Daggerfall|Daggerfall]] - In the main room at [[ON:The Rosy Lion|The Rosy Lion]]
+*[[ON:Wayrest|Wayrest]] - [[Online:Undaunted Enclave (Wayrest)|Undaunted Enclave]]
+*[[ON:Shornhelm|Shornhelm]] - [[ON:Dead Wolf Inn|Dead Wolf Inn]]
+*[[ON:Sentinel|Sentinel]] - [[Online:Sisters of the Sands Inn|Sisters of the Sands Inn]]
+*[[ON:Evermore|Evermore]] - [[ON:Anchor's Point Inn|Anchor's Point Inn]]
+===[[ON:Ebonheart Pact|Ebonheart Pact]]===
+*[[ON:Davon's Watch|Davon's Watch]] - [[Online:The Fish Stink|The Fish Stink]]
+*[[ON:Mournhold|Mournhold]] - [[Online:Undaunted Enclave (Mournhold)|Undaunted Enclave]]
+*[[ON:Stormhold|Stormhold]] - [[ON:Coin Brothers' Cornerclub|Coin Brothers' Cornerclub]]
+*[[ON:Windhelm|Windhelm]] - [[ON:Cold Moon Inn|Cold Moon Inn]]
+*[[ON:Riften|Riften]] - [[ON:The Withered Tree|The Withered Tree]]
+===Other===
+*[[ON:The Hollow City|The Hollow City]] - In a back room at [[ON:The Shining Star|The Shining Star]]
+
+==Members==
+List of Known Members of the Undaunted:
+{{People Table|
+{{People|title=Members|Abzag the Monster||Adrolir|{{ESO S-WC}}|Akgruhl gra-Bol||Armelle Madach|{{ESO S-WC}}|Axel Malveaux||Black-Scale||Bloody Mayra||Bolgrul|{{Service Icon|Repeatable Quest Giver}}|Brazzideh|{{Service Icon|Undaunted Quartermaster}}|Brittgerd Bear-Master||Brulo Bloodletter||Caeleneth the Hapless||Caenlilmith|{{Service Icon|Undaunted Quartermaster}}|Celelruin||Chumbley||Earrona Kneecapper|{{Service Icon|Mystic}}|Eats-Aged-Meat||Eraegaer the Kill-Happy||Felgol||Felvyn the Swordarm||Ferocious Jakidi||Flin-Face||Glad Glatha||Glirion the Redbeard|{{Service Icon|Pledge Master}}|Gobur One-Eye||Gorgrolg||Hackle||Heathre||Hel Ra'Lala||Hixultvutar||Hloelott Ravens-Beak||Hogondar Hammerhurl||Hranir Icy-Mane||Hrodi Mule-Face|{{ESO S-WC}}|Hroltar the Boaster|{{Crown Store}}|Ila al-Ragath|{{ESO DLC|Dragon Bones}}|Ilmeni Arelas|{{Service Icon|Undaunted Quartermaster}}|Ilmindil the Incendiary|{{Service Icon|Mystic}}|Iulia Sentillus|{{ESO S-WC}}|Javerien Tustin||Joy||Kailstig the Axe||Lady Blade|{{Service Icon|Merchant}}|Lodiss the Rock||Ludippe Guegan||Ludovic the Lucky}}
+|
+{{People|title=Members (Continued)|Mad Zebba|{{Service Icon|Merchant}}|Maela the Crone||Magnifico Jalid||Maj al-Ragath|{{Service Icon|Pledge Master}}|Mallam Darano|{{ESO S-WC}}|Mighty Mordra||Mindil the Untested||Monynen||Nessa Inkskin||Njoll|{{ESO BW}}|Numyn||Ohartalmo||Resolute Ranarwa||Roaring Ramavel||Sahba the Bonecrusher||Savage Sehlena||Seeks-Her-Glory|{{Service Icon|Mystic}}|Serileth||Shiv|{{ESO S-WC}}|Siid Voung||Slays-By-Moon||Sleeps-on-Shield|{{Service Icon|Merchant}}|Sluz the Beryl-Chested||Sobabe||Strong-With-Tail||Talirinde||Thongar the Stout||Thorkar Greatstorm||Thulga, Empress of Bone||Tildanyorion||Tiny Talisse||Tubidan the Alarmist||Turuk Redclaws||Twice-Lucky||Umbarume the Undertaker||Untouchable Naim||Urgarlag Chief-bane|{{Service Icon|Pledge Master}}|Venomous Fauridil||Vlesyl the Skin-Stealer||Vyric the White||Wanda||Wandering Jakalor||Yisareh|{{ESO DLC|Dragon Bones}}|Zantan the Magnificent||Zayansora}}
+|
+{{People|title=Mentioned|[[ON:Tome of the Undaunted|Aidan the Fear-Son]]||[[ON:Tome of the Undaunted|Athan Tennecker]]||[[ON:Tome of the Undaunted|Bradford the Brutal]]||[[ON:Tome of the Undaunted|Danteriel]]||[[ON:Tome of the Undaunted|Eeno]]||[[ON:Tome of the Undaunted|Gadrey Vintalen]]||[[ON:Tome of the Undaunted|Jeeba]]||[[ON:Tome of the Undaunted|Kyrin Brightglade]]||[[ON:Tome of the Undaunted|Lady Baronessa]]||[[ON:Plans of Pestilence|Ludovic the Lucky]]|{{ESO DLC|Dragon Bones}}|[[ON:Tome of the Undaunted|Maeglin Telemmaite]]||[[ON:Tome of the Undaunted|Maximus the Burning]]||[[ON:Tome of the Undaunted|Quinius Keeting]]||[[ON:Tome of the Undaunted|Rassi Thimblebock]]||[[ON:Tome of the Undaunted|Recites-Poetry]]||[[ON:Tome of the Undaunted|Salaisoc]]||[[ON:Tome of the Undaunted|Sobabe]]||[[ON:Tome of the Undaunted|Tarien Vel]]||[[ON:Tome of the Undaunted|Tarik the Hollow-Sky]]||[[ON:Tome of the Undaunted|Verana Telemmaite]]||[[ON:Tome of the Undaunted|Zakir]]||[[ON:Tome of the Undaunted|Zaliya]]}} 
+}}
+
+==Skill Perks==
+{{/Progression}}
+{{ESO Skill Notes}}
+===Active Abilities===
+These abilities must be activated manually, for a cost.
+{{NewLine}}
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Blood Altar}}
+{{Online Skill Link|Trapping Webs}}
+{{Online Skill Link|Inner Fire}}
+{{Online Skill Link|Bone Shield}}
+{{Online Skill Link|Necrotic Orb}}
+|}
+
+===Passive Abilities===
+{| class="wikitable"
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Undaunted Command}}
+{{Online Skill Link|Undaunted Mettle}}
+|}
+
+==Reputation==
+All guilds use reputation for leveling purposes. Undaunted {{ESO Reputation|U}} Reputation is gained by completing various activities as listed in the table below.
+
+{| class="wikitable"
+|-
+! Activity !! Reputation given 
+|-
+| Daily delve quest || 10 
+|-
+| Dungeon quest || 25 
+|-
+| Normal pledge || 25 
+|-
+| Veteran pledge || 50 
+|-
+| Veteran hard mode pledge || 100 
+|-
+| Normal trial quest || 50 
+|-
+| Veteran trial quest || 100 
+|}
+
+The reward coffer for daily quests (not pledges) has a small chance for an Undaunted Citation worth 15 {{ESO Reputation|U}}. These citations can be stacked and traded.
+
+The total reputation needed per level and cumulatively is shown below.
+
+{| class="wikitable"
+|-
+! Rank !! Reputation Required<br>for Next Rank !! Total Reputation<br>for Rank
+|-
+| 1 || 50 || 0
+|-
+| 2 || 100 || 50
+|-
+| 3 || 150 || 150
+|-
+| 4 || 200 || 300
+|-
+| 5 || 200 || 500
+|-
+| 6 || 200 || 700
+|-
+| 7 || 200 || 900
+|-
+| 8 || 200 || 1100
+|-
+| 9 || 200 || 1300
+|-
+| 10 || - || 1500
+|}
+
+==Achievements==
+There are six [[ON:Character Achievements#Guilds|achievements]] associated with this faction (not including the [[ON:Dungeons Achievements|Dungeons Achievements]] and [[ON:Veteran Dungeons Achievements|Veteran Dungeons Achievements]], which are not necessarily related to the Undaunted):
+{{#local:showreward|1}}
+{{ESO Achievements List|multi=
+{{EAL/Group
+  |Recruit of the Undaunted|{{ESO ArmorDye Icon|Dried Blood Brown|link=1}}
+  |Undaunted Skill Master|{{ESO ArmorDye Icon|Undaunted Bronze|link=1}}
+  |This One's On Me|}}
+{{EAL/Group|groupline=thick
+  |first=Risk and Challenge
+  |Gold and Bragging Rights|
+  |A Crown of Your Own Trousers|}}
+}}
+
+==See Also==
+* [[ON:Tome of the Undaunted|Tome of the Undaunted]]
+
+{{Online Factions}}
+{{Online Skills}}
+[[Category:Online-Skill Lines]][[Category:Online-Skill Lines-Guild]]

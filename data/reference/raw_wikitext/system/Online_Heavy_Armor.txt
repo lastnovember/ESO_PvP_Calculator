@@ -1,0 +1,43 @@
+{{Trail2|Skill Lines|Armor}}__NOTOC__
+{{/Progression}}
+'''Heavy Armor''' is a [[Online:skills|skill]] in [[Online:Online|Elder Scrolls Online]]. It consists largely of plate armors. As with the other armor skills, there are only passive skills and a single active ability. These skills generally aid "tank" characters— those who require a lot of health.
+
+== Learning ==
+The Heavy Armor skill line is granted the first time you equip 3 pieces of Heavy Armor.  You can increase your skill by taking or blocking damage while wearing Heavy Armor, or earning experience with the Immovable skill slotted.  The more pieces you are wearing, the faster your skill will increase.  [[ON:Orc|Orc]]s are naturally gifted with Heavy Armor, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Heavy Armor are:
+{|
+|
+*[[ON:Armor of Myth and Legend|Armor of Myth and Legend]]
+*[[ON:Folly in Fixation|Folly in Fixation]]
+*[[ON:Heavy Armor Forging|Heavy Armor Forging]]
+*[[ON:The Masters' Hall|The Masters' Hall]]
+*[[ON:The Rotwood Enigma|The Rotwood Enigma]]
+|}
+
+==Skill Perks==
+Heavy Armor has an associated skill line that is revealed through wearing, and taking damage in, one or more piece(s) of Heavy Armor. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Active Abilities===
+These abilities must be activated manually, while wearing at least one piece of Heavy Armor, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Unstoppable (skill)}}
+|}
+
+===Sets===
+{{ESO Set List|desc=y|type=both|Armor Master}}
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as one or more piece(s) of Heavy Armor are equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Heavy Armor Bonuses}}
+{{Online Skill Link|Heavy Armor Penalties}}
+{{Online Skill Link|Resolve}}
+{{Online Skill Link|Constitution}}
+{{Online Skill Link|Juggernaut}}
+{{Online Skill Link|Revitalize}}
+{{Online Skill Link|Rapid Mending}}
+|}
+
+{{Online Skills}}

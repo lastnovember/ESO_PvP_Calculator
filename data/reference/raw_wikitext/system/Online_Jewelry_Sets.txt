@@ -1,0 +1,83 @@
+{{Trail|Sets}}[[Category:Online-Sets| Jewelry Sets]]'''Jewelry Sets''' are [[ON:Sets|sets]] of [[ON:Jewelry|jewelry]] and [[ON:Weapons|weapons]] that provide special bonuses to players when the items of the same set are equipped simultaneously. They do not include [[ON:Armor|armor pieces]] other than shields. The way to obtain them depends on the type of the set.
+
+==Level Up Advisor sets==
+These sets can be obtained through the [[ON:Level Up Advisor|Level Up Advisor]].
+
+{| class="wikitable"
+|-
+! Set Name !! Bonuses
+|-
+! [[ON:Broken Soul|Broken Soul]]
+| {{ON:Broken Soul}}
+|-
+! [[ON:Prophet's|Prophet's]] 
+| {{ON:Prophet's}}
+|}
+
+==Trophy Vault sets==
+These sets are obtained as rewards from reward chests within [[ON:Trophy Vaults|Trophy Vaults]] in the [[ON:Imperial City|Imperial City]], or for completing a [[ON:Undaunted#Daily Dungeons|random group dungeon]].
+
+{| class="wikitable"
+|-
+! Set Name !! Bonuses
+|-
+! [[ON:Agility (set)|Agility]]
+| {{ON:Agility (set)}}
+|-
+! [[ON:Endurance|Endurance]] 
+| {{ON:Endurance}}
+|-
+! [[ON:Willpower|Willpower]] 
+| {{ON:Willpower}}
+|}
+
+==PvP Rewards==
+These sets have pieces that can be bought directly from Cyrodiil gear vendors using Alliance Points. These sets are also available via "Rewards for the Worthy" mails by participating in PvP, and in reward boxes for Cyrodiil dailies.
+
+{| class="wikitable"
+|-
+! Set Name !! Bonuses
+|-
+! [[ON:Blessing of the Potentates|Blessing of the Potentates]] 
+| {{ON:Blessing of the Potentates}}
+|-
+! [[ON:Eagle Eye|Eagle Eye]] 
+| {{ON:Eagle Eye}}
+|-
+! [[ON:Grace of the Ancients|Grace of the Ancients]] 
+| {{ON:Grace of the Ancients}}
+|-
+! [[ON:Vengeance Leech|Vengeance Leech]] 
+| {{ON:Vengeance Leech}}
+|-
+! [[ON:Wrath of the Imperium|Wrath of the Imperium]] 
+| {{ON:Wrath of the Imperium}}
+|}
+
+==First-Dungeons Dropped Sets==
+These sets were silently removed from the game with the One Tamriel Patch. It is believed they used to drop from the first dungeons ([[ON:The Banished Cells|Banished Cells]], [[ON:Spindleclutch|Spindleclutch]], [[ON:Fungal Grotto|Fungal Grotto]], [[ON:Wayrest Sewers|Wayrest Sewers]], [[ON:Elden Hollow|Elden Hollow]], [[ON:Darkshade Caverns|Darkshade Caverns]]), in veteran mode only.
+
+{| class="wikitable"
+|-
+! Set Name !! Bonuses
+|-
+! [[ON:Arms of Infernace|Arms of Infernace]] 
+| {{ON:Arms of Infernace}}
+|-
+! [[ON:Arms of the Ancestors|Arms of the Ancestors]] 
+| {{ON:Arms of the Ancestors}}
+|-
+! [[ON:Relics of the Physician, Ansur|Relics of the Physician, Ansur]] 
+| {{ON:Relics of the Physician, Ansur}}
+|-
+! [[ON:Relics of the Rebellion|Relics of the Rebellion]] 
+| {{ON:Relics of the Rebellion}}
+|-
+! [[ON:The Destruction Suite|The Destruction Suite]] 
+| {{ON:The Destruction Suite}}
+|-
+! [[ON:Treasures of the Earthforge|Treasures of the Earthforge]] 
+| {{ON:Treasures of the Earthforge}}
+|}
+
+{{Online Sets}}

@@ -1,0 +1,118 @@
+{{Trail|Attributes}}__NOTOC__
+'''Ultimate''' is the resource needed to cast Ultimate Abilities.  There are a total of 35 Ultimate Abilities available, but you may only choose from up to 17: one each from the 3 skill lines in your [[ON:Classes|class]], 6 from the Weapon Skills (which require you to use that specific weapon type), and 8 available to all classes, two of which are mutually exclusive, since you cannot be both a Vampire and a Werewolf at the same time.  There is at most one Ultimate Ability per skill tree.  Only one Ultimate Ability may be slotted on each bar at a time, so two different Ultimate Abilities can be slotted in total. Ultimate regeneration triggers upon hitting a non-trivial enemy with Light or Heavy attacks, when healing others (healing yourself does not count), or upon blocking or dodging an attack. The hidden Ultimate regeneration buff gained when hitting a light-attack while in combat lasts for 9 seconds, generating 3 ultimate per second, for 27 total. 
+
+The maximum Ultimate that you can accumulate is 500. Casting your Ultimate Ability typically consumes all accumulated Ultimate regardless of what the listed Ultimate cost of the ability is, with abilities such as [[ON:Overload|Overload]] being excepted.
+
+Some skills or items may cause you to [[:Category:Online-Skills with Ultimate Gain|gain additional Ultimate]], allowing you to use your Ultimate Abilities more often. Others may reduce costs instead. The [[ON:Aetherial Well|Aetherial Well]] furnishing allows for restoration of Ultimate from within a [[ON:Player Houses|player house]] after a short animation.
+
+==Ultimate Abilities==
+Ultimate abilities are unique in that they scale off the highest damage attributes of a character, namely {{ESO Magicka Link}} or {{ESO Stamina Link}}, {{ESO Spell Damage Link}} or {{ESO Weapon Damage Link}}, and {{ESO Spell Critical Link}} or {{ESO Weapon Critical Link}}.
+{|
+|-{{AL|T}}
+|
+{|class=wikitable
+!colspan=3|Class-Exclusive
+|-{{ThickLine}}
+!Tree!!Skill!!Cost
+|-
+!colspan=3|[[ON:Arcanist|Arcanist]]
+|-
+|[[ON:Herald of the Tome|Herald of the Tome]]||'''[[ON:The Unblinking Eye|The Unblinking Eye]]'''||{{ESO Ultimate Link|175}}
+|-
+|[[ON:Soldier of Apocrypha|Soldier of Apocrypha]]||'''[[ON:Gibbering Shield|Gibbering Shield]]'''||{{ESO Ultimate Link|200}}
+|-
+|[[ON:Curative Runeforms|Curative Runeforms]]||'''[[ON:Vitalizing Glyphic|Vitalizing Glyphic]]'''||{{ESO Ultimate Link|200}}
+|-
+!colspan=3|[[ON:Dragonknight|Dragonknight]]
+|-
+|[[ON:Ardent Flame|Ardent Flame]]||'''[[ON:Dragonknight Standard|Dragonknight Standard]]'''||{{ESO Ultimate Link|200}}
+|-
+|[[ON:Draconic Power|Draconic Power]]||'''[[ON:Dragon Leap|Dragon Leap]]'''||{{ESO Ultimate Link|125}}
+|-
+|[[ON:Earthen Heart|Earthen Heart]]||'''[[ON:Magma Armor|Magma Armor]]'''||{{ESO Ultimate Link|200}}
+|-
+!colspan=3|[[ON:Necromancer|Necromancer]]
+|-
+|[[ON:Bone Tyrant|Bone Tyrant]]||'''[[ON:Bone Goliath Transformation|Bone Goliath Transformation]]'''||{{ESO Ultimate Link|300}}
+|-
+|[[ON:Grave Lord|Grave Lord]]||'''[[ON:Frozen Colossus|Frozen Colossus]]'''||{{ESO Ultimate Link|225}}
+|-
+|[[ON:Living Death|Living Death]]||'''[[ON:Reanimate|Reanimate]]'''||{{ESO Ultimate Link|335}}
+|-
+!colspan=3|[[ON:Nightblade|Nightblade]]
+|-
+|[[ON:Assassination|Assassination]]||'''[[ON:Death Stroke|Death Stroke]]'''||{{ESO Ultimate Link|70}}
+|-
+|[[ON:Shadow|Shadow]]||'''[[ON:Consuming Darkness (skill)|Consuming Darkness]]'''||{{ESO Ultimate Link|200}}
+|-
+|[[ON:Siphoning|Siphoning]]||'''[[ON:Soul Shred|Soul Shred]]'''||{{ESO Ultimate Link|150}}
+|-
+!colspan=3|[[ON:Sorcerer|Sorcerer]]
+|-
+|[[ON:Daedric Summoning|Daedric Summoning]]||'''[[ON:Summon Storm Atronach|Summon Storm Atronach]]'''||{{ESO Ultimate Link|200}}
+|-
+|[[ON:Dark Magic|Dark Magic]]||'''[[ON:Negate Magic|Negate Magic]]'''||{{ESO Ultimate Link|225}}
+|-
+|[[ON:Storm Calling|Storm Calling]]||'''[[ON:Overload|Overload]]'''||{{ESO Ultimate Link|75}}{{intnote|special}}
+|-
+!colspan=3|[[ON:Templar|Templar]]
+|-
+|[[ON:Aedric Spear|Aedric Spear]]||'''[[ON:Radial Sweep|Radial Sweep]]'''||{{ESO Ultimate Link|75}}
+|-
+|[[ON:Dawn's Wrath|Dawn's Wrath]]||'''[[ON:Nova|Nova]]'''||{{ESO Ultimate Link|250}}
+|-
+|[[ON:Restoring Light|Restoring Light]]||'''[[ON:Rite of Passage|Rite of Passage]]'''||{{ESO Ultimate Link|125}}
+|-
+!colspan=3|[[ON:Warden|Warden]]
+|-
+|[[ON:Animal Companions|Animal Companions]]||'''[[ON:Feral Guardian|Feral Guardian]]'''||{{ESO Ultimate Link|75}}{{intnote|special}}
+|-
+|[[ON:Green Balance|Green Balance]]||'''[[ON:Secluded Grove|Secluded Grove]]'''||{{ESO Ultimate Link|75}}
+|-
+|[[ON:Winter's Embrace|Winter's Embrace]]||'''[[ON:Sleet Storm|Sleet Storm]]'''||{{ESO Ultimate Link|200}}
+|}
+|
+{|class=wikitable
+!colspan=3|All Characters
+|-{{ThickLine}}
+!Tree!!Skill!!Cost
+|-
+!colspan=3|Weapon Skills
+|-
+|[[ON:Bow|Bow]]||'''[[ON:Rapid Fire|Rapid Fire]]'''||{{ESO Ultimate Link|175}}
+|-
+|[[ON:Destruction Staff|Destruction Staff]]||'''[[ON:Elemental Storm|Elemental Storm]]'''||{{ESO Ultimate Link|250}}
+|-
+|[[ON:Dual Wield|Dual Wield]]||'''[[ON:Lacerate|Lacerate]]'''||{{ESO Ultimate Link|150}}
+|-
+|[[ON:One Hand and Shield|One Hand and Shield]]||'''[[ON:Shield Wall|Shield Wall]]'''||{{ESO Ultimate Link|100}}
+|-
+|[[ON:Restoration Staff|Restoration Staff]]||'''[[ON:Panacea|Panacea]]'''||{{ESO Ultimate Link|100}}
+|-
+|[[ON:Two Handed|Two Handed]]||'''[[ON:Berserker Strike|Berserker Strike]]'''||{{ESO Ultimate Link|150}}
+|-
+!colspan=3|Guild
+|-
+|[[ON:Fighters Guild|Fighters Guild]]||'''[[ON:Dawnbreaker|Dawnbreaker]]'''||{{ESO Ultimate Link|125}}
+|-
+|[[ON:Mages Guild|Mages Guild]]||'''[[ON:Meteor|Meteor]]'''||{{ESO Ultimate Link|200}}
+|-
+|[[ON:Psijic Order|Psijic Order]]||'''[[ON:Undo|Undo]]'''||{{ESO Ultimate Link|165}}
+|-
+!colspan=3|Other
+|-
+|[[ON:Assault|Assault]]||'''[[ON:War Horn|War Horn]]'''||{{ESO Ultimate Link|250}}
+|-
+|[[ON:Support|Support]]||'''[[ON:Barrier|Barrier]]'''||{{ESO Ultimate Link|200}}
+|-
+|[[Online:Vampire|Vampire]]||'''[[ON:Blood Scion|Blood Scion]]'''||{{ESO Ultimate Link|320-350}}{{intnote|vamp26|††}}
+|-
+|[[Online:Werewolf|Werewolf]]||'''[[ON:Werewolf Transformation|Werewolf Transformation]]'''||{{ESO Ultimate Link|400-300}}
+|-
+|[[ON:Soul Magic|Soul Magic]]||'''[[ON:Soul Strike|Soul Strike]]'''||{{ESO Ultimate Link|175}}
+|}
+|}
+{{note|special|†|''<small>These skills do not deplete your Ultimate in the normal way.  See individual pages for details.</small>''}}
+{{note|vamp26|††|''<small>Due to the nature of the [[Online:Feed|Feed]] skill's cost reduction on all Vampire abilities, the actual cost of Blood Scion can range from 243 to 329, depending on morph chosen, rank, and current Vampire stage.</small>''}}
+
+{{stub|Combat}}

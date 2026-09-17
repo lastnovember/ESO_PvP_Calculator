@@ -1,0 +1,59 @@
+{{Trail|Sets}}{{Online Update|update=41}}[[Category:Online-Sets| Reward Sets]]
+'''Trial Sets''' are available from the bosses and monsters in various trials. Pieces of those sets are also found in coffers rewarded for completing the [[ON:Repeatable_Quests#Trials|quests]] to clear the specific trial. Coffers are only awarded once a week per character. Trial sets are all bind-on-equip and are tradable among the group for a two-hour window, the same as dungeon sets.
+
+== Drop Locations ==
+{{/Drops}}
+
+== [[ON:Craglorn|Craglorn]] ==
+
+=== [[ON:Aetherian Archive|Aetherian Archive]] ===
+{{ESO Set List|desc=y|type=settype|Defending Warrior|Healing Mage|Infallible Mage|Quick Serpent}}
+
+=== [[ON:Hel Ra Citadel|Hel Ra Citadel]] ===
+{{ESO Set List|desc=y|type=settype|Berserking Warrior|Destructive Mage|Eternal Warrior|Poisonous Serpent}}
+
+=== [[ON:Sanctum Ophidia|Sanctum Ophidia]] ===
+{{ESO Set List|desc=y|type=settype|Immortal Warrior|Twice-Fanged Serpent|Vicious Serpent|Wise Mage}}
+
+== [[ON:Reaper's March|Reaper's March]] ==
+=== [[ON:Maw of Lorkhaj|Maw of Lorkhaj]] {{Crown Store}} ===
+{{ESO Set List|desc=y|type=settype|Lunar Bastion|Moondancer|Roar of Alkosh|Twilight Remedy}}
+
+== [[ON:Summerset|Summerset]] {{ESO SS}} ==
+=== [[ON:Cloudrest|Cloudrest]] {{ESO SS}} ===
+{{ESO Set List|desc=y|type=settype|Aegis of Galenwe|Arms of Relequen|Mantle of Siroria|Vestment of Olorime|Perfected Aegis of Galenwe|Perfected Arms of Relequen|Perfected Mantle of Siroria|Perfected Vestment of Olorime}}
+
+== [[ON:Vvardenfell|Vvardenfell]] {{ESO MW}} ==
+=== [[ON:Halls of Fabrication|Halls of Fabrication]] {{ESO MW}} ===
+{{ESO Set List|desc=y|type=settype|Automated Defense|Inventor's Guard|Master Architect|War Machine}}
+
+== [[ON:Elsweyr|Elsweyr]] {{ESO EL}} ==
+=== [[ON:Sunspire|Sunspire]] {{ESO EL}} ===
+{{ESO Set List|desc=y|type=settype|Claw of Yolnahkriin|Eye of Nahviintaas|False God's Devotion|Tooth of Lokkestiiz|Perfected Claw of Yolnahkriin|Perfected Eye of Nahviintaas|Perfected False God's Devotion|Perfected Tooth of Lokkestiiz}}
+
+== [[ON:Greymoor|Greymoor]] {{ESO GM}} ==
+=== [[ON:Kyne's Aegis|Kyne's Aegis]] {{ESO GM}} ===
+{{ESO Set List|desc=y|type=settype|Kyne's Wind|Roaring Opportunist|Vrol's Command|Yandir's Might|Perfected Kyne's Wind|Perfected Roaring Opportunist|Perfected Vrol's Command|Perfected Yandir's Might}}
+
+== [[ON:Blackwood|Blackwood]] {{ESO BW}} ==
+=== [[ON:Rockgrove|Rockgrove]] {{ESO BW}} ===
+{{ESO Set List|desc=y|type=settype|Bahsei's Mania|Saxhleel Champion|Stone-Talker's Oath|Sul-Xan's Torment|Perfected Bahsei's Mania|Perfected Saxhleel Champion|Perfected Stone-Talker's Oath|Perfected Sul-Xan's Torment}}
+
+== [[ON:High Isle|High Isle]] {{ESO HI}} ==
+=== [[ON:Dreadsail Reef|Dreadsail Reef]] {{ESO HI}} ===
+{{ESO Set List|desc=y|type=settype|Coral Riptide|Pearlescent Ward|Pillager's Profit|Whorl of the Depths|Perfected Coral Riptide|Perfected Pearlescent Ward|Perfected Pillager's Profit|Perfected Whorl of the Depths}}
+
+== [[ON:Necrom|Necrom]] {{ESO NE}} ==
+=== [[ON:Sanity's Edge|Sanity's Edge]] {{ESO NE}} ===
+{{ESO Set Table|desc=y|type=settype|Peace and Serenity|Perfected Peace and Serenity|Ansuul's Torment|Perfected Ansuul's Torment|Transformative Hope|Perfected Transformative Hope|Test of Resolve|Perfected Test of Resolve}}
+
+== [[ON:West Weald|West Weald]] {{ESO GR}} ==
+=== [[ON:Lucent Citadel|Lucent Citadel]] {{ESO GR}} ===
+{{ESO Set Table|desc=y|type=settype|Mora Scribe's Thesis|Perfected Mora Scribe's Thesis|Slivers of the Null Arca|Perfected Slivers of the Null Arca|Xoryn's Masterpiece|Perfected Xoryn's Masterpiece|Lucent Echoes|Perfected Lucent Echoes}}
+
+== [[ON:Solstice|Solstice]] ==
+=== [[ON:Ossein Cage|Ossein Cage]] ===
+{{ESO Set Table|desc=y|type=settype|Harmony in Chaos|Perfected Harmony in Chaos|Recovery Convergence|Perfected Recovery Convergence|Kazpian's Cruel Signet|Perfected Kazpian's Cruel Signet|Dolorous Arena|Perfected Dolorous Arena}}
+
+
+{{Online Sets}}

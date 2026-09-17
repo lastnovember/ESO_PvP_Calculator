@@ -1,0 +1,34 @@
+{{Trail2|Skill Lines|Alliance War}}
+{{/Progression}}
+'''Assault''' is one of the skill lines unlocked through progress in the [[Online:Alliance War|Alliance War]].
+
+==Skill Perks==
+{{ESO Skill Notes}}
+
+===Ultimate Abilities===
+These abilities must be activated manually, for a cost of Ultimate.
+{|class=wikitable
+!colspan=2|Name!!width=2|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|War Horn}}
+|}
+
+===Active Abilities===
+These abilities must be activated manually, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+|-
+{{Online Skill Link|Vigor}}
+{{Online Skill Link|Rapid Maneuver}}
+{{Online Skill Link|Caltrops}}
+{{Online Skill Link|Magicka Detonation}}
+|}
+
+===Passive Abilities===
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Continuous Attack}}
+{{Online Skill Link|Reach}}
+{{Online Skill Link|Combat Frenzy}}
+|}
+
+{{Online Skills}}

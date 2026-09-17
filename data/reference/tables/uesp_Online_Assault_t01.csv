@@ -1,0 +1,6 @@
+Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
+,War Horn,4,Instant,Area,–,20 meters,30 seconds,250 Ultimate
+"Duration: [27 / 28 / 29 / 30] seconds. Sound a war horn to rally your forces, increasing you and your group's Max Magicka and Max Stamina by 10 % for [27 / 28 / 29 / 30] seconds."
+,,Aggressive Horn,"You and your allies gain Major Force for a brief period after activation. Sound a war horn to rally your forces, increasing you and your group's Max Magicka and Max Stamina by 10 % for 30 seconds. You and your allies gain Major Force , increasing your Critical Damage by 20 % for [7 / 8 / 9 / 10] seconds."
+,Sturdy Horn,"You and your allies take less damage from critical attacks for a brief period after activation. Sound a war horn to rally your forces, increasing you and your group's Max Magicka and Max Stamina by 10 % for 30 seconds. You and your allies gain 1320 Critical Resistance for [7 / 8 / 9 / 10] seconds, reducing incoming Critical Damage by 20 %."
+""

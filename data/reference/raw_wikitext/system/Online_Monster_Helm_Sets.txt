@@ -1,0 +1,19 @@
+<noinclude>{{Trail|Sets}}{{Online Update|update=41}}{{TOCright}}[[Category:Online-Sets| Craftable Sets]]</noinclude>
+'''Monster Helm Sets''' (commonly called "monster heads") are a subset of [[ON:Dungeon Sets|dungeon sets]] of [[ON:Armor|armor]]. As the name suggests, the design of these sets are based on various bosses found in [[ON:Group Dungeons|Group Dungeons]]. They all consist of one head piece and one shoulder piece, and come in every weight and trait (other than [[ON:Nirnhoned|Nirnhoned]]). When both pieces are worn they grant a powerful and unique ability or buff that cannot be obtained elsewhere.
+
+The head pieces are guaranteed drops from the associated last boss of a group dungeon on [[ON:Veteran|Veteran]] difficulty, while shoulder pieces can be bought from [[ON:Pledge Masters|Pledge Masters]] for [[ON:Undaunted Keys|Undaunted Keys]]. The head pieces cannot be obtained from Normal mode dungeons. Items from these sets can also sometimes be purchased from [[ON:The Golden|The Golden]] in [[ON:Cyrodiil|Cyrodiil]] for [[ON:Gold|Gold]] or [[ON:Alliance Points|Alliance Points]].
+
+The [[ON:Styles|style]] of Monster Helm Sets can also be applied to your character using the [[ON:Outfit System|Outfit System]], provided the appropriate [[ON:Undaunted Styles|Undaunted Style page]] has been learned.
+
+==Dungeon Sets==
+{{ESO Set List|desc=y|type=monster|Anthelmir's Construct (set)|Archdruid Devyric (set)|Balorgh (set)|Bar-Sakka (set)|Baron Zaudrus (set)|Black Gem Monstrosity (set)|The Blind (set)|Bloodspawn (set)|Chokethorn (set)|Domihaus|Earthgore|Encratis's Behemoth|Engine Guardian|Euphotic Gatekeeper (set)|Grothdarr (set)|Grundwulf (set)|Iceheart (set)|Ilambris|Infernal Guardian (set)|Kargaeda (set)|Kjalnar's Nightmare|Kra'gh|Lady Thorn (set)|Lord Warden|Maarselok (set)|Magma Incarnate (set)|Maw of the Infernal (set)|Mighty Chudan (set)|Molag Kena (set)|Mother Ciannait (set)|Nazaray (set)|Nerien'eth (set)|Nightflame|Orpheon the Tactician (set)|Ozezan the Inferno (set)|Pirate Skeleton|Prior Thierric|Roksa the Warped (set)|Scourge Harvester|Selene (set)|Sellistrix|Sentinel of Rkugamz (set)|Shadowrend (set)|Slimecraw (set)|Spawn of Mephala (set)|Squall of Retribution (set)|Stone Husk (set)|Stonekeeper|Stormfist (set)|Swarm Mother (set)|Symphony of Blades (set)|Thurvokun (set)|Tremorscale (set)|The Troll King (set)|Valkyn Skoria (set)|Velidreth (set)|Vykosa|Zaan}}
+
+==Imperial City Sets==
+{{Mod Note|Imperial City}}
+Six monster helm sets can be found in the [[ON:Imperial City|Imperial City]]. The head pieces are guaranteed drops from the associated boss and have a chance of being found in their respective district's [[Online:Trophy Vaults|Trophy Vaults]], while the shoulder pieces can be bought with [[ON:Tel Var Stones|Tel Var Stones]] from [[ON:Tel Var Grand Armorers|Tel Var Grand Armorers]]: {{ESO Alliances|Dominion=[[ON:Dusk Singer|Dusk Singer]], |Covenant=[[ON:Karifa al-Tahud|Karifa al-Tahud]], and |Pact=[[ON:Birstagg|Birstagg]]|inline=1}}.
+{{ESO Set List|desc=y|type=monster|Baron Thirsk (set)|Glorgoloch the Destroyer (set)|Immolator Charr (set)|Lady Malygda (set)|Nunatak (set)|Zoal the Ever-Wakeful (set)}}
+
+==Night Market Sets==
+Three monster helm sets can be found in the [[Online:Night Market|Night Market]] and obtaining them will depend on what faction you align with for that season. The head pieces can be received in reward coffers for participating in the inter-faction contest, and shoulder pieces can be obtained by purchasing the associated coffer from a [[ON:Night Market Merchants|Night Market Merchant]].
+{{ESO Set List|desc=y|type=monster|Glittering Goad (set)|The Ruckus (set)|Thousand Eyes (set)}}
+{{Online Sets}}

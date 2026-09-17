@@ -1,0 +1,106 @@
+{{Trail|Classes}}__NOTOC__{{About|the player class|the NPC class|Online:Nightblade (NPC class)}}
+[[File:ON-icon-class-Nightblade.png|frameless|left]]
+'''Nightblade''' is a [[Online:Classes|class]] in ''[[Online:Online|Elder Scrolls Online]]''. Nightblade is tailored to benefit assassins and players who prefer a stealthy approach. There are three known skills governed by Nightblade: [[#Assassination|Assassination]], [[#Shadow|Shadow]], and [[#Siphoning|Siphoning]].
+
+::'''In-Game Description''': ''Nightblades are adventurers and opportunists with a gift for getting in and out of trouble. Relying variously on stealth, blades, and speed, Nightblades thrive on conflict and misfortune, trusting to their luck and cunning to survive.''
+{{NewLeft}}
+==Skills==
+===Assassination===
+The [[Online:Assassination|Assassination]] skill is oriented towards melee attackers, particularly dual-wielding, with abilities ranging from increasing your attack speed to teleporting to and damaging a target.
+
+===Shadow===
+The [[Online:Shadow|Shadow]] skill is orientated towards self-preservation, with abilities ranging from inflicting fear on nearby enemies to becoming invisible and some crowd-control.
+
+===Siphoning===
+The [[Online:Siphoning|Siphoning]] skill is oriented towards spell-casting assassins, with abilities that de-buff and damage enemies and provide healing and positive buffs to you. These abilities range from decreasing nearby enemies' attack power to casting a damage-over-time spell on a target that casts a healing spell on you for the same duration.
+
+===Class Mastery===
+[[ON:Class Mastery#Nightblade|Class Mastery]] is available if the player is not [[Online:Subclassing|subclassing]].
+
+==Builds==
+{|class=wikitable
+!Build!!Role!!Description!!Primary Stat
+|-
+|[[ON:Nightblade Initiate|Nightblade Initiate]]
+|New Players
+|Grasp the sinister art of assassination by heeding the call of the Nightblade.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Deathweaver|Deathweaver]]
+|Damage{{icon|role|Damage|18}}
+|Sap the life-force from unsuspecting victims and use shadows to cast deadly spells.
+|{{ESO Magicka Link}}
+|-
+|[[ON:Umbral Assassin|Umbral Assassin]]
+|Damage{{icon|role|Damage|18}}
+|Blindside your enemies with a flurry of poisonous strikes, then disappear without a trace.
+|{{ESO Stamina Link}}
+|-
+|[[ON:Living Shadow|Living Shadow]]
+|Tank{{icon|role|Tank|18}}
+|Become one with the darkness, drawing your foes close, then crippling them with shadow and steel.
+|{{ESO Health Link}}
+|-
+|[[ON:Blood Magus|Blood Magus]]
+|Healer{{icon|role|Healer|18}}
+|Siphon away your foe's vitality to fuel powerful healing spells, shielding you and your allies from death's embrace.
+|{{ESO Magicka Link}}
+|}
+
+===Compatible Builds===
+It is possible to build a character which meets or mostly meets the recommendations of multiple builds simultaneously.  The chart below shows skill morphs which conflict between different builds.
+{|class=wikitable {{AL|C}}
+! !!Nightblade<br>Initiate!!Deathweaver!!Umbral<br>Assassin!!Living<br>Shadow!!Blood<br>Magus
+|-
+!Nightblade<br>Initiate
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Assassin's Blade|Assassin's Blade]]
+|{{BG|#ff7700}}|[[ON:Death Stroke|Death Stroke]]<br>[[ON:Assassin's Blade|Assassin's Blade]]<br>[[ON:Veiled Strike|Veiled Strike]]<br>[[ON:Siphoning Strikes|Siphoning Strikes]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#ffff00}}|[[ON:Soul Shred|Soul Shred]]<br>[[ON:Strife|Strife]]
+|-
+!Death-<br>weaver
+|{{BG|#aaff00}}|[[ON:Assassin's Blade|Assassin's Blade]]
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Siphoning Strikes|Siphoning Strikes]]
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#00ff00}}|[[ON:Path of Darkness|Path of Darkness]]
+|-
+!Umbral<br>Assassin
+|{{BG|#ff7700}}|[[ON:Death Stroke|Death Stroke]]<br>[[ON:Assassin's Blade|Assassin's Blade]]<br>[[ON:Veiled Strike|Veiled Strike]]<br>[[ON:Siphoning Strikes|Siphoning Strikes]]
+|{{BG|#aaff00}}|[[ON:Siphoning Strikes|Siphoning Strikes]]
+|{{BG|#000000}}|
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#aaff00}}|[[ON:Siphoning Strikes|Siphoning Strikes]]
+|-
+!Living<br>Shadow
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#00ff00}}| no conflicts
+|{{BG|#000000}}|
+|{{BG|#aaff00}}|[[ON:Strife|Strife]]
+|-
+!Blood<br>Magus
+|{{BG|#ffff00}}|[[ON:Soul Shred|Soul Shred]]<br>[[ON:Strife|Strife]]
+|{{BG|#00ff00}}|[[ON:Path of Darkness|Path of Darkness]]
+|{{BG|#aaff00}}|[[ON:Siphoning Strikes|Siphoning Strikes]]
+|{{BG|#aaff00}}|[[ON:Strife|Strife]]
+|{{BG|#000000}}|
+|}
+
+While it is not possible to make a triple-build without some incompatible morphs, there are a few that come very close.  Living Shadow is compatible with three other builds, but none of them are compatible with each other.  There are three triple-builds with only 1 conflicting morph, however, using Deathweaver, Living Shadow, and any one of the other three builds.
+
+==Gallery==
+<gallery>
+File:ON-render-Nightblade.jpg|A Nightblade
+</gallery>
+
+==See Also==
+*For more information, see the [[Lore:Nightblades|lore]] article.
+===Books===
+*{{Book Link|Advances in Lockpicking}}
+*{{Book Link|Shadow Draining: A Hypothesis}}
+*{{Book Link|Stepping through Shadows}}
+*{{Book Link|Wulfmare's Guide to Better Thieving}}
+
+{{Online Skills Nightblade}}

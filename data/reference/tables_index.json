@@ -215,6 +215,74 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Assault",
+    "table": 0,
+    "rows": 17,
+    "cols": 8,
+    "csv": "uesp_Online_Assault_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Vigor"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Assault",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Assault_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Assault",
+    "table": 2,
+    "rows": 20,
+    "cols": 8,
+    "csv": "uesp_Online_Assault_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Assault",
+    "table": 3,
+    "rows": 6,
+    "cols": 4,
+    "csv": "uesp_Online_Assault_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Battlegrounds",
     "table": 0,
     "rows": 1,
@@ -280,6 +348,88 @@
       "Set",
       "Weight",
       "5 piece bonus"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Bow",
+    "table": 0,
+    "rows": 29,
+    "cols": 8,
+    "csv": "uesp_Online_Bow_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Snipe"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Bow",
+    "table": 1,
+    "rows": 5,
+    "cols": 9,
+    "csv": "uesp_Online_Bow_t01.csv",
+    "header": [
+      "",
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Bow",
+    "table": 2,
+    "rows": 25,
+    "cols": 8,
+    "csv": "uesp_Online_Bow_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Bow",
+    "table": 3,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Bow_t03.csv",
+    "header": [
+      "Ability Name",
+      "Weapon set name",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Bow",
+    "table": 4,
+    "rows": 10,
+    "cols": 4,
+    "csv": "uesp_Online_Bow_t04.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
     ]
   },
   {
@@ -1529,6 +1679,99 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Destruction Staff",
+    "table": 0,
+    "rows": 29,
+    "cols": 8,
+    "csv": "uesp_Online_Destruction_Staff_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Force Shock"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Destruction Staff",
+    "table": 1,
+    "rows": 1,
+    "cols": 1,
+    "csv": "uesp_Online_Destruction_Staff_t01.csv",
+    "header": [
+      ""
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Destruction Staff",
+    "table": 2,
+    "rows": 5,
+    "cols": 9,
+    "csv": "uesp_Online_Destruction_Staff_t02.csv",
+    "header": [
+      "",
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Destruction Staff",
+    "table": 3,
+    "rows": 25,
+    "cols": 8,
+    "csv": "uesp_Online_Destruction_Staff_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Destruction Staff",
+    "table": 4,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Destruction_Staff_t04.csv",
+    "header": [
+      "Ability Name",
+      "Weapon set name",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Destruction Staff",
+    "table": 5,
+    "rows": 10,
+    "cols": 4,
+    "csv": "uesp_Online_Destruction_Staff_t05.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Disease Damage",
     "table": 0,
     "rows": 35,
@@ -1756,6 +1999,88 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Dual Wield",
+    "table": 0,
+    "rows": 29,
+    "cols": 8,
+    "csv": "uesp_Online_Dual_Wield_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Flurry"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Dual Wield",
+    "table": 1,
+    "rows": 5,
+    "cols": 9,
+    "csv": "uesp_Online_Dual_Wield_t01.csv",
+    "header": [
+      "",
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Dual Wield",
+    "table": 2,
+    "rows": 25,
+    "cols": 8,
+    "csv": "uesp_Online_Dual_Wield_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Dual Wield",
+    "table": 3,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Dual_Wield_t03.csv",
+    "header": [
+      "Ability Name",
+      "Weapon set name",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Dual Wield",
+    "table": 4,
+    "rows": 10,
+    "cols": 4,
+    "csv": "uesp_Online_Dual_Wield_t04.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Dungeon Sets",
     "table": 0,
     "rows": 48,
@@ -1780,6 +2105,18 @@
       "Bonuses",
       "Location(s)",
       "Set Type"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Emperor",
+    "table": 0,
+    "rows": 5,
+    "cols": 2,
+    "csv": "uesp_Online_Emperor_t00.csv",
+    "header": [
+      "Name",
+      "Description"
     ]
   },
   {
@@ -1889,6 +2226,249 @@
     "rows": 21,
     "cols": 4,
     "csv": "uesp_Online_Enchanting_t07.csv",
+    "header": [
+      "Achievement",
+      "Points",
+      "Description",
+      "Reward"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Fighters Guild",
+    "table": 0,
+    "rows": 19,
+    "cols": 8,
+    "csv": "uesp_Online_Fighters_Guild_t00.csv",
+    "header": [
+      "Intimidating Presence",
+      "",
+      "1",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Fighters Guild",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Fighters_Guild_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Fighters Guild",
+    "table": 2,
+    "rows": 20,
+    "cols": 8,
+    "csv": "uesp_Online_Fighters_Guild_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Fighters Guild",
+    "table": 3,
+    "rows": 9,
+    "cols": 4,
+    "csv": "uesp_Online_Fighters_Guild_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Fighters Guild",
+    "table": 4,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Fighters_Guild_t04.csv",
+    "header": [
+      "Rank",
+      "Reputation Required for Next Rank",
+      "Total Reputation for Rank"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Fighters Guild",
+    "table": 5,
+    "rows": 134,
+    "cols": 138,
+    "csv": "uesp_Online_Fighters_Guild_t05.csv",
+    "header": [
+      "Council of Province Generals Guildmaster Sees-All-Colors Borogilmith Countess Hakruba General Flaminius Auctor Ra'zaym Iron-Ear Svalkmar the Crude Abah's Landing Guild Hall Dredhedil Hunts-with-Daggers Indyen Kalrarj Nuula Seran Alcaire Castle Branch Ashzu Gianon Journeyman Thetathor Aldcroft Guild Hall Afehaba Gladba gro-Ghol Kamika Alinor Guild Hall Emerel Lilthelfin Rathornith Salk Sloobdakha Sorexius Sylla Tar-Makka Thonlynn Alten Corimont Branch Buujhan Ervynu Idrenia Anvil Guild Hall Bahara Shabeh af-Naifa Basile Fenandre Ralis Athren Arenthia Guild Hall Glud Two-Axes Merani Muzuli Baandari Trading Post Guild Hall Armory Sergeant Cayliss \u2020 Naburr Provost Riud \u2020 Sadelia Balmora Guild Branch Delte Nethri Bangkorai Garrison Branch Rathul-do Belkarth Branch Agwodir Qarafa Thais Bergama Guild Hall Armory Sergeant Cayliss \u2020 Homeira Malakeh Provost Riud \u2020 Sees-Many-Fish Usralia Crosswych Guild Branch Kalad Octin Murric Sergeant Magarakh Daggerfall Guild Hall Basile Fenandre Lucas Davon's Watch Guild Hall Frikkhild Hilan Neyna Varam Dune Guild Hall Durodir Hamiran-do Shagareg gra-Urkub The Earth Forge Apprentice Dalama Farmorion Fighter Dulzob \u2020 Fighter Taralen \u2020 Fimius Barbula Franja Snowpeak Mabgruhl gra-Born Mollier Cine Odeel-Medul Olahanar Ris Maren Nanaglar Ebonheart Guild Branch Dull-Scales Foni Svel Hladvyr Llarys Malkar Munbi Svel Nali Radas Picks-Many-Fights Sirk the Hammer Elden Root Guild Hall Althah Cardea Gallus Bark-Scraper Calpelion Claudius Colmorion Githriian Glalongoth Laryantil Mevilis Varyoni Midrasud Mizarbuk Nendilir Ontogu gro-Bashnarz Samati Savio Sirimunda Tundanarne Zahanabi Evermore Guild Hall Arianna Stende Gibal Kurz gra-Murtag Larhoth Mirarbinat Provost Mabilete Sergeant Qasim Vedra Yvayne Dugot Firsthold Guild Hall Halelmathras Hymonim Runs-Across-Water Siniaritaale Fort Amol Branch Belvin Redoran Raki",
+      "Council of Province Generals",
+      "Guildmaster Sees-All-Colors Borogilmith Countess Hakruba General Flaminius Auctor Ra'zaym Iron-Ear Svalkmar the Crude",
+      "Abah's Landing Guild Hall",
+      "Dredhedil Hunts-with-Daggers Indyen Kalrarj Nuula Seran",
+      "Alcaire Castle Branch",
+      "Ashzu Gianon Journeyman Thetathor",
+      "Aldcroft Guild Hall",
+      "Afehaba Gladba gro-Ghol Kamika",
+      "Alinor Guild Hall",
+      "Emerel Lilthelfin Rathornith Salk Sloobdakha Sorexius Sylla Tar-Makka Thonlynn",
+      "Alten Corimont Branch",
+      "Buujhan Ervynu Idrenia",
+      "Anvil Guild Hall",
+      "Bahara Shabeh af-Naifa Basile Fenandre Ralis Athren",
+      "Arenthia Guild Hall",
+      "Glud Two-Axes Merani Muzuli",
+      "Baandari Trading Post Guild Hall",
+      "Armory Sergeant Cayliss \u2020 Naburr Provost Riud \u2020 Sadelia",
+      "Balmora Guild Branch",
+      "Delte Nethri",
+      "Bangkorai Garrison Branch",
+      "Rathul-do",
+      "Belkarth Branch",
+      "Agwodir Qarafa Thais",
+      "Bergama Guild Hall",
+      "Armory Sergeant Cayliss \u2020 Homeira Malakeh Provost Riud \u2020 Sees-Many-Fish Usralia",
+      "Crosswych Guild Branch",
+      "Kalad Octin Murric Sergeant Magarakh",
+      "Daggerfall Guild Hall",
+      "Basile Fenandre Lucas",
+      "Davon's Watch Guild Hall",
+      "Frikkhild Hilan Neyna Varam",
+      "Dune Guild Hall",
+      "Durodir Hamiran-do Shagareg gra-Urkub",
+      "The Earth Forge",
+      "Apprentice Dalama Farmorion Fighter Dulzob \u2020 Fighter Taralen \u2020 Fimius Barbula Franja Snowpeak Mabgruhl gra-Born Mollier Cine Odeel-Medul Olahanar Ris Maren Nanaglar",
+      "Ebonheart Guild Branch",
+      "Dull-Scales Foni Svel Hladvyr Llarys Malkar Munbi Svel Nali Radas Picks-Many-Fights Sirk the Hammer",
+      "Elden Root Guild Hall",
+      "Althah Cardea Gallus Bark-Scraper Calpelion Claudius Colmorion Githriian Glalongoth Laryantil Mevilis Varyoni Midrasud Mizarbuk Nendilir Ontogu gro-Bashnarz Samati Savio Sirimunda Tundanarne Zahanabi",
+      "Evermore Guild Hall",
+      "Arianna Stende Gibal Kurz gra-Murtag Larhoth Mirarbinat Provost Mabilete Sergeant Qasim Vedra Yvayne Dugot",
+      "Firsthold Guild Hall",
+      "Halelmathras Hymonim Runs-Across-Water Siniaritaale",
+      "Fort Amol Branch",
+      "Belvin Redoran Raki",
+      "Fungal Grotto Apprentice Fasarel Defender Two-Blades Journeyman Gulvera Swordsman Ranarwa Hallin's Stand Guild Hall Charlemund Prevette Fethesena Nerendas Hlura Llarvys Nienras Sabirah the Zealous Sgugh gra-Shagronk Thungdosh Haven Guild Hall Angelenwen Gwannas Lekellae Caprenia Revisii Seloth Hissmir Branch Adzi-Mota Birila Drujal Lig gra-Murug Olik-Jah Onai-Ruul Topith-Kuz Hollow City Guild Hall Aleeta Candion Egarfin the Bold Ferva Hloril Hahnin Messenger Narfild Deepcrag Sinfay Valorone Vikord Skullcleaver Vosh gra-Kreeg Hoarfrost Downs Branch Jaddveig Owlcloak Jorunn's Stand Guild Branch Zavour Emard Kragenmoor Branch Akethi Baring Hammertongue Dyleso Erandil Zunala Kozanset Guild Hall Guibor Hjognar Tariyeh Ulu gra-Korith Yggruk Lillandril Guild Hall Guardian Nolinare Telonre Nebhavar Loraaldel Kelurm Lilmoth Guild Hall Claws-the-Ghosts \u2020 Hitari Stoneclaws Strikes-Quickly Marbruk Guild Hall Ardorin Carimalda Drivas Hrolvar Iniel Laftrius Kasynac Luric Laelrion Lowindor Tarak Triirma Martyr's Crossing Branch Furious Jawna Lumgol Qabin Morkul Stronghold Guild Branch Shebakh gra-Murkha Mournhold Guild Hall Bahree Bald Holgrim Belderi Llenim Carth Northwind Cardea Gallus Duk-Marza Hanyarie Muronad Girvu Nardis Pactuld Viiron Nimalten Guild Hall Angbjar the New Guy Irthor Sergeant Chalda Northern High Rock Gate Ikran Northpoint Guild Branch Savi Adrys Orsinium Guild Hall Ehshaz Garlor Mabgrorga Murotha Nargbagorn Rawl'kha Guild Hall Ashalki Gurum Panreth Thathas Zaydak Redfur Trading Post Branch Aldarenya Hjarfi Winter-Mane Jarina Muram Riften Guild Hall Alfa Carodus Atius Falaki General Ivandi Captain Viveka Guldir Innarrek Izzayya Kharbeff Pain-Giver Sergeant Krathon Sethisa Herethi Tarir Tenduldirel Sadrith Mora Guild Branch Vedelea Tenim",
+      "Fungal Grotto",
+      "Apprentice Fasarel Defender Two-Blades Journeyman Gulvera Swordsman Ranarwa",
+      "Hallin's Stand Guild Hall",
+      "Charlemund Prevette Fethesena Nerendas Hlura Llarvys Nienras Sabirah the Zealous Sgugh gra-Shagronk Thungdosh",
+      "Haven Guild Hall",
+      "Angelenwen Gwannas Lekellae Caprenia Revisii Seloth",
+      "Hissmir Branch",
+      "Adzi-Mota Birila Drujal Lig gra-Murug Olik-Jah Onai-Ruul Topith-Kuz",
+      "Hollow City Guild Hall",
+      "Aleeta Candion Egarfin the Bold Ferva Hloril Hahnin Messenger Narfild Deepcrag Sinfay Valorone Vikord Skullcleaver Vosh gra-Kreeg",
+      "Hoarfrost Downs Branch",
+      "Jaddveig Owlcloak",
+      "Jorunn's Stand Guild Branch",
+      "Zavour Emard",
+      "Kragenmoor Branch",
+      "Akethi Baring Hammertongue Dyleso Erandil Zunala",
+      "Kozanset Guild Hall",
+      "Guibor Hjognar Tariyeh Ulu gra-Korith Yggruk",
+      "Lillandril Guild Hall",
+      "Guardian Nolinare Telonre Nebhavar Loraaldel Kelurm",
+      "Lilmoth Guild Hall",
+      "Claws-the-Ghosts \u2020 Hitari Stoneclaws Strikes-Quickly",
+      "Marbruk Guild Hall",
+      "Ardorin Carimalda Drivas Hrolvar Iniel Laftrius Kasynac Luric Laelrion Lowindor Tarak Triirma",
+      "Martyr's Crossing Branch",
+      "Furious Jawna Lumgol Qabin",
+      "Morkul Stronghold Guild Branch",
+      "Shebakh gra-Murkha",
+      "Mournhold Guild Hall",
+      "Bahree Bald Holgrim Belderi Llenim Carth Northwind Cardea Gallus Duk-Marza Hanyarie Muronad Girvu Nardis Pactuld Viiron",
+      "Nimalten Guild Hall",
+      "Angbjar the New Guy Irthor Sergeant Chalda",
+      "Northern High Rock Gate",
+      "Ikran",
+      "Northpoint Guild Branch",
+      "Savi Adrys",
+      "Orsinium Guild Hall",
+      "Ehshaz Garlor Mabgrorga Murotha Nargbagorn",
+      "Rawl'kha Guild Hall",
+      "Ashalki Gurum Panreth Thathas Zaydak",
+      "Redfur Trading Post Branch",
+      "Aldarenya Hjarfi Winter-Mane Jarina Muram",
+      "Riften Guild Hall",
+      "Alfa Carodus Atius Falaki General Ivandi Captain Viveka Guldir Innarrek Izzayya Kharbeff Pain-Giver Sergeant Krathon Sethisa Herethi Tarir Tenduldirel",
+      "Sadrith Mora Guild Branch",
+      "Vedelea Tenim",
+      "Sentinel Guild Hall Ahdan Aza gra-Birgo Baileet Bumava Elsonia Feristyr Hannibal Virane Hareeya Hareld Falvo Nazila Orrun Rahim af-Nazila Zir at-Owynok Valentique Shimmerene Guild Hall Aicessar Idaug Jehrz Kulira Layedril Merfnovira Olincilion Sanarskar Telalril Vahazi Shinji's Scarp Branch Guth Shor's Stone Guild  Hall Alanne Farvild Drakesbane Otried Shornhelm Guild Hall Burzura Flat-Head Halar Cadiou Junah al-Satakalaam Marzul gro-Orgak Nienornith Nuzhi Shubesha Silvenar Guild Hall Adelhild Dunurra Milwalin Skywatch Fighters Guild Bondileth Nirthindor Sevame Dreth Vaford the Cynical Southern Morrowind Gate Arkas Spindleclutch At'avar Big Rabbu Cerise the Widow-Maker Elnis Elysette Faulor Glathut Guardian Sud-Hareem Kalmuzan Mereel Praxin Douare Stormhold Guild Hall Axe-Fist Bunach Hogfinn Inue Omeeta Othora Padeel Rania Teeka Vurvyn Tal'Deic Fortress Branch Grugues Velyn Harbor Guild Hall Bredrel Fimaz-ra General Elirwen Lindel Valentique Vivec City Branch Aicessar Amarz the Shield-Maker Erikar Five-Blades Natalo Calogerus Riray Dalo Svargret Goodsword Vadethes Senoril Vulkhel Guard Guild Hall Aicessar Apprentice Odrethin Candion Pladina Axilla Warder Calithil Vulkwasten Guild Hall Alana Edherien Elphiniel Rakhhi Tamshur Wayrest Guild Hall Charlisse Alinie Cardea Gallus Hafizah Lihidar at-Shadal Vush gra-Kreeg Western Elsweyr Gate Sebazi Windhelm Guild Hall Aeyne Redoran Agka Anaka the Ink-Blooded Araki Ice-Heart Armory Sergeant Cayliss \u2020 Armory Sergeant Fretild Arns Tharam Bjertha Cooks-the-Meat Galmar War-Wolf Hrolfgald Ingritha Nirthongoth Njial Odela Orrnar Redoran Provost Riud \u2020 Walks-Through-Fog Grackle (Pet) Grish (Pet) Woodhearth Branch Anirmelda Silversteel Vilbjorn the Wolf",
+      "Sentinel Guild Hall",
+      "Ahdan Aza gra-Birgo Baileet Bumava Elsonia Feristyr Hannibal Virane Hareeya Hareld Falvo Nazila Orrun Rahim af-Nazila Zir at-Owynok Valentique",
+      "Shimmerene Guild Hall",
+      "Aicessar Idaug Jehrz Kulira Layedril Merfnovira Olincilion Sanarskar Telalril Vahazi",
+      "Shinji's Scarp Branch",
+      "Guth",
+      "Shor's Stone Guild  Hall",
+      "Alanne Farvild Drakesbane Otried",
+      "Shornhelm Guild Hall",
+      "Burzura Flat-Head Halar Cadiou Junah al-Satakalaam Marzul gro-Orgak Nienornith Nuzhi Shubesha",
+      "Silvenar Guild Hall",
+      "Adelhild Dunurra Milwalin",
+      "Skywatch Fighters Guild",
+      "Bondileth Nirthindor Sevame Dreth Vaford the Cynical",
+      "Southern Morrowind Gate",
+      "Arkas",
+      "Spindleclutch",
+      "At'avar Big Rabbu Cerise the Widow-Maker Elnis Elysette Faulor Glathut Guardian Sud-Hareem Kalmuzan Mereel Praxin Douare",
+      "Stormhold Guild Hall",
+      "Axe-Fist Bunach Hogfinn Inue Omeeta Othora Padeel Rania Teeka Vurvyn",
+      "Tal'Deic Fortress Branch",
+      "Grugues",
+      "Velyn Harbor Guild Hall",
+      "Bredrel Fimaz-ra General Elirwen Lindel Valentique",
+      "Vivec City Branch",
+      "Aicessar Amarz the Shield-Maker Erikar Five-Blades Natalo Calogerus Riray Dalo Svargret Goodsword Vadethes Senoril",
+      "Vulkhel Guard Guild Hall",
+      "Aicessar Apprentice Odrethin Candion Pladina Axilla Warder Calithil",
+      "Vulkwasten Guild Hall",
+      "Alana Edherien Elphiniel Rakhhi Tamshur",
+      "Wayrest Guild Hall",
+      "Charlisse Alinie Cardea Gallus Hafizah Lihidar at-Shadal Vush gra-Kreeg",
+      "Western Elsweyr Gate",
+      "Sebazi",
+      "Windhelm Guild Hall",
+      "Aeyne Redoran Agka Anaka the Ink-Blooded Araki Ice-Heart Armory Sergeant Cayliss \u2020 Armory Sergeant Fretild Arns Tharam Bjertha Cooks-the-Meat Galmar War-Wolf Hrolfgald Ingritha Nirthongoth Njial Odela Orrnar Redoran Provost Riud \u2020 Walks-Through-Fog Grackle (Pet) Grish (Pet)",
+      "Woodhearth Branch",
+      "Anirmelda Silversteel Vilbjorn the Wolf",
+      "Other Members An-Jeen-Seek Aelif Akhita \u2020 Bera Moorsmith \u2020 Bizurr Borgath the Axe Bura-Natoo Calanyese Captain Alphaury Captain Arakh Captain Eilram Champion Marcauld Darien Gautier Fighter Aerdil Fighter Katuraz Fronjolf Galfinar Grundskar Gwilir Halana Henrinora Hunts-in-Shadow Jofnir Iceblade (Previous Guildmaster) Kilian Wennell Merric at-Aswala Naer Prince Azah Rulanir (Former) Sergeant Kamu Skordo the Knife Tethis Valentique Generic Members Camp Defender Defender Guild Blade Fighters Guild Berserker Fighters Guild Bodyguard Fighters Guild Captain Fighters Guild Defender Fighters Guild Gladiator Fighters Guild Guard Fighters Guild Recruit Fighters Guild Sentry Fighters Guild Soldier Fighters Guild Sorcerer Fighters Guild Survivor Fighters Guild Swordmaster Fighters Guild Templar Fighters Guild Thundermaul Prisoner Protector",
+      "Other Members",
+      "An-Jeen-Seek Aelif Akhita \u2020 Bera Moorsmith \u2020 Bizurr Borgath the Axe Bura-Natoo Calanyese Captain Alphaury Captain Arakh Captain Eilram Champion Marcauld Darien Gautier Fighter Aerdil Fighter Katuraz Fronjolf Galfinar Grundskar Gwilir Halana Henrinora Hunts-in-Shadow Jofnir Iceblade (Previous Guildmaster) Kilian Wennell Merric at-Aswala Naer Prince Azah Rulanir (Former) Sergeant Kamu Skordo the Knife Tethis Valentique",
+      "Generic Members",
+      "Camp Defender Defender Guild Blade Fighters Guild Berserker Fighters Guild Bodyguard Fighters Guild Captain Fighters Guild Defender Fighters Guild Gladiator Fighters Guild Guard Fighters Guild Recruit Fighters Guild Sentry Fighters Guild Soldier Fighters Guild Sorcerer Fighters Guild Survivor Fighters Guild Swordmaster Fighters Guild Templar Fighters Guild Thundermaul Prisoner Protector"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Fighters Guild",
+    "table": 6,
+    "rows": 6,
+    "cols": 4,
+    "csv": "uesp_Online_Fighters_Guild_t06.csv",
     "header": [
       "Achievement",
       "Points",
@@ -2296,6 +2876,94 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Heavy Armor",
+    "table": 0,
+    "rows": 23,
+    "cols": 8,
+    "csv": "uesp_Online_Heavy_Armor_t00.csv",
+    "header": [
+      "Resolve I",
+      "",
+      "2",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Heavy Armor",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Heavy_Armor_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Heavy Armor",
+    "table": 2,
+    "rows": 1,
+    "cols": 4,
+    "csv": "uesp_Online_Heavy_Armor_t02.csv",
+    "header": [
+      "Set Name",
+      "Bonuses",
+      "Location(s)",
+      "Set Type"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Heavy Armor",
+    "table": 3,
+    "rows": 13,
+    "cols": 4,
+    "csv": "uesp_Online_Heavy_Armor_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Heavy Armor Bonuses",
+    "table": 0,
+    "rows": 3,
+    "cols": 2,
+    "csv": "uesp_Online_Heavy_Armor_Bonuses_t00.csv",
+    "header": [
+      "",
+      "Heavy Armor Bonuses"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Heavy Armor Penalties",
+    "table": 0,
+    "rows": 3,
+    "cols": 2,
+    "csv": "uesp_Online_Heavy_Armor_Penalties_t00.csv",
+    "header": [
+      "",
+      "Heavy Armor Penalties"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Immobilize",
     "table": 0,
     "rows": 9,
@@ -2445,6 +3113,177 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Light Armor",
+    "table": 0,
+    "rows": 23,
+    "cols": 8,
+    "csv": "uesp_Online_Light_Armor_t00.csv",
+    "header": [
+      "Grace I",
+      "",
+      "2",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Light Armor",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Light_Armor_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Light Armor",
+    "table": 2,
+    "rows": 1,
+    "cols": 4,
+    "csv": "uesp_Online_Light_Armor_t02.csv",
+    "header": [
+      "Set Name",
+      "Bonuses",
+      "Location(s)",
+      "Set Type"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Light Armor",
+    "table": 3,
+    "rows": 13,
+    "cols": 4,
+    "csv": "uesp_Online_Light_Armor_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Light Armor Bonuses",
+    "table": 0,
+    "rows": 3,
+    "cols": 2,
+    "csv": "uesp_Online_Light_Armor_Bonuses_t00.csv",
+    "header": [
+      "",
+      "Light Armor Bonuses"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Mages Guild",
+    "table": 0,
+    "rows": 19,
+    "cols": 8,
+    "csv": "uesp_Online_Mages_Guild_t00.csv",
+    "header": [
+      "Persuasive Will",
+      "",
+      "1",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Mages Guild",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Mages_Guild_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Mages Guild",
+    "table": 2,
+    "rows": 20,
+    "cols": 8,
+    "csv": "uesp_Online_Mages_Guild_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Mages Guild",
+    "table": 3,
+    "rows": 9,
+    "cols": 4,
+    "csv": "uesp_Online_Mages_Guild_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Mages Guild",
+    "table": 4,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Mages_Guild_t04.csv",
+    "header": [
+      "Rank",
+      "Reputation Required for Next Rank",
+      "Total Reputation for Rank"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Mages Guild",
+    "table": 5,
+    "rows": 6,
+    "cols": 4,
+    "csv": "uesp_Online_Mages_Guild_t05.csv",
+    "header": [
+      "Achievement",
+      "Points",
+      "Description",
+      "Reward"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Magic Damage",
     "table": 0,
     "rows": 298,
@@ -2472,6 +3311,82 @@
       "Set",
       "Weight",
       "complete set bonus"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Medium Armor",
+    "table": 0,
+    "rows": 23,
+    "cols": 8,
+    "csv": "uesp_Online_Medium_Armor_t00.csv",
+    "header": [
+      "Dexterity I",
+      "",
+      "2",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Medium Armor",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Medium_Armor_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Medium Armor",
+    "table": 2,
+    "rows": 1,
+    "cols": 4,
+    "csv": "uesp_Online_Medium_Armor_t02.csv",
+    "header": [
+      "Set Name",
+      "Bonuses",
+      "Location(s)",
+      "Set Type"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Medium Armor",
+    "table": 3,
+    "rows": 12,
+    "cols": 4,
+    "csv": "uesp_Online_Medium_Armor_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Medium Armor Bonuses",
+    "table": 0,
+    "rows": 3,
+    "cols": 2,
+    "csv": "uesp_Online_Medium_Armor_Bonuses_t00.csv",
+    "header": [
+      "",
+      "Medium Armor Bonuses"
     ]
   },
   {
@@ -2694,6 +3609,60 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Nirnhoned",
+    "table": 0,
+    "rows": 2,
+    "cols": 1,
+    "csv": "uesp_Online_Nirnhoned_t00.csv",
+    "header": [
+      "Damage Increase"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Nirnhoned",
+    "table": 1,
+    "rows": 42,
+    "cols": 5,
+    "csv": "uesp_Online_Nirnhoned_t01.csv",
+    "header": [
+      "Material",
+      "Level",
+      "Base Damage",
+      "",
+      "Nirnhoned Damage"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Nirnhoned",
+    "table": 2,
+    "rows": 42,
+    "cols": 5,
+    "csv": "uesp_Online_Nirnhoned_t02.csv",
+    "header": [
+      "Material",
+      "Level",
+      "Base Damage",
+      "",
+      "Nirnhoned Damage"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Nirnhoned",
+    "table": 3,
+    "rows": 42,
+    "cols": 3,
+    "csv": "uesp_Online_Nirnhoned_t03.csv",
+    "header": [
+      "Material",
+      "Level",
+      "Resistance"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Oblivion Damage",
     "table": 0,
     "rows": 4,
@@ -2717,6 +3686,88 @@
       "Affects",
       "Cost",
       "Notes"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:One Hand and Shield",
+    "table": 0,
+    "rows": 29,
+    "cols": 8,
+    "csv": "uesp_Online_One_Hand_and_Shield_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Puncture"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:One Hand and Shield",
+    "table": 1,
+    "rows": 5,
+    "cols": 9,
+    "csv": "uesp_Online_One_Hand_and_Shield_t01.csv",
+    "header": [
+      "",
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:One Hand and Shield",
+    "table": 2,
+    "rows": 25,
+    "cols": 8,
+    "csv": "uesp_Online_One_Hand_and_Shield_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:One Hand and Shield",
+    "table": 3,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_One_Hand_and_Shield_t03.csv",
+    "header": [
+      "Ability Name",
+      "Weapon set name",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:One Hand and Shield",
+    "table": 4,
+    "rows": 10,
+    "cols": 4,
+    "csv": "uesp_Online_One_Hand_and_Shield_t04.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
     ]
   },
   {
@@ -3086,6 +4137,101 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Psijic Order",
+    "table": 0,
+    "rows": 19,
+    "cols": 8,
+    "csv": "uesp_Online_Psijic_Order_t00.csv",
+    "header": [
+      "See the Unseen",
+      "",
+      "1",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Psijic Order",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Psijic_Order_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Psijic Order",
+    "table": 2,
+    "rows": 25,
+    "cols": 8,
+    "csv": "uesp_Online_Psijic_Order_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Psijic Order",
+    "table": 3,
+    "rows": 8,
+    "cols": 4,
+    "csv": "uesp_Online_Psijic_Order_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Psijic Order",
+    "table": 4,
+    "rows": 14,
+    "cols": 17,
+    "csv": "uesp_Online_Psijic_Order_t04.csv",
+    "header": [
+      "Conclave of the Eleven Forces Ritemaster Iachesis (First Leader) Valsirenn (Second Leader) Amaleera Iradal Loremaster Celarus Relicmaster Glenadir Undeya Members on Artaeum Arartar Berwiria Celice Bargeron Corunorion Enulyanar Farwunte Hiryadrion Hyurmir Melenlan Mulvarion Naanelore Nalirsewen Nildolnorne Noloen Jerick Tarwannewen Temelin Tendinwe Ulliceta gra-Kogg Unwulfwe Vaireno Dawari",
+      "Conclave of the Eleven Forces",
+      "Ritemaster Iachesis (First Leader) Valsirenn (Second Leader) Amaleera Iradal Loremaster Celarus Relicmaster Glenadir Undeya",
+      "Members on Artaeum",
+      "Arartar Berwiria Celice Bargeron Corunorion Enulyanar Farwunte Hiryadrion Hyurmir Melenlan Mulvarion Naanelore Nalirsewen Nildolnorne Noloen Jerick Tarwannewen Temelin Tendinwe Ulliceta gra-Kogg Unwulfwe Vaireno Dawari",
+      "Ceporah Tower Cinucil Ellacalion Fiirenanar Glanoyar Josajeh Monganar Panyra College of Psijics Ruins Andiryewen Henarine Ilaatysar Lanard Perrick Colosseum of the Old Ways Eldellar Geniette Emard Lantilwe Nemuutian Tinus Darlliun",
+      "Ceporah Tower",
+      "Cinucil Ellacalion Fiirenanar Glanoyar Josajeh Monganar Panyra",
+      "College of Psijics Ruins",
+      "Andiryewen Henarine Ilaatysar Lanard Perrick",
+      "Colosseum of the Old Ways",
+      "Eldellar Geniette Emard Lantilwe Nemuutian Tinus Darlliun",
+      "Other Locations Esulo Indilgalion Legionary Jaida Lilatha Master Larama Molirstamil Orarelwe Oriandra Psijic Calis Pythis the Betrayer Relic-Apprentice Marafar Saresea Sotha Sil (Honorary Member) Taredinion Visiting Psijic Generic Members Psijic Apprentice Psijiic Order Corpse Psijic Sage Ritemaster's Memory",
+      "Other Locations",
+      "Esulo Indilgalion Legionary Jaida Lilatha Master Larama Molirstamil Orarelwe Oriandra Psijic Calis Pythis the Betrayer Relic-Apprentice Marafar Saresea Sotha Sil (Honorary Member) Taredinion Visiting Psijic",
+      "Generic Members",
+      "Psijic Apprentice Psijiic Order Corpse Psijic Sage Ritemaster's Memory"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:PVP Sets",
     "table": 0,
     "rows": 28,
@@ -3179,6 +4325,100 @@
       "Max Health Health Recovery",
       "Max Stamina Stamina Recovery Weapon Damage",
       "Other Bonuses"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Recovery",
+    "table": 0,
+    "rows": 5,
+    "cols": 2,
+    "csv": "uesp_Online_Recovery_t00.csv",
+    "header": [
+      "",
+      "Recovery"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Restoration Staff",
+    "table": 0,
+    "rows": 29,
+    "cols": 8,
+    "csv": "uesp_Online_Restoration_Staff_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Grand Healing"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Restoration Staff",
+    "table": 1,
+    "rows": 5,
+    "cols": 9,
+    "csv": "uesp_Online_Restoration_Staff_t01.csv",
+    "header": [
+      "",
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Restoration Staff",
+    "table": 2,
+    "rows": 25,
+    "cols": 8,
+    "csv": "uesp_Online_Restoration_Staff_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Restoration Staff",
+    "table": 3,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Restoration_Staff_t03.csv",
+    "header": [
+      "Ability Name",
+      "Weapon set name",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Restoration Staff",
+    "table": 4,
+    "rows": 10,
+    "cols": 4,
+    "csv": "uesp_Online_Restoration_Staff_t04.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
     ]
   },
   {
@@ -3386,6 +4626,74 @@
       "Triggered by",
       "Cooldown",
       "Notes"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Support",
+    "table": 0,
+    "rows": 17,
+    "cols": 8,
+    "csv": "uesp_Online_Support_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Siege Shield"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Support",
+    "table": 1,
+    "rows": 5,
+    "cols": 8,
+    "csv": "uesp_Online_Support_t01.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Support",
+    "table": 2,
+    "rows": 20,
+    "cols": 8,
+    "csv": "uesp_Online_Support_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Support",
+    "table": 3,
+    "rows": 6,
+    "cols": 4,
+    "csv": "uesp_Online_Support_t03.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
     ]
   },
   {
@@ -3897,6 +5205,88 @@
   },
   {
     "source": "uesp",
+    "page": "Online:Two Handed",
+    "table": 0,
+    "rows": 29,
+    "cols": 8,
+    "csv": "uesp_Online_Two_Handed_t00.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "2",
+      "",
+      "Uppercut"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Two Handed",
+    "table": 1,
+    "rows": 5,
+    "cols": 9,
+    "csv": "uesp_Online_Two_Handed_t01.csv",
+    "header": [
+      "",
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Two Handed",
+    "table": 2,
+    "rows": 25,
+    "cols": 8,
+    "csv": "uesp_Online_Two_Handed_t02.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Two Handed",
+    "table": 3,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Two_Handed_t03.csv",
+    "header": [
+      "Ability Name",
+      "Weapon set name",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Two Handed",
+    "table": 4,
+    "rows": 10,
+    "cols": 4,
+    "csv": "uesp_Online_Two_Handed_t04.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
     "page": "Online:Ultimate",
     "table": 0,
     "rows": 49,
@@ -4050,6 +5440,127 @@
     "csv": "uesp_Online_Ultimate_t02.csv",
     "header": [
       "All Characters"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 0,
+    "rows": 7,
+    "cols": 2,
+    "csv": "uesp_Online_Undaunted_t00.csv",
+    "header": [
+      "Premium Undaunted Exploration Supplies",
+      "Undaunted Exploration Supplies"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 1,
+    "rows": 6,
+    "cols": 9,
+    "csv": "uesp_Online_Undaunted_t01.csv",
+    "header": [
+      "Members Abzag the Monster Adrolir Akgruhl gra-Bol Armelle Madach Axel Malveaux Black-Scale Bloody Mayra Bolgrul Brazzideh Brittgerd Bear-Master Brulo Bloodletter Caeleneth the Hapless Caenlilmith Celelruin Chumbley Earrona Kneecapper Eats-Aged-Meat Eraegaer the Kill-Happy Felgol Felvyn the Swordarm Ferocious Jakidi Flin-Face Glad Glatha Glirion the Redbeard Gobur One-Eye Gorgrolg Hackle Heathre Hel Ra'Lala Hixultvutar Hloelott Ravens-Beak Hogondar Hammerhurl Hranir Icy-Mane Hrodi Mule-Face Hroltar the Boaster Ila al-Ragath Ilmeni Arelas Ilmindil the Incendiary Iulia Sentillus Javerien Tustin Joy Kailstig the Axe Lady Blade Lodiss the Rock Ludippe Guegan Ludovic the Lucky",
+      "Members",
+      "Abzag the Monster Adrolir Akgruhl gra-Bol Armelle Madach Axel Malveaux Black-Scale Bloody Mayra Bolgrul Brazzideh Brittgerd Bear-Master Brulo Bloodletter Caeleneth the Hapless Caenlilmith Celelruin Chumbley Earrona Kneecapper Eats-Aged-Meat Eraegaer the Kill-Happy Felgol Felvyn the Swordarm Ferocious Jakidi Flin-Face Glad Glatha Glirion the Redbeard Gobur One-Eye Gorgrolg Hackle Heathre Hel Ra'Lala Hixultvutar Hloelott Ravens-Beak Hogondar Hammerhurl Hranir Icy-Mane Hrodi Mule-Face Hroltar the Boaster Ila al-Ragath Ilmeni Arelas Ilmindil the Incendiary Iulia Sentillus Javerien Tustin Joy Kailstig the Axe Lady Blade Lodiss the Rock Ludippe Guegan Ludovic the Lucky",
+      "Members (Continued) Mad Zebba Maela the Crone Magnifico Jalid Maj al-Ragath Mallam Darano Mighty Mordra Mindil the Untested Monynen Nessa Inkskin Njoll Numyn Ohartalmo Resolute Ranarwa Roaring Ramavel Sahba the Bonecrusher Savage Sehlena Seeks-Her-Glory Serileth Shiv Siid Voung Slays-By-Moon Sleeps-on-Shield Sluz the Beryl-Chested Sobabe Strong-With-Tail Talirinde Thongar the Stout Thorkar Greatstorm Thulga, Empress of Bone Tildanyorion Tiny Talisse Tubidan the Alarmist Turuk Redclaws Twice-Lucky Umbarume the Undertaker Untouchable Naim Urgarlag Chief-bane Venomous Fauridil Vlesyl the Skin-Stealer Vyric the White Wanda Wandering Jakalor Yisareh Zantan the Magnificent Zayansora",
+      "Members (Continued)",
+      "Mad Zebba Maela the Crone Magnifico Jalid Maj al-Ragath Mallam Darano Mighty Mordra Mindil the Untested Monynen Nessa Inkskin Njoll Numyn Ohartalmo Resolute Ranarwa Roaring Ramavel Sahba the Bonecrusher Savage Sehlena Seeks-Her-Glory Serileth Shiv Siid Voung Slays-By-Moon Sleeps-on-Shield Sluz the Beryl-Chested Sobabe Strong-With-Tail Talirinde Thongar the Stout Thorkar Greatstorm Thulga, Empress of Bone Tildanyorion Tiny Talisse Tubidan the Alarmist Turuk Redclaws Twice-Lucky Umbarume the Undertaker Untouchable Naim Urgarlag Chief-bane Venomous Fauridil Vlesyl the Skin-Stealer Vyric the White Wanda Wandering Jakalor Yisareh Zantan the Magnificent Zayansora",
+      "Mentioned Aidan the Fear-Son Athan Tennecker Bradford the Brutal Danteriel Eeno Gadrey Vintalen Jeeba Kyrin Brightglade Lady Baronessa Ludovic the Lucky Maeglin Telemmaite Maximus the Burning Quinius Keeting Rassi Thimblebock Recites-Poetry Salaisoc Sobabe Tarien Vel Tarik the Hollow-Sky Verana Telemmaite Zakir Zaliya",
+      "Mentioned",
+      "Aidan the Fear-Son Athan Tennecker Bradford the Brutal Danteriel Eeno Gadrey Vintalen Jeeba Kyrin Brightglade Lady Baronessa Ludovic the Lucky Maeglin Telemmaite Maximus the Burning Quinius Keeting Rassi Thimblebock Recites-Poetry Salaisoc Sobabe Tarien Vel Tarik the Hollow-Sky Verana Telemmaite Zakir Zaliya"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 2,
+    "rows": 17,
+    "cols": 8,
+    "csv": "uesp_Online_Undaunted_t02.csv",
+    "header": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "1",
+      "",
+      "Blood Altar"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 3,
+    "rows": 25,
+    "cols": 9,
+    "csv": "uesp_Online_Undaunted_t03.csv",
+    "header": [
+      "",
+      "Name",
+      "Line Rank",
+      "Cast Time",
+      "Target",
+      "Range",
+      "Radius",
+      "Duration",
+      "Cost"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 4,
+    "rows": 4,
+    "cols": 4,
+    "csv": "uesp_Online_Undaunted_t04.csv",
+    "header": [
+      "Name",
+      "Line Rank",
+      "Skill Rank",
+      "Description"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 5,
+    "rows": 7,
+    "cols": 2,
+    "csv": "uesp_Online_Undaunted_t05.csv",
+    "header": [
+      "Activity",
+      "Reputation given"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 6,
+    "rows": 10,
+    "cols": 3,
+    "csv": "uesp_Online_Undaunted_t06.csv",
+    "header": [
+      "Rank",
+      "Reputation Required for Next Rank",
+      "Total Reputation for Rank"
+    ]
+  },
+  {
+    "source": "uesp",
+    "page": "Online:Undaunted",
+    "table": 7,
+    "rows": 6,
+    "cols": 4,
+    "csv": "uesp_Online_Undaunted_t07.csv",
+    "header": [
+      "Achievement",
+      "Points",
+      "Description",
+      "Reward"
     ]
   },
   {

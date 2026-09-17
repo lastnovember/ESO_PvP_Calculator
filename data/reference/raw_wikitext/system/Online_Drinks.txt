@@ -1,0 +1,633 @@
+{{Trail|Items}}
+{{about|beverage items which cannot be crafted, but instead must be found|craftable drinks|Beverage Recipes}}{{TOCright}}
+'''Drinks''' are items that temporarily increase regeneration of one, two, or of all three [[Online:Attributes|attributes]]. 
+
+This page lists all the drinks that can be purchased from the [[Online:Brewers|brewers]] and [[Online:Chefs & Brewers|chef & brewer]] vendors or found throughout [[Online:Tamriel|Tamriel]]. Please note that these beverages are of Normal Quality, in contrast to the ones [[Online:Provisioning|brewed]] by player, and speed up the recovery of only one of the attributes at a time.
+
+Items on this list increase an attribute regeneration for 35 minutes and have a 5 second cooldown. If different drinks are consumed one after another, the effects do not stack.
+
+Although [[Online:Psijic Ambrosia|Psijic Ambrosia]] is listed as a beverage when crafting, it can be consumed alongside other drinks and therefore isn't listed here.
+
+==Staple Beverages==
+These beverages are '''{{ESO Quality Color|n|Normal Quality}}''' versions of craftable '''{{ESO Quality Color|f|Fine}}''' [[ON:Beverage Recipes|Beverage Recipes]].  They are less potent than their crafted versions.  These may be found randomly on tables and in kegs throughout the world, or they may be purchased from [[ON:Innkeepers|Innkeepers]] or [[ON:Brewers|Brewers]].  They may also be received as quest rewards from the [[ON:Fighters Guild|Fighters Guild]], [[ON:Mages Guild|Mages Guild]], and [[ON:Undaunted|Undaunted]] daily quests.
+
+{|class="wikitable sortable" {{AL|C}}
+!colspan=4|&nbsp;!!colspan=3 style="padding: 1em"|Increase Attribute Recovery by!!
+|-
+!class="unsortable"|&nbsp;!!width=15%|Name!!Drink Level!!Drink Type!!{{ESO Health Link}}!!{{ESO Magicka Link}}!!{{ESO Stamina Link}}!!Dur (mins)
+{{Online Staple Entry|Golden Lager}}
+{{Online Staple Entry|Nut Brown Ale}}
+{{Online Staple Entry|Red Rye Beer}}
+{{Online Staple Entry|Jasmine Tea}}
+{{Online Staple Entry|Mint Chai}}
+{{Online Staple Entry|Rose Herbal Tea}}
+{{Online Staple Entry|Acai Tonic Infusion}}
+{{Online Staple Entry|Ginkgo Tonic}}
+{{Online Staple Entry|Guarana Tonic}}
+{{Online Staple Entry|Bog-Iron Ale}}
+{{Online Staple Entry|Mazte}}
+{{Online Staple Entry|Surilie Syrah Wine}}
+{{Online Staple Entry|Bitter Tea}}
+{{Online Staple Entry|Comberry Chai}}
+{{Online Staple Entry|Lotus Tea}}
+{{Online Staple Entry|Black Coffee}}
+{{Online Staple Entry|Ginseng Tonic}}
+{{Online Staple Entry|Mate Infusion}}
+{{Online Staple Entry|Clarified Syrah Wine}}
+{{Online Staple Entry|Four-Eye Grog}}
+{{Online Staple Entry|Lemon Flower Mazte}}
+{{Online Staple Entry|Honeyberry Tea}}
+{{Online Staple Entry|Morning Reveille Tea}}
+{{Online Staple Entry|Sweetsting Tea}}
+{{Online Staple Entry|Meady-Matey Infusion}}
+{{Online Staple Entry|Tonsil Tingle Tonic}}
+{{Online Staple Entry|Yellow Goblin Tonic}}
+{{Online Staple Entry|Old Clear-Eye Whiskey}}
+{{Online Staple Entry|Red Hippocras}}
+{{Online Staple Entry|Tawny Port}}
+{{Online Staple Entry|Gingerose Tea}}
+{{Online Staple Entry|Green Scourgut Tea}}
+{{Online Staple Entry|Sourflower Tea}}
+{{Online Staple Entry|Isinmate Infusion}}
+{{Online Staple Entry|Kelp Kaveh}}
+{{Online Staple Entry|Sweetberry Tonic}}
+{{Online Staple Entry|Eltheric Hooch}}
+{{Online Staple Entry|Gossamer Mazte}}
+{{Online Staple Entry|Bitterlemon Tea}}
+{{Online Staple Entry|Seaflower Tea}}
+{{Online Staple Entry|Treacleberry Tea}}
+{{Online Staple Entry|Barley Nectar}}
+{{Online Staple Entry|Ginkgo Twist Tonic}}
+{{Online Staple Entry|Taneth Coffee}}
+{{Online Staple Entry|Yerba Zinger Tonic}}
+{{Online Staple Entry|Ginger Wheat Beer}}
+{{Online Staple Entry|Honey Rye}}
+{{Online Staple Entry|Mermaid Whiskey}}
+{{Online Staple Entry|Enlightenment Tea}}
+{{Online Staple Entry|Mead de Menthe}}
+{{Online Staple Entry|Thrassian Chai}}
+{{Online Staple Entry|Athlete's Guzzle}}
+{{Online Staple Entry|Busy Bee Brew}}
+{{Online Staple Entry|Ginseng Sling}}
+{{Online Staple Entry|Mulled Wine}}
+{{Online Staple Entry|Sour Mash}}
+{{Online Staple Entry|Spiced Mazte}}
+{{Online Staple Entry|Maormer Tea}}
+{{Online Staple Entry|Spiceberry Chai}}
+{{Online Staple Entry|Torval Mint Tea}}
+{{Online Staple Entry|Berrymead Tonic}}
+{{Online Staple Entry|Dancing Grandma}}
+{{Online Staple Entry|Pirate's Jig Tonic}}
+{{Online Staple Entry|Nereid Wine}}
+{{Online Staple Entry|Rye-in-your-Eye}}
+{{Online Staple Entry|Sorry, Honey Lager}}
+{{Online Staple Entry|Pink Profundity}}
+{{Online Staple Entry|Puckermint Tea}}
+{{Online Staple Entry|Winter Rose Tea}}
+{{Online Staple Entry|Crystal Clarity}}
+{{Online Staple Entry|Rihad Qishr}}
+{{Online Staple Entry|Seaberry Tonic}}
+{{Online Staple Entry|Cheydinhal Sherry}}
+{{Online Staple Entry|Colovian Amber Ale}}
+{{Online Staple Entry|Gods-Blind-Me}}
+{{Online Staple Entry|Sweet Slaughterfish Tea}}
+{{Online Staple Entry|Two-Zephyr Tea}}
+{{Online Staple Entry|Vivec's Gingergreen Chai}}
+{{Online Staple Entry|Blue Road Marathon}}
+{{Online Staple Entry|Infernal Infusion}}
+{{Online Staple Entry|Sweet Persistence}}
+{{Online Staple Entry|Sour Gin Fizz}}
+{{Online Staple Entry|Sweet Scamp Mazte}}
+{{Online Staple Entry|Whiskey Sour}}
+{{Online Staple Entry|Camlorn Mint Tea}}
+{{Online Staple Entry|Jasminger Tea}}
+{{Online Staple Entry|Sweet Dreams Tea}}
+{{Online Staple Entry|Dreugh Spit}}
+{{Online Staple Entry|Lemonic Invigoration}}
+{{Online Staple Entry|Shimmerene Tonic}}
+{{Online Staple Entry|Comely Wench Whiskey}}
+{{Online Staple Entry|Frothy Sargassum}}
+{{Online Staple Entry|Rimmen Sour Bock}}
+{{Online Staple Entry|Clan Mother's Cordial}}
+{{Online Staple Entry|Mournhold Twister}}
+{{Online Staple Entry|Grandpa's Bedtime Tonic}}
+{{Online Staple Entry|Sload Slime}}
+{{Online Staple Entry|Soothing Sundas Tonic}}
+{{Online Staple Entry|Arenthian Brandy}}
+{{Online Staple Entry|Argonian Mud-Nectar}}
+{{Online Staple Entry|Summer Sky Pale Ale}}
+{{Online Staple Entry|Bitter Ritual Tea}}
+{{Online Staple Entry|Five-Fireball Infusion}}
+{{Online Staple Entry|Khenarthi's Wings Chai}}
+{{Online Staple Entry|Sailor's Second Wind}}
+{{Online Staple Entry|Sipping Imga Tonic}}
+{{Online Staple Entry|Wamasu Spew}}
+{{Online Staple Entry|Alabaster Honey Rum}}
+{{Online Staple Entry|Pirate Queen Mint Tea}}
+{{Online Staple Entry|Nocturnal's Everblack Coffee}}
+{{Online Staple Entry|Kragenmoor Zinger Mazte}}
+{{Online Staple Entry|Heart's Day Rose Tea}}
+{{Online Staple Entry|Fredas Night Infusion}}
+|}
+
+==Swill==
+These items could be found out in the open and are generally of poor quality, but swill is better than nothing. {{huh|deprecated when ?}}
+
+{|class="wikitable sortable" {{AL|C}}
+!colspan=4|&nbsp;!!colspan=3 style="padding: 1em"|Increase Attribute Maximum Value by!!
+|-
+!class="unsortable"|&nbsp;!!width=15%|Name!!Food Level!!Dish Type!!{{ESO Health Link}}!!{{ESO Magicka Link}}!!{{ESO Stamina Link}}!!Dur (mins)
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=37868|Swill}} || 1 || Tonic || || || 37 || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=37916|Swill}} || 1 || Tonic || || || 37 || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=30439|Swill}} || 8 || Alcohol || 82 || || || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=30451|Swill}} || 8 || Alcohol || 82 || || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=30441|Swill}} || 8 || Tea || || 75 || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=30453|Swill}} || 8 || Tea || || 75 || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=37777|Swill}} || 8 || Tea || || 75 || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=37825|Swill}} || 8 || Tea || || 75 || || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=30443|Swill}} || 8 || Tonic || || || 75 || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=30455|Swill}} || 8 || Tonic || || || 75 || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=37778|Swill}} || 8 || Tonic || || || 75 || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=37826|Swill}} || 8 || Tonic || || || 75 || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37884|Swill}} || 17 || Alcohol || 165 || || || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37932|Swill}} || 17 || Alcohol || 165 || || || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37890|Swill}} || 22 || Alcohol || 206 || || || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37938|Swill}} || 22 || Alcohol || 206 || || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=37795|Swill}} || 22 || Tea || || 189 || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=37843|Swill}} || 22 || Tea || || 189 || || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37896|Swill}} || 27 || Alcohol || 247 || || || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37944|Swill}} || 27 || Alcohol || 247 || || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=32098|Swill}} || 27 || Tea || || 226 || || 35
+|-
+|{{Icon|f|Wine}} || {{Item Link|id=32110|Swill}} || 27 || Tea || || 226 || || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=37802|Swill}} || 27 || Tonic || || || 226 || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=37850|Swill}} || 27 || Tonic || || || 226 || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37806|Swill}} || 32 || Alcohol || 289 || || || 35
+|-
+|{{Icon|f|Beer}} || {{Item Link|id=37854|Swill}} || 32 || Alcohol || 289 || || || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=32117|Swill}} || 32 || Tonic || || || 264 || 35
+|-
+|{{Icon|f|Spirits}} || {{Item Link|id=32129|Swill}} || 32 || Tonic || || || 264 || 35
+|}
+
+==Deprecated Beverages==
+These are legacy beverage items created prior to [[ON:Update 6|Update 6]], which overhauled the Provisioning system.  They can still be used as normal, but may no longer be created
+{|class="wikitable sortable" {{AL|C}}
+!colspan=4|&nbsp;!!colspan=3 style="padding: 1em"|Increase Attribute Maximum Value by!!
+|-
+!class="unsortable"|&nbsp;!!width=15%|Name!!Food Level!!Dish Type!!{{ESO Health Link}}!!{{ESO Magicka Link}}!!{{ESO Stamina Link}}!!Dur (mins)
+|-
+| {{Icon|f|Beer 03}} || {{Item Link|id=37770|Flat Golden Lager}} || 1 || Alcohol || 38 || || || 35
+|-
+| {{Icon|f|Beer 02}} || {{Item Link|id=30450|Flat Nut Brown Ale}} || 1 || Alcohol || 38 || || || 35
+|-
+| {{Icon|f|Beer 03}} || {{Item Link|id=37866|Flat Red Rye Beer}} || 1 || Alcohol || 38 || || || 35
+|-
+| {{Icon|f|Tea 04}} || {{Item Link|id=30452|Murky Jasmine Tea}} || 1 || Tea || || 35 || || 35
+|-
+| {{Icon|f|Tea 03}} || {{Item Link|id=37867|Murky Mint Chai}} || 1 || Tea || || 35 || || 35
+|-
+| {{Icon|f|Tea 03}} || {{Item Link|id=37771|Murky Rose Herbal Tea}} || 1 || Tea || || 35 || || 35
+|-
+| {{Icon|f|Spirits}} || {{Item Link|id=30454|Cloudy Ginkgo Tonic}} || 1 || Tonic || || || 35 || 35
+|-
+| {{Icon|f|Spirits Red}} || {{Item Link|id=37772|Cloudy Guarana Tonic}} || 1 || Tonic || || || 35 || 35
+|-
+| {{Icon|f|Tea 02}} || {{Item Link|id=30587|Cloudy Comberry Chai}} || 5 || Alcohol || 77 || || || 35
+|-
+| {{Icon|f|Spirits Green}} || {{Item Link|id=32145|Flat Mazte}} || 5 || Alcohol || 77 || || || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=37872|Flat Mazte}} || 5 || Alcohol || 77 || || || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=37776|Flat Surilie Syrah Wine}} || 5 || Alcohol || 77 || || || 35
+|-
+| {{Icon|f|Tea 05}} || {{Item Link|id=37873|Murky Bitter Tea}} || 5 || Tea || || 70 || || 35
+|-
+| {{Icon|f|Tea 04}} || {{Item Link|id=32140|Murky Lotus Tea}} || 5 || Tea || || 70 || || 35
+|-
+| {{Icon|f|Tea 02}} || {{Item Link|id=37874|Cloudy Black Coffee}} || 5 || Tonic || || || 70 || 35
+|-
+| {{Icon|f|Brown Bottle}} || {{Item Link|id=32067|Flat Clarified Syrah Wine}} || 10 || Alcohol || 115 || || || 35
+|-
+| {{Icon|f|Brown Bottle}} || {{Item Link|id=37782|Flat Lemon Flower Sake}} || 10 || Alcohol || 115 || || || 35
+|-
+| {{Icon|f|Beer 02}} || {{Item Link|id=37878|Flat Four-Eye Grog}} || 10 || Alcohol || 115 || || || 35
+|-
+| {{Icon|f|Tea 05}} || {{Item Link|id=32068|Murky Honeyberry Tea}} || 10 || Tea || || 105 || || 35
+|-
+| {{Icon|f|Tea 06}} || {{Item Link|id=37879|Murky Morning Reveille Tea}} || 10 || Tea || || 105 || || 35
+|-
+| {{Icon|f|Tea 06}} || {{Item Link|id=37783|Murky Sweetsting Tea}} || 10 || Tea || || 105 || || 35
+|-
+| {{Icon|f|Red Ale}} || {{Item Link|id=37880|Cloudy Meady-Matey Infusion}} || 10 || Tonic || || || 105 || 35
+|-
+| {{Icon|f|Spirits Red}} || {{Item Link|id=32069|Cloudy Tonsil Tingle Tonic}} || 10 || Tonic || || || 105 || 35
+|-
+| {{Icon|f|Tea}} || {{Item Link|id=37784|Cloudy Yellow Goblin Tonic}} || 10 || Tonic || || || 105 || 35
+|-
+| {{Icon|f|Spirits Blue}} || {{Item Link|id=37788|Flat Old Clear-Eye Whiskey}} || 15 || Alcohol || 154 || || || 35
+|-
+| {{Icon|f|Brown Bottle}} || {{Item Link|id=32073|Flat Tawny Port}} || 15 || Alcohol || 154 || || || 35
+|-
+| {{Icon|f|Tea 04}} || {{Item Link|id=37789|Murky Gingerose Tea}} || 15 || Tea || || 140 || || 35
+|-
+| {{Icon|f|Tea 01}} || {{Item Link|id=37885|Murky Green Scourgut Tea}} || 15 || Tea || || 140 || || 35
+|-
+| {{Icon|f|Tea 02}} || {{Item Link|id=32074|Murky Sourflower Tea}} || 15 || Tea || || 140 || || 35
+|-
+| {{Icon|f|Tea}} || {{Item Link|id=32075|Cloudy Isinmate Infusion}} || 15 || Tonic || || || 140 || 35
+|-
+| {{Icon|f|Brown Bottle}} || {{Item Link|id=37886|Cloudy Kelp Kaveh}} || 15 || Tonic || || || 140 || 35
+|-
+| {{Icon|f|Spirits Green}} || {{Item Link|id=37790|Cloudy Sweetberry Tonic}} || 15 || Tonic || || || 140 || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=32091|Flat Eltheric Hooch}} || 20 || Alcohol || 192 || || || 35
+|-
+| {{Icon|f|Tea}} || {{Item Link|id=37794|Flat Gossamer Mazte}} || 20 || Alcohol || 192 || || || 35
+|-
+| {{Icon|f|Tea 05}} || {{Item Link|id=32092|Murky Bitterlemon Tea}} || 20 || Tea || || 175 || || 35
+|-
+| {{Icon|f|Tea 01}} || {{Item Link|id=37891|Murky Treacleberry Tea}} || 20 || Tea || || 175 || || 35
+|-
+| {{Icon|f|Tonic}} || {{Item Link|id=37892|Cloudy Barley Nectar}} || 20 || Tonic || || || 175 || 35
+|-
+| {{Icon|f|Black Tea}} || {{Item Link|id=32093|Cloudy Sujamma}} || 20 || Tonic || || || 175 || 35
+|-
+| {{Icon|f|Tonic}} || {{Item Link|id=37796|Cloudy Yerba Zinger Tonic}} || 20 || Tonic || || || 175 || 35
+|-
+| {{Icon|f|Beer 01}} || {{Item Link|id=37800|Flat Ginger Wheat Beer}} || 25 || Alcohol || 231 || || || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=32097|Flat Honey Rye}} || 25 || Alcohol || 231 || || || 35
+|-
+| {{Icon|f|Tea 02}} || {{Item Link|id=37897|Murky Enlightenment Tea}} || 25 || Tea || || 210 || || 35
+|-
+| {{Icon|f|Spirits Red}} || {{Item Link|id=37801|Murky Mead de Menthe}} || 25 || Tea || || 210 || || 35
+|-
+| {{Icon|f|Tea 05}} || {{Item Link|id=32146|Murky Thrassian Chai}} || 25 || Tea || || 210 || || 35
+|-
+| {{Icon|f|Spirits Green}} || {{Item Link|id=32147|Cloudy Athlete's Guzzle}} || 25 || Tonic || || || 210 || 35
+|-
+| {{Icon|f|Spirits Red}} || {{Item Link|id=37898|Cloudy Ginseng Sling}} || 25 || Tonic || || || 210 || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=32099|Cloudy Greef}} || 25 || Tonic || || || 210 || 35
+|-
+| {{Icon|f|Green Stew}} || {{Item Link|id=32115|Flat Sour Mash}} || 30 || Alcohol || 269 || || || 35
+|-
+| {{Icon|f|Beer}} || {{Item Link|id=37902|Flat Spiced Mazte}} || 30 || Alcohol || 269 || || || 35
+|-
+| {{Icon|f|Tea 03}} || {{Item Link|id=32116|Murky Maormer Tea}} || 30 || Tea || || 245 || || 35
+|-
+| {{Icon|f|Tea 02}} || {{Item Link|id=37903|Murky Spiceberry Chai}} || 30 || Tea || || 245 || || 35
+|-
+| {{Icon|f|Tea 03}} || {{Item Link|id=37807|Murky Torval Mint Tea}} || 30 || Tea || || 245 || || 35
+|-
+| {{Icon|f|Tonic}} || {{Item Link|id=37808|Cloudy Dancing Grandma}} || 30 || Tonic || || || 245 || 35
+|-
+| {{Icon|f|Brown Bottle}} || {{Item Link|id=37904|Cloudy Pirate's Jig Tonic}} || 30 || Tonic || || || 245 || 35
+|-
+| {{Icon|f|Beer}} || {{Item Link|id=37812|Flat Nereid Wine}} || 35 || Alcohol || 308 || || || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=32121|Flat Rye-In-Your-Eye}} || 35 || Alcohol || 308 || || || 35
+|-
+| {{Icon|f|Beer 02}} || {{Item Link|id=37908|Flat Sorry, Honey Lager}} || 35 || Alcohol || 308 || || || 35
+|-
+| {{Icon|f|Red Bottle}} || {{Item Link|id=37813|Murky Pink Profundity}} || 35 || Tea || || 280 || || 35
+|-
+| {{Icon|f|Tea 01}} || {{Item Link|id=32122|Murky Puckermint Tea}} || 35 || Tea || || 280 || || 35
+|-
+| {{Icon|f|Tea 04}} || {{Item Link|id=37909|Murky Winter Rose Tea}} || 35 || Tea || || 280 || || 35
+|-
+| {{Icon|f|Spirits Green}} || {{Item Link|id=37814|Cloudy Crystal Clarity}} || 35 || Tonic || || || 280 || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=32123|Cloudy Rihad Qishr}} || 35 || Tonic || || || 280 || 35
+|-
+| {{Icon|f|Brown Bottle}} || {{Item Link|id=37910|Cloudy Seaberry Tonic}} || 35 || Tonic || || || 280 || 35
+|-
+| {{Icon|f|Spirits Red}} || {{Item Link|id=32139|Flat Bloodforth}} || 42 || Alcohol || 346 || || || 35
+|-
+| {{Icon|f|Glass Bottle}} || {{Item Link|id=32141|Cloudy Ambrosia}} || 42 || Tea || || 315 || || 35
+|}
+
+==Alliance Beverages==
+These items can only be purchased with [[ON:Alliance Points|Alliance Points]] from vendors in [[ON:Cyrodiil|Cyrodiil]].
+
+[[File:ON-icon-food-Beer 01.png|right]]
+==={{Item Link|Cyrodilic Field Brew|id=71077}}===
+These increase your {{ESO Health Link||Recovery}} and {{ESO Stamina Link||Recovery}} for 1 hour.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|{{BG|#eeeeee}}|<s>1</s>||{{BG|#eeeeee}}|<s>2</s>||{{BG|#eeeeee}}|<s>3</s>||{{BG|#eeeeee}}|<s>4</s>||{{BG|#eeeeee}}|<s>5</s>||{{BG|#eeeeee}}|<s>6</s>||{{BG|#eeeeee}}|<s>7</s>||{{BG|#eeeeee}}|<s>8</s>||{{BG|#eeeeee}}|<s>9</s>||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Health
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>32</s>
+|colspan=5 {{BG|#eeeeee}}|<s>65</s>
+|colspan=5|98
+|colspan=5|131
+|colspan=3|164
+|-
+!Stamina
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>30</s>
+|colspan=5 {{BG|#eeeeee}}|<s>60</s>
+|colspan=5|90
+|colspan=5|120
+|colspan=3|150
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Health
+|colspan=2|164
+|colspan=5|197
+|colspan=5|230
+|colspan=5|263
+|colspan=5|296
+|-
+!Stamina
+|colspan=2|150
+|colspan=5|180
+|colspan=5|210
+|colspan=5|240
+|colspan=5|270
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Health
+|colspan=5|329
+|colspan=2|368
+|colspan=2|375
+|colspan=1|381
+|colspan=1|414
+|colspan=2|421
+|colspan=2|427
+|colspan=2|467
+|colspan=2|473
+|colspan=1|480
+|colspan=2|500
+|-
+!Stamina
+|colspan=5|301
+|colspan=2|337
+|colspan=2|343
+|colspan=1|349
+|colspan=1|379
+|colspan=2|385
+|colspan=2|391
+|colspan=2|427
+|colspan=2|433
+|colspan=1|439
+|colspan=2|457
+|}
+
+[[File:ON-icon-food-Tea 01.png|right]]
+==={{Item Link|Cyrodilic Field Tea|id=71078}}===
+These increase your {{ESO Health Link||Recovery}} and {{ESO Magicka Link||Recovery}} for 1 hour.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|{{BG|#eeeeee}}|<s>1</s>||{{BG|#eeeeee}}|<s>2</s>||{{BG|#eeeeee}}|<s>3</s>||{{BG|#eeeeee}}|<s>4</s>||{{BG|#eeeeee}}|<s>5</s>||{{BG|#eeeeee}}|<s>6</s>||{{BG|#eeeeee}}|<s>7</s>||{{BG|#eeeeee}}|<s>8</s>||{{BG|#eeeeee}}|<s>9</s>||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Health
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>32</s>
+|colspan=5 {{BG|#eeeeee}}|<s>65</s>
+|colspan=5|98
+|colspan=5|131
+|colspan=3|164
+|-
+!Magicka
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>30</s>
+|colspan=5 {{BG|#eeeeee}}|<s>60</s>
+|colspan=5|90
+|colspan=5|120
+|colspan=3|150
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Health
+|colspan=2|164
+|colspan=5|197
+|colspan=5|230
+|colspan=5|263
+|colspan=5|296
+|-
+!Magicka
+|colspan=2|150
+|colspan=5|180
+|colspan=5|210
+|colspan=5|240
+|colspan=5|270
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Health
+|colspan=5|329
+|colspan=2|368
+|colspan=2|375
+|colspan=1|381
+|colspan=1|414
+|colspan=2|421
+|colspan=2|427
+|colspan=2|467
+|colspan=2|473
+|colspan=1|480
+|colspan=2|500
+|-
+!Magicka
+|colspan=5|301
+|colspan=2|337
+|colspan=2|343
+|colspan=1|349
+|colspan=1|379
+|colspan=2|385
+|colspan=2|391
+|colspan=2|427
+|colspan=2|433
+|colspan=1|439
+|colspan=2|457
+|}
+
+[[File:ON-icon-food-Spirits Red.png|right]]
+==={{Item Link|Cyrodilic Field Tonic|id=71079}}===
+These increase your {{ESO Magicka Link||Recovery}} and {{ESO Stamina Link||Recovery}} for 1 hour.
+{{NewLine}}
+{|class=wikitable {{AL|MC}}
+!Level
+|{{BG|#eeeeee}}|<s>1</s>||{{BG|#eeeeee}}|<s>2</s>||{{BG|#eeeeee}}|<s>3</s>||{{BG|#eeeeee}}|<s>4</s>||{{BG|#eeeeee}}|<s>5</s>||{{BG|#eeeeee}}|<s>6</s>||{{BG|#eeeeee}}|<s>7</s>||{{BG|#eeeeee}}|<s>8</s>||{{BG|#eeeeee}}|<s>9</s>||10||11||12||13||14||15||16||17||18||19||20||21||22
+|-
+!Magicka/<br>Stamina
+|colspan=1 {{BG|#eeeeee}}|<s>0</s>
+|colspan=3 {{BG|#eeeeee}}|<s>30</s>
+|colspan=5 {{BG|#eeeeee}}|<s>60</s>
+|colspan=5|90
+|colspan=5|120
+|colspan=3|150
+|-{{ThickLine}}
+!Level
+|23||24||25||26||27||28||29||30||31||32||33||34||35||36||37||38||39||40||41||42||43||44
+|-
+!Magicka/<br>Stamina
+|colspan=2|150
+|colspan=5|180
+|colspan=5|210
+|colspan=5|240
+|colspan=5|270
+|-{{ThickLine}}
+!Level
+|45||46||47||48||49||50
+|{{ESO Champion|10}}
+|{{ESO Champion|20}}
+|{{ESO Champion|30}}
+|{{ESO Champion|40}}
+|{{ESO Champion|50}}
+|{{ESO Champion|60}}
+|{{ESO Champion|70}}
+|{{ESO Champion|80}}
+|{{ESO Champion|90}}
+|{{ESO Champion|100}}
+|{{ESO Champion|110}}
+|{{ESO Champion|120}}
+|{{ESO Champion|130}}
+|{{ESO Champion|140}}
+|{{ESO Champion|150}}
+|{{ESO Champion|160}}
+|-
+!Magicka/<br>Stamina
+|colspan=5|301
+|colspan=2|337
+|colspan=2|343
+|colspan=1|349
+|colspan=1|379
+|colspan=2|385
+|colspan=2|391
+|colspan=2|427
+|colspan=2|433
+|colspan=1|439
+|colspan=2|457
+|}
+
+==Crown Beverages==
+These items can only be purchased from the [[ON:Crown Store|Crown Store]].
+{|class=wikitable
+!rowspan=2| !!rowspan=2|Beverage!!Description!!rowspan=2|Price
+|-
+!Effects
+|-
+|{{Icon|f|Crown Healthy Vigor Liquor}}||{{Item Link|Crown Health Vigor Liquor|quality=f|id=64497}}
+|Increase {{ESO Health Link||Recovery}} by 621 for 2 hours. These effects are scaled based on your level, up to Veteran Rank 10.
+|{{huh}}
+|-
+|{{Icon|f|Crown Star-Magic Tea}}||{{Item Link|Crown Star-Magic Tea|quality=f|id=64498}}
+|Increase {{ESO Magicka Link||Recovery}} by 565 for 2 hours. These effects are scaled based on your level, up to Veteran Rank 10.
+|{{huh}}
+|-
+|{{Icon|f|Crown Endurance Tonic}}||{{Item Link|Crown Endurance Tonic|quality=f|id=64499}}
+|Increase {{ESO Stamina Link||Recovery}} by 565 for 2 hours. These effects are scaled based on your level, up to Veteran Rank 10.
+|{{huh}}
+|-{{ThickLine}}
+|rowspan=2|{{Icon|f|Crown Stout Magic Liqueur}}||rowspan=2|{{Item Link|Crown Stout Magic Liqueur|quality=s|id=124677}}
+|''Use of this food increases the regeneration rate of {{ESO Health Link}} and {{ESO Magicka Link}}.''
+|rowspan=2|{{huh}}
+|-
+|Increase {{ESO Magicka Link||Recovery}} by 493 and {{ESO Health Link||Recovery}} by 539 for 1 hour. These effects are scaled based on your level.
+|-
+|rowspan=2|{{icon|f|Crown Vigorous Tincture}}||rowspan=2|{{Item Link|Crown Vigorous Tincture|quality=s|id=124678}}
+|''Use of this food increases the regeneration rate of {{ESO Health Link}} and {{ESO Stamina Link}}.''
+|rowspan=2|{{huh}}
+|-
+|Increase {{ESO Stamina Link||Recovery}} by 493 and {{ESO Health Link||Recovery}} by 539 for 1 hour. These effects are scaled based on your level.
+|-{{ThickLine}}
+|rowspan=2|{{Icon|f|Crown Crate Refreshing Drink}}||rowspan=2|{{Item Link|Crown Crate Refreshing Drink|quality=e|id=94438}}
+|''The revivifying herbs in this Refreshing Drink will improve your {{ESO Health Link}}, {{ESO Magicka Link}}, and {{ESO Stamina Link}} for 30 minutes.''
+|rowspan=2|{{huh}}
+|-
+|Increase {{ESO Health Link||Recovery}} by 446, {{ESO Magicka Link||Recovery}} by 410, and {{ESO Stamina Link||Recovery}} by 410 for 30 minutes. These effects are scaled based on your level.
+|-
+|{{Icon|f|Crown Refreshing Drink}}||{{Item Link|Crown Refreshing Drink|quality=e|id=64712}}
+|Increase {{ESO Health Link||Recovery}} by 446, {{ESO Magicka Link||Recovery}} by 410, and {{ESO Stamina Link||Recovery}} by 410 for 2 hours. These effects are scaled based on your level.
+|{{huh}}
+|}
+
+==Miscellaneous==
+{|class=wikitable
+!rowspan=2| !!rowspan=2|Beverage!!Description!!rowspan=2|Price
+|-
+!Effects
+|-
+|rowspan=2|{{Icon|f|Beer 03}}||rowspan=2|{{Item Link|Sailor's Warning Festival Grog|id=112441}}
+|''This potent drink is one of the few banned by all fleets in Tamriel. Though a spilled mug doesn't actually strip tar from a ship's deck, it is absolutely capable of removing rational thought from those who imbibe it.''
+|rowspan=2|{{huh}}
+|-
+|{{huh}}
+|-
+|rowspan=2|{{Icon|m|Wine 03}}||rowspan=2|{{Item Link|Sparkling Mudcrab Apple Cider|id=171322|quality=2|summary=1}}
+|''A sweet, tart, and brackish cider that delights and confuses the palate, of Jad'zirri's own recipe.''
+|rowspan=2|{{huh}} 
+|-
+| Inceases Stamina Recovery by 560 for 2 hours. These effects are scaled based on your level. (6s cooldown)
+|}
+
+{{Online Items}}

@@ -1,0 +1,14 @@
+Name,Line Rank,Skill Rank,Description
+,Light Armor Bonuses,1,,Each piece of Light Armor does the following: Reduces damage taken from Magical attacks by 1 % Reduces the cost of Roll Dodge by 3 % Reduces the Movement Speed penalty of Sneak by 5 % Reduces the cost of Break Free by 5 % Reduces the cost of Bash by 3 %
+,Light Armor Penalties,1,,Each piece of Light Armor does the following: Increases damage taken from Martial attacks by 1 % Increases the cost of Block by 3 % Decreases damage done with Bash by 1 %
+,Grace,2,,Reduces the effectiveness of snares applied to you by 1 % for each piece of Light Armor worn. Reduces the cost of Sprint by 1 % for each piece of Light Armor worn.
+10,,Reduces the effectiveness of snares applied to you by 2 % for each piece of Light Armor worn. Reduces the cost of Sprint by 2 % for each piece of Light Armor worn.
+30,,Reduces the effectiveness of snares applied to you by 4 % for each piece of Light Armor worn. Reduces the cost of Sprint by 3 % for each piece of Light Armor worn.
+,Evocation,6,,Increases your Magicka Recovery by 2 % for each piece of Light Armor equipped. Reduces the Magicka cost of your abilities by 1 % for each piece of Light Armor equipped.
+18,,Increases your Magicka Recovery by 4 % for each piece of Light Armor equipped. Reduces the Magicka cost of your abilities by 2 % for each piece of Light Armor equipped.
+,Spell Warding,14,,Increases your Spell Resistance by 363 for each piece of Light Armor equipped.
+34,,Increases your Spell Resistance by 726 for each piece of Light Armor equipped.
+,Prodigy,38,,Increases your Weapon Critical and Spell Critical rating by 109 for each piece of Light Armor equipped.
+46,,Increases your Weapon Critical and Spell Critical rating by 219 for each piece of Light Armor equipped.
+,Concentration,42,,Increases your Physical and Spell Penetration by 469 for each piece of Light Armor worn.
+50,,Increases your Physical and Spell Penetration by 939 for each piece of Light Armor worn.

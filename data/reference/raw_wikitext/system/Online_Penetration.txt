@@ -1,0 +1,10 @@
+{{Trail|Combat}}
+'''Penetration''' is a value that represents how much of your damage will break through an opponent's armor. The higher an enemy's armor, the more of your damage is mitigated. For example, if an enemy NPC has 18,200 armor, they will resist 36.4% of your damage. A higher amount of penetration means the more armor you will break through.
+
+There are several ways to increase this:
+* Passives, such as [[ON:Hunter's Eye|Hunter's Eye]] (Bosmer [[ON:Races|race]]), [[ON:Dismember|Dismember]] (Necromancer [[ON:Classes|class]]), [[ON:Concentration|Concentration]] (light [[ON:Armor|armor]]), and [[ON:Heavy Weapons|Heavy Weapons]] (two-handed [[ON:Weapons|weapon]] skill, specifically focused on mauls).
+* [[ON:The Lover (Mundus Stone)|The Lover]] Mundus Stone.
+* [[ON:Champion Points|Champion Point]] slottables, such as [[ON:Piercing|Piercing]] and [[ON:Force of Nature (champion)|Force of Nature]].
+* Sets that contain Physical and Spell Penetration as part of the bonus, see [[:Category:Online-Sets with Physical/Spell Penetration|Category:Online-Sets with Physical Penetration]] and [[:Category:Online-Sets with Physical/Spell Penetration|Category:Online-Sets with Spell Penetration]]
+
+[[Category:Online-Combat]]

@@ -1,0 +1,14 @@
+Name,Line Rank,Skill Rank,Description
+,Heavy Armor Bonuses,1,,Each piece of Heavy Armor does the following: Reduces damage taken from Martial attacks by 1 % Increases the amount of damage blocked by 1 % Increases damage done with Bash by 30 Reduces your damage taken while immune to crowd control by 1 %
+,Heavy Armor Penalties,1,,Each piece of Heavy Armor does the following: Increases damage taken from Magical attacks by 1 % Reduces the Movement Speed bonus of Sprint by 1 % Increases the cost of Roll Dodge by 3 % Increases the size of your detection area while Sneaking by 10 %
+,Resolve,2,,Increases your Physical and Spell Resistance by 114 for each piece of Heavy Armor equipped.
+10,,Increases your Physical and Spell Resistance by 229 for each piece of Heavy Armor equipped.
+30,,Increases your Physical and Spell Resistance by 343 for each piece of Heavy Armor equipped.
+,Constitution,6,,Increases your Health Recovery by 2 % for each piece of Heavy Armor equipped. You restore 108 Magicka and Stamina when you take damage for each piece of Heavy Armor equipped. This effect can occur once every 8 seconds.
+18,,Increases your Health Recovery by 4 % for each piece of Heavy Armor equipped. You restore 108 Magicka and Stamina when you take damage for each piece of Heavy Armor equipped. This effect can occur once every 4 seconds.
+,Juggernaut,14,,Increases your Max Health by 1 % for each piece of Heavy Armor equipped.
+34,,Increases your Max Health by 2 % for each piece of Heavy Armor equipped.
+,Revitalize,38,,Increases the Magicka or Stamina your Heavy Attacks restore by 2 % for each piece of Heavy Armor worn.
+46,,Increases the Magicka or Stamina your Heavy Attacks restore by 4 % for each piece of Heavy Armor worn.
+,Rapid Mending,42,,Increases your healing received by 1 % for every 2 pieces of Heavy Armor worn.
+50,,Increases your healing received by 1 % for each piece of Heavy Armor worn.

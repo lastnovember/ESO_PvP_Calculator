@@ -1,0 +1,42 @@
+{{Trail2|Skill Lines|Armor}}__NOTOC__
+{{/Progression}}
+'''Medium Armor''' is a [[Online:skills|skill]] in [[Online:Online|Elder Scrolls Online]]. It consists largely of leather, hide, and other low-weight armors. As with the other armor skills, there are only passive skills and a single active ability. These skills generally aid stamina-based characters.
+
+== Learning ==
+The Medium Armor skill line is granted the first time you equip 3 pieces of Medium Armor.  You can increase your skill by taking or blocking damage while wearing Medium Armor, or earning experience with the Evasion skill slotted.  The more pieces you are wearing, the faster your skill will increase.  [[ON:Khajiit|Khajiit]] are naturally gifted with Medium Armor, and will learn the ability more quickly than other races.  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Medium Armor are:
+{|
+|
+*[[ON:Azarrid's Race|Azarrid's Race]]
+*[[ON:Discomforts of War|Discomforts of War]]
+*[[ON:Husks and Bones|Husks and Bones]]
+*[[ON:Rislav the Righteous, Part 1|Rislav the Righteous, Part 1]]
+*[[ON:Settling the Debate|Settling the Debate]]
+|}
+
+==Skill Perks==
+Medium Armor has an associated skill line that is revealed through wearing, and taking damage in, one or more piece(s) of Medium Armor. Known abilities are listed below.
+{{ESO Skill Notes}}
+
+===Active Abilities===
+These abilities must be activated manually, while wearing at least one piece of Medium Armor, for a cost.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Evasion}}
+|}
+
+===Sets===
+{{ESO Set List|desc=y|type=both|Armor Master}}
+
+===Passive Abilities===
+Passive abilities are active all the time, so long as one or more piece(s) of Medium Armor are equipped.
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Medium Armor Bonuses}}
+{{Online Skill Link|Dexterity}}
+{{Online Skill Link|Wind Walker}}
+{{Online Skill Link|Improved Sneak}}
+{{Online Skill Link|Agility (skill)}}
+{{Online Skill Link|Athletics}}
+|}
+
+{{Online Skills}}
