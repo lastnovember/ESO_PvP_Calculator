@@ -155,6 +155,16 @@ the Bear Haunch 4316 falls out of the same scale).
 character has no recovery food, so the food is cleared), Weapon Damage 236 flat short (same as
 Yeets, same weapons), resistances 859 short, Roll Dodge Cost 29 short, Bash Damage.
 
+## 010, 2026-09-17, geared, back bar (ice staff, Defending), Western Elsweyr Gate (Cyrodiil)
+
+Same state as 009 with the back bar active. Four photos, no Active Effects page.
+
+No change (this commit). 43 of 55 match on the first run: Weapon and Spell Damage 3598 (Rallying
+Cry at four pieces with the staff), Block Cost 1062 and Block Mitigation 69 (Ancient Knowledge on
+top of two heavy pieces), penetration 2578, crit, Healing Done 28 near the gate. The four misses
+are the same numbers as the front bar: Magicka Recovery +45, resistances 859 short on both bars
+(so Defending's 3276 is confirmed again), Roll Dodge 3315 against 3344, Bash Damage.
+
 ## Open questions for the next reading
 
 - Does the Necromancer have the Support line's Combat Medic passive? (Its gate reading showed no

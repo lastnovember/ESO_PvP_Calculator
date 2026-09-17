@@ -150,15 +150,15 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Resistances | 22171 and 27385 (front), 24166 and 29380 (back) | 21450 and 26664, 23445 and 28659 | 721 short on both bars once the shield is 1720 (the bar to bar difference, 1995 = 1720 x 1.16, is exact). No percent in play. Markyn reads two sets with 3 or more pieces (2314). Yeets 825 and the Templar 514 with different armor: the armor piece ratings (unverified) or a flat the three share. Piece tooltips wanted. |
 | Bash Damage | 678 (staff), 1222 (shield) | 120, 620 | Not modelled beyond the flat bonuses (weapon dependent; Deadly Bash's 500 shows in the difference but not alone). |
 
-## Fixture 009 (Dragonknight "Yuggah Yuggah": geared front bar, dual maces, Cyrodiil gate, Battle Spirit, Undaunted line off)
+## Fixtures 009 and 010 (Dragonknight "Yuggah Yuggah": geared front bar with dual maces and back bar with an ice staff, Cyrodiil gate, Battle Spirit, Undaunted line off)
 
-41 of 55 readings match, including Max Health (Sugar Skulls 4624), Max Magicka and Stamina, Health and Stamina Recovery, crit, penetration, Critical Resistance and Damage, every cost but roll dodge, Block Mitigation, Sneak Cost, Sneak and Sprint Speed, Healing Done (Combat Medic near the gate), Healing Taken and Critical Healing. Still open:
+41 of 55 readings match on the front bar and 43 of 55 on the back bar (Weapon Damage 3598, Block Cost 1062 and Block Mitigation 69 with the staff are exact), including Max Health (Sugar Skulls 4624), Max Magicka and Stamina, Health and Stamina Recovery, crit, penetration, Critical Resistance and Damage, every cost but roll dodge, Block Mitigation, Sneak Cost, Sneak and Sprint Speed, Healing Done (Combat Medic near the gate), Healing Taken and Critical Healing. Still open:
 
 | Reading | Game | Engine | Gap and best reading of it |
 | --- | --- | --- | --- |
 | Magicka Recovery | 600 | 555 | 514 x 1.08 (Evocation, 2 light) is 555; the game has 41.6 more before the percent. Yeets reads +41.3, the Necromancer +29, the Templar +11, all before percents, and this character eats Sugar Skulls (no recovery), so the Bear Haunch is not the cause. No archived source; Max Magicka, attribute points and race do not track it. |
 | Weapon and Spell Damage, dual maces | 4145 | 3895 | 236 flat before Agility's 6%, exactly Yeets' gap with the same weapons (Nirnhoned main, Sharpened off). The Templar's axes (Sharpened main, Nirnhoned off) need 876. The off hand rule is wrong in a way that depends on which hand carries Nirnhoned; readings with one weapon at a time would settle it. |
-| Resistances | 20714 and 22166 | 19855 and 21307 | 859 short on both. Four characters now: Yeets 825, Templar 514, Necromancer 721, Dragonknight 859. No per weight, per slot, Reinforced or Markyn model fits all four, so the piece tooltips are needed. |
+| Resistances | 20714 and 22166 (front), 23990 and 25442 (back) | 19855 and 21307, 23131 and 24583 | 859 short on both bars (Defending's 3276 enters exactly). Four characters now: Yeets 825, Templar 514, Necromancer 721, Dragonknight 859. No per weight, per slot, Reinforced or Markyn model fits all four, so the piece tooltips are needed. |
 | Roll Dodge Cost | 3315 | 3344 | 4040 x (1 - 0.12 + 0.06 - 0.06) - 240 is exact here (percent before the Tumbling flat, additive), but Yeets' 3248 needs the multiplicative groups and the Necromancer's 3420 needs flat first. The three readings do not share one order with 4%, 3%, 3% per piece; Tumbling at one stage on some characters would change the picture. |
 | Bash Damage | 639 | 120 | Not modelled. |
 

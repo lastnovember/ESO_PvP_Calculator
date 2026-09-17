@@ -1,0 +1,279 @@
+{
+  "name": "010 Dragonknight \"Yuggah Yuggah\" (Lastnovember), back bar (ice staff), Western Elsweyr Gate (Cyrodiil, Battle Spirit)",
+  "status": "open",
+  "captured": "2026-09-17",
+  "location": "Western Elsweyr Gate (Cyrodiil)",
+  "bar": "back (ice staff, Defending, Rallying Cry)",
+  "attributes": {
+    "health": 12,
+    "magicka": 52,
+    "stamina": 0
+  },
+  "mundus": "The Mage",
+  "food": "Bewitched Sugar Skulls",
+  "photos": [
+    "photos/010-main.jpg",
+    "photos/010-advanced-1.jpg",
+    "photos/010-advanced-2.jpg",
+    "photos/010-advanced-3.jpg"
+  ],
+  "notes": "Xbox, 2026-09-17, four phone photos, same state as 009 with the back bar active (Rallying Cry ice staff, Defending).",
+  "gameVersion": "Update 50 era, 2026-09",
+  "tolerance": {
+    "flat": 1,
+    "percent": 0.15
+  },
+  "sheetExtras": {
+    "Sneak Cost": 39,
+    "Block Move Speed": 42,
+    "Sneak Speed": 64,
+    "Sprint Speed": 151,
+    "resistancePercent": {
+      "Flame": 38.5,
+      "Frost": 38.5,
+      "Shock": 38.5,
+      "Magic": 38.5,
+      "Disease": 39.8,
+      "Poison": 39.8,
+      "Bleed": 36.3
+    },
+    "damagePercent": {
+      "Physical": 0,
+      "Bleed": 0,
+      "Disease": 0,
+      "Flame": 0,
+      "Frost": 0,
+      "Magic": 0,
+      "Oblivion": 0,
+      "Poison": 0,
+      "Shock": 0
+    },
+    "Critical Damage": 16,
+    "Healing Done": 28,
+    "Critical Healing": 6,
+    "Healing Taken": 12,
+    "Experience": 10,
+    "Gold": 10,
+    "Crafting Inspiration": 10,
+    "Alliance Points": 10,
+    "Tel Var": 10
+  },
+  "activeEffects": [
+    "(not photographed) Battle Spirit, Bewitched Sugar Skulls, Boon: The Mage expected"
+  ],
+  "build": {
+    "schemaVersion": 1,
+    "name": "Yuggah Yuggah",
+    "race": "Argonian",
+    "class": "Dragonknight",
+    "classSkillLines": [
+      "Ardent Flame",
+      "Draconic Power",
+      "Earthen Heart"
+    ],
+    "classMastery": [
+      "Inexorable Descent",
+      "Wildfire Embers"
+    ],
+    "attributes": {
+      "health": 12,
+      "magicka": 52,
+      "stamina": 0
+    },
+    "championPoints": {
+      "enabled": true,
+      "slotted": {
+        "warfare": [
+          "Master-at-Arms",
+          "Resilience",
+          "Duelist's Rebuff",
+          "Arcane Supremacy"
+        ],
+        "fitness": [
+          "Fortified",
+          "Pain's Refuge",
+          "Survival Instincts",
+          "Celerity"
+        ],
+        "craft": [
+          "Gifted Rider",
+          "Steed's Blessing",
+          "War Mount",
+          "Sustaining Shadows"
+        ]
+      }
+    },
+    "mundus": "The Mage",
+    "food": "bewitched-sugar-skulls",
+    "vampireStage": 0,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": true,
+    "passives": {
+      "mode": "all",
+      "exclude": []
+    },
+    "skillLines": {
+      "Fighters Guild": true,
+      "Mages Guild": true,
+      "Psijic Order": true,
+      "Undaunted": false,
+      "Assault": true,
+      "Support": true,
+      "Soul Magic": true
+    },
+    "scribing": {
+      "Traveling Knife": {
+        "focus": "Multi-Target",
+        "signature": "Class Flourish",
+        "affix": "Off Balance"
+      }
+    },
+    "gear": {
+      "head": {
+        "set": "Bloodspawn",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Health"
+      },
+      "chest": {
+        "set": "Armor of the Trainee",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Health"
+      },
+      "shoulders": {
+        "set": "Bloodspawn",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Health"
+      },
+      "waist": {
+        "set": "Rallying Cry",
+        "weight": "light",
+        "trait": "Divines",
+        "enchant": "Health"
+      },
+      "hands": {
+        "set": "Rallying Cry",
+        "weight": "light",
+        "trait": "Divines",
+        "enchant": "Health"
+      },
+      "legs": {
+        "set": "Essence Thief",
+        "weight": "medium",
+        "trait": "Reinforced",
+        "enchant": "Health"
+      },
+      "feet": {
+        "set": "Essence Thief",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Health"
+      },
+      "necklace": {
+        "set": "Rallying Cry",
+        "trait": "Infused",
+        "enchant": "Spell Damage"
+      },
+      "ring1": {
+        "set": "Markyn Ring of Majesty",
+        "trait": "Swift",
+        "enchant": "Spell Damage"
+      },
+      "ring2": {
+        "set": "Essence Thief",
+        "trait": "Infused",
+        "enchant": "Spell Damage"
+      }
+    },
+    "bars": [
+      {
+        "mainHand": {
+          "set": "Essence Thief",
+          "type": "mace",
+          "trait": "Nirnhoned",
+          "enchant": "Poison"
+        },
+        "offHand": {
+          "set": "Essence Thief",
+          "type": "mace",
+          "trait": "Sharpened",
+          "enchant": "Disease"
+        },
+        "skills": [
+          "Flame Lash",
+          "Disintegrating Dragonfire",
+          "Traveling Knife",
+          "Fossilize",
+          "Heart of Flame"
+        ],
+        "ultimate": "Corrosive Armor",
+        "poison": null
+      },
+      {
+        "mainHand": {
+          "set": "Rallying Cry",
+          "type": "ice staff",
+          "trait": "Defending",
+          "enchant": null
+        },
+        "offHand": null,
+        "skills": [
+          "Igneous Weapons",
+          "Shatterspike Mantle",
+          "Incinerate",
+          "Fleetstep Wings",
+          "Blood of the Elder Dragon"
+        ],
+        "ultimate": "Temporal Guard",
+        "poison": "Escapist's Poison"
+      }
+    ],
+    "flags": {
+      "battleSpiritFlatHealth": false,
+      "esoPlus": true,
+      "itemQuality": false,
+      "strategies": {},
+      "nearKeep": true
+    }
+  },
+  "readings": {
+    "inPvpZone": {
+      "bar2": {
+        "main": {
+          "Max Health": 30684,
+          "Max Magicka": 27233,
+          "Max Stamina": 19962,
+          "Health Recovery": 416,
+          "Magicka Recovery": 600,
+          "Stamina Recovery": 720,
+          "Weapon Damage": 3598,
+          "Spell Damage": 3598,
+          "Weapon Critical": 28.4,
+          "Spell Critical": 28.4,
+          "Critical Damage": 16,
+          "Physical Penetration": 2578,
+          "Spell Penetration": 2578,
+          "Physical Resistance": 23990,
+          "Spell Resistance": 25442
+        },
+        "advanced": {
+          "Critical Resistance": 2668,
+          "Bash Cost": 635,
+          "Block Cost": 1062,
+          "Break Free Cost": 4662,
+          "Roll Dodge Cost": 3315,
+          "Sprint Cost": 419,
+          "Bash Damage": 717,
+          "Block Mitigation": 69,
+          "Sprint Speed": 151,
+          "Healing Done": 28,
+          "Healing Taken": 12,
+          "Damage Done": null
+        }
+      }
+    }
+  }
+}
