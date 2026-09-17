@@ -316,3 +316,36 @@ test('real data: skill slots are positional and weapon passives follow the equip
   r = computeSheet(d, real);
   assert.deepEqual(rows(r, 'blockCost', 'passive Ancient Knowledge'), [-36]);
 });
+
+test('real data: fixture 005 rules (block points per heavy piece, spell only flats, typed resistance, Dark Stalker, CP stars not taken)', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked(); n.race = 'Wood Elf'; n.class = 'Templar'; n.classSkillLines = ['Aedric Spear', 'Dawn\'s Wrath', 'Restoring Light'];
+  n.championPoints = { enabled: true, slotted: { warfare: [], fitness: ['Expert Evasion'], craft: [] } };
+  for (const slot of ['head', 'chest', 'legs']) n.gear[slot] = { set: null, weight: 'heavy', trait: null, enchant: null };
+  n.gear.waist = { set: null, weight: 'light', trait: null, enchant: null };
+  let r = computeSheet(n, real); let a = r.bars[0].advanced; let m = r.bars[0].main;
+  // block mitigation: 50 x 1.04 (Fortification) + 3 heavy pieces
+  assert.equal(a.blockMitigationPercent, 55);
+  // Spell Warding (726, spell only) is not multiplied by Balanced Warrior's 6% armor
+  assert.equal(m.spellResistance - m.physicalResistance, 726);
+  // Resist Affliction adds 2310 to the Disease and Poison percents only
+  assert.equal(a.diseaseResistancePercent, Math.round((m.physicalResistance + 2310) / 660 * 10) / 10);
+  assert.equal(a.bleedResistancePercent, Math.round(m.physicalResistance / 660 * 10) / 10);
+  // Expert Evasion leaves the regular roll dodge cost but notes the free one
+  assert.ok(r.bars[0].notes.some((x) => /Expert Evasion/.test(x)));
+  assert.ok(a.rollDodgeCost > 3000);
+  // Sprinter not taken: the 40 flat goes away ((500 - 40) x 0.97 Grace = 446, then 500 x 0.97 = 485)
+  assert.equal(a.sprintCost, 446);
+  n.championPoints.notTaken = ['Sprinter'];
+  r = computeSheet(n, real); a = r.bars[0].advanced;
+  assert.equal(a.sprintCost, 485);
+  // Dark Stalker: sneak speed capped at 100
+  n.vampireStage = 3;
+  r = computeSheet(n, real);
+  assert.equal(r.bars[0].advanced.sneakSpeedPercent, 100);
+  // The Shadow counts for Critical Healing (no Fighting Finesse slotted here, so 11 alone)
+  n.mundus = 'The Shadow';
+  r = computeSheet(n, real);
+  assert.equal(r.bars[0].advanced.critHealingPercent, 11);
+  assert.equal(r.bars[0].main.critDamage, 11);
+});

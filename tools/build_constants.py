@@ -114,7 +114,7 @@ for row in mund[1:]:
                            OrderedDict(stat='movementSpeed', value=num(b), kind='percent')]
         entry['fullDivines'] = full
     elif val.endswith('%'):
-        stat = {'The Ritual': 'healingDone', 'The Shadow': 'critDamage'}[name]
+        stat = {'The Ritual': 'healingDone', 'The Shadow': 'critDamageAndHealing'}[name]  # fixture 005: Critical Healing 25 = Dexterity 6 + Fighting Finesse 8 + The Shadow 11
         entry['values'] = [OrderedDict(stat=stat, value=num(val), kind='percent')]
         entry['fullDivines'] = full
     else:
@@ -354,6 +354,11 @@ def esolog_food(id_):
             stats[k] = int(round(consts[n] * FOOD_SCALE))
     return food(id_, name, kind, f'esolog buff "{buff}" ({row[7].strip()}) x {FOOD_SCALE} for CP160 gold.', True, src('esolog_skill_coefficients_t00.csv', buff), **stats)
 foods = [f for f in foods if f['id'] not in ESOLOG_FOODS] + [esolog_food(i) for i in ESOLOG_FOODS]
+# Two geared readings of different characters (fixtures 002 and 005) both need 4316 Max Health from the Bear Haunch
+# where the esolog value x 1.1735 gives 4313; the recoveries keep the scaled table values (406 fits fixture 002).
+_bh = next(f for f in foods if f['id'] == 'orzorgas-smoked-bear-haunch')
+_bh['stats']['maxHealth'] = 4316
+_bh['note'] += ' Max Health 4316 from fixtures 002 (30001 = (16000 + 1600 ... ) geared minus naked) and 005 (36217, engine 36214 with 4313).'
 C['foods'] = OrderedDict(note='Food and drink catalog. The app also accepts custom values typed from a tooltip. Racial food duration passives do not change magnitudes.', items=foods)
 
 # ---------------------------------------------------------------- Battle Spirit

@@ -124,6 +124,21 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Sneak Cost | 59 naked, 34 geared | not modelled | |
 | Back bar naked (fixture 004): Max Health 21236, Resistances 6003 | 19305 x 1.10 and 1730 + 4272 | 19305, 1730 | With Bull Netch, Hurricane, Resolving Vigor, Streak, Wield Soul and Temporal Guard slotted and nothing equipped, the sheet shows 10% more Max Health and 4272 more resistance than the front bar. The archived skill texts (Update 44) and every note through 2026-08 have no "while slotted" health or resistance on these abilities; Resolving Vigor's Minor Resolve (2974) is "after casting". Tooltips of Resolving Vigor and Hurricane, and the rest of the Active Effects list below Major Prophecy, would settle it. The other 22 readings of that bar match. |
 
+## Fixture 005 (Templar, Lastnovember: geared front bar, dual axes, Elden Root, vampire stage 3)
+
+27 of 51 readings match, including Max Magicka and Stamina, penetration, crit chance, Critical Damage, Critical Resistance, bash, block and break free costs, Block Mitigation, Sprint Speed, Sneak Speed, Healing Done and Taken, Critical Healing and every damage type but two. Still open:
+
+| Reading | Game | Engine | Gap and best reading of it |
+| --- | --- | --- | --- |
+| Weapon and Spell Damage, dual axes | 4471 | 3490 | 981 high in the game, 876 before the 12% (Agility 6 + Balanced Warrior 6). Main axe Sharpened 1335, off axe Nirnhoned 1535 x 6% (Dual Wield Expert) = 92, Expert Mage 108 (one Sorcerer ability), Mechanical Acuity 129, glyphs 174 + 278, base 1000. Fixture 002 (maces, Nirnhoned main) is 236 short with the same model, so the off hand and Nirnhoned rules are wrong in a way one reading cannot separate. A reading with only the two axes equipped, then only the main axe, would settle both. |
+| Health Recovery | 415 | 848 | The engine applies Unnatural Resistance (stage 3: -25%). (309 + 141 Capacitor + 70 Roksa + 406 food) x 1.12 x 0.40 = 415 exactly if the stage 3 penalty is the plain -60% and the Prismatic Recovery ring glyph adds no Health Recovery; with the glyph's 84 it is 452. Two questions for the user: is Unnatural Resistance bought, and what does the glyph tooltip say. |
+| Resistances | 16765 and 17491 | 16220 and 16990 | 514 short before Balanced Warrior's 6% (545 after), on both. Spell = Physical + 726 (Spell Warding) is exact. Yeets reads 825 short with different armor, so the armor piece ratings (unverified community values) are the suspect; the tooltip armor value of each equipped piece (seven numbers) would replace them. |
+| Magicka and Stamina Recovery | 1411 and 1785 | 1397 and 1804 | +11 and -15 before the percents (Evocation 4, Flourish 20, Magicka Controller 2; Flourish 20, Wind Walker 12). Yeets reads +41 Magicka on both bars and 0 Stamina. Bear Haunch tooltip and Prismatic Recovery tooltip wanted; both readings then reduce to the percents. |
+| Sneak Cost | 55 | 40 | 118 x 0.79 (Improved Sneak, 3 medium) x 0.85 (Medium Armor Bonuses) x 0.5 (Sustaining Shadows) = 40; Yeets' 34 fits the same model with 4 medium. 55 = 59 x 0.93, as if the medium armor reductions were nearly absent. A naked Templar reading (59 expected) would show whether the vampire changes it. |
+| Physical Damage 10%, Bleed Damage 5% | 10, 5 | 5, 0 | Energized gives 5% Physical and Shock. Bleed reads 5% on one page and 0% on the next a moment later, so a 5% Physical and Bleed buff was expiring during the photos; nothing slotted grants one at rest. Re-read both pages at rest. |
+| Roll Dodge Cost | 0 | 3572 | Expert Evasion slotted: the sheet shows 0 while the free roll is primed. The regular cost is not readable from this sheet. |
+| Bash Damage | 556 | 120 | Total bash damage depends on the weapon (Yeets: 630 maces, 685 staff, 184 naked); the fixed bonus is all the engine has. Not modelled. |
+
 ## Settled by data supplied later
 
 | Item | Settled by |
@@ -158,4 +173,9 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 
 | Constant | Settled value | Fixture |
 | --- | --- | --- |
-| (none yet) | | |
+| Orzorga's Smoked Bear Haunch Max Health | 4316 (esolog x 1.1735 gives 4313) | 002 and 005 |
+| Block Mitigation heavy armor | one point per piece added after the Champion Point percent | 002, 003, 005 |
+| Spell Warding under an armor percent | not multiplied (Spell = Physical + 726) | 005 |
+| Critical Healing sources | Dexterity, Fighting Finesse, The Shadow (not Piercing Spear, Twin Blade and Blunt, Advanced Species, Hemorrhage, Feline Ambush counts) | 002, 003, 005 |
+| Sneak Speed with Dark Stalker | 100 | 005 |
+| Disease and Poison Resistance | physical rating plus Resist Affliction 2310, over 660 | 005 |

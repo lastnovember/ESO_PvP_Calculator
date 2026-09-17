@@ -147,7 +147,11 @@ class Accumulator {
   }
   add(stat, kind, value, source, group) {
     const targets = STAT_ALIASES[stat] || [stat];
-    for (const t of targets) this.bucket(t).add(kind, value, source, group);
+    for (const t of targets) {
+      const b = this.bucket(t); b.add(kind, value, source, group);
+      // A flat added to Spell Resistance alone (Spell Warding) is not armor: armor percents leave it out (fixture 005)
+      if (stat === 'spellResistance' && kind === 'flat') b.rows[b.rows.length - 1].spellOnly = true;
+    }
   }
   weaponPercents(stat) { return this.buckets.has(stat) ? this.buckets.get(stat).weaponPercents : []; }
   // Named buffs (Major Resolve etc.) do not stack with themselves.
@@ -392,8 +396,15 @@ function applyEffects(acc, effects, ctx, data, source, strategies) {
     if (m === 0) continue;
     let value = e.value * m;
     if (e.cap != null) value = Math.min(value, e.cap);
-    acc.add(e.stat, e.kind, value, source, hasWeaponCondition(e.condition) ? 'weapon' : undefined);
+    acc.add(e.stat, e.kind, value, source, hasWeaponCondition(e.condition) ? 'weapon' : (hasArmorCondition(e.condition) ? 'armor' : undefined));
   }
+}
+
+function hasArmorCondition(c) {
+  if (!c) return false;
+  if (c.type === 'armorPieces' || c.type === 'armorPiecesEvery2') return true;
+  if (c.type === 'all') return c.of.some(hasArmorCondition);
+  return false;
 }
 
 function hasWeaponCondition(c) {
@@ -454,9 +465,13 @@ function collect(build, data, barIndex, strategies) {
   const cp = build.championPoints || {};
   if (cp.enabled) {
     const slotted = new Set(Object.values(cp.slotted || {}).flat());
+    // Passive (non slottable) stars are assumed at max rank unless listed in championPoints.notTaken
+    // (fixture 005: Sprint Cost 470 = 500 x 0.94 with no Sprinter, where fixture 003 read 460 = 500 - 40 with it).
+    const notTaken = new Set(cp.notTaken || []);
     for (const star of E.championStars ? Object.values(E.championStars) : []) {
-      if (star.slottable ? slotted.has(star.name) : true) applyEffects(acc, star.effects, ctx, data, `CP ${star.name}`, strategies);
+      if (star.slottable ? slotted.has(star.name) : !notTaken.has(star.name)) applyEffects(acc, star.effects, ctx, data, `CP ${star.name}`, strategies);
     }
+    if (slotted.has('Expert Evasion')) notes.push('Expert Evasion is slotted: the sheet shows Roll Dodge Cost 0 while the free roll is primed (fixture 005). The regular cost is shown here.');
   }
 
   // sets
@@ -641,7 +656,13 @@ function computeBar(build, data, barIndex, strategies) {
   const critCap = v(B.critDamageCapPercent) + acc.flat('critDamageCap');
   const critDamage = Math.min(v(B.critDamagePercent) + acc.pct('critDamage') + acc.flat('critDamage'), critCap) - v(B.critDamagePercent);
 
-  const resist = (stat) => (acc.flat(stat)) * (1 + acc.pct(stat) / 100);
+  // Resistance: armor and armor-like flats times the armor percent (Balanced Warrior), plus spell-only flats unscaled:
+  // fixture 005 reads Spell Resistance = Physical Resistance + 726 (Spell Warding) with Balanced Warrior at 6%.
+  const resist = (stat) => {
+    const rows = acc.bucket(stat).rows;
+    const spellOnly = rows.filter((r) => r.kind === 'flat' && r.spellOnly).reduce((a, r) => a + r.value, 0);
+    return (acc.flat(stat) - spellOnly) * (1 + acc.pct(stat) / 100) + spellOnly;
+  };
   const physicalResistance = resist('physicalResistance');
   const spellResistance = resist('spellResistance');
   const mitigation = (r) => Math.min(r, v(B.resistanceCapRating)) / v(B.resistancePerPercent);
@@ -663,9 +684,12 @@ function computeBar(build, data, barIndex, strategies) {
   const sprintCost = cost('sprintCost', B.sprintCostPerSecond);
   const breakFreeCost = cost('breakFreeCost', B.breakFreeCost);
   const bashCost = cost('bashCost', B.bashCost);
+  // Block mitigation: the 50 base times the Champion Point percent, plus one point per heavy piece
+  // (fixtures 003, 002 and 005: 52 naked with Fortification, 54 with two heavy pieces, 55 with three).
+  const bmArmor = acc.bucket('blockMitigation').rows.filter((r) => r.group === 'armor' && r.kind === 'percent').reduce((a, r) => a + r.value, 0);
   let blockMitigation = strategies.blockMitigation === 'additive'
     ? v(B.blockMitigationPercent) + acc.pct('blockMitigation')
-    : v(B.blockMitigationPercent) * (1 + acc.pct('blockMitigation') / 100);
+    : v(B.blockMitigationPercent) * (1 + (acc.pct('blockMitigation') - bmArmor) / 100) + bmArmor;
   if (acc.override('blockMitigation') != null) blockMitigation = acc.override('blockMitigation');
 
   const movementSpeed = Math.min(v(B.movementSpeedPercent) + acc.pct('movementSpeed'), v(B.movementSpeedCapPercent));
@@ -690,7 +714,8 @@ function computeBar(build, data, barIndex, strategies) {
   const blockMoveSpeed = v(B.blockMoveSpeedPercent) + acc.pct('blockMoveSpeed');
   // Sneak speed: the 60% base already reflects the Champion Point passives (fixtures 003 and 004 read 60 naked with
   // Fleet Phantom in), so only non CP reductions of the 40 point penalty apply
-  const sneakPenaltyPct = acc.bucket('sneakSpeedPenalty').rows.filter((r) => r.kind === 'percent' && !/^CP /.test(r.source)).reduce((a, r) => a + r.value, 0);
+  // and the penalty cannot go below zero: Dark Stalker removes it and the sheet reads 100 (fixture 005)
+  const sneakPenaltyPct = Math.max(-100, acc.bucket('sneakSpeedPenalty').rows.filter((r) => r.kind === 'percent' && !/^CP /.test(r.source)).reduce((a, r) => a + r.value, 0));
   const sneakSpeed = 100 - (100 - v(B.sneakSpeedPercent)) * (1 + sneakPenaltyPct / 100);
   // The sheet lists a percent per damage type: general damage done, plus the single target CP star it folds in,
   // plus the type's own bonus (Energized). Flat is always 0 on the sheet so far.
@@ -698,7 +723,15 @@ function computeBar(build, data, barIndex, strategies) {
   for (const t of ['Physical', 'Bleed', 'Disease', 'Flame', 'Frost', 'Magic', 'Oblivion', 'Poison', 'Shock']) {
     typedDamage[t.toLowerCase() + 'DamagePercent'] = round1(acc.pct('damageDone') + acc.pct('damageDoneSingleTarget') + acc.pct('damageDone' + t));
   }
-  const spellMit = round1(mitigation(spellResistance)); const physMit = round1(mitigation(physicalResistance));
+  // Per type resistance: the physical or spell rating plus any flat resistance of that type (fixture 005: Disease and
+  // Poison 28.9 = (16765 + 2310 Resist Affliction) / 660 where Bleed reads the plain 25.4).
+  const typeMit = (base, type) => round1(mitigation(base + acc.flat(type + 'Resistance')));
+  const typedResistance = {
+    flameResistancePercent: typeMit(spellResistance, 'flame'), frostResistancePercent: typeMit(spellResistance, 'frost'),
+    shockResistancePercent: typeMit(spellResistance, 'shock'), magicResistancePercent: typeMit(spellResistance, 'magic'),
+    diseaseResistancePercent: typeMit(physicalResistance, 'disease'), poisonResistancePercent: typeMit(physicalResistance, 'poison'),
+    bleedResistancePercent: typeMit(physicalResistance, 'bleed'),
+  };
   const esoPlus = !(build.flags && build.flags.esoPlus === false) ? v(B.esoPlusBonusPercent) : 0;
 
   const main = {
@@ -745,8 +778,7 @@ function computeBar(build, data, barIndex, strategies) {
     sneakCost: Math.round(sneakCost),
     blockMoveSpeedPercent: round1(blockMoveSpeed),
     sneakSpeedPercent: round1(sneakSpeed),
-    flameResistancePercent: spellMit, frostResistancePercent: spellMit, shockResistancePercent: spellMit, magicResistancePercent: spellMit,
-    diseaseResistancePercent: physMit, poisonResistancePercent: physMit, bleedResistancePercent: physMit,
+    ...typedResistance,
     ...typedDamage,
     damageDoneSingleTargetPercent: round1(acc.pct('damageDoneSingleTarget')),
     damageDoneDirectPercent: round1(acc.pct('damageDoneDirect')),

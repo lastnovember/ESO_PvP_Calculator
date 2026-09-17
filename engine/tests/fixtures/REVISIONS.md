@@ -68,8 +68,37 @@ resistances are 4272 above Fortified with Bull Netch, Hurricane, Resolving Vigor
 Soul and Temporal Guard slotted; no archived text or note gives a slotted health or resistance
 bonus on any of them.
 
+## 005, 2026-09-17, geared, front bar (dual axes), Elden Root Wayshrine
+
+Different character: Wood Elf Templar "Lastnovember", subclassed Storm Calling and Animal
+Companions, vampire stage 3, 64 Health, Roksa the Warped, Mechanical Acuity, Rallying Cry,
+Trainee, Monomyth Reforged, The Shadow, Smoked Bear Haunch. Active effects: ESO Plus, Increased
+Experience scroll, Smoked Bear Haunch, Gallop, Boon: The Shadow, Vampire Stage 3.
+
+Changes (this commit): Block Mitigation adds one point per heavy piece after the Champion Point
+percent (55 = 52 + 3; Yeets' 54 = 52 + 2 now matches too); a flat added to Spell Resistance
+alone is not multiplied by Balanced Warrior (Spell = Physical + 726, exact); Disease and Poison
+Resistance include Resist Affliction (28.9 = (16765 + 2310) / 660); The Shadow counts for
+Critical Healing (25 = 6 + 8 + 11); Dark Stalker caps the sneak penalty (Sneak Speed 100);
+`championPoints.notTaken` for passive stars a character skipped (Sprint Cost 470 = 500 x 0.94,
+no Sprinter); Bear Haunch Max Health 4316 (second reading agrees). Expert Evasion explains the
+sheet's Roll Dodge Cost 0 (free roll primed), recorded in `sheetState`, engine shows the regular
+cost with a note.
+
+27 of 51 match. Open: Weapon Damage 4471 (engine 3490, dual axes with Nirnhoned off hand),
+Health Recovery 415 (fits -60% without the glyph's 84, engine applies Unnatural Resistance),
+resistances 514 short before the 6% (armor ratings), recoveries +14 and -19, Sneak Cost 55
+(engine 40), Physical 10% and Bleed 5% (a buff was expiring during the photos), Bash Damage.
+
 ## Open questions for the next reading
 
+- Templar: is Unnatural Resistance bought; tooltip of the Prismatic Recovery ring glyph; tooltip
+  of Orzorga's Smoked Bear Haunch; the armor value on each equipped piece's tooltip (seven
+  numbers); Physical and Bleed Damage percents re-read at rest.
+- Templar naked front bar (no gear, no food, mundus may stay), then with only the two axes, then
+  only the main axe: settles the vampire Health Recovery, the sneak cost, and the dual wield and
+  Nirnhoned Weapon Damage rules.
+- Yeets-Swiftly (still open):
 - Tooltips of Resolving Vigor and Hurricane as they read now, and the rest of the back bar's
   Active Effects list.
 - Trait on each mace and which one is main hand (dual wield Weapon Damage 236 short).

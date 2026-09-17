@@ -348,7 +348,7 @@
         "verified": true,
         "values": [
           {
-            "stat": "critDamage",
+            "stat": "critDamageAndHealing",
             "value": 11,
             "kind": "percent"
           }
@@ -1771,14 +1771,14 @@
         "name": "Orzorga's Smoked Bear Haunch",
         "kind": "drink",
         "stats": {
-          "maxHealth": 4313,
+          "maxHealth": 4316,
           "healthRecovery": 406,
           "magickaRecovery": 370,
           "staminaRecovery": 370
         },
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Smoked Bear Haunch'",
         "verified": true,
-        "note": "esolog buff \"Smoked Bear Haunch\" (Increase Max Health by <<1>>, Health Recovery by <<2>> and Stamina and Magicka Recovery by <<3>> for <<4>>.) x 1.1735 for CP160 gold."
+        "note": "esolog buff \"Smoked Bear Haunch\" (Increase Max Health by <<1>>, Health Recovery by <<2>> and Stamina and Magicka Recovery by <<3>> for <<4>>.) x 1.1735 for CP160 gold. Max Health 4316 from fixtures 002 (30001 = (16000 + 1600 ... ) geared minus naked) and 005 (36217, engine 36214 with 4313)."
       },
       {
         "id": "bewitched-sugar-skulls",

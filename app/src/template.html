@@ -187,6 +187,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       <h3>Champion Points</h3>
       <div class="row"><label class="toggle"><input type="checkbox" id="cpEnabled"> Champion Points</label></div>
       <div id="cpSlots"></div>
+      <details id="cpPassivesWrap"><summary class="fine">Passive stars (every one is assumed bought at max rank; untick the ones this character skipped)</summary><div class="checks" id="cpPassives"></div></details>
     </details>
 
     <details class="card span2" open>
@@ -271,6 +272,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   const FOODS = C.foods.items;
   const SETS = Object.values(X.sets).sort((a, b) => a.name.localeCompare(b.name));
   const STARS = C.championPoints.stars.filter((s) => s.slottable);
+  // Passive stars the engine applies (a sheet effect and no slot). Fixture 005 showed a character without Sprinter.
+  const PASSIVE_STARS = Object.values(X.championStars || {}).filter((s) => !s.slottable && s.status === 'ok').map((s) => ({ name: s.name, constellation: s.constellation, effect: s.raw }))
+    .sort((a, b) => ['warfare', 'fitness', 'craft'].indexOf(a.constellation) - ['warfare', 'fitness', 'craft'].indexOf(b.constellation) || a.name.localeCompare(b.name));
   // Champion Point themes, agreed with the user for the picker. A star missing here falls into "Other".
   const CP_THEMES = {
     warfare: {
@@ -463,6 +467,15 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         }
         block.append(grid); cp.append(block);
       }
+    }
+    // passive stars: ticked = bought (default), unticked goes to championPoints.notTaken
+    const pw = $('cpPassives'); pw.innerHTML = '';
+    $('cpPassivesWrap').classList.toggle('hidden', !build.championPoints.enabled);
+    const notTaken = new Set(build.championPoints.notTaken || []);
+    for (const st of PASSIVE_STARS) {
+      const cb = el('input', { type: 'checkbox' }); cb.checked = !notTaken.has(st.name);
+      cb.addEventListener('change', () => { const set = new Set(build.championPoints.notTaken || []); if (cb.checked) set.delete(st.name); else set.add(st.name); build.championPoints.notTaken = [...set]; if (!build.championPoints.notTaken.length) delete build.championPoints.notTaken; update(); });
+      pw.append(el('label', { class: 'toggle ' + st.constellation, title: st.effect }, [cb, document.createTextNode(' ' + st.name)]));
     }
     $('charHint').textContent = `${build.race} ${build.class}`;
   }
@@ -864,7 +877,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     if (!result) return;
     for (const e of result.validation.errors) host.append(el('div', { class: 'msg err', text: e }));
     for (const w of result.validation.warnings) host.append(el('div', { class: 'msg warn', text: w }));
-    for (const bar of result.bars) for (const n of bar.notes) host.append(el('div', { class: 'msg warn', text: n }));
+    for (const n of new Set(result.bars.flatMap((bar) => bar.notes))) host.append(el('div', { class: 'msg warn', text: n }));
   }
 
   // ------------------------------------------------------------ storage, import, export

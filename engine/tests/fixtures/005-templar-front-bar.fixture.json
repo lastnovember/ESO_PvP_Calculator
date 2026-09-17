@@ -1,8 +1,8 @@
 {
-  "name": "005 Templar, front bar (readings pending)",
+  "name": "005 Templar (Lastnovember), front bar, Elden Root Wayshrine (no Battle Spirit)",
   "status": "open",
-  "captured": "2026-09-17 (build only, no photos yet)",
-  "location": "",
+  "captured": "2026-09-17",
+  "location": "Elden Root Wayshrine (Grahtwood)",
   "bar": "front (axe and axe)",
   "attributes": {
     "health": 64,
@@ -11,15 +11,59 @@
   },
   "mundus": "The Shadow",
   "food": "Orzorga's Smoked Bear Haunch",
-  "photos": [],
-  "notes": "Wood Elf Templar subclassed with Storm Calling and Animal Companions, vampire stage 3, Roksa the Warped, Mechanical Acuity, Rallying Cry, Trainee, Monomyth Reforged. Build exported from the app; readings to be filled in from the character sheet photos.",
+  "photos": [
+    "photos/005-main.jpg",
+    "photos/005-advanced-1.jpg",
+    "photos/005-advanced-2.jpg",
+    "photos/005-advanced-3.jpg",
+    "photos/005-active-effects.jpg"
+  ],
+  "notes": "Xbox, 2026-09-17, five phone photos. Wood Elf Templar subclassed with Storm Calling and Animal Companions, vampire stage 3, Roksa the Warped, Mechanical Acuity, Rallying Cry, Trainee, Monomyth Reforged, dual axes front bar, 64 Health points, Smoked Bear Haunch, The Shadow. Sprint Cost 470 = 500 x 0.94 shows this character has no Sprinter star (championPoints.notTaken). Dodge Roll Cost reads 0 (Expert Evasion primed). Sneak Speed 100 is Dark Stalker. Disease and Poison Resistance 28.9 = (16765 + 2310 Resist Affliction) / 660. Critical Healing 25 = Dexterity 6 + Fighting Finesse 8 + The Shadow 11. Block Mitigation 55 = 50 x 1.04 + 3 heavy pieces. Open: Weapon Damage 4471 (engine 3490), Health Recovery 415 (engine 848 with Unnatural Resistance at -25%), resistances about 500 high in the game, Magicka Recovery +14 and Stamina Recovery -19, Sneak Cost 55 (engine 40), Physical Damage 10 and Bleed 5 (see sheetState).",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
     "percent": 0.15
   },
-  "sheetExtras": {},
-  "activeEffects": [],
+  "sheetExtras": {
+    "Sneak Cost": 55,
+    "Block Move Speed": 42,
+    "Sneak Speed": 100,
+    "Sprint Speed": 150,
+    "resistancePercent": {
+      "Flame": 26.5,
+      "Frost": 26.5,
+      "Shock": 26.5,
+      "Magic": 26.5,
+      "Disease": 28.9,
+      "Poison": 28.9,
+      "Bleed": 25.4
+    },
+    "damagePercent": {
+      "Physical": 10,
+      "Bleed": 5,
+      "Disease": 0,
+      "Flame": 0,
+      "Frost": 0,
+      "Magic": 0,
+      "Oblivion": 0,
+      "Poison": 0,
+      "Shock": 5
+    },
+    "Critical Damage": 54,
+    "Healing Done": 2,
+    "Critical Healing": 25,
+    "Healing Taken": 5,
+    "Experience": 10,
+    "Gold": 10
+  },
+  "activeEffects": [
+    "ESO Plus Member",
+    "Increased Experience (150% scroll, 4 minutes left)",
+    "Smoked Bear Haunch",
+    "Gallop",
+    "Boon: The Shadow",
+    "Vampire Stage 3"
+  ],
   "build": {
     "schemaVersion": 1,
     "name": "Templar",
@@ -57,7 +101,10 @@
           "Steed's Blessing",
           "Sustaining Shadows"
         ]
-      }
+      },
+      "notTaken": [
+        "Sprinter"
+      ]
     },
     "mundus": "The Shadow",
     "food": "orzorgas-smoked-bear-haunch",
@@ -203,37 +250,42 @@
     "outOfPvpZone": {
       "bar1": {
         "main": {
-          "Max Health": null,
-          "Max Magicka": null,
-          "Max Stamina": null,
-          "Health Recovery": null,
-          "Magicka Recovery": null,
-          "Stamina Recovery": null,
-          "Weapon Damage": null,
-          "Spell Damage": null,
-          "Weapon Critical": null,
-          "Spell Critical": null,
-          "Critical Damage": null,
-          "Physical Penetration": null,
-          "Spell Penetration": null,
-          "Physical Resistance": null,
-          "Spell Resistance": null
+          "Max Health": 36217,
+          "Max Magicka": 17815,
+          "Max Stamina": 18675,
+          "Health Recovery": 415,
+          "Magicka Recovery": 1411,
+          "Stamina Recovery": 1785,
+          "Weapon Damage": 4471,
+          "Spell Damage": 4471,
+          "Weapon Critical": 15.4,
+          "Spell Critical": 15.4,
+          "Critical Damage": 54,
+          "Physical Penetration": 4227,
+          "Spell Penetration": 4227,
+          "Physical Resistance": 16765,
+          "Spell Resistance": 17491
         },
         "advanced": {
-          "Critical Resistance": null,
-          "Bash Cost": null,
-          "Block Cost": null,
-          "Break Free Cost": null,
+          "Critical Resistance": 3064,
+          "Bash Cost": 655,
+          "Block Cost": 1607,
+          "Break Free Cost": 4921,
           "Roll Dodge Cost": null,
-          "Sprint Cost": null,
-          "Bash Damage": null,
-          "Block Mitigation": null,
-          "Sprint Speed": null,
-          "Healing Done": null,
-          "Healing Taken": null,
+          "Sprint Cost": 470,
+          "Bash Damage": 556,
+          "Block Mitigation": 55,
+          "Sprint Speed": 150,
+          "Healing Done": 2,
+          "Healing Taken": 5,
           "Damage Done": null
         }
       }
     }
+  },
+  "sheetState": {
+    "Roll Dodge Cost": 0,
+    "note": "Reads 0 because Expert Evasion is slotted and primed (next Roll Dodge free); the regular cost is not readable from this sheet.",
+    "Bleed Damage": "5% on the first advanced page, 0% on the next page a moment later; Physical Damage 10% may carry the same transient 5%."
   }
 }

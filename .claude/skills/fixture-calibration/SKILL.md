@@ -30,7 +30,9 @@ base values and passives; armor only splits glyphs from armor ratings; full read
    `attributes`, `mundus`, `food`, `photos`, `notes` (which bar and why, what was active),
    `build` (the export; set `gear` slots to `null` when naked, a slot object with a weight counts
    as an armor piece), `readings` under `outOfPvpZone` or `inPvpZone` and `bar1` or `bar2`
-   (`main` and `advanced` with the runner's labels), `sheetExtras` (every other number:
+   (`main` and `advanced` with the runner's labels), `sheetState` (a number the sheet shows that
+   is a state, not a stat: Roll Dodge Cost 0 with Expert Evasion primed, a percent that changed
+   between two pages), `sheetExtras` (every other number:
    sneak cost, block move speed, sneak speed, per type resistance and damage percents, critical
    healing, currency bonuses) and `activeEffects`.
 3. Read digits twice. Percent values as numbers (27.4), currency bonuses as numbers.
@@ -43,6 +45,10 @@ npm test 2>&1 | sed -n '/^# NNN-/,/status open/p'
 
 Every line is `ok` or `MISS game X vs engine Y`. `status: "open"` keeps the suite green while
 the fixture is being worked; remove it once every reading matches.
+
+Champion Point passive stars are per character: a cost that reads as the plain base (Sprint 470
+= 500 x 0.94 with no Sprinter flat) means the star was never bought, so list it in
+`championPoints.notTaken` rather than fitting a constant.
 
 Identify the bar and the zone from the numbers before trusting the label: Weapon Damage and
 Penetration differ per bar; a Cyrodiil location means Battle Spirit (Health Recovery halves,

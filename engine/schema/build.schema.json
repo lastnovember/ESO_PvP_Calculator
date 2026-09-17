@@ -47,6 +47,10 @@
             "fitness": { "$ref": "#/definitions/slottedStars" },
             "craft":   { "$ref": "#/definitions/slottedStars" }
           }
+        },
+        "notTaken": {
+          "description": "Passive (non slottable) stars this character has not bought. Every other passive star is assumed at max rank. Example: [\"Sprinter\"].",
+          "type": "array", "uniqueItems": true, "items": { "type": "string" }
         }
       }
     },
