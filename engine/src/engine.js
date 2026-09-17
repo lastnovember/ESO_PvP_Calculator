@@ -539,7 +539,9 @@ function collect(build, data, barIndex, strategies) {
           if (strategies.preciseTrait === 'rating') acc.add('critRating', 'flat', val * v(C.base.critRatingPerPercent), `${src} Precise`);
           else acc.add('critChancePercent', 'percent', val, `${src} Precise`);
         } else if (['physicalAndSpellResistance', 'physicalAndSpellPenetration', 'healingDone'].includes(t.stat)) {
-          acc.add(t.stat, t.kind, val, `${src} ${it.trait}`);
+          // Defending is not armor: Balanced Warrior's 6% leaves it out (fixtures 005 and 006, the gap between the
+          // bars is exactly 6% of 3276), so the row is flagged unscaled
+          acc.add(t.stat, t.kind, val, `${src} ${it.trait}`, t.stat === 'physicalAndSpellResistance' ? 'weaponTrait' : undefined);
         }
       } else if (cat === 'jewelry') {
         const t = C.traits.jewelry[it.trait];
@@ -656,12 +658,13 @@ function computeBar(build, data, barIndex, strategies) {
   const critCap = v(B.critDamageCapPercent) + acc.flat('critDamageCap');
   const critDamage = Math.min(v(B.critDamagePercent) + acc.pct('critDamage') + acc.flat('critDamage'), critCap) - v(B.critDamagePercent);
 
-  // Resistance: armor and armor-like flats times the armor percent (Balanced Warrior), plus spell-only flats unscaled:
-  // fixture 005 reads Spell Resistance = Physical Resistance + 726 (Spell Warding) with Balanced Warrior at 6%.
+  // Resistance: armor and armor-like flats times the armor percent (Balanced Warrior), plus the unscaled flats:
+  // spell-only ones (fixture 005 reads Spell Resistance = Physical Resistance + 726 Spell Warding with Balanced
+  // Warrior at 6%) and the weapon trait (fixture 006: Defending 3276 enters without the 6%).
   const resist = (stat) => {
     const rows = acc.bucket(stat).rows;
-    const spellOnly = rows.filter((r) => r.kind === 'flat' && r.spellOnly).reduce((a, r) => a + r.value, 0);
-    return (acc.flat(stat) - spellOnly) * (1 + acc.pct(stat) / 100) + spellOnly;
+    const unscaled = rows.filter((r) => r.kind === 'flat' && (r.spellOnly || r.group === 'weaponTrait')).reduce((a, r) => a + r.value, 0);
+    return (acc.flat(stat) - unscaled) * (1 + acc.pct(stat) / 100) + unscaled;
   };
   const physicalResistance = resist('physicalResistance');
   const spellResistance = resist('spellResistance');

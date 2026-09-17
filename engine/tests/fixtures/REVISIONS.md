@@ -90,6 +90,22 @@ Health Recovery 415 (fits -60% without the glyph's 84, engine applies Unnatural 
 resistances 514 short before the 6% (armor ratings), recoveries +14 and -19, Sneak Cost 55
 (engine 40), Physical 10% and Bleed 5% (a buff was expiring during the photos), Bash Damage.
 
+## 006, 2026-09-17, geared, back bar (ice staff, Defending), Elden Root Wayshrine
+
+Same state as 005 with the back bar active. Active effects as 005.
+
+Change (this commit): the Defending trait's 3276 is not multiplied by Balanced Warrior (the
+game's excess over the engine was 545 on the front bar and 348 on the back bar, a difference of
+exactly 6% of 3276); the engine flags weapon trait resistance rows unscaled. Block Cost 1029,
+Block Mitigation 65, Weapon Damage 3387 (Rallying Cry 4 pieces with the staff, Expert Mage from
+Hurricane), Max Magicka 17485 (no Magicka Controller on this bar), penetration 2589 and Critical
+Damage 42 (no axes) all match at once, which confirms the cost and mitigation rules and the
+positional weapon passives.
+
+37 of 51 match. Open: the same 545 resistance gap as the front bar, Health Recovery 415,
+recoveries +14 and -19, Sneak Cost 55, Bash Damage 608. Physical Damage reads 5% here against 10%
+on the front bar, so the front bar's extra 5% is something slotted or wielded there.
+
 ## Open questions for the next reading
 
 - Templar: is Unnatural Resistance bought; tooltip of the Prismatic Recovery ring glyph; tooltip

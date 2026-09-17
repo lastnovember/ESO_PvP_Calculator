@@ -328,6 +328,10 @@ test('real data: fixture 005 rules (block points per heavy piece, spell only fla
   assert.equal(a.blockMitigationPercent, 55);
   // Spell Warding (726, spell only) is not multiplied by Balanced Warrior's 6% armor
   assert.equal(m.spellResistance - m.physicalResistance, 726);
+  // nor is the Defending trait (fixture 006): the staff adds exactly 3276
+  n.bars[0].mainHand = { set: null, type: 'ice staff', trait: 'Defending', enchant: null };
+  assert.equal(computeSheet(n, real).bars[0].main.physicalResistance - m.physicalResistance, 3276);
+  n.bars[0].mainHand = null;
   // Resist Affliction adds 2310 to the Disease and Poison percents only
   assert.equal(a.diseaseResistancePercent, Math.round((m.physicalResistance + 2310) / 660 * 10) / 10);
   assert.equal(a.bleedResistancePercent, Math.round(m.physicalResistance / 660 * 10) / 10);

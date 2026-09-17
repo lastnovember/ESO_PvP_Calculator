@@ -1,0 +1,290 @@
+{
+  "name": "006 Templar (Lastnovember), back bar (ice staff), Elden Root Wayshrine (no Battle Spirit)",
+  "status": "open",
+  "captured": "2026-09-17",
+  "location": "Elden Root Wayshrine (Grahtwood)",
+  "bar": "back (ice staff, Defending)",
+  "attributes": {
+    "health": 64,
+    "magicka": 0,
+    "stamina": 0
+  },
+  "mundus": "The Shadow",
+  "food": "Orzorga's Smoked Bear Haunch",
+  "photos": [
+    "photos/006-main.jpg",
+    "photos/006-advanced-1.jpg",
+    "photos/006-advanced-2.jpg",
+    "photos/006-advanced-3.jpg",
+    "photos/006-active-effects.jpg"
+  ],
+  "notes": "Xbox, 2026-09-17, five phone photos, same state as 005 with the back bar active (ice staff, Defending, Rallying Cry). Active effects as 005 (Increased Experience scroll with 2m50s left).",
+  "gameVersion": "Update 50 era, 2026-09",
+  "tolerance": {
+    "flat": 1,
+    "percent": 0.15
+  },
+  "sheetExtras": {
+    "Sneak Cost": 55,
+    "Block Move Speed": 42,
+    "Sneak Speed": 100,
+    "Sprint Speed": 150,
+    "resistancePercent": {
+      "Flame": 31.5,
+      "Frost": 31.5,
+      "Shock": 31.5,
+      "Magic": 31.5,
+      "Disease": 33.9,
+      "Poison": 33.9,
+      "Bleed": 30.4
+    },
+    "damagePercent": {
+      "Physical": 5,
+      "Bleed": 0,
+      "Disease": 0,
+      "Flame": 0,
+      "Frost": 0,
+      "Magic": 0,
+      "Oblivion": 0,
+      "Poison": 0,
+      "Shock": 5
+    },
+    "Critical Damage": 42,
+    "Healing Done": 2,
+    "Critical Healing": 25,
+    "Healing Taken": 5,
+    "Experience": 10,
+    "Gold": 10
+  },
+  "activeEffects": [
+    "ESO Plus Member",
+    "Increased Experience (150% scroll, 3 minutes left)",
+    "Smoked Bear Haunch",
+    "Gallop",
+    "Boon: The Shadow",
+    "Vampire Stage 3"
+  ],
+  "build": {
+    "schemaVersion": 1,
+    "name": "Templar",
+    "race": "Wood Elf",
+    "class": "Templar",
+    "classSkillLines": [
+      "Aedric Spear",
+      "Storm Calling",
+      "Animal Companions"
+    ],
+    "classMastery": [],
+    "attributes": {
+      "health": 64,
+      "magicka": 0,
+      "stamina": 0
+    },
+    "championPoints": {
+      "enabled": true,
+      "slotted": {
+        "warfare": [
+          "Fighting Finesse",
+          "Force of Nature",
+          "Ironclad",
+          "Resilience"
+        ],
+        "fitness": [
+          "Celerity",
+          "Bastion",
+          "Pain's Refuge",
+          "Expert Evasion"
+        ],
+        "craft": [
+          "Gifted Rider",
+          "War Mount",
+          "Steed's Blessing",
+          "Sustaining Shadows"
+        ]
+      },
+      "notTaken": [
+        "Sprinter"
+      ]
+    },
+    "mundus": "The Shadow",
+    "food": "orzorgas-smoked-bear-haunch",
+    "vampireStage": 3,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": false,
+    "passives": {
+      "mode": "all",
+      "exclude": []
+    },
+    "skillLines": {
+      "Fighters Guild": true,
+      "Mages Guild": true,
+      "Psijic Order": true,
+      "Undaunted": true,
+      "Assault": true,
+      "Support": true,
+      "Soul Magic": true
+    },
+    "scribing": {
+      "Ulfsild's Contingency": {
+        "focus": "Bleed Damage",
+        "signature": "Class Flourish",
+        "affix": "Minor Magickasteal"
+      },
+      "Wield Soul": {
+        "focus": "Healing",
+        "signature": "Sage's Remedy",
+        "affix": "Major Vitality"
+      }
+    },
+    "gear": {
+      "head": {
+        "set": "Roksa the Warped",
+        "weight": "heavy",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "chest": {
+        "set": "Armor of the Trainee",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Prismatic Defense"
+      },
+      "shoulders": {
+        "set": "Roksa the Warped",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "waist": {
+        "set": "Rallying Cry",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "hands": {
+        "set": "Mechanical Acuity",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "legs": {
+        "set": "Mechanical Acuity",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Prismatic Defense"
+      },
+      "feet": {
+        "set": "Mechanical Acuity",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "necklace": {
+        "set": "Rallying Cry",
+        "trait": "Arcane",
+        "enchant": "Spell Damage"
+      },
+      "ring1": {
+        "set": "Monomyth Reforged",
+        "trait": "Protective",
+        "enchant": "Prismatic Recovery"
+      },
+      "ring2": {
+        "set": "Rallying Cry",
+        "trait": "Infused",
+        "enchant": "Spell Damage"
+      }
+    },
+    "bars": [
+      {
+        "mainHand": {
+          "set": "Mechanical Acuity",
+          "type": "axe",
+          "trait": "Sharpened",
+          "enchant": "Poison"
+        },
+        "offHand": {
+          "set": "Mechanical Acuity",
+          "type": "axe",
+          "trait": "Nirnhoned",
+          "enchant": "Shock"
+        },
+        "skills": [
+          "Blood for Blood",
+          "Deep Fissure",
+          "Critical Surge",
+          "Ulfsild's Contingency",
+          "Binding Javelin"
+        ],
+        "ultimate": "Lacerate",
+        "poison": null
+      },
+      {
+        "mainHand": {
+          "set": "Rallying Cry",
+          "type": "ice staff",
+          "trait": "Defending",
+          "enchant": null
+        },
+        "offHand": null,
+        "skills": [
+          "Elemental Susceptibility",
+          "Bull Netch",
+          "Resolving Vigor",
+          "Hurricane",
+          "Wield Soul"
+        ],
+        "ultimate": "Crescent Sweep",
+        "poison": "Escapist's Poison"
+      }
+    ],
+    "flags": {
+      "battleSpiritFlatHealth": true,
+      "esoPlus": true,
+      "itemQuality": false,
+      "strategies": {}
+    }
+  },
+  "readings": {
+    "outOfPvpZone": {
+      "bar2": {
+        "main": {
+          "Max Health": 36217,
+          "Max Magicka": 17485,
+          "Max Stamina": 18675,
+          "Health Recovery": 415,
+          "Magicka Recovery": 1389,
+          "Stamina Recovery": 1785,
+          "Weapon Damage": 3387,
+          "Spell Damage": 3387,
+          "Weapon Critical": 15.4,
+          "Spell Critical": 15.4,
+          "Critical Damage": 42,
+          "Physical Penetration": 2589,
+          "Spell Penetration": 2589,
+          "Physical Resistance": 20041,
+          "Spell Resistance": 20767
+        },
+        "advanced": {
+          "Critical Resistance": 3064,
+          "Bash Cost": 655,
+          "Block Cost": 1029,
+          "Break Free Cost": 4921,
+          "Roll Dodge Cost": null,
+          "Sprint Cost": 470,
+          "Bash Damage": 608,
+          "Block Mitigation": 65,
+          "Sprint Speed": 150,
+          "Healing Done": 2,
+          "Healing Taken": 5,
+          "Damage Done": null
+        }
+      }
+    }
+  },
+  "sheetState": {
+    "Roll Dodge Cost": 0,
+    "note": "Reads 0 because Expert Evasion is slotted and primed."
+  }
+}
