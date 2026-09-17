@@ -234,7 +234,10 @@
     "flags": {
       "battleSpiritFlatHealth": true,
       "strategies": {},
-      "nearKeep": true
+      "cyrodiil": {
+        "enabled": true,
+        "nearKeep": true
+      }
     }
   },
   "readings": {

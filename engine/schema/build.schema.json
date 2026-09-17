@@ -124,7 +124,21 @@
       "type": "object", "additionalProperties": false,
       "properties": {
         "itemQuality": { "type": "boolean", "default": false, "description": "When true, each item's quality field is used; when false every item counts as gold." },
-        "nearKeep": { "type": "boolean", "default": false, "description": "Standing near a Keep in Cyrodiil (Battle Spirit on): Combat Medic adds 20% Healing Done to the sheet (fixtures 001 and 009)." },
+        "nearKeep": { "type": "boolean", "description": "Deprecated, read as cyrodiil.enabled and cyrodiil.nearKeep." },
+        "cyrodiil": {
+          "type": "object", "additionalProperties": false,
+          "description": "Cyrodiil campaign state, applied only while Battle Spirit is on.",
+          "properties": {
+            "enabled": { "type": "boolean", "default": false },
+            "nearKeep": { "type": "boolean", "default": false, "description": "Combat Medic: 20% Healing Done near a Keep (fixtures 001 and 009)." },
+            "continuousAttack": { "type": "boolean", "default": false, "description": "Within 10 minutes of capturing a resource or Keep: Continuous Attack's Weapon and Spell Damage and recovery bonus." },
+            "offensiveScrolls": { "type": "integer", "minimum": 0, "maximum": 2, "default": 0, "description": "Offensive Elder Scrolls the alliance holds (bonus I or II)." },
+            "defensiveScrolls": { "type": "integer", "minimum": 0, "maximum": 2, "default": 0, "description": "Defensive Elder Scrolls the alliance holds (bonus I or II)." },
+            "enemyKeeps": { "type": "integer", "minimum": 0, "maximum": 9, "default": 0, "description": "Enemy Keeps the alliance holds (crit 1% each)." },
+            "allianceEmperorKeeps": { "type": "integer", "minimum": 0, "maximum": 6, "default": 0, "description": "Home Keeps held while the alliance has an Emperor (0 = no Emperor); Emperorship Alliance Bonus I to VI." },
+            "emperor": { "type": "boolean", "default": false, "description": "This character is the Emperor. The Emperor skill line values are not archived yet." }
+          }
+        },
         "esoPlus": { "type": "boolean", "default": true, "description": "ESO Plus member: the sheet shows 10% Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points." },
         "battleSpiritFlatHealth": { "type": "boolean", "default": false, "description": "Add 1600 flat Max Health under Battle Spirit. Off: fixture 007 (Cyrodiil) reads exactly without it; fixtures 001 and 002 had suggested it." },
         "strategies": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Named order-of-operation strategies, see engine docs." }

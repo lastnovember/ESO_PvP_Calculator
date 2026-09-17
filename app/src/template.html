@@ -193,7 +193,21 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       </div>
       <div class="row">
         <label class="toggle"><input type="checkbox" id="battleSpirit"> Battle Spirit</label>
+        <label class="toggle" id="cyroWrap"><input type="checkbox" id="cyroOn"> Cyrodiil advanced sim</label>
         <label class="toggle"><input type="checkbox" id="esoPlus"> ESO Plus</label>
+      </div>
+      <div id="cyroPanel" class="hidden">
+        <div class="row">
+          <label class="toggle" title="Combat Medic: 20% Healing Done near a Keep"><input type="checkbox" id="cyNearKeep"> Near a keep</label>
+          <label class="toggle" title="Continuous Attack for 10 minutes after capturing a resource or Keep"><input type="checkbox" id="cyContinuous"> After a capture</label>
+          <label class="toggle" title="The Emperor skill line is not in the archive yet; the toggle adds nothing until it is"><input type="checkbox" id="cyEmperor"> I am the Emperor</label>
+        </div>
+        <div class="row">
+          <label class="f"><span>Offensive scrolls held</span><select id="cyOff"><option value="0">0</option><option value="1">1 (+2% damage)</option><option value="2">2 (+5% damage)</option></select></label>
+          <label class="f"><span>Defensive scrolls held</span><select id="cyDef"><option value="0">0</option><option value="1">1 (+2% resistance)</option><option value="2">2 (+5% resistance)</option></select></label>
+          <label class="f"><span>Enemy keeps held</span><select id="cyKeeps"></select></label>
+          <label class="f"><span>Alliance has the Emperor</span><select id="cyEmpKeeps"></select></label>
+        </div>
       </div>
       <h3>Guild and Alliance War Skill Lines (Passives)</h3>
       <div class="checks" id="lineToggles"></div>
@@ -594,6 +608,17 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     $('wwFormWrap').classList.toggle('hidden', !build.werewolf);
     $('werewolfForm').checked = !!build.werewolfForm;
     $('battleSpirit').checked = !!build.battleSpirit;
+    // Cyrodiil advanced sim: campaign state behind one toggle, only while Battle Spirit is on
+    const cy = (build.flags && build.flags.cyrodiil) || {};
+    $('cyroWrap').classList.toggle('hidden', !build.battleSpirit);
+    $('cyroOn').checked = !!cy.enabled;
+    $('cyroPanel').classList.toggle('hidden', !(build.battleSpirit && cy.enabled));
+    $('cyNearKeep').checked = !!cy.nearKeep; $('cyContinuous').checked = !!cy.continuousAttack; $('cyEmperor').checked = !!cy.emperor;
+    $('cyOff').value = String(cy.offensiveScrolls || 0); $('cyDef').value = String(cy.defensiveScrolls || 0);
+    const fill = (id, max, label) => { const sel = $(id); if (!sel.options.length) for (let i = 0; i <= max; i += 1) sel.append(el('option', { value: String(i), text: label(i) })); };
+    fill('cyKeeps', 9, (i) => (i === 0 ? '0' : `${i} (+${C.cyrodiil.enemyKeepCritPercent.values[i - 1]}% crit)`));
+    fill('cyEmpKeeps', 6, (i) => (i === 0 ? 'No' : `Yes, ${i} home keep${i > 1 ? 's' : ''} (+${C.cyrodiil.emperorshipAllianceMaxHealth.values[i - 1]} Health)`));
+    $('cyKeeps').value = String(cy.enemyKeeps || 0); $('cyEmpKeeps').value = String(cy.allianceEmperorKeeps || 0);
     $('esoPlus').checked = !(build.flags && build.flags.esoPlus === false);
     const lt = $('lineToggles'); lt.innerHTML = '';
     for (const line of TOGGLE_LINES) {
@@ -613,7 +638,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     if (build.food) parts.push(typeof build.food === 'object' ? 'custom food' : (FOODS.find((f) => f.id === build.food) || {}).name || build.food);
     if (build.vampireStage) parts.push(`vampire ${build.vampireStage}`);
     if (build.werewolf) parts.push('werewolf');
-    if (build.battleSpirit) parts.push('Battle Spirit');
+    if (build.battleSpirit) parts.push('Battle Spirit' + (cy.enabled ? ' (Cyrodiil sim)' : ''));
     $('buffHint').textContent = parts.join(', ');
   }
 
@@ -944,6 +969,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null, ...((obj.bars || [])[i] || {}) }));
     for (const bar of b.bars) bar.skills = Array.from({ length: 5 }, (_, k) => (bar.skills || [])[k] || null);
     b.flags = { battleSpiritFlatHealth: false, esoPlus: true, itemQuality: false, strategies: {}, ...(obj.flags || {}) };
+    if (b.flags.nearKeep) { b.flags.cyrodiil = { enabled: true, nearKeep: true, ...(b.flags.cyrodiil || {}) }; delete b.flags.nearKeep; }
     if (!b.classSkillLines || b.classSkillLines.length !== 3) b.classSkillLines = [...(E.CLASS_LINES[b.class] || E.CLASS_LINES.Dragonknight)];
     if (!Array.isArray(b.classMastery)) b.classMastery = [];
     build = b; $('buildName').value = build.name || ''; $('menuName').textContent = build.name || '';
@@ -968,6 +994,15 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   $('werewolf').addEventListener('change', (ev) => { build.werewolf = ev.target.checked; if (!build.werewolf) build.werewolfForm = false; pruneSkills(); update(); });
   $('werewolfForm').addEventListener('change', (ev) => { build.werewolfForm = ev.target.checked; update(); });
   $('battleSpirit').addEventListener('change', (ev) => { build.battleSpirit = ev.target.checked; update(); });
+  const setCy = (patch) => { const cy = { ...((build.flags && build.flags.cyrodiil) || {}), ...patch }; for (const k of Object.keys(cy)) if (!cy[k]) delete cy[k]; if (Object.keys(cy).length) build.flags.cyrodiil = cy; else delete build.flags.cyrodiil; update(); };
+  $('cyroOn').addEventListener('change', (ev) => setCy({ enabled: ev.target.checked }));
+  $('cyNearKeep').addEventListener('change', (ev) => setCy({ nearKeep: ev.target.checked }));
+  $('cyContinuous').addEventListener('change', (ev) => setCy({ continuousAttack: ev.target.checked }));
+  $('cyEmperor').addEventListener('change', (ev) => setCy({ emperor: ev.target.checked }));
+  $('cyOff').addEventListener('change', (ev) => setCy({ offensiveScrolls: Number(ev.target.value) }));
+  $('cyDef').addEventListener('change', (ev) => setCy({ defensiveScrolls: Number(ev.target.value) }));
+  $('cyKeeps').addEventListener('change', (ev) => setCy({ enemyKeeps: Number(ev.target.value) }));
+  $('cyEmpKeeps').addEventListener('change', (ev) => setCy({ allianceEmperorKeeps: Number(ev.target.value) }));
   $('esoPlus').addEventListener('change', (ev) => { build.flags.esoPlus = ev.target.checked; update(); });
   $('buildName').addEventListener('change', (ev) => { build.name = ev.target.value; $('menuName').textContent = build.name || ''; });
   $('saveBtn').addEventListener('click', saveBuild);

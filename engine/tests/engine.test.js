@@ -424,3 +424,19 @@ test('real data: Oakensoul Ring locks the back bar and grants its buffs', async 
   assert.ok(!r.bars[0].breakdown.weaponCritRating.some((x) => /Merciless/.test(x.source)));
   assert.ok(r.bars[0].notes.some((x) => /locked/.test(x)));
 });
+
+test('real data: Cyrodiil advanced sim flags (scrolls, enemy keeps, Emperorship, Continuous Attack)', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked(); n.battleSpirit = true; n.championPoints = { enabled: true, slotted: { warfare: [], fitness: [], craft: [] } };
+  const base = computeSheet(n, real).bars[0];
+  n.flags = { cyrodiil: { enabled: true, offensiveScrolls: 2, defensiveScrolls: 1, enemyKeeps: 3, allianceEmperorKeeps: 6, continuousAttack: true, emperor: true } };
+  const r = computeSheet(n, real); const b = r.bars[0];
+  assert.equal(b.main.weaponDamage, Math.round(base.main.weaponDamage * 1.15), 'offensive scrolls II 5% + Continuous Attack 10%');
+  assert.equal(b.main.weaponCritChance, Math.round((base.main.weaponCritChance + 3) * 10) / 10, 'three enemy keeps');
+  assert.equal(b.main.maxHealth, base.main.maxHealth + 1750, 'Emperorship VI');
+  assert.ok(b.breakdown.magickaRecovery.some((x) => /Continuous Attack/.test(x.source) && x.value === 20), 'Continuous Attack recovery 20%');
+  assert.ok(b.breakdown.physicalResistance.some((x) => /Defensive Scroll/.test(x.source)));
+  assert.ok(b.notes.some((x) => /Emperor skill line/.test(x)));
+  n.battleSpirit = false;
+  assert.equal(computeSheet(n, real).bars[0].main.maxHealth, base.main.maxHealth - 0, 'nothing outside Battle Spirit');
+});

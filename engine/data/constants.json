@@ -1952,6 +1952,58 @@
       "note": "Applied whenever Battle Spirit is on unless flags.battleSpiritFlatHealth is false."
     }
   },
+  "cyrodiil": {
+    "note": "Campaign bonuses shown on the sheet under Battle Spirit (flags.cyrodiil). Values from the UESP Campaigns page; how the flats and percents combine with the rest of the sheet is unverified until a reading carries one.",
+    "enemyKeepCritPercent": {
+      "source": "tables/uesp_Online_Campaigns_t06.csv row 'Enemy Keep Bonus I to IX'",
+      "verified": true,
+      "values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0
+      ]
+    },
+    "offensiveScrollDamagePercent": {
+      "source": "tables/uesp_Online_Campaigns_t07.csv row 'Offensive Scroll Bonus I and II'",
+      "verified": true,
+      "values": [
+        2.0,
+        5.0
+      ]
+    },
+    "defensiveScrollResistancePercent": {
+      "source": "tables/uesp_Online_Campaigns_t07.csv row 'Defensive Scroll Bonus I and II'",
+      "verified": true,
+      "values": [
+        2.0,
+        5.0
+      ]
+    },
+    "emperorshipAllianceMaxHealth": {
+      "source": "tables/uesp_Online_Campaigns_t08.csv row 'Emperorship Alliance Bonus I to VI'; data/patch-notes/html 128 (2022-11-14): The Health bonus for having an Emperor crowned for your Alliance will now scale depending on how many home Keeps you have controlled by your alliance.",
+      "verified": true,
+      "note": "Index is the number of home Keeps the alliance owns (1 to 6).",
+      "values": [
+        900.0,
+        1050.0,
+        1250.0,
+        1400.0,
+        1600.0,
+        1750.0
+      ]
+    },
+    "emperorPassives": {
+      "source": "UNVERIFIED",
+      "verified": false,
+      "note": "The Emperor skill line (Domination, Authority, Monarch, Tactician, Emperor) is not in the archive: skills.csv holds only the line row and UESP is unreachable from the build environment. The toggle exists; it applies nothing until the texts are archived."
+    }
+  },
   "vampireStages": {
     "note": "Unnatural Resistance (skills.csv) changes the Health Recovery penalty: stage 2 none, stage 3 25%, stage 4 50%. Applied by the engine when that passive is active.",
     "stages": {

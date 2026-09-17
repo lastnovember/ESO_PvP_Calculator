@@ -236,7 +236,10 @@
       "esoPlus": true,
       "itemQuality": false,
       "strategies": {},
-      "nearKeep": true
+      "cyrodiil": {
+        "enabled": true,
+        "nearKeep": true
+      }
     }
   },
   "readings": {

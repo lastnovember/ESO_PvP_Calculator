@@ -14,7 +14,7 @@ function walk(node, path, out, covered = false) {
   if (node && typeof node === 'object') {
     const has = covered || 'source' in node;
     const carriesMagnitude = 'value' in node || 'oneHand' in node
-      || (Array.isArray(node.values) && node.values.length > 0 && 'value' in node.values[0]);
+      || (Array.isArray(node.values) && node.values.length > 0 && (typeof node.values[0] === 'number' || 'value' in node.values[0]));
     if (carriesMagnitude && !has) out.push(path);
     for (const [k, v] of Object.entries(node)) walk(v, path ? `${path}.${k}` : k, out, has);
   }

@@ -377,6 +377,33 @@ C['battleSpirit'] = OrderedDict(
     legacyFlatMaxHealth=sourced(1600, 'Not applied unless flags.battleSpiritFlatHealth is true: fixture 007 (Cyrodiil) reads 33289, exactly the engine without it. Earlier reading: fixtures 001 and 002 (Yeets-Swiftly): same gear, 22 Health points in Cyrodiil read 32701 and 15 points outside read 30001; 7 points are 7 x 122 x 1.10, the rest is 1600 x 1.10, so Battle Spirit adds 1600 Max Health before percent bonuses. Older notes said 5000: ' + pn('017', '2016-03-22', 'fixed: Battle Spirit Health bonus would not be modified by Health percentage increases.') + ' ' + pn('076', '2019-08-26', 'Pets will now properly gain the extra 5000 Health from Battle Spirit.') + ' No note carries the change to 1600.', 'Applied whenever Battle Spirit is on unless flags.battleSpiritFlatHealth is false.'),
 )
 
+# ---------------------------------------------------------------- Cyrodiil campaign bonuses (Battle Spirit on)
+def _bonus_rows(fname):
+    return [(r[1].strip(), r[2].strip()) for r in table(fname)[1:] if len(r) > 2 and r[1].strip()]
+_keep = _bonus_rows('uesp_Online_Campaigns_t06.csv')
+_scroll = _bonus_rows('uesp_Online_Campaigns_t07.csv')
+_emp = _bonus_rows('uesp_Online_Campaigns_t08.csv')
+def _pct(text, pat):
+    m = re.search(pat, text)
+    return float(m.group(1)) if m else None
+C['cyrodiil'] = OrderedDict(
+    note='Campaign bonuses shown on the sheet under Battle Spirit (flags.cyrodiil). Values from the UESP Campaigns page; how the flats and percents combine with the rest of the sheet is unverified until a reading carries one.',
+    enemyKeepCritPercent=OrderedDict(
+        source=src('uesp_Online_Campaigns_t06.csv', 'Enemy Keep Bonus I to IX'), verified=True,
+        values=[_pct(e, r'Critical by (\d+)%') for n, e in _keep if n.startswith('Enemy Keep Bonus')]),
+    offensiveScrollDamagePercent=OrderedDict(
+        source=src('uesp_Online_Campaigns_t07.csv', 'Offensive Scroll Bonus I and II'), verified=True,
+        values=[_pct(e, r'by (\d+)%') for n, e in _scroll if n.startswith('Offensive')]),
+    defensiveScrollResistancePercent=OrderedDict(
+        source=src('uesp_Online_Campaigns_t07.csv', 'Defensive Scroll Bonus I and II'), verified=True,
+        values=[_pct(e, r'by (\d+)%') for n, e in _scroll if n.startswith('Defensive')]),
+    emperorshipAllianceMaxHealth=OrderedDict(
+        source=src('uesp_Online_Campaigns_t08.csv', 'Emperorship Alliance Bonus I to VI') + '; ' + pn('128', '2022-11-14', 'The Health bonus for having an Emperor crowned for your Alliance will now scale depending on how many home Keeps you have controlled by your alliance.'),
+        verified=True, note='Index is the number of home Keeps the alliance owns (1 to 6).',
+        values=[_pct(e, r'by (\d+)') for n, e in _emp if n.startswith('Emperorship')]),
+    emperorPassives=OrderedDict(source='UNVERIFIED', verified=False, note='The Emperor skill line (Domination, Authority, Monarch, Tactician, Emperor) is not in the archive: skills.csv holds only the line row and UESP is unreachable from the build environment. The toggle exists; it applies nothing until the texts are archived.'),
+)
+
 # ---------------------------------------------------------------- Vampire stages
 vt = table('uesp_Online_Vampire_t01.csv')
 stages = OrderedDict()

@@ -92,6 +92,9 @@ Named items are community tooltip values.
 
 ## Systems
 
+- Emperor skill line (Domination, Authority, Monarch, Tactician, Emperor): not in the archive. skills.csv holds only the line row and the UESP page is unreachable from the build environment. The "I am the Emperor" toggle applies nothing until the five passive texts are archived (the in game skill line page of an Emperor, or a UESP export, would do).
+- Cyrodiil scroll and keep bonuses: values from the UESP campaign table (2% and 5% damage or resistance, 1% crit per enemy keep, 900 to 1750 Max Health by home keeps under Emperorship); whether the percents multiply the sheet total or add to the other percents is unverified, no reading carries one yet.
+
 | Item | Value used | Note |
 | --- | --- | --- |
 | Battle Spirit flat +5000 Max Health | Off by default (`flags.battleSpiritFlatHealth`) | Timeline in the notes: 2016-01-26 temporary "not modified by Health percentage increases", 2016-03-22 fixed (so it IS multiplied by percent bonuses), 2016-06-13 and 2019-08-26 pets get the same 5000. No note ever removes it, no note after 2019 mentions it for players, UESP does not list it. Only a PvP zone fixture can settle it. |

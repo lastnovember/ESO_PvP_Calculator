@@ -593,12 +593,32 @@ function collect(build, data, barIndex, strategies) {
   const foodStats = resolveFood(build.food, C);
   if (foodStats) for (const [stat, val] of Object.entries(foodStats.stats)) if (val) acc.add(stat, 'flat', val, `food ${foodStats.name}`);
 
-  // Combat Medic (Support): "Increases your healing done by 20% when you are near a Keep". flags.nearKeep says so:
-  // fixtures 001 and 009 (both at a Cyrodiil gate) read Healing Done 20 above every other source.
-  if (ctx.battleSpirit && build.flags && build.flags.nearKeep && activePassives(build, data).some(([n]) => n === 'Combat Medic')) {
-    const cm = data.effects.skills.passives['Combat Medic'];
-    const m = cm && /by (\d+(?:\.\d+)?)%/.exec(cm.raw || '');
-    if (m) acc.add('healingDone', 'percent', Number(m[1]), 'passive Combat Medic (near a keep)');
+  // Cyrodiil campaign state (flags.cyrodiil, only under Battle Spirit): where the character stands and what the
+  // alliance holds. Combat Medic near a keep is read from fixtures 001 and 009 (20 above every other source at a
+  // gate); the scroll, enemy keep and Emperorship values come from the UESP campaign tables (constants.cyrodiil).
+  const cy = ctx.battleSpirit && build.flags ? (build.flags.cyrodiil || (build.flags.nearKeep ? { enabled: true, nearKeep: true } : null)) : null;
+  if (cy && cy.enabled) {
+    const CY = C.cyrodiil; const pick = (arr, n) => (n > 0 && arr && arr[Math.min(n, arr.length) - 1]) || 0;
+    const passives = activePassives(build, data);
+    if (cy.nearKeep && passives.some(([n]) => n === 'Combat Medic')) {
+      const cm = data.effects.skills.passives['Combat Medic'];
+      const m = cm && /by (\d+(?:\.\d+)?)%/.exec(cm.raw || '');
+      if (m) acc.add('healingDone', 'percent', Number(m[1]), 'passive Combat Medic (near a keep)');
+    }
+    if (cy.continuousAttack && passives.some(([n]) => n === 'Continuous Attack')) {
+      const ca = data.effects.skills.passives['Continuous Attack'];
+      const m = ca && /Weapon Damage and Spell Damage by (\d+)% and Health, Magicka, and Stamina Recovery by (\d+)%/.exec(ca.raw || '');
+      if (m) { acc.add('weaponAndSpellDamage', 'percent', Number(m[1]), 'passive Continuous Attack (after a capture)'); acc.add('allRecovery', 'percent', Number(m[2]), 'passive Continuous Attack (after a capture)'); }
+    }
+    const os = pick(CY.offensiveScrollDamagePercent.values, cy.offensiveScrolls | 0);
+    if (os) acc.add('weaponAndSpellDamage', 'percent', os, `Cyrodiil: Offensive Scroll Bonus (${cy.offensiveScrolls} scrolls)`);
+    const ds = pick(CY.defensiveScrollResistancePercent.values, cy.defensiveScrolls | 0);
+    if (ds) acc.add('physicalAndSpellResistance', 'percent', ds, `Cyrodiil: Defensive Scroll Bonus (${cy.defensiveScrolls} scrolls)`);
+    const ek = pick(CY.enemyKeepCritPercent.values, cy.enemyKeeps | 0);
+    if (ek) acc.add('critChancePercent', 'percent', ek, `Cyrodiil: Enemy Keep Bonus (${cy.enemyKeeps} keeps)`);
+    const eh = pick(CY.emperorshipAllianceMaxHealth.values, cy.allianceEmperorKeeps | 0);
+    if (eh) acc.add('maxHealth', 'flat', eh, `Cyrodiil: Emperorship Alliance Bonus (${cy.allianceEmperorKeeps} home keeps)`);
+    if (cy.emperor) notes.push('You are the Emperor: the Emperor skill line passives are not in the archive yet, so nothing is added for them (the alliance Emperorship health bonus still applies).');
   }
 
   // Curative Curse (Living Death): "while you have a negative effect on you". Battle Spirit counts: fixtures 007 and
