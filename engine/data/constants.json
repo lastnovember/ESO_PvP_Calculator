@@ -1942,7 +1942,7 @@
     ],
     "legacyFlatMaxHealth": {
       "value": 1600,
-      "source": "fixtures 001 and 002 (Yeets-Swiftly): same gear, 22 Health points in Cyrodiil read 32701 and 15 points outside read 30001; 7 points are 7 x 122 x 1.10, the rest is 1600 x 1.10, so Battle Spirit adds 1600 Max Health before percent bonuses. Older notes said 5000: data/patch-notes/html 017 (2016-03-22): fixed: Battle Spirit Health bonus would not be modified by Health percentage increases. data/patch-notes/html 076 (2019-08-26): Pets will now properly gain the extra 5000 Health from Battle Spirit. No note carries the change to 1600.",
+      "source": "Not applied unless flags.battleSpiritFlatHealth is true: fixture 007 (Cyrodiil) reads 33289, exactly the engine without it. Earlier reading: fixtures 001 and 002 (Yeets-Swiftly): same gear, 22 Health points in Cyrodiil read 32701 and 15 points outside read 30001; 7 points are 7 x 122 x 1.10, the rest is 1600 x 1.10, so Battle Spirit adds 1600 Max Health before percent bonuses. Older notes said 5000: data/patch-notes/html 017 (2016-03-22): fixed: Battle Spirit Health bonus would not be modified by Health percentage increases. data/patch-notes/html 076 (2019-08-26): Pets will now properly gain the extra 5000 Health from Battle Spirit. No note carries the change to 1600.",
       "verified": true,
       "note": "Applied whenever Battle Spirit is on unless flags.battleSpiritFlatHealth is false."
     }

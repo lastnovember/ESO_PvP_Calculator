@@ -106,7 +106,28 @@ positional weapon passives.
 recoveries +14 and -19, Sneak Cost 55, Bash Damage 608. Physical Damage reads 5% here against 10%
 on the front bar, so the front bar's extra 5% is something slotted or wielded there.
 
+## 007, 2026-09-17, geared, front bar (restoration staff), Western Elsweyr Gate (Cyrodiil)
+
+Third character: Breton Necromancer healer "Z antilles", subclassed Restoring Light and Green
+Balance, Earthgore, Trainee, Robes of Transmutation, Spell Power Cure, Markyn, The Lady, Smoked
+Bear Haunch, 47 Health and 17 Magicka. Active effects: ESO Plus, Battle Spirit, Smoked Bear
+Haunch, Gallop, Boon: The Lady.
+
+Changes (this commit): Battle Spirit adds no flat Max Health (33289 is exact without the 1600;
+flag default off, Yeets fixtures keep it on); `championPoints.points` holds the stages bought in
+a star, and Sneak Cost 94 here, 55 on the Templar and 34 on Yeets are Sustaining Shadows at 10,
+31 and 50 of 50 stages with the medium armor reductions unchanged. The app has a stages box next
+to each slotted star.
+
+40 of 55 match. Open: Magicka Recovery +34, crit +0.9, resistances 721 short (Markyn counted at
+two sets), Healing Done 31 against 19 (Curative Curse 12, or Mending 6 plus Restoration Master 6),
+Bash Damage.
+
 ## Open questions for the next reading
+
+- Necromancer back bar (dagger and shield): separates the Healing Done candidates.
+- Tooltip text of Orzorga's Smoked Bear Haunch (three characters read Magicka Recovery high).
+- Armor value on each armor piece tooltip, any character (resistances 514 to 825 short on all).
 
 - Templar: is Unnatural Resistance bought; tooltip of the Prismatic Recovery ring glyph; tooltip
   of Orzorga's Smoked Bear Haunch; the armor value on each equipped piece's tooltip (seven

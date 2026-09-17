@@ -104,7 +104,10 @@
       },
       "notTaken": [
         "Sprinter"
-      ]
+      ],
+      "points": {
+        "Sustaining Shadows": 31
+      }
     },
     "mundus": "The Shadow",
     "food": "orzorgas-smoked-bear-haunch",
@@ -240,7 +243,7 @@
       }
     ],
     "flags": {
-      "battleSpiritFlatHealth": true,
+      "battleSpiritFlatHealth": false,
       "esoPlus": true,
       "itemQuality": false,
       "strategies": {}

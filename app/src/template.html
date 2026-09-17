@@ -96,6 +96,9 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 .stickyres { position: fixed; left: 0; right: 0; bottom: 0; background: #0c0a07; border-top: 1px solid var(--line2); padding: 8px 16px; font-size: 13px; display: flex; gap: 12px; overflow-x: auto; white-space: nowrap; z-index: 20; }
 .stickyres b { color: var(--gold2); font-variant-numeric: tabular-nums; }
 .cpblock { margin: 8px 0 12px; }
+.cpslot { display: flex; gap: 4px; min-width: 0; }
+.cpslot .combo { flex: 1; min-width: 0; }
+.cpslot input.pts { width: 52px; flex: 0 0 52px; padding: 6px 4px; text-align: center; font-size: 12px; }
 .cpblock .lbl { font-family: var(--display); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4px; }
 .cpblock.warfare .lbl { color: var(--warfare); } .cpblock.fitness .lbl { color: var(--fitness); } .cpblock.craft .lbl { color: var(--craft); }
 .cpblock.warfare .combo input { border-left: 3px solid var(--warfare); } .cpblock.fitness .combo input { border-left: 3px solid var(--fitness); } .cpblock.craft .combo input { border-left: 3px solid var(--craft); }
@@ -347,7 +350,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     scribing: {},
     gear: Object.fromEntries([...ARMOR.map((s) => [s, { set: null, weight: 'medium', trait: null, enchant: null }]), ...JEWELRY.map((s) => [s, { set: null, trait: null, enchant: null }])]),
     bars: [{ mainHand: null, offHand: null, skills: [null, null, null, null, null], ultimate: null, poison: null }, { mainHand: null, offHand: null, skills: [null, null, null, null, null], ultimate: null, poison: null }],
-    flags: { battleSpiritFlatHealth: true, esoPlus: true, itemQuality: false, strategies: {} },
+    flags: { battleSpiritFlatHealth: false, esoPlus: true, itemQuality: false, strategies: {} },
   });
   let build = defaultBuild();
   let result = null;
@@ -473,8 +476,18 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         const grid = el('div', { class: 'cpgrid' });
         const cur = build.championPoints.slotted[con] || [];
         for (let i = 0; i < 4; i += 1) {
-          const c = el('div', { class: 'combo' }); grid.append(c);
+          const cell = el('div', { class: 'cpslot' }); grid.append(cell);
+          const c = el('div', { class: 'combo' }); cell.append(c);
           combo(c, all.filter((o) => o.value === cur[i] || !cur.includes(o.value)), cur[i] || null, (v) => { const arr = (build.championPoints.slotted[con] || []).slice(); if (v) arr[i] = v; else arr.splice(i, 1); build.championPoints.slotted[con] = arr.filter(Boolean); update(); }, `Slot ${i + 1}`);
+          // stages bought: blank means the maximum (fixture 007: Sustaining Shadows at 10 of 50 stages)
+          const star = cur[i] && STARS.find((x) => x.name === cur[i]);
+          if (star && star.stages > 1) {
+            const pts = (build.championPoints.points || {})[star.name];
+            const inp = el('input', { type: 'number', class: 'pts', min: '0', max: String(star.stages), placeholder: String(star.stages), title: `Stages bought, ${star.stages} max` });
+            if (pts != null) inp.value = pts;
+            inp.addEventListener('change', () => { const v = inp.value === '' ? null : Math.max(0, Math.min(star.stages, Number(inp.value))); const pt = { ...(build.championPoints.points || {}) }; if (v == null || v >= star.stages) delete pt[star.name]; else pt[star.name] = v; build.championPoints.points = Object.keys(pt).length ? pt : undefined; if (!build.championPoints.points) delete build.championPoints.points; update(); });
+            cell.append(inp);
+          }
         }
         block.append(grid); cp.append(block);
       }
@@ -921,7 +934,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     b.gear = { ...fresh.gear, ...(obj.gear || {}) };
     b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null, ...((obj.bars || [])[i] || {}) }));
     for (const bar of b.bars) bar.skills = Array.from({ length: 5 }, (_, k) => (bar.skills || [])[k] || null);
-    b.flags = { battleSpiritFlatHealth: true, esoPlus: true, itemQuality: false, strategies: {}, ...(obj.flags || {}) };
+    b.flags = { battleSpiritFlatHealth: false, esoPlus: true, itemQuality: false, strategies: {}, ...(obj.flags || {}) };
     if (!b.classSkillLines || b.classSkillLines.length !== 3) b.classSkillLines = [...(E.CLASS_LINES[b.class] || E.CLASS_LINES.Dragonknight)];
     if (!Array.isArray(b.classMastery)) b.classMastery = [];
     build = b; $('buildName').value = build.name || ''; $('menuName').textContent = build.name || '';

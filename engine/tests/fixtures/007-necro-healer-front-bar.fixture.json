@@ -1,8 +1,8 @@
 {
-  "name": "007 Necromancer healer (Lastnovember), front bar, Cyrodiil (readings pending)",
+  "name": "007 Necromancer healer \"Z antilles\" (Lastnovember), front bar, Western Elsweyr Gate (Cyrodiil, Battle Spirit)",
   "status": "open",
-  "captured": "2026-09-17 (build only, photos pending)",
-  "location": "",
+  "captured": "2026-09-17",
+  "location": "Western Elsweyr Gate (Cyrodiil)",
   "bar": "front (restoration staff)",
   "attributes": {
     "health": 47,
@@ -11,15 +11,61 @@
   },
   "mundus": "The Lady",
   "food": "Orzorga's Smoked Bear Haunch",
-  "photos": [],
-  "notes": "Breton Necromancer subclassed Restoring Light and Green Balance, healer PvP build: Earthgore, Trainee, Robes of Transmutation, Spell Power Cure, Markyn. Battle Spirit on for the photos. Readings to be filled from the character sheet photos.",
+  "photos": [
+    "photos/007-main.jpg",
+    "photos/007-advanced-1.jpg",
+    "photos/007-advanced-2.jpg",
+    "photos/007-advanced-3.jpg",
+    "photos/007-active-effects.jpg"
+  ],
+  "notes": "Xbox, 2026-09-17, five phone photos. Breton Necromancer subclassed Restoring Light and Green Balance, healer: Earthgore, Trainee, Robes of Transmutation, Spell Power Cure, Markyn, The Lady, Smoked Bear Haunch, 47 Health and 17 Magicka points. Cyrodiil gate, Battle Spirit in Active Effects. Front bar: restoration staff (Powered).",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
     "percent": 0.15
   },
-  "sheetExtras": {},
-  "activeEffects": [],
+  "sheetExtras": {
+    "Sneak Cost": 94,
+    "Block Move Speed": 42,
+    "Sneak Speed": 68,
+    "Sprint Speed": 145,
+    "resistancePercent": {
+      "Flame": 41.5,
+      "Frost": 41.5,
+      "Shock": 41.5,
+      "Magic": 41.5,
+      "Disease": 33.6,
+      "Poison": 33.6,
+      "Bleed": 33.6
+    },
+    "damagePercent": {
+      "Physical": 0,
+      "Bleed": 0,
+      "Disease": 0,
+      "Flame": 0,
+      "Frost": 0,
+      "Magic": 0,
+      "Oblivion": 0,
+      "Poison": 0,
+      "Shock": 0
+    },
+    "Critical Damage": 2,
+    "Healing Done": 31,
+    "Critical Healing": 2,
+    "Healing Taken": 4,
+    "Experience": 10,
+    "Gold": 10,
+    "Crafting Inspiration": 10,
+    "Alliance Points": 10,
+    "Tel Var": 10
+  },
+  "activeEffects": [
+    "ESO Plus Member",
+    "Battle Spirit",
+    "Smoked Bear Haunch",
+    "Gallop",
+    "Boon: The Lady"
+  ],
   "build": {
     "schemaVersion": 1,
     "name": "Necro healer",
@@ -57,6 +103,9 @@
           "Steed's Blessing",
           "Sustaining Shadows"
         ]
+      },
+      "points": {
+        "Sustaining Shadows": 10
       }
     },
     "mundus": "The Lady",
@@ -188,7 +237,7 @@
       }
     ],
     "flags": {
-      "battleSpiritFlatHealth": true,
+      "battleSpiritFlatHealth": false,
       "esoPlus": true,
       "itemQuality": false,
       "strategies": {}
@@ -198,34 +247,34 @@
     "inPvpZone": {
       "bar1": {
         "main": {
-          "Max Health": null,
-          "Max Magicka": null,
-          "Max Stamina": null,
-          "Health Recovery": null,
-          "Magicka Recovery": null,
-          "Stamina Recovery": null,
-          "Weapon Damage": null,
-          "Spell Damage": null,
-          "Weapon Critical": null,
-          "Spell Critical": null,
-          "Critical Damage": null,
-          "Physical Penetration": null,
-          "Spell Penetration": null,
-          "Physical Resistance": null,
-          "Spell Resistance": null
+          "Max Health": 33289,
+          "Max Magicka": 21837,
+          "Max Stamina": 15393,
+          "Health Recovery": 386,
+          "Magicka Recovery": 1210,
+          "Stamina Recovery": 918,
+          "Weapon Damage": 3118,
+          "Spell Damage": 3118,
+          "Weapon Critical": 19.4,
+          "Spell Critical": 19.4,
+          "Critical Damage": 2,
+          "Physical Penetration": 4456,
+          "Spell Penetration": 4456,
+          "Physical Resistance": 22171,
+          "Spell Resistance": 27385
         },
         "advanced": {
-          "Critical Resistance": null,
-          "Bash Cost": null,
-          "Block Cost": null,
-          "Break Free Cost": null,
-          "Roll Dodge Cost": null,
-          "Sprint Cost": null,
-          "Bash Damage": null,
-          "Block Mitigation": null,
-          "Sprint Speed": null,
-          "Healing Done": null,
-          "Healing Taken": null,
+          "Critical Resistance": 3196,
+          "Bash Cost": 594,
+          "Block Cost": 1864,
+          "Break Free Cost": 4144,
+          "Roll Dodge Cost": 3420,
+          "Sprint Cost": 401,
+          "Bash Damage": 678,
+          "Block Mitigation": 54,
+          "Sprint Speed": 145,
+          "Healing Done": 31,
+          "Healing Taken": 4,
           "Damage Done": null
         }
       }

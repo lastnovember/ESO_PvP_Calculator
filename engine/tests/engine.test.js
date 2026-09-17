@@ -353,3 +353,20 @@ test('real data: fixture 005 rules (block points per heavy piece, spell only fla
   assert.equal(r.bars[0].advanced.critHealingPercent, 11);
   assert.equal(r.bars[0].main.critDamage, 11);
 });
+
+test('real data: fixture 007 rules (CP star points, Battle Spirit adds no flat health by default)', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked();
+  n.championPoints = { enabled: true, slotted: { warfare: [], fitness: [], craft: ['Sustaining Shadows'] } };
+  let r = computeSheet(n, real);
+  assert.equal(r.bars[0].advanced.sneakCost, 59, '118 x 0.5 at 50 stages');
+  n.championPoints.points = { 'Sustaining Shadows': 10 };
+  r = computeSheet(n, real);
+  assert.equal(r.bars[0].advanced.sneakCost, Math.round(118 * 0.9), '10 of 50 stages');
+  assert.ok(r.bars[0].breakdown.sneakCost.some((x) => /10 of 50/.test(x.source)));
+  const plain = computeSheet(n, real).bars[0].main.maxHealth;
+  n.battleSpirit = true;
+  assert.equal(computeSheet(n, real).bars[0].main.maxHealth, plain, 'no flat health under Battle Spirit');
+  n.flags = { battleSpiritFlatHealth: true };
+  assert.equal(computeSheet(n, real).bars[0].main.maxHealth, plain + 1600, 'legacy flag keeps the 1600');
+});

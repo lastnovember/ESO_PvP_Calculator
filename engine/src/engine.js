@@ -40,7 +40,7 @@
  *       Block mitigation: base * (1 + percent) (STRATEGIES.blockMitigation).
  *       Movement speed: 100 + percents, capped at 200.
  *  5. Flat sources that apply after multiplication: the unverified Battle
- *       Spirit +5000 Max Health (flags.battleSpiritFlatHealth).
+ *       Spirit flat Max Health, off by default (flags.battleSpiritFlatHealth).
  *
  * Every uncertain ordering is a named entry in STRATEGIES with the choices it
  * accepts, so a fixture can be replayed under each choice.
@@ -468,8 +468,15 @@ function collect(build, data, barIndex, strategies) {
     // Passive (non slottable) stars are assumed at max rank unless listed in championPoints.notTaken
     // (fixture 005: Sprint Cost 470 = 500 x 0.94 with no Sprinter, where fixture 003 read 460 = 500 - 40 with it).
     const notTaken = new Set(cp.notTaken || []);
+    // championPoints.points: stages bought in a star when fewer than the maximum (fixtures 002, 005 and 007: Sneak Cost
+    // 34, 55 and 94 are Sustaining Shadows at 50, 31 and 10 of its 50 stages). Effects scale by points / stages.
+    const points = cp.points || {};
     for (const star of E.championStars ? Object.values(E.championStars) : []) {
-      if (star.slottable ? slotted.has(star.name) : !notTaken.has(star.name)) applyEffects(acc, star.effects, ctx, data, `CP ${star.name}`, strategies);
+      if (!(star.slottable ? slotted.has(star.name) : !notTaken.has(star.name))) continue;
+      const pts = points[star.name];
+      const frac = pts != null && star.stages > 0 ? Math.max(0, Math.min(1, pts / star.stages)) : 1;
+      const effs = frac === 1 ? star.effects : star.effects.map((e) => (e && e.value != null && !e.buff ? { ...e, value: e.value * frac } : e));
+      applyEffects(acc, effs, ctx, data, `CP ${star.name}` + (frac < 1 ? ` (${pts} of ${star.stages})` : ''), strategies);
     }
     if (slotted.has('Expert Evasion')) notes.push('Expert Evasion is slotted: the sheet shows Roll Dodge Cost 0 while the free roll is primed (fixture 005). The regular cost is shown here.');
   }
@@ -624,7 +631,9 @@ function computeBar(build, data, barIndex, strategies) {
     return val;
   };
   // Battle Spirit flat Max Health (1600, fixtures 001 and 002) goes in before percent bonuses, like the 2016 fix says
-  const bsFlatHealth = ctx.battleSpirit && !(build.flags && build.flags.battleSpiritFlatHealth === false) ? v(C.battleSpirit.legacyFlatMaxHealth) : 0;
+  // Battle Spirit adds no flat Max Health today: fixture 007 (Cyrodiil) lands exactly without it. flags.battleSpiritFlatHealth
+  // true keeps the 1600 that fixtures 001 and 002 seemed to show (their difference sits on Yeets' back bar, still open).
+  const bsFlatHealth = ctx.battleSpirit && build.flags && build.flags.battleSpiritFlatHealth === true ? v(C.battleSpirit.legacyFlatMaxHealth) : 0;
   let maxHealth = maxStat('maxHealth', B.maxHealth, a.health, pts.healthPerPoint, bsFlatHealth);
   const maxMagicka = maxStat('maxMagicka', B.maxMagicka, a.magicka, pts.magickaPerPoint);
   const maxStamina = maxStat('maxStamina', B.maxStamina, a.stamina, pts.staminaPerPoint);

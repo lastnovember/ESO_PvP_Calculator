@@ -139,6 +139,18 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Roll Dodge Cost | 0 | 3572 | Expert Evasion slotted: the sheet shows 0 while the free roll is primed. The regular cost is not readable from this sheet. |
 | Bash Damage | 556 axes, 608 staff | 120 | Total bash damage depends on the weapon (Yeets: 630 maces, 685 staff, 184 naked); the fixed bonus is all the engine has. Not modelled. |
 
+## Fixture 007 (Necromancer healer "Z antilles": geared front bar, restoration staff, Cyrodiil with Battle Spirit)
+
+40 of 55 readings match, including Max Health (without any Battle Spirit flat), Max Magicka and Stamina, Health and Stamina Recovery, Weapon and Spell Damage, penetration, Critical Resistance, every cost, Block Mitigation, Sneak Cost (Sustaining Shadows at 10 stages), Sneak and Sprint Speed, Critical Damage and Healing, Healing Taken and the currency bonuses. Still open:
+
+| Reading | Game | Engine | Gap and best reading of it |
+| --- | --- | --- | --- |
+| Magicka Recovery | 1210 | 1176 | +29 before Evocation's 16% (514 + 130 Spell Attunement + 370 food). Every character reads Magicka Recovery high (Yeets +41, Templar +11 before percents) while Stamina Recovery is exact here; the Bear Haunch tooltip is the missing input. |
+| Weapon and Spell Critical | 19.4 | 18.5 | One more percent (about 206 rating) than Prodigy 876, Precision 320 and Robes of Transmutation 657 give. No archived text names a resting crit source in Restoring Light, Green Balance, Living Death or the Breton line. |
+| Resistances | 22171 and 27385 | 21450 and 26664 | 721 short on both, no percent in play. Markyn reads two sets with 3 or more pieces (2314). Yeets 825 and the Templar 514 with different armor: the armor piece ratings (unverified) or a flat the three share. Piece tooltips wanted. |
+| Healing Done | 31 | 19 | +12 over Blessed 2, Earthgore 4, Robes of Transmutation 4 and Powered 9. Candidates that sum to 12: Curative Curse at rank 2 (12% while a negative effect is on you, if Battle Spirit counts) or Mending 6 (shown at full) plus Restoration Master 6. Combat Medic (20%, near a keep) does not fit at a gate. The back bar reading separates them (no staff there). |
+| Bash Damage | 678 | 120 | Not modelled (weapon dependent). |
+
 ## Settled by data supplied later
 
 | Item | Settled by |
@@ -178,6 +190,8 @@ The naked reading fixed the base values (DECISIONS.md and constants sources). Ev
 | Spell Warding under an armor percent | not multiplied (Spell = Physical + 726) | 005, 006 |
 | Defending trait under an armor percent | not multiplied (3276 flat, the bar to bar gap difference was 6% of it) | 005, 006 |
 | Ice staff block (Ancient Knowledge) | Block Cost 1029 and Block Mitigation 65 with the settled cost and mitigation rules | 006 |
+| Battle Spirit flat Max Health | none (the flag keeps the earlier 1600 reading available) | 007 |
+| Sneak Cost | 118 x Sustaining Shadows stages bought x the medium armor reductions (34, 55, 94) | 002, 005, 007 |
 | Critical Healing sources | Dexterity, Fighting Finesse, The Shadow (not Piercing Spear, Twin Blade and Blunt, Advanced Species, Hemorrhage, Feline Ambush counts) | 002, 003, 005 |
 | Sneak Speed with Dark Stalker | 100 | 005 |
 | Disease and Poison Resistance | physical rating plus Resist Affliction 2310, over 660 | 005 |

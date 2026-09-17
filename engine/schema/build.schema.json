@@ -48,6 +48,10 @@
             "craft":   { "$ref": "#/definitions/slottedStars" }
           }
         },
+        "points": {
+          "description": "Stages bought in a star when fewer than its maximum, by star name (Sustaining Shadows has 50 one point stages). Missing means the maximum.",
+          "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 }
+        },
         "notTaken": {
           "description": "Passive (non slottable) stars this character has not bought. Every other passive star is assumed at max rank. Example: [\"Sprinter\"].",
           "type": "array", "uniqueItems": true, "items": { "type": "string" }
@@ -121,7 +125,7 @@
       "properties": {
         "itemQuality": { "type": "boolean", "default": false, "description": "When true, each item's quality field is used; when false every item counts as gold." },
         "esoPlus": { "type": "boolean", "default": true, "description": "ESO Plus member: the sheet shows 10% Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points." },
-        "battleSpiritFlatHealth": { "type": "boolean", "default": true, "description": "Battle Spirit flat Max Health (1600 before percent bonuses, settled by fixtures 001 and 002). Set false to leave it out." },
+        "battleSpiritFlatHealth": { "type": "boolean", "default": false, "description": "Add 1600 flat Max Health under Battle Spirit. Off: fixture 007 (Cyrodiil) reads exactly without it; fixtures 001 and 002 had suggested it." },
         "strategies": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Named order-of-operation strategies, see engine docs." }
       }
     }
