@@ -167,13 +167,12 @@ are the same numbers as the front bar: Magicka Recovery +45, resistances 859 sho
 
 ## Open questions for the next reading
 
-- Does the Necromancer have the Support line's Combat Medic passive? (Its gate reading showed no
-  20%.) Does any character have Tumbling at one stage?
-- Dragonknight or Yeets: one reading with only the main mace equipped, one with only the off hand
-  mace, one with both. Settles the dual wield rule that both characters miss by 236.
-- Armor value on each armor piece tooltip, any character (four characters, four different gaps).
-- Any character's Magicka Recovery with all armor removed (percents gone): shows whether the +41
-  is a flat.
+- Answered 2026-09-17: the Necromancer has every Support passive (so Combat Medic at that gate was
+  a matter of position), every character has Tumbling at both stages, the Templar has every
+  vampire passive (Unnatural Resistance bought, so its Health Recovery 415 is unexplained by the
+  archive's rule). Naked, single weapon and tooltip readings are not asked for; the remaining
+  gaps (dual wield 236 and 876, resistances 514 to 859, Magicka Recovery +11 to +42, roll dodge)
+  are worked from the archive and from differencing the readings on file.
 
 - Tooltip text of Orzorga's Smoked Bear Haunch (three characters read Magicka Recovery high).
 - Armor value on each armor piece tooltip, any character (resistances 514 to 825 short on all).

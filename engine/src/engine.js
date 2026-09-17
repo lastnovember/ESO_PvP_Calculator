@@ -846,8 +846,30 @@ export function computeSheet(build, data, options = {}) {
   }
   const validation = validateBuild(build, data);
   if (validation.errors.some((e) => /bars must hold|build is not/.test(e))) return { validation, bars: [], strategies };
+  // A set that locks weapon swapping (Oakensoul Ring): only the front bar exists. Its skills alone count for
+  // "on either bar" effects, and the back bar result is the front bar's, marked locked.
+  const lockedBy = lockingSet(build, data);
+  if (lockedBy) {
+    const b = JSON.parse(JSON.stringify(build));
+    b.bars[1] = { ...b.bars[1], mainHand: null, offHand: null, skills: [null, null, null, null, null], ultimate: null, poison: null };
+    const front = computeBar(b, data, 0, strategies);
+    front.notes.push(`${lockedBy}: weapon swapping is locked, the back bar is off and only the front bar's skills count.`);
+    const back = { ...front, locked: true, lockedBy };
+    return { validation, bars: [front, back], strategies, lockedBy };
+  }
   const bars = [0, 1].map((i) => computeBar(build, data, i, strategies));
   return { validation, bars, strategies };
+}
+
+export function lockingSet(build, data) {
+  const sets = (data.effects && data.effects.sets) || {};
+  const items = [...Object.values(build.gear || {}), ...(build.bars || []).flatMap((b) => [b && b.mainHand, b && b.offHand])];
+  for (const it of items) {
+    if (!it || !it.set) continue;
+    const meta = sets[it.set] || sets[baseSetName(it.set)];
+    if (meta && meta.locksBackBar) return meta.name || it.set;
+  }
+  return null;
 }
 
 export default computeSheet;

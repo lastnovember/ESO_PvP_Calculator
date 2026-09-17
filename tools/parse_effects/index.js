@@ -107,6 +107,7 @@ function buildSets() {
       const raw = ((BONUS_TEXT_OVERRIDE[name] || {})[i] || r[`bonus_${i}`]).trim();
       const b = parseBonus(raw, i, meta);
       meta.bonuses[String(i)] = b;
+      if (/unable to swap between your Primary and Backup Weapon Sets/i.test(raw)) meta.locksBackBar = true;
       stats.bonuses += 1;
       stats.byStatus[b.status] = (stats.byStatus[b.status] || 0) + 1;
     }

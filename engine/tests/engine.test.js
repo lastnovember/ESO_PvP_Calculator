@@ -402,3 +402,25 @@ test('real data: fixture 009 rules (Combat Medic near a keep, food health scale)
   const skulls = constants.foods.items.find((f) => f.id === 'bewitched-sugar-skulls').stats;
   assert.deepEqual([skulls.maxHealth, skulls.maxMagicka, skulls.maxStamina, skulls.healthRecovery], [4624, 4250, 4250, 462]);
 });
+
+test('real data: Oakensoul Ring locks the back bar and grants its buffs', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked();
+  n.bars[1].skills = ['Merciless Resolve', null, null, null, null]; n.class = 'Nightblade'; n.classSkillLines = ['Assassination', 'Shadow', 'Siphoning'];
+  const plain = computeSheet(n, real);
+  assert.equal(plain.lockedBy, undefined);
+  n.gear.ring1 = { set: 'Oakensoul Ring', trait: 'Arcane', enchant: null };
+  const r = computeSheet(n, real);
+  assert.equal(r.lockedBy, 'Oakensoul Ring');
+  assert.equal(r.bars[1].locked, true);
+  assert.equal(r.bars[1].main.weaponDamage, r.bars[0].main.weaponDamage, 'back bar result is the front bar');
+  // Major Brutality and Sorcery (20%), Major Resolve (5948), Minor Force, Major Savagery from the ring
+  const srcs = r.bars[0].breakdown.weaponDamage.map((x) => x.source);
+  assert.ok(srcs.some((x) => /Oakensoul.*Major Brutality/.test(x)), srcs.join(' | '));
+  assert.ok(r.bars[0].breakdown.physicalResistance.some((x) => /Major Resolve/.test(x.source)));
+  assert.ok(r.bars[0].breakdown.weaponCritRating.some((x) => /Oakensoul.*Major Savagery/.test(x.source)), 'Major Savagery from the ring');
+  assert.equal(r.bars[0].main.weaponCritChance, plain.bars[0].main.weaponCritChance, 'same Major Savagery Merciless Resolve gave from the back bar');
+  // the back bar's "on either bar" Merciless Resolve no longer reaches the front bar
+  assert.ok(!r.bars[0].breakdown.weaponCritRating.some((x) => /Merciless/.test(x.source)));
+  assert.ok(r.bars[0].notes.some((x) => /locked/.test(x)));
+});

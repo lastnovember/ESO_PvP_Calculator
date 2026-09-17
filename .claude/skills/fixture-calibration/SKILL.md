@@ -16,9 +16,27 @@ Ask for, per reading: the main Attributes panel, every Advanced Stats page (they
 Active Effects list, plus the build exported from the app (Export, or Fixture template). Record
 what was on: mundus, food, location, which bar, attribute split, and anything in Active Effects.
 
-The most useful sequence for a new character is naked (no armor, jewelry, weapons, food; mundus
-may stay) on each bar, then armor only, then the full build in and out of Cyrodiil. Naked settles
-base values and passives; armor only splits glyphs from armor ratings; full readings settle sets.
+Readings come from the user's normal builds, front and back bar, in and out of Cyrodiil. Do not
+ask for anything else:
+
+- No tooltips. Glyph, food, set, trait and passive values are in the archive (constants.json,
+  effects.json, the UESP tables, sets.csv, skills.csv). If a value is missing there, say which
+  file lacks it and fill it from the archive sources, not from the user.
+- No naked, armor only or single weapon readings. Undressing and redressing a character takes
+  the user a long time. Separate unknowns by differencing the readings that exist (front against
+  back bar, one character against another, in against out of Cyrodiil) and by the archive.
+- No re reads of a number already photographed. Two values on two pages a moment apart are both
+  real; record both in `sheetState`.
+- No questions whose answer is in the build export or the photos (what is slotted, which bar,
+  which traits).
+
+What can be asked, once and batched: facts the export cannot carry (is a passive bought, how
+many stages a star has, is the character standing near a keep), and the back bar of a character
+whose front bar was sent.
+
+Cyrodiil readings can carry buffs the sheet does not list: Emperor (Max Health and more), scroll
+bonuses, keep bonuses, Combat Medic near a keep (20% Healing Done, `flags.nearKeep`). Treat a
+small Cyrodiil only excess as one of these before fitting a constant.
 
 ## 2. Transcribe
 

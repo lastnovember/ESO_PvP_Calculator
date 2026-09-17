@@ -268,6 +268,13 @@ function parseSentence(sentenceIn, conds, depth = 0) {
     return done(mk(statFor(m[4]), value, kind, mergeCond(base, pc), raw), rem);
   }
 
+  // Oakensoul Ring: "While equipped, you are unable to swap between your Primary and Backup Weapon Sets and gain
+  // Minor Berserk, ..., Minor Aegis, and Empower." Every Major or Minor buff is permanent; Empower (Heavy Attacks
+  // against monsters) has no sheet stat. The set is flagged locksBackBar by the set builder.
+  if ((m = rest.match(/^While equipped, you are unable to swap between your Primary and Backup Weapon Sets and gain (.+?)\.?$/i))) {
+    const buffs = m[1].split(/,\s*(?:and\s+)?|\s+and\s+/).map((x) => x.trim()).filter((x) => /^(Major|Minor) [A-Z][a-z]+$/.test(x));
+    return { status: 'ok', effects: buffs.map((b) => ({ buff: b, condition: base, raw })) };
+  }
   // Named buffs
   if ((m = rest.match(/^(?:Gain|Gains|Grants you|Grants|You gain) ((?:Major|Minor) [A-Z][a-z]+(?:,? (?:and )?(?:Major |Minor )?[A-Z][a-z]+)*) at all times/i))) {
     return { status: 'ok', effects: parseBuffList(m[1]).map((b) => ({ buff: b, condition: base, raw })) };

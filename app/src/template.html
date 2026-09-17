@@ -66,6 +66,8 @@ tr.diff td.n.b2 { color: var(--gold2); }
 .msg.err { background: #3a1d1a; color: var(--bad); border: 1px solid #6a2e2a; }
 .msg.warn { background: #3a3018; color: var(--warn); border: 1px solid #6a5a2a; }
 .slot { border: 1px solid var(--line); border-radius: 4px; padding: 8px; margin: 6px 0; background: #130f0a; }
+.slot.locked { opacity: .45; }
+.slot.locked .name { color: var(--warn); opacity: 1; }
 .slot .name { font-family: var(--display); font-weight: 600; color: var(--gold2); font-size: 13px; margin-bottom: 4px; letter-spacing: .06em; }
 .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: var(--card2); border: 1px solid var(--line); font-size: 12px; color: var(--muted); margin: 2px 2px 2px 0; }
 .pill.ok { color: var(--good); border-color: #3f5b2e; }
@@ -191,7 +193,6 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       </div>
       <div class="row">
         <label class="toggle"><input type="checkbox" id="battleSpirit"> Battle Spirit</label>
-        <label class="toggle" id="nearKeepWrap" title="Combat Medic: 20% Healing Done near a Keep"><input type="checkbox" id="nearKeep"> Near a keep</label>
         <label class="toggle"><input type="checkbox" id="esoPlus"> ESO Plus</label>
       </div>
       <h3>Guild and Alliance War Skill Lines (Passives)</h3>
@@ -551,8 +552,10 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const host = $('skills'); host.innerHTML = '';
     const skillOpts = skillOptions(false);
     const ultOpts = skillOptions(true);
+    const lockedBy = result && result.lockedBy;
     build.bars.forEach((bar, bi) => {
-      const box = el('div', { class: 'slot' }, [el('div', { class: 'name', text: bi === 0 ? 'Front bar' : 'Back bar' })]);
+      const locked = bi === 1 && lockedBy;
+      const box = el('div', { class: 'slot' + (locked ? ' locked' : '') }, [el('div', { class: 'name', text: bi === 0 ? 'Front bar' : (locked ? `Back bar, locked by ${lockedBy}` : 'Back bar') })]);
       for (let i = 0; i < 5; i += 1) {
         const cur = bar.skills[i] || null;
         const c = el('div', { class: 'combo' });
@@ -591,8 +594,6 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     $('wwFormWrap').classList.toggle('hidden', !build.werewolf);
     $('werewolfForm').checked = !!build.werewolfForm;
     $('battleSpirit').checked = !!build.battleSpirit;
-    $('nearKeep').checked = !!(build.flags && build.flags.nearKeep);
-    $('nearKeepWrap').classList.toggle('hidden', !build.battleSpirit);
     $('esoPlus').checked = !(build.flags && build.flags.esoPlus === false);
     const lt = $('lineToggles'); lt.innerHTML = '';
     for (const line of TOGGLE_LINES) {
@@ -801,12 +802,14 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   }
   function renderBars() {
     const host = $('bars'); host.innerHTML = '';
+    const lockedBy = result && result.lockedBy;
     build.bars.forEach((bar, bi) => {
-      const box = el('div', { class: 'slot' });
+      const locked = bi === 1 && lockedBy;
+      const box = el('div', { class: 'slot' + (locked ? ' locked' : '') });
       const sel = el('select'); for (const [v, t] of LAYOUTS) sel.append(el('option', { value: v, text: t }));
       sel.value = barLayout(bar);
       sel.addEventListener('change', () => { setLayout(bar, sel.value); update(); });
-      box.append(el('div', { class: 'name', text: bi === 0 ? 'Front bar' : 'Back bar' }), el('div', { class: 'row' }, [el('label', { class: 'f' }, [el('span', { text: 'Weapons' }), sel])]));
+      box.append(el('div', { class: 'name', text: bi === 0 ? 'Front bar' : (locked ? `Back bar, locked by ${lockedBy}` : 'Back bar') }), el('div', { class: 'row' }, [el('label', { class: 'f' }, [el('span', { text: 'Weapons' }), sel])]));
       const layout = barLayout(bar);
       if (layout === 'twoHanded') box.append(weaponRow(bar, 'mainHand', 'Weapon', TWO_HANDED_TYPES));
       else if (layout === 'oneHanded') { box.append(weaponRow(bar, 'mainHand', 'Main hand', ONE_HANDED)); box.append(weaponRow(bar, 'offHand', 'Off hand', OFF_HAND_TYPES)); }
@@ -859,21 +862,23 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   function renderResults() {
     const host = $('results'); host.innerHTML = '';
     if (!result || !result.bars.length) return;
+    const locked = !!result.lockedBy;
     const table = (rows, panel, heading = panel) => {
       const t = el('table');
-      t.append(el('tr', {}, [el('th', { text: heading }), el('th', { class: 'n', text: 'Front' }), el('th', { class: 'n', text: 'Back' })]));
+      t.append(el('tr', {}, [el('th', { text: heading }), el('th', { class: 'n', text: locked ? 'Front (only bar)' : 'Front' }), ...(locked ? [] : [el('th', { class: 'n', text: 'Back' })])]));
       for (const [label, key, unit, bkey] of rows) {
         const src = (bar) => (panel === 'Main sheet' && bar.main[key] === undefined ? bar.advanced : bar[panel === 'Main sheet' ? 'main' : 'advanced']);
         const a = pick(src(result.bars[0]), key);
         const b = pick(src(result.bars[1]), key);
         if (key.startsWith('battleSpirit.') && a === undefined && b === undefined) continue;
-        const tr = el('tr', { class: 'stat' + (a !== b ? ' diff' : '') }, [el('td', { text: label }), el('td', { class: 'n', text: fmt(a, unit) }), el('td', { class: 'n b2', text: fmt(b, unit) })]);
+        const tr = el('tr', { class: 'stat' + (a !== b ? ' diff' : '') }, [el('td', { text: label }), el('td', { class: 'n', text: fmt(a, unit) }), ...(locked ? [] : [el('td', { class: 'n b2', text: fmt(b, unit) })])]);
         const bk = panel === 'Main sheet' ? BREAKDOWN_KEY[key] : bkey;
         tr.addEventListener('click', () => { openBreakdown = openBreakdown === `${panel}:${key}` ? null : `${panel}:${key}`; renderResults(); });
         t.append(tr);
         if (openBreakdown === `${panel}:${key}`) {
           const td = el('td', { colspan: 3 });
           for (const [bi, bar] of result.bars.entries()) {
+            if (bi === 1 && locked) continue;
             const rows2 = bk ? (bar.breakdown[bk] || []) : [];
             const bd = el('div', { class: 'breakdown' }, [el('div', {}, [el('b', { text: bi === 0 ? 'Front bar' : 'Back bar' }), el('span', { text: `${rows2.length} sources` })])]);
             for (const r of rows2) bd.append(el('div', {}, [el('span', { text: r.source }), el('span', { text: r.kind === 'percent' ? `${r.value > 0 ? '+' : ''}${Math.round(r.value * 100) / 100}%` : r.kind === 'set' ? `= ${r.value}` : `${r.value > 0 ? '+' : ''}${Math.round(r.value * 100) / 100}` })]));
@@ -893,11 +898,12 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const ul = el('div', { class: 'fine' });
     for (const d of dropped.slice(0, 200)) ul.append(el('div', { text: `${d.source}: ${d.raw ? d.raw.slice(0, 120) : d.reason}` }));
     det.append(ul); host.append(det);
+    if (result.lockedBy) resultTab = 0;
     const m = result.bars[resultTab].main;
     $('sticky').innerHTML = '';
     $('sticky').append(el('span', {}, [el('b', { text: resultTab === 0 ? 'Front' : 'Back' })]));
     for (const [l, k, u] of [['HP', 'maxHealth'], ['Mag', 'maxMagicka'], ['Stam', 'maxStamina'], ['WD', 'weaponDamage'], ['SD', 'spellDamage'], ['Crit', 'weaponCritChance', '%'], ['Res', 'physicalResistance']]) $('sticky').append(el('span', {}, [`${l} `, el('b', { text: fmt(m[k], u) })]));
-    $('sticky').addEventListener('click', () => { resultTab = 1 - resultTab; renderResults(); }, { once: true });
+    $('sticky').addEventListener('click', () => { if (!result.lockedBy) { resultTab = 1 - resultTab; renderResults(); } }, { once: true });
   }
   function renderValidation() {
     const host = $('validation'); host.innerHTML = '';
@@ -962,7 +968,6 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   $('werewolf').addEventListener('change', (ev) => { build.werewolf = ev.target.checked; if (!build.werewolf) build.werewolfForm = false; pruneSkills(); update(); });
   $('werewolfForm').addEventListener('change', (ev) => { build.werewolfForm = ev.target.checked; update(); });
   $('battleSpirit').addEventListener('change', (ev) => { build.battleSpirit = ev.target.checked; update(); });
-  $('nearKeep').addEventListener('change', (ev) => { build.flags.nearKeep = ev.target.checked; if (!build.flags.nearKeep) delete build.flags.nearKeep; update(); });
   $('esoPlus').addEventListener('change', (ev) => { build.flags.esoPlus = ev.target.checked; update(); });
   $('buildName').addEventListener('change', (ev) => { build.name = ev.target.value; $('menuName').textContent = build.name || ''; });
   $('saveBtn').addEventListener('click', saveBuild);
