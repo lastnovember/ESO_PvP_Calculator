@@ -243,21 +243,34 @@ function slotCategory(slot, build) {
 }
 
 // Pieces per set, per bar. Weapons only count on their bar. Two handed = 2.
+// Perfected and non perfected pieces of a trial or arena set count together for the set's bonuses; the
+// perfected extra needs the full count of perfected pieces (data/patch-notes/html 103 (2021-06-08): "you can
+// now wear perfected and non-perfected sets in combination with each other. Doing so will grant the bonuses
+// associated with the non-perfected set until you wear all 5 pieces of perfected."). Pieces are counted under
+// the base name; `perfected` says how many of them are the perfected version.
+export const PERFECTED_PREFIX = 'Perfected ';
+export function baseSetName(name) {
+  const n = stripSetName(name);
+  return n && n.startsWith(PERFECTED_PREFIX) ? n.slice(PERFECTED_PREFIX.length) : n;
+}
 export function countSetPieces(build) {
   const body = {};
-  const addPiece = (target, name, slot, n = 1) => {
-    if (!name) return;
-    if (!target[name]) target[name] = { total: 0, slots: [] };
+  const addPiece = (target, rawName, slot, n = 1) => {
+    const stripped = stripSetName(rawName);
+    if (!stripped) return;
+    const name = baseSetName(stripped);
+    if (!target[name]) target[name] = { total: 0, slots: [], perfected: 0 };
     target[name].total += n; target[name].slots.push(slot);
+    if (stripped !== name) target[name].perfected += n;
   };
   for (const slot of [...ARMOR_SLOTS, ...JEWELRY_SLOTS]) {
     const item = build.gear && build.gear[slot];
-    if (item && item.set) addPiece(body, stripSetName(item.set), slot);
+    if (item && item.set) addPiece(body, item.set, slot);
   }
   const perBar = (build.bars || []).map((bar, i) => {
     const t = JSON.parse(JSON.stringify(body));
-    if (bar.mainHand && bar.mainHand.set) addPiece(t, stripSetName(bar.mainHand.set), `bar${i + 1}.mainHand`, TWO_HANDED.has(bar.mainHand.type) ? 2 : 1);
-    if (bar.offHand && bar.offHand.set) addPiece(t, stripSetName(bar.offHand.set), `bar${i + 1}.offHand`, 1);
+    if (bar.mainHand && bar.mainHand.set) addPiece(t, bar.mainHand.set, `bar${i + 1}.mainHand`, TWO_HANDED.has(bar.mainHand.type) ? 2 : 1);
+    if (bar.offHand && bar.offHand.set) addPiece(t, bar.offHand.set, `bar${i + 1}.offHand`, 1);
     return t;
   });
   // 'all' = max over bars, for validation of the whole build
@@ -445,13 +458,20 @@ function collect(build, data, barIndex, strategies) {
 
   // sets
   const pieces = countSetPieces(build).perBar[barIndex];
-  const setCounts = {};
+  const setCounts = {}; const setPerfected = {};
   for (const [name, info] of Object.entries(pieces)) {
     const meta = E.sets[name];
     if (!meta) continue;
-    setCounts[name] = info.total;
+    setCounts[name] = info.total; setPerfected[name] = info.perfected || 0;
     for (const [n, bonus] of Object.entries(meta.bonuses)) {
       if (info.total >= Number(n)) applyEffects(acc, bonus.effects, ctx, data, `set ${name} (${n})`, strategies);
+    }
+    // the perfected extra ("5 perfected items: Adds ...") lives on the perfected set entry and needs that many perfected pieces
+    const pmeta = E.sets[PERFECTED_PREFIX + name];
+    if (pmeta && info.perfected) {
+      for (const bonus of Object.values(pmeta.bonuses)) {
+        if (bonus.perfected && info.perfected >= bonus.perfected.pieces) applyEffects(acc, bonus.perfected.effects, ctx, data, `set ${PERFECTED_PREFIX}${name} (${bonus.perfected.pieces} perfected)`, strategies);
+      }
     }
   }
 
@@ -549,7 +569,7 @@ function collect(build, data, barIndex, strategies) {
     acc.add('flameDamageTaken', 'percent', st.flameDamageTaken.value, `vampire stage ${ctx.vampireStage}`);
   }
 
-  return { ctx, acc, notes, setCounts, foodStats };
+  return { ctx, acc, notes, setCounts, setPerfected, foodStats };
 }
 
 function resolveFood(food, C) {
@@ -565,7 +585,7 @@ function round1(x) { return Math.round(x * 10) / 10; }
 
 function computeBar(build, data, barIndex, strategies) {
   const C = data.constants; const B = C.base;
-  const { ctx, acc, notes, setCounts, foodStats } = collect(build, data, barIndex, strategies);
+  const { ctx, acc, notes, setCounts, setPerfected, foodStats } = collect(build, data, barIndex, strategies);
   const a = build.attributes;
   const pts = C.attributePoints;
 
@@ -731,7 +751,7 @@ function computeBar(build, data, barIndex, strategies) {
   };
   const breakdown = {};
   for (const [stat, b] of acc.buckets) breakdown[stat] = b.rows;
-  return { main, advanced, breakdown, dropped: acc.dropped, notes, setCounts, context: { armor: ctx.armor, weapons: ctx.weaponTypes, dualWield: ctx.dualWield, twoHanded: ctx.twoHanded } };
+  return { main, advanced, breakdown, dropped: acc.dropped, notes, setCounts, setPerfected, context: { armor: ctx.armor, weapons: ctx.weaponTypes, dualWield: ctx.dualWield, twoHanded: ctx.twoHanded } };
 }
 
 // ------------------------------------------------------------ entry point

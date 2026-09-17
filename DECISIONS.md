@@ -13,7 +13,7 @@ Short record of modelling choices. One line each, newest at the bottom.
 - Patch notes (`data/patch-notes/html`) were searched for every constant. Where they hold a value, the newest note wins and constants.json cites it by manifest number and date. Where UESP and a note disagree (armor Infused 20% vs 25%) the note wins. Base character numbers never appear in console notes and stay unverified.
 - UESP tables are treated as the truth for anything they hold. Community values fill the gaps and are flagged `verified: false`.
 - Set piece count comes from the bonus column index in sets.csv: `bonus_N` is the N piece bonus. Monster sets are `bonus_1` and `bonus_2`, mythics `bonus_1`, arena weapons `bonus_2`, 12 piece sets up to `bonus_12`.
-- Perfected sets are separate set names in sets.csv ("Perfected Saxhleel Champion"), so the build references the perfected name instead of carrying a flag.
+- Perfected sets are separate set names in sets.csv ("Perfected Saxhleel Champion"), so the build references the perfected name per piece. Perfected and normal pieces count together under the base name; the perfected extra applies only with the full perfected count (data/patch-notes/html 103, 2021-06-08, Update 30: mixing grants the non-perfected bonuses until all 5 pieces are perfected).
 
 ## Build inputs
 

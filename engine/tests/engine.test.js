@@ -257,3 +257,23 @@ test('real data: slotted passives count abilities on the bar', async () => {
   assert.deepEqual(rows(r, 'maxMagicka', 'passive Magicka Controller'), [2 * 2]);
   assert.deepEqual(rows(r, 'weaponDamage', 'passive Slayer'), [3 * 2]);
 });
+
+// Real data: perfected and normal pieces of a trial set count together (patch note 103, Update 30).
+test('real data: perfected and normal trial pieces share the set count', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const rows = (r, stat, src) => (r.bars[0].breakdown[stat] || []).filter((x) => x.source === src).map((x) => x.value);
+  const b = naked();
+  for (const slot of ['head', 'chest', 'legs', 'feet']) b.gear[slot] = { set: 'Slivers of the Null Arca', weight: 'medium', trait: null, enchant: null };
+  b.gear.hands = { set: 'Perfected Slivers of the Null Arca', weight: 'medium', trait: null, enchant: null };
+  let r = computeSheet(b, real);
+  assert.equal(r.validation.errors.length, 0, r.validation.errors.join('; '));
+  assert.equal(r.bars[0].setCounts['Slivers of the Null Arca'], 5, 'one perfected piece counts toward the five');
+  assert.equal(r.bars[0].setPerfected['Slivers of the Null Arca'], 1);
+  assert.deepEqual(rows(r, 'weaponCritRating', 'set Slivers of the Null Arca (2)'), [657]);
+  assert.deepEqual(rows(r, 'weaponCritRating', 'set Slivers of the Null Arca (4)'), [657]);
+  assert.deepEqual(rows(r, 'weaponDamage', 'set Perfected Slivers of the Null Arca (5 perfected)'), [], 'the perfected extra needs five perfected pieces');
+  for (const slot of ['head', 'chest', 'legs', 'feet']) b.gear[slot].set = 'Perfected Slivers of the Null Arca';
+  r = computeSheet(b, real);
+  assert.equal(r.bars[0].setCounts['Slivers of the Null Arca'], 5);
+  assert.deepEqual(rows(r, 'weaponDamage', 'set Perfected Slivers of the Null Arca (5 perfected)'), [129]);
+});

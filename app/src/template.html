@@ -677,13 +677,19 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const host = $('setSummary'); host.innerHTML = '';
     if (!result) return;
     const counts = result.bars.map((b) => b.setCounts);
+    const perf = result.bars.map((b) => b.setPerfected || {});
     const names = [...new Set([...Object.keys(counts[0] || {}), ...Object.keys(counts[1] || {})])];
-    const rows = names.map((n) => { const a = counts[0][n] || 0; const b = counts[1][n] || 0; return { n, a, b, max: Math.max(a, b), tag: a === b ? '' : a > b ? 'FB' : 'BB' }; })
+    const rows = names.map((n) => { const a = counts[0][n] || 0; const b = counts[1][n] || 0; return { n, a, b, max: Math.max(a, b), perfected: Math.max(perf[0][n] || 0, perf[1][n] || 0), tag: a === b ? '' : a > b ? 'FB' : 'BB' }; })
       .sort((x, y) => y.max - x.max || x.n.localeCompare(y.n));
     for (const r of rows) {
       const meta = X.sets[r.n];
+      const pmeta = X.sets['Perfected ' + r.n];
       const full = Math.min(5, meta.maxPieces);
-      host.append(el('span', { class: 'pill ' + (r.max > meta.maxPieces ? 'bad' : r.max >= full ? 'ok' : ''), text: `${r.n} ${r.max}/${meta.maxPieces}${r.tag ? ' ' + r.tag : ''}`, title: Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).join('\n') }));
+      // perfected and normal pieces count together; the perfected extra needs the full perfected count
+      const pextra = pmeta ? Object.values(pmeta.bonuses).find((x) => x.perfected) : null;
+      const ptag = r.perfected ? ` (${r.perfected} perfected${pextra && r.perfected >= pextra.perfected.pieces ? ', bonus on' : ''})` : '';
+      const title = Object.entries(meta.bonuses).map(([p, x]) => `${p}: ${x.raw}`).concat(pextra ? [`${pextra.perfected.pieces} perfected: ${pextra.perfected.raw}`] : []).join('\n');
+      host.append(el('span', { class: 'pill ' + (r.max > meta.maxPieces ? 'bad' : r.max >= full ? 'ok' : ''), text: `${r.n} ${r.max}/${meta.maxPieces}${ptag}${r.tag ? ' ' + r.tag : ''}`, title }));
     }
     $('gearHint').textContent = rows.length ? rows.map((r) => `${r.n} ${r.max}${r.tag ? ' ' + r.tag : ''}`).join(', ') : 'empty';
   }
