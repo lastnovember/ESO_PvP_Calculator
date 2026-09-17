@@ -98,9 +98,10 @@ test('a two handed weapon counts as two pieces on its own bar only', () => {
   assert.equal(counts.perBar[1]['Test Set'].total, 3);
   const r = computeSheet(b, data);
   assert.deepEqual(r.validation.errors, []);
-  const w = constants.items.weaponDamage.value;
-  assert.equal(r.bars[0].main.weaponDamage, B.weaponDamage.value + w + 300);
-  assert.equal(r.bars[1].main.weaponDamage, B.weaponDamage.value + w);
+  const w = constants.items.weaponDamage.value; const w2 = constants.items.twoHandedMeleeWeaponDamage.value;
+  const rating = (bar) => (['greatsword', 'battle axe', 'maul'].includes(bar.mainHand.type) ? w2 : w);
+  assert.equal(r.bars[0].main.weaponDamage, B.weaponDamage.value + rating(b.bars[0]) + 300);
+  assert.equal(r.bars[1].main.weaponDamage, B.weaponDamage.value + rating(b.bars[1]));
 });
 
 test('while slotted effects and per ability passives read the bar', () => {
@@ -433,10 +434,12 @@ test('real data: Cyrodiil advanced sim flags (scrolls, enemy keeps, Emperorship,
   const r = computeSheet(n, real); const b = r.bars[0];
   assert.equal(b.main.weaponDamage, Math.round(base.main.weaponDamage * 1.15), 'offensive scrolls II 5% + Continuous Attack 10%');
   assert.equal(b.main.weaponCritChance, Math.round((base.main.weaponCritChance + 3) * 10) / 10, 'three enemy keeps');
-  assert.equal(b.main.maxHealth, base.main.maxHealth + 1750, 'Emperorship VI');
+  // Emperorship VI adds 1750 flat; the Emperor passive at 6 home keeps adds 75% Max Health on top
+  assert.equal(b.main.maxHealth, Math.round((base.main.maxHealth + 1750) * 1.75), 'Emperorship VI plus the Emperor passive');
+  assert.ok(b.breakdown.magickaRecovery.some((x) => /Domination/.test(x.source) && x.value === 100));
+  assert.ok(b.breakdown.healingTaken.some((x) => /Monarch/.test(x.source) && x.value === 50));
   assert.ok(b.breakdown.magickaRecovery.some((x) => /Continuous Attack/.test(x.source) && x.value === 20), 'Continuous Attack recovery 20%');
   assert.ok(b.breakdown.physicalResistance.some((x) => /Defensive Scroll/.test(x.source)));
-  assert.ok(b.notes.some((x) => /Emperor skill line/.test(x)));
   n.battleSpirit = false;
   assert.equal(computeSheet(n, real).bars[0].main.maxHealth, base.main.maxHealth - 0, 'nothing outside Battle Spirit');
 });

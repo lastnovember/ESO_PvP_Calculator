@@ -468,7 +468,8 @@ export function resolveBrackets(text) {
   return text.replace(/\[\s*([\d.,]+(?:\s*\/\s*[\d.,]+)+)\s*\]/g, (_, inner) => String(lastOfBracket(inner)));
 }
 export function splitSentences(text) {
-  return text.replace(/\s+/g, ' ').split(/(?<=\.)\s+(?=[A-Z("])/).map((s) => s.trim()).filter(Boolean);
+  // sets.csv joins a set's bonus lines with ";" (rebuilt 2026-09-17), so a semicolon ends a sentence as a period does
+  return text.replace(/\s+/g, ' ').split(/(?<=\.)\s+(?=[A-Z("])|;\s*(?=[A-Z("])/).map((s) => s.trim().replace(/;$/, '')).filter(Boolean);
 }
 
 /** Parse a tooltip or bonus text into effects. */

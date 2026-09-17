@@ -40,6 +40,16 @@ def sourced(value, source, note=None):
     return d
 
 
+def page(name, what):
+    """Cite a UESP system page archived as Markdown in data/reference/pages (pages_index.csv)."""
+    return f"pages/{name} ({what})"
+
+
+def forum(thread, who, date, text):
+    """Cite an archived forum post (data/reference/forum, forum_index.csv). Community level unless the poster maintains the data."""
+    return f"forum/{thread} {who} ({date}): {text}"
+
+
 def pn(seq, date, text):
     """Cite a patch note by manifest sequence and date."""
     return f"data/patch-notes/html {seq} ({date}): {text}"
@@ -295,8 +305,9 @@ C['items'] = OrderedDict(
         light=OrderedDict(head=unverified(1190, 'light head (0.879 x fitted chest 1354)'), shoulders=unverified(1190, 'light shoulders'), chest=unverified(1354, 'light chest, fitted over fixtures 002, 005, 007, 009'), hands=unverified(677, 'light hands (0.5 x chest)'), waist=unverified(677, 'light waist'), legs=unverified(1190, 'light legs'), feet=unverified(1190, 'light feet')),
     ),
     shieldArmor=sourced(1720, 'fixture 008 (Z antilles): back bar with a Reinforced shield reads 24166 against 22171 on the staff bar, 1995 = 1720 x 1.16.'),
-    weaponDamage=unverified(1335, 'Damage rating of any gold CP160 weapon. Applies to Weapon Damage and Spell Damage on the sheet.'),
-    dualWieldOffHandPercent=unverified(23.67, 'Share of the off hand weapon rating (trait included) that reaches Weapon and Spell Damage while dual wielding, Dual Wield Expert included. Fitted from three readings that agree to 0.05%: fixture 002 (maces, Nirnhoned main: 4362 = (3523 + 200 + 0.2367 x 1335) x 1.08), fixture 009 (same, 4145 at 6%) and fixture 005 (axes, Nirnhoned off hand, Major Brutality and Sorcery up: 4471 = (3024 + 0.2367 x 1535) x 1.32). The archived Dual Wield Expert text (6%) is part of it; the rest is not named by any note.'),
+    weaponDamage=sourced(1335, page('Nirnhoned.md', 'One-Handed and Ranged table, CP160 row: 1335 base, 1535 Nirnhoned') + '; fixtures 002, 005, 006, 009, 010 (staves and one handed weapons read exactly with it)', 'Damage rating of a gold CP160 one handed weapon, bow or staff. Applies to Weapon Damage and Spell Damage on the sheet.'),
+    twoHandedMeleeWeaponDamage=sourced(1571, page('Nirnhoned.md', 'Two-Handed table, CP160 row: 1571 base, 1806 Nirnhoned') + '; ' + forum('348673', 'Reorx_Holybeard', '2017-05-31', '2H = 1571'), 'Greatsword, battle axe and maul. No reading on file carries one yet.'),
+    dualWieldOffHandInherentPercent=sourced(17.67, forum('348673', 'Reorx_Holybeard', '2017-05-31', 'DW = 1335 + 1335*0.177 = 1571, DW + Dual Wield Expert 2 = 1571 + 1335*0.06 = 1651') + '; fixtures 002, 005 and 009 (17.67 + 6 = 23.67 lands all three within 1, the forum 17.7 misses two by 1)', 'Share of the off hand weapon rating (trait included) the sheet adds while dual wielding before Dual Wield Expert. With the passive the off hand reaches 23.67%, and two maces equal a two handed weapon (1571) before the passive.'),
     twoHandedTypes=['greatsword', 'battle axe', 'maul', 'bow', 'inferno staff', 'lightning staff', 'ice staff', 'restoration staff'],
     twoHandedSetPieces=sourced(2, 'sets.csv settype Weapon rows hold their bonus in bonus_2 (2 items) for a single two handed weapon; task statement', 'A two handed weapon counts as two set pieces.'),
 )
@@ -405,7 +416,12 @@ C['cyrodiil'] = OrderedDict(
         source=src('uesp_Online_Campaigns_t08.csv', 'Emperorship Alliance Bonus I to VI') + '; ' + pn('128', '2022-11-14', 'The Health bonus for having an Emperor crowned for your Alliance will now scale depending on how many home Keeps you have controlled by your alliance.'),
         verified=True, note='Index is the number of home Keeps the alliance owns (1 to 6).',
         values=[_pct(e, r'by (\d+)') for n, e in _emp if n.startswith('Emperorship')]),
-    emperorPassives=OrderedDict(source='UNVERIFIED', verified=False, note='The Emperor skill line (Domination, Authority, Monarch, Tactician, Emperor) is not in the archive: skills.csv holds only the line row and UESP is unreachable from the build environment. The toggle exists; it applies nothing until the texts are archived.'),
+    emperorPassives=OrderedDict(
+        source=page('Emperor.md', 'Innate Abilities: Domination, Authority, Monarch, Tactician, Emperor, each by Home Keeps owned, 1 or less to 6'), verified=True,
+        note='Index is the number of home Keeps the alliance owns (1 or less, 2, 3, 4, 5, 6). Authority (Ultimate generation) and Tactician (siege damage) have no sheet stat.',
+        dominationRecoveryPercent=[50, 60, 70, 80, 90, 100],
+        monarchHealingTakenPercent=[25, 30, 35, 40, 45, 50],
+        emperorMaxStatsPercent=[38, 45, 53, 60, 68, 75]),
 )
 
 # ---------------------------------------------------------------- Vampire stages
@@ -418,7 +434,7 @@ for row in vt[1:]:
         flameDamageTaken=OrderedDict(value=num(row[2]), kind='percent'),
         vampireAbilityCost=OrderedDict(value=num(row[3]), kind='percent'),
         regularAbilityCost=OrderedDict(value=num(row[4]), kind='percent'),
-        source=src('uesp_Online_Vampire_t01.csv', f'Stage {st}'), verified=True)
+        source=src('uesp_Online_Vampire_t01.csv', f'Stage {st}') + '; ' + page('Vampire.md', 'Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance'), verified=True)
 C['vampireStages'] = OrderedDict(
     note='Unnatural Resistance (skills.csv) changes the Health Recovery penalty: stage 2 none, stage 3 25%, stage 4 50%. Applied by the engine when that passive is active.',
     stages=stages,

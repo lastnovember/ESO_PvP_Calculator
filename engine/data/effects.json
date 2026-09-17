@@ -11,9 +11,9 @@
    "setBonuses": {
     "total": 2414,
     "byStatus": {
-     "ok": 1755,
-     "proc": 626,
-     "mixed": 15,
+     "ok": 1757,
+     "mixed": 57,
+     "proc": 582,
      "unparsed": 12,
      "partial": 3,
      "empty": 3
@@ -124,10 +124,17 @@
      ]
     },
     "5": {
-     "raw": "While you are Bracing, you and group members within 12 meters of you gain Minor Evasion, reducing damage from area attacks by 10%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 39-1710 Maximum Health; While you are Bracing, you and group members within 12 meters of you gain Minor Evasion, reducing damage from area attacks by 10%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1710,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 39-1710 Maximum Health"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -1009,10 +1016,17 @@
      ]
     },
     "5": {
-     "raw": "Reduces the cost of your Ultimate abilities by 15%.",
+     "raw": "Adds 3-158 Health Recovery; Reduces the cost of your Ultimate abilities by 15%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "healthRecovery",
+       "value": 158,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-158 Health Recovery"
+      },
       {
        "stat": "ultimateCost",
        "value": -15,
@@ -1356,10 +1370,24 @@
      ]
     },
     "5": {
-     "raw": "Adds 5-245 Health Recovery",
+     "raw": "Adds 5-245 Magicka Recovery; Adds 5-245 Stamina Recovery; Adds 5-245 Health Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "magickaRecovery",
+       "value": 245,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 5-245 Magicka Recovery"
+      },
+      {
+       "stat": "staminaRecovery",
+       "value": 245,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 5-245 Stamina Recovery"
+      },
       {
        "stat": "healthRecovery",
        "value": 245,
@@ -3527,10 +3555,17 @@
      ]
     },
     "4": {
-     "raw": "Reduces your damage taken from environmental traps by 40%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 25-1096 Maximum Stamina; Reduces your damage taken from environmental traps by 40%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 1096,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 25-1096 Maximum Stamina"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -4001,10 +4036,17 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 3-129 Magicka Recovery",
+     "raw": "Adds 3-129 Stamina Recovery; Adds 3-129 Magicka Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Stamina Recovery"
+      },
       {
        "stat": "magickaRecovery",
        "value": 129,
@@ -4076,10 +4118,24 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 14-603 Maximum Health",
+     "raw": "Adds 12-548 Maximum Stamina; Adds 12-548 Maximum Magicka; Adds 14-603 Maximum Health",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 548,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 12-548 Maximum Stamina"
+      },
+      {
+       "stat": "maxMagicka",
+       "value": 548,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 12-548 Maximum Magicka"
+      },
       {
        "stat": "maxHealth",
        "value": 603,
@@ -4983,10 +5039,17 @@
      ]
     },
     "5": {
-     "raw": "When you deal Martial melee damage, your Critical Chance is increased by 6-298 for 5 seconds, stacking up to 5 times. This effect can occur once every half second.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 22-986 Critical Chance; When you deal Martial melee damage, your Critical Chance is increased by 6-298 for 5 seconds, stacking up to 5 times. This effect can occur once every half second.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "critRating",
+       "value": 986,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 22-986 Critical Chance"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -5224,10 +5287,17 @@
      ]
     },
     "5": {
-     "raw": "Increases the Magicka and Stamina restored from the Constitution passive ability by 60%.",
+     "raw": "Adds 4-176 Weapon Damage and Spell Damage; Increases the Magicka and Stamina restored from the Constitution passive ability by 60%.",
      "status": "unparsed",
      "kind": "unparsed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 176,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 4-176 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "unparsed",
        "condition": null,
@@ -6911,10 +6981,17 @@
      ]
     },
     "5": {
-     "raw": "When you deal damage, you apply Minor Lifesteal to your enemy for 8 seconds, healing you and your allies for 600 Health every 1 second when damaging them.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 28-1206 Maximum Health; When you deal damage, you apply Minor Lifesteal to your enemy for 8 seconds, healing you and your allies for 600 Health every 1 second when damaging them.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1206,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 28-1206 Maximum Health"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -7215,10 +7292,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds.",
+     "raw": "Adds 37-1600 Maximum Health; Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1600,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 37-1600 Maximum Health"
+      },
       {
        "buff": "Minor Heroism",
        "condition": null,
@@ -8411,10 +8495,17 @@
      ]
     },
     "5": {
-     "raw": "While Sprinting you gain Major Expedition and Major Protection, increasing your Movement Speed by 30% and reducing your damage taken by 10%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 5-250 Stamina Recovery; While Sprinting you gain Major Expedition and Major Protection, increasing your Movement Speed by 30% and reducing your damage taken by 10%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 250,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 5-250 Stamina Recovery"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -9806,10 +9897,17 @@
      ]
     },
     "5": {
-     "raw": "When you are affected by a disabling effect, you automatically Break Free for no cost. After using this effect, you become Winded and cannot trigger this effect or others like it for 21 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 28-1206 Maximum Health; When you are affected by a disabling effect, you automatically Break Free for no cost. After using this effect, you become Winded and cannot trigger this effect or others like it for 21 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1206,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 28-1206 Maximum Health"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -9888,10 +9986,17 @@
      ]
     },
     "5": {
-     "raw": "Whenever you kill an enemy, you gain 0-15 Ultimate.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage; Whenever you kill an enemy, you gain 0-15 Ultimate.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -9974,10 +10079,17 @@
      ]
     },
     "5": {
-     "raw": "Dealing damage to an enemy within 10 meters of you with a Heavy Attack causes you to throw a cone of knives, dealing 816 Physical damage to enemies hit. If an enemy hit has 50% Health or less, they also take an additional 1631 Bleed damage over 14 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon Damage and Spell Damage.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 4-200 Weapon Damage and Spell Damage; Dealing damage to an enemy within 10 meters of you with a Heavy Attack causes you to throw a cone of knives, dealing 816 Physical damage to enemies hit. If an enemy hit has 50% Health or less, they also take an additional 1631 Bleed damage over 14 seconds. This effect can occur once every 15 seconds and scales off the higher of your Weapon Damage and Spell Damage.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 200,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 4-200 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -11237,10 +11349,17 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 25-1096 Maximum Stamina; Adds 25-1096 Maximum Magicka",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 1096,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 25-1096 Maximum Stamina"
+      },
       {
        "stat": "maxMagicka",
        "value": 1096,
@@ -11507,10 +11626,17 @@
      ]
     },
     "5": {
-     "raw": "When you take damage from a melee attack, gain a corrupting aura for 5 seconds that applies Minor Breach to all enemies within 8 meters of you, reducing their Physical Resistance and Spell Resistance by 2974. This effect can occur every 5 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 28-1206 Maximum Health; When you take damage from a melee attack, gain a corrupting aura for 5 seconds that applies Minor Breach to all enemies within 8 meters of you, reducing their Physical Resistance and Spell Resistance by 2974. This effect can occur every 5 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1206,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 28-1206 Maximum Health"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -12325,10 +12451,17 @@
      ]
     },
     "5": {
-     "raw": "For every bleed effect you have on an enemy, increase your Weapon Damage and Spell Damage by 2-103 against them.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage; For every bleed effect you have on an enemy, increase your Weapon Damage and Spell Damage by 2-103 against them.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -13922,10 +14055,17 @@
      ]
     },
     "5": {
-     "raw": "When you take damage while below 25% Health in combat, you heal for 9370 Health and gain 2-100 Ultimate. This effect can occur once every 1 minute and the heal scales off your Max Health.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 4% Healing Taken; When you take damage while below 25% Health in combat, you heal for 9370 Health and gain 2-100 Ultimate. This effect can occur once every 1 minute and the heal scales off your Max Health.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "healingTaken",
+       "value": 4,
+       "kind": "percent",
+       "condition": null,
+       "raw": "Adds 4% Healing Taken"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -14672,10 +14812,17 @@
      ]
     },
     "5": {
-     "raw": "While in combat, every 1 second you apply Minor Defile to enemies within 5 meters of you for 2 seconds, reducing their healing received and damage shield strength by 6%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 34-1487 Armor; While in combat, every 1 second you apply Minor Defile to enemies within 5 meters of you for 2 seconds, reducing their healing received and damage shield strength by 6%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "armor",
+       "value": 1487,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 34-1487 Armor"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -16080,10 +16227,31 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Reduces your Block Mitigation to 0.",
+     "raw": "Adds 3276 Maximum Health; Adds 1025 Health Recovery; Adds 4000 Armor; Reduces your Block Mitigation to 0.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 3276,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3276 Maximum Health"
+      },
+      {
+       "stat": "healthRecovery",
+       "value": 1025,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 1025 Health Recovery"
+      },
+      {
+       "stat": "armor",
+       "value": 4000,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 4000 Armor"
+      },
       {
        "stat": "blockMitigation",
        "value": 0,
@@ -17288,10 +17456,17 @@
      ]
     },
     "5": {
-     "raw": "Dealing Light Attack damage grants you a stack of Baker's Delight for 5 seconds. When you gain 3 stacks, you create a Sweetroll next to your target for 5 seconds. If you or an ally touches the Sweetroll, both you and your ally gain one of the following effects: Restore 1593 Health, Magicka and Stamina Gain Empower for 10 seconds Gain Major Force for 10 seconds This effect can occur once every 2 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 12-526 Maximum Stamina; Dealing Light Attack damage grants you a stack of Baker's Delight for 5 seconds. When you gain 3 stacks, you create a Sweetroll next to your target for 5 seconds. If you or an ally touches the Sweetroll, both you and your ally gain one of the following effects: Restore 1593 Health, Magicka and Stamina Gain Empower for 10 seconds Gain Major Force for 10 seconds This effect can occur once every 2 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 526,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 12-526 Maximum Stamina"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -17878,10 +18053,17 @@
      ]
     },
     "5": {
-     "raw": "When you resurrect an ally while in combat, both you and your ally gain Major Heroism for 15 seconds, granting 3 Ultimate every 1.5 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 45-1963 Maximum Magicka; When you resurrect an ally while in combat, both you and your ally gain Major Heroism for 15 seconds, granting 3 Ultimate every 1.5 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxMagicka",
+       "value": 1963,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 45-1963 Maximum Magicka"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -17958,10 +18140,17 @@
      ]
     },
     "5": {
-     "raw": "While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 4-200 Weapon Damage and Spell Damage; While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 200,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 4-200 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -18427,10 +18616,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Mending at all times, increasing your healing done by 8%.",
+     "raw": "Adds 5% Healing Done; Gain Minor Mending at all times, increasing your healing done by 8%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "healingDone",
+       "value": 5,
+       "kind": "percent",
+       "condition": null,
+       "raw": "Adds 5% Healing Done"
+      },
       {
        "buff": "Minor Mending",
        "condition": null,
@@ -18677,10 +18873,17 @@
      ]
     },
     "5": {
-     "raw": "When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you gain Major Berserk for 10 seconds, increasing your damage done by 10%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage; When you are within 28 meters of an enemy you are in combat with, and the enemy dies, you gain Major Berserk for 10 seconds, increasing your damage done by 10%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -18943,10 +19146,17 @@
      ]
     },
     "5": {
-     "raw": "Whenever you Bash an enemy, you release a cone of hexing energy in front of you. Each enemy hit increases your Weapon Damage and Spell Damage by 2-88 for 8 seconds, up to a maximum of 6 enemies. This effect can occur once every 8 seconds. Whenever you successfully interrupt a target, you restore 23-1000 Magicka.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-171 Weapon Damage and Spell Damage; Whenever you Bash an enemy, you release a cone of hexing energy in front of you. Each enemy hit increases your Weapon Damage and Spell Damage by 2-88 for 8 seconds, up to a maximum of 6 enemies. This effect can occur once every 8 seconds. Whenever you successfully interrupt a target, you restore 23-1000 Magicka.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 171,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-171 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -19132,10 +19342,17 @@
      ]
     },
     "5": {
-     "raw": "When you Roll Dodge through an enemy, you deal 0 Physical Damage and knock them down for 3 seconds. This effect scales off the higher of your Physical Resistance or Spell Resistance.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Stamina Recovery; When you Roll Dodge through an enemy, you deal 0 Physical Damage and knock them down for 3 seconds. This effect scales off the higher of your Physical Resistance or Spell Resistance.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Stamina Recovery"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -19305,10 +19522,17 @@
      ]
     },
     "5": {
-     "raw": "While in combat, each second you stand still grants you a stack of Sentinel's Eye, increasing your Critical Chance by 10-443 per stack, stacking up to 3 times. Each second you move, one stack is removed. Using charge and teleport abilities does not remove stacks, and exiting combat will remove all stacks of Sentinel's Eye.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 22-986 Critical Chance; While in combat, each second you stand still grants you a stack of Sentinel's Eye, increasing your Critical Chance by 10-443 per stack, stacking up to 3 times. Each second you move, one stack is removed. Using charge and teleport abilities does not remove stacks, and exiting combat will remove all stacks of Sentinel's Eye.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "critRating",
+       "value": 986,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 22-986 Critical Chance"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -20376,10 +20600,17 @@
      ]
     },
     "2": {
-     "raw": "When you take damage while below 50% Health, gain immunity to immobilization, snares, and crowd control effects for 10 seconds. This effect can occur once every 40 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 28-1206 Maximum Health; When you take damage while below 50% Health, gain immunity to immobilization, snares, and crowd control effects for 10 seconds. This effect can occur once every 40 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1206,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 28-1206 Maximum Health"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -20814,10 +21045,17 @@
      ]
     },
     "5": {
-     "raw": "Your Heavy Attacks deal an additional 20-900 damage to monsters. Enemies you damage with fully-charged Heavy Attacks are afflicted with Minor Vulnerability for 10 seconds, increasing their damage taken by 5%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 15-657 Critical Chance; Your Heavy Attacks deal an additional 20-900 damage to monsters. Enemies you damage with fully-charged Heavy Attacks are afflicted with Minor Vulnerability for 10 seconds, increasing their damage taken by 5%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "critRating",
+       "value": 657,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 15-657 Critical Chance"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -20937,10 +21175,17 @@
      ]
     },
     "3": {
-     "raw": "Adds 25-1096 Maximum Stamina",
+     "raw": "Adds 25-1096 Maximum Magicka; Adds 25-1096 Maximum Stamina",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxMagicka",
+       "value": 1096,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 25-1096 Maximum Magicka"
+      },
       {
        "stat": "maxStamina",
        "value": 1096,
@@ -21304,10 +21549,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Expedition at all times, increasing your Movement Speed by 15%.",
+     "raw": "Adds 3-142 Stamina Recovery; Gain Minor Expedition at all times, increasing your Movement Speed by 15%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 142,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-142 Stamina Recovery"
+      },
       {
        "buff": "Minor Expedition",
        "condition": null,
@@ -21815,10 +22067,17 @@
      ]
     },
     "5": {
-     "raw": "When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you distort time on your enemy. After 3 seconds, the enemy bursts with temporal energy, reducing the Movement Speed of all enemies within 12 meters by 70% for 6 seconds and stunning them for 3 seconds. This effect can be blocked and can occur once every 15 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 53-2291 Armor; When you deal direct damage with a Blink, Charge, Leap, Teleport, or Pull ability, you distort time on your enemy. After 3 seconds, the enemy bursts with temporal energy, reducing the Movement Speed of all enemies within 12 meters by 70% for 6 seconds and stunning them for 3 seconds. This effect can be blocked and can occur once every 15 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "armor",
+       "value": 2291,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 53-2291 Armor"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -21907,10 +22166,17 @@
      ]
     },
     "5": {
-     "raw": "Decreases the time it takes to resurrect an ally by 25%. When you successfully resurrect an ally, you restore 40-1720 Magicka.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 5-222 Weapon Damage and Spell Damage; Decreases the time it takes to resurrect an ally by 25%. When you successfully resurrect an ally, you restore 40-1720 Magicka.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 222,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 5-222 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -21957,10 +22223,17 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 17-731 Maximum Stamina",
+     "raw": "Adds 17-731 Maximum Magicka; Adds 17-731 Maximum Stamina",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxMagicka",
+       "value": 731,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 17-731 Maximum Magicka"
+      },
       {
        "stat": "maxStamina",
        "value": 731,
@@ -22510,10 +22783,17 @@
      ]
     },
     "5": {
-     "raw": "When you deal Martial melee damage, you apply Minor Maim to all enemies within 8 meters of you for 5 seconds, reducing their damage done by 5%. This effect can occur once every 3 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 28-1206 Maximum Health; When you deal Martial melee damage, you apply Minor Maim to all enemies within 8 meters of you for 5 seconds, reducing their damage done by 5%. This effect can occur once every 3 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1206,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 28-1206 Maximum Health"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -24784,10 +25064,17 @@
      ]
     },
     "5": {
-     "raw": "When you kill a monster they burst with blood magic, dealing 50% of their Max Health to enemies within 6 meters as Bleed Damage, up to 24096 Bleed Damage. This damage cannot critically strike. This effect can occur once every 0.5 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-150 Weapon Damage and Spell Damage; When you kill a monster they burst with blood magic, dealing 50% of their Max Health to enemies within 6 meters as Bleed Damage, up to 24096 Bleed Damage. This damage cannot critically strike. This effect can occur once every 0.5 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 150,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-150 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -25063,10 +25350,17 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 3-129 Stamina Recovery",
+     "raw": "Adds 3-129 Magicka Recovery; Adds 3-129 Stamina Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "magickaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Magicka Recovery"
+      },
       {
        "stat": "staminaRecovery",
        "value": 129,
@@ -25390,10 +25684,17 @@
      ]
     },
     "5": {
-     "raw": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 4-200 Weapon Damage and Spell Damage; Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 200,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 4-200 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -26154,10 +26455,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Force at all times, increasing your Critical Damage by 10%.",
+     "raw": "Adds 20-892 Critical Chance; Gain Minor Force at all times, increasing your Critical Damage by 10%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "critRating",
+       "value": 892,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 20-892 Critical Chance"
+      },
       {
        "buff": "Minor Force",
        "condition": null,
@@ -26483,10 +26791,17 @@
      ]
     },
     "5": {
-     "raw": "When you Block, you gain Empower, increasing the damage of your Heavy Attacks against monsters by 150% for 3 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 28-1206 Maximum Health; When you Block, you gain Empower, increasing the damage of your Heavy Attacks against monsters by 150% for 3 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1206,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 28-1206 Maximum Health"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -26532,10 +26847,17 @@
      ]
     },
     "2": {
-     "raw": "Gain Major Resolve at all times, increasing your Physical Resistance and Spell Resistance by 5948.",
+     "raw": "Adds 28-1206 Maximum Health; Gain Major Resolve at all times, increasing your Physical Resistance and Spell Resistance by 5948.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1206,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 28-1206 Maximum Health"
+      },
       {
        "buff": "Major Resolve",
        "condition": null,
@@ -26600,10 +26922,17 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Magicka Recovery",
+     "raw": "Adds 3-129 Stamina Recovery; Adds 3-129 Magicka Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Stamina Recovery"
+      },
       {
        "stat": "magickaRecovery",
        "value": 129,
@@ -28059,10 +28388,17 @@
      ]
     },
     "5": {
-     "raw": "Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 25%.",
+     "raw": "Adds 3-171 Weapon Damage and Spell Damage; Reduces the radius you can be detected while Sneaking by 2 meters. Reduces the cost of Sneak by 25%.",
      "status": "mixed",
      "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 171,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-171 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -29521,10 +29857,17 @@
      ]
     },
     "5": {
-     "raw": "When you kill an enemy, you fill an empty Soul Gem and heal for 5906 Health. The heal can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 6-258 Weapon Damage and Spell Damage; When you kill an enemy, you fill an empty Soul Gem and heal for 5906 Health. The heal can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 258,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 6-258 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -29615,10 +29958,17 @@
      ]
     },
     "5": {
-     "raw": "When you deal damage with Soul Magic, you mark the target's soul dealing 1875 Magic Damage over 10 seconds, as long as they are not already marked from you. This effect scales off the higher of your Weapon Damage and Spell Damage.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage; When you deal damage with Soul Magic, you mark the target's soul dealing 1875 Magic Damage over 10 seconds, as long as they are not already marked from you. This effect scales off the higher of your Weapon Damage and Spell Damage.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -29780,10 +30130,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Vitality at all times, increasing your healing received and damage shield strength by 6%.",
+     "raw": "Adds 5% Healing Taken; Gain Minor Vitality at all times, increasing your healing received and damage shield strength by 6%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "healingTaken",
+       "value": 5,
+       "kind": "percent",
+       "condition": null,
+       "raw": "Adds 5% Healing Taken"
+      },
       {
        "buff": "Minor Vitality",
        "condition": null,
@@ -29862,10 +30219,17 @@
      ]
     },
     "5": {
-     "raw": "Increases your Critical Damage and Critical Healing by 8%.",
+     "raw": "Adds 21-943 Critical Chance; Increases your Critical Damage and Critical Healing by 8%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "critRating",
+       "value": 943,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 21-943 Critical Chance"
+      },
       {
        "stat": "critDamageAndHealing",
        "value": 8,
@@ -30251,10 +30615,17 @@
      ]
     },
     "5": {
-     "raw": "When you Block, you and up to 3 group members within 12 meters gain Minor Courage for 10 seconds, increasing your Weapon Damage and Spell Damage by 215. This effect can occur once every 5 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 43-1890 Maximum Stamina; When you Block, you and up to 3 group members within 12 meters gain Minor Courage for 10 seconds, increasing your Weapon Damage and Spell Damage by 215. This effect can occur once every 5 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 1890,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 43-1890 Maximum Stamina"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -32277,19 +32648,40 @@
      ]
     },
     "5": {
-     "raw": "While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 4-200 Weapon Damage and Spell Damage 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage; While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
+     "status": "ok",
+     "kind": "stat",
      "effects": [
       {
-       "kind": "proc",
-       "condition": {
-        "type": "combat",
-        "detail": "While in combat, activating a synergy increases your Weapon Damage and Spell Dam"
-       },
-       "raw": "While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times."
+       "stat": "weaponAndSpellDamage",
+       "value": 200,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 4-200 Weapon Damage and Spell Damage"
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage; While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
+      "status": "mixed",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       },
+       {
+        "kind": "proc",
+        "condition": {
+         "type": "combat",
+         "detail": "While in combat, activating a synergy increases your Weapon Damage and Spell Dam"
+        },
+        "raw": "While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times."
+       }
+      ]
+     }
     }
    }
   },
@@ -32692,35 +33084,56 @@
      ]
     },
     "5": {
-     "raw": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 4-200 Weapon Damage and Spell Damage 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage; Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
+     "status": "ok",
+     "kind": "stat",
      "effects": [
       {
-       "kind": "proc",
-       "condition": {
-        "type": "combat",
-        "detail": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you f"
-       },
-       "raw": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds."
-      },
-      {
-       "kind": "proc",
-       "condition": {
-        "type": "combat",
-        "detail": "This effect can occur once every 8 seconds."
-       },
-       "raw": "This effect can occur once every 8 seconds."
-      },
-      {
-       "kind": "proc",
-       "condition": {
-        "type": "combat",
-        "detail": "Every second spent standing in the ring increases your Weapon Damage and Spell D"
-       },
-       "raw": "Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times."
+       "stat": "weaponAndSpellDamage",
+       "value": 200,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 4-200 Weapon Damage and Spell Damage"
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage; Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
+      "status": "mixed",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       },
+       {
+        "kind": "proc",
+        "condition": {
+         "type": "combat",
+         "detail": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you f"
+        },
+        "raw": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds."
+       },
+       {
+        "kind": "proc",
+        "condition": {
+         "type": "combat",
+         "detail": "This effect can occur once every 8 seconds."
+        },
+        "raw": "This effect can occur once every 8 seconds."
+       },
+       {
+        "kind": "proc",
+        "condition": {
+         "type": "combat",
+         "detail": "Every second spent standing in the ring increases your Weapon Damage and Spell D"
+        },
+        "raw": "Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times."
+       }
+      ]
+     }
     }
    }
   },
@@ -35604,10 +36017,17 @@
      ]
     },
     "5": {
-     "raw": "Whenever you kill an enemy afflicted with a poison effect, their corpse releases a writhing mass of Fetcherflies, which seek out the nearest enemy within 12 meters, causing them to bleed for 5850 Bleed damage over 10 seconds. This effect scales off the higher of your Weapon Damage and Spell Damage.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 34-1487 Offensive Penetration; Whenever you kill an enemy afflicted with a poison effect, their corpse releases a writhing mass of Fetcherflies, which seek out the nearest enemy within 12 meters, causing them to bleed for 5850 Bleed damage over 10 seconds. This effect scales off the higher of your Weapon Damage and Spell Damage.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "offensivePenetration",
+       "value": 1487,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 34-1487 Offensive Penetration"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -37905,10 +38325,17 @@
      ]
     },
     "5": {
-     "raw": "Reduce the effectiveness of snares applied to you by 50%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Stamina Recovery; Reduce the effectiveness of snares applied to you by 50%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Stamina Recovery"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -37988,10 +38415,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Major Brutality and Sorcery at all times, increasing your Weapon Damage and Spell Damage by 20%.",
+     "raw": "Adds 3-171 Weapon Damage and Spell Damage; Gain Major Brutality and Sorcery at all times, increasing your Weapon Damage and Spell Damage by 20%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 171,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-171 Weapon Damage and Spell Damage"
+      },
       {
        "buff": "Major Brutality",
        "condition": null,
@@ -38223,10 +38657,17 @@
    ],
    "bonuses": {
     "2": {
-     "raw": "Adds 17-731 Maximum Stamina",
+     "raw": "Adds 17-731 Maximum Magicka; Adds 17-731 Maximum Stamina",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxMagicka",
+       "value": 731,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 17-731 Maximum Magicka"
+      },
       {
        "stat": "maxStamina",
        "value": 731,
@@ -38237,10 +38678,17 @@
      ]
     },
     "3": {
-     "raw": "Adds 17-731 Maximum Stamina",
+     "raw": "Adds 17-731 Maximum Magicka; Adds 17-731 Maximum Stamina",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxMagicka",
+       "value": 731,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 17-731 Maximum Magicka"
+      },
       {
        "stat": "maxStamina",
        "value": 731,
@@ -38251,10 +38699,17 @@
      ]
     },
     "4": {
-     "raw": "Adds 17-731 Maximum Stamina",
+     "raw": "Adds 17-731 Maximum Magicka; Adds 17-731 Maximum Stamina",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxMagicka",
+       "value": 731,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 17-731 Maximum Magicka"
+      },
       {
        "stat": "maxStamina",
        "value": 731,
@@ -39691,10 +40146,24 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 1-70 Health Recovery",
+     "raw": "Adds 1-70 Stamina Recovery; Adds 1-70 Magicka Recovery; Adds 1-70 Health Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 70,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 1-70 Stamina Recovery"
+      },
+      {
+       "stat": "magickaRecovery",
+       "value": 70,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 1-70 Magicka Recovery"
+      },
       {
        "stat": "healthRecovery",
        "value": 70,
@@ -41330,10 +41799,17 @@
      ]
     },
     "5": {
-     "raw": "When you begin to crouch, gain Stealth Detection for 10 seconds. This effect can only be activated every 30 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 6-266 Weapon Damage and Spell Damage; When you begin to crouch, gain Stealth Detection for 10 seconds. This effect can only be activated every 30 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 266,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 6-266 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -41683,10 +42159,17 @@
      ]
     },
     "5": {
-     "raw": "Adds 48-2065 Maximum Magicka",
+     "raw": "Adds 48-2065 Maximum Stamina; Adds 48-2065 Maximum Magicka",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 2065,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 48-2065 Maximum Stamina"
+      },
       {
        "stat": "maxMagicka",
        "value": 2065,
@@ -42187,10 +42670,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds.",
+     "raw": "Adds 3-171 Weapon Damage and Spell Damage; Gain Minor Heroism at all times while you are in combat, generating 1 Ultimate every 1.5 seconds.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 171,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-171 Weapon Damage and Spell Damage"
+      },
       {
        "buff": "Minor Heroism",
        "condition": null,
@@ -43465,10 +43955,17 @@
      ]
     },
     "2": {
-     "raw": "Gain Minor Berserk at all times, increasing your damage done by 5%.",
+     "raw": "Adds 2-113 Critical Chance; Gain Minor Berserk at all times, increasing your damage done by 5%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "critRating",
+       "value": 113,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 2-113 Critical Chance"
+      },
       {
        "buff": "Minor Berserk",
        "condition": null,
@@ -43839,10 +44336,17 @@
      ]
     },
     "5": {
-     "raw": "Applying a Major or Minor Debuff to an enemy applies Star Venom to them for 4 seconds. This effect can occur once every 12 seconds. Whenever an enemy with Star Venom is healed, they take 1170 Oblivion Damage, up to once every 0.1 seconds. An enemy can only be affected by one instance of Star Venom every 12 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Magicka Recovery; Applying a Major or Minor Debuff to an enemy applies Star Venom to them for 4 seconds. This effect can occur once every 12 seconds. Whenever an enemy with Star Venom is healed, they take 1170 Oblivion Damage, up to once every 0.1 seconds. An enemy can only be affected by one instance of Star Venom every 12 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "magickaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Magicka Recovery"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -46148,10 +46652,24 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 14-603 Maximum Health",
+     "raw": "Adds 12-548 Maximum Stamina; Adds 12-548 Maximum Magicka; Adds 14-603 Maximum Health",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 548,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 12-548 Maximum Stamina"
+      },
+      {
+       "stat": "maxMagicka",
+       "value": 548,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 12-548 Maximum Magicka"
+      },
       {
        "stat": "maxHealth",
        "value": 603,
@@ -47104,10 +47622,17 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 25-1096 Maximum Stamina; Adds 25-1096 Maximum Magicka",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 1096,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 25-1096 Maximum Stamina"
+      },
       {
        "stat": "maxMagicka",
        "value": 1096,
@@ -47737,10 +48262,17 @@
      ]
     },
     "4": {
-     "raw": "Reduces your damage taken from Guards by 20%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 25-1096 Maximum Magicka; Reduces your damage taken from Guards by 20%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "maxMagicka",
+       "value": 1096,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 25-1096 Maximum Magicka"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -50852,10 +51384,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Major Savagery and Prophecy at all times, increasing your Weapon Critical and Spell Critical rating by 2629.",
+     "raw": "Adds 3-171 Weapon Damage and Spell Damage; Gain Major Savagery and Prophecy at all times, increasing your Weapon Critical and Spell Critical rating by 2629.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 171,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-171 Weapon Damage and Spell Damage"
+      },
       {
        "buff": "Major Savagery",
        "condition": null,
@@ -51482,10 +52021,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Major Savagery and Prophecy at all times, increasing your Weapon Critical and Spell Critical rating by 2629.",
+     "raw": "Adds 3-171 Weapon Damage and Spell Damage; Gain Major Savagery and Prophecy at all times, increasing your Weapon Critical and Spell Critical rating by 2629.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 171,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-171 Weapon Damage and Spell Damage"
+      },
       {
        "buff": "Major Savagery",
        "condition": null,
@@ -52091,10 +52637,17 @@
      ]
     },
     "5": {
-     "raw": "When you deal damage, your Offensive Penetration is increased by 15-660 for 5 seconds, stacking up to 5 times. This effect can occur once every half second.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 53-2305 Offensive Penetration; When you deal damage, your Offensive Penetration is increased by 15-660 for 5 seconds, stacking up to 5 times. This effect can occur once every half second.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "offensivePenetration",
+       "value": 2305,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 53-2305 Offensive Penetration"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -52491,10 +53044,17 @@
      ]
     },
     "3": {
-     "raw": "Adds 3-129 Stamina Recovery",
+     "raw": "Adds 3-129 Magicka Recovery; Adds 3-129 Stamina Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "magickaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Magicka Recovery"
+      },
       {
        "stat": "staminaRecovery",
        "value": 129,
@@ -53439,10 +53999,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Protection at all times, reducing your damage taken by 5%.",
+     "raw": "Adds 3-171 Weapon Damage and Spell Damage; Gain Minor Protection at all times, reducing your damage taken by 5%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 171,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-171 Weapon Damage and Spell Damage"
+      },
       {
        "buff": "Minor Protection",
        "condition": null,
@@ -53597,10 +54164,17 @@
      ]
     },
     "4": {
-     "raw": "Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 25-1096 Maximum Stamina; Adds 25-1096 Maximum Magicka",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxStamina",
+       "value": 1096,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 25-1096 Maximum Stamina"
+      },
       {
        "stat": "maxMagicka",
        "value": 1096,
@@ -53611,10 +54185,17 @@
      ]
     },
     "5": {
-     "raw": "When you kill an enemy, you heal for 10512 Health over 10 seconds. This effect scales off the higher of your Max Magicka or Stamina.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage; When you kill an enemy, you heal for 10512 Health over 10 seconds. This effect scales off the higher of your Max Magicka or Stamina.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -53970,10 +54551,24 @@
      ]
     },
     "5": {
-     "raw": "When you resurrect an ally, you and your ally gain 6-258 Weapon Damage and Spell Damage and 10% cost reduction to non-Ultimate abilities for 10 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Magicka Recovery; Adds 3-129 Stamina Recovery; When you resurrect an ally, you and your ally gain 6-258 Weapon Damage and Spell Damage and 10% cost reduction to non-Ultimate abilities for 10 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "magickaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Magicka Recovery"
+      },
+      {
+       "stat": "staminaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Stamina Recovery"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -54063,10 +54658,17 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Gain Minor Force at all times. Increase your damage done to monsters by 15%. Reduce your Light and Heavy Attack damage by 99%.",
+     "raw": "Adds 1650 Offensive Penetration. Gain Minor Force at all times. Increase your damage done to monsters by 15%. Reduce your Light and Heavy Attack damage by 99%.",
      "status": "mixed",
      "kind": "mixed",
      "effects": [
+      {
+       "stat": "offensivePenetration",
+       "value": 1650,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 1650 Offensive Penetration."
+      },
       {
        "buff": "Minor Force",
        "condition": null,
@@ -54683,10 +55285,17 @@
      ]
     },
     "5": {
-     "raw": "When you kill a Player, they violently explode for 3322 Flame Damage to all other enemies in a 5 meter radius. This effect scales off the higher of your Weapon Damage and Spell Damage.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 34-1487 Offensive Penetration; When you kill a Player, they violently explode for 3322 Flame Damage to all other enemies in a 5 meter radius. This effect scales off the higher of your Weapon Damage and Spell Damage.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "offensivePenetration",
+       "value": 1487,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 34-1487 Offensive Penetration"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -54766,10 +55375,17 @@
      ]
     },
     "5": {
-     "raw": "Reduces the cost of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 57-2454 Stamina and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage; Reduces the cost of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 57-2454 Stamina and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.",
      "status": "mixed",
      "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      },
       {
        "stat": "staminaCost",
        "value": -8,
@@ -55821,10 +56437,17 @@
      ]
     },
     "5": {
-     "raw": "Gain Minor Toughness at all times, increasing your Max Health by 10%.",
+     "raw": "Adds 37-1600 Maximum Health; Gain Minor Toughness at all times, increasing your Max Health by 10%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "maxHealth",
+       "value": 1600,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 37-1600 Maximum Health"
+      },
       {
        "buff": "Minor Toughness",
        "condition": null,
@@ -55901,10 +56524,17 @@
      ]
     },
     "5": {
-     "raw": "When you use Roll Dodge, your Weapon Damage and Spell Damage is increased by 9-391 for 6 seconds.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Stamina Recovery; When you use Roll Dodge, your Weapon Damage and Spell Damage is increased by 9-391 for 6 seconds.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "staminaRecovery",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Stamina Recovery"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -56163,10 +56793,17 @@
      ]
     },
     "5": {
-     "raw": "Reduces the cost of Break Free by 40%.",
+     "raw": "Adds 3-165 Weapon Damage and Spell Damage; Reduces the cost of Break Free by 40%.",
      "status": "ok",
      "kind": "stat",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 165,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-165 Weapon Damage and Spell Damage"
+      },
       {
        "stat": "breakFreeCost",
        "value": -40,
@@ -56981,10 +57618,17 @@
      ]
     },
     "5": {
-     "raw": "After completing a fully-charged Heavy Attack, you gain Major Mending for 5 seconds, increasing your healing done by 16%. This duration is increased with each rank of the Restoration Staff Passive of Essence Drain when using a Restoration Staff.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage; After completing a fully-charged Heavy Attack, you gain Major Mending for 5 seconds, increasing your healing done by 16%. This duration is increased with each rank of the Restoration Staff Passive of Essence Drain when using a Restoration Staff.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "weaponAndSpellDamage",
+       "value": 129,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      },
       {
        "kind": "proc",
        "condition": {
@@ -57319,10 +57963,17 @@
      ]
     },
     "5": {
-     "raw": "When you take direct Critical Damage, you apply Minor Enervation to the enemy for 5 seconds, reducing their Critical Damage done by 10%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Adds 15-660 Critical Resistance; When you take direct Critical Damage, you apply Minor Enervation to the enemy for 5 seconds, reducing their Critical Damage done by 10%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "stat": "critResistance",
+       "value": 660,
+       "kind": "flat",
+       "condition": null,
+       "raw": "Adds 15-660 Critical Resistance"
+      },
       {
        "kind": "proc",
        "condition": {

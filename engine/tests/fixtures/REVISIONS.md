@@ -178,6 +178,17 @@ in the build; the `reading-log` skill, `corrections` entries and `npm run fixtur
 Match counts after the pass: 001 49/56, 002 49/56, 003 55/56, 004 52/56, 005 43/51, 006 45/51,
 007 49/55, 008 49/55, 009 50/55, 010 50/55.
 
+## 2026-09-17, archive pass with the UESP pages and forum threads
+
+The user added data/reference/pages (89 UESP system pages) and data/reference/forum (40 threads)
+and rebuilt sets.csv. Settled from them: the dual wield share is 17.67% inherent plus Dual Wield
+Expert's 6% (forum 348673 by the UESP build editor's author agrees with the three readings); two
+handed melee weapons are 1571 (Nirnhoned page); the vampire stage table and the Update 26 removal
+of Unnatural Resistance are on the Vampire page; the Emperor passives are on the Emperor page and
+now apply; Gaze of Sithis and Velothi parse in full. Match counts unchanged (no reading carries
+a two handed melee weapon or an Emperor). Magicka Recovery, roll dodge and the armor slot factors
+stay open: the pages hold no rating table and no recovery source the engine lacks.
+
 ## Open questions for the next reading
 
 - Answered 2026-09-17: the Necromancer has every Support passive (so Combat Medic at that gate was

@@ -72,9 +72,9 @@ const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s F
 // "Unnatural Resistance: This ability has been removed from the game and replaced with Undeath."
 const REMOVED_PASSIVES = new Set(['Unnatural Resistance']);
 const BONUS_TEXT_OVERRIDE = {
-  // Velothi: the UESP row runs the permanent Minor Force into a monster only clause; split so the buff parses. The
-  // row's tag list names Physical/Spell Penetration but carries no number for it (UNKNOWNS.md).
-  "Velothi Ur-Mage's Amulet": { 1: 'Gain Minor Force at all times. Increase your damage done to monsters by 15%. Reduce your Light and Heavy Attack damage by 99%.' },
+  // Velothi: the row runs the permanent Minor Force into a monster only clause; split so the buff parses (the
+  // penetration line comes from the rebuilt row itself).
+  "Velothi Ur-Mage's Amulet": { 1: 'Adds 1650 Offensive Penetration. Gain Minor Force at all times. Increase your damage done to monsters by 15%. Reduce your Light and Heavy Attack damage by 99%.' },
   "Stormweaver's Cavort": { 1: 'Adds 300 Magicka Recovery. Sprint, Roll Dodge, Bash, Break Free, Sneak, and Block now consume Magicka instead of Stamina. You reduce your Magicka Recovery to 0 while Blocking, Sneaking, or Sprinting. You no longer reduce your Stamina Recovery to 0 while Blocking, Sneaking or Sprinting.' },
 };
 

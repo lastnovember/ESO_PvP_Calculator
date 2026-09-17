@@ -92,11 +92,8 @@ Named items are community tooltip values.
 
 ## Systems
 
-- Gaze of Sithis: the UESP row keeps only "Reduces your Block Mitigation to 0."; its tags name Maximum Health (3276 appears in the row), Physical/Spell Resistance, Health Recovery and Reduce Damage Taken without the other numbers, so the set adds only the block rule until the full text is archived.
-- Velothi Ur-Mage's Amulet: the row's tags name Physical/Spell Penetration but the text carries no number for it; Minor Force applies, the penetration does not.
 - Mora's Whispers (crit by books collected) and Thrassian Stranglers (Weapon Damage by kill stacks) depend on character state the build cannot express yet.
 
-- Emperor skill line (Domination, Authority, Monarch, Tactician, Emperor): not in the archive. skills.csv holds only the line row and the UESP page is unreachable from the build environment. The "I am the Emperor" toggle applies nothing until the five passive texts are archived (the in game skill line page of an Emperor, or a UESP export, would do).
 - Cyrodiil scroll and keep bonuses: values from the UESP campaign table (2% and 5% damage or resistance, 1% crit per enemy keep, 900 to 1750 Max Health by home keeps under Emperorship); whether the percents multiply the sheet total or add to the other percents is unverified, no reading carries one yet.
 
 | Item | Value used | Note |
@@ -119,9 +116,9 @@ Every reading now matches 43 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 
 | Gap | Readings | Game vs engine | Best reading of it |
 | --- | --- | --- | --- |
-| Magicka Recovery | all four characters | +14 (Templar), +34 and +37 (Necro), +45 (DK), +50 and +52 (Yeets) after percents; +11, +29, +42, +41 before | Not race (Argonian and Khajiit read the same 41), not food (the DK eats Sugar Skulls), not glyphs, not Max Magicka. It grows with Magicka attribute points (0, 17, 49, 52 points give 11, 29, 41, 42) and flattens above 40; no archived source scales recovery with points. |
-| Resistances | all geared readings | within 14 to 73 after the armor fit (was 514 to 859) | The slot factors (big 0.879, small 0.5 of the chest) are still community values; a rating table would remove the residuals. |
-| Roll Dodge Cost | Yeets 3248 (engine 3306), DK 3315 (3344), Necro 3420 (exact) | | No order (flat first or percent first, additive or multiplicative) with any per piece values from 0 to 6% fits all three within 1; the closest is flat first, additive, medium 4, heavy 2, light 2.5 (total error 10). Tumbling is at both stages everywhere (user). |
+| Magicka Recovery | all four characters | +14 (Templar), +34 and +37 (Necro), +45 (DK), +50 and +52 (Yeets) after percents; +11, +29, +42, +41 before | Not race (Argonian and Khajiit read the same 41), not food (the DK eats Sugar Skulls), not glyphs, not Max Magicka. It grows with Magicka attribute points (0, 17, 49, 52 points give 11, 29, 41, 42) and flattens above 40, but the UESP Magicka page says outright that the attribute does not raise recovery and gives base 514 at level 50 with no attribute term, and none of the nine archived forum threads on recovery names a scaling source. Its formula puts one skill group in a separate multiplier with food divided out; tried against the readings it does not fit either. Open. |
+| Resistances | all geared readings | within 14 to 73 after the armor fit (was 514 to 859) | The slot factors (big 0.879, small 0.5 of the chest) are still community values. The archived UESP Armor page (2026-09-12) has no rating table and the Nirnhoned page gives only the Nirnhoned armor value, so the fit stands. |
+| Roll Dodge Cost | Yeets 3248 (engine 3306), DK 3315 (3344), Necro 3420 (exact) | | No order (flat first or percent first, additive or multiplicative) with any per piece values from 0 to 6% fits all three within 1; the closest is flat first, additive, medium 4, heavy 2, light 2.5 (total error 10). Tumbling is at both stages everywhere (user). The archived armor line pages list the passives by name only. |
 | Health Recovery, vampire | Templar 415 (engine 452) | | The 60% stage penalty is right (Unnatural Resistance is gone); the remaining 37 is exactly the Prismatic Recovery ring's 84 through Constitution and the penalty, so that glyph's Health Recovery share is the suspect. |
 | Weapon and Spell Critical | Necro 19.4 and 16.4 (engine 18.5 and 15.5) | | One percent (about 206 rating) on both bars from no archived source. |
 | Stamina Recovery | Templar 1785 (engine 1804) | | 15 before percents, the only stamina miss on file. |
@@ -180,6 +177,9 @@ Every reading now matches 43 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 | Vampire stage penalty | full stage value; Unnatural Resistance removed in Greymoor (note 087) | 005, 006 |
 | Medium and light armor | chest 1995 and 1354 (fit, residuals 14 to 73) | 002, 005, 007, 009 |
 | Damage Done line | folds the single target star | 001 to 004 |
+| Two handed melee weapon damage | 1571 (UESP Nirnhoned page CP160 row, forum 348673); staves, bows and one handed 1335 | pages, 002 to 010 for the 1335 |
+| Emperor passives | Domination, Monarch, Emperor by home keeps (UESP Emperor page) | pages |
+| Gaze of Sithis, Velothi | full texts parse from the rebuilt sets.csv (3276 Health, 1025 Health Recovery, 4000 Armor, block 0; 1650 penetration, Minor Force) | sets.csv 2026-09-17 |
 | Food health scale | 1.17442 for Max Health and Health Recovery, 1.1735 for Magicka and Stamina (Sugar Skulls 4624/4250, Bear Haunch 4316) | 002, 005, 009 |
 | Critical Healing sources | Dexterity, Fighting Finesse, The Shadow (not Piercing Spear, Twin Blade and Blunt, Advanced Species, Hemorrhage, Feline Ambush counts) | 002, 003, 005 |
 | Sneak Speed with Dark Stalker | 100 | 005 |

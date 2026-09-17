@@ -530,7 +530,9 @@ function collect(build, data, barIndex, strategies) {
     }
     // weapon rating
     if (cat === 'weapon') {
-      const rating = v(C.items.weaponDamage) * qf(it) * (it.trait === 'Nirnhoned' ? 1 + wq(C.traits.weapon.Nirnhoned, it, TWO_HANDED.has(it.type)) / 100 : 1);
+      // greatswords, battle axes and mauls are 1571 at CP160 gold; bows, staves and one handed weapons 1335 (Nirnhoned page)
+      const baseRating = ['greatsword', 'battle axe', 'maul'].includes(it.type) ? v(C.items.twoHandedMeleeWeaponDamage) : v(C.items.weaponDamage);
+      const rating = baseRating * qf(it) * (it.trait === 'Nirnhoned' ? 1 + wq(C.traits.weapon.Nirnhoned, it, TWO_HANDED.has(it.type)) / 100 : 1);
       if (slot === 'mainHand') acc.add('weaponAndSpellDamage', 'flat', Math.round(rating), `${src} rating`);
       else if (strategies.offHandRating === 'full') acc.add('weaponAndSpellDamage', 'flat', Math.round(rating), `${src} rating`);
       else acc.add('offHandRating', 'flat', Math.round(rating), `${src} rating`);
@@ -628,7 +630,13 @@ function collect(build, data, barIndex, strategies) {
     if (ek) acc.add('critChancePercent', 'percent', ek, `Cyrodiil: Enemy Keep Bonus (${cy.enemyKeeps} keeps)`);
     const eh = pick(CY.emperorshipAllianceMaxHealth.values, cy.allianceEmperorKeeps | 0);
     if (eh) acc.add('maxHealth', 'flat', eh, `Cyrodiil: Emperorship Alliance Bonus (${cy.allianceEmperorKeeps} home keeps)`);
-    if (cy.emperor) notes.push('You are the Emperor: the Emperor skill line passives are not in the archive yet, so nothing is added for them (the alliance Emperorship health bonus still applies).');
+    if (cy.emperor) {
+      // Emperor page: Domination (recoveries), Monarch (healing received) and Emperor (max stats) scale by home keeps, 1 or less to 6
+      const k = Math.max(1, Math.min(6, cy.allianceEmperorKeeps | 0)) - 1; const EP = CY.emperorPassives;
+      acc.add('allRecovery', 'percent', EP.dominationRecoveryPercent[k], `Emperor: Domination (${k + 1} home keeps)`);
+      acc.add('healingTaken', 'percent', EP.monarchHealingTakenPercent[k], `Emperor: Monarch (${k + 1} home keeps)`);
+      acc.add('allMax', 'percent', EP.emperorMaxStatsPercent[k], `Emperor: Emperor (${k + 1} home keeps)`);
+    }
   }
 
   // Curative Curse (Living Death): "while you have a negative effect on you". Battle Spirit counts: fixtures 007 and
@@ -701,11 +709,12 @@ function computeBar(build, data, barIndex, strategies) {
 
   // off hand rating through Dual Wield Expert: percentOfOffHand bucket holds the percent
   let offHandFlat = 0;
-  // Dual wield: the off hand reaches the sheet as a fixed share of its rating (23.67%, fitted from fixtures 002, 005 and
-  // 009 which agree to 0.05%; Dual Wield Expert's 6% is inside it). 'passiveOnly' keeps the archived 6% alone.
+  // Dual wield: the off hand reaches the sheet as 17.67% of its rating on its own (two maces equal a two handed
+  // weapon's 1571, Nirnhoned page and forum 348673) plus Dual Wield Expert's 6%; fixtures 002, 005 and 009 land within 1.
+  // 'passiveOnly' keeps the archived 6% alone.
   if (acc.flat('offHandRating')) {
-    if (strategies.offHandRating === 'fitted') offHandFlat = acc.flat('offHandRating') * v(C.items.dualWieldOffHandPercent) / 100;
-    else if (acc.pct('percentOfOffHandRating')) offHandFlat = acc.flat('offHandRating') * acc.pct('percentOfOffHandRating') / 100;
+    const inherent = strategies.offHandRating === 'fitted' ? v(C.items.dualWieldOffHandInherentPercent) : 0;
+    offHandFlat = acc.flat('offHandRating') * (inherent + acc.pct('percentOfOffHandRating')) / 100;
   }
   const weaponDamage = (v(B.weaponDamage) + acc.flat('weaponDamage') + offHandFlat) * (1 + acc.pct('weaponDamage') / 100);
   const spellDamage = (v(B.spellDamage) + acc.flat('spellDamage') + offHandFlat) * (1 + acc.pct('spellDamage') / 100);

@@ -15,10 +15,19 @@ authority, newest wins inside each source:
    sheet shows. Use the `fixture-calibration` skill to add or fit one.
 3. **esolog coefficient table** (`data/reference/tables/esolog_skill_coefficients_t00.csv`,
    Update 44, November 2024): exact numbers for ability tooltips, food buffs, scribing.
-4. **UESP tables** (`data/reference/tables/uesp_Online_*.csv`, indexed in
-   `data/reference/tables_index.json`; `data/reference/sets.csv`; `data/reference/skills.csv`).
-5. Community values. Allowed only as a placeholder marked `UNVERIFIED` with the alternatives
-   listed, and only when 1 to 4 say nothing.
+4. **UESP tables and pages** (`data/reference/tables/uesp_Online_*.csv`, indexed in
+   `data/reference/tables_index.json`; `data/reference/sets.csv`; `data/reference/skills.csv`;
+   the system pages as Markdown in `data/reference/pages/*.md`, indexed in
+   `data/reference/pages_index.csv`, fetched 2026-09). The pages carry prose and tables the csv
+   exports miss: weapon damage by level and trait (Nirnhoned), the vampire stage table, the
+   Emperor passives, the Max Magicka and recovery formulas. `grep -il '<term>' data/reference/pages/*.md`.
+5. **Forum threads** (`data/reference/forum/*.md`, indexed in `data/reference/forum_index.csv`,
+   replies included). Community level: a post settles nothing on its own, but a post by a data
+   maintainer (UESP's Reorx_Holybeard, a ZOS developer) that agrees with a reading promotes the
+   reading to sourced. Read the whole thread; later replies correct earlier ones. Never cite a
+   proposal or a wish ("should", "would be nice") as a mechanic.
+6. Other community values. Allowed only as a placeholder marked `UNVERIFIED` with the alternatives
+   listed, and only when 1 to 5 say nothing.
 
 A value is "verified" only when a source above says the number, or a fixture pair pins it.
 A fit from a single reading is `UNVERIFIED` with the fit written out (see the constants for
@@ -86,15 +95,17 @@ Cite as: `tables/esolog_skill_coefficients_t00.csv row '<Skill Name>'`.
 - `sets.csv`: `bonus_N` is the N piece bonus. A range like `9-424` runs from level 1 to CP160
   gold; the top of the range is the value. Monster sets use bonus_1 and bonus_2, mythics bonus_1,
   arena weapons bonus_2. `ESO Quality Color.2 == Mythic` marks mythics; `settype` gives the weight
-  lock. sets.csv sometimes drops a leading sentence of a tooltip (Stormweaver's Cavort); the
-  parser carries an override with the in game text.
+  lock. Since the 2026-09-17 rebuild a set's bonus lines are joined with ";" and the parser splits
+  on it; the earlier truncation of mythic rows (Gaze of Sithis, Velothi) is gone. sets.csv
+  sometimes still drops a leading sentence (Stormweaver's Cavort); the parser carries an override.
 - `skills.csv`: one row per base skill; the morphs are in `morph1name`/`desc1` and
   `morph2name`/`desc2`, passives in `desc`/`desc2`/`desc3` (the newest non empty one wins). Rank
   brackets `[a / b / c / d]` are ranks I to IV; the last is the value.
 - Champion stars say "per stage"; the parser multiplies by the star's stage count from the
   Champion table. Slottable stars apply only when slotted; passives are always maxed.
 
-Cite as: `tables/<file>.csv row '<row name>'`.
+Cite as: `tables/<file>.csv row '<row name>'`, `pages/<file>.md (<section or row>)`, or
+`forum/<thread id> <poster> (<date>): <quoted sentence>`.
 
 ## 4. What the sheet means (settled by fixtures, do not relitigate)
 
