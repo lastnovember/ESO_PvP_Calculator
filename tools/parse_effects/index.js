@@ -69,6 +69,9 @@ const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s F
   "Rakkhat's Voidmantle": 'shoulders', "Stormweaver's Cavort": 'legs' };
 // sets.csv dropped the leading stat line of some tooltips. Text here is the full in game tooltip as supplied by the user.
 const BONUS_TEXT_OVERRIDE = {
+  // Velothi: the UESP row runs the permanent Minor Force into a monster only clause; split so the buff parses. The
+  // row's tag list names Physical/Spell Penetration but carries no number for it (UNKNOWNS.md).
+  "Velothi Ur-Mage's Amulet": { 1: 'Gain Minor Force at all times. Increase your damage done to monsters by 15%. Reduce your Light and Heavy Attack damage by 99%.' },
   "Stormweaver's Cavort": { 1: 'Adds 300 Magicka Recovery. Sprint, Roll Dodge, Bash, Break Free, Sneak, and Block now consume Magicka instead of Stamina. You reduce your Magicka Recovery to 0 while Blocking, Sneaking, or Sprinting. You no longer reduce your Stamina Recovery to 0 while Blocking, Sneaking or Sprinting.' },
 };
 
@@ -108,6 +111,7 @@ function buildSets() {
       const b = parseBonus(raw, i, meta);
       meta.bonuses[String(i)] = b;
       if (/unable to swap between your Primary and Backup Weapon Sets/i.test(raw)) meta.locksBackBar = true;
+      if (/Disable all other item set bonuses/i.test(raw)) meta.disablesOtherSets = true;
       stats.bonuses += 1;
       stats.byStatus[b.status] = (stats.byStatus[b.status] || 0) + 1;
     }

@@ -485,10 +485,14 @@ function collect(build, data, barIndex, strategies) {
   // sets
   const pieces = countSetPieces(build).perBar[barIndex];
   const setCounts = {}; const setPerfected = {};
+  // Torc of the Last Ayleid King: "Disable all other item set bonuses" (disablesOtherSets in effects.json)
+  const soleSet = Object.keys(pieces).find((name) => E.sets[name] && E.sets[name].disablesOtherSets) || null;
+  if (soleSet) notes.push(`${soleSet}: every other item set bonus is disabled.`);
   for (const [name, info] of Object.entries(pieces)) {
     const meta = E.sets[name];
     if (!meta) continue;
     setCounts[name] = info.total; setPerfected[name] = info.perfected || 0;
+    if (soleSet && name !== soleSet) { acc.dropped.push({ source: `set ${name}`, reason: `disabled by ${soleSet}` }); continue; }
     for (const [n, bonus] of Object.entries(meta.bonuses)) {
       if (info.total >= Number(n)) applyEffects(acc, bonus.effects, ctx, data, `set ${name} (${n})`, strategies);
     }

@@ -92,6 +92,10 @@ Named items are community tooltip values.
 
 ## Systems
 
+- Gaze of Sithis: the UESP row keeps only "Reduces your Block Mitigation to 0."; its tags name Maximum Health (3276 appears in the row), Physical/Spell Resistance, Health Recovery and Reduce Damage Taken without the other numbers, so the set adds only the block rule until the full text is archived.
+- Velothi Ur-Mage's Amulet: the row's tags name Physical/Spell Penetration but the text carries no number for it; Minor Force applies, the penetration does not.
+- Mora's Whispers (crit by books collected) and Thrassian Stranglers (Weapon Damage by kill stacks) depend on character state the build cannot express yet.
+
 - Emperor skill line (Domination, Authority, Monarch, Tactician, Emperor): not in the archive. skills.csv holds only the line row and the UESP page is unreachable from the build environment. The "I am the Emperor" toggle applies nothing until the five passive texts are archived (the in game skill line page of an Emperor, or a UESP export, would do).
 - Cyrodiil scroll and keep bonuses: values from the UESP campaign table (2% and 5% damage or resistance, 1% crit per enemy keep, 900 to 1750 Max Health by home keeps under Emperorship); whether the percents multiply the sheet total or add to the other percents is unverified, no reading carries one yet.
 

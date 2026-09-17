@@ -440,3 +440,18 @@ test('real data: Cyrodiil advanced sim flags (scrolls, enemy keeps, Emperorship,
   n.battleSpirit = false;
   assert.equal(computeSheet(n, real).bars[0].main.maxHealth, base.main.maxHealth - 0, 'nothing outside Battle Spirit');
 });
+
+test('real data: Torc of the Last Ayleid King disables every other set; Velothi grants Minor Force', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked();
+  n.gear.head = { set: 'Armor of the Trainee', weight: 'heavy', trait: null, enchant: null };
+  const withTrainee = computeSheet(n, real).bars[0];
+  assert.ok(withTrainee.breakdown.maxHealth.some((x) => /Trainee/.test(x.source)));
+  n.gear.necklace = { set: 'Torc of the Last Ayleid King', trait: null, enchant: null };
+  const r = computeSheet(n, real).bars[0];
+  assert.ok(!r.breakdown.maxHealth.some((x) => /Trainee/.test(x.source)), 'Trainee disabled');
+  assert.ok(r.breakdown.weaponDamage.some((x) => /Torc/.test(x.source) && x.value === 1337));
+  assert.ok(r.notes.some((x) => /disabled/.test(x)));
+  n.gear.necklace = { set: "Velothi Ur-Mage's Amulet", trait: null, enchant: null };
+  assert.ok(computeSheet(n, real).bars[0].breakdown.critDamage.some((x) => /Velothi.*Minor Force/.test(x.source)));
+});

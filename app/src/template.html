@@ -98,6 +98,16 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 .stickyres { position: fixed; left: 0; right: 0; bottom: 0; background: #0c0a07; border-top: 1px solid var(--line2); padding: 8px 16px; font-size: 13px; display: flex; gap: 12px; overflow-x: auto; white-space: nowrap; z-index: 20; }
 .stickyres b { color: var(--gold2); font-variant-numeric: tabular-nums; }
 .cpblock { margin: 8px 0 12px; }
+.cppgrid { display: grid; grid-template-columns: 1fr; gap: 4px 12px; }
+@media (min-width: 700px) { .cppgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.cpp { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 6px; min-height: 40px; }
+.cpp .toggle { padding: 4px 8px; }
+.cpp .num { width: auto; }
+.cpp .num input { width: 56px; flex: 0 0 56px; padding: 6px 2px; }
+.cpp .num button { width: 34px; flex: 0 0 34px; min-height: 34px; }
+.cpp.custom .toggle { color: var(--warn); }
+.cpp.custom { grid-column: 1 / -1; grid-template-columns: minmax(120px, 1fr) auto; }
+.cpp .num .jump { width: 40px; flex-basis: 40px; }
 .cpslot { display: flex; gap: 4px; min-width: 0; }
 .cpslot .combo { flex: 1; min-width: 0; }
 .cpslot input.pts { width: 52px; flex: 0 0 52px; padding: 6px 4px; text-align: center; font-size: 12px; }
@@ -217,7 +227,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       <h3>Champion Points</h3>
       <div class="row"><label class="toggle"><input type="checkbox" id="cpEnabled"> Champion Points</label></div>
       <div id="cpSlots"></div>
-      <details id="cpPassivesWrap"><summary class="fine">Passive stars (every one is assumed bought at max rank; untick the ones this character skipped)</summary><div class="checks" id="cpPassives"></div></details>
+      <details id="cpPassivesWrap"><summary class="fine">Passive stars (ticked = bought at max; untick one to set the stages this character has)</summary><div id="cpPassives"></div></details>
     </details>
 
     <details class="card span2" open>
@@ -303,7 +313,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   const SETS = Object.values(X.sets).sort((a, b) => a.name.localeCompare(b.name));
   const STARS = C.championPoints.stars.filter((s) => s.slottable);
   // Passive stars the engine applies (a sheet effect and no slot). Fixture 005 showed a character without Sprinter.
-  const PASSIVE_STARS = Object.values(X.championStars || {}).filter((s) => !s.slottable && s.status === 'ok').map((s) => ({ name: s.name, constellation: s.constellation, effect: s.raw }))
+  const PASSIVE_STARS = Object.values(X.championStars || {}).filter((s) => !s.slottable && s.status === 'ok').map((s) => ({ name: s.name, constellation: s.constellation, effect: s.raw, stages: s.stages || 1 }))
     .sort((a, b) => ['warfare', 'fitness', 'craft'].indexOf(a.constellation) - ['warfare', 'fitness', 'craft'].indexOf(b.constellation) || a.name.localeCompare(b.name));
   // Champion Point themes, agreed with the user for the picker. A star missing here falls into "Other".
   const CP_THEMES = {
@@ -508,14 +518,44 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         block.append(grid); cp.append(block);
       }
     }
-    // passive stars: ticked = bought (default), unticked goes to championPoints.notTaken
+    // passive stars by tree: ticked = every stage (the default). Unticked shows a stepper like the attributes
+    // (0, minus, value, plus, max) and the stages go to championPoints.points; 0 means not bought.
     const pw = $('cpPassives'); pw.innerHTML = '';
     $('cpPassivesWrap').classList.toggle('hidden', !build.championPoints.enabled);
-    const notTaken = new Set(build.championPoints.notTaken || []);
-    for (const st of PASSIVE_STARS) {
-      const cb = el('input', { type: 'checkbox' }); cb.checked = !notTaken.has(st.name);
-      cb.addEventListener('change', () => { const set = new Set(build.championPoints.notTaken || []); if (cb.checked) set.delete(st.name); else set.add(st.name); build.championPoints.notTaken = [...set]; if (!build.championPoints.notTaken.length) delete build.championPoints.notTaken; update(); });
-      pw.append(el('label', { class: 'toggle ' + st.constellation, title: st.effect }, [cb, document.createTextNode(' ' + st.name)]));
+    const legacyOff = new Set(build.championPoints.notTaken || []);
+    const ptsOf = (st) => { const p = (build.championPoints.points || {})[st.name]; if (p != null) return p; return legacyOff.has(st.name) ? 0 : st.stages; };
+    const setPts = (st, n) => {
+      const v = Math.max(0, Math.min(st.stages, Math.round(Number(n) || 0)));
+      const pt = { ...(build.championPoints.points || {}) };
+      if (v >= st.stages) delete pt[st.name]; else pt[st.name] = v;
+      if (Object.keys(pt).length) build.championPoints.points = pt; else delete build.championPoints.points;
+      if (legacyOff.has(st.name)) { const rest = [...legacyOff].filter((x) => x !== st.name); if (rest.length) build.championPoints.notTaken = rest; else delete build.championPoints.notTaken; }
+      update();
+    };
+    for (const con of ['warfare', 'fitness', 'craft']) {
+      const stars = PASSIVE_STARS.filter((st) => st.constellation === con);
+      if (!stars.length) continue;
+      const block = el('div', { class: 'cpblock ' + con }, [el('div', { class: 'lbl', text: con })]);
+      const grid = el('div', { class: 'cppgrid' });
+      for (const st of stars) {
+        const pts = ptsOf(st); const max = pts >= st.stages;
+        const cb = el('input', { type: 'checkbox' }); cb.checked = max;
+        cb.addEventListener('change', () => setPts(st, cb.checked ? st.stages : 0));
+        const row = el('div', { class: 'cpp' + (max ? '' : ' custom'), title: st.effect }, [el('label', { class: 'toggle' }, [cb, document.createTextNode(` ${st.name}`)])]);
+        if (!max) {
+          const input = el('input', { type: 'number', min: 0, max: st.stages, value: pts, inputmode: 'numeric' });
+          input.addEventListener('change', () => setPts(st, input.value));
+          row.append(el('div', { class: 'num' }, [
+            el('button', { type: 'button', class: 'jump', text: '0', title: 'Not bought', onclick: () => setPts(st, 0) }),
+            el('button', { type: 'button', text: '−', onclick: () => setPts(st, pts - 1) }),
+            input,
+            el('button', { type: 'button', text: '+', onclick: () => setPts(st, pts + 1) }),
+            el('button', { type: 'button', class: 'jump', text: String(st.stages), title: 'Every stage', onclick: () => setPts(st, st.stages) }),
+          ]));
+        } else row.append(el('span', { class: 'fine', text: `${st.stages} of ${st.stages}` }));
+        grid.append(row);
+      }
+      block.append(grid); pw.append(block);
     }
     $('charHint').textContent = `${build.race} ${build.class}`;
   }

@@ -12,8 +12,8 @@
     "total": 2414,
     "byStatus": {
      "ok": 1755,
-     "proc": 627,
-     "mixed": 14,
+     "proc": 626,
+     "mixed": 15,
      "unparsed": 12,
      "partial": 3,
      "empty": 3
@@ -50971,7 +50971,8 @@
      ]
     }
    },
-   "mythicSlot": "necklace"
+   "mythicSlot": "necklace",
+   "disablesOtherSets": true
   },
   "Tormentor": {
    "name": "Tormentor",
@@ -54062,17 +54063,30 @@
    ],
    "bonuses": {
     "1": {
-     "raw": "Increase your damage done to monsters by 15%, gain Minor Force at all times, increasing your Critical Damage done by 10%, and reduce your Light and Heavy Attack damage by 99%.",
-     "status": "proc",
-     "kind": "proc",
+     "raw": "Gain Minor Force at all times. Increase your damage done to monsters by 15%. Reduce your Light and Heavy Attack damage by 99%.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
+      {
+       "buff": "Minor Force",
+       "condition": null,
+       "raw": "Gain Minor Force at all times."
+      },
       {
        "kind": "proc",
        "condition": {
         "type": "attackCategory",
-        "detail": "Increase your damage done to monsters by 15%, gain Minor Force at all times, inc"
+        "detail": "Increase your damage done to monsters by 15%."
        },
-       "raw": "Increase your damage done to monsters by 15%, gain Minor Force at all times, increasing your Critical Damage done by 10%, and reduce your Light and Heavy Attack damage by 99%."
+       "raw": "Increase your damage done to monsters by 15%."
+      },
+      {
+       "kind": "proc",
+       "condition": {
+        "type": "combat",
+        "detail": "Reduce your Light and Heavy Attack damage by 99%."
+       },
+       "raw": "Reduce your Light and Heavy Attack damage by 99%."
       }
      ]
     }
