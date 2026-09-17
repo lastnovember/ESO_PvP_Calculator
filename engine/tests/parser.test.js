@@ -124,3 +124,12 @@ test('scribing: every grimoire has its own focus, signature and affix lists from
   assert.equal(S._meta.aliases['Class Mastery'], 'Class Flourish');
   assert.ok(S._meta.signatureDescriptions['Lingering Torment']);
 });
+
+test('attack classification from the esolog tags', () => {
+  const A = effects.skills.actives;
+  assert.deepEqual([A['Surprise Attack'].attack.target, A['Surprise Attack'].attack.delivery], ['single', 'direct']);
+  assert.deepEqual([A['Deep Fissure'].attack.target, A['Deep Fissure'].attack.delivery], ['aoe', 'direct']);
+  assert.equal(A['Hurricane'].attack.target, 'aoe');
+  assert.ok(A['Hurricane'].attack.delivery === 'dot' || A['Hurricane'].attack.delivery === 'mixed');
+  assert.ok(effects._meta.coverage.activeNodes.withAttackClass > 400, 'most abilities are classified');
+});

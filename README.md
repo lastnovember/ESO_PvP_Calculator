@@ -48,6 +48,14 @@ npm test
 `node tools/parse_effects/index.js --report` also lists every set bonus,
 passive, star or buff the grammar did not fully understand.
 
+## Item quality
+
+The Gear card has an "Item quality" toggle. Off (the default) every piece is gold. On, each
+armor, jewelry and weapon piece shows a quality control (gold, purple, blue) and the bulk editor
+gets a quality field. Trait magnitudes follow the UESP trait table columns; armor and weapon
+ratings scale by `items.qualityFactor`, which is unverified below gold until a purple piece is
+read from the game.
+
 ## Scribing script catalog
 
 The UESP page Online:Scribing is archived like the other UESP pages: its four

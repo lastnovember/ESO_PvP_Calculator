@@ -155,6 +155,13 @@ C['mundus'] = OrderedDict(
 def gold(cells):
     return num(cells[-1])
 
+
+QUALITY_KEYS = ['white', 'green', 'blue', 'purple', 'gold']  # Normal, Fine, Superior, Epic, Legendary columns
+
+
+def by_quality(cells):
+    return OrderedDict((k, num(c)) for k, c in zip(QUALITY_KEYS, cells[-5:]))
+
 armor_traits = OrderedDict()
 for row in table('uesp_Online_Traits_t01.csv'):
     if len(row) >= 8 and row[0] not in ('Trait', 'Normal'):
@@ -166,7 +173,7 @@ for row in table('uesp_Online_Traits_t01.csv'):
             'Well-fitted': 'sprintAndRollDodgeCost', 'Training': 'experience', 'Infused': 'armorEnchantEffect',
             'Invigorating': 'allRecovery', 'Divines': 'mundusEffect', 'Nirnhoned': 'physicalAndSpellResistance',
         }[name]
-        armor_traits[name] = OrderedDict(stat=stat, value=v, kind=kind, description=desc,
+        armor_traits[name] = OrderedDict(stat=stat, value=v, kind=kind, byQuality=by_quality(vals), description=desc,
                                         source=src('uesp_Online_Traits_t01.csv', name), verified=True)
 # Enchanting page lists Infused armor at 20% gold, Traits page at 25%. Newer patch notes should settle it.
 armor_traits['Infused']['note'] = 'tables/uesp_Online_Enchanting_t04.csv says 20% at gold; ' + pn('092', '2020-09-01', 'Infused: Increased the enchantment potency bonus to 25%, up from 20%.') + ' Newest note wins: 25%.'
@@ -184,11 +191,13 @@ while i < len(rows):
             v1, v2 = gold(one), gold(two)
             kind = 'percent' if one[-1].endswith('%') else 'flat'
             weapon_traits[name] = OrderedDict(description=desc, kind=kind, oneHand=v1, twoHand=v2,
+                                             oneHandByQuality=by_quality(one), twoHandByQuality=by_quality(two),
                                              source=src('uesp_Online_Traits_t00.csv', name), verified=True)
         else:
             vals = row[3:8]
             kind = 'percent' if vals[-1].endswith('%') else 'flat'
             weapon_traits[name] = OrderedDict(description=desc, kind=kind, oneHand=gold(vals), twoHand=gold(vals),
+                                             oneHandByQuality=by_quality(vals), twoHandByQuality=by_quality(vals),
                                              source=src('uesp_Online_Traits_t00.csv', name), verified=True)
     i += 1
 statmap_w = {'Powered': 'healingDone', 'Charged': 'statusEffectChance', 'Precise': 'critChance',
@@ -209,22 +218,22 @@ for idx, row in enumerate(rows):
         entry = OrderedDict(description=desc, source=src('uesp_Online_Traits_t02.csv', name), verified=True)
         if name == 'Triune':
             second = rows[idx + 1][0:5]
-            entry['values'] = [OrderedDict(stat='maxHealth', value=gold(vals), kind='flat'),
-                               OrderedDict(stat='maxMagicka', value=gold(second), kind='flat'),
-                               OrderedDict(stat='maxStamina', value=gold(second), kind='flat')]
+            entry['values'] = [OrderedDict(stat='maxHealth', value=gold(vals), kind='flat', byQuality=by_quality(vals)),
+                               OrderedDict(stat='maxMagicka', value=gold(second), kind='flat', byQuality=by_quality(second)),
+                               OrderedDict(stat='maxStamina', value=gold(second), kind='flat', byQuality=by_quality(second))]
         else:
             stat = {'Healthy': 'maxHealth', 'Arcane': 'maxMagicka', 'Robust': 'maxStamina',
                     'Bloodthirsty': 'weaponAndSpellDamageVsUnder90', 'Harmony': 'synergyRestore',
                     'Infused': 'jewelryEnchantEffect', 'Protective': 'physicalAndSpellResistance',
                     'Swift': 'movementSpeed'}[name]
             kind = 'percent' if name in ('Infused', 'Swift') else 'flat'
-            entry['values'] = [OrderedDict(stat=stat, value=gold(vals), kind=kind)]
+            entry['values'] = [OrderedDict(stat=stat, value=gold(vals), kind=kind, byQuality=by_quality(vals))]
         jewelry_traits[name] = entry
 jewelry_traits['Bloodthirsty']['note'] = 'Conditional on target health. Not applied to the sheet in phase 1 (target dependent).'
 jewelry_traits['Harmony']['note'] = 'Combat proc. Not applied to the sheet.'
 
 C['traits'] = OrderedDict(
-    note='Gold (Legendary) column of the UESP trait tables. Shields use armor traits.',
+    note='value, oneHand and twoHand are the gold (Legendary) column of the UESP trait tables; byQuality carries all five columns (white, green, blue, purple, gold) for the item quality toggle. Shields use armor traits.',
     armor=armor_traits, weapon=weapon_traits, jewelry=jewelry_traits,
 )
 
@@ -269,6 +278,13 @@ C['enchants'] = OrderedDict(
 # ---------------------------------------------------------------- armor and weapon item values
 C['items'] = OrderedDict(
     note='Armor rating of a gold CP160 piece with no trait, and weapon damage of a gold CP160 weapon. Not in data/reference. UNVERIFIED. Slot factors relative to the chest are the community understanding: chest 1.0, head shoulders legs feet 0.879, hands waist 0.5.',
+    qualityFactor=OrderedDict(
+        gold=sourced(1.0, 'definition: ratings are stated for gold (Legendary) CP160 items'),
+        purple=unverified(0.96, 'Armor and weapon rating of a purple (Epic) CP160 item relative to gold. Community steps of about 4% per quality; a purple piece reading settles it.', [0.95]),
+        blue=unverified(0.92, 'Blue (Superior) relative to gold, see purple.', [0.90]),
+        green=unverified(0.88, 'Green (Fine) relative to gold, see purple.'),
+        white=unverified(0.84, 'White (Normal) relative to gold, see purple.'),
+    ),
     armor=OrderedDict(
         heavy=OrderedDict(head=unverified(2437, 'heavy head'), shoulders=unverified(2437, 'heavy shoulders'), chest=unverified(2772, 'heavy chest'), hands=unverified(1386, 'heavy hands'), waist=unverified(1386, 'heavy waist'), legs=unverified(2437, 'heavy legs'), feet=unverified(2437, 'heavy feet')),
         medium=OrderedDict(head=unverified(1567, 'medium head'), shoulders=unverified(1567, 'medium shoulders'), chest=unverified(1782, 'medium chest'), hands=unverified(891, 'medium hands'), waist=unverified(891, 'medium waist'), legs=unverified(1567, 'medium legs'), feet=unverified(1567, 'medium feet')),

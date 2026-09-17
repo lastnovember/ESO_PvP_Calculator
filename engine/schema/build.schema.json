@@ -115,6 +115,7 @@
       "description": "Engine strategy switches used during validation against fixtures. Omit for defaults.",
       "type": "object", "additionalProperties": false,
       "properties": {
+        "itemQuality": { "type": "boolean", "default": false, "description": "When true, each item's quality field is used; when false every item counts as gold." },
         "esoPlus": { "type": "boolean", "default": true, "description": "ESO Plus member: the sheet shows 10% Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points." },
         "battleSpiritFlatHealth": { "type": "boolean", "default": true, "description": "Battle Spirit flat Max Health (1600 before percent bonuses, settled by fixtures 001 and 002). Set false to leave it out." },
         "strategies": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Named order-of-operation strategies, see engine docs." }
@@ -156,8 +157,8 @@
     },
 
     "quality": {
-      "description": "Reserved. Only 'gold' is accepted in phase 1. green, blue and purple are planned.",
-      "enum": ["gold"], "default": "gold"
+      "description": "Item quality. Read only when flags.itemQuality is true; otherwise every item is gold. Traits scale from the UESP trait tables, armor and weapon ratings by items.qualityFactor (unverified below gold).",
+      "enum": ["white", "green", "blue", "purple", "gold"], "default": "gold"
     },
     "weight": { "enum": ["light", "medium", "heavy"] },
     "armorTrait":   { "enum": ["Sturdy", "Impenetrable", "Reinforced", "Well-fitted", "Training", "Infused", "Invigorating", "Divines", "Nirnhoned"] },
@@ -236,8 +237,8 @@
         "mainHand": { "$ref": "#/definitions/weaponSlot" },
         "offHand":  { "$ref": "#/definitions/weaponSlot", "$comment": "Must be null when mainHand is a two handed weapon (greatsword, battle axe, maul, bow, any staff)." },
         "skills": {
-          "description": "Up to 5 ability names, final nodes only: the morph name, or the base name if unmorphed. Only used for 'while slotted' effects.",
-          "type": "array", "maxItems": 5, "items": { "type": "string" }
+          "description": "Five positional slots (slot 1 to 5 are the buttons); null is an empty slot. Ability names are final nodes only: the morph name, or the base name if unmorphed. Only used for 'while slotted' effects.",
+          "type": "array", "maxItems": 5, "items": { "oneOf": [ { "type": "string" }, { "type": "null" } ] }
         },
         "ultimate": { "oneOf": [ { "type": "string" }, { "type": "null" } ] },
         "poison": { "description": "Poison applied to this bar's weapons. A poison overrides the weapon enchant while it has charges. Combat proc, no sheet effect in phase 1.", "oneOf": [ { "type": "string" }, { "type": "null" } ], "default": null }

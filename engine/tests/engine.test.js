@@ -277,3 +277,42 @@ test('real data: perfected and normal trial pieces share the set count', async (
   assert.equal(r.bars[0].setCounts['Slivers of the Null Arca'], 5);
   assert.deepEqual(rows(r, 'weaponDamage', 'set Perfected Slivers of the Null Arca (5 perfected)'), [129]);
 });
+
+// Item quality: traits from the trait table columns, ratings by the quality factor, only with the toggle on.
+test('real data: item quality scales traits and ratings when the toggle is on', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const rows = (r, stat, src) => (r.bars[0].breakdown[stat] || []).filter((x) => x.source === src).map((x) => x.value);
+  const b = naked({ mundus: 'The Lover' });
+  b.gear.hands = { set: null, weight: 'light', trait: 'Divines', enchant: null, quality: 'purple' };
+  b.bars[0].mainHand = { set: null, type: 'sword', trait: 'Nirnhoned', enchant: null, quality: 'purple' };
+  const off = computeSheet(b, real);
+  const gold = constants.items.weaponDamage.value;
+  assert.deepEqual(rows(off, 'weaponDamage', 'item mainHand rating'), [Math.round(gold * 1.15)], 'toggle off: gold');
+  assert.deepEqual(rows(off, 'physicalPenetration', 'mundus The Lover'), [Math.round(2744 * 1.091)]);
+  b.flags = { ...b.flags, itemQuality: true };
+  const on = computeSheet(b, real);
+  const f = constants.items.qualityFactor.purple.value;
+  assert.deepEqual(rows(on, 'weaponDamage', 'item mainHand (purple) rating'), [Math.round(gold * f * 1.14)], 'purple Nirnhoned is 14% on a purple rating');
+  assert.deepEqual(rows(on, 'physicalPenetration', 'mundus The Lover'), [Math.round(2744 * 1.081)], 'purple Divines is 8.1%');
+});
+
+// Skill slots are positional: an ability in slot 5 stays in slot 5 and still counts.
+test('real data: skill slots are positional and weapon passives follow the equipped weapon', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const rows = (r, stat, src) => (r.bars[0].breakdown[stat] || []).filter((x) => x.source === src).map((x) => x.value);
+  const n = naked(); n.class = 'Nightblade'; n.classSkillLines = ['Assassination', 'Shadow', 'Siphoning'];
+  n.bars[0].skills = [null, null, null, null, "Killer's Blade"];
+  let r = computeSheet(n, real);
+  assert.equal(r.validation.errors.length, 0);
+  assert.deepEqual(rows(r, 'weaponCritRating', 'passive Pressure Points'), [438], 'slot 5 counts');
+  n.bars[0].skills = ["Killer's Blade", null, "Killer's Blade", null, null];
+  assert.ok(computeSheet(n, real).validation.errors.some((e) => /same skill/.test(e)));
+  // Destruction Staff passives need the staff, not a staff skill on the bar
+  const d = naked(); d.bars[0].skills = ['Destructive Clench', null, null, null, null];
+  d.bars[0].mainHand = { set: null, type: 'sword', trait: null, enchant: null }; d.bars[0].offHand = { set: null, type: 'sword', trait: null, enchant: null };
+  r = computeSheet(d, real);
+  assert.deepEqual(rows(r, 'blockCost', 'passive Ancient Knowledge'), [], 'no ice staff, no Ancient Knowledge');
+  d.bars[0].mainHand = { set: null, type: 'ice staff', trait: null, enchant: null }; d.bars[0].offHand = null;
+  r = computeSheet(d, real);
+  assert.deepEqual(rows(r, 'blockCost', 'passive Ancient Knowledge'), [-36]);
+});

@@ -209,7 +209,9 @@ export function validateBuild(build, data) {
     if (mh && mh.type === 'shield') errors.push(`bar ${i + 1}: a shield cannot be in the main hand`);
     if (oh && oh.type !== 'shield' && TWO_HANDED.has(oh.type)) errors.push(`bar ${i + 1}: two handed weapon in the off hand`);
     if (!mh && oh) warnings.push(`bar ${i + 1}: off hand without a main hand`);
-    if ((bar.skills || []).length > 5) errors.push(`bar ${i + 1}: more than 5 skills`);
+    if ((bar.skills || []).length > 5) errors.push(`bar ${i + 1}: more than 5 skill slots`);
+    const filled = (bar.skills || []).filter(Boolean);
+    if (new Set(filled).size !== filled.length) errors.push(`bar ${i + 1}: the same skill in two slots`);
   });
   // sets: piece counts, mythic, slot restrictions
   const mythics = new Set();
@@ -307,8 +309,9 @@ function barContext(build, barIndex, strategies) {
     shield: !!(oh && oh.type === 'shield'),
     oneHandAndShield: !!(mh && oh && oh.type === 'shield'),
     weaponTypes: weapons,
-    slotted: new Set([...(bar.skills || []), ...(bar.ultimate ? [bar.ultimate] : [])]),
-    slottedAnyBar: new Set((build.bars || []).flatMap((b) => [...(b.skills || []), ...(b.ultimate ? [b.ultimate] : [])])),
+    // skills is positional (slot 1 to 5 map to buttons); null is an empty slot
+    slotted: new Set([...(bar.skills || []).filter(Boolean), ...(bar.ultimate ? [bar.ultimate] : [])]),
+    slottedAnyBar: new Set((build.bars || []).flatMap((b) => [...(b.skills || []).filter(Boolean), ...(b.ultimate ? [b.ultimate] : [])])),
     battleSpirit: !!build.battleSpirit,
     vampireStage: build.vampireStage || 0,
     werewolf: !!build.werewolf,
@@ -483,17 +486,24 @@ function collect(build, data, barIndex, strategies) {
   if (ctx.bar.mainHand) items.push({ slot: 'mainHand', cat: 'weapon', it: ctx.bar.mainHand });
   if (ctx.bar.offHand) items.push({ slot: ctx.bar.offHand.type === 'shield' ? 'shield' : 'offHand', cat: ctx.bar.offHand.type === 'shield' ? 'shield' : 'weapon', it: ctx.bar.offHand });
 
+  // Item quality: read only when flags.itemQuality is on, gold otherwise. Traits come from the UESP trait table
+  // columns (verified); armor and weapon ratings scale by items.qualityFactor (unverified below gold).
+  const qualityOn = !!(build.flags && build.flags.itemQuality);
+  const qualityOf = (it) => (qualityOn && it && C.items.qualityFactor[it.quality] ? it.quality : 'gold');
+  const qf = (it) => v(C.items.qualityFactor[qualityOf(it)]);
+  const tq = (t, it) => (t && t.byQuality && t.byQuality[qualityOf(it)] != null ? t.byQuality[qualityOf(it)] : t.value);
+  const wq = (t, it, two) => { const q = qualityOf(it); const m = two ? t.twoHandByQuality : t.oneHandByQuality; return m && m[q] != null ? m[q] : (two ? t.twoHand : t.oneHand); };
   for (const { slot, cat, it } of items) {
-    const src = `item ${slot}`;
+    const src = `item ${slot}` + (qualityOf(it) !== 'gold' ? ` (${qualityOf(it)})` : '');
     // base armor rating
     if (cat === 'armor' || cat === 'shield') {
-      let armor = cat === 'shield' ? v(C.items.shieldArmor) : v(C.items.armor[it.weight][slot]);
-      if (it.trait === 'Reinforced') armor *= 1 + v(C.traits.armor.Reinforced.value) / 100;
+      let armor = (cat === 'shield' ? v(C.items.shieldArmor) : v(C.items.armor[it.weight][slot])) * qf(it);
+      if (it.trait === 'Reinforced') armor *= 1 + tq(C.traits.armor.Reinforced, it) / 100;
       acc.add('armor', 'flat', Math.round(armor), `${src} armor`);
     }
     // weapon rating
     if (cat === 'weapon') {
-      const rating = v(C.items.weaponDamage) * (it.trait === 'Nirnhoned' ? 1 + v(C.traits.weapon.Nirnhoned.oneHand) / 100 : 1);
+      const rating = v(C.items.weaponDamage) * qf(it) * (it.trait === 'Nirnhoned' ? 1 + wq(C.traits.weapon.Nirnhoned, it, TWO_HANDED.has(it.type)) / 100 : 1);
       if (slot === 'mainHand') acc.add('weaponAndSpellDamage', 'flat', Math.round(rating), `${src} rating`);
       else if (strategies.offHandRating === 'full') acc.add('weaponAndSpellDamage', 'flat', Math.round(rating), `${src} rating`);
       else acc.add('offHandRating', 'flat', Math.round(rating), `${src} rating`);
@@ -502,14 +512,14 @@ function collect(build, data, barIndex, strategies) {
     if (it.trait) {
       if (cat === 'armor' || cat === 'shield') {
         const t = C.traits.armor[it.trait];
-        if (t && t.stat === 'mundusEffect') divinesPercent += t.value;
-        else if (t && t.stat === 'blockCost') acc.add('blockCost', 'percent', -t.value, `${src} ${it.trait}`);
-        else if (t && t.stat === 'sprintAndRollDodgeCost') acc.add('sprintAndRollDodgeCost', 'percent', -t.value, `${src} ${it.trait}`);
-        else if (t && ['critResistance', 'allRecovery', 'physicalAndSpellResistance'].includes(t.stat)) acc.add(t.stat, t.kind, t.value, `${src} ${it.trait}`);
+        if (t && t.stat === 'mundusEffect') divinesPercent += tq(t, it);
+        else if (t && t.stat === 'blockCost') acc.add('blockCost', 'percent', -tq(t, it), `${src} ${it.trait}`);
+        else if (t && t.stat === 'sprintAndRollDodgeCost') acc.add('sprintAndRollDodgeCost', 'percent', -tq(t, it), `${src} ${it.trait}`);
+        else if (t && ['critResistance', 'allRecovery', 'physicalAndSpellResistance'].includes(t.stat)) acc.add(t.stat, t.kind, tq(t, it), `${src} ${it.trait}`);
       } else if (cat === 'weapon') {
         const t = C.traits.weapon[it.trait];
         const two = TWO_HANDED.has(it.type);
-        const val = two ? t.twoHand : t.oneHand;
+        const val = wq(t, it, two);
         if (t.stat === 'critChance') {
           if (strategies.preciseTrait === 'rating') acc.add('critRating', 'flat', val * v(C.base.critRatingPerPercent), `${src} Precise`);
           else acc.add('critChancePercent', 'percent', val, `${src} Precise`);
@@ -519,7 +529,7 @@ function collect(build, data, barIndex, strategies) {
       } else if (cat === 'jewelry') {
         const t = C.traits.jewelry[it.trait];
         if (t && !['weaponAndSpellDamageVsUnder90', 'synergyRestore', 'jewelryEnchantEffect'].includes(t.values[0].stat)) {
-          for (const e of t.values) acc.add(e.stat, e.kind, e.value, `${src} ${it.trait}`);
+          for (const e of t.values) acc.add(e.stat, e.kind, tq(e, it), `${src} ${it.trait}`);
         }
       }
     }
@@ -739,6 +749,9 @@ function computeBar(build, data, barIndex, strategies) {
     diseaseResistancePercent: physMit, poisonResistancePercent: physMit, bleedResistancePercent: physMit,
     ...typedDamage,
     damageDoneSingleTargetPercent: round1(acc.pct('damageDoneSingleTarget')),
+    damageDoneDirectPercent: round1(acc.pct('damageDoneDirect')),
+    damageDoneAoePercent: round1(acc.pct('damageDoneAoe')),
+    damageDoneDotPercent: round1(acc.pct('damageDoneDot')),
     healingDoneFlat: 0, healingTakenFlat: 0,
     critHealingPercent: round1(critHealing),
     experiencePercent: esoPlus, goldPercent: esoPlus, craftingInspirationPercent: esoPlus, telVarPercent: esoPlus, alliancePointsPercent: esoPlus,

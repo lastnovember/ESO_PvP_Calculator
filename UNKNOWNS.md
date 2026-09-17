@@ -102,6 +102,7 @@ Named items are community tooltip values.
 
 | Item | Status |
 | --- | --- |
+| Armor and weapon rating by quality | `items.qualityFactor` purple 0.96, blue 0.92, green 0.88, white 0.84 of gold are community steps. One reading with a single purple armor piece and one with a purple weapon settle them by differencing. Trait values by quality are verified (UESP trait tables). |
 | Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
 | Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
 

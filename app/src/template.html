@@ -81,6 +81,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 .topbar .row { margin: 0; }
 .topbar input.name { flex: 1 1 160px; }
 .fine { font-size: 12px; color: var(--muted); }
+[hidden] { display: none !important; }
 .hidden { display: none !important; }
 .stickyres { position: fixed; left: 0; right: 0; bottom: 0; background: #0c0a07; border-top: 1px solid var(--line2); padding: 8px 16px; font-size: 13px; display: flex; gap: 12px; overflow-x: auto; white-space: nowrap; z-index: 20; }
 .stickyres b { color: var(--gold2); font-variant-numeric: tabular-nums; }
@@ -102,6 +103,10 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 .gear { border-bottom: 1px solid var(--line); padding: 8px 0; }
 .gear .hd { display: flex; justify-content: space-between; align-items: baseline; font-family: var(--display); font-size: 12.5px; font-weight: 600; color: var(--gold2); margin-bottom: 4px; letter-spacing: .06em; }
 .gear .hd small { color: var(--muted); font-weight: normal; font-family: var(--body); letter-spacing: 0; }
+.qual { display: inline-flex; align-items: center; gap: 4px; font-family: var(--body); font-size: 12px; letter-spacing: 0; font-weight: normal; margin-left: 8px; }
+.qual button { padding: 0 6px; min-height: 20px; line-height: 18px; font-size: 12px; }
+.qual .q { min-width: 44px; text-align: center; text-transform: capitalize; }
+.qual .q.gold { color: #d8a93a; } .qual .q.purple { color: #b47ee6; } .qual .q.blue { color: #5d9ee8; } .qual .q.green { color: #6dbb5a; } .qual .q.white { color: #ddd; }
 .gearrow { display: grid; grid-template-columns: 4fr 1.5fr 2.25fr 2.25fr; gap: 6px; }
 .gearrow.j { grid-template-columns: 4fr 3fr 3fr; }
 .gearrow.w { grid-template-columns: 2fr 4fr 2fr 2fr; margin: 4px 0; }
@@ -186,6 +191,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 
     <details class="card span2" open>
       <summary><h2>Gear</h2><span class="hint" id="gearHint"></span></summary>
+      <div class="row"><label class="toggle"><input type="checkbox" id="itemQuality"> Item quality</label><span class="fine">Gold unless this is on; then each piece can be lowered to purple or blue with the buttons.</span></div>
       <h3>Bulk editor</h3>
       <div class="fine">Pick a set, trait, weight or enchant, check the slots below, then apply. Blank fields are left alone.</div>
       <div class="bulk">
@@ -196,6 +202,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
           <label class="f"><span>Trait</span><div class="combo" id="bulkTrait"></div></label>
           <label class="f"><span>Weight</span><select id="bulkWeight"><option value="">keep</option><option value="light">Light</option><option value="medium">Medium</option><option value="heavy">Heavy</option></select></label>
           <label class="f"><span>Enchant</span><div class="combo" id="bulkEnchant"></div></label>
+          <label class="f" id="bulkQualityWrap"><span>Quality</span><select id="bulkQuality"><option value="">keep</option><option value="gold">Gold</option><option value="purple">Purple</option><option value="blue">Blue</option></select></label>
         </div>
         <div class="checks" id="bulkSlots"></div>
         <div class="row"><button class="primary" id="bulkApply">Apply to checked slots</button><button id="bulkAll" class="small">Check all armor</button><button id="bulkJewelry" class="small">Check jewelry</button><button id="bulkNone" class="small">Clear checks</button></div>
@@ -324,8 +331,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     skillLines: Object.fromEntries(TOGGLE_LINES.map((l) => [l, true])),
     scribing: {},
     gear: Object.fromEntries([...ARMOR.map((s) => [s, { set: null, weight: 'medium', trait: null, enchant: null }]), ...JEWELRY.map((s) => [s, { set: null, trait: null, enchant: null }])]),
-    bars: [{ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null }, { mainHand: null, offHand: null, skills: [], ultimate: null, poison: null }],
-    flags: { battleSpiritFlatHealth: true, esoPlus: true, strategies: {} },
+    bars: [{ mainHand: null, offHand: null, skills: [null, null, null, null, null], ultimate: null, poison: null }, { mainHand: null, offHand: null, skills: [null, null, null, null, null], ultimate: null, poison: null }],
+    flags: { battleSpiritFlatHealth: true, esoPlus: true, itemQuality: false, strategies: {} },
   });
   let build = defaultBuild();
   let result = null;
@@ -387,7 +394,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     const a = X.skills.actives[name];
     return !!a && availableLines().has(a.line);
   }
-  const pruneSkills = () => build.bars.forEach((b) => { b.skills = b.skills.filter(abilityAvailable); if (b.ultimate && !abilityAvailable(b.ultimate)) b.ultimate = null; });
+  const pruneSkills = () => build.bars.forEach((b) => { b.skills = Array.from({ length: 5 }, (_, k) => (b.skills[k] && abilityAvailable(b.skills[k]) ? b.skills[k] : null)); if (b.ultimate && !abilityAvailable(b.ultimate)) b.ultimate = null; });
 
   function renderCharacter() {
     const raceOpts = RACES.map((r) => ({ value: r, label: r }));
@@ -461,6 +468,17 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   }
 
   // ------------------------------------------------------------ skills
+  // single target or area, direct or over time, from the esolog tags (what Deadly Aim, Master-at-Arms, Biting Aura and Thaumaturge key on)
+  function attackNote(name) {
+    const a = X.skills.actives[name]; if (!a) return '';
+    const focus = a.scribing && build.scribing[name] && build.scribing[name].focus;
+    const k = a.attack || (a.attackByFocus && focus && a.attackByFocus[focus]); if (!k) return a.attackByFocus ? 'by focus script' : '';
+    const parts = [];
+    if (k.kinds.includes('Dmg')) parts.push('damage: ' + [k.target === 'mixed' ? 'single + area' : k.target === 'single' ? 'single target' : k.target === 'aoe' ? 'area' : null, k.delivery === 'mixed' ? 'direct + over time' : k.delivery].filter(Boolean).join(', '));
+    if (k.kinds.includes('Heal')) parts.push('heal');
+    if (k.kinds.includes('DmgShield')) parts.push('shield');
+    return parts.join('; ');
+  }
   function skillOptions(ultimate) {
     const lines = availableLines();
     const order = { Class: 0, Weapon: 1, Armor: 2, Guild: 3, 'Alliance War': 4, World: 5 };
@@ -473,8 +491,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       for (const a of l.actives) {
         if (!!a.ultimate !== !!ultimate) continue;
         if (a.scribing) { opts.push({ value: a.base, label: `${a.base}, scribed`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base} scribing grimoire` }); continue; }
-        opts.push({ value: a.base, label: `${a.base}, unmorphed`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base}` });
-        for (const m of a.morphs) opts.push({ value: m, label: `${a.base} › ${m}`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base} ${m}` });
+        opts.push({ value: a.base, label: `${a.base}, unmorphed`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base}`, note: attackNote(a.base) });
+        for (const m of a.morphs) opts.push({ value: m, label: `${a.base} › ${m}`, group: `${l.group}: ${l.name}`, search: `${l.name} ${a.base} ${m}`, note: attackNote(m) });
       }
     }
     return opts;
@@ -501,7 +519,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         const cur = bar.skills[i] || null;
         const c = el('div', { class: 'combo' });
         box.append(el('div', { class: 'skillrow' }, [el('span', { class: 'idx', text: `${i + 1}` }), c]));
-        combo(c, skillOpts.filter((o) => o.value === cur || !bar.skills.includes(o.value)), cur, (v) => { const arr = bar.skills.slice(); if (v) arr[i] = v; else arr.splice(i, 1); bar.skills = arr.filter(Boolean); update(); }, 'empty slot');
+        // slots are positional (they are the buttons): an empty slot stays empty, nothing moves up
+        combo(c, skillOpts.filter((o) => o.value === cur || !bar.skills.includes(o.value)), cur, (v) => { const arr = Array.from({ length: 5 }, (_, k) => bar.skills[k] || null); arr[i] = v || null; bar.skills = arr; update(); }, 'empty slot');
         if (cur && SCRIBING[cur]) box.append(scriptsRow(cur));
       }
       const c = el('div', { class: 'combo' });
@@ -592,6 +611,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   }
   const field = (label, node, cls = 'c') => el('label', { class: cls }, [label, node]);
   function renderGear() {
+    $('itemQuality').checked = !!build.flags.itemQuality;
+    $('bulkQualityWrap').hidden = !build.flags.itemQuality;
     const host = $('gearSlots'); host.innerHTML = '';
     for (const slot of [...ARMOR, ...JEWELRY]) {
       const item = build.gear[slot] || (build.gear[slot] = itemDefaults(slot));
@@ -600,7 +621,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       const locked = isArmor && applyWeightLock(item);
       const tag = !meta ? '' : meta.mythic ? 'mythic' : meta.monster ? 'monster set' : (locked ? `${meta.settype.split(' ')[0].toLowerCase()} only` : '');
       const box = el('div', { class: 'gear' });
-      box.append(el('div', { class: 'hd' }, [SLOT_LABEL[slot], el('small', { text: tag })]));
+      box.append(el('div', { class: 'hd' }, [SLOT_LABEL[slot], el('span', {}, [el('small', { text: tag }), ...(build.flags.itemQuality ? [qualityCtl(item)] : [])])]));
       const row = el('div', { class: 'gearrow' + (isArmor ? '' : ' j') });
       const sc = el('div', { class: 'combo' }); row.append(field('Set', sc));
       combo(sc, setOptionsFor(slot), item.set, (v) => { item.set = v; applyWeightLock(item); fillMonsterPair(slot, v); update(); }, 'no set');
@@ -624,7 +645,18 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     renderBulkChecks();
     renderSetSummary();
   }
-  const bulk = { set: null, trait: null, enchant: null, weight: '', checks: new Set() };
+  const bulk = { set: null, trait: null, enchant: null, weight: '', quality: '', checks: new Set() };
+  const QUALITIES_UI = ['gold', 'purple', 'blue'];
+  function qualityCtl(item) {
+    const q = QUALITIES_UI.includes(item.quality) ? item.quality : 'gold';
+    const i = QUALITIES_UI.indexOf(q);
+    const set = (nq) => { item.quality = nq; update(); };
+    return el('span', { class: 'qual' }, [
+      el('button', { type: 'button', text: '−', title: 'Lower quality', onclick: () => { if (i < QUALITIES_UI.length - 1) set(QUALITIES_UI[i + 1]); } }),
+      el('span', { class: 'q ' + q, text: q }),
+      el('button', { type: 'button', text: '+', title: 'Raise quality', onclick: () => { if (i > 0) set(QUALITIES_UI[i - 1]); } }),
+    ]);
+  }
   function bulkEntries() {
     const meta = bulk.set ? X.sets[bulk.set] : null;
     const out = [];
@@ -670,6 +702,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       if (ARMOR.includes(slot)) applyWeightLock(item);
       if (bulk.trait) { const [c, t] = bulk.trait.split(':'); if (c === cat) item.trait = t; }
       if (bulk.enchant) { const [c, t] = bulk.enchant.split(':'); if (c === cat) item.enchant = t; }
+      if (bulk.quality && build.flags.itemQuality) item.quality = bulk.quality;
     }
     update();
   }
@@ -737,6 +770,11 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       const layout = barLayout(bar);
       if (layout === 'twoHanded') box.append(weaponRow(bar, 'mainHand', 'Weapon', TWO_HANDED_TYPES));
       else if (layout === 'oneHanded') { box.append(weaponRow(bar, 'mainHand', 'Main hand', ONE_HANDED)); box.append(weaponRow(bar, 'offHand', 'Off hand', OFF_HAND_TYPES)); }
+      if (layout && build.flags.itemQuality) {
+        const q = el('div', { class: 'fine' }, [el('span', { text: 'Quality: ' }), el('span', { text: layout === 'oneHanded' ? 'main hand ' : '' }), qualityCtl(bar.mainHand)]);
+        if (layout === 'oneHanded' && bar.offHand) q.append(el('span', { text: ' off hand ' }), qualityCtl(bar.offHand));
+        box.append(q);
+      }
       if (layout) {
         const pc = el('div', { class: 'combo' });
         const wrap = el('div', { class: 'row' + (bar.poison ? ' poison' : '') }, [el('label', { class: 'f' }, [el('span', { text: bar.poison ? 'Poison, overrides the weapon enchants on this bar' : 'Poison' }), pc])]);
@@ -767,6 +805,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     ['Critical Damage', 'critDamagePercent', '%', 'critDamage'],
     ['Physical Damage', 'physicalDamagePercent', 'dmg', 'damageDone'], ['Bleed Damage', 'bleedDamagePercent', 'dmg', 'damageDone'], ['Disease Damage', 'diseaseDamagePercent', 'dmg', 'damageDone'], ['Flame Damage', 'flameDamagePercent', 'dmg', 'damageDone'], ['Frost Damage', 'frostDamagePercent', 'dmg', 'damageDone'],
     ['Magic Damage', 'magicDamagePercent', 'dmg', 'damageDone'], ['Oblivion Damage', 'oblivionDamagePercent', 'dmg', 'damageDone'], ['Poison Damage', 'poisonDamagePercent', 'dmg', 'damageDone'], ['Shock Damage', 'shockDamagePercent', 'dmg', 'damageDone'],
+    ['Damage Done, all attacks', 'damageDonePercent', '%', 'damageDone'], ['Damage Done, single target only', 'damageDoneSingleTargetPercent', '%', 'damageDoneSingleTarget'], ['Damage Done, direct only', 'damageDoneDirectPercent', '%', 'damageDoneDirect'], ['Damage Done, area only', 'damageDoneAoePercent', '%', 'damageDoneAoe'], ['Damage Done, over time only', 'damageDoneDotPercent', '%', 'damageDoneDot'],
     ['Healing Done', 'healingDonePercent', 'dmg', 'healingDone'], ['Critical Healing', 'critHealingPercent', '%', 'critHealing'], ['Healing Taken', 'healingTakenPercent', 'dmg', 'healingTaken'],
     ['Experience', 'experiencePercent', '%', null], ['Gold', 'goldPercent', '%', null], ['Crafting Inspiration', 'craftingInspirationPercent', '%', null], ['Tel Var', 'telVarPercent', '%', null], ['Alliance Points', 'alliancePointsPercent', '%', null],
     ['Damage Taken', 'damageTakenPercent', '%', 'damageTaken'], ['Damage Shield Strength', 'damageShieldStrengthPercent', '%', 'damageShieldStrength'], ['Magicka Cost', 'magickaCostPercent', '%', 'magickaCost'], ['Stamina Cost', 'staminaCostPercent', '%', 'staminaCost'], ['Ultimate Cost', 'ultimateCostPercent', '%', 'ultimateCost'],
@@ -857,7 +896,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     for (const sc of Object.values(b.scribing)) for (const k of ['focus', 'signature', 'affix']) if (sc && alias[sc[k]]) sc[k] = alias[sc[k]];
     b.gear = { ...fresh.gear, ...(obj.gear || {}) };
     b.bars = [0, 1].map((i) => ({ mainHand: null, offHand: null, skills: [], ultimate: null, poison: null, ...((obj.bars || [])[i] || {}) }));
-    b.flags = { battleSpiritFlatHealth: true, esoPlus: true, strategies: {}, ...(obj.flags || {}) };
+    for (const bar of b.bars) bar.skills = Array.from({ length: 5 }, (_, k) => (bar.skills || [])[k] || null);
+    b.flags = { battleSpiritFlatHealth: true, esoPlus: true, itemQuality: false, strategies: {}, ...(obj.flags || {}) };
     if (!b.classSkillLines || b.classSkillLines.length !== 3) b.classSkillLines = [...(E.CLASS_LINES[b.class] || E.CLASS_LINES.Dragonknight)];
     if (!Array.isArray(b.classMastery)) b.classMastery = [];
     build = b; $('buildName').value = build.name || '';
@@ -902,6 +942,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   $('copyBtn').addEventListener('click', async () => { try { await navigator.clipboard.writeText($('jsonBox').value); } catch (e) { $('jsonBox').select(); document.execCommand('copy'); } });
   $('applyJsonBtn').addEventListener('click', () => { try { const obj = JSON.parse($('jsonBox').value); if (obj.build && obj.readings) loadBuild(obj.build); else loadBuild(obj); } catch (e) { alert('Not valid JSON: ' + e.message); } });
   $('bulkApply').addEventListener('click', bulkApply);
+  $('bulkQuality').addEventListener('change', (ev) => { bulk.quality = ev.target.value; });
+  $('itemQuality').addEventListener('change', (ev) => { build.flags.itemQuality = ev.target.checked; update(); });
   $('bulkAll').addEventListener('click', () => { ARMOR.forEach((s) => bulk.checks.add(s)); renderBulkChecks(); });
   $('bulkJewelry').addEventListener('click', () => { JEWELRY.forEach((s) => bulk.checks.add(s)); renderBulkChecks(); });
   $('bulkNone').addEventListener('click', () => { bulk.checks.clear(); renderBulkChecks(); });

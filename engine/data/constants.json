@@ -420,12 +420,19 @@
     }
   },
   "traits": {
-    "note": "Gold (Legendary) column of the UESP trait tables. Shields use armor traits.",
+    "note": "value, oneHand and twoHand are the gold (Legendary) column of the UESP trait tables; byQuality carries all five columns (white, green, blue, purple, gold) for the item quality toggle. Shields use armor traits.",
     "armor": {
       "Sturdy": {
         "stat": "blockCost",
         "value": 4,
         "kind": "percent",
+        "byQuality": {
+          "white": 2,
+          "green": 2.5,
+          "blue": 3,
+          "purple": 3.5,
+          "gold": 4
+        },
         "description": "Reduce block cost by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Sturdy'",
         "verified": true
@@ -434,6 +441,13 @@
         "stat": "critResistance",
         "value": 132,
         "kind": "flat",
+        "byQuality": {
+          "white": 121,
+          "green": 124,
+          "blue": 127,
+          "purple": 129,
+          "gold": 132
+        },
         "description": "Increase your Critical Resistance by … and this item takes 50% less durability damage.",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Impenetrable'",
         "verified": true
@@ -442,6 +456,13 @@
         "stat": "itemArmor",
         "value": 16,
         "kind": "percent",
+        "byQuality": {
+          "white": 12,
+          "green": 13,
+          "blue": 14,
+          "purple": 15,
+          "gold": 16
+        },
         "description": "Increases this item's armor value by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Reinforced'",
         "verified": true
@@ -450,6 +471,13 @@
         "stat": "sprintAndRollDodgeCost",
         "value": 6,
         "kind": "percent",
+        "byQuality": {
+          "white": 1.2,
+          "green": 2.4,
+          "blue": 3.6,
+          "purple": 4.8,
+          "gold": 6
+        },
         "description": "Reduces the cost of sprinting and Roll Dodging by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Well-fitted'",
         "verified": true
@@ -458,6 +486,13 @@
         "stat": "experience",
         "value": 11,
         "kind": "percent",
+        "byQuality": {
+          "white": 7,
+          "green": 8,
+          "blue": 9,
+          "purple": 10,
+          "gold": 11
+        },
         "description": "Increase experience gained from kills by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Training'",
         "verified": true
@@ -466,6 +501,13 @@
         "stat": "armorEnchantEffect",
         "value": 25,
         "kind": "percent",
+        "byQuality": {
+          "white": 9,
+          "green": 13,
+          "blue": 17,
+          "purple": 21,
+          "gold": 25
+        },
         "description": "Increase armor enchantment effect by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Infused'",
         "verified": true,
@@ -475,6 +517,13 @@
         "stat": "allRecovery",
         "value": 16,
         "kind": "flat",
+        "byQuality": {
+          "white": 8,
+          "green": 10,
+          "blue": 12,
+          "purple": 14,
+          "gold": 16
+        },
         "description": "Increase Health Recovery , Magicka Recovery , and Stamina Recovery by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Invigorating'",
         "verified": true
@@ -483,6 +532,13 @@
         "stat": "mundusEffect",
         "value": 9.1,
         "kind": "percent",
+        "byQuality": {
+          "white": 5.1,
+          "green": 6.1,
+          "blue": 7.1,
+          "purple": 8.1,
+          "gold": 9.1
+        },
         "description": "Increases Mundus Stone effects by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Divines'",
         "verified": true
@@ -491,6 +547,13 @@
         "stat": "physicalAndSpellResistance",
         "value": 253,
         "kind": "flat",
+        "byQuality": {
+          "white": 220,
+          "green": 228,
+          "blue": 236,
+          "purple": 244,
+          "gold": 253
+        },
         "description": "Increases Physical and Spell Resistance by …",
         "source": "tables/uesp_Online_Traits_t01.csv row 'Nirnhoned'",
         "verified": true,
@@ -503,6 +566,20 @@
         "kind": "percent",
         "oneHand": 4.5,
         "twoHand": 9,
+        "oneHandByQuality": {
+          "white": 2.5,
+          "green": 3,
+          "blue": 3.5,
+          "purple": 4,
+          "gold": 4.5
+        },
+        "twoHandByQuality": {
+          "white": 5,
+          "green": 6,
+          "blue": 7,
+          "purple": 8,
+          "gold": 9
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Powered'",
         "verified": true,
         "stat": "healingDone"
@@ -512,6 +589,20 @@
         "kind": "percent",
         "oneHand": 117.5,
         "twoHand": 235,
+        "oneHandByQuality": {
+          "white": 97.5,
+          "green": 102.5,
+          "blue": 107.5,
+          "purple": 112.5,
+          "gold": 117.5
+        },
+        "twoHandByQuality": {
+          "white": 195,
+          "green": 205,
+          "blue": 215,
+          "purple": 225,
+          "gold": 235
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Charged'",
         "verified": true,
         "stat": "statusEffectChance"
@@ -521,6 +612,20 @@
         "kind": "percent",
         "oneHand": 3.6,
         "twoHand": 7.2,
+        "oneHandByQuality": {
+          "white": 1.6,
+          "green": 2.1,
+          "blue": 2.6,
+          "purple": 3.1,
+          "gold": 3.6
+        },
+        "twoHandByQuality": {
+          "white": 3.2,
+          "green": 4.2,
+          "blue": 5.2,
+          "purple": 6.2,
+          "gold": 7.2
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Precise'",
         "verified": true,
         "stat": "critChance",
@@ -531,6 +636,20 @@
         "kind": "percent",
         "oneHand": 30,
         "twoHand": 30,
+        "oneHandByQuality": {
+          "white": 10,
+          "green": 15,
+          "blue": 20,
+          "purple": 25,
+          "gold": 30
+        },
+        "twoHandByQuality": {
+          "white": 10,
+          "green": 15,
+          "blue": 20,
+          "purple": 25,
+          "gold": 30
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Infused'",
         "verified": true,
         "stat": "weaponEnchantEffect",
@@ -541,6 +660,20 @@
         "kind": "flat",
         "oneHand": 1638,
         "twoHand": 3276,
+        "oneHandByQuality": {
+          "white": 1428,
+          "green": 1485,
+          "blue": 1542,
+          "purple": 1580,
+          "gold": 1638
+        },
+        "twoHandByQuality": {
+          "white": 2856,
+          "green": 2971,
+          "blue": 3085,
+          "purple": 3161,
+          "gold": 3276
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Defending'",
         "verified": true,
         "stat": "physicalAndSpellResistance"
@@ -550,6 +683,20 @@
         "kind": "percent",
         "oneHand": 4.5,
         "twoHand": 9,
+        "oneHandByQuality": {
+          "white": 2.5,
+          "green": 3,
+          "blue": 3.5,
+          "purple": 4,
+          "gold": 4.5
+        },
+        "twoHandByQuality": {
+          "white": 5,
+          "green": 6,
+          "blue": 7,
+          "purple": 8,
+          "gold": 9
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Training'",
         "verified": true,
         "stat": "experience"
@@ -559,6 +706,20 @@
         "kind": "flat",
         "oneHand": 1638,
         "twoHand": 3276,
+        "oneHandByQuality": {
+          "white": 1428,
+          "green": 1485,
+          "blue": 1542,
+          "purple": 1580,
+          "gold": 1638
+        },
+        "twoHandByQuality": {
+          "white": 2856,
+          "green": 2971,
+          "blue": 3085,
+          "purple": 3161,
+          "gold": 3276
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Sharpened'",
         "verified": true,
         "stat": "physicalAndSpellPenetration"
@@ -568,6 +729,20 @@
         "kind": "percent",
         "oneHand": 27.5,
         "twoHand": 55,
+        "oneHandByQuality": {
+          "white": 19.1,
+          "green": 21.2,
+          "blue": 23.2,
+          "purple": 25.4,
+          "gold": 27.5
+        },
+        "twoHandByQuality": {
+          "white": 38.2,
+          "green": 42.4,
+          "blue": 46.4,
+          "purple": 50.8,
+          "gold": 55
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Decisive'",
         "verified": true,
         "stat": "ultimateChance"
@@ -577,6 +752,20 @@
         "kind": "percent",
         "oneHand": 15,
         "twoHand": 15,
+        "oneHandByQuality": {
+          "white": 11,
+          "green": 12,
+          "blue": 13,
+          "purple": 14,
+          "gold": 15
+        },
+        "twoHandByQuality": {
+          "white": 11,
+          "green": 12,
+          "blue": 13,
+          "purple": 14,
+          "gold": 15
+        },
         "source": "tables/uesp_Online_Traits_t00.csv row 'Nirnhoned'",
         "verified": true,
         "stat": "weaponDamageOfItem",
@@ -592,7 +781,14 @@
           {
             "stat": "maxHealth",
             "value": 965,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 844,
+              "green": 877,
+              "blue": 910,
+              "purple": 932,
+              "gold": 965
+            }
           }
         ]
       },
@@ -604,7 +800,14 @@
           {
             "stat": "maxMagicka",
             "value": 877,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 767,
+              "green": 797,
+              "blue": 827,
+              "purple": 847,
+              "gold": 877
+            }
           }
         ]
       },
@@ -616,7 +819,14 @@
           {
             "stat": "maxStamina",
             "value": 877,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 767,
+              "green": 797,
+              "blue": 827,
+              "purple": 847,
+              "gold": 877
+            }
           }
         ]
       },
@@ -628,7 +838,14 @@
           {
             "stat": "weaponAndSpellDamageVsUnder90",
             "value": 350,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 210,
+              "green": 245,
+              "blue": 280,
+              "purple": 315,
+              "gold": 350
+            }
           }
         ],
         "note": "Conditional on target health. Not applied to the sheet in phase 1 (target dependent)."
@@ -641,7 +858,14 @@
           {
             "stat": "synergyRestore",
             "value": 880,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 770,
+              "green": 800,
+              "blue": 830,
+              "purple": 850,
+              "gold": 880
+            }
           }
         ],
         "note": "Combat proc. Not applied to the sheet."
@@ -654,7 +878,14 @@
           {
             "stat": "jewelryEnchantEffect",
             "value": 60,
-            "kind": "percent"
+            "kind": "percent",
+            "byQuality": {
+              "white": 24,
+              "green": 33,
+              "blue": 42,
+              "purple": 51,
+              "gold": 60
+            }
           }
         ]
       },
@@ -666,17 +897,38 @@
           {
             "stat": "maxHealth",
             "value": 482,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 422,
+              "green": 438,
+              "blue": 455,
+              "purple": 466,
+              "gold": 482
+            }
           },
           {
             "stat": "maxMagicka",
             "value": 439,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 384,
+              "green": 399,
+              "blue": 414,
+              "purple": 424,
+              "gold": 439
+            }
           },
           {
             "stat": "maxStamina",
             "value": 439,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 384,
+              "green": 399,
+              "blue": 414,
+              "purple": 424,
+              "gold": 439
+            }
           }
         ]
       },
@@ -688,7 +940,14 @@
           {
             "stat": "physicalAndSpellResistance",
             "value": 1190,
-            "kind": "flat"
+            "kind": "flat",
+            "byQuality": {
+              "white": 1053,
+              "green": 1091,
+              "blue": 1128,
+              "purple": 1153,
+              "gold": 1190
+            }
           }
         ]
       },
@@ -700,7 +959,14 @@
           {
             "stat": "movementSpeed",
             "value": 7,
-            "kind": "percent"
+            "kind": "percent",
+            "byQuality": {
+              "white": 3,
+              "green": 4,
+              "blue": 5,
+              "purple": 6,
+              "gold": 7
+            }
           }
         ]
       }
@@ -1109,6 +1375,43 @@
   },
   "items": {
     "note": "Armor rating of a gold CP160 piece with no trait, and weapon damage of a gold CP160 weapon. Not in data/reference. UNVERIFIED. Slot factors relative to the chest are the community understanding: chest 1.0, head shoulders legs feet 0.879, hands waist 0.5.",
+    "qualityFactor": {
+      "gold": {
+        "value": 1.0,
+        "source": "definition: ratings are stated for gold (Legendary) CP160 items",
+        "verified": true
+      },
+      "purple": {
+        "value": 0.96,
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Armor and weapon rating of a purple (Epic) CP160 item relative to gold. Community steps of about 4% per quality; a purple piece reading settles it.",
+        "alternatives": [
+          0.95
+        ]
+      },
+      "blue": {
+        "value": 0.92,
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Blue (Superior) relative to gold, see purple.",
+        "alternatives": [
+          0.9
+        ]
+      },
+      "green": {
+        "value": 0.88,
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "Green (Fine) relative to gold, see purple."
+      },
+      "white": {
+        "value": 0.84,
+        "source": "UNVERIFIED",
+        "verified": false,
+        "note": "White (Normal) relative to gold, see purple."
+      }
+    },
     "armor": {
       "heavy": {
         "head": {

@@ -266,6 +266,69 @@ function buildScribing() {
   return out;
 }
 
+// ------------------------------------------------------------------ attack classification
+// The esolog equations tag every damage or heal placeholder: Dmg or Heal, SingleTarget or AOE, Direct or DOT, the
+// damage type, Melee. Rank rows are "Name 1" to "Name 4"; all ranks are folded into one classification per ability.
+// Champion stars and passives that name a category (single target, direct, area, over time) apply per this.
+function classifyActives(actives) {
+  const rows = parseCsv(readFileSync(join(REF, 'tables', 'esolog_skill_coefficients_t00.csv'), 'utf8'));
+  const by = {};
+  const KIND = ['Dmg', 'Heal', 'DmgShield']; const TYPES = ['Magic', 'Physical', 'Flame', 'Shock', 'Frost', 'Bleed', 'Disease', 'Poison', 'Oblivion'];
+  for (const r of rows) {
+    if (r.length < 9 || !(r[4] || '').trim()) continue;
+    const name = r[0].trim().replace(/ [1-4]$/, '');
+    if (!actives[name]) continue;
+    for (const seg of (r[8] || '').split(/<<\d+>> =/)) {
+      const i = seg.indexOf('(Ultimate, ratio');
+      if (i < 0) continue;
+      const tags = seg.slice(i + 1).replace(/\)\s*$/, '').split(',').map((x) => x.trim());
+      const t = (by[name] = by[name] || { kinds: new Set(), targets: new Set(), deliveries: new Set(), types: new Set(), melee: false });
+      for (const tag of tags) {
+        if (KIND.includes(tag)) t.kinds.add(tag);
+        if (tag === 'SingleTarget' || tag === 'AOE') t.targets.add(tag);
+        if (tag === 'Direct' || tag === 'DOT') t.deliveries.add(tag);
+        if (TYPES.includes(tag)) t.types.add(tag);
+        if (tag === 'Melee') t.melee = true;
+      }
+    }
+  }
+  // scribed skills: the esolog names them by focus and grimoire ("Shocking Contingency"), so a grimoire gets one
+  // classification per focus script and the app reads the one for the chosen focus
+  const SHORT = { Smash: 'Smash', Vault: 'Vault', Trample: 'Trample', Knife: 'Traveling Knife', Throw: 'Shield Throw', Explosion: 'Elemental Explosion', Torch: 'Torchbearer', Torchbearer: 'Torchbearer', Bearer: 'Banner Bearer', Burst: 'Soul Burst', Bond: "Mender's Bond", Contingency: "Ulfsild's Contingency", Soul: 'Wield Soul' };
+  const FOCUS_WORD = { Bloody: 'Bleed Damage', Fiery: 'Flame Damage', Chilling: 'Frost Damage', Magical: 'Magic Damage', Magic: 'Magic Damage', Venomous: 'Poison Damage', Pestilent: 'Disease Damage', Sundering: 'Physical Damage', Healing: 'Healing', Goading: 'Taunt', Binding: 'Immobilize', Dazing: 'Stun', Repelling: 'Knockback', Dispelling: 'Dispel', Warding: 'Damage Shield', Traumatic: 'Trauma', Shocking: 'Shock Damage', Shattering: 'Multi-Target', Leashing: 'Pull' };
+  const byFocus = {};
+  for (const r of rows) {
+    if (r.length < 9) continue;
+    const m = r[0].trim().match(/^([A-Z][a-z]+) (Smash|Vault|Trample|Knife|Throw|Explosion|Torch|Torchbearer|Bearer|Burst|Bond|Contingency|Soul)$/);
+    if (!m || !FOCUS_WORD[m[1]] || !SHORT[m[2]]) continue;
+    const g = SHORT[m[2]]; const focus = FOCUS_WORD[m[1]];
+    for (const seg of (r[8] || '').split(/<<\d+>> =/)) {
+      const i = seg.indexOf('(Ultimate, ratio');
+      if (i < 0) continue;
+      const tags = seg.slice(i + 1).replace(/\)\s*$/, '').split(',').map((x) => x.trim());
+      const t = ((byFocus[g] = byFocus[g] || {})[focus] = byFocus[g][focus] || { kinds: new Set(), targets: new Set(), deliveries: new Set(), types: new Set(), melee: false });
+      for (const tag of tags) {
+        if (KIND.includes(tag)) t.kinds.add(tag);
+        if (tag === 'SingleTarget' || tag === 'AOE') t.targets.add(tag);
+        if (tag === 'Direct' || tag === 'DOT') t.deliveries.add(tag);
+        if (TYPES.includes(tag)) t.types.add(tag);
+      }
+    }
+  }
+  const pick = (set, a, b, la, lb) => (set.has(a) && set.has(b) ? 'mixed' : set.has(a) ? la : set.has(b) ? lb : null);
+  for (const [g, focuses] of Object.entries(byFocus)) {
+    if (!actives[g]) continue;
+    actives[g].attackByFocus = Object.fromEntries(Object.entries(focuses).filter(([, t]) => t.kinds.size).map(([f, t]) => [f, { target: pick(t.targets, 'SingleTarget', 'AOE', 'single', 'aoe'), delivery: pick(t.deliveries, 'Direct', 'DOT', 'direct', 'dot'), kinds: [...t.kinds], damageTypes: [...t.types] }]));
+  }
+  let n = 0;
+  for (const [name, t] of Object.entries(by)) {
+    if (!t.kinds.size) continue;
+    actives[name].attack = { target: pick(t.targets, 'SingleTarget', 'AOE', 'single', 'aoe'), delivery: pick(t.deliveries, 'Direct', 'DOT', 'direct', 'dot'), kinds: [...t.kinds], damageTypes: [...t.types], melee: t.melee, source: 'tables/esolog_skill_coefficients_t00.csv' };
+    n += 1;
+  }
+  return n;
+}
+
 // ------------------------------------------------------------------ champion stars and buffs
 function buildStars() {
   const stars = {};
@@ -329,6 +392,7 @@ export function build() {
   };
   for (const p of Object.values(K.passives)) for (const e of p.effects) fixCond(e.condition);
   for (const a of Object.values(K.actives)) for (const e of a.whileSlotted || []) fixCond(e.condition);
+  const classified = classifyActives(K.actives);
   const C = buildStars();
   const B = buildBuffs();
   const pct = (n, d) => (d ? Math.round((n / d) * 1000) / 10 : 0);
@@ -338,7 +402,7 @@ export function build() {
     passives: { total: K.stats.passives, byStatus: K.stats.byStatus, parsedPercent: pct(covered(K.stats.byStatus), K.stats.passives) },
     championStars: { total: C.stats.stars, byStatus: C.stats.byStatus, parsedPercent: pct(covered(C.stats.byStatus), C.stats.stars) },
     namedBuffs: { total: B.stats.buffs, byStatus: B.stats.byStatus, parsedPercent: pct(covered(B.stats.byStatus), B.stats.buffs) },
-    activeNodes: { total: K.stats.actives, withWhileSlotted: K.stats.slottedNodes },
+    activeNodes: { total: K.stats.actives, withWhileSlotted: K.stats.slottedNodes, withAttackClass: classified },
     note: 'parsedPercent counts a text as covered when every sentence was understood: as a sheet effect, a named buff, a combat or target proc (kept as kind proc), or flavor. partial and unparsed count against coverage.',
   };
   const out = {
