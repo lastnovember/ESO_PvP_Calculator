@@ -1259,7 +1259,7 @@
           "value": 84,
           "source": "tooltip image supplied by the user, 2026-09-19 (engine/tests/fixtures/photos/tooltip-prismatic-recovery-and-reduce-skill-cost-glyphs.jpg): Truly Superb Glyph of Prismatic Recovery, minimum level CP160, Adds 84 Magicka Recovery, Adds 84 Health Recovery, Adds 84 Stamina Recovery",
           "verified": true,
-          "note": "The only sheet reading with this glyph exported (Templar, fixtures 005 and 006) shows no share from the ring: its three recoveries are exact with nothing from it and 84 would read 1517, 1785 and 446 against 1411, 1785 and 415. That ring most likely carries another glyph (the same image shows Reduce Skill Cost, which has no main sheet stat); pending the user, see UNKNOWNS.md."
+          "note": "The only sheet reading with this glyph exported (Templar, fixtures 005 and 006) shows no share from the ring: its three recoveries are exact with nothing from it and 84 would read 1517, 1785 and 446 against 1411, 1785 and 415. That ring carries Reduce Skill Cost: the user's tooltip of it (engine/tests/fixtures/photos/tooltip-templar-ring1-monomyth-reforged.jpg, 2026-09-19) reads Reduce Prismatic Cost 133, Protective 1190, Monomyth Reforged; fixtures 005 and 006 carry the correction."
         },
         "values": [
           {

@@ -265,7 +265,7 @@ stay open: the pages hold no rating table and no recovery source the engine lack
 - A reading of the necromancer outside Cyrodiil: Healing Done should drop by 12 if Curative Curse
   is the Battle Spirit reading, and the crit and Magicka Recovery offsets should stay.
 
-- Templar: which glyph the Protective ring carries (the sheet shows none of the Prismatic Recovery 84; Reduce Skill Cost fits) and whether the medium shoulders or feet are purple (resistances 72 high in the engine); Physical and Bleed Damage percents re-read at rest.
+- Templar: whether the medium shoulders or feet are purple (resistances 72 high in the engine); the ring glyph is answered (2026-09-19, below); Physical and Bleed Damage percents re-read at rest.
 - Templar naked front bar (no gear, no food, mundus may stay), then with only the two axes, then
   only the main axe: settles the vampire Health Recovery, the sneak cost, and the dual wield and
   Nirnhoned Weapon Damage rules.
@@ -275,3 +275,14 @@ stay open: the pages hold no rating table and no recovery source the engine lack
 - Trait on each mace and which one is main hand (dual wield Weapon Damage 236 short).
 - An armor only reading to split armor ratings from Markyn's per set armor (resistances 825 short
   on every geared reading).
+
+## Correction, 2026-09-19: Templar ring 1 (fixtures 005 and 006)
+
+The user's tooltip of ring 1 (`photos/tooltip-templar-ring1-monomyth-reforged.jpg`): Reduce
+Prismatic Cost Enchantment, reduce Health, Magicka and Stamina cost of abilities by 133;
+Protective, 1190 resistance; Monomyth Reforged (1/1). The export had carried Prismatic Recovery.
+Both fixtures record the correction under `corrections` and now use Reduce Skill Cost. Matches:
+005 from 43 to 46 of 51, 006 from 45 to 48 of 51 (the three recoveries). Still open on the
+Templar: the 72 resistance (one purple medium piece), Roll Dodge Cost stacking, the front bar
+Physical and Bleed Damage percents (a buff running out during the photos).
+
