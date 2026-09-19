@@ -305,7 +305,7 @@
       ]
     },
     "glyphs": {
-      "Health, chest head legs": "984 as typed (954 fits the sheet and the 386 small piece, see constants)",
+      "Health, chest head legs": "984, confirmed by the user as read (not a typo). The sheet's Max Health sums 954 per large piece; open in UNKNOWNS.md.",
       "Health, other pieces": "386"
     },
     "sets": {

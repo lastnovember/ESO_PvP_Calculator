@@ -990,9 +990,9 @@
       "Health": {
         "large": {
           "value": 954,
-          "source": "fixtures 009 and 010 (Dragonknight, seven Glyphs of Health): Max Health 30684 is exact with 954 and 385 and 94 over with the 984 the user typed from the tooltip (2026-09-19); 984 would also give a 398 small piece, not the 386 read, at the 0.4043 small to large ratio every other glyph shows, so 954 is kept and 984 is taken as a misread of 954.",
+          "source": "fixtures 009 and 010 (Dragonknight, seven Glyphs of Health, Sugar Skulls): Max Health 30684 = (16000 + 12 x 122 + 1000 Argonian + 560 Hero's Vigor + 1454 Trainee + 3 x 954 + 4 x 385 + 4624) x 1.04 exactly; every other term is pinned by the other three characters, and 954 is twice the Prismatic Defense 477 the same tooltips give. The user reads 984 on the chest, head and legs tooltips and confirms it is not a typo (2026-09-19); with 984 the sheet would be 94 over, so the tooltip and the sheet disagree by 30 per large piece for a reason not in the archive (UNKNOWNS.md).",
           "verified": true,
-          "note": "The user's tooltip line: Chest/Head/Legs 984 Health, all else 386."
+          "note": "Tooltip reads 984, the sheet sums 954."
         },
         "small": {
           "value": 385,
