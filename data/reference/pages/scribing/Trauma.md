@@ -15,3 +15,7 @@ Afflicts all enemies with 3116 Healing Absorption for 3 seconds.
 
 ## Notes
 - The Daedric text on the script reads "Trauma".
+
+## Tables extracted from this page
+
+- tables/scribing_Trauma_t00.csv (2 rows): Elemental Explosion | Elemental Explosion (Traumatic Explosion) | Afflicts enemies with 4032 Healing Absorption for 3 se

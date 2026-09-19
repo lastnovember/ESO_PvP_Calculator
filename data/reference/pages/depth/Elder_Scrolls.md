@@ -53,3 +53,7 @@ Offensive Scroll Bonus II | Offensive Scroll Bonus II | Increases Weapon and Spe
 File:ON-item-Elder Scroll 02.jpg|A player running with an offensive Elder Scroll
 File:ON-item-Elder Scroll 03.jpg|A player running with a defensive Elder Scroll
 File:ON-item-Elder Scroll 04.jpg|A Elder Scroll on the back of a player
+
+## Tables extracted from this page
+
+- tables/depth_Elder_Scrolls_t00.csv (4 rows): Defensive Scroll Bonus I | Defensive Scroll Bonus I | Increases Physical and Spell Resistance by 2%.

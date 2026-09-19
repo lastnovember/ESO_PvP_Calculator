@@ -124,3 +124,12 @@ File:ON-skill-Shocking Banner.jpg|Shocking Banner
 
 ## Notes
 - Prior to Update 46, Banner Bearer had no casting cost and would instead reduce your Health, Magicka, and Stamina Recovery by 33% (40% with Immobilize Focus Script).
+
+## Tables extracted from this page
+
+- tables/scribing_Banner_Bearer_t00.csv (8 rows): Script | Skill Name | Effects
+- tables/scribing_Banner_Bearer_t01.csv (8 rows): Cavalier's Charge | Cavalier's Charge | Increase your Weapon and Spell Damage by 6 for every 1% bonus Movement Speed, up
+- tables/scribing_Banner_Bearer_t02.csv (8 rows): Berserk | Berserk | Grants Minor Berserk, increasing damage done by 5%.
+- tables/skills_Banner_Bearer_t00.csv (8 rows): Script | Skill Name | Effects
+- tables/skills_Banner_Bearer_t01.csv (8 rows): Cavalier's Charge | Cavalier's Charge | Increase your Weapon and Spell Damage by 6 for every 1% bonus Movement Speed, up
+- tables/skills_Banner_Bearer_t02.csv (8 rows): Berserk | Berserk | Grants Minor Berserk, increasing damage done by 5%.

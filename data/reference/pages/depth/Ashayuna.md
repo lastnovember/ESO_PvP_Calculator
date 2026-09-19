@@ -89,3 +89,8 @@ If you spared Ashayuna, she will hand you the Bloodstained Cloth and flees. If y
 Prince Naemon takes the Staff of Magnus and turns Ashayuna to stone:
 :Prince Naemon: "You will serve as a warning for all who seek to undermine me."
 :
+
+## Tables extracted from this page
+
+- tables/depth_Ashayuna_t00.csv (1 rows): Wearing Worm Cult Apprentice Garb: | Wearing Worm Cult Bonelord Armor:
+- tables/depth_Ashayuna_t01.csv (1 rows): Killed Prince Naemon Previously: | Otherwise:

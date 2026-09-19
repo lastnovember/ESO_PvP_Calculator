@@ -27,3 +27,7 @@ White Rose Prison | Feral Devourer | Imperial | Varies | a
 ;Desecrated Ground:On death, the undead rarely desecrate the ground under them as indicated by a red circle. This does continuous minor magic damage and snares all targets as well as healing undead enemies within the red circle. (Only with undead ferals)
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Feral_t00.csv (5 rows): Location | Name | Race | Gender | Health

@@ -6091,3 +6091,67 @@ The Unbroken | This strange flame staff is constructed of some unfamiliar materi
 Molag Kena
 Spell Power Cure
 Molag Kena's Touch | This exotic shock staff seems to crackle with internal energy even when at rest.
+
+## Tables extracted from this page
+
+- tables/depth_Unique_Items_t00.csv (11 rows): Place | Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t01.csv (44 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t02.csv (51 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t03.csv (50 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t04.csv (38 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t05.csv (44 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t06.csv (8 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t07.csv (7 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t08.csv (51 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t09.csv (50 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t10.csv (52 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t11.csv (45 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t12.csv (48 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t13.csv (5 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t14.csv (4 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t15.csv (50 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t16.csv (50 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t17.csv (47 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t18.csv (46 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t19.csv (53 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t20.csv (45 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t21.csv (7 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t22.csv (40 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t23.csv (23 rows): Place | Boss/Quest | Set | Item Name
+- tables/depth_Unique_Items_t24.csv (8 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t25.csv (6 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t26.csv (16 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t27.csv (42 rows): Rumor | Place | Related Decision | Set | Item Name | Description
+- tables/depth_Unique_Items_t28.csv (32 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t29.csv (42 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t30.csv (16 rows): Place | Boss?Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t31.csv (35 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t32.csv (4 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t33.csv (39 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t34.csv (15 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t35.csv (39 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t36.csv (22 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t37.csv (32 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t38.csv (19 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t39.csv (32 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t40.csv (18 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t41.csv (26 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t42.csv (29 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t43.csv (38 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t44.csv (17 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t45.csv (18 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t46.csv (16 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t47.csv (9 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t48.csv (9 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t49.csv (19 rows): Place | Boss/Quest | Set | Item Name | Description
+- tables/depth_Unique_Items_t50.csv (18 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t51.csv (16 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t52.csv (10 rows): Place | Boss | Set | Item Name | Description
+- tables/depth_Unique_Items_t53.csv (9 rows): Place | Boss/Quest | Set | Item Name
+- tables/depth_Unique_Items_t54.csv (18 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t55.csv (18 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t56.csv (9 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t57.csv (9 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t58.csv (9 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t59.csv (22 rows): Place | Boss | Set | Item Name
+- tables/depth_Unique_Items_t60.csv (12 rows): Place | Boss | Set | Item Name | Description

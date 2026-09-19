@@ -21,3 +21,7 @@ Total w/ Shield | % (white) / % (green) / % (blue) / % (purple) / % (gold)
 
 ## Notes
 - For percentage based Mundus Stones (The Ritual, The Shadow, The Steed), the total percentage gain is truncated. For example, The Shadow provides 11% increased critical damage. A single Epic Divines piece will provide 11% * 1.081 = 11.891%, which gets truncated to 11% increased critical damage (the same as having no Divines pieces). Two Epic Divines pieces will provide 11% * 1.162 = 12.782%, which gets truncated to 12% increased critical damage.
+
+## Tables extracted from this page
+
+- tables/depth_Divines_t00.csv (4 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

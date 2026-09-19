@@ -39,3 +39,7 @@ Other
 ## See Also
 style motif]] based on the armor and weapons used by the Coldsnap Tribe.
 Faction
+
+## Tables extracted from this page
+
+- tables/depth_Coldsnap_Tribe_t00.csv (1 rows): Coldsnap Tribe

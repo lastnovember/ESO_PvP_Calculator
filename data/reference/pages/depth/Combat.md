@@ -243,3 +243,10 @@ With Combat Text enabled, floating text will display incoming and outgoing damag
 - Taunt
 - Leashing
 - Animation Canceling
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Combat_t00.csv (8 rows): Attack type | Chance to apply status effect
+- tables/uesp_Online_Combat_t01.csv (14 rows): Status Effect | Notes
+- tables/depth_Combat_t00.csv (8 rows): Attack type | |Chance to apply status effect
+- tables/depth_Combat_t01.csv (14 rows): x32px | Damaged Attribute | Attribute maximum decreased (e.g. Minor Mangle)

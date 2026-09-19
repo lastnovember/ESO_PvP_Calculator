@@ -34,3 +34,7 @@ Cyrodiil | Gray Viper Stalwart | Orc | Varies | 46943
 ;Brace:When performing a heavy attack near or on the tank, they may briefly block with its shield, reducing damage taken greatly. Players who attempt melee heavy attacks on the enemy while it is blocking will be set off balance.
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Tank_t00.csv (10 rows): Location | Name | Race | Gender | Health

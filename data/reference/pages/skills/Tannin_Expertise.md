@@ -39,3 +39,7 @@ Dreugh Wax
 
 ## Patch Notes
 [Patch 1.2.3] * Fixed a typo in the passive Tannin Expertise 1.
+
+## Tables extracted from this page
+
+- tables/skills_Tannin_Expertise_t00.csv (5 rows): Chance | 100% | Chance | 100% | Chance | 100% | Chance | 100%

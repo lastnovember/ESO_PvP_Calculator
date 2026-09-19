@@ -27,3 +27,8 @@ Riposte | 30 | While blocking, grants a 15% chance to return [x] damage to the a
 Butcher | 75 | Light and Heavy attacks deal 5% more damage to enemies below 25% Health.
 
 Tactician | 120 | Sets enemies off balance when you successfully use Roll Dodge to avoid their attack.
+
+## Tables extracted from this page
+
+- tables/depth_The_Atronach_champion_t00.csv (4 rows): 40px | Master-at-Arms | Increases the damage of your direct damage attacks by [0-25]%.
+- tables/depth_The_Atronach_champion_t01.csv (4 rows): 40px | Retaliation | 10 | Increases the damage of your next Light Attack by 30% after blocking a Heavy Attack.

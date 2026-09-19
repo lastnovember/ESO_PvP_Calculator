@@ -263,3 +263,11 @@ Sometimes, there are other events which behave like Synergies, giving you the op
 - During some parts in Necrom's main quests after recovering Meln the Mouthless, you can use the 24Ghost Sight synergy against spirit-like enemies which have dramatic damage taken reduction. Dealing damage to those enemies grants you a stack of "Ghost Sight" for 30 seconds, and at 3 stacks a small area appears on the ground which grants you the Ghost Light synergy. Activating this synergy greatly increases your damage done for a time and causes the spirit-like enemies to immediately change back into their physical form.
 - After defeating Vaermina's Nightmare in The Mythos, you will use the 24 Black Book: The Tormented Eye synergy twice to fire a beam at Vaermina herself.
 - During Chronicle of Fate, you will have to use 24Meln's Ghost Sight to reveal a passage.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Synergy_t00.csv (66 rows): Skill Synergy Uses Per Cast Effect Undaunted Sanguine Altar ​ Blood Funnel 12 Heals for 40% of your Max Health . Overflo
+- tables/uesp_Online_Synergy_t01.csv (53 rows): Skill | Synergy | Uses Per Cast | Effect
+- tables/uesp_Online_Synergy_t02.csv (9 rows): Set | Weight | complete set bonus
+- tables/skills_Synergy_t00.csv (53 rows): Skill | Synergy | Uses Per Cast | Effect
+- tables/skills_Synergy_t01.csv (9 rows): Set | Weight | complete set bonus

@@ -21,3 +21,7 @@ Each enemy hit increases the damage to other enemies by 5%, stacking up to 20 ti
 
 ## Notes
 - The Daedric text on the script reads "Chance".
+
+## Tables extracted from this page
+
+- tables/scribing_Warrior_s_Opportunity_t00.csv (4 rows): Traveling Knife | Traveling Knife | Enemies hit take 8% more Martial damage for 5 seconds.

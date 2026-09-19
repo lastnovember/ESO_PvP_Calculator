@@ -138,3 +138,15 @@ File:ON-render-Werewolves in Vvardenfell.jpg|Werewolf Refresh
 
 ## Bugs
 Peddler of Prizes]].
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Werewolf_t00.csv (19 rows): Insatiable Hunger | 1 | Werewolf Transformation
+- tables/uesp_Online_Werewolf_t01.csv (1 rows): Bonus | Effect
+- tables/uesp_Online_Werewolf_t02.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Werewolf_t03.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Werewolf_t04.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Werewolf_t05.csv (10 rows): Rank | Points Required for Next Rank | Total Points for Rank
+- tables/uesp_Online_Werewolf_t06.csv (7 rows): Achievement | Points | Description | Reward
+- tables/depth_Werewolf_t00.csv (1 rows): Bonus | Effect
+- tables/depth_Werewolf_t01.csv (10 rows): Rank | Points Required for Next Rank | Total Points for Rank

@@ -24,3 +24,7 @@ rowspan=2|Ebonheart Pact
 Northern Morrowind Gate | Farayn
 
 Southern Morrowind Gate | Milva Bandu
+
+## Tables extracted from this page
+
+- tables/depth_Mercenary_Merchants_t00.csv (6 rows): Alliance | Keep | Vendor

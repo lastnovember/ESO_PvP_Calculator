@@ -27,3 +27,7 @@ Reduce the effectiveness of negative snares by 30%.
 
 ## Notes
 - The Daedric text on the script reads "Break Free".
+
+## Tables extracted from this page
+
+- tables/scribing_Crusader_s_Defiance_t00.csv (6 rows): Mender's Bond | Mender's Bond | Grants immunity to disabling effects for 3 seconds to the ally.

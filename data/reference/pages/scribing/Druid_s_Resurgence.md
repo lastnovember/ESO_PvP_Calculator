@@ -33,3 +33,7 @@ Increases Health, Magicka, and Stamina Recovery of other group members by 139.
 
 ## Notes
 - The Daedric text on the script reads "Restore".
+
+## Tables extracted from this page
+
+- tables/scribing_Druid_s_Resurgence_t00.csv (8 rows): Elemental Explosion | Elemental Explosion | Restores 441 Magicka to you per enemy hit.

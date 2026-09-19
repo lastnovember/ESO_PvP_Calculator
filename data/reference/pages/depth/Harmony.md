@@ -154,3 +154,7 @@ CP160 | 770 (white) / 800 (green) / 830 (blue) / 850 (purple) / 880 (gold)
 ESO Patch Note|8.3.5|
 - This trait now grants you up to 880 Health, Magicka, and Stamina when you activate a synergy per trait, rather than increasing the healing, damage, and shielding potency of synergies by 20% per trait.
 - Fixed an issue where Harmony did not interact with Companion synergies.
+
+## Tables extracted from this page
+
+- tables/depth_Harmony_t00.csv (67 rows): 7Normal | 7Fine | 7Superior | 7Epic | 7Legendary

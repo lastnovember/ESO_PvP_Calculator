@@ -204,3 +204,7 @@ Thornblade | Daedric Battleaxe | Moon-Cursed Blade | Umbra | Wings of the Queen 
 ## Notes
 - Artifacts have been planned since Patch 2.4.0, adding skill icons for Auriel's Bow, Auriel's Shield, Spellbreaker, Volendrung, the Ebony Mail, and Sword of the Crusader. So far, only Volendrung has been added.
 Item
+
+## Tables extracted from this page
+
+- tables/depth_Artifacts_t00.csv (4 rows): Cleaver of St. Felms | Sword of the Crusader | Stendarr's Hammer | Debaser | Ice Blade of the Monarch | Mace of Aevar St

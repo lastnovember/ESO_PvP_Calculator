@@ -38,3 +38,7 @@ scope="row"|CP130
 
 scope="row"|CP140
 18 | 32
+
+## Tables extracted from this page
+
+- tables/depth_Electrum_t00.csv (7 rows): Gear Level | Electrum Ring | Electrum Necklace

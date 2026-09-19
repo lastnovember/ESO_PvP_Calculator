@@ -38,3 +38,7 @@ scope="row"|32
 
 scope="row"|34
 13 | 11 | 11 | 11 | 12 | 11 | 11 | 80
+
+## Tables extracted from this page
+
+- tables/depth_Cotton_t00.csv (5 rows): Armor Level | Cotton Robe/Jerkin | Cotton Shoes | Cotton Gloves | Cotton Hat | Cotton Breeches | Cotton Epaulets | Cotto

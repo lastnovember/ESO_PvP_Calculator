@@ -335,3 +335,7 @@ colspan=2|Cleanse
 Self and Allies
 8100 Magicka
 Remove 2 Harmful Effects
+
+## Tables extracted from this page
+
+- tables/depth_Healing_t00.csv (78 rows): Skill | Healing | Affects | Cost | Other Effects

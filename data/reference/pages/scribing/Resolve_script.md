@@ -27,3 +27,7 @@ Grants Minor Resolve, increasing ESO Resistance Link|Physical | |y and Spell Res
 
 ## Notes
 - The Daedric text on the script reads "Resolve".
+
+## Tables extracted from this page
+
+- tables/scribing_Resolve_script_t00.csv (6 rows): Shield Throw | Shield Throw | Grants you Major Resolve for 10 seconds on return, increasing ESO Resistance Link|Physical

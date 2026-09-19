@@ -38,3 +38,7 @@ Weapon Level | Ebon Axe | Ebon Hammer | Ebon Sword | Ebon Battle Axe | Ebon Maul
 
 50
 9 | 9 | 9 | 11 | 11 | 11 | 8
+
+## Tables extracted from this page
+
+- tables/depth_Ebony_Ore_t00.csv (9 rows): Armor Level | Ebon Cuirass | Ebon Sabatons | Ebon Gauntlets | Ebon Helm | Ebon Greaves | Ebon Pauldron | Ebon Girdle | T

@@ -18,3 +18,7 @@ Deflects the next direct damage attack used against you within 3 seconds. This c
 
 ## Notes
 - The Daedric text on the script reads "Blade Turn".
+
+## Tables extracted from this page
+
+- tables/scribing_Fencer_s_Parry_t00.csv (3 rows): Shield Throw | Shield Throw | Deflects the next direct damage attack made against you within 3 seconds on return. This c

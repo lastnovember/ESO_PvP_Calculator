@@ -108,3 +108,7 @@ CP160 | 225 (white) / 234 (green) / 243 (blue) / 249 (purple) / 258 (gold)
 colspan=2 |Max Total | 1575 (white) / 1638 (green) / 1701 (blue) / 1743 (purple) / 1806 (gold)
 
 colspan=2 |Max w/ Shield | 1800 (white) / 1872 (green) / 1944 (blue) / 1992 (purple) / 2064 (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Impenetrable_t00.csv (44 rows): 7Normal | 7Fine | 7Superior | 7Epic | 7Legendary

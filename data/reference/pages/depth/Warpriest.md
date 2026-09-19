@@ -21,3 +21,7 @@ Forgotten Wastes | Sixth House Clarion Seer | Dunmer | Varies | aa
 ;Rally:The warpriest waves and points their weapon forward, granting themselves and their nearby allies a red glow, increasing their damage done by 20%. This is the same effect as "Enrage".
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Warpriest_t00.csv (3 rows): Location | Name | Race | Gender | Health

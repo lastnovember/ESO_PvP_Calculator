@@ -21,3 +21,7 @@ Leaves behind an area of speed for 10 seconds which increases the Movement Speed
 
 ## Notes
 - The Daedric text on the script reads "Mobility".
+
+## Tables extracted from this page
+
+- tables/scribing_Thief_s_Swiftness_t00.csv (4 rows): Shield Throw | Shield Throw | Grants you the ability to pass through enemies for 5 seconds on return.

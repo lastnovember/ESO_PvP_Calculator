@@ -55,3 +55,7 @@ File:ON-item-Syrabane's_Ward.jpg|Syrabane's Ward
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Galen
+
+## Tables extracted from this page
+
+- tables/sets_Syrabane_s_Ward_t00.csv (5 rows): 40px | Frog Metal Buckle | Blacksmithing writ reward crates | Galen | How unusual, a belt buckle made of buoyant steel. 

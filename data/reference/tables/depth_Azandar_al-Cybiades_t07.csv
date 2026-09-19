@@ -1,5 +1,5 @@
-How do you feel about our relationship? (Wary to Disdainful)dialogue needs to be confirmed
 Wary,Irritated,Disdainful
+How do you feel about our relationship? (Wary to Disdainful)dialogue needs to be confirmed
 """You've given me cause for concern. Reconsider your actions in the future.""","""Let's keep the chatter to a minimum, if you don't mind.""","""We are not friends. Please cease your prattle."""
 """We still have much to do, but I'd ask you be more considerate of my boundaries.""","""We are cohorts, of course. But your lack of respect has me on guard.""","""I honestly am unsure why we still collaborate."""
 Let's talk about something else. (Returns to Greetings)

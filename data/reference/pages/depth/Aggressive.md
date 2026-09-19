@@ -22,3 +22,7 @@ rowspan=2|Item Type | colspan=5|Increased Damage
 2.4%
 2.9%
 3.4%
+
+## Tables extracted from this page
+
+- tables/depth_Aggressive_t00.csv (3 rows): 6Fine | 6Superior | 6Epic | 6Legendary

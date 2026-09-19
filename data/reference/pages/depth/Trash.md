@@ -92,3 +92,7 @@ Bloodknights, Vampires
 Void Essence
 Creatures tainted by the Void such as Shades, Shade Colossi, Void Rots and Voidmothers
 1-9
+
+## Tables extracted from this page
+
+- tables/depth_Trash_t00.csv (20 rows): Icon | Item | Found | Selling Value

@@ -30,3 +30,7 @@ Southern Elsweyr | New Moon Scorcher | Khajiit | Varies | ba
 File:ON-npc-Dreadhorn Sorcerer.jpg|A Reach Mage casting a spell
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Reach_Mage_t00.csv (5 rows): Location | Name | Race | Gender | Health

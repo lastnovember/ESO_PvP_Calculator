@@ -42,3 +42,7 @@ colspan=2| None
 
 River
 colspan=2| None
+
+## Tables extracted from this page
+
+- tables/depth_Coldharbour_Angler_t00.csv (4 rows): Type | Fish | Locations

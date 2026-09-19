@@ -71,3 +71,7 @@ File:ON-creature-Death Hopper 02.jpg|Spitting poison
 File:ON-creature-Death Hopper 05.jpg|Spitting poison
 File:ON-creature-Death Hopper 03.jpg|Death Hopper
 File:ON-creature-Death Hopper 04.jpg|Death Hopper
+
+## Tables extracted from this page
+
+- tables/depth_Death_Hopper_t00.csv (7 rows): Zone / Dungeon | Specific Location | Difficulty | Health

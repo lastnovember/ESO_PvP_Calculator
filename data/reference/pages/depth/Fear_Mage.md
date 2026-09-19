@@ -20,3 +20,7 @@ Lower eastern Craglorn | Blackcaster Illusionist | Varies | Varies | 59200
 ;Fright Force: A basic ranged attack dealing minor magic damage.
 ;Aspect of Terror: The enemy casts a spell dealing low magic damage that fears the target for 2 seconds, temporarily preventing them from moving or performing any actions. This can be interrupted to set the enemy off balance.
 ;Shadow Cloak: If the target is in close proximity to the fear mage, they will turn themselves invisible and move to a better location. The fear mage evades non-channeled direct damage attacks while invisible.
+
+## Tables extracted from this page
+
+- tables/depth_Fear_Mage_t00.csv (4 rows): Location | Name | Race | Gender | Health

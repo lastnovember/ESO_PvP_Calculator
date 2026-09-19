@@ -107,3 +107,7 @@ Gather Vitrified Souls: 0/15
 Gather Vitrified Souls from Nirn or Coldharbour
 fin|I gathered vitrified souls as requested. I should deliver them to Orinde Glenuvon to claim my reward.
 Talk to Orinde Glenuvon
+
+## Tables extracted from this page
+
+- tables/depth_Charging_the_Lens_t00.csv (16 rows): Alliance | Zone | Delve | Public Dungeon

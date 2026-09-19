@@ -48,3 +48,7 @@ colspan="4" style="text-align:center; background-color:#E4A08F;" | Actions that 
 
 -1 | Attempting to flee from guards
 The Antiquarian's Art]] does not increase rapport.
+
+## Tables extracted from this page
+
+- tables/depth_Bastian_Hallix_Rapport_t00.csv (21 rows): Amount | Action | Cooldown

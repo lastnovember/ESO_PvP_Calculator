@@ -68,3 +68,7 @@ Dreams-in-Scenes will be happy with your assistance and tells you to give Kuzam-
 ## Dialogue
 You can talk to her later after talking to Kuzam-jo and starting A Toast to Malcontents:
 :"Ghadaz was so convincing as a hero that we're thinking of going adventuring ourselves. Just a little. Learn from doing, don't you think? A hero and his bard. How romantic."
+
+## Tables extracted from this page
+
+- tables/depth_Essynia_t00.csv (1 rows): Helped all three troupe members: | Still need to help people:

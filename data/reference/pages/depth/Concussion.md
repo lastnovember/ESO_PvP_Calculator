@@ -66,3 +66,8 @@ colspan=4|Wall of Storms (Destruction Staff) | Active Skill | While wielding a L
 colspan=4|Unstable Wall of Storms (Destruction Staff) | Active Skill (morph) | While wielding a Lightning Staff, sets Off Balance
 
 colspan=4|Blockade of Storms (Destruction Staff) | Active Skill (morph) | While wielding a Lightning Staff, sets Off Balance
+
+## Tables extracted from this page
+
+- tables/depth_Concussion_t00.csv (24 rows): Source | Class | Type | Affects | Effect
+- tables/depth_Concussion_t01.csv (4 rows): Source | Type | Effect

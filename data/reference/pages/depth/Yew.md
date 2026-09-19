@@ -28,3 +28,7 @@ scope="row"|48
 
 scope="row"|50
 9 | 9 | 12
+
+## Tables extracted from this page
+
+- tables/depth_Yew_t00.csv (3 rows): Gear Level | Yew Bow | Yew [Type] Staff | Yew Shield

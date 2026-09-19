@@ -127,3 +127,10 @@ There are several ways of protecting yourself against Frost Damage.
 - A Glyph of Frost Resist, created with a Dekeipa Essence rune and a negative Potency rune, can be applied to jewelry.
 - Any effect which increases your Spell Resistance will also reduce Frost Damage in addition to several other elemental types.
 - Elemental Aegis in the Staving Death subconstellation of Warfare reduces Frost Damage taken.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Frost_Damage_t00.csv (86 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Frost_Damage_t01.csv (17 rows): Set | Weight | 5 piece bonus
+- tables/depth_Frost_Damage_t00.csv (6 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/depth_Frost_Damage_t01.csv (17 rows): Set | Weight | 5 piece bonus

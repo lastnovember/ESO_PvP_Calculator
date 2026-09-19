@@ -1,5 +1,5 @@
-Script,Effects
 Brittle,Brittle,"Afflicts enemies with Minor Brittle for 20 seconds, increasing their Critical Damage taken by 10%."
+Script,Effects
 Brutality and Sorcery,Brutality and Sorcery,"If an enemy was hit, grants you Major Brutality and Major Sorcery for 20 seconds, increasing Weapon and Spell Damage by 20%."
 Cowardice,Cowardice,"Afflicts enemies with Minor Cowardice for 20 seconds, reducing Weapon and Spell Damage by 215."
 Defile,Defile,"Afflicts enemies with Minor Defile, which reduces healing received and damage shield strength by 6% for 20 seconds."

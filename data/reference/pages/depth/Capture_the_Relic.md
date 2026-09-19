@@ -63,3 +63,7 @@ Divine Guardian
 ## Notes
 - As a flag game Battleground, Capture the Relic games have the potential to net Storm Lord style pages.
 - A popular stratagem among players it to situate team members at your own base to prevent the capture of your team's relic, while sending other team members to take the relics from enemy bases.
+
+## Tables extracted from this page
+
+- tables/depth_Capture_the_Relic_t00.csv (17 rows): Icon | Name | Points | Description

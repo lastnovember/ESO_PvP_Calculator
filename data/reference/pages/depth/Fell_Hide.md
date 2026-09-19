@@ -34,3 +34,7 @@ scope="row"|48
 
 scope="row"|50
 13 | 11 | 11 | 11 | 12 | 11 | 11 | 80
+
+## Tables extracted from this page
+
+- tables/depth_Fell_Hide_t00.csv (3 rows): Armor Level | Fell Jack | Fell Boots | Fell Bracers | Fell Helmet | Fell Guards | Fell Arm Cops | Fell Belt | Total

@@ -234,3 +234,10 @@ When you deal damage, you call a murder of crows around you for 12 seconds. Ever
 There are several ways of protecting yourself against Physical Damage.
 - A Glyph of Decrease Physical Harm Taderi, can be applied to jewelry.
 - Hardy in the Staving Death subconstellation of Warfare reduces Physical Damage taken.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Physical_Damage_t00.csv (220 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Physical_Damage_t01.csv (31 rows): Set | Weight | complete set bonus
+- tables/depth_Physical_Damage_t00.csv (20 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/depth_Physical_Damage_t01.csv (31 rows): Set | Weight | complete set bonus

@@ -69,3 +69,8 @@ Newly Charitable
 
 ## See Also
 - New Life Charity Writs
+
+## Tables extracted from this page
+
+- tables/depth_Deep_Winter_Charity_Writs_t00.csv (7 rows): Furnishing | Needed | Ingredients | Recipes sold by | Skills needed
+- tables/depth_Deep_Winter_Charity_Writs_t01.csv (9 rows): Furnishing | Needed | Ingredients | Recipes sold by | Skills needed

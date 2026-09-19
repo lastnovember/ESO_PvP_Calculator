@@ -28,3 +28,7 @@ Zone / Dungeon | Specific Location / Quest | Difficulty | Health
 style=text-align:center| The Parch | style=text-align:center| Northeastern district | style=text-align:center| | style=text-align:center| 306,419
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Battlescribe_Archer_t00.csv (2 rows): Zone / Dungeon | Specific Location / Quest | Difficulty | Health

@@ -240,3 +240,7 @@ File:ON-place-Skyvault Foyer.jpg|Skyvault Foyer
 File:ON-place-Skyvault Foyer 02.jpg|Skyvault Foyer
 File:ON-quest-The Forgotten Vault 02.jpg|The Shattered Champion
 File:ON-quest-The Forgotten Vault.jpg|The Blind in battle
+
+## Tables extracted from this page
+
+- tables/depth_Bedlam_Veil_t00.csv (3 rows): Buff | Description | Obtained By

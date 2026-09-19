@@ -103,3 +103,10 @@ File:ON-render-Templar.jpg|A Templar
 - Precepts of Stendarr
 - Rituals of the Harmonious Masters
 - Stendarr's Divine Spear
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Templar_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/uesp_Online_Templar_t01.csv (5 rows): Templar Initiate | Gleaming Champion | Luminous Warrior | Bastion of Light | Beacon of Hope
+- tables/depth_Templar_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Templar_t01.csv (5 rows): Templar Initiate | #000000| | #aaff00|Cleansing Ritual | #ff7700|Radial Sweep Puncturing Strikes Piercing Javelin Backla

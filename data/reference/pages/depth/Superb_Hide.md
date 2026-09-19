@@ -30,3 +30,7 @@ scope="row"|CP70
 
 scope="row"|CP80
 15 | 13 | 13 | 13 | 14 | 13 | 13 | 94
+
+## Tables extracted from this page
+
+- tables/depth_Superb_Hide_t00.csv (2 rows): Armor Level | Superb Jack | Superb Boots | Superb Bracers | Superb Helmet | Superb Guards | Superb Arm Cops | Superb Bel

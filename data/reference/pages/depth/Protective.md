@@ -99,3 +99,7 @@ rowspan=2|Platinum
 CP150 | 1604 (white) / 1644 (green) / 1724 (blue) / 1784 (purple) / 1824 (gold)
 
 CP160 | 1053 (white) / 1091 (green) / 1128 (blue) / 1153 (purple) / 1190 (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Protective_t00.csv (42 rows): 7Normal | 7Fine | 7Superior | 7Epic | 7Legendary

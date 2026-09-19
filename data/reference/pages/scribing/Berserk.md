@@ -18,3 +18,7 @@ Grants Minor Berserk, increasing damage done by 5%.
 
 ## Notes
 - The only identifiable Daedric text on the script is simply the letter "B".
+
+## Tables extracted from this page
+
+- tables/scribing_Berserk_t00.csv (3 rows): Smash | Smash | Grants you Minor Berserk for 20 seconds, increasing damage done by 5%.

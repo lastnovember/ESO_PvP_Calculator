@@ -34,3 +34,7 @@ scope="row"|42
 
 scope="row"|44
 10 | 10 | 13
+
+## Tables extracted from this page
+
+- tables/depth_Hickory_t00.csv (5 rows): Gear Level | Hickory Bow | Hickory [Type] Staff | Hickory Shield

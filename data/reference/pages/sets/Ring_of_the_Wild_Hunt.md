@@ -52,3 +52,7 @@ Perhaps he's unleashing the power of a Wood Elf Wild Hunt! Y'ffre demanded that 
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Western Skyrim
+
+## Tables extracted from this page
+
+- tables/sets_Ring_of_the_Wild_Hunt_t00.csv (5 rows): 40px | Band of Water | Public Dungeon bosses in Bad Man's Hallows | Glenumbra | Too small to be a ring. It almost looks 

@@ -35,3 +35,9 @@ scope="row"|CP160
 ## Notes
 - Rubedo Leather was originally named "Daedric Skin" in the initial PTS release.
 - Rubedo Leather can also be purchased from Imperial City merchants using Tel Var Stones.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Rubedo_Leather_t00.csv (9 rows): Used for | Clothing ( Tailoring Rank 10)
+- tables/uesp_Online_Rubedo_Leather_t01.csv (2 rows): Armor Level | Rubedo Leather Jack | Rubedo Leather Boots | Rubedo Leather Bracers | Rubedo Leather Helmet | Rubedo Leath
+- tables/depth_Rubedo_Leather_t00.csv (2 rows): Armor Level | Rubedo Leather Jack | Rubedo Leather Boots | Rubedo Leather Bracers | Rubedo Leather Helmet | Rubedo Leath

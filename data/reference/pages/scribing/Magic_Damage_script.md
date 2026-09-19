@@ -39,3 +39,7 @@ Deals 6233 Magic Damage to all enemies.
 
 ## Notes
 - The Daedric text on the script reads "Magicka".
+
+## Tables extracted from this page
+
+- tables/scribing_Magic_Damage_script_t00.csv (10 rows): Elemental Explosion | Elemental Explosion (Magical Explosion) | Deals 8225 Magic Damage to enemies.

@@ -294,3 +294,17 @@ EAL/Group|groupline=thick
 
 ## See Also
 - Tome of the Undaunted
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Undaunted_t00.csv (7 rows): Premium Undaunted Exploration Supplies | Undaunted Exploration Supplies
+- tables/uesp_Online_Undaunted_t01.csv (6 rows): Members Abzag the Monster Adrolir Akgruhl gra-Bol Armelle Madach Axel Malveaux Black-Scale Bloody Mayra Bolgrul Brazzide
+- tables/uesp_Online_Undaunted_t02.csv (17 rows): 1 | Blood Altar
+- tables/uesp_Online_Undaunted_t03.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Undaunted_t04.csv (4 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Undaunted_t05.csv (7 rows): Activity | Reputation given
+- tables/uesp_Online_Undaunted_t06.csv (10 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank
+- tables/uesp_Online_Undaunted_t07.csv (6 rows): Achievement | Points | Description | Reward
+- tables/depth_Undaunted_t00.csv (7 rows): Premium Undaunted Exploration Supplies | Undaunted Exploration Supplies
+- tables/depth_Undaunted_t01.csv (7 rows): Activity | Reputation given
+- tables/depth_Undaunted_t02.csv (10 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank

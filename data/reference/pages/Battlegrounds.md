@@ -125,3 +125,12 @@ The quests can be started by talking to Battlemaster Rivyn at any Gladiator's Qu
 ## Gallery
 
 File:ON-concept-Battlegrounds Banners.jpg|Concept art
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Battlegrounds_t00.csv (1 rows): Fire Drakes | Pit Daemons | Storm Lords (only during 3 teams events)
+- tables/uesp_Online_Battlegrounds_t01.csv (7 rows): Battlemaster Rivyn's Reward Box | Battlemaster Rivyn's Competitive Reward Box | Weekly Leaderboard Rewards
+- tables/uesp_Online_Battlegrounds_t02.csv (3 rows): A Champion's Prize | Renown and Rewards
+- tables/depth_Battlegrounds_t00.csv (1 rows): File:ON-icon-Fire Drakes.png | File:ON-icon-Pit Daemons.png | File:ON-icon-Storm Lords.png
+- tables/depth_Battlegrounds_t01.csv (7 rows): Battlemaster Rivyn's Reward Box | Battlemaster Rivyn's Competitive Reward Box | Weekly Leaderboard Rewards
+- tables/depth_Battlegrounds_t02.csv (3 rows): A Champion's Prize | Renown and Rewards

@@ -1,5 +1,5 @@
-Debuff Name,Type,Description,Sources,Icon
 rowspan=7 Breach|,Minor,Decreases target's physical and spell resistance by 2974.,Abilities,"Deep Fissure, Fatewoven Armor, Petrify, Pierce Armor, Sundered (Physical damage status), Wall of Frost against Chilled enemies",64px
+Debuff Name,Type,Description,Sources,Icon
 Sets,"Corpseburster, Dragon's Defilement, Hand of Mephala, The Saint and the Seducer, Sunderflame, Tarnished Nightmare (applies Sundered Status)"
 Scribing,"Breach on Mender's Bond, Smash, Soul Burst, Torchbearer, Ulfsild's Contingency"
 Potions,"Breach Potion or Poison, Increase Spell Resist Poison"

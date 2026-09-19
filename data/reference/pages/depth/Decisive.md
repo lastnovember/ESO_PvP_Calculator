@@ -19,3 +19,7 @@ rowspan=2|Item Type | colspan=5|Increase Chance
 
 ## Notes
 - This trait replaced Weighted, which increased your weapon attack speed.
+
+## Tables extracted from this page
+
+- tables/depth_Decisive_t00.csv (3 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

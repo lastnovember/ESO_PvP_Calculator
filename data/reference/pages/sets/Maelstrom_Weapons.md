@@ -67,3 +67,7 @@ Thunderous Volley Perfected Thunderous Volley
 
 ## Notes
 - Weapons are available in all traits except Training.
+
+## Tables extracted from this page
+
+- tables/sets_Maelstrom_Weapons_t00.csv (15 rows): Weapon Name | Weapon Class | Set Name | Bonuses

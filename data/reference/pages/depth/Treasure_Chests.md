@@ -196,3 +196,7 @@ File:ON-node-Treasure Chest (Breton).jpg|A Breton style chest
 File:ON-node-Treasure Chest (Daedric).jpg|A Daedric style chest
 File:ON-node-Treasure Chest (Dwemer).jpg|A Dwemer style chest
 File:ON-node-Treasure Chest (Nord).jpg|A Nord style chest
+
+## Tables extracted from this page
+
+- tables/depth_Treasure_Chests_t00.csv (34 rows): Lead | Antiquity | Zone

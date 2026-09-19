@@ -82,3 +82,9 @@ Since 2021 you will also get a Witchly Gift for completing a writ, containing a 
 ## Achievements
 There are three achievements associated with these writs:
 Wicked Writ Witch
+
+## Tables extracted from this page
+
+- tables/depth_Witches_Festival_Writs_t00.csv (9 rows): Recipe | Writ Vouchers Reward
+- tables/depth_Witches_Festival_Writs_t01.csv (3 rows): Recipe | Writ Vouchers Reward
+- tables/depth_Witches_Festival_Writs_t02.csv (2 rows): Writ | Writ Vouchers Reward

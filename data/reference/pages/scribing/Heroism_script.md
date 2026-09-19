@@ -21,3 +21,7 @@ Grants you Major Heroism for 10 seconds, generating 3 Ultimate every 1.5 seconds
 
 ## Notes
 - The Daedric text on the script reads "Hero".
+
+## Tables extracted from this page
+
+- tables/scribing_Heroism_script_t00.csv (4 rows): Banner Bearer | Banner Bearer | Grants Minor Heroism, generating 1 Ultimate every 1.5 seconds.

@@ -22,3 +22,7 @@ Craglorn | Iron Orc Slaughterer | Iron Orc | Varies | 47046
 ;Lava Whip:The enemy winds up a Lava whip dealing moderate flame damage to the target. This attack can be blocked to set the enemy off balance.
 ;Dark Talons:The enemy calls forth talons from the ground, dealing minor flame damage and rooting anyone hit for 4 seconds. (On most knights)
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Knight_t00.csv (4 rows): Location | Name | Race | Gender | Health

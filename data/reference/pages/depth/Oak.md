@@ -34,3 +34,7 @@ scope="row"|22
 
 scope="row"|24
 8 | 8 | 11
+
+## Tables extracted from this page
+
+- tables/depth_Oak_t00.csv (5 rows): Gear Level | Oak Bow | Oak Staff | Oak Shield

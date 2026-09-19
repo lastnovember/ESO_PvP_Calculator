@@ -69,3 +69,12 @@ Sword and Board
 Deadly Bash
 Deflect Bolts
 Battlefield Mobility
+
+## Tables extracted from this page
+
+- tables/uesp_Online_One_Hand_and_Shield_t00.csv (29 rows): 2 | Puncture
+- tables/uesp_Online_One_Hand_and_Shield_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_One_Hand_and_Shield_t02.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_One_Hand_and_Shield_t03.csv (10 rows): Ability Name | Weapon set name | Description
+- tables/uesp_Online_One_Hand_and_Shield_t04.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/depth_One_Hand_and_Shield_t00.csv (10 rows): Ability Name | Weapon set name | Description

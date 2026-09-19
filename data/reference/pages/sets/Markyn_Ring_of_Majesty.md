@@ -51,3 +51,7 @@ I'm no expert on Dremora, but when two clans work together to put another down, 
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: The Deadlands
+
+## Tables extracted from this page
+
+- tables/sets_Markyn_Ring_of_Majesty_t00.csv (5 rows): 40px | Morpholith Shank | Treasure Chests in Coldharbour | Deadlands | A ring, obviously, but what a strange material. N

@@ -96,3 +96,7 @@ ESO Patch Note|5.1.5|* Reduced the shield size of this ability and its morphs by
 - This morph no longer returns 3% of your Max Magicka when absorbing spell attacks. Instead, it restores 5% of the ability's cost whenever it absorbs any damage. Note this value continues to increase per piece of Light Armor worn, and can still only occur up to 3 times per cast.
 - Increased the bonus modifier per piece of Light Armor worn for the Magicka return to 33% at Rank IV from 6%. Note this increase remains to be based on 5% of the ability's cost, so each piece of Light Armor will increase the return from 5% to 6.65%.
 [Patch 7.1.5] * Harness Magicka (morph): Fixed an issue where you could get more than 3 Magicka restores from this ability per cast.
+
+## Tables extracted from this page
+
+- tables/skills_Annulment_t00.csv (9 rows): I | II | III | IV | I | II | III | IV

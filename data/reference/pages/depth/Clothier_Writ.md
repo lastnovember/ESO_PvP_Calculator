@@ -183,3 +183,7 @@ Craft the Goods
 Deliver Goods to the Nearest Writ Quartermaster
 fin|I've placed my delivery of crafted goods into the crate. All that remains is to sign the manifest and take my reward.
 Sign Delivery Manifest
+
+## Tables extracted from this page
+
+- tables/depth_Clothier_Writ_t00.csv (10 rows): Tailoring | Amount | Material | Reward

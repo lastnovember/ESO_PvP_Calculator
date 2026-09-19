@@ -110,3 +110,10 @@ File:ON-trailer-morrowind-Warden and Bear.jpg|A Warden with a bear companion
 ## Notes
 - The Warden class was initially planned during development, but it was scrapped before the game's first public beta.
 - The warden shown in the Morrowind trailer is named Boldekh, according to Naryu's Journal.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Warden_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/uesp_Online_Warden_t01.csv (5 rows): Warden Initiate | Beast Caller | Savage Stalker | Guardian of the Wild | Master Herbalist
+- tables/depth_Warden_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Warden_t01.csv (5 rows): Warden Initiate | #000000| | #00ff00| no conflicts | #ff7700|Dive Scorch Betty Netch Fungal Growth Lotus Flower | #ffbb0

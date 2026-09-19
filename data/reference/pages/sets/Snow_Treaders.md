@@ -57,3 +57,7 @@ File:ON-set-Snow Treaders.jpg|Visuals when in combat
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Western Skyrim
+
+## Tables extracted from this page
+
+- tables/sets_Snow_Treaders_t00.csv (5 rows): 40px | Auri-El Metal Carvings | Overland mobs | Bleakrock Isle | These carvings appear to venerate Auri-El. My research 

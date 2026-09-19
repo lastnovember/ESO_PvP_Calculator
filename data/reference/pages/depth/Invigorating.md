@@ -21,3 +21,7 @@ Max w/ Shield | 64 (white) / 80 (green) / 96 (blue) / 112 (purple) / 128 (gold)
 
 ## Notes
 - This replaced Prosperous, which increased your Gold looted from enemies, which itself replaced Exploration, which increased your experience from discovering new locations.
+
+## Tables extracted from this page
+
+- tables/depth_Invigorating_t00.csv (4 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

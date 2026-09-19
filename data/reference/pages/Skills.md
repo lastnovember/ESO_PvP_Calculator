@@ -180,3 +180,8 @@ Spent skill points can be refunded at a Rededication Shrine for a fee of 50 Gold
 - The Greymoor Chapter added 27 more options between the Excavation and Scrying skills.
 - Despite the name, Riding Skill is not technically considered to be a skill.
 - When you have the Skills menu open, passing players will see your character reading a book with a brown cover.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Skills_t00.csv (1 rows): Dragonknight | Sorcerer | Nightblade | Templar | Warden | Necromancer | Arcanist
+- tables/skills_Skills_t00.csv (1 rows): Dragonknight | Sorcerer | Nightblade | Templar | Warden | Necromancer | Arcanist

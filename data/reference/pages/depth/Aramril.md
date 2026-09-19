@@ -171,3 +171,7 @@ After the fifth and final fight, you may ask her the following questions:
 ## Notes
 - Despite being Elite enemies, Mind Terrors summoned by Aramril are vulnerable to Minor Mangle.
 - Companions do not interrupt Aramril when she is casting Seeking Runescrawl.
+
+## Tables extracted from this page
+
+- tables/depth_Aramril_t00.csv (1 rows): If you won the duel: | If you lost the duel:

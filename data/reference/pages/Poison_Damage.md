@@ -127,3 +127,9 @@ There are several ways of protecting yourself against Poison Damage.
 - Wood Elf characters have access to the Resist Affliction passive skill, which reduces all Poison Damage received.
 - A Glyph of Poison Resist, created with a Kuoko Essence rune and a negative Potency rune, can be applied to jewelry.
 - Hardy in the Staving Death subconstellation of Warfare reduces Poison Damage taken.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Poison_Damage_t00.csv (35 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Poison_Damage_t01.csv (22 rows): Set | Weight | 5 piece bonus
+- tables/depth_Poison_Damage_t00.csv (22 rows): Set | Weight | 5 piece bonus

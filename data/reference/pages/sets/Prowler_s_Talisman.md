@@ -86,3 +86,7 @@ File:ON-item-Prowler's Talisman (lanterns).jpg|Lanterns that appear when the cri
 Not all players haven been receiving the Prowler's Talisman as a reward for completing the Codex Caper.[https://help.bethesda.net/#en/answer/75180 Acknowledgement of issue]
 - Speaking with Mylen Dechery may give you the item. She offers a dialogue option to restore the Talisman if it has been lost.
 - When another player links their talisman, you will see your upgrade count instead of theirs.
+
+## Tables extracted from this page
+
+- tables/sets_Prowler_s_Talisman_t00.csv (14 rows): Item | Description | Source

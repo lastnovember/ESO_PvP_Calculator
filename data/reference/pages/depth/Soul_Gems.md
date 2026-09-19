@@ -64,3 +64,8 @@ File:ON-crown store-Crown Soul Gem.jpg|Crown Soul Gems
 - Soul Gem Undercroft Furnishings
 - Meln's Soul Gem
 - Soul Gem emote
+
+## Tables extracted from this page
+
+- tables/depth_Soul_Gems_t00.csv (3 rows): Soul Gem
+- tables/depth_Soul_Gems_t01.csv (7 rows): Soul Gem | Old Level Range

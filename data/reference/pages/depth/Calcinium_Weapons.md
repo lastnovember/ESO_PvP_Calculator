@@ -63,3 +63,8 @@ rowspan=3|Calcinium Maul
 11 Calcinium Ingots
 
 12 Calcinium Ingots
+
+## Tables extracted from this page
+
+- tables/depth_Calcinium_Weapons_t00.csv (5 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Calcinium_Weapons_t01.csv (4 rows): Base | Fine | Superior | Epic | Legendary

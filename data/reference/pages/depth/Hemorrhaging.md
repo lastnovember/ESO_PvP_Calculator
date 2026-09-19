@@ -48,3 +48,8 @@ Unleashed Terror (5 pieces) | Any | Set | Varies | Guaranteed apply every hit ov
 colspan=5|Source | Type | Effect
 
 colspan=5|Force Pulse (Destruction Staff) | Active Skill (morph) | Deals Extra Area of Effect Damage
+
+## Tables extracted from this page
+
+- tables/depth_Hemorrhaging_t00.csv (18 rows): Source | Class | Type | Affects | Effect
+- tables/depth_Hemorrhaging_t01.csv (1 rows): Source | Type | Effect

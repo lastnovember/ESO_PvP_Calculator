@@ -185,3 +185,7 @@ File:ON-concept-Clannfear.jpg|Concept art
 File:ON-concept-Clannfear 02.jpg|The finalized design of a clannfear
 File:ON-prerelease-Clannfear.jpg|Pre-release render
 File:ON-concept-achievement-Anchors Away.jpg|Featured in a render
+
+## Tables extracted from this page
+
+- tables/depth_Clannfear_t00.csv (33 rows): Zone / Dungeon | Specific Location | Difficulty | Condition | Health

@@ -373,3 +373,12 @@ File:ON-node-Potency Rune.gif|A Potency runestone node
 File:ON-node-Essence Rune.gif|An Essence runestone node
 
 - As of Update 16, Enchanter Writs state that they require Ta. Prior to this update, correctly named enchantments could be created that did not complete the quest.
+
+## Tables extracted from this page
+
+- tables/depth_Runestones_t00.csv (16 rows): Name | Potency | Gear Level | Translation | Glyph | Cost
+- tables/depth_Runestones_t01.csv (16 rows): Name | Potency | Gear Level | Translation | Glyph | Cost
+- tables/depth_Runestones_t02.csv (38 rows): Name | Translation | Potency | Item Type | Glyph | Effect
+- tables/depth_Runestones_t03.csv (4 rows): Name | Translation | Potency | Item Type | Glyph | Effect
+- tables/depth_Runestones_t04.csv (5 rows): Name | Lvl | Translation | Effect
+- tables/depth_Runestones_t05.csv (5 rows): Likely Name

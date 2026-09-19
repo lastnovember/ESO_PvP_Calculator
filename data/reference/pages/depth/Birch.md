@@ -28,3 +28,7 @@ scope="row"|CP20
 
 scope="row"|CP30
 10 | 10 | 13
+
+## Tables extracted from this page
+
+- tables/depth_Birch_t00.csv (3 rows): Gear Level | Birch Bow | Birch [Type] Staff | Birch Shield

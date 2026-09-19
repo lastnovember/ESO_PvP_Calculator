@@ -54,3 +54,8 @@ Be crowned Emperor of Cyrodiil | 25
 ## Notes
 - The Daedric text on the script reads "True Calling".
 - With Update 50, Class Mastery was renamed to Class Flourish to prevent any confusion with the Class Mastery skills feature.
+
+## Tables extracted from this page
+
+- tables/scribing_Class_Flourish_t00.csv (7 rows): Class | Effects
+- tables/scribing_Class_Flourish_t01.csv (12 rows): Source | Number of Scraps Rewarded

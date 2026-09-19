@@ -35,3 +35,7 @@ Master | 0% | 10% | 25% | 45% | 70%
 
 ## Notes
 - Tanlorin's Finesse (obtained by having Tanlorin as your active companion, or receiving the Garland Ring Humming Pick upgrade by maxing out their Rapport and level), grants a flat 5% increased chance to successfully force a lock.
+
+## Tables extracted from this page
+
+- tables/skills_Locksmith_t00.csv (4 rows): Difficulty | Base Chance | Locksmith I | Locksmith II | Locksmith III | Locksmith IV

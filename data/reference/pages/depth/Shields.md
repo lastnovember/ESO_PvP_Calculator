@@ -140,3 +140,16 @@ rowspan=2|Ruby Ash Shield
 14 Sanded Ruby Ash
 
 140 Sanded Ruby Ash
+
+## Tables extracted from this page
+
+- tables/depth_Shields_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Shields_t01.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Shields_t02.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Shields_t03.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Shields_t04.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Shields_t05.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Shields_t06.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Shields_t07.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Shields_t08.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Shields_t09.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan

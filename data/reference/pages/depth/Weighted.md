@@ -19,3 +19,7 @@ rowspan=2|Item Type | colspan=5|Increase Weapon Speed
 
 ## Notes
 - This trait was replaced by Decisive, which increases your Ultimate gain.
+
+## Tables extracted from this page
+
+- tables/depth_Weighted_t00.csv (3 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

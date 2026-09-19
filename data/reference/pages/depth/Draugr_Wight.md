@@ -61,3 +61,7 @@ style=text-align:center| Angarvunde Mound | style=text-align:center| Summoned by
 style=text-align:center| Falkreath HoldHorns of the Reach | style=text-align:center| Hall of the Dead | style=text-align:center| Frost Mage | style=text-align:center| | style=text-align:center|
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Draugr_Wight_t00.csv (6 rows): Zone / Dungeon | Specific Location | Class | Difficulty | Health

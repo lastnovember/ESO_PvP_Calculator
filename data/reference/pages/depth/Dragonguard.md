@@ -151,3 +151,7 @@ style motif]] based on the armor and weapons used by the modern Dragonguard.
 
 File:ON-banner-Dragonguard.png|Banner
 File:ON-banner-Dragonguard 02.png|Banner
+
+## Tables extracted from this page
+
+- tables/depth_Dragonguard_t00.csv (5 rows): Reformed Dragonguard Dragonhold

@@ -14,3 +14,7 @@ Allows all Affix Scripts to be used even with Warding Contingency or Healing Con
 
 ## Notes
 - The Daedric text on the script reads "Rally".
+
+## Tables extracted from this page
+
+- tables/scribing_Growing_Impact_t00.csv (2 rows): Ulfsild's Contingency | Ulfsild's Contingency | Creates a rune of power on the ground for 10 seconds which applies the A

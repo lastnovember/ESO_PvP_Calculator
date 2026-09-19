@@ -168,3 +168,8 @@ If you hide the UI during a Scry, the Scry interface may disappear alongside it,
 - Excavation
 - Antiquity Leads
 - Antiquities by Zone
+
+## Tables extracted from this page
+
+- tables/depth_Scrying_t00.csv (5 rows): Difficulty | Points awarded
+- tables/depth_Scrying_t01.csv (10 rows): Rank | Points | Cumulative points up to and including this rank

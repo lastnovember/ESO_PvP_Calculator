@@ -52,3 +52,7 @@ Deals 4160 Physical Damage over 20 seconds to enemies.
 ## Notes
 - In all cases, if a damage type is selected as the Focus Script, the Damage Over Time effect will use that damage type instead of Magic or Physical.
 - The Daedric text on the script reads "Time Pain".
+
+## Tables extracted from this page
+
+- tables/scribing_Lingering_Torment_t00.csv (16 rows): Elemental Explosion | Elemental Explosion | Deals 5950 Magic Damage over 20 seconds to enemies.

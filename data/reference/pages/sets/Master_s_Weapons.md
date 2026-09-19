@@ -66,3 +66,7 @@ rowspan="3" | (Normal version) (Perfected version)
 The Master's Greatsword
 
 The Master's Maul
+
+## Tables extracted from this page
+
+- tables/sets_Master_s_Weapons_t00.csv (17 rows): Weapon Name | Weapon Class | Set Name | Bonuses

@@ -26,3 +26,10 @@ colspan=2|Name | width=1|Line Rank | width=1|Skill Rank | Description
 Continuous Attack
 Reach
 Combat Frenzy
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Assault_t00.csv (17 rows): 2 | Vigor
+- tables/uesp_Online_Assault_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Assault_t02.csv (20 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Assault_t03.csv (6 rows): Name | Line Rank | Skill Rank | Description

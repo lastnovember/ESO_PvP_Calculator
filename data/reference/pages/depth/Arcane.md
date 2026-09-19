@@ -158,3 +158,7 @@ CP160 | 760 (white) / 790 (green) / 820 (blue) / 840 (purple) / 870 (gold)
 
 ## Notes
 - Prior to Update 18, this trait could only be found on dropped items and could not be crafted. Items with the trait from before the update cannot be deconstructed for materials.
+
+## Tables extracted from this page
+
+- tables/depth_Arcane_t00.csv (67 rows): 7Normal | 7Fine | 7Superior | 7Epic | 7Legendary

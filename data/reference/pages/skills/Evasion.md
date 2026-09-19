@@ -76,3 +76,7 @@ ESO Patch Note|5.1.5|* Reduced the base cost of this ability to 3213 from 3672.
 - Elude: Each piece of Medium Armor now increases the duration of the Major Evasion by 2 seconds, up from 1 second. Elude also grants you Major Expedition whenever you take direct Area of Effect damage, based on each piece of Medium Armor worn.
 - Shuffle: Increased the snare and immobilization immunity granted per piece of Medium Armor worn to 1 second from 0.5 seconds.
 [Patch 7.2.5] * Fixed an issue where casting this ability or its morphs could sometimes make your character appear invisible under very specific circumstances.
+
+## Tables extracted from this page
+
+- tables/skills_Evasion_t00.csv (9 rows): 0 | - | 20 sec. | 0 sec.

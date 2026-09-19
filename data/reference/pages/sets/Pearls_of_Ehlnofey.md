@@ -47,3 +47,7 @@ It's certainly lovely on its own, but take a closer look. See the intermittent t
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: The Reach
+
+## Tables extracted from this page
+
+- tables/sets_Pearls_of_Ehlnofey_t00.csv (5 rows): 40px | Aetherquartz Prayer Beads | Delve Bosses | Auridon | These appear to be polished quartz beads. Several Tamrielic 

@@ -37,3 +37,7 @@ Xivkyn Soulbrander | Varies | Xivkyn | 140824 | Imperial City: Memorial District
 ;Void:The enemy summons a purple orb from the sky that explodes when it hits the ground, dealing moderate magic damage in an area. This then sends out magic AoEs across the floor called Void Bursts. This can be interrupted to set the enemy off balance.
 ;Void Burst:These AoEs are released after Void lands, each dealing minor magic damage.
 ;Run Away!:When too close to them, the time bomb mage backs up to put some distance between their target and themselves.
+
+## Tables extracted from this page
+
+- tables/depth_Time_Bomb_Mage_t00.csv (11 rows): Name | Gender | Race | Health | Location

@@ -17,3 +17,7 @@ High Isle | Ascendant Militia | Varies | Varies | aa
 ;Javelin:When standing further away, the enemy throws a magical javelin at their target, dealing low physical damage and staggering them. This can be interrupted to set the enemy off-balance.
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Umbral_Aegis_t00.csv (1 rows): Location | Name | Race | Gender | Health

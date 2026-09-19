@@ -2913,3 +2913,7 @@ File:ON-cover-Scions of Ithelia.jpg|Leramil the Wise in the key art for the Scio
 File:ON-render-Arcanist Battle in Necrom.jpg|Featured in a promotional render
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Leramil_the_Wise_t00.csv (1 rows): Completed Necrom Chapter: | Otherwise:

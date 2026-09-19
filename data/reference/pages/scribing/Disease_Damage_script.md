@@ -15,3 +15,7 @@ Deals 6233 Disease Damage to all enemies.
 
 ## Notes
 - The Daedric text on the script reads "Disease".
+
+## Tables extracted from this page
+
+- tables/scribing_Disease_Damage_script_t00.csv (2 rows): Vault | Vault (Pestilent Vault) | Deals 3777 Disease Damage to enemies. Beneficial Signature and Affix scripts apply onl

@@ -43,3 +43,7 @@ style=text-align:center| Infinite Archive | style=text-align:center| | style=tex
 
 ## Bugs
 The Dremora Ravagers in Rimmen Necropolis are incorrectly flagged as undead, and thus can cast "Desecrated Ground" upon death.
+
+## Tables extracted from this page
+
+- tables/depth_Dremora_Ravager_t00.csv (3 rows): Zone / Dungeon | Specific Location / Quest | Difficulty | Health

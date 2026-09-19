@@ -30,3 +30,7 @@ style=text-align:center| The Shattered Xanmeer | style=text-align:center| Summon
 style=text-align:center| Sul-Xan Ritual Site | style=text-align:center| Summoned by Nukhujeema | style=text-align:center| | style=text-align:center| 49,811
 
 style=text-align:center| Infinite Archive | style=text-align:center| Archive Wings | style=text-align:center| | style=text-align:center| Varies
+
+## Tables extracted from this page
+
+- tables/depth_Exploding_Banekin_t00.csv (5 rows): Zone / Dungeon | Specific Location | Difficulty | Health

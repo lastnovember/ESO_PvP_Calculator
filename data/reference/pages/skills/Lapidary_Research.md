@@ -99,3 +99,8 @@ Research Slots | 1 | 1 | 1 | 1 | 1
 
 Total all items
 32w 5d 22h 48m | 31w 1d 10h 52m | 29w 3d 22h 55m | 26w 1d 23h 02m | 20w 0d 01h 30m
+
+## Tables extracted from this page
+
+- tables/skills_Lapidary_Research_t00.csv (12 rows): Trait | Base Time | Lapidary Research I | Lapidary Research II | Lapidary Research III | Lapidary Research IV
+- tables/skills_Lapidary_Research_t01.csv (12 rows): Trait | Base Time | Lapidary Research I | Lapidary Research II | Lapidary Research III | Lapidary Research IV

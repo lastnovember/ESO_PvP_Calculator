@@ -126,3 +126,7 @@ Truly Superb Glyph of Bashing | | Repora | 10 | CP160
 320
 334
 348
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Bashing_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

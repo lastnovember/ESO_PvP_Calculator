@@ -129,3 +129,7 @@ Truly Superb Glyph of Prismatic Onslaught | | Itade | 10 | CP160
 
 ## Patch Notes
 [Patch 7.1.5] * This enchantment now deals damage equal to a normal Absorb enchantment, and restores Health, Magicka, and Stamina equal to half of the potency of a singular resource, rather than dealing bonus damage to Undead and Daedra.
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Prismatic_Onslaught_t00.csv (18 rows): Damage | Health | Magicka/ Stamina | Damage | Health | Magicka/ Stamina | Damage | Health | Magicka/ Stamina | Damage | 

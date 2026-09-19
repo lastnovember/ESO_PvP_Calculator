@@ -23,3 +23,7 @@ Kagnthamz, Labyrinthian | Skeletal Hunter | Skeleton | Varies | ba
 File:
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Frost_Archer_t00.csv (1 rows): Location | Name | Race | Gender | Health

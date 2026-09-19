@@ -17,3 +17,7 @@ Incompatible with Heroic Torch and Healing Torch
 
 ## Notes
 - The Daedric text on the script reads "Doubt".
+
+## Tables extracted from this page
+
+- tables/scribing_Uncertainty_script_t00.csv (3 rows): Traveling Knife | Traveling Knife | Afflicts enemies with Minor Uncertainty for 20 seconds, reducing their Weapon and Sp

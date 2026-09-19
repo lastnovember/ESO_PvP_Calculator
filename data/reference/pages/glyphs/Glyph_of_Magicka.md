@@ -124,3 +124,7 @@ Truly Superb Glyph of Magicka | | Repora | 10 | CP160
 763
 802
 868
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Magicka_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

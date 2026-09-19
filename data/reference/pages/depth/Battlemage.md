@@ -31,3 +31,7 @@ Rectory Network | Rectory Battlemage | Dremora | Varies | ba
 
 File:ON-icon-class-Battlemage full.png
 File:ON-icon-class-Battlemage.png
+
+## Tables extracted from this page
+
+- tables/depth_Battlemage_t00.csv (5 rows): Location | Name | Race | Gender | Health

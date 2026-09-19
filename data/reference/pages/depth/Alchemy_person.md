@@ -712,3 +712,11 @@ File:ON-card-Alchemy.png|Card
 
 ## References
 1
+
+## Tables extracted from this page
+
+- tables/depth_Alchemy_person_t00.csv (1 rows): Helping Alchemy: | Unmasking the Hopefuls:
+- tables/depth_Alchemy_person_t01.csv (1 rows): First time meeting: | Met Alchemy in Summerset:
+- tables/depth_Alchemy_person_t02.csv (1 rows): First time meeting: | Met Alchemy in Summerset:
+- tables/depth_Alchemy_person_t03.csv (1 rows): Have not met Alchemy beforehand: | Met Alchemy in Summerset:
+- tables/depth_Alchemy_person_t04.csv (1 rows): Dreamer joined the House of Reveries: | Alchemy is alone:

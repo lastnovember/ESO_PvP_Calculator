@@ -531,3 +531,8 @@ You have met Naryu previously:
 File:ON-render-Companions in a Tavern.jpg|Featured in a promotional render
 File:ON-crown store-Ashur.jpg|Promotional render
 File:ON-card-Ashur.png|Card
+
+## Tables extracted from this page
+
+- tables/depth_Ashur_t00.csv (1 rows): Previously met in Vvardenfell: | Otherwise:
+- tables/depth_Ashur_t01.csv (1 rows): Met Before: | First Time Meeting:

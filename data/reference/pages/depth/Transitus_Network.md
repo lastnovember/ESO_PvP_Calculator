@@ -57,3 +57,7 @@ Cropsford
 
 ## Notes
 - A Transitus Shrine appears as a card in Legends.
+
+## Tables extracted from this page
+
+- tables/depth_Transitus_Network_t00.csv (7 rows): Border Keeps | 20pxEastern Elsweyr Gate 20pxWestern Elsweyr Gate | 20pxNorthern High Rock Gate 20pxSouthern High Rock Ga

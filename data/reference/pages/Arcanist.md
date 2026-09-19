@@ -66,3 +66,9 @@ Magicka
 
 File:ON-render-Arcanist.jpg|An Arcanist
 File:ON-skill-Arcanist Crux.jpg|An Arcanist with three Crux
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Arcanist_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Arcanist_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Arcanist_t01.csv (5 rows): Arcanist Initiate | #000000| | #aaff00|Spirit Mender | #ff3300|Flame Skull Blastbones Expunge Frozen Colossus Bone Golia

@@ -29,3 +29,7 @@ Adds 30 seconds to the duration of your existing Continuous Attack passive abili
 Dual Wield]] (provided they also have the Ruffian passive), not just you.
 Cyrodiil]], and thus should only be used in PvP.
 - The Daedric text on the script reads "Battle Technique".
+
+## Tables extracted from this page
+
+- tables/scribing_Wayfarer_s_Mastery_t00.csv (6 rows): Shield Throw | Shield Throw | Increases your Bash damage by 333 for 5 seconds on return.

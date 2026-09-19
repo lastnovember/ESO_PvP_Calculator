@@ -16,3 +16,7 @@ rowspan=2|Item Type | colspan=5|Increase Chance
 1-Handed | 97.5% (white) / 102.5% (green) / 107.5% (blue) / 112.5% (purple) / 117.5% (gold)
 
 2-Handed | 195% (white) / 205% (green) / 215% (blue) / 225% (purple) / 235% (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Charged_t00.csv (3 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

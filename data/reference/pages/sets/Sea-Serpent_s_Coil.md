@@ -47,3 +47,7 @@ These are of Sea Elf make, but they're not like the trinkets that pirates wear n
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: High Isle
+
+## Tables extracted from this page
+
+- tables/sets_Sea-Serpent_s_Coil_t00.csv (5 rows): 40px | Black Eltheric Pearls | From Giant Clams | High Isle | Oh, black pearls! According to the Bedtime Tales of Borwae

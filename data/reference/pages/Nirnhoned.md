@@ -329,3 +329,14 @@ rowspan=2 |Rubedite/ Rubedo Leather/ Ancestor Silk
 CP150 | 259 (white) / 269 (green) / 280 (blue) / 287 (purple) / 297 (gold)
 
 CP160 | 262 (white) / 273 (green) / 283 (blue) / 290 (purple) / 301 (gold)
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Nirnhoned_t00.csv (2 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Nirnhoned_t01.csv (42 rows): Normal | Fine | Superior | Epic | Legendary | Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Nirnhoned_t02.csv (42 rows): Normal | Fine | Superior | Epic | Legendary | Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Nirnhoned_t03.csv (42 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/depth_Nirnhoned_t00.csv (2 rows): 5Normal | 5Fine | 5Superior | 5Epic | 5Legendary
+- tables/depth_Nirnhoned_t01.csv (42 rows): 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary | 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary
+- tables/depth_Nirnhoned_t02.csv (42 rows): 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary | 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary
+- tables/depth_Nirnhoned_t03.csv (42 rows): 7Normal | 7Fine | 7Superior | 7Epic | 7Legendary

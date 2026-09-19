@@ -102,3 +102,9 @@ width=50%| Otherwise:
 - She is quoted in the description of the Stone-Nest Xanmeer Body Tattoos body marking.
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Hecicla_t00.csv (1 rows): Provisoning Skill Above: | Otherwise:
+- tables/depth_Hecicla_t01.csv (1 rows): Properly prepared soup: | Overcooked the soup:
+- tables/depth_Hecicla_t02.csv (1 rows): Character is ArgonianArgonian: | Otherwise:

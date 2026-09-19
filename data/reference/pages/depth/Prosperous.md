@@ -22,3 +22,7 @@ Total w/ Shield | 20% (white) / 32% (green) / 44% (blue) / 56% (purple) / 68% (g
 
 ## Notes
 - This trait replaced Exploration, which increased your experience gained by discovering locations. It was later replaced by Invigorating, which increases your Health Recovery, Magicka Recovery and Stamina Recovery.
+
+## Tables extracted from this page
+
+- tables/depth_Prosperous_t00.csv (4 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

@@ -180,3 +180,10 @@ width=33%| Captain Genevé Delitian Negotiates:
 :"And you as well. I'm not sure if you learned as much from our time together as I did, but at least we both know not to make deals without thinking them through. Maybe you knew that before, but it was a lesson I'll never forget."
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Captain_Genev_Delitian_t00.csv (2 rows): Volcanic Pearls | Sload Slime: | Snow Truffles:
+- tables/depth_Captain_Genev_Delitian_t01.csv (2 rows): Volcanic Pearls + Sload Slime | Volcanic Pearls + Snow Truffles: | Sload Slime + Snow Truffles:
+- tables/depth_Captain_Genev_Delitian_t02.csv (1 rows): Captain Genevé Delitian Accepts | Captain Genevé Delitian Refuses: | Captain Genevé Delitian Negotiates:
+- tables/depth_Captain_Genev_Delitian_t03.csv (1 rows): Captain Genevé Delitian Accepts | Captain Genevé Delitian Refuses: | Captain Genevé Delitian Negotiates:

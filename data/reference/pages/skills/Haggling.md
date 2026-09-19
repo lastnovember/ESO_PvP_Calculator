@@ -40,3 +40,7 @@ Item Quality | Base Value | Haggling I | Haggling II | Haggling III | Haggling I
 
 ## Notes
 - Stacks additive with Infamous
+
+## Tables extracted from this page
+
+- tables/skills_Haggling_t00.csv (4 rows): Item Quality | Base Value | Haggling I | Haggling II | Haggling III | Haggling IV

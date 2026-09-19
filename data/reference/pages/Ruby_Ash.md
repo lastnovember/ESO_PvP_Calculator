@@ -31,3 +31,9 @@ scope="row"|CP160
 ## Notes
 - Sanded Ruby Ash was originally named "Sanded Ruddy Ash" in the initial PTS release.
 - Sanded Ruby Ash can also be obtained by purchasing them from Imperial City merchants using Tel Var Stones.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Ruby_Ash_t00.csv (9 rows): Used for | Woodworking ( Woodworking Rank 10)
+- tables/uesp_Online_Ruby_Ash_t01.csv (2 rows): Gear Level | Ruby Ash Bow | Ruby Ash [Type] Staff | Ruby Ash Shield
+- tables/depth_Ruby_Ash_t00.csv (2 rows): Gear Level | Ruby Ash Bow | Ruby Ash [Type] Staff | Ruby Ash Shield

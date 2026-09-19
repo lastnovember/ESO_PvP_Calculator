@@ -357,3 +357,7 @@ File:ON-npc-Barbas 02.jpg|Barbas wearing his unique armor
 Sunna'rah]] on his back.
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Barbas_t00.csv (1 rows): If you haven't completed the Vvardenfell Story Quests: | If you've faced him on Vvardenfell:

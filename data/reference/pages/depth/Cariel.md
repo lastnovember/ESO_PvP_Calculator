@@ -733,3 +733,13 @@ After helping Cariel at the Aldwilne Citadel, she can be met at the Sunport Dock
 - A little about the "Saronor" that Cariel kills Scout Seyran in the name of was answered in a [https://www.imperial-library.info/content/zenimax-online-writers-reddit-ama Reddit AMA hosted by ZeniMax Online's writers] (archived on the Imperial Library):
 :"The Three Banners War is old enough that Cariel saw action in Cyrodiil, and became fast friends with another Bosmer named Saronor. They eventually became romantically involved. I want to leave the details to your imagination, but the last encounter between Cari and Seyran ended up with Cariel's lover dead. Hence, what you see at Pa'alat."
 - Cariel is also called Cari, at least by Kazirra.
+
+## Tables extracted from this page
+
+- tables/depth_Cariel_t00.csv (1 rows): If you have worked with Razum-dar | If you haven't
+- tables/depth_Cariel_t01.csv (1 rows): Met Previously: | First Time Meeting:
+- tables/depth_Cariel_t02.csv (1 rows): Completed Greenshade Storyline: | Have not completed Greenshade Storyline:
+- tables/depth_Cariel_t03.csv (1 rows): Stealth Maintained: | Camp on High Alert:
+- tables/depth_Cariel_t04.csv (1 rows): Stealth Maintained: | Camp on High Alert:
+- tables/depth_Cariel_t05.csv (1 rows): Gaelle Notte: | Carmana Celatus: | Ashayuna:
+- tables/depth_Cariel_t06.csv (1 rows): Killed Naemon Previously: | Met Naemon Previously: | Otherwise:

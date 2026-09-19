@@ -205,3 +205,7 @@ Tusks of the Orc-Father
 colspan=6| Imperial Sewers
 Imperial Banner
 Molag Bal Brazier
+
+## Tables extracted from this page
+
+- tables/depth_Lozotusk_t00.csv (11 rows): Image | Name | Type | Cost | Achievement | Description

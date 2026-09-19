@@ -208,3 +208,11 @@ File:ON-misc-Character Creation 04.jpg|Background for Elsweyr
 File:ON-misc-Character Creation 05.jpg|Background for Greymoor
 File:ON-misc-Character Creation 06.jpg|Background for the Isle of Balfiera tutorial
 File:ON-misc-Character Creation 07.jpg|Background for the Style Parlor
+
+## Tables extracted from this page
+
+- tables/depth_Character_Creation_t00.csv (3 rows): 50px Orc | 50px Wood Elf | 50px Dark Elf | 50px Imperial
+- tables/depth_Character_Creation_t01.csv (6 rows): 40px|link=Online:Dragonknight|Dragonknight | The Dragonknight class is best suited for tanking-oriented characters due t
+- tables/depth_Character_Creation_t02.csv (3 rows): Argonian | Breton | Dark Elf | High Elf | Imperial
+- tables/depth_Character_Creation_t03.csv (3 rows): Argonian | Breton | Dark Elf | High Elf | Imperial
+- tables/depth_Character_Creation_t04.csv (3 rows): Argonian | Breton | Dark Elf | High Elf | Imperial

@@ -23,3 +23,9 @@ scope="row"|CP150
 
 scope="row"|CP160
 100 | 150
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Platinum_t00.csv (9 rows): Used for | Jewelry Crafting ( Engraver Rank 5)
+- tables/uesp_Online_Platinum_t01.csv (2 rows): Gear Level | Platinum Ring | Platinum Necklace
+- tables/depth_Platinum_t00.csv (2 rows): Gear Level | Platinum Ring | Platinum Necklace

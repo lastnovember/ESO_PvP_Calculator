@@ -103,3 +103,12 @@ File:ON-skill-Binding Bond.jpg|Binding Bond
 File:ON-skill-Magical Bond.jpg|Magical Bond
 File:ON-skill-Fortifying Bond.jpg|Fortifying Bond
 File:ON-skill-Restorative Bond.jpg|Restorative Bond
+
+## Tables extracted from this page
+
+- tables/scribing_Mender_s_Bond_t00.csv (7 rows): Damage Shield | Damage Shield | Warding Bond | Grants the ally and other allies in the link a damage shield that absorbs
+- tables/scribing_Mender_s_Bond_t01.csv (7 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/scribing_Mender_s_Bond_t02.csv (9 rows): Breach | Breach | Afflicts Minor Breach to enemies in the link for 10 seconds, reducing ESO Resistance Link|Physical | |
+- tables/skills_Mender_s_Bond_t00.csv (7 rows): Damage Shield | Damage Shield | Warding Bond | Grants the ally and other allies in the link a damage shield that absorbs
+- tables/skills_Mender_s_Bond_t01.csv (7 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/skills_Mender_s_Bond_t02.csv (9 rows): Breach | Breach | Afflicts Minor Breach to enemies in the link for 10 seconds, reducing ESO Resistance Link|Physical | |

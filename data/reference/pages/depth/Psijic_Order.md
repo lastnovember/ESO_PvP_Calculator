@@ -85,3 +85,11 @@ style motif]] based on the armor and weapons used by the Psijic Order.
 ### Books
 - The Old Ways
 - The Mystery of Artaeum
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Psijic_Order_t00.csv (19 rows): See the Unseen | 1
+- tables/uesp_Online_Psijic_Order_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Psijic_Order_t02.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Psijic_Order_t03.csv (8 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Psijic_Order_t04.csv (14 rows): Conclave of the Eleven Forces Ritemaster Iachesis (First Leader) Valsirenn (Second Leader) Amaleera Iradal Loremaster Ce

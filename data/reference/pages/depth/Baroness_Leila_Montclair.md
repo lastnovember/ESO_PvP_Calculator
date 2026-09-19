@@ -114,3 +114,7 @@ reaction=Hostile
 faction=House Montclair
 health=
 condition=Vampire
+
+## Tables extracted from this page
+
+- tables/depth_Baroness_Leila_Montclair_t00.csv (1 rows): Agreed with the Baron: | Disagreed with the Baron:

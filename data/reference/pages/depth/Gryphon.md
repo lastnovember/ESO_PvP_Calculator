@@ -126,3 +126,7 @@ File:ON-creature-Gryphon 06.jpg|A gryphon in flight
 File:ON-creature-Gryphon 11.jpg|Attacking mid-flight
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Gryphon_t00.csv (6 rows): Zone / Dungeon | Specific Location | Difficulty | Health

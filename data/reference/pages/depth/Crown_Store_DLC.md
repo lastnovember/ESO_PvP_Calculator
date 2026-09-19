@@ -46,3 +46,7 @@ File:ON-creature-Maarselok 04.jpg|Scalebreaker
 File:ON-quest-New Moon Rising.jpg|Dragonhold
 File:ON-creature-Tzirzhalir.jpg|Harrowstorm
 File:ON-interior-Castle Thorn 06.jpg|Stonethorn
+
+## Tables extracted from this page
+
+- tables/depth_Crown_Store_DLC_t00.csv (1 rows): Name | Notes

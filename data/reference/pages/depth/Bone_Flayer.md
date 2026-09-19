@@ -136,3 +136,7 @@ File:ON-npc-Bone Flayer (Tumma-Maxath).jpg|Summoned by Tumma-Maxath
 File:ON-npc-Bone Flayer (Fire Mage).jpg|Bone Flayer fire mage
 File:ON-npc-Bone Flayer (Tarnur Mine).jpg|A Bone Flayer from Tarnur Mine
 File:ON-place-Carapace Cavern Shrine 04.jpg|A Bone Flayer and a Worm Cult Necromancer in Carapace Cavern Shrine
+
+## Tables extracted from this page
+
+- tables/depth_Bone_Flayer_t00.csv (27 rows): Locations | Specific Location | Condition | Class | Health

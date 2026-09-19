@@ -60,3 +60,7 @@ scope="row"|50
 
 ## Notes
 - According to a screenshot from 2011, early builds of ESO also used silver and copper currency, but by the time of launch it was simplified to just use gold.
+
+## Tables extracted from this page
+
+- tables/depth_Copper_t00.csv (13 rows): Gear Level | Copper Ring | Copper Necklace

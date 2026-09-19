@@ -29,3 +29,7 @@ Shademist Moors | Shademist Conjurer | Bosmer | Varies | 29870
 File:ON-npc-Lathriel the Pale 02.jpg|A Shaman summoning a Burdening Eye
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Spirit_Master_t00.csv (5 rows): Location | Name | Race | Gender | Health

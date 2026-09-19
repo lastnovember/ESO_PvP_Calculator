@@ -49,3 +49,8 @@ rowspan=2|Quicksilver Maul
 12 Quicksilver Ingots
 
 13 Quicksilver Ingots
+
+## Tables extracted from this page
+
+- tables/depth_Quicksilver_Weapons_t00.csv (5 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Quicksilver_Weapons_t01.csv (4 rows): Base | Fine | Superior | Epic | Legendary

@@ -13,3 +13,7 @@ maxpoints=30
 desc=Reduces the radius you can be detected while Sneaking by 1 meter per stage.
 
 Out of Sight reduces the radius you can be detected while sneaking by up to 3 meters. This cumulates with other similar bonuses such as Night Mother's Embrace and Feline Ambush.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Out_of_Sight_champion_t00.csv (3 rows): Constellation | Craft

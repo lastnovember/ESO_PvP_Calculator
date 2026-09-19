@@ -129,3 +129,7 @@ Miscellaneous
 - For historical information, see the lore article on Meridia.
 
 Faction
+
+## Tables extracted from this page
+
+- tables/depth_Cult_of_Meridia_t00.csv (1 rows): Kilkreath Branch

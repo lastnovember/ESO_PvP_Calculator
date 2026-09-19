@@ -1,5 +1,5 @@
-Script,Effects
 Assassin's Misery,Assassin's Misery,"Afflicts enemies with Burning, Chill, and Concussion."
+Script,Effects
 Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.
 Druid's Resurgence,Druid's Resurgence,Restores 441 Magicka to you per enemy hit.
 Hunter's Snare,Hunter's Snare,"Create a field of distortion under the first enemy hit for 6 seconds, reducing the Movement Speed of enemies inside by 40%."

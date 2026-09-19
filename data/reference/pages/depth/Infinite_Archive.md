@@ -341,3 +341,8 @@ File:ON-map-Echoing Den.jpg|Echoing Den
 File:ON-map-Tho'at Replicanum Boss.jpg|Tho'at Replicanum Boss Stage
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Infinite_Archive_t00.csv (3 rows): Stage 1 | Enemies | Enemies | Enemies | Enemies | Enemies
+- tables/depth_Infinite_Archive_t01.csv (5 rows): Boss | Pen Req'd

@@ -119,3 +119,13 @@ rowspan=6|Steel Maul
 colspan=7|
 
 Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+
+## Tables extracted from this page
+
+- tables/depth_Steel_Weapons_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Steel_Weapons_t01.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Steel_Weapons_t02.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Steel_Weapons_t03.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Steel_Weapons_t04.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Steel_Weapons_t05.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Khajiit | Nord | Orc | Redguard
+- tables/depth_Steel_Weapons_t06.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard

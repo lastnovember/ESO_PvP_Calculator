@@ -36,3 +36,7 @@ style=text-align:center| Sorrow's Friend | style=text-align:center| Descender Sk
 ## See Also
 - Agonymium Stone, Inert
 - Agonymium Stone (memento)
+
+## Tables extracted from this page
+
+- tables/depth_Agonymium_Stone_object_t00.csv (2 rows): Zone / Dungeon | Specific Location | Difficulty | Health

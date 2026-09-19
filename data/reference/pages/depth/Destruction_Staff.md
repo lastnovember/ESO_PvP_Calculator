@@ -77,3 +77,14 @@ Penetrating Magic
 Elemental Force
 Ancient Knowledge
 Destruction Expert
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Destruction_Staff_t00.csv (29 rows): 2 | Force Shock
+- tables/uesp_Online_Destruction_Staff_t01.csv (1 rows): 
+- tables/uesp_Online_Destruction_Staff_t02.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Destruction_Staff_t03.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Destruction_Staff_t04.csv (10 rows): Ability Name | Weapon set name | Description
+- tables/uesp_Online_Destruction_Staff_t05.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/depth_Destruction_Staff_t00.csv (1 rows): frameless | frameless
+- tables/depth_Destruction_Staff_t01.csv (10 rows): Ability Name | Weapon set name | Description

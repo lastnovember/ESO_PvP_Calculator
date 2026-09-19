@@ -68,3 +68,7 @@ scope="col"|Iron Greatsword
 
 scope="col"|Iron Dagger
 2 | 3 | 4 | 5 | 6 | 7 | 8
+
+## Tables extracted from this page
+
+- tables/depth_Iron_Ore_t00.csv (15 rows): Gear Level | 1 | 4 | 6 | 8 | 10 | 12 | 14

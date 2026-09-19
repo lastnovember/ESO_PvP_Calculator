@@ -110,3 +110,7 @@ rowspan=2 |Rubedite/ Ruby Ash
 CP150 | 1184 (white) / 1232 (green) / 1280 (blue) / 1312 (purple) / 1360 (gold) | 2368 (white) / 2464 (green) / 2560 (blue) / 2624 (purple) / 2720 (gold)
 
 CP160 | 1200 (white) / 1248 (green) / 1296 (blue) / 1328 (purple) / 1376 (gold) | 2400 (white) / 2496 (green) / 2592 (blue) / 2656 (purple) / 2752 (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Sharpened_t00.csv (42 rows): 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary | 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary

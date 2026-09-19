@@ -237,3 +237,7 @@ Enter the Chapel of Light
 Attend the Council of War
 fin|We destroyed the Great Shackle, but the Planemeld continues. The council of war has decided to assault the Chasm and fight our way to the remaining planar vortex. Only then can we seal the connection and save Nirn from the Planemeld.
 Talk to King Laloriaran Dynar
+
+## Tables extracted from this page
+
+- tables/depth_The_Army_of_Meridia_t00.csv (1 rows): If you haven't completed all of the optional quests | If you've completed all of the optional quests

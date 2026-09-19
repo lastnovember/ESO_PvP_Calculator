@@ -15,3 +15,7 @@ colspan=5|Increase Movement Speed
 5Legendary
 
 3% (white) / 4% (green) / 5% (blue) / 6% (purple) / 7% (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Swift_t00.csv (2 rows): 5Normal | 5Fine | 5Superior | 5Epic | 5Legendary

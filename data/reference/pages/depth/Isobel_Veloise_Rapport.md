@@ -50,3 +50,7 @@ colspan="4" style="text-align:center; background-color:#E4A08F;" | Actions that 
 
 -1 | Enter an Outlaw's Refuge
 Dog pets include the Alik'r Dune-Hound, Druadach Mountain Dog, Imperial War Mastiff, Bravil Retriever, Jerall Rescue Dog, and Greenhill Farmdog.
+
+## Tables extracted from this page
+
+- tables/depth_Isobel_Veloise_Rapport_t00.csv (22 rows): Amount | Action | Cooldown

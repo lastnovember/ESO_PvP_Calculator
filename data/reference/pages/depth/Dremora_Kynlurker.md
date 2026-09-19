@@ -88,3 +88,7 @@ File:ON-npc-Dremora Kynlurker (Vvardenfell) 03.jpg|A male Kynlurker in Ashalmawi
 File:ON-npc-Dremora Kynlurker (Vvardenfell) 04.jpg|A male Kynlurker at Yansirramus
 File:ON-npc-Dremora Kynlurker (Vvardenfell) 05.jpg|A female Kynlurker at Yansirramus
 File:ON-npc-Dremora Kynlurker (Vvardenfell) 02.jpg|A Kynlurker summoning a Daedric Arch
+
+## Tables extracted from this page
+
+- tables/depth_Dremora_Kynlurker_t00.csv (4 rows): Zone / Dungeon | Specific Location | Difficulty | Class | Health

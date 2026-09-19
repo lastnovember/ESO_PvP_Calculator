@@ -99,3 +99,8 @@ width=50%| Agreed with Dosu-Jasuda:
 :Bak-Deelith Dosu-Jasuda: "I am not used to you giving in like this, Xankapa. Let us try both customs and see which works for us."
 :Bak-Deelith Xankapa: "And if we still don't agree?"
 :Bak-Deelith Dosu-Jasuda: "Then we keep doing both for as long as we both wish it."
+
+## Tables extracted from this page
+
+- tables/depth_Bak-Deelith_Xankapa_t00.csv (1 rows): Agreed with neither of them: | Agree with Xankapa: | Agree with Dosu-Jasuda:
+- tables/depth_Bak-Deelith_Xankapa_t01.csv (1 rows): Agreed with Xankapa: | Agreed with Dosu-Jasuda:

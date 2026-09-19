@@ -117,3 +117,7 @@ Solstice (clues) (clues) | Other | |18
 colspan=2 |Total (Base Game only) | |339
 
 colspan=2 |Total (all DLC and Chapters) | |579
+
+## Tables extracted from this page
+
+- tables/skills_Skyshards_t00.csv (53 rows): Location | Region | Number of Shards

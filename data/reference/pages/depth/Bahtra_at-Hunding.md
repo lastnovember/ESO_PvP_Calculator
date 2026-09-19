@@ -140,3 +140,7 @@ After completing the quest, you can return to her for Subclassing Services:
 File:ON-render-Subclassing 02.jpg|Featured in a promotional render
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Bahtra_at-Hunding_t00.csv (5 rows): Accomplishment | Greeting

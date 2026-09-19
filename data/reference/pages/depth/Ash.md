@@ -28,3 +28,7 @@ scope="row"|CP50
 
 scope="row"|CP60
 11 | 11 | 14
+
+## Tables extracted from this page
+
+- tables/depth_Ash_t00.csv (3 rows): Gear Level | Ash Bow | Ash [Type] Staff | Ash Shield

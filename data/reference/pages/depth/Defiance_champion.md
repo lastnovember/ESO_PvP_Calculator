@@ -12,3 +12,7 @@ maxpoints=20
 desc=Reduces the cost of Break Free by 110 Stamina per stage.
 
 Champion
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Defiance_champion_t00.csv (3 rows): Constellation | Fitness

@@ -45,3 +45,7 @@ width=50%| Previously met Solgra:
 
 ## Bugs
 Your character now will only tell the "not having met Solgra" dialogue, even if you have met her prior.
+
+## Tables extracted from this page
+
+- tables/depth_Ashgel_t00.csv (1 rows): Have not met Solgra: | Previously met Solgra:

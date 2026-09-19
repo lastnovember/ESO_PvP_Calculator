@@ -140,3 +140,16 @@ rowspan=2|Rubedite Mace
 11 Rubedite Ingots
 
 110 Rubedite Ingots
+
+## Tables extracted from this page
+
+- tables/depth_Maces_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Maces_t01.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Maces_t02.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Maces_t03.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Maces_t04.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Maces_t05.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Maces_t06.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Maces_t07.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Maces_t08.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Maces_t09.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan

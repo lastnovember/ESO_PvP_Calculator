@@ -702,3 +702,10 @@ During Pyre of Ambition, there is stage where you have to speak with both Keshu 
 Tides of the Heart]] ending dialogue and not the line meant for this location.
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Keshu_the_Black_Fin_t00.csv (1 rows): Met in Blackwood: | Argonian, First time meeting Argonian: | Other race, First time meeting:
+- tables/depth_Keshu_the_Black_Fin_t01.csv (1 rows): Met in Blackwood | First time Meeting
+- tables/depth_Keshu_the_Black_Fin_t02.csv (1 rows): Met in Blackwood: | Otherwise:
+- tables/depth_Keshu_the_Black_Fin_t03.csv (1 rows): No Guardians Defeated: | Western Guardian Defeated: | Eastern Guardian Defeated: | Both Guardians Defeated:

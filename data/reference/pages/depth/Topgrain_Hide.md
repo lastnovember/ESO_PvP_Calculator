@@ -33,3 +33,7 @@ scope="row"|CP20
 
 scope="row"|CP30
 14 | 12 | 12 | 12 | 13 | 12 | 12 | 87
+
+## Tables extracted from this page
+
+- tables/depth_Topgrain_Hide_t00.csv (3 rows): Armor Level | Brigandine Jack | Brigandine Boots | Brigandine Bracers | Brigandine Helmet | Brigandine Guards | Brigandi

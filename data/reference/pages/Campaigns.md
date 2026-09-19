@@ -431,3 +431,24 @@ The following are campaign names derived from the.LANG file that have yet to app
 
 ## Notes
 - Prior to Update 7 (Imperial City), campaigns had a standardized scoring system: Keeps: 10 points (5 on Haderus); Outposts: 5 points (3 on Haderus); Resources: 1 point (0 on Haderus); Scrolls: 25 points (10 on Haderus).
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Campaigns_t00.csv (4 rows): Campaign | Ruleset | Duration | Keeps | Outposts | Resources | Scrolls
+- tables/uesp_Online_Campaigns_t01.csv (4 rows): Campaign | Ruleset | Districts
+- tables/uesp_Online_Campaigns_t02.csv (7 rows): 1st Place Alliance | 2100 gold | 3000 gold + 1 Superior item | 3900 gold + 1 Epic item
+- tables/uesp_Online_Campaigns_t03.csv (7 rows): 1st Place Alliance | 10500 gold | 15000 gold + 5 Superior items | 19500 gold + 5 Epic items
+- tables/uesp_Online_Campaigns_t04.csv (2 rows): Leaderboard Position | 7-Day Campaigns | 30-Day Campaigns
+- tables/uesp_Online_Campaigns_t05.csv (1 rows): Bonus | Effect
+- tables/uesp_Online_Campaigns_t06.csv (13 rows): Bonus | Effect
+- tables/uesp_Online_Campaigns_t07.csv (4 rows): Bonus | Effect
+- tables/uesp_Online_Campaigns_t08.csv (6 rows): Bonus | Effect
+- tables/uesp_Online_Campaigns_t09.csv (16 rows): Stats | Soldier | Vanguard | Battle Medic | Scout
+- tables/depth_Campaigns_t00.csv (4 rows): Campaign | Ruleset | Duration | Keeps | Outposts | Resources | Scrolls
+- tables/depth_Campaigns_t01.csv (4 rows): Campaign | Ruleset | Districts
+- tables/depth_Campaigns_t02.csv (7 rows): 1st Place Alliance | 2100 gold | 3000 gold + 1 Superior item | 3900 gold + 1 Epic item
+- tables/depth_Campaigns_t03.csv (7 rows): 1st Place Alliance | 10500 gold | 15000 gold + 5 Superior items | 19500 gold + 5 Epic items
+- tables/depth_Campaigns_t04.csv (2 rows): Leaderboard Position | 7-Day Campaigns | 30-Day Campaigns
+- tables/depth_Campaigns_t05.csv (1 rows): Bonus | Effect
+- tables/depth_Campaigns_t06.csv (6 rows): Emperorship Alliance Bonus | Emperorship Alliance Bonus I | Increases Max Health by 900.
+- tables/depth_Campaigns_t07.csv (16 rows): Stats | Soldier | Vanguard | Battle Medic | Scout

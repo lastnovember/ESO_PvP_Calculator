@@ -1184,3 +1184,10 @@ File:ON-event-Anniversary Jubilee 2024.jpg|Featured in a promotional render for 
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (center right, climbing the stairs)
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Bastian_Hallix_t00.csv (10 rows): Racial Skill | Tough: Increases Max Health by 3% and damage done by 3%.
+- tables/depth_Bastian_Hallix_t01.csv (7 rows): Cordial-Friendly | Close | Companion-Allied | Bad Rapport
+- tables/depth_Bastian_Hallix_t02.csv (5 rows): Cordial/Friendly | Close | Allied | Companion
+- tables/depth_Bastian_Hallix_t03.csv (5 rows): Wary | Irritated | Disdainful

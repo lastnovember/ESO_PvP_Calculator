@@ -124,3 +124,10 @@ The following subtractive enchantments can be added to jewelry:
 - Taderi: Glyph of Decrease Physical Harm - Adds Armor
 
 The following runes are used only for enchanting jewelry, so (since jewelry enchantment is a much rarer requirement than weapons and armor), they are ideal for crafting training runes for subsequent deconstruction: Denima, Kaderi, Makderi, Makkoma, Oru.
+
+## Tables extracted from this page
+
+- tables/depth_Jewelry_t00.csv (5 rows): Type | Levels
+- tables/depth_Jewelry_t01.csv (5 rows): Type | Levels
+- tables/depth_Jewelry_t02.csv (6 rows): Type | Levels
+- tables/depth_Jewelry_t03.csv (6 rows): Type | Levels

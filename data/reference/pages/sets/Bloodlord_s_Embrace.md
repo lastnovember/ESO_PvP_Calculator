@@ -53,3 +53,7 @@ File:ON-item-Bloodlord's Embrace 02.jpg|Bloodlord's Embrace Back
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Western Skyrim
+
+## Tables extracted from this page
+
+- tables/sets_Bloodlord_s_Embrace_t00.csv (5 rows): 40px | Fanged Cuirass | Public Dungeon bosses in Sanguine's Demesne | Shadowfen | Unusual design. The spine and chest ar

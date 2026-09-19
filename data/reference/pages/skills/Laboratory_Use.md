@@ -75,3 +75,7 @@ The following table gives a complete list of 119 formulae for tripled effects.
 ## Notes
 - The triple-effect formulae listed above are not the only possibilities that are opened up by the Laboratory Use passive. You can mix and match all kinds of effects without triple-effects using three reagents. An exhaustive list of these would be prohibitively long. It is not possible, however, to create potions or poisons with more than three effects.
 - Four-effect potions were actually possible prior to Update 10, but White Cap's fourth effect was changed from Uncertainty (then known as Lower Spell Crit) to Detection to prevent this, as these potions never actually worked properly anyhow.
+
+## Tables extracted from this page
+
+- tables/skills_Laboratory_Use_t00.csv (15 rows): Detection | Invisible

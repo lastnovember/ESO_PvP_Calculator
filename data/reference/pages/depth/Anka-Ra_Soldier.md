@@ -45,3 +45,7 @@ Generic, unnamed Anka-Ra Soldiers can be encountered in various places across Ta
 Zone / Dungeon | Specific Location / Quest | Difficulty | Health
 
 style=text-align:center| The Parch | style=text-align:center| Southwestern district | style=text-align:center| | style=text-align:center| 306,419
+
+## Tables extracted from this page
+
+- tables/depth_Anka-Ra_Soldier_t00.csv (2 rows): Zone / Dungeon | Specific Location / Quest | Difficulty | Health

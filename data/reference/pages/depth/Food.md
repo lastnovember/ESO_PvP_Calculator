@@ -801,3 +801,30 @@ Foul smelling food.
 rowspan=2|
 
 Causes you to vomit.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Food_t00.csv (90 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/uesp_Online_Food_t01.csv (5 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Food_t02.csv (5 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Food_t03.csv (5 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Food_t04.csv (77 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/uesp_Online_Food_t05.csv (3 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 2
+- tables/uesp_Online_Food_t06.csv (3 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 2
+- tables/uesp_Online_Food_t07.csv (8 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Food_t08.csv (8 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Food_t09.csv (8 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Food_t10.csv (11 rows): Food | Description | Price
+- tables/uesp_Online_Food_t11.csv (5 rows): Food | Description | Price
+- tables/depth_Food_t00.csv (1 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/depth_Food_t01.csv (5 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/depth_Food_t02.csv (5 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/depth_Food_t03.csv (5 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/depth_Food_t04.csv (77 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/depth_Food_t05.csv (3 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 2
+- tables/depth_Food_t06.csv (3 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 2
+- tables/depth_Food_t07.csv (8 rows): Level | #eeeeee| 1 | #eeeeee| 2 | #eeeeee| 3 | #eeeeee| 4 | #eeeeee| 5 | #eeeeee| 6 | #eeeeee| 7 | #eeeeee| 8 | #eeeeee|
+- tables/depth_Food_t08.csv (8 rows): Level | #eeeeee| 1 | #eeeeee| 2 | #eeeeee| 3 | #eeeeee| 4 | #eeeeee| 5 | #eeeeee| 6 | #eeeeee| 7 | #eeeeee| 8 | #eeeeee|
+- tables/depth_Food_t09.csv (8 rows): Level | #eeeeee| 1 | #eeeeee| 2 | #eeeeee| 3 | #eeeeee| 4 | #eeeeee| 5 | #eeeeee| 6 | #eeeeee| 7 | #eeeeee| 8 | #eeeeee|
+- tables/depth_Food_t10.csv (11 rows): Food | Description | Price
+- tables/depth_Food_t11.csv (5 rows): Food | Description | Price

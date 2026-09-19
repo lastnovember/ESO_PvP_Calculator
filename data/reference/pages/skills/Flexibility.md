@@ -45,3 +45,7 @@ Armor Pieces Equipped | Damage Bonus | Cooldown Reduction | Cooldown Duration
 ## Gallery
 
 Evasion
+
+## Tables extracted from this page
+
+- tables/skills_Flexibility_t00.csv (8 rows): Armor Pieces Equipped | Damage Bonus | Cooldown Reduction | Cooldown Duration

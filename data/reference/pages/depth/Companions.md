@@ -439,3 +439,11 @@ The following armor sets help amplify your companions:
 
 ## Further Reading
 - Companions System Guide - The Basics
+
+## Tables extracted from this page
+
+- tables/depth_Companions_t00.csv (8 rows): 36px | Bastian Hallix | Male | Dragonknight Dragonknight | Imperial Imperial | Tough: Increases Max Health by 3% and dam
+- tables/depth_Companions_t01.csv (1 rows): Bastian Hallix link=ON:Dragonknight|16px | Mirri Elendis link=ON:Nightblade|16px | Ember link=ON:Sorcerer|16px | Isobel 
+- tables/depth_Companions_t02.csv (21 rows): Level | Experience
+- tables/depth_Companions_t03.csv (21 rows): Level | Experience
+- tables/depth_Companions_t04.csv (8 rows): Minimum | Maximum | Status | Description

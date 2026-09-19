@@ -52,3 +52,7 @@ File:ON-item-Thrassian Stranglers.jpg|Thrassian Stranglers
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Western Skyrim
+
+## Tables extracted from this page
+
+- tables/sets_Thrassian_Stranglers_t00.csv (5 rows): 40px | Buoyant Steel | Fishing in saltwater | Stros M'Kai | Was there any metal in Thras? If not, I'm curious how this m

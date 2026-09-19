@@ -292,3 +292,7 @@ rowspan=2|Decoy Elder Scroll (200,000)
 
 ## Bugs
 When Update 13 was released, Decoy Elder Scrolls were unbound. These versions can be sold to players who have not achieved the rank of Grand Overlord. This was quickly hotfixed, so all new Decoy Elder Scrolls are now bound on pickup.
+
+## Tables extracted from this page
+
+- tables/depth_Alliance_Points_t00.csv (52 rows): 1 | rowspan=2 |File:ON-icon-ava-Volunteer.png Volunteer | Grade 1 | 900 | 700 | Assault and Support Rank 2 Unlocked at 7

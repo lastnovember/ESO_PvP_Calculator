@@ -32,3 +32,7 @@ River northeast of Black Heights | Brokk the Smuggler | Orc | Male | 133844
 While the swashbuckler is sprinting to perform "Twirling Lunge", blocking spark indicators appear around you, instead of around them, and blocking the attack doesn't set them off-balance.
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Swashbuckler_t00.csv (4 rows): Location | Name | Race | Gender | Health

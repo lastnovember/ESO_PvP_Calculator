@@ -527,3 +527,14 @@ Applies Minor Maim and Minor Defile, reducing your victim's Damage by 5% and red
 
 Gold Coast Trapping Poison
 Applies Hindrance and Immobilize to your target, immobilizing them for 3.5 seconds and reducing Movement Speed by 40% for 6.4 seconds. (10 second cooldown)
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Poisons_t00.csv (66 rows): Poison | Level | Damage | Duration | TOTAL
+- tables/uesp_Online_Poisons_t01.csv (66 rows): Poison | Level | Damage | Duration | TOTAL
+- tables/uesp_Online_Poisons_t02.csv (66 rows): Poison | Level | Duration
+- tables/uesp_Online_Poisons_t03.csv (6 rows): Poison | Effects | Price
+- tables/depth_Poisons_t00.csv (66 rows): Poison | Level | Damage | Duration | TOTAL
+- tables/depth_Poisons_t01.csv (66 rows): Poison | Level | Damage | Duration | TOTAL
+- tables/depth_Poisons_t02.csv (66 rows): Poison | Level | Duration
+- tables/depth_Poisons_t03.csv (6 rows): Poison | Effects | Price

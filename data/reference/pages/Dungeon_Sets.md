@@ -13,3 +13,8 @@ Toothrow
 
 ## DLC Dungeons
 Xanmeer Spellweaver
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Dungeon_Sets_t00.csv (48 rows): Set Name | Bonuses | Location(s) | Set Type
+- tables/uesp_Online_Dungeon_Sets_t01.csv (102 rows): Set Name | Bonuses | Location(s) | Set Type

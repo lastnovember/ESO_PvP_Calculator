@@ -73,3 +73,7 @@ colspan="4" style="text-align:center; background-color:#E4A08F;" | Actions that 
 -1 | Brew a beverage with Coffee
 
 -1 | Play a game of Tales of Tribute
+
+## Tables extracted from this page
+
+- tables/depth_Azandar_al-Cybiades_Rapport_t00.csv (34 rows): Amount | Action | Cooldown

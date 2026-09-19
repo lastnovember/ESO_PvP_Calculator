@@ -243,3 +243,8 @@ These "races" do not fictionally represent such, but are still programmed and cl
 - Your choice of Alliance when creating your character, usually dictated by race, is the single biggest influence on how your game will differ compared to other players.
 - The Explorer's Pack and Adventurer Pack remove the limitation on races within Alliances, allowing any race to be played in any Alliance.
 - The Imperials are only a playable race for those with the Imperial Edition of the game.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Races_t00.csv (1 rows): Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact | Other
+- tables/uesp_Online_Races_t01.csv (13 rows): Alliance | Race | +15% exp gain in skill | Max Magicka Magicka Recovery Spell Damage | Max Health Health Recovery | Max 

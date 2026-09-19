@@ -68,3 +68,7 @@ Deadlands Assassin (5 pieces) | Any | Set | 50% | Adds additional Bleed Damage
 Perfected / Executioner's Blade (2 pieces) | Any | Set | 100% | Deals up to 250% more damage with Hidden Blade
 
 Pyrebrand (5 pieces) | Dragonknight | Set | 33% | Deals up to 200% more Flame Damage
+
+## Tables extracted from this page
+
+- tables/depth_Execute_t00.csv (31 rows): Source | Class | Type | Threshold | Effect

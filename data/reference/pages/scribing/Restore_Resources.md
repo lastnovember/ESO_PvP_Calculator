@@ -15,3 +15,7 @@ Reduce the cost of non-Ultimate abilities by 8%. Reduce your Health, Magicka, an
 
 ## Notes
 - The Daedric text on the script reads "Restoration".
+
+## Tables extracted from this page
+
+- tables/scribing_Restore_Resources_t00.csv (2 rows): Mender's Bond | Mender's Bond (Restorative Bond) | Restores 215 Magicka and Stamina to the ally and other allies in the 

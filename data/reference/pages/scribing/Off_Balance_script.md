@@ -26,3 +26,7 @@ Sets enemies Off Balance for 7 seconds.
 
 ## Notes
 - The Daedric text on the script reads "Off Balance".
+
+## Tables extracted from this page
+
+- tables/scribing_Off_Balance_script_t00.csv (6 rows): Elemental Explosion | Elemental Explosion | Sets enemies Off Balance for 7 seconds.

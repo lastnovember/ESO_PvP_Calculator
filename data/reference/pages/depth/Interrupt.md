@@ -33,3 +33,7 @@ colspan=2|Crushing Shock (Destruction Staff) | Single Enemy | 2700 Magicka | Stu
 ## Notes
 - The Noble's Conquest set heals you when you successfully interrupt an attack, and also causes them to take increased damage.
 - The Opportunist perk from 10 points in The Ritual will increase the damage of your next attack after interrupting an attack.
+
+## Tables extracted from this page
+
+- tables/depth_Interrupt_t00.csv (10 rows): Skill | Affects | Cost | Notes

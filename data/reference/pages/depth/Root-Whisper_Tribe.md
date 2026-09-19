@@ -60,3 +60,7 @@ Past Tribe Members | Members of Revived Tribe
 - Leather That Protects
 - Mushrooms That Nourish
 - Offerings That Hide
+
+## Tables extracted from this page
+
+- tables/depth_Root-Whisper_Tribe_t00.csv (1 rows): Past Tribe Members | Members of Revived Tribe

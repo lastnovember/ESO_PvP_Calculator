@@ -41,3 +41,7 @@ CP60
 
 ## Notes
 Prior to One Tamriel, they were found in the third, fourth and fifth Cadwell's Silver zones.
+
+## Tables extracted from this page
+
+- tables/depth_Galatite_Ore_t00.csv (9 rows): Armor Level | Galatite Cuirass | Galatite Sabatons | Galatite Gauntlets | Galatite Helm | Galatite Greaves | Galatiteon 

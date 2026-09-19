@@ -219,3 +219,12 @@ width=50%| Revenge on Wankeen/Let Cirwynia decide:Ruthless
 :"Now that I'm out from under the captain's thumb, I can do whatever I want. I'll probably head to Sunport first, then try to get work on another ship out of Solstice. Don't worry, I plan to read the contract before I sign it this time."
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Cirwynia_t00.csv (1 rows): Took the High Elf Family Heirloom: | Took the Tide-Born Idol:
+- tables/depth_Cirwynia_t01.csv (1 rows): No Haggling: | Be NiceKind: | Be FirmGrim:
+- tables/depth_Cirwynia_t02.csv (1 rows): Stole Tide-Born Idol: | Stole High Elf Heirloom:
+- tables/depth_Cirwynia_t03.csv (1 rows): Stole Tide-Born Idol: | Stole High Elf Heirloom:
+- tables/depth_Cirwynia_t04.csv (5 rows): Show Mercy to Wankeen:Merciful | Revenge on Wankeen/Let Cirwynia decide:Ruthless
+- tables/depth_Cirwynia_t05.csv (5 rows): Show Mercy to Wankeen:Merciful | Revenge on Wankeen/Let Cirwynia decide:Ruthless

@@ -26,3 +26,7 @@ Heart's Grief | Duchess of Anguish | Xivkyn | Female | 120741
 ## Bugs
 Only the middle fire line on "Hand of Flame" has an indicator.
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Spellblade_t00.csv (3 rows): Location | Name | Race | Gender | Health

@@ -27,3 +27,7 @@ You cleanse yourself of snares and immobilizations and are immune to them while 
 
 ## Notes
 - The Daedric text on the script reads "Immobilize". (It is written twice, one of them rotated upside-down.)
+
+## Tables extracted from this page
+
+- tables/scribing_Immobilize_script_t00.csv (6 rows): Mender's Bond | Mender's Bond (Binding Bond) | Removes and grants immunity to snares and other immobilizations for 1 sec

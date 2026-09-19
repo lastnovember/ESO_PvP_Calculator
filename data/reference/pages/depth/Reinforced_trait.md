@@ -78,3 +78,8 @@ Girdle | 907 (white) / 943 (green) / 979 (blue) / 1003 (purple) / 1039 (gold) | 
 Total | 13005 (white) / 13521 (green) / 14037 (blue) / 14381 (purple) / 14897 (gold) | 14564 (white) / 15277 (green) / 15997 (blue) / 16536 (purple) / 17279 (gold)
 
 Total w/ Shield | 14505 (white) / 15081 (green) / 15657 (blue) / 16041 (purple) / 16617 (gold) | 16244 (white) / 17039 (green) / 17843 (blue) / 18445 (purple) / 19274 (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Reinforced_trait_t00.csv (2 rows): 5Normal | 5Fine | 5Superior | 5Epic | 5Legendary
+- tables/depth_Reinforced_trait_t01.csv (23 rows): 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary | 12Normal | 12Fine | 12Superior | 12Epic | 12Legendary

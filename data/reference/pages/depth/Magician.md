@@ -55,3 +55,7 @@ Reduce
 20 | 6.1 | 40 | 9.2 | 60 | 11.8 | 80 | 14.0 | 100 | 16.0
 
 Champion
+
+## Tables extracted from this page
+
+- tables/depth_Magician_t00.csv (20 rows): middle|32px|Points | Reduce | middle|32px|Points | Reduce | middle|32px|Points | Reduce | middle|32px|Points | Reduce | 

@@ -12,3 +12,7 @@ desc=Each piece of Heavy Armor does the following: Reduces damage taken from Mar
 linerank1=1
 
 Heavy Armor Bonuses grants bonuses for each Heavy Armor you wear, for up to 7% less damage taken from martial attacks, increase the damage you block by 7%, 210 more damage from bashes and 7% less damage taken while immune to crowd control.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Heavy_Armor_Bonuses_t00.csv (3 rows): Line | Heavy Armor

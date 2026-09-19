@@ -124,3 +124,7 @@ Truly Superb Glyph of Weakening | | Itade | 10 | CP160
 306
 320
 348
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Weakening_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

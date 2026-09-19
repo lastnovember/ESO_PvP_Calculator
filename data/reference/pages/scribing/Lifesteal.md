@@ -20,3 +20,7 @@ Incompatible with Healing Vault
 
 ## Notes
 - The Daedric text on the script reads "Steal Life".
+
+## Tables extracted from this page
+
+- tables/scribing_Lifesteal_t00.csv (4 rows): Elemental Explosion | Elemental Explosion | Afflicts enemies with Minor Lifesteal for 20 seconds, healing attackers for 

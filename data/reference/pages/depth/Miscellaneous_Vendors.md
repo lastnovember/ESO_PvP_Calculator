@@ -61,3 +61,9 @@ Weapons vendors sold both weapons and shields.
 
 - Palmur-dra at the Temple of the Crescent Moons on Khenarthi's Roost originally had this vendor type, but is now an Armsman.
 - Louarde Barbe in Shinji's Scarp originally had this vendor type, but is now a Weaponsmith.
+
+## Tables extracted from this page
+
+- tables/depth_Miscellaneous_Vendors_t00.csv (3 rows): 5Faction | 5Zone | 5Settlement/Store | 5Vendor
+- tables/depth_Miscellaneous_Vendors_t01.csv (1 rows): 5Faction | 5Zone | 5Settlement/Store | 5Vendor
+- tables/depth_Miscellaneous_Vendors_t02.csv (10 rows): Icon | Item | Price

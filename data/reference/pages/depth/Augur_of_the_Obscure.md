@@ -446,3 +446,10 @@ File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this
 ## Notes
 - The Augur is similar to Dringoth, another powerful being that is also first encountered as a talking skull.
 - The Augur is voiced by Benjamin Diskin (IMDb).
+
+## Tables extracted from this page
+
+- tables/depth_Augur_of_the_Obscure_t00.csv (9 rows): Location | Map | Quote
+- tables/depth_Augur_of_the_Obscure_t01.csv (12 rows): Location | Map | Quote
+- tables/depth_Augur_of_the_Obscure_t02.csv (12 rows): Location | Map | Quote
+- tables/depth_Augur_of_the_Obscure_t03.csv (9 rows): Fragment item | Location | Breach | Quotes

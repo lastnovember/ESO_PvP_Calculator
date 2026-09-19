@@ -18,3 +18,7 @@ Afflicts enemies with the Concussion, Sundered, and Hemorrhaging status effects.
 
 ## Notes
 - The Daedric text on the script reads "Condition".
+
+## Tables extracted from this page
+
+- tables/scribing_Assassin_s_Misery_t00.csv (3 rows): Elemental Explosion | Elemental Explosion | Afflicts enemies with Burning, Chill, and Concussion.

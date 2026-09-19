@@ -98,3 +98,8 @@ Research Slots | 1 | 2 | 2 | 3 | 3
 
 Total all items
 235w 2d 10h 48m | 109w 1d 14h 01m | 103w 3d 08h 13m | 65w 4d 21h 36m | 50w 0d 03h 45m
+
+## Tables extracted from this page
+
+- tables/skills_Stitching_t00.csv (12 rows): Trait | Base Time | Stitching I | Stitching II | Stitching III | Stitching IV
+- tables/skills_Stitching_t01.csv (12 rows): Trait | Base Time | Stitching I | Stitching II | Stitching III | Stitching IV

@@ -265,3 +265,10 @@ After completing the quest:
 :"Relieved? Honestly, I started all this to get the people of Cyrodiil off my family's back-and to get a full night's sleep. Not exactly selfish, but not a righteous crusade either, you know? But now that I know what Granna went though …."
 :It's more personal?
 :"Aye. And sadder. But we sorted it, right? Spirits at rest, remains recovered, souls returned-I hope? This is as happy an ending as we could hope for, given the circumstances. Just makes me damn glad I'm a carpenter and not a full-time adventurer!"
+
+## Tables extracted from this page
+
+- tables/depth_Faric_Gemain_t00.csv (1 rows): If you are an Imperial: | If you are not an Imperial:
+- tables/depth_Faric_Gemain_t01.csv (1 rows): If you've completed The Memory Stone on Vvardenfell: | If you haven't completed The Memory Stone or seen a memory stone 
+- tables/depth_Faric_Gemain_t02.csv (1 rows): If you've progressed far enough in the Blackwood storyline: | If you haven't progressed far enough in the Blackwood stor
+- tables/depth_Faric_Gemain_t03.csv (1 rows): If you've progressed far enough in the Blackwood storyline: | If you haven't progressed far enough in the Blackwood stor

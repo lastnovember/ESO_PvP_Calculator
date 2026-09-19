@@ -38,3 +38,7 @@ Chid-Moska Ruins
 
 ## Notes
 - They could formerly be encountered in Chid-Moska Ruins, though this group had nothing in common bar the name, and were deprecated in Update 19 and replaced by Blackguards (save for Lirlane).
+
+## Tables extracted from this page
+
+- tables/depth_Outlaws_t00.csv (1 rows): Deadhallow Halls Thieves Guild

@@ -661,3 +661,8 @@ File:ON-wallpaper-Gold Road-3840 x 2160.jpg|High resolution art of Ithelia from 
 File:ON-misc-Gold Road Banner 02.jpg|Artwork featuring Ithelia (center)
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Ithelia_t00.csv (1 rows): First Time Meeting: | Completed The Many Paths:
+- tables/depth_Ithelia_t01.csv (1 rows): Encountered at Elenglynn: | First Time Meeting:

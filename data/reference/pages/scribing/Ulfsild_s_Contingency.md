@@ -136,3 +136,12 @@ File:ON-skill-Healing Contingency.jpg|Healing Contigency
 File:ON-skill-Binding Contingency.jpg|Binding Contigency
 File:ON-skill-Repelling Contingency.jpg|Repelling Contigency
 File:ON-skill-Magical Contingency.jpg|Magical Contigency
+
+## Tables extracted from this page
+
+- tables/scribing_Ulfsild_s_Contingency_t00.csv (12 rows): Damage Shield | Damage Shield | Warding Contigency | Grants a damage shield to you and your allies that absorbs 5622 dam
+- tables/scribing_Ulfsild_s_Contingency_t01.csv (10 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/scribing_Ulfsild_s_Contingency_t02.csv (12 rows): Breach | Breach | Afflicts Minor Breach for 22 seconds, reducing Physical and Spell Resistance by 2974.
+- tables/skills_Ulfsild_s_Contingency_t00.csv (12 rows): Damage Shield | Damage Shield | Warding Contigency | Grants a damage shield to you and your allies that absorbs 5622 dam
+- tables/skills_Ulfsild_s_Contingency_t01.csv (10 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/skills_Ulfsild_s_Contingency_t02.csv (12 rows): Breach | Breach | Afflicts Minor Breach for 22 seconds, reducing Physical and Spell Resistance by 2974.

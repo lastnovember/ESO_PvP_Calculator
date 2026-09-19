@@ -37,3 +37,7 @@ style=text-align:center| The Parch | style=text-align:center| Northeastern distr
 There is one achievement associated with this enemy:
 ESO Achievements List
 Familiar Slayer
+
+## Tables extracted from this page
+
+- tables/depth_Hollow_Armor_Duelist_t00.csv (2 rows): Zone / Dungeon | Specific Location / Quest | Difficulty | Health

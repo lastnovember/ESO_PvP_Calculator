@@ -38,3 +38,7 @@ Incompatible with Warding Contingency and Healing Contingency †
 
 ## Notes
 - The Daedric text on the script reads "Breach".
+
+## Tables extracted from this page
+
+- tables/scribing_Breach_script_t00.csv (11 rows): Mender's Bond | Mender's Bond | Afflicts Minor Breach to enemies in the link for 10 seconds, reducing ESO Resistance Lin

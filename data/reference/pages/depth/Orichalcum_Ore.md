@@ -50,3 +50,7 @@ Weapon Level | Orichalc Axe | Orichalc Hammer | Orichalc Sword | Orichalc Battle
 
 34
 9 | 9 | 9 | 11 | 11 | 11 | 8
+
+## Tables extracted from this page
+
+- tables/depth_Orichalcum_Ore_t00.csv (13 rows): Armor Level | Orichalc Cuirass | Orichalc Sabatons | Orichalc Gauntlets | Orichalc Helm | Orichalc Greaves | Orichalc Pa

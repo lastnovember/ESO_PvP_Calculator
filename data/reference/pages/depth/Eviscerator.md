@@ -36,3 +36,7 @@ File:ON-skill-Blink Strike 03.jpg|Landing during Blink Strike
 ## References
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Eviscerator_t00.csv (5 rows): Location | Name | Race | Gender | Health

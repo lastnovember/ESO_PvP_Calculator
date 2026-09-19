@@ -113,3 +113,7 @@ If you helped out in Leftwheal, Baroness Eliana Cossa will attend the party in S
 
 ## Bugs
 The Baroness Eliana Cossa spirit summoned by Zenefrit is completely bugged and does not attack nor move. The only thing she can do is turning to always face you like any other enemy.
+
+## Tables extracted from this page
+
+- tables/depth_Baroness_Eliana_Cossa_t00.csv (1 rows): If you were sent by Grimmer: | Otherwise:

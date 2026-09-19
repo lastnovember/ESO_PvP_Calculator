@@ -130,3 +130,12 @@ File:ON-skill-Magical Trample.jpg|Magical Trample
 File:ON-skill-Sundering Trample.jpg|Sundering Trample
 File:ON-skill-Dazing Trample.jpg|Dazing Trample
 File:ON-skill-Traumatic Trample.jpg|Traumatic Trample
+
+## Tables extracted from this page
+
+- tables/scribing_Trample_t00.csv (7 rows): Script | Skill Name | Effects | Notes
+- tables/scribing_Trample_t01.csv (9 rows): Assassin's Misery | Assassin's Misery | Afflicts enemies with the Concussion, Sundered, and Hemorrhaging status effects.
+- tables/scribing_Trample_t02.csv (10 rows): Brutality and Sorcery | Brutality and Sorcery | Grants you Major Brutality and Major Sorcery for 10 seconds, increasing 
+- tables/skills_Trample_t00.csv (7 rows): Script | Skill Name | Effects | Notes
+- tables/skills_Trample_t01.csv (9 rows): Assassin's Misery | Assassin's Misery | Afflicts enemies with the Concussion, Sundered, and Hemorrhaging status effects.
+- tables/skills_Trample_t02.csv (10 rows): Brutality and Sorcery | Brutality and Sorcery | Grants you Major Brutality and Major Sorcery for 10 seconds, increasing 

@@ -22,3 +22,7 @@ rowspan=2|Item Type | colspan=5|Increased Ultimate Generation
 18%
 22%
 26%
+
+## Tables extracted from this page
+
+- tables/depth_Prolific_t00.csv (3 rows): 6Fine | 6Superior | 6Epic | 6Legendary

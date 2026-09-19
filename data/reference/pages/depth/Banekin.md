@@ -169,3 +169,7 @@ The friendly Banekin in Eyevea doesn't run anymore, it walks instead, meaning th
 ## Gallery
 
 File:ON-concept-achievement-Tharn Speaks.jpg|Render
+
+## Tables extracted from this page
+
+- tables/depth_Banekin_t00.csv (32 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Health

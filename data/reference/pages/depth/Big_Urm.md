@@ -195,3 +195,9 @@ Talking to Big Urm afterwards:
 - Big Urm wears the recolored Drifting Sand Tunic and Sash costume.
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Big_Urm_t00.csv (1 rows): Stalled long enough for Hooke to free Valenia: | Valenia is freed but injured: | Valenia is killed:
+- tables/depth_Big_Urm_t01.csv (1 rows): Valenia is unharmed: | Valenia is injured: | Valenia is dead:
+- tables/depth_Big_Urm_t02.csv (1 rows): Valenia is unharmed: | Valenia is injured: | Valenia is dead:

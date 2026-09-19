@@ -1730,3 +1730,15 @@ File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this
 
 ## Bugs
 Ojel-Bak]].
+
+## Tables extracted from this page
+
+- tables/depth_Beragon_t00.csv (1 rows): Met Before: | Otherwise:
+- tables/depth_Beragon_t01.csv (1 rows): Met Before: | Otherwise:
+- tables/depth_Beragon_t02.csv (1 rows): Met Before: | Otherwise:
+- tables/depth_Beragon_t03.csv (1 rows): Completed Blackwood Storyline: | First time meeting:
+- tables/depth_Beragon_t04.csv (1 rows): Completed Blackwood Storyline: | First time meeting:
+- tables/depth_Beragon_t05.csv (1 rows): Completed the Gold Road Prologue: | Met Beragon Previously: | First Time Meeting:
+- tables/depth_Beragon_t06.csv (1 rows): Started quest from Legionary Caepio: | Otherwise:
+- tables/depth_Beragon_t07.csv (1 rows): Started quest from Legionary Caepio: | Otherwise:
+- tables/depth_Beragon_t08.csv (1 rows): Still more Reality Tears to repair: | All the Reality Tears fixed:

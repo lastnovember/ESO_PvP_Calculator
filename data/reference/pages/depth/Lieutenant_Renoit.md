@@ -52,3 +52,8 @@ width=50%| Lieutenant Renoit doesn't recognize you:
 - She is the author of the Arrest Report.
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Lieutenant_Renoit_t00.csv (1 rows): Lieutenant Renoit recognizes you: | Lieutenant Renoit doesn't recognize you: | Lieutenant Renoit doesn't recognize you +
+- tables/depth_Lieutenant_Renoit_t01.csv (1 rows): Lieutenant Renoit recognizes you: | Lieutenant Renoit doesn't recognize you:

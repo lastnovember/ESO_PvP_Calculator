@@ -25,3 +25,7 @@ The stun from "Stunning Arrow" lacks the associated animation on affected target
 Despite not being equipped with a weapon initially, by the nature of their class, armamancers still perform the unsheathe weapon animation when approaching them.
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Armamancer_t00.csv (3 rows): Location | Name | Race | Gender | Health

@@ -82,3 +82,8 @@ colspan=5|Frostbite (5 pieces) | Set | Increases damage done against Chilled tar
 ## Gallery
 
 File:ON-misc-Chilled.jpg|A chilled NPC
+
+## Tables extracted from this page
+
+- tables/depth_Chilled_t00.csv (29 rows): Source | Class | Type | Affects | Effect
+- tables/depth_Chilled_t01.csv (5 rows): Source | Type | Effect

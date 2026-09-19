@@ -55,3 +55,7 @@ Stone Garden | Stone Garden Alchemist | Dunmer | Varies
 File:ON-skill-Drink Potion (Alchemist).jpg|Using a potion
 File:ON-skill-Volatile Pool.jpg|Volatile Pool
 File:ON-skill-Volatile Pool 02.jpg|Volatile Pool
+
+## Tables extracted from this page
+
+- tables/depth_Chemist_t00.csv (16 rows): Location | Name | Race | Gender | Health

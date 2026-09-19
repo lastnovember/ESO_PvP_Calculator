@@ -124,3 +124,7 @@ Truly Superb Glyph of Magicka Recovery | | Repora | 10 | CP160
 145
 157
 169
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Magicka_Recovery_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

@@ -185,3 +185,8 @@ The "Talk" prompt doesn't work when first meeting him in City of Ash I while he 
 - This is fixed upon returning to the central barricade after beating the first two bosses.
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Fingaenion_t00.csv (1 rows): Completed City of Ash I: | Have not completed City of Ash I:
+- tables/depth_Fingaenion_t01.csv (1 rows): Completed City of Ash I: | Have not completed City of Ash I:

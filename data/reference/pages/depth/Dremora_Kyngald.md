@@ -121,3 +121,7 @@ File:ON-npc-Dremora Kyngald 07.jpg|A female Kyngald dramatically lifting a mug a
 File:ON-npc-Dremora Kyngald 05.jpg|A female Dremora Kyngald in the Brimstone Den
 File:ON-npc-Dremora Kyngald 06.jpg|A male Dremora Kyngald in the Brimstone Den
 File:ON-npc-Dremora Kyngald (Reaver Citadel).jpg|A Dremora Kyngald in the Reaver Citadel
+
+## Tables extracted from this page
+
+- tables/depth_Dremora_Kyngald_t00.csv (12 rows): Zone / Dungeon | Specific Location | Difficulty | Health

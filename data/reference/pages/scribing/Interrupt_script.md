@@ -22,3 +22,7 @@ Incompatible with Warding Burst and Healing Burst
 
 ## Notes
 - The Daedric text on the script reads "Interrupt".
+
+## Tables extracted from this page
+
+- tables/scribing_Interrupt_script_t00.csv (5 rows): Shield Throw | Shield Throw | Interrupts enemies that are casting.

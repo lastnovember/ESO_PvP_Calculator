@@ -69,3 +69,7 @@ style=text-align:center| Apocrypha | style=text-align:center| Choice of Servitud
 
 ## Bugs
 The Darkreave Runemasters summoned by Herald's Seekers are Fire Mages instead, which breaks their animations.
+
+## Tables extracted from this page
+
+- tables/depth_Darkreave_Runemaster_t00.csv (4 rows): Zone / Dungeon | Specific Location | Reaction | Class | Difficulty | Health

@@ -92,3 +92,30 @@ Few quests relate directly to the Champion Points system, although many have lev
 - For the old Champion Point system in place before Update 29, see Champion/deprecated.
 
 ## References
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Champion_t00.csv (4 rows): Base Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t01.csv (2 rows): Base Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t02.csv (15 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t03.csv (8 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t04.csv (3 rows): Base Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t05.csv (3 rows): Base Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t06.csv (23 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t07.csv (1 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t08.csv (4 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t09.csv (4 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t10.csv (2 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t11.csv (5 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t12.csv (3 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t13.csv (3 rows): Base Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t14.csv (3 rows): Base Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t15.csv (7 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t16.csv (16 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t17.csv (1 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t18.csv (3 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t19.csv (1 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t20.csv (3 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t21.csv (1 rows): Passive Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t22.csv (3 rows): Active Perks | Effect | Cost per Stage | Stages
+- tables/uesp_Online_Champion_t23.csv (5 rows): Level | Reward

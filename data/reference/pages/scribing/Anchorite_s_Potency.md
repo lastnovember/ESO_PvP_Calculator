@@ -15,3 +15,7 @@ Consumes a Soul Gem to generate 3 Ultimate, up to once every 5 seconds.
 
 ## Notes
 - The Daedric text on the script reads "Ultimate".
+
+## Tables extracted from this page
+
+- tables/scribing_Anchorite_s_Potency_t00.csv (2 rows): Wield Soul | Wield Soul | Consumes a Soul Gem to generate 4 Ultimate, up to once every 5 seconds.

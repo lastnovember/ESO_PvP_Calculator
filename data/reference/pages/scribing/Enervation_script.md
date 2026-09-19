@@ -21,3 +21,7 @@ Incompatible with Warding Contingency and Healing Contingency †
 
 ## Notes
 - The Daedric text on the script is illegible.
+
+## Tables extracted from this page
+
+- tables/scribing_Enervation_script_t00.csv (4 rows): Elemental Explosion | Elemental Explosion | Afflicts enemies with Minor Enervation for 20 seconds, reducing Critical Dam

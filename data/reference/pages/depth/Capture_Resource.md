@@ -302,3 +302,7 @@ fin| ESO Alliances
 |Covenant=With in Covenant hands, I should return to the Battle board.
 |Pact=With in Pact hands, I should return to the Battle board.
 Return to Scouting Mission Board
+
+## Tables extracted from this page
+
+- tables/depth_Capture_Resource_t00.csv (20 rows): Alessia | ESO Alliances|Dominion="" | Covenant="Grand Warlord Dortene wants Alessia Farm taken from the enemy. Attack, w

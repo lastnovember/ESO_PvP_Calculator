@@ -149,3 +149,8 @@ Dark Brotherhood assassins are being accosted at knife-point by the Order of the
 ## See Also
 style motif]] based on the armor and weapons used by the Dark Brotherhood.
 - Justice, the crime and punishment system.
+
+## Tables extracted from this page
+
+- tables/depth_Dark_Brotherhood_t00.csv (1 rows): Read The Marked For Death Book:
+- tables/depth_Dark_Brotherhood_t01.csv (12 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank

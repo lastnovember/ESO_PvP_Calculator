@@ -119,3 +119,33 @@ Mannimarco Costume
 
 160
 Imperial Chancellor Costume
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Champion_deprecated_t00.csv (37 rows): Champ. Level Points Per Group Distribution Number of Perks 30 10 10 1 60 20 10 10 2 90 30 10 10 10 3 30 2 120 40 30 10 3
+- tables/uesp_Online_Champion_deprecated_t01.csv (12 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
+- tables/uesp_Online_Champion_deprecated_t02.csv (12 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
+- tables/uesp_Online_Champion_deprecated_t03.csv (10 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
+- tables/uesp_Online_Champion_deprecated_t04.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t05.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t06.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t07.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t08.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t09.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t10.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t11.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t12.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t13.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t14.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t15.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t16.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t17.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t18.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t19.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t20.csv (4 rows): Champion Abilities | Effect
+- tables/uesp_Online_Champion_deprecated_t21.csv (4 rows): Passive Unlocks | Rank | Effect
+- tables/uesp_Online_Champion_deprecated_t22.csv (5 rows): Level | Reward
+- tables/depth_Champion_deprecated_t00.csv (12 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
+- tables/depth_Champion_deprecated_t01.csv (12 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
+- tables/depth_Champion_deprecated_t02.csv (10 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
+- tables/depth_Champion_deprecated_t03.csv (5 rows): Level | Reward

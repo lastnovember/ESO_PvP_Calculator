@@ -198,3 +198,10 @@ Talking to Fallen-Knives afterwards:
 :"I'm worried about Hooke. Him and Val, they were always close. Even all the way back when we were legionaries in good standing. Gods, what a mess."
 :Hooke's taking it hard. How are you?
 :"All I want to do is drink myself into Oblivion as fast as I can. But I am not going to take that way out. Not today. Val deserves better from me. Thanks for helping, stranger. Things would have gone worse without you."
+
+## Tables extracted from this page
+
+- tables/depth_Fallen-Knives_t00.csv (1 rows): Provided coin for Tab: | Destroyed page in ledger:
+- tables/depth_Fallen-Knives_t01.csv (1 rows): Stalled long enough for Hooke to free Valenia: | Valenia is freed but injured: | Valenia is killed:
+- tables/depth_Fallen-Knives_t02.csv (1 rows): Valenia is unharmed: | Valenia is injured: | Valenia is dead:
+- tables/depth_Fallen-Knives_t03.csv (1 rows): Valenia is unharmed: | Valenia is injured: | Valenia is dead:

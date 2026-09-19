@@ -18,3 +18,7 @@ Grants Minor Force for 22 seconds, increasing Critical Damage by 10%.
 
 ## Notes
 - The Daedric text on the script reads "Force".
+
+## Tables extracted from this page
+
+- tables/scribing_Force_t00.csv (3 rows): Smash | Smash | Grants Minor Force for 20 seconds, increasing Critical Damage by 10%.

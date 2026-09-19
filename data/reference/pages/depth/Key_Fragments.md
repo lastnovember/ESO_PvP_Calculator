@@ -147,3 +147,8 @@ style="white-space: nowrap;"|Memorial District
 - Xivkyn Motif chapters
 - Nibenese Court Wizard Style page
 - Imperial Clothier Coffer
+
+## Tables extracted from this page
+
+- tables/depth_Key_Fragments_t00.csv (8 rows): Icon | Item | Description | Number needed for Vault
+- tables/depth_Key_Fragments_t01.csv (8 rows): Vault | Location | Sets | Motifs/Styles/Crafting Materials

@@ -21,3 +21,7 @@ Grants a damage shield every 3 seconds for 3 seconds that absorbs up to 1293 dam
 
 ## Notes
 - The Daedric text on the script reads "Barrier".
+
+## Tables extracted from this page
+
+- tables/scribing_Warmage_s_Defense_t00.csv (4 rows): Elemental Explosion | Elemental Explosion | Grants you a damage shield that absorbs 3204 damage per enemy hit for 6 seco

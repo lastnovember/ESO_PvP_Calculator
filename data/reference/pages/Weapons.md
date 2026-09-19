@@ -63,3 +63,8 @@ Weapon Traits
 - On the possibility of new weapons, Rich Lambert stated "I mean, anything is possible in the future. We're going on nine years now. We didn't have many of the things in the game now when we launched. New weapons and weapons skill lines are difficult, though, as we'd have to do a lot of art. There are a hundred different motifs in the game and they all have weapons associated with them. If we added a new weapon, we would have to add that to all of them. That's just one small consideration to think about that. It would be a huge undertaking."
 
 ## References
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Weapons_t00.csv (136 rows): Style | Material | Motif
+- tables/uesp_Online_Weapons_t01.csv (17 rows): Normal | Fine | Superior | Epic | Legendary

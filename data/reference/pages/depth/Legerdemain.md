@@ -71,3 +71,7 @@ Rank | Points Required for Next Rank | Total Points for Rank
 - Thieves Guild, a skill line for thieves.
 
 Skill
+
+## Tables extracted from this page
+
+- tables/depth_Legerdemain_t00.csv (20 rows): Rank | Points Required for Next Rank | Total Points for Rank

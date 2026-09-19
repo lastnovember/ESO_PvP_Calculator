@@ -54,3 +54,7 @@ width=25%| Uncovered all the secrets from the Lunar Path Wing:
 - Add note here
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Kishkio_t00.csv (1 rows): Spoken to first time during Invitation to Treasures: | Subsequent: | Have uncovered a secret from the Lunar Path Wing: |

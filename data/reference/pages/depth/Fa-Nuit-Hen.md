@@ -565,3 +565,9 @@ You are one of the finest warriors ever to enter the arenas of Maelstrom! Here i
 
 File:ON-cover-Scions of Ithelia.jpg|Fa-Nuit-Hen in the key art for the Scions of Ithelia DLC (center-left)
 File:LO-book-Fa-Nuit-Hen.jpg|Promotional render
+
+## Tables extracted from this page
+
+- tables/depth_Fa-Nuit-Hen_t00.csv (1 rows): If you've completed Maelstrom Arena: | If you've never run Maelstrom Arena before:
+- tables/depth_Fa-Nuit-Hen_t01.csv (1 rows): Completed the Bedlam Veil: | Met Fa-Nuit-Hen, not completed Bedlam Veil: | First time meeting:
+- tables/depth_Fa-Nuit-Hen_t02.csv (1 rows): Completed Maelstrom Arena: | First time meeting:

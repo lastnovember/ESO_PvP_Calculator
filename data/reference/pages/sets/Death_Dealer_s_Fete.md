@@ -50,3 +50,7 @@ There are accounts of the Daedric Prince Sanguine giving mortals these kinds of 
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Blackwood
+
+## Tables extracted from this page
+
+- tables/sets_Death_Dealer_s_Fete_t00.csv (5 rows): 40px | Warm Asymmetrical Ruby | Oblivion Portals final chest | Blackwood | Well! Does anyone else find this stone as uns

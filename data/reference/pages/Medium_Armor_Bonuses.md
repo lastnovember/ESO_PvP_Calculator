@@ -13,3 +13,7 @@ desc=Each piece of Medium Armor does the following: Reduces the cost of Sprint b
 linerank1=1
 
 Medium Armor Bonuses are multiple bonuses granted when wearing Medium Armor, each piece of Medium Armor worn contribute to the bonuses, for up to 7% sprint, 35% sneak and 21% block cost reduction, 14% less damage taken from AoE attacks for 2 seconds after roll dodging and 14% movement speed increase while immune to crowd control.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Medium_Armor_Bonuses_t00.csv (3 rows): Line | Medium Armor

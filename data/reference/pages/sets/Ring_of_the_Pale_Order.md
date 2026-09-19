@@ -51,3 +51,7 @@ You're exactly right, Ugron. I've seen a ring like this in Alard Dorell's privat
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: The Reach
+
+## Tables extracted from this page
+
+- tables/sets_Ring_of_the_Pale_Order_t00.csv (5 rows): 40px | Aurmine Ancestral Signet | Treasure Chests | Bangkorai | This appears to be a signet of some kind. Ancient Breton

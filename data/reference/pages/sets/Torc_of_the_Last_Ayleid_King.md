@@ -49,3 +49,7 @@ Aetherial gems were potent tools in the hands of a mage. This one likely belonge
 ## Achievements
 There is one achievement associated with this item:
 Torc of the Last Ayleid King (achievement)
+
+## Tables extracted from this page
+
+- tables/sets_Torc_of_the_Last_Ayleid_King_t00.csv (5 rows): 40px | Ancestor Silk Ribbon | Infinite Archive chests from Tho'at Replicanum and Portals of the Unknown. Loot from Gw th

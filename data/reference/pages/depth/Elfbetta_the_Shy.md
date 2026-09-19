@@ -196,3 +196,11 @@ File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this
 
 ## Notes
 - Elfbetta wears a recolored Holiday in Balmora Outfit.
+
+## Tables extracted from this page
+
+- tables/depth_Elfbetta_the_Shy_t00.csv (1 rows): If you tricked Narsis during Draugr Dilemma: | If you convinced Narsis to tell the truth:
+- tables/depth_Elfbetta_the_Shy_t01.csv (1 rows): Met Previously: | First Time Meeting:
+- tables/depth_Elfbetta_the_Shy_t02.csv (1 rows): Met Previously: | First Time Meeting:
+- tables/depth_Elfbetta_the_Shy_t03.csv (1 rows): Met Previously: | First Time Meeting:
+- tables/depth_Elfbetta_the_Shy_t04.csv (1 rows): Tried warning Narsis: | Let him get petrified:

@@ -247,3 +247,7 @@ File:ON-place-Prospector's Field Forge 05.jpg|Prospector's Field Forge
 File:ON-render-Black Gem Foundry.jpg|Promotional render
 
 Place
+
+## Tables extracted from this page
+
+- tables/depth_Black_Gem_Foundry_t00.csv (3 rows): 48px|Lustrous Cabochon | Lustrous Cabochon | Magicka/Stamina regeneration

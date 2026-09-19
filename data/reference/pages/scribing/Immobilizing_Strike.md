@@ -20,3 +20,7 @@ Immobilizes enemies for 3 seconds.
 
 ## Notes
 - The Daedric text on the script reads "Immobilized".
+
+## Tables extracted from this page
+
+- tables/scribing_Immobilizing_Strike_t00.csv (4 rows): Elemental Explosion | Elemental Explosion | Immobilizes enemies for 3 seconds.

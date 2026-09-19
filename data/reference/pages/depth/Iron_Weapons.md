@@ -259,3 +259,41 @@ Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Mo
 colspan=7|
 
 Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+
+## Tables extracted from this page
+
+- tables/depth_Iron_Weapons_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Iron_Weapons_t01.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Iron_Weapons_t02.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Iron_Weapons_t03.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Iron_Weapons_t04.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Iron_Weapons_t05.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Iron_Weapons_t06.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Iron_Weapons_t07.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Iron_Weapons_t08.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Iron_Weapons_t09.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Iron_Weapons_t10.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Iron_Weapons_t11.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Iron_Weapons_t12.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Iron_Weapons_t13.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Iron_Weapons_t14.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Iron_Weapons_t15.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Iron_Weapons_t16.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Iron_Weapons_t17.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Iron_Weapons_t18.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Iron_Weapons_t19.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Iron_Weapons_t20.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Iron_Weapons_t21.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Iron_Weapons_t22.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Iron_Weapons_t23.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Iron_Weapons_t24.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Iron_Weapons_t25.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Iron_Weapons_t26.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Iron_Weapons_t27.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Iron_Weapons_t28.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Iron_Weapons_t29.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan
+- tables/depth_Iron_Weapons_t30.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Iron_Weapons_t31.csv (1 rows): Abah's Watch | Akaviri | Ancient Elf | Ancient Orc | Ashlander | Assassins League | Barbaric | Buoyant Armiger | Celesti
+- tables/depth_Iron_Weapons_t32.csv (1 rows): Daedric | Dark Brotherhood | Dominion | Draugr | Dro-m'Athra | Dwemer | Ebony | Frostcaster | Glass | Hollowjack
+- tables/depth_Iron_Weapons_t33.csv (1 rows): Harlequin | Malacath | Mazzatun | Mercenary | Militant Ordinator | Minotaur | Morag Tong | Order Hour | Outlaw | Pact
+- tables/depth_Iron_Weapons_t34.csv (1 rows): Primal | Ra Gada | Silken Ring | Skinchanger | Soul-Shriven | Thieves Guild | Trinimac | Xivkyn | Yokudan

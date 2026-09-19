@@ -57,3 +57,8 @@ Repairs 8,000 points of damage to a bridge or milegate. (Removed and replaced wi
 
 Cyrodiil Repair Kit
 Repairs 5,000 points of damage to a door, 20,000 points of damage to siege weapons and forward camps, 5,000 points of damage to a keep wall, and 5,000 points to bridges and milegates. | 90 | 250
+
+## Tables extracted from this page
+
+- tables/depth_Repair_Kits_t00.csv (8 rows): Repair Kit | Level | Description | Price | Value
+- tables/depth_Repair_Kits_t01.csv (6 rows): Repair Kit | Description | Gold Price | AP Price

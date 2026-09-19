@@ -85,3 +85,7 @@ Talking to Dorfifar after completing the daily quest:
 :"This one smelled his fill of violence for the day. Come back when his appetite returns."
 
 :"Are you still suffering from bloodlust? This one's needs are met. He has no further use for the metallic scent of death. Return once your good work has worn off."
+
+## Tables extracted from this page
+
+- tables/depth_Dorfifar_t00.csv (1 rows): Killed 25-49 enemies: | Killed 50-149 enemiesplain: | Killed 150 enemies (max for quest):

@@ -32,3 +32,7 @@ Generic, unnamed Blood Crawlers can be encountered in various places across Tamr
 Zone / Dungeon | Specific Location / Quest | Difficulty | Health
 
 style=text-align:center| Ossein Cage | style=text-align:center| Summoned by Blood Drinker Thisa in the Sitient Lair | style=text-align:center| | style=text-align:center|
+
+## Tables extracted from this page
+
+- tables/depth_Blood_Crawler_t00.csv (2 rows): Zone / Dungeon | Specific Location / Quest | Difficulty | Health

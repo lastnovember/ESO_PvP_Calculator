@@ -104,3 +104,7 @@ File:ON-creature-Air Atronach (Storm).jpg|Air Atronach empowered by a nearby sla
 File:ON-creature-Air Atronach 02.jpg|One of the Air Atronachs from City of Ash II
 File:ON-creature-The Pyandonean Wind.jpg|An Air Atronach summoned by Maormer mages
 File:ON-creature-Air Atronach (Spellscar).jpg|Spellfiends infuse an Air Atronach with flame at Spellscar
+
+## Tables extracted from this page
+
+- tables/depth_Air_Atronach_t00.csv (18 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Health

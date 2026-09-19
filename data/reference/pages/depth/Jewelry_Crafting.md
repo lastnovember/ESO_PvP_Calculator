@@ -259,3 +259,22 @@ File:ON-activity-Jewelry Crafting.jpg|A character crafting jewelry
 
 ## Achievements
 There are a number of achievements associated with Jewelry Crafting.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Jewelry_Crafting_t00.csv (33 rows): 1 | Engraver I
+- tables/uesp_Online_Jewelry_Crafting_t01.csv (18 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Jewelry_Crafting_t02.csv (6 rows): Order | Progression | Skill points required
+- tables/uesp_Online_Jewelry_Crafting_t03.csv (45 rows): Dust Ounce Level Needed Necklace Ring Pewter Dust Pewter Ounce 1 3 2 4 5 3 6 6 4 8 8 5 10 9 6 12 11 7 14 12 8 16 14 9 18
+- tables/uesp_Online_Jewelry_Crafting_t04.csv (26 rows): Dust Ounce | Level | Needed
+- tables/uesp_Online_Jewelry_Crafting_t05.csv (17 rows): Dust Ounce | Level | Needed
+- tables/uesp_Online_Jewelry_Crafting_t06.csv (19 rows): Trait | Pulverized Material | Description | Source
+- tables/uesp_Online_Jewelry_Crafting_t07.csv (6 rows): Trait | Source
+- tables/uesp_Online_Jewelry_Crafting_t08.csv (5 rows): Chance | 100% | Chance | 100% | Chance | 100% | Chance | 100%
+- tables/uesp_Online_Jewelry_Crafting_t09.csv (11 rows): Achievement | Points | Description | Reward
+- tables/depth_Jewelry_Crafting_t00.csv (6 rows): Order | Progression | Skill points required
+- tables/depth_Jewelry_Crafting_t01.csv (26 rows): Dust | Level | Needed
+- tables/depth_Jewelry_Crafting_t02.csv (17 rows): Dust | Level | Needed
+- tables/depth_Jewelry_Crafting_t03.csv (19 rows): Trait | Pulverized Material | Description | Source
+- tables/depth_Jewelry_Crafting_t04.csv (6 rows): Trait | Source
+- tables/depth_Jewelry_Crafting_t05.csv (5 rows): Chance | 100% | Chance | 100% | Chance | 100% | Chance | 100%

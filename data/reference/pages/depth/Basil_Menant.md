@@ -262,3 +262,10 @@ Talking to him after the events of The Nowhere Keys:
 
 ## Notes
 - He wears armor of the heavy variant of the Charming Rogue Style.
+
+## Tables extracted from this page
+
+- tables/depth_Basil_Menant_t00.csv (1 rows): Friend of Quen's: | First Time Meeting Quen:
+- tables/depth_Basil_Menant_t01.csv (1 rows): Evaded the Koldane Cartel while escaping: | Caught by the Koldane Cartel while escaping:
+- tables/depth_Basil_Menant_t02.csv (1 rows): Visited Dresan Keep Previously: | Have not been to Dresan Keep:
+- tables/depth_Basil_Menant_t03.csv (3 rows): Basil is injured: | Basil is dying:

@@ -1202,3 +1202,26 @@ Restore 8369 Health immediately. Grants Major Fortitude and Major Expedition, in
 Crown Invisibility Potion
 Disappear from sight for 11.5 seconds. (45 second cooldown)
 3 for 5
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Potions_t00.csv (66 rows): Potion | Level | Health | Duration
+- tables/uesp_Online_Potions_t01.csv (66 rows): Potion | Level | Magicka | Duration
+- tables/uesp_Online_Potions_t02.csv (66 rows): Potion | Level | Stamina | Duration
+- tables/uesp_Online_Potions_t03.csv (66 rows): Level | Stamina | Duration
+- tables/uesp_Online_Potions_t04.csv (66 rows): Level | Stamina | Duration | Invisibility
+- tables/uesp_Online_Potions_t05.csv (20 rows): Potion | Description | Quest
+- tables/uesp_Online_Potions_t06.csv (57 rows): Level | Health | Duration | Immunity
+- tables/uesp_Online_Potions_t07.csv (57 rows): Level | Magicka | Duration
+- tables/uesp_Online_Potions_t08.csv (57 rows): Level | Stamina | Duration
+- tables/uesp_Online_Potions_t09.csv (11 rows): Potion | Effects | Price
+- tables/depth_Potions_t00.csv (66 rows): Potion | Level | Health | Duration
+- tables/depth_Potions_t01.csv (66 rows): Potion | Level | Magicka | Duration
+- tables/depth_Potions_t02.csv (66 rows): Potion | Level | Stamina | Duration
+- tables/depth_Potions_t03.csv (66 rows): Level | Stamina | Duration
+- tables/depth_Potions_t04.csv (66 rows): Level | Stamina | Duration | Invisibility
+- tables/depth_Potions_t05.csv (20 rows): Potion | Description | Quest
+- tables/depth_Potions_t06.csv (57 rows): Level | Health | Duration | Immunity
+- tables/depth_Potions_t07.csv (57 rows): Level | Magicka | Duration
+- tables/depth_Potions_t08.csv (57 rows): Level | Stamina | Duration
+- tables/depth_Potions_t09.csv (11 rows): Crown Health Potion | Restore 7526 Health immediately. Grants Major Fortitude which increases your ESO Health Link | Reg

@@ -72,3 +72,7 @@ rowspan="3" | (Normal version) (Perfected version)
 Blackrose Inferno Staff
 
 Blackrose Ice Staff
+
+## Tables extracted from this page
+
+- tables/sets_Blackrose_Weapons_t00.csv (17 rows): Weapon Name | Weapon Class | Set Name | Bonuses

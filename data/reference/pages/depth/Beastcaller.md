@@ -24,3 +24,7 @@ West Weald | Recollection Beastcaller | Wood Elf | Varies | ba
 ;Dive:The beastcaller sends a cliff racer/Falcon diving towards the target, dealing moderate magic in an area.
 ;Subterranean Assault/Gore:The beastcaller summons a Haj Mota that digs in a straight line, dealing moderate magic damage, knocking back and stunning in its wake.
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Beastcaller_t00.csv (4 rows): Location | Name | Race | Gender | Health

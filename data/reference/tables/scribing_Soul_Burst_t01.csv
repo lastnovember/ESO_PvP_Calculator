@@ -1,5 +1,5 @@
-Script,Effects
 Anchorite's Cruelty,Anchorite's Cruelty,"Consumes a Soul Gem to deal 2.8% of the enemy's Max Health as Oblivion Damage every 2 seconds for 10 seconds, up to a maximum of 2800 damage. Deals up to 100% more damage to enemies under 50% Health, and can occur once every 10 seconds."
+Script,Effects
 Incompatible with Warding Burst and Healing Burst
 Anchorite's Potency,Anchorite's Potency,"Consumes a Soul Gem to generate 3 Ultimate, up to once every 5 seconds."
 Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.

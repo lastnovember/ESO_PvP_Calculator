@@ -18,3 +18,7 @@ Grants Minor Courage, increasing Weapon and Spell Damage by 215.
 
 ## Notes
 - The Daedric text on the script reads "Cou", but is cut off before the remainder of the word, presumably "Courage".
+
+## Tables extracted from this page
+
+- tables/scribing_Courage_t00.csv (3 rows): Mender's Bond | Mender's Bond | Grants Minor Courage to the ally and allies in the link for 10 seconds, increasing Weapo

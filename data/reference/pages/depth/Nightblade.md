@@ -104,3 +104,10 @@ File:ON-render-Nightblade.jpg|A Nightblade
 - Shadow Draining: A Hypothesis
 - Stepping through Shadows
 - Wulfmare's Guide to Better Thieving
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Nightblade_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/uesp_Online_Nightblade_t01.csv (5 rows): Nightblade Initiate | Deathweaver | Umbral Assassin | Living Shadow | Blood Magus
+- tables/depth_Nightblade_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Nightblade_t01.csv (5 rows): Nightblade Initiate | #000000| | #aaff00|Assassin's Blade | #ff7700|Death Stroke Assassin's Blade Veiled Strike Siphonin

@@ -198,3 +198,9 @@ Maneuvering quickly in and out of combat in Cyrodiil's killing fields recharges 
 
 Ultimate Adept
 The ease with which you perform your most challenging combat maneuver would make Pelinal smile. Reduces the cost of your Ultimate abilities by 20%.
+
+## Tables extracted from this page
+
+- tables/depth_Vengeance_Perks_t00.csv (20 rows): Icon | Name | Description
+- tables/depth_Vengeance_Perks_t01.csv (19 rows): Icon | Name | Description
+- tables/depth_Vengeance_Perks_t02.csv (22 rows): Icon | Name | Description

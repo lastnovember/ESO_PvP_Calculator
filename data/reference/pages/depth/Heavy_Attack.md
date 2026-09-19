@@ -55,3 +55,7 @@ The lists below include only bonuses specifically from fully charged Heavy Attac
 
 ## Other
 - The Weapons Expert active champion perk increases light and heavy attack damage by up to 20%.
+
+## Tables extracted from this page
+
+- tables/depth_Heavy_Attack_t00.csv (6 rows): Attack type | |Cast Time | Resource Restored | Damage

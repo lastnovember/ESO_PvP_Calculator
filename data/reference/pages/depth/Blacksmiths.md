@@ -186,3 +186,9 @@ Name | Type | Cost | class="unsortable" | Notes | class="unsortable" | Descripti
 Blacksmith's Sign
 Harvester's Ore
 Smith's Bellows
+
+## Tables extracted from this page
+
+- tables/depth_Blacksmiths_t00.csv (46 rows): 4Zone | 4Settlement | 4Store | 4Blacksmith
+- tables/depth_Blacksmiths_t01.csv (15 rows): Icon | Item | Price
+- tables/depth_Blacksmiths_t02.csv (4 rows): Icon | Item | Price

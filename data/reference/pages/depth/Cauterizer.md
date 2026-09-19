@@ -29,3 +29,7 @@ Crypt of Hearts II, Cradle of Shadows | Spiderkith Cauterizer | Spiderkith | Var
 ;Grand Healing:The Cauterizer summons restoring spirits with its staff, healing itself and nearby enemies in the target area for 8 seconds. Try to pull or move the enemies out of the healing circle to stop them from healing. (Some Cauterizers only)
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Cauterizer_t00.csv (5 rows): Location | Name | Race | Gender | Health

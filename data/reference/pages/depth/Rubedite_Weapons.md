@@ -49,3 +49,8 @@ rowspan=2|Rubedite Maul
 14 Rubedite Ingots
 
 140 Rubedite Ingots
+
+## Tables extracted from this page
+
+- tables/depth_Rubedite_Weapons_t00.csv (5 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Rubedite_Weapons_t01.csv (4 rows): Base | Fine | Superior | Epic | Legendary

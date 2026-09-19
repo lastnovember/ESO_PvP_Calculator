@@ -45,3 +45,7 @@ scope="row"|12
 
 scope="row"|14
 13 | 11 | 11 | 11 | 12 | 11 | 11 | 80
+
+## Tables extracted from this page
+
+- tables/depth_Rawhide_t00.csv (7 rows): Armor Level | Rawhide Jack | Rawhide Boots | Rawhide Bracers | Rawhide Helmet | Rawhide Guards | Rawhide Arm Cops | Rawh

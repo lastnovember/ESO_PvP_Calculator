@@ -23,3 +23,7 @@ Armor
 
 Max Total † | 54% (white) / 62% (green) / 70% (blue) / 78% (purple) / 86% (gold)
 † Assuming all character slots that can have the trait are filled with it.
+
+## Tables extracted from this page
+
+- tables/depth_Training_t00.csv (5 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

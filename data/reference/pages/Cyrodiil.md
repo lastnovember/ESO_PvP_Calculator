@@ -427,3 +427,11 @@ File:ON-concept-20.jpg|A band of warriors with the Imperial City in the backgrou
 File:ON-concept-21.jpg|A desolate view of the Imperial City
 File:ON-concept-22.jpg|A battle inside the Imperial City
 File:ON-wallpaper-Cyrodiil Under Siege-1366x768.jpg|A keep in Cyrodiil under attack
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Cyrodiil_t00.csv (16 rows): Zone: Cyrodiil ( view on map ) ( lore page ) | Zone: Cyrodiil ( view on map ) ( lore page )
+- tables/uesp_Online_Cyrodiil_t01.csv (15 rows): Within sight of Mnem. | Just outside the Scroll Temple of Mnem | (map) | Members of the Covenant or Pact will not be abl
+- tables/uesp_Online_Cyrodiil_t02.csv (15 rows): Approach the southern scroll. | Outside the Scroll Temple of Alma Ruma | (map) | Members of the Dominion or Pact will no
+- tables/uesp_Online_Cyrodiil_t03.csv (15 rows): Near the scroll of royalty's secret syllable. | Outside the Scroll Temple of Chim | (map) | Members of the Dominion or C
+- tables/uesp_Online_Cyrodiil_t04.csv (1 rows): Clue | Location | Notes

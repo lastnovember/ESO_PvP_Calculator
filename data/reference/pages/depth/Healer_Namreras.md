@@ -103,3 +103,8 @@ width=45%| Lied about cause of death:
 Both options converge into the same reply:
 :What if I told you that you're actually right about how he died?
 :"Oh, stop. You don't need to say that just to try to make an old Elf feel better. This news is hitting harder than I expected, but I'll be all right. Take care, adventurer. I'd tell you to be careful, but who's going to start listening to me now?"
+
+## Tables extracted from this page
+
+- tables/depth_Healer_Namreras_t00.csv (1 rows): Told the Truth: | Lied about cause of death:
+- tables/depth_Healer_Namreras_t01.csv (1 rows): Told the Truth: | Lied about cause of death:

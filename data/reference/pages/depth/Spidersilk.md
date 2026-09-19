@@ -38,3 +38,7 @@ scope="row"|42
 
 scope="row"|44
 14 | 12 | 12 | 12 | 13 | 12 | 12 | 87
+
+## Tables extracted from this page
+
+- tables/depth_Spidersilk_t00.csv (5 rows): Armor Level | Spidersilk Robe/Jerkin | Spidersilk Shoes | Spidersilk Gloves | Spidersilk Hat | Spidersilk Breeches | Spi

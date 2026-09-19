@@ -1338,3 +1338,11 @@ File:ON-npc-Gabrielle Benele 03.jpg|Close up shot
 File:ON-quest-The Weight of Three Crowns 03.jpg|The Tamrielic invasion force during The Weight of Three Crowns
 File:ON-concept-Heroes of ESO.jpg|Promotional art (far right)
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (left)
+
+## Tables extracted from this page
+
+- tables/depth_Gabrielle_Benele_t00.csv (1 rows): Met previously: | First time meeting:
+- tables/depth_Gabrielle_Benele_t01.csv (1 rows): Met previously: | First time meeting:
+- tables/depth_Gabrielle_Benele_t02.csv (1 rows): Completed Prologue: | Met Previously: | First Time Meeting:
+- tables/depth_Gabrielle_Benele_t03.csv (1 rows): Met Darien Gautier previously in High Rock, Coldharbour or Summerset: | Never met Darien Gautier:
+- tables/depth_Gabrielle_Benele_t04.csv (1 rows): Completed the Coldharbour questline: | Otherwise:

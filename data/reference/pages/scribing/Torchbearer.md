@@ -134,3 +134,12 @@ File:ON-skill-Healing Torch.jpg|Healing Torch
 File:ON-skill-Repelling Torch.jpg|Repelling Torch
 File:ON-skill-Sundering Torch.jpg|Sundering Torch
 File:ON-skill-Dazing Torch.jpg|Dazing Torch
+
+## Tables extracted from this page
+
+- tables/scribing_Torchbearer_t00.csv (11 rows): Script | Skill Name | Effects
+- tables/scribing_Torchbearer_t01.csv (9 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/scribing_Torchbearer_t02.csv (12 rows): Breach | Breach | Afflicts Minor Breach for 20 seconds with each sweep, reducing Physical and Spell Resistance by 2974.
+- tables/skills_Torchbearer_t00.csv (11 rows): Script | Skill Name | Effects
+- tables/skills_Torchbearer_t01.csv (9 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/skills_Torchbearer_t02.csv (12 rows): Breach | Breach | Afflicts Minor Breach for 20 seconds with each sweep, reducing Physical and Spell Resistance by 2974.

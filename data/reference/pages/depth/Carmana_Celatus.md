@@ -85,3 +85,7 @@ Prince Naemon takes the Staff of Magnus and turns Carmana to stone:
 :
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Carmana_Celatus_t00.csv (1 rows): Killed Prince Naemon Previously: | Otherwise:

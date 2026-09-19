@@ -220,3 +220,7 @@ File:ON-creature-Bone Colossus 02.jpg|A flaming bone colossus wreathed in cold f
 File:ON-creature-Bone Colossus (Vosgah Shrine).jpg|Summoned by Wormblood at Vosgah Shrine
 File:ON-load-Uggamog's Lair.jpg|Depicted in the loading screen for Thukhozod's Sanctum
 File:ON-concept-achievement-Anchors Away.jpg|Render
+
+## Tables extracted from this page
+
+- tables/depth_Bone_Colossus_t00.csv (33 rows): Zone / Dungeon | Specific Location | Difficulty | Condition | Health

@@ -171,3 +171,7 @@ Speaking to him after looting the strongbox:
 ## Notes
 - He is one of the subjects of the Meet the Character series.
 - Chief Inspector Rhanbiq's orders for the Iron Wheel personnel can be found in various locations around Hew's Bane.
+
+## Tables extracted from this page
+
+- tables/depth_Chief_Inspector_Rhanbiq_t00.csv (1 rows): Aldmeri Dominion: | Daggerfall Covenant: | Ebonheart Pact:

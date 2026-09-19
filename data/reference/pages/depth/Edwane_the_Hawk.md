@@ -895,3 +895,20 @@ At the Menant Hideout, Edwane the Hawk uses the following abilities.
 
 ## Notes
 - Edwane wears Thieves Guild Leathers and has the Coiled Bob hairstyle.
+
+## Tables extracted from this page
+
+- tables/depth_Edwane_the_Hawk_t00.csv (1 rows): Successful Pickpocketing: | Got caught and Edwane has to assist:how to trigger | Killed Assistant Rozenn to get Research
+- tables/depth_Edwane_the_Hawk_t01.csv (1 rows): Neutral Response | Joker ResponseJoker: | Grim or Kind ResponseGrimKind:
+- tables/depth_Edwane_the_Hawk_t02.csv (1 rows): All Tasks Completed: | More Tasks To Do: | Edwane will need to obtain Research Notes:
+- tables/depth_Edwane_the_Hawk_t03.csv (1 rows): Successful Pickpocketing: | Needed Assistance
+- tables/depth_Edwane_the_Hawk_t04.csv (1 rows): Getting the Lion Guard's assistance: | Otherwise:
+- tables/depth_Edwane_the_Hawk_t05.csv (1 rows): Basil is injured: | Basil is dying:
+- tables/depth_Edwane_the_Hawk_t06.csv (1 rows): Remained stealthy in Birien Estate: | Birien Estate under alert:
+- tables/depth_Edwane_the_Hawk_t07.csv (1 rows): Pickpocketed Branach Firstblood: | Killed Branach Firstblood: | Branach Firstblood Escaped:
+- tables/depth_Edwane_the_Hawk_t08.csv (1 rows): Got back without losing your Nowhere Key: | Lost the Nowhere Key to the guard+Didn't get the Dwynnarth Ruins Key:
+- tables/depth_Edwane_the_Hawk_t09.csv (1 rows): Retrieved 2 Nowhere Keys: | Retrieved 1 Nowhere Key:
+- tables/depth_Edwane_the_Hawk_t10.csv (1 rows): Partnered with Edwane: | Otherwise:
+- tables/depth_Edwane_the_Hawk_t11.csv (1 rows): Partnered with Edwane: | Otherwise:
+- tables/depth_Edwane_the_Hawk_t12.csv (1 rows): Picked Edwane: | Otherwise:
+- tables/depth_Edwane_the_Hawk_t13.csv (1 rows): Picked Abrasia: | Picked Edwane the Hawk: | Picked Seline Menant:

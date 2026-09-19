@@ -46,3 +46,7 @@ You mock me when I contextualize everything through Dwemer culture but... this w
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Necrom
+
+## Tables extracted from this page
+
+- tables/sets_Esoteric_Environment_Greaves_t00.csv (5 rows): 40px | Biome-Proof Plating | Nchuleft delve boss | Telvanni Peninsula | I understand why this came straight to my desk, 

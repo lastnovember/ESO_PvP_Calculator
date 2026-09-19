@@ -50,3 +50,7 @@ Weapon Level | Steel Axe | Steel Hammer | Steel Sword | Steel Battle Axe | Steel
 
 24
 8 | 8 | 8 | 10 | 10 | 10 | 7
+
+## Tables extracted from this page
+
+- tables/depth_High_Iron_Ore_t00.csv (13 rows): Armor Level | Steel Cuirass | Steel Sabatons | Steel Gauntlets | Steel Helm | Steel Greaves | Steel Pauldron | Steel Gir

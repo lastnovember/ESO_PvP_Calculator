@@ -15,3 +15,7 @@ Deals 1888 Physical Damage to enemies and taunts one of them to attack you for 1
 
 ## Notes
 - The Daedric text on the script reads "Taunt".
+
+## Tables extracted from this page
+
+- tables/scribing_Taunt_script_t00.csv (2 rows): Shield Throw | Shield Throw (Goading Throw) | Deals 2145 Physical Damage to an enemy and taunts them for 15 seconds.

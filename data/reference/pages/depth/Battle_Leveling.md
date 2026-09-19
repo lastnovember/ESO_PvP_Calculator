@@ -34,3 +34,7 @@ Hew's Bane
 
 Wrothgar
 3 | CP160 | CP150
+
+## Tables extracted from this page
+
+- tables/depth_Battle_Leveling_t00.csv (6 rows): Zone | Access Level | Content Level | Battle Level

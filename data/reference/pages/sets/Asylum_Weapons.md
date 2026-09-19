@@ -72,3 +72,7 @@ The Asylum's Restoration Staff
 Restoration Staff
 Timeless Blessing Perfected Timeless Blessing
 (Normal version) (Perfected version)
+
+## Tables extracted from this page
+
+- tables/sets_Asylum_Weapons_t00.csv (17 rows): Weapon Name | Weapon Class | Set Name | Bonuses

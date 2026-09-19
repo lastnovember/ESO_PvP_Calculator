@@ -879,3 +879,14 @@ Bosmer Insight quest reward
 ## Gallery
 
 File:ON-misc-Minor Magickasteal.jpg|Minor Magickasteal visual
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Buffs_t00.csv (121 rows): Buff Name | Type | Description | Sources | Icon
+- tables/uesp_Online_Buffs_t01.csv (64 rows): Debuff Name | Type | Description | Sources | Icon
+- tables/uesp_Online_Buffs_t02.csv (12 rows): Buff Name | Description | Sources | Icon
+- tables/uesp_Online_Buffs_t03.csv (5 rows): Buff Name | Description | Sources | Icon
+- tables/depth_Buffs_t00.csv (121 rows): rowspan=2 Aegis| | Minor | Take 5% less damage from Dungeon, Trial and Arena Monsters. | Sets | Aegis of Galenwe, Automa
+- tables/depth_Buffs_t01.csv (64 rows): rowspan=7 Breach| | Minor | Decreases target's physical and spell resistance by 2974. | Abilities | Deep Fissure, Fatewo
+- tables/depth_Buffs_t02.csv (12 rows): Buff Name | Description | Sources | Icon
+- tables/depth_Buffs_t03.csv (5 rows): Buff Name | Description | Sources | Icon

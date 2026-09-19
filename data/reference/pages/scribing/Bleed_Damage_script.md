@@ -30,3 +30,7 @@ Deals 5770 Bleed Damage to enemies. Beneficial Signature and Affix scripts only 
 
 ## Notes
 - The Daedric text on the script reads "Bleed Damage".
+
+## Tables extracted from this page
+
+- tables/scribing_Bleed_Damage_script_t00.csv (7 rows): Smash | Smash (Bloody Smash) | Deals 5529 Bleed Damage to enemies. Beneficial Signature and Affix scripts only apply to 

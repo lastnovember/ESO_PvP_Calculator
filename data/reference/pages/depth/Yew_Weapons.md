@@ -24,3 +24,7 @@ rowspan=3|Yew [Type] Staff
 8 Sanded Yew
 
 9 Sanded Yew
+
+## Tables extracted from this page
+
+- tables/depth_Yew_Weapons_t00.csv (3 rows): Base | Fine | Superior | Epic | Legendary

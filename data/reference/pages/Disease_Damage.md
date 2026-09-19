@@ -94,3 +94,9 @@ There are several ways of protecting yourself against Disease Damage.
 - Wood Elf characters have access to the Resist Affliction passive skill, which reduces all Disease Damage received.
 - A Glyph of Disease Resist, created with a Haoko Essence rune and a negative Potency rune, can be applied to jewelry.
 - Hardy in the Staving Death subconstellation of Warfare reduces Disease Damage taken.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Disease_Damage_t00.csv (35 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Disease_Damage_t01.csv (13 rows): Set | Weight | 5 piece bonus
+- tables/depth_Disease_Damage_t00.csv (13 rows): Set | Weight | 5 piece bonus

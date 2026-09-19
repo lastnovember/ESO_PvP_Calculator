@@ -56,3 +56,14 @@ Relics of the Rebellion
 The Destruction Suite
 
 Treasures of the Earthforge
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Jewelry_Sets_t00.csv (2 rows): Set Name | Bonuses
+- tables/uesp_Online_Jewelry_Sets_t01.csv (3 rows): Set Name | Bonuses
+- tables/uesp_Online_Jewelry_Sets_t02.csv (5 rows): Set Name | Bonuses
+- tables/uesp_Online_Jewelry_Sets_t03.csv (6 rows): Set Name | Bonuses
+- tables/sets_Jewelry_Sets_t00.csv (2 rows): Set Name | Bonuses
+- tables/sets_Jewelry_Sets_t01.csv (3 rows): Set Name | Bonuses
+- tables/sets_Jewelry_Sets_t02.csv (5 rows): Set Name | Bonuses
+- tables/sets_Jewelry_Sets_t03.csv (6 rows): Set Name | Bonuses

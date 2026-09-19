@@ -206,3 +206,8 @@ Given the pattern established so far, the scripts likely to be offered by Chroni
 - Focus script: Immobilize (first: 40,000; subsequent: 8,000)
 - Signature script: Wayfarer's Mastery improved functionality of skill line passives (first: 60,000; subsequent: 12,000)
 - Affix script: Force (first: 20,000; subsequent: 4,000)
+
+## Tables extracted from this page
+
+- tables/scribing_Script_Vendors_Rotating_Stock_2024_t00.csv (4 rows): First | Later | First | Later
+- tables/scribing_Script_Vendors_Rotating_Stock_2024_t01.csv (89 rows): 23 | Chronicler Firandil in The Scholarium | Image:ON-icon-scribing-primary-Poison.png | Poison Damage | 1 Focus script 

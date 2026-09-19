@@ -34,3 +34,9 @@ scope="row"|CP160
 ## Notes
 - Ancestor Silk was originally named "Harvester Silk" in the initial PTS release, after the Harvester.
 - Ancestor Silk can also be purchased from Imperial City merchants using Tel Var Stones.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Ancestor_Silk_t00.csv (9 rows): Used for | Clothing ( Tailoring Rank 10)
+- tables/uesp_Online_Ancestor_Silk_t01.csv (2 rows): Armor Level | Ancestor Silk Robe/Jerkin | Ancestor Silk Shoes | Ancestor Silk Gloves | Ancestor Silk Hat | Ancestor Silk
+- tables/depth_Ancestor_Silk_t00.csv (2 rows): Armor Level | Ancestor Silk Robe/Jerkin | Ancestor Silk Shoes | Ancestor Silk Gloves | Ancestor Silk Hat | Ancestor Silk

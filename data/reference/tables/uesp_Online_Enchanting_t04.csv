@@ -1,5 +1,5 @@
-Trait,Material,Description,Magnitude
 Base,Fine,Superior,Epic,Legendary
+Trait,Material,Description,Magnitude
 "Weapon traits are available on all weapons - axes , swords , maces , daggers , greatswords , battle axes , mauls , bows , restoration staves and destruction staves . There is one trait related to enchantments."
 Infused,Jade,Increase weapon enchantment effect by … and reduces enchantment cooldown by 50%,10%,15%,20%,25%,30%
 "Armor traits are available on all articles of light, medium or heavy armor and shields . There is one trait related to enchantments."

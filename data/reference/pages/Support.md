@@ -27,3 +27,10 @@ colspan=2|Name | width=1|Line Rank | width=1|Skill Rank | Description
 Magicka Aid
 Combat Medic
 Battle Resurrection
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Support_t00.csv (17 rows): 2 | Siege Shield
+- tables/uesp_Online_Support_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Support_t02.csv (20 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Support_t03.csv (6 rows): Name | Line Rank | Skill Rank | Description

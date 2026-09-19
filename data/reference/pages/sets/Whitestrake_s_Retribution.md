@@ -49,3 +49,7 @@ Level | Shield | Level | Shield | Level | Shield
 ### Crafting Sites
 
 Crafting Site(s)
+
+## Tables extracted from this page
+
+- tables/sets_Whitestrake_s_Retribution_t00.csv (14 rows): Level | Shield | Level | Shield | Level | Shield

@@ -29,3 +29,8 @@ colspan=2|Trap Beast (Fighters Guild) | 2 sec. | Single Target | 3780 Stamina
 ## Notes
 - The Eternal Hunt set causes you to leave behind a trap when performing a Roll Dodge which will Poison and Immobilize enemies who trigger it for 1.5 seconds.
 - Poisons with the Entrapment or Unstoppable effect will Immobilize your targets. Entrapment's effect lasts longer, but Unstoppable also protects you from Crowd Control effects.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Immobilize_t00.csv (9 rows): Skill | Duration | Affects | Cost | Notes
+- tables/depth_Immobilize_t00.csv (9 rows): Skill | Duration | Affects | Cost | Notes

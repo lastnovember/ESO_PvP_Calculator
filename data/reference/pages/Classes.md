@@ -165,3 +165,10 @@ Worker | Melee | One Handed or Two Handed | 1|Any
 
 ## Notes
 - The Warden class was planned during the beta but was scrapped before being added again in Update 14. A sixth class, the Battlemage, was also originally planned.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Classes_t00.csv (6 rows): The Dragonknight class is best suited for tanking-oriented characters due to the Draconic Power and Earthen Heart skill 
+- tables/uesp_Online_Classes_t01.csv (65 rows): Class | Specialisation | Weapons | Armor
+- tables/depth_Classes_t00.csv (6 rows): 40px|link=Online:Dragonknight|Dragonknight | The Dragonknight class is best suited for tanking-oriented characters due t
+- tables/depth_Classes_t01.csv (65 rows): Class | Specialisation | Weapons | Armor

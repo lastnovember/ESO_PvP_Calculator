@@ -40,3 +40,7 @@ Chromium Grains | Chromium Plating | Improve quality from purple to gold.
 ## Patch Notes
 ESO Patch Note|4.1.5|* Significantly reduced the amount of Boosters needed to improve the quality of Jewelry.
 - At maximum rank of Plating Expertise, it now takes only a single piece of Terne Plating to go from white to green, two Iridium Platings to go from green to blue, three Zircon Platings to go from blue to purple, and only 4 Chromium Platings to go from purple to gold.
+
+## Tables extracted from this page
+
+- tables/skills_Platings_Expertise_t00.csv (5 rows): Chance | 100% | Chance | 100% | Chance | 100% | Chance | 100%

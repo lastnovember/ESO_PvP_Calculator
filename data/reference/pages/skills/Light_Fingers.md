@@ -50,3 +50,7 @@ colspan=6|Hard Target
 2nd Attempt | 5 (25) | 15 (35) | 25 (45) | 40 (60) | 55 (75)
 
 3rd Attempt | 0 (10) | 10 (20) | 20 (30) | 35 (45) | 50 (60)
+
+## Tables extracted from this page
+
+- tables/skills_Light_Fingers_t00.csv (13 rows): Base | I | II | III | IV

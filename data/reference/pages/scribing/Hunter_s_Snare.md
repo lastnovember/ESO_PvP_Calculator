@@ -41,3 +41,7 @@ Leave behind a field of caltrops for 10 seconds, dealing 106 Physical Damage eve
 
 ## Notes
 - The Daedric text on the script reads "Snare".
+
+## Tables extracted from this page
+
+- tables/scribing_Hunter_s_Snare_t00.csv (12 rows): Elemental Explosion | Elemental Explosion | Create a field of distortion under the first enemy hit for 6 seconds, reduci

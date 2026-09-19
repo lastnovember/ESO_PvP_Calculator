@@ -63,3 +63,8 @@ rowspan=3|Ebon Maul
 10 Ebony Ingots
 
 11 Ebony Ingots
+
+## Tables extracted from this page
+
+- tables/depth_Ebon_Weapons_t00.csv (5 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Ebon_Weapons_t01.csv (4 rows): Base | Fine | Superior | Epic | Legendary

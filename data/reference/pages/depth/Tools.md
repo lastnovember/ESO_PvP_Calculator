@@ -154,3 +154,11 @@ Pickaxes are One-Handed and Two-Handed weapons. The two-handed version is availa
 ### Shovel
 
 Shovels are Two-Handed weapons that are currently unobtainable. They are used by some NPCs such as Worker NPCs, New Moon Apprentices, Black Dart Drudges, Ascendant Laborers and Treasure Hunters. They can also be used as part of the /shovel emote.
+
+## Tables extracted from this page
+
+- tables/depth_Tools_t00.csv (10 rows): Item | Description
+- tables/depth_Tools_t01.csv (6 rows): Repair Kit | Level | Description
+- tables/depth_Tools_t02.csv (5 rows): Item | Description
+- tables/depth_Tools_t03.csv (6 rows): Soul Gem | Level | Description
+- tables/depth_Tools_t04.csv (6 rows): Soul Gem | Level | Description

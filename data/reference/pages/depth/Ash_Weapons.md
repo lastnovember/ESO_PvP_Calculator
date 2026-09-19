@@ -24,3 +24,7 @@ rowspan=3|Ash [Type] Staff
 10 Sanded Ash
 
 11 Sanded Ash
+
+## Tables extracted from this page
+
+- tables/depth_Ash_Weapons_t00.csv (3 rows): Base | Fine | Superior | Epic | Legendary

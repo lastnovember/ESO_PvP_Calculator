@@ -68,3 +68,12 @@ Heavy Weapons
 Balanced Blade
 Follow Up
 Battle Rush
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Two_Handed_t00.csv (29 rows): 2 | Uppercut
+- tables/uesp_Online_Two_Handed_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Two_Handed_t02.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Two_Handed_t03.csv (10 rows): Ability Name | Weapon set name | Description
+- tables/uesp_Online_Two_Handed_t04.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/depth_Two_Handed_t00.csv (10 rows): Ability Name | Weapon set name | Description

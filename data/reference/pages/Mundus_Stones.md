@@ -141,3 +141,8 @@ Value
 - No DLC zones contain any Mundus Stones whatsoever (even Western Skyrim, which had Standing Stones in Skyrim).
 
 Place
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Mundus_Stones_t00.csv (13 rows): Stone | Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact | Cyrodiil | Effect | Value | Full Divines armor value
+- tables/uesp_Online_Mundus_Stones_t01.csv (1 rows): Quality | Base | Fine | Superior | Epic | Legendary

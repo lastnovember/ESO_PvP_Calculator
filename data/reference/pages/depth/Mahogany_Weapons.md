@@ -20,3 +20,7 @@ rowspan=2|Mahogany [Type] Staff
 10 Sanded Mahogany
 
 11 Sanded Mahogany
+
+## Tables extracted from this page
+
+- tables/depth_Mahogany_Weapons_t00.csv (3 rows): Base | Fine | Superior | Epic | Legendary

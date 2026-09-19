@@ -126,3 +126,7 @@ Truly Superb Glyph of Prismatic Defense | | Repora | 10 | CP160
 419 | 381
 441 | 401
 477 | 434
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Prismatic_Defense_t00.csv (18 rows): Health | Magicka/ Stamina | Health | Magicka/ Stamina | Health | Magicka/ Stamina | Health | Magicka/ Stamina | Health |

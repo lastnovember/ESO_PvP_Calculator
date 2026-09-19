@@ -82,3 +82,7 @@ File:ON-npc-Dremora Harstryl 03.jpg|A female Harstryl
 File:ON-npc-Dremora Harstryl 02.jpg|A blue female Harstryl
 File:|A harstryl from City of Ash II
 File:ON-skill-Taking Aim.jpg|A Harstryl in the Imperial Sewers using Taking Aim
+
+## Tables extracted from this page
+
+- tables/depth_Dremora_Harstryl_t00.csv (6 rows): Zone / Dungeon | Specific Location | Difficulty | Class | Health

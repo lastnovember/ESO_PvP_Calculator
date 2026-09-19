@@ -31,3 +31,7 @@ colspan=2|Ferocious Roar (Werewolf) | 3.5-4.3 sec. | Up to 3 Targets | 4163 Stam
 - The Robes of the Hist set reduces the duration of Disorient effects on you by 20%.
 - The Reactive Armor set reduces damage dealt to you by 30% when you are affected by Disorient effects.
 - All sources of Disorient were removed from the game in Patch 3.2.5.
+
+## Tables extracted from this page
+
+- tables/depth_Disorient_t00.csv (8 rows): Skill | Duration | Affects | Cost | Notes

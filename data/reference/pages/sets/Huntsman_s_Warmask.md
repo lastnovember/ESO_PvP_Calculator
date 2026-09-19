@@ -60,3 +60,7 @@ Huntsman's Warmask (achievement)
 
 ### Notes
 - It is called Hircine's Snarl Mask in the files.
+
+## Tables extracted from this page
+
+- tables/sets_Huntsman_s_Warmask_t00.csv (5 rows): 40px | Dark Stag Oil | Hordrek's Hunting Grounds | Hmm. A flask of oil, such as that used by woodworkers or leatherworke

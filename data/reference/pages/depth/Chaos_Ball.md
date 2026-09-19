@@ -79,3 +79,7 @@ Grand Scorer
 - A popular stratagem among players is to take the Chaos Ball to your team's base and keep the Chaos Ball within its radius, allowing the ball to easily be claimed by your teammates upon death. Other stratagems, such as running around the map, are usually disdained due to the potential that they have to bring the Chaos Ball to opposing teams.
 - In 2022, this game mode was removed from play in and was only available during limited-time Chaos Ball Battleground Weekend events.
 - The Chaos Ball game mode is also known as "Murderball" in the game files.
+
+## Tables extracted from this page
+
+- tables/depth_Chaos_Ball_t00.csv (20 rows): Icon | Name | Points | Description

@@ -2228,3 +2228,8 @@ File:ON-wallpaper-A Clash with Kaalgrontiid-1920x1080.jpg|Depicted in promotiona
 File:ON-misc-Anniversary Art.jpg|Artwork commemorating ESO's 10th anniversary
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (center)
 File:ON-wallpaper-10th Anniversary Illustration-1920 x 1080.jpg|Depicted in a wallpaper commemorating ESO's 10th anniversary (bottom left)
+
+## Tables extracted from this page
+
+- tables/depth_Abnur_Tharn_t00.csv (1 rows): [Persuade] Forgive me, my Lord, but I heard something that might be of interest to you. | Who are you?
+- tables/depth_Abnur_Tharn_t01.csv (1 rows): If The Final Assault has not been completed: | If The Final Assault has been completed:

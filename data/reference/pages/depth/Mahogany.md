@@ -25,3 +25,7 @@ scope="row"|CP70
 
 scope="row"|CP80
 11 | 11 | 14
+
+## Tables extracted from this page
+
+- tables/depth_Mahogany_t00.csv (2 rows): Gear Level | Mahogany Bow | Mahogany [Type] Staff | Mahogany Shield

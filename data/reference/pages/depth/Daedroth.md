@@ -224,3 +224,7 @@ File:ON-concept-achievement-General Executioner.jpg|Render
 File:ON-render-Imperial Sewers.jpg|Featured in a promotional render
 File:ON-render-Elsweyr Public Dungeon.jpg|Featured in a promotional render
 File:ON-concept-Daedroth.png|Concept art
+
+## Tables extracted from this page
+
+- tables/depth_Daedroth_t00.csv (38 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Condition | Health

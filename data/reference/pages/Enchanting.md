@@ -271,3 +271,19 @@ Totals: | All | 21
 
 ## Achievements
 There are a number of achievements related to Enchanting.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Enchanting_t00.csv (43 rows): Aspect Improvement I | 1 | Potency Improvement I
+- tables/uesp_Online_Enchanting_t01.csv (25 rows): Level | Inspiration Req'd | Δ Delta | Level | Inspiration Req'd | Δ Delta
+- tables/uesp_Online_Enchanting_t02.csv (3 rows): Type of Runestone | Icon color | Icon shape | Examples
+- tables/uesp_Online_Enchanting_t03.csv (3 rows): Type of Glyph | Icon color | Icon shape | Examples
+- tables/uesp_Online_Enchanting_t04.csv (7 rows): Base | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Enchanting_t05.csv (23 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Enchanting_t06.csv (6 rows): Order | Progression | Skill points required
+- tables/uesp_Online_Enchanting_t07.csv (21 rows): ​ | Master Enchanter | 50 | Attain an Enchanting rank of 50. | Enchanter Tangerine Enchanter's Sign ( 00005000 5,000 )
+- tables/depth_Enchanting_t00.csv (25 rows): Level | Inspiration Req'd | Δ Delta | Level | Inspiration Req'd | Δ Delta
+- tables/depth_Enchanting_t01.csv (3 rows): Type of Runestone | Icon color | Icon shape | Examples
+- tables/depth_Enchanting_t02.csv (3 rows): Type of Glyph | Icon color | Icon shape | Examples
+- tables/depth_Enchanting_t03.csv (7 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Enchanting_t04.csv (6 rows): Order | Progression | Skill points required

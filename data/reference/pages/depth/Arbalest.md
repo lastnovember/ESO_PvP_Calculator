@@ -35,3 +35,7 @@ File:ON-skill-Quakeshot 02.jpg|Firing Quakeshot
 File:ON-skill-Arrow Stab.jpg|Arrow Stab
 File:ON-skill-Chilled Ground 02.jpg|Firing Chilled Ground
 File:ON-skill-Chilled Ground.jpg|Chilled Ground
+
+## Tables extracted from this page
+
+- tables/depth_Arbalest_t00.csv (6 rows): Location | Name | Race | Gender | Health

@@ -21,3 +21,7 @@ Kjenstag Ruins | Frost-Cursed Skeletal Knight | Skeleton | Varies | a
 ;Frost Maul:The Icereaver slowly spins around then slams its weapon on its target, dealing moderate frost damage and rooting them in place for three seconds. Blocking this attack puts the Icereaver off-balance and negates the root.
 ;Icequake: The Icereaver plants their weapon into the ground which causes ice to erupt both around their direct position and all around them, indicated by several AoEs, dealing moderate frost damage each.
 ;Ice Flow:The Icereaver rakes their weapon across the ground, sending out a slow-moving cluster of sharp ice spikes, indicated by overlapping AoEs, dealing moderate frost damage each. (Some icereavers only)
+
+## Tables extracted from this page
+
+- tables/depth_Icereaver_t00.csv (3 rows): Location | Name | Race | Gender | Health

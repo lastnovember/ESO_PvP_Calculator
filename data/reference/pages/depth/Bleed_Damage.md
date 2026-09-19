@@ -105,3 +105,10 @@ When you kill a monster they burst with blood magic, dealing 50% of their Max He
 - Hardy in the Staving Death subconstellation of Warfare reduces Bleed Damage taken.
 
 ## References
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Bleed_Damage_t00.csv (66 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Bleed_Damage_t01.csv (14 rows): Set | Weight | 5 piece bonus
+- tables/depth_Bleed_Damage_t00.csv (6 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/depth_Bleed_Damage_t01.csv (14 rows): Set | Weight | 5 piece bonus

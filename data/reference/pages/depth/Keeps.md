@@ -218,3 +218,11 @@ File:ON-concept-Fort 02.jpg|Concept art for a keep wall
 File:ON-concept-Fort 03.jpg|Blueprints for a keep
 File:ON-concept-Fort 04.jpg|Blueprints for a keep
 File:ON-concept-Fort 05.jpg|Blueprints for a keep
+
+## Tables extracted from this page
+
+- tables/depth_Keeps_t00.csv (13 rows): Home Keep Bonus | Home Keep Bonus | Increases experience, Alliance Points, and gold gained by 5%.
+- tables/depth_Keeps_t01.csv (6 rows): Level 1 | backgroundplease | Higher Defensive Siege Cap | More Siege weapons can be placed in defense of this keep. (Def
+- tables/depth_Keeps_t02.csv (9 rows): Level 1 | Heartier Guards | Heartier Guards | Guards have more HP (10% more)
+- tables/depth_Keeps_t03.csv (6 rows): Level 1 | Tower | Wall Siege Platform | Various Wall sections will have more protective locations (HP 240,000. Spawn at 
+- tables/depth_Keeps_t04.csv (1 rows): Upgrade Level | colspan=2Upgrade | Effect | Upgrade Level | colspan=2Upgrade | Effect | Upgrade Level | colspan=2Upgrade

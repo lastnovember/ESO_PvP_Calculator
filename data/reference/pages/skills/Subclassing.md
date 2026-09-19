@@ -47,3 +47,7 @@ File:ON-render-Subclassing (Templar Nightblade).jpg|Templar-Nightblade
 - [https://www.elderscrollsonline.com/en-us/news/post/68091 ESO's Developers Share Subclassing System Secrets] (Archived)
 - [https://help.elderscrollsonline.com/#en/answer/70613 A Study In Discipline Quest General Information]
 Skill
+
+## Tables extracted from this page
+
+- tables/skills_Subclassing_t00.csv (1 rows): Dragonknightlink=ON:Dragonknight|16px | Sorcererlink=ON:Sorcerer|16px | Nightbladelink=ON:Nightblade|16px | Templarlink=

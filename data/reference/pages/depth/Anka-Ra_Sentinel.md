@@ -50,3 +50,7 @@ rowspan=2 style=text-align:center| The Seeker's Archive | style=text-align:cente
 style=text-align:center| Summoned by Sihadid | style=text-align:center| | style=text-align:center| Brute | style=text-align:center| a
 
 style=text-align:center| The Parch | style=text-align:center| Southwestern district | style=text-align:center| | style=text-align:center| | style=text-align:center| 316,986
+
+## Tables extracted from this page
+
+- tables/depth_Anka-Ra_Sentinel_t00.csv (8 rows): Zone / Dungeon | Specific Location | Difficulty | Class | Health

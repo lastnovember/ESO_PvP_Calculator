@@ -21,3 +21,7 @@ Total w/ Shield | 48% (white) / 56% (green) / 64% (blue) / 72% (purple) / 80% (g
 
 ## Notes
 - This trait was replaced by Prosperous, which increases your Gold looted from enemies. This in turn was replaced with Invigorating, which increases your resource recovery rates.
+
+## Tables extracted from this page
+
+- tables/depth_Exploration_t00.csv (4 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

@@ -27,3 +27,7 @@ Enchanting | Praxes
 Jewelry Crafting | Sketches
 
 Provisioning | Designs
+
+## Tables extracted from this page
+
+- tables/depth_Furniture_Crafting_t00.csv (8 rows): Skill | Usual Plan Type | Furnishing Material

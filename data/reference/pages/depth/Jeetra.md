@@ -729,3 +729,8 @@ The Gates of Mor Naril]] quest where she has fa health instead.
 
 File:LO-book-Jeetra.jpg|Promotional render
 File:ON-render-Eastern Solstice 02.jpg|Promotional render
+
+## Tables extracted from this page
+
+- tables/depth_Jeetra_t00.csv (1 rows): Completed Moongrave Fane: | Otherwise:
+- tables/depth_Jeetra_t01.csv (1 rows): Encountered Voskrona previously: | Otherwise:

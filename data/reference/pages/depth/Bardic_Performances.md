@@ -2736,3 +2736,21 @@ Transcribed by ear, needs confirmation of official title and actual wording
 :Whose wisdom helps us all to thrive
 :They shape our lives, our hopes, our dreams
 :And so we praise Three Queens
+
+## Tables extracted from this page
+
+- tables/depth_Bardic_Performances_t00.csv (10 rows): Song | Malukah | Kari Wahlgren | Crispin Freeman | Jim Cummings | Flute | Lute
+- tables/depth_Bardic_Performances_t01.csv (5 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t02.csv (8 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t03.csv (7 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t04.csv (4 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t05.csv (2 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t06.csv (3 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t07.csv (2 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t08.csv (5 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t09.csv (2 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t10.csv (2 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t11.csv (2 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t12.csv (2 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t13.csv (3 rows): Name | Description | Location | Notes
+- tables/depth_Bardic_Performances_t14.csv (2 rows): Name | Description | Location | Notes

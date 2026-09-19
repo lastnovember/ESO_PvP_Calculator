@@ -200,3 +200,7 @@ After her death, the spirit of Little Leaf may return from Aetherius and appear 
 - While Little Leaf is following you around, other players will see her as Scaled Court Defector.
 - Little Leaf's health differs on quest progression: 39959 for when she's a quest giver and followerplain during The Serpent's Fang, 80,309 when you encounter her in Skyreach Temple, and dba when the Exalted Viper revives her during the final fight of Dawn of the Exalted Viper.
 - Little Leaf doesn't give experience or loot when slain.
+
+## Tables extracted from this page
+
+- tables/depth_Little_Leaf_t00.csv (1 rows): If you have never met Cassipia before: | If you have already met Cassipia before:

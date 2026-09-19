@@ -124,3 +124,7 @@ Truly Superb Glyph of Reduce Feat Cost | | Itade | 10 | CP160
 179
 191
 203
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Reduce_Feat_Cost_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

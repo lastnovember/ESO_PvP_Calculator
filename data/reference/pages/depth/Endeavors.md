@@ -920,3 +920,9 @@ Complete > [Incursion/Incursions] | Overcome Incursions and World Events through
 ## External Links
 - [https://www.elderscrollsonline.com/en-us/news/post/59925 Introducing Endeavors, A New Way to Acquire Crown Crate Items]
 - [https://www.elderscrollsonline.com/en-us/news/post/60245 Endeavors Arrive with the New Iron Atronach Crown Crates]
+
+## Tables extracted from this page
+
+- tables/depth_Endeavors_t00.csv (245 rows): Endeavor | Description | Tips and Notes
+- tables/depth_Endeavors_t01.csv (77 rows): Endeavor | Description | Tips and Notes
+- tables/depth_Endeavors_t02.csv (22 rows): Endeavor | Description

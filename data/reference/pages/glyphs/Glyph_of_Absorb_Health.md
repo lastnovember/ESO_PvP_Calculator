@@ -128,3 +128,7 @@ Truly Superb Glyph of Absorb Health | | Itade | 10 | CP160
 1674 | 758
 1754 | 795
 1900 | 861
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Absorb_Health_t00.csv (18 rows): Damage | Healing | Damage | Healing | Damage | Healing | Damage | Healing | Damage | Healing

@@ -24,3 +24,7 @@ Grants Minor Vitality for 20 seconds with each sweep, increasing healing receive
 
 ## Notes
 - The Daedric text on the script reads "Life".
+
+## Tables extracted from this page
+
+- tables/scribing_Vitality_script_t00.csv (5 rows): Mender's Bond | Mender's Bond | Grants Minor Vitality to the ally and allies in the link for 10 seconds, increasing heal

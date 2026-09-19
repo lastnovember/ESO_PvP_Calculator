@@ -17,3 +17,7 @@ colspan=6|Increased Inspiration
 Armor/Weapons | 280% (white) / 285% (green) / 290% (blue) / 295% (purple) / 300% (gold)
 
 Jewelry | 300% (white) / 325% (green) / 350% (blue) / 375% (purple) / 400% (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Intricate_t00.csv (3 rows): 6Item Type | 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

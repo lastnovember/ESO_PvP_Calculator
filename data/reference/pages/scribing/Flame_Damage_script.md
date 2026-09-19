@@ -24,3 +24,7 @@ Increases damage done with damage over time effects by 6%. Reduce your Health, M
 
 ## Notes
 - The Daedric text on the script reads "Fire".
+
+## Tables extracted from this page
+
+- tables/scribing_Flame_Damage_script_t00.csv (5 rows): Elemental Explosion | Elemental Explosion (Fiery Explosion) | Deals 8225 Flame Damage to enemies.

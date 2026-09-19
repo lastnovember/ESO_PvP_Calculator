@@ -221,3 +221,10 @@ style="text-align: center;" | Night
 File:ON-npc-Adhazabi Aba-daro the Golden.jpg|Aba-daro before the glow was added
 File:ON-icon-assistant-Adhazabi Aba-daro.png|The currently unused Collections icon
 File:ON-render-The Golden.jpg|Promotional render
+
+## Tables extracted from this page
+
+- tables/depth_Adhazabi_Aba-daro_t00.csv (22 rows): Altmer | "Is your purse as golden as you are? Please, show us!"
+- tables/depth_Adhazabi_Aba-daro_t01.csv (4 rows): Werewolf | "This one does not accept barter of shed fur, whether damp or dry. Gold, only."
+- tables/depth_Adhazabi_Aba-daro_t02.csv (6 rows): Group | Dialogue
+- tables/depth_Adhazabi_Aba-daro_t03.csv (8 rows): Wealth-Based Dialogue | Range

@@ -22,3 +22,7 @@ Nimalten Barrow | Aera Earth-Turner | Nord | Female | 127470
 ;Shadow Cloak: If the target is in close proximity to the dreadweaver, they will turn themselves invisible and move to a better location. The dreadweaver evades non-channeled direct damage attacks while invisible.
 ;Burdening Eye: The Dreadweaver summons a Burdening Eye that moves toward a player.
 ;Summon Dark Shade: The Dreadweaver summons a Dark Shade of itself to help them for a time. The Dark Shade uses a basic melee attack dealing low magic damage and applying Minor Maim for 4 seconds. The Dreadweaver's Physical Resistance and Spell Resistance are reduced to 0 while a summon is active, as seen by the blue glow on them. The Dark Shade automatically dies if the dreadweaver is killed.
+
+## Tables extracted from this page
+
+- tables/depth_Dreadweaver_t00.csv (4 rows): Location | Name | Race | Gender | Health
