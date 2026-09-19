@@ -63,3 +63,7 @@ File:ON-skill-Combustion 02.jpg|A trapped bog blight combusting
 File:ON-render-Jaxsik-Orrn.jpg|A Naga fighting bog blights
 File:ON-render-Murkmire 05.jpg|Promotional render
 File:ON-render-Bog Blights Awakening 02.jpg|Promotional render
+
+## Tables extracted from this page
+
+- tables/depth_Bog_Blight_t00.csv (7 rows): Zone / Dungeon | Specific Location | Difficulty | Health

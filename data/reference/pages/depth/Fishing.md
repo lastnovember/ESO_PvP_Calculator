@@ -1215,3 +1215,13 @@ Sometimes while fishing in the fishing hole under the bridge to the closed Green
 ## Notes
 - Trophy fish were curated during the 2025 Pan-Tamriel Celebration, meaning that players were guaranteed to receive a previously uncollected fish. This was particularly useful for completing fishing achievements with a large drop pool, e.g., zones with only Foul water fishing holes.
 - Guts are a quest item in The Witchmother's Bargain.
+
+## Tables extracted from this page
+
+- tables/depth_Fishing_t00.csv (10 rows): Bait | Source | Ideal use
+- tables/depth_Fishing_t01.csv (6 rows): Water type | Bait to use | Bait caught | Common fish caught
+- tables/depth_Fishing_t02.csv (11 rows): Khenarthi's Roost | Foul | Lake | Saltwater | River
+- tables/depth_Fishing_t03.csv (11 rows): Stros M'Kai | Foul | Lake | Saltwater | River
+- tables/depth_Fishing_t04.csv (11 rows): Bleakrock Isle | Foul | Lake | Saltwater | River
+- tables/depth_Fishing_t05.csv (51 rows): Anchorage of the Riotous Redress (Only available from Abecean Saltwater nodes during High Seas of Tamriel) | Foul | Lake
+- tables/depth_Fishing_t06.csv (5 rows): Fish | Water Type | Zone

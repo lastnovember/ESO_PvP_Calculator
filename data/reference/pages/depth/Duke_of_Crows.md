@@ -292,3 +292,8 @@ File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this
 Bug|At the western part of Arpenia near the Skyshard, the Duke will appear and repeat his lines from Glittering Lies, even if the quest is complete:
 ::Duke of Crows: "You, my giant, are unstoppable! Such smashing! Such crushing!"
 ::Duke of Crows: "There are still others trapped. Do not let the cultists open their doors!"
+
+## Tables extracted from this page
+
+- tables/depth_Duke_of_Crows_t00.csv (1 rows): First meeting… | Met before...
+- tables/depth_Duke_of_Crows_t01.csv (1 rows): If you are meeting for the first time: | If you have met before:

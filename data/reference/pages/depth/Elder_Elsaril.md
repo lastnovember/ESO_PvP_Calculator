@@ -43,3 +43,7 @@ If you side with the lamias, Elsaril dies when they invade the council platform.
 
 ## Bugs
 While there are four dead council members on the platform during An Unusual Circumstance, implying the entire council was killed, none match the physical appearance of Elsaril as seen during The Shadow's Embrace.
+
+## Tables extracted from this page
+
+- tables/depth_Elder_Elsaril_t00.csv (3 rows): Response | Dialogue

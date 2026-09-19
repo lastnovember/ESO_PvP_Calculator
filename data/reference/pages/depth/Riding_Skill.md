@@ -44,3 +44,7 @@ File:ON-misc-Mounts 02.jpg|Old stable interface
 File:ON-misc-Mounts 04.jpg|Old horse feeding interface
 File:ON-misc-Mounts 03.jpg|Old Stable Space option
 File:ON-mount-Horse-bag-reins.jpg|A Midnight Steed with the visual upgrades for speed and carrying capacity
+
+## Tables extracted from this page
+
+- tables/depth_Riding_Skill_t00.csv (3 rows): Food | Description | Price

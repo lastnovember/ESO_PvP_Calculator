@@ -39,3 +39,7 @@ scope="row"|42
 
 scope="row"|44
 14 | 12 | 12 | 12 | 13 | 12 | 12 | 87
+
+## Tables extracted from this page
+
+- tables/depth_Thick_Leather_t00.csv (5 rows): Armor Level | Full-Leather Jack | Full-Leather Boots | Full-Leather Bracers | Full-Leather Helmet | Full-Leather Guards 

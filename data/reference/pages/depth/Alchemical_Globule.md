@@ -45,3 +45,7 @@ style=text-align:center| K'Tora's Mindscape | style=text-align:center| Summoned 
 style=text-align:center| Karnwasten | style=text-align:center| Summoned by K'Garza | style=text-align:center| | style=text-align:center| 12,546
 
 style=text-align:center| Coral AerieAscending Tide | style=text-align:center| Summoned by Z'Baza | style=text-align:center| | style=text-align:center|
+
+## Tables extracted from this page
+
+- tables/depth_Alchemical_Globule_t00.csv (4 rows): Zone / Dungeon | Specific Location | Difficulty | Health

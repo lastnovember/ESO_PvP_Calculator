@@ -236,3 +236,7 @@ width=33%| Found another way to make peace:
 
 ## Notes
 - She uses the Adorable Assassin hairstyle, and wears light Dreadhorn style armor.
+
+## Tables extracted from this page
+
+- tables/depth_Eslyn_t00.csv (1 rows): If Madearn and Eslyn were handfasted: | Let Madearn make his own choice: | Found another way to make peace:

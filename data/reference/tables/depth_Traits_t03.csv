@@ -1,5 +1,5 @@
-Trait,Description,Magnitude
 Normal,Fine,Superior,Epic,Legendary
+Trait,Description,Magnitude
 Ornate,This item sells to merchants for …% more.,280% (white) / 285% (green) / 290% (blue) / 295% (purple) / 300% (gold)
 Intricate,"Increase inspiration gained from deconstruction of this item by …, and gain additional refined material upon deconstruction of this item.",Armor/Weapons,280% (white) / 285% (green) / 290% (blue) / 295% (purple) / 300% (gold)
 Jewelry,300% (white) / 325% (green) / 350% (blue) / 375% (purple) / 400% (gold)

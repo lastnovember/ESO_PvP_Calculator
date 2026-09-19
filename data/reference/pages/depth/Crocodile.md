@@ -102,3 +102,7 @@ File:ON-creature-Crocodile 02.jpg|A crocodile from Coldharbour
 File:ON-creature-Crocodile Old S'ren-ja Docks.jpg|Small (left) and generic (right) crocodiles at Old S'ren-ja Docks
 File:ON-creature-Trapjaw.jpg|A red-eyed, stronger variant of Crocodile
 File:ON-creature-Crocodile 04.jpg|Shadowy crocodiles in Evergloam
+
+## Tables extracted from this page
+
+- tables/depth_Crocodile_t00.csv (16 rows): Zone / Dungeon | Specific Location | Difficulty | Condition | Health

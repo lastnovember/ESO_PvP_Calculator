@@ -1,5 +1,5 @@
-Script,Effects
 Cowardice,Cowardice,"Afflicts the enemy with Major Cowardice for 10 seconds, reducing Weapon and Spell Damage by 430."
+Script,Effects
 Enervation,Enervation,"Afflicts the enemy with Minor Enervation for 10 seconds, reducing Critical Damage by 10%."
 Evasion,Evasion,"Grants you Major Evasion for 10 seconds on return, reducing damage from area attacks by 20%."
 Interrupt,Interrupt,Interrupts enemies that are casting.

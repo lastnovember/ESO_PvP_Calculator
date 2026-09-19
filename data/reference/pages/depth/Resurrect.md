@@ -31,3 +31,7 @@ Battle Resurrection (Support) | Increases resurrection speed by 15-30% Only work
 - Prior to Update 29, there were three different Champion perks that affected resurrecting players. These were: Field Physician, Infusion, and Revival - All of which were found under the sign of The Lord.
 
 Combat
+
+## Tables extracted from this page
+
+- tables/depth_Resurrect_t00.csv (3 rows): Skill | Effect

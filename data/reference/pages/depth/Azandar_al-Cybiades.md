@@ -1903,3 +1903,14 @@ File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this
 ## Achievements
 There are four achievements associated with this companion:
 Mercenaries and Metamagic
+
+## Tables extracted from this page
+
+- tables/depth_Azandar_al-Cybiades_t00.csv (10 rows): Racial Skill | Son of Kozanset: Increases Max Health by 3% and decreases ability cooldowns by 3%.
+- tables/depth_Azandar_al-Cybiades_t01.csv (28 rows): Item | Text
+- tables/depth_Azandar_al-Cybiades_t02.csv (18 rows): Item | # found per bag
+- tables/depth_Azandar_al-Cybiades_t03.csv (1 rows): If you aren't an Arcanist: | If you are an Arcanist:
+- tables/depth_Azandar_al-Cybiades_t04.csv (10 rows): Quest | Azandar's Commentary
+- tables/depth_Azandar_al-Cybiades_t05.csv (6 rows): Cordial-Friendly | Allied-Companion | Wary-Disdainful
+- tables/depth_Azandar_al-Cybiades_t06.csv (6 rows): Cordial/Friendly | Close | Allied | Companion
+- tables/depth_Azandar_al-Cybiades_t07.csv (4 rows): Wary | Irritated | Disdainful

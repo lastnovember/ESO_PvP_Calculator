@@ -38,3 +38,9 @@ CP160
 - During PTS testing, Rubedite Ingots were named "Colossus Ingots" (after the Flesh Colossus) and "Corundum Ingots".
 - Rubedite ingots can also be obtained by purchasing them from Imperial City merchants using Tel Var Stones.
 - See the lore article for general information.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Rubedite_Ore_t00.csv (9 rows): Used for | Blacksmithing ( Metalworking Rank 10)
+- tables/uesp_Online_Rubedite_Ore_t01.csv (7 rows): Armor Level | Rubedite Cuirass | Rubedite Sabatons | Rubedite Gauntlets | Rubedite Helm | Rubedite Greaves | Rubedite Pa
+- tables/depth_Rubedite_Ore_t00.csv (7 rows): Armor Level | Rubedite Cuirass | Rubedite Sabatons | Rubedite Gauntlets | Rubedite Helm | Rubedite Greaves | Rubedite Pa

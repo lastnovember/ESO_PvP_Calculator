@@ -76,3 +76,9 @@ Perk | Points | Shield Strength | Duration | Triggered By
 Reinforced (The Steed) | 50 | 5140 | 3 sec. | Blocking
 
 Needs list of shield penetrating attacks
+
+## Tables extracted from this page
+
+- tables/depth_Damage_Shield_t00.csv (17 rows): Skill | Shield Strength | Duration | Affects | Cost | Notes
+- tables/depth_Damage_Shield_t01.csv (11 rows): Set | Pieces | Shield Strength | Duration | Affects | Triggered By | Cooldown
+- tables/depth_Damage_Shield_t02.csv (1 rows): Perk | Points | Shield Strength | Duration | Triggered By

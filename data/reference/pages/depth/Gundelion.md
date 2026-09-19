@@ -94,3 +94,7 @@ Talking to him after completing the quest:
 ## Notes
 - Gundelion wears the Ranger's Crocskin Overkilt outfit and Left Side Half-Green Smear facepaint.
 - He is quoted in the description of the Vashabar Petal Moth pet.
+
+## Tables extracted from this page
+
+- tables/depth_Gundelion_t00.csv (1 rows): Spoke with Gundelion first: | Spoke with Malaniel first:

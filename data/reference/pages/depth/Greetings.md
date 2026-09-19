@@ -592,3 +592,10 @@ After the island of Eyevea is returned to Tamriel, the Scholars will sometimes t
 - "I spoke to Cadwell the other day. He's quite mad, really, but in the most polite manner."
 - "I'm not sure how long I wandered around out there until some kind Fighters Guild member found me."
 - "I hear things about stolen souls and a planar vortex. I wish I understood what's happening around here."
+
+## Tables extracted from this page
+
+- tables/depth_Greetings_t00.csv (1 rows): General | Beggars | Melancholy / Troubled | Injured | Trapped
+- tables/depth_Greetings_t01.csv (3 rows): Drunk
+- tables/depth_Greetings_t02.csv (1 rows): Busy | Hungover / Angry
+- tables/depth_Greetings_t03.csv (1 rows): Bankers | Innkeepers/Chefs/Brewers | Stablemasters

@@ -668,3 +668,10 @@ Stone-Nest Soup Stone | Treasure | Eastern Solstice | Neutral | Starting zone le
 Antique Xanmeer Carving Tools | Treasure | Eastern Solstice | Neutral | Excavate Stone-Nest Soup Stone
 
 Defaced Molag Bal Effigy | Treasure | Eastern Solstice | Neutral | Excavate Antique Xanmeer Carving Tools
+
+## Tables extracted from this page
+
+- tables/depth_Antiquity_Leads_t00.csv (83 rows): Mythic Item | Bonus | Required DLC/Chapter
+- tables/depth_Antiquity_Leads_t01.csv (14 rows): 40px | Arkthzand Insight Vertex Shroud | Hat | From an "Inactive Construct" across the broken bridge south of the Librar
+- tables/depth_Antiquity_Leads_t02.csv (1 rows): 40px | Alinor Allemande | Approach Kinlady Terannil on the banks of the river south of Rellenthil 29122 | Summerset
+- tables/depth_Antiquity_Leads_t03.csv (133 rows): Item Name | Type | Zone | Alliance | How to Obtain

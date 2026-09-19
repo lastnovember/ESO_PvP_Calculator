@@ -29,3 +29,7 @@ File:ON-object-Ice Barrier.jpg|Summon Ice Barrier
 File:ON-skill-Winter's Reach.jpg|Winter's Reach
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Frost_Mage_t00.csv (4 rows): Location | Name | Race | Gender | Health

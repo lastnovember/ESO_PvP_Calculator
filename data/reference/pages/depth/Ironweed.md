@@ -32,3 +32,7 @@ scope="row"|CP50
 
 scope="row"|CP60
 15 | 13 | 13 | 13 | 14 | 13 | 13 | 94
+
+## Tables extracted from this page
+
+- tables/depth_Ironweed_t00.csv (3 rows): Armor Level | Ironthread Robe/Jerkin | Ironthread Shoes | Ironthread Gloves | Ironthread Hat | Ironthread Breeches | Iro

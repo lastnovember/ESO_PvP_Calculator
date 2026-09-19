@@ -727,3 +727,13 @@ When you and Quen return to the Thieves Den, you meet the man that provided the 
 
 ## Notes
 - Abrasia wears recolored armor of the Red Rook Bandit Style.
+
+## Tables extracted from this page
+
+- tables/depth_Abrasia_t00.csv (1 rows): Passed the Test: | Did not pass the Test
+- tables/depth_Abrasia_t01.csv (1 rows): Gave Neutral Response: | Gave Joker ResponseJoker | Gave Grim ResponseGrim
+- tables/depth_Abrasia_t02.csv (1 rows): Tasks not completed: | Ready to return to the Thieves Den:
+- tables/depth_Abrasia_t03.csv (1 rows): Been to the Dresan Keep Previously: | Otherwise:
+- tables/depth_Abrasia_t04.csv (1 rows): Basil Mendant died: | Basil Mendant survived:
+- tables/depth_Abrasia_t05.csv (1 rows): Picked Abrasia: | Otherwise:
+- tables/depth_Abrasia_t06.csv (1 rows): Picked Abrasia: | Picked Edwane the Hawk: | Picked Seline Menant:

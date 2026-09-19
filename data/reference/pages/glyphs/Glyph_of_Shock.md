@@ -124,3 +124,7 @@ Truly Superb Glyph of Shock | | Repora | 10 | CP160
 2232
 2339
 2534
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Shock_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

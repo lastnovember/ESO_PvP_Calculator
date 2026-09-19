@@ -122,3 +122,12 @@ File:ON-skill-Sundering Knife.jpg|Sundering Knife
 File:ON-skill-Venomous Knife.jpg|Venomous Knife
 File:ON-skill-Leashing Knife.jpg|Leashing Knife
 File:ON-skill-Dazing Knife.jpg|Dazing Knife
+
+## Tables extracted from this page
+
+- tables/scribing_Traveling_Knife_t00.csv (7 rows): Script | Skill Name | Effects
+- tables/scribing_Traveling_Knife_t01.csv (9 rows): Assassin's Misery | Assassin's Misery | Increases the chance to apply status effects on enemies by 100% for 10 seconds.
+- tables/scribing_Traveling_Knife_t02.csv (8 rows): Berserk | Berserk | Grants you Minor Berserk for 20 seconds, increasing damage done by 5%.
+- tables/skills_Traveling_Knife_t00.csv (7 rows): Script | Skill Name | Effects
+- tables/skills_Traveling_Knife_t01.csv (9 rows): Assassin's Misery | Assassin's Misery | Increases the chance to apply status effects on enemies by 100% for 10 seconds.
+- tables/skills_Traveling_Knife_t02.csv (8 rows): Berserk | Berserk | Grants you Minor Berserk for 20 seconds, increasing damage done by 5%.

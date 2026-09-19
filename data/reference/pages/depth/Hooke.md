@@ -294,3 +294,10 @@ width=33%|Valenia is Dead:
 :"Back in the refuge, Val mentioned that she was trying to mend the broken roots with her family and start anew. I need to tell them what happened. How much she loved them. And I need to do the same for the other Scarlets who didn't make it."
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Hooke_t00.csv (1 rows): Stalled long enough for Hooke to free Valenia: | Valenia is freed but injured: | Valenia is killed:
+- tables/depth_Hooke_t01.csv (1 rows): Valenia is unharmed: | Valenia is injured: | Valenia is dead:
+- tables/depth_Hooke_t02.csv (1 rows): Valenia is unharmed: | Valenia is injured: | Valenia is Dead:
+- tables/depth_Hooke_t03.csv (1 rows): Valenia is unharmed: | Valenia is injured: | Valenia is Dead:

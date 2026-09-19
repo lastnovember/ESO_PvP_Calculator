@@ -24,3 +24,7 @@ Deals 4155 Shock damage to enemies. Beneficial Signature and Affix scripts only 
 
 ## Notes
 - The Daedric text on the script reads "Shock".
+
+## Tables extracted from this page
+
+- tables/scribing_Shock_Damage_script_t00.csv (5 rows): Elemental Explosion | Elemental Explosion (Shocking Explosion) | Deals 8225 Shock Damage to enemies.

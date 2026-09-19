@@ -27,3 +27,7 @@ Deals 3116 Physical Damage to all enemies and stuns them for 3 seconds.
 
 ## Notes
 - The Daedric text on the script reads "Stun".
+
+## Tables extracted from this page
+
+- tables/scribing_Stun_script_t00.csv (6 rows): Elemental Explosion | Elemental Explosion (Dazing Explosion) | Stuns enemies for 5 seconds.

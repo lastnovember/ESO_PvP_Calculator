@@ -24,3 +24,7 @@ Grants you Minor Expedition for 20 seconds, increasing Movement Speed by 15%.
 
 ## Notes
 - The Daedric text on the script reads "Expedition".
+
+## Tables extracted from this page
+
+- tables/scribing_Expedition_t00.csv (5 rows): Smash | Smash | Grants Minor Expedition for 20 seconds, increasing Movement Speed by 15%.

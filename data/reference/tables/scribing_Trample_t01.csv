@@ -1,5 +1,5 @@
-Script,Effects
 Assassin's Misery,Assassin's Misery,"Afflicts enemies with the Concussion, Sundered, and Hemorrhaging status effects."
+Script,Effects
 Cavalier's Charge,Cavalier's Charge,"Increases the damage done by this ability as it travels outwards, increasing by 20% every 0.5 seconds."
 Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.
 Hunter's Snare,Hunter's Snare,"Leave behind a field of caltrops for 10 seconds, dealing 106 Physical Damage every second and reducing enemy Movement Speed by 50%."

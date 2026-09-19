@@ -626,3 +626,8 @@ If you convinced her to kill Martus:
 :"I'm haunted by the things we saw in the Dread Cellar. I wasn't present when those atrocities were happening … but Martus was. That's why he had to pay."
 
 :"No one has come after me for killing Martus and deserting my post. Have they just not caught up to me, or aren't they even looking? It would be sad to be that insignificant. Sadder for Martus."
+
+## Tables extracted from this page
+
+- tables/depth_Lucilla_Caprenia_t00.csv (1 rows): Completed Quaking Dread: | First Time Meeting:
+- tables/depth_Lucilla_Caprenia_t01.csv (1 rows): Completed Quaking Dread: | First Time Meeting:

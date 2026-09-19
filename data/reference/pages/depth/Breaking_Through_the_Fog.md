@@ -291,3 +291,7 @@ Ask Marise to Steal the Parchment
 I should follow her and see if I can redeem myself.Escape the Guard House
 |A distress signal fired from Firemoth Island indicates that something is happening there. I need to get to the island, rescue the captured prisoners, and find evidence confirming Governor Omellian's involvement. Online Quest Objective | Rescue Slaves: 0/4 Online Quest Objective | Search for Evidenece
 fin|I freed the captives on Firemoth Island and found a letter from the slaver captain. It indicated that the governor was involved and tried to clean up behind him by having the captain assassinated. I should report back to Deminah Salvi in Seyda Neen. Online Quest Objective | Talk to Deminah Salvi
+
+## Tables extracted from this page
+
+- tables/depth_Breaking_Through_the_Fog_t00.csv (8 rows): Citizen | Response

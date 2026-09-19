@@ -125,3 +125,7 @@ Cloth | Leather | Wood | Metal | Jewelry Metal
 - Woodworking: Create and improve staves, shields, and bows.
 
 - Armor Dyes: Unlock new dye colors for your armor based on your achievements.
+
+## Tables extracted from this page
+
+- tables/depth_Items_t00.csv (1 rows): Cloth | Leather | Wood | Metal | Jewelry Metal

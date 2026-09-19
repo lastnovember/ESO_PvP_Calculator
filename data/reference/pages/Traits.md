@@ -318,3 +318,16 @@ Sum
 Using a research scroll will reduce the timers of all items currently being researched in one or more crafts by an amount dependent on the scroll (e.g. an Instant Blacksmithing Research scroll will reduce the timers of all current Blacksmithing research items by 1 day). Scrolls obtained from the Crown Store have no cooldown between uses; scrolls purchased from Rolis Hlaalu have a cooldown of 20 hours.
 
 Researching all traits for a single item without scrolls will take between 42 days 14 hours and 23 days 8 hours 15 minutes, depending on the number of points invested in the appropriate skill and if you have ESO Plus. There are 2 Jewelry 6 Woodworking, 14 clothing and 14 blacksmithing item types that can be researched. This means that it will take an absolute minimum of 46 days 16 hours and 30 minutes (about 1 and a half months) to research all woodworking and jewelry traits, and a minimum of 116 days 17 hours and 15 minutes (due to the last 2 traits having to research in their own with 1 empty slot, just under 4 months) to research all clothing and blacksmithing traits without the use of scrolls.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Traits_t00.csv (17 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Traits_t01.csv (10 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Traits_t02.csv (11 rows): Trait | Material | Material Source | Description | Magnitude
+- tables/uesp_Online_Traits_t03.csv (4 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Traits_t04.csv (12 rows): 1 st | 2h 00m | 1h 54m | 1h 48m | 1h 36m | 1h 30m | 1h 48m | 1h 42m 36s | 1h 37m 12s | 1h 26m 24s | 1h 21m
+- tables/depth_Traits_t00.csv (17 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/depth_Traits_t01.csv (10 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/depth_Traits_t02.csv (11 rows): Trait | Material | Material Source | Description | Magnitude
+- tables/depth_Traits_t03.csv (4 rows): Normal | Fine | Superior | Epic | Legendary
+- tables/depth_Traits_t04.csv (12 rows): 1 st | 2h 00m | 1h 54m | 1h 48m | 1h 36m | 1h 30m | 1h 48m | 1h 42m 36s | 1h 37m 12s | 1h 26m 24s | 1h 21m

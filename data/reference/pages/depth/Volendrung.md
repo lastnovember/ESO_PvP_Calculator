@@ -107,3 +107,8 @@ File:ON-render-Volendrung_02.jpg|Volendrung is capable of tearing down a wall
 
 ## External Links
 - [https://www.elderscrollsonline.com/en-us/news/post/56335 Chaos Comes to Cyrodiil with Artifact Weapons]
+
+## Tables extracted from this page
+
+- tables/depth_Volendrung_t00.csv (2 rows): Light Armor-Annulment | Artifact Ward | Upon taking Volendrung, get a damage shield of 60%plain of your Max Health for 6
+- tables/depth_Volendrung_t01.csv (1 rows): Volendrung | Volendrung | When wielding Volendrung your Health, Magicka, and Stamina are increased. Killing enemies will

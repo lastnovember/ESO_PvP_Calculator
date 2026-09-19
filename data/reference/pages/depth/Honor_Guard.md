@@ -30,3 +30,7 @@ The following skills replace their weaker counterparts (if they have one) and ar
 ;Puncturing Chains: The Honor Guard launches a fiery chain to grasp and pull a player to them, dealing minor flame damage.
 ;Crippling Rage: The Honor Guard casts a bolt of lightning down on a target, doing moderate shock damage and snaring targets in the AoE.
 ;Guardian Regeneration: The Honor Guard casts a Dragon Blood-like ability which heals a percentage of its missing health. (Twice stronger than Guardian Heal)
+
+## Tables extracted from this page
+
+- tables/depth_Honor_Guard_t00.csv (3 rows): Location | Name | Race | Gender | Health

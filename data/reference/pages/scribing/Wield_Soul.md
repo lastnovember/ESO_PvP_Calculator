@@ -150,3 +150,12 @@ File:ON-skill-Sundering Soul.jpg|Sundering Soul
 File:ON-skill-Leashing Soul.jpg|Leashing Soul
 File:ON-skill-Shocking Soul.jpg|Shocking Soul
 File:ON-skill-Dazing Soul.jpg|Dazing Soul
+
+## Tables extracted from this page
+
+- tables/scribing_Wield_Soul_t00.csv (12 rows): Script | Skill Name | Effects
+- tables/scribing_Wield_Soul_t01.csv (8 rows): Anchorite's Cruelty | Anchorite's Cruelty | Consumes a Soul Gem to deal 1.5% of the enemy's Max Health as Oblivion Damag
+- tables/scribing_Wield_Soul_t02.csv (11 rows): Breach | Breach | Afflicts the enemy with Major Breach for 10 seconds, reducing Physical and Spell Resistance by 5984.
+- tables/skills_Wield_Soul_t00.csv (12 rows): Script | Skill Name | Effects
+- tables/skills_Wield_Soul_t01.csv (8 rows): Anchorite's Cruelty | Anchorite's Cruelty | Consumes a Soul Gem to deal 1.5% of the enemy's Max Health as Oblivion Damag
+- tables/skills_Wield_Soul_t02.csv (11 rows): Breach | Breach | Afflicts the enemy with Major Breach for 10 seconds, reducing Physical and Spell Resistance by 5984.

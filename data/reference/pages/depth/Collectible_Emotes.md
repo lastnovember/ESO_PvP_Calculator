@@ -680,3 +680,7 @@ Wickerman Mishap | /wickerman | It's that glorious time-that moment when you can
 
 |
 World-Eater's Fire Dance | /firedance | "Before the ritual even began, the cultists performed their customary fire dance. The terror in my heart died away, it was so beautiful. Then the blades came out. I was the only one to escape the sacrifice that night."-Excerpt from Loth Icefist's Journal | Available as a Legendary-level reward in Akatosh vs. Alduin Crates.
+
+## Tables extracted from this page
+
+- tables/depth_Collectible_Emotes_t00.csv (226 rows): | Anchor | A 100px100px | Admire Me | /admireme | Throw your arms wide to call attention to the fact that YOU are the mo

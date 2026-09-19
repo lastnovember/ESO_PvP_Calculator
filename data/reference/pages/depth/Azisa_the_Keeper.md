@@ -108,3 +108,9 @@ File:ON-npc-Azisa the Keeper.jpg|Azisa the Keeper
 ## Notes
 - She was added to the game during Update 49.
 - Azisa wears the Dark Passions Regalia.
+
+## Tables extracted from this page
+
+- tables/depth_Azisa_the_Keeper_t00.csv (1 rows): Never been infected: | Former Werewolf:
+- tables/depth_Azisa_the_Keeper_t01.csv (1 rows): Aldmeri Dominion: | Daggerfall Covenant: | Ebonheart Pact:
+- tables/depth_Azisa_the_Keeper_t02.csv (1 rows): Fellow Vampire: | Werewolf: | Mortal (While doing the Lycanthropy Quest):

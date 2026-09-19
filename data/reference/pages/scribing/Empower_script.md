@@ -15,3 +15,7 @@ Grants Empower for 10 seconds, increasing the damage of Heavy Attacks against mo
 
 ## Notes
 - The Daedric text on the script reads simply "Big".
+
+## Tables extracted from this page
+
+- tables/scribing_Empower_script_t00.csv (2 rows): Mender's Bond | Mender's Bond | Grants Empower to the ally and allies in the link for 10 seconds, increasing the damage 

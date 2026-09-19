@@ -69,3 +69,12 @@ Accuracy
 Ranger
 Hawk Eye
 Hasty Retreat
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Bow_t00.csv (29 rows): 2 | Snipe
+- tables/uesp_Online_Bow_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Bow_t02.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Bow_t03.csv (10 rows): Ability Name | Weapon set name | Description
+- tables/uesp_Online_Bow_t04.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/depth_Bow_t00.csv (10 rows): Ability Name | Weapon set name | Description

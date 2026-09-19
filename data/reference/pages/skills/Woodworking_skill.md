@@ -67,3 +67,7 @@ Rough Ruby Ash | Sanded Ruby Ash | Ruby Ash Bow, Ruby Ash Staves, Ruby Ash Shiel
 
 ## Patch Notes
 [Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.
+
+## Tables extracted from this page
+
+- tables/skills_Woodworking_skill_t00.csv (10 rows): Raw Material | Refined Into | Used To Make... | Levels

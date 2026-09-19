@@ -106,3 +106,10 @@ File:ON-costume-Grim Harvester (Male).jpg|Grim Harvester costume (male khajiit)
 - A World of Corpses
 - Achieving Harmony with Death
 - Benevolent Necromancy, it Exists
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Necromancer_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/uesp_Online_Necromancer_t01.csv (5 rows): Necromancer Initiate | Baleful Summoner | Deathbringer | Undying Warrior | Flesh Sculptor
+- tables/depth_Necromancer_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Necromancer_t01.csv (5 rows): Necromancer Initiate | #000000| | #aaff00|Spirit Mender | #ff3300|Flame Skull Sacrificial Bones Expunge Frozen Colossus 

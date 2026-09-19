@@ -31,3 +31,7 @@ Additionally, some Scribed skills using the Pull script will have this effect.
 
 Some sets also have this effect
 Combat
+
+## Tables extracted from this page
+
+- tables/depth_Pull_t00.csv (4 rows): Skill | Effects | Cost

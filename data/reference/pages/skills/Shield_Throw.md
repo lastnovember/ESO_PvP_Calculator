@@ -122,3 +122,12 @@ File:ON-skill-Shattering Throw.jpg|Shattering Throw
 File:ON-skill-Sundering Throw.jpg|Sundering Throw
 File:ON-skill-Leashing Throw.jpg|Leashing Throw
 File:ON-skill-Goading Throw.jpg|Goading Throw
+
+## Tables extracted from this page
+
+- tables/scribing_Shield_Throw_t00.csv (7 rows): Script | Skill Name | Effects
+- tables/scribing_Shield_Throw_t01.csv (8 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/scribing_Shield_Throw_t02.csv (8 rows): Cowardice | Cowardice | Afflicts the enemy with Major Cowardice for 10 seconds, reducing Weapon and Spell Damage by 430.
+- tables/skills_Shield_Throw_t00.csv (7 rows): Script | Skill Name | Effects
+- tables/skills_Shield_Throw_t01.csv (8 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/skills_Shield_Throw_t02.csv (8 rows): Cowardice | Cowardice | Afflicts the enemy with Major Cowardice for 10 seconds, reducing Weapon and Spell Damage by 430.

@@ -32,3 +32,7 @@ ESO Patch Note|4.2.5|* Recovery: Renamed this ability to Grace.
 - This ability's old effects have been merged into the Evocation passive.
 - It now reduces the effectiveness of snares applied to you by 1/2/4% per piece of Light Armor worn, and reduces the cost of Sprint by 1/2/3% per piece of Light Armor worn.
 - Developer Comment: We want Light and Medium armor to have a mobility advantage over Heavy Armor without using penalties to make Heavy Armor feel slow. Medium Armor already has faster sprinting, while Light Armor wearers now can sprint for longer and also isn't affected by snares as strongly.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Recovery_t00.csv (5 rows): Line | Light Armor

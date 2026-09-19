@@ -104,3 +104,10 @@ File:ON-render-Sorcerer.jpg|A Sorcerer
 - Principles of Conjuration
 - Sorcery is Not Necromancy!
 - On the Utility of Shock Magic
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Sorcerer_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/uesp_Online_Sorcerer_t01.csv (5 rows): Sorcerer Initiate | Elemental Arcanist | Arcane Warrior | War Mage | Eldritch Mender
+- tables/depth_Sorcerer_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Sorcerer_t01.csv (5 rows): Sorcerer Initiate | #000000| | #aaff00|Crystal Shard | #ffbb00|Arcane Warrior Bound Armor Lightning Flood | #aaff00|Nega

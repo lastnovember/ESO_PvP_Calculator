@@ -73,3 +73,7 @@ Battleground King
 ## Notes
 - As a land grab Battleground, Crazy King games have the potential to net Fire Drake Style style pages.
 - A popular stratagem among players is to move from one capture point to another as soon as one is captured, as the transient nature of the capture points often means that expending resources and time fighting over capture points can waste time and cause your team to lose the opportunity to take other capture points.
+
+## Tables extracted from this page
+
+- tables/depth_Crazy_King_t00.csv (19 rows): Icon | Name | Points | Description

@@ -57,3 +57,7 @@ File:ON-set-The Shadow Queen's Cowl (Distracted).jpg|Distracted debuff smoky vis
 File:ON-set-The Shadow Queen's Cowl (Friendly).jpg|Friendly NPCs white glow visual and see-through visual of a neutral NPC
 File:ON-set-The Shadow Queen's Cowl (Hostile).jpg|Hostile NPCs red glow visual (here a guard while having bounty)
 File:ON-set-The Shadow Queen's Cowl (Non-witness).jpg|A friendly NPC, a neutral NPC and a non-witness NPC (here Sapiarch Tandemen)
+
+## Tables extracted from this page
+
+- tables/sets_The_Shadow_Queen_s_Cowl_t00.csv (5 rows): 40px | Shadowy Creatia Stitching | Aggression of Root in Haldain Lumber Camp, West Weald | West Weald | This stitching i

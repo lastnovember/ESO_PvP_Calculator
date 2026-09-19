@@ -38,3 +38,7 @@ North of Gideon | Vasha the Wicked | Maormer | Female | 267687
 ;Flare:A basic ranged attack that does minor flame damage. (Some Sea Mages)
 ;Flaming Blink:The enemy summons a flaming portal and enters it, using it to teleport a distance away. Standing near the portal as it opens deals damage. (Some sea mages starting with Dragonhold and onwards)
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Sea_Mage_t00.csv (11 rows): Location | Name | Race | Gender | Health

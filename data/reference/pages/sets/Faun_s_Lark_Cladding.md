@@ -51,3 +51,7 @@ I read a troubling tale once about a group of Fauns who stuffed a man's mouth fu
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Galen
+
+## Tables extracted from this page
+
+- tables/sets_Faun_s_Lark_Cladding_t00.csv (5 rows): 40px | Hartlord Hide Singlet | Faun Falls World Boss in High Isle | Galen | Ooh, I don't recognize this material! It fee

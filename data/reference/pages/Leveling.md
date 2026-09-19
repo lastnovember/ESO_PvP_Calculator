@@ -403,3 +403,12 @@ Few quests relate directly to the leveling system, although many have level requ
 
 ## Notes
 - Lawrence Schick, who served as the game's first lead loremaster, coined the term "XP" as an abbreviation for "experience point" when helping write the first Dungeons & Dragons Dungeon Master's Guide in 1979.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Leveling_t00.csv (5 rows): Difficulty | XP Gain | Multiplier
+- tables/uesp_Online_Leveling_t01.csv (50 rows): Player level | Experience required for next level | Total experience for level | Standard quest reward | Location discov
+- tables/uesp_Online_Leveling_t02.csv (51 rows): Experience to next rank | Total experience to reach rank | Experience to next rank | Total experience to reach rank | Ex
+- tables/uesp_Online_Leveling_t03.csv (5 rows): Color | Level Range | Difficulty
+- tables/depth_Leveling_t00.csv (50 rows): Player level | Experience required for next level | Total experience for level | Standard quest reward | Location discov
+- tables/depth_Leveling_t01.csv (51 rows): Experience to next rank | Total experience to reach rank | Experience to next rank | Total experience to reach rank | Ex

@@ -65,3 +65,7 @@ File:ON-item-Mad God's Dancing Shoes.jpg
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: West Solstice
+
+## Tables extracted from this page
+
+- tables/sets_Mad_God_s_Dancing_Shoes_t00.csv (5 rows): 40px | Baliwog Pearl Eyelets | |Solstice | Unusual material for shoe eyelets. Opalescent and energetically potent, I was

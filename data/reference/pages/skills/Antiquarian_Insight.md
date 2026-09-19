@@ -34,3 +34,7 @@ passive
 passive
 
 Rank I | Rank II | Rank III | Rank IV | Rank V
+
+## Tables extracted from this page
+
+- tables/skills_Antiquarian_Insight_t00.csv (1 rows): passive | passive | passive | passive | passive

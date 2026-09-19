@@ -58,3 +58,7 @@ File:ON-set-Dov-Rha Sabatons AOE.jpg|Dov-Rha Sabatons set AOE
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: High Isle
+
+## Tables extracted from this page
+
+- tables/sets_Dov-rha_Sabatons_t00.csv (5 rows): Dov-rha Sabaton Toe Cap | Psijic Portals in Southern Elsweyr | High Isle | A remarkable find. This is a piece of a sabat

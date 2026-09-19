@@ -114,3 +114,11 @@ These skills do not deplete your Ultimate in the normal way. See individual page
 Feed]] skill's cost reduction on all Vampire abilities, the actual cost of Blood Scion can range from 243 to 329, depending on morph chosen, rank, and current Vampire stage.
 
 Combat
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Ultimate_t00.csv (49 rows): Class-Exclusive Tree Skill Cost Arcanist Herald of the Tome The Unblinking Eye 175 Ultimate Soldier of Apocrypha Gibberi
+- tables/uesp_Online_Ultimate_t01.csv (29 rows): Tree | Skill | Cost
+- tables/uesp_Online_Ultimate_t02.csv (18 rows): Tree | Skill | Cost
+- tables/depth_Ultimate_t00.csv (29 rows): Tree | Skill | Cost
+- tables/depth_Ultimate_t01.csv (18 rows): Tree | Skill | Cost

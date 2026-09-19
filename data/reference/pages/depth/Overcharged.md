@@ -34,3 +34,8 @@ Threads of War (5 pieces) | Any | Set | Varies | Your Light and Heavy attacks ga
 colspan=5|Source | Type | Effect
 
 colspan=5|Force Pulse (Destruction Staff) | Active Skill (morph) | Deals Extra Area of Effect Damage
+
+## Tables extracted from this page
+
+- tables/depth_Overcharged_t00.csv (11 rows): Source | Class | Type | Affects | Effect
+- tables/depth_Overcharged_t01.csv (1 rows): Source | Type | Effect

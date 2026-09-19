@@ -229,3 +229,11 @@ For a complete list of all emotes, see: Emotes.
 ## Bugs
 Two incomplete emotes, "Read letter" and "Read letter lookup", exist in the console UI.
 polymorph]], starting the dance emote, then hitting the quickslot key to unequip the polymorph will result in your character continuing to dance with the moves of the polymorph's inherent gender (male for the Skeleton and Cadaverous Assassin polymorphs, female for the Draugr polymorph), regardless of your character's gender.
+
+## Tables extracted from this page
+
+- tables/depth_Chat_t00.csv (16 rows): Command | Audience | Audience Can be Anywhere
+- tables/depth_Chat_t01.csv (20 rows): Command | Effect
+- tables/depth_Chat_t02.csv (6 rows): Channel | Audience | Audience Can be Anywhere
+- tables/depth_Chat_t03.csv (11 rows): Phrase | Text | Emote
+- tables/depth_Chat_t04.csv (11 rows): Phrase | Text | Emote

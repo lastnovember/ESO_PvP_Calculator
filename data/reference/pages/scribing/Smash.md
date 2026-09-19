@@ -149,3 +149,12 @@ File:ON-skill-Magical Smash.jpg|Magical Smash
 File:ON-skill-Sundering Smash.jpg|Sundering Smash
 File:ON-skill-Dazing Smash.jpg|Dazing Smash
 File:ON-skill-Goading Smash.jpg|Goading Smash
+
+## Tables extracted from this page
+
+- tables/scribing_Smash_t00.csv (12 rows): Script | Skill Name | Effects
+- tables/scribing_Smash_t01.csv (12 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/scribing_Smash_t02.csv (12 rows): Berserk | Berserk | Grants Minor Berserk for 20 seconds, increasing damage done by 5%.
+- tables/skills_Smash_t00.csv (12 rows): Script | Skill Name | Effects
+- tables/skills_Smash_t01.csv (12 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/skills_Smash_t02.csv (12 rows): Berserk | Berserk | Grants Minor Berserk for 20 seconds, increasing damage done by 5%.

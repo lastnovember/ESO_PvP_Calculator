@@ -28,3 +28,7 @@ Shadowfen | Dominion Wildling | Bosmer | Varies | a
 ## Gallery
 
 File:ON-skill-Agony (NPC).jpg|An NPC affected by Agony
+
+## Tables extracted from this page
+
+- tables/depth_Berserker_t00.csv (4 rows): Location | Name | Race | Gender | Health

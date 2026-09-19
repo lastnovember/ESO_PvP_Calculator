@@ -50,3 +50,8 @@ Adds 129 Magicka Recovery, Applying a Major or Minor Debuff to an enemy applies 
 ## Notes
 - Players actually have Oblivion Resistance equal to the higher between Physical and Spell Resistance, Oblivion Damage just bypasses it.
 - The Glyph of Decrease Health enchantment used to critically strike and trigger sets and passives triggered by dealing critical damage such as Hemorrhage. This wasn't an intended behavior and its damage wasn't increased when critically striking. This was silently fixed between the 10 March and 6 October 2025.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Oblivion_Damage_t00.csv (4 rows): Set | Weight | 5 piece bonus
+- tables/depth_Oblivion_Damage_t00.csv (4 rows): Set | Weight | 5 piece bonus

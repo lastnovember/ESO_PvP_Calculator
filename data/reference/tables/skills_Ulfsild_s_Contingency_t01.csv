@@ -1,5 +1,5 @@
-Script,Effects
 Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.
+Script,Effects
 Gladiator's Tenacity,Gladiator's Tenacity,Reduces damage taken by 8% for 8 seconds.
 Growing Impact,Growing Impact,Creates a rune of power on the ground for 10 seconds which applies the Affix script in an area.
 Allows all Affix Scripts to be used even with Warding Contingency or Healing Contingency

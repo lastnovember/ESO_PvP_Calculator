@@ -15,3 +15,7 @@ Reduces damage taken by 8% for 8 seconds.
 
 ## Notes
 - The Daedric text on the script reads "Mitigate Damage".
+
+## Tables extracted from this page
+
+- tables/scribing_Gladiator_s_Tenacity_t00.csv (2 rows): Torchbearer | Torchbearer | Reduces damage taken by 30% for 2.2 seconds.

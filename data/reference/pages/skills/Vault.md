@@ -134,3 +134,12 @@ File:ON-skill-Binding Vault.jpg|Binding Vault
 File:ON-skill-Sundering Vault.jpg|Sundering Vault
 File:ON-skill-Venomous Vault.jpg|Venomous Vault
 File:ON-skill-Goading Vault.jpg|Goading Vault
+
+## Tables extracted from this page
+
+- tables/scribing_Vault_t00.csv (9 rows): Script | Skill Name | Effects
+- tables/scribing_Vault_t01.csv (10 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/scribing_Vault_t02.csv (12 rows): Evasion | Evasion | Grants you Major Evasion for 20 seconds, reducing damage from area attacks by 20%.
+- tables/skills_Vault_t00.csv (9 rows): Script | Skill Name | Effects
+- tables/skills_Vault_t01.csv (10 rows): Class Flourish | Class Flourish | Depends on class. See Class Flourish page for full details.
+- tables/skills_Vault_t02.csv (12 rows): Evasion | Evasion | Grants you Major Evasion for 20 seconds, reducing damage from area attacks by 20%.

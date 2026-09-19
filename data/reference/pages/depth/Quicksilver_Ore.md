@@ -32,3 +32,7 @@ CP70
 
 CP80
 11 | 11 | 11 | 13 | 13 | 13 | 10
+
+## Tables extracted from this page
+
+- tables/depth_Quicksilver_Ore_t00.csv (7 rows): Armor Level | Quicksilver Cuirass | Quicksilver Sabatons | Quicksilver Gauntlets | Quicksilver Helm | Quicksilver Greave

@@ -20,3 +20,7 @@ Afflicts enemies with Minor Defile, which reduces healing received and damage sh
 
 ## Notes
 - The Daedric text on the script reads "? Healing". (The first word is illegible.)
+
+## Tables extracted from this page
+
+- tables/scribing_Defile_script_t00.csv (4 rows): Elemental Explosion | Elemental Explosion | Afflicts enemies with Minor Defile, which reduces healing received and damag

@@ -12,3 +12,7 @@ maxpoints=50
 desc=Increases your Offensive Penetration by 660 for every status effect your target has.
 
 Champion
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Force_of_Nature_champion_t00.csv (3 rows): Constellation | Extended Might

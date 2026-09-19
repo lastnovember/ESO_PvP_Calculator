@@ -120,3 +120,13 @@ EAL/Group|groupline=thick
 ## Notes
 - For historical information on the Mages Guild, see the lore article.
 - The Everlasting Magic passive only affects the duration of your Mages Guild Skills, not the amount of damage. For example, at level 2 of the passive, Degeneration will do 4653 damage over 12 seconds (387 dps) instead of over 10 seconds (465 dps).
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Mages_Guild_t00.csv (19 rows): Persuasive Will | 1
+- tables/uesp_Online_Mages_Guild_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Mages_Guild_t02.csv (20 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Mages_Guild_t03.csv (9 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Mages_Guild_t04.csv (10 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank
+- tables/uesp_Online_Mages_Guild_t05.csv (6 rows): Achievement | Points | Description | Reward
+- tables/depth_Mages_Guild_t00.csv (10 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank

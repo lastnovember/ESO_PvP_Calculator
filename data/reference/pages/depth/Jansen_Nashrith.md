@@ -70,3 +70,8 @@ width=50%| If deliveries were not completed within time limit:
 
 If you talk to him afterwards, he will genuinely thank you for his help:
 :"Thank you again for delivering the product and helping those who need it most. Senchal could use more people like you."
+
+## Tables extracted from this page
+
+- tables/depth_Jansen_Nashrith_t00.csv (1 rows): If deliveries were completed within time limit: | If deliveries were not completed within time limit:
+- tables/depth_Jansen_Nashrith_t01.csv (1 rows): If deliveries were completed within time limit: | If deliveries were not completed within time limit:

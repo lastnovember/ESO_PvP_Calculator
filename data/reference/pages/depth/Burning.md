@@ -86,3 +86,8 @@ Fire Impulse (Destruction Staff) | Active Skill | While wielding an Inferno Staf
 Fire Ring (Destruction Staff) | Active Skill (morph) | While wielding an Inferno Staff, applies Ring Afterburn which deals more damage based on enemies' missing Health
 
 Flame Pulsar (Destruction Staff) | Active Skill (morph) | While wielding an Inferno Staff, applies Pulsar Afterburn which deals more damage based on enemies' missing Health
+
+## Tables extracted from this page
+
+- tables/depth_Burning_t00.csv (31 rows): Source | Class | Type | Affects | Effect
+- tables/depth_Burning_t01.csv (7 rows): Source | Type | Effect

@@ -45,3 +45,7 @@ Armor Pieces Equipped | Bonus Healing Received | Bonus Damage Blocked
 ## Gallery
 
 Evasion
+
+## Tables extracted from this page
+
+- tables/skills_Firmness_t00.csv (8 rows): Armor Pieces Equipped | Bonus Healing Received | Bonus Damage Blocked

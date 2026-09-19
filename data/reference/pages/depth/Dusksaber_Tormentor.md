@@ -47,3 +47,7 @@ style=text-align:center| Zone occupants during Spirit of Fate | style=text-align
 
 ## Bugs
 The Dusksaber Tormentors at Tel Rendys have broken abilities. They deal no damage and do no crowd control.
+
+## Tables extracted from this page
+
+- tables/depth_Dusksaber_Tormentor_t00.csv (3 rows): Zone / Dungeon | Specific Location | Reaction | Health

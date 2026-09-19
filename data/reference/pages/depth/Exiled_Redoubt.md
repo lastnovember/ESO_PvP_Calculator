@@ -185,3 +185,7 @@ File:ON-place-Exiled Redoubt 02.jpg|Old mineshaft leading down to entrance
 File:ON-place-Exiled Redoubt 03.jpg|Trapdoor entrance to the dungeon
 
 Place
+
+## Tables extracted from this page
+
+- tables/depth_Exiled_Redoubt_t00.csv (3 rows): Buff | Description | Obtained By

@@ -173,3 +173,14 @@ Skill | Available at | Effect
 Heavy Armor Penalties (Heavy Armor)
 style="text-align:center" | 1
 Increases the size of your detection area while Sneaking by 10% for each Heavy Armor piece equipped.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Stealth_t00.csv (14 rows): Skill | Available at | Effect
+- tables/uesp_Online_Stealth_t01.csv (10 rows): Set | Pieces | Effect
+- tables/uesp_Online_Stealth_t02.csv (3 rows): Perks | Stages | CP per stage | Effect
+- tables/uesp_Online_Stealth_t03.csv (1 rows): Skill | Available at | Effect
+- tables/depth_Stealth_t00.csv (14 rows): Skill | Available at | Effect
+- tables/depth_Stealth_t01.csv (10 rows): Set | Pieces | Effect
+- tables/depth_Stealth_t02.csv (3 rows): Perks | Stages | CP per stage | Effect
+- tables/depth_Stealth_t03.csv (1 rows): Skill | Available at | Effect

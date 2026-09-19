@@ -247,3 +247,12 @@ Increases Mundus Stone effects
 Fortified Nirncrux
 Nirnhoned
 Increases Physical and Spell Resistance
+
+## Tables extracted from this page
+
+- tables/depth_Clothing_Materials_t00.csv (10 rows): Plant | Raw Material | Refine Into
+- tables/depth_Clothing_Materials_t01.csv (10 rows): Raw Material | Refine Into
+- tables/depth_Clothing_Materials_t02.csv (10 rows): Processed Material | Craft Into
+- tables/depth_Clothing_Materials_t03.csv (10 rows): Processed Material | Craft Into
+- tables/depth_Clothing_Materials_t04.csv (4 rows): Tannin | Effect
+- tables/depth_Clothing_Materials_t05.csv (9 rows): Gem | Trait | Description

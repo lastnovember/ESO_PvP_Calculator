@@ -7,3 +7,7 @@ Class Sets are sets that provide players of the specified class with various bon
 
 ## Sets
 Wrathsun
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Class_Sets_t00.csv (14 rows): Set Name | Bonuses | Armor Weight

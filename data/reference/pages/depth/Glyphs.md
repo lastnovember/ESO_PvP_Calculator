@@ -134,3 +134,10 @@ Glyph of Prismatic Recovery | Adds X ESO Health Link | Recovery, ESO Magicka Lin
 Glyph of Reduce Skill Cost | Reduce Health, Magicka and Stamina cost of abilities by X | Subtractive | Indeko
 
 Item
+
+## Tables extracted from this page
+
+- tables/depth_Glyphs_t00.csv (16 rows): Glyph | Potency | Gear Level Req. | Additive Runestone | Subtractive Runestone
+- tables/depth_Glyphs_t01.csv (14 rows): Glyph | Icon | Effect | Potency Rune | Essence Rune
+- tables/depth_Glyphs_t02.csv (4 rows): Glyph | Icon | Effect | Potency Rune | Essence Rune
+- tables/depth_Glyphs_t03.csv (20 rows): Glyph | Icon | Effect | Potency Rune | Essence Rune

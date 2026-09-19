@@ -18,3 +18,7 @@ Grants Minor Evasion for 20 seconds with each sweep, reducing damage from area a
 
 ## Notes
 - The Daedric text on the script reads "Evasion".
+
+## Tables extracted from this page
+
+- tables/scribing_Evasion_script_t00.csv (3 rows): Shield Throw | Shield Throw | Grants you Major Evasion for 10 seconds on return, reducing damage from area attacks by 20

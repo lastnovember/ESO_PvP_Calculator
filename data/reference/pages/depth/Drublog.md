@@ -60,3 +60,7 @@ Generic Members
 - Payment In Kind
 
 Faction
+
+## Tables extracted from this page
+
+- tables/depth_Drublog_t00.csv (1 rows): Bloodtoil Valley tribe

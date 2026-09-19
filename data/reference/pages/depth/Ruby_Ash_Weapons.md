@@ -20,3 +20,7 @@ rowspan=2|Ruby Ash [Type] Staff
 12 Sanded Ruby Ash
 
 120 Sanded Ruby Ash
+
+## Tables extracted from this page
+
+- tables/depth_Ruby_Ash_Weapons_t00.csv (3 rows): Base | Fine | Superior | Epic | Legendary

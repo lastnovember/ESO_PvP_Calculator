@@ -16,3 +16,7 @@ rowspan=2|Item Type | colspan=5|Increase Healing
 1-Handed | 2.5% (white) / 3% (green) / 3.5% (blue) / 4% (purple) / 4.5% (gold)
 
 2-Handed | 5% (white) / 6% (green) / 7% (blue) / 8% (purple) / 9% (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Powered_t00.csv (3 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

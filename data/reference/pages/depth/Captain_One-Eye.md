@@ -534,3 +534,15 @@ After completing the objective at Caterwaul Cove, Captain One-Eye will appear wi
 File:ON-npc-One-Eye 03 (old).jpg|One-Eye with the Crown of Bones before her skeleton was changed
 File:ON-npc-One-Eye 04.jpg|One-Eye at the Endless Stair before her skeleton was changed
 File:ON-npc-One-Eye_06.jpg|Captain One-Eye
+
+## Tables extracted from this page
+
+- tables/depth_Captain_One-Eye_t00.csv (1 rows): If she hasn't met you before: | If you met her before in Alten Corimont:
+- tables/depth_Captain_One-Eye_t01.csv (1 rows): Met Previously: | First Time Meeting:
+- tables/depth_Captain_One-Eye_t02.csv (1 rows): Completed Between Blood and Bone (Gave Crown): | Completed Between Blood and Bone (Destroyed Crown): | Have not complete
+- tables/depth_Captain_One-Eye_t03.csv (1 rows): Completed the Lost Fleet Objective: | Have not completed the Lost Fleet Objective:
+- tables/depth_Captain_One-Eye_t04.csv (1 rows): Did both Tasks: | Completed One-Eye's Task: | Completed Suraj's Task:
+- tables/depth_Captain_One-Eye_t05.csv (1 rows): Rescued Mutineers: | Otherwise:
+- tables/depth_Captain_One-Eye_t06.csv (1 rows): Did both Tasks: | Did one Task: | Failed to help Mutineers:
+- tables/depth_Captain_One-Eye_t07.csv (2 rows): Met Captain One-Eye Previously+Killed Velehk Sain: | Met Captain One-Eye Previously+Have not killed Velehk Sain: | Kille
+- tables/depth_Captain_One-Eye_t08.csv (1 rows): Rescued Mutineers: | Otherwise:

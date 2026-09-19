@@ -21,3 +21,7 @@ After 2 seconds, pulls enemies within 8 meters to you. Beneficial Signature and 
 
 ## Notes
 - The Daedric text on the script reads "Pull".
+
+## Tables extracted from this page
+
+- tables/scribing_Pull_script_t00.csv (4 rows): Shield Throw | Shield Throw (Leashing Throw) | Deals 2145 Physical Damage to an enemy, pulls them to you, and taunts the

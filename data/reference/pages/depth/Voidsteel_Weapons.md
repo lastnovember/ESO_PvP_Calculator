@@ -105,3 +105,8 @@ rowspan=6|Voidsteel Maul
 17 Voidstone Ingots
 
 18 Voidstone Ingots
+
+## Tables extracted from this page
+
+- tables/depth_Voidsteel_Weapons_t00.csv (5 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Voidsteel_Weapons_t01.csv (4 rows): Base | Fine | Superior | Epic | Legendary

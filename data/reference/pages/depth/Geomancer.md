@@ -33,3 +33,7 @@ Bedlam Veil: Hall of BaronsScions of Ithelia | Blind Path Geomancer | Imperial
 ;Rock Spikes:The Geomancer creates a small area in front of themselves that travel in a straight line, dealing low physical damage and snaring targets.
 
 ## Gallery
+
+## Tables extracted from this page
+
+- tables/depth_Geomancer_t00.csv (9 rows): Location | Name | Race | Difficulty | Health

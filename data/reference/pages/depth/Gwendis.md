@@ -2028,3 +2028,28 @@ File:ON-render-Bthar-Zel.jpg|Promotional render
 File:ON-crown store-The Ravenwatch Inquiry.jpg|Promotional render
 File:ON-render-Markarth Prologue.jpg|Promotional render
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (right)
+
+## Tables extracted from this page
+
+- tables/depth_Gwendis_t00.csv (1 rows): Met her previously: | First time meeting:
+- tables/depth_Gwendis_t01.csv (1 rows): Completed the Lightless Remnant: | Otherwise:
+- tables/depth_Gwendis_t02.csv (1 rows): First time Meeting: | Previously encountered the Gray Host and Gwendis:
+- tables/depth_Gwendis_t03.csv (1 rows): If you haven't completed Stone Garden: | If you have completed Stone Garden:
+- tables/depth_Gwendis_t04.csv (1 rows): First Time Meeting: | Met Before, where?: | Met Before, Greymoor?: | Completed Castle ThornDoes this show up if you've a
+- tables/depth_Gwendis_t05.csv (1 rows): First Time Meeting or Minimal Encounters: | Previously Investigated Castle Thorn Together:
+- tables/depth_Gwendis_t06.csv (1 rows): Haven't Completed Castle Thorn: | Previously Investigated Castle Thorn Together:
+- tables/depth_Gwendis_t07.csv (1 rows): No knowledge of the Gray Host: | Know of the Gray Host (Completed Greymoor):
+- tables/depth_Gwendis_t08.csv (1 rows): Have not completed Castle Thorn's Quest: | Completed both Stonethorn Dungeons:
+- tables/depth_Gwendis_t09.csv (1 rows): Completed Rivenspire Zone: | Completed a Stonethorn Dungeon: | Completed Greymoor Storyline: | Have met Gwendis before: 
+- tables/depth_Gwendis_t10.csv (2 rows): Met Gwendis previously: | Haven't met before:
+- tables/depth_Gwendis_t11.csv (1 rows): Accepted the quest via Crown Store: | Accepted the quest from Gwendis:
+- tables/depth_Gwendis_t12.csv (1 rows): Completed Unhallowed Grave: | If you have not:
+- tables/depth_Gwendis_t13.csv (1 rows): If you are not a werewolf or vampire: | If you are a werewolf or vampire:
+- tables/depth_Gwendis_t14.csv (1 rows): If you are not a werewolf or vampire: | If you are a werewolf or vampire:
+- tables/depth_Gwendis_t15.csv (1 rows): Rivenspire Zone Uncompleted: | Rivenspire Zone Completed:
+- tables/depth_Gwendis_t16.csv (1 rows): If you have not completed Dream-Walk Into Darkness: | If you have completed Dream-Walk Into Darkness:
+- tables/depth_Gwendis_t17.csv (1 rows): Neither Zone's storylines Completed: | Only Western Skyrim's Storyline completed: | Both Zone Storylines Completed:
+- tables/depth_Gwendis_t18.csv (1 rows): Rivenspire Zone Incomplete | Rivenspire Zone Completed:
+- tables/depth_Gwendis_t19.csv (1 rows): Rivenspire Zone Incomplete | Rivenspire Zone Completed:
+- tables/depth_Gwendis_t20.csv (1 rows): Rivenspire Zone Incomplete | Rivenspire Zone Completed:
+- tables/depth_Gwendis_t21.csv (1 rows): Rivenspire Zone Incomplete | Rivenspire Zone Completed:

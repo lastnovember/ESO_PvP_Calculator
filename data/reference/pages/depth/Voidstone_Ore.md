@@ -59,3 +59,7 @@ CP140
 
 ## Deprecated Information
 - Prior to One Tamriel, they could be located in the last three Cadwell's Gold zones, i.e. zones ranked, and, as well as in Craglorn.
+
+## Tables extracted from this page
+
+- tables/depth_Voidstone_Ore_t00.csv (15 rows): Armor Level | Voidsteel Cuirass | Voidsteel Sabatons | Voidsteel Gauntlets | Voidsteel Helm | Voidsteel Greaves | Voidst

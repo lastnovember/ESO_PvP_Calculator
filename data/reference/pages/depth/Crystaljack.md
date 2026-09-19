@@ -56,3 +56,7 @@ style=text-align:center| Summoned by Swarmkeeper Xvarcon | style=text-align:cent
 ## Bugs
 Despite being a flying creature, Crystaljacks do not benefit from Flying Immunities excepted in Leftwheal Trading Post.
 Crystaljacks summoned by Crystaljack Cocoons never attack.
+
+## Tables extracted from this page
+
+- tables/depth_Crystaljack_t00.csv (5 rows): Zone / Dungeon | Specific Location | Difficulty | Health

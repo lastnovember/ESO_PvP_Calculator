@@ -28,3 +28,7 @@ Afflicts enemies with Minor Cowardice for 20 seconds, reducing Weapon and Spell 
 
 ## Notes
 - The Daedric text on the script reads "Fear".
+
+## Tables extracted from this page
+
+- tables/scribing_Cowardice_script_t00.csv (7 rows): Elemental Explosion | Elemental Explosion | Afflicts enemies with Minor Cowardice for 20 seconds, reducing Weapon and Sp

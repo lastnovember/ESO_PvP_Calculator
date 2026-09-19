@@ -41,3 +41,7 @@ CP30
 
 ## Deprecated Information
 - Formerly, they were found in the first two Cadwell's Silver zones, as well as on the Veteran starter islands. Although rarely, some of the calcinium ore samples can be also obtained in Cyrodiil.
+
+## Tables extracted from this page
+
+- tables/depth_Calcinium_Ore_t00.csv (9 rows): Armor Level | Calcinium Cuirass | Calcinium Sabatons | Calcinium Gauntlets | Calcinium Helm | Calcinium Greaves | Calcin

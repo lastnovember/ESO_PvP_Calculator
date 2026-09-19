@@ -124,3 +124,7 @@ Truly Superb Glyph of Reduce Skill Cost | | Itade | 10 | CP160
 118
 126
 133
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Reduce_Skill_Cost_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

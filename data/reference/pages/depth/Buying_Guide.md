@@ -185,3 +185,9 @@ The Elder Scrolls Online: Morrowind | Contains the base game and the Morrowind C
 
 ## Notes
 - If you already have The Elder Scrolls Online and purchase a version of Morrowind, Summerset, Elsweyr, or Greymoor that contains the base game, it can still be applied to your account and is treated the same as the upgrade alone. If it can be found on sale for a cheaper price than the upgrade edition, this makes it the better option of the two.
+
+## Tables extracted from this page
+
+- tables/depth_Buying_Guide_t00.csv (2 rows): Cover | Name | Description | How to get all content
+- tables/depth_Buying_Guide_t01.csv (3 rows): Gold Road | Necrom | High Isle | Blackwood
+- tables/depth_Buying_Guide_t02.csv (12 rows): Cover | Name | Description | How to get all content

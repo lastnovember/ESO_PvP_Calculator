@@ -37,3 +37,7 @@ Vampire Bone-Shaman | Dark Anchors, Dark Fissures | Orc | 65,423 (no-CP Dark Anc
 ## Notes
 - The class is mentionned in Patch 2.7.5
 - Bonecrafters in Coldharbour places summon Soul Shriven Reavers instead of Bloodfiends. (This only includes Cirterisse)
+
+## Tables extracted from this page
+
+- tables/depth_Bonecrafter_t00.csv (8 rows): Name | Location | Race | Difficulty | Health

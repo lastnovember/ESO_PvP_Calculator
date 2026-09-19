@@ -329,3 +329,7 @@ GoldRoad=
 ## Notes
 - She wears the Crystal Tower Sapiarchs' Gown and the Dominion Topaz Circlet.
 fr:Online:Norianwë
+
+## Tables extracted from this page
+
+- tables/depth_Norianwe_t00.csv (1 rows): Normal dialogue: | If the player exited dialogue before completing the quest:

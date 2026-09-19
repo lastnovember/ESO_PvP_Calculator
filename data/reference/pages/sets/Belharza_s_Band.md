@@ -56,3 +56,7 @@ Antiquarian Chase: The Deadlands
 
 File:ON-item-Belharza's Band I.png|Belharza's Temper stacks effect appearance
 File:ON-item-Belharza's Band II.png|Belharza's Band charge effect appearance
+
+## Tables extracted from this page
+
+- tables/sets_Belharza_s_Band_t00.csv (5 rows): 40px | Alessian Sacramental Oil | Limenauruus at Tribune's Folly | Gold Coast | This is incredibly well-preserved. Some 

@@ -14,3 +14,7 @@ colspan=5|Increased Value
 5Legendary
 
 280% (white) / 285% (green) / 290% (blue) / 295% (purple) / 300% (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Ornate_t00.csv (2 rows): 5Normal | 5Fine | 5Superior | 5Epic | 5Legendary

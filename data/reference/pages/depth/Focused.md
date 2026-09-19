@@ -22,3 +22,7 @@ rowspan=2|Item Type | colspan=5|Increased Critical Strike Rating
 788
 963
 1138
+
+## Tables extracted from this page
+
+- tables/depth_Focused_t00.csv (3 rows): 6Fine | 6Superior | 6Epic | 6Legendary

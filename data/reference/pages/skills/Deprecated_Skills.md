@@ -33,3 +33,7 @@ Vampire | Class Skills | Weapon Skills | Armor Skills | Champion Perks | Passive
 - Disorient
 - Stealthy (Khajiit)
 - Robust (skill) (Nord/Orc)
+
+## Tables extracted from this page
+
+- tables/skills_Deprecated_Skills_t00.csv (1 rows): Vampire | Class Skills | Weapon Skills | Armor Skills | Champion Perks | Passives/Effects

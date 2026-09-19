@@ -49,3 +49,7 @@ style=text-align:center| Chthon Plaza | style=text-align:center| Start of Valkyn
 
 ## Bugs
 The Dreamcarver Rangers summoned by Kynmarcher Strix summon Nirn animals instead of daedric animals.
+
+## Tables extracted from this page
+
+- tables/depth_Dreamcarver_Ranger_t00.csv (3 rows): Zone / Dungeon | Specific Location | Difficulty | Health

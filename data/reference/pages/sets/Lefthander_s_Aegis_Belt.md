@@ -53,3 +53,7 @@ File:ON-item-Lefthander's Aegis Belt.jpg|Lefthander's Aegis Belt
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: High Isle
+
+## Tables extracted from this page
+
+- tables/sets_Lefthander_s_Aegis_Belt_t00.csv (5 rows): Asp-Leather Strap | Lesser Sea Adders in Summerset and Sep Adders in Hew's Bane | High Isle | Well, this is a vicious lo

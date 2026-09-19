@@ -34,3 +34,7 @@ scope="row"|32
 
 scope="row"|34
 9 | 9 | 12
+
+## Tables extracted from this page
+
+- tables/depth_Beech_t00.csv (5 rows): Gear Level | Beech Bow | Beech [Type] Staff | Beech Shield

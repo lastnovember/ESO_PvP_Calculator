@@ -19,3 +19,7 @@ Incompatible with Warding Burst and Healing Burst
 
 ## Notes
 - The Daedric text on the script reads "Soul Collapse".
+
+## Tables extracted from this page
+
+- tables/scribing_Anchorite_s_Cruelty_t00.csv (4 rows): Wield Soul | Wield Soul | Consumes a Soul Gem to deal 1.5% of the enemy's Max Health as Oblivion Damage every 1 second f

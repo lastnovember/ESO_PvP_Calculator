@@ -51,3 +51,7 @@ Level | Recover | Level | Recover | Level | Recover
 ### Crafting Sites
 
 Crafting Site(s)
+
+## Tables extracted from this page
+
+- tables/sets_Vampire_s_Kiss_t00.csv (14 rows): Level | Recover | Level | Recover | Level | Recover

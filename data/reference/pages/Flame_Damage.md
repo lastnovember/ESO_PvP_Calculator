@@ -188,3 +188,10 @@ There are several ways of protecting yourself against Flame Damage.
 
 ## Notes
 - This effect was previously referred to as Fire Damage in a few cases, but has since been corrected for consistency.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Flame_Damage_t00.csv (128 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Flame_Damage_t01.csv (27 rows): Set | Weight | 5 piece bonus
+- tables/depth_Flame_Damage_t00.csv (8 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/depth_Flame_Damage_t01.csv (27 rows): Set | Weight | 5 piece bonus

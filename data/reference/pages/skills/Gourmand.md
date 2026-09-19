@@ -30,3 +30,7 @@ Difficult Recipe
 
 Complex Recipe
 2h 00m | 2h 05m | 2h 10m | 2h 20m
+
+## Tables extracted from this page
+
+- tables/skills_Gourmand_t00.csv (3 rows): Recipe Type | Base Duration | Gourmand I | Gourmand II | Gourmand III

@@ -155,3 +155,7 @@ rowspan=2|Platinum
 CP150 | 825 (white) / 858 (green) / 891 (blue) / 913 (purple) / 946 (gold)
 
 CP160 | 836 (white) / 869 (green) / 902 (blue) / 924 (purple) / 957 (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Healthy_trait_t00.csv (67 rows): 7Normal | 7Fine | 7Superior | 7Epic | 7Legendary

@@ -59,3 +59,7 @@ File:ON-item-Stormweaver's Cavort 02.jpg|Stormweaver's Cavort
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Galen
+
+## Tables extracted from this page
+
+- tables/sets_Stormweaver_s_Cavort_t00.csv (5 rows): 40px | Braided Blessed Brambles | Group Event Boss Bloodroot in Toothmaul Gully, Auridon | Galen | Hmm, these similar to

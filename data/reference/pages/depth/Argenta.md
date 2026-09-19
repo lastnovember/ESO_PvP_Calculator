@@ -91,3 +91,8 @@ width=50%| Otherwise:
 ## Dialogue
 After completing the objective at Caterwaul Cove, Argenta will appear with the rest of the crew at the Sunport Docks near the warehouse:
 :"Strange looks from the others here. Captain says she'll cut anyone that hurts me. But I don't want to cause trouble. I will try to stay in the shadows. It is good to see you again."
+
+## Tables extracted from this page
+
+- tables/depth_Argenta_t00.csv (1 rows): Have not spoken to Suraj: | Already spoken to Suraj:
+- tables/depth_Argenta_t01.csv (1 rows): Rescued Kjarne: | Otherwise:

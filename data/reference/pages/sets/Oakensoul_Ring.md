@@ -50,3 +50,7 @@ This is a real find. This framing bridges the gap between Nedic stonework and ea
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: High Isle
+
+## Tables extracted from this page
+
+- tables/sets_Oakensoul_Ring_t00.csv (5 rows): Igneous Inlays | Volcanic Vents in High Isle and Galen | High Isle | These flakes of igneous rock are very delicate. Giv

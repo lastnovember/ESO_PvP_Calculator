@@ -90,3 +90,9 @@ However, if the Skin Taker is someone you have met before, he will instead say:
 
 Regardless of his previous dialogue, afterwards, if he is spoken to again, he will state his next plans:
 :"I may spend my recovery among the Bright-Throats. Observe them."
+
+## Tables extracted from this page
+
+- tables/depth_Guhcin_t00.csv (1 rows): If you have completed the Dead-Water Village Objective: | If you haven't:
+- tables/depth_Guhcin_t01.csv (1 rows): If you are not an Argonian: | If you are not an Argonian (Redguard): | If you are an Argonian:
+- tables/depth_Guhcin_t02.csv (1 rows): Answer One: | Answer Two:

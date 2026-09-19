@@ -86,3 +86,11 @@ Totals: | All | 23
 
 ## Achievements
 There are a number of achievements associated with Provisioning.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Provisioning_t00.csv (41 rows): Recipe Quality I | 1 | Recipe Improvement I
+- tables/uesp_Online_Provisioning_t01.csv (25 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Provisioning_t02.csv (8 rows): Order | Progression | Skill points required
+- tables/uesp_Online_Provisioning_t03.csv (17 rows): Achievement | Points | Description | Reward
+- tables/depth_Provisioning_t00.csv (8 rows): Order | Progression | Skill points required

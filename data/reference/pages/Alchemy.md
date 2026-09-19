@@ -221,3 +221,20 @@ There are a number of achievements associated with Alchemy.
 ## Bugs
 Potions with identical names and effects, but created using different ingredients, will not combine into one stack in your inventory
 - Selling one of these variants to an NPC vendor and then buying them back will cause them to automatically combine in your inventory.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Alchemy_t00.csv (39 rows): 1 | Solvent Proficiency I
+- tables/uesp_Online_Alchemy_t01.csv (21 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Alchemy_t02.csv (7 rows): Order | Progression | Skill points required
+- tables/uesp_Online_Alchemy_t03.csv (155 rows): Primary Effect | Side Effect | Reagents
+- tables/uesp_Online_Alchemy_t04.csv (188 rows): Breach | Ravage Health | Ravage Magicka | Emetic Russula | Beetle Scuttle | Violet Coprinus
+- tables/uesp_Online_Alchemy_t05.csv (120 rows): Cowardice | Restore Health | Increase Spell Resist | Blue Entoloma | White Cap | Bugloss
+- tables/uesp_Online_Alchemy_t06.csv (26 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
+- tables/uesp_Online_Alchemy_t07.csv (22 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
+- tables/uesp_Online_Alchemy_t08.csv (9 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
+- tables/uesp_Online_Alchemy_t09.csv (51 rows): Achievement | Points | Description | Reward
+- tables/depth_Alchemy_t00.csv (7 rows): Order | Progression | Skill points required
+- tables/depth_Alchemy_t01.csv (26 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
+- tables/depth_Alchemy_t02.csv (22 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
+- tables/depth_Alchemy_t03.csv (9 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3

@@ -1621,3 +1621,11 @@ File:ON-render-Telvanni Peninsula.jpg|Featured in a promotional render
 File:ON-render-Necrom Zone Preview 06.jpg|Featured in a promotional render
 File:ON-misc-Anniversary Art.jpg|Artwork commemorating ESO's 10th anniversary: Sharp is in the center next to Lyris Titanborn
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (left)
+
+## Tables extracted from this page
+
+- tables/depth_Sharp-as-Night_t00.csv (10 rows): Racial Skill | Survivalist: Increases Physical and Spell Resistance by 3% and healing done by 3%.
+- tables/depth_Sharp-as-Night_t01.csv (10 rows): Quest | Sharp's Commentary
+- tables/depth_Sharp-as-Night_t02.csv (6 rows): Cordial/Friendly | Close/Allied/Companion | Wary/Irritated/Disdainful
+- tables/depth_Sharp-as-Night_t03.csv (6 rows): Cordial/Friendly | Close | Allied | Companion
+- tables/depth_Sharp-as-Night_t04.csv (4 rows): Wary | Irritated | Disdainful

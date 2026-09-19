@@ -259,3 +259,8 @@ As with Ebonheart Pact and Aldmeri Dominion members, many generic Daggerfall Cov
 
 ## See Also
 style motif]] based on the armor and weapons used by the Daggerfall Covenant.
+
+## Tables extracted from this page
+
+- tables/depth_Daggerfall_Covenant_t00.csv (21 rows): Stros M'Kai and Betnikh
+- tables/depth_Daggerfall_Covenant_t01.csv (1 rows): Generic Members

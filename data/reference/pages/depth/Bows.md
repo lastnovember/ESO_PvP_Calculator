@@ -123,3 +123,11 @@ rowspan=2|
 120 Sanded Ruby Ash
 
 Item
+
+## Tables extracted from this page
+
+- tables/depth_Bows_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Bows_t01.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Bows_t02.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Bows_t03.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Bows_t04.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard

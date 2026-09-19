@@ -40,3 +40,7 @@ Silver Dust | Silver Ounce | Silver Jewelry | |CP10 - 70
 Electrum Dust | Electrum Ounce | Electrum Jewelry | |CP80 - 140
 
 Platinum Dust | Platinum Ounce | Platinum Jewelry | |CP150 - 160
+
+## Tables extracted from this page
+
+- tables/skills_Engraver_t00.csv (5 rows): Raw Material | Refined Into | Used To Make... | Level

@@ -56,3 +56,7 @@ Antiquarian Chase: The Deadlands
 
 File:ON-item-Spaulder of Ruin.jpg|Spaulder of Ruin
 File:ON-item-Spaulder of Ruin 02.jpg|Spaulder of Ruin Side
+
+## Tables extracted from this page
+
+- tables/sets_Spaulder_of_Ruin_t00.csv (5 rows): 40px | Petrified Daedroth Horn | The Abomination Cradle world boss | The Deadlands | The beveling on this horn doesn't a

@@ -30,3 +30,7 @@ Heals your and your allies for 6233 Health. Beneficial Signature and Affix scrip
 
 ## Notes
 - The Daedric text on the script is too blurry to read.
+
+## Tables extracted from this page
+
+- tables/scribing_Healing_script_t00.csv (7 rows): Mender's Bond | Mender's Bond | Heals the ally and other allies in the link for 754 Health every 1 second.

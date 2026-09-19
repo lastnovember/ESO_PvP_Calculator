@@ -24,3 +24,7 @@ Imperial City | Xivkyn Voidstalker | Xivkyn | Varies | 108669
 ;Passing Through:The voidstalker jumps above the target to get behind them.
 ;Soul Tether: The voidstalker jumps and casts a rune on the ground. Any targets caught in the AoE attack will take moderate magic damage and be stunned for 4 seconds then minor magic damage over time which heals the voidstalker for the same amount.
 ;Backstabber:The voidstalker has a passive ability that causes them to deal 20% more damage when attacking the target's back. (On some voidstalkers only)
+
+## Tables extracted from this page
+
+- tables/depth_Voidstalker_t00.csv (2 rows): Location | Name | Race | Gender | Health

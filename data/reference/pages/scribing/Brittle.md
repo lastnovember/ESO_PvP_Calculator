@@ -15,3 +15,7 @@ Afflicts Minor Brittle to enemies in the link for 10 seconds, increasing their C
 
 ## Notes
 - The Daedric text on the script reads "Brittle".
+
+## Tables extracted from this page
+
+- tables/scribing_Brittle_t00.csv (2 rows): Elemental Explosion | Elemental Explosion | Afflicts enemies with Minor Brittle for 20 seconds, increasing their Critica

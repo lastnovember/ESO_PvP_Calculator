@@ -101,3 +101,12 @@ File:ON-skill-Magical Explosion.jpg|Magical Explosion
 File:ON-skill-Shocking Explosion.jpg|Shocking Explosion
 File:ON-skill-Dazing Explosion.jpg|Dazing Explosion
 File:ON-skill-Traumatic Explosion.jpg|Traumatic Explosion
+
+## Tables extracted from this page
+
+- tables/scribing_Elemental_Explosion_t00.csv (8 rows): Dispel | Dispel | Dispelling Explosion | Remove up to 3 enemy area effect abilities.
+- tables/scribing_Elemental_Explosion_t01.csv (7 rows): Assassin's Misery | Assassin's Misery | Afflicts enemies with Burning, Chill, and Concussion.
+- tables/scribing_Elemental_Explosion_t02.csv (8 rows): Brittle | Brittle | Afflicts enemies with Minor Brittle for 20 seconds, increasing their Critical Damage taken by 10%.
+- tables/skills_Elemental_Explosion_t00.csv (8 rows): Dispel | Dispel | Dispelling Explosion | Remove up to 3 enemy area effect abilities.
+- tables/skills_Elemental_Explosion_t01.csv (7 rows): Assassin's Misery | Assassin's Misery | Afflicts enemies with Burning, Chill, and Concussion.
+- tables/skills_Elemental_Explosion_t02.csv (8 rows): Brittle | Brittle | Afflicts enemies with Minor Brittle for 20 seconds, increasing their Critical Damage taken by 10%.

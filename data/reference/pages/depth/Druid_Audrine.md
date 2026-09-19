@@ -266,3 +266,9 @@ width=50%| If you killed the archdruid:
 :"I suppose I'll talk to the Evergrowth. Get it to help us restore the grove and finish removing the last of the corruption. I just wish the archdruid were here to see this. She was tough, but I know she wanted me to go far in the circle."
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Druid_Audrine_t00.csv (1 rows): If you spared the archdruid: | If you killed the archdruid:
+- tables/depth_Druid_Audrine_t01.csv (1 rows): If you spared the archdruid: | If you killed the archdruid:
+- tables/depth_Druid_Audrine_t02.csv (1 rows): If you spared the archdruid: | If you killed the archdruid:

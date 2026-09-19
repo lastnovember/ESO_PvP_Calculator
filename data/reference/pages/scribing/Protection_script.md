@@ -18,3 +18,7 @@ Grants Minor Protection, reducing damage taken by 5%.
 
 ## Notes
 - The Daedric text on the script reads "Protection".
+
+## Tables extracted from this page
+
+- tables/scribing_Protection_script_t00.csv (3 rows): Mender's Bond | Mender's Bond | Grants Minor Protection to the ally and allies in the link for 10 seconds, reducing dama

@@ -34,3 +34,7 @@ File:ON-skill-Taking Aim.jpg|A Dremora Harstryl using Taking Aim
 File:ON-skill-Taking Aim 02.jpg|A player being targeted by Taking Aim
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Archer_t00.csv (6 rows): Location | Name | Race | Gender | Health

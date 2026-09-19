@@ -35,3 +35,7 @@ colspan=2|Dizzying Swing (Two Handed) | Single Target | 3240 Stamina | Melee ran
 ## Notes
 - The Death's Wind set has a chance to knockback all nearby enemies if you are damaged while below 35% Health.
 - Before patch 5.1.5, using Magnum Shot would also knock you back from the enemy. You could potentially knock yourself off of cliffs or into other groups of enemies. There are even a few cases where you could accidentally knock yourself through thin walls, such as locked gates and even into cages.
+
+## Tables extracted from this page
+
+- tables/depth_Knockback_t00.csv (11 rows): Skill | Affects | Cost | Notes

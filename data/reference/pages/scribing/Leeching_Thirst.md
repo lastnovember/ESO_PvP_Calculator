@@ -17,3 +17,7 @@ Heals you for 20% of the damage done.
 
 ## Notes
 - The Daedric text on the script reads "Life Steal".
+
+## Tables extracted from this page
+
+- tables/scribing_Leeching_Thirst_t00.csv (3 rows): Smash | Smash | Heals you for 33% of the damage done.

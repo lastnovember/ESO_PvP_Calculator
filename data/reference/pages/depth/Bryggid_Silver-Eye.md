@@ -154,3 +154,9 @@ As she gets close to death, she will disbelievingly shout:
 - When seen at the manor, Bryggid Silver-Eye will not have a name plate and is only identified through the dialogue subtitles.
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Bryggid_Silver-Eye_t00.csv (1 rows): Lady Frolise Yvierry was killed: | Otherwise:
+- tables/depth_Bryggid_Silver-Eye_t01.csv (4 rows): Maintained Stealth: | Killed Cartel Members:
+- tables/depth_Bryggid_Silver-Eye_t02.csv (2 rows): Werewolf: | Otherwise:

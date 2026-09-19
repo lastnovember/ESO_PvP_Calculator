@@ -32,3 +32,7 @@ Hackdirt | Black Dagger Ranger | Imperial | Varies | 40643
 - In some rare instances, "Trap Beast" deals Physical Damage instead.
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Pet_Ranger_t00.csv (2 rows): Location | Name | Race | Gender | Health

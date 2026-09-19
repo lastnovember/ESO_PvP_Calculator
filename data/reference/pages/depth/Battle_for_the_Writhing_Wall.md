@@ -390,3 +390,9 @@ File:ON-render-Eastern Solstice 02.jpg|Eastern Solstice
 File:ON-prerelease-Missive from Skordo.png|"Missive from Skordo" promotional email
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Battle_for_the_Writhing_Wall_t00.csv (15 rows): Alliance | Zone | Delve | Public Dungeon
+- tables/depth_Battle_for_the_Writhing_Wall_t01.csv (12 rows): Source | Coffer | Rewards
+- tables/depth_Battle_for_the_Writhing_Wall_t02.csv (5 rows): Item | Description | Value

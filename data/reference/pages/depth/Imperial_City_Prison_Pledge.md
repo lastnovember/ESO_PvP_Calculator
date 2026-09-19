@@ -88,3 +88,7 @@ fin|Glirion the Redbeard is waiting to speak to me once again in my alliance cap
 Talk to Glirion the Redbeard
 
 Quest
+
+## Tables extracted from this page
+
+- tables/depth_Imperial_City_Prison_Pledge_t00.csv (1 rows): Update 5: | Update 6:

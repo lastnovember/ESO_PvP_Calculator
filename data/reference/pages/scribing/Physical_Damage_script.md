@@ -33,3 +33,7 @@ Deals 6233 Physical Damage to all enemies.
 
 ## Notes
 - The Daedric text on the script is difficult to read. The word on the left is clearly "Damage", but on the left it is too blurry to make out. It starts with an "S" and a "P" and "F" can be seen, but the others are illegible.
+
+## Tables extracted from this page
+
+- tables/scribing_Physical_Damage_script_t00.csv (8 rows): Shield Throw | Shield Throw (Sundering Throw) | Deals 4290 Physical Damage to an enemy.

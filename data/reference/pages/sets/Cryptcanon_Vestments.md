@@ -51,3 +51,7 @@ File:ON-item-Cryptcanon Vestments (ultimate).jpg|Resource transfer
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Necrom
+
+## Tables extracted from this page
+
+- tables/sets_Cryptcanon_Vestments_t00.csv (5 rows): 40px | Ancestor Samite Undershirt | Bal Sunnar final boss | Telvanni Peninsula | An extremely ornate inner garment, I've

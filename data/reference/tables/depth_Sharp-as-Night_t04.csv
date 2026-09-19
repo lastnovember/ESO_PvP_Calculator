@@ -1,5 +1,5 @@
-How do you feel about our relationship? (Wary to Disdainful)dialogue needs to be confirmed
 Wary,Irritated,Disdainful
+How do you feel about our relationship? (Wary to Disdainful)dialogue needs to be confirmed
 """I'm here out of obligation. That's it.""","""I can't decide if I don't care for people, or I just don't care for you. Probably both.""","""I don't like mouthing off to half-cocked adventurers. So I'll just stay quiet."""
 """The less we have to say to each other, the better.""","""You ask too many questions. Say less and maybe I'll like you more.""","""I feel like I knew someone like you before I lost my memory. Someone I'm happy to forget."""
 Let's talk about something else. (Returns to Greetings)

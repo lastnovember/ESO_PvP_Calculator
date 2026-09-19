@@ -37,3 +37,7 @@ scope="row"|CP130
 
 scope="row"|CP140
 16 | 16 | 18
+
+## Tables extracted from this page
+
+- tables/depth_Nightwood_t00.csv (6 rows): Gear Level | Nightwood Bow | Nightwood [Type] Staff | Nightwood Shield

@@ -21,3 +21,7 @@ Blackheart Haven | Sea Hound | Wolf | Varies
 ;Quick Strike:A basic melee attack dealing minor physical damage.
 ;Disguise Warning Area:Passive buff which makes the Sentry able to see through your disguise.
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Sentry_t00.csv (4 rows): Location | Name | Race | Gender | Health

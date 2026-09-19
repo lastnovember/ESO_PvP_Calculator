@@ -236,3 +236,12 @@ In PvE, you do not place your own siege weapon. Instead they are directly availa
 ## Notes
 - The Sundering Swing skill obtained from wielding Volendrung can be used to damage structures without requiring the use of siege weapons.
 - The Cold Fire Ballistae are called "Cold Harbor Ballista" in the death recap.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Siege_Weapons_t00.csv (17 rows): Weapon | Effects against Enemy Players | Effects against Siege Weapons | Effects against Structures
+- tables/uesp_Online_Siege_Weapons_t01.csv (22 rows): Weapon | Description | Toughness | Gold Price | AP Price
+- tables/uesp_Online_Siege_Weapons_t02.csv (5 rows): Weapon | Description | Equivalence
+- tables/depth_Siege_Weapons_t00.csv (17 rows): Weapon | Effects against Enemy Players | Effects against Siege Weapons | Effects against Structures
+- tables/depth_Siege_Weapons_t01.csv (22 rows): nowrap| ESO Alliances | Dominion=Dominion Ballista | Covenant=Covenant Ballista | Pact=Pact Ballista | Creates a ballist
+- tables/depth_Siege_Weapons_t02.csv (5 rows): nowrap| ESO Alliances | Dominion=Dominion Ballista of Vengeance | Covenant=Covenant Ballista of Vengeance | Pact=Pact Ba

@@ -120,3 +120,8 @@ File:ON-render-Auriel's Bow.jpg|Auriel's Bow (center)
 - A render of Auriel's Bow being wielded in the Imperial City was used in the [https://www.elderscrollsonline.com/en-us/news/post/67519 February 2025 Survival Guide] and Midyear Mayhem launcher blurb that read "Event-Battle for Bonus Riches and Glory During Whitestrake's Mayhem".
 
 Skill
+
+## Tables extracted from this page
+
+- tables/depth_Auriel_s_Bow_t00.csv (7 rows): Siphoning-Siphoning Strikes | Auriel's Bow Ability 2 | 0 | Self | 0 | 0 | 30 seconds | 1351 | | Imbue your weapons with 
+- tables/depth_Auriel_s_Bow_t01.csv (2 rows): Bow-Accuracy | Auriel's Bow Accuracy | WITH BOW EQUIPPED Increases Weapon Critical rating by 1095.

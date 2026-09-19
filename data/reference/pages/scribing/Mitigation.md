@@ -15,3 +15,7 @@ Reduces damage taken by 6%. Reduce your Health, Magicka, and Stamina Recovery by
 
 ## Notes
 - The Daedric text on the script reads "Transfer".
+
+## Tables extracted from this page
+
+- tables/scribing_Mitigation_t00.csv (2 rows): Mender's Bond | Mender's Bond (Fortifying Bond) | Transfers 10% of the damage the allied player or companion and other a

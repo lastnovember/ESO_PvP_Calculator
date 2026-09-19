@@ -46,3 +46,7 @@ style=text-align:center| Blackrose PrisonMurkmire | style=text-align:center| Rou
 ## See Also
 - Bull Netch
 - Netch Calf
+
+## Tables extracted from this page
+
+- tables/depth_Betty_Netch_t00.csv (6 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Health

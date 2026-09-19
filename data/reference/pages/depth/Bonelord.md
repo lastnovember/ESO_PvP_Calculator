@@ -37,3 +37,7 @@ File:ON-skill-Summon Abomination.jpg|Summon Abomination
 File:ON-skill-Closed Fist.jpg|Closed Fist
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Bonelord_t00.csv (7 rows): Location | Name | Race | Gender | Health

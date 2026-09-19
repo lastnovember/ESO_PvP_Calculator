@@ -1,5 +1,5 @@
-Buff Name,Type,Description,Sources,Icon
 rowspan=2 Aegis|,Minor,"Take 5% less damage from Dungeon, Trial and Arena Monsters.",Sets,"Aegis of Galenwe, Automated Defense, Claw of Yolnahkriin, Eternal Warrior, Eye of Nahviintaas, Inventor's Guard, Kyne's Wind, Lucent Echoes, Lunar Bastion, Oakensoul Ring, Pearlescent Ward, Pillager's Profit, Saxhleel Champion, Stone-Talker's Oath, Test of Resolve, Transformative Hope, Twilight Remedy, Vestment of Olorime, Vrol's Command, Xoryn's Masterpiece",64px
+Buff Name,Type,Description,Sources,Icon
 Major,"Take 10% less damage from Dungeon, Trial and Arena Monsters.",Sets,"Automated Defense, Inventor's Guard, Ironblood, Test of Resolve, Vrol's Command",64px
 rowspan=5 Berserk|,Minor,Increases all damage done by 5%.,Abilities,"Ambush, Bird of Prey, Camouflaged Hunter, Combat Prayer, Dark Exchange, Spear Wall",64px
 Sets,"Kinras's Wrath, Oakensoul Ring, Slimecraw, Stone's Accord"

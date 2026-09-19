@@ -50,3 +50,7 @@ This contract grants you the services of a mercenary who will defend a location 
 - Covenant Mercenary
 - Dominion Mercenary
 - Pact Mercenary
+
+## Tables extracted from this page
+
+- tables/depth_Mercenary_Contracts_t00.csv (6 rows): Name | Type | Level | Value | Description

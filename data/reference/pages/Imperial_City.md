@@ -164,3 +164,7 @@ Despite being located in the Imperial City, the Arcane University Battleground d
 
 File:ON-misc-Imperial City Promo.jpg|Imperial City Promotional Info
 File:ON-node-Chest (Imperial City).jpg|A chest from the City
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Imperial_City_t00.csv (14 rows): Zone: Imperial City ( view on map ) ( lore page ) | Zone: Imperial City ( view on map ) ( lore page )

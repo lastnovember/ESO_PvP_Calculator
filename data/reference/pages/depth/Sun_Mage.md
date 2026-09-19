@@ -24,3 +24,7 @@ Black Kiergo Arena | Red Rook Sun Mage | Breton | Varies | ba
 ;Sunburst/Afterimage:The Sun Mage spins around then plant their weapon into the ground which makes a meteor fall at their target's feet, dealing low flame damage and knocking down in an area. Shortly after another meteor falls nearby, dealing low flame damage and knocking down in an area (Sunburst) from which emerge flame projectiles that travel in a straight line in six directions around it, each dealing low flame damage (Afterimage).
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Sun_Mage_t00.csv (4 rows): Location | Name | Race | Gender | Health

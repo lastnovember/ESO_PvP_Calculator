@@ -2239,3 +2239,71 @@ A player's progress completing the tasks can be tracked from the Golden Pursuits
 - [https://www.elderscrollsonline.com/en-us/news/post/66701 Update 44 Preview - Battlegrounds, New Companions, & More!]
 - [https://www.elderscrollsonline.com/en-us/news/post/67197 Anniversary Spotlight-Welcome to Golden Pursuits]
 - [https://www.elderscrollsonline.com/en-us/news/post/67285 Unlock Frosty Fun This Holiday Season]
+
+## Tables extracted from this page
+
+- tables/depth_Golden_Pursuits_t00.csv (1 rows): Milestone Reward 4 Activities | Milestone Reward 9 Activities | Milestone Reward 14 Activities | Capstone Reward 18 Acti
+- tables/depth_Golden_Pursuits_t01.csv (26 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t02.csv (1 rows): Milestone Award 4 Activities | Capstone Reward 8 Activities
+- tables/depth_Golden_Pursuits_t03.csv (8 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t04.csv (1 rows): Milestone Award 4 Activities | Capstone Reward 9 Activities
+- tables/depth_Golden_Pursuits_t05.csv (9 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t06.csv (1 rows): Milestone Award 5 Activities | Capstone Reward 10 Activities
+- tables/depth_Golden_Pursuits_t07.csv (10 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t08.csv (1 rows): Milestone Award 2 Activities | Milestone Award 4 Activities | Capstone Reward 6 Activities
+- tables/depth_Golden_Pursuits_t09.csv (9 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t10.csv (3 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t11.csv (1 rows): Milestone Reward 3 Activities | Capstone Reward 7 Activities
+- tables/depth_Golden_Pursuits_t12.csv (7 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t13.csv (1 rows): Milestone Reward 3 Activities | Milestone Reward 5 Activities | Capstone Reward 8 Activities
+- tables/depth_Golden_Pursuits_t14.csv (10 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t15.csv (1 rows): Milestone Reward 3 Activities | Milestone Reward 5 Activities | Capstone Reward 8 Activities
+- tables/depth_Golden_Pursuits_t16.csv (10 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t17.csv (1 rows): Milestone Reward 3 Activities | Milestone Reward 5 Activities | Capstone Reward 8 Activities
+- tables/depth_Golden_Pursuits_t18.csv (11 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t19.csv (1 rows): Milestone Reward 4 Activities | Milestone Reward 8 Activities | Milestone Reward 12 Activities | Capstone Reward 15 Acti
+- tables/depth_Golden_Pursuits_t20.csv (20 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t21.csv (1 rows): Milestone Reward 3 Activities | Milestone Reward 6 Activities | Milestone Reward 8 Activities | Milestone Reward 10 Acti
+- tables/depth_Golden_Pursuits_t22.csv (20 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t23.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 10 Activities | Milestone Reward 15 Activities | Milestone Reward 30 Ac
+- tables/depth_Golden_Pursuits_t24.csv (52 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t25.csv (1 rows): Milestone Reward 2 Activities | Milestone Reward 4 Activities | Milestone Reward 8 Activities | Milestone Reward 12 Acti
+- tables/depth_Golden_Pursuits_t26.csv (20 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t27.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 10 Activities | Milestone Reward 15 Activities | Capstone Reward 20 Act
+- tables/depth_Golden_Pursuits_t28.csv (27 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t29.csv (1 rows): Milestone Reward 2 Activities | Milestone Reward 4 Activities | Milestone Reward 6 Activities | Milestone Reward 8 Activ
+- tables/depth_Golden_Pursuits_t30.csv (19 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t31.csv (1 rows): Milestone Reward 6 Activities | Milestone Reward 12 Activities | Capstone Reward 20 Activities
+- tables/depth_Golden_Pursuits_t32.csv (37 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t33.csv (1 rows): Milestone Reward 6 Activities | Milestone Reward 12 Activities | Milestone Reward 18 Activities | Capstone Reward 22 Act
+- tables/depth_Golden_Pursuits_t34.csv (33 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t35.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 15 Activities | Capstone Reward 20 Activities
+- tables/depth_Golden_Pursuits_t36.csv (43 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t37.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 10 Activities | Capstone Reward 15 Activities
+- tables/depth_Golden_Pursuits_t38.csv (21 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t39.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 10 Activities | Milestone Reward 15 Activities | Milestone Reward 20 Ac
+- tables/depth_Golden_Pursuits_t40.csv (39 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t41.csv (1 rows): Milestone Reward 1 Activity | Milestone Reward 3 Activities | Milestone Reward 6 Activities | Milestone Reward 9 Activit
+- tables/depth_Golden_Pursuits_t42.csv (26 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t43.csv (1 rows): Milestone Reward 1 Activity | Milestone Reward 4 Activities | Capstone Reward 8 Activities
+- tables/depth_Golden_Pursuits_t44.csv (12 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t45.csv (1 rows): Milestone Reward 6 Activities | Milestone Reward 12 Activities | Capstone Reward 18 Activities
+- tables/depth_Golden_Pursuits_t46.csv (27 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t47.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 15 Activities | Capstone Reward 25 Activities
+- tables/depth_Golden_Pursuits_t48.csv (38 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t49.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 12 Activities | Capstone Reward 20 Activities
+- tables/depth_Golden_Pursuits_t50.csv (28 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t51.csv (1 rows): Milestone Reward 1 Activity | Milestone Reward 4 Activities | Capstone Reward 8 Activities
+- tables/depth_Golden_Pursuits_t52.csv (12 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t53.csv (1 rows): Milestone Reward 5 Activities | Milestone Reward 10 Activities | Capstone Reward 15 Activities
+- tables/depth_Golden_Pursuits_t54.csv (19 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t55.csv (1 rows): Milestone Reward 2 Activities | Milestone Reward 4 Activities | Milestone Reward 6 Activities | Milestone Reward 8 Activ
+- tables/depth_Golden_Pursuits_t56.csv (18 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t57.csv (1 rows): Milestone Reward 4 Activities | Milestone Reward 8 Activities | Milestone Reward 12 Activities | Capstone Reward 20 Acti
+- tables/depth_Golden_Pursuits_t58.csv (29 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t59.csv (1 rows): Milestone Reward 2 Activities | Capstone Reward 4 Activities
+- tables/depth_Golden_Pursuits_t60.csv (4 rows): Activity | Description
+- tables/depth_Golden_Pursuits_t61.csv (1 rows): Milestone Reward 2 Activities | Milestone Reward 4 Activities | Capstone Reward 8 Activities
+- tables/depth_Golden_Pursuits_t62.csv (12 rows): Activity | Description | Activity Reward
+- tables/depth_Golden_Pursuits_t63.csv (1 rows): Milestone Reward 3 Activities | Milestone Reward 6 Activities | Milestone Reward 9 Activities | Capstone Reward 10 Activ
+- tables/depth_Golden_Pursuits_t64.csv (16 rows): Activity | Description

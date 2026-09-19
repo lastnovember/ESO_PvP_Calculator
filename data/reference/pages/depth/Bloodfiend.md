@@ -89,3 +89,7 @@ File:ON-npc-Bloodfiend 05.jpg|A Bloodfiend that was once part of the Mages Guild
 File:ON-npc-Bloodfiend 03.jpg|A Bloodfiend that was once part of the Fighters Guild
 File:ON-npc-Bloodfiend 04.jpg|A Bloodfiend that was once part of the Fighters Guild
 File:ON-npc-Bloodfiends (The Rift).jpg|A rare group of Bloodfiends in the Rift capable of infecting players with Vampirism
+
+## Tables extracted from this page
+
+- tables/depth_Bloodfiend_t00.csv (13 rows): Zone / Dungeon | Specific Location | Reaction | Condition | Difficulty | Health

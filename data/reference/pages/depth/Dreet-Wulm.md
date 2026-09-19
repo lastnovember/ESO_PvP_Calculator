@@ -156,3 +156,7 @@ For the Pact!
 ,
 You bask in glory, warrior! As one of the most feared warriors in all of Cyrodiil, please accept this award of gold from Grand Warlord Zimmeron.
 Dreet-Wulm, Scribe to Grand Warlord Zimmeron
+
+## Tables extracted from this page
+
+- tables/depth_Dreet-Wulm_t00.csv (7 rows): Mission | Message

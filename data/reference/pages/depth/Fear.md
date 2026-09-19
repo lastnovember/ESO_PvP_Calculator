@@ -30,3 +30,7 @@ colspan=2|Tangling Webs (Undaunted) | 3.8 sec. | Tangled Enemies | 3511 Stamina 
 
 ## Notes
 - Mechanical foes such as Dwarven Constructs and Fabricants are still affected by Fear.
+
+## Tables extracted from this page
+
+- tables/depth_Fear_t00.csv (10 rows): Skills | Duration | Affects | Cost | Notes

@@ -214,3 +214,14 @@ Ghost
 - Prior to Update 7, trophy items had to be used in the inventory before they counted towards the related achievements. Upon use, the trophies disappeared. It was possible with this setup to transfer items to other characters on the same account using the Bank, allowing you to choose which character to progress the achievements with. This option was no longer viable when achievement progress became automatic upon acquisition of the trophy, and the items became bound on pickup, so they could no longer be placed in your bank or traded to other players.
 
 Activity
+
+## Tables extracted from this page
+
+- tables/depth_Trophies_t00.csv (4 rows): Trophy | Creature
+- tables/depth_Trophies_t01.csv (12 rows): Trophy | Creature
+- tables/depth_Trophies_t02.csv (8 rows): Trophy | Creature
+- tables/depth_Trophies_t03.csv (5 rows): Trophy | Creature
+- tables/depth_Trophies_t04.csv (2 rows): Trophy | Creature
+- tables/depth_Trophies_t05.csv (7 rows): Trophy | Creature
+- tables/depth_Trophies_t06.csv (7 rows): Trophy | Creature
+- tables/depth_Trophies_t07.csv (6 rows): Trophy | Creature

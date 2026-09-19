@@ -40,3 +40,7 @@ scope="row"|12
 
 scope="row"|14
 9 | 9 | 12
+
+## Tables extracted from this page
+
+- tables/depth_Maple_t00.csv (7 rows): Gear Level | Maple Bow | Maple [Type] Staff | Maple Shield

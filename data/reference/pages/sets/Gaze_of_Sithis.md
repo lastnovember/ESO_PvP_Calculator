@@ -59,3 +59,7 @@ File:ON-item-Gaze of Sithis 04.jpg|Gaze of Sithis worn by an Argonian
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Blackwood
+
+## Tables extracted from this page
+
+- tables/sets_Gaze_of_Sithis_t00.csv (5 rows): 40px | Glass Skeletal Visage | Public Dungeon bosses in Zenithar's Abbey | Blackwood | Now, this is what we in the tomb-

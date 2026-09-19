@@ -77,3 +77,7 @@ style=text-align:center| Ossein Cage | style=text-align:center| Summoned by Bloo
 
 File:ON-skill-Blood Tether Impact.jpg|Blood Tether Impact
 File:ON-npc-Bloodknight 02.jpg|A Bloodknight channeling their Blood Tether
+
+## Tables extracted from this page
+
+- tables/depth_Bloodknight_t00.csv (4 rows): Zone / Dungeon | Specific Location | Difficulty | Health

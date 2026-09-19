@@ -48,3 +48,7 @@ I referenced the University's collection of Dementia-crafted items, to great suc
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: West Weald
+
+## Tables extracted from this page
+
+- tables/sets_The_Saint_and_the_Seducer_t00.csv (5 rows): 40px | Cylarne-crafted Yoke | Maelstrom Arena Reward Chests | West Weald | A yoke to a necklace of exquisite beauty, the

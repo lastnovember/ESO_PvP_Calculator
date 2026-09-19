@@ -43,3 +43,7 @@ Starlight Oil? Of course! Distilled light can be made from any natural light sou
 
 ### Patch Notes
 [Patch 12.0.6] *This set's damage done with status effects now only applies to monsters. Reduced the maximum damage bonus from 170% to 133%, and reduced the Ultimate required to reach the cap to 133, down from 170. Reduced the cooldown for applying Status Effects when at the maximum Ultimate threshold to 2 seconds at 133 Ultimate, down from 4s at 170.
+
+## Tables extracted from this page
+
+- tables/sets_Shattered_Paths_Signet_t00.csv (5 rows): 40px | Ossein Ring Mold | Valkyn Skoria Chest in City of Ash II | Skittering Precinct Bossesplain Night Market Reward Co

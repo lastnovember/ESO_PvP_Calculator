@@ -50,3 +50,7 @@ Nonsense! If scholars such as us balked every time a curse was mentioned, we'd n
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Western Skyrim
+
+## Tables extracted from this page
+
+- tables/sets_Malacath_s_Band_of_Brutality_t00.csv (5 rows): 40px | Malacath's Brutal Might Loop | Public Dungeon bosses in Old Orsinium | Wrothgar | Look, a piece of Malacath's Bru

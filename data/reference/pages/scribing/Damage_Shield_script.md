@@ -24,3 +24,7 @@ Grants a damage shield to you and your allies that absorbs 5622 damage for 8 sec
 
 ## Notes
 - The Daedric text on the script reads "Shield".
+
+## Tables extracted from this page
+
+- tables/scribing_Damage_Shield_script_t00.csv (5 rows): Mender's Bond | Mender's Bond | Grants the ally and other allies in the link a damage shield that absorbs 942 damage eve

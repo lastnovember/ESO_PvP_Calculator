@@ -50,3 +50,8 @@ Glacial Guardian (5 pieces) | Any | Set | Area of Effect | Enemies touching the 
 Source | Type | Effect
 
 Force Pulse (Destruction Staff) | Active Skill (morph) | Deals Extra Area of Effect Damage
+
+## Tables extracted from this page
+
+- tables/depth_Diseased_t00.csv (19 rows): Source | Class | Type | Affects | Effect
+- tables/depth_Diseased_t01.csv (1 rows): Source | Type | Effect

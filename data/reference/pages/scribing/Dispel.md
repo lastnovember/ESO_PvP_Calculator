@@ -16,3 +16,7 @@ Deals 3116 Physical Damage to all enemies. Removes up to 1 damage shield effect 
 
 ## Notes
 - The Daedric text on the script reads "Dispel".
+
+## Tables extracted from this page
+
+- tables/scribing_Dispel_t00.csv (2 rows): Elemental Explosion | Elemental Explosion (Dispelling Explosion) | Remove up to 3 enemy area effect abilities.

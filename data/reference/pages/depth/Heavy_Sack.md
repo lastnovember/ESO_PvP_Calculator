@@ -195,3 +195,30 @@ Shrine of Azura | On a small island south of the statue
 rowspan=2|Summerset | Sea Keep | Northeastern Dominion camp; northern tent
 
 Item
+
+## Tables extracted from this page
+
+- tables/depth_Heavy_Sack_t00.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t01.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t02.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t03.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t04.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t05.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t06.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t07.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t08.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t09.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t10.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t11.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t12.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t13.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t14.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t15.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t16.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t17.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t18.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t19.csv (7 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t20.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t21.csv (1 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t22.csv (27 rows): Zone | Settlement | Location
+- tables/depth_Heavy_Sack_t23.csv (8 rows): Zone | Settlement | Location

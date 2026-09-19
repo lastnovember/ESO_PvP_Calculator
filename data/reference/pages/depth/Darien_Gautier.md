@@ -2903,3 +2903,19 @@ File:ON-concept-Heroes of ESO.jpg|Promotional art (far left)
 File:ON-misc-Anniversary Art.jpg|Artwork commemorating ESO's 10th anniversary
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (left)
 File:ON-concept-Writhing Wall Event.jpg|Featured in promotional art for the Battle for the Writhing Wall event
+
+## Tables extracted from this page
+
+- tables/depth_Darien_Gautier_t00.csv (1 rows): Met Darien in previous zone storylines: | First encountered Darien during the Gift of Death:
+- tables/depth_Darien_Gautier_t01.csv (1 rows): First Site: | Second Site
+- tables/depth_Darien_Gautier_t02.csv (1 rows): One anchor shrine destroyed: | Both anchor shrines destroyed:
+- tables/depth_Darien_Gautier_t03.csv (1 rows): One anchor shrine destroyed: | Both anchor shrines destroyed:
+- tables/depth_Darien_Gautier_t04.csv (1 rows): Met Darien before Solstice: | Did not know Darien before Solstice:
+- tables/depth_Darien_Gautier_t05.csv (1 rows): Completed Summerset Storyline: | Otherwise:
+- tables/depth_Darien_Gautier_t06.csv (1 rows): Completed Coldharbour Storyline: | Otherwise:
+- tables/depth_Darien_Gautier_t07.csv (1 rows): Met Darien before Solstice: | Did not know Darien before Solstice:
+- tables/depth_Darien_Gautier_t08.csv (1 rows): Met Darien before Solstice: | Did not know Darien before Solstice:
+- tables/depth_Darien_Gautier_t09.csv (1 rows): Met Darien before Solstice: | Did not know Darien before Solstice:
+- tables/depth_Darien_Gautier_t10.csv (1 rows): Completed Mystery of the Broken Temple: | Otherwise:
+- tables/depth_Darien_Gautier_t11.csv (2 rows): Met Darien before Solstice: | Did not know Darien before Solstice:
+- tables/depth_Darien_Gautier_t12.csv (1 rows): Was able to help Darien: | Unable to help Darien:

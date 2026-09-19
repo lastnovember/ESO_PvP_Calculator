@@ -24,3 +24,7 @@ Southern Elsweyr | New Moon Flame Adept | Khajiit | Varies | 31364
 ;Forceful Flame: The enemy stomps the ground, sending a shockwave along the ground going forward, which erupts and explodes, indicated by a red circle, dealing moderate flame damage. (On some flame adepts)
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Flame_Adept_t00.csv (3 rows): Location | Name | Race | Gender | Health

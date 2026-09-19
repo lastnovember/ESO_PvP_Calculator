@@ -49,3 +49,7 @@ High Velothi ur-mages, the most powerful sorcerers of the ancient Chimer, wore "
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Necrom
+
+## Tables extracted from this page
+
+- tables/sets_Velothi_Ur-Mage_s_Amulet_t00.csv (5 rows): 40px | Ebony Crossed-Sword Chain | World Boss daily coffers in Vvardenfell | Telvanni Peninsula | Ebony is a notoriously

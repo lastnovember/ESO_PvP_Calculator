@@ -27,3 +27,7 @@ Shark's Teeth Grotto | Wake Walker Archer | Khajiit | Varies | a
 ;Noxious Cloud:When far from them, the Poison Archer shoots an arrow that detonates on contact with the ground at a target's location, leaving a cloud of noxious fumes dealing continuous low poison damage. (On some poison archers since Elsweyr)
 ;Run Away!:When too close to them, the Poison Archer backs up to put some distance between their target and themselves.
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Poison_Archer_t00.csv (3 rows): Location | Name | Race | Gender | Health

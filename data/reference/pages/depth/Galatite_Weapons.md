@@ -63,3 +63,8 @@ rowspan=3|Galatite Maul
 12 Galatite Ingots
 
 13 Galatite Ingots
+
+## Tables extracted from this page
+
+- tables/depth_Galatite_Weapons_t00.csv (5 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Galatite_Weapons_t01.csv (4 rows): Base | Fine | Superior | Epic | Legendary

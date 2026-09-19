@@ -159,3 +159,7 @@ File:ON-npc-Dremora Kynval (Castle of the Worm).jpg|A Dremora Kynval in the Cast
 File:ON-npc-Dremora Kynval (Imperial City).jpg|A Dremora Kynval in the Imperial Sewers
 File:ON-npc-Dremora Kynval (Imperial City) 03.jpg|A Dremora Kynval in the Imperial Sewers
 File:ON-npc-Dremora Kynval (Imperial City) 02.jpg|A female Dremora Kynval throwing books into a fire in the Arboretum
+
+## Tables extracted from this page
+
+- tables/depth_Dremora_Kynval_t00.csv (16 rows): Zone / Dungeon | Specific Location | Difficulty | Reaction | Class | Health

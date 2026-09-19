@@ -74,3 +74,7 @@ EAL/Group|indent=1|groupline=thick
 
 ## Notes
 - As a land grab Battleground, Domination games have the potential to net Fire Drake Style style pages.
+
+## Tables extracted from this page
+
+- tables/depth_Domination_t00.csv (20 rows): Icon | Name | Points | Description

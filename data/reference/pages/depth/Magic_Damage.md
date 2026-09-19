@@ -202,3 +202,10 @@ On dealing area direct damage, mark a target for 6 seconds. Every 2 seconds afte
 There are several ways of protecting yourself against Magic Damage.
 - A Glyph of Spell Resistance, created with a Makderi Essence rune and a negative Potency rune, can be applied to jewelry.
 - Elemental Aegis in the Staving Death subconstellation of Warfare reduces Magic Damage taken.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Magic_Damage_t00.csv (298 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Magic_Damage_t01.csv (20 rows): Set | Weight | complete set bonus
+- tables/depth_Magic_Damage_t00.csv (17 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/depth_Magic_Damage_t01.csv (20 rows): Set | Weight | complete set bonus

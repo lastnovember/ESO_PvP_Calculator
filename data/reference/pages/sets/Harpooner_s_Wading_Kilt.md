@@ -61,3 +61,7 @@ File:ON-item-Harpooner's Wading Kilt 02.jpg|Harpooner's Wading Kilt Back
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Blackwood
+
+## Tables extracted from this page
+
+- tables/sets_Harpooner_s_Wading_Kilt_t00.csv (5 rows): 40px | Kothringi-Cut Leather | |World Bosses | Blackwood | A roll of perfectly preserved leather. Surprisingly supple fo

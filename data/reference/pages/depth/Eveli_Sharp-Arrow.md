@@ -2710,3 +2710,16 @@ Lyranth appears to stagger as she has a vision of the Deadlands and its Master.
 
 File:ON-render-Eveli Sharp-Arrow 02.jpg|Promotional render
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (left, by the stairs)
+
+## Tables extracted from this page
+
+- tables/depth_Eveli_Sharp-Arrow_t00.csv (1 rows): option1=I was forced to take his life to get the information we needed. | option1outcome=::"You … you did what? What kin
+- tables/depth_Eveli_Sharp-Arrow_t01.csv (1 rows): If you've met her before: | If you haven't met her before:
+- tables/depth_Eveli_Sharp-Arrow_t02.csv (1 rows): If you've met her before: | If you haven't met her before:
+- tables/depth_Eveli_Sharp-Arrow_t03.csv (1 rows): If you've met her before: | If you've completed Black Drake Villa: | If you haven't met her before:
+- tables/depth_Eveli_Sharp-Arrow_t04.csv (1 rows): Appears if you've finished Orsinium: | Appears regardless of whether or not you've finished Orsinium:
+- tables/depth_Eveli_Sharp-Arrow_t05.csv (1 rows): Completed Blackwood Prologue: | First Time Meeting: | Met Eveli Previously:
+- tables/depth_Eveli_Sharp-Arrow_t06.csv (1 rows): Member of the Dark Brotherhood: | Otherwise:
+- tables/depth_Eveli_Sharp-Arrow_t07.csv (1 rows): Member of the Dark Brotherhood: | Otherwise:
+- tables/depth_Eveli_Sharp-Arrow_t08.csv (1 rows): Member of the Dark Brotherhood: | Otherwise:
+- tables/depth_Eveli_Sharp-Arrow_t09.csv (1 rows): Dark Brotherhood Member: | Otherwise:

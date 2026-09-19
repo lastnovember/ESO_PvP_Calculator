@@ -124,3 +124,7 @@ Truly Superb Glyph of Decrease Spell Harm | | Itade | 10 | CP160
 805
 856
 927
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Decrease_Spell_Harm_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

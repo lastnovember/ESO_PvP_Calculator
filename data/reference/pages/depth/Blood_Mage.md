@@ -20,3 +20,7 @@ Castle Thorn | Thorn Legion Sanguimancer | Nord, Altmer | Varies
 ;Shadow Cloak: If the target is in close proximity to the enemy, they will turn themselves invisible and move to a better location and set the player off balance.
 ;Summon Bound Hemoptera: The enemy summons a Bound Hemoptera, which channels a buff on their summoner that causes them to do twice the damage and take less damage. If the Hemoptera is interrupted, it becomes an Unbound Hemoptera. They will be rebound to their summoner after a few seconds.
 ;Sacrifice Hemoptera: The enemy can destroy its Hemoptera to heal itself.
+
+## Tables extracted from this page
+
+- tables/depth_Blood_Mage_t00.csv (3 rows): Location | Name | Race | Gender | Health

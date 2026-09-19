@@ -312,3 +312,10 @@ Talking with Quen, you can show her the warrant and she refuses to run. Instead 
 File:ON-crown store-The Codex Caper.jpg|Promotional Render
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Captain_Sansonne_t00.csv (1 rows): Basil is injured: | Basil is dying:
+- tables/depth_Captain_Sansonne_t01.csv (2 rows): Got Lion Guard's Help: | Did not get Lion Guard's Help:
+- tables/depth_Captain_Sansonne_t02.csv (1 rows): Did not kill Lion Guard at Redoubt: | Otherwise:plain
+- tables/depth_Captain_Sansonne_t03.csv (1 rows): Defeated Faolchu Previously: | Otherwise:

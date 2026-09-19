@@ -106,3 +106,8 @@ Western Skyrim Furnishing Folio (view contents) | |700 | Unsurpassed Crafter
 West Weald Furnishing Folio I (view contents) | |700 | Unsurpassed Crafter
 
 West Weald Furnishing Folio II (view contents) | |700 | Unsurpassed Crafter
+
+## Tables extracted from this page
+
+- tables/depth_Furnisher_Documents_t00.csv (26 rows): Icon | Item | Price | Required Achievement
+- tables/depth_Furnisher_Documents_t01.csv (17 rows): Icon | Item | Price | Required Achievement

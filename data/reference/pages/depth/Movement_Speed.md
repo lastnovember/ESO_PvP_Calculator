@@ -195,3 +195,16 @@ Winterborn | 50% | 2 sec. | Nearby Enemies | Dealing Frost Damage
 - Using a Poison of Hindrance reduces targets' Movement by 50% for 2.2-10 sec., or 3.2-10.0 sec. as a triple-effect. (Drinking a Potion of Reduce Speed will have the same effect on you, with a much longer duration.)
 - Using a Poison of Speed reduces targets' Movement by 50% for 1.2-5.8 sec., or 1.7-6.0 sec. as a triple-effect.
 - There is a cap of 200% speed when running, and 120% while swimming
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Movement_Speed_t00.csv (3 rows): Movement Type | Default | Maximum
+- tables/uesp_Online_Movement_Speed_t01.csv (37 rows): Skill | Increase | Duration | Affects | Cost/Trigger | Notes
+- tables/uesp_Online_Movement_Speed_t02.csv (13 rows): Set | Increase | Duration | Trigger | Notes
+- tables/uesp_Online_Movement_Speed_t03.csv (22 rows): Skill | Decrease | Duration | Affects | Cost | Notes
+- tables/uesp_Online_Movement_Speed_t04.csv (3 rows): Set | Decrease | Duration | Affects | Trigger | Notes
+- tables/depth_Movement_Speed_t00.csv (3 rows): Movement Type | Default | Maximum
+- tables/depth_Movement_Speed_t01.csv (37 rows): Skill | Increase | Duration | Affects | Cost/Trigger | Notes
+- tables/depth_Movement_Speed_t02.csv (13 rows): Set | Increase | Duration | Trigger | Notes
+- tables/depth_Movement_Speed_t03.csv (22 rows): Skill | Decrease | Duration | Affects | Cost | Notes
+- tables/depth_Movement_Speed_t04.csv (3 rows): Set | Decrease | Duration | Affects | Trigger | Notes

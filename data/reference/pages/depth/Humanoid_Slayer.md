@@ -23,3 +23,7 @@ Kill Humanoids | 1000 | Includes members of all the playable Races, but not othe
 Kill Goblin-kin | 500 | Includes Goblins, Riekr, etc.
 
 Kill Giant-kin | 100 | Includes Giants, Ogres (but not Ogrim), etc.
+
+## Tables extracted from this page
+
+- tables/depth_Humanoid_Slayer_t00.csv (3 rows): Criteria | Num. Req. | Notes

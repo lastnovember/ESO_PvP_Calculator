@@ -64,3 +64,12 @@ You can refine raw resources in batches of 10, obtaining 7 - 10 materials suitab
 
 ## Achievements
 There are a number of achievements associated with Blacksmithing.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Blacksmithing_t00.csv (41 rows): 1 | Metalworking I
+- tables/uesp_Online_Blacksmithing_t01.csv (26 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Blacksmithing_t02.csv (7 rows): Order | Progression | Skill points required
+- tables/uesp_Online_Blacksmithing_t03.csv (10 rows): Raw Material | Refined Into | Used To Make... | Level
+- tables/uesp_Online_Blacksmithing_t04.csv (14 rows): Achievement | Points | Description | Reward
+- tables/depth_Blacksmithing_t00.csv (7 rows): Order | Progression | Skill points required

@@ -62,3 +62,7 @@ Dremora Morikyn very rarely create a Desecrated Ground upon death in Imperial Ci
 File:ON-npc-Dremora Morikyn 02.jpg|A female Dremora Morikyn
 File:ON-npc-Dremora Morikyn 03.jpg|A male Dremora Morikyn
 File:ON-npc-Dremora Morikyn 04.jpg|Dremora Morikyn (The Great Shackle)
+
+## Tables extracted from this page
+
+- tables/depth_Dremora_Morikyn_t00.csv (7 rows): Zone / Dungeon | Specific Location | Difficulty | Health

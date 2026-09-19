@@ -28,3 +28,7 @@ Bangkorai, The HideawayThieves Guild | Dark Witness Pyromancer | Reachman | Vari
 File:ON-skill-Flare.jpg|Flare
 File:ON-skill-Heat Wave.jpg|Heat Wave
 File:ON-skill-Fire Runes.jpg|Fire Runes
+
+## Tables extracted from this page
+
+- tables/depth_Fire_Mage_t00.csv (4 rows): Location | Name | Race | Gender | Health

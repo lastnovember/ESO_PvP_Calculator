@@ -79,3 +79,7 @@ fin|I delivered and prepared the stone-soup for Hecicla. I should see if she nee
 Talk to Hecicla
 fin|Refused to make Stone-Soup I delivered the stone-soup to Hecicla but decided she could prepare it for herself. Now I should talk to her about my payment.
 Talk to Hecicla
+
+## Tables extracted from this page
+
+- tables/depth_The_Hermit_in_the_Hills_t00.csv (1 rows): Properly prepared soup: | Overcooked the soup: | Refused to make soup:

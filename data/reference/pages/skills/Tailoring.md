@@ -93,3 +93,8 @@ Rubedo Hide Scraps | Rubedo Leather | Rubedo Leather Armor | 9|CP150 - 160
 ## Patch Notes
 [Patch 2.3.6] * Monsters in scaled zones such as Cyrodiil, Wrothgar, and Hew's Bane will no longer drop a mixture of Rubedo Leather and Shadowhide if you have Rank 10 of the Tailoring passive. Instead, they will exclusively drop Rubedo Leather.
 [Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.
+
+## Tables extracted from this page
+
+- tables/skills_Tailoring_t00.csv (10 rows): Raw Material | Refined Into | Used To Make... | Level
+- tables/skills_Tailoring_t01.csv (10 rows): Raw Material | Refined Into | Used To Make... | Level

@@ -163,3 +163,15 @@ File:ON-skill-Vampirism Stage 4 (Dark Elf female).jpg|Stage 4 Vampirism on a fem
 ## References
 
 Skill
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Vampire_t00.csv (19 rows): Feed | 1 | Eviscerate
+- tables/uesp_Online_Vampire_t01.csv (4 rows): Stage | Health Recovery | Damage from Fire | Vampire Ability Cost | Regular Ability Cost | Passive becomes active
+- tables/uesp_Online_Vampire_t02.csv (10 rows): Rank | Experience Required for Next Rank | Total Experience for Rank
+- tables/uesp_Online_Vampire_t03.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Vampire_t04.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Vampire_t05.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Vampire_t06.csv (8 rows): Achievement | Points | Description | Reward
+- tables/depth_Vampire_t00.csv (4 rows): Stage | Health Recovery | Damage from Fire | Vampire Ability Cost | Regular Ability Cost | Passive becomes active
+- tables/depth_Vampire_t01.csv (10 rows): Rank | Experience Required for Next Rank | Total Experience for Rank

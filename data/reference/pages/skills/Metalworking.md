@@ -67,3 +67,7 @@ Rubedite Ore | Rubedite Ingot | Rubedite Armor and Rubedite Weapons | 9|CP150 - 
 
 ## Patch Notes
 [Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.
+
+## Tables extracted from this page
+
+- tables/skills_Metalworking_t00.csv (10 rows): Raw Material | Refined Into | Used To Make... | Level

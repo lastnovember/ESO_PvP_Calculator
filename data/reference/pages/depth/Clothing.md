@@ -105,3 +105,16 @@ Divines | Sapphire | Increases Mundus Stone effects by 4%
 
 ## Achievements
 There are a number of achievements associated with Clothing.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Clothing_t00.csv (41 rows): 1 | Tailoring I
+- tables/uesp_Online_Clothing_t01.csv (26 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Clothing_t02.csv (7 rows): Order | Progression | Skill points required
+- tables/uesp_Online_Clothing_t03.csv (10 rows): Raw Material | Refined Into | Used To Make... | Level
+- tables/uesp_Online_Clothing_t04.csv (10 rows): Raw Material | Refined Into | Used To Make... | Level
+- tables/uesp_Online_Clothing_t05.csv (136 rows): Style | Material | Motif
+- tables/uesp_Online_Clothing_t06.csv (8 rows): Trait (Armor) | Material | Description
+- tables/uesp_Online_Clothing_t07.csv (18 rows): Achievement | Points | Description | Reward
+- tables/depth_Clothing_t00.csv (7 rows): Order | Progression | Skill points required
+- tables/depth_Clothing_t01.csv (8 rows): Trait (Armor) | Material | Description

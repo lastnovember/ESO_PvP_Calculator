@@ -1149,3 +1149,41 @@ Overheard dialogue is quite the opposite of commentary, and is overheard when yo
 → For a full list of overheard dialogue, see the Overheard Dialogue hub page.
 
 ## NPCs with Unique Ambient Dialogue
+
+## Tables extracted from this page
+
+- tables/depth_Ambient_Dialogue_t00.csv (25 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t01.csv (23 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t02.csv (58 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t03.csv (54 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t04.csv (28 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t05.csv (30 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t06.csv (24 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t07.csv (22 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t08.csv (24 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t09.csv (18 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t10.csv (30 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t11.csv (32 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t12.csv (20 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t13.csv (12 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t14.csv (30 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t15.csv (33 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t16.csv (9 rows): Rumor | Quest (choice) | |"I understand you helped authorities crack down on the. Very much appreciated." | Seize the Mo
+- tables/depth_Ambient_Dialogue_t17.csv (27 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t18.csv (25 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t19.csv (4 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t20.csv (4 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t21.csv (10 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t22.csv (2 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t23.csv (18 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t24.csv (18 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t25.csv (8 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t26.csv (6 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t27.csv (7 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t28.csv (1 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t29.csv (7 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t30.csv (7 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t31.csv (14 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t32.csv (10 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t33.csv (3 rows): Rumor | Quest (choice)
+- tables/depth_Ambient_Dialogue_t34.csv (3 rows): Rumor | Quest (choice)

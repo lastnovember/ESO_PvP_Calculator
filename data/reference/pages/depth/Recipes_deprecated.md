@@ -4332,3 +4332,13 @@ for
 - The Standard version of Sylphy Gin is misspelled as "Sylph Gin" in-game.
 - Consummate Steak Soup Recipe has a value of 1 gold, while all other Complex recipes are worth 13 gold.
 - There are two different "Jazbay Grapes" ingredients. The more common base ingredient is required for beverages, while the less common "Piquant Jazbay Grapes" is an additive required to make consummate wines. Prior to Patch 1.2.3, they were both called "Jazbay Grapes," which caused a lot of confusion.
+
+## Tables extracted from this page
+
+- tables/depth_Recipes_deprecated_t00.csv (3 rows): Food | Bread and Pies | Grilled | Soups and Stews
+- tables/depth_Recipes_deprecated_t01.csv (57 rows): Name | RI | RQ | Food | Recipe Drop | Ingredients | Effect
+- tables/depth_Recipes_deprecated_t02.csv (57 rows): Name | RI | RQ | Food | Recipe Drop | Ingredients | Effect
+- tables/depth_Recipes_deprecated_t03.csv (57 rows): Name | RI | RQ | Food | Recipe Drop | Ingredients | Effect
+- tables/depth_Recipes_deprecated_t04.csv (60 rows): Name | RI | RQ | Drink | Recipe Drop | Ingredients | Effect
+- tables/depth_Recipes_deprecated_t05.csv (60 rows): Name | RI | RQ | Drink | Recipe Drop | Ingredients | Effect
+- tables/depth_Recipes_deprecated_t06.csv (60 rows): Name | RI | RQ | Drink | Recipe Drop | Ingredients | Effect

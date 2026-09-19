@@ -151,3 +151,12 @@ File:ON-skill-Magical Burst.jpg|Magical Burst
 File:ON-skill-Sundering Burst.jpg|Sundering Burst
 File:ON-skill-Leashing Burst.jpg|Leashing Burst
 File:ON-skill-Shocking Burst.jpg|Shocking Burst
+
+## Tables extracted from this page
+
+- tables/scribing_Soul_Burst_t00.csv (14 rows): Script | Skill Name | Effects
+- tables/scribing_Soul_Burst_t01.csv (10 rows): Anchorite's Cruelty | Anchorite's Cruelty | Consumes a Soul Gem to deal 2.8% of the enemy's Max Health as Oblivion Damag
+- tables/scribing_Soul_Burst_t02.csv (12 rows): Breach | Breach | Afflicts enemies with Minor Breach for 20 seconds, reducing Physical and Spell Resistance by 2974.
+- tables/skills_Soul_Burst_t00.csv (14 rows): Script | Skill Name | Effects
+- tables/skills_Soul_Burst_t01.csv (10 rows): Anchorite's Cruelty | Anchorite's Cruelty | Consumes a Soul Gem to deal 2.8% of the enemy's Max Health as Oblivion Damag
+- tables/skills_Soul_Burst_t02.csv (12 rows): Breach | Breach | Afflicts enemies with Minor Breach for 20 seconds, reducing Physical and Spell Resistance by 2974.

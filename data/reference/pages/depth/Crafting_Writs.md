@@ -134,3 +134,7 @@ During certain events, special festival writs have a chance to drop from event l
 ## Notes
 - Prior to One Tamriel, writs could only be dropped off in specific cities, based on your alliance and rank in the associated crafting skill at the time of taking the writ. Surveys would always be given for the zone where you were dropping off your writs. The highest-level writs were dropped off in The Hollow City, Orsinium, or Belkarth.
 - Prior to Update 37, daily writs would reset at 6am UTC.
+
+## Tables extracted from this page
+
+- tables/depth_Crafting_Writs_t00.csv (7 rows): Profession | Quest Name

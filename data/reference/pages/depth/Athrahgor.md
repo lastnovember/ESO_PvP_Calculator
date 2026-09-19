@@ -175,3 +175,7 @@ Statue of the Mother
 colspan=6| Imperial Sewers
 Imperial Banner
 Molag Bal Brazier
+
+## Tables extracted from this page
+
+- tables/depth_Athrahgor_t00.csv (9 rows): Name | Type | Price | Achievement | Description

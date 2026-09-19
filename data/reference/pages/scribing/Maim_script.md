@@ -38,3 +38,7 @@ Incompatible with Warding Burst and Healing Burst
 
 ## Notes
 - The Daedric text on the script reads "Maim".
+
+## Tables extracted from this page
+
+- tables/scribing_Maim_script_t00.csv (11 rows): Mender's Bond | Mender's Bond | Afflicts Minor Maim to enemies in the link for 10 seconds, reducing damage done by 5%.

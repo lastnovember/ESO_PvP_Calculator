@@ -172,3 +172,9 @@ Violet Coprinus
 Daedra Heart
 Nirnroot
 White Cap
+
+## Tables extracted from this page
+
+- tables/depth_Provisioning_Ingredients_t00.csv (6 rows): Meats
+- tables/depth_Provisioning_Ingredients_t01.csv (6 rows): Alcoholic ingredients
+- tables/depth_Provisioning_Ingredients_t02.csv (5 rows): Clear Water | Dragonthorn | Scrib Jelly | Worms

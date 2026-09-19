@@ -170,3 +170,7 @@ Statue of Shadows
 Vibrant Garden Flowers
 Yokudan Puzzle Column
 Yokudan Skystone Scabbard
+
+## Tables extracted from this page
+
+- tables/depth_Listens-to-Sea_t00.csv (8 rows): Image | Name | Type | Cost | Achievement | Description

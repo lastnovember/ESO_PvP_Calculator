@@ -462,3 +462,12 @@ After completing the quest at Broken Light Temple, she and Acolyte Duria can be 
 dialogue change at the conclusion of the western solstice zone quest?
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_High_Priest_Eraamine_t00.csv (1 rows): Spoke with Acolyte Duria: | Otherwise:
+- tables/depth_High_Priest_Eraamine_t01.csv (1 rows): Chose Dawn Wing: | Chose Purity Wing:
+- tables/depth_High_Priest_Eraamine_t02.csv (1 rows): Chose Dawn Wing First: | Chose Purity Wing First:
+- tables/depth_High_Priest_Eraamine_t03.csv (1 rows): Completed Purity Wing First: | Chose Dawn Wing First:
+- tables/depth_High_Priest_Eraamine_t04.csv (1 rows): Entered the Dawn Wing First: | Both Wings completed:
+- tables/depth_High_Priest_Eraamine_t05.csv (1 rows): Entered the Purity Wing First: | Both Wings completed:

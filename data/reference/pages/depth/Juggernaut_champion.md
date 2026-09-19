@@ -12,3 +12,7 @@ maxpoints=50
 desc=While under the effects of Crowd Control Immunity, you take 1% less damage per stage.
 
 Champion
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Juggernaut_champion_t00.csv (3 rows): Constellation | Fitness

@@ -36,3 +36,7 @@ Mastic
 
 Rosin
 5.0% | 20 | 7.5% | 14 | 10.0% | 10 | 12.5% | 8
+
+## Tables extracted from this page
+
+- tables/skills_Resin_Expertise_t00.csv (5 rows): Chance | 100% | Chance | 100% | Chance | 100% | Chance | 100%

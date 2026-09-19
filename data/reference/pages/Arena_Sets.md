@@ -14,3 +14,9 @@ Winterborn (set)
 
 ### Vateshran HollowsMarkarth
 Pestilent Host
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Arena_Sets_t00.csv (4 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Arena_Sets_t01.csv (6 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Arena_Sets_t02.csv (3 rows): Set Name | Bonuses | Set Type

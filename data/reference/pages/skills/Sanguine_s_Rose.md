@@ -82,3 +82,8 @@ Sanguine's Rose Passive
 N/A
 
 Skill
+
+## Tables extracted from this page
+
+- tables/skills_Sanguine_s_Rose_t00.csv (9 rows): Bow-Endless Hail | Sanguine's Rose Ability 2 | Ground | Launch a multitude of arrows into the sky to rain down, dealing 
+- tables/skills_Sanguine_s_Rose_t01.csv (1 rows): Soul Magic-Soul Shatter | Sanguine's Rose Passive | N/A

@@ -42,3 +42,7 @@ scope="row"|CP130
 
 scope="row"|CP140
 20 | 18 | 18 | 18 | 19 | 18 | 18 | 129
+
+## Tables extracted from this page
+
+- tables/depth_Shadowhide_t00.csv (6 rows): Armor Level | Shadowhide Jack | Shadowhide Boots | Shadowhide Bracers | Shadowhide Helmet | Shadowhide Guards | Shadowhi

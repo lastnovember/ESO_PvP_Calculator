@@ -612,3 +612,8 @@ Pack Merchants]]. If you have, you will instead just be given a tip to seek them
 Collectibles]], you can only earn them once each, and only if you have not previously acquired them via other means. However, in cases where there is more than one choice available, you can earn them all by using multiple characters.
 The bank space upgrade evidently only appears for players who have not already purchased any bank space upgrades on any of their characters.
 This reward is only given to your first character to reach level 40, subsequent characters will still receive a prompt to go to an outfit station but no token will be awarded.
+
+## Tables extracted from this page
+
+- tables/depth_Level_Up_Advisor_t00.csv (35 rows): Class | Build | Role | Description | Main Stat. | Suggested Weapon(s) | Suggested Armor
+- tables/depth_Level_Up_Advisor_t01.csv (49 rows): Mile- stone | Level | Skill/ Attrib. Points | Rewards | Dungeon Finder

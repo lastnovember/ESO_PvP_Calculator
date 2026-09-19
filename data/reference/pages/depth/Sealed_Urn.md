@@ -60,3 +60,9 @@ Heavy Chest
 Adds 7-734 Max Health
 style="white-space:nowrap;" | Training (7%)
 This torture implement was never completed. Without the spikes fastened to the inside, it serves as a functional cuirass.
+
+## Tables extracted from this page
+
+- tables/depth_Sealed_Urn_t00.csv (1 rows): Name | Type | Level | Value | Description
+- tables/depth_Sealed_Urn_t01.csv (1 rows): Name | Type | Level | Damage | Value | Enchantment | Trait | Description
+- tables/depth_Sealed_Urn_t02.csv (3 rows): Name | Type | Level | Armor | Value | Enchantment | Trait | Description

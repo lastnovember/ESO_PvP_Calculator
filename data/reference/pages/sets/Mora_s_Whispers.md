@@ -62,3 +62,7 @@ File:ON-item-Mora's Whispers 02.jpg|Mora's Whispers
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: High Isle
+
+## Tables extracted from this page
+
+- tables/sets_Mora_s_Whispers_t00.csv (5 rows): 40px | Bloodshot Oculus | Watcher Mobs in The Deadlands, Atoll of Immolation or The Cauldron | High Isle | I believe thi

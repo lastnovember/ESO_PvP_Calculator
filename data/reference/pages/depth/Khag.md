@@ -118,3 +118,7 @@ After completing the objective at Caterwaul Cove, Khag will appear with the rest
 
 ## Notes
 - After the Bonnie Spriggan landed back in Nirn, Khag jotted down a head count of the crew.
+
+## Tables extracted from this page
+
+- tables/depth_Khag_t00.csv (1 rows): Completed Ghosthunters: | Otherwise:

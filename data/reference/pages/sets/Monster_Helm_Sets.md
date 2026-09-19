@@ -20,3 +20,9 @@ Zoal the Ever-Wakeful (set)
 ## Night Market Sets
 Three monster helm sets can be found in the Night Market and obtaining them will depend on what faction you align with for that season. The head pieces can be received in reward coffers for participating in the inter-faction contest, and shoulder pieces can be obtained by purchasing the associated coffer from a Night Market Merchant.
 Thousand Eyes (set)
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Monster_Helm_Sets_t00.csv (58 rows): Set Name | Bonuses | Head Piece Dropped by | Shoulder Vendor | Helm | Shoulder
+- tables/uesp_Online_Monster_Helm_Sets_t01.csv (6 rows): Set Name | Bonuses | Head Piece Dropped by | Shoulder Vendor | Helm | Shoulder
+- tables/uesp_Online_Monster_Helm_Sets_t02.csv (3 rows): Set Name | Bonuses | Head Piece Dropped by | Shoulder Vendor | Helm | Shoulder

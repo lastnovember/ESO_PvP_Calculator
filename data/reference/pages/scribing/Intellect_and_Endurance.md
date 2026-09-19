@@ -24,3 +24,7 @@ Grants Minor Intellect and Minor Endurance, increasing Magicka and Stamina Recov
 
 ## Notes
 - The Daedric text on the script appears to read "Intellect". (It is blurry and cut off on the edge. No sign of "Endurance" appears on the script.)
+
+## Tables extracted from this page
+
+- tables/scribing_Intellect_and_Endurance_t00.csv (5 rows): Mender's Bond | Mender's Bond | Grants Minor Intellect and Minor Endurance to the ally and allies in the link for 10 sec

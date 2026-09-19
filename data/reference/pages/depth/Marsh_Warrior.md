@@ -22,3 +22,7 @@ Hutan-Tzel | Skeleton Marsh Warrior | Skeleton | Varies | a
 ;Earth Balm/Healing Roots: When wounded, the warrior reaches down to the ground as vines begin to wrap around them, healing them. This can be interrupted to set the warrior off-balance.
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Marsh_Warrior_t00.csv (3 rows): Location | Name | Race | Gender | Health

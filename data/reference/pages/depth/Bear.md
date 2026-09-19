@@ -162,3 +162,7 @@ File:ON-creature-Bear 03.jpg|A Bear in Direfrost Keep
 File:ON-creature-Bear (Friendly).jpg|This particular Bear is used as a mount by the farmers near Skalar's Hostel. It is friendly, and has 1 hit point.
 File:ON-creature-Bear 05.jpg|A Bear near Dawnbreak on Auridon
 File:ON-creature-Bear (Oathsworn Pit).jpg|A bear from the Oathsworn Pit
+
+## Tables extracted from this page
+
+- tables/depth_Bear_t00.csv (11 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Health

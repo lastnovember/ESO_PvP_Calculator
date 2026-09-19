@@ -102,3 +102,7 @@ If you speak to her before completing Support the Fellowship, she might say: Is 
 
 ## Notes
 - The general wears White-Gold Eyeshadow and is dressed in medium armor of the Stirk Fellowship Style.
+
+## Tables extracted from this page
+
+- tables/depth_General_Zasimba_t00.csv (1 rows): What does the Stirk Fellowship need? | The siege camps are still in danger?

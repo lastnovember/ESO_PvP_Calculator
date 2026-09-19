@@ -30,3 +30,7 @@ File:ON-skill-Grasping Void.jpg|Grasping Void
 File:ON-skill-Shadow Slice.jpg|Shadow Slice
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Shade_Sentinel_t00.csv (4 rows): Location | Name | Race | Gender | Health

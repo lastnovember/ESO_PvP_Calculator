@@ -75,3 +75,7 @@ style=text-align:center| Summoned by Rosathild | style=text-align:center| Custom
 
 ## Bugs
 Draugr Banes in The Howling Sepulchers use abilities made for dual-wielding NPCs despite them wielding two-handed greataxes, which makes the "Blood Craze" ability not play its animation correctly. However, you will still take damage and the ability will still heal them.
+
+## Tables extracted from this page
+
+- tables/depth_Draugr_Bane_t00.csv (8 rows): Zone / Dungeon | Specific Location | Class | Difficulty | Health

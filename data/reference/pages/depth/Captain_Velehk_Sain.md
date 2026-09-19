@@ -116,3 +116,7 @@ During the fight, Khag will periodically fire a coldfire ballista bolt at enemie
 
 ## Bugs
 Blocking "Spout" shows a damage number with an asterisk (*) indicating the attack has been blocked, but the damage isn't actually reduced.
+
+## Tables extracted from this page
+
+- tables/depth_Captain_Velehk_Sain_t00.csv (1 rows): Remained Undetected: | Was discovered in Seaside Caves:

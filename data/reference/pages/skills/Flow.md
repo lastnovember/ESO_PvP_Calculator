@@ -38,3 +38,7 @@ Armor Pieces Equipped | Healing Bonus | Cooldown Reduction | Cooldown Duration
 ## Gallery
 
 Evasion
+
+## Tables extracted from this page
+
+- tables/skills_Flow_t00.csv (8 rows): Armor Pieces Equipped | Healing Bonus | Cooldown Reduction | Cooldown Duration

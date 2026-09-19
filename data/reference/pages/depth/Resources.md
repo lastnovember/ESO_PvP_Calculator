@@ -175,3 +175,10 @@ Regeneration | Increased Wall Regeneration | Walls will regenerate 50% more HP (
 rowspan=2|Level 5 | Honor Guard Abilities | Upgrade Honor Guard Abilities | Keep honor guards will gain more powerful versions of some of their abilities
 
 Tower | Tower HP Increased | The Tower overwatching the Resource has more HP (Increased to 210,000)
+
+## Tables extracted from this page
+
+- tables/depth_Resources_t00.csv (2 rows): Level 1 | Gatherer | Faster Resource Production | This Resource now produces more Ore, Lumber or Food for it's associate
+- tables/depth_Resources_t01.csv (4 rows): Level 1 | |Heartier Guards | Heartier Guards | Guards have more HP
+- tables/depth_Resources_t02.csv (7 rows): Upgrade Level | Upgrade | Effect
+- tables/depth_Resources_t03.csv (12 rows): Level 1 | Regeneration | Enable Tower Regeneration | Tower walls will regenerate HP when not in combat (10 HP every 20 s

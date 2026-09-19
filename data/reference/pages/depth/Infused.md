@@ -18,3 +18,7 @@ Weapon | 10% (white) / 15% (green) / 20% (blue) / 25% (purple) / 30% (gold)
 Armor | 9% (white) / 13% (green) / 17% (blue) / 21% (purple) / 25% (gold)
 
 Jewelry | 24% (white) / 33% (green) / 42% (blue) / 51% (purple) / 60% (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Infused_t00.csv (4 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

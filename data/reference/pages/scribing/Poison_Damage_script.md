@@ -15,3 +15,7 @@ Deals 3777 Poison Damage to enemies. Beneficial Signature and Affix scripts appl
 
 ## Notes
 - The Daedric text on the script reads "Poison".
+
+## Tables extracted from this page
+
+- tables/scribing_Poison_Damage_script_t00.csv (2 rows): Traveling Knife | Traveling Knife (Venomous Knife) | Deals 2014 Physical Damage to an enemy and 3022 Poison Damage to en

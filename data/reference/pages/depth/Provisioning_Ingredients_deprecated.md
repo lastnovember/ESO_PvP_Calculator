@@ -914,3 +914,14 @@ Piquant Jazbay Grapes are no longer used in Provisioning, but have been renamed 
 
 note|saltrice||[Potato → Saltrice]
 The new Saltrice should not be confused with the Old Base ingredient of the same name, which is no longer used in Provisioning, and has been renamed to Old Saltrice.
+
+## Tables extracted from this page
+
+- tables/depth_Provisioning_Ingredients_deprecated_t00.csv (41 rows): Bread and Pies | Grilled | Soup and Stew
+- tables/depth_Provisioning_Ingredients_deprecated_t01.csv (42 rows): Beer | Spirits | Wine
+- tables/depth_Provisioning_Ingredients_deprecated_t02.csv (1 rows): 
+- tables/depth_Provisioning_Ingredients_deprecated_t03.csv (1 rows): 
+- tables/depth_Provisioning_Ingredients_deprecated_t04.csv (58 rows): Old Base | New Ingredient
+- tables/depth_Provisioning_Ingredients_deprecated_t05.csv (36 rows): Old Improvement | New Ingredient
+- tables/depth_Provisioning_Ingredients_deprecated_t06.csv (6 rows): Old Blue | New Ingredient
+- tables/depth_Provisioning_Ingredients_deprecated_t07.csv (12 rows): Old Purple | New Ingredient

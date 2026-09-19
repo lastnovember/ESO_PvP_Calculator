@@ -168,3 +168,7 @@ File:LO-book-Baron-Captain Olsien Guy Mard.jpg|Painting featuring Baron-Captain 
 ## Notes
 - Olsein Guy Mard was first mentioned in The Royal House of King Eamond book from the base game.
 - He is the subject of a Meet the Character entry.
+
+## Tables extracted from this page
+
+- tables/depth_Baron-Captain_Olsien_Guy_Mard_t00.csv (1 rows): Read The Royal House of King Eamond: | Otherwise:

@@ -135,3 +135,7 @@ File:ON-skill-Daedric Heal.jpg|Daedric Heal
 File:ON-texture-DaedricBackBanner02.png|A red banner with dripping horns and fangs, worn by Daktivus the Enslaver
 File:ON-texture-DaedricBackBanner03.png|A "cleaner" version of the red banner, worn by Skoorn, the Blizzard's Edge
 File:ON-texture-DaedricBackBanner01.png|A blue banner, worn by melee wielders
+
+## Tables extracted from this page
+
+- tables/depth_Coldharbour_Elite_Guard_t00.csv (1 rows): Blue Banner Members

@@ -53,3 +53,7 @@ Weapon Level | Dwarven Axe | Dwarven Hammer | Dwarven Sword | Dwarven Battle Axe
 
 ## Notes
 - According to Kireth Vanos Answers Your Questions, Dwarven Ore acquired its name due to the visual resemblance it bears to Dwarven Metal when forged; however, it lacks the metal's durability, and metallurgists have concluded that it has no connection to the metal harvested from actual Dwemer devices.
+
+## Tables extracted from this page
+
+- tables/depth_Dwarven_Ore_t00.csv (13 rows): Armor Level | Dwarven Cuirass | Dwarven Sabatons | Dwarven Gauntlets | Dwarven Helm | Dwarven Greaves | Dwarven Pauldron

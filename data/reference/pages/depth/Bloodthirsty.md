@@ -17,3 +17,7 @@ colspan=5|Increase Damage
 
 ## Notes
 - This is one of the only Weapon Damage and Spell Damage sources in the game that is not affected by Brutality or Sorcery, since the value is based on the enemy not yourself.
+
+## Tables extracted from this page
+
+- tables/depth_Bloodthirsty_t00.csv (2 rows): 5Normal | 5Fine | 5Superior | 5Epic | 5Legendary

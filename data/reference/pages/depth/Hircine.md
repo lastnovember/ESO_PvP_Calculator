@@ -189,3 +189,8 @@ File:ON-render-Wolfhunter 02.jpg|Promotional render
 ## Bugs
 Tarcyr]] hides and summons its thralls, where he is shown to have ncf health.
 Hircine used to appear in-person before the fight with Balorgh, where he was player-sized.
+
+## Tables extracted from this page
+
+- tables/depth_Hircine_t00.csv (1 rows): If a werewolf: | Otherwise:
+- tables/depth_Hircine_t01.csv (1 rows): If a werewolf: | Otherwise:

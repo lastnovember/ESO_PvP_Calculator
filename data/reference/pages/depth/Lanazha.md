@@ -151,3 +151,8 @@ width=50%| Have not completed Ghost Haven Bay Objective:
 ::"We'll find a ship that deserves us, then use the Gloomlantern to pirate and plunder to our heart's content. It's the life I've always dreamed of! Maybe we'll see you out there on the high seas. We'll see you, but you won't see us. Cheers, mate!"
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Lanazha_t00.csv (1 rows): Completed Buried at the Bay: | Have not completed Ghost Haven Bay Objective:
+- tables/depth_Lanazha_t01.csv (1 rows): Completed Buried at the Bay: | Have not completed Ghost Haven Bay Objective:

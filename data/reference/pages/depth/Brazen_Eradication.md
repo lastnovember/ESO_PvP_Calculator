@@ -98,3 +98,8 @@ fin|Thousand Eyes I killed some brazen enemies for the Thousand Eyes. Time to re
 Talk to Melandir
 
 Quest
+
+## Tables extracted from this page
+
+- tables/depth_Brazen_Eradication_t00.csv (1 rows): Tachien: | Kharakhal: | Molto and Melandir:
+- tables/depth_Brazen_Eradication_t01.csv (1 rows): Tachien: | Kharakhal: | Molto and Melandir:

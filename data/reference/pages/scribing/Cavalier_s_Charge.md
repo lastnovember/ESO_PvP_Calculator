@@ -15,3 +15,7 @@ Increases the damage done by this ability as it travels outwards, increasing by 
 
 ## Notes
 - The Daedric text on the script reads "Charge Damage".
+
+## Tables extracted from this page
+
+- tables/scribing_Cavalier_s_Charge_t00.csv (2 rows): Banner Bearer | Banner Bearer | Increase your Weapon and Spell Damage by 6 for every 1% bonus Movement Speed, up to a ma

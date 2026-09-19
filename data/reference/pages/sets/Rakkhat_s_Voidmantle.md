@@ -55,3 +55,7 @@ Antiquarian Chase: West Solstice
 ### Gallery
 
 File:ON-item-Rakkhat's Voidmantle.jpg|Rakkhat's Voidmantle
+
+## Tables extracted from this page
+
+- tables/sets_Rakkhat_s_Voidmantle_t00.csv (5 rows): 40px | Double-Moon Leather Cop | Orcrest Bosses | Solstice | This appears to be part of an articulated leather shoulder-

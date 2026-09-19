@@ -104,3 +104,10 @@ Sellistrix | 3 sec. | Nearby Enemies | Dealing Damage | 5 sec. | 10% chance per 
 
 ## Other
 - Poisons of Stun will stun enemies for 2.2-10 sec. (Potions with the effect will stun you instead.)
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Stun_t00.csv (40 rows): Skill | Duration | Affects | Cost | Notes
+- tables/uesp_Online_Stun_t01.csv (4 rows): Set | Duration | Affects | Triggered by | Cooldown | Notes
+- tables/depth_Stun_t00.csv (40 rows): Skill | Duration | Affects | Cost | Notes
+- tables/depth_Stun_t01.csv (4 rows): Set | Duration | Affects | Triggered by | Cooldown | Notes

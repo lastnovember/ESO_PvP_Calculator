@@ -371,3 +371,7 @@ If spoken to:currently says the entirety of her post-quest Manor dialogue, shoul
 
 ## Bugs
 When encountered at the Sunport Docks, Gahz says her post-quest Manor dialogue rather than her Sunport dialogue.
+
+## Tables extracted from this page
+
+- tables/depth_Gahz_t00.csv (1 rows): Visited the Wailing Gardens first: | Already visited the Reanimatorium:

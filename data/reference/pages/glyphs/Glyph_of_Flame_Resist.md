@@ -124,3 +124,7 @@ Truly Superb Glyph of Flame Resist | | Itade | 10 | CP160
 3095
 3250
 3520
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Flame_Resist_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

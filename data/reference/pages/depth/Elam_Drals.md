@@ -473,3 +473,9 @@ File:ON-skill-Dark Release.jpg|Dark Release
 File:ON-skill-Dark Release 02.jpg|Dark Release
 File:ON-skill-Dark Release 03.jpg|The explosion
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (left)
+
+## Tables extracted from this page
+
+- tables/depth_Elam_Drals_t00.csv (5 rows): Not a Dark Brotherhood Member: | Dark Brotherhood Member (Female): | Dark Brotherhood Member (Male):
+- tables/depth_Elam_Drals_t01.csv (1 rows): Not a Dark Brotherhood Member: | Dark Brotherhood Member:
+- tables/depth_Elam_Drals_t02.csv (1 rows): Dark Brotherhood Member: | Not a Dark Brotherhood Member:

@@ -48,3 +48,7 @@ style=text-align:center| Summoned by Tidespite when under 50% Health | style=tex
 
 ## Bugs
 Despite being elite rank enemies, the Coral Mudcrabs summoned by Tidespite are vulnerable to crowd control.
+
+## Tables extracted from this page
+
+- tables/depth_Coral_Mudcrab_t00.csv (4 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Health

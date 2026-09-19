@@ -16,3 +16,7 @@ Treasure Hunter increases the quality of the loot found in Treasure Chests. In p
 
 ## Notes
 - Before Update 45, this Champion Star had to be slotted in order to be active.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Treasure_Hunter_champion_t00.csv (3 rows): Constellation | Craft

@@ -48,3 +48,7 @@ My colleague's insight serves her well. I have seen similar mechanisms in the Dw
 ### Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: West Weald
+
+## Tables extracted from this page
+
+- tables/sets_Rourken_Steamguards_t00.csv (5 rows): https://esoicons.uesp.net/esoui/art/icons/antiquities_rourken_heavy_gauntlets_gloves.png | Heartland-Leather Gloves | Bo

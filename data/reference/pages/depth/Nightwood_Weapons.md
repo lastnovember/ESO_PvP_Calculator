@@ -38,3 +38,7 @@ rowspan=6|Nightwood [Type] Staff
 16 Sanded Nightwood
 
 Item
+
+## Tables extracted from this page
+
+- tables/depth_Nightwood_Weapons_t00.csv (3 rows): Base | Fine | Superior | Epic | Legendary

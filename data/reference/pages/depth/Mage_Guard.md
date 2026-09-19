@@ -29,3 +29,7 @@ The following skills replace their weaker counterparts (if they have one) and ar
 ;Unstable Core: The Mage Guard envelops a target in a lightless sphere, which reflects all single target spells cast by the target back to them for a few seconds. When it ends it deals moderate magic damage to the target and nearby enemies. This can be removed by breaking free.
 ;Lasting Storm: The Mage Guard casts a Lightning Splash-like ability which creates a pool of lightning down on a target, dealing minor shock damage over time and snaring anyone standing in the AoE. The area lasts 15 seconds.
 ;Stolen Essence: The Mage Guard deals moderate magic damage to a target and heals themselves for that amount.
+
+## Tables extracted from this page
+
+- tables/depth_Mage_Guard_t00.csv (3 rows): Location | Name | Race | Gender | Health

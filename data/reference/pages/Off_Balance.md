@@ -64,3 +64,8 @@ width=20| | Dizzying Swing(morph) | Hitting an enemy that is already Off Balance
 - Prior to Update 29, Champion Points provided the following effects:
 - The Tactician perk from 120 points in The Atronach will set enemies Off Balance when you perform a Roll Dodge near them.
 - The Exploiter perk from 75 points in The Ritual will increase your damage done against Off Balanced enemies.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Off_Balance_t00.csv (20 rows): Skill | Affects | Cost | Notes
+- tables/depth_Off_Balance_t00.csv (20 rows): Skill | Affects | Cost | Notes

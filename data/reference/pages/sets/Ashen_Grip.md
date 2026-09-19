@@ -49,3 +49,7 @@ Level | Damage | Level | Damage | Level | Damage
 ### Crafting Sites
 
 Crafting Site(s)
+
+## Tables extracted from this page
+
+- tables/sets_Ashen_Grip_t00.csv (14 rows): Level | Damage | Level | Damage | Level | Damage

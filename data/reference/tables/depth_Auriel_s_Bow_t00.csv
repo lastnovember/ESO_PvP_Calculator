@@ -1,6 +1,6 @@
+Siphoning-Siphoning Strikes,Auriel's Bow Ability 2,0,Self,0,0,30 seconds,1351,"| Imbue your weapons with soul-stealing power, causing your Light and Heavy Attacks to heal you for 1438 Health for 20 seconds. Fully charged Heavy Attacks restore twice the value."
 Skill,Cast Time,Target,Range,Radius,Duration,Cost,Description
 Bow-Focused Aim,Auriel's Bow Ability 1,1050,Enemy,4000,0,0,3240
-Siphoning-Siphoning Strikes,Auriel's Bow Ability 2,0,Self,0,0,30 seconds,1351,"| Imbue your weapons with soul-stealing power, causing your Light and Heavy Attacks to heal you for 1438 Health for 20 seconds. Fully charged Heavy Attacks restore twice the value."
 Bow-Snipe,Auriel's Bow - Sky arrows,0,N/A,5000,0,0,0
 Fire Melee,Auriel's Fire,0,Enemy,2800,0,4000,0
 Ranged Basic,Auriel's Bow Light Attack,0,Enemy,2800,0,0,0,Deals 368 Physical Damage

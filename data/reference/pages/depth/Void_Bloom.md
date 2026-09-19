@@ -41,3 +41,7 @@ scope="row"|CP130
 
 scope="row"|CP140
 20 | 18 | 18 | 18 | 19 | 18 | 18 | 129
+
+## Tables extracted from this page
+
+- tables/depth_Void_Bloom_t00.csv (6 rows): Armor Level | Shadowspun Robe/Jerkin | Shadowspun Shoes | Shadowspun Gloves | Shadowspun Hat | Shadowspun Breeches | Sha

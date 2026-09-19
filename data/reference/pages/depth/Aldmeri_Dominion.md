@@ -230,3 +230,8 @@ As with Ebonheart Pact and Daggerfall Covenant members, many generic Aldmeri Dom
 
 ## See Also
 style motif]] based on the armor and weapons used by the Aldmeri Dominion.
+
+## Tables extracted from this page
+
+- tables/depth_Aldmeri_Dominion_t00.csv (19 rows): Khenarthi's Roost
+- tables/depth_Aldmeri_Dominion_t01.csv (1 rows): Generic Members

@@ -63,3 +63,9 @@ Reverberating Bash (One Hand and Shield) | 30% | 10 sec. | Target | 3510 Stamina
 
 ### Champion
 - The Befoul ability on The Shadow increases the effectiveness of healing reduction by 1-33%.
+
+## Tables extracted from this page
+
+- tables/depth_Healing_Received_t00.csv (2 rows): Skill | Increase | Duration | Affects | Cost
+- tables/depth_Healing_Received_t01.csv (4 rows): Skill | Increase | Triggered By
+- tables/depth_Healing_Received_t02.csv (5 rows): Skill | Decrease | Duration | Target | Cost

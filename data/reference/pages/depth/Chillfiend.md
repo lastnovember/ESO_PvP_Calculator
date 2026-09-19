@@ -27,3 +27,7 @@ Vampire Blizzard Witch | Male | Dunmer Vampire | 65423 108669 | Dark Anchors, Da
 ;Magelight:The Chillfiend summons a mote of magelight, revealing stealthed and invisible players around themselves for five seconds. Exposed players cannot return to stealth or invisibility for 3 seconds.
 ;Annulment/Dampen Magic: The Chillfiend summons a damage shield that absorbs a small amount of damage.
 ;Run Away!:When too close to them, the chillfiend backs up to put some distance between their target and themselves.
+
+## Tables extracted from this page
+
+- tables/depth_Chillfiend_t00.csv (5 rows): Name | Gender | Race | Health | Location

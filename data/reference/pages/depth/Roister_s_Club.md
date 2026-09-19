@@ -251,3 +251,8 @@ The Withered Tree
 The Rift
 
 Faction
+
+## Tables extracted from this page
+
+- tables/depth_Roister_s_Club_t00.csv (1 rows): Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact
+- tables/depth_Roister_s_Club_t01.csv (27 rows): Name and Location | Zone

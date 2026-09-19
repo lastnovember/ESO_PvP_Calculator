@@ -14,7 +14,7 @@ under that title. Do not ask for pastes; ask for a new scrape.
 | skills.csv kind column | player, companion or artifact; the engine wants player only |
 | quality values | five values a / b / c / d / e are white / green / blue / purple / gold |
 | morphs | live on the base skill page as morph1desc and morph2desc, not on their own pages |
-| reference/tables/ | every wiki table as CSV, mapped by tables_index.json |
+| reference/tables/ | every wiki table as CSV; tables_index.csv lists each with its page and header, and each page's Markdown ends with the list of its tables |
 | reference/pages/*.md | UESP system pages as text (Combat, Armor, Vampire, Campaigns...) |
 | reference/pages/sets/*.md | every set page as text |
 | reference/pages/skills/*.md | every ability and passive page as text, both ranks |

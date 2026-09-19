@@ -69,3 +69,12 @@ Dual Wield Expert
 Controlled Fury
 Ruffian
 Twin Blade and Blunt
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Dual_Wield_t00.csv (29 rows): 2 | Flurry
+- tables/uesp_Online_Dual_Wield_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Dual_Wield_t02.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Dual_Wield_t03.csv (10 rows): Ability Name | Weapon set name | Description
+- tables/uesp_Online_Dual_Wield_t04.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/depth_Dual_Wield_t00.csv (10 rows): Ability Name | Weapon set name | Description

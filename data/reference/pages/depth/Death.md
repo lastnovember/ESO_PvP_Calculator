@@ -125,3 +125,7 @@ Sunbolt | Sunbolt | Sunbolt attack from Distributary
 Minor Fracture | Sundered | Sundered status effect
 
 Triple Strike | Triple Strike | Triple Strike attack from Honor Guards
+
+## Tables extracted from this page
+
+- tables/depth_Death_t00.csv (53 rows): Anthelmir's Construct | Anthelmir's Construct | Damage from Anthelmir's Construct set

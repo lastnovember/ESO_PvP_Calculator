@@ -22,3 +22,7 @@ Cyrodiil | Gray Viper Mender | Imperial | Varies | 40643
 ;Minor Wound:A basic ranged attack dealing minor magic damage
 ;Focused Healing:The healer will heal any allies that are hurt, including itself but for half as much. Enemies often indicate this by calling out for healing (I'm hurt!, I need healing!, Healer! etc.). This effect appears as a yellow beam connecting the healer and its target which breaks if the line of sight between them is broken. The first tick begins 0.5 seconds after the channel begins, and also heals half as much for the first 3 ticks. This can be interrupted to set the healer off balance. The healer never targets summons from themselves or their allies, for example Ice Barrier.
 ;Run Away!:When too close to them, the healer backs up to put some distance between their target and themselves.
+
+## Tables extracted from this page
+
+- tables/depth_Healer_t00.csv (5 rows): Location | Name | Race | Gender | Health

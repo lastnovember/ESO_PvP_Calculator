@@ -99,3 +99,8 @@ If you spared Gaelle, she will hand you the Bloodstained Cloth and flees. If you
 Prince Naemon takes the Staff of Magnus and turns Gaelle to stone:
 :Prince Naemon: "You will serve as a warning for all who seek to undermine me."
 :
+
+## Tables extracted from this page
+
+- tables/depth_Gaelle_Notte_t00.csv (1 rows): Wearing Worm Cult Apprentice Garb: | Wearing Worm Cult Bonelord Armor:
+- tables/depth_Gaelle_Notte_t01.csv (1 rows): Killed Prince Naemon Previously: | Otherwise:

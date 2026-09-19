@@ -122,3 +122,11 @@ rowspan=2|
 140 Rubedite Ingots
 
 Item
+
+## Tables extracted from this page
+
+- tables/depth_Battle_Axes_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Battle_Axes_t01.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Battle_Axes_t02.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Battle_Axes_t03.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Battle_Axes_t04.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard

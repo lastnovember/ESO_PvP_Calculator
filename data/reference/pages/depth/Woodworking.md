@@ -70,3 +70,12 @@ Sometimes when you create a Birch item it may have the Yew texture; this also ha
 
 ## Achievements
 There are a number of achievements associated with Woodworking.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Woodworking_t00.csv (41 rows): 1 | Woodworking I
+- tables/uesp_Online_Woodworking_t01.csv (26 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Woodworking_t02.csv (7 rows): Order | Progression | Skill points required
+- tables/uesp_Online_Woodworking_t03.csv (10 rows): Raw Material | Refined Into | Used To Make... | Levels
+- tables/uesp_Online_Woodworking_t04.csv (14 rows): ​ | Legendary Woodworker | 50 | Improve Woodworking items to all available Qualities. | Mastic Yellow
+- tables/depth_Woodworking_t00.csv (7 rows): Order | Progression | Skill points required

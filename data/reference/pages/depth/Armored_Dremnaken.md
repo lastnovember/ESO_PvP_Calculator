@@ -34,3 +34,7 @@ Zone / Dungeon | Specific Location / Quest | Difficulty | Health
 style=text-align:center| Scrivener's HallScribes of Fate | style=text-align:center| The Deadlands | style=text-align:center| | style=text-align:center|
 
 style=text-align:center| Apogee of the Tormenting Eye | style=text-align:center| Breach Portals | style=text-align:center| | style=text-align:center| s
+
+## Tables extracted from this page
+
+- tables/depth_Armored_Dremnaken_t00.csv (3 rows): Zone / Dungeon | Specific Location / Quest | Difficulty | Health

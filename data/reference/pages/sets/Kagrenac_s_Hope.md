@@ -49,3 +49,7 @@ Level | Restores | Level | Restores | Level | Restores
 
 ### Crafting Sites
 The Earth Forge
+
+## Tables extracted from this page
+
+- tables/sets_Kagrenac_s_Hope_t00.csv (14 rows): Level | Restores | Level | Restores | Level | Restores

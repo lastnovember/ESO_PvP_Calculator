@@ -28,3 +28,7 @@ Generic, unnamed Bog Dog Bonecrushers can be encountered in various places acros
 Zone / Dungeon | Specific Location | Difficulty | Health
 
 style=text-align:center| Exiled RedoubtFallen Banners | style=text-align:center| Dungeon Occupants | style=text-align:center| | style=text-align:center|
+
+## Tables extracted from this page
+
+- tables/depth_Bog_Dog_Bonecrusher_t00.csv (2 rows): Zone / Dungeon | Specific Location | Difficulty | Health

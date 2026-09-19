@@ -50,3 +50,7 @@ Generic Members
 - Warm Welcome
 
 Faction
+
+## Tables extracted from this page
+
+- tables/depth_Renrijra_Maor_t00.csv (1 rows): Shadowfen Party

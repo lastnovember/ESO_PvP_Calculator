@@ -1,5 +1,5 @@
-Trait,Material,Description,Magnitude
 Normal,Fine,Superior,Epic,Legendary
+Trait,Material,Description,Magnitude
 Sturdy,Quartz,Reduce block cost by …,2% (white) / 2.5% (green) / 3% (blue) / 3.5% (purple) / 4% (gold)
 Impenetrable,Diamond,Increase your Critical Resistance by … and this item takes 50% less durability damage.,121 (white) / 124 (green) / 127 (blue) / 129 (purple) / 132 (gold)
 Reinforced,Sardonyx,Increases this item's armor value by …,12% (white) / 13% (green) / 14% (blue) / 15% (purple) / 16% (gold)

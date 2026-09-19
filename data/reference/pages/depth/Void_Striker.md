@@ -24,3 +24,7 @@ Halls of Arkthzand | Mortas | Nede | Male | 147228
 Getting stunned by "Shade Aura" lacks the stunned animation on the player character (as in, missing the dazed and confused animation).
 
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Void_Striker_t00.csv (3 rows): Location | Name | Race | Gender | Health

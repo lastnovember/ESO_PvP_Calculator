@@ -348,3 +348,9 @@ Clear Water is also used in one Provisioning recipe (unfortunately higher level 
 - Pre-Update 12, Natural Water was found in Tier 1 Zones, Clear Water in Tier 1 and 2, Pristine Water in Tier 2 and 3, Cleansed Water in Tier 4 and 5, Filtered Water in Coldharbour, Purified Water in Veteran Silver Zones, Cloud Mist in Veteran Gold Zones, Star Dew in Craglorn, and Lorkhan's Tears in the existing battle-leveled zones.
 - Pre-Update 9, Lorkhan's Tears was consistently found in Imperial City.
 - Pre-Update 8, Filtered Water was consistently found in Cyrodiil.
+
+## Tables extracted from this page
+
+- tables/depth_Alchemy_Ingredients_t00.csv (34 rows): Reagent | Primary Effect | Secondary Effect | Tertiary Effect | Quaternary Effect | Comes from
+- tables/depth_Alchemy_Ingredients_t01.csv (9 rows): * | Clear Water | 10 | Tincture of | 1
+- tables/depth_Alchemy_Ingredients_t02.csv (9 rows): Solvent | Poison Level | Poison Suffix | 32

@@ -1,5 +1,5 @@
-Trait,Material,Description,Magnitude
 Normal,Fine,Superior,Epic,Legendary
+Trait,Material,Description,Magnitude
 Powered,Chysolite,Increase healing done by …,1H,2.5%,3%,3.5%,4%,4.5%
 2H,5%,6%,7%,8%,9%
 Charged,Amethyst,Increase your chance to apply status effects by …,1H,97.5%,102.5%,107.5%,112.5%,117.5%

@@ -18,3 +18,7 @@ Increases damage done with area of effect attacks by 6%. Reduce your Health, Mag
 
 ## Notes
 - The Daedric text on the script reads "Multi Hit".
+
+## Tables extracted from this page
+
+- tables/scribing_Multi-Target_t00.csv (3 rows): Shield Throw | Shield Throw (Shattering Throw) | Deals 2145 Physical Damage to an enemy and bounces up to 2 times to ran

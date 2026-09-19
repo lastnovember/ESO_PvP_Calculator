@@ -71,3 +71,10 @@ Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact
 - Pact's Inferno Staff
 - Pact's Lightning Staff
 - Pact's Ring
+
+## Tables extracted from this page
+
+- tables/sets_Deprecated_Item_Sets_t00.csv (1 rows): Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact
+- tables/sets_Deprecated_Item_Sets_t01.csv (1 rows): Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact
+- tables/sets_Deprecated_Item_Sets_t02.csv (1 rows): Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact
+- tables/sets_Deprecated_Item_Sets_t03.csv (1 rows): Aldmeri Dominion | Daggerfall Covenant | Ebonheart Pact

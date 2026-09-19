@@ -47,3 +47,7 @@ Mages are still quite fond of this kind of clasp for many of their more powerful
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Blackwood
+
+## Tables extracted from this page
+
+- tables/sets_Shapeshifter_s_Chain_t00.csv (5 rows): 40px | Chain of the Bone Goliath | Mad Architect in the Vaults of Madness | Coldharbour | Can anyone make out the carvin

@@ -21,3 +21,7 @@ Grants Major Brutality and Major Sorcery, increasing Weapon and Spell Damage by 
 
 ## Notes
 - The Daedric text on the script reads "Brutal Sorcery".
+
+## Tables extracted from this page
+
+- tables/scribing_Brutality_and_Sorcery_t00.csv (4 rows): Elemental Explosion | Elemental Explosion | If an enemy was hit, grants you Major Brutality and Major Sorcery for 10 sec

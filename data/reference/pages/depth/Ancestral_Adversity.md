@@ -498,3 +498,7 @@ Talk to Narsis Dren
 Push Narsis Dren
 fin|I should head back outside and let Elfbetta know that Narsis isn't doing well.
 Talk to Elfbetta
+
+## Tables extracted from this page
+
+- tables/depth_Ancestral_Adversity_t00.csv (1 rows): First time meeting: | If you met Narsis Dren previously in Wrothgar:

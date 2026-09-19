@@ -300,3 +300,8 @@ Nav Footer
 Prev=None
 Next=An Unexpected Adversary
 Up=Blackwood
+
+## Tables extracted from this page
+
+- tables/depth_A_Deadly_Secret_t00.csv (1 rows): Completed Blackwood Prologue: | First Time Meeting: | Met Eveli Previously:
+- tables/depth_A_Deadly_Secret_t01.csv (1 rows): Have not warned Councilor Vandacia: | Already warned Councilor Vandacia:

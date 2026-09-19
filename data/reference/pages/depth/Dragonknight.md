@@ -112,3 +112,10 @@ Article about the 2026 Dragonknight Class rework.
 
 ## Notes
 - The Dragonknight class icon is known as 'Dragonguard' in the game file, suggesting it may have been an earlier name for the class.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Dragonknight_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/uesp_Online_Dragonknight_t01.csv (5 rows): Dragonknight Initiate | Inferno Dragon | Venomous Dragon | Stoneskin Dragon | Elder Dragon
+- tables/depth_Dragonknight_t00.csv (5 rows): Build | Role | Description | Primary Stat
+- tables/depth_Dragonknight_t01.csv (5 rows): Dragonknight Initiate | #000000| | #aaff00|Dragon Blood | #ff7700|Searing Strike Magma Armor Molten Weapons Obsidian Sha

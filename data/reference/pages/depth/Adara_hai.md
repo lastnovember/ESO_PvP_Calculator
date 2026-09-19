@@ -448,3 +448,11 @@ Dak'radhi]].
 
 File:ON-npc-Adara'hai 04.jpg|
 File:ON-npc-Adara'hai 0.jpg|
+
+## Tables extracted from this page
+
+- tables/depth_Adara_hai_t00.csv (1 rows): Default circumstance: | If the main quest has been completed:
+- tables/depth_Adara_hai_t01.csv (1 rows): Main quest not complete: | Main quest complete:
+- tables/depth_Adara_hai_t02.csv (1 rows): Completed Into the Maw: | Otherwise:
+- tables/depth_Adara_hai_t03.csv (1 rows): Completed Into the Maw: | Otherwise Adara'hai will educate you about the dro-m'Athra:
+- tables/depth_Adara_hai_t04.csv (1 rows): Cleared Maw of Lorkhaj | Otherwise:

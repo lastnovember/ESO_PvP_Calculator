@@ -147,3 +147,20 @@ Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc |
 colspan=7|
 
 Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+
+## Tables extracted from this page
+
+- tables/depth_Dwarven_Weapons_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Dwarven_Weapons_t01.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Dwarven_Weapons_t02.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Dwarven_Weapons_t03.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Dwarven_Weapons_t04.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Dwarven_Weapons_t05.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Dwarven_Weapons_t06.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Dwarven_Weapons_t07.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Dwarven_Weapons_t08.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Dwarven_Weapons_t09.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Dwarven_Weapons_t10.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Dwarven_Weapons_t11.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Dwarven_Weapons_t12.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Dwarven_Weapons_t13.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan

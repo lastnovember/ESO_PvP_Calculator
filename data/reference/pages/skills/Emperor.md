@@ -95,3 +95,8 @@ File:ON-concept-Emperor Armor.jpg|Concept art
 [Patch 2.4.5] * Tactician: Fixed an issue where this passive ability was increasing the damage of Siege Weapons against players and monsters.
 [Patch 2.7.5] * Monarch: Fixed an issue where this passive ability was only increasing the healing received from your own heals instead of all heals.
 [Patch 5.1.5] * You can no longer generate Ultimate while in a transformation, such as Bone Goliath Transformation or Werewolf, while you are Emperor.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Emperor_t00.csv (5 rows): Name | Description
+- tables/skills_Emperor_t00.csv (5 rows): Emperor-Domination | Domination | Increases your Health, Magicka, and Stamina Recovery while in your campaign, depending

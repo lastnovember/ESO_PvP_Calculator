@@ -15,3 +15,7 @@ Generates 1 Ultimate to you and your allies with each sweep. Beneficial Signatur
 
 ## Notes
 - The Daedric text on the script reads "Ultimate".
+
+## Tables extracted from this page
+
+- tables/scribing_Generate_Ultimate_t00.csv (2 rows): Mender's Bond | Mender's Bond | Transfers 1 Ultimate from you to the ally every 1 second.

@@ -122,3 +122,7 @@ After completing the objective at Caterwaul Cove, Armelle will appear with the r
 
 ## Notes
 - Her use of the druid word "Draigh" implies she is from the Systres.
+
+## Tables extracted from this page
+
+- tables/depth_Armelle_Madach_t00.csv (1 rows): Remained Undetected: | Was discovered in Seaside Caves:

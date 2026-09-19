@@ -294,3 +294,8 @@ Generic Members
 
 ## See Also
 style motif]] based on the armor and weapons used by House Telvanni.
+
+## Tables extracted from this page
+
+- tables/depth_House_Telvanni_t00.csv (5 rows): Name | Location | Mouth
+- tables/depth_House_Telvanni_t01.csv (1 rows): Named Members

@@ -43,3 +43,7 @@ style=text-align:center| Eastern Solstice | style=text-align:center| Southwest o
 ## Gallery
 
 File:ON-npc-Bone Reaver 02.jpg|A Bone Reaver in Tarnur Mine
+
+## Tables extracted from this page
+
+- tables/depth_Bone_Reaver_t00.csv (6 rows): Zone / Dungeon | Specific Location | Difficulty | Health

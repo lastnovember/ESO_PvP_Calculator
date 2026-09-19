@@ -256,3 +256,7 @@ File:ON-prerelease-02.jpg|Prerelease render of a flame atronach
 File:ON-prerelease-Flame Atronach Battle.jpg|An atronach in battle
 File:ON-prerelease-31.jpg|An atronach in Coldharbour
 File:ON-prerelease-Fire Atronach.jpg|An atronach
+
+## Tables extracted from this page
+
+- tables/depth_Flame_Atronach_t00.csv (63 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Health

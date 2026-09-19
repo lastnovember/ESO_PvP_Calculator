@@ -31,3 +31,7 @@ Zone / Dungeon | Specific Location | Reaction | Difficulty | Health
 style=text-align:center| Bangkorai | style=text-align:center| Summoned by spriggans | style=text-align:center| Hostile | style=text-align:center| | style=text-align:center| The spriggan's current Health, up to 80% of the spriggan's Max Health
 
 style=text-align:center| Lep Seclusa | style=text-align:center| | style=text-align:center| Hostile | style=text-align:center| | style=text-align:center|
+
+## Tables extracted from this page
+
+- tables/depth_Ambush_Beetle_t00.csv (2 rows): Zone / Dungeon | Specific Location | Reaction | Difficulty | Health

@@ -158,3 +158,7 @@ Rank | Reputation Required for Next Rank | Total Reputation for Rank
 style motif]] based on the armor and weapons used by the Thieves Guild.
 - Justice, the crime and punishment system.
 - Legerdemain, a skill line for thieves.
+
+## Tables extracted from this page
+
+- tables/depth_Thieves_Guild_t00.csv (12 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank

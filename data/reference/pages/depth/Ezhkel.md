@@ -260,3 +260,10 @@ Once you finish your conversation, Ezhkel will say farewell:
 
 ## Bugs
 The reply "I'm a sorcerer and I practice conjuration magic." also appears for necromancer and templar characters
+
+## Tables extracted from this page
+
+- tables/depth_Ezhkel_t00.csv (1 rows): Character has a Sorcerer skill lineSorcerer: | Otherwise:
+- tables/depth_Ezhkel_t01.csv (1 rows): Character has a Sorcerer skill lineSorcerer: | Otherwise:
+- tables/depth_Ezhkel_t02.csv (1 rows): Character has a Sorcerer skill lineSorcerer: | Otherwise:
+- tables/depth_Ezhkel_t03.csv (1 rows): Picked Neutral and JokerJoker options during quest: | Picked FlirtyFlirty options during quest:

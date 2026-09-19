@@ -151,3 +151,10 @@ File:ON-icon-grains-Terne.png|Terne Grains (deprecated)
 File:ON-icon-grains-Iridium.png|Iridium Grains (deprecated)
 File:ON-icon-grains-Zircon.png|Zircon Grains (deprecated)
 File:ON-icon-grains-Chromium.png|Chromium Grains (deprecated)
+
+## Tables extracted from this page
+
+- tables/depth_Jewelry_Crafting_Materials_t00.csv (5 rows): Material | Dust | Refine Into
+- tables/depth_Jewelry_Crafting_Materials_t01.csv (5 rows): Ounce | Craft Into
+- tables/depth_Jewelry_Crafting_Materials_t02.csv (4 rows): Platings | Effect
+- tables/depth_Jewelry_Crafting_Materials_t03.csv (19 rows): Pulverized Material | Trait | Description | Source

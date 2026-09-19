@@ -3509,3 +3509,21 @@ File:ON-trailer-dark heart announcement-Lyris Titanborn 02.jpg|Lyris in The Dark
 File:ON-trailer-greymoor launch-Lyris Titanborn 02.jpg|Lyris in The Dark Heart of Skyrim Launch Cinematic
 File:ON-trailer-greymoor launch-Werewolf 04.jpg|Lyris fighting werewolves in The Dark Heart of Skyrim Launch Cinematic
 File:ON-trailer-greymoor launch-Lyris Titanborn.jpg|Lyris fighting werewolves in The Dark Heart of Skyrim Launch Cinematic
+
+## Tables extracted from this page
+
+- tables/depth_Lyris_Titanborn_t00.csv (3 rows): Option | Dialogue
+- tables/depth_Lyris_Titanborn_t01.csv (3 rows): Option | Dialogue
+- tables/depth_Lyris_Titanborn_t02.csv (2 rows): Sure. | Not really. | Never had it.
+- tables/depth_Lyris_Titanborn_t03.csv (1 rows): First time meeting Lyris: | Started Main Quest: | Completed God Of Schemes: | Completed God Of Schemes with Lyris sacrif
+- tables/depth_Lyris_Titanborn_t04.csv (1 rows): First time meeting Lyris: | Met her during Main Quest:
+- tables/depth_Lyris_Titanborn_t05.csv (1 rows): Aldmeri Dominion: | Daggerfall Covenant: | Ebonheart Pact:
+- tables/depth_Lyris_Titanborn_t06.csv (1 rows): Completed Icereach: | Have not completed Icereach:
+- tables/depth_Lyris_Titanborn_t07.csv (1 rows): Prior to completing the Main Quest: | God Of Schemes is completed: | Sai Sahan was sacrificed during God Of Schemes and 
+- tables/depth_Lyris_Titanborn_t08.csv (1 rows): Completed Greymoor Prologue: | First time meeting: | Known as the Vestige from the Main Quest: | Previously completed Ic
+- tables/depth_Lyris_Titanborn_t09.csv (1 rows): Normal Dialogue | If player is a Vampire:
+- tables/depth_Lyris_Titanborn_t10.csv (1 rows): Normal dialogue: | If the player is a vampire:
+- tables/depth_Lyris_Titanborn_t11.csv (1 rows): Already helped Svana and Fennorian: | Already Helped Svana: | Already Helped Fennorian:
+- tables/depth_Lyris_Titanborn_t12.csv (1 rows): Completed Daughter of Giants: | Otherwise:
+- tables/depth_Lyris_Titanborn_t13.csv (1 rows): Completed The Lady of Blood: | Otherwise:
+- tables/depth_Lyris_Titanborn_t14.csv (1 rows): Red Eagle's Song incomplete: | Completed Red Eagle's Song:

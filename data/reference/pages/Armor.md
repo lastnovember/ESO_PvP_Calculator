@@ -70,3 +70,8 @@ The following enchantments (all additive) can be added to armor:
 File:ON-concept-16.jpg|Heavy Armor (High Elf, Nord, Breton)
 File:ON-concept-Heavy Armor.jpg|Heavy Armor (Redguard, Wood Elf, Dark Elf)
 File:ON-concept-Heavy Armor 03.jpg|Heavy Armor (Argonian, Orc, Khajiit)
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Armor_t00.csv (136 rows): Style | Material | Motif
+- tables/uesp_Online_Armor_t01.csv (10 rows): Normal | Fine | Superior | Epic | Legendary

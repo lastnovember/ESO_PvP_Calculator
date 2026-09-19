@@ -63,3 +63,7 @@ Veteran Alit Slayer
 ## Gallery
 
 File:ON-creature-Alit 02.jpg|A brown alit
+
+## Tables extracted from this page
+
+- tables/depth_Alit_t00.csv (5 rows): Zone / Dungeon | Specific Location | Difficulty | Health

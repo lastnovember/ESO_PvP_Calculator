@@ -50,3 +50,7 @@ spriggan]] summons, bog dogs summoned by spriggans don't have nameplates and can
 File:ON-creature-Bog Dog 02.jpg|A bog dog drinking water near Xal Irasotl
 File:ON-creature-Bog Dog 03.jpg|A bog dog empowered by the lures around Xal Irasotl, rolling on its back
 File:ON-render-Wildburn 02.jpg|Featured in a promotional render
+
+## Tables extracted from this page
+
+- tables/depth_Bog_Dog_t00.csv (4 rows): Zone / Dungeon | Specific Location | Difficulty | Health

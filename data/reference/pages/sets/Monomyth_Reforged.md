@@ -52,3 +52,7 @@ Jewelry isn't my strong suit, but this piece is interesting. Some ancient enchan
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: West Solstice
+
+## Tables extracted from this page
+
+- tables/sets_Monomyth_Reforged_t00.csv (5 rows): 40px | Duotone Engraved Band | The Weeping Woman in Depths of Malatar | Gold Coast | Lovely piece, exquisitely carved. C

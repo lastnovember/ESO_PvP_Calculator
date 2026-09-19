@@ -32,3 +32,7 @@ scope="row"|48
 
 scope="row"|50
 13 | 11 | 11 | 11 | 12 | 11 | 11 | 80
+
+## Tables extracted from this page
+
+- tables/depth_Ebonthread_t00.csv (3 rows): Armor Level | Ebonthread Robe/Jerkin | Ebonthread Shoes | Ebonthread Gloves | Ebonthread Hat | Ebonthread Breeches | Ebo

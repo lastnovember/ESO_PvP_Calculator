@@ -33,3 +33,7 @@ Heals for 949 Health every 2 seconds.
 
 ## Notes
 - The Daedric text on the script reads "Time Healing".
+
+## Tables extracted from this page
+
+- tables/scribing_Sage_s_Remedy_t00.csv (8 rows): Mender's Bond | Mender's Bond | Heals the ally and other allies when they leave the link for 12774 Health over 5 seconds

@@ -65,3 +65,7 @@ Fearless Physician
 ## Notes
 - Deathmatch games have the potential to net Pit Daemon Style style pages.
 - A popular stratagem among players it to move as a team and stay grouped. This will ensure all the group gets heals and makes it harder for the enemy team to only focus one of you. Though do not stack with each other as enemies will be able to hit all of you with AoEs.
+
+## Tables extracted from this page
+
+- tables/depth_Deathmatch_t00.csv (21 rows): Icon | Name | Points | Description

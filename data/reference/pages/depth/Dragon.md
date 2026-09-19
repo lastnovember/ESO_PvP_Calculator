@@ -335,3 +335,7 @@ File:ON-concept-Dragon Meshes.jpg|Sculpts of Bahlokdaan
 File:ON-concept-Yolnahkriin Mesh.jpg|Meshes for Yolnahkriin
 File:ON-concept-Elsweyr.jpg|Elsweyr key art
 File:ON-concept-Scalebreaker.jpg|Sahrotnax in the Scalebreaker key art
+
+## Tables extracted from this page
+
+- tables/depth_Dragon_t00.csv (40 rows): Shout | Translated | Corresponding ability

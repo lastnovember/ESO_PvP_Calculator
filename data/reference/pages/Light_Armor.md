@@ -36,3 +36,10 @@ Evocation
 Spell Warding
 Prodigy
 Concentration
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Light_Armor_t00.csv (23 rows): Grace I | 2
+- tables/uesp_Online_Light_Armor_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Light_Armor_t02.csv (1 rows): Set Name | Bonuses | Location(s) | Set Type
+- tables/uesp_Online_Light_Armor_t03.csv (13 rows): Name | Line Rank | Skill Rank | Description

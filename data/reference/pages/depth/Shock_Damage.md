@@ -141,3 +141,10 @@ There are several ways of protecting yourself against Shock Damage.
 - A Glyph of Shock Resist, created with a Meip Essence rune and a negative Potency rune, can be applied to jewelry.
 - Any effect which increases your Spell Resistance will also reduce Shock Damage in addition to several other elemental types.
 - Elemental Aegis in the Staving Death subconstellation of Warfare reduces Shock Damage taken.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Shock_Damage_t00.csv (79 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Shock_Damage_t01.csv (22 rows): Set | Weight | 5 piece bonus
+- tables/depth_Shock_Damage_t00.csv (4 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/depth_Shock_Damage_t01.csv (22 rows): Set | Weight | 5 piece bonus

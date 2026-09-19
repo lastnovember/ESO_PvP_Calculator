@@ -74,3 +74,7 @@ Trader's Cove Party Dark Brotherhood
 - Galmon's Note
 - Sanguine's Revelers Note
 Faction
+
+## Tables extracted from this page
+
+- tables/depth_Sanguine_s_Revelers_t00.csv (1 rows): Cyrodiil Party

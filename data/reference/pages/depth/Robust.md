@@ -156,3 +156,7 @@ rowspan=2|Platinum
 CP150 | 750 (white) / 780 (green) / 810 (blue) / 830 (purple) / 860 (gold)
 
 CP160 | 760 (white) / 790 (green) / 820 (blue) / 840 (purple) / 870 (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Robust_t00.csv (67 rows): 7Normal | 7Fine | 7Superior | 7Epic | 7Legendary

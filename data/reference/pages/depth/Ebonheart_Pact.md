@@ -269,3 +269,8 @@ As with Daggerfall Covenant and Aldmeri Dominion members, many generic Ebonheart
 
 ## See Also
 style motif]] based on the armor and weapons used by the Ebonheart Pact.
+
+## Tables extracted from this page
+
+- tables/depth_Ebonheart_Pact_t00.csv (21 rows): Bleakrock Isle and Bal Foyen
+- tables/depth_Ebonheart_Pact_t01.csv (1 rows): Generic Members

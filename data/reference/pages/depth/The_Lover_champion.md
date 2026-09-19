@@ -27,3 +27,8 @@ Synergizer | 30 | Grants 2 Ultimate any time you activate a Synergy while in com
 Master Gatherer | 75 | Reduces gathering times by 50%.
 
 Windrunning | 120 | Increases your Movement Speed and Mounted Speed by 2%. Also increases Health and Magicka Recovery by 10% while sprinting.
+
+## Tables extracted from this page
+
+- tables/depth_The_Lover_champion_t00.csv (4 rows): 40px | Arcanist | Increases your Magicka Recovery by [0-15]%.
+- tables/depth_The_Lover_champion_t01.csv (4 rows): 40px | Plentiful Harvest | 10 | Grants you a 10% chance to double the yield from normal resource nodes.

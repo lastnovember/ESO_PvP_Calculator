@@ -71,3 +71,12 @@ Restoration Expert
 Cycle of Life
 Absorb
 Restoration Master
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Restoration_Staff_t00.csv (29 rows): 2 | Grand Healing
+- tables/uesp_Online_Restoration_Staff_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Restoration_Staff_t02.csv (25 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Restoration_Staff_t03.csv (10 rows): Ability Name | Weapon set name | Description
+- tables/uesp_Online_Restoration_Staff_t04.csv (10 rows): Name | Line Rank | Skill Rank | Description
+- tables/depth_Restoration_Staff_t00.csv (10 rows): Ability Name | Weapon set name | Description

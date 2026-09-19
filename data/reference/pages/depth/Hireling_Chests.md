@@ -39,3 +39,7 @@ What could be inside? Open it and see...
 ## Bugs
 beta]].
 The containers can sometimes be empty.
+
+## Tables extracted from this page
+
+- tables/depth_Hireling_Chests_t00.csv (5 rows): Anchor | Blacksmith's Chest Blacksmith's Chest | Container | 1 | 3 | What could be inside? Open it and see...

@@ -276,3 +276,9 @@ Nav Footer
 Prev=The Final Dark
 Next=None
 Up=Solstice
+
+## Tables extracted from this page
+
+- tables/depth_The_Golden_Knight_t00.csv (2 rows): Met Darien before Solstice: | Did not know Darien before Solstice:
+- tables/depth_The_Golden_Knight_t01.csv (2 rows): align=center | width=250 | image1=ON-quest-The Golden Knight 10.jpg | caption1=Darien is subdued. | image2=ON-quest-The 
+- tables/depth_The_Golden_Knight_t02.csv (1 rows): Were able to help Darien: | Unable to help Darien:

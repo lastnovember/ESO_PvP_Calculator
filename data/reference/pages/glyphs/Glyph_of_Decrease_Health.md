@@ -131,3 +131,7 @@ Truly Superb Glyph of Decrease Health | | Itade | 10 | CP160
 
 ## Notes
 - Despite dealing Oblivion Damage, the Glyph of Decrease Health enchantment used to critically strike and trigger sets and passives triggered by dealing critical damage such as Hemorrhage. This wasn't an intended behavior, fortunately its damage wasn't increased when critically striking. This was silently fixed between the 10 March and 06 October of 2025.
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Decrease_Health_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

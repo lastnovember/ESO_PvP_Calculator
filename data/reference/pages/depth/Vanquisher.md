@@ -24,3 +24,7 @@ Old OrsiniumOrsinium | Winterborn Butcher | Reachman | Varies | a
 ;Javelin: The vanquisher takes out a javelin from behind their back and tosses it at their target, dealing low physical damage and staggering them. This can be interrupted to set them off balance. This attack is used more often when standing further out from the vanquisher.
 ;Roll Dodge Back: The vanquisher roll dodges away from their target, evading attacks in the process.
 Class
+
+## Tables extracted from this page
+
+- tables/depth_Vanquisher_t00.csv (4 rows): Location | Name | Race | Gender | Health

@@ -246,3 +246,7 @@ File:ON-concept-achievement-Anchors Away.jpg|Render
 
 ## Notes
 - The Dark Anchor above White-Gold Tower Pinnacle serves as a trap during the fight with Molag Kena, as the Sudden Sacrifice instakill ability is credited as being a result of the anchor in death recaps.
+
+## Tables extracted from this page
+
+- tables/depth_Dark_Anchors_t00.csv (32 rows): Generals | Molag Bal's Commentaries

@@ -1641,3 +1641,10 @@ File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this
 ## Achievements
 There are four achievements associated with this companion:
 Candies and Cutpurses
+
+## Tables extracted from this page
+
+- tables/depth_Isobel_Veloise_t00.csv (10 rows): Racial Skill | Enchanted: Decreases ability cooldowns by 3% and damage taken by 3%.
+- tables/depth_Isobel_Veloise_t01.csv (7 rows): Quest | Isobel's Commentary
+- tables/depth_Isobel_Veloise_t02.csv (6 rows): Cordial-Friendly | Close-Companion | Wary-Disdainful
+- tables/depth_Isobel_Veloise_t03.csv (9 rows): Cordial/Friendly | Close | Allied | Companion

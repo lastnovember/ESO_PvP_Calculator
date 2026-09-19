@@ -24,3 +24,7 @@ rowspan=3|Birch [Type] Staff
 9 Sanded Birch
 
 10 Sanded Birch
+
+## Tables extracted from this page
+
+- tables/depth_Birch_Weapons_t00.csv (3 rows): Base | Fine | Superior | Epic | Legendary

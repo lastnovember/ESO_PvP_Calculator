@@ -41,3 +41,7 @@ scope="row"|22
 
 scope="row"|24
 12 | 10 | 10 | 10 | 11 | 10 | 10 | 73
+
+## Tables extracted from this page
+
+- tables/depth_Hide_t00.csv (5 rows): Armor Level | Hide Jack | Hide Boots | Hide Bracers | Hide Helmet | Hide Guards | Hide Arm Cops | Hide Belt | Total

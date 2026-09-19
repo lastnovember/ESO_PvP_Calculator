@@ -1472,3 +1472,11 @@ File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this
 ## Achievements
 There are four achievements associated with this companion:
 Candies and Cutpurses
+
+## Tables extracted from this page
+
+- tables/depth_Ember_t00.csv (10 rows): Racial Skill | Cunning: Increases Critical Chance by 3% and damage done by 3%.
+- tables/depth_Ember_t01.csv (7 rows): Quest | Ember's Commentary
+- tables/depth_Ember_t02.csv (6 rows): Cordial-Friendly | Companion-Allied | Bad Rapport
+- tables/depth_Ember_t03.csv (5 rows): Cordial/Friendly | Close | Allied | Companion
+- tables/depth_Ember_t04.csv (4 rows): Wary | Irritated | Disdainful

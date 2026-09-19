@@ -15,3 +15,7 @@ Deals 4155 Frost damage to enemies. Beneficial Signature and Affix scripts only 
 
 ## Notes
 - The Daedric text on the script reads "Frost".
+
+## Tables extracted from this page
+
+- tables/scribing_Frost_Damage_script_t00.csv (2 rows): Elemental Explosion | Elemental Explosion (Chilling Explosion) | Deals 8225 Frost damage to enemies.

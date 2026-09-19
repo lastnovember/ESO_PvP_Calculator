@@ -392,3 +392,7 @@ File:ON-crown store-Erilthel.jpg|Promotional render
 File:ON-card-Erilthel.png|Card
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Erilthel_t00.csv (1 rows): Met Erithel before: | First time meeting:

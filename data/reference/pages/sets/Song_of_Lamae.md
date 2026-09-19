@@ -49,3 +49,7 @@ Level | Damage | Recover | Level | Damage | Recover | Level | Damage | Recover
 ### Crafting Sites
 
 Crafting Site(s)
+
+## Tables extracted from this page
+
+- tables/sets_Song_of_Lamae_t00.csv (14 rows): Level | Damage | Recover | Level | Damage | Recover | Level | Damage | Recover

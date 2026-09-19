@@ -46,3 +46,7 @@ My dear colleague Reginus is, as usual, more right than he lets himself admit. D
 ## Achievements
 There are two achievements associated with this item:
 Antiquarian Chase: Western Skyrim
+
+## Tables extracted from this page
+
+- tables/sets_Torc_of_Tonal_Constancy_t00.csv (5 rows): 40px | Torc Strand of Lore | World Bosses | Alik'r Desert | Unusual--this metal band is about the size of a neck-ring, b

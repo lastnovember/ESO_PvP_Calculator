@@ -1519,3 +1519,9 @@ Jakarn may not speak to you.
 File:ON-concept-Jakarn.jpg|Concept art
 File:ON-wallpaper-Celebrate 10 Years of Amazing Stories and Characters with this New Wallpaper-7680x4320.jpg|Artwork commemorating ESO's 10th anniversary (left, upstairs)
 File:ON-card-Jakarn.png|Card
+
+## Tables extracted from this page
+
+- tables/depth_Jakarn_t00.csv (1 rows): First time meeting: | Met Jakarn before:
+- tables/depth_Jakarn_t01.csv (1 rows): First time meeting: | Met Jakarn before:
+- tables/depth_Jakarn_t02.csv (2 rows): Met Jakarn previously but have not finished the Coral Aerie: | Met Jakarn previously and saved him in Coral Aerie: | Mee

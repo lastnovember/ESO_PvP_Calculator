@@ -1,5 +1,5 @@
-Script,Effects
 Breach,Breach,"Afflicts Minor Breach to enemies in the link for 10 seconds, reducing ESO Resistance Link|Physical",|y and ESO Resistance Link|Spell,by 2974.
+Script,Effects
 Brittle,Brittle,"Afflicts Minor Brittle to enemies in the link for 10 seconds, increasing their Critical Damage taken by 10%."
 Courage,Courage,"Grants Minor Courage to the ally and allies in the link for 10 seconds, increasing Weapon and Spell Damage by 215."
 Empower,Empower,"Grants Empower to the ally and allies in the link for 10 seconds, increasing the damage of Heavy Attacks against monsters by 70%."

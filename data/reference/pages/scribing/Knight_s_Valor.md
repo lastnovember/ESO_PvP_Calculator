@@ -15,3 +15,7 @@ Deals 315 Physical Damage and Bashes the enemy.
 
 ## Notes
 - The Daedric text on the script reads "Block".
+
+## Tables extracted from this page
+
+- tables/scribing_Knight_s_Valor_t00.csv (2 rows): Mender's Bond | Mender's Bond | Increases Block amount by 8% and reduces Block cost by 8% for the ally and other allies 

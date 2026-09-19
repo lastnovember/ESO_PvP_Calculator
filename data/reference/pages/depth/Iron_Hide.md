@@ -34,3 +34,7 @@ scope="row"|CP50
 
 scope="row"|CP60
 15 | 13 | 13 | 13 | 14 | 13 | 13 | 94
+
+## Tables extracted from this page
+
+- tables/depth_Iron_Hide_t00.csv (3 rows): Armor Level | Ironhide Jack | Ironhide Boots | Ironhide Bracers | Ironhide Helmet | Ironhide Guards | Ironhide Arm Cops 

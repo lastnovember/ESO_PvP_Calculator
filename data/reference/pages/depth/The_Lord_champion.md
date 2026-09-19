@@ -27,3 +27,8 @@ Infusion | 30 | Increases another player's ESO Magicka Link | Recovery by [x] fo
 Revival | 75 | Absorbs [x] damage for 5 seconds after you are resurrected.
 
 Determination | 120 | Absorbs [x] damage for 15 seconds after drinking a potion.
+
+## Tables extracted from this page
+
+- tables/depth_The_Lord_champion_t00.csv (4 rows): 40px | Bastion | Increases the effectiveness of damage absorbing effects by [0-25]%.
+- tables/depth_The_Lord_champion_t01.csv (4 rows): 40px | Infusion | 30 | Increases another player's ESO Magicka Link | Recovery by [x] for 8 seconds after you resurrect t

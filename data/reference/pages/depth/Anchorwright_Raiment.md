@@ -43,3 +43,7 @@ File:ON-crown store-Anchorwright Raiment.jpg|Promotional render
 File:ON-card-Anchorwright Raiment.png|Card
 
 ## References
+
+## Tables extracted from this page
+
+- tables/depth_Anchorwright_Raiment_t00.csv (3 rows): Item | Description | Price | First Available

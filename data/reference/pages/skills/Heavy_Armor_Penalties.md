@@ -12,3 +12,7 @@ desc=Each piece of Heavy Armor does the following: Increases damage taken from M
 linerank1=1
 
 Heavy Armor Penalties gives penalties for each heavy armor you wear, for up to 7% more damage taken from magical attacks, 7% less speed while sprinting, 21% increased cost of roll dodge and 70% larger detection area when sneaking.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Heavy_Armor_Penalties_t00.csv (3 rows): Line | Heavy Armor

@@ -48,3 +48,10 @@ Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc |
 colspan=7|
 
 Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+
+## Tables extracted from this page
+
+- tables/depth_Beech_Weapons_t00.csv (4 rows): Base | Fine | Superior | Epic | Legendary
+- tables/depth_Beech_Weapons_t01.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan
+- tables/depth_Beech_Weapons_t02.csv (1 rows): Altmer | Argonian | Bosmer | Breton | Dunmer | Imperial | Khajiit | Nord | Orc | Redguard
+- tables/depth_Beech_Weapons_t03.csv (1 rows): Akaviri | Barbaric | Daedric | Dwemer | Outlaw | Primal | Yokudan

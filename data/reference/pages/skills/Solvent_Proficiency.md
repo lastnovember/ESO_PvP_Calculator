@@ -86,3 +86,8 @@ Alkahest | CP150 | Poison IX | 8
 
 ## Patch Notes
 [Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.
+
+## Tables extracted from this page
+
+- tables/skills_Solvent_Proficiency_t00.csv (9 rows): Solvent | Potion Level | Potion Prefix | 32
+- tables/skills_Solvent_Proficiency_t01.csv (9 rows): Solvent | Poison Level | Poison Suffix | 32

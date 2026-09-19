@@ -146,3 +146,8 @@ Dirt can be as high as 9 layers and you get 5 charges of the Augur. Even Rank II
 ## Bugs
 - On console versions, the position of antiquities on Master level excavations may be misaligned with where the antiquity actually is. This results in excavation appearing as if they are completed, but actually aren't. This is noticeable by looking at the "sparkles" that should be surrounding the antiquity. If the sparkles appear off by a few squares, the antiquity may be misaligned. This bug was present on PC, but was patched.
 - If an enemy attacks you during the excavation mini-game, you may be completely locked out of performing any actions, accessing menus or even logging out.
+
+## Tables extracted from this page
+
+- tables/depth_Excavation_t00.csv (5 rows): Difficulty | Points awarded
+- tables/depth_Excavation_t01.csv (10 rows): Rank | Points | Cumulative points up to and including this rank

@@ -67,3 +67,19 @@ Perfected Lucent Echoes
 
 ### Ossein Cage
 Perfected Dolorous Arena
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Trial_Sets_t00.csv (4 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t01.csv (4 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t02.csv (4 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t03.csv (4 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t04.csv (8 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t05.csv (4 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t06.csv (8 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t07.csv (8 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t08.csv (8 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t09.csv (8 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_Trial_Sets_t10.csv (8 rows): Set Name | Bonuses | Armor Weight
+- tables/uesp_Online_Trial_Sets_t11.csv (8 rows): Set Name | Bonuses | Armor Weight
+- tables/uesp_Online_Trial_Sets_t12.csv (8 rows): Set Name | Bonuses | Armor Weight

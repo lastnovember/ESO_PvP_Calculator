@@ -124,3 +124,7 @@ Truly Superb Glyph of Potion Boost | | Repora | 10 | CP160
 3.3
 3.5
 3.6
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Potion_Boost_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

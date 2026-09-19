@@ -124,3 +124,7 @@ Truly Superb Glyph of Health | | Repora | 10 | CP160
 839
 882
 954
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Health_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

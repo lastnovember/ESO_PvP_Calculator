@@ -29,3 +29,11 @@ Tracker's Lash
 The following sets can only be obtained from the Tel Var Merchants within the Imperial City. Tel Var Armorers sell unidentified pieces of gear, while Tel Var Grand Armorers sell curated items. For information on the individual items in each set, see their respective pages.
 
 Vicecanon of Venom
+
+## Tables extracted from this page
+
+- tables/uesp_Online_PVP_Sets_t00.csv (28 rows): Set Name | Bonuses | Location(s) | Set Type
+- tables/uesp_Online_PVP_Sets_t01.csv (30 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_PVP_Sets_t02.csv (8 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_PVP_Sets_t03.csv (7 rows): Set Name | Bonuses | Set Type
+- tables/uesp_Online_PVP_Sets_t04.csv (10 rows): Set Name | Bonuses | Set Type

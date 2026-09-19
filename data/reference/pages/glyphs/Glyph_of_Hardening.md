@@ -124,3 +124,7 @@ Truly Superb Glyph of Hardening | | Repora | 10 | CP160
 2857
 3038
 3290
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Hardening_t00.csv (17 rows): Glyph | Potency Rune | Potency Skill | Glyph Level | Aspect Rune

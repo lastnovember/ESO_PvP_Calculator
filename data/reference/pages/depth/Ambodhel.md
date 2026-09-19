@@ -69,3 +69,7 @@ File:ON-audio-Ambodhel 02.ogg|"You have excellent timing, my friend."
 File:ON-audio-Ambodhel 05.ogg|"If you see any Xivkyn out there, feel free to kill them."
 
 NPC
+
+## Tables extracted from this page
+
+- tables/depth_Ambodhel_t00.csv (1 rows): Update 5: | Update 6:

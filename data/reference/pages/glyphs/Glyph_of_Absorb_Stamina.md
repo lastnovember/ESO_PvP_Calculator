@@ -126,3 +126,7 @@ Truly Superb Glyph of Absorb Stamina | | Itade | 10 | CP160
 1674 | 312
 1754 | 327
 1900 | 354
+
+## Tables extracted from this page
+
+- tables/glyphs_Glyph_of_Absorb_Stamina_t00.csv (18 rows): Damage | Stamina | Damage | Stamina | Damage | Stamina | Damage | Stamina | Damage | Stamina

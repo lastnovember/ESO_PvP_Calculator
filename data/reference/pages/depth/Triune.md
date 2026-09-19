@@ -108,3 +108,7 @@ rowspan=2|Platinum
 CP150 | 412 (white) / 423 (green) / 445 (blue) / 456 (purple) / 473 (gold) | 375 (white) / 385 (green) / 405 (blue) / 415 (purple) / 430 (gold)
 
 CP160 | 422 (white) / 429 (green) / 455 (blue) / 466 (purple) / 482 (gold) | 384 (white) / 390 (green) / 414 (blue) / 424 (purple) / 439 (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Triune_t00.csv (42 rows): 13Normal | 13Fine | 13Superior | 13Epic | 13Legendary | 13Normal | 13Fine | 13Superior | 13Epic | 13Legendary

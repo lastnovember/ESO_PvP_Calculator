@@ -18,3 +18,9 @@ Full Belly Barricade
 This includes Bal Foyen, Betnikh, Bleakrock Isle, Khenarthi's Roost, and Stros M'Kai.
 
 Armor of the Trainee
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Overland_Sets_t00.csv (51 rows): Set Name | Bonuses | Location(s) | Set Type
+- tables/uesp_Online_Overland_Sets_t01.csv (53 rows): Set Name | Bonuses | Location(s) | Set Type
+- tables/uesp_Online_Overland_Sets_t02.csv (1 rows): Set Name | Bonuses | Location(s) | Set Type

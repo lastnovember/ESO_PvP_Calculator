@@ -98,3 +98,8 @@ Research Slots | 1 | 2 | 2 | 3 | 3
 
 Total all items
 98w 3d 20h 24m | 46w 5d 16h 17m | 44w 2d 10h 23m | 26w 1d 23h 02m | 20w 0d 01h 30m
+
+## Tables extracted from this page
+
+- tables/skills_Carpentry_t00.csv (12 rows): Trait | Base Time | Carpentry I | Carpentry II | Carpentry III | Carpentry IV
+- tables/skills_Carpentry_t01.csv (12 rows): Trait | Base Time | Carpentry I | Carpentry II | Carpentry III | Carpentry IV

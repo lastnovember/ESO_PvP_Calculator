@@ -53,3 +53,7 @@ scope="row"|22
 
 scope="row"|24
 13 | 20
+
+## Tables extracted from this page
+
+- tables/depth_Pewter_t00.csv (12 rows): Gear Level | Pewter Ring | Pewter Necklace

@@ -18,3 +18,7 @@ Per Item | 2% (white) / 2.5% (green) / 3% (blue) / 3.5% (purple) / 4% (gold)
 Max Total | 14% (white) / 17.5% (green) / 21% (blue) / 24.5% (purple) / 28% (gold)
 
 Max w/ Shield | 16% (white) / 20% (green) / 24% (blue) / 28% (purple) / 32% (gold)
+
+## Tables extracted from this page
+
+- tables/depth_Sturdy_t00.csv (4 rows): 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

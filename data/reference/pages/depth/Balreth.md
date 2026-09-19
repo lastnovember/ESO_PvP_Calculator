@@ -102,3 +102,7 @@ File:ON-quest-The Death of Balreth 04.jpg|Balreth halted by the Storm Talisman
 File:ON-quest-The Death of Balreth 03.jpg|Balreth's spirit
 File:ON-quest-The Death of Balreth.jpg|Balreth's spirit with his old shaders (2014)
 File:ON-quest-The Death of Balreth 02.jpg|thumb|right|Ragebinder and Blaze imprison Balreth (2014)
+
+## Tables extracted from this page
+
+- tables/depth_Balreth_t00.csv (5 rows): Location | Reaction | Difficulty | Health

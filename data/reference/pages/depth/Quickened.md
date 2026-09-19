@@ -22,3 +22,7 @@ rowspan=2|Item Type | colspan=5|Reduced Ability Cooldown
 3.6%
 4.4%
 5.2%
+
+## Tables extracted from this page
+
+- tables/depth_Quickened_t00.csv (3 rows): 6Fine | 6Superior | 6Epic | 6Legendary

@@ -23,3 +23,7 @@ Incompatible with Warding Contingency and Healing Contingency †
 
 ## Notes
 - The Daedric text on the script reads "Steal Magicka".
+
+## Tables extracted from this page
+
+- tables/scribing_Magickasteal_t00.csv (5 rows): Elemental Explosion | Elemental Explosion | Afflicts enemies with Minor Magickasteal for 20 seconds, restoring 168 Magic

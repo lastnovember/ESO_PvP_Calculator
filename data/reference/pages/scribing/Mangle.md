@@ -22,3 +22,7 @@ Afflicts enemies with Minor Mangle for 20 seconds, reducing Max Health by 10%.
 
 ## Notes
 - The Daedric text on the script reads "Mangle".
+
+## Tables extracted from this page
+
+- tables/scribing_Mangle_t00.csv (5 rows): Smash | Smash | Afflicts enemies with Minor Mangle for 20 seconds, reducing Max Health by 10%.

@@ -91,3 +91,9 @@ width=33%|
 ## Notes
 - An item may have a higher chance of spawning in a zone appropriate to it (e.g. Alik'ri Glassware in the Alik'r Desert) although there is always a lower chance of it spawning in any other zone.
 - As of Update 43, treasures have the same icon next to them as Ornate items when viewed in the Sell menu with merchants.
+
+## Tables extracted from this page
+
+- tables/depth_Treasures_t00.csv (4 rows): Item Quality | Item Value † | Duplicates stack cap
+- tables/depth_Treasures_t01.csv (1 rows): Lists
+- tables/depth_Treasures_t02.csv (1 rows): Zone

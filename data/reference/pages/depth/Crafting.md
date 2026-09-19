@@ -214,3 +214,14 @@ These appear to be rounding artifacts from per-rank XP cap retuning around recip
 ## Bugs
 While crafting, the server can sometimes time out because it sees you as not moving. Initially, this may take a while, but the times can become quite short after repeated logins.
 - Regularly exit the crafting station and move around, then resume your crafting.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Crafting_t00.csv (8 rows): Order | Profession | Skill points required
+- tables/uesp_Online_Crafting_t01.csv (5 rows): Fine | 1.00% (?) | 1.15% (?) | 1.31% (?) | 1.50% | 1.69%
+- tables/uesp_Online_Crafting_t02.csv (50 rows): Rank | Inspiration Required for Next Rank | Total Inspiration for Rank
+- tables/uesp_Online_Crafting_t03.csv (8 rows): Rank | Standard | Enchanting | Provisioning
+- tables/depth_Crafting_t00.csv (8 rows): Order | Profession | Skill points required
+- tables/depth_Crafting_t01.csv (5 rows): Extraction 0 | Extraction 1 | Extraction 2 | Extraction 3 | Ext 3 + Meticulous Disassembly
+- tables/depth_Crafting_t02.csv (50 rows): Rank | Inspiration Required for Next Rank | Total Inspiration for Rank
+- tables/depth_Crafting_t03.csv (8 rows): Rank | Standard | Enchanting | Provisioning

@@ -59,3 +59,7 @@ March of Sacrifices
 Members of the Moon Hunter Pack have ambient dialogue that is uttered as they idle. Their dialogue differs depending on whether they are encountered in the March of Sacrifices or Moon Hunter Keep.
 
 Faction
+
+## Tables extracted from this page
+
+- tables/depth_Moon_Hunter_Pack_t00.csv (1 rows): Moon Hunter Keep

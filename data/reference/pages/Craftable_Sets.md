@@ -1323,3 +1323,24 @@ CP150
 
 CP160
 2595 (white) / 2698 (green) / 2802 (blue) / 2871 (purple) / 2975 (gold)
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Craftable_Sets_t00.csv (15 rows): Set Name | Traits Needed | Bonuses | Crafting Sites
+- tables/uesp_Online_Craftable_Sets_t01.csv (11 rows): Set Name | Traits Needed | Bonuses | Zone | Crafting Site
+- tables/uesp_Online_Craftable_Sets_t02.csv (57 rows): Set Name | Traits Needed | Bonuses | Zone | Crafting Site
+- tables/uesp_Online_Craftable_Sets_t03.csv (43 rows): Quality | Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Craftable_Sets_t04.csv (43 rows): Quality | Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Craftable_Sets_t05.csv (43 rows): Quality | Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Craftable_Sets_t06.csv (43 rows): Quality | Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Craftable_Sets_t07.csv (43 rows): Quality | Normal | Fine | Superior | Epic | Legendary
+- tables/uesp_Online_Craftable_Sets_t08.csv (43 rows): Quality | Normal | Fine | Superior | Epic | Legendary
+- tables/sets_Craftable_Sets_t00.csv (15 rows): Ashen Grip | 2 | nowrap| ESO Alliances | Dominion=Beacon Falls in Auridon | Covenant=Par Molag in Glenumbra | Pact=Magma
+- tables/sets_Craftable_Sets_t01.csv (11 rows): Set Name | Traits Needed | Bonuses | Zone | Crafting Site
+- tables/sets_Craftable_Sets_t02.csv (57 rows): Set Name | Traits Needed | Bonuses | Zone | Crafting Site
+- tables/sets_Craftable_Sets_t03.csv (43 rows): Quality | 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary
+- tables/sets_Craftable_Sets_t04.csv (43 rows): Quality | 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary
+- tables/sets_Craftable_Sets_t05.csv (43 rows): Quality | 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary
+- tables/sets_Craftable_Sets_t06.csv (43 rows): Quality | 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary
+- tables/sets_Craftable_Sets_t07.csv (43 rows): Quality | 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary
+- tables/sets_Craftable_Sets_t08.csv (43 rows): Quality | 6Normal | 6Fine | 6Superior | 6Epic | 6Legendary

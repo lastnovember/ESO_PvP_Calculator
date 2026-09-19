@@ -33,3 +33,7 @@ Complex Recipe
 
 ## Patch Notes
 [Patch 2.7.5] * Fixed an issue that prevented the Connoisseur passive from correctly increasing the duration of certain Witches Festival and New Life Festival drinks.
+
+## Tables extracted from this page
+
+- tables/skills_Connoisseur_t00.csv (3 rows): Recipe Type | Base Duration | Connoisseur I | Connoisseur II | Connoisseur III

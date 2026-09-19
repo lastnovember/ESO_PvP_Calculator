@@ -218,3 +218,11 @@ Increases Mundus Stone effects
 Fortified Nirncrux
 Nirnhoned
 Increases Physical and Spell Resistance
+
+## Tables extracted from this page
+
+- tables/depth_Blacksmithing_Materials_t00.csv (10 rows): Node | Ore | Refine Into
+- tables/depth_Blacksmithing_Materials_t01.csv (10 rows): Ingot | Craft Into
+- tables/depth_Blacksmithing_Materials_t02.csv (4 rows): Temper | Effect
+- tables/depth_Blacksmithing_Materials_t03.csv (9 rows): Gem | Trait | Description
+- tables/depth_Blacksmithing_Materials_t04.csv (9 rows): Gem | Trait | Description

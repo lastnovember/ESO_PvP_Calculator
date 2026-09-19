@@ -190,3 +190,14 @@ EAL/Group|groupline=thick
 
 ## Notes
 - Prior to Update 39, the daily quest to destroy one Dark Anchor required destroying three Dark Anchors.
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Fighters_Guild_t00.csv (19 rows): Intimidating Presence | 1
+- tables/uesp_Online_Fighters_Guild_t01.csv (5 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Fighters_Guild_t02.csv (20 rows): Name | Line Rank | Cast Time | Target | Range | Radius | Duration | Cost
+- tables/uesp_Online_Fighters_Guild_t03.csv (9 rows): Name | Line Rank | Skill Rank | Description
+- tables/uesp_Online_Fighters_Guild_t04.csv (10 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank
+- tables/uesp_Online_Fighters_Guild_t05.csv (134 rows): Council of Province Generals Guildmaster Sees-All-Colors Borogilmith Countess Hakruba General Flaminius Auctor Ra'zaym I
+- tables/uesp_Online_Fighters_Guild_t06.csv (6 rows): ​ | Fighters Guild Veteran | 50 | Complete the Fighters Guild series of quests. | Champion Red Title : Fighters Guild Vi
+- tables/depth_Fighters_Guild_t00.csv (10 rows): Rank | Reputation Required for Next Rank | Total Reputation for Rank

@@ -609,3 +609,22 @@ A sweet, tart, and brackish cider that delights and confuses the palate, of Jad'
 rowspan=2|
 
 Inceases Stamina Recovery by 560 for 2 hours. These effects are scaled based on your level. (6s cooldown)
+
+## Tables extracted from this page
+
+- tables/uesp_Online_Drinks_t00.csv (114 rows): Name | Drink Level | Drink Type | Health | Magicka | Stamina | Dur (mins)
+- tables/uesp_Online_Drinks_t01.csv (29 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/uesp_Online_Drinks_t02.csv (66 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/uesp_Online_Drinks_t03.csv (8 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Drinks_t04.csv (8 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Drinks_t05.csv (5 rows): Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22
+- tables/uesp_Online_Drinks_t06.csv (11 rows): Beverage | Description | Price
+- tables/uesp_Online_Drinks_t07.csv (5 rows): Beverage | Description | Price
+- tables/depth_Drinks_t00.csv (1 rows): Name | Drink Level | Drink Type | Health | Magicka | Stamina | Dur (mins)
+- tables/depth_Drinks_t01.csv (29 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/depth_Drinks_t02.csv (66 rows): Name | Food Level | Dish Type | Health | Magicka | Stamina | Dur (mins)
+- tables/depth_Drinks_t03.csv (8 rows): Level | #eeeeee| 1 | #eeeeee| 2 | #eeeeee| 3 | #eeeeee| 4 | #eeeeee| 5 | #eeeeee| 6 | #eeeeee| 7 | #eeeeee| 8 | #eeeeee|
+- tables/depth_Drinks_t04.csv (8 rows): Level | #eeeeee| 1 | #eeeeee| 2 | #eeeeee| 3 | #eeeeee| 4 | #eeeeee| 5 | #eeeeee| 6 | #eeeeee| 7 | #eeeeee| 8 | #eeeeee|
+- tables/depth_Drinks_t05.csv (5 rows): Level | #eeeeee| 1 | #eeeeee| 2 | #eeeeee| 3 | #eeeeee| 4 | #eeeeee| 5 | #eeeeee| 6 | #eeeeee| 7 | #eeeeee| 8 | #eeeeee|
+- tables/depth_Drinks_t06.csv (11 rows): Beverage | Description | Price
+- tables/depth_Drinks_t07.csv (5 rows): Beverage | Description | Price

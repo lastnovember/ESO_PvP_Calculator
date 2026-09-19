@@ -21,3 +21,7 @@ Grants you Major Savagery and Major Prophecy for 20 seconds, increasing Weapon a
 
 ## Notes
 - The Daedric text on the script reads "Super".
+
+## Tables extracted from this page
+
+- tables/scribing_Savagery_and_Prophecy_t00.csv (4 rows): Traveling Knife | Traveling Knife | Grants you Major Savagery and Major Prophecy for 20 seconds, increasing Weapon and S

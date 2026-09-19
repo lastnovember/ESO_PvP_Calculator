@@ -27,3 +27,8 @@ Spell Precision | 30 | Increases your Spell Critical rating by 3%.
 Foresight | 75 | Reduces the Magicka cost of your next spell by 80% after you drink a potion.
 
 Arcane Well | 120 | Gives you a 20% chance when you kill an enemy of opening an Arcane Well, which restores [x] Magicka up to three allies within 2.5 meters of the enemy.
+
+## Tables extracted from this page
+
+- tables/depth_The_Apprentice_champion_t00.csv (4 rows): 40px | Blessed | Increases the effectiveness of healing done by [0-15]%.
+- tables/depth_The_Apprentice_champion_t01.csv (4 rows): 40px | Vengeance | 10 | Guarantees your next spell will be a critical hit after you block three spells within 10 seconds
