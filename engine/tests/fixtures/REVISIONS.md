@@ -321,3 +321,11 @@ penetration is 1401 for a 1487 gold bonus, the resistance table ratio (1400.5 ro
 penetration now scales by the resistance ratios with blue verified. Open: the other three armor
 qualities, and penetration at white, green and purple.
 
+## Tooltip, 2026-09-19: a blue Coup De Grâce Restoration Staff in the DK's inventory (fixture 009 `tooltips`)
+
+Blue weapon, CP160: Charged 215%, set bonuses 121 Weapon and Spell Damage (2 and 4 items) and
+1400 Offensive Penetration (3 items). The 121 and the 215% are the blue columns of the Craftable
+Sets damage table and the weapon trait table. The 1400 sits one below the 1401 the blue
+Spellshredder Hat reads for the same gold line, so blue penetration is not one number per gold
+value; nothing changed in the engine, the difference is logged in UNKNOWNS.md.
+

@@ -489,7 +489,7 @@ C['sets'] = OrderedDict(
             stats=['offensivePenetration', 'physicalPenetration', 'spellPenetration', 'physicalAndSpellPenetration'],
             source=TIP + ': the gold bonus is 34-1487 (sets.csv), so blue is 1401 / 1487 = 0.9422 of gold; the resistance table ratio (2802 / 2975) gives 1487 x 0.9418 = 1400.5, which rounds to the same 1401, so the other qualities take the resistance ratios (tables/uesp_Online_Craftable_Sets_t08.csv row \'160\') until read',
             verified=False,
-            note='No Craftable Sets table covers Offensive Penetration. Blue is read; white, green and purple follow the resistance table ratios and are unverified.',
+            note='No Craftable Sets table covers Offensive Penetration. Blue is read twice for the same 34-1487 line and differs by one: 1401 on the Spellshredder Hat (armor) and 1400 on the Coup De Grace Restoration Staff (weapon, photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg); the resistance ratio gives 1400.53, so the rounding or the per item curve is not settled. White, green and purple follow the resistance table ratios and are unverified.',
             byQuality=OrderedDict(white=None, green=None, blue=1401, purple=None, gold=1487),
             multiplier=OrderedDict((q, round(v / 2975, 6)) for q, v in craftable_quality_row('uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance').items()),
         )),

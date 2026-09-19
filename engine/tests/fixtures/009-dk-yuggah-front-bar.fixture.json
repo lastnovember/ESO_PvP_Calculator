@@ -17,7 +17,8 @@
     "photos/009-advanced-2.jpg",
     "photos/009-advanced-3.jpg",
     "photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg",
-    "photos/tooltip-dk-inventory-spellshredder-hat-blue-2.jpg"
+    "photos/tooltip-dk-inventory-spellshredder-hat-blue-2.jpg",
+    "photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg"
   ],
   "notes": "Xbox, 2026-09-17, four phone photos (no Active Effects page). Argonian Dragonknight, native class with Class Mastery Inexorable Descent and Wildfire Embers, Bloodspawn, Trainee, Rallying Cry, Essence Thief, Markyn (Swift), The Mage, Bewitched Sugar Skulls, 52 Magicka and 12 Health. In Cyrodiil, Battle Spirit on; the user said the Undaunted skill line is not unlocked on this character, so skillLines.Undaunted is false. Update 2026-09-17 (crawl pass): Magicka Recovery matches with note 135's Spell Harm glyph recovery (10 + 16 + 16). Resistances 70 LOW in the engine, the same 70 the Templar reads high. Update 2026-09-19: armor tooltips typed by the user (tooltips field) settle the slot values; resistances exact.",
   "gameVersion": "Update 50 era, 2026-09",
@@ -315,6 +316,7 @@
       "Markyn Ring of Majesty": "100 Weapon and Spell Damage and 1157 Armor per set with 3 or more pieces; current bonus 200 and 2314"
     },
     "settles": "Slot factors 0.875 (big pieces), 0.5 (hands), 0.375 (waist) of the chest; heavy chest 2772 and big 2425, medium big 1823, light big 1221, hands 698, waist 523; Reinforced 16% and tooltips truncate. Physical and Spell Resistance now exact on this character and the Necromancer.",
-    "inventory blue, 2026-09-19": "Spellshredder Hat (light head, blue, CP160, bind on equip): armor 1151; Maximum Magicka enchantment 763; Invigorating: Health, Magicka and Stamina Recovery 12; set bonuses at blue: (2) 1401 Offensive Penetration, (3) 1401 Offensive Penetration, (4) 618 Critical Chance, (5) 2% damage done per Damage Shield or healing over time effect on the target. Photos: photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg."
+    "inventory blue, 2026-09-19": "Spellshredder Hat (light head, blue, CP160, bind on equip): armor 1151; Maximum Magicka enchantment 763; Invigorating: Health, Magicka and Stamina Recovery 12; set bonuses at blue: (2) 1401 Offensive Penetration, (3) 1401 Offensive Penetration, (4) 618 Critical Chance, (5) 2% damage done per Damage Shield or healing over time effect on the target. Photos: photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg.",
+    "inventory blue weapon, 2026-09-19": "Coup De Grâce Restoration Staff (blue, CP160): Charged 215% (the two handed blue column of the weapon trait table); set bonuses at blue: (2) 121 Weapon and Spell Damage, (3) 1400 Offensive Penetration, (4) 121 Weapon and Spell Damage, (5) Major Vulnerability proc. The same gold line (34-1487) read 1401 on the blue Spellshredder Hat, so the blue penetration value differs by one between the armor piece and the weapon. Photo: photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg."
   }
 }
