@@ -102,6 +102,7 @@ C['_meta'] = OrderedDict(
 
 # ---------------------------------------------------------------- base stats
 F3 = 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points)'
+TIP = "user, 2026-09-19, tooltip of a blue (Superior) CP160 light head in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg): Spellshredder Hat, armor 1151, Maximum Magicka enchantment 763, Invigorating 12, set bonuses 1401 / 1401 Offensive Penetration and 618 Critical Chance"
 
 C['base'] = OrderedDict(
     maxHealth=sourced(16000, page('Health.md', 'line 12: 1300 at level 1 plus 300 per level, 16000 health points at level 50; line 19 formula') + '; ' + F3 + ': 19305 = 16000 + 15 x 122 + Lunar Blessings 915 + Hero\'s Vigor 560.'),
@@ -330,8 +331,8 @@ C['items'] = OrderedDict(
     note='Armor rating of a gold CP160 piece with no trait, and weapon damage of a gold CP160 weapon. Armor from the user\'s tooltips (2026-09-19): slot factors chest 1.0, head shoulders legs feet 0.875, hands 0.5, waist 0.375. Medium and light chests and the small heavy and medium pieces are derived from those factors.',
     qualityFactor=OrderedDict(
         gold=sourced(1.0, 'definition: ratings are stated for gold (Legendary) CP160 items'),
-        purple=unverified(0.96, 'Armor rating of a purple (Epic) CP160 piece relative to gold. Community steps of about 4% per quality; a purple armor piece reading settles it. Weapons no longer use this: items.weaponDamageByQuality holds the Nirnhoned page rows. Searched: tables_index.csv "Armor" (uesp_Online_Armor_t01 is the trait table), pages/Armor.md (no ratings), pages/depth/Rubedite_Ore.md and Rubedo_Leather.md and Ancestor_Silk.md tables (ingot counts, not ratings), data/patch-notes/text "armor rating" (none by quality).', [0.95]),
-        blue=unverified(0.92, 'Blue (Superior) relative to gold, see purple.', [0.90]),
+        purple=unverified(0.96, 'Armor rating of a purple (Epic) CP160 piece relative to gold. Community steps of about 4% per quality, which the blue reading (0.9427, not 0.92) already contradicts; a purple armor piece reading settles it. Weapons no longer use this: items.weaponDamageByQuality holds the Nirnhoned page rows. Searched: tables_index.csv "Armor" (uesp_Online_Armor_t01 is the trait table), pages/Armor.md (no ratings), pages/depth/Rubedite_Ore.md and Rubedo_Leather.md and Ancestor_Silk.md tables (ingot counts, not ratings), data/patch-notes/text "armor rating" (none by quality).', [0.95]),
+        blue=sourced(round(1151 / 1221, 4), TIP + ': 1151 / 1221 (the gold light head) = 0.9427; 1221 x 0.9427 = 1151.0', 'One slot and weight read. Whether the factor is the same for every slot and weight, and whether the game truncates or rounds, is not known; the community 0.92 is out.'),
         green=unverified(0.88, 'Green (Fine) relative to gold, see purple.'),
         white=unverified(0.84, 'White (Normal) relative to gold, see purple.'),
     ),
@@ -470,7 +471,8 @@ def set_bonus_type(key, table_name, caption, stats):
         source=f"tables/{table_name} row '160' (caption '{caption}', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
         verified=True,
         byQuality=by,
-        multiplier=OrderedDict((q, round(v / by['gold'], 4)) for q, v in by.items()),
+        # six decimals: 1487 x 2802 / 2975 = 1400.53 must round to 1401 (the blue Spellshredder tooltip), 0.9418 would give 1400
+        multiplier=OrderedDict((q, round(v / by['gold'], 6)) for q, v in by.items()),
     )
 
 
@@ -483,6 +485,14 @@ C['sets'] = OrderedDict(
         ('weaponAndSpellDamage', set_bonus_type('weaponAndSpellDamage', 'uesp_Online_Craftable_Sets_t06.csv', 'Spell / Weapon Damage', ['weaponDamage', 'spellDamage', 'weaponAndSpellDamage'])),
         ('critRating', set_bonus_type('critRating', 'uesp_Online_Craftable_Sets_t07.csv', 'Spell / Weapon Critical', ['critRating', 'weaponCritRating', 'spellCritRating'])),
         ('resistance', set_bonus_type('resistance', 'uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance', ['armor', 'physicalResistance', 'spellResistance', 'physicalAndSpellResistance'])),
+        ('offensivePenetration', OrderedDict(
+            stats=['offensivePenetration', 'physicalPenetration', 'spellPenetration', 'physicalAndSpellPenetration'],
+            source=TIP + ': the gold bonus is 34-1487 (sets.csv), so blue is 1401 / 1487 = 0.9422 of gold; the resistance table ratio (2802 / 2975) gives 1487 x 0.9418 = 1400.5, which rounds to the same 1401, so the other qualities take the resistance ratios (tables/uesp_Online_Craftable_Sets_t08.csv row \'160\') until read',
+            verified=False,
+            note='No Craftable Sets table covers Offensive Penetration. Blue is read; white, green and purple follow the resistance table ratios and are unverified.',
+            byQuality=OrderedDict(white=None, green=None, blue=1401, purple=None, gold=1487),
+            multiplier=OrderedDict((q, round(v / 2975, 6)) for q, v in craftable_quality_row('uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance').items()),
+        )),
     ]),
 )
 

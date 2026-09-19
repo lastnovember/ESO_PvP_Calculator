@@ -311,3 +311,13 @@ Necromancer's 401 (fixtures 007 and 008, engine 400 before) into a match; every 
 reading on file still matches. Open: whether the game multiplies or adds and rounds up (both fit),
 see UNKNOWNS.md. Every other value of this fixture is null, not read.
 
+## Tooltip, 2026-09-19: a blue Spellshredder Hat in the DK's inventory (fixture 009 `tooltips`)
+
+Light head, blue, CP160: armor 1151, Maximum Magicka glyph 763, Invigorating 12, set bonuses
+1401 / 1401 Offensive Penetration and 618 Critical Chance. What it confirms: the glyph page blue
+row (763), the trait table blue column (12), and the Craftable Sets crit ratio (657 x 784 / 833 =
+618.4). What it settles: blue armor is 0.9427 of gold (1151 / 1221), not the community 0.92; blue
+penetration is 1401 for a 1487 gold bonus, the resistance table ratio (1400.5 rounds to it), so
+penetration now scales by the resistance ratios with blue verified. Open: the other three armor
+qualities, and penetration at white, green and purple.
+

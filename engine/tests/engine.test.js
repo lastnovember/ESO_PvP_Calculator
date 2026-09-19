@@ -585,11 +585,11 @@ test('real data: ranged set bonuses follow the piece quality when the toggle is 
   const white = computeSheet(b, real);
   assert.deepEqual(rows(white, 'maxHealth', 'set Aegis of Galenwe (2) [white]'), [1051], 'the Normal CP160 row');
   // a type with no quality table keeps the gold value and says so
-  const pen = Object.entries(real.effects.sets).find(([, s]) => s.maxPieces === 5 && !s.monster && !s.weaponSet && s.settype !== 'Jewelry' && s.bonuses['2'] && s.bonuses['2'].effects.some((e) => e.stat === 'offensivePenetration' && e.ranged));
-  assert.ok(pen, 'a penetration set exists');
+  const pen = Object.entries(real.effects.sets).find(([, s]) => s.maxPieces === 5 && !s.monster && !s.weaponSet && s.settype !== 'Jewelry' && s.bonuses['2'] && s.bonuses['2'].effects.some((e) => e.stat === 'critResistance' && e.ranged));
+  assert.ok(pen, 'a Critical Resistance set exists');
   for (const slot of ['head', 'shoulders', 'chest', 'hands', 'waist']) b.gear[slot] = { set: pen[0], weight: 'heavy', trait: null, enchant: null, quality: 'purple' };
   const p = computeSheet(b, real);
-  assert.deepEqual(rows(p, 'physicalPenetration', `set ${pen[0]} (2) [purple]`), [pen[1].bonuses['2'].effects.find((e) => e.stat === 'offensivePenetration').value]);
+  assert.deepEqual(rows(p, 'critResistance', `set ${pen[0]} (2) [purple]`), [pen[1].bonuses['2'].effects.find((e) => e.stat === 'critResistance').value]);
   assert.ok(p.bars[0].notes.some((n) => n.includes('no quality table')), p.bars[0].notes.join('; '));
 });
 
@@ -605,4 +605,21 @@ test('real data: sprint cost percents multiply per source (Templar with Sprinter
   assert.equal(computeSheet(b, real).bars[0].advanced.sprintCost, 432, 'the additive rule the other costs follow reads one low');
   const necro = JSON.parse(readFileSync(join(here, 'fixtures', '007-necro-healer-front-bar.fixture.json'), 'utf8'));
   assert.equal(computeSheet(necro.build, real).bars[0].advanced.sprintCost, 401);
+});
+
+// A blue Spellshredder Hat tooltip (DK inventory, 2026-09-19): every quality axis on one item.
+test('real data: the blue Spellshredder Hat reads back from the tables', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const rows = (r, stat, src) => (r.bars[0].breakdown[stat] || []).filter((x) => x.source === src).map((x) => x.value);
+  const b = naked();
+  b.flags = { ...(b.flags || {}), itemQuality: true };
+  const blue = (slot) => ({ set: 'Spellshredder', weight: 'light', trait: 'Invigorating', enchant: 'Magicka', quality: 'blue', enchantQuality: 'blue' });
+  for (const slot of ['head', 'shoulders', 'chest', 'hands']) b.gear[slot] = blue(slot);
+  const r = computeSheet(b, real);
+  assert.deepEqual(rows(r, 'physicalResistance', 'item head (blue) armor'), [1151], 'armor 1151 on the tooltip');
+  assert.deepEqual(rows(r, 'maxMagicka', 'item head (blue) glyph Magicka (blue glyph)'), [763], 'Adds 763 Maximum Magicka');
+  assert.deepEqual(rows(r, 'healthRecovery', 'item head (blue) Invigorating'), [12], 'Invigorating 12');
+  assert.deepEqual(rows(r, 'physicalPenetration', 'set Spellshredder (2) [blue]'), [1401], '(2 items) Adds 1401 Offensive Penetration');
+  assert.deepEqual(rows(r, 'physicalPenetration', 'set Spellshredder (3) [blue]'), [1401]);
+  assert.deepEqual(rows(r, 'weaponCritRating', 'set Spellshredder (4) [blue]'), [618], '(4 items) Adds 618 Critical Chance');
 });

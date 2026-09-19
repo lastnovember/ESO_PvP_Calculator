@@ -1610,19 +1610,16 @@
         "value": 0.96,
         "source": "UNVERIFIED",
         "verified": false,
-        "note": "Armor rating of a purple (Epic) CP160 piece relative to gold. Community steps of about 4% per quality; a purple armor piece reading settles it. Weapons no longer use this: items.weaponDamageByQuality holds the Nirnhoned page rows. Searched: tables_index.csv \"Armor\" (uesp_Online_Armor_t01 is the trait table), pages/Armor.md (no ratings), pages/depth/Rubedite_Ore.md and Rubedo_Leather.md and Ancestor_Silk.md tables (ingot counts, not ratings), data/patch-notes/text \"armor rating\" (none by quality).",
+        "note": "Armor rating of a purple (Epic) CP160 piece relative to gold. Community steps of about 4% per quality, which the blue reading (0.9427, not 0.92) already contradicts; a purple armor piece reading settles it. Weapons no longer use this: items.weaponDamageByQuality holds the Nirnhoned page rows. Searched: tables_index.csv \"Armor\" (uesp_Online_Armor_t01 is the trait table), pages/Armor.md (no ratings), pages/depth/Rubedite_Ore.md and Rubedo_Leather.md and Ancestor_Silk.md tables (ingot counts, not ratings), data/patch-notes/text \"armor rating\" (none by quality).",
         "alternatives": [
           0.95
         ]
       },
       "blue": {
-        "value": 0.92,
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Blue (Superior) relative to gold, see purple.",
-        "alternatives": [
-          0.9
-        ]
+        "value": 0.9427,
+        "source": "user, 2026-09-19, tooltip of a blue (Superior) CP160 light head in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg): Spellshredder Hat, armor 1151, Maximum Magicka enchantment 763, Invigorating 12, set bonuses 1401 / 1401 Offensive Penetration and 618 Critical Chance: 1151 / 1221 (the gold light head) = 0.9427; 1221 x 0.9427 = 1151.0",
+        "verified": true,
+        "note": "One slot and weight read. Whether the factor is the same for every slot and weight, and whether the game truncates or rounds, is not known; the community 0.92 is out."
       },
       "green": {
         "value": 0.88,
@@ -2180,10 +2177,10 @@
           "gold": 129
         },
         "multiplier": {
-          "white": 0.8682,
-          "green": 0.907,
-          "blue": 0.938,
-          "purple": 0.9612,
+          "white": 0.868217,
+          "green": 0.906977,
+          "blue": 0.937984,
+          "purple": 0.96124,
           "gold": 1.0
         }
       },
@@ -2202,10 +2199,10 @@
           "gold": 1096
         },
         "multiplier": {
-          "white": 0.8723,
-          "green": 0.9069,
-          "blue": 0.9416,
-          "purple": 0.9653,
+          "white": 0.872263,
+          "green": 0.906934,
+          "blue": 0.941606,
+          "purple": 0.965328,
           "gold": 1.0
         }
       },
@@ -2223,10 +2220,10 @@
           "gold": 1206
         },
         "multiplier": {
-          "white": 0.8715,
-          "green": 0.9063,
-          "blue": 0.942,
-          "purple": 0.9652,
+          "white": 0.871476,
+          "green": 0.906302,
+          "blue": 0.941957,
+          "purple": 0.965174,
           "gold": 1.0
         }
       },
@@ -2246,10 +2243,10 @@
           "gold": 129
         },
         "multiplier": {
-          "white": 0.8682,
-          "green": 0.907,
-          "blue": 0.938,
-          "purple": 0.9612,
+          "white": 0.868217,
+          "green": 0.906977,
+          "blue": 0.937984,
+          "purple": 0.96124,
           "gold": 1.0
         }
       },
@@ -2269,10 +2266,10 @@
           "gold": 833
         },
         "multiplier": {
-          "white": 0.8715,
-          "green": 0.9064,
-          "blue": 0.9412,
-          "purple": 0.9652,
+          "white": 0.871549,
+          "green": 0.906363,
+          "blue": 0.941176,
+          "purple": 0.965186,
           "gold": 1.0
         }
       },
@@ -2293,10 +2290,35 @@
           "gold": 2975
         },
         "multiplier": {
-          "white": 0.8723,
-          "green": 0.9069,
-          "blue": 0.9418,
-          "purple": 0.965,
+          "white": 0.872269,
+          "green": 0.906891,
+          "blue": 0.941849,
+          "purple": 0.965042,
+          "gold": 1.0
+        }
+      },
+      "offensivePenetration": {
+        "stats": [
+          "offensivePenetration",
+          "physicalPenetration",
+          "spellPenetration",
+          "physicalAndSpellPenetration"
+        ],
+        "source": "user, 2026-09-19, tooltip of a blue (Superior) CP160 light head in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg): Spellshredder Hat, armor 1151, Maximum Magicka enchantment 763, Invigorating 12, set bonuses 1401 / 1401 Offensive Penetration and 618 Critical Chance: the gold bonus is 34-1487 (sets.csv), so blue is 1401 / 1487 = 0.9422 of gold; the resistance table ratio (2802 / 2975) gives 1487 x 0.9418 = 1400.5, which rounds to the same 1401, so the other qualities take the resistance ratios (tables/uesp_Online_Craftable_Sets_t08.csv row '160') until read",
+        "verified": false,
+        "note": "No Craftable Sets table covers Offensive Penetration. Blue is read; white, green and purple follow the resistance table ratios and are unverified.",
+        "byQuality": {
+          "white": null,
+          "green": null,
+          "blue": 1401,
+          "purple": null,
+          "gold": 1487
+        },
+        "multiplier": {
+          "white": 0.872269,
+          "green": 0.906891,
+          "blue": 0.941849,
+          "purple": 0.965042,
           "gold": 1.0
         }
       }
