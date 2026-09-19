@@ -349,3 +349,10 @@ Damage (2 and 4 items) and 1435 Offensive Penetration (3 items). All four are th
 of their tables; 1435 is the resistance ratio exactly, so purple penetration is verified. Open:
 white and green penetration and Critical Resistance, and the blue rounding (1400 against 1401).
 
+## Tooltip, 2026-09-19: a blue Spellshredder Ring in the DK's inventory (fixture 009 `tooltips`)
+
+Blue ring, CP160: Arcane 827 (jewelry trait table, blue), set bonuses 1401 / 1401 Offensive
+Penetration and 618 Critical Chance, the same as the blue Spellshredder Hat. With the blue Coup
+De Grâce staff at 1400, the odd one out is the weapon or that set; UNKNOWNS.md names the reading
+that separates the two. No engine change.
+
