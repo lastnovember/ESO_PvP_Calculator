@@ -70,6 +70,16 @@ test('constants.json: every glyph quality row runs white to gold and ends on the
   assert.ok(E.glyphSmallRatio.value > 0.4 && E.glyphSmallRatio.value < 0.41);
 });
 
+test('constants.json: weapon damage by quality comes from the Nirnhoned tables and meets the gold ratings', () => {
+  const W = constants.items.weaponDamageByQuality;
+  assert.equal(W.oneHanded.base.gold, constants.items.weaponDamage.value);
+  assert.equal(W.twoHanded.base.gold, constants.items.twoHandedMeleeWeaponDamage.value);
+  assert.equal(W.oneHanded.nirnhoned.gold, 1535, '1335 x 1.15');
+  assert.equal(W.twoHanded.nirnhoned.gold, 1806, 'the page row; 1571 x 1.15 would round to 1807');
+  assert.deepEqual(Object.values(W.oneHanded.base), [1037, 1072, 1108, 1132, 1335]);
+  assert.deepEqual(Object.values(W.twoHanded.base), [1220, 1262, 1304, 1332, 1571]);
+});
+
 test('constants.json: set bonus quality rows come from the six Craftable Sets tables', () => {
   const T = constants.sets.bonusByQuality;
   assert.deepEqual(Object.keys(T), ['recovery', 'maxMagickaOrStamina', 'maxHealth', 'weaponAndSpellDamage', 'critRating', 'resistance']);

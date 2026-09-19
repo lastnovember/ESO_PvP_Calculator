@@ -55,7 +55,8 @@ gold. On, each armor, jewelry and weapon piece shows a quality control (gold, pu
 green, white), every armor, jewelry and shield glyph gets its own one underneath, and the bulk
 editor gets a quality and a glyph quality field. Trait magnitudes follow the UESP trait table
 columns; glyph magnitudes follow the per quality rows of the UESP glyph pages
-(`enchants.*.byQuality`); armor and weapon ratings scale by `items.qualityFactor`, which is
+(`enchants.*.byQuality`); weapon damage follows the Online:Nirnhoned page tables
+(`items.weaponDamageByQuality`); armor ratings scale by `items.qualityFactor`, which is
 unverified below gold until a purple piece is read from the game. Flat set bonuses given as a
 range scale by the quality of the set's pieces through the six Online:Craftable Sets quality
 tables (`sets.bonusByQuality`).

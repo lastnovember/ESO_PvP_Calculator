@@ -13,103 +13,89 @@
   "base": {
     "maxHealth": {
       "value": 16000,
-      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19305 = 16000 + 15 x 122 + Lunar Blessings 915 + Hero's Vigor 560.",
+      "source": "pages/Health.md (line 12: 1300 at level 1 plus 300 per level, 16000 health points at level 50; line 19 formula); fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19305 = 16000 + 15 x 122 + Lunar Blessings 915 + Hero's Vigor 560.",
       "verified": true
     },
     "maxMagicka": {
       "value": 12000,
-      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19251 = (12000 + 49 x 111 + 915 + 520) x 1.02 Magicka Controller.",
+      "source": "pages/Magicka.md (line 12: 1220 at level 1 plus 220 per level, 12 000 maximum magicka at level 50; line 19 formula); fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19251 = (12000 + 49 x 111 + 915 + 520) x 1.02 Magicka Controller.",
       "verified": true
     },
     "maxStamina": {
       "value": 12000,
-      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 13435 = 12000 + 915 + 520.",
+      "source": "pages/Stamina.md (line 12: 1220 at level 1 plus 220 per level, 12000 points of stamina at level 50; line 19 formula); fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 13435 = 12000 + 915 + 520.",
       "verified": true
     },
     "healthRecovery": {
       "value": 309,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Naked level 50 Health Recovery. fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 540 = base + Capacitor 141 + Robustness 90, so 309 if both passives give Health Recovery the full amount. The split is the unverified part.",
-      "alternatives": [
-        484
-      ]
+      "source": "pages/Health.md (line 24: a level 50 character with no other bonuses will have a health recovery of 309); fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 540 = 309 + Capacitor 141 + Robustness 90.",
+      "verified": true,
+      "note": "The 484 seen in community sources is not in the archive."
     },
     "magickaRecovery": {
       "value": 514,
-      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 909 = (514 + 141 + 90) x 1.22 (Flourish 20%, Magicka Controller 2%).",
+      "source": "pages/Magicka.md (line 24: a level 50 character will have a base magicka recovery of 514 points); fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 909 = (514 + 141 + 90) x 1.22 (Flourish 20%, Magicka Controller 2%).",
       "verified": true
     },
     "staminaRecovery": {
       "value": 514,
-      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 894 = (514 + 141 + 90) x 1.20 (Flourish).",
+      "source": "pages/Stamina.md (line 24: at level 50 a character will have 514 points of stamina recovery); fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 894 = (514 + 141 + 90) x 1.20 (Flourish).",
       "verified": true
     },
     "weaponDamage": {
       "value": 1000,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Sheet Weapon Damage with no weapon equipped and no bonuses.",
-      "alternatives": [
-        0
-      ]
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points), no weapon: the sheet reads Weapon Damage 1000 with no Weapon Damage source in the build.",
+      "verified": true,
+      "note": "Searched: tables_index.csv header \"Weapon Damage\" (none), pages/Weapon_Damage.md and depth/Weapon_Damage.md (no base value), data/patch-notes/text \"base weapon damage\", \"unarmed\" (none). The reading is the only source."
     },
     "spellDamage": {
       "value": 1000,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Sheet Spell Damage with no weapon equipped and no bonuses.",
-      "alternatives": [
-        0
-      ]
+      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points), no weapon: the sheet reads Spell Damage 1000 with no Spell Damage source in the build.",
+      "verified": true,
+      "note": "Searched as for weaponDamage (pages/Spell_Damage.md has no base value)."
     },
     "critChancePercent": {
       "value": 10,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Critical Chance for every character."
+      "source": "pages/depth/Weapon_Critical_effect.md (You start with a baseline 10% critical value; Critical Strike Chance% = min(100, 10 + 100 x (Critical Value / MCV))); pages/depth/Spell_Critical_effect.md (same formula)",
+      "verified": true
     },
     "critDamagePercent": {
       "value": 50,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Critical Damage."
+      "source": "pages/Critical_Damage.md (Critical Damage starts with a base damage increase of 50%, and is capped at 125%); pages/depth/Weapon_Critical_effect.md (normally 50% of the base strike); fixture 003 (naked) reads Critical Damage 40 above the base with Backstabber and medium passives off",
+      "verified": true
     },
     "critDamageCapPercent": {
       "value": 125,
-      "source": "data/patch-notes/html 111 (2021-11-15): Critical Damage and Healing now has a hard cap of 125%.",
+      "source": "data/patch-notes/html 111 (2021-11-15): Critical Damage and Healing now has a hard cap of 125%.; pages/Critical_Damage.md (capped at 125%)",
       "verified": true,
       "note": "Class Mastery Above and Beyond raises the cap by 30 (patch 12.0.0 note in skills.csv: 155%)."
     },
     "critRatingPerPercent": {
       "value": 219,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Critical rating needed for 1% Critical Chance at level 50 CP160."
+      "source": "pages/depth/Weapon_Critical_effect.md (Critical Strike Chance% = 10 + 100 x (Critical Value / MCV), MCV 21912 at CP160 (level 66): 219.12 rating per percent; 3000 rating reads 23.7%); data/patch-notes/html 100 (2021-03-15): Critical Rating granted per set bonus to 657 (3%), down from 833 (3.8%): 219 per percent",
+      "verified": true,
+      "note": "Fixtures 001 to 010 read their Weapon and Spell Critical percents with 219."
     },
     "resistancePerPercent": {
       "value": 660,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Physical or Spell Resistance rating per 1% of damage mitigation at level 50 CP160."
+      "source": "pages/depth/Physical_Resistance.md (caps at 33,000 for players, which reduces all forms of martial damage taken by 50%: 33000 / 50 = 660 per percent); pages/depth/Spell_Resistance.md (the same cap and percent); fixtures 001 to 010 read every resistance percent on the advanced panel with 660",
+      "verified": true
     },
     "resistanceCapRating": {
       "value": 33000,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Resistance cap, equals 50% mitigation at 660 per percent."
+      "source": "pages/depth/Physical_Resistance.md (It caps at 33,000 for players and 25,000 for NPCs); pages/depth/Spell_Resistance.md (the same)",
+      "verified": true
     },
     "resistanceCapPercent": {
       "value": 50,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Mitigation shown at the resistance cap."
+      "source": "pages/depth/Physical_Resistance.md (reduces all forms of martial damage taken by 50%); pages/depth/Spell_Resistance.md (the same)",
+      "verified": true
     },
     "blockMitigationPercent": {
       "value": 50,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base fraction of damage blocked."
+      "source": "fixtures 002, 003 and 005: Block Mitigation reads 50 x (1 + Champion percent) plus one per heavy piece (52 naked, 54 with two heavy pieces, 55 with three)",
+      "verified": true,
+      "note": "Searched: tables_index.csv \"Block\" (none), pages/Combat.md Blocking section (no percent), data/patch-notes/text \"block mitigation\", \"blocked damage\" (only the 90% cap note 076). The readings are the only source."
     },
     "blockMitigationCapPercent": {
       "value": 90,
@@ -175,25 +161,25 @@
       "value": 12,
       "source": "UNVERIFIED",
       "verified": false,
-      "note": "Fixture 008: Block Move Speed 54 with a shield and Battlefield Mobility against 42 without. The passive text (penalty 36%) would give 64; one reading, kept as a fit."
+      "note": "Fixture 008: Block Move Speed 54 with a shield and Battlefield Mobility against 42 without. One reading, kept as a fit. Searched: pages/Movement_Speed.md row \"One Hand and Shield: Reduces the blocking speed penalty to 48/36%\" (would give 64, not 54); tables_index.csv \"Block\" (none); data/patch-notes/text \"Battlefield Mobility\" (no number that fits)."
     },
     "blockMoveSpeedPercent": {
       "value": 42,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Block Move Speed on the sheet. Fixtures 001 to 004 all read 42% (naked and geared, no shield); Battlefield Mobility changes it with a shield."
+      "source": "fixtures 001 to 004: Block Move Speed reads 42% naked and geared without a shield",
+      "verified": true,
+      "note": "Searched: pages/Movement_Speed.md (blocking reduces speed, no base percent), pages/Combat.md (none), data/patch-notes/text \"block\" with \"speed\" (none). The readings are the only source."
     },
     "sneakSpeedPercent": {
       "value": 60,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Sneak Speed on the sheet. Fixtures 003 and 004 (naked) read 60%; light armor reduces the 40 point penalty by 5% per piece (fixture 002 with one light piece reads 62%)."
+      "source": "fixtures 003 and 004 (naked): Sneak Speed 60%; fixture 002 with one light piece reads 62%, fixture 005 with Dark Stalker 100",
+      "verified": true,
+      "note": "Searched: pages/Stealth.md (penalty reductions only, no base), pages/Movement_Speed.md (Dark Stalker row only), data/patch-notes/text \"sneak\" with \"speed\" (none)."
     },
     "sneakCost": {
       "value": 118,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Base Stamina cost of Sneak per tick. Fitted: fixtures 003 and 004 read 59 with Sustaining Shadows slotted (1% per stage, 50 stages, so half). The geared 34 (fixture 002) does not follow from the medium armor reductions yet."
+      "source": "fixtures 003 and 004 (naked, Sustaining Shadows at 50 of 50 stages): 59 = 118 x 0.5; fixtures 002, 005 and 007 (34, 55, 94) with the medium armor reductions and the stages bought",
+      "verified": true,
+      "note": "Searched: pages/Stealth.md and pages/Combat.md (cost reductions only, no base), tables_index.csv \"Sneak\" (none), data/patch-notes/text \"cost of sneak\", \"sneak cost\" (none)."
     },
     "esoPlusBonusPercent": {
       "value": 10,
@@ -204,24 +190,23 @@
   "attributePoints": {
     "total": {
       "value": 64,
-      "source": "task statement (level 50 characters have 64 attribute points)",
+      "source": "pages/Health.md (line 12: a level 50 character with all 64 stat points allocated to health will have the maximum base health of 23808); task statement",
       "verified": true
     },
     "healthPerPoint": {
       "value": 122,
-      "source": "fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points) with base 16000, and fixtures 001 and 002 seven points apart.",
+      "source": "pages/Health.md (line 12: every stat point allocated to health increases the stat by 122 points); pages/Attributes.md (111 points (122 points for Health)); fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points) with base 16000, and fixtures 001 and 002 seven points apart.",
       "verified": true
     },
     "magickaPerPoint": {
       "value": 111,
-      "source": "fixtures 001 and 002 (Yeets-Swiftly): 42 and 49 points with the same gear differ by 777 Max Magicka before percent bonuses, 7 x 111.",
+      "source": "pages/Magicka.md (line 12: every point placed into the magicka attribute will increase it by 111 points); fixtures 001 and 002 (Yeets-Swiftly): 42 and 49 points with the same gear differ by 777 Max Magicka before percent bonuses, 7 x 111.",
       "verified": true
     },
     "staminaPerPoint": {
       "value": 111,
-      "source": "UNVERIFIED",
-      "verified": false,
-      "note": "Max Stamina granted by one attribute point at level 50."
+      "source": "pages/Stamina.md (line 12: stamina can additionally be increased by 111 points for every stat point allocated to stamina); pages/Attributes.md (increase one attribute by 111 points (122 points for Health))",
+      "verified": true
     }
   },
   "mundus": {
@@ -1625,7 +1610,7 @@
         "value": 0.96,
         "source": "UNVERIFIED",
         "verified": false,
-        "note": "Armor and weapon rating of a purple (Epic) CP160 item relative to gold. Community steps of about 4% per quality; a purple piece reading settles it.",
+        "note": "Armor rating of a purple (Epic) CP160 piece relative to gold. Community steps of about 4% per quality; a purple armor piece reading settles it. Weapons no longer use this: items.weaponDamageByQuality holds the Nirnhoned page rows. Searched: tables_index.csv \"Armor\" (uesp_Online_Armor_t01 is the trait table), pages/Armor.md (no ratings), pages/depth/Rubedite_Ore.md and Rubedo_Leather.md and Ancestor_Silk.md tables (ingot counts, not ratings), data/patch-notes/text \"armor rating\" (none by quality).",
         "alternatives": [
           0.95
         ]
@@ -1661,7 +1646,7 @@
         },
         "shoulders": {
           "value": 2425,
-          "source": "same slot factor as the head (0.875 of the chest), see head",
+          "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): the heavy big pieces read 2425 (Reinforced 2813 = 2425 x 1.16); slot factor 0.875 of the chest like the head",
           "verified": true
         },
         "chest": {
@@ -1683,12 +1668,12 @@
         },
         "legs": {
           "value": 2425,
-          "source": "same slot factor as the head, see head",
+          "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): heavy big pieces 2425, see head",
           "verified": true
         },
         "feet": {
           "value": 2425,
-          "source": "same slot factor as the head, see head",
+          "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): heavy big pieces 2425, see head",
           "verified": true
         }
       },
@@ -1735,7 +1720,7 @@
       "light": {
         "head": {
           "value": 1221,
-          "source": "same slot factor as the shoulders, see shoulders",
+          "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): light big pieces 1221, same slot factor as the shoulders",
           "verified": true
         },
         "shoulders": {
@@ -1804,9 +1789,48 @@
       "ice staff",
       "restoration staff"
     ],
+    "weaponDamageByQuality": {
+      "note": "Damage rating of a CP160 weapon at each quality, white to gold, base and Nirnhoned, from the Online:Nirnhoned page tables (CP160 row). One handed covers axes, maces, swords, daggers, bows and staves (the page's One-Handed and Ranged table); two handed covers greatswords, battle axes and mauls. Read when flags.itemQuality is on; gold agrees with items.weaponDamage and items.twoHandedMeleeWeaponDamage.",
+      "oneHanded": {
+        "source": "tables/uesp_Online_Nirnhoned_t01.csv row '160' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)",
+        "verified": true,
+        "base": {
+          "white": 1037,
+          "green": 1072,
+          "blue": 1108,
+          "purple": 1132,
+          "gold": 1335
+        },
+        "nirnhoned": {
+          "white": 1151,
+          "green": 1200,
+          "blue": 1252,
+          "purple": 1290,
+          "gold": 1535
+        }
+      },
+      "twoHanded": {
+        "source": "tables/uesp_Online_Nirnhoned_t02.csv row '160' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)",
+        "verified": true,
+        "base": {
+          "white": 1220,
+          "green": 1262,
+          "blue": 1304,
+          "purple": 1332,
+          "gold": 1571
+        },
+        "nirnhoned": {
+          "white": 1354,
+          "green": 1413,
+          "blue": 1473,
+          "purple": 1518,
+          "gold": 1806
+        }
+      }
+    },
     "twoHandedSetPieces": {
       "value": 2,
-      "source": "sets.csv settype Weapon rows hold their bonus in bonus_2 (2 items) for a single two handed weapon; task statement",
+      "source": "pages/Weapon_Sets.md (most of these sets consist only of a single two-handed weapon, so only one item is needed to receive the full bonus); sets.csv settype Weapon rows hold their bonus in bonus_2 (2 items); task statement",
       "verified": true,
       "note": "A two handed weapon counts as two set pieces."
     }
@@ -1821,7 +1845,7 @@
         "stats": {
           "maxHealth": 6277
         },
-        "source": "tables/uesp_Online_Food_t03.csv row 'Health, last column'",
+        "source": "tables/uesp_Online_Food_t03.csv row 'Health', last level column",
         "verified": true,
         "note": "UESP scaling table last column read as CP160. Column alignment in that table is suspect."
       },
@@ -1832,7 +1856,7 @@
         "stats": {
           "maxMagicka": 5745
         },
-        "source": "tables/uesp_Online_Food_t02.csv row 'last column'",
+        "source": "tables/uesp_Online_Food_t02.csv row 'Health', last level column (Max Magicka)",
         "verified": true,
         "note": "UESP scaling table last column read as CP160."
       },
@@ -1843,7 +1867,7 @@
         "stats": {
           "maxStamina": 5745
         },
-        "source": "tables/uesp_Online_Food_t02.csv row 'last column'",
+        "source": "tables/uesp_Online_Food_t02.csv row 'Health', last level column (Max Stamina, the same single stat table)",
         "verified": true,
         "note": "UESP scaling table last column read as CP160."
       },
@@ -1855,7 +1879,7 @@
           "maxHealth": 5000,
           "maxMagicka": 4575
         },
-        "source": "tables/uesp_Online_Food_t07.csv row 'last column'",
+        "source": "tables/uesp_Online_Food_t07.csv row 'Health', last level column",
         "verified": true,
         "note": "UESP scaling table. Community tooltips are often quoted as 5395 and 4936; listed in UNKNOWNS.md."
       },
@@ -1867,7 +1891,7 @@
           "maxHealth": 5000,
           "maxStamina": 4575
         },
-        "source": "tables/uesp_Online_Food_t08.csv row 'last column'",
+        "source": "tables/uesp_Online_Food_t08.csv row 'Health', last level column",
         "verified": true,
         "note": "UESP scaling table."
       },
@@ -1879,7 +1903,7 @@
           "maxMagicka": 4575,
           "maxStamina": 4575
         },
-        "source": "tables/uesp_Online_Food_t09.csv row 'last column'",
+        "source": "tables/uesp_Online_Food_t09.csv row 'Magicka', last level column",
         "verified": true,
         "note": "UESP scaling table."
       },
@@ -1924,7 +1948,7 @@
           "healthRecovery": 500,
           "staminaRecovery": 457
         },
-        "source": "tables/uesp_Online_Drinks_t03.csv row 'last column'",
+        "source": "tables/uesp_Online_Drinks_t03.csv row 'Health', last level column",
         "verified": true,
         "note": "UESP scaling table."
       },
@@ -1936,7 +1960,7 @@
           "healthRecovery": 500,
           "magickaRecovery": 457
         },
-        "source": "tables/uesp_Online_Drinks_t04.csv row 'last column'",
+        "source": "tables/uesp_Online_Drinks_t04.csv row 'Health', last level column",
         "verified": true,
         "note": "UESP scaling table."
       },
@@ -1948,7 +1972,7 @@
           "magickaRecovery": 457,
           "staminaRecovery": 457
         },
-        "source": "tables/uesp_Online_Drinks_t05.csv row 'last column'",
+        "source": "tables/uesp_Online_Drinks_t05.csv row 'Magicka', last level column",
         "verified": true,
         "note": "UESP scaling table."
       },
@@ -2328,7 +2352,7 @@
   "cyrodiil": {
     "note": "Campaign bonuses shown on the sheet under Battle Spirit (flags.cyrodiil). Values from the UESP Campaigns page; how the flats and percents combine with the rest of the sheet is unverified until a reading carries one.",
     "enemyKeepCritPercent": {
-      "source": "tables/uesp_Online_Campaigns_t06.csv row 'Enemy Keep Bonus I to IX'",
+      "source": "tables/uesp_Online_Campaigns_t06.csv row 'Enemy Keep Bonus I' to 'Enemy Keep Bonus IX'",
       "verified": true,
       "values": [
         1.0,
@@ -2343,7 +2367,7 @@
       ]
     },
     "offensiveScrollDamagePercent": {
-      "source": "tables/uesp_Online_Campaigns_t07.csv row 'Offensive Scroll Bonus I and II'",
+      "source": "tables/uesp_Online_Campaigns_t07.csv row 'Offensive Scroll Bonus I' and 'Offensive Scroll Bonus II'",
       "verified": true,
       "values": [
         2.0,
@@ -2351,7 +2375,7 @@
       ]
     },
     "defensiveScrollResistancePercent": {
-      "source": "tables/uesp_Online_Campaigns_t07.csv row 'Defensive Scroll Bonus I and II'",
+      "source": "tables/uesp_Online_Campaigns_t07.csv row 'Defensive Scroll Bonus I' and 'Defensive Scroll Bonus II'",
       "verified": true,
       "values": [
         2.0,
@@ -2359,7 +2383,7 @@
       ]
     },
     "emperorshipAllianceMaxHealth": {
-      "source": "tables/uesp_Online_Campaigns_t08.csv row 'Emperorship Alliance Bonus I to VI'; data/patch-notes/html 128 (2022-11-14): The Health bonus for having an Emperor crowned for your Alliance will now scale depending on how many home Keeps you have controlled by your alliance.",
+      "source": "tables/uesp_Online_Campaigns_t08.csv row 'Emperorship Alliance Bonus I' to 'Emperorship Alliance Bonus VI'; data/patch-notes/html 128 (2022-11-14): The Health bonus for having an Emperor crowned for your Alliance will now scale depending on how many home Keeps you have controlled by your alliance.",
       "verified": true,
       "note": "Index is the number of home Keeps the alliance owns (1 to 6).",
       "values": [
@@ -2421,7 +2445,7 @@
           "value": 3,
           "kind": "percent"
         },
-        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 1'; pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
+        "source": "tables/uesp_Online_Vampire_t01.csv row '1' (Stage column); pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
         "verified": true
       },
       "2": {
@@ -2441,7 +2465,7 @@
           "value": 5,
           "kind": "percent"
         },
-        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 2'; pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
+        "source": "tables/uesp_Online_Vampire_t01.csv row '2' (Stage column); pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
         "verified": true
       },
       "3": {
@@ -2461,7 +2485,7 @@
           "value": 8,
           "kind": "percent"
         },
-        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 3'; pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
+        "source": "tables/uesp_Online_Vampire_t01.csv row '3' (Stage column); pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
         "verified": true
       },
       "4": {
@@ -2481,7 +2505,7 @@
           "value": 12,
           "kind": "percent"
         },
-        "source": "tables/uesp_Online_Vampire_t01.csv row 'Stage 4'; pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
+        "source": "tables/uesp_Online_Vampire_t01.csv row '4' (Stage column); pages/Vampire.md (Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance)",
         "verified": true
       }
     }
@@ -2501,7 +2525,7 @@
     },
     "slotsPerConstellation": {
       "value": 4,
-      "source": "task statement",
+      "source": "pages/Champion.md (line 88: the most expensive four active perks per constellation; line 9: the cap is 3600, 1200 per constellation); task statement",
       "verified": true
     },
     "stars": [
@@ -3916,7 +3940,7 @@
     ],
     "mythicMaxEquipped": {
       "value": 1,
-      "source": "task statement; sets.csv marks 35 sets Mythic",
+      "source": "pages/Sets.md (Mythic Items: Only one mythic item can be worn at a time); sets.csv marks 35 sets Mythic; task statement",
       "verified": true
     }
   }

@@ -292,8 +292,10 @@ test('real data: item quality scales traits and ratings when the toggle is on', 
   assert.deepEqual(rows(off, 'physicalPenetration', 'mundus The Lover'), [Math.round(2744 * 1.091)]);
   b.flags = { ...b.flags, itemQuality: true };
   const on = computeSheet(b, real);
-  const f = constants.items.qualityFactor.purple.value;
-  assert.deepEqual(rows(on, 'weaponDamage', 'item mainHand (purple) rating'), [Math.round(gold * f * 1.14)], 'purple Nirnhoned is 14% on a purple rating');
+  assert.deepEqual(rows(on, 'weaponDamage', 'item mainHand (purple) rating'), [constants.items.weaponDamageByQuality.oneHanded.nirnhoned.purple], 'purple Nirnhoned sword: the Nirnhoned page row (1290)');
+  assert.equal(constants.items.weaponDamageByQuality.oneHanded.nirnhoned.purple, 1290);
+  b.bars[0].mainHand.trait = null;
+  assert.deepEqual(rows(computeSheet(b, real), 'weaponDamage', 'item mainHand (purple) rating'), [1132], 'purple sword base: 1132');
   assert.deepEqual(rows(on, 'physicalPenetration', 'mundus The Lover'), [Math.round(2744 * 1.081)], 'purple Divines is 8.1%');
 });
 

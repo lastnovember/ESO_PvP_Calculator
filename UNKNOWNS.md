@@ -1,114 +1,44 @@
 # UNKNOWNS
 
-Values the engine needs that could not be sourced from `data/reference`. Each
-one is used with the best community-known value, is flagged `verified: false`
-in `engine/data/constants.json`, and stays here until a fixture read from the
-game settles it. When a fixture settles a value, move it to the "Settled"
-table at the bottom with the fixture name.
+Values the engine needs that no archive source settles. Each one is used with
+the best value on hand, is flagged `verified: false` in
+`engine/data/constants.json`, lists the searches that were tried (the
+archive-lookup skill: tables_index.csv, pages_index.csv, entities.csv and
+patch_history.csv, data/patch-notes/text), and stays here until a source or a
+fixture read from the game settles it. When something settles a value, move it
+to a "Settled" table at the bottom with the citation.
 
 ## Missing inputs
 
 | Item | Status |
 | --- | --- |
-| `data/patch-notes/html` | Present (202 notes, 2015-06-23 to 2026-08-10). Searched for every constant below; hits are cited in constants.json as "data/patch-notes/html NNN (date)". Base character numbers (naked stats, points, ratings per percent, Roll Dodge, Break Free, Sprint and Bash costs, glyph magnitudes other than Bashing, item armor and weapon ratings) never appear in a console patch note. |
-| UESP prose pages (Health, Magicka, Stamina, Combat, Attributes, Enchanting glyph tables, Armor values) | Archived as PDF only; PDFs are not in the repository. Only the wiki tables (`data/reference/tables`) are. The Scribing page was added the same way on 2026-09-14 (tables t00 to t03, manifest seq 220). |
+| `data/patch-notes/html` | Present (202 notes, 2015-06-23 to 2026-08-10, `data/patch-notes/manifest.csv`; searchable text in `data/patch-notes/text`). Base character numbers (naked stats, points, ratings per percent, Roll Dodge, Break Free, Sprint and Bash costs, item armor and weapon ratings) never appear in a console patch note; the UESP pages carry most of them. |
+| UESP system pages | Archived as Markdown in `data/reference/pages` (`pages_index.csv`, fetched 2026-09-12 to 2026-09-19), tables in `data/reference/tables` (`tables_index.csv`). Pages whose wiki template values did not render (pages/depth/Rubedite_Weapons.md, Ruby_Ash_Weapons.md: empty damage cells) are listed where they matter below. |
 | esoapi.uesp.net data version | v101044 (Update 44, November 2024) per `tools/ARCHIVE_README.md`. Six updates behind live. |
 
-## Base character values (level 50, CP160, naked, 0 attribute points)
+## Open constants
 
-| Constant | Value used | Alternatives seen | Note |
+| Constant | Value used | Why it is open | Searched |
 | --- | --- | --- | --- |
-| Max Health | 16000 | 15000 | |
-| Max Magicka | 7958 | 12000 | |
-| Max Stamina | 7958 | 12000 | |
-| Health Recovery | 484 | | per tick as displayed |
-| Magicka Recovery | 514 | | |
-| Stamina Recovery | 514 | | |
-| Weapon Damage, no weapon | 1000 | 0 | The sheet may show only the weapon's damage rating. |
-| Spell Damage, no weapon | 1000 | 0 | |
-| Critical Chance base | 10% | | |
-| Critical rating per 1% | 219 | | |
-| Critical Damage base | 50% | | |
-| Resistance per 1% mitigation | 660 | | |
-| Resistance cap | 33000 (50%) | | |
-| Block mitigation | 50% | | Cap of 90% is settled (2019-08-26). |
-| Roll Dodge cost | 2891 | 3060 | |
-| Sprint cost | 400 per second | | |
-| Break Free cost | 3060 | | |
-| Bash cost | 1283 | | |
-| Health per attribute point | 122 | 111 | |
-| Magicka per attribute point | 111 | | |
-| Stamina per attribute point | 111 | | |
-
-## Items
-
-| Constant | Value used | Note |
-| --- | --- | --- |
-| Gold CP160 weapon damage rating | 1335 | Any weapon type. Dual wield off hand counts through the Dual Wield Expert passive only (6% of off hand damage per skills.csv). |
-| Gold CP160 armor rating, heavy | chest 2772, head/shoulders/legs/feet 2425 (tooltips), hands 1386, waist 1039 (derived) | Slot factors 0.875 / 0.5 / 0.375 of the chest, truncated. |
-| Gold CP160 armor rating, medium | head/shoulders/legs/feet 1823 (tooltips), chest 2084, hands 1042, waist 781 (derived) | |
-| Gold CP160 armor rating, light | head/shoulders/legs/feet 1221, hands 698, waist 523 (tooltips), chest 1396 (derived) | |
-| Gold CP160 shield armor rating | 1720 | fixture 008 |
-| Precise trait conversion | 3.6% / 7.2% converted at 219 per percent | The percent is settled (2020-09-15). Whether the sheet applies it as a rating or as a percent is not, see STRATEGIES.preciseTrait. |
-
-## Glyphs (Truly Superb, gold)
-
-| Glyph | Value used |
-| --- | --- |
-| Health | 954 large piece (glyph table: 734 / 774 / 839 / 882 / 954 by quality), 385 small piece (tooltip 386, truncated on the sheet) |
-| Magicka, Stamina | 868 large, 350 small (tooltip 351) |
-| Prismatic Defense | 477 / 434 / 434 large (tooltip), 192 / 175 / 175 small (tooltip 193 / 175 / 175) |
-| Weapon Damage, Spell Damage (jewelry) | 174 Weapon and Spell Damage, plus 10 Stamina Recovery (Physical Harm) or 10 Magicka Recovery (Spell Harm), 16 on an Infused piece (note 135, verified) |
-| Health, Magicka, Stamina Recovery (jewelry) | 169 (glyph pages) |
-| Prismatic Recovery | 84 each (glyph page and tooltip image) |
-| Reduce Skill Cost | 133 Health, Magicka and Stamina cost (tooltip image, 2026-09-19) |
-| Reduce Spell Cost, Reduce Feat Cost | 203 (glyph pages) |
-| Reduce Block Cost (Bracing) | 203 (glyph page) |
-| Potion Speed | 5 s (glyph page); Potion Boost 3.6 s |
-| Potion Boost | 8.2 s |
-| Elemental resist glyphs | 2900 |
-| Decrease Physical Harm, Decrease Spell Harm | unknown, no sheet effect applied |
-
-Large pieces: head, chest, legs, shield. Small: shoulders, hands, waist, feet.
-
-## Food and drink
-
-The UESP Food and Drinks scaling tables in `data/reference/tables` have their
-per level columns collapsed, so only the last (CP160) column was trusted.
-Named items are community tooltip values.
-
-| Item | Value used | Note |
-| --- | --- | --- |
-| Blue dual stat food | 5000 Health + 4575 secondary (UESP) | Community tooltips often quote 5395 / 4936. |
-| Green single stat food | 6277 Health, 5745 Magicka or Stamina (UESP) | |
-| Purple tri stat food | 4620 / 4250 / 4250 | UESP level 50 columns show 4625 / 4233. |
-| Bewitched Sugar Skulls | tri stat + 406 Health Recovery | |
-| Artaeum Takeaway Broth, Clockwork Citrus Filet | 3724 Health, 3458 resource, 406 and 406 recovery | A 2019-06-03 note cut their max values by about 15%, so they are not equal to tri stat food. |
-| Witchmother's Potent Brew | 2856 Health, 3161 Magicka, 315 Magicka Recovery | |
-| Dubious Camoran Throne | 2856 Health, 3161 Stamina, 315 Stamina Recovery | |
-| Jewels of Misrule | 3326 Health, 315 each recovery | |
-| Lava Foot Soup-and-Saltrice, Ghastly Eye Bowl | 3080 max + 338 recovery | |
-| Orzorga's Smoked Bear Haunch | 3080 Health, 338 each recovery | |
-| Green recovery drinks | 565 (Magicka, Stamina), 621 (Health) | From Crown item descriptions that mention "Veteran Rank 10", so the era is old. |
+| Block Move Speed with a shield (`base.blockMoveSpeedShieldBonus`) | 12 (54 on the sheet) | One reading (fixture 008) with Battlefield Mobility; the passive text (penalty 36%) would give 64. Kept as a fit. | pages/Movement_Speed.md row "One Hand and Shield: Reduces the blocking speed penalty to 48/36%"; `grep -i block data/reference/tables_index.csv` (none); data/patch-notes/text "Battlefield Mobility" (no number that fits). A second shield reading settles it. |
+| Armor rating below gold (`items.qualityFactor`) | purple 0.96, blue 0.92, green 0.88, white 0.84 of gold | Community steps; no archived armor rating by quality. Weapons no longer use this (Nirnhoned tables). | `grep -i armor data/reference/tables_index.csv` (uesp_Online_Armor_t01 is the trait table); pages/Armor.md (no ratings); pages/depth/Rubedite_Ore.md, Rubedo_Leather.md, Ancestor_Silk.md tables (ingot counts, not ratings); data/patch-notes/text "armor rating" (none by quality). One reading with a single purple armor piece settles it by differencing. |
+| Derived armor slot values (`items.armor`: medium and light chest, heavy and medium hands and waist) | chest 2084 / 1396, hands 1386 / 1042, waist 1039 / 781 | Not read from a tooltip; derived from the DK's read pieces with the slot factors 0.875 / 0.5 / 0.375 (truncated) and the 688 step between weights. | Same searches as the row above; the six read slots are in constants.json with the tooltips. A tooltip of any derived piece settles it. |
+| Precise trait on the sheet (`STRATEGIES.preciseTrait`) | rating (3.6% x 219) | Whether the sheet applies Precise as rating or as a percent is not stated. | tables/uesp_Online_Weapons_t01.csv row 'Precise' (percent only); data/patch-notes/html 093 (2020-09-15, the percent); no reading on file carries a Precise weapon. |
 
 ## Systems
 
-- Mora's Whispers (crit by books collected) and Thrassian Stranglers (Weapon Damage by kill stacks) depend on character state the build cannot express yet.
-
-- Cyrodiil scroll and keep bonuses: values from the UESP campaign table (2% and 5% damage or resistance, 1% crit per enemy keep, 900 to 1750 Max Health by home keeps under Emperorship); whether the percents multiply the sheet total or add to the other percents is unverified, no reading carries one yet.
-
-| Item | Value used | Note |
-| --- | --- | --- |
-| Battle Spirit flat +5000 Max Health | Off by default (`flags.battleSpiritFlatHealth`) | Timeline in the notes: 2016-01-26 temporary "not modified by Health percentage increases", 2016-03-22 fixed (so it IS multiplied by percent bonuses), 2016-06-13 and 2019-08-26 pets get the same 5000. No note ever removes it, no note after 2019 mentions it for players, UESP does not list it. Only a PvP zone fixture can settle it. |
-| Dual wield off hand contribution | 6% of off hand damage (Dual Wield Expert) | skills.csv tooltip. |
-| Werewolf form stat changes beyond passives | none modelled | |
+| Item | Value used | Why it is open | Searched |
+| --- | --- | --- | --- |
+| Mora's Whispers, Thrassian Stranglers | not modelled | Crit by books collected and Weapon Damage by kill stacks are character state the build cannot express. | sets.csv bonus_1 texts (the rule is in the text; the state is not a build field). |
+| Cyrodiil scroll and keep bonus stacking | percents from tables/uesp_Online_Campaigns_t06..t08.csv | Whether the scroll and keep percents multiply the sheet total or add to the other percents is not stated; no reading carries one. | pages/Campaigns.md and pages/depth/Elder_Scrolls.md (effects only); data/patch-notes/text "scroll bonus", "keep bonus" (values, no stacking rule). |
+| Werewolf form stat changes beyond passives | none modelled | The sheet in werewolf form is not read. | `grep -ic 'werewolf form' data/reference/skills.csv` (10 passive rows, all modelled); pages/Werewolf.md (no sheet values); no fixture in werewolf form. |
+| Roll Dodge Cost stacking | flat first, then additive percents | No stacking order fits all three geared readings (see Open gaps). | pages/Combat.md (cost depends on level, no formula); skills.csv Athletics, Light and Heavy Armor passive texts; data/patch-notes/text "Roll Dodge" with "cost" (none). |
 
 ## Item quality
 
 | Item | Status |
 | --- | --- |
-| Armor and weapon rating by quality | `items.qualityFactor` purple 0.96, blue 0.92, green 0.88, white 0.84 of gold are community steps. One reading with a single purple armor piece and one with a purple weapon settle them by differencing. Trait values by quality are verified (UESP trait tables). |
-| Glyph values below gold | Large armor pieces and jewelry read the per quality rows of the UESP glyph pages (verified). Small armor pieces at white to purple are derived as 0.4043 of the large value truncated, the rule the gold readings follow (`enchants.glyphSmallRatio`); a reading with one non gold small glyph settles whether the game truncates the same way there. Increase Bash Damage below gold uses `enchants.glyphQualityFactor` because its page is stale (pre Greymoor 348 Weapon and Spell Damage). |
+| Glyph values below gold | Searched: pages/glyphs/*.md Truly Superb rows, tables_index.csv "Glyph" (no small piece rows). Large armor pieces and jewelry read the per quality rows of the UESP glyph pages (verified). Small armor pieces at white to purple are derived as 0.4043 of the large value truncated, the rule the gold readings follow (`enchants.glyphSmallRatio`); a reading with one non gold small glyph settles whether the game truncates the same way there. Increase Bash Damage below gold uses `enchants.glyphQualityFactor` because its page is stale (pre Greymoor 348 Weapon and Spell Damage). |
 | Set bonus types with no quality table | Offensive Penetration ("34-1487", 69 bonuses) and Critical Resistance (27 bonuses) ranges have no CP160 by quality row: Online:Craftable Sets tables t03 to t08 cover recovery, Max Magicka or Stamina, Max Health, damage, critical and resistance only. Searched: `grep -i penetration data/reference/tables_index.csv` (0 hits), `grep -i 'penetration\|critical resistance' data/reference/pages_index.csv` (Online:Penetration and Online:Critical Resistance, prose only, no ranges), `grep -i 'set bonus' data/patch-notes/text` (no quality values). Below gold these bonuses keep the gold value and the engine adds a note. |
 | Which piece sets a mixed quality set's bonus | `STRATEGIES.setBonusQuality`, default lowest piece on the bar, alternative highest piece. Searched: `grep -rhi 'lowest\|highest' data/reference/pages/Sets.md data/reference/pages/Craftable_Sets.md` (nothing), `grep -rhi 'set bonus' data/patch-notes/text | grep -i 'qualit\|lowest\|highest'` (nothing), `grep -rhi 'mixed qualit\|different qualit' data/patch-notes/text data/reference/pages` (nothing), forum threads with "set bonus" (three, none on quality). A reading with one purple piece in an otherwise gold five piece set settles it. |
 
@@ -116,8 +46,8 @@ Named items are community tooltip values.
 
 | Item | Status |
 | --- | --- |
-| Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
-| Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
+| Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. Searched: tables/uesp_Online_Scribing_t01.csv row 'Physical Damage'; tables/esolog_skill_coefficients_t00.csv rows 'Sundering Vault'; data/patch-notes/text "Vault" (no script list). |
+| Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. Searched: tables/uesp_Online_Buffs tables and tables/uesp_Online_Scribing_t03.csv (no tier column). |
 
 ## Open gaps across the ten readings (2026-09-19, after the glyph pages and the bash formula)
 
@@ -198,3 +128,23 @@ Every reading now matches 43 to 56 of its numbers (`engine/tests/fixtures/INDEX.
 | Critical Healing sources | Dexterity, Fighting Finesse, The Shadow (not Piercing Spear, Twin Blade and Blunt, Advanced Species, Hemorrhage, Feline Ambush counts) | 002, 003, 005 |
 | Sneak Speed with Dark Stalker | 100 | 005 |
 | Disease and Poison Resistance | physical rating plus Resist Affliction 2310, over 660 | 005 |
+
+## Settled by the archive pages (audit of 2026-09-19)
+
+| Constant | Settled value | Source |
+| --- | --- | --- |
+| Max Health, Magicka, Stamina at level 50 | 16000, 12000, 12000 | pages/Health.md line 12, Magicka.md line 12, Stamina.md line 12 (and the formulas on line 19); fixture 003 |
+| Attribute points, per point values | 64 points; 122 Health, 111 Magicka and Stamina | pages/Health.md line 12, Attributes.md line 24, Magicka.md and Stamina.md line 12 |
+| Base recoveries | Health 309, Magicka 514, Stamina 514 | pages/Health.md, Magicka.md, Stamina.md line 24; fixture 003 (the 484 seen in community sources is nowhere in the archive) |
+| Critical Chance base and rating | 10%; 219 per percent (MCV 21912 at CP160) | pages/depth/Weapon_Critical_effect.md and Spell_Critical_effect.md; data/patch-notes/html 100 (2021-03-15): 657 rating = 3% |
+| Critical Damage base and cap | 50%, cap 125% | pages/Critical_Damage.md; data/patch-notes/html 111 |
+| Resistance cap and per percent | 33000 = 50%, 660 per percent | pages/depth/Physical_Resistance.md and Spell_Resistance.md; every fixture's mitigation percents |
+| Weapon damage by quality | one handed 1037 / 1072 / 1108 / 1132 / 1335, two handed 1220 / 1262 / 1304 / 1332 / 1571, Nirnhoned 1151 to 1535 and 1354 to 1806 | tables/uesp_Online_Nirnhoned_t01.csv and t02.csv row '160' |
+| Set bonuses by quality | six types, tables t03 to t08 | tables/uesp_Online_Craftable_Sets_t03..t08.csv row '160'; pages/Craftable_Sets.md line 511 |
+| Weapon and Spell Damage with no weapon | 1000 | fixture 003 (naked): no page or note states it |
+| Block Mitigation base | 50 | fixtures 002, 003, 005 (52, 54, 55 with the Champion percent and heavy pieces); no page or note states it |
+| Block Move Speed, Sneak Speed, Sneak Cost | 42, 60, 118 | fixtures 001 to 004 (naked and geared), 002, 005, 007; no page or note states them |
+| Slottable stars per constellation, Champion cap | 4, 3600 | pages/Champion.md lines 88 and 9; data/patch-notes/html 100 |
+| One mythic, monster set slots, two handed weapon as two pieces | 1; head and shoulders; 2 | pages/Sets.md; pages/Weapon_Sets.md line 7 |
+| Poison overrides the weapon enchant | yes, until depleted | pages/Poisons.md |
+

@@ -556,7 +556,8 @@ function collect(build, data, barIndex, strategies) {
   if (ctx.bar.offHand) items.push({ slot: ctx.bar.offHand.type === 'shield' ? 'shield' : 'offHand', cat: ctx.bar.offHand.type === 'shield' ? 'shield' : 'weapon', it: ctx.bar.offHand });
 
   // Item quality: read only when flags.itemQuality is on, gold otherwise. Traits come from the UESP trait table
-  // columns (verified); armor and weapon ratings scale by items.qualityFactor (unverified below gold).
+  // columns (verified); weapon ratings from the Nirnhoned page tables (verified); armor ratings scale by
+  // items.qualityFactor (unverified below gold).
   const qualityOn = !!(build.flags && build.flags.itemQuality);
   const qualityOf = (it) => (qualityOn && it && C.items.qualityFactor[it.quality] ? it.quality : 'gold');
   const qf = (it) => v(C.items.qualityFactor[qualityOf(it)]);
@@ -573,8 +574,15 @@ function collect(build, data, barIndex, strategies) {
     // weapon rating
     if (cat === 'weapon') {
       // greatswords, battle axes and mauls are 1571 at CP160 gold; bows, staves and one handed weapons 1335 (Nirnhoned page)
-      const baseRating = ['greatsword', 'battle axe', 'maul'].includes(it.type) ? v(C.items.twoHandedMeleeWeaponDamage) : v(C.items.weaponDamage);
-      const rating = baseRating * qf(it) * (it.trait === 'Nirnhoned' ? 1 + wq(C.traits.weapon.Nirnhoned, it, TWO_HANDED.has(it.type)) / 100 : 1);
+      const twoMelee = ['greatsword', 'battle axe', 'maul'].includes(it.type);
+      const baseRating = twoMelee ? v(C.items.twoHandedMeleeWeaponDamage) : v(C.items.weaponDamage);
+      // the Nirnhoned page tables give the rating outright at every quality, base and Nirnhoned
+      // (items.weaponDamageByQuality); the trait percent is the fallback (1571 x 1.15 rounds to 1807, the page says 1806)
+      const wbq = C.items.weaponDamageByQuality && C.items.weaponDamageByQuality[twoMelee ? 'twoHanded' : 'oneHanded'];
+      const wqual = qualityOf(it);
+      const rating = wbq
+        ? (it.trait === 'Nirnhoned' ? wbq.nirnhoned[wqual] : wbq.base[wqual])
+        : baseRating * (it.trait === 'Nirnhoned' ? 1 + wq(C.traits.weapon.Nirnhoned, it, TWO_HANDED.has(it.type)) / 100 : 1);
       if (slot === 'mainHand') acc.add('weaponAndSpellDamage', 'flat', Math.round(rating), `${src} rating`);
       else if (strategies.offHandRating === 'full') acc.add('weaponAndSpellDamage', 'flat', Math.round(rating), `${src} rating`);
       else acc.add('offHandRating', 'flat', Math.round(rating), `${src} rating`);

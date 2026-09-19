@@ -80,6 +80,13 @@ def glyph_by_quality(page_name, gold):
     return by
 
 
+def nirn_rows(name):
+    """CP160 row of an Online:Nirnhoned weapon table: five base damage values then five Nirnhoned values, white to gold."""
+    rows = table(name)
+    r = next(r for r in rows if r[0] == '160')
+    return [int(x) for x in r[1:6]], [int(x) for x in r[6:11]]
+
+
 def num(s):
     s = s.replace(',', '').replace('%', '').strip()
     return float(s) if '.' in s else int(s)
@@ -94,23 +101,25 @@ C['_meta'] = OrderedDict(
 )
 
 # ---------------------------------------------------------------- base stats
+F3 = 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points)'
+
 C['base'] = OrderedDict(
-    maxHealth=sourced(16000, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19305 = 16000 + 15 x 122 + Lunar Blessings 915 + Hero\'s Vigor 560.'),
-    maxMagicka=sourced(12000, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 19251 = (12000 + 49 x 111 + 915 + 520) x 1.02 Magicka Controller.'),
-    maxStamina=sourced(12000, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 13435 = 12000 + 915 + 520.'),
-    healthRecovery=unverified(309, 'Naked level 50 Health Recovery. fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 540 = base + Capacitor 141 + Robustness 90, so 309 if both passives give Health Recovery the full amount. The split is the unverified part.', [484]),
-    magickaRecovery=sourced(514, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 909 = (514 + 141 + 90) x 1.22 (Flourish 20%, Magicka Controller 2%).'),
-    staminaRecovery=sourced(514, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 894 = (514 + 141 + 90) x 1.20 (Flourish).'),
-    weaponDamage=unverified(1000, 'Sheet Weapon Damage with no weapon equipped and no bonuses.', [0]),
-    spellDamage=unverified(1000, 'Sheet Spell Damage with no weapon equipped and no bonuses.', [0]),
-    critChancePercent=unverified(10, 'Base Critical Chance for every character.'),
-    critDamagePercent=unverified(50, 'Base Critical Damage.'),
-    critDamageCapPercent=sourced(125, pn('111', '2021-11-15', 'Critical Damage and Healing now has a hard cap of 125%.'), 'Class Mastery Above and Beyond raises the cap by 30 (patch 12.0.0 note in skills.csv: 155%).'),
-    critRatingPerPercent=unverified(219, 'Critical rating needed for 1% Critical Chance at level 50 CP160.'),
-    resistancePerPercent=unverified(660, 'Physical or Spell Resistance rating per 1% of damage mitigation at level 50 CP160.'),
-    resistanceCapRating=unverified(33000, 'Resistance cap, equals 50% mitigation at 660 per percent.'),
-    resistanceCapPercent=unverified(50, 'Mitigation shown at the resistance cap.'),
-    blockMitigationPercent=unverified(50, 'Base fraction of damage blocked.'),
+    maxHealth=sourced(16000, page('Health.md', 'line 12: 1300 at level 1 plus 300 per level, 16000 health points at level 50; line 19 formula') + '; ' + F3 + ': 19305 = 16000 + 15 x 122 + Lunar Blessings 915 + Hero\'s Vigor 560.'),
+    maxMagicka=sourced(12000, page('Magicka.md', 'line 12: 1220 at level 1 plus 220 per level, 12 000 maximum magicka at level 50; line 19 formula') + '; ' + F3 + ': 19251 = (12000 + 49 x 111 + 915 + 520) x 1.02 Magicka Controller.'),
+    maxStamina=sourced(12000, page('Stamina.md', 'line 12: 1220 at level 1 plus 220 per level, 12000 points of stamina at level 50; line 19 formula') + '; ' + F3 + ': 13435 = 12000 + 915 + 520.'),
+    healthRecovery=sourced(309, page('Health.md', 'line 24: a level 50 character with no other bonuses will have a health recovery of 309') + '; ' + F3 + ': 540 = 309 + Capacitor 141 + Robustness 90.', 'The 484 seen in community sources is not in the archive.'),
+    magickaRecovery=sourced(514, page('Magicka.md', 'line 24: a level 50 character will have a base magicka recovery of 514 points') + '; ' + F3 + ': 909 = (514 + 141 + 90) x 1.22 (Flourish 20%, Magicka Controller 2%).'),
+    staminaRecovery=sourced(514, page('Stamina.md', 'line 24: at level 50 a character will have 514 points of stamina recovery') + '; ' + F3 + ': 894 = (514 + 141 + 90) x 1.20 (Flourish).'),
+    weaponDamage=sourced(1000, F3 + ', no weapon: the sheet reads Weapon Damage 1000 with no Weapon Damage source in the build.', 'Searched: tables_index.csv header "Weapon Damage" (none), pages/Weapon_Damage.md and depth/Weapon_Damage.md (no base value), data/patch-notes/text "base weapon damage", "unarmed" (none). The reading is the only source.'),
+    spellDamage=sourced(1000, F3 + ', no weapon: the sheet reads Spell Damage 1000 with no Spell Damage source in the build.', 'Searched as for weaponDamage (pages/Spell_Damage.md has no base value).'),
+    critChancePercent=sourced(10, page('depth/Weapon_Critical_effect.md', 'You start with a baseline 10% critical value; Critical Strike Chance% = min(100, 10 + 100 x (Critical Value / MCV))') + '; ' + page('depth/Spell_Critical_effect.md', 'same formula')),
+    critDamagePercent=sourced(50, page('Critical_Damage.md', 'Critical Damage starts with a base damage increase of 50%, and is capped at 125%') + '; ' + page('depth/Weapon_Critical_effect.md', 'normally 50% of the base strike') + '; fixture 003 (naked) reads Critical Damage 40 above the base with Backstabber and medium passives off'),
+    critDamageCapPercent=sourced(125, pn('111', '2021-11-15', 'Critical Damage and Healing now has a hard cap of 125%.') + '; ' + page('Critical_Damage.md', 'capped at 125%'), 'Class Mastery Above and Beyond raises the cap by 30 (patch 12.0.0 note in skills.csv: 155%).'),
+    critRatingPerPercent=sourced(219, page('depth/Weapon_Critical_effect.md', 'Critical Strike Chance% = 10 + 100 x (Critical Value / MCV), MCV 21912 at CP160 (level 66): 219.12 rating per percent; 3000 rating reads 23.7%') + '; ' + pn('100', '2021-03-15', 'Critical Rating granted per set bonus to 657 (3%), down from 833 (3.8%): 219 per percent'), 'Fixtures 001 to 010 read their Weapon and Spell Critical percents with 219.'),
+    resistancePerPercent=sourced(660, page('depth/Physical_Resistance.md', 'caps at 33,000 for players, which reduces all forms of martial damage taken by 50%: 33000 / 50 = 660 per percent') + '; ' + page('depth/Spell_Resistance.md', 'the same cap and percent') + '; fixtures 001 to 010 read every resistance percent on the advanced panel with 660'),
+    resistanceCapRating=sourced(33000, page('depth/Physical_Resistance.md', 'It caps at 33,000 for players and 25,000 for NPCs') + '; ' + page('depth/Spell_Resistance.md', 'the same')),
+    resistanceCapPercent=sourced(50, page('depth/Physical_Resistance.md', 'reduces all forms of martial damage taken by 50%') + '; ' + page('depth/Spell_Resistance.md', 'the same')),
+    blockMitigationPercent=sourced(50, 'fixtures 002, 003 and 005: Block Mitigation reads 50 x (1 + Champion percent) plus one per heavy piece (52 naked, 54 with two heavy pieces, 55 with three)', 'Searched: tables_index.csv "Block" (none), pages/Combat.md Blocking section (no percent), data/patch-notes/text "block mitigation", "blocked damage" (only the 90% cap note 076). The readings are the only source.'),
     blockMitigationCapPercent=sourced(90, pn('076', '2019-08-26', 'Block mitigation now has a cap of 90%.')),
     blockCost=sourced(1750, 'fixtures 001 and 002 (Yeets-Swiftly): (1750 - 40 Tireless Guardian) x 0.91 (medium -12%, light +3%) = 1556 on the mace bar and x 0.64 more (Ice Staff) = 996 on the staff bar, both exact. The 2018 note (053, 2018-02-26) set 1730; no later note names the base, the sheet says 1750.', 'Flat reductions are subtracted from the base first, then percentage reductions (STRATEGIES.costOrder flatThenPercent); armor passives add up, a weapon passive multiplies separately (STRATEGIES.costWeaponPercent).'),
     rollDodgeCost=sourced(4040, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points): 3800 on the sheet with Tumbling 240 taken off first. Geared (fixture 002) reads 3248 where the additive passive model gives 3306; the percent stacking for Roll Dodge is still open.'),
@@ -122,18 +131,18 @@ C['base'] = OrderedDict(
     movementSpeedCapPercent=sourced(200, src('uesp_Online_Movement_Speed_t00.csv', 'Walking')),
     critResistance=sourced(1320, pn('087', '2020-06-09', 'All players will now have a baseline of 20% Critical Damage Reduction in the form of Critical Resistance, starting at level 10.'), '20% at 66 Critical Resistance per percent. Fixture 003 (naked) reads 1980 = 1320 + Resilience 660.'),
     sprintSpeedPercent=sourced(140, src('uesp_Online_Movement_Speed_t00.csv', 'Running'), 'Running (sprint) default 140%, maximum 200%.'),
-    blockMoveSpeedShieldBonus=unverified(12, 'Fixture 008: Block Move Speed 54 with a shield and Battlefield Mobility against 42 without. The passive text (penalty 36%) would give 64; one reading, kept as a fit.'),
-    blockMoveSpeedPercent=unverified(42, 'Block Move Speed on the sheet. Fixtures 001 to 004 all read 42% (naked and geared, no shield); Battlefield Mobility changes it with a shield.'),
-    sneakSpeedPercent=unverified(60, 'Sneak Speed on the sheet. Fixtures 003 and 004 (naked) read 60%; light armor reduces the 40 point penalty by 5% per piece (fixture 002 with one light piece reads 62%).'),
-    sneakCost=unverified(118, 'Base Stamina cost of Sneak per tick. Fitted: fixtures 003 and 004 read 59 with Sustaining Shadows slotted (1% per stage, 50 stages, so half). The geared 34 (fixture 002) does not follow from the medium armor reductions yet.'),
+    blockMoveSpeedShieldBonus=unverified(12, 'Fixture 008: Block Move Speed 54 with a shield and Battlefield Mobility against 42 without. One reading, kept as a fit. Searched: pages/Movement_Speed.md row "One Hand and Shield: Reduces the blocking speed penalty to 48/36%" (would give 64, not 54); tables_index.csv "Block" (none); data/patch-notes/text "Battlefield Mobility" (no number that fits).'),
+    blockMoveSpeedPercent=sourced(42, 'fixtures 001 to 004: Block Move Speed reads 42% naked and geared without a shield', 'Searched: pages/Movement_Speed.md (blocking reduces speed, no base percent), pages/Combat.md (none), data/patch-notes/text "block" with "speed" (none). The readings are the only source.'),
+    sneakSpeedPercent=sourced(60, 'fixtures 003 and 004 (naked): Sneak Speed 60%; fixture 002 with one light piece reads 62%, fixture 005 with Dark Stalker 100', 'Searched: pages/Stealth.md (penalty reductions only, no base), pages/Movement_Speed.md (Dark Stalker row only), data/patch-notes/text "sneak" with "speed" (none).'),
+    sneakCost=sourced(118, 'fixtures 003 and 004 (naked, Sustaining Shadows at 50 of 50 stages): 59 = 118 x 0.5; fixtures 002, 005 and 007 (34, 55, 94) with the medium armor reductions and the stages bought', 'Searched: pages/Stealth.md and pages/Combat.md (cost reductions only, no base), tables_index.csv "Sneak" (none), data/patch-notes/text "cost of sneak", "sneak cost" (none).'),
     esoPlusBonusPercent=sourced(10, 'fixtures 001 to 004: Experience, Gold, Crafting Inspiration, Tel Var and Alliance Points all read 10% with ESO Plus Member in the active effects.'),
 )
 
 C['attributePoints'] = OrderedDict(
-    total=sourced(64, 'task statement (level 50 characters have 64 attribute points)'),
-    healthPerPoint=sourced(122, 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points) with base 16000, and fixtures 001 and 002 seven points apart.'),
-    magickaPerPoint=sourced(111, 'fixtures 001 and 002 (Yeets-Swiftly): 42 and 49 points with the same gear differ by 777 Max Magicka before percent bonuses, 7 x 111.'),
-    staminaPerPoint=unverified(111, 'Max Stamina granted by one attribute point at level 50.'),
+    total=sourced(64, page('Health.md', 'line 12: a level 50 character with all 64 stat points allocated to health will have the maximum base health of 23808') + '; task statement'),
+    healthPerPoint=sourced(122, page('Health.md', 'line 12: every stat point allocated to health increases the stat by 122 points') + '; ' + page('Attributes.md', '111 points (122 points for Health)') + '; ' + F3 + ' with base 16000, and fixtures 001 and 002 seven points apart.'),
+    magickaPerPoint=sourced(111, page('Magicka.md', 'line 12: every point placed into the magicka attribute will increase it by 111 points') + '; fixtures 001 and 002 (Yeets-Swiftly): 42 and 49 points with the same gear differ by 777 Max Magicka before percent bonuses, 7 x 111.'),
+    staminaPerPoint=sourced(111, page('Stamina.md', 'line 12: stamina can additionally be increased by 111 points for every stat point allocated to stamina') + '; ' + page('Attributes.md', 'increase one attribute by 111 points (122 points for Health)')),
 )
 
 # ---------------------------------------------------------------- mundus
@@ -321,7 +330,7 @@ C['items'] = OrderedDict(
     note='Armor rating of a gold CP160 piece with no trait, and weapon damage of a gold CP160 weapon. Armor from the user\'s tooltips (2026-09-19): slot factors chest 1.0, head shoulders legs feet 0.875, hands 0.5, waist 0.375. Medium and light chests and the small heavy and medium pieces are derived from those factors.',
     qualityFactor=OrderedDict(
         gold=sourced(1.0, 'definition: ratings are stated for gold (Legendary) CP160 items'),
-        purple=unverified(0.96, 'Armor and weapon rating of a purple (Epic) CP160 item relative to gold. Community steps of about 4% per quality; a purple piece reading settles it.', [0.95]),
+        purple=unverified(0.96, 'Armor rating of a purple (Epic) CP160 piece relative to gold. Community steps of about 4% per quality; a purple armor piece reading settles it. Weapons no longer use this: items.weaponDamageByQuality holds the Nirnhoned page rows. Searched: tables_index.csv "Armor" (uesp_Online_Armor_t01 is the trait table), pages/Armor.md (no ratings), pages/depth/Rubedite_Ore.md and Rubedo_Leather.md and Ancestor_Silk.md tables (ingot counts, not ratings), data/patch-notes/text "armor rating" (none by quality).', [0.95]),
         blue=unverified(0.92, 'Blue (Superior) relative to gold, see purple.', [0.90]),
         green=unverified(0.88, 'Green (Fine) relative to gold, see purple.'),
         white=unverified(0.84, 'White (Normal) relative to gold, see purple.'),
@@ -332,11 +341,11 @@ C['items'] = OrderedDict(
     armor=OrderedDict(
         heavy=OrderedDict(
             head=sourced(2425, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Bloodspawn, Roksa and Balorgh visages, Reinforced, all 2813 = 2425 x 1.16'),
-            shoulders=sourced(2425, 'same slot factor as the head (0.875 of the chest), see head'),
+            shoulders=sourced(2425, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): the heavy big pieces read 2425 (Reinforced 2813 = 2425 x 1.16); slot factor 0.875 of the chest like the head'),
             chest=sourced(2772, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Cuirass of the Trainee, Reinforced, 3215 = 2772 x 1.16 (3215.5 truncated)'),
             hands=unverified(1386, 'heavy hands, 0.5 of the chest like the light hands (698 of 1395.4)'),
             waist=unverified(1039, 'heavy waist, 0.375 of the chest like the light waist (523 of 1396.3), truncated: 1039.6'),
-            legs=sourced(2425, 'same slot factor as the head, see head'), feet=sourced(2425, 'same slot factor as the head, see head')),
+            legs=sourced(2425, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): heavy big pieces 2425, see head'), feet=sourced(2425, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): heavy big pieces 2425, see head')),
         medium=OrderedDict(
             head=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Bloodspawn Mask, Reinforced, 2114 = 1823 x 1.16 truncated; Bloodspawn epaulets (Impenetrable) 1823'),
             shoulders=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Bloodspawn shoulders, medium, Impenetrable: 1823'),
@@ -346,7 +355,7 @@ C['items'] = OrderedDict(
             legs=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Guards of Essence Thief, Reinforced, 2114 = 1823 x 1.16 truncated'),
             feet=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Boots of Essence Thief, Reinforced, 2114 = 1823 x 1.16 truncated')),
         light=OrderedDict(
-            head=sourced(1221, 'same slot factor as the shoulders, see shoulders'),
+            head=sourced(1221, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): light big pieces 1221, same slot factor as the shoulders'),
             shoulders=sourced(1221, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Balorgh and Roksa epaulets, light, Impenetrable: 1221'),
             chest=unverified(1396, 'light chest: 1221 = trunc(0.875 x chest), 698 = trunc(0.5 x chest) and 523 = trunc(0.375 x chest) together put the chest in 1396.0 to 1396.6. No light chest read yet.'),
             hands=sourced(698, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Gloves of Rallying Cry, light, Divines: 698'),
@@ -359,7 +368,16 @@ C['items'] = OrderedDict(
     twoHandedMeleeWeaponDamage=sourced(1571, page('Nirnhoned.md', 'Two-Handed table, CP160 row: 1571 base, 1806 Nirnhoned') + '; ' + forum('348673', 'Reorx_Holybeard', '2017-05-31', '2H = 1571'), 'Greatsword, battle axe and maul. No reading on file carries one yet.'),
     dualWieldOffHandInherentPercent=sourced(17.67, forum('348673', 'Reorx_Holybeard', '2017-05-31', 'DW = 1335 + 1335*0.177 = 1571, DW + Dual Wield Expert 2 = 1571 + 1335*0.06 = 1651') + '; fixtures 002, 005 and 009 (17.67 + 6 = 23.67 lands all three within 1, the forum 17.7 misses two by 1)', 'Share of the off hand weapon rating (trait included) the sheet adds while dual wielding before Dual Wield Expert. With the passive the off hand reaches 23.67%, and two maces equal a two handed weapon (1571) before the passive.'),
     twoHandedTypes=['greatsword', 'battle axe', 'maul', 'bow', 'inferno staff', 'lightning staff', 'ice staff', 'restoration staff'],
-    twoHandedSetPieces=sourced(2, 'sets.csv settype Weapon rows hold their bonus in bonus_2 (2 items) for a single two handed weapon; task statement', 'A two handed weapon counts as two set pieces.'),
+    weaponDamageByQuality=OrderedDict(
+        note='Damage rating of a CP160 weapon at each quality, white to gold, base and Nirnhoned, from the Online:Nirnhoned page tables (CP160 row). One handed covers axes, maces, swords, daggers, bows and staves (the page\'s One-Handed and Ranged table); two handed covers greatswords, battle axes and mauls. Read when flags.itemQuality is on; gold agrees with items.weaponDamage and items.twoHandedMeleeWeaponDamage.',
+        oneHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t01.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)', verified=True,
+                              base=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t01.csv')[0])),
+                              nirnhoned=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t01.csv')[1]))),
+        twoHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t02.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)', verified=True,
+                              base=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t02.csv')[0])),
+                              nirnhoned=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t02.csv')[1]))),
+    ),
+    twoHandedSetPieces=sourced(2, page('Weapon_Sets.md', 'most of these sets consist only of a single two-handed weapon, so only one item is needed to receive the full bonus') + '; sets.csv settype Weapon rows hold their bonus in bonus_2 (2 items); task statement', 'A two handed weapon counts as two set pieces.'),
 )
 
 # ---------------------------------------------------------------- foods
@@ -368,12 +386,12 @@ def food(id_, name, kind, note, verified=False, source='UNVERIFIED', **stats):
     return d
 
 foods = [
-    food('green-health', 'Green single stat food (Max Health)', 'food', 'UESP scaling table last column read as CP160. Column alignment in that table is suspect.', True, src('uesp_Online_Food_t03.csv', 'Health, last column'), maxHealth=6277),
-    food('green-magicka', 'Green single stat food (Max Magicka)', 'food', 'UESP scaling table last column read as CP160.', True, src('uesp_Online_Food_t02.csv', 'last column'), maxMagicka=5745),
-    food('green-stamina', 'Green single stat food (Max Stamina)', 'food', 'UESP scaling table last column read as CP160.', True, src('uesp_Online_Food_t02.csv', 'last column'), maxStamina=5745),
-    food('blue-health-magicka', 'Blue dual stat food (Health and Magicka)', 'food', 'UESP scaling table. Community tooltips are often quoted as 5395 and 4936; listed in UNKNOWNS.md.', True, src('uesp_Online_Food_t07.csv', 'last column'), maxHealth=5000, maxMagicka=4575),
-    food('blue-health-stamina', 'Blue dual stat food (Health and Stamina)', 'food', 'UESP scaling table.', True, src('uesp_Online_Food_t08.csv', 'last column'), maxHealth=5000, maxStamina=4575),
-    food('blue-magicka-stamina', 'Blue dual stat food (Magicka and Stamina)', 'food', 'UESP scaling table.', True, src('uesp_Online_Food_t09.csv', 'last column'), maxMagicka=4575, maxStamina=4575),
+    food('green-health', 'Green single stat food (Max Health)', 'food', 'UESP scaling table last column read as CP160. Column alignment in that table is suspect.', True, src('uesp_Online_Food_t03.csv', 'Health') + ', last level column', maxHealth=6277),
+    food('green-magicka', 'Green single stat food (Max Magicka)', 'food', 'UESP scaling table last column read as CP160.', True, src('uesp_Online_Food_t02.csv', 'Health') + ', last level column (Max Magicka)', maxMagicka=5745),
+    food('green-stamina', 'Green single stat food (Max Stamina)', 'food', 'UESP scaling table last column read as CP160.', True, src('uesp_Online_Food_t02.csv', 'Health') + ', last level column (Max Stamina, the same single stat table)', maxStamina=5745),
+    food('blue-health-magicka', 'Blue dual stat food (Health and Magicka)', 'food', 'UESP scaling table. Community tooltips are often quoted as 5395 and 4936; listed in UNKNOWNS.md.', True, src('uesp_Online_Food_t07.csv', 'Health') + ', last level column', maxHealth=5000, maxMagicka=4575),
+    food('blue-health-stamina', 'Blue dual stat food (Health and Stamina)', 'food', 'UESP scaling table.', True, src('uesp_Online_Food_t08.csv', 'Health') + ', last level column', maxHealth=5000, maxStamina=4575),
+    food('blue-magicka-stamina', 'Blue dual stat food (Magicka and Stamina)', 'food', 'UESP scaling table.', True, src('uesp_Online_Food_t09.csv', 'Magicka') + ', last level column', maxMagicka=4575, maxStamina=4575),
     food('purple-tristat', 'Purple tri stat food (Longfin Pasty, Braised Rabbit, Sugar Skulls without recovery)', 'food', 'Community tooltip value.', maxHealth=4620, maxMagicka=4250, maxStamina=4250),
     food('bewitched-sugar-skulls', 'Bewitched Sugar Skulls', 'food', 'Community tooltip value.', maxHealth=4620, maxMagicka=4250, maxStamina=4250, healthRecovery=406),
     food('artaeum-takeaway-broth', 'Artaeum Takeaway Broth', 'food', 'Community tooltip value. ' + pn('073', '2019-06-03', 'Reduced the Max Health and Max Resource granted by these foods by approximately 15%, recovery slightly increased.'), maxHealth=3724, maxStamina=3458, healthRecovery=406, staminaRecovery=406),
@@ -388,9 +406,9 @@ foods = [
     food('green-drink-magicka-recovery', 'Green single recovery drink (Magicka Recovery)', 'drink', 'Crown Star-Magic Tea description on UESP Drinks page, era of the text unknown.', True, src('uesp_Online_Drinks_t06.csv', 'Crown Star-Magic Tea'), magickaRecovery=565),
     food('green-drink-stamina-recovery', 'Green single recovery drink (Stamina Recovery)', 'drink', 'Crown Endurance Tonic description on UESP Drinks page.', True, src('uesp_Online_Drinks_t06.csv', 'Crown Endurance Tonic'), staminaRecovery=565),
     food('green-drink-health-recovery', 'Green single recovery drink (Health Recovery)', 'drink', 'Crown Health Vigor Liquor description on UESP Drinks page.', True, src('uesp_Online_Drinks_t06.csv', 'Crown Health Vigor Liquor'), healthRecovery=621),
-    food('blue-drink-health-stamina-recovery', 'Blue dual recovery drink (Health and Stamina Recovery)', 'drink', 'UESP scaling table.', True, src('uesp_Online_Drinks_t03.csv', 'last column'), healthRecovery=500, staminaRecovery=457),
-    food('blue-drink-health-magicka-recovery', 'Blue dual recovery drink (Health and Magicka Recovery)', 'drink', 'UESP scaling table.', True, src('uesp_Online_Drinks_t04.csv', 'last column'), healthRecovery=500, magickaRecovery=457),
-    food('blue-drink-magicka-stamina-recovery', 'Blue dual recovery drink (Magicka and Stamina Recovery)', 'drink', 'UESP scaling table.', True, src('uesp_Online_Drinks_t05.csv', 'last column'), magickaRecovery=457, staminaRecovery=457),
+    food('blue-drink-health-stamina-recovery', 'Blue dual recovery drink (Health and Stamina Recovery)', 'drink', 'UESP scaling table.', True, src('uesp_Online_Drinks_t03.csv', 'Health') + ', last level column', healthRecovery=500, staminaRecovery=457),
+    food('blue-drink-health-magicka-recovery', 'Blue dual recovery drink (Health and Magicka Recovery)', 'drink', 'UESP scaling table.', True, src('uesp_Online_Drinks_t04.csv', 'Health') + ', last level column', healthRecovery=500, magickaRecovery=457),
+    food('blue-drink-magicka-stamina-recovery', 'Blue dual recovery drink (Magicka and Stamina Recovery)', 'drink', 'UESP scaling table.', True, src('uesp_Online_Drinks_t05.csv', 'Magicka') + ', last level column', magickaRecovery=457, staminaRecovery=457),
     food('purple-tri-recovery-drink', 'Purple tri recovery drink', 'drink', 'Crown Refreshing Drink description on UESP Drinks page.', True, src('uesp_Online_Drinks_t06.csv', 'Crown Refreshing Drink'), healthRecovery=446, magickaRecovery=410, staminaRecovery=410),
 ]
 # Food buffs in the esolog coefficient table are listed at a lower level; the CP160 gold values are
@@ -493,16 +511,16 @@ def _pct(text, pat):
 C['cyrodiil'] = OrderedDict(
     note='Campaign bonuses shown on the sheet under Battle Spirit (flags.cyrodiil). Values from the UESP Campaigns page; how the flats and percents combine with the rest of the sheet is unverified until a reading carries one.',
     enemyKeepCritPercent=OrderedDict(
-        source=src('uesp_Online_Campaigns_t06.csv', 'Enemy Keep Bonus I to IX'), verified=True,
+        source=src('uesp_Online_Campaigns_t06.csv', 'Enemy Keep Bonus I') + " to 'Enemy Keep Bonus IX'", verified=True,
         values=[_pct(e, r'Critical by (\d+)%') for n, e in _keep if n.startswith('Enemy Keep Bonus')]),
     offensiveScrollDamagePercent=OrderedDict(
-        source=src('uesp_Online_Campaigns_t07.csv', 'Offensive Scroll Bonus I and II'), verified=True,
+        source=src('uesp_Online_Campaigns_t07.csv', 'Offensive Scroll Bonus I') + " and 'Offensive Scroll Bonus II'", verified=True,
         values=[_pct(e, r'by (\d+)%') for n, e in _scroll if n.startswith('Offensive')]),
     defensiveScrollResistancePercent=OrderedDict(
-        source=src('uesp_Online_Campaigns_t07.csv', 'Defensive Scroll Bonus I and II'), verified=True,
+        source=src('uesp_Online_Campaigns_t07.csv', 'Defensive Scroll Bonus I') + " and 'Defensive Scroll Bonus II'", verified=True,
         values=[_pct(e, r'by (\d+)%') for n, e in _scroll if n.startswith('Defensive')]),
     emperorshipAllianceMaxHealth=OrderedDict(
-        source=src('uesp_Online_Campaigns_t08.csv', 'Emperorship Alliance Bonus I to VI') + '; ' + pn('128', '2022-11-14', 'The Health bonus for having an Emperor crowned for your Alliance will now scale depending on how many home Keeps you have controlled by your alliance.'),
+        source=src('uesp_Online_Campaigns_t08.csv', 'Emperorship Alliance Bonus I') + " to 'Emperorship Alliance Bonus VI'" + '; ' + pn('128', '2022-11-14', 'The Health bonus for having an Emperor crowned for your Alliance will now scale depending on how many home Keeps you have controlled by your alliance.'),
         verified=True, note='Index is the number of home Keeps the alliance owns (1 to 6).',
         values=[_pct(e, r'by (\d+)') for n, e in _emp if n.startswith('Emperorship')]),
     emperorPassives=OrderedDict(
@@ -523,7 +541,7 @@ for row in vt[1:]:
         flameDamageTaken=OrderedDict(value=num(row[2]), kind='percent'),
         vampireAbilityCost=OrderedDict(value=num(row[3]), kind='percent'),
         regularAbilityCost=OrderedDict(value=num(row[4]), kind='percent'),
-        source=src('uesp_Online_Vampire_t01.csv', f'Stage {st}') + '; ' + page('Vampire.md', 'Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance'), verified=True)
+        source=src('uesp_Online_Vampire_t01.csv', f'{st}') + ' (Stage column)' + '; ' + page('Vampire.md', 'Vampire Stages table (fetched 2026-09-17): stage 3 -60% Health Recovery; Update 26 removed Unnatural Resistance'), verified=True)
 C['vampireStages'] = OrderedDict(
     note='Unnatural Resistance (skills.csv) changes the Health Recovery penalty: stage 2 none, stage 3 25%, stage 4 50%. Applied by the engine when that passive is active.',
     stages=stages,
@@ -550,7 +568,7 @@ C['championPoints'] = OrderedDict(
     note='Stars from the UESP Champion page tables. Tables t00 to t03 are Craft, t04 to t12 Warfare, t13 to t22 Fitness. "Active" rows are slottable. Per stage effect text is parsed by tools/parse_effects; the engine applies max stages.',
     totalCap=sourced(3600, pn('100', '2021-03-15', 'The CP cap per update has been lifted, and you can now spend up to the 3600 CP cap.')),
     perConstellationCap=sourced(1200, pn('100', '2021-03-15', 'Update 29 Champion Point System Update: points are earned equally across the three constellations.'), 'One third of 3600.'),
-    slotsPerConstellation=sourced(4, 'task statement'),
+    slotsPerConstellation=sourced(4, page('Champion.md', 'line 88: the most expensive four active perks per constellation; line 9: the cap is 3600, 1200 per constellation') + '; task statement'),
     stars=stars,
 )
 
@@ -585,7 +603,7 @@ C['slots'] = OrderedDict(
     jewelry=['necklace', 'ring1', 'ring2'],
     weapon=['mainHand', 'offHand'],
     monsterSetSlots=['head', 'shoulders'],
-    mythicMaxEquipped=sourced(1, 'task statement; sets.csv marks 35 sets Mythic'),
+    mythicMaxEquipped=sourced(1, page('Sets.md', 'Mythic Items: Only one mythic item can be worn at a time') + '; sets.csv marks 35 sets Mythic; task statement'),
 )
 
 with open(OUT, 'w', encoding='utf-8') as f:
