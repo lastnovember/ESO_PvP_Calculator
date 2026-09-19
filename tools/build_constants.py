@@ -102,6 +102,7 @@ C['_meta'] = OrderedDict(
 
 # ---------------------------------------------------------------- base stats
 F3 = 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points)'
+TIP3 = "user, 2026-09-19, tooltip of a purple (Epic) CP160 Coup De Grace Amulet in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-coup-de-grace-amulet-purple-1.jpg and -2.jpg): Stamina Recovery enchantment 157, Robust 847, set bonuses 124 Weapon and Spell Damage (2 and 4 items) and 1435 Offensive Penetration (3 items)"
 TIP2 = "user, 2026-09-19, tooltip of a blue (Superior) CP160 Greatsword of Transmutation in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-transmutation-greatsword-blue-1.jpg and -2.jpg): damage 1304, Precise 5.2%, Hardening 1428 point shield, set bonuses 399 Critical Resistance, 4% Healing Done, 618 Critical Chance"
 TIP = "user, 2026-09-19, tooltip of a blue (Superior) CP160 light head in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg): Spellshredder Hat, armor 1151, Maximum Magicka enchantment 763, Invigorating 12, set bonuses 1401 / 1401 Offensive Penetration and 618 Critical Chance"
 
@@ -488,10 +489,10 @@ C['sets'] = OrderedDict(
         ('resistance', set_bonus_type('resistance', 'uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance', ['armor', 'physicalResistance', 'spellResistance', 'physicalAndSpellResistance'])),
         ('offensivePenetration', OrderedDict(
             stats=['offensivePenetration', 'physicalPenetration', 'spellPenetration', 'physicalAndSpellPenetration'],
-            source=TIP + ': the gold bonus is 34-1487 (sets.csv), so blue is 1401 / 1487 = 0.9422 of gold; the resistance table ratio (2802 / 2975) gives 1487 x 0.9418 = 1400.5, which rounds to the same 1401, so the other qualities take the resistance ratios (tables/uesp_Online_Craftable_Sets_t08.csv row \'160\') until read',
+            source=TIP + ': the gold bonus is 34-1487 (sets.csv), so blue is 1401 / 1487 = 0.9422 of gold; the resistance table ratio (2802 / 2975) gives 1487 x 0.9418 = 1400.5, which rounds to the same 1401; ' + TIP3 + ': purple 1435 = 1487 x 2871 / 2975 = 1435.0 exactly; the other qualities take the resistance ratios (tables/uesp_Online_Craftable_Sets_t08.csv row \'160\') until read',
             verified=False,
-            note='No Craftable Sets table covers Offensive Penetration. Blue is read twice for the same 34-1487 line and differs by one: 1401 on the Spellshredder Hat (armor) and 1400 on the Coup De Grace Restoration Staff (weapon, photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg); the resistance ratio gives 1400.53, so the rounding or the per item curve is not settled. White, green and purple follow the resistance table ratios and are unverified.',
-            byQuality=OrderedDict(white=None, green=None, blue=1401, purple=None, gold=1487),
+            note='No Craftable Sets table covers Offensive Penetration. Purple is read (1435, the resistance ratio exactly). Blue is read twice for the same 34-1487 line and differs by one: 1401 on the Spellshredder Hat (armor) and 1400 on the Coup De Grace Restoration Staff (weapon, photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg); the resistance ratio gives 1400.53, so the rounding or the per item curve is not settled. White and green follow the resistance table ratios and are unverified.',
+            byQuality=OrderedDict(white=None, green=None, blue=1401, purple=1435, gold=1487),
             multiplier=OrderedDict((q, round(v / 2975, 6)) for q, v in craftable_quality_row('uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance').items()),
         )),
         ('critResistance', OrderedDict(

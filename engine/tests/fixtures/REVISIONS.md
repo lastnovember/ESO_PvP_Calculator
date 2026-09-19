@@ -342,3 +342,10 @@ blue), Hardening 1428 shield (page row 2857, a combat proc), set bonuses 399 Cri
 ratios at blue (424 x 0.9418 = 399.3), so it joins penetration in `sets.bonusByQuality`; every
 ranged flat bonus type now scales. Open: the other three qualities for both types.
 
+## Tooltip, 2026-09-19: a purple Coup De Grâce Amulet in the DK's inventory (fixture 009 `tooltips`)
+
+Purple neck, CP160: Stamina Recovery glyph 157, Robust 847, set bonuses 124 Weapon and Spell
+Damage (2 and 4 items) and 1435 Offensive Penetration (3 items). All four are the purple columns
+of their tables; 1435 is the resistance ratio exactly, so purple penetration is verified. Open:
+white and green penetration and Critical Resistance, and the blue rounding (1400 against 1401).
+

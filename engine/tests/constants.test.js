@@ -89,6 +89,7 @@ test('constants.json: set bonus quality rows come from the six Craftable Sets ta
   // penetration has no table: blue read from a tooltip, the rest follow the resistance ratios
   assert.equal(T.offensivePenetration.verified, false);
   assert.equal(T.offensivePenetration.byQuality.blue, 1401);
+  assert.equal(T.offensivePenetration.byQuality.purple, 1435);
   assert.equal(T.offensivePenetration.multiplier.blue, T.resistance.multiplier.blue);
   for (const [name, t] of Object.entries(T)) {
     if (name === 'offensivePenetration' || name === 'critResistance') continue;

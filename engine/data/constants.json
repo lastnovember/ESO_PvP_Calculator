@@ -2304,14 +2304,14 @@
           "spellPenetration",
           "physicalAndSpellPenetration"
         ],
-        "source": "user, 2026-09-19, tooltip of a blue (Superior) CP160 light head in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg): Spellshredder Hat, armor 1151, Maximum Magicka enchantment 763, Invigorating 12, set bonuses 1401 / 1401 Offensive Penetration and 618 Critical Chance: the gold bonus is 34-1487 (sets.csv), so blue is 1401 / 1487 = 0.9422 of gold; the resistance table ratio (2802 / 2975) gives 1487 x 0.9418 = 1400.5, which rounds to the same 1401, so the other qualities take the resistance ratios (tables/uesp_Online_Craftable_Sets_t08.csv row '160') until read",
+        "source": "user, 2026-09-19, tooltip of a blue (Superior) CP160 light head in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg): Spellshredder Hat, armor 1151, Maximum Magicka enchantment 763, Invigorating 12, set bonuses 1401 / 1401 Offensive Penetration and 618 Critical Chance: the gold bonus is 34-1487 (sets.csv), so blue is 1401 / 1487 = 0.9422 of gold; the resistance table ratio (2802 / 2975) gives 1487 x 0.9418 = 1400.5, which rounds to the same 1401; user, 2026-09-19, tooltip of a purple (Epic) CP160 Coup De Grace Amulet in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-coup-de-grace-amulet-purple-1.jpg and -2.jpg): Stamina Recovery enchantment 157, Robust 847, set bonuses 124 Weapon and Spell Damage (2 and 4 items) and 1435 Offensive Penetration (3 items): purple 1435 = 1487 x 2871 / 2975 = 1435.0 exactly; the other qualities take the resistance ratios (tables/uesp_Online_Craftable_Sets_t08.csv row '160') until read",
         "verified": false,
-        "note": "No Craftable Sets table covers Offensive Penetration. Blue is read twice for the same 34-1487 line and differs by one: 1401 on the Spellshredder Hat (armor) and 1400 on the Coup De Grace Restoration Staff (weapon, photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg); the resistance ratio gives 1400.53, so the rounding or the per item curve is not settled. White, green and purple follow the resistance table ratios and are unverified.",
+        "note": "No Craftable Sets table covers Offensive Penetration. Purple is read (1435, the resistance ratio exactly). Blue is read twice for the same 34-1487 line and differs by one: 1401 on the Spellshredder Hat (armor) and 1400 on the Coup De Grace Restoration Staff (weapon, photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg); the resistance ratio gives 1400.53, so the rounding or the per item curve is not settled. White and green follow the resistance table ratios and are unverified.",
         "byQuality": {
           "white": null,
           "green": null,
           "blue": 1401,
-          "purple": null,
+          "purple": 1435,
           "gold": 1487
         },
         "multiplier": {

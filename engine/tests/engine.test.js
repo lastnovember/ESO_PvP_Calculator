@@ -636,4 +636,13 @@ test('real data: the blue Spellshredder Hat reads back from the tables', async (
   assert.deepEqual(rows(r3, 'weaponDamage', 'item mainHand (blue) rating'), [1304]);
   assert.deepEqual(rows(r3, 'weaponCritRating', 'item mainHand (blue) Precise'), [5.2 * 219]);
   assert.deepEqual(rows(r3, 'critResistance', 'set Robes of Transmutation (2) [blue]'), [399], '(2 items) Adds 399 Critical Resistance');
+  // the purple Coup De Grace Amulet: Stamina Recovery glyph 157, Robust 847, 124 damage and 1435 penetration at purple
+  const c = naked();
+  c.flags = { ...(c.flags || {}), itemQuality: true };
+  for (const slot of ['necklace', 'ring1', 'ring2']) c.gear[slot] = { set: 'Coup De Grâce', trait: 'Robust', enchant: 'Stamina Recovery', quality: 'purple', enchantQuality: 'purple' };
+  const r4 = computeSheet(c, real);
+  assert.deepEqual(rows(r4, 'staminaRecovery', 'item necklace (purple) glyph Stamina Recovery (purple glyph)'), [157]);
+  assert.deepEqual(rows(r4, 'maxStamina', 'item necklace (purple) Robust'), [847]);
+  assert.deepEqual(rows(r4, 'weaponDamage', 'set Coup De Grâce (2) [purple]'), [124]);
+  assert.deepEqual(rows(r4, 'physicalPenetration', 'set Coup De Grâce (3) [purple]'), [1435], '(3 items) Adds 1435 Offensive Penetration');
 });
