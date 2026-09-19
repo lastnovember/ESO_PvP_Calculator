@@ -82,14 +82,16 @@ test('constants.json: weapon damage by quality comes from the Nirnhoned tables a
 
 test('constants.json: set bonus quality rows come from the six Craftable Sets tables', () => {
   const T = constants.sets.bonusByQuality;
-  assert.deepEqual(Object.keys(T), ['recovery', 'maxMagickaOrStamina', 'maxHealth', 'weaponAndSpellDamage', 'critRating', 'resistance', 'offensivePenetration']);
+  assert.deepEqual(Object.keys(T), ['recovery', 'maxMagickaOrStamina', 'maxHealth', 'weaponAndSpellDamage', 'critRating', 'resistance', 'offensivePenetration', 'critResistance']);
+  assert.equal(T.critResistance.byQuality.blue, 399);
+  assert.equal(T.critResistance.multiplier.blue, T.resistance.multiplier.blue);
   const order = ['white', 'green', 'blue', 'purple', 'gold'];
   // penetration has no table: blue read from a tooltip, the rest follow the resistance ratios
   assert.equal(T.offensivePenetration.verified, false);
   assert.equal(T.offensivePenetration.byQuality.blue, 1401);
   assert.equal(T.offensivePenetration.multiplier.blue, T.resistance.multiplier.blue);
   for (const [name, t] of Object.entries(T)) {
-    if (name === 'offensivePenetration') continue;
+    if (name === 'offensivePenetration' || name === 'critResistance') continue;
     assert.deepEqual(Object.keys(t.byQuality), order, name);
     const seq = order.map((q) => t.byQuality[q]);
     for (let i = 1; i < seq.length; i += 1) assert.ok(seq[i] > seq[i - 1], `${name}: ${seq.join(' ')}`);

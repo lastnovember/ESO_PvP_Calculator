@@ -102,6 +102,7 @@ C['_meta'] = OrderedDict(
 
 # ---------------------------------------------------------------- base stats
 F3 = 'fixture 003 (Yeets-Swiftly naked, Elden Root, no food, 49 Magicka 15 Health points)'
+TIP2 = "user, 2026-09-19, tooltip of a blue (Superior) CP160 Greatsword of Transmutation in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-transmutation-greatsword-blue-1.jpg and -2.jpg): damage 1304, Precise 5.2%, Hardening 1428 point shield, set bonuses 399 Critical Resistance, 4% Healing Done, 618 Critical Chance"
 TIP = "user, 2026-09-19, tooltip of a blue (Superior) CP160 light head in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-spellshredder-hat-blue-1.jpg and -2.jpg): Spellshredder Hat, armor 1151, Maximum Magicka enchantment 763, Invigorating 12, set bonuses 1401 / 1401 Offensive Penetration and 618 Critical Chance"
 
 C['base'] = OrderedDict(
@@ -374,7 +375,7 @@ C['items'] = OrderedDict(
         oneHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t01.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage); the DK\'s blue Coup De Grace Restoration Staff tooltip reads 1108 (engine/tests/fixtures/photos/tooltip-dk-inventory-coup-de-grace-staff-blue-top.jpg, 2026-09-19), the blue column, so staves follow this table', verified=True,
                               base=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t01.csv')[0])),
                               nirnhoned=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t01.csv')[1]))),
-        twoHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t02.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)', verified=True,
+        twoHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t02.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage); ' + TIP2 + ': 1304 is the blue column', verified=True,
                               base=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t02.csv')[0])),
                               nirnhoned=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t02.csv')[1]))),
     ),
@@ -491,6 +492,14 @@ C['sets'] = OrderedDict(
             verified=False,
             note='No Craftable Sets table covers Offensive Penetration. Blue is read twice for the same 34-1487 line and differs by one: 1401 on the Spellshredder Hat (armor) and 1400 on the Coup De Grace Restoration Staff (weapon, photos/tooltip-dk-inventory-coup-de-grace-staff-blue.jpg); the resistance ratio gives 1400.53, so the rounding or the per item curve is not settled. White, green and purple follow the resistance table ratios and are unverified.',
             byQuality=OrderedDict(white=None, green=None, blue=1401, purple=None, gold=1487),
+            multiplier=OrderedDict((q, round(v / 2975, 6)) for q, v in craftable_quality_row('uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance').items()),
+        )),
+        ('critResistance', OrderedDict(
+            stats=['critResistance'],
+            source=TIP2 + ': the gold bonus is 9-424 (sets.csv), blue reads 399, and the resistance table ratio gives 424 x 0.941849 = 399.3 (tables/uesp_Online_Craftable_Sets_t08.csv row \'160\'), so the other qualities take the resistance ratios until read',
+            verified=False,
+            note='No Craftable Sets table covers Critical Resistance. Blue is read; white, green and purple follow the resistance table ratios and are unverified.',
+            byQuality=OrderedDict(white=None, green=None, blue=399, purple=None, gold=424),
             multiplier=OrderedDict((q, round(v / 2975, 6)) for q, v in craftable_quality_row('uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance').items()),
         )),
     ]),

@@ -1807,7 +1807,7 @@
         }
       },
       "twoHanded": {
-        "source": "tables/uesp_Online_Nirnhoned_t02.csv row '160' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)",
+        "source": "tables/uesp_Online_Nirnhoned_t02.csv row '160' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage); user, 2026-09-19, tooltip of a blue (Superior) CP160 Greatsword of Transmutation in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-transmutation-greatsword-blue-1.jpg and -2.jpg): damage 1304, Precise 5.2%, Hardening 1428 point shield, set bonuses 399 Critical Resistance, 4% Healing Done, 618 Critical Chance: 1304 is the blue column",
         "verified": true,
         "base": {
           "white": 1220,
@@ -2313,6 +2313,28 @@
           "blue": 1401,
           "purple": null,
           "gold": 1487
+        },
+        "multiplier": {
+          "white": 0.872269,
+          "green": 0.906891,
+          "blue": 0.941849,
+          "purple": 0.965042,
+          "gold": 1.0
+        }
+      },
+      "critResistance": {
+        "stats": [
+          "critResistance"
+        ],
+        "source": "user, 2026-09-19, tooltip of a blue (Superior) CP160 Greatsword of Transmutation in the Dragonknight's inventory (engine/tests/fixtures/photos/tooltip-dk-inventory-transmutation-greatsword-blue-1.jpg and -2.jpg): damage 1304, Precise 5.2%, Hardening 1428 point shield, set bonuses 399 Critical Resistance, 4% Healing Done, 618 Critical Chance: the gold bonus is 9-424 (sets.csv), blue reads 399, and the resistance table ratio gives 424 x 0.941849 = 399.3 (tables/uesp_Online_Craftable_Sets_t08.csv row '160'), so the other qualities take the resistance ratios until read",
+        "verified": false,
+        "note": "No Craftable Sets table covers Critical Resistance. Blue is read; white, green and purple follow the resistance table ratios and are unverified.",
+        "byQuality": {
+          "white": null,
+          "green": null,
+          "blue": 399,
+          "purple": null,
+          "gold": 424
         },
         "multiplier": {
           "white": 0.872269,

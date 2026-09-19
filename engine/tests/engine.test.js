@@ -584,11 +584,13 @@ test('real data: ranged set bonuses follow the piece quality when the toggle is 
   b.gear.waist.quality = 'white';
   const white = computeSheet(b, real);
   assert.deepEqual(rows(white, 'maxHealth', 'set Aegis of Galenwe (2) [white]'), [1051], 'the Normal CP160 row');
-  // a type with no quality table keeps the gold value and says so
+  // a type with no quality table keeps the gold value and says so (Critical Resistance with its table entry removed)
+  const noTable = { constants: JSON.parse(JSON.stringify(constants)), effects: real.effects };
+  delete noTable.constants.sets.bonusByQuality.critResistance;
   const pen = Object.entries(real.effects.sets).find(([, s]) => s.maxPieces === 5 && !s.monster && !s.weaponSet && s.settype !== 'Jewelry' && s.bonuses['2'] && s.bonuses['2'].effects.some((e) => e.stat === 'critResistance' && e.ranged));
   assert.ok(pen, 'a Critical Resistance set exists');
   for (const slot of ['head', 'shoulders', 'chest', 'hands', 'waist']) b.gear[slot] = { set: pen[0], weight: 'heavy', trait: null, enchant: null, quality: 'purple' };
-  const p = computeSheet(b, real);
+  const p = computeSheet(b, noTable);
   assert.deepEqual(rows(p, 'critResistance', `set ${pen[0]} (2) [purple]`), [pen[1].bonuses['2'].effects.find((e) => e.stat === 'critResistance').value]);
   assert.ok(p.bars[0].notes.some((n) => n.includes('no quality table')), p.bars[0].notes.join('; '));
 });
@@ -627,4 +629,11 @@ test('real data: the blue Spellshredder Hat reads back from the tables', async (
   const r2 = computeSheet(b, real);
   assert.deepEqual(rows(r2, 'weaponDamage', 'item mainHand (blue) rating'), [1108]);
   assert.deepEqual(rows(r2, 'weaponDamage', 'set Coup De Grâce (2) [blue]'), [121], '(2 items) Adds 121 Weapon and Spell Damage');
+  // the blue Greatsword of Transmutation: damage 1304 (two handed blue column), Precise 5.2%, 399 Critical Resistance at blue
+  b.gear.head = { set: 'Robes of Transmutation', weight: 'light', trait: null, enchant: null, quality: 'blue' };
+  b.bars[0].mainHand = { set: 'Robes of Transmutation', type: 'greatsword', trait: 'Precise', enchant: 'Hardening', quality: 'blue' };
+  const r3 = computeSheet(b, real);
+  assert.deepEqual(rows(r3, 'weaponDamage', 'item mainHand (blue) rating'), [1304]);
+  assert.deepEqual(rows(r3, 'weaponCritRating', 'item mainHand (blue) Precise'), [5.2 * 219]);
+  assert.deepEqual(rows(r3, 'critResistance', 'set Robes of Transmutation (2) [blue]'), [399], '(2 items) Adds 399 Critical Resistance');
 });

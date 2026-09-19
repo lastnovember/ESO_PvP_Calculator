@@ -334,3 +334,11 @@ that table as the engine assumed; Absorb Stamina 1942 damage / 312 Stamina, wher
 blue row is 1674 / 312 (the Stamina matches; weapon glyph damage is a combat proc and out of
 scope).
 
+## Tooltip, 2026-09-19: a blue Greatsword of Transmutation in the DK's inventory (fixture 009 `tooltips`)
+
+Blue two handed weapon, CP160: damage 1304 (the two handed blue column), Precise 5.2% (two handed
+blue), Hardening 1428 shield (page row 2857, a combat proc), set bonuses 399 Critical Resistance,
+4% Healing Done, 618 Critical Chance. Settled: Critical Resistance scales by the resistance
+ratios at blue (424 x 0.9418 = 399.3), so it joins penetration in `sets.bonusByQuality`; every
+ranged flat bonus type now scales. Open: the other three qualities for both types.
+
