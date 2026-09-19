@@ -286,3 +286,10 @@ Both fixtures record the correction under `corrections` and now use Reduce Skill
 Templar: the 72 resistance (one purple medium piece), Roll Dodge Cost stacking, the front bar
 Physical and Bleed Damage percents (a buff running out during the photos).
 
+## Photo, 2026-09-19: Templar Champion Points, Fitness (fixtures 005 and 006)
+
+`photos/tooltip-templar-cp-fitness-expert-evasion.jpg`: Expert Evasion slotted, 50 of 50 stages,
+tooltip text as in tables/uesp_Online_Champion_t16.csv. The Fitness counter shows 62 unspent
+points, which agrees with Sprinter not being bought (Sprint Cost 470 on both readings). No number
+changed; the photo is on file so the Roll Dodge Cost 0 (`sheetState`) has its cause pictured.
+
