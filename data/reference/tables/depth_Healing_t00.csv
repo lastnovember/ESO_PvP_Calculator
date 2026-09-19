@@ -1,0 +1,79 @@
+Skill,Healing,Affects,Cost,Other Effects
+Dragonknight
+Cauterize (Ardent Flame),1378-1418 Health every 5 seconds,Allies,3240 Magicka,
+Dragon Blood (Draconic Power),33% Health,Self,4320 Magicka,20% Health Recovery for 20 sec.
+Obsidian Shard (Earthen Heart),1649-1699 Health,Self or Ally,4050 Magicka,
+Nightblade
+Killer's Blade (Assassination),20% Health (if target dies in 2 sec.),Self,1511 Stamina,
+Mark Target (Assassination),40% Health (if target dies),Self,2700 Magicka,
+,Reaper's Mark (morph),60% Health (if target dies)
+Consuming Darkness (Shadow),7644 Health over 4 seconds,Ally (synergy),200 Ultimate,50% Increased Movement Speed
+Refreshing Path (Shadow),301-311 Health per second,Self and Allies,3510 Magicka,30% Increased Movement Speed
+Soul Shred (Siphoning),2615 Health,Ally (synergy),150 Ultimate,
+,Soul Siphon (morph),2827 Health + 7538-7784 Health over 3.5 sec.,Self and Allies
+Sorcerer
+Absorption Field (Dark Magic),424-439 Health every 0.5 sec for 10 sec.,Self and Allies,225 Ultimate,
+Dark Exchange (Dark Magic),7696-8059 Health,Self,3240 Stamina,Restore 4514-4696 Magicka
+,Dark Deal (morph),8059 Health,3240 Magicka,Restore 4696-4878 Stamina
+Dark Conversion,2431-2160 Stamina,Restore 4696 Magicka
+Summon Unstable Clannfear (Daedric Summoning),35% Health (if already summoned),Self and Clannfear,3603 Magicka,
+Summon Twilight Matriarch (Daedric Summoning),1592 Health (if already summoned),Matriarch and up to 2 Allies,3603 Magicka,
+Surge (Storm Calling),2550 Health (on Critical Strike),Self,4051 Magicka,20% Increased Weapon Damage
+,Power Surge (morph),4051-3781 Magicka
+Critical Surge (morph),2700-3000 Health (on Critical Strike),4051 Magicka
+Templar
+Rite of Passage (Restoring Light),2262-2332 Health per sec. for 4 sec.,Self and Allies,125 Ultimate,
+,Practiced Incantation (morph),2332-2335 Health per sec. for 6 sec.
+Rushed Ceremony (Restoring Light),2826-2914 Health,Self or Ally,4590 Magicka,
+,Honor The Dead (morph),2914-3001 Health
+Breath of Life (morph),2914 Health (first target) 1413-1459 Health (second target)
+Healing Ritual (Restoring Light),2826-2914 Health (+30% on self),Self and Allies,3780 Magicka,
+,Ritual of Rebirth (morph),2914-3001 Health (+30% on self)
+Lingering Ritual (morph),"2826-2914 Health when first cast, 970-1000 Health after 8 sec. (+30% on self)"
+Repentance (Restoring Light),796-801 Health per corpse,Self and Allies,Free,Restore 796-801 Stamina per corpse
+Cleansing Ritual (Restoring Light),311-322 Health every 2 sec. for 12 sec.,Self and Allies,3780 Magicka,Remove 2 Harmful Effects
+,Ritual of Retribution (morph),390-401 Health every 2 sec. for 12 sec.
+Extended Ritual (morph),322 Health every 2 sec. for 18-24 sec.,Remove 5 Harmful Effects
+Purify (synergy),1581 Health,Ally (synergy),Remove All Harmful Effects
+Bow
+Draining Shot,2450-2523 Health,Self,2970 Stamina,
+Restoration Staff
+Panacea,5737 Health per sec. for 5 sec.,Self or Ally,125 Ultimate,
+,Light's Champion (morph),5908 Health per sec. for 5 sec.
+Life Giver (morph),5908 Health per sec. for 5 sec. plus Regeneration and Blessing of Protection
+Grand Healing,565-584 Health plus 565-584 Health per sec. for 3 sec.,Self and Allies,3510 Magicka,
+,Illustrious Healing (morph),584-604 Health plus 584-604 Health per sec. for 4 sec.
+Healing Springs (morph),584 Health plus 584 Health per sec. for 3 sec.,Restore 230-338 Magicka per target healed on self
+Regeneration,4349-4512 Health over 20 sec.,Self or up to 2 Allies,2160 Magicka,
+,Rapid Regeneration (morph),4923-5089 Health over 16.5 sec.
+Radiating Regeneration (morph),4512 Health over 20 sec. or 1508-1554 Health instantly if below 20% Health,Remove Harmful Effect if below 20% Health
+Blessing of Protection,1413-1459 Health,Self and Allies,3780 Magicka,Increase Physical and Magical Resistance
+,Blessing Of Restoration (morph),1886-1947 Health
+Combat Prayer (morph),1459-1500 Health,Increase Physical and Magical Resistance and Damage Done
+Two Handed
+Momentum,282 Health every 2 sec. for 33 sec.,Self,4051 Stamina,
+,Forward Momentum (morph),2971 Stamina
+Rally (morph),282 Health every 2 sec. for 33 sec. plus 424-437 Health on expiration,4051 Stamina
+Soul Magic
+Consuming Trap,7-10% Health (if target dies),Self,2700 Magicka,Restore 7-10% Magicka and 7-10% Stamina (if target dies)
+Vampire
+Devouring Swarm,804-831 Health per enemy,Self,275-200 Ultimate,
+Drain Essence,20% of missing Health,Self,2700 Magicka,
+Werewolf
+Hircine's Bounty,4524-4658 Health,Self,4590 Magicka,
+,Hircine's Rage (morph),4658-4795 Health,Increase Weapon Damage 10%
+Hircine's Fortitude (morph),4658-4795 Health plus 1976 Health over 8 sec.,
+Claws of Life,1698-1749 Health,Self,3240 Stamina,
+Mages Guild
+Entropy,509-525 Health plus 509-525 Health every 6 sec. for 12 sec.,Self,1620 Magicka,Increase Spell Damage 20%
+Undaunted
+Blood Altar,40% Health,Ally (synergy),4320 Magicka,
+,Overflowing Altar (morph),62-65% Health
+Energy Orb,265-275 Health,Self and Allies,4590 Magicka,
+Assault
+Vigor,2546-2620 Health over 5 sec.,Self and Allies,2700 Stamina,
+,Echoing Vigor (morph),2620-2696 Health over 5 sec.
+Resolving Vigor (morph),3390-3494 Health over 5 sec. (on self) 2620-2696 Health over 5 sec. (on allies)
+Support
+Reviving Barrier,6925-7178 Health over 30 sec.,Self and Allies,200 Ultimate,9708 point Damage Shield
+Cleanse,15-18% Health,Self and Allies,8100 Magicka,Remove 2 Harmful Effects

@@ -1,0 +1,19 @@
+Name,Line Rank,Skill Rank,Description
+,Engraver,1,​,Allows the use of Pewter Ounces.
+14,,Allows the use of Copper Ounces.
+27,,Allows the use of Silver Ounces.
+40,,Allows the use of Electrum Ounces.
+50,,Allows the use of Platinum Ounces.
+,Keen Eye: Jewelry,2,,Jewelry Seams in the world will be easier to see when you are 20 meters or closer.
+9,,Jewelry Seams in the world will be easier to see when you are 30 meters or closer.
+30,,Jewelry Seams in the world will be easier to see when you are 40 meters or closer.
+,Jewelry Extraction,4,,Improves the chances of extracting Jewelry Crafting ingredients and allows the refining of more powerful Platings from raw materials.
+22,,Greatly improves the chances of extracting Jewelry Crafting ingredients and allows the refining of more powerful Platings from raw materials.
+32,,Maximizes the chances of extracting Jewelry Crafting ingredients and allows the refining of more powerful Platings from raw materials.
+,Lapidary Research,8,,Reduces research times by 5%.
+18,,Reduces research times by 10%.
+28,,Reduces research times by 20%.
+45,,"Reduces research times by 25%, and limits research time to 10 days."
+,Platings Expertise,10,,Increases the chances of improving items with platings.
+25,,Increases the chances of improving items with platings.
+40,,More than doubles the chances of improving items with platings.

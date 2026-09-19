@@ -18,8 +18,8 @@ linerank2=8
 Blood Rage increases the amount of Fury you generate while using werewolf abilities. When you reach 1,000 Fury, you gain access to the Rampage Ultimate.
 
 ## Patch Notes
-* This passive now restores 3/6 Ultimate instead of 2/5.
+[Patch 1.5.2] * This passive now restores 3/6 Ultimate instead of 2/5.
 ESO Patch Note|1.6.5|* Using this passive will now increase the amount of time you are transformed as a werewolf by 3 seconds every time you take damage.
 - This passive now has a 3 second cooldown.
-* This ability now increases the timer of your Werewolf Transformation when you deal damage, rather than when you take damage. It adds 2/4 seconds to your timer with a 5 second cooldown.
-5 seconds to your Werewolf timer when dealing damaging, up to once every 6 seconds.
+[Patch 4.1.5] * This ability now increases the timer of your Werewolf Transformation when you deal damage, rather than when you take damage. It adds 2/4 seconds to your timer with a 5 second cooldown.
+[Patch 12.0.5] *Blood Rage: This passive now increases the amount of Fury you generate by 5/10 per source, rather than adding 3|5 seconds to your Werewolf timer when dealing damaging, up to once every 6 seconds.

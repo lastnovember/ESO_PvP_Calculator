@@ -34,8 +34,8 @@ Impaling Shards deals Frost Damage that has increased chance to apply Chilled an
 - Winter's Revenge is a recommended morph for the Warden Initiate and Beast Caller builds, while Gripping Shards is recommended for Guardian of the Wild.
 
 ## Patch Notes
-* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
-* Fixed an issue where the visual effects of this ability and its morphs did not persist for the full duration of the effect.
+[Patch 3.1.5] * In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
+[Patch 4.2.5] * Fixed an issue where the visual effects of this ability and its morphs did not persist for the full duration of the effect.
 ESO Patch Note|5.0.5|* Fixed an issue where this ability and its morphs were being removed before dealing their last tick of damage.
 - Fixed an issue where these abilities were being calculated as Direct Damage rather than Damage over Time.
 - Updated the tooltips of these abilities to mention their increased chance to apply the Chilled Status Effect.

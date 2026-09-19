@@ -18,5 +18,5 @@ linerank2=50
 Hasty Retreat gives you a few seconds of increased movement speed after you perform a roll dodge, allowing you to keep your distance from opponents. Note that this only applies if you have a Bow equipped.
 
 ## Patch Notes
-* This passive now grants the Major Expedition buff for 1 second/2 seconds instead of a 30% movement speed bonus. We also increased this ability's duration to 2.5 seconds at Rank I from 1 second, and 5 seconds at Rank II from 2 seconds.
-* This ability now grants Major Expedition for a maximum of 4 seconds instead of 5 seconds.
+[Patch 2.1.4] * This passive now grants the Major Expedition buff for 1 second/2 seconds instead of a 30% movement speed bonus. We also increased this ability's duration to 2.5 seconds at Rank I from 1 second, and 5 seconds at Rank II from 2 seconds.
+[Patch 4.2.5] * This ability now grants Major Expedition for a maximum of 4 seconds instead of 5 seconds.

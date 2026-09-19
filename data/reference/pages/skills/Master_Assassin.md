@@ -18,7 +18,7 @@ linerank2=18
 Master Assassin makes your attacks done from the flank of the enemy to have an increased critical chance.
 
 ## Patch Notes
-* This passive ability now increases spell power in addition to weapon power. Its stun duration increase has also been added to the tooltip.
+[Patch 1.2.3] * This passive ability now increases spell power in addition to weapon power. Its stun duration increase has also been added to the tooltip.
 ESO Patch Note|6.1.5|* This passive's Weapon and Spell Damage is now granted to your damaging attacks against enemies you are flanking, rather than granting a universal amount while sneaking or invisible.
 - The Weapon and Spell Damage is now a flat 129/258, rather than granting 5/10% of your current amount.
 ESO Patch Note|6.2.5|* This passive now increases your Physical and Spell Penetration against targets you are flanking by 1487/2974, rather than your Weapon and Spell Damage against them by 129/258.

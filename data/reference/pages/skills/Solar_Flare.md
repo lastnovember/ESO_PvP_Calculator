@@ -37,22 +37,22 @@ File:ON-skill-Solar_Barrage.jpg|Solar Barrage in use
 ## Patch Notes
 ESO Patch Note|1.2.3|* Slightly reduced the cast time for this ability from 1.5 seconds to 1.3 seconds.
 - Dark Flare: This ability now scales in damage from ranks I-IV.
-* Dark Flare: Fixed an issue where this ability's graphical effect would stay on a target after it was removed.
+[Patch 1.5.2] * Dark Flare: Fixed an issue where this ability's graphical effect would stay on a target after it was removed.
 ESO Patch Note|1.6.5|* Solar Flare no longer increases the damage of the next attack against the target. Instead, this ability now grants the caster the Major Empower buff.
 - Reduced the cast time of this ability by 0.2 seconds.
 - Dark Flare: This ability now applies the Major Defile debuff to your target.
-* Increased the damage for this ability and the Dark Flare morph by 12%. The damage of the Solar Barrage morph remains unchanged.
-* Fixed an issue where this ability would cause the visual effects from Major Empower to get stuck on you if it was used as the killing blow on a target.
-Teleport Strike]], Dark Flare, and Weapon Enchantments.
+[Patch 2.3.5] * Increased the damage for this ability and the Dark Flare morph by 12%. The damage of the Solar Barrage morph remains unchanged.
+[Patch 2.6.4] * Fixed an issue where this ability would cause the visual effects from Major Empower to get stuck on you if it was used as the killing blow on a target.
+[Patch 2.7.5] * Shadow Cloak: Fixed an issue where the invisibility from this ability and its morphs was being broken by certain abilities, such as Teleport Strike, Dark Flare, and Weapon Enchantments.
 ESO Patch Note|3.2.5|* Solar Barrage: This morph now has a cast time that matches the base ability, and now causes you to pulse point blank area of effect damage every 2 seconds for 6 seconds, with each pulse granting you the Empower buff.
 - Developer Notes: We liked how this ability was acting as a "soft" crowd-control, preventing some abilities but allowing others. However, the list of abilities was too short. We've made the ability more universally effective against most offensive abilities, making the process to select the right target and time for the ability more important.
-* Solar Barrage: The damage from this morph can now be blocked, but cannot be dodged.
+[Patch 3.3.5] * Solar Barrage: The damage from this morph can now be blocked, but cannot be dodged.
 ESO Patch Note|4.0.5|* This ability and the Dark Flare morph now grant the Empower buff instantly after being cast, instead of when the projectile hits the enemy target.
 - Enduring Rays: This passive ability now increases the duration of your Sun Fire, Eclipse, and Nova abilities by 2 seconds, instead of 15/30%. It now also increases the duration of the debuffs applied by Solar Flare and its morphs.
 - Developer Comments: This eliminates the extra fractional duration from some damage over time abilities that weren't actually getting extra damage. It also gives short abilities like Solar Barrage an additional tick.
 ESO Patch Note|4.1.5|* Dark Flare: Decreased the duration of the Major Defile debuff to 4 seconds from 6 seconds.
 - Solar Barrage: Removed the cast time from this ability, and decreased the damage done by approximately 40%.
-Puncturing Strikes]] or Dark Flare, would cause a delay to occur between each cast of those abilities.
+[Patch 4.2.8] * Fixed an issue where spamming cast time or channeled abilities, such as Puncturing Strikes or Dark Flare, would cause a delay to occur between each cast of those abilities.
 ESO Patch Note|4.3.5|* Increased the damage dealt by this morph by approximately 10%.
 - This ability now grants an infinite Empower bonus during the entire duration, instead of firing a single Empower bonus after each tick.
 - Developer Comment: Internally, we found that melee Magicka-based Templars specifically were struggling to contend with other melee damage dealing spots in organized play (such as fully-optimized raiding environments that have access to many empowering and debilitating abilities), and this change is aimed at remedying that. We've specifically targeted more of the single target damage production of the class with this change, as their cleave DPS is in a relatively healthy spot.
@@ -70,8 +70,8 @@ ESO Patch Note|6.3.5|*Reduced the cast time of this ability and the Dark Flare m
 - Reduced the damage done by approximately 21%.
 - Reduced the cost of all versions of this ability to 2700, down from 2970.
 - Developer Comment: Similar to other cast time abilities, we've taken the approach for a quicker cast time to help make this ability easier to weave within the 1 second global cooldown. This should also help reduce burst, potentially when combined with other high hitting attacks, but help the DPS go up by making it smoother to use and easier to sustain.
-* Fixed an issue where this ability could not Critically Strike.
-* Dark Flare (morph): Reduced the cost of this morph to 2430, down from 2700.
+[Patch 7.2.5] * Fixed an issue where this ability could not Critically Strike.
+[Patch 8.0.5] * Dark Flare (morph): Reduced the cost of this morph to 2430, down from 2700.
 ESO Patch Note|8.1.5|* Solar Flare: Increased the duration of Empower granted from this ability and Dark Flare to 5 seconds, up from 3.
 - Solar Barrage (morph):
 - This morph now lasts 20 seconds, up from 8.
@@ -79,4 +79,4 @@ ESO Patch Note|8.1.5|* Solar Flare: Increased the duration of Empower granted fr
 - The damage visual effects for this morph now only pulse when successfully dealing damage, rather than all the time.
 ESO Patch Note|9.0.5|* Solar Flare: This ability and its morphs now also grant Sunsphere for 5 seconds after casting, increasing your damage done with class abilities by 5%.
 - Solar Barrage (morph): This morph also extends the duration of Sunsphere to 20 seconds.
-* Increased the duration of the Sunsphere and Empower granted from this ability and the Dark Flare morph to 10 seconds, up from 5.
+[Patch 10.1.5] * Increased the duration of the Sunsphere and Empower granted from this ability and the Dark Flare morph to 10 seconds, up from 5.

@@ -1,0 +1,33 @@
+{{ESO Crafting Mat Summary
+|node=Plant
+|tier=10
+|armor=Ancestor Silk
+|raw=Raw Ancestor Silk
+|refined=Ancestor Silk
+}}
+'''Ancestor Silk''' is a plant with dark red, fern-like stems, and red spiderweb-like strands between them. It can be found in any zone by characters with Rank 10 in the [[ON:Tailoring|Tailoring]] passive or {{ESO Champion|150 to 160}}. When harvested, a [[Online:Nodes|node]] yields three to four samples of the raw material, {{Item Link|Raw Ancestor Silk|id=71200}}. Once ten raw samples are collected, they can be refined into seven to ten {{Item Link|Ancestor Silk|id=64504}}. Ancestor silk is used for [[Online:Clothing|crafting]] pieces of light [[Online:Ancestor Silk Armor|ancestor silk armor]] at any [[Online:Crafting Stations|clothing station]].
+
+{|class="wikitable" style="text-align:center; margin: 2.5em auto; width:65%"
+|+Number of ancestor silk needed for creating
+|-
+!scope="col"|Armor<br>Level
+!scope="col"|Ancestor Silk<br>Robe/Jerkin
+!scope="col"|Ancestor Silk<br>Shoes
+!scope="col"|Ancestor Silk<br>Gloves
+!scope="col"|Ancestor Silk<br>Hat
+!scope="col"|Ancestor Silk<br>Breeches
+!scope="col"|Ancestor Silk<br>Epaulets
+!scope="col"|Ancestor Silk<br>Sash
+!scope="col"|Total
+|-
+!scope="row"|{{ESO Champion|150}}
+|15||13||13||13||14||13||13||94
+|-
+!scope="row"|{{ESO Champion|160}}
+|150||130||130||130||140||130||130||940
+|}
+
+==Notes==
+*Ancestor Silk was originally named "Harvester Silk" in the initial [[ON:PTS|PTS]] release, after the [[Online:Harvester|Harvester]].
+*Ancestor Silk can also be purchased from [[Online:Imperial City|Imperial City]] merchants using [[Online:Tel Var Stones|Tel Var Stones]]{{Crown Store}}.
+{{Online Equipment Crafting Materials}}

@@ -41,7 +41,7 @@ File:ON-skill-Molten_Armaments.jpg|Molten Armaments
 File:ON-skill-Molten_Armaments_02.jpg|Molten Armaments effect
 
 ## Patch Notes
-* When a second Dragonknight casts this ability, a first caster of the ability no longer loses their caster ability bonus.
+[Patch 1.5.2] * When a second Dragonknight casts this ability, a first caster of the ability no longer loses their caster ability bonus.
 ESO Patch Note|1.6.5|* This ability will no longer buff allies. Instead, activating Molten Weapons will increase your heavy attack damage by 40% for 7 seconds. The duration increases with each additional rank.
 - Igneous Weapons: Using a heavy attack while this ability is active will increase its duration by one second.
 - Molten Armaments: This ability now increases the extra damage against low health targets.
@@ -51,8 +51,8 @@ ESO Patch Note|2.3.5|* This ability and its morphs now applies a 30 second Major
 - Molten Armaments:
 - This morph now increases your own fully-charged Heavy Attack damage by 40% for 30 seconds in addition to granting the Major Sorcery buff.
 - This morph will now apply the fully-charged Heavy Attack damage bonus to Lightning and Restoration Staves.
-* Weapon effects such as Molten Armaments will no longer appear incorrectly on certain weapons after weapon swapping.
-* Igneous Weapons: Fixed an issue where this morph did not improve as it ranked up. It will now increase by 1 second per rank.
+[Patch 2.4.8] * Weapon effects such as Molten Armaments will no longer appear incorrectly on certain weapons after weapon swapping.
+[Patch 4.2.5] * Igneous Weapons: Fixed an issue where this morph did not improve as it ranked up. It will now increase by 1 second per rank.
 ESO Patch Note|4.3.5|* Abilities that provide Major Buffs that are not associated with healing or damage will now apply to a maximum of 12 targets. Below are the following abilities affected by this change:
 - Frost Cloak & morphs now affect 12 targets instead of 6
 - Molten Weapons & morphs now affect 12 targets instead of 6
@@ -70,9 +70,9 @@ ESO Patch Note|5.2.5|* This ability and its morphs now grant Major Brutality and
 - This morph now increases the duration further to 42 seconds at Rank I, up from 32. It also increases the radius to 36 meters, up from 28 meters.
 - Molten Armaments (morph):
 - Fixed numerous issues where the Heavy Attack damage bonus from this morph was not applying to attacks it previously had, such as Restoration Staves or your Off-Hand Dual Wield attacks.
-* Molten Armaments (morph): Fixed an issue where the Major Brutality granted from this ability could fail to apply to group members in certain situations.
-* Molten Armaments (morph): Fixed an issue where this ability could fail to apply some of its buffs to group members.
-* Fixed an issue where you could not cast this ability or its morphs on nearby neutral enemies.
+[Patch 5.3.4] * Molten Armaments (morph): Fixed an issue where the Major Brutality granted from this ability could fail to apply to group members in certain situations.
+[Patch 7.0.5] * Molten Armaments (morph): Fixed an issue where this ability could fail to apply some of its buffs to group members.
+[Patch 7.1.5] * Fixed an issue where you could not cast this ability or its morphs on nearby neutral enemies.
 ESO Patch Note|8.1.5|* Igneous Weapons (morph): This morph now extends the duration of the effects to up to 60 seconds, up from 45.
 - Molten Armaments (morph): This morph now grants the caster Empower for the duration of the effect, rather than increasing the damage of their Heavy Attacks by a unique value.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

@@ -1,0 +1,10 @@
+Script,Effects
+Breach,Breach,"Afflicts Minor Breach to enemies in the link for 10 seconds, reducing ESO Resistance Link|Physical",|y and ESO Resistance Link|Spell,by 2974.
+Brittle,Brittle,"Afflicts Minor Brittle to enemies in the link for 10 seconds, increasing their Critical Damage taken by 10%."
+Courage,Courage,"Grants Minor Courage to the ally and allies in the link for 10 seconds, increasing Weapon and Spell Damage by 215."
+Empower,Empower,"Grants Empower to the ally and allies in the link for 10 seconds, increasing the damage of Heavy Attacks against monsters by 70%."
+Heroism,Heroism,"Grants Minor Heroism to the ally and allies in the link for 10 seconds, generating 1 Ultimate every 1.5 seconds."
+Intellect and Endurance,Intellect and Endurance,"Grants Minor Intellect and Minor Endurance to the ally and allies in the link for 10 seconds, increasing Magicka and Stamina Recovery by 15%."
+Maim,Maim,"Afflicts Minor Maim to enemies in the link for 10 seconds, reducing damage done by 5%."
+Protection,Protection,"Grants Minor Protection to the ally and allies in the link for 10 seconds, reducing damage taken by 5%."
+Vitality,Vitality,"Grants Minor Vitality to the ally and allies in the link for 10 seconds, increasing healing received by 6%."

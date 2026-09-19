@@ -16,4 +16,4 @@ linerank2=7
 Master of the Chase increases your Movement Speed while in Werewolf form. At rank 2, it will also restore your Stamina by a greater degree each time you perform a Heavy Attack as Werewolf.
 
 ## Patch Notes
-*Pursuit -> Master of the Chase: This passive’s bonus to Heavy Attack resource restore now only occurs at rank 2, as it is largely irrelevant for most play styles after the cost reduction changes and cuts down on performance.
+[Patch 12.0.5] *Pursuit -> Master of the Chase: This passive’s bonus to Heavy Attack resource restore now only occurs at rank 2, as it is largely irrelevant for most play styles after the cost reduction changes and cuts down on performance.

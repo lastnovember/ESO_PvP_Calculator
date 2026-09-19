@@ -18,6 +18,6 @@ linerank2=36
 Blessing at the Peak causes you to gain additional Ultimate each time you use any Earthen Heart ability, as long as you are in combat. Your critical damage is also passively increased.
 
 ## Patch Notes
-* This passive now also grants all allies within 30 meters the buff Minor Brutality for 10 seconds at Rank I, or 20 seconds at Rank II. This passive ability now grants three Ultimate every six seconds at Rank II.
-* This passive ability now grants the Minor Brutality buff any time an Earthen Heart ability is activated. The Ultimate gain portion of the passive still can only be granted while you are in combat, and the tooltip has been updated to convey this.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 1.6.5] * This passive now also grants all allies within 30 meters the buff Minor Brutality for 10 seconds at Rank I, or 20 seconds at Rank II. This passive ability now grants three Ultimate every six seconds at Rank II.
+[Patch 2.3.5] * This passive ability now grants the Minor Brutality buff any time an Earthen Heart ability is activated. The Ultimate gain portion of the passive still can only be granted while you are in combat, and the tooltip has been updated to convey this.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

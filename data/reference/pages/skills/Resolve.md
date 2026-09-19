@@ -21,4 +21,4 @@ linerank3=30
 Resolve increases your physical resistance and spell resistance for each piece of Heavy Armor you are wearing, for up to 798-1,603-2,401 physical and spell resistance.
 
 ## Patch Notes
-* Fixed an issue where this passive's bonus Armor could fail to contribute to abilities or effects that used Physical or Spell Resistance to scale in many cases, as it was looking at your current target's information to derive its values rather than always your own.
+[Patch 8.1.5] * Fixed an issue where this passive's bonus Armor could fail to contribute to abilities or effects that used Physical or Spell Resistance to scale in many cases, as it was looking at your current target's information to derive its values rather than always your own.

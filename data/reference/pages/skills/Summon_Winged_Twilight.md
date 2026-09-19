@@ -48,8 +48,8 @@ File:ON-creature-Twilight Tormentor.jpg|A Twilight Tormentor
 File:ON-skill-Summon Twilight Tormentor special.jpg|Summon Twilight Tormentor morph's special damage ability visual
 
 ## Patch Notes
-Rebate]]: Fixed an issue with this ability. It will now properly recover magicka when your Summoned Winged Twilight is killed.
-* This pet no longer gives experience if you kill him.
+[Patch 1.1.2] * Rebate: Fixed an issue with this ability. It will now properly recover magicka when your Summoned Winged Twilight is killed.
+[Patch 1.5.2] * This pet no longer gives experience if you kill him.
 ESO Patch Note|1.6.5|* Increased the damage dealt by the winged twilight and all its morphs by 15%.
 - Summon Restoring Twilight: Slightly increased the damage boost, and slightly reduced the twilight's health. The Restoring * Twilight also now grants nearby allies the Minor Intellect buff.
 - The Restoring Twilight pet gets 1% more bonus damage with each rank.
@@ -76,16 +76,16 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Increased the health of the pet summoned by this ability and its morphs by 100% (15889 Health at CP160, up from 7945).
 ESO Patch Note|3.0.5|* Fixed an issue where ranking up a summon ability (Unstable Familiar, Summon Winged Twilight, Feral Guardian, etc.) would unsummon your pet.
 - Summon Twilight Matriarch: Fixed an issue where this morph's heal ability could heal through walls.
-* The pet summoned from this ability now has a basic heal special ability that can be used while the pet is active.
+[Patch 4.0.5] * The pet summoned from this ability now has a basic heal special ability that can be used while the pet is active.
 ESO Patch Note|4.2.5|* Summon Twilight Tormentor: Decreased the cost of the special attack from this morph by approximately 15%.
 - Developer Comment: These abilities were too costly for their overall impact and frequency of casting. This should increase the damage of Sorcerer pets.
-* Summon Twilight Tormentor (morph): Fixed an issue where the bonus from the active portion of this ability could fail to apply to the Twilight Tormentor.
+[Patch 4.3.6] * Summon Twilight Tormentor (morph): Fixed an issue where the bonus from the active portion of this ability could fail to apply to the Twilight Tormentor.
 ESO Patch Note|5.1.5|* The Zap and Kick attack from the Twilight and its morphs will now do the same damage, to help reduce volatility in performance.
 - Reduced the damage of the Winged Twilight and Twilight Matriarch by approximately 69% per hit.
 - Summon Twilight Tormentor: Reduced the damage dealt by the Twilight's Zap and Kick by approximately 35%. These attacks will now rank up in 1.1% damage per rank, rather than 5%.
 ESO Patch Note|5.2.5|* Increased the heal of this ability and the Twilight Matriarch morph to be closer to the heal power of Rushed Ceremony. This will result in approximately 87% increase for the base, and approximately 55% increase for the Matriarch. ***Note that these abilities will continue to scale exclusively with Max Magicka.
 - Increased the damage of the basic attacks from these abilities by approximately 20% per hit
-* All pets from this skill line now use a hybrid of your Spell Damage and Max Magicka, rather than purely Max Magicka. This change was done to reduce the total power of these abilities when stacking a singular stat.
+[Patch 6.1.5] * All pets from this skill line now use a hybrid of your Spell Damage and Max Magicka, rather than purely Max Magicka. This change was done to reduce the total power of these abilities when stacking a singular stat.
 ESO Patch Note|8.1.5|* Twilight Tormentor (morph):
 - Reduced the damage per hit of this morph's basic attacks by approximately 33%.
 - Reduced the cost of the special ability for this morph to 2700, down from 2970.

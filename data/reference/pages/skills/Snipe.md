@@ -40,12 +40,12 @@ File:ON-skill-Focused_Aim.jpg| Snipe and Focus Aim's tracer
 ## Patch Notes
 ESO Patch Note|1.2.3|* Reduced the cast time for this ability from 3 seconds to 2 seconds. We also reduced the range for this ability from 40 meters to 35 meters, and reduced the minimum range from 20 meters to 10 meters.
 - Focused Aim: This ability's tooltip now lists the duration of the effect.
-* Reduced the cost of this ability by approximately 20%. We also reduced the cast time for this ability to 1.8 seconds from 2 seconds.
+[Patch 1.4.3] * Reduced the cost of this ability by approximately 20%. We also reduced the cast time for this ability to 1.8 seconds from 2 seconds.
 ESO Patch Note|1.5.2|* Reduced the cast time for this ability by approximately 40%
 - Reduced the damage done by this ability by 5%
 - Removed the minimum range from this ability.
 - Focused Aim: The damage bonus from this ability now only applies to bow attacks. We also fixed an issue where this passive wasn't applying to heavy attacks.
-* Lethal Arrow: Fixed an issue where the Healing Reduction from this ability could stack with itself.
+[Patch 1.5.7] * Lethal Arrow: Fixed an issue where the Healing Reduction from this ability could stack with itself.
 ESO Patch Note|1.6.5|* Lethal Arrow: This ability now applies the buff Major Defile for 10 seconds.
 - Focused Aim: This ability now applies the buff Minor Fracture instead of increasing weapon speed against the target. This morph also increases in damage with each rank.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
@@ -54,13 +54,13 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Magnum Shot
 - Arrow Spray
 - Poison Arrow
-* Lethal Arrow: Decreased the duration of the Major Defile debuff applied to 4 seconds from 10 seconds.
+[Patch 4.1.5] * Lethal Arrow: Decreased the duration of the Major Defile debuff applied to 4 seconds from 10 seconds.
 ESO Patch Note|5.0.5|* Reduced the cast time of this ability and its morphs to 1 second from 1.1 seconds.
 - Reduced the damage dealt by 25% to make up for the removal of the post global noted earlier.
 - Increased the travel speed of the arrow to put it in line with other projectiles.
 - Lethal Arrow: This morph now applies Minor Defile, rather than Major Defile. This was done since the morph already has another bonus, the guaranteed chance to apply the Poisoned status effect.
 - Focused Aim: This morph no longer increases the range in which your allies can hit the target. Instead, it reduces the cost by 5% and increases the range by 5 meters. Note that Minor Fracture remains.
-* Increased the damage by approximately 9% for this ability and its morphs.
+[Patch 5.1.5] * Increased the damage by approximately 9% for this ability and its morphs.
 ESO Patch Note|6.3.5|* Reduced the cast time of these abilities to 0.8 seconds, down from 1 second.
 - This ability and its morphs now have a much faster, smoother animation to support their new cast time.
 - Reduced the damage done by approximately 21%.
@@ -68,4 +68,4 @@ ESO Patch Note|6.3.5|* Reduced the cast time of these abilities to 0.8 seconds, 
 - Increased the travel speed slightly to help reduce the ability to fire off multiple projectiles before the original projectile landed.
 - Focused Aim (morph): This morph now ranks up in cost reduction, rather than 1.1% damage per rank. The final cost is now 2430.
 - Developer Comment: Similar to the Solar Flare changes this update and Crystal Shards a few updates ago, we wanted to make these abilities less bursty in nature while helping their fluid usage in rapid succession, making them less potent at combining into deadly alpha strike attacks and more potent while used in a rotation.
-* Focused Aim (morph): This morph now always applies the Sundered status effect, rather than a unique form of Minor Breach for 10 seconds.
+[Patch 9.3.5] * Focused Aim (morph): This morph now always applies the Sundered status effect, rather than a unique form of Minor Breach for 10 seconds.

@@ -20,4 +20,4 @@ Evocation reduces the Magicka cost of spells and increases your Magicka recovery
 ## Patch Notes
 ESO Patch Note|3.0.5|* Swapped the Evocation and Recovery passives in the Skill Line window.
 - This is now a 2-point passive, originally 3-points. It now reduces the cost of your Magicka abilities by 1/2% per piece of Light Armor, down from 1/2/3%.
-* This ability now also increases your Magicka Recovery by 2/4% per piece of Light Armor worn, in addition to reducing the cost of Magicka abilities by 1/2% per piece of Light Armor worn.
+[Patch 4.2.5] * This ability now also increases your Magicka Recovery by 2/4% per piece of Light Armor worn, in addition to reducing the cost of Magicka abilities by 1/2% per piece of Light Armor worn.

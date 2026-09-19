@@ -43,7 +43,7 @@ File:ON-skill-Combat Prayer (Timeless Blessing).jpg|A restoration staff affected
 ESO Patch Note|1.6.5|* This ability now gives the Minor Resolve and Minor Ward buffs for 8 seconds.
 - Blessing of Restoration (morph): Increased the heal provided by this ability by 21%. In addition, the buffs provided by this morph will now last 15 seconds.
 - Combat Prayer (morph): This ability now grants the Minor Berserk buff for 8 seconds.
-* Fixed an issue where the Heavy Attack from Restoration Staves wouldn't play correctly when canceled with Blessing of Protection.
+[Patch 4.0.5] * Fixed an issue where the Heavy Attack from Restoration Staves wouldn't play correctly when canceled with Blessing of Protection.
 ESO Patch Note|5.1.5|* Reduced the cost of this ability and its morphs to 3510 from 3780.
 - Increased the healing of all these abilities by approximately 10%.
 - Blessing of Restoration:

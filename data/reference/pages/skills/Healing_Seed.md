@@ -37,10 +37,10 @@ Healing Seed creates a circular field of flowers which will restore the Health o
 ## Patch Notes
 ESO Patch Note|3.1.5|* Fixed a grammatical error in the tooltip of this ability and its morphs.
 - Budding Seeds: This morph can now be cast even if you have an enemy targeted in your reticle.
-* Reduced the cost of this ability and its morphs by approximately 28%.
-* Fixed a rare issue where this ability and its morphs could fail to heal you and your allies in the area of effect.
-* Corrupting Pollen: This ability no longer applies Major Defile to enemies for 4 seconds inside (which allowed it to bypass the 6 player target cap). Instead, up to 6 enemies inside will be properly afflicted with Major Defile, which will cease once the ability ends or they leave the radius.
-* Budding Seeds: This morph now also introduces a Heal over Time while the Area of Effect grows. If the ability is consumed early, this Heal over Time is also consumed.
+[Patch 3.3.5] * Reduced the cost of this ability and its morphs by approximately 28%.
+[Patch 4.0.5] * Fixed a rare issue where this ability and its morphs could fail to heal you and your allies in the area of effect.
+[Patch 5.0.5] * Corrupting Pollen: This ability no longer applies Major Defile to enemies for 4 seconds inside (which allowed it to bypass the 6 player target cap). Instead, up to 6 enemies inside will be properly afflicted with Major Defile, which will cease once the ability ends or they leave the radius.
+[Patch 5.1.5] * Budding Seeds: This morph now also introduces a Heal over Time while the Area of Effect grows. If the ability is consumed early, this Heal over Time is also consumed.
 ESO Patch Note|6.1.5|* Healing Seed: The synergy from this ability and its morphs no longer count as a Green Balance skill, as synergies are not meant to be enhanced by their respective skill line's passives; they are activated by allies and not the caster themselves.
 - Budding Seeds (morph):
 - Fixed an issue where the animation for recasting this ability could force its animation after a delay, rather than skipping its animation if you were already preoccupied.
@@ -48,7 +48,7 @@ ESO Patch Note|6.1.5|* Healing Seed: The synergy from this ability and its morph
 ESO Patch Note|7.3.5|* Made some back-end improvements to this ability and its morphs to improve performance.
 - Fixed an issue where the synergy granted from this ability and its morphs, Harvest, was not playing visual or sound effects.
 - Corrupting Pollen (morph): This ability now prioritizes lowest health enemies with Major Defile. Ragweed season is coming.
-* Corrupting Pollen (morph): This morph now also applies Minor Cowardice to enemies in the area, to help it gain some viability in PvE areas.
-* Budding Seed (morph): Increased the healing per tick of this morph by approximately 3%.
-* Budding Seeds (morph): Fixed an issue where the final heal from this ability was centered on the caster, rather than the Area of Effect.
-* Budding Seed (morph): Fixed an issue where this morph's heal on end or recast could return improperly based on the number of targets in the area.
+[Patch 8.0.5] * Corrupting Pollen (morph): This morph now also applies Minor Cowardice to enemies in the area, to help it gain some viability in PvE areas.
+[Patch 8.1.5] * Budding Seed (morph): Increased the healing per tick of this morph by approximately 3%.
+[Patch 8.2.5] * Budding Seeds (morph): Fixed an issue where the final heal from this ability was centered on the caster, rather than the Area of Effect.
+[Patch 8.2.6] * Budding Seed (morph): Fixed an issue where this morph's heal on end or recast could return improperly based on the number of targets in the area.

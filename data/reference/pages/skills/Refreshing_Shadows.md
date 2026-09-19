@@ -18,5 +18,5 @@ linerank2=18
 Refreshing Shadows increases your recovery rate of Health, Magicka, and Stamina.
 
 ## Patch Notes
-* This passive ability is now always active, and no longer requires you to use another ability.
-* Adjusted this ability from 15/30% Stamina recovery to 7/15% Stamina, Health and Magicka recovery. We also fixed an issue which caused this passive to not increase health regeneration.
+[Patch 1.2.3] * This passive ability is now always active, and no longer requires you to use another ability.
+[Patch 2.1.4] * Adjusted this ability from 15/30% Stamina recovery to 7/15% Stamina, Health and Magicka recovery. We also fixed an issue which caused this passive to not increase health regeneration.

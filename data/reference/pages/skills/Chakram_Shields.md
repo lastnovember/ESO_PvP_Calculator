@@ -43,5 +43,5 @@ File:ON-skill-Chakram Shields (projectile main).jpg|Chakram Shields and its morp
 File:ON-skill-Chakram Shields (projectile others).jpg|Chakram Shields and its morphs' base projectile visual
 
 ## Patch Notes
-* Fixed an issue where some of the visuals from this ability and its morphs could get stuck floating in midair.
-* Fixed an issue where the damage shields from different morphs of this ability could stack.
+[Patch 9.0.6] * Fixed an issue where some of the visuals from this ability and its morphs could get stuck floating in midair.
+[Patch 9.0.7] * Fixed an issue where the damage shields from different morphs of this ability could stack.

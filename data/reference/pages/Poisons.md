@@ -135,51 +135,51 @@ rowspan=2|510
 50 | rowspan=2|328
 656
 
-rowspan=4| | rowspan=4|VI | 5010 | 2.1
+rowspan=4| | rowspan=4|VI | 50CP10 | 2.1
 689
 
-5020 | rowspan=2|333 | rowspan=2|2.2
+50CP20 | rowspan=2|333 | rowspan=2|2.2
 rowspan=2|733
 
-5030
+50CP30
 
-5040 | 338 | rowspan=2|2.3
+50CP40 | 338 | rowspan=2|2.3
 777
 
-rowspan=5| | rowspan=5|VII | 5050 | 417
+rowspan=5| | rowspan=5|VII | 50CP50 | 417
 959
 
-5060 | 477 | rowspan=2|2.4
+50CP60 | 477 | rowspan=2|2.4
 1145
 
-5070 | 532
+50CP70 | 532
 1277
 
-5080 | 595 | rowspan=2|2.5
+50CP80 | 595 | rowspan=2|2.5
 1488
 
-5090 | 650
+50CP90 | 650
 1625
 
-rowspan=5| | rowspan=5|VIII | 50100 | 766 | rowspan=2|2.6
+rowspan=5| | rowspan=5|VIII | 50CP100 | 766 | rowspan=2|2.6
 1922
 
-50110 | 827
+50CP110 | 827
 2150
 
-50120 | 899 | rowspan=2|2.7
+50CP120 | 899 | rowspan=2|2.7
 2427
 
-50130 | 960
+50CP130 | 960
 2592
 
-50140 | 973 | rowspan=2|2.8
+50CP140 | 973 | rowspan=2|2.8
 2724
 
-rowspan=2| | rowspan=2|IX | 50150 | rowspan=2|1076
+rowspan=2| | rowspan=2|IX | 50CP150 | rowspan=2|1076
 3013
 
-50160 | 2.9
+50CP160 | 2.9
 3120
 
 ### Cloudy Gradual Health Poison
@@ -323,51 +323,51 @@ rowspan=2|735
 50 | rowspan=2|193 | 5.1
 984
 
-rowspan=4| | rowspan=4|VI | 5010 | 5.2
+rowspan=4| | rowspan=4|VI | 50CP10 | 5.2
 1004
 
-5020 | rowspan=2|196 | rowspan=2|5.4
+50CP20 | rowspan=2|196 | rowspan=2|5.4
 rowspan=2|1058
 
-5030
+50CP30
 
-5040 | 199 | rowspan=2|5.6
+50CP40 | 199 | rowspan=2|5.6
 1114
 
-rowspan=5| | rowspan=5|VII | 5050 | 245
+rowspan=5| | rowspan=5|VII | 50CP50 | 245
 1372
 
-5060 | 281 | rowspan=2|5.8
+50CP60 | 281 | rowspan=2|5.8
 1630
 
-5070 | 313
+50CP70 | 313
 1815
 
-5080 | 350 | 6.0
+50CP80 | 350 | 6.0
 2100
 
-5090 | 382 | 6.1
+50CP90 | 382 | 6.1
 2330
 
-rowspan=5| | rowspan=5|VIII | 50100 | 451 | 6.2
+rowspan=5| | rowspan=5|VIII | 50CP100 | 451 | 6.2
 2796
 
-50110 | 486 | 6.3
+50CP110 | 486 | 6.3
 3062
 
-50120 | 529 | 6.4
+50CP120 | 529 | 6.4
 3386
 
-50130 | 565 | 6.5
+50CP130 | 565 | 6.5
 3673
 
-50140 | 572 | 6.6
+50CP140 | 572 | 6.6
 3775
 
-rowspan=2| | rowspan=2|IX | 50150 | rowspan=2|633 | 6.7
+rowspan=2| | rowspan=2|IX | 50CP150 | rowspan=2|633 | 6.7
 4241
 
-50160 | 6.8
+50CP160 | 6.8
 4304
 
 ### Cloudy Hindering Poison
@@ -474,37 +474,37 @@ rowspan=11| | rowspan=11|V | 40 | rowspan=2|3.4
 
 50 | 4.1
 
-rowspan=4| | rowspan=4|VI | 5010 | 4.2
+rowspan=4| | rowspan=4|VI | 50CP10 | 4.2
 
-5020 | rowspan=2|4.4
+50CP20 | rowspan=2|4.4
 
-5030
+50CP30
 
-5040 | rowspan=2|4.6
+50CP40 | rowspan=2|4.6
 
-rowspan=5| | rowspan=5|VII | 5050
+rowspan=5| | rowspan=5|VII | 50CP50
 
-5060 | rowspan=2|4.8
+50CP60 | rowspan=2|4.8
 
-5070
+50CP70
 
-5080 | 5.0
+50CP80 | 5.0
 
-5090 | 5.1
+50CP90 | 5.1
 
-rowspan=5| | rowspan=5|VIII | 50100 | 5.2
+rowspan=5| | rowspan=5|VIII | 50CP100 | 5.2
 
-50110 | 5.3
+50CP110 | 5.3
 
-50120 | 5.4
+50CP120 | 5.4
 
-50130 | 5.5
+50CP130 | 5.5
 
-50140 | 5.6
+50CP140 | 5.6
 
-rowspan=2| | rowspan=2|IX | 50150 | 5.7
+rowspan=2| | rowspan=2|IX | 50CP150 | 5.7
 
-50160 | 5.8
+50CP160 | 5.8
 
 ## Crown Store Poisons
 These poisons can be purchased from the Crown Store, received from Daily Rewards, or obtained in Crown Crates.

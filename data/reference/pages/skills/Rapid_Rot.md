@@ -18,5 +18,5 @@ linerank2=50
 Rapid Rot increases the effectiveness of all Damage Over Time abilities.
 
 ## Patch Notes
-* Increased the damage bonus for this passive to 15%, up from 10%.
-* This passive now increases your damage done with Damage over Time effects by 5/10%, down from 7/15%.
+[Patch 5.2.5] * Increased the damage bonus for this passive to 15%, up from 10%.
+[Patch 8.1.5] * This passive now increases your damage done with Damage over Time effects by 5/10%, down from 7/15%.

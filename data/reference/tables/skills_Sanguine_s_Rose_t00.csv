@@ -1,0 +1,10 @@
+Skill,Target,Description
+Soul Magic-Soul Strike,Sanguine's Rose Ability 1,Enemy
+Bow-Endless Hail,Sanguine's Rose Ability 2,Ground,"Launch a multitude of arrows into the sky to rain down, dealing 129 Physical Damage to enemies in the target area every 0.5 seconds for 10 seconds."
+Restoring Light-Rushed Ceremony,Sanguine's Rose Ability 3,Self,"Beacon your inner light, healing yourself or a wounded ally in front of you for 1233 Health. Also heals one other injured target for 397 Health."
+Snare,Sanguine Rose Snare,Enemy
+Soul Magic-Soul Shatter,Sanguine Rose Heal,Self
+Assault-Magicka Detonation,Sanguine's Rose Heal Magicka,Self
+Two Handed-Brawler,Sanguine's Rose Heal Stamina,Self
+Magic Ranged,Sanguine's Rose Heavy Attack,Enemy,Deal 822 Magic Damage over 1.6 seconds · 20% of damage caused is absobed as healing
+Fire Ranged,Sanguine's rose Attack,Enemy,Deals 358 Flame Damage

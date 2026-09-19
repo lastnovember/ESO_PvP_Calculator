@@ -34,9 +34,9 @@ Piercing Javelin deals Magic Damage to an enemy and knocks them backward, stunni
 - Aurora Javelin is a recommended morph for the Templar Initiate build, while Binding Javelin is recommended for Luminous Warrior.
 
 ## Patch Notes
-* Aurora Javelin: Fixed an issue where Aurora Javelin was adding less damage than the intended additional 40%.
-* Binding Javelin: This ability now scales off stamina and weapon power, and now also costs stamina.
-* Increased the range of this ability and its morphs to 28 meters from 20 meters.
+[Patch 1.1.2] * Aurora Javelin: Fixed an issue where Aurora Javelin was adding less damage than the intended additional 40%.
+[Patch 1.6.5] * Binding Javelin: This ability now scales off stamina and weapon power, and now also costs stamina.
+[Patch 2.3.5] * Increased the range of this ability and its morphs to 28 meters from 20 meters.
 ESO Patch Note|2.7.5|* Increased the speed of the projectile fired by this ability and its morphs by 40%.
 - Binding Javelin:
 - Fixed an issue where Rank III of this morph had a 20 meter range instead of a 28 meter range.

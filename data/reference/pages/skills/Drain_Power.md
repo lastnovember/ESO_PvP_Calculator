@@ -47,10 +47,10 @@ ESO Patch Note|1.1.2|* Sap Essence:
 ESO Patch Note|1.6.5|* The damage caused by Drain Power no longer scales with the number of targets hit. Instead, you will receive a Major Brutality buff when damaging at least one target.
 - Power Extraction: This ability now scales off weapon damage and stamina instead of magicka and spell damage. The damage has also been increased by 10%.
 - Sap Essence: This ability now grants you the Major Spell Power buff. Fixed an issue where this ability was healing for more than intended when hitting multiple targets.
-* Sap Essence: Fixed an issue where this ability wasn't healing when hitting more than 6 targets.
-* Increased the damage of this ability by approximately 20%.
-* Sap Essence: Fixed an issue where this ability's heal effect could be dodged.
-* Power Extraction: This morph now deals Disease Damage instead of Physical Damage.
+[Patch 1.6.6] * Sap Essence: Fixed an issue where this ability wasn't healing when hitting more than 6 targets.
+[Patch 2.1.4] * Increased the damage of this ability by approximately 20%.
+[Patch 2.2.4] * Sap Essence: Fixed an issue where this ability's heal effect could be dodged.
+[Patch 2.4.5] * Power Extraction: This morph now deals Disease Damage instead of Physical Damage.
 ESO Patch Note|4.2.5|* Power Extraction: Increased the damage done by this morph by approximately 25%.
 - Developer Comment: We wanted to give a better distinction of the Power Extraction morph since the upgrade tooltip states it gets a damage increase. The damage difference between these morphs should be much more noticeable.
 ESO Patch Note|5.0.5|* Increased the damage of this ability and the Sap Essence morph by 25% to adhere it to our PBAoE damage standards. Ability and Sap Essence now grant Major Sorcery, rather than Brutality, to better represent the scaling mechanisms the skills use.

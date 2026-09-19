@@ -46,13 +46,13 @@ File:ON-skill-Power Overload heavy attack.jpg|Power Overload morph's wider heavy
 ## Patch Notes
 ESO Patch Note|1.2.3|* Significantly increased the light attack damage and cost for this ability. Ride the lightning!
 - Power Overload: This no longer uses the same ability bar as the werewolf.
-* You will now turn to face your target when attacking with this ability. We also fixed an issue where your weapon would occasionally still appear in your hands while this ability was active.
+[Patch 1.3.3] * You will now turn to face your target when attacking with this ability. We also fixed an issue where your weapon would occasionally still appear in your hands while this ability was active.
 ESO Patch Note|1.6.5|* Reduced the initial cost of Overload and its morphs to 75 Ultimate from 125 Ultimate.
 - Increased the damage of Overload light attacks by 50%.
 - Reduced the rank up bonus damage for this ability from 3% to 1%.
 - Overload and Power Overload will now properly scale their damage off Weapon Damage and Stamina in the event that they are higher than Spell Power and Magicka.
 - Shrouded Armor: Fixed an issue where you could toggle Overload on and off repeatedly to heal yourself for large amounts with this item set. The heal on this item set now has a short cooldown.
-* Power Overload: Fixed an issue where Rank IV of this morph was not gaining a damage bonus.
+[Patch 2.3.5] * Power Overload: Fixed an issue where Rank IV of this morph was not gaining a damage bonus.
 ESO Patch Note|4.1.5|* Fixed an issue where the Heavy Attack from this ability and its morphs could not proc Weapon Enchantments or Poisons.
 - Added an error message when trying to weapon swap as a Werewolf or with Overload active.
 ESO Patch Note|4.2.5|* This ability and its morphs no longer grant a third ability bar when toggled on.
@@ -72,11 +72,11 @@ ESO Patch Note|5.0.5|* This ability and its morphs will now properly scale with 
 ESO Patch Note|5.1.5|* The hitbox for these ability's Heavy Attack will now properly update when fighting Dragons.
 - Fixed an issue where the Heavy Attack augment from these abilities was not gaining the 70% damage increase from Heavy Attacking Off-Balance enemies.
 - The Heavy Attack from this ability and its morphs can no longer be interrupted.
-* Fixed an issue where toggling this ability would dismount you, and updated many sets to properly key off Overload and its morphs where they stated they required Heavy Attacks.
+[Patch 5.3.4] * Fixed an issue where toggling this ability would dismount you, and updated many sets to properly key off Overload and its morphs where they stated they required Heavy Attacks.
 ESO Patch Note|6.0.5|* Fixed numerous visual issues with this Ultimate and its morphs, such as causing your weapons to appear hidden longer than intended, or some cases where the effects could get stuck on your character. Casting any other Ultimate while this Ultimate or its morphs are toggled on will now cause this Ultimate to untoggle.
 - Energy Overload (morph): Fixed an issue where the Magicka restore from this morph would fire even if your Light or Heavy Attack failed to deal damage.
-* Fixed an issue where the Heavy Attack from this Ultimate and its morphs could return as Damage over Time in some cases.
-* Light Attacks from this Ultimate and morphs now break Stealth when cast. There is nothing sneaky about lobbing giant bolts of lightning at your foes.
-* Energy Overload (morph): This morph now restores up to 1200 Magicka and Stamina, rather than up to 1192 Magicka. The restore now happens any time you use the Light or Heavy Attacks, rather than only when they deal damage.
-* Fixed an issue where this Ultimate and its morphs would not remove themselves when Heavy Attacking with just enough Ultimate for 1 tick.
-* Fixed an issue where using a Heavy Attack while this Ultimate or its morphs were active could become stuck if cast while attempting to Sprint.
+[Patch 6.3.5] * Fixed an issue where the Heavy Attack from this Ultimate and its morphs could return as Damage over Time in some cases.
+[Patch 7.1.5] * Light Attacks from this Ultimate and morphs now break Stealth when cast. There is nothing sneaky about lobbing giant bolts of lightning at your foes.
+[Patch 8.0.5] * Energy Overload (morph): This morph now restores up to 1200 Magicka and Stamina, rather than up to 1192 Magicka. The restore now happens any time you use the Light or Heavy Attacks, rather than only when they deal damage.
+[Patch 8.3.5] * Fixed an issue where this Ultimate and its morphs would not remove themselves when Heavy Attacking with just enough Ultimate for 1 tick.
+[Patch 10.2.5] * Fixed an issue where using a Heavy Attack while this Ultimate or its morphs were active could become stuck if cast while attempting to Sprint.

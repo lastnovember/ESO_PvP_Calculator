@@ -25,4 +25,4 @@ Gift of Magnus increases your Maximum Magicka.
 - Prior to Update 21, this skill increased your Magicka by a percentage rather than a flat value.
 
 ## Patch Notes
-* Gain 10% Max Magicka → Increases your Max Magicka by 2000.
+[Patch 4.3.5] * Gain 10% Max Magicka → Increases your Max Magicka by 2000.

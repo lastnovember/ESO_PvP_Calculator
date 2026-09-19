@@ -12,7 +12,7 @@ Constructing an item with a specific trait requires a special tertiary material.
 
 The magnitude of each trait depends on the quality of the item, improving the item will automatically increase the trait's magnitude.
 
-Non-percentage values in the following tables are for Level 50 160 items. Lower level items will have smaller values. See the individual trait pages for more complete info.
+Non-percentage values in the following tables are for Level 50 CP160 items. Lower level items will have smaller values. See the individual trait pages for more complete info.
 
 ## Weapon Traits
 
@@ -32,74 +32,74 @@ rowspan=2| Powered
 rowspan=2| Chysolite
 rowspan=2|Increase healing done by …
 1H
-4.5%
+2.5% (white) / 3% (green) / 3.5% (blue) / 4% (purple) / 4.5% (gold)
 
 2H
-9%
+5% (white) / 6% (green) / 7% (blue) / 8% (purple) / 9% (gold)
 
 rowspan=2| Charged
 rowspan=2| Amethyst
 rowspan=2|Increase your chance to apply status effects by …
 1H
-117.5%
+97.5% (white) / 102.5% (green) / 107.5% (blue) / 112.5% (purple) / 117.5% (gold)
 
 2H
-235%
+195% (white) / 205% (green) / 215% (blue) / 225% (purple) / 235% (gold)
 
 rowspan=2| Precise
 rowspan=2| Ruby
 rowspan=2| Increases Weapon and Spell Critical values by …
 1H
-3.6%
+1.6% (white) / 2.1% (green) / 2.6% (blue) / 3.1% (purple) / 3.6% (gold)
 
 2H
-7.2%
+3.2% (white) / 4.2% (green) / 5.2% (blue) / 6.2% (purple) / 7.2% (gold)
 
 Infused
 Jade
 colspan=2|Increase weapon enchantment effect by … and reduces enchantment cooldown by 50%
-30%
+10% (white) / 15% (green) / 20% (blue) / 25% (purple) / 30% (gold)
 
 rowspan=2| Defending
 rowspan=2| Turquoise
 rowspan=2|Increases Physical and Spell Resistance by …
 1H
-1638
+1428 (white) / 1485 (green) / 1542 (blue) / 1580 (purple) / 1638 (gold)
 
 2H
-3276
+2856 (white) / 2971 (green) / 3085 (blue) / 3161 (purple) / 3276 (gold)
 
 rowspan=2| Training
 rowspan=2| Carnelian
 rowspan=2|Increase experience gained from kills by …
 1H
-4.5%
+2.5% (white) / 3% (green) / 3.5% (blue) / 4% (purple) / 4.5% (gold)
 
 2H
-9%
+5% (white) / 6% (green) / 7% (blue) / 8% (purple) / 9% (gold)
 
 rowspan=2| Sharpened
 rowspan=2| Fire Opal
 rowspan=2|Increase Physical and Spell Penetration by …
 1H
-1638
+1428 (white) / 1485 (green) / 1542 (blue) / 1580 (purple) / 1638 (gold)
 
 2H
-3276
+2856 (white) / 2971 (green) / 3085 (blue) / 3161 (purple) / 3276 (gold)
 
 rowspan=2| Decisive
 rowspan=2| Citrine
 rowspan=2|When you gain Ultimate you have a … chance to gain 1 additional ultimate.
 1H
-27.5%
+19.1% (white) / 21.2% (green) / 23.2% (blue) / 25.4% (purple) / 27.5% (gold)
 
 2H
-55%
+38.2% (white) / 42.4% (green) / 46.4% (blue) / 50.8% (purple) / 55% (gold)
 
 Nirnhoned
 Potent Nirncrux
 colspan=2|Increases Damage of this weapon by …
-15%
+11% (white) / 12% (green) / 13% (blue) / 14% (purple) / 15% (gold)
 
 ### Notes
 - The Heartland Conqueror set doubles the effectiveness of weapon traits.
@@ -118,47 +118,47 @@ Legendary
 Sturdy
 Quartz
 Reduce block cost by …
-4%
+2% (white) / 2.5% (green) / 3% (blue) / 3.5% (purple) / 4% (gold)
 
 Impenetrable
 Diamond
 Increase your Critical Resistance by … and this item takes 50% less durability damage.
-132
+121 (white) / 124 (green) / 127 (blue) / 129 (purple) / 132 (gold)
 
 Reinforced
 Sardonyx
 Increases this item's armor value by …
-16%
+12% (white) / 13% (green) / 14% (blue) / 15% (purple) / 16% (gold)
 
 Well-fitted
 Almandine
 Reduces the cost of sprinting and Roll Dodging by …
-6%
+1.2% (white) / 2.4% (green) / 3.6% (blue) / 4.8% (purple) / 6% (gold)
 
 Training
 Emerald
 Increase experience gained from kills by …
-11%
+7% (white) / 8% (green) / 9% (blue) / 10% (purple) / 11% (gold)
 
 Infused
 Bloodstone
 Increase armor enchantment effect by …
-25%
+9% (white) / 13% (green) / 17% (blue) / 21% (purple) / 25% (gold)
 
 Invigorating
 Garnet
 Increase ESO Health Link | Recovery, ESO Magicka Link | Recovery, and ESO Stamina Link | Recovery by …
-16
+8 (white) / 10 (green) / 12 (blue) / 14 (purple) / 16 (gold)
 
 Divines
 Sapphire
 Increases Mundus Stone effects by …
-%
+% (white) / % (green) / % (blue) / % (purple) / % (gold)
 
 Nirnhoned
 Fortified Nirncrux
 Increases Physical and Spell Resistance by …
-253
+220 (white) / 228 (green) / 236 (blue) / 244 (purple) / 253 (gold)
 
 ## Jewelry Traits
 Jewelry traits are available on all Jewelry, including rings and necklaces/amulets.
@@ -175,57 +175,57 @@ Healthy
 Antimony
 Refining Platinum Dust
 Increase Maximum Health by …
-965
+844 (white) / 877 (green) / 910 (blue) / 932 (purple) / 965 (gold)
 
 Arcane
 Cobalt
 Refining Platinum Dust
 Increase Maximum Magicka by …
-877
+767 (white) / 797 (green) / 827 (blue) / 847 (purple) / 877 (gold)
 
 Robust
 Zinc
 Refining Platinum Dust
 Increase Maximum Stamina by …
-877
+767 (white) / 797 (green) / 827 (blue) / 847 (purple) / 877 (gold)
 
 Bloodthirsty
 Slaughterstone
 Writs, Weekly Trial Rewards
 Increase Weapon and Spell Damage against enemies under 90% health by up to …
-350
+210 (white) / 245 (green) / 280 (blue) / 315 (purple) / 350 (gold)
 
 Harmony
 Dibellium
 Writs, Daily Random Normal Dungeon Rewards
 Activating a Synergy restores... Health, Magicka, and Stamina.
-880
+770 (white) / 800 (green) / 830 (blue) / 850 (purple) / 880 (gold)
 
 Infused
 Aurbic Amber
 Writs, Psijic Portals
 Increase the effect of the enchantment by …%
-60
+24 (white) / 33 (green) / 42 (blue) / 51 (purple) / 60 (gold)
 
 rowspan=2| Triune
 rowspan=2| Dawn-Prism
 rowspan=2|Writs, War Researchers
 rowspan=2| Increase Maximum Health by … and Maximum Magicka and Maximum Stamina by …
-482
+422 (white) / 438 (green) / 455 (blue) / 466 (purple) / 482 (gold)
 
-439
+384 (white) / 399 (green) / 414 (blue) / 424 (purple) / 439 (gold)
 
 Protective
 Titanium
 Writs, Jewelry Seams
 Increase Spell Resistance and Physical Resistance by …
-1190
+1053 (white) / 1091 (green) / 1128 (blue) / 1153 (purple) / 1190 (gold)
 
 Swift
 Gilding Wax
 Writs, Rolis Hlaalu
 Increase Movement Speed by …%
-7
+3 (white) / 4 (green) / 5 (blue) / 6 (purple) / 7 (gold)
 - Deconstructing a piece of jewelry will return jewelry crafting ingredients, including one pulverized version of its trait material, ten of which can be refined into that trait material. However, if the jewelry was reconstructed at a Transmute Station, it will instead return 25 Transmute Crystals only, regardless of quality, trait or number of Transmute Crystals used to create it.
 
 ## Common Traits
@@ -242,13 +242,13 @@ Legendary
 
 Ornate
 colspan=2|This item sells to merchants for …% more.
-300%
+280% (white) / 285% (green) / 290% (blue) / 295% (purple) / 300% (gold)
 
 rowspan=2| Intricate
 rowspan=2| Increase inspiration gained from deconstruction of this item by …, and gain additional refined material upon deconstruction of this item.
-Armor/Weapons | 300%
+Armor/Weapons | 280% (white) / 285% (green) / 290% (blue) / 295% (purple) / 300% (gold)
 
-Jewelry | 400%
+Jewelry | 300% (white) / 325% (green) / 350% (blue) / 375% (purple) / 400% (gold)
 
 ## Deprecated Traits
 These traits were removed and replaced in the past.

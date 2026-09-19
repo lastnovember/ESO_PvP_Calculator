@@ -34,7 +34,7 @@ rowspan=2|Medium Armor Slots | rowspan=2|Shuffle Immunity Duration | rowspan=10|
 Major Evasion | Major Expedition
 
 0
-C| -
+| -
 20 sec. | 0 sec.
 
 1
@@ -66,13 +66,13 @@ C| -
 34 sec. | 7 sec.
 
 ## Patch Notes
-* This ability's triggered opacity effect will no longer prematurely disappear after killing an enemy.
+[Patch 1.2.3] * This ability's triggered opacity effect will no longer prematurely disappear after killing an enemy.
 ESO Patch Note|1.6.5|* Evasion now grants the Major Evasion buff for 17 seconds; the duration increases with each rank of the ability.
 - Elude: This ability now increases the duration of the Major Evasion buff for each piece of medium armor equipped.
 - Shuffle: This ability now has effects for its snare immunity and prevents you from being snared or immobilized in addition to granting the Major Evasion buff. The duration of the immunity is 0.5 seconds for each piece of Medium Armor equipped.
-* Elude: Fixed an issue where each recast of this morph would add additional time to the duration of the Major Evasion buff.
-* Reduced the cost of this ability and its morphs by 15%.
+[Patch 2.3.5] * Elude: Fixed an issue where each recast of this morph would add additional time to the duration of the Major Evasion buff.
+[Patch 4.2.5] * Reduced the cost of this ability and its morphs by 15%.
 ESO Patch Note|5.1.5|* Reduced the base cost of this ability to 3213 from 3672.
 - Elude: Each piece of Medium Armor now increases the duration of the Major Evasion by 2 seconds, up from 1 second. Elude also grants you Major Expedition whenever you take direct Area of Effect damage, based on each piece of Medium Armor worn.
 - Shuffle: Increased the snare and immobilization immunity granted per piece of Medium Armor worn to 1 second from 0.5 seconds.
-* Fixed an issue where casting this ability or its morphs could sometimes make your character appear invisible under very specific circumstances.
+[Patch 7.2.5] * Fixed an issue where casting this ability or its morphs could sometimes make your character appear invisible under very specific circumstances.

@@ -21,6 +21,6 @@ imgdesc=Rourken's Rebuke
 Rourken's Rebuke deals Physical Damage to all enemies in front of you, knocking them back and stunning them.
 
 ## Patch Notes
-* Updated this ability to better match its visual effects, resulting in a 600ms cast time. This will fix numerous issues where this ability could cause health desyncs or hit targets who had appeared to dodge.
+[Patch 5.3.4] * Updated this ability to better match its visual effects, resulting in a 600ms cast time. This will fix numerous issues where this ability could cause health desyncs or hit targets who had appeared to dodge.
 
 Skill

@@ -23,10 +23,10 @@ Rebate restores your Magicka or Stamina whenever one of your Daedric Summoning a
 - Prior to Update 27, this passive only restored Magicka and only when one of your summons were killed or unsummoned.
 
 ## Patch Notes
-Summoned Winged Twilight]] is killed.
-* Updated this ability's tooltip to state that pets restore magicka when they die, or when you unsummon them.
-* Fixed an issue where this ability was not restoring magicka when a Daedric pet was de-summoned or died, and the magicka restore from this passive now scales with your level instead of your maximum magicka.
-* Fixed an issue where Rank II of this passive was restoring less Magicka than intended for player characters at Level 50.
-* Fixed an issue where this passive would dismount you if it procced.
-* This passive now restores 150/300 Magicka or Stamina (determined by what the ability cost) when one of your Daedric Summoning non-Ultimate abilities end, rather than restoring Magicka when your Daedric Summoning pets died or were unsummoned.
-* This passive now restores 185/371 Magicka or Stamina when a non-Ultimate Daedric Summoning ability ends, up from 150/300.
+[Patch 1.1.2] * Fixed an issue with this ability. It will now properly recover magicka when your Summoned Winged Twilight is killed.
+[Patch 1.2.3] * Updated this ability's tooltip to state that pets restore magicka when they die, or when you unsummon them.
+[Patch 1.6.5] * Fixed an issue where this ability was not restoring magicka when a Daedric pet was de-summoned or died, and the magicka restore from this passive now scales with your level instead of your maximum magicka.
+[Patch 2.7.5] * Fixed an issue where Rank II of this passive was restoring less Magicka than intended for player characters at Level 50.
+[Patch 5.1.5] * Fixed an issue where this passive would dismount you if it procced.
+[Patch 6.1.5] * This passive now restores 150/300 Magicka or Stamina (determined by what the ability cost) when one of your Daedric Summoning non-Ultimate abilities end, rather than restoring Magicka when your Daedric Summoning pets died or were unsummoned.
+[Patch 11.0.5] * This passive now restores 185/371 Magicka or Stamina when a non-Ultimate Daedric Summoning ability ends, up from 150/300.

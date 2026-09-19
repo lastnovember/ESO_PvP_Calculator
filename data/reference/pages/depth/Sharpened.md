@@ -1,0 +1,112 @@
+# Online:Sharpened
+
+Source: https://en.uesp.net/wiki/Online:Sharpened
+License: CC BY-SA, UESP
+
+Sharpened is a trait which can only be found on weapons. Once you have researched the trait on a given item type, you can craft Sharpened weapons by using Fire Opal. Items with the Sharpened trait will increase your Physical and Spell Penetration by an amount dependent on the level and quality of the item. 2-handed weapons provide twice the bonus of 1-handed.
+
+These tables have outdated/incorrect values.
+rowspan=2|Material | rowspan=2|Level | colspan=5|1-Handed Weapons | rowspan=68| | colspan=5|2-Handed Weapons
+
+12Normal
+12Fine
+12Superior
+12Epic
+12Legendary
+12Normal
+12Fine
+12Superior
+12Epic
+12Legendary
+
+rowspan=7 |Iron/ Maple
+1 | 32 (white) / 80 (green) / 128 (blue) / 176 (purple) / 224 (gold) | 64 (white) / 160 (green) / 256 (blue) / 352 (purple) / 448 (gold)
+
+4 | 96 (white) / 144 (green) / 192 (blue) / 240 (purple) / 288 (gold) | 192 (white) / 288 (green) / 384 (blue) / 480 (purple) / 576 (gold)
+
+6 | 144 (white) / 192 (green) / 240 (blue) / 288 (purple) / 336 (gold) | 288 (white) / 384 (green) / 480 (blue) / 576 (purple) / 672 (gold)
+
+8 | 176 (white) / 224 (green) / 272 (blue) / 320 (purple) / 368 (gold) | 352 (white) / 448 (green) / 544 (blue) / 640 (purple) / 736 (gold)
+
+10 | 208 (white) / 256 (green) / 304 (blue) / 352 (purple) / 400 (gold) | 416 (white) / 512 (green) / 608 (blue) / 704 (purple) / 800 (gold)
+
+12 | 240 (white) / 288 (green) / 336 (blue) / 384 (purple) / 432 (gold) | 480 (white) / 576 (green) / 672 (blue) / 768 (purple) / 864 (gold)
+
+14 | 272 (white) / 320 (green) / 368 (blue) / 416 (purple) / 464 (gold) | 544 (white) / 640 (green) / 736 (blue) / 832 (purple) / 928 (gold)
+
+rowspan=5 |Steel/ Oak
+16 | 304 (white) / 352 (green) / 400 (blue) / 448 (purple) / 496 (gold) | 608 (white) / 704 (green) / 800 (blue) / 896 (purple) / 992 (gold)
+
+18 | 336 (white) / 384 (green) / 432 (blue) / 480 (purple) / 528 (gold) | 672 (white) / 768 (green) / 864 (blue) / 960 (purple) / 1056 (gold)
+
+20 | 368 (white) / 416 (green) / 464 (blue) / 512 (purple) / 560 (gold) | 736 (white) / 832 (green) / 928 (blue) / 1024 (purple) / 1120 (gold)
+
+22 | 400 (white) / 448 (green) / 496 (blue) / 544 (purple) / 592 (gold) | 800 (white) / 896 (green) / 992 (blue) / 1088 (purple) / 1184 (gold)
+
+24 | 432 (white) / 480 (green) / 528 (blue) / 576 (purple) / 624 (gold) | 864 (white) / 960 (green) / 1056 (blue) / 1152 (purple) / 1248 (gold)
+
+rowspan=5 |Orichalcum/ Beech
+26 | 464 (white) / 512 (green) / 560 (blue) / 608 (purple) / 656 (gold) | 928 (white) / 1024 (green) / 1120 (blue) / 1216 (purple) / 1312 (gold)
+
+28 | 496 (white) / 544 (green) / 592 (blue) / 640 (purple) / 688 (gold) | 992 (white) / 1088 (green) / 1184 (blue) / 1280 (purple) / 1376 (gold)
+
+30 | 528 (white) / 576 (green) / 624 (blue) / 672 (purple) / 720 (gold) | 1056 (white) / 1152 (green) / 1248 (blue) / 1344 (purple) / 1440 (gold)
+
+32 | 560 (white) / 608 (green) / 656 (blue) / 704 (purple) / 752 (gold) | 1120 (white) / 1216 (green) / 1312 (blue) / 1408 (purple) / 1504 (gold)
+
+34 | 592 (white) / 640 (green) / 688 (blue) / 736 (purple) / 784 (gold) | 1184 (white) / 1280 (green) / 1376 (blue) / 1472 (purple) / 1568 (gold)
+
+rowspan=5 |Dwarven/ Hickory
+36 | 624 (white) / 672 (green) / 720 (blue) / 768 (purple) / 816 (gold) | 1248 (white) / 1344 (green) / 1440 (blue) / 1536 (purple) / 1632 (gold)
+
+38 | 656 (white) / 704 (green) / 752 (blue) / 800 (purple) / 848 (gold) | 1312 (white) / 1408 (green) / 1504 (blue) / 1600 (purple) / 1696 (gold)
+
+40 | 688 (white) / 736 (green) / 784 (blue) / 832 (purple) / 880 (gold) | 1376 (white) / 1472 (green) / 1568 (blue) / 1664 (purple) / 1760 (gold)
+
+42 | 720 (white) / 768 (green) / 816 (blue) / 864 (purple) / 912 (gold) | 1440 (white) / 1536 (green) / 1632 (blue) / 1728 (purple) / 1824 (gold)
+
+44 | 752 (white) / 800 (green) / 848 (blue) / 896 (purple) / 944 (gold) | 1504 (white) / 1600 (green) / 1696 (blue) / 1792 (purple) / 1888 (gold)
+
+rowspan=3 |Ebony/ Yew
+46 | 784 (white) / 832 (green) / 880 (blue) / 928 (purple) / 976 (gold) | 1568 (white) / 1664 (green) / 1760 (blue) / 1856 (purple) / 1952 (gold)
+
+48 | 816 (white) / 864 (green) / 912 (blue) / 960 (purple) / 1008 (gold) | 1632 (white) / 1728 (green) / 1824 (blue) / 1920 (purple) / 2016 (gold)
+
+50 | 848 (white) / 896 (green) / 944 (blue) / 992 (purple) / 1040 (gold) | 1696 (white) / 1792 (green) / 1888 (blue) / 1984 (purple) / 2080 (gold)
+
+rowspan=3 |Calcinium/ Birch
+CP10 | 848 (white) / 896 (green) / 944 (blue) / 976 (purple) / 1024 (gold) | 1696 (white) / 1792 (green) / 1888 (blue) / 1952 (purple) / 2048 (gold)
+
+CP20 | 880 (white) / 928 (green) / 976 (blue) / 1008 (purple) / 1056 (gold) | 1760 (white) / 1856 (green) / 1952 (blue) / 2016 (purple) / 2112 (gold)
+
+CP30 | 896 (white) / 944 (green) / 992 (blue) / 1024 (purple) / 1072 (gold) | 1792 (white) / 1888 (green) / 1984 (blue) / 2048 (purple) / 2144 (gold)
+
+rowspan=3 |Galatite/ Ash
+CP40 | 928 (white) / 976 (green) / 1024 (blue) / 1056 (purple) / 1104 (gold) | 1856 (white) / 1952 (green) / 2048 (blue) / 2112 (purple) / 2208 (gold)
+
+CP50 | 944 (white) / 992 (green) / 1040 (blue) / 1072 (purple) / 1120 (gold) | 1888 (white) / 1984 (green) / 2080 (blue) / 2144 (purple) / 2240 (gold)
+
+CP60 | 976 (white) / 1024 (green) / 1072 (blue) / 1104 (purple) / 1152 (gold) | 1952 (white) / 2048 (green) / 2144 (blue) / 2208 (purple) / 2304 (gold)
+
+rowspan=2 |Quicksilver/ Mahogany
+CP70 | 992 (white) / 1040 (green) / 1088 (blue) / 1120 (purple) / 1168 (gold) | 1984 (white) / 2080 (green) / 2176 (blue) / 2240 (purple) / 2336 (gold)
+
+CP80 | 1024 (white) / 1072 (green) / 1120 (blue) / 1152 (purple) / 1200 (gold) | 2048 (white) / 2144 (green) / 2240 (blue) / 2304 (purple) / 2400 (gold)
+
+rowspan=6 |Voidsteel/ Nightwood
+CP90 | 1040 (white) / 1088 (green) / 1136 (blue) / 1168 (purple) / 1216 (gold) | 2080 (white) / 2176 (green) / 2272 (blue) / 2336 (purple) / 2432 (gold)
+
+CP100 | 1072 (white) / 1120 (green) / 1168 (blue) / 1200 (purple) / 1248 (gold) | 2144 (white) / 2240 (green) / 2336 (blue) / 2400 (purple) / 2496 (gold)
+
+CP110 | 1088 (white) / 1136 (green) / 1184 (blue) / 1216 (purple) / 1264 (gold) | 2176 (white) / 2272 (green) / 2368 (blue) / 2432 (purple) / 2528 (gold)
+
+CP120 | 1120 (white) / 1168 (green) / 1216 (blue) / 1248 (purple) / 1296 (gold) | 2240 (white) / 2336 (green) / 2432 (blue) / 2496 (purple) / 2592 (gold)
+
+CP130 | 1136 (white) / 1184 (green) / 1232 (blue) / 1264 (purple) / 1312 (gold) | 2272 (white) / 2368 (green) / 2464 (blue) / 2528 (purple) / 2624 (gold)
+
+CP140 | 1168 (white) / 1216 (green) / 1264 (blue) / 1296 (purple) / 1344 (gold) | 2336 (white) / 2432 (green) / 2528 (blue) / 2592 (purple) / 2688 (gold)
+
+rowspan=2 |Rubedite/ Ruby Ash
+CP150 | 1184 (white) / 1232 (green) / 1280 (blue) / 1312 (purple) / 1360 (gold) | 2368 (white) / 2464 (green) / 2560 (blue) / 2624 (purple) / 2720 (gold)
+
+CP160 | 1200 (white) / 1248 (green) / 1296 (blue) / 1328 (purple) / 1376 (gold) | 2400 (white) / 2496 (green) / 2592 (blue) / 2656 (purple) / 2752 (gold)

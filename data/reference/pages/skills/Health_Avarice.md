@@ -18,4 +18,4 @@ linerank2=36
 Health Avarice increases your Healing received for each Bone Tyrant ability slotted, including the ultimate, for a maximum of 6% or 12% with two points in this passive.
 
 ## Patch Notes
-* This passive now increases your Healing Taken by 1/3% per Bone Tyrant ability slotted, up from 1/2%.
+[Patch 11.0.5] * This passive now increases your Healing Taken by 1/3% per Bone Tyrant ability slotted, up from 1/2%.

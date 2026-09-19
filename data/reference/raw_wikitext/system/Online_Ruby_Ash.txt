@@ -1,0 +1,31 @@
+{{ESO Crafting Mat Summary
+|img=[[File:ON-node-Ruby Ash Wood.jpg|240px]]
+|node=Wood
+|tier=10
+|armor=Ruby Ash
+|weapons=Ruby Ash
+|raw=Rough Ruby Ash
+|refined=Sanded Ruby Ash
+}}
+'''Ruby Ash''' logs are veiny and reddish-brown in color. They can be found in any zone by players with [[Online:Woodworking (skill)|Woodworking]] Rank 10 or {{ESO Champion|150 to 160}}. One log can be harvested for three to four samples of the raw material, {{Item Link|Rough Ruby Ash|id=71199}}. Once ten samples of rough wood are collected, they can be refined into seven to ten pieces of the refined material, {{Item Link|Sanded Ruby Ash|id=64502}}. Refined Ruby Ash pieces are used for creating [[Online:Ruby Ash Weapons|Ruby Ash staves and bows]], as well as [[Online:Shields|Ruby Ash shields]], at any [[Online:Crafting Stations|woodworking station]]. In order for you to [[Online:Crafting|craft]] Ruby Ash gear your Woodworking ability has to be rank 10.
+
+{|class="wikitable" style="text-align:center; margin: 2.5em auto; width:60%"
+|+Number of sanded ruby ash pieces needed for creating
+|-
+!scope="col"|Gear Level
+!scope="col"|Ruby Ash Bow
+!scope="col"|Ruby Ash [Type] Staff
+!scope="col"|Ruby Ash Shield
+|-
+!scope="row"|{{ESO Champion|150}}
+|12||12||14
+|-
+!scope="row"|{{ESO Champion|160}}
+|120||120||140
+|}
+
+==Notes==
+*Sanded Ruby Ash was originally named "Sanded Ruddy Ash" in the initial [[ON:PTS|PTS]] release.
+*Sanded Ruby Ash can also be obtained by purchasing them from [[Online:Imperial City|Imperial City]] merchants using [[Online:Tel Var Stones|Tel Var Stones]].
+
+{{Online Equipment Crafting Materials}}

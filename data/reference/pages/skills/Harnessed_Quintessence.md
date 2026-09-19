@@ -16,4 +16,4 @@ linerank1=14
 linerank2=27
 
 ## Patch Notes
-* This passive now increases your Weapon and Spell Damage by 142/284 when you are restored Magicka or Stamina, instead of by 2/5%.
+[Patch 10.3.5] * This passive now increases your Weapon and Spell Damage by 142/284 when you are restored Magicka or Stamina, instead of by 2/5%.

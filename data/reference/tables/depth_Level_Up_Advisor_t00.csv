@@ -1,0 +1,36 @@
+Class,Build,Role,Description,Main Stat.,Suggested Weapon(s),Suggested Armor
+Dragonknight,Dragonknight Initiate]],New Players,Learn to channel your inner dragon through the mastery of Dragonknight abilities.,Magicka,None,None
+Dragonknight,Inferno Dragon,Damage,Set your enemies ablaze in an inferno of destructive magic.,Magicka,Destruction Staff,Light Armor
+Dragonknight,Venomous Dragon,Damage,Control the field of battle with lethal poisons and furious strikes.,Stamina,Dual Wield/Bow,Medium Armor
+Dragonknight,Stoneskin Dragon,Tank,"Channel your fury and charge into the fray like a raging, heavily-armored dragon.",Health,One Hand and Shield]],Heavy Armor
+Dragonknight,Elder Dragon,Healer,"Safeguard your allies by granting them powerful boons such as shields, health, and power.",Magicka,Restoration Staff,Light Armor
+Necromancer,Necromancer Initiate]],New Players,Wield the power of death itself to strike fear into the hearts of your enemies as a terrifying Necromancer.,Magicka,None,None
+Necromancer,Baleful Summoner,Damage,Control an army of the dead to overrun your enemies while channeling destructive elemental magic.,Magicka,Destruction Staff,Light Armor
+Necromancer,Deathbringer,Damage,Use close strikes and ranged assaults to cripple your enemies with lethal poisons and diseases.,Stamina,Two Handed/Bow,Medium Armor
+Necromancer,Undying Warrior,Tank,Drain the life from the living and dead alike to become an unkillable horror on the battlefield.,Health,One Hand and Shield,Heavy Armor
+Necromancer,Flesh Sculptor,Healer,Stave off death's cold touch by siphoning power from the recently deceased and using it to aid your allies.,Magicka,Restoration Staff,Light Armor
+Nightblade,Nightblade Initiate,New Players,Grasp the sinister art of assassination by heeding the call of the Nightblade.,Magicka,None,None
+Nightblade,Deathweaver,Damage,Sap the life-force from unsuspecting victims and use shadows to cast deadly spells.,Magicka,Destruction Staff,Light Armor
+Nightblade,Umbral Assassin,Damage,"Blindside your enemies with a flurry of poisonous strikes, then disappear without a trace.",Stamina,Dual Wield/Bow,Medium Armor
+Nightblade,Living Shadow,Tank,"Become one with the darkness, drawing your foes close, then crippling them with shadow and steel.",Health,One Hand and Shield,Heavy Armor
+Nightblade,Blood Magus,Healer,"Siphon away your foe's vitality to fuel powerful healing spells, shielding you and your allies form death's embrace.",Magicka,Restoration Staff,Light Armor
+Sorcerer,Sorcerer Initiate,New Players,Master ancient spells that control deadly force as a powerful Sorcerer.,Magicka,None,None
+Sorcerer,Elemental Arcanist,Damage,"Channel the power of ice, fire, lightning and Oblivion to weave powerful, destructive spells.",Magicka,Destruction Staff,Light Armor
+Sorcerer,Arcane Warrior,Damage,Merge your martial and magical skill by empowering your weapon strikes with arcane energy.,Stamina,Dual Wield/Bow,Medium Armor
+Sorcerer,War Mage,Tank,"Wade Confidently into battle, protected by heavy armor and potent sorcery.",Health,One Hand and Shield,None
+Sorcerer,Eldritch Mender,Healer,Protect and bolster your allies with powerful wards and shields while draining your enemies of their vitality.,Magicka,Restoration Staff,Light Armor
+Templar,Templar Initiate,New Players,Extend your knowledge on brilliant Aedric spells through the Templar order.,Magicka,None,None
+Templar,Gleaming Champion,Damage,Dazzle and burn your enemies with Aedric light while turning the battlefield to your advantage.,Magicka,Destruction Staff,Light Armor
+Templar,Luminous Warrior,Damage,Visit swift justice upon your foes with stunning strikes up close and deadly arrows from afar.,Stamina,Dual Wield/Bow,Medium Armor
+Templar,Bastion of Light,Tank,"Walk the path of a valiant knight and become an immovable, undying foe of the wicked.",Health,One Hand and Shield,Heavy Armor
+Templar,Beacon of Hope,Healer,"Bring out the best in your allies by showering them with holy light, protective auras, and empowering spells.",Magicka,Restoration Staff,Light Armor
+Warden,Warden Initiate,New Players,Learn to harness the powers and beasts of nature as you traverse the ways of the Warden.,Magicka,None,None
+Warden,Beast Caller,Damage,Summon up the wrath of the wild by calling on great beasts to overpower your enemies.,Magicka,Destruction Staff,Light Armor
+Warden,Savage Stalker,Damage,Use potent toxins and savage beasts to weaken your foes while you pelt them from afar with skillful archery.,Stamina,Bow,Medium Armor
+Warden,Guardian of the Wild,Tank,"Channel nature's resilience with freezing barriers and restorative, nourishing vines.",Health,One Hand and Shield,Heavy Armor
+Warden,Master Herbalist,Healer,Draw on nature's bounty to summon plants that heal and empower your wounded allies.,Magicka,Restoration Staff,Light Armor
+Arcanist,Arcanist Initiate,New Players,"The forces of tides, tentacles, and fate are close at hand. Rise, Arcanist, and take the power that is rightfully yours.",Magicka,None,None
+Arcanist,Desolation Scholar,Damage,Combine turbulent elemental forces and the dread strength of Apocrypha to devastate your foes with overwhelming power.,Magicka,Destruction Staff,Light Armor
+Arcanist,Claymore of the Deeps,Damage,Take up a dire blade and your Apocryphal tome to assault foes from close and mid-range.,Stamina,Two Handed,Medium Armor
+Arcanist,Rune Knight,Tank,Runes are your armor and the grace of Mora your shield. Sustain yourself against even the strongest assault through your connection to Apocrypha.,Health,One Hand and Shield,Heavy Armor
+Arcanist,Occult Hierophant,Healer,"Your runes spark the swell of Abyssal tides, restoring your comrades through force of intellect alone.",Magicka,Destruction Staff,Light Armor

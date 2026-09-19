@@ -44,8 +44,8 @@ ESO Patch Note|5.0.10|* Pummeling Goliath:
 - The bash attack will now always cost resources, instead of only costing resources if you hit a target.
 - Increased the arc from this attack to better match the visual effects.
 - The special Bash augment will now use both your Weapon Damage and Stamina, rather than just Weapon Damage. This Ultimate will now also scale dynamically and use your Spell Damage and Max Magicka if they are higher, which is a standard for our Ultimates that scale off your offensive stats.
-* Fixed an issue where you could occasionally become stuck as a terrifying giant after casting this ability or its morphs, and never return to your frail, humanoid form. You must now find other ways to usher terror into Tamriel.
+[Patch 5.1.5] * Fixed an issue where you could occasionally become stuck as a terrifying giant after casting this ability or its morphs, and never return to your frail, humanoid form. You must now find other ways to usher terror into Tamriel.
 ESO Patch Note|5.2.5|* Pummeling Goliath (morph):
 - Fixed an issue where activating the special Bash attack from this morph would not turn your character to face the direction you cast it in.
-* Pummeling Goliath's bash is now considered a Player Class Ability.
-* Pummeling Goliath (morph): Fixed an issue where this Ultimate's Bash override did not receive the cost and cooldown adjustments that the core mechanic Bash got. It can now also proc enchantments or poisons.
+[Patch 7.0.5] * Pummeling Goliath's bash is now considered a Player Class Ability.
+[Patch 7.3.5] * Pummeling Goliath (morph): Fixed an issue where this Ultimate's Bash override did not receive the cost and cooldown adjustments that the core mechanic Bash got. It can now also proc enchantments or poisons.

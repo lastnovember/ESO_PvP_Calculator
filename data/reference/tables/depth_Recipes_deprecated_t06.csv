@@ -1,0 +1,61 @@
+,Name,RI,RQ,Drink,Recipe Drop,Ingredients,Effect
+,Apple Wine,RI 1,RQ 1,Level 10 Drink,20px|Aldmeri Dominion Character,Ripe Apple and Wine Grapes,Magicka Recovery +4
+,Invigorated Apple Wine,RI 1,RQ 2,Level 10 Drink,20px|Aldmeri Dominion Character,Ripe Apple and Wine Grapes,
+,Dragon's-Tongue Shirza,RI 1,RQ 1,Level 15 Drink,20px|Ebonheart Pact Character,Dragon's-Tongue Sap and Wine Grapes,
+,Invigorated Dragon's-Tongue Shirza,RI 1,RQ 2,Level 15 Drink,20px|Ebonheart Pact Character,Dragon's-Tongue Sap and Wine Grapes,
+,Dream Madeira,RI 1,RQ 1,Level 15 Drink,20px|Aldmeri Dominion Character,Wisp Floss and Wine Grapes,
+,Invigorated Dream Madeira,RI 1,RQ 2,Level 15 Drink,20px|Aldmeri Dominion Character,Wisp Floss and Wine Grapes,
+,Dusky Claret,RI 1,RQ 1,Level 5 Drink,20px|Aldmeri Dominion Character,Dusk Beetle and Wine Grapes,Magicka Recovery +3
+,Meat Muscat,RI 1,RQ 1,Level 1 Drink,20px|Aldmeri Dominion Character,Aged Meat and Wine Grapes,Magicka Recovery +2
+,Numb-All-Over,RI 1,RQ 1,Level 5 Drink,20px|Ebonheart Pact Character,Snake Venom and Wine Grapes,
+,Snake Sherry,RI 1,RQ 1,Level 1 Drink,20px|Ebonheart Pact Character,Snake Slime and Wine Grapes,Magicka Recovery +2
+,Spiced Wine,RI 1,RQ 1,Level 1 Drink,20px|Daggerfall Covenant Character,Shornhelm Grains and Wine Grapes,Magicka Recovery +2
+,Sunset Rose,RI 1,RQ 1,Level 10 Drink,20px|Daggerfall Covenant Character,Tangerine and Wine Grapes,Magicka Recovery +4
+,Invigorated Sunset Rose,RI 1,RQ 2,Level 10 Drink,20px|Daggerfall Covenant Character,Tangerine and Wine Grapes,
+,Ungorth,RI 1,RQ 1,Level 5 Drink,20px|Daggerfall Covenant Character,Iron Peat and Wine Grapes,Magicka Recovery +3
+,Voljar's Mead,RI 1,RQ 1,Level 10 Drink,20px|Ebonheart Pact Character,Wild Honey and Wine Grapes,
+,Invigorated Voljar's Mead,RI 1,RQ 2,Level 10 Drink,20px|Ebonheart Pact Character,Wild Honey and Wine Grapes,
+,Wet Wasp White,RI 1,RQ 1,Level 15 Drink,20px|Daggerfall Covenant Character,Wasp Squeezings and Wine Grapes,
+,Invigorated Wet Wasp White,RI 1,RQ 2,Level 15 Drink,20px|Daggerfall Covenant Character,Wasp Squeezings and Wine Grapes,
+,Clamberskull,RI 2,RQ 1,Level 20 Drink,20px|Daggerfall Covenant Character,Dark Bile and Grasa Grapes,Magicka Recovery +6
+,Invigorated Clamberskull,RI 2,RQ 2,Level 20 Drink,20px|Daggerfall Covenant Character,Dark Bile and Grasa Grapes,
+,Gold Coast Muscat,RI 2,RQ 1,Level 25 Drink,20px|Aldmeri Dominion Character,Glitter Rock and Grasa Grapes,Magicka Recovery +7
+,Invigorated Gold Coast Muscat,RI 2,RQ 2,Level 25 Drink,20px|Aldmeri Dominion Character,Glitter Rock and Grasa Grapes,
+,Porky Port,RI 2,RQ 1,Level 20 Drink,20px|Aldmeri Dominion Character,Pig's Milk and Grasa Grapes,Magicka Recovery +6
+,Invigorated Porky Port,RI 2,RQ 2,Level 20 Drink,20px|Aldmeri Dominion Character,Pig's Milk and Grasa Grapes,
+,Shien,RI 2,RQ 1,Level 25 Drink,20px|Ebonheart Pact Character,Comberry and Grasa Grapes,
+,Invigorated Shien,RI 2,RQ 2,Level 25 Drink,20px|Ebonheart Pact Character,Comberry and Grasa Grapes,
+,Sujamma Red,RI 2,RQ 1,Level 20 Drink,20px|Ebonheart Pact Character,Sujamma Berries and Grasa Grapes,
+,Invigorated Sujamma Red,RI 2,RQ 2,Level 20 Drink,20px|Ebonheart Pact Character,Sujamma Berries and Grasa Grapes,
+,Vintage Spew,RI 2,RQ 1,Level 25 Drink,20px|Daggerfall Covenant Character,Orc Hops and Grasa Grapes,Magicka Recovery +7
+,Invigorated Vintage Spew,RI 2,RQ 2,Level 25 Drink,20px|Daggerfall Covenant Character,Orc Hops and Grasa Grapes,
+,Ash Zinfandel,RI 3,RQ 1,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Lado Grapes,
+,Invigorated Ash Zinfandel,RI 3,RQ 2,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Lado Grapes,
+,Consummate Ash Zinfandel,RI 3,RQ 3,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Lado Grapes,
+,Black Wine,RI 3,RQ 1,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Lado Grapes,
+,Invigorated Black Wine,RI 3,RQ 2,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Lado Grapes,
+,Consummate Black Wine,RI 3,RQ 3,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Lado Grapes,
+,Cane Mead,RI 3,RQ 1,Level 30 Drink,20px|Aldmeri Dominion Character,Molasses and Lado Grapes,
+,Invigorated Cane Mead,RI 3,RQ 2,Level 30 Drink,20px|Aldmeri Dominion Character,Molasses and Lado Grapes,
+,Heather Mead,RI 3,RQ 1,Level 30 Drink,20px|Daggerfall Covenant Character,Desert Heather and Lado Grapes,
+,Invigorated Heather Mead,RI 3,RQ 2,Level 30 Drink,20px|Daggerfall Covenant Character,Desert Heather and Lado Grapes,
+,River Madeira,RI 3,RQ 1,Level 30 Drink,20px|Ebonheart Pact Character,River Grapes and Lado Grapes,
+,Invigorated River Madeira,RI 3,RQ 2,Level 30 Drink,20px|Ebonheart Pact Character,River Grapes and Lado Grapes,
+,Sparkling Spring,RI 3,RQ 1,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Lado Grapes,
+,Invigorated Sparkling Spring,RI 3,RQ 2,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Lado Grapes,
+,Consummate Sparkling Spring,RI 3,RQ 3,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Lado Grapes,
+,Crystalline White,RI 4,RQ 1,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Camaralet Grapes,
+,Invigorated Crystalline White,RI 4,RQ 2,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Camaralet Grapes,
+,Consummate Crystalline White,RI 4,RQ 3,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Camaralet Grapes,
+,Kaveh Red,RI 4,RQ 1,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Camaralet Grapes,
+,Invigorated Kaveh Red,RI 4,RQ 2,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Camaralet Grapes,
+,Consummate Kaveh Red,RI 4,RQ 3,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Camaralet Grapes,
+,Comet Wine,RI 5,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and Ribier Grapes,
+,Invigorated Comet Wine,RI 5,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and Ribier Grapes,
+,Consummate Comet Wine,RI 5,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and Ribier Grapes,
+,Bervez Wine,RI 6,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Emperor Grapes,
+,Invigorated Bervez Wine,RI 6,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Emperor Grapes,
+,Consummate Bervez Wine,RI 6,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Emperor Grapes,
+,Jazbay Cabernet,RI 6,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Emperor Grapes,
+,Invigorated Jazbay Cabernet,RI 6,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Emperor Grapes,
+,Consummate Jazbay Cabernet,RI 6,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Emperor Grapes,

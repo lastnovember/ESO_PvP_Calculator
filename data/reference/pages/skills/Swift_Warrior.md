@@ -29,4 +29,4 @@ ESO Patch Note|2.1.4|* Swift: Renamed this passive to Swift Warrior. Swift Warri
 - Swift Warrior: Fixed an issue where this passive was not increasing damage for melee-class abilities.
 ESO Patch Note|4.3.5|* Swift Warrior: Increases Melee Damage by 4%, 12% Sprint cost reduction and 10% Sprint Speed → Increases your Weapon Damage by 258. Reduces the cost of your Sprint ability by 12% and increases your Movement Speed while Sprinting by 10%.
 - Developer Comment: Orcs are meant to be an aggressive race, which focus mainly on momentum and overwhelming their opponents. To bring that play style to realization we took away some of their more defensive stats, and put them back into offensive ones, or ones that required aggressive conditions to proc. Additionally, their previous bonus to offensive power was gated to only melee builds, and didn't scale with many abilities that were still used by melee builds; so we converted it into a bonus that all aggressive play styles can use.
-* This passive now grants Weapon and Spell Damage, rather than Weapon Damage.
+[Patch 6.3.5] * This passive now grants Weapon and Spell Damage, rather than Weapon Damage.

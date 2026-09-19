@@ -1,0 +1,27 @@
+Name,Line Rank,Skill Rank,Description
+,Woodworking,1,​,Allows the use of Sanded Maple wood.
+5,,Allows the use of Sanded Oak wood.
+10,,Allows the use of Sanded Beech wood.
+15,,Allows the use of Sanded Hickory wood.
+20,,Allows the use of Sanded Yew wood.
+25,,Allows the use of Sanded Birch wood.
+30,,Allows the use of Sanded Ash wood.
+35,,Allows the use of Sanded Mahogany wood.
+40,,Allows the use of Sanded Nightwood.
+50,,Allows the use of Sanded Ruby Ash.
+,Keen Eye: Wood,2,,Wood in the world will be easier to see when you are 20 meters or closer.
+9,,Wood in the world will be easier to see when you are 30 meters or closer.
+30,,Wood in the world will be easier to see when you are 40 meters or closer.
+,Lumberjack Hireling,3,,A hireling will send you some woodworking materials and possibly other items every day.
+12,,A hireling will send you more woodworking materials and possibly other items every day. You have a chance at better quality materials.
+32,,A hireling will send you even more woodworking materials and possibly other items every day. You have a greater chance at better quality materials.
+,Wood Extraction,4,,Improves the chances of extracting Woodworking ingredients and allows the refining of more powerful resins from raw materials.
+22,,Greatly improves the chances of extracting Woodworking ingredients and allows the refining of more powerful resins from raw materials.
+32,,Maximizes the chances of extracting Woodworking ingredients and allows the refining of the most powerful resins from raw materials.
+,Carpentry,8,,Reduces research times by 5% and allows the research of two items at once.
+18,,Reduces research times by 10% and allows the research of two items at once.
+28,,Reduces research times by 20% and allows the research of three items at once.
+45,,"Reduces research times by 25%, limits research time to 10 days, and allows the research of three items at once."
+,Resin Expertise,10,,Increases the chances of improving items with resins.
+25,,Greatly increases the chances of improving items with resins.
+40,,More than doubles the chances to improve items with resins.

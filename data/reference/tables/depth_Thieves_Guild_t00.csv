@@ -1,0 +1,13 @@
+Rank,Reputation Required for Next Rank,Total Reputation for Rank
+1,10,0
+2,25,10
+3,30,35
+4,30,65
+5,35,95
+6,40,130
+7,40,170
+8,40,210
+9,50,250
+10,75,300
+11,100,375
+12,-,475

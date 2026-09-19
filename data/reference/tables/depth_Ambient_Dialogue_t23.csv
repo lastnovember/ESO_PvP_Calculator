@@ -1,0 +1,19 @@
+Rumor,Quest (choice)
+"|""I heard Bloodthorn assassins tried to kill King Casimir.""",Bloodthorn Assassins
+"|""You see Lord Diel's collection lately? Bastard displays harpies and eggs like they were trophies.""",The Dagger's Edge (If you extorted money from Lord Diel)
+"|""Have you heard about the Daggers? They killed an entire flock of harpies with their bare hands. Makes the Fighters Guild look like amateurs.""",The Dagger's Edge (Lord Diel is killed by a harpy)
+"|""Someone said the Daggers have gone north to look for work. Anyone know who the Daggers are, by the way?""",The Dagger's Edge (Lord Diel is killed by a harpy)
+"|""Did you hear that someone purged the corruption from the Wyrd Tree?""",Purifying the Wyrd Tree
+"|""I hear someone helped the Wyrd Sisters save the Wyrd Tree.""",Wyrd and Coven
+"|""Did you hear? Some Red Rook scum had a change of heart and actually helped the Lion Guard at Eagle's Brook? Ridiculous!""",The White Mask of Merien
+"|""They let a Red Rook help the Lion Guard at Eagle's Brook? I hope the soldiers double checked their supplies afterwards.""",The White Mask of Merien
+"|""You helped save Eagle's Brook? I thought you'd be taller.""",Cutting Off the Source
+"|""You know what happened in Eagle's Brook? That's what happens when you rely on magic.""",Cutting Off the Source
+"|""Someone told me that Duke Sebastien is a werewolf. Can you believe it?""",Lineage of Tooth and Claw
+"|""Did you hear that Duke Sebastien turned out to be a werewolf?""",Lineage of Tooth and Claw
+"|""Turns out that Duke Sebastien's a werewolf, What a world we live in!""",Lineage of Tooth and Claw
+"|""I heard that Duke Sebastien was a werewolf so they put him in a cage.""","Lineage of Tooth and Claw (Don't cure the Duke, and don't let him see his wife and daughter)"
+"|""You won't see much of Duke Sebastien anymore. He's a werewolf, so they locked him up and threw away the key.""","Lineage of Tooth and Claw (Don't cure the Duke, and don't let him see his wife and daughter)"
+"|""I heard that Duke Sebastien was a werewolf, so they killed him.""","Lineage of Tooth and Claw (Don't cure the Duke, and let him see his wife and daughter)"
+"|""Did you hear? Duke Sebastien was a werewolf and he ate his entire family.""","Lineage of Tooth and Claw (Don't cure the Duke, and let him see his wife and daughter)"
+"|""What a relief! I heard that the Lion Guard has taken back Camlorn.""",The Fall of Faolchu

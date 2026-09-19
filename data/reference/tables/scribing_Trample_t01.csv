@@ -1,0 +1,10 @@
+Script,Effects
+Assassin's Misery,Assassin's Misery,"Afflicts enemies with the Concussion, Sundered, and Hemorrhaging status effects."
+Cavalier's Charge,Cavalier's Charge,"Increases the damage done by this ability as it travels outwards, increasing by 20% every 0.5 seconds."
+Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.
+Hunter's Snare,Hunter's Snare,"Leave behind a field of caltrops for 10 seconds, dealing 106 Physical Damage every second and reducing enemy Movement Speed by 50%."
+Immobilizing Strike,Immobilizing Strike,Immobilizes enemies for 3 seconds.
+Lingering Torment,Lingering Torment,Deals 4160 Physical Damage over 20 seconds to enemies.
+Thief's Swiftness,Thief's Swiftness,Leaves behind an area of speed for 10 seconds which increases the Movement Speed of you and your allies within by 15%.
+Warrior's Opportunity,Warrior's Opportunity,"Each enemy hit increases the damage to other enemies by 5%, stacking up to 20 times."
+Wayfarer's Mastery,Wayfarer's Mastery,Adds 30 seconds to the duration of your existing Continuous Attack passive ability effect. This can occur once every 1 minute.PvP

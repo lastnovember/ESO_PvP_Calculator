@@ -1,0 +1,38 @@
+{{ESO Crafting Mat Summary
+|node=Ore
+|tier=10
+|armor=Rubedite
+|weapons=Rubedite
+|raw=Rubedite Ore
+|refined=Rubedite Ingot
+}}
+
+'''Rubedite Ore''' is a shiny dark red ore. It can be found in any zone by characters with Rank 10 in the [[Online:Metalworking|Metalworking]] passive or {{ESO Champion|150 to 160}}. When mined, a [[Online:Nodes|node]] yields three to four samples of the raw material, [[Online:Rubedite Ore|Rubedite Ore]]. Once ten ore samples are collected, they can be refined into seven to ten [[Online:Rubedite Ingot|Rubedite Ingot]]s. Rubedite ingots are used for [[Online:Blacksmithing|crafting]] pieces of heavy [[Online:Rubedite Armor|Rubedite Armor]] and [[Online:Rubedite Weapons|weapons]] at any [[Online:Crafting Stations|blacksmithing station]].
+
+{|class="wikitable" style="text-align:center; margin: auto; width:65%"
+! !!colspan=7|Number of rubedite ingots needed for creating!! 
+|-
+!Armor<br>Level!!Rubedite<br>Cuirass!!Rubedite<br>Sabatons!!Rubedite<br>Gauntlets!!Rubedite<br>Helm!!Rubedite<br>Greaves!!Rubedite<br>Pauldron!!Rubedite<br>Girdle!!Total
+|-
+!{{ESO Champion|150}}
+|15||13||13||13||14||13||13||94
+|-
+!{{ESO Champion|160}}
+|150||130||130||130||140||130||130||940
+|-
+|colspan=7|
+|-
+!Weapon<br>Level!!Rubedite<br>Axe!!Rubedite<br>Hammer!!Rubedite<br>Sword!!Rubedite<br>Battle Axe!!Rubedite<br>Maul!!Rubedite<br>Greatsword!!Rubedite<br>Dagger!!Total
+|-
+!{{ESO Champion|150}}
+|11||11||11||14||14||14||10||rowspan=6|N/A
+|-
+!{{ESO Champion|160}}
+|110||110||110||140||140||140||100
+|}
+==Notes==
+*During [[Online:Public Test Server|PTS]] testing, Rubedite Ingots were named "Colossus Ingots" (after the [[Online:Flesh Colossus|Flesh Colossus]]) and "Corundum Ingots".
+*Rubedite ingots can also be obtained by purchasing them from [[Online:Imperial City|Imperial City]] merchants using [[Online:Tel Var Stones|Tel Var Stones]].
+*See [[Lore:Rubedite|the lore article]] for general information.
+
+{{Online Equipment Crafting Materials}}

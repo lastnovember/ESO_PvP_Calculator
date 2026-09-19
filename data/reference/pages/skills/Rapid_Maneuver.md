@@ -38,20 +38,20 @@ Rapid Maneuver increases the movement speed of you and any nearby group members 
 - With update 27, this skill was moved from Rank 2 to Rank 5, requiring players who wish to acquire this skill to spend significantly more time in Cyrodiil participating in PvP activity than was required before the update.
 
 ## Patch Notes
-* Charging Maneuver: This ability now properly adds Weapon Damage.
-* Fixed an issue where this ability was not working while mounted. We also fixed an issue where using this ability would reduce your game's performance when hitting multiple targets.
+[Patch 1.1.2] * Charging Maneuver: This ability now properly adds Weapon Damage.
+[Patch 1.2.4] * Fixed an issue where this ability was not working while mounted. We also fixed an issue where using this ability would reduce your game's performance when hitting multiple targets.
 ESO Patch Note|1.6.5|* This ability now grants the Major Expedition buff.
 - This ability and its morphs can now be cast while mounted.
 - Charging Maneuver: This ability now grants the Minor Expedition Increase buff for 8 seconds after attacking an enemy.
 - The duration of both morphs from this ability now increases with the level of the ability, up to a maximum of 23 seconds.
-Mountain's Blessing]] passive.
-* Fixed an issue which prevented Rank 1 of this ability from affecting movement speed while you were on your mount.
+[Patch 2.1.4] * Fixed an issue which was causing this ability to trigger the Mountain's Blessing passive.
+[Patch 2.1.6] * Fixed an issue which prevented Rank 1 of this ability from affecting movement speed while you were on your mount.
 ESO Patch Note|2.3.5|* This ability and its morphs now also remove their bonuses whenever you cast a friendly ability on an ally, as well as a damaging ability on an enemy.
 - Increased the duration of this ability and its morphs to 30 seconds from 20 seconds.
 - This ability and its morphs now only affect your group, instead of any friendly nearby ally.
 - Reduced the maximum amount of targets this ability and its morphs can affect to 24 targets, previously an infinite amount of targets.
-* Fixed an issue where the bonuses from this ability and its morphs would affect group members at any distance instead of within a 20 meter radius.
-* Fixed an issue where the buff from this ability and its morphs would be removed if you used Shadow Cloak near monsters or NPCs.
+[Patch 2.3.10] * Fixed an issue where the bonuses from this ability and its morphs would affect group members at any distance instead of within a 20 meter radius.
+[Patch 3.3.5] * Fixed an issue where the buff from this ability and its morphs would be removed if you used Shadow Cloak near monsters or NPCs.
 ESO Patch Note|4.3.5|* Rapid Maneuvers & morphs now affect 12 targets instead of 24
 - Developer Comment: Due to the structure of our group sizes and targeting systems in place, we wanted a healthier balance in terms of how abilities hit targets. Previously, many abilities only hit 6 players (such as Molten Weapons or Frost Cloak), while other abilities hit 24 players (Rapids or Warhorn) which left a large disparity in their performance in how groups engaged with them. We used the Trial group size as a healthy medium since it was in the middle of 4-player dungeon content and large-scale warfare in Cyrodiil. Please note that we consider abilities that heal or do damage as higher impact, thus their additional affixes will continue to only hit 6 targets for the time being.
 - This ability and its morphs will no longer provide immunity to snares or immobilizes.

@@ -18,4 +18,4 @@ Highborn gives Altmer a natural affinity for Destruction Staves, allowing them t
 - Prior to Update 11, this skill was called "Destruction Talent", and did not provide an Experience boost.
 
 ## Patch Notes
-* This passive ability has been renamed to "Highborn." Also, in addition to the current benefit it now increases your experience gained by 1%.
+[Patch 2.5.5] * This passive ability has been renamed to "Highborn." Also, in addition to the current benefit it now increases your experience gained by 1%.

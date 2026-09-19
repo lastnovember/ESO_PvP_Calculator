@@ -1,6 +1,6 @@
 # Data inventory
 
-Generated 2026-09-17 by eso_reference_archive.py export.
+Generated 2026-09-19 by eso_reference_archive.py export.
 Everything the scrapers hold is in this folder. If a page is not
 listed in reference/pages_index.csv, it does not exist on UESP
 under that title. Do not ask for pastes; ask for a new scrape.
@@ -10,6 +10,10 @@ under that title. Do not ask for pastes; ask for a new scrape.
 | reference/sets.csv | one row per set, bonus_N columns, lines joined with ; |
 | reference/skills.csv | one row per ability, morph, passive; desc columns are tooltips |
 | reference/entities.csv | every template parameter from every set and skill page |
+| reference/patch_history.csv | UESP's per page change log: family, page, version, note |
+| skills.csv kind column | player, companion or artifact; the engine wants player only |
+| quality values | five values a / b / c / d / e are white / green / blue / purple / gold |
+| morphs | live on the base skill page as morph1desc and morph2desc, not on their own pages |
 | reference/tables/ | every wiki table as CSV, mapped by tables_index.json |
 | reference/pages/*.md | UESP system pages as text (Combat, Armor, Vampire, Campaigns...) |
 | reference/pages/sets/*.md | every set page as text |
@@ -27,9 +31,9 @@ under that title. Do not ask for pastes; ask for a new scrape.
 
 - patch-notes/html: 205
 - patch-notes/text: 205
-- reference/entities.csv rows: 45988
+- reference/entities.csv rows: 149155
 - reference/forum: 41
-- reference/pages: 1550
-- reference/raw_wikitext: 106
-- reference/tables: 351
+- reference/pages: 3998
+- reference/raw_wikitext: 121
+- reference/tables: 2122
 - reference/zos: 150

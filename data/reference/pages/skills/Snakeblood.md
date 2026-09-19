@@ -24,4 +24,4 @@ Snakeblood reduces the duration of any negative effects in potions you consume. 
 - With three points invested in this skill, you no longer have to worry about negative effects at all. However, it's almost always easy enough to get the effects you want in potions without any negative side-effects in the first place, so this may not be the best place to spend your skill points.
 
 ## Patch Notes
-* Snakeblood now properly reduces the durations of negative effect potions once more.
+[Patch 2.6.4] * Snakeblood now properly reduces the durations of negative effect potions once more.

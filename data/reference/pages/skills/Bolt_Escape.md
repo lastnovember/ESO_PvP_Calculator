@@ -44,16 +44,16 @@ Bolt Escape causes you to teleport several meters forward, stunning all enemies 
 File:ON-skill-Ball of Lightning ball.jpg|Ball of Lightning morph ball visual
 
 ## Patch Notes
-* You can no longer use the ability Bolt Escape while carrying an Elder Scroll.
-* After using Bolt Escape, the next use within 4 seconds costs 50% more.
-* Streak will no longer affect more than six targets, which was resulting in a much larger amount of Ultimate gain than intended.
+[Patch 1.0.7] * You can no longer use the ability Bolt Escape while carrying an Elder Scroll.
+[Patch 1.1.4] * After using Bolt Escape, the next use within 4 seconds costs 50% more.
+[Patch 1.4.3] * Streak will no longer affect more than six targets, which was resulting in a much larger amount of Ultimate gain than intended.
 ESO Patch Note|1.6.5|* Crystal Fragments: Fixed an issue where this morph was applying multiple passives each time it was cast. We also fixed an additional issue where this ability's instant cast wasn't proccing when casting Bolt Escape.
 - The disorient portion of Bolt Escape and its morphs has been changed. It now results in a 1.5 second stun and properly triggers crowd-control immunity for the target when the stun effect ends.
-* Fixed an issue where the camera in third-person view could become detached briefly when using movement abilities, such as Bolt Escape.
-* Fixed an issue where this ability and its morphs could fail to function in certain locations.
-* Ball of Lightning: Fixed an issue where the ball summoned from this morph could intercept channeled beam attacks instead of only projectiles.
-Shadow Image]], can no longer be cast before the Battleground match has started.
-* Fixed an issue where Streak Fatigue could be avoided unintentionally.
+[Patch 2.3.9] * Fixed an issue where the camera in third-person view could become detached briefly when using movement abilities, such as Bolt Escape.
+[Patch 2.7.13] * Fixed an issue where this ability and its morphs could fail to function in certain locations.
+[Patch 4.0.5] * Ball of Lightning: Fixed an issue where the ball summoned from this morph could intercept channeled beam attacks instead of only projectiles.
+[Patch 4.1.5] * Teleport abilities, such as Bolt Escape or Shadow Image, can no longer be cast before the Battleground match has started.
+[Patch 4.3.5] * Fixed an issue where Streak Fatigue could be avoided unintentionally.
 ESO Patch Note|5.0.5|* Fixed an issue where this ability and its morphs could stun targets behind walls.
 - Streak: This ability will now scale with your highest offensive stats, and increased the stun duration to 3 seconds from 1.8 seconds.
 ESO Patch Note|5.1.5|* This ability and its morphs' stuns can no longer be blocked.
@@ -68,10 +68,10 @@ ESO Patch Note|5.2.5|* The fatigue from this ability and its morphs now apply on
 - Fixed an issue where this morph was only absorbing spell-based projectiles, rather than any, as the tooltip indicates.
 - Streak (morph):
 - This ability now creates a cone behind you after casting that damage and stuns enemies inside of it, and enemies at your end location. The length is now 17 meters with a 40 degree arc, rather than being a 4 x 15 meter rectangle.
-* Ball of Lightning (morph): Fixed an issue where the projectile absorption field could persist longer than intended under certain circumstances.
+[Patch 5.3.4] * Ball of Lightning (morph): Fixed an issue where the projectile absorption field could persist longer than intended under certain circumstances.
 ESO Patch Note|6.1.5|* Ball of Lightning (morph): Fixed an issue where this ability's actual ball of lightning could count towards successful kills in some cases.
 - Fixed an issue where the ball would leave a corpse for a brief moment.
-* Ball of Lightning (morph): This ability's projectile absorption now operates more closely to Spell Wall or other abilities that deal with absorbing/deflecting ranged attacks. This should fix a few issues where it could absorb attacks it shouldn't have been able to.
+[Patch 7.0.5] * Ball of Lightning (morph): This ability's projectile absorption now operates more closely to Spell Wall or other abilities that deal with absorbing/deflecting ranged attacks. This should fix a few issues where it could absorb attacks it shouldn't have been able to.
 ESO Patch Note|7.1.5|* Ball of Lightning (morph): The ball of lightning summoned from this ability now only intercepts projectiles from the caster of the ability, rather than any ally in the ball's vicinity. The ball now only absorbs up to 1 projectile per second, down from 100.
 - Developer Comment: This ability is currently enabling far too much protection against ranged attackers, not only for the caster but their allies as well, meaning skilled sorcerers can deny any ranged threats when properly utilizing this skill for them and their group.
-* Fixed an erroneous VO shout that would occur when using this ability and its morphs.
+[Patch 7.1.7] * Fixed an erroneous VO shout that would occur when using this ability and its morphs.

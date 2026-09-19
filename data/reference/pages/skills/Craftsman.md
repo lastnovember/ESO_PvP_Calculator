@@ -18,5 +18,5 @@ Craftsman gives Orcs a natural affinity for Heavy Armor, allowing them to gain e
 - Prior to Update 11, this skill was called "Heavy Armor Expertise" and had no effect on your crafting inspiration.
 
 ## Patch Notes
-* This passive ability now has an icon.
-* Heavy Armor Expertise: This passive ability has been renamed to "Craftsman." Also, in addition to the current benefit it now increases your inspiration gains by 10%.
+[Patch 1.6.5] * This passive ability now has an icon.
+[Patch 2.5.5] * Heavy Armor Expertise: This passive ability has been renamed to "Craftsman." Also, in addition to the current benefit it now increases your inspiration gains by 10%.

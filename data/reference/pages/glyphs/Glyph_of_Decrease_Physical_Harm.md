@@ -1,0 +1,126 @@
+# Online:Glyph of Decrease Physical Harm
+
+Source: https://en.uesp.net/wiki/Online:Glyph_of_Decrease_Physical_Harm
+License: CC BY-SA, UESP
+
+Glyphs of Decrease Physical Harm are created by using a Taderi rune and a Subtractive Potency rune. They can be applied to any jewelry of equal or greater level, and will increase your Physical Resistance.
+
+rowspan=2|Glyph | rowspan=2|Potency Rune | rowspan=2|Potency Skill | rowspan=2|Glyph Level | colspan=5|Aspect Rune
+
+Ta
+Jejota
+Denata
+Rekuta
+Kuta
+
+Trifling Glyph of Decrease Physical Harm | | Jode | 1 | 1
+75
+80
+86
+90
+98
+
+Inferior Glyph of Decrease Physical Harm | | Notade | 1 | 5
+88
+92
+100
+106
+114
+
+Petty Glyph of Decrease Physical Harm | | Ode | 2 | 10
+102
+108
+116
+122
+133
+
+Slight Glyph of Decrease Physical Harm | | Tade | 2 | 15
+118
+124
+125
+142
+153
+
+Minor Glyph of Decrease Physical Harm | | Jayde | 3 | 20
+137
+144
+155
+164
+178
+
+Lesser Glyph of Decrease Physical Harm | | Edode | 3 | 25
+157
+166
+180
+188
+204
+
+Moderate Glyph of Decrease Physical Harm | | Pojode | 4 | 30
+182
+190
+206
+218
+237
+
+Average Glyph of Decrease Physical Harm | | Rekude | 4 | 35
+208
+220
+239
+250
+270
+
+Strong Glyph of Decrease Physical Harm | | Hade | 5 | 40
+241
+252
+272
+289
+313
+
+Major Glyph of Decrease Physical Harm | | Idode | 5 | CP10
+274
+291
+315
+329
+356
+
+Greater Glyph of Decrease Physical Harm | | Pode | 6 | CP30
+317
+331
+358
+380
+412
+
+Grand Glyph of Decrease Physical Harm | | Kedeko | 7 | CP50
+360
+382
+414
+532
+468
+
+Splendid Glyph of Decrease Physical Harm | | Rede | 8 | CP70
+416
+434
+470
+499
+541
+
+Monumental Glyph of Decrease Physical Harm | | Kude | 9 | CP100
+472
+501
+543
+566
+614
+
+Superb Glyph of Decrease Physical Harm | | Jehade | 10 | CP150
+618
+656
+711
+742
+803
+
+Truly Superb Glyph of Decrease Physical Harm | | Itade | 10 | CP160
+713
+744
+805
+856
+927

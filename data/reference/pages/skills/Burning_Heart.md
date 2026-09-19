@@ -18,5 +18,5 @@ linerank2=27
 World in Ruin increases your damage done.
 
 ## Patch Notes
-* This passive now increases your healing received while a Draconic Power ability is active by 4/9%, down from 6/12%.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.0.5] * This passive now increases your healing received while a Draconic Power ability is active by 4/9%, down from 6/12%.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

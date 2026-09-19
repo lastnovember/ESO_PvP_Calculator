@@ -47,18 +47,18 @@ File:ON-skill-Daedric Minefield.jpg|Daedric Minefield morph (old)
 File:ON-skill-Daedric Tomb.jpg|Daedric Tomb morph (old)
 
 ## Patch Notes
-* Daedric Tomb: Using this ability will now cast the attack where your reticle is pointing instead of the direction you are facing.
+[Patch 1.3.3] * Daedric Tomb: Using this ability will now cast the attack where your reticle is pointing instead of the direction you are facing.
 ESO Patch Note|1.5.2|* Fixed an issue with this ability where the mines could explode on larger monsters that were several meters away.
 - Large monsters will no longer set off the Sorcerer ability Daedric Mines before entering the activation radius.
 ESO Patch Note|1.6.5|* Increased the damage of all ranks and morphs by approximately 30%.
 - All boss monsters and any monster with boss immunities will be immune to damage from this ability for one second after being affected by a Daedric Mine.
-* Daedric Tomb: This morph no longer places three Daedric mines in a line in front of you; instead, the Daedric mines can be placed at a ground-targeted reticle location up to 22 meters away. The mines will arm instantly in the normal triangular pattern.
-* Daedric Tomb: Fixed an issue where the placement of the mines created by this morph were not aligned with your ground-based reticle.
+[Patch 2.3.5] * Daedric Tomb: This morph no longer places three Daedric mines in a line in front of you; instead, the Daedric mines can be placed at a ground-targeted reticle location up to 22 meters away. The mines will arm instantly in the normal triangular pattern.
+[Patch 3.2.5] * Daedric Tomb: Fixed an issue where the placement of the mines created by this morph were not aligned with your ground-based reticle.
 ESO Patch Note|4.0.5|* Decreased the cost of this ability and its morphs to 5400 Magicka from 6480 Magicka.
 - Blood Magic: Fixed an issue where this passive ability would not trigger if you hit an enemy immune to snares with your Daedric Mine abilities.
 ESO Patch Note|6.3.5|* Fixed an issue where this ability and its morphs were considered Area of Effect attacks, despite only hitting one target per mine.
 - Fixed an issue where these abilities could return as Damage over Time in some cases.
-* Fixed an issue where this ability and its morphs' scaling coefficients did not match the expected ration of 1 Weapon or Spell Damage to 10.5 Magicka or Stamina. This will result in it scaling less effectively with Weapon or Spell Damage but more effectively with Max Magicka or Stamina.
+[Patch 7.3.5] * Fixed an issue where this ability and its morphs' scaling coefficients did not match the expected ration of 1 Weapon or Spell Damage to 10.5 Magicka or Stamina. This will result in it scaling less effectively with Weapon or Spell Damage but more effectively with Max Magicka or Stamina.
 ESO Patch Note|8.1.5|* Fixed an issue where this ability and its morphs could detonate instantly on a target multiple times.
 - There is now a short cool down window where a target cannot be targeted again from the mines to prevent moments of immense instantaneous burst. This will also mean your mines will no longer detonate without dealing any damage to a target, vastly improving the viability of this ability in long term encounters where a single enemy may walk through the area.
 ESO Patch Note|9.3.5|* Daedric Minefield (morph):

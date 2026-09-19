@@ -37,7 +37,7 @@ Teleport Strike deals Magic Damage to an ambushed enemy and increases the damage
 File:ON-skill-Lotus Fan.jpg|Lotus Fan morph AoE visual
 
 ## Patch Notes
-* The tooltip for this ability now specifies that it immobilizes other player characters instead of stunning them.
+[Patch 1.5.2] * The tooltip for this ability now specifies that it immobilizes other player characters instead of stunning them.
 ESO Patch Note|2.3.5|* Adjusted the snare applied to the enemy target at the beginning of all charge/teleport abilities (such as Shield Charge, Critical Charge, or Teleport Strike) to be a 60% snare for 750 milliseconds from a 100% snare for 500 milliseconds.
 - Added the charge snare noted above to Dragon Leap and its morphs.
 - The snare remains unpurgable, and serves to help charge abilities hit moving targets more reliably without completing locking movement down.
@@ -53,22 +53,22 @@ ESO Patch Note|2.3.6|* Fixed an issue where you were unable to attack if you she
 - Teleport Strike
 ESO Patch Note|2.4.5|* Reduced the damage of this ability and its morphs by 6.5%.
 - Lotus Fan: Fixed an issue where the damage over time applied by this morph was not being correctly suppressed by invisibility effects such as Shadow Cloak.
-* Fixed an issue where this ability and its morphs could be used to get on top of Keep walls.
-Dark Flare]], and Weapon Enchantments.
-* Fixed an issue where you would be rooted in place while casting this ability or its morphs.
+[Patch 2.4.6] * Fixed an issue where this ability and its morphs could be used to get on top of Keep walls.
+[Patch 2.7.5] * Shadow Cloak: Fixed an issue where the invisibility from this ability and its morphs was being broken by certain abilities, such as Teleport Strike, Dark Flare, and Weapon Enchantments.
+[Patch 3.2.1] * Fixed an issue where you would be rooted in place while casting this ability or its morphs.
 ESO Patch Note|3.3.5|* Decreased the damage dealt by this ability and its morphs by approximately 13%.
 - Developer Comments - Gap Closer Abilities: We've decreased the damage values on numerous gap closer abilities - not just Teleport Strike, but other charge abilities such as Critical Charge or Focused Charge as well. Gap closers in ESO have no cooldown and can hit for extreme amounts of damage, so there is very little opportunity cost in forcing your enemies to use them. Decreasing their damage ensures that ranged players utilizing movement and terrain to maintain their distance are better rewarded for that advantage.
 ESO Patch Note|4.0.5|* Lotus Fan: The snare applied by this morph now reduces Movement Speed by 40%, down from 70%.
 - Fixed an issue where casting this ability and its morphs would not remove you from invisibility.
 ESO Patch Note|5.0.5|* This ability and its morphs will no longer stun NPC enemies. Instead, targets affected by the initial damage will be afflicted with Minor Vulnerability for 8 seconds. Note that the Minor Vulnerability will apply to both players and NPCs.
 - Developer Comment: In order to retain functionality on "gap closer" abilities, these abilities typically all deal a set amount of damage with a consistent range and cost, while all having a unique affix that helps give each different ability its own identity and flare. Teleport Strike, while visually and thematically satisfying, was lacking in the department of gameplay identity since its auxiliary was inactive in some parts of the game. In tandem with the changes to Grim Focus, we wanted to ensure Nightblades could still focus on being single target assassins, while needing to utilize a larger variety of tools in their kit.
-* Lotus Fan: Decreased the damage per tick of the DoT by approximately 22%, and fixed an issue where the final tick was not being affected by Minor Vulnerability.
+[Patch 5.1.5] * Lotus Fan: Decreased the damage per tick of the DoT by approximately 22%, and fixed an issue where the final tick was not being affected by Minor Vulnerability.
 ESO Patch Note|5.2.5|* Updated the duration of the Minor Vulnerability for this ability to 10 seconds, to match its morph's duration.
 - Lotus Fan (morph):
 - This morph now applies Minor Vulnerability to all enemies hit, rather than the original.
 - Increased the duration to 10 seconds, up from 8.
 - Decreased the damage per tick by approximately 40%.
-* Teleport Strike: Fixed an issue where this ability and its morphs' tooltips stated it had an instant cast time, rather than its true 400ms cast time had since time immemorial.
+[Patch 7.3.5] * Teleport Strike: Fixed an issue where this ability and its morphs' tooltips stated it had an instant cast time, rather than its true 400ms cast time had since time immemorial.
 ESO Patch Note|8.0.5|* Ambush (morph):
 - Increased the duration of Empower granted from this morph to 10 seconds, up from 3.
 - This morph now also grants Minor Berserk for its duration.

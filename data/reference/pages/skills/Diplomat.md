@@ -18,4 +18,4 @@ Diplomat gives Imperials a natural affinity for Shields, allowing them to gain e
 - Prior to Update 11, this skill was called "Shield Affinity", and did not increase your gold earned. This helped distinguish it from the Redguard skill of the same name, which itself was also renamed to Wayfarer
 
 ## Patch Notes
-* Shield Affinity: This passive ability has been renamed to "Diplomat." Also, in addition to the current benefit it now increases your gold gained by 1%.
+[Patch 2.5.5] * Shield Affinity: This passive ability has been renamed to "Diplomat." Also, in addition to the current benefit it now increases your gold gained by 1%.

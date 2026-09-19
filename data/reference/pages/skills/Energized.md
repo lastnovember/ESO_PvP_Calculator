@@ -18,5 +18,5 @@ linerank2=27
 Energized increases the damage of your Physical and Shock attacks.
 
 ## Patch Notes
-* Updated this passive ability's tooltip to indicate it increases all of your Shock Damage, and not just the damage of your Storm Calling abilities.
-* This passive ability now also increases your Physical Damage done in addition to the Shock Damage done.
+[Patch 2.3.5] * Updated this passive ability's tooltip to indicate it increases all of your Shock Damage, and not just the damage of your Storm Calling abilities.
+[Patch 2.4.5] * This passive ability now also increases your Physical Damage done in addition to the Shock Damage done.

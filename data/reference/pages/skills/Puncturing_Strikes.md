@@ -37,7 +37,7 @@ Puncturing Strikes deals Magic Damage reduces the movement speed of up to six en
 - Puncturing Sweep is a recommended morph for the Templar Initiate and Gleaming Champion builds, while Biting Jabs is recommended for Luminous Warrior.
 
 ## Patch Notes
-* Reduced the post global cooldown on this ability, and slightly increased the cost.
+[Patch 1.1.3] * Reduced the post global cooldown on this ability, and slightly increased the cost.
 ESO Patch Note|1.2.3|* Increased the overall damage for this ability by 10%, and increased the damage to the closest target from 100% to 110%. The bonus damage to the closest target will no longer randomly deal double the intended damage.
 - Rank III and Rank IV and the final hit now play impact sounds.
 - Puncturing Sweep: This ability will now heal you based on the damage done.
@@ -64,8 +64,8 @@ ESO Patch Note|4.0.5|* Puncturing Sweep: Increased the healing done by this morp
 ESO Patch Note|4.2.5|* Increased the damage dealt to the closest target by approximately 8%, which also applies to its morphs.
 - Developer Comment: This damage increase should now have this ability and its morphs more in line with other spammable abilities accounting for the fact that channeling results in less Light Attacks and enchantment procs. We want to make sure Melee builds are adequately rewarded for the extra amount of risk they are undertaking.
 - While channeling this ability and its morphs, your character will now always orient the direction of the area of effect towards your reticle. This also allows you to turn and damage enemies with these abilities while you are rooted.
-Dark Flare]], would cause a delay to occur between each cast of those abilities.
-* Reduced the channel time for this ability and its morphs from to 1 seconds from 1.1 seconds. Praise the sun for whole numbers!
+[Patch 4.2.8] * Fixed an issue where spamming cast time or channeled abilities, such as Puncturing Strikes or Dark Flare, would cause a delay to occur between each cast of those abilities.
+[Patch 5.0.5] * Reduced the channel time for this ability and its morphs from to 1 seconds from 1.1 seconds. Praise the sun for whole numbers!
 ESO Patch Note|5.1.5|* Reduced the base cost of this ability and its morphs to 2700 from 2952. Biting Jabs retains the 15% cost reduction.
 - This ability and its morphs will now use an older version of camera controls, predating the adjustments with Murkmire. This was done to prevent many of the errors occurring explicitly with gamepad mode.
 ESO Patch Note|5.2.5|* This ability and its morphs will now snare the nearest enemy hit by 40% every time it deals damage, rather than snaring the nearest enemy hit by 70% on the final hit.
@@ -73,7 +73,7 @@ ESO Patch Note|5.2.5|* This ability and its morphs will now snare the nearest en
 - Updated the visual effects of this ability to better sync up with its attacks.
 ESO Patch Note|6.1.5|*Reduced the tick frequency of this ability and its morphs to 333ms, down from 300ms, to better sync its damage with its animation.
 - Puncturing Sweeps (morph): Fixed an issue where the heal from this ability was based on the damage of the initial hit, rather than the amount of damage done to each individual target, resulting in a significant reduction to healing when hitting multiple targets. With this fix, we'll be keeping a close eye on the Templar's ability to stay in the thick of the fight.
-* Biting Jabs (morph): This morph now grants Major Brutality and Sorcery for 10 seconds after casting, rather than Major Savagery for 8, as Sun Fire already grants Major Savagery and Prophecy now.
+[Patch 7.3.5] * Biting Jabs (morph): This morph now grants Major Brutality and Sorcery for 10 seconds after casting, rather than Major Savagery for 8, as Sun Fire already grants Major Savagery and Prophecy now.
 ESO Patch Note|8.1.5|* This ability and its morphs now hit 3 times over a channel time of 800ms, rather than 4 times over 1 second.
 - Implemented new animations and visual effects to match the attack cadence.
 - Reduced the cost of this ability and the Puncturing Sweeps morph to 2295, down from 2700.

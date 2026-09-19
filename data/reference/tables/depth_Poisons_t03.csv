@@ -1,0 +1,7 @@
+Poison,Effects,Price
+,Crown Lethal Poison,"Deals 1266 Poison Damage per second for 3.5 seconds, and 822 Poison Damage per second for 6.4 seconds. (10 second cooldown)",200 for 80 25 for 100
+""
+,Gold Coast Debilitating Poison,"Applies Creeping Ravage Health and Hindrance to your target, dealing 822 Poison damage per second and reducing Movement Speed by 40% for 6.4 seconds. (10 second cooldown)",
+,Gold Coast Draining Poison,"Drains Stamina and Magicka from your target, increasing the cost of their Stamina and Magicka abilities by 10%, and restores 151 Stamina and Magicka to you per second for 3.5 seconds. (10 second cooldown)",
+,Gold Coast Enfeebling Poison,"Applies Minor Maim and Minor Defile, reducing your victim's Damage by 5% and reducing healing your victim takes and their Health Recovery by 8% for 3.5 seconds. (10 second cooldown)",
+,Gold Coast Trapping Poison,"Applies Hindrance and Immobilize to your target, immobilizing them for 3.5 seconds and reducing Movement Speed by 40% for 6.4 seconds. (10 second cooldown)",

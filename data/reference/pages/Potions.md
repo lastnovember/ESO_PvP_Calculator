@@ -125,40 +125,40 @@ rowspan=5| | rowspan=5|Elixir of Health
 50 | rowspan=2|4494 | 16.2
 
 rowspan=3| | rowspan=3|Elixir of Health
-5010 | 16.7
+50CP10 | 16.7
 
-5020 | rowspan=2|5078 | 17.2
+50CP20 | rowspan=2|5078 | 17.2
 
-5030 | 17.4
+50CP30 | 17.4
 
 rowspan=6| | rowspan=6|Panacea of Health
-5040 | 5163 | 18.0
+50CP40 | 5163 | 18.0
 
-5050 | 5585 | 18.2
+50CP50 | 5585 | 18.2
 
-5060 | rowspan=2|5670 | 18.7
+50CP60 | rowspan=2|5670 | 18.7
 
-5070 | 19.0
+50CP70 | 19.0
 
-5080 | rowspan=2|5754 | 19.5
+50CP80 | rowspan=2|5754 | 19.5
 
-5090 | 19.8
+50CP90 | 19.8
 
 rowspan=5| | rowspan=5|Distillate of Health
-50100 | rowspan=2|6261 | 20.3
+50CP100 | rowspan=2|6261 | 20.3
 
-50110 | 20.5
+50CP110 | 20.5
 
-50120 | rowspan=2|6346 | 21.1
+50CP120 | rowspan=2|6346 | 21.1
 
-50130 | 21.3
+50CP130 | 21.3
 
-50140 | 6430 | 21.8
+50CP140 | 6430 | 21.8
 
 rowspan=2| | rowspan=2|Essence of Health
-50150 | rowspan=2|6684 | 22.1
+50CP150 | rowspan=2|6684 | 22.1
 
-50160 | 22.4
+50CP160 | 22.4
 
 ### Magicka Potions
 In addition to immediately restoring your Magicka, these will also grant Major Intellect, which increases your Magicka Regeneration by 20% for the duration.
@@ -275,40 +275,40 @@ rowspan=5| | rowspan=5|Elixir of Magicka
 50 | rowspan=2|4532 | 16.2
 
 rowspan=3| | rowspan=3|Elixir of Magicka
-5010 | 16.7
+50CP10 | 16.7
 
-5020 | rowspan=2|4609 | 17.2
+50CP20 | rowspan=2|4609 | 17.2
 
-5030 | 17.4
+50CP30 | 17.4
 
 rowspan=6| | rowspan=6|Panacea of Magicka
-5040 | 4686 | 18.0
+50CP40 | 4686 | 18.0
 
-5050 | 5069 | 18.2
+50CP50 | 5069 | 18.2
 
-5060 | rowspan=2|5146 | 18.7
+50CP60 | rowspan=2|5146 | 18.7
 
-5070 | 19.0
+50CP70 | 19.0
 
-5080 | rowspan=2|5222 | 19.5
+50CP80 | rowspan=2|5222 | 19.5
 
-5090 | 19.8
+50CP90 | 19.8
 
 rowspan=5| | rowspan=5|Distillate of Magicka
-50100 | rowspan=2|5682 | 20.3
+50CP100 | rowspan=2|5682 | 20.3
 
-50110 | 20.5
+50CP110 | 20.5
 
-50120 | rowspan=2|5759 | 21.1
+50CP120 | rowspan=2|5759 | 21.1
 
-50130 | 21.3
+50CP130 | 21.3
 
-50140 | 5836 | 21.8
+50CP140 | 5836 | 21.8
 
 rowspan=2| | rowspan=2|Essence of Magicka
-50150 | rowspan=2|6066 | 22.1
+50CP150 | rowspan=2|6066 | 22.1
 
-50160 | 22.4
+50CP160 | 22.4
 
 ### Stamina Potions
 In addition to immediately restoring your Stamina, these will also grant Major Endurance, which increases your Stamina Regeneration by 20% for the duration.
@@ -425,40 +425,40 @@ rowspan=5| | rowspan=5|Elixir of Stamina
 50 | rowspan=2|4532 | 16.2
 
 rowspan=3| | rowspan=3|Elixir of Stamina
-5010 | 16.7
+50CP10 | 16.7
 
-5020 | rowspan=2|4609 | 17.2
+50CP20 | rowspan=2|4609 | 17.2
 
-5030 | 17.4
+50CP30 | 17.4
 
 rowspan=6| | rowspan=6|Panacea of Stamina
-5040 | 4686 | 18.0
+50CP40 | 4686 | 18.0
 
-5050 | 5069 | 18.2
+50CP50 | 5069 | 18.2
 
-5060 | rowspan=2|5146 | 18.7
+50CP60 | rowspan=2|5146 | 18.7
 
-5070 | 19.0
+50CP70 | 19.0
 
-5080 | rowspan=2|5222 | 19.5
+50CP80 | rowspan=2|5222 | 19.5
 
-5090 | 19.8
+50CP90 | 19.8
 
 rowspan=5| | rowspan=5|Distillate of Stamina
-50100 | rowspan=2|5682 | 20.3
+50CP100 | rowspan=2|5682 | 20.3
 
-50110 | 20.5
+50CP110 | 20.5
 
-50120 | rowspan=2|5759 | 21.1
+50CP120 | rowspan=2|5759 | 21.1
 
-50130 | 21.3
+50CP130 | 21.3
 
-50140 | 5836 | 21.8
+50CP140 | 5836 | 21.8
 
 rowspan=2| | rowspan=2|Essence of Stamina
-50150 | rowspan=2|6066 | 22.1
+50CP150 | rowspan=2|6066 | 22.1
 
-50160 | 22.4
+50CP160 | 22.4
 
 ## Rogue's Potions
 
@@ -571,37 +571,37 @@ Level | Stamina | Duration
 
 50 | rowspan=2|4532 | 16.2
 
-5010 | 16.7
+50CP10 | 16.7
 
-5020 | rowspan=2|4609 | 17.2
+50CP20 | rowspan=2|4609 | 17.2
 
-5030 | 17.4
+50CP30 | 17.4
 
-5040 | 4686 | 18.0
+50CP40 | 4686 | 18.0
 
-5050 | 5069 | 18.2
+50CP50 | 5069 | 18.2
 
-5060 | rowspan=2|5146 | 18.7
+50CP60 | rowspan=2|5146 | 18.7
 
-5070 | 19.0
+50CP70 | 19.0
 
-5080 | rowspan=2|5222 | 19.5
+50CP80 | rowspan=2|5222 | 19.5
 
-5090 | 19.8
+50CP90 | 19.8
 
-50100 | rowspan=2|5682 | 20.3|
+50CP100 | rowspan=2|5682 | 20.3|
 
-50110 | 20.5
+50CP110 | 20.5
 
-50120 | rowspan=2|5759 | 21.1
+50CP120 | rowspan=2|5759 | 21.1
 
-50130 | 21.3
+50CP130 | 21.3
 
-50140 | 5836 | 21.8
+50CP140 | 5836 | 21.8
 
-50150 | rowspan=2|6066 | 22.1
+50CP150 | rowspan=2|6066 | 22.1
 
-50160 | 22.4
+50CP160 | 22.4
 
 ### Roguish Stealth Draught
 These also grant you Invisibility for about half the total duration. Note that like any other Invisibility effect, attacking or interacting with anything (including doors) will cancel the Invisibility effect immediately, though the Stamina Recovery will still continue for its full duration.
@@ -707,37 +707,37 @@ Level | Stamina | Duration | Invisibility
 
 50 | rowspan=2|4532 | 16.2 | 8.1
 
-5010 | 16.7 | 8.3
+50CP10 | 16.7 | 8.3
 
-5020 | rowspan=2|4609 | 17.2 | 8.6
+50CP20 | rowspan=2|4609 | 17.2 | 8.6
 
-5030 | 17.4 | 8.7
+50CP30 | 17.4 | 8.7
 
-5040 | 4686 | 18.0 | 9.0
+50CP40 | 4686 | 18.0 | 9.0
 
-5050 | 5069 | 18.2 | 9.1
+50CP50 | 5069 | 18.2 | 9.1
 
-5060 | rowspan=2|5146 | 18.7 | 9.4
+50CP60 | rowspan=2|5146 | 18.7 | 9.4
 
-5070 | 19.0 | 9.5
+50CP70 | 19.0 | 9.5
 
-5080 | rowspan=2|5222 | 19.5 | 9.8
+50CP80 | rowspan=2|5222 | 19.5 | 9.8
 
-5090 | 19.8 | 9.9
+50CP90 | 19.8 | 9.9
 
-50100 | rowspan=2|5682 | 20.3 | 10.1
+50CP100 | rowspan=2|5682 | 20.3 | 10.1
 
-50110 | 20.5 | 10.3
+50CP110 | 20.5 | 10.3
 
-50120 | rowspan=2|5759 | 21.1 | 10.5
+50CP120 | rowspan=2|5759 | 21.1 | 10.5
 
-50130 | 21.3 | 10.7
+50CP130 | 21.3 | 10.7
 
-50140 | 5836 | 21.8 | 10.9
+50CP140 | 5836 | 21.8 | 10.9
 
-50150 | rowspan=2|6066 | 22.1 | 11.0
+50CP150 | rowspan=2|6066 | 22.1 | 11.0
 
-50160 | 22.4 | 11.2
+50CP160 | 22.4 | 11.2
 
 ## Quest Potions
 These potions are given as a reward for certain quests, or are meant to be used during quests. As such, they are very limited in number. Some of these entries may be test-items not currently available in the game.
@@ -892,37 +892,37 @@ Level | Health | Duration | Immunity
 
 50 | rowspan=2|4494 | 23.8 | 8.1
 
-5010 | 24.5 | 8.3
+50CP10 | 24.5 | 8.3
 
-5020 | rowspan=2|5078 | 25.1 | 8.6
+50CP20 | rowspan=2|5078 | 25.1 | 8.6
 
-5030 | 25.4 | 8.7
+50CP30 | 25.4 | 8.7
 
-5040 | 5163 | 26.0 | 9.0
+50CP40 | 5163 | 26.0 | 9.0
 
-5050 | 5585 | 26.4 | 9.1
+50CP50 | 5585 | 26.4 | 9.1
 
-5060 | rowspan=2|5670 | 27.0 | 9.4
+50CP60 | rowspan=2|5670 | 27.0 | 9.4
 
-5070 | 27.3 | 9.5
+50CP70 | 27.3 | 9.5
 
-5080 | rowspan=2|5754 | 27.9 | 9.8
+50CP80 | rowspan=2|5754 | 27.9 | 9.8
 
-5090 | 28.3 | 9.9
+50CP90 | 28.3 | 9.9
 
-50100 | rowspan=2|6261 | 28.9 | 10.1
+50CP100 | rowspan=2|6261 | 28.9 | 10.1
 
-50110 | 29.3 | 10.3
+50CP110 | 29.3 | 10.3
 
-50120 | rowspan=2|6346 | 29.8 | 10.5
+50CP120 | rowspan=2|6346 | 29.8 | 10.5
 
-50130 | 30.2 | 10.7
+50CP130 | 30.2 | 10.7
 
-50140 | 6430 | 30.8 | 10.9
+50CP140 | 6430 | 30.8 | 10.9
 
-50150 | rowspan=2|6684 | 31.1 | 11.0
+50CP150 | rowspan=2|6684 | 31.1 | 11.0
 
-50160 | 31.4 | 11.2
+50CP160 | 31.4 | 11.2
 
 ### Alliance Spell Draught
 These are similar to generic Magicka Potions, but they have a longer duration, and will also grant you Major Sorcery, increasing your Spell Damage by 20% for the full duration.
@@ -1010,37 +1010,37 @@ Level | Magicka | Duration
 
 50 | rowspan=2|4532 | 23.8
 
-5010 | 24.5
+50CP10 | 24.5
 
-5020 | rowspan=2|4609 | 25.1
+50CP20 | rowspan=2|4609 | 25.1
 
-5030 | 25.4
+50CP30 | 25.4
 
-5040 | 4686 | 26.0
+50CP40 | 4686 | 26.0
 
-5050 | 5069 | 26.4
+50CP50 | 5069 | 26.4
 
-5060 | rowspan=2|5146 | 27.0
+50CP60 | rowspan=2|5146 | 27.0
 
-5070 | 27.3
+50CP70 | 27.3
 
-5080 | rowspan=2|5222 | 27.9
+50CP80 | rowspan=2|5222 | 27.9
 
-5090 | 28.3
+50CP90 | 28.3
 
-50100 | rowspan=2|5682 | 28.9
+50CP100 | rowspan=2|5682 | 28.9
 
-50110 | 29.3
+50CP110 | 29.3
 
-50120 | rowspan=2|5759 | 29.8
+50CP120 | rowspan=2|5759 | 29.8
 
-50130 | 30.2
+50CP130 | 30.2
 
-50140 | 5836 | 30.8
+50CP140 | 5836 | 30.8
 
-50150 | rowspan=2|6066 | 31.1
+50CP150 | rowspan=2|6066 | 31.1
 
-50160 | 31.4
+50CP160 | 31.4
 
 ### Alliance Battle Draught
 These are similar to generic Stamina Potions, but they have a longer duration, and will also grant you Major Brutality, increasing your Weapon Damage by 20% for the full duration.
@@ -1128,37 +1128,37 @@ Level | Stamina | Duration
 
 50 | rowspan=2|4532 | 23.8
 
-5010 | 24.5
+50CP10 | 24.5
 
-5020 | rowspan=2|4609 | 25.1
+50CP20 | rowspan=2|4609 | 25.1
 
-5030 | 25.4
+50CP30 | 25.4
 
-5040 | 4686 | 26.0
+50CP40 | 4686 | 26.0
 
-5050 | 5069 | 26.4
+50CP50 | 5069 | 26.4
 
-5060 | rowspan=2|5146 | 27.0
+50CP60 | rowspan=2|5146 | 27.0
 
-5070 | 27.3
+50CP70 | 27.3
 
-5080 | rowspan=2|5222 | 27.9
+50CP80 | rowspan=2|5222 | 27.9
 
-5090 | 28.3
+50CP90 | 28.3
 
-50100 | rowspan=2|5682 | 28.9
+50CP100 | rowspan=2|5682 | 28.9
 
-50110 | 29.3
+50CP110 | 29.3
 
-50120 | rowspan=2|5759 | 29.8
+50CP120 | rowspan=2|5759 | 29.8
 
-50130 | 30.2
+50CP130 | 30.2
 
-50140 | 5836 | 30.8
+50CP140 | 5836 | 30.8
 
-50150 | rowspan=2|6066 | 31.1
+50CP150 | rowspan=2|6066 | 31.1
 
-50160 | 31.4
+50CP160 | 31.4
 
 ## Crown Store Potions
 These potions can be purchased from the Crown Store or Gold Coast Bazaar, received from Daily Rewards, or obtained in Crown Crates.

@@ -39,14 +39,14 @@ Inhale drains Health from nearby enemies around you and then deals Fire Damage t
 File:ON-skill-Inhale 02.jpg|Exhale
 
 ## Patch Notes
-* This ability's initial life drain morphs can now hit a maximum of three targets. This also applies to Inhale's morphs.
-* Increased the damage dealt by this ability by 30%. The damage increases with each rank for the first four ranks, and then remains constant for both morphs. The explosion from this ability and its morphs now does fire damage; the inhalation still does Magic damage.
+[Patch 1.1.2] * This ability's initial life drain morphs can now hit a maximum of three targets. This also applies to Inhale's morphs.
+[Patch 1.6.5] * Increased the damage dealt by this ability by 30%. The damage increases with each rank for the first four ranks, and then remains constant for both morphs. The explosion from this ability and its morphs now does fire damage; the inhalation still does Magic damage.
 ESO Patch Note|2.3.5|* Increased the exhale damage (the second hit) from this ability and the Draw Essence morph by 40%. The Deep Breath morph has had its exhale damage increased by 16% to match this value.
 - This ability and its morphs now hits 6 targets, increased from 3 targets, and follows standard area of effect damage guidelines for additional targets.
 - Increased the cost of this ability and its morphs by 6%.
 - Deep Breath: This morph no longer increases the damage of the exhale damage (the second hit) due to the baseline damage increases for Inhale, described below. It will continue to interrupt targets on the inhale (the first hit) as a morph effect.
 - Draw Essence: This morph will now restore 10% of the ability's cost as Magicka per target hit with the exhale instead of restoring Magicka based on the damage dealt.
-* Reduced the cost of this ability and its morphs by approximately 6%.
+[Patch 3.0.5] * Reduced the cost of this ability and its morphs by approximately 6%.
 ESO Patch Note|5.0.5|* Increased the damage of the initial hit of this ability and its morphs by 25%.
 - Increased the damage of the delayed explosion by approximately 7%. This was done to adhere the ability to our AoE standards. Note the initial hit of the abilities is half of the AoE standard, because it heals for 100% of the damage caused, which takes it to that standard.
 - Removed the 6 target cap for the heal, interrupt, and resource restore for this ability. Note this puts this ability into the "rule breaker" category.
@@ -54,4 +54,4 @@ ESO Patch Note|6.1.5|* Deep Breath (morph): This morph's explosion now deals 25%
 - Draw Essence (morph): This morph now heals for up to 147% of the damage done, up from 100%, and ranks up by 1% per rank. The final explosion of this ability no longer increases by 1.1% damage per rank.
 ESO Patch Note|8.1.5|* Reduced the cost of this ability and its morphs to 3510, down from 4050.
 - Originally, this was higher in cost to account for the fact that its initial hit damaged and healed, but since these values are each half of an Area of Effect based attack, it wasn't gaining additional ability functionality (which dictates cost) so we're easing it back to make up for this oversight.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

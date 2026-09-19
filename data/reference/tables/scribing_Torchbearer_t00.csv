@@ -1,0 +1,12 @@
+Script,Skill Name,Effects
+Bleed Damage,Bleed Damage,Bloody Torch,
+Flame Damage,Flame Damage,Fiery Torch,
+Generate Ultimate,Generate Ultimate,Heroic Torch,
+Compatible Signature Scripts,"Class Flourish, Crusader's Defiance, Druid's Resurgence, Gladiator's Tenacity, Warrior's Opportunity"
+Compatible Affix Scripts,"Evasion, Heroism, Resolve, Vitality"
+Healing,Healing,Healing Torch,
+Compatible Signature Scripts,"Class Flourish, Crusader's Defiance, Druid's Resurgence, Gladiator's Tenacity, Warrior's Opportunity"
+Compatible Affix Scripts,"Evasion, Heroism, Resolve, Vitality"
+Knockback,Knockback,Repelling Torch,
+Physical Damage,Physical Damage,Sundering Torch,
+Stun,Stun,Dazing Torch,

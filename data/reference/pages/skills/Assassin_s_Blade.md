@@ -39,16 +39,16 @@ File:ON-skill-Killer's Blade.jpg|Killer's Blade morph disease visual
 File:ON-skill-Killer's Blade heal.jpg|Killer's Blade morph on-kill heal visual
 
 ## Patch Notes
-* This ability's visual effects are now easier to see.
-* Killer's Blade: This morph now deals Disease Damage instead of Magic Damage.
+[Patch 1.2.3] * This ability's visual effects are now easier to see.
+[Patch 2.4.5] * Killer's Blade: This morph now deals Disease Damage instead of Magic Damage.
 ESO Patch Note|2.7.5|* Impale: Increased the range of this morph to 28 meters at Rank IV from 18 meters.
 - Developer Comments: Increasing the range on this morph to 28 meters matches the range of other Magicka Nightblade damage abilities such as Strife or Cripple, and makes this morph work cohesively with a ranged ability kit.
-Reverse Slash]], now works more intuitively with global damage done bonuses, such as Mighty or Minor/Major Berserk. Execute bonus damage is now multiplicative with global damage bonuses instead of additive.
-* The damage from this ability and its morphs can now be blocked and dodged.
-* This ability and its morphs now deal their bonus execute damage when the target is below 25% Health, down from 26% Health.
+[Patch 3.1.5] * The bonus damage dealt by execute abilities, such as Assassin's Blade or Reverse Slash, now works more intuitively with global damage done bonuses, such as Mighty or Minor/Major Berserk. Execute bonus damage is now multiplicative with global damage bonuses instead of additive.
+[Patch 3.3.5] * The damage from this ability and its morphs can now be blocked and dodged.
+[Patch 4.0.5] * This ability and its morphs now deal their bonus execute damage when the target is below 25% Health, down from 26% Health.
 ESO Patch Note|4.2.5|* Increased the cost of this ability and its morphs by approximately 30%.
 - Developer Comment: This execute was significantly cheaper than any other in the game, and was part of the reason that Nightblade DPS was higher than intended.
-* Killer's Blade (morph): Fixed an issue where this ability could fail to be recognized as a class or execute ability in some rare cases.
+[Patch 7.3.5] * Killer's Blade (morph): Fixed an issue where this ability could fail to be recognized as a class or execute ability in some rare cases.
 ESO Patch Note|8.1.5|* Killer's Blade (morph):
 - This morph now causes the execute scaling to change to a linear increase of up to 400% damage done to targets under 50% Health, rather than the static 300% damage done to targets below 25% Health.
 - The heal from this morph now scales off of your highest offensive stats, rather than Max Health.

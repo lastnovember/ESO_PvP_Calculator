@@ -41,15 +41,15 @@ Backlash deals a small amount of damage and copies all damage inflicted on an en
 File:ON-skill-Power_of_the_Light.jpg|Power of the Light
 
 ## Patch Notes
-* Fixed an issue where Backlash Rank III wasn't dealing any damage.
-* Fixed an issue where you could stack multiple copies of Purifying Light or Power of the Light (both Backlash morphs) at the same time.
+[Patch 1.3.3] * Fixed an issue where Backlash Rank III wasn't dealing any damage.
+[Patch 1.4.3] * Fixed an issue where you could stack multiple copies of Purifying Light or Power of the Light (both Backlash morphs) at the same time.
 ESO Patch Note|1.6.5|* Backlash now ignores the damage caused by other player characters using Backlash. Multiple casters can now all stack Backlash on the same target.
 - Backlash and Purifying Light morph damage caps are now derived from your maximum magicka.
 - Removed the cast time for this ability.
 - Enduring Rays: This passive no longer increases the duration of Backlash.
 - Power of the Light: This ability now applies the Minor Fracture debuff to your target, and the damage caps are derived from your maximum stamina.
-* Increased the maximum damage limit for this ability and its morphs by 25%, but decreased their damage stored amount by 66%. In addition, this ability and its morphs can no longer be reflected.
-* Power of the Light: This morph now deals Physical Damage instead of Magic Damage.
+[Patch 2.3.5] * Increased the maximum damage limit for this ability and its morphs by 25%, but decreased their damage stored amount by 66%. In addition, this ability and its morphs can no longer be reflected.
+[Patch 2.4.5] * Power of the Light: This morph now deals Physical Damage instead of Magic Damage.
 ESO Patch Note|2.7.5|* This ability and its morphs now deal moderate damage when they are initially applied to the enemy. This damage does not contribute to the copied damage delivered at the end of the ability's duration.
 - Increased the amount of copied damage by this ability and its morphs to 20% from 18%.
 - Fixed an issue where damage that was absorbed by a damage shield was not being copied.
@@ -64,10 +64,10 @@ ESO Patch Note|3.0.5|* Fixed an issue where the final damage dealt by this abili
 - Power of the Light: Fixed an issue where the damage from this morph could be dodged.
 - Purifying Light: Fixed an issue where the heal from this morph could not critically strike.
 
-* Fixed an issue where multiple Templars using this ability and its morphs against the same target would not deal the full amount of intended damage.
-* Increased the cost of this ability and its morphs by approximately 5%.
-* Power of the Light: Adjusted the ability rank up for this morph so it no longer gains damage on the initial hit, but instead increases the duration of Minor Fracture and Breach applied, since that is the focus of the morph. This will result in approximately a 3% damage loss on the initial hit, but the duration of the Minor Fracture and Breach will last 9 seconds, up from 6 seconds at their final rank.
-* Purifying Light: Decreased the healing per tick by approximately 29%.
+[Patch 3.3.5] * Fixed an issue where multiple Templars using this ability and its morphs against the same target would not deal the full amount of intended damage.
+[Patch 4.2.5] * Increased the cost of this ability and its morphs by approximately 5%.
+[Patch 5.0.5] * Power of the Light: Adjusted the ability rank up for this morph so it no longer gains damage on the initial hit, but instead increases the duration of Minor Fracture and Breach applied, since that is the focus of the morph. This will result in approximately a 3% damage loss on the initial hit, but the duration of the Minor Fracture and Breach will last 9 seconds, up from 6 seconds at their final rank.
+[Patch 5.1.5] * Purifying Light: Decreased the healing per tick by approximately 29%.
 ESO Patch Note|5.2.5|* This ability and its morphs' final explosion can now Critically Strike. Boom baby.
 - This ability and its morphs will now only store damage dealt from the caster of the ability, rather than anyone who hits the afflicted target. This was done to offset some of the staggering power (of the Light) the ability could bring in group situations, where low damage builds could apply the ability and generate free real estate from their allies' contribution. Now, you have to put in the fervor to get the full power of these abilities.
 - Fixed an issue where these abilities would conflict with one another if more than one player cast the same morph of the ability on a target.
@@ -77,7 +77,7 @@ ESO Patch Note|6.1.5|*Fixed an issue where this ability and its morphs stored mu
 - Fixed an issue where these abilities did not reset their stored damage values after detonating in some cases.
 ESO Patch Note|7.1.5|* This ability and its morphs now retain 50% of the damage you dealt to the target, up from 20%, to help be more reliable in Player versus Player encounters.
 - The final explosion now scales off your Spell or Weapon Damage depending on the morph, rather than Magicka or Stamina. The final explosion now also scales with both positive and negative bonuses, rather than only negative ones. Haha Backlash go boom.
-* This ability and its morphs' visual effects are now visible to the caster and enemies, rather than anyone.
+[Patch 7.2.5] * This ability and its morphs' visual effects are now visible to the caster and enemies, rather than anyone.
 ESO Patch Note|8.0.5|* Backlash: Increased the cost of this ability and the Purifying Light morph to 2160, up from 2000.
 - Power of the Light (morph): Reduced the cost of this morph to 1337, down from 1700.
 ESO Patch Note|8.1.5|* Purifying Light (morph):
@@ -89,8 +89,8 @@ ESO Patch Note|8.2.5|*The final damage now deals a guaranteed amount of damage b
 - These abilities are now once again limited to having one active at a time, to fix numerous exploits and bugs with the ability. This means if you cast the ability on another target while it is active, it will remove the previous cast.
 - Power of the Light (morph):
 - Increased the duration of Minor Breach from this morph to 7-10 seconds, up from 6-9. This effect is also no longer tracked over the base ability with the Ability Timers option enabled, to help you keep track of the core ability instead.
-* Fixed an issue where this ability and the Purifying Light morph were considered magical melee damage, rather than magical ranged damage. Note that Power of the Light was already considered martial ranged damage and has not changed.
+[Patch 8.3.5] * Fixed an issue where this ability and the Purifying Light morph were considered magical melee damage, rather than magical ranged damage. Note that Power of the Light was already considered martial ranged damage and has not changed.
 ESO Patch Note|9.0.5|*This ability and its morphs now need 60% less total damage needed to reach their final values.
 - Developer Comment: We're lowering the amount of damage needed for these abilities to reach their big boom numbers, as they needed values that were essentially impossible to achieve in PvP to get to their maximum power. The damage required will still be challenging to reach in PvP environments, and in most cases where opponents are taking countermeasures to deny or mitigate the applier's pressure, the damage will still not reach the maximum amount; we are doing this intentionally so Templars retain a weakness in some capacity. We'll continue to monitor this value and adjust accordingly, if necessary, after we get more data from live servers with how this change interacts with the other buffs the class received in this update.
-* Power of the Light (morph): This morph now always applies the Sundered status effect when it deals damage (both the initial and explosion), rather than applying a unique 10 second form of Minor Breach, as Sundered will cover Minor Breach for a duration between. Note this does mean Minor Breach can fall off for a very short period of time if this is your only source of triggering the effect.
-* The final hit of this ability and its morphs no longer miss some enemies.
+[Patch 9.3.5] * Power of the Light (morph): This morph now always applies the Sundered status effect when it deals damage (both the initial and explosion), rather than applying a unique 10 second form of Minor Breach, as Sundered will cover Minor Breach for a duration between. Note this does mean Minor Breach can fall off for a very short period of time if this is your only source of triggering the effect.
+[Patch 11.0.5] * The final hit of this ability and its morphs no longer miss some enemies.

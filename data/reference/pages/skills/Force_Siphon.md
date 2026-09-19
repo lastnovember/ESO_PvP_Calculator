@@ -39,11 +39,11 @@ Force Siphon causes all attacks against the affected enemy to restore the Health
 File:ON-skill-Siphon Spirit.jpg|Siphon Spirit morph blueish visual
 
 ## Patch Notes
-* Siphon Spirit: This ability no longer generates ultimate. This is a temporary fix until we can resolve an issue where the ability generates more ultimate than intended.
-* This ability no longer generates ultimate.
-* Increased the bonus effectiveness on the caster provided by this ability to 150% from 100%.
-* The heal and visual effects from this ability can no longer be dodged.
-* Fixed an issue where the heal from this ability could proc off siege damage.
+[Patch 1.1.3] * Siphon Spirit: This ability no longer generates ultimate. This is a temporary fix until we can resolve an issue where the ability generates more ultimate than intended.
+[Patch 1.2.3] * This ability no longer generates ultimate.
+[Patch 1.6.5] * Increased the bonus effectiveness on the caster provided by this ability to 150% from 100%.
+[Patch 2.1.4] * The heal and visual effects from this ability can no longer be dodged.
+[Patch 2.2.4] * Fixed an issue where the heal from this ability could proc off siege damage.
 ESO Patch Note|2.7.5|* This ability and its morphs no longer heal for a flat value of Health whenever you deal damage to the target. Instead, they apply Minor Lifesteal to a target.
 - Siphon Spirit: This morph no longer restores 1% of your Maximum Magicka when you deal damage to the target. Instead, it also applies Minor Magickasteal to the target.
 ESO Patch Note|5.1.5|* This ability and its morphs no longer have a cast time or a cost since they are purely debuff skills, such as Weakness to Elements.

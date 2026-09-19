@@ -18,8 +18,8 @@ linerank2=9
 Undeath reduces the damage you will receive based on your missing Health.
 
 ## Patch Notes
-* Reduced the passive Undeath's damage reduction to 33%, and adjusted the tooltip accordingly.
-* This passive ability now only functions when you are in Vampire Stage 3 or higher.
-* Now reduces your damage taken by up to 15/30% based on each percentage of your missing Health.
-* Fixed an issue where this passive did not work against many ground-based attacks, such as Volley.
-* This passive now reduces damage taken by up to 7/15%, down from up to 15/30%.
+[Patch 1.3.3] * Reduced the passive Undeath's damage reduction to 33%, and adjusted the tooltip accordingly.
+[Patch 2.4.5] * This passive ability now only functions when you are in Vampire Stage 3 or higher.
+[Patch 6.0.5] * Now reduces your damage taken by up to 15/30% based on each percentage of your missing Health.
+[Patch 7.0.5] * Fixed an issue where this passive did not work against many ground-based attacks, such as Volley.
+[Patch 10.1.5] * This passive now reduces damage taken by up to 7/15%, down from up to 15/30%.

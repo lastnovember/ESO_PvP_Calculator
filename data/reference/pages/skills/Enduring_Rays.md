@@ -21,7 +21,7 @@ Enduring Rays increases the duration of several active Dawn's Wrath abilities.
 - This passive doesn't reduce Sun Fire's Damage per Second by increasing it's length, it adds 1 more tick to compensate.
 
 ## Patch Notes
-Backlash]].
+[Patch 1.6.5] * This passive no longer increases the duration of Backlash.
 ESO Patch Note|2.3.5|* This passive ability now only increases the duration of the Sun Fire, Eclipse, and Nova abilities.
 - Increased this passive ability's bonus to 15/30% more duration at Ranks I/II from 10/20%.
 ESO Patch Note|4.0.5|* This passive ability now increases the duration of your Sun Fire, Eclipse, and Nova abilities by 2 seconds, instead of 15/30%. It now also increases the duration of the debuffs applied by Solar Flare and its morphs.

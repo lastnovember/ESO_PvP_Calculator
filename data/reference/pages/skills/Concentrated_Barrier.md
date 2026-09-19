@@ -23,8 +23,8 @@ Concentrated Barrier gives you a Damage Shield when you Block, provided you have
 - Pay attention to a circular orb effect when you have been not blocking for a bit - this is your cue that the barrier is fully recharged and can be reactivated by blocking again.
 
 ## Patch Notes
-* Fixed an issue where the damage shield from this passive ability would remain on you when you logged back in to the game, causing its shield value to stack.
+[Patch 4.0.8] * Fixed an issue where the damage shield from this passive ability would remain on you when you logged back in to the game, causing its shield value to stack.
 ESO Patch Note|5.3.4|* This passive more accurately describes its proc condition.
 - Removed the shield recharge visual effects that would appear every 10 seconds of not blocking
-* Fixed an issue where the shield from this passive could be half of its listed value in some cases.
-*Fixed an issue where this passive was not considered a proc and could trigger other effects.
+[Patch 8.3.5] * Fixed an issue where the shield from this passive could be half of its listed value in some cases.
+[Patch 12.0.6] *Fixed an issue where this passive was not considered a proc and could trigger other effects.

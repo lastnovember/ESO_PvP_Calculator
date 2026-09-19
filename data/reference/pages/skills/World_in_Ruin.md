@@ -23,11 +23,11 @@ World in Ruin increases your damage done with area and damage over time attacks.
 - Prior to Update 49, this skill increased the damage of your Flame and Poison attacks.
 
 ## Patch Notes
-* World in Flame: Renamed this passive ability to World in Ruin. In addition, this passive ability now also increases the damage of Poison area of effect abilities, in addition to Flame area of effect abilities.
-Fiery Breath]] and its morphs.
+[Patch 2.4.5] * World in Flame: Renamed this passive ability to World in Ruin. In addition, this passive ability now also increases the damage of Poison area of effect abilities, in addition to Flame area of effect abilities.
+[Patch 4.1.5] * This ability now also increases the damage over time component of Fiery Breath and its morphs.
 ESO Patch Note|4.2.5|* This ability no longer increases the damage of Poison area of effect abilities by 3/6%. It now reduces the Stamina cost of all Poison abilities by 12/25%. The Flame bonuses of this passive remain unchanged.
 - Developer Comment: Since there are so few Poison AoE abilities, this passive didn't feel very impactful. This change is aimed at helping Stamina Dragonknights' sustain in a unique manner.
 - Fixed an issue where this passive was not reducing the cost of Trapping Webs and its morphs.
 ESO Patch Note|7.2.5|* This passive now increases your damage done with Flame and Poison attacks by 2/5%, rather than increasing your damage done with Area of Effect Flame attacks by 3/6% and reducing the cost of your Poison abilities by 12/25%.
 - This passive has been holding back the class in terms of PvE damage output for quite some time, pigeonholing the class into unsynergetic and often redundant combinations. While the sustain portion of the effect for Stamina-based Dragonknights had some cool niche gameplay, we feel like it missed the mark as a general passive for the class.
-5%.
+[Patch 11.3.4] * Burning Heart World in Ruin: This passive now increases your damage done with area- and over-time attacks by 3 | 7%, rather than increasing your Flame and Poison damage by 2 | 5%.

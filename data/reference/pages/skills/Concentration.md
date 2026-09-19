@@ -18,10 +18,10 @@ linerank2=50
 Concentration increases your Physical Penetration and Spell Penetration for each piece of Light Armor you are wearing, up to the maximum of 7 (total of 3,283 or 6,573 offensive penetration).
 
 ## Patch Notes
-* Fixed an error in this ability's tooltip that incorrectly showed it as giving slightly more Spell Penetration than it was actually giving. The actual effect is unchanged.
-* This passive will now provide 2%/4% spell penetration instead of 3%/6%.
-* This passive now grants a flat amount of spell penetration that increases with your level.
-* Fixed an issue where this passive wasn't granting any Spell Penetration.
+[Patch 1.1.2] * Fixed an error in this ability's tooltip that incorrectly showed it as giving slightly more Spell Penetration than it was actually giving. The actual effect is unchanged.
+[Patch 1.4.3] * This passive will now provide 2%/4% spell penetration instead of 3%/6%.
+[Patch 1.6.5] * This passive now grants a flat amount of spell penetration that increases with your level.
+[Patch 2.0.1] * Fixed an issue where this passive wasn't granting any Spell Penetration.
 ESO Patch Note|7.1.5|* The following passives and player abilities now grant hybrid stats to help improve their viability and accessibility to off-meta builds, because we love them too:
 - Agility: Now grants equal Weapon and Spell Damage.
 - Balanced Warrior:

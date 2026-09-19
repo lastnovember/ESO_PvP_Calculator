@@ -18,5 +18,5 @@ linerank2=30
 Cycle of Life increases the Magicka restored whenever you perform a heavy attack with a Restoration Staff.
 
 ## Patch Notes
-* The Restoration staff passive Cycle of Life now increases magicka restore instead of increasing damage.
-* Fixed an issue where this passive was still increasing your damage. We have removed the damage increase, and using this passive will now correctly only increase your magicka restore.
+[Patch 1.4.4] * The Restoration staff passive Cycle of Life now increases magicka restore instead of increasing damage.
+[Patch 1.4.5] * Fixed an issue where this passive was still increasing your damage. We have removed the damage increase, and using this passive will now correctly only increase your magicka restore.

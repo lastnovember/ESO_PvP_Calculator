@@ -14,4 +14,4 @@ linerank1=1
 Green-Keeper's Hide reduces damage taken for every status effect active on your attacker, up to a maximum of 15%.
 
 ## Patch Notes
-*Green-Keeper's Hide: This passive reduces your damage taken by 3% for every status effect on your attacker, up to a maximum of 15%.
+[Patch 12.0.0] *Green-Keeper's Hide: This passive reduces your damage taken by 3% for every status effect on your attacker, up to a maximum of 15%.

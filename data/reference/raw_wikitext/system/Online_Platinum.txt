@@ -1,0 +1,24 @@
+{{ESO Crafting Mat Summary
+|node=Dust
+|tier=5
+|jewelry=Platinum
+|raw=Platinum Dust
+|refined=Platinum Ounce
+}}
+'''Platinum''' seams can be found near cliffs and mountains at [[ON:Engraver|Engraver]] level 5 or at character level {{ESO Champion|150+}}.  They can be harvested for three to four samples of the raw material, {{Item Link|Platinum Dust|id=135145}}. Once ten samples of dust are collected, they can be refined into seven to ten {{Item Link|Platinum Ounces|id=135146}}. Platinum Jewelry is [[Online:Jewelry Crafting|crafted]] from the refined platinum ounces at any of the [[Online:Crafting Stations|jewelry crafting stations]].
+
+{|class="wikitable" style="text-align:center; margin: 2.5em auto;"
+|+Number of platinum ounces needed to craft
+|-
+!scope="col"|Gear Level
+!scope="col"|Platinum Ring
+!scope="col"|Platinum Necklace
+|-
+!scope="row"|{{ESO Champion|150}}
+|10||15
+|-
+!scope="row"|{{ESO Champion|160}}
+|100||150
+|}
+
+{{Online Equipment Crafting Materials‎}}

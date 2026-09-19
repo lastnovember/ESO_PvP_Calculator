@@ -37,7 +37,7 @@ Obsidian Shield creates a weak Damage Shield on you and nearby allies that scale
 ESO Patch Note|1.2.3|* Igneous Shield:
 - This ability now increases the healing you deal to allies for 5 seconds instead of increasing your shield value.
 - This ability's healing buff no longer stacks.
-* Fragmented Shield: This ability now only deals area damage around the caster instead of all allies.
+[Patch 1.4.3] * Fragmented Shield: This ability now only deals area damage around the caster instead of all allies.
 ESO Patch Note|2.3.5|* Obsidian Shield: Igneous Shield's increased damage shield effect is now a baseline effect for Obsidian Shield.
 - Note: The Igneous Shield morph will continue to grant you the Major Mending buff as a morph effect.
 ESO Patch Note|2.4.5|* Reduced the duration of this ability and its morphs to 6 seconds from 20 seconds.
@@ -60,5 +60,5 @@ ESO Patch Note|5.0.5|* Earthen Heart: Adjusted the duration of these skills so t
 - Obsidian Shield & morphs: Increased to 8 seconds from 7.2 seconds
 - Petrify & morphs, Ash Cloud & morphs: no change
 - Stonefist & morphs: Decreased to 3 seconds from 3.6 seconds
-* Fragmented Shield (morph): Increased the duration of Major Mending granted from this morph to 6.667 seconds at base, up from 5 seconds. Don't worry though, it'll reach a nice whole number when you have your Eternal Mountain passive maxed out.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 8.0.5] * Fragmented Shield (morph): Increased the duration of Major Mending granted from this morph to 6.667 seconds at base, up from 5 seconds. Don't worry though, it'll reach a nice whole number when you have your Eternal Mountain passive maxed out.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

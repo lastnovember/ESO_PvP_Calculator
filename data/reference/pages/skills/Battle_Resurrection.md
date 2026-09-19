@@ -21,5 +21,5 @@ Battle Resurrection reduces the time it takes to resurrect your fallen allies, b
 ESO Patch Note|1.1.2|* Fixed an issue where the Battle Resurrection was improperly usable outside of Cyrodiil.
 - Reduced Battle Resurrection's Cast Speed Reduction passive.
 - Those who have spent Skill Points in the Battle Resurrection passive will have those points returned to their overall skill point pool. You may place those Skill Points back in this ability if you wish, or invest them elsewhere.
-Imperial Sewers]].
-White-Gold Tower]] dungeons.
+[Patch 2.3.5] * Fixed an issue where this passive ability would not function inside of Imperial City or the Imperial Sewers.
+[Patch 2.5.5] * Fixed an issue where this passive was functioning inside the Imperial City Prison and White-Gold Tower dungeons.

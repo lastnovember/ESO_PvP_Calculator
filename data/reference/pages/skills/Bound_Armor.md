@@ -47,8 +47,8 @@ ESO Patch Note|1.6.5|* This ability now grants you the buff Minor Resolve, and i
 - The cost of the ability decreases with each rank of Bound Armor.
 - Bound Armaments: This ability now costs Stamina instead of Magicka, gives you a bonus to stamina instead of magicka, and increases the damage done by heavy attacks.
 - Bound Aegis: This ability now grants the Minor Warding and Minor Resolve buffs instead of additional armor.
-* Fixed an issue where Bound Armor would be removed if you put on a costume from your Collections tab. You may now hide your Bound Armor as you please, by putting on a costume.
-* This ability and its morphs no longer permanently change your appearance when they are toggled on; instead, they now only display a brief visual effect when toggled on.
+[Patch 2.0.4] * Fixed an issue where Bound Armor would be removed if you put on a costume from your Collections tab. You may now hide your Bound Armor as you please, by putting on a costume.
+[Patch 2.4.5] * This ability and its morphs no longer permanently change your appearance when they are toggled on; instead, they now only display a brief visual effect when toggled on.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Summon Unstable Familiar
 - Daedric Curse
@@ -57,15 +57,15 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Bound Armor
 - Developer Comment: We moved the class defining defensive ability up one slot so players who are leveling up can gain access to it earlier.
 - Bound Armor: Fixed an issue where toggling this ability and its morphs off would dismount you.
-* Fixed an issue where this ability and its morphs could become stuck on your character.
+[Patch 3.3.7] * Fixed an issue where this ability and its morphs could become stuck on your character.
 ESO Patch Note|4.0.5|* This ability and its morphs are no longer toggle abilities. Slotting Bound Armor will continue to grant you an increase to Max Magicka, and activating these abilities will increase the amount of damage you can block by 20% for 3 seconds.
 - Bound Aegis: This morph now grants Minor Ward and Minor Resolve while it is slotted.
 - Bound Armaments: This morph converts the ability into a Stamina ability and now increases your damage done with Light Attacks while slotted, instead of Heavy Attacks.
-* Increased the bonus to block mitigation granted by this ability and its morphs to 36% from 20%.
+[Patch 4.2.5] * Increased the bonus to block mitigation granted by this ability and its morphs to 36% from 20%.
 ESO Patch Note|5.2.5|* Bound Armaments (morph):
 - Reworked this ability into an offensive skill. Activating the ability no longer grants Block Mitigation for 3 seconds, but instead puts a 40 second duration effect on you that summons a Bound dagger any time you deal damage with a Light or Heavy Attack, with a maximum of 4 weapons being able to be active at any given time. Reactivating the ability causes the weapons to prime and quickly seek your target after a short delay. The ability continues to passively increase your Maximum Stamina and damage dealt with Light Attacks.
 - Updated the sound effects for summoning Bound Daggers with this ability.
-* Bound Armaments (morph): Fixed an issue where this ability was not being considered Direct Damage in some cases.
+[Patch 7.3.5] * Bound Armaments (morph): Fixed an issue where this ability was not being considered Direct Damage in some cases.
 ESO Patch Note|8.1.5|* Bound Armor: This ability and the Bound Aegis morph now also grant Minor Protection for 10 seconds after casting.
 - Bound Aegis (morph):
 - This morph now extends the duration of the effects as well.

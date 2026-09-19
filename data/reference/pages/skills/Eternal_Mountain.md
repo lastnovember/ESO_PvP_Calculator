@@ -17,4 +17,4 @@ linerank2=18
 
 Eternal Mountain increases the duration of all Earthen Heart active abilities, including Stonefist, Molten Weapons, Obsidian Shield, Petrify, Ash Cloud and Magma Armor.
 
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

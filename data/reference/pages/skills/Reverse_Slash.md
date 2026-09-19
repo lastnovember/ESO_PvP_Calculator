@@ -43,8 +43,8 @@ Testing of the skill without morphs on a dummy reveals that the "up to 300% more
 File:ON-skill-Reverse Slice AoE.jpg|Reverse Slice morph AoE visual
 
 ## Patch Notes
-* Executioner: The tooltip for this ability now reports the correct damage when you don't have a target.
-* Reverse Slice: Increased the area damage of this ability by approximately 100%, and it can now hit up to 6 targets.
+[Patch 1.3.3] * Executioner: The tooltip for this ability now reports the correct damage when you don't have a target.
+[Patch 1.5.2] * Reverse Slice: Increased the area damage of this ability by approximately 100%, and it can now hit up to 6 targets.
 ESO Patch Note|2.4.5|* Executioner: Redesigned this morph so it no longer passively increases the damage of all Two Handed abilities while slotted; instead, it increases the scaling bonus damage to low health targets to a maximum of 335/340/345/350% more damage at Ranks I/II/III/IV, increased from 300%.
 - Reverse Slice: Increased the splash damage percentage from this morph to 59/61/63/65% at Ranks I/II/III/IV from 41/42/43/44%.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
@@ -54,17 +54,17 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Reverse Slash
 - Momentum
 - Developer Comment: This change is aimed at newer players. Our intention for this weapon line and the ones below is getting players into the habit of using their primary damage ability as soon as possible.
-* Reduced the cost of this ability and its morphs by approximately 27%.
+[Patch 3.0.5] * Reduced the cost of this ability and its morphs by approximately 27%.
 ESO Patch Note|3.1.5|* The bonus damage dealt by execute abilities, such as Assassin's Blade or Reverse Slash, now works more intuitively with global damage done bonuses, such as Mighty or Minor/Major Berserk. Execute bonus damage is now multiplicative with global damage bonuses instead of additive.
 - Fixed an issue where this ability and its morphs would grant slightly less than a 300% damage bonus against a target at 1% Health.
-* Executioner: Increased the execute multiplier of this ability to 400% from 350%.
+[Patch 5.1.5] * Executioner: Increased the execute multiplier of this ability to 400% from 350%.
 ESO Patch Note|5.2.5|* Reverse Slice (morph):
 - Fixed an issue where the AoE damage of this ability could critically strike. Since the initial hit can already critically strike, this was effectively allowing the attack to double crit, contributing to a tremendous power spike.
-* Reverse Slice (morph): Fixed an issue where the splash damage of this ability was double hit by Battle Spirit.
-* Reverse Slice (morph): Fixed an issue where the Area of Effect component of this ability was not considered a Two Handed ability or Weapon ability.
+[Patch 6.1.5] * Reverse Slice (morph): Fixed an issue where the splash damage of this ability was double hit by Battle Spirit.
+[Patch 7.0.5] * Reverse Slice (morph): Fixed an issue where the Area of Effect component of this ability was not considered a Two Handed ability or Weapon ability.
 ESO Patch Note|7.3.5|* Reverse Slice: Increased the cost of this ability and its morphs to 2430, up from 2160.
 - Executioner (morph): This morph no longer ranks up in 1.1% damage done per rank and instead reduces the cost per rank.
 - Reverse Slash (morph): This morph's splash damage now ranks up to 100% of the original hit, up from 78% at rank 4.
 ESO Patch Note|8.0.5|* Reverse Slice (morph): This morph no longer deals damage based on its initial hit and instead deals damage to all targets around the initial.
 - Developer Comment: This will allow the Area of Effect damage to be increased and decreased by bonuses, and to be calculated separately per target. It will also fix the issue where the damage continuously became weaker as it cascaded outwards, being diminished by each target's defenses.
-* Executioner (morph): This morph now deals Bleed Damage, rather than Physical Damage. This was done to help additional sources of the damage type enter the game, to help balance out ways to apply status effects.
+[Patch 9.3.5] * Executioner (morph): This morph now deals Bleed Damage, rather than Physical Damage. This was done to help additional sources of the damage type enter the game, to help balance out ways to apply status effects.

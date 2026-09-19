@@ -14,4 +14,4 @@ linerank1=1
 Abyssal Emergence will affect your Arcanist Ultimate abilities. When the Ultimate is activated, it will automatically generate maximum Crux and gives 666 Weapon Damage and Spell Damage for 15 seconds.
 
 ## Patch Notes
-*Abyssal Emergence: This passive upgrades your Arcanist Ultimates to immediately generate 3 Crux upon activation, while also granting 666 Weapon and Spell Damage for 15 seconds after activating.
+[Patch 12.0.0] *Abyssal Emergence: This passive upgrades your Arcanist Ultimates to immediately generate 3 Crux upon activation, while also granting 666 Weapon and Spell Damage for 15 seconds after activating.

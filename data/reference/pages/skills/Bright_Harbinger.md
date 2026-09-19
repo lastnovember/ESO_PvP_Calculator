@@ -14,4 +14,4 @@ linerank1=1
 Bright Harbinger upgrades rank 2 of the Illuminate passive. Whenever you cast a Dawn's Wrath ability, you grant Minor Sorcery and Bright Harbinger to you and your group, increasing your Weapon Damage and Spell Damage.
 
 ## Patch Notes
-*This passive upgrades rank 2 of Illuminate to grant the affected group members 300 Weapon and Spell Damage, increasing to 600 for you.
+[Patch 12.0.0] *This passive upgrades rank 2 of Illuminate to grant the affected group members 300 Weapon and Spell Damage, increasing to 600 for you.

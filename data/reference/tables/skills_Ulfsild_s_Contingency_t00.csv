@@ -1,0 +1,13 @@
+Script,Skill Name,Effects
+Damage Shield,Damage Shield,Warding Contigency,"Grants a damage shield to you and your allies that absorbs 5622 damage for 8 seconds, scaling off the higher of your Max Health or Magicka and capped at 55% of your Max Health. Beneficial Signature and Affix scripts apply to you or an ally."
+Compatible Signature Scripts,"Class Flourish, Gladiator's Tenacity, Growing Impact, Sage's Remedy, Warrior's Opportunity"
+Compatible Affix ScriptsGrowing1,"Force, Intellect and Endurance, Protection, Resolve"
+Flame Damage,Flame Damage,Fiery Contigency,Deals 4155 Flame Damage to enemies. Beneficial Signature and Affix scripts only apply to you.
+Frost Damage,Frost Damage,Chilling Contigency,Deals 4155 Frost Damage to enemies. Beneficial Signature and Affix scripts only apply to you.
+Shock Damage,Shock Damage,Shocking Contigency,Deals 4155 Shock Damage to enemies. Beneficial Signature and Affix scripts only apply to you.
+Healing,Healing,Healing Contigency,Heals your and your allies for 6233 Health. Beneficial Signature and Affix scripts apply to you and your allies.
+Compatible Signature Scripts,"Class Flourish, Gladiator's Tenacity, Growing Impact, Sage's Remedy, Warrior's Opportunity"
+Compatible Affix ScriptsGrowing1,"Force, Intellect and Endurance, Protection, Resolve"
+Immobilize,Immobilize,Binding Contigency,Deals 2077 Magic Damage to enemies and immobilizes them for 6 seconds. Beneficial Signature and Affix scripts only apply to you.
+Knockback,Knockback,Repelling Contigency,Knocks enemies back 8 meters. Beneficial Signature and Affix scripts only apply to you.
+Magic Damage,Magic Damage,Magical Contigency,Deals 4155 Magic Damage to enemies. Beneficial Signature and Affix scripts only apply to you.

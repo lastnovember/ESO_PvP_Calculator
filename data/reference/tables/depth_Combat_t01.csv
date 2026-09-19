@@ -1,0 +1,15 @@
+Status Effect,Notes
+x32px,Damaged Attribute,Attribute maximum decreased (e.g. Minor Mangle)
+x32px,Fortified Attribute,Attribute maximum increased
+x32px,Decrease Over Time,Attribute decreases over time (e.g. poison)
+x32px,Increase Over Time,Attribute increases over time (e.g. regeneration)
+x32px,Damage Shield,Negates damage for the amount of HP added by the shield. Damage done against a shielded target shows inside parentheses.
+x32px,Attribute Empty,Attribute is empty or near empty.
+x32px,Deflect,
+x32px,Decreased Armor,Target has its armor reduced
+x32px,Increased Armor,Target has its armor increased
+x32px,Decreased Power,Target deals less damage with attacks
+x32px,Increased Power,Target deals more damage with attacks
+x32px,Invulnerable,Immune to damage. Damage done against an invulnerable target either doesn't show or shows inside parentheses.
+x32px,Heal Absorption,"Negates healing for the amount of HP added by the Heal Absorption. The healing received first goes through it and displays the healing amount inside brackets. Sometimes called ""Heal Negation"""
+x16px,Heal Blocked,"The target cannot be healed by anyone but itself. This is not visible on your own bar. (This only happens with the Ring of the Pale Order set, the Blood Frenzy skill and its morphs and the Blood for Blood skill)"

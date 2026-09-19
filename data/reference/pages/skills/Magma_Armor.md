@@ -39,14 +39,14 @@ File:ON-skill-Magma_Shell.jpg|Magma Shell
 File:ON-skill-Corrosive_Armor.jpg|Corrosive Armor
 
 ## Patch Notes
-* Reduced the duration of this ability.
-* This ability no longer stacks if you recast it before the duration expires. We also fixed an issue where this ability was doing 10x damage than intended.
-* Increased the damage dealt by this ability by 30%. The damage increases with each rank for the first four ranks, and then remains constant for both morphs. The explosion from this ability and its morphs now does fire damage; the inhalation still does Magic damage.
-* Magma Shell: Reduced this ability's Synergy radius to 2.5 meters, and increased the strength of the shield produced by the Synergy to 100% of your maximum health from 85%.
+[Patch 1.1.3] * Reduced the duration of this ability.
+[Patch 1.3.3] * This ability no longer stacks if you recast it before the duration expires. We also fixed an issue where this ability was doing 10x damage than intended.
+[Patch 1.5.2] * Increased the damage dealt by this ability by 30%. The damage increases with each rank for the first four ranks, and then remains constant for both morphs. The explosion from this ability and its morphs now does fire damage; the inhalation still does Magic damage.
+[Patch 1.6.5] * Magma Shell: Reduced this ability's Synergy radius to 2.5 meters, and increased the strength of the shield produced by the Synergy to 100% of your maximum health from 85%.
 ESO Patch Note|2.3.5|* Magma Shell:
 - This morph no longer grants a synergy to allies for a powerful damage shield; instead, it automatically applies the damage shield on nearby allies when the ability is used.
 - Increased the radius of the shield application to 8 meters from 5 meters.
-* Corrosive Armor: This morph now deals Poison Damage instead of Flame Damage. It now also has a new icon.
+[Patch 2.4.5] * Corrosive Armor: This morph now deals Poison Damage instead of Flame Damage. It now also has a new icon.
 ESO Patch Note|5.0.5|* Earthen Heart: Adjusted the duration of these skills so that their final ranks land on integers rather than fractions when you have Rank 2 of Eternal Mountain. This has resulted in the following duration changes:
 - Magma Armor & morphs: Increased to 12 seconds from 10.8 seconds
 - Molten Weapons & morphs: Previously 39.6 seconds, adjusted so Igneous Weapons is now 42 seconds & Molten Armaments is 36 seconds
@@ -59,5 +59,5 @@ ESO Patch Note|5.1.5|* Corrosive Armor:
 ESO Patch Note|7.1.5|* Corrosive Armor (morph):
 - This Ultimate now grants Offensive Penetration rather than only Physical Penetration.
 - Fixed an issue where the penetration check on direct damage for this morph was not consistent with other sources.
-* This Ultimate and Magma Shell now also disable Ultimate generation while they are active. Additionally, these Ultimates are no longer removed when clicking their effect in the character sheet.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.0.5] * This Ultimate and Magma Shell now also disable Ultimate generation while they are active. Additionally, these Ultimates are no longer removed when clicking their effect in the character sheet.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

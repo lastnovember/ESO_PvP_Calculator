@@ -40,10 +40,10 @@ File:ON-skill-Flying Blade (reactivation).jpg|Flying Blade's reactivation visual
 ESO Patch Note|1.1.2|* Flying Blade:
 - Increased the cost of Flying Blade. It now has the same cost as Hidden Blade.
 - Those who have spent Skill Points in the Flying Blade passive will have those points returned to their overall skill point pool. You may place those Skill Points back in this ability if you wish, or invest them elsewhere.
-* Shrouded Daggers: This ability is now capable of a critical strike when you successfully perform a sneak attack.
+[Patch 1.6.5] * Shrouded Daggers: This ability is now capable of a critical strike when you successfully perform a sneak attack.
 ESO Patch Note|2.4.5|* Increased the amount of time this ability and its morphs provide the Major Brutality buff to 20 seconds from 10 seconds.
 - Shrouded Daggers: In addition to the changes made to the base ability, the two dagger bounces of this morph now deal 20% additional damage per bounce from the initial damage, increased from dealing a flat 50% of the initial damage.
-* Shrouded Daggers: Fixed an issue where this morph would not bounce the daggers if the dagger damage was the killing blow.
+[Patch 2.6.4] * Shrouded Daggers: Fixed an issue where this morph would not bounce the daggers if the dagger damage was the killing blow.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Flurry
 - Twin Slashes
@@ -51,7 +51,7 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Blade Cloak
 - Hidden Blade
 - Shrouded Daggers: Reduced the cost of this morph to match its base ability, Hidden Blade.
-* Flying Blade: Reduced the snare duration from this ability and its morphs to 4 seconds.
+[Patch 4.1.5] * Flying Blade: Reduced the snare duration from this ability and its morphs to 4 seconds.
 ESO Patch Note|4.3.5|* Fixed an issue where Major and Minor Evasion were affecting skills they should not have been. The following abilities and sets will no longer be reduced by Major and Minor Evasion's damage reduction:
 - Force Pulse
 - Overwhelming Surge

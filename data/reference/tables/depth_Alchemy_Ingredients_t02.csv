@@ -1,0 +1,10 @@
+Solvent,Poison Level,Poison Suffix,32
+,Grease,3,Poison I,1
+,Ichor,10,Poison II,1
+,Slime,20,Poison III,2
+,Gall,30,Poison IV,3
+,Terebinthine,40,Poison V,4
+,Pitch-Bile,CP10,Poison VI,5
+,Tarblack,CP50,Poison VII,6
+|,Night-Oil,CP100,Poison VIII,7
+|,Alkahest,CP150,Poison IX,8

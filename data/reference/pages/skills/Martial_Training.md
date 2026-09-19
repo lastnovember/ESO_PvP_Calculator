@@ -25,4 +25,4 @@ Martial Training reduces the cost of your weapon abilities and reduces the effec
 - Prior to Update 6, this passive was named Vigor and only boosted Stamina Recovery in combat. During this time, it was also a Bosmer skill, which was replaced in Update 6 by Y'ffre's Endurance. It was changed to Exhilaration, which increased Stamina Recovery at all times. Update 21 then changed it to its current name, and instead of Stamina Recovery, it reduces the cost of your weapon abilities and also adds resistance to snares.
 
 ## Patch Notes
-* Exhilaration: Gain 9% Stamina Recovery → Martial Training: Reduces the cost of your Weapon abilities by 8%, and reduces the effectiveness of Snares applied to you by up to 15%.
+[Patch 4.3.5] * Exhilaration: Gain 9% Stamina Recovery → Martial Training: Reduces the cost of your Weapon abilities by 8%, and reduces the effectiveness of Snares applied to you by up to 15%.

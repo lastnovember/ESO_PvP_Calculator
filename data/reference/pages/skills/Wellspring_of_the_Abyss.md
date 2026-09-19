@@ -16,4 +16,4 @@ linerank1=14
 linerank2=27
 
 ## Patch Notes
-* This passive now increases your Health, Magicka, and Stamina Recovery by 40/81 for each Soldier of Apocrypha ability slotted, down from 64/129.
+[Patch 10.3.5] * This passive now increases your Health, Magicka, and Stamina Recovery by 40/81 for each Soldier of Apocrypha ability slotted, down from 64/129.

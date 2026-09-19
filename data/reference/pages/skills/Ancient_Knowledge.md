@@ -22,14 +22,14 @@ ESO Patch Note|2.7.0|*This passive ability no longer decreases the cast time of 
 - Flame Staves: Increases your single-target damage dealt by 4/8%.
 - Frost Staves: Increases the amount of damage you Block by 10/20%, and reduces the cost of Block by 15/30%.
 - Lightning Staves: Increases your Area of Effect damage dealt by 4/8%.
-* Fixed an issue where the Lightning Staff damage done bonus was not increasing the damage on certain Area of Effect abilities such as Ritual of Retribution or Crystal Blast.
-* This passive ability no longer decreases the cast time of your Destruction Staff Heavy Attacks by 5/10%. Instead, it grants you a bonus as long as you have one Destruction Staff ability slotted. This bonus depends on your staff type:
+[Patch 2.7.2] * Fixed an issue where the Lightning Staff damage done bonus was not increasing the damage on certain Area of Effect abilities such as Ritual of Retribution or Crystal Blast.
+[Patch 2.7.5] * This passive ability no longer decreases the cast time of your Destruction Staff Heavy Attacks by 5/10%. Instead, it grants you a bonus as long as you have one Destruction Staff ability slotted. This bonus depends on your staff type:
 ESO Patch Note|4.3.5|* Removed the requirement of having a Destruction Staff ability slotted to gain the effect of this passive. Now, you simply need to equip the Destruction Staff type of the buff you want to gain the bonus it provides.
 - Developer Comment: This passive was far too restrictive in the sense that it required you to be actively wielding the weapon type necessary to unlock the desired passive, while also slotting an ability from that skill line as well. Now, you will only need to equip the staff type desired. Traditionally, our passives fall into one of three categories: while using an ability of X type, with an ability/weapon of X type slotted, or one that is active at all times. The goal here was to improve the selection of skills on your bar based on what sort of abilities you wanted, rather than being forced to take something for a passive when you've already dedicated to a prerequisite it provided.
-* Fixed an issue where this passive was not properly working with specific pets.
+[Patch 5.2.5] * Fixed an issue where this passive was not properly working with specific pets.
 ESO Patch Note|6.2.5|* Fixed an issue where the Block Mitigation granted from this passive could fail to apply against certain attacks while equipping a Frost Staff.
 - Fixed an issue where tether abilities and sets; such as Shocking Siphon or Stone Husk; were not properly treated as Area of Effect Damage for bonuses such as Ancient Knowledge or Major Evasion.
 ESO Patch Note|7.1.5|* This passive now better discerns what is an Area of Effect attack and what isn't with its bonus damage based on your staff type.
 - Increased the bonuses of both the Inferno and Lightning Staff types to 5/10%, up from 4/8% to help better match the power of Twin Blade and Blunt or Heavy Weapons grant.
-* Fixed multiple issues where the Inferno and Lightning Staff components were applying to incorrect attack types.
-* Fixed an issue where this passive could cause your Health Bar to glow permanently.
+[Patch 8.3.5] * Fixed multiple issues where the Inferno and Lightning Staff components were applying to incorrect attack types.
+[Patch 10.1.5] * Fixed an issue where this passive could cause your Health Bar to glow permanently.

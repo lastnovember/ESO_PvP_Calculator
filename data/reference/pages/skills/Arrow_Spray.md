@@ -39,7 +39,7 @@ File:ON-skill-Bombard (stun).jpg|Bombard morph stun visual
 File:ON-skill-Acid Spray.jpg|Acid Spray visual
 
 ## Patch Notes
-Eagle Eye]]: The tooltip for this item set no longer states that it increases the range of the ability Arrow Spray.
+[Patch 1.3.3] * Eagle Eye: The tooltip for this item set no longer states that it increases the range of the ability Arrow Spray.
 ESO Patch Note|1.4.3|* Reduced the cost of this ability by approximately 10%.
 - Acid Spray: This ability no longer uses Spell Critical Strike.
 ESO Patch Note|1.5.2|* Fixed an issue where hitting a target with this ability wasn't removing the target's stealth effect. We also increased the area effect arc to better match the size of the effect.
@@ -57,10 +57,10 @@ ESO Patch Note|3.2.5|* Increased the duration of the snare applied by this abili
 - Increased the damage over time of this morph by approximately 65%.
 - Increased the duration of the damage over time applied by this morph to 6 seconds from 5 seconds, causing it to tick for one additional instance of damage.
 - Bombard: Fixed an issue where the name of the debuff icon applied by this morph was incorrect.
-* Acid Spray: Fixed an issue where the damage over time aspect of this morph could be reflected.
-* Decreased the duration of the snare applied from this ability and its morphs to 4 seconds from 6 seconds.
-* Acid Spray: Fixed an issue where the damage over time from this morph was breaking the invisibility of Shadow Cloak.
-* The Damage over Time from Acid Spray can no longer proc Weapon Enchantments or poisons.
+[Patch 4.0.5] * Acid Spray: Fixed an issue where the damage over time aspect of this morph could be reflected.
+[Patch 4.1.5] * Decreased the duration of the snare applied from this ability and its morphs to 4 seconds from 6 seconds.
+[Patch 4.2.5] * Acid Spray: Fixed an issue where the damage over time from this morph was breaking the invisibility of Shadow Cloak.
+[Patch 4.2.7] * The Damage over Time from Acid Spray can no longer proc Weapon Enchantments or poisons.
 ESO Patch Note|4.3.5|* Removed the Snare from this ability and its morphs, but increased their damage by approximately 27% and reduced the costs by approximately 13%.
 - Acid Spray (morph): Increased the Damage over Time by approximately 40%, but added a 1 second delay between the initial hit and the first tick. The ability now lasts 4 seconds in total.
 - Bombard (morph): This morph retains the Snare and Immobilize, but ensures that both apply to the enemy, rather than only Snaring enemies who were initially affected by the Immobilize. Duration of the Immobilize now lasts up to 4 seconds, up from 2.

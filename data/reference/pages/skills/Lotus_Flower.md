@@ -34,13 +34,13 @@ Lotus Flower causes your Light and Heavy attacks to restore Health to you or a n
 - Lotus Blossom is a recommended morph for the Warden Initiate, Beast Caller, and Master Herbalist builds, while Green Lotus is recommended for Savage Stalker.
 
 ## Patch Notes
-* This ability and its morphs will now critically strike based on your highest critical strike rating, instead of only your Spell Critical rating.
-* This ability and its morphs will now restore health on partially-charged Heavy Attacks, equal to the amount of health restored on Light Attacks.
-* Increased the radius of the heal from this ability and its morphs to 28 meters from 12 meters to aid in better distributing the healing potential to group members.
+[Patch 3.0.8] * This ability and its morphs will now critically strike based on your highest critical strike rating, instead of only your Spell Critical rating.
+[Patch 3.2.5] * This ability and its morphs will now restore health on partially-charged Heavy Attacks, equal to the amount of health restored on Light Attacks.
+[Patch 5.0.5] * Increased the radius of the heal from this ability and its morphs to 28 meters from 12 meters to aid in better distributing the healing potential to group members.
 ESO Patch Note|7.3.5|* Reduced the cost of this ability and its morphs to 1350, down from 2970.
 - The base ability now grants Major Prophecy and Savagery while active.
 - Green Lotus (morph): This morph now increases the number of targets healed to 2, up from 1. It also increases the healing of the Light Attack portion to 1500, up from 1320, and the Heavy Attack portion to 4500, up from 3960, at rank 4.
 - Lotus Blossom (morph): This morph now increases the duration of the effects to 60 seconds at rank 4, up from 20.
-* Decreased the healing done from fully-charged Heavy Attacks from this ability and its morphs to be 2.3 times stronger than the Light Attack value, rather than 3 times stronger, resulting in a ~23% healing reduction.
+[Patch 11.0.5] * Decreased the healing done from fully-charged Heavy Attacks from this ability and its morphs to be 2.3 times stronger than the Light Attack value, rather than 3 times stronger, resulting in a ~23% healing reduction.
 
 Skill

@@ -1,0 +1,15 @@
+Glyph,Icon,Effect,Potency Rune,Essence Rune
+Glyph of Frost,,Deals X Frost Damage,Additive,Dekeipa
+Glyph of Absorb Stamina,,Deals X Physical Damage and recovers Y Stamina,Subtractive,Deni
+Glyph of Hardening,,Grants a X point Damage Shield for 5 seconds,Additive,Deteri
+Glyph of Crushing,,Reduce the target's ESO Resistance Link|Physical,|y and Spell Resistance by X for 5 seconds,Subtractive,Deteri
+Glyph of Prismatic Onslaught,,Deals X Magic Damage and recovers Y Health and Z Magicka and Stamina,Subtractive,Hakeijo
+Glyph of Foulness,,Deals X Disease Damage,Additive,Haoko
+Glyph of Poison,,Deals X Poison Damage,Additive,Kuoko
+Glyph of Absorb Magicka,,Deals X Magic Damage and recovers Y Magicka,Subtractive,Makko
+Glyph of Shock,,Deals X Shock Damage,Additive,Meip
+Glyph of Absorb Health,,Deals X Magic Damage and recovers Y Health,Subtractive,Oko
+Glyph of Decrease Health,,Deals X Oblivion Damage,Subtractive,Okoma
+Glyph of Weapon Damage,,Increase your ESO Weapon Damage Link,|y and Spell Damage by X for 5 seconds,Additive,Okori
+Glyph of Weakening,,Reduce the target's ESO Weapon Damage Link,|y and Spell Damage by X for 5 seconds,Subtractive,Okori
+Glyph of Flame,,Deals X Fire Damage,Additive,Rakeipa

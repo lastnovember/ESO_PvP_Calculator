@@ -43,16 +43,16 @@ File:ON-skill-Mages' Fury passive.jpg|Mages' Fury and its morphs passive visual 
 File:ON-skill-Mages' Fury Execute AOE.jpg|Mages' Fury and its morphs Execute AOE visual
 
 ## Patch Notes
-* Endless Fury: This ability now restores magicka if the secondary explosion kills an enemy, in addition to the initial bolt.
-* Endless Fury: Fixed an issue where this ability was not properly restoring magicka when it landed the killing blow on an enemy.
-* This ability's explosion can no longer be reflected.
-* Endless Fury: Increased the base value of the magicka regeneration by 25%. Fixed an issue where this ability was exploding multiple times; it is no longer endless!
+[Patch 1.1.2] * Endless Fury: This ability now restores magicka if the secondary explosion kills an enemy, in addition to the initial bolt.
+[Patch 1.2.3] * Endless Fury: Fixed an issue where this ability was not properly restoring magicka when it landed the killing blow on an enemy.
+[Patch 1.5.2] * This ability's explosion can no longer be reflected.
+[Patch 1.6.5] * Endless Fury: Increased the base value of the magicka regeneration by 25%. Fixed an issue where this ability was exploding multiple times; it is no longer endless!
 ESO Patch Note|2.4.5|* This ability and its morphs will now be more responsive when proccing their execute damage explosion.
 - This ability and its morphs now proc their execute damage explosion when the target is at or below 20% Health, instead of only below 20% Health.
 - This ability and its morphs have had some minor visual FX improvements made and bugs fixed.
-* Fixed an issue where multiple players could not maintain the execute explosion debuff on the same target.
-* Fixed an issue where dodging this ability and its morphs would still apply the execute explosion debuff to you.
-* Fixed an issue where Mages' Fury and its morphs could be cast - with no actual damage - when out of Magicka.
+[Patch 3.2.5] * Fixed an issue where multiple players could not maintain the execute explosion debuff on the same target.
+[Patch 4.1.5] * Fixed an issue where dodging this ability and its morphs would still apply the execute explosion debuff to you.
+[Patch 4.1.6] * Fixed an issue where Mages' Fury and its morphs could be cast - with no actual damage - when out of Magicka.
 ESO Patch Note|4.2.5|* Fixed an issue where this ability could be cast on corpses.
 - Fixed an issue where the execute explosion would sometimes not trigger correctly when the target fell below 20% Health.
 - Fixed an issue where casting this ability would aggro monsters before actually dealing damage.
@@ -62,8 +62,8 @@ ESO Patch Note|5.0.5|* Mages' Wrath (morph):
 - Increased the damage of the Area of Effect damage of this ability and its morphs by 20% to put it on par with our other executes.
 - Fixed an issue where this ability's detonation was able to be dodged, despite the initial hit also being able to be dodged. Now if the initial hit lands on the target, they will not be able to dodge the detonation.
 - Endless Fury (morph): This ability now returns Magicka if the target died within 5 seconds of taking damage, rather than only if this ability gained the killing blow. Also increased the amount of Magicka return by approximately 10%.
-* Fixed an issue where the execute components of this ability and its morphs were missing rank up progression. Each version of the ability will gain a total of 3.3% damage for the execute's single target and Area of Effect component.
-* Endless Fury (morph): Reduced the cost of this morph to 2160, down from 2430 to help reinforce the idea that you are able to endlessly cast it.
+[Patch 7.0.5] * Fixed an issue where the execute components of this ability and its morphs were missing rank up progression. Each version of the ability will gain a total of 3.3% damage for the execute's single target and Area of Effect component.
+[Patch 8.0.5] * Endless Fury (morph): Reduced the cost of this morph to 2160, down from 2430 to help reinforce the idea that you are able to endlessly cast it.
 ESO Patch Note|8.3.5|* Increased the size of the Area of Effect portion of this ability and its morphs to 5 meters, up from 4.
 - Fixed an issue where the execute damage from these abilities were not properly labeled as an execute.
 - Mages' Wrath (morph): This morph now deals its execute damage to all targets nearby, rather than dealing an initial hit and a smaller amount of damage to nearby targets. This will result in an approximate 129% damage increase of the Area of Effect, while also causing the ability to appear under the same ability ID for combat logs.

@@ -50,7 +50,7 @@ ESO Patch Note|3.2.5|* Casting this ability and its morphs now requires that you
 - Increased the duration of this ability to 20 seconds from 13.5 at Rank IV.
 - Reduced the cost of this ability and its morphs by approximately 5%.
 - We want each of the three armor types to have unique trade-offs. Heavy Armor's main advantage is its increase to survivability, while the disadvantage is its lower damage and healing power. To emphasize this distinction, we've removed the Wrath passive.
-* Unstoppable: Fixed an issue where this morph was increasing the duration of the skill by a lower amount than intended for each piece of Heavy Armor worn.
+[Patch 3.3.5] * Unstoppable: Fixed an issue where this morph was increasing the duration of the skill by a lower amount than intended for each piece of Heavy Armor worn.
 ESO Patch Note|4.2.5|* Reduced the cost of this ability and its morphs by 15%, and reduced the duration of the crowd control immunity buff granted to 4 seconds from 5 seconds.
 - Developer Comment: The cost of the Evasion and Immoveable abilities was much higher than similar abilities like Spiked Armor and Blur.
 ESO Patch Note|5.1.5|* Reworked this ability and its morphs, and shifted the names around to be slightly more appropriate.
@@ -65,8 +65,8 @@ ESO Patch Note|5.1.5|* Reworked this ability and its morphs, and shifted the nam
 - Unstoppable:
 - Renamed this morph to Immovable.
 - This morph no longer increases the duration of the ability. Instead, while the snare persists, it increases the amount of damage you can block by 5% per piece of Heavy Armor worn, but also increases the snare potency by 5%. If you are in all 7 pieces of Heavy Armor, you will truly be, Immovable. Unless Elite difficulty enemies hit you with a special move, they don't care if you think you're immovable.
-* Unstoppable Brute (morph): Fixed an issue where the snare from this ability failed to apply.
-* Unstoppable Brute (morph): The cost reduction of CC break for this ability is now properly linked to the Major Resolve it grants, and will increase in duration with bonuses such as Jorvuld's Guidance, but will also be lost if a longer source of Major Resolve is applied.
+[Patch 5.2.6] * Unstoppable Brute (morph): Fixed an issue where the snare from this ability failed to apply.
+[Patch 5.3.4] * Unstoppable Brute (morph): The cost reduction of CC break for this ability is now properly linked to the Major Resolve it grants, and will increase in duration with bonuses such as Jorvuld's Guidance, but will also be lost if a longer source of Major Resolve is applied.
 ESO Patch Note|6.1.5|* Immovable (morph):
 - This morph now ranks up in duration of the Major Resolve granted, rather than the duration of CC immunity granted.
 - Fixed numerous issues where the CC immunity from this ability operated differently than other sources.

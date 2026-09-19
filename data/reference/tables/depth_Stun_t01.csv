@@ -1,0 +1,5 @@
+Set,Duration,Affects,Triggered by,Cooldown,Notes
+Death's Wind,4 sec.,Nearby Enemies,Hit by melee attack,30 sec.,Only if below 35% Health
+Defiler,5 sec.,All enemies in front,Dealing Critical Damage,5 sec.,Enemies hit by poison attack
+Mad Tinkerer,2 sec.,Enemies in path of fabricant,Dealing Damage,8 sec.,Aims at nearest enemy
+Sellistrix,3 sec.,Nearby Enemies,Dealing Damage,5 sec.,10% chance per attack

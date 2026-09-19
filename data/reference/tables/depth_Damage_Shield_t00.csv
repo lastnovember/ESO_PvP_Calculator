@@ -1,0 +1,18 @@
+Skill,Shield Strength,Duration,Affects,Cost,Notes
+Hardened Armor (Draconic Power),31% Health,6 sec.,Self Only,3240 Magicka,Dragonknight only
+Ferocious Leap (Draconic Power),100-103% Health,6 sec.,Self Only,125 Ultimate,Dragonknight only
+Obsidian Shield (Earthen Heart),1312-1357,6 sec.,Self and Allies,4050 Magicka,Dragonknight only
+Magma Shell (Earthen Heart),100% Health,9 sec.,Self and Allies,200 Ultimate,Dragonknight only
+Conjured Ward (Daedric Summoning),2628-2868,6 sec.,Self and Pets,3510 Magicka,Sorcerer only
+Sun Shield (Aedric Spear),30% Health,6 sec.,Self Only,4320 Magicka,Templar only
+,Radiant Ward (morph),3980 Magicka
+Annulment (Light Armor),2626-2708,6 sec.,Self Only,4590 Magicka,
+,Dampen Magic (morph),2708 + 3-6% per piece
+One Hand and Shield]]),1049-1083,6 sec.,Self Only,3780 Stamina,
+Steadfast Ward (Restoration Staff),1649-1701 + up to 300%,6 sec.,Lowest Health Ally,4590 Magicka,
+,Ward Ally (morph),1701-1753 + up to 300%,Self and Ally
+Life Giver (Restoration Staff),1649-1701 + up to 300%,6 sec.,Lowest Health Ally,125 Ultimate,
+Brawler (Two Handed),659-681 × enemies hit,8 sec.,Self Only,3240 Stamina,
+Bone Shield (Undaunted),30% Health,5-6 sec.,Self + Synergy,3780 Stamina,
+,Bone Wall (synergy),60% Health,10 sec.,Self
+Barrier (Support),9424-9708,30 sec.,Self and Allies,200 Ultimate,Legionary Rank+ only

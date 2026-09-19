@@ -91,8 +91,8 @@ File:ON-concept-Emperor Armor.jpg|Concept art
 - Before Patch 2.1.4, Former Emperors would retain a weaker version of some of the Passive abilities, but would lose access to the costume.
 
 ## Patch Notes
-* Tactician: Fixed an issue where this passive was not increasing your siege damage as described.
-* Tactician: Fixed an issue where this passive was not increasing the damage of Siege Weapons.
-* Tactician: Fixed an issue where this passive ability was increasing the damage of Siege Weapons against players and monsters.
-* Monarch: Fixed an issue where this passive ability was only increasing the healing received from your own heals instead of all heals.
-Werewolf]], while you are Emperor.
+[Patch 2.2.4] * Tactician: Fixed an issue where this passive was not increasing your siege damage as described.
+[Patch 2.3.5] * Tactician: Fixed an issue where this passive was not increasing the damage of Siege Weapons.
+[Patch 2.4.5] * Tactician: Fixed an issue where this passive ability was increasing the damage of Siege Weapons against players and monsters.
+[Patch 2.7.5] * Monarch: Fixed an issue where this passive ability was only increasing the healing received from your own heals instead of all heals.
+[Patch 5.1.5] * You can no longer generate Ultimate while in a transformation, such as Bone Goliath Transformation or Werewolf, while you are Emperor.

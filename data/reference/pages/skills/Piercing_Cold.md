@@ -21,7 +21,7 @@ Piercing Cold increases your block mitigation by 4%/8% and the frost damage you 
 - This skill uses the following icon for its buff on your bar:
 
 ## Patch Notes
-* Increased the bonus damage of this passive to 5/10%, up from 3/6%.
+[Patch 5.2.5] * Increased the bonus damage of this passive to 5/10%, up from 3/6%.
 ESO Patch Note|8.2.5|* This passive now increases your damage done by 1/2% which increases to 6/12% while wielding an Ice Staff, rather than increasing your Magic and Frost Damage by 5/10%.
 - This passive was creating issues with morph choices in the class, as Wardens have a healthy mix of damage types outside of Magic and Frost. Many morphs that are meant to focus on damage are either close to or even eclipsed by the more utility driven morphs that retain Magic Damage, and the lack of more DPS focused Ice Damage abilities (since they are predominantly made for tanks or utility) create a situation where this passive isn't helping the unique identity of Ice Mages keep up with other play styles. By shifting the focus of the passive over to generic damage that contextually gets stronger for the audience the passive is made for, we hope to help bring that playstyle up a bit more.
 ESO Patch Note|10.1.5|* Reworked this passive to grant varying effects based on your Max Health to better align with the passive being for tanks, while continuing to offer something for damage dealers. This passive now grants Piercing Cold for 6 seconds when you deal Frost Damage, up to once every 6 seconds. If you have 30,000 or more Max Health, Piercing Cold increases the damage you block by 6/12%. If you have less than 30,000 Max Health, it grants you 4/8% damage done.

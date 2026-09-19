@@ -44,6 +44,6 @@ File:ON-skill-Apocryphal Gate (Transparency).jpg|Transparency visual after takin
 ## Patch Notes
 ESO Patch Note|9.0.6|* Fixed an issue with this ability and its morphs where it would only place one portal.
 - Fleet-Footed Gate (morph): Fixed an issue where this ability was not benefiting from its rank progression.
-* Fixed an issue that could some clients to become unresponsive when casting Apocryphal Gate.
-* Passage Between Worlds (morph): Fixed an issue where this morph’s synergy could be activated in some situations it should not have.
-* Fixed an issue where this ability and its morphs would fail to generate Crux if you entered the portal while Sprinting.
+[Patch 9.0.7] * Fixed an issue that could some clients to become unresponsive when casting Apocryphal Gate.
+[Patch 9.3.5] * Passage Between Worlds (morph): Fixed an issue where this morph’s synergy could be activated in some situations it should not have.
+[Patch 11.2.6] * Fixed an issue where this ability and its morphs would fail to generate Crux if you entered the portal while Sprinting.

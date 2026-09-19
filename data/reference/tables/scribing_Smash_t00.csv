@@ -1,0 +1,13 @@
+Script,Skill Name,Effects
+Bleed Damage,Bleed Damage,Bloody Smash,
+Damage Shield,Damage Shield,Warding Smash,
+Compatible Signature Scripts,"Class Flourish, Crusader's Defiance, Druid's Resurgence, Fencer's Parry, Sage's Remedy, Wayfarer's Mastery"
+Compatible Affix Scripts,"Berserk, Expedition, Force, Vitality"
+Healing,Healing,Healing Smash,
+Compatible Signature Scripts,"Class Flourish, Crusader's Defiance, Druid's Resurgence, Fencer's Parry, Sage's Remedy, Wayfarer's Mastery"
+Compatible Affix Scripts,"Berserk, Expedition, Force, Vitality"
+Knockback,Knockback,Dazing Smash,
+Magic Damage,Magic Damage,Magical Smash,
+Physical Damage,Physical Damage,Sundering Smash,
+Stun,Stun,Dazing Smash,
+Taunt,Taunt,Repelling Smash,

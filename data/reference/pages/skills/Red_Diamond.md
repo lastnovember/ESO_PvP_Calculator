@@ -25,7 +25,7 @@ Red Diamond reduces the cost of all abilities.
 - Prior to Update 29, this ability restored Health, Magicka, and Stamina when dealing Direct Damage.
 
 ## Patch Notes
-* Fixed an issue where this passive ability would display a generic icon in your buff trackers when it triggered.
+[Patch 3.3.5] * Fixed an issue where this passive ability would display a generic icon in your buff trackers when it triggered.
 ESO Patch Note|4.3.5|* 10% Chance on Melee Attack to heal for 6% of Max Health → When you deal Direct Damage, you restore 333 Health, Magicka, and Stamina. This effect has a 5 second cooldown. It also will reduce the cost of all abilities by 3%.
 - Developer Comment: We were relatively happy with the performance of the Imperial races previously, but wanted to improve Red Diamond to stand out and be more accessible across different play styles. Now even on non-offense oriented builds, you'll still be able to get a bit of a bonus out of it with the cost reduction. We also wanted to split the previous amount of Health over all 3 resources so all build types could engage with it, instead of being purely survival based.
 ESO Patch Note|6.3.5|* This passive no longer restores Health, Magicka, and Stamina whenever you deal Direct Damage.

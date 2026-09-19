@@ -38,16 +38,16 @@ Consuming Darkness casts an aura of protection over the area and slows down enem
 File:ON-skill-Veil of Blades.jpg|Veil of Blades morph visual
 
 ## Patch Notes
-* Veil of Blades: This ability can now critical strike.
+[Patch 1.1.3] * Veil of Blades: This ability can now critical strike.
 ESO Patch Note|1.6.5|* Reduced the duration of this ability to 12 seconds.
 - This ability will no longer provide an additional damage reduction for the caster.
 - Hidden Refresh (synergy): This will now provide healing to allies, and will only be offered to allies under 50% health.
 - Bolstering Darkness: This ability doubles the effectiveness of the Major Protection buff on yourself.
 - Dark Resurgence (synergy): This synergy, offered by Bolstering Darkness, will provide more healing for the ally that activates it.
-* Bolstering Darkness: Fixed an issue where the caster was only receiving a 30% damage reduction instead of the full 60%.
-* Bolstering Darkness: Increased the healing from the Hidden Refresh synergy from this morph by 20%.
-* Bolstering Darkness: This morph now causes the Major Protection buff to remain on you even after leaving the area. The buff will persist for the duration of the ability.
-* Veil of Blades: Fixed an issue where this ability was not getting stronger as the ability ranked up. Total damage at Rank IV will be increased by 6.6%.
-* Fixed an issue where the synergy granted from this ability and its morphs could only be activated when at a certain health threshold, which was not previously communicated. It can now be activated any time when you meet the listed requirements and are not on cooldown.
+[Patch 1.6.6] * Bolstering Darkness: Fixed an issue where the caster was only receiving a 30% damage reduction instead of the full 60%.
+[Patch 2.3.5] * Bolstering Darkness: Increased the healing from the Hidden Refresh synergy from this morph by 20%.
+[Patch 4.0.5] * Bolstering Darkness: This morph now causes the Major Protection buff to remain on you even after leaving the area. The buff will persist for the duration of the ability.
+[Patch 5.0.5] * Veil of Blades: Fixed an issue where this ability was not getting stronger as the ability ranked up. Total damage at Rank IV will be increased by 6.6%.
+[Patch 5.3.4] * Fixed an issue where the synergy granted from this ability and its morphs could only be activated when at a certain health threshold, which was not previously communicated. It can now be activated any time when you meet the listed requirements and are not on cooldown.
 ESO Patch Note|6.3.5|* Hidden Refresh's heal now ticks once every second, rather than half second, and adjusted the total healing to remain roughly the same.
 - While this synergy is active, it now displays what it does when hovered over in your Active Effects tab.

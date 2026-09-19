@@ -38,8 +38,8 @@ File:ON-skill-Venom Skull.jpg|Venom Skull
 File:ON-skill-Ricochet Skull.jpg|Ricochet Skull
 
 ## Patch Notes
-* The bonus damage from this ability and morphs' third cast has now been built into their damage coefficients, rather than as a bonus modifier effect. This will clean up some calculation errors that result in less damage than intended when stacking multiple bonuses.
-* Increased the damage bonus of the 3rd cast for this ability and its morphs to 50%, up from 20%.
+[Patch 7.1.5] * The bonus damage from this ability and morphs' third cast has now been built into their damage coefficients, rather than as a bonus modifier effect. This will clean up some calculation errors that result in less damage than intended when stacking multiple bonuses.
+[Patch 9.0.5] * Increased the damage bonus of the 3rd cast for this ability and its morphs to 50%, up from 20%.
 ESO Patch Note|11.0.5|* This ability and its morphs will now generate a corpse on their 3rd cast, near where the targeted enemy was.
 - Venom Skull: The corpse generation for this effect has a 3 second cooldown to mitigate how easy it is to reach the summon/corpse limit.
-* Resolved the issue where corpses generated from this ability and its morphs could not be replaced, causing you to quickly reach the summon limit and be unable to activate other summon abilities.
+[Patch 11.1.5] * Resolved the issue where corpses generated from this ability and its morphs could not be replaced, causing you to quickly reach the summon limit and be unable to activate other summon abilities.

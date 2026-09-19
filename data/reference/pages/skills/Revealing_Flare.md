@@ -45,7 +45,7 @@ ESO Patch Note|2.1.4|* Increased the travel speed of this ability's projectile, 
 - Scorching Flare (morph): Increased the damage of this ability by 125%.
 ESO Patch Note|2.3.5|* This ability and its morphs now snare any enemy revealed from stealth or invisibility by 50% for 3 seconds.
 - Reduced the time this ability and its morphs prevent a revealed enemy from returning to stealth or invisibility to 3 seconds from 8 seconds.
-* Reduced the cost of this ability and its morphs by 50%.
+[Patch 2.7.5] * Reduced the cost of this ability and its morphs by 50%.
 ESO Patch Note|5.1.5|* Adjusted this ability to behave more closely to other reveals, such as Magelight or Expert Hunter.
 - The flare now lingers in the area where cast for 5 seconds, rather than being instantaneous.
 - Increased the base cost to 5400 from 1889, which ranks down to 5130.

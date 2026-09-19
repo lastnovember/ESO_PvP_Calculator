@@ -21,8 +21,8 @@ Continuous Attack gives you increased damage and Magicka and Stamina recovery ea
 - The Mount Speed bonus applies even outside of Cyrodiil.
 
 ## Patch Notes
-* Fixed an issue where the weapon damage for this ability was not displaying properly in the character panel after a load screen.
-* Fixed an issue where this passive wasn't applying when capturing a farm, keep, mine, or lumber mill.
-* This passive now grants Spell Damage in addition to Weapon Damage.
-* The bonus applied by this passive ability is now removed when you leave Cyrodiil.
-* This passive now always grants Major Gallop when purchased at rank 1 or 2. Note that you do not need to be in Cyrodiil to gain this effect! This means once you purchase the passive at any rank, you will always have Major Gallop active on you regardless of where you are.
+[Patch 1.1.4] * Fixed an issue where the weapon damage for this ability was not displaying properly in the character panel after a load screen.
+[Patch 1.5.2] * Fixed an issue where this passive wasn't applying when capturing a farm, keep, mine, or lumber mill.
+[Patch 2.1.4] * This passive now grants Spell Damage in addition to Weapon Damage.
+[Patch 3.2.5] * The bonus applied by this passive ability is now removed when you leave Cyrodiil.
+[Patch 6.3.5] * This passive now always grants Major Gallop when purchased at rank 1 or 2. Note that you do not need to be in Cyrodiil to gain this effect! This means once you purchase the passive at any rank, you will always have Major Gallop active on you regardless of where you are.

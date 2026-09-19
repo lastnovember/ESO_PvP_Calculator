@@ -42,23 +42,23 @@ File:ON-skill-Death Stroke over120.jpg|Death Stroke and its morphs' over 120 Ult
 File:ON-skill-Incapacitating Strike hit.jpg|Incapacitating Strike hit visual
 
 ## Patch Notes
-* This ability no longer receives the critical damage bonus when used as a sneak attack. It will still cause a stun and a guaranteed critical hit.
+[Patch 1.1.2] * This ability no longer receives the critical damage bonus when used as a sneak attack. It will still cause a stun and a guaranteed critical hit.
 ESO Patch Note|1.5.2|* This ability now deals 35% increased damage, and no longer scales up with increased Ultimate.
 - Death Stroke now increases the damage you deal to a target by 20% for 6 seconds.
-* Death Stroke and its morphs will now apply the Major Defile buff.
+[Patch 1.6.5] * Death Stroke and its morphs will now apply the Major Defile buff.
 ESO Patch Note|2.4.5|* Reduced the damage of this ability and its morphs by 4.5%.
 - Incapacitating Strike: This morph now always stuns the target when it is used, regardless of the caster's health. This morph now also deals Disease Damage instead of Magic Damage.
 ESO Patch Note|2.7.5|* Increased the cost of this ability and its morphs to 70 Ultimate from 50 Ultimate.
 - Developer Comments: With the Nightblade's high Ultimate generation, Death Stroke is available too frequently for how powerful it is. Increasing the cost keeps its current burst potential while making Nightblades think more tactically about when to use it.
-* Fixed an issue where this ability and the Soul Harvest morph's damage was being mitigated off the target's Physical Resistance instead of their Spell Resistance.
-* Soul Harvest: Fixed an issue where you could not dodge this morph.
-* This ability now only stuns if you have 120 Ultimate or more. To visually show its readiness state, the icon will change to a recolored version and the animation of the cast will change.
+[Patch 3.0.5] * Fixed an issue where this ability and the Soul Harvest morph's damage was being mitigated off the target's Physical Resistance instead of their Spell Resistance.
+[Patch 3.3.5] * Soul Harvest: Fixed an issue where you could not dodge this morph.
+[Patch 4.1.5] * This ability now only stuns if you have 120 Ultimate or more. To visually show its readiness state, the icon will change to a recolored version and the animation of the cast will change.
 ESO Patch Note|5.0.5|* This ability and the Incapacitating Strike morph will no longer apply Major Defile to the target.
 - Developer Comment: Death Stroke has been notorious for being a very potent Ultimate. We wanted to retain this ability's identity as a mark for death on your target, helping the Nightblade excel at assassinating high priority targets while reducing some of the over bearing nature it enables. You'll note that Soul Harvest has been left untouched, which is due to the morph only granting a conditional bonus previously. Now, Soul Harvest offers a guaranteed bonus with a conditional, while Incapacitating Strike doubles down on offering two powerful conditional bonuses.
 - Incapacitating Strike (morph): This morph will now Silence the enemy for 3 seconds if cast with 120 or more Ultimate. This Silence can be CC broken, and will fail to apply to CC immune enemies.
 - Developer Comment: The goal with the change to Incapacitating Strike's conditional bonus was to tone down some of the shut-down mechanic to it, since Silences are essentially stuns that allow the target to continue moving, blocking, and dodging. We are aware of the nature that Silences have in terms of effectiveness on varying builds, which is why we found the ability to CC break this effect would be an ideal compromise; it still has the counter play options of a traditional stun, but no longer needs to always be broken.
-* Incapacitating Strike: This Ultimate no longer silences the target, but instead stuns them for 3 seconds if cast with 120 or more Ultimate. This change was primarily done to fix an issue where the unique silence applied from this ability conflicted with some recent hard-coded block behaviors.
-* Incapacitating Strike: Fixed an issue where you could continue to move while under the effects of this Ultimate's stun.
+[Patch 5.3.6] * Incapacitating Strike: This Ultimate no longer silences the target, but instead stuns them for 3 seconds if cast with 120 or more Ultimate. This change was primarily done to fix an issue where the unique silence applied from this ability conflicted with some recent hard-coded block behaviors.
+[Patch 5.3.7] * Incapacitating Strike: Fixed an issue where you could continue to move while under the effects of this Ultimate's stun.
 ESO Patch Note|9.0.5|* Death Stroke: Increased the duration of this Ultimate and morphs' debuffs to 8 seconds, up from 6.
 - Developer Comment: For the masters of assassination, the Nightblade class is a little bit further behind in single target damage than we'd like. We're increasing the uptime on this debuff to help Nightblades get more DPS and kill potential on priority targets.
 ESO Patch Note|9.3.5|* Incapacitating Strike: Increased the damage done of the enhanced version of this Ultimate by 10% and extended the duration of its effects to 12 seconds, up from 8. This Ultimate no longer grants Reave for slotting.

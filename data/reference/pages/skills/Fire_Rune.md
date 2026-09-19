@@ -56,8 +56,8 @@ ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the fo
 - Scalding Rune: The damage-over-time effect for this ability no longer stacks.
 ESO Patch Note|1.5.2|* Fixed an issue where this ability would play the explosion graphical effect over and over if an enemy got within range of the trap while behind a wall.
 - Volcanic Rune: This ability no longer creates multiple projectiles when cast back to back.
-* Updated the visual effects for Fire Run and both morphs.
-* Volcanic Rune: Fixed an issue where this ability could push targets to areas where they get stuck.
+[Patch 1.6.5] * Updated the visual effects for Fire Run and both morphs.
+[Patch 2.1.4] * Volcanic Rune: Fixed an issue where this ability could push targets to areas where they get stuck.
 ESO Patch Note|2.2.4|* Fixed an issue where several damage over time effects were not allowing multiple casters to apply their own stack. For example, previously if two player characters cast Scalding Rune at the same target, only one of those effects would apply damage over time to the target. This is now corrected for the following abilities:
 - Cripple
 - Trap Beast
@@ -67,16 +67,16 @@ ESO Patch Note|2.2.4|* Fixed an issue where several damage over time effects wer
 - Poisoned elemental status effect
 ESO Patch Note|2.7.5|* Increased the initial damage done by this ability and its morphs by approximately 11%.
 - Scalding Rune: Increased the damage of the Damage over Time component of this morph by an additional 33%.
-* This ability and its morphs are now hidden to enemy player characters.
-* Volcanic Rune: Fixed an issue where your character could slide on the ground after being knocked by this ability.
+[Patch 3.1.5] * This ability and its morphs are now hidden to enemy player characters.
+[Patch 4.2.5] * Volcanic Rune: Fixed an issue where your character could slide on the ground after being knocked by this ability.
 ESO Patch Note|5.1.5|* Increased the damage of this ability and its morphs by 25% for the initial hit, and reduced the base cost to 3240 from 4050.
 - Scaling Rune: Increased the Damage over Time of this morph by approximately 115% per tick.
 - Volcanic Rune: This morph no longer increases the duration of the stun as the ability ranks up, but instead reduces the cost of the ability, down to 2970 at Rank IV.
 ESO Patch Note|5.2.5|* Scalding Rune:
 - Reduced the damage per tick of this morph by approximately 36%.
-* Fixed an issue where this ability and its morphs' screen shake would multiply based on the amount of targets hit, causing your camera to violently shake.
-* This ability and its morph's traps now last for 15 seconds after their delay, rather than 30 seconds.
-* Fixed an issue where the explosion from this ability and its morphs couldn't be seen by enemies.
+[Patch 6.2.5] * Fixed an issue where this ability and its morphs' screen shake would multiply based on the amount of targets hit, causing your camera to violently shake.
+[Patch 7.1.5] * This ability and its morph's traps now last for 15 seconds after their delay, rather than 30 seconds.
+[Patch 8.0.5] * Fixed an issue where the explosion from this ability and its morphs couldn't be seen by enemies.
 ESO Patch Note|8.1.5|* Scalding Rune (morph):
 - Increased the duration of this morph's damage over time to 22 seconds, up from 12 seconds.
 - Reduced the damage per tick by approximately 12%

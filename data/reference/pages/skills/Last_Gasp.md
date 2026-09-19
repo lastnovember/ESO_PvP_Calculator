@@ -18,4 +18,4 @@ linerank2=50
 Last Gasp increases your Maximum Health.
 
 ## Patch Notes
-* This passive now increases your Max Health by 1206/2412, up from 625/1250.
+[Patch 11.0.5] * This passive now increases your Max Health by 1206/2412, up from 625/1250.

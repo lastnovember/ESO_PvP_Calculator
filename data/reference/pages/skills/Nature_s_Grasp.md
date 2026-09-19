@@ -39,19 +39,19 @@ File:ON-skill-Nature's Grasp Pet Glow.jpg|Green glow while targeting a Companion
 File:ON-skill-Nature's Grasp Friendly Player Glow.jpg|Light Blue glow while targeting a Friendly Player.
 
 ## Patch Notes
-Imperial City]]. You can also no longer cast Nature's Grasp abilities to get back into respawn locations.
-* Fixed an issue where this ability and its morphs could be cast on certain critters.
-* Removed an erroneous tooltip from the Nature's Grasp Suppression effect from the list of Active Effects.
+[Patch 3.0.8] * You can no longer use Frozen Gate to pull other players into spawn locations in Imperial City. You can also no longer cast Nature's Grasp abilities to get back into respawn locations.
+[Patch 3.1.5] * Fixed an issue where this ability and its morphs could be cast on certain critters.
+[Patch 3.1.6] * Removed an erroneous tooltip from the Nature's Grasp Suppression effect from the list of Active Effects.
 ESO Patch Note|3.2.5|* Increased the range of this ability and its morphs to 28 meters from 22 meters.
 - Developer's Comments:Increasing this to match the range of other heal abilities in the game makes it easier to use and target allies who are spread out.
 - Bursting Vines: Increased the projectile speed for this morph by 100%, and increased the heal from this morph by 10%.
 - Developer's Comments: As this is a burst heal, we've significantly increased the travel speed to help it fulfill the role of saving a low-health ally. It heals for less than Rushed Ceremony, but has a cheaper cost.
 ESO Patch Note|4.0.5|* This ability and the Nature's Embrace morph now grant 3 Ultimate when the healing over time completes.
 - Bursting Vines: This morph now grants 10 Ultimate when used on an ally under 60% Health, and added a 4 second cooldown.
-* This ability can now target your Feral Guardian and its morphs.
-* This ability and its morphs now scale with your highest offensive stats, rather than just your Max Magicka and Spell Damage.
+[Patch 4.2.5] * This ability can now target your Feral Guardian and its morphs.
+[Patch 5.0.5] * This ability and its morphs now scale with your highest offensive stats, rather than just your Max Magicka and Spell Damage.
 ESO Patch Note|5.1.5|* Decreased the heal over time for this ability and its morphs by approximately 24% per tick.
 - Bursting Vines: Increased the burst heal by approximately 13%.
 ESO Patch Note|7.3.5|* Reduced the healing from this ability and the Nature's Embrace morph by 10%.
 - Bursting Vines (morph): Reduced the healing from this morph by 25% to ensure it is not stronger than other burst heal abilities, such as Rushed Ceremony.
-* Reduced the healing per tick of this ability and Nature's Embrace by approximately 33%.
+[Patch 8.1.5] * Reduced the healing per tick of this ability and Nature's Embrace by approximately 33%.

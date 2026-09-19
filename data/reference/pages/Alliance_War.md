@@ -6,7 +6,7 @@ License: CC BY-SA, UESP
 
 The Alliance War is the ongoing conflict between the Aldmeri Dominion, the Daggerfall Covenant, and the Ebonheart Pact to wrest control of the Ruby Throne from the Empire of Cyrodiil. Starting at Level 10, players will have the opportunity to join in the battle in Cyrodiil for their chosen alliance.
 
-Every player who enters Cyrodiil is given the Battle Spirit bonus, regardless of their level. On a player below Level 50 150, this also stacks with "battle leveling", which scales up their attributes, armor, and damage ratings in order to remain competitive.
+Every player who enters Cyrodiil is given the Battle Spirit bonus, regardless of their level. On a player below Level 50 CP150, this also stacks with "battle leveling", which scales up their attributes, armor, and damage ratings in order to remain competitive.
 
 Players are free to travel almost anywhere in the zone; exceptions include the Border Keep areas of the opposing alliances, which are inaccessible unless the interposing Artifact Gate is open. Attempting to bypass a closed Artifact Gate will result in instant death from scripted damage. However, when these gates are open, enemy players can gain access to the Border Keep area up to the walls of the Border Keep, including the now-accessible Scroll Temple. Conversely, the doors into the actual Border Keep are never accessible to players of the two opposing factions.
 

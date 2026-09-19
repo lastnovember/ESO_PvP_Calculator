@@ -34,9 +34,9 @@ Entropy deals Magic Damage over time to a single enemy. The Degeneration morph i
 - Damage ticks every 2 seconds.
 
 ## Patch Notes
-* Significantly decreased the cost and increased the damage for this ability and its morphs.
-* Fixed an issue where this ability's damage was erroneously scaling between Ranks I and II.
-* Updated the tooltip for this ability to more accurately display the amount of health restored.
+[Patch 1.1.2] * Significantly decreased the cost and increased the damage for this ability and its morphs.
+[Patch 1.2.3] * Fixed an issue where this ability's damage was erroneously scaling between Ranks I and II.
+[Patch 1.3.3] * Updated the tooltip for this ability to more accurately display the amount of health restored.
 ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the following ticking damage abilities.
 - Agony
 - Bat Swarm
@@ -51,12 +51,12 @@ ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the fo
 - Volley
 - Wall of Elements
 - All elemental procs
-* Fixed an issue where this ability wasn't displaying its projectile on every tick when returning health to the caster.
+[Patch 1.5.2] * Fixed an issue where this ability wasn't displaying its projectile on every tick when returning health to the caster.
 ESO Patch Note|1.6.5|* Entropy now grants you the Major Sorcery buff for 20 seconds when cast.
 - Increased the damage over time component of this ability by 20%.
-* Fixed an issue where casting this ability was activating the cooldown for some consumables, such as food and potions.
-* Updated this ability's tooltip to state the duration of the Major Sorcery bonus.
-* Fixed an issue where you could dodge individual damage over time ticks from this ability and its morphs.
+[Patch 2.1.6] * Fixed an issue where casting this ability was activating the cooldown for some consumables, such as food and potions.
+[Patch 2.2.4] * Updated this ability's tooltip to state the duration of the Major Sorcery bonus.
+[Patch 4.0.5] * Fixed an issue where you could dodge individual damage over time ticks from this ability and its morphs.
 ESO Patch Note|5.1.5|* Redesigned this ability and its morphs to operate as a DoT, rather than the strange HoT/DoT/Buff hybrid it previously was.
 - Increased the cost of these abilities to 2970 from 1620 at base.
 - Entropy and Degeneration no longer heal over time.
@@ -69,7 +69,7 @@ ESO Patch Note|5.2.5|* This ability and the Structured Entropy morph no longer g
 - Reduced the base cost of these abilities to 2700, down from 2970.
 - Degeneration (morph):
 - This morph no longer grants Magicka back when hitting an enemy affected by the Damage over Time, but continues to grant Major Sorcery for its original duration.
-* Fixed an issue where this ability and its morphs could cause your next animation to hitch or jitter.
+[Patch 6.3.5] * Fixed an issue where this ability and its morphs could cause your next animation to hitch or jitter.
 ESO Patch Note|8.1.5|* Increased the duration of this ability and its morphs to 20 seconds, up from 10.
 - Reduced the damage per tick by approximately 23%.
 - Structured Entropy (morph): Increased the coefficient of the healing portion of this morph by approximately 9% to match the damage coefficient.

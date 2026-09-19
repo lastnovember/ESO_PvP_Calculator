@@ -44,16 +44,16 @@ ESO Patch Note|5.1.5|* Increased the base cost to 4320 from 2430, and increased 
 - Skeletal Archer:
 - The archer's base damage no longer ranks up by 1.1% per rank.
 - Reduced the scaling bonus to 2% per hit from 10%, which ranks up to 5% at Rank IV.
-* Decreased the damage per hit of this ability and its morphs by 40%.
+[Patch 5.2.5] * Decreased the damage per hit of this ability and its morphs by 40%.
 ESO Patch Note|5.3.4|* Due to many mechanical issues with the Necromancer's engagement with corpses and targeting of corpses, the following changes have been made in hopes to alleviate some of these shortcomings:
 - Blastbones and its morphs' corpses will now last 6 seconds, rather than 5 seconds.
 - Skeletal Mage and Spirit Mender and their morphs' corpses will now last 10 seconds, rather than 5 seconds.
 - Improved the targeting areas from all tether abilities, and will now link to the corpse closest to your reticle from a much larger radius.
 - Developer Comment: The goal of these changes is to help reduce situations where tether abilities do not grab a corpse in high combat load, as well as making it easier for Necromancers to feel in control of the amount of corpses on the field when utilizing their corpse generating abilities.
-* Skeletal Archer (morph): Fixed an issue where this morph's damage was not increasing per attack as stated.
+[Patch 7.3.5] * Skeletal Archer (morph): Fixed an issue where this morph's damage was not increasing per attack as stated.
 ESO Patch Note|8.1.5|* This ability and its morphs now last for 20 seconds, up from 16.
 - Reduced the cost of these abilities to 2970, down from 4320.
 - Skeletal Arcanist (morph): Increased the radius of the splash damage to 5 meters, up from 4.
 - Skeletal Archer (morph): Increased the damage done per stack to up to 15%, up from 5%.
-* Skeletal Archer (morph): Fixed an issue where the damage boost from this morph would fail to apply if the damage was blocked.
-* This ability and its morphs now also grant you Major Brutality and Sorcery for their active duration. Such audacious manipulation of death fuels your desire for more of it.
+[Patch 8.3.5] * Skeletal Archer (morph): Fixed an issue where the damage boost from this morph would fail to apply if the damage was blocked.
+[Patch 10.1.5] * This ability and its morphs now also grant you Major Brutality and Sorcery for their active duration. Such audacious manipulation of death fuels your desire for more of it.

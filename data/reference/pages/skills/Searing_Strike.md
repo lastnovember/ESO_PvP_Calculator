@@ -39,7 +39,7 @@ Searing Strike deals Fire Damage to an enemy and applies fire damage over time. 
 File:ON-skill-Venomous_Claw.jpg|Venomous Claw
 
 ## Patch Notes
-* Burning Embers: This ability now heals you if your enemy target dies while affected by it.
+[Patch 1.1.2] * Burning Embers: This ability now heals you if your enemy target dies while affected by it.
 * Burning Embers: This ability's heal no longer stacks multiplicatively when multiple player characters cast it on the same target.
 ESO Patch Note|1.6.5|* Increased the damage over time effect applied by all ranks and morphs of this ability by approximately 15%.
 - Unstable Flame: This ability now scales off Stamina and Attack Power and costs Stamina. Damage is mitigated by your target's armor.
@@ -48,10 +48,10 @@ ESO Patch Note|2.3.5|* Burning Embers:
 - The heal from this morph now applies immediately if it is recast on the same target.
 ESO Patch Note|2.4.5|* Unstable Flame: Renamed this morph to Venomous Claw. In addition, this morph now deals Poison Damage instead of Flame Damage.
 - Venomous Claw: This morph now has a new icon.
-* Venomous Claw: Fixed an issue where the damage over time did not increment in damage if multiple Dragonknights cast the same rank of this morph on the same target.
-* Burning Embers: Fixed an issue where Rank IV of this morph was not allowing multiple Dragonknights to apply the Damage over Time component to the same target.
-* The initial direct damage from this ability and its morphs can now be blocked and dodged.
-* Adjusted this ability and its morphs to follow our standardized Damage Over Time ruleset. Decreased the total duration to 8 seconds from 8.5 seconds, and increased the damage per tick by approximately 12.5% to make up for the loss of the first tick. This will result in roughly the same overall DPS, but with less burst damage.
+[Patch 2.6.4] * Venomous Claw: Fixed an issue where the damage over time did not increment in damage if multiple Dragonknights cast the same rank of this morph on the same target.
+[Patch 2.7.5] * Burning Embers: Fixed an issue where Rank IV of this morph was not allowing multiple Dragonknights to apply the Damage over Time component to the same target.
+[Patch 3.3.5] * The initial direct damage from this ability and its morphs can now be blocked and dodged.
+[Patch 5.0.5] * Adjusted this ability and its morphs to follow our standardized Damage Over Time ruleset. Decreased the total duration to 8 seconds from 8.5 seconds, and increased the damage per tick by approximately 12.5% to make up for the loss of the first tick. This will result in roughly the same overall DPS, but with less burst damage.
 ESO Patch Note|5.1.5|* Fixed an issue where the visual effects from this ability and its morphs would fail to apply if the target was blocking.
 - Increased cost to 2160 from 1350.
 - Increased the DoT damage by approximately 26% per tick.
@@ -61,7 +61,7 @@ ESO Patch Note|5.2.5|* This ability and its morphs now last 10 seconds at base, 
 - Reduced the damage per tick of the Damage over Time portion of the ability by approximately 47%.
 - Venomous Claw (morph):
 - Increased the ramping bonus damage per tick of this morph to 17/18/19/20%, up from 9/10/11/12%.
-* Burning Embers: Fixed an issue where the heal from this ability was not working when utilizing Searing Heat and Elfbane at the same time.
+[Patch 5.3.8] * Burning Embers: Fixed an issue where the heal from this ability was not working when utilizing Searing Heat and Elfbane at the same time.
 ESO Patch Note|7.3.5|* Burning Embers (morph):
 - This ability now heals for up to 100% of the damage done any time it deals damage, rather than up to 75% of the total damage done when the effect ends.
 - Fixed an issue where this morph's heal could critically strike, despite being based off of damage that could already critically strike.
@@ -73,7 +73,7 @@ ESO Patch Note|8.1.5|* Increased the duration of this ability and its morphs to 
 - Burning Embers (morph): Increased the amount of healing this morph allows to up to 100% of the damage caused, up from 50%.
 - Developer Comment: The previous reduction was made as a stop gap before this pass could be completed. Now that the ability deals less damage per tick, we feel comfortable bumping it back up.
 - Venomous Claw (morph): This morph now increases damage done per tick by 9 - 12%, down from 17 - 20%, as it now stacks up for longer to a higher value.
-* Reduced the base cost of this ability and morphs to 2295, down from 2970.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.0.5] * Reduced the base cost of this ability and morphs to 2295, down from 2970.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
 
 Skill

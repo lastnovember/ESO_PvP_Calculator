@@ -36,8 +36,8 @@ File:ON-skill-Mass Hysteria.jpg|Mass Hysteria morph extra visuals
 File:ON-skill-Manifestation of Terror.jpg|A trap created by Manifestation of Terror
 
 ## Patch Notes
-* Manifestation of Terror: The wraith summoned by using this ability no longer has collision.
-* Mass Hysteria: This ability now displays a snare graphic on affected targets.
+[Patch 1.3.3] * Manifestation of Terror: The wraith summoned by using this ability no longer has collision.
+[Patch 1.5.2] * Mass Hysteria: This ability now displays a snare graphic on affected targets.
 ESO Patch Note|1.6.5|* Added a new animation to the following abilities to better communicate that you are feared:
 - Aspect of Terror
 - Werewolf Transformation
@@ -68,10 +68,10 @@ ESO Patch Note|3.2.5|* Fixed an issue with this ability and its morphs where the
 ESO Patch Note|4.0.5|* Manifestation of Terror:
 - Reduced the arming time of the traps created by this morph to 2 seconds from 3 seconds.
 - Fixed an issue where the traps created by this morph would not trigger if an enemy walked over the trap while they were blocking. The traps will now always trigger if an enemy that is able to be feared walks over them, and will not trigger if the enemy is unable to be feared.
-* Decreased the duration of the snare from this ability and its morphs to 2 seconds from 4 seconds.
+[Patch 4.1.5] * Decreased the duration of the snare from this ability and its morphs to 2 seconds from 4 seconds.
 ESO Patch Note|5.0.5|* This ability and its morphs no longer snare the target after the fear ends. Aspect of Terror now fears up to 3 enemies, up from 2.
 - Mass Hysteria (morph): This morph no longer applies Minor Maim to the targets affected. Also increased the number of feared targets to 6 enemies from 2.
-* Fixed an issue where this ability and its morphs would fail to display effects if animation canceled.
+[Patch 5.2.5] * Fixed an issue where this ability and its morphs would fail to display effects if animation canceled.
 ESO Patch Note|8.1.5|* This ability and its morphs now apply Major Cowardice to enemies hit for 10 seconds. Increased the target cap of this ability to 6, up from 3.
 - Mass Hysteria (morph): This morph now removes the target cap from the ability.
 - Manifestation of Terror (morph):

@@ -18,5 +18,5 @@ linerank2=50
 Battle Rush increases your Stamina Recovery for a short time whenever you kill an enemy with a Two Handed weapon.
 
 ## Patch Notes
-* Increased the duration of this ability's stamina recovery and decreased the recovery amount. The total amount of stamina recovered will generally be slighter higher than before, and less prone to being reduced by hitting diminishing returns.
-* Corrected a typo in this passive ability's tooltip.
+[Patch 1.1.2] * Increased the duration of this ability's stamina recovery and decreased the recovery amount. The total amount of stamina recovered will generally be slighter higher than before, and less prone to being reduced by hitting diminishing returns.
+[Patch 1.2.3] * Corrected a typo in this passive ability's tooltip.

@@ -21,8 +21,8 @@ linerank3=30
 Dexterity increases your Critical Damage and Critical Healing for each piece of Medium Armor you are wearing, for up to a 14% bonus.
 
 ## Patch Notes
-* This passive was changed to be approximately on par with the Spell Critical Rating gained by the Light Armor passive Prodigy.
-* Fixed an issue where this passive ability was granting less Critical Strike Chance than intended.
+[Patch 1.6.5] * This passive was changed to be approximately on par with the Spell Critical Rating gained by the Light Armor passive Prodigy.
+[Patch 2.3.5] * Fixed an issue where this passive ability was granting less Critical Strike Chance than intended.
 ESO Patch Note|7.1.5|* The following passives and player abilities now grant hybrid stats to help improve their viability and accessibility to off-meta builds, because we love them too:
 - Agility: Now grants equal Weapon and Spell Damage.
 - Balanced Warrior:

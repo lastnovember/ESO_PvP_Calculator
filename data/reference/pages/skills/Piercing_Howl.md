@@ -39,7 +39,7 @@ ESO Patch Note|1.5.2|* Added some new werewolf abilities:
 - Hircine's Bounty: This ability is a large heal that costs magicka.
 - Infectious Claws: This ability instantly deals damage to all enemies in front of you and causes disease damage over time.
 - Piercing Howl: This ability deals high damage and stuns your enemy.
-* Feeding Frenzy (synergy): The Synergy prompt for this ability will now properly disappear when you can no longer use it.
+[Patch 1.6.5] * Feeding Frenzy (synergy): The Synergy prompt for this ability will now properly disappear when you can no longer use it.
 ESO Patch Note|4.1.5|* This ability and its morphs no longer stun the target.
 - Decreased the cost of this ability and its morphs to 3510 Stamina from 4050.
 - Updated the visual effects for this ability and its morphs.
@@ -48,8 +48,8 @@ ESO Patch Note|5.1.5|* Reduced the cost of this ability to 2869 from 3510, and r
 - Howl of Agony: This morph no longer ranks up in 1.1% damage, but instead increases the damage dealt on a Feared target, up to 33%.
 ESO Patch Note|6.0.5|* This ability and its morphs now deal 10% more damage to enemies who are facing you.
 - Howl of Agony (morph): Decreased the damage bonus of this morph to 25%, down from 33%, but it now also works on enemies who are facing you.
-* Howl of Agony (morph): Fixed an issue where this ability's bonus damage to the target facing you could fail to work in many situations.
-* Fixed an issue where this ability and its morphs were not properly updating their facing requirements to your current target.
+[Patch 7.3.5] * Howl of Agony (morph): Fixed an issue where this ability's bonus damage to the target facing you could fail to work in many situations.
+[Patch 8.1.5] * Fixed an issue where this ability and its morphs were not properly updating their facing requirements to your current target.
 ESO Patch Note|8.3.5|* Feeding Frenzy (morph): This synergy now grants Minor Force and Empower for 10 seconds, rather than only Empower for 5 seconds.
 - Howl of Despair (morph): This morph now allows the caster to self-synergize Feeding Frenzy.
 ESO Patch Note|10.0.5|* This ability and its morphs no longer deal 10% bonus damage to enemies that are facing them, and instead deal 10% bonus damage to enemies that are Terrified.

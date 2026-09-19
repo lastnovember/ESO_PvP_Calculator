@@ -16,4 +16,4 @@ linerank1=39
 linerank2=50
 
 ## Patch Notes
-* This passive now increases your Offensive Penetration per Herald of the Tome ability slotted by 620/1240, up from 495/991.
+[Patch 10.3.5] * This passive now increases your Offensive Penetration per Herald of the Tome ability slotted by 620/1240, up from 495/991.

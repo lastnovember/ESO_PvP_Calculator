@@ -44,7 +44,7 @@ File:ON-skill-Mystic Orb.jpg|A Mystic Orb
 File:ON-skill-Energy Orb.jpg|An Energy Orb
 
 ## Patch Notes
-* Activating the Intensify synergy no longer makes all Energy Orbs (Necrotic Orb morph) in the area explode.
+[Patch 1.3.3] * Activating the Intensify synergy no longer makes all Energy Orbs (Necrotic Orb morph) in the area explode.
 ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the following ticking damage abilities.
 - Agony
 - Bat Swarm
@@ -62,8 +62,8 @@ ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the fo
 ESO Patch Note|1.6.5|* Increased the damage per tick dealt by this ability by 30%.
 - Energy Orb: This ability now heals allies instead of damaging enemies. Activating the Synergy for this morph triggers a power area of effect heal and destroys the orb.
 - Updated the visual effects for Necrotic Orb.
-* Fixed an issue with this ability and its morphs that was allowing multiple player characters to use the synergy of a single orb. Now, only one synergy can be activated for each orb. This ability can now also travel further over hilly terrain.
-* Energy Orb: Fixed an issue where you could unintentionally trigger the synergy multiple times per single cast.
+[Patch 2.1.4] * Fixed an issue with this ability and its morphs that was allowing multiple player characters to use the synergy of a single orb. Now, only one synergy can be activated for each orb. This ability can now also travel further over hilly terrain.
+[Patch 2.2.4] * Energy Orb: Fixed an issue where you could unintentionally trigger the synergy multiple times per single cast.
 ESO Patch Note|2.2.5|* Adjusted several abilities to improve overall game performance. Affected abilities will now tick less frequently, but deal more damage such that overall damage should remain constant. The affected abilities include:
 - Blazing Spear
 - Consuming Darkness and its morphs
@@ -82,7 +82,7 @@ ESO Patch Note|2.3.5|* Fixed an issue with the synergies of this ability and its
 ESO Patch Note|3.0.5|* Necrotic Orb: The synergy from this ability and its morphs now restore Stamina or Magicka to the synergy-user, whichever resource pool is larger. The amount restored is now based on your character level instead of your Max Resource. The synergy also has a shared cooldown with the Spear Shards synergy.
 - Developer Comments: This allows classes other than Templars to bring a powerful resource restore synergy to the group as a substitute to Spear Shards.
 - Mystic Orb: This morph now increases the damage the orb deals.
-Spear Shards]] and Necrotic Orb's synergy had different names.
+[Patch 3.1.5] * Fixed an issue where the cooldown buff from Spear Shards and Necrotic Orb's synergy had different names.
 ESO Patch Note|3.3.5|* Combustion and Healing Combustion (synergies)
 - Fixed an issue where using the synergy would not explode the closest orb to you.
 ESO Patch Note|5.1.5|* Reduced the base cost of this ability and its morphs to 3780 from 4590.

@@ -18,8 +18,8 @@ linerank2=34
 Forceful causes you to hit up to three additional targets whenever you perform a standard light or heavy attack with a Two Handed weapon.
 
 ## Patch Notes
-* This passive now applies splash damage to two targets instead of one.
+[Patch 1.5.2] * This passive now applies splash damage to two targets instead of one.
 ESO Patch Note|3.0.5|* This passive ability now deals splash damage to 3 targets, up from 2, and the splash damage has been increased to 25/50% from 13/25%.
 - Developer Comment: This change will improve the area of effect damage of Two Handed builds by giving them similar splash damage to Lightning Staves. Two Handed builds will have stronger Light Attack splash damage, while Lightning Staves will still have the strongest Heavy Attack splash damage.
-* The damage dealt by this passive ability will no longer double dip in damage modifiers, and will no longer critically strike.
-* Increased the splash damage of this passive to 50/100% of damage done with Light and Heavy Attacks, up from 25/50%.
+[Patch 3.2.5] * The damage dealt by this passive ability will no longer double dip in damage modifiers, and will no longer critically strike.
+[Patch 8.1.5] * Increased the splash damage of this passive to 50/100% of damage done with Light and Heavy Attacks, up from 25/50%.

@@ -35,17 +35,17 @@ File:ON-skill-Forward_Momentum.jpg|Forward Momentum's ground effect
 File:ON-skill-Rally heal.jpg|Rally heal visual
 
 ## Patch Notes
-* Rally: Increased the self-healing amount granted at the end of this ability.
+[Patch 1.1.2] * Rally: Increased the self-healing amount granted at the end of this ability.
 ESO Patch Note|1.5.2|* This ability now gives a flat 20% bonus to power instead of increasing over time.
 - This ability will now heal you while it's active, and the duration has been increased to 30 seconds.
 - Rally: This ability now gains an increased heal value over time, instead of healing for a flat value. This ability can also be activated at any time to instantly heal you.
-* Fixed an issue where the heal from this ability could be blocked or dodged.
+[Patch 1.5.4] * Fixed an issue where the heal from this ability could be blocked or dodged.
 ESO Patch Note|1.6.5|* All ranks and morphs of Momentum now all apply the Major Brutality buff.
 - Forward Momentum: Reduced the cost of this ability. This ability also now prevents you from becoming snared or immobilized, and lasts for 3.5 seconds at Rank IV.
 - Rally: Fixed an issue where casting Rally while crouching and hidden will no longer guarantee you to proc a critical heal.
 ESO Patch Note|2.3.5|* Fixed an issue with this ability and the Forward Momentum morph where the heal over time would always critically strike if the caster was crouched.
 - Rally: Fixed an issue where the final heal value from this morph would sometimes be significantly lower than intended.
-* Forward Momentum: Increased the duration of the snare and immobilization immunity provided by this morph to 5/6/7/8 seconds at Ranks I/II/III/IV from 2/2.5/3/3.5 seconds.
+[Patch 2.4.5] * Forward Momentum: Increased the duration of the snare and immobilization immunity provided by this morph to 5/6/7/8 seconds at Ranks I/II/III/IV from 2/2.5/3/3.5 seconds.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Uppercut
 - Critical Charge
@@ -53,14 +53,14 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Reverse Slash
 - Momentum
 - Developer Comment: This change is aimed at newer players. Our intention for this weapon line and the ones below is getting players into the habit of using their primary damage ability as soon as possible.
-* Forward Momentum: Reduced the duration of the snare immunity from this ability to 4 seconds from 8 seconds.
-* Fixed an issue where the healing from this ability and its morphs were unintentionally procing melee attack-related requirements.
+[Patch 4.2.5] * Forward Momentum: Reduced the duration of the snare immunity from this ability to 4 seconds from 8 seconds.
+[Patch 4.3.5] * Fixed an issue where the healing from this ability and its morphs were unintentionally procing melee attack-related requirements.
 ESO Patch Note|5.1.5|* Reduced the duration of this ability and its morphs to 20 seconds from 30 seconds.
 - Reduced the cost to 3780 from 4050.
 - This ability and its morphs will no longer apply a heal over time to you, but instead will grant Minor Endurance for the duration of the Major Brutality.
 - Forward Momentum: This morph now reduces in cost as the ability ranks up.
 - Rally: Increased the baseline heal from this ability by 100%, but reduced the maximum scaling bonus to 300% from 564%. The heal will now require the full 20 second duration to reach the maximum bonus, instead of reaching its maximum bonus 70% of the way through.
-* Fixed an issue where the animation of this ability would fail to display if you had a longer source of Major Brutality on your character.
+[Patch 5.2.5] * Fixed an issue where the animation of this ability would fail to display if you had a longer source of Major Brutality on your character.
 ESO Patch Note|7.0.5|* Rally (morph):
 - Fixed an issue where this ability's initial cast was not considered a heal in some cases.
 - Made numerous improvements to this ability's stacking heal bonus to reduce the cases where the bonus to the heal would remain or be lost in cases where it shouldn't.

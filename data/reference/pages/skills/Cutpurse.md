@@ -18,4 +18,4 @@ Cutpurse gives Khajiit a natural affinity for Medium Armor, allowing them to gai
 - Prior to Update 11, this skill was called "Medium Armor Expertise", and had no effect on pickpocketing.
 
 ## Patch Notes
-* Medium Armor Expertise: This passive ability has been renamed to "Cutpurse." Also, in addition to the current benefit it now increases your chance to successfully pickpocket by 5%.
+[Patch 2.5.5] * Medium Armor Expertise: This passive ability has been renamed to "Cutpurse." Also, in addition to the current benefit it now increases your chance to successfully pickpocket by 5%.

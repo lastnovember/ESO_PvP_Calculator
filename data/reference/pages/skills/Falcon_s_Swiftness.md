@@ -48,4 +48,4 @@ ESO Patch Note|4.2.5|* Fixed an issue where part of the visual effects from this
 ESO Patch Note|5.0.5|* Reduced the cost of this ability and its morphs to 2700 from 3511 at base.
 - This ability no longer grants Major Endurance.
 - Major Expedition now lasts 6 seconds, up from 4 seconds. Note this ability is now considered a "rule breaker", since it breaks the paradigm of Major Expedition lasting 4 seconds.
-* This ability and its morphs now also grant 4 seconds of snare and immobilization immunity after activating.
+[Patch 8.1.5] * This ability and its morphs now also grant 4 seconds of snare and immobilization immunity after activating.

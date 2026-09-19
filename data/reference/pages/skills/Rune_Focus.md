@@ -35,7 +35,7 @@ Rune Focus creates a rune which increases your resistances and heals you while i
 - Channeled Focus is a recommended morph for the Templar Initiate, Gleaming Champion and Beacon of Hope builds.
 
 ## Patch Notes
-* Channeled Focus: Fixed an issue where Channeled Focus was not giving the intended amount of magicka.
+[Patch 1.1.2] * Channeled Focus: Fixed an issue where Channeled Focus was not giving the intended amount of magicka.
 ESO Patch Note|1.6.5|* Rune Focus now applies the Major Resolve and Major Ward buffs for 12 seconds, and the buff will persist for 8 seconds after you leave the protected area.
 - Channeled Focus: Reduced the cost of this ability by approximately 40%.
 - Restoring Focus: This ability now provides the Minor Vitality buff while inside the rune.
@@ -44,7 +44,7 @@ ESO Patch Note|2.3.5|* Revised the tooltips for this ability and its morphs to i
 - Focused Healing: This passive ability now grants you the Major Mending buff while standing in your own Cleansing Ritual, Rune Focus, or Rite of Passage area effects and for up to 2/4 seconds after leaving them at Ranks I/II, instead of granting you 15/30% more healing to allies standing in your own Cleansing Ritual, Rune Focus, or Rite of Passage.
 ESO Patch Note|3.0.5|* Sacred Ground: This passive ability now grants Minor Mending instead of Major Mending when you are standing in your Cleansing Ritual, Rune Focus, or Rite of Passage areas of effect.
 - Developer Comments: With a similar goal to reducing uptime on Major Mending as noted with the Igneous Shield change, Templars having 100% uptime on Major Mending by just standing within their areas of protection is stronger than we'd like and is one of the reasons they are the most desirable healer in endgame situations. We've changed the bonus to Minor Mending instead, but have increased the bonus from the Mending passive to compensate slightly.
-* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
+[Patch 3.1.5] * In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
 ESO Patch Note|4.1.5|* This ability and its morphs now apply Major Ward, Major Resolve, and all morph effects to you directly for 20 seconds at Rank IV.
 - Standing within the area of effect now increases the Major Ward and Major Resolve effects by 50%.
 - Developer Comments: The new design of Rune Focus more closely matches the fast action combat, while still preserving the original feel of an area of protection.
@@ -78,7 +78,7 @@ ESO Patch Note|7.0.5|* The following abilities have received significant adjustm
 - This morph now increases the healing done by 25% and ranks up in healing done by 1.1% per rank, rather than duration (note the duration remains at 20 seconds due to the base ability duration increasing).
 - Increased the Stamina restored per tick to 242, up from 240.
 - Reduced the base cost to 918, down from 920, to ensure it meets the 15% standard cost reduction of Stamina based abilities. That 2 Stamina may save your life one day, just maybe.
-* Fixed an issue where this ability and morphs' heal could require you to exit and re-enter the area to benefit from if you recast the ability before its original duration ran out.
+[Patch 7.0.6] * Fixed an issue where this ability and morphs' heal could require you to exit and re-enter the area to benefit from if you recast the ability before its original duration ran out.
 ESO Patch Note|9.0.5|* This ability and its morphs now heal you for 2% of your Max Health every second they are active, rather than 4.5% of your Max Health while you are standing within the rune.
 - Increased this healing effect by 200% while you are standing in the rune, resulting in a 33.3% (repeating of course) increase overall while in the rune.
 - Fixed an issue where the heal from these abilities was not properly considered a Restoring Light heal.

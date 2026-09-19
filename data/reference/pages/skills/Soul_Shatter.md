@@ -21,4 +21,4 @@ linerank2=4
 Soul Shatter causes an explosion which deals Magic Damage to all nearby enemies when your Health drops below 20%. It can be a lifesaver in a tight spot.
 
 ## Patch Notes
-* This passive ability now triggers an explosion when you reach 20% health. The explosion deals 8% of your maximum health as damage at Rank I, and 16% at Rank II. This effect can only trigger once every two minutes.
+[Patch 1.6.5] * This passive ability now triggers an explosion when you reach 20% health. The explosion deals 8% of your maximum health as damage at Rank I, and 16% at Rank II. This effect can only trigger once every two minutes.

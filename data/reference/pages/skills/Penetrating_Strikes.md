@@ -23,6 +23,6 @@ Penetrating Strikes has a placeholder description for now.
 ## Notes
 
 ## Patch Notes
-Biting Jabs]]. This ability now hits 3 times instead of 4 but maintains the same total damage done.
+[Patch 8.2.0] * Updated Isobel's Penetrating Strikes ability to share the same animation as Biting Jabs. This ability now hits 3 times instead of 4 but maintains the same total damage done.
 
 Empower

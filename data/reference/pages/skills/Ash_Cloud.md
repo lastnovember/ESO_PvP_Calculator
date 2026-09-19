@@ -41,10 +41,10 @@ File:ON-skill-Cinder Storm.jpg|Cinder Storm
 File:ON-skill-Eruption DK.jpg|Eruption explosion
 
 ## Patch Notes
-* Eruption: Increased the initial eruption damage from this morph by 22%.
-Caltrops]] or Ash Cloud, and cause you to move at extremely high speeds.
-* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
-* Fixed an issue where this ability and its morphs could occasionally expire too early, causing you to lose out on the final tick of damage.
+[Patch 2.3.5] * Eruption: Increased the initial eruption damage from this morph by 22%.
+[Patch 2.6.4] * Eclipse: Fixed an issue where this ability and the Total Dark morph could reflect snares from ground-placed ticking abilities, such as Caltrops or Ash Cloud, and cause you to move at extremely high speeds.
+[Patch 3.1.5] * In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
+[Patch 3.3.5] * Fixed an issue where this ability and its morphs could occasionally expire too early, causing you to lose out on the final tick of damage.
 ESO Patch Note|4.0.5|* This ability now heals you and your allies in the area and snares enemies; note the Eruption morph remains unchanged.
 - Cinder Storm: This morph now increases the healing done.
 ESO Patch Note|4.2.5|* Increased the healing done by approximately 50%.
@@ -68,4 +68,4 @@ ESO Patch Note|8.1.5|*This ability and Cinder Storm now tick 1 extra time over t
 - Eruption (morph):
 - Reduced the cost per tick of this morph to 270, down from 278, to ensure it costs a similar amount of other DoTs.
 - Reduced the damage per tick by approximately 29%.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

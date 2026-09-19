@@ -23,4 +23,4 @@ linerank3=17
 Keen Eye: Reagents makes Alchemy ingredient nodes more visible in the world. Nodes will appear with a shimmering effect around them. Note that despite the description, this applies to water sources in addition to Reagents.
 
 ## Patch Notes
-* Alchemy's Keen Eye will now illuminate giant clams seen on the shores of Summerset.
+[Patch 4.1.5] * Alchemy's Keen Eye will now illuminate giant clams seen on the shores of Summerset.

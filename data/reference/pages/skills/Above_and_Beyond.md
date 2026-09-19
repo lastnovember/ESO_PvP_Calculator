@@ -14,4 +14,4 @@ linerank1=1
 Above and Beyond increases Critical Damage and Healing by 25%. This effect is reduced to 5% against targets with Battle Spirit. Increases your maximum Critical Damage and Healing by 30%.
 
 ## Patch Notes
-*This passive increases your Critical Damage and Healing by 15% (7% against players). It also increases your maximum potential Critical Damage and Healing by 25%, meaning it adds to the normal cap of 125%, bringing it to 150%.
+[Patch 12.0.0] *This passive increases your Critical Damage and Healing by 15% (7% against players). It also increases your maximum potential Critical Damage and Healing by 25%, meaning it adds to the normal cap of 125%, bringing it to 150%.

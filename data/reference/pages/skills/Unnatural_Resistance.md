@@ -14,5 +14,5 @@ linerank1=8
 Unnatural Resistance counteracts the Health Recovery reduction inherent to Vampirism while you are in the later stages.
 
 ## Patch Notes
-* Fixed an issue where this passive wasn't functioning properly after you changed zones or re-logged.
-* Fixed an issue where purchasing this passive would not update your Health Recovery in the character UI.
+[Patch 2.0.3] * Fixed an issue where this passive wasn't functioning properly after you changed zones or re-logged.
+[Patch 2.3.5] * Fixed an issue where purchasing this passive would not update your Health Recovery in the character UI.

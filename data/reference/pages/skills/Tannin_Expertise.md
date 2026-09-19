@@ -38,4 +38,4 @@ Dreugh Wax
 5.0% | 20 | 7.5% | 14 | 10.0% | 10 | 12.5% | 8
 
 ## Patch Notes
-* Fixed a typo in the passive Tannin Expertise 1.
+[Patch 1.2.3] * Fixed a typo in the passive Tannin Expertise 1.

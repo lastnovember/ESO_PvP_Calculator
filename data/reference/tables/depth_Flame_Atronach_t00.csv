@@ -1,0 +1,64 @@
+Zone / Dungeon,Specific Location,Reaction,Difficulty,Health
+Tamriel,Dark Anchors' waves,Hostile,,a
+Dark Anchors' final boss adds,Hostile,,s
+Cyrodiil,"Burned Estate, Ceyatatar, Chorrol fissure, Dark Anchors' waves",Hostile,,a (no-CP) cyr (CP)
+Dark Anchors' final boss adds,Hostile,,s (no-CP) cyrs (CP)
+Tamriel Blackwood The DeadlandsThe Deadlands,"Summoned by Bandit Conjurers, Summoned by Dremora Harstryl Summoned by Waking Flame Scouts Summoned by Vanquished ScoutsThe Deadlands",Hostile,,The summoner's current Health
+Glade of the Divines,Using the Wabbajack on Temple Acolytes,Friendly,,s
+Hostile,,s
+Merormo's Tower,Appears after the Bear dies during the Silent Village quest,Friendly,,fa -> 0 (dead)
+Dawnbreak,Throughout the town,Hostile,,0
+The Banished Cells II,Throughout the dungeon Accompanying Keeper Areldur,Hostile,,
+Hostile,,
+City of Ash I,Assaulting the barrier Summoned by Razor Master Erthas,Hostile,,
+Hostile,,
+City of Ash II,In the Knives of Discord Near the Fire Ravager Summoned by Valkyn Skoria,Hostile,,
+Hostile,,
+Hostile,,
+Shadowfen,Sunscale Ruins,Hostile,50px,dbt
+Abamath,As a follower in the Shrine of Mauloch if Arithiel was spared during the related quest,Friendly,,"62,728"
+Court of Contempt,Summoned by Malkur Valos during the quest Hall of Judgment,Friendly,,a
+Vaults of Madness,The whole dungeon,Hostile,,
+Craglorn,Celestial Rifts in the Elinhir Region and Upper Craglorn,Hostile,50px,s
+Craglorn,Elinhir,Hostile,,"62,109"
+Lower Craglorn,Throughout the region Magical Anomalies,Hostile,,"47,046"
+Hostile,50px,"57,541"
+Aetherian Archive,First section of the trial,Hostile,50px,
+Elinhir Sewerworks,Summoned by the Lost One,Hostile,,"62,200"
+Shada's Tear,Summoned by Conjurer Squan,Hostile,,"57,741 plain"
+Spellscar,Outside the Mage's Staff,Hostile,,"62,109"
+Inside the Mage's Staff,Hostile,,"62,200"
+Molavar The Refuge of Dread Dragonhome Atoll of ImmolationThe Deadlands,Delve occupants Summoned by High Kinlady Estre Delve occupants Public dungeon occupantsThe Deadlands,Hostile,,a
+In the Charnel Cage's room Summoned by High Kinlady Estre Summoned by Aspirant Yolstagg Summoned by DomoiraThe Deadlands,Hostile,,w
+Imperial CityImperial City,"Arena District, Summoned by Dredaza the Ringmaster",Hostile,50px,"51,747"
+Imperial CityImperial City Vvardenfell MurkmireMurkmire Silorn,"Arboretum, Nobles District garrison defenseImperial City Near lava throughout the island, Ashunartes, Ebernanit, Forgotten Wastes, Kushtashpi, Ramimilk, Tusenend, Zergonipal Teeth of SithisMurkmire Summoned by Viikor Brazen Hoof",Hostile,,ba
+Maelstrom ArenaOrsinium,Stage 8: Igneous Cistern,Hostile,,
+Prison of Xykenaz DragonholdDragonhold Near the Harrowed Haunt Ritual SiteMarkarth,Found with Xykenaz Summoned by JoorahmaarDragonhold Summoned by AntraMarkarth,Hostile,,vw
+Falkreath HoldHorns of the Reach,Summoned by Domihaus in the Jarl's Hall,Hostile,,
+Orcrest,Lower City,Hostile,50px,em
+Sunspire,Summoned by Yolnahkriin,Hostile,50px,
+Summoned by Nahviintaas,Hostile,,
+Summoned by Lokkestiiz (Veteran Hard Mode-only),Hostile,,
+Shadowgreen,Delve occupants,Hostile,,a
+Summoned by Reach Firecasters,Hostile,,ba
+Summoned by Ya'intha,Hostile,,vw
+Vateshran Hollows: The Brimstone DenMarkarth,Brimstone Den completed 1st Brimstone Den completed 2nd Brimstone Den completed 3rd,Hostile,,
+Hostile,,
+Hostile,,
+The CauldronFlames of Ambition,Extraction Chamber,Hostile,,
+Gideon,With Melynd Drad at The Egg and Hammer Inn during the quest Love Among the Fire,Friendly,,ncf
+Rockgrove,Summoned by Xalvakka,Hostile,,(Hard Mode)
+The Dread CellarWaking Flame,Summoned by Purgator,Hostile,50px,
+High Isle and Amenos GalenFiresong,Volcanic Vents,Hostile (but won't attack),,"119,017 (Solo and small groups) (Medium Groups) (Large groups)"
+Hostile,50px,
+Mini Volcanic Vent during Wisdom of the Druids,Hostile (but won't attack),,"50,000 (takes 25,000 damage per hit)"
+Oathsworn PitScions of Ithelia,Dungeon occupants,Hostile,,
+Summoned by Grubduthag Many-Fates,Hostile,,
+The Colored Rooms (Solstice),Summoned by Mage Farinor,Neutral,,fa
+Battle for the Writhing Wall event,Invaded delves and public dungeons,Hostile,,"47,046"
+Solstice Siege Camps,Around the soul reapers,Hostile,,"81,546"
+Writhing Fortress,Fortress Wings,Hostile,,"160,944 241,416"
+Gristmung Hold,"Gate Courtyard, Summoned by Dark Adept Kor-Zakul",Hostile,,"12,471"
+Night Market,The Parch,Hostile,,"306,419"
+Summoned during Brazen Khephidaen's fight,Hostile,,"343,401"
+Online:|,ON:|,,,

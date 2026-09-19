@@ -25,7 +25,7 @@ Elemental Talent increases your Weapon Damage and Spell Damage.
 - In Update 29, a bonus to Weapon Damage was added to this skill.
 
 ## Patch Notes
-* The tooltip for this passive is now consistent across all its ranks.
+[Patch 1.6.5] * The tooltip for this passive is now consistent across all its ranks.
 ESO Patch Note|4.3.5|* Gain 4% Fire/Shock/Ice damage → Increases your Spell Damage by 258.
 - Developer Comment: Previously, High Elves offered bonuses that weren't distinct enough from other races, so we decided to repurpose their Recovery passive into one that captured the race's belief in destiny or birth right (in this case, your class!) while tying it to their off-stat resource pool to showcase their knack for efficiency. Now when casting a class ability, they will retain or convert a portion of that cost and restore their lowest resource pool with the power of Alteration Magic. The Elemental Talent passive was also restricting which sorts of damage types and abilities could scale with it, so we converted it to a flat bonus of Spell Damage to allow all damage types, as well as healing, to gain effect.
-* This passive now also grants Weapon and Spell Damage, rather than only Spell Damage.
+[Patch 6.3.5] * This passive now also grants Weapon and Spell Damage, rather than only Spell Damage.

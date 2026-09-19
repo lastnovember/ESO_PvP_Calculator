@@ -18,4 +18,4 @@ linerank2=10
 Combat Frenzy gives additional Ultimate when killing an enemy player in Cyrodiil.
 
 ## Patch Notes
-* Reduced the Ultimate gain to 10/20 from 13/25.
+[Patch 1.6.5] * Reduced the Ultimate gain to 10/20 from 13/25.

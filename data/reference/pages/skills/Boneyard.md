@@ -42,7 +42,7 @@ File:ON-skill-Grave Robber Synergy.jpg|Grave Robber synergy's visual
 ESO Patch Note|5.1.5|* Increased the cost of this ability and its morphs to 3780 from 3510.
 - Decreased the damage by approximately 32% per tick.
 - Increased the bonus damage modifier for consuming a corpse to 50% from 20%.
-* Increased the base cost of this ability and its morphs to 4950, up from 3780, and decreased the damage per tick by approximately 20%.
+[Patch 5.2.5] * Increased the base cost of this ability and its morphs to 4950, up from 3780, and decreased the damage per tick by approximately 20%.
 ESO Patch Note|5.3.4|* Reduced the cost of this ability and its morphs to 3780, down from 4950.
 - Fixed an issue where the synergy granted from this ability and its morphs would fail to deal damage if you activated it from the edge of its radius.
 ESO Patch Note|7.0.5|* Removed visual and sound effects from each of the following ground effects' ticks to reduce battlefield clutter and noise:
@@ -65,14 +65,14 @@ ESO Patch Note|7.0.5|* Removed visual and sound effects from each of the followi
 - Spear Shards and morphs
 - This ability and its morphs now lasts 10 seconds in total instead of 10.5 seconds.
 - The synergy from these abilities now heal the synergy activator rather than the caster of the synergy source.
-* Unnerving Boneyard (morph): Fixed an issue where this morphs' damage was not considered an Area of Effect attack.
-* Increased the damage of this ability and its morphs by approximately 10% per tick since they tick 10 times instead of 11 after the change in Update 30.
+[Patch 7.1.5] * Unnerving Boneyard (morph): Fixed an issue where this morphs' damage was not considered an Area of Effect attack.
+[Patch 7.2.5] * Increased the damage of this ability and its morphs by approximately 10% per tick since they tick 10 times instead of 11 after the change in Update 30.
 ESO Patch Note|8.1.5|* Reduced the damage per tick by approximately 27%.
 - Fixed an issue where this ability's bonus visual effects for consuming a corpse would fail to play.
 - Reduced the cost to 2970, down from 3780.
 - Reduced the bonus damage when consuming a corpse to 30%, down from 50%.
-* Graverobber (morph): Reduced the damage of this synergy by approximately 34% to ensure it is of similar power to other synergies of its ilk, such as Conduit or Combustion.
+[Patch 8.3.5] * Graverobber (morph): Reduced the damage of this synergy by approximately 34% to ensure it is of similar power to other synergies of its ilk, such as Conduit or Combustion.
 ESO Patch Note|10.1.5|* This ability and its morphs now also apply Minor Vulnerability to enemies inside the area. The chill of death embraces those in its wake.
 - Unnerving Boneyard (morph): This ability's Minor Vulnerability and Major Breach now persist on enemies for 4.1 seconds each tick, rather than only while in the area.
 - Fixed a bug where the sound effects for the gravestones spawning was missing.
-* Unnerving Boneyard: Minor Vulnerability and Major Breach from this morph can now be cleansed.
+[Patch 10.3.5] * Unnerving Boneyard: Minor Vulnerability and Major Breach from this morph can now be cleansed.

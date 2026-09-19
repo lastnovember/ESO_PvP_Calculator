@@ -1,0 +1,39 @@
+Zone / Dungeon,Specific Location,Reaction,Difficulty,Condition,Health
+Heart's Grief,Summoned by Molag Bal,Hostile,50px,,"eh 95,630 † 77,700 ‡ 59,769 •"
+Eyevea,Throughout the location,Hostile,50px,,dbh
+Summoned by Haskill,Hostile,,,a
+Cyrodiil,Bridges to the Imperial City,Hostile,50px,,"182,120 (Invulnerable)"
+Tamriel Imperial CityImperial City,"Dark Fissures Abyssal Depths, Arboretum, Antediluvian Vaults, Harena Hypogeum, Lambent PassageImperial City",Hostile,50px,,em
+The Banished Cells II,Summoned by High Kinlord Rilis,Hostile,,,
+City of Ash II,Knives of Discord,Hostile,,,
+Vaults of Madness,In the Ancient One's room,Hostile,,,
+Dragonstar Arena,Round 7: The Circle of Rituals,Hostile,,,
+Skyreach Catacombs,Summoned by The Flame King,Hostile,50px,Spirit,
+Imperial CityImperial City,Nobles District garrison defense,Hostile,50px,,
+Barathrum CentrataImperial City,Throughout the location,Hostile,50px,,em
+Summoned from the central portals,Hostile,50px,,"141,270"
+Dragonfire CathedralImperial City,Summoned by General Malivus,Hostile,50px,,"336,836"
+Maelstrom ArenaOrsinium,Stage 1: Vale of the Surreal,Hostile,50px,,
+Vateshran Hollows: The Brimstone DenMarkarth,Brimstone Den done first,Hostile,50px,,
+Brimstone Den done second,Hostile,50px,,
+Brimstone Den done third,Hostile,50px,,
+Vateshran Hollows: The Brimstone Den Magma Queen fightMarkarth,Brimstone Den done first,Hostile,50px,,
+Brimstone Den done second,Hostile,50px,,
+Brimstone Den done third,Hostile,50px,,
+The CauldronFlames of Ambition,Throughout the dungeon,Hostile,50px,,
+The Shattered Xanmeer,Summoned by Portals to the Deadlands,Hostile,50px,,"155,074"
+Rockgrove,Summoned by Xalvakka,Hostile,50px,,(Hard Mode)
+Atoll of ImmolationThe Deadlands,Public dungeon occupants,Hostile,50px,,eh
+Summoned by Ol'icath,Hostile,,,"15,165"
+Infinite Archive,Archival Wings,Hostile,,,Varies
+Bedlam VeilScions of Ithelia,Hall of Barons,Hostile,,,
+Ossein Cage,Summoned by the Shapers of Flesh,Hostile,50px,,
+Invaded Delves or Public Dungeons during the Battle for the Writhing Wall,Varies,Hostile,50px,,"179,307"
+Writhing Fortress,East and West Fortress Wings,Hostile,,,"160,944 241,416"
+Summoned by Guuffetarez,Hostile,50px,,"1,609,456"
+Middle Fortress Wing,Hostile,50px,,"2,414,184"
+Gristmung Hold,Gate Courtyard,Hostile,50px,,"47,732"
+South of Xor-Hist,"Killed by Xica-Ilan during ""Roots in Stone""",Friendly,,,ncf
+The Parch,Summoned in the Skirmish,Hostile,50px,,"6,339,711"
+Opulent Ordeal,Middle and Orange side,Hostile,50px,,"1,366,313"
+ON:|,ON:|,50px,

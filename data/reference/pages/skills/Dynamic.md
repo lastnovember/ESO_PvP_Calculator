@@ -24,5 +24,5 @@ Dynamic increases your maximum Magicka and Stamina.
 - Prior to Update 21, this skill increased your resources by a percentage rather than a flat value.
 
 ## Patch Notes
-* Gain 6% Max Stamina and Magicka → Increases your Max Stamina and Magicka by 1875.
-* Increased the Max Magicka and Stamina granted from this passive to 1910, up from 1875.
+[Patch 4.3.5] * Gain 6% Max Stamina and Magicka → Increases your Max Stamina and Magicka by 1875.
+[Patch 6.3.5] * Increased the Max Magicka and Stamina granted from this passive to 1910, up from 1875.

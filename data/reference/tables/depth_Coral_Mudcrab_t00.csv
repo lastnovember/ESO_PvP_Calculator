@@ -1,0 +1,5 @@
+Zone / Dungeon,Specific Location,Reaction,Difficulty,Health
+Tidewash Strand,Pre-boss wave,Hostile,,"45,314"
+Summoned by Tidespite when over 50% Health,Hostile,50px,"45,314"
+Summoned by Tidespite when under 50% Health,Hostile,50px,"67,971"
+Online:|,,,

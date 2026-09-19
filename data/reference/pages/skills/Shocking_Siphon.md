@@ -46,7 +46,7 @@ ESO Patch Note|5.1.5|* This ability and its morphs will now update their hitboxe
 - Decreased the damage per tick by approximately 14%.
 - Fixed an issue where the tether from this ability and its morphs would immediately break if you had bonuses to the ability range (like Battle Spirit) and cast it on a corpse further than 30 meters of you.
 - Mystic Siphon (morph): This ability now restores 35 Magicka per tick at Rank IV, down from 75.
-* Decreased the damage per tick of this ability and its morphs by approximately 20%.
+[Patch 5.2.5] * Decreased the damage per tick of this ability and its morphs by approximately 20%.
 ESO Patch Note|5.3.4|* Due to many mechanical issues with the Necromancer's engagement with corpses and targeting of corpses, the following changes have been made in hopes to alleviate some of these shortcomings:
 - Blastbones and its morphs' corpses will now last 6 seconds, rather than 5 seconds.
 - Skeletal Mage and Spirit Mender and their morphs' corpses will now last 10 seconds, rather than 5 seconds.
@@ -55,10 +55,10 @@ ESO Patch Note|5.3.4|* Due to many mechanical issues with the Necromancer's enga
 ESO Patch Note|6.1.5|* Fixed an issue where casting a tether ability could sometimes cause your character to turn around and face the opposite direction you were facing.
 - Fixed multiple issues with corpse targeting for Necromantic abilities such as Shocking Siphon.
 - Detonating Siphon (morph): This ability's final explosion now occurs when the tether ends for any reason, rather than only if the final duration was met.
-* Mystic Siphon (morph): Fixed an issue where this morph's Magicka restore was lower than the tooltip stated.
-* Mystic Siphon (morph): This morph now increases your Health, Magicka, and Stamina Recovery by up to 150 while it is active, rather than restoring up to 1260 Magicka over its duration.
+[Patch 7.3.5] * Mystic Siphon (morph): Fixed an issue where this morph's Magicka restore was lower than the tooltip stated.
+[Patch 8.0.5] * Mystic Siphon (morph): This morph now increases your Health, Magicka, and Stamina Recovery by up to 150 while it is active, rather than restoring up to 1260 Magicka over its duration.
 ESO Patch Note|8.1.5|* This ability and its morphs now tick every.666ms over 20 seconds rather than once every.333ms over 12 seconds.
 - Increased the damage per tick by approximately 30%.
-* Increased the damage per tick of this ability and its morphs by ~33% so they are closer to stationary Over Time effects, rather than being treated as "sticky" Over Time effects.
+[Patch 10.0.5] * Increased the damage per tick of this ability and its morphs by ~33% so they are closer to stationary Over Time effects, rather than being treated as "sticky" Over Time effects.
 ESO Patch Note|10.1.5|* This ability and its morphs now also grant you Major Prophecy and Savagery for 20 seconds after casting.
 - Detonating Siphon (morph): Fixed an issue where the damage from the explosion of this morph could not be blocked.

@@ -28,4 +28,4 @@ ESO Patch Note|2.4.5|* Disintegrate:
 - This passive ability now also grants all Physical Damage you deal a chance to instantly pulverize low health enemies, dealing additional Physical Damage to them.
 - Updated this passive's tooltip to indicate what the health threshold is for it to trigger.
 - Fixed an issue where this passive ability could not critically strike.
-* Fixed an issue where the Physical Damage proc from Rank I of this passive ability was always firing.
+[Patch 2.4.8] * Fixed an issue where the Physical Damage proc from Rank I of this passive ability was always firing.

@@ -26,16 +26,16 @@ Haggling increases the money you can earn by selling goods to a Fence.
 The prices given for typical Contraband items are as follows:
 Item Quality | Base Value | Haggling I | Haggling II | Haggling III | Haggling IV
 
-L|Normal
+|Normal
 40 | 41 | 42 | 43 | 44
 
-L|Fine
+|Fine
 100 | 102 | 104 | 107 | 110
 
-L|Superior
+|Superior
 250 | 255 | 260 | 268 | 275
 
-L|Epic
+|Epic
 1500 | 1530 | 1560 | 1605 | 1650
 
 ## Notes

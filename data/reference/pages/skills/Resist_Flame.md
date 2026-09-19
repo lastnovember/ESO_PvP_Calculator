@@ -25,7 +25,7 @@ Resist Flame increases your resistance to Fire Damage.
 - In Update 29, immunity to the Burning status effect was removed from this skill.
 
 ## Patch Notes
-* Updated this ability's tooltip to indicate it grants immunity to the Burning status effect.
-* Gain 3% Max Magicka and 2079 Flame Resistance → Increases your Flame Resistance by 2310. You are immune to the Burning status effect.
+[Patch 4.0.5] * Updated this ability's tooltip to indicate it grants immunity to the Burning status effect.
+[Patch 4.3.5] * Gain 3% Max Magicka and 2079 Flame Resistance → Increases your Flame Resistance by 2310. You are immune to the Burning status effect.
 ESO Patch Note|6.3.5|* This passive no longer grants immunity to the Burning status effect.
 - Increased the Flame Resistance to 4620, up from 2310.

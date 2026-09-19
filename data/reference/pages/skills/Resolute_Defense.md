@@ -14,4 +14,4 @@ linerank1=1
 Resolute Defense improves Bracing and blocking damage. For every second you remain bracing, the amount of damage blocked increases by 6%, with a maximum of 30%. Blocking damage will also now have a 20% chance of restoring Stamina.
 
 ## Patch Notes
-*This passive increases the amount of damage you can block by 6% every second you remain Bracing, up to 30%. Blocking has a 20% chance to restore 500 Stamina, up to once every 250ms.
+[Patch 12.0.0] *This passive increases the amount of damage you can block by 6% every second you remain Bracing, up to 30%. Blocking has a 20% chance to restore 500 Stamina, up to once every 250ms.

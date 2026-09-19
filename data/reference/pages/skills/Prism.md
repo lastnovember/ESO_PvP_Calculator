@@ -18,5 +18,5 @@ linerank2=27
 Prism causes you to gain Ultimate every 6 seconds you use an active Dawn's Wrath ability.
 
 ## Patch Notes
-* Fixed an issue where the Prism passive wasn't properly adding Ultimate when the Dawn's Wrath ability was cast.
-* This passive now grants additional Ultimate (only while gaining Ultimate) after casting Dawn's Wrath abilities. This passive also now grants 2 Ultimate every six seconds at Rank I, and 3 Ultimate at Rank II.
+[Patch 1.1.2] * Fixed an issue where the Prism passive wasn't properly adding Ultimate when the Dawn's Wrath ability was cast.
+[Patch 1.6.5] * This passive now grants additional Ultimate (only while gaining Ultimate) after casting Dawn's Wrath abilities. This passive also now grants 2 Ultimate every six seconds at Rank I, and 3 Ultimate at Rank II.

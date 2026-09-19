@@ -26,14 +26,14 @@ Resourceful increases your Maximum Magicka and Maximum Stamina, and lets you gai
 - In Update 29, a Max Stamina bonus was added to the skill.
 
 ## Patch Notes
-* Increased the bonus Health, Magicka and Stamina restore upon consuming a potion to 2/5/8% from 2/4/6%.
-* The swim speed bonus from this ability will now properly apply if you purchase the passive while swimming.
-* Increased the amount of Health, Magicka, and Stamina restored from this passive to 4/8/12% at Ranks I/II/III from 2/5/8%.
-* This passive ability has been renamed to "Resourceful." Also, it no longer increases your swimming speed by 50%. It now increases your Max Magicka by 1/2/3%, and continues to restore 4/8/12% of your Max Health, Magicka, and Stamina whenever you drink a potion.
+[Patch 2.1.4] * Increased the bonus Health, Magicka and Stamina restore upon consuming a potion to 2/5/8% from 2/4/6%.
+[Patch 2.2.4] * The swim speed bonus from this ability will now properly apply if you purchase the passive while swimming.
+[Patch 2.3.5] * Increased the amount of Health, Magicka, and Stamina restored from this passive to 4/8/12% at Ranks I/II/III from 2/5/8%.
+[Patch 2.5.5] * This passive ability has been renamed to "Resourceful." Also, it no longer increases your swimming speed by 50%. It now increases your Max Magicka by 1/2/3%, and continues to restore 4/8/12% of your Max Health, Magicka, and Stamina whenever you drink a potion.
 ESO Patch Note|3.0.5|* This passive ability now restores Health, Magicka, and Stamina based on your character level instead of your Max Resource.
 - Developer Comments: This will be a buff for each particular resource if your maximum is below 38,500 and a nerf if it is above.
-* Gain 3% Max Magicka and restore 4620 Health, Magicka, and Stamina when you drink a potion → Increases your Max Magicka by 1000. Restore 4000 Health, Magicka, and Stamina when you drink a potion.
+[Patch 4.3.5] * Gain 3% Max Magicka and restore 4620 Health, Magicka, and Stamina when you drink a potion → Increases your Max Magicka by 1000. Restore 4000 Health, Magicka, and Stamina when you drink a potion.
 ESO Patch Note|6.3.5|* This passive now also grants 1000 Max Stamina.
 
 - Reduced the resources restored to 3125, down from 4000.
-* Fixed an issue where the heal from this passive was not considered a proc.
+[Patch 9.0.5] * Fixed an issue where the heal from this passive was not considered a proc.

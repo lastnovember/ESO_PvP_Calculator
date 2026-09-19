@@ -35,8 +35,8 @@ File:ON-skill-Crystallized Slab.jpg|Crystallized Slab
 File:ON-skill-Shimmering Shield.jpg|Shimmering Shield
 
 ## Patch Notes
-* Shimmering Shield: Fixed an issue where the Major Heroism buff from this morph was being removed by other abilities that grant Minor Heroism.
-* Updated this ability and its morphs' tooltips to indicate the maximum damage they can absorb from a single projectile.
+[Patch 3.0.8] * Shimmering Shield: Fixed an issue where the Major Heroism buff from this morph was being removed by other abilities that grant Minor Heroism.
+[Patch 3.1.5] * Updated this ability and its morphs' tooltips to indicate the maximum damage they can absorb from a single projectile.
 ESO Patch Note|4.0.5|* Increased the cost of this ability and its morphs to 3240 Magicka from 2701.
 - Fixed an issue where the visual effects from this ability and its morphs were still appearing to enemies even if you were stealthed or invisible.
 ESO Patch Note|5.0.5|* Removed the cost reduction rank up from this ability and its morphs. They will now all cost 3780 at base.
@@ -45,7 +45,7 @@ ESO Patch Note|5.0.5|* Removed the cost reduction rank up from this ability and 
 - Crystallized Slab (morph): Increased the damage return of this morph by approximately 55% to put it on par with other similar abilities such as Dragon Fire Scale or Inferno.
 ESO Patch Note|5.2.5|* Crystallized Slab (morph):
 - This morph now has a 500ms internal cooldown on the damage return and Magicka refund, similar to other abilities such as Dragon Fire Scale or Living Dark.
-* Shimmering Shield (morph): Fixed an issue where Major Heroism would not refresh from this ability after activating once.
+[Patch 7.3.5] * Shimmering Shield (morph): Fixed an issue where Major Heroism would not refresh from this ability after activating once.
 ESO Patch Note|8.0.5|* Crystallized Slab (morph): This morph now also stuns the target upon dealing damage.
 - For the masters of Ice, Wardens are lacking a lot of hard control. Without giving them something too over the top to make them even more oppressive to melee attackers, we've opted to add in a reactive ranged stun option to help deter those ranged builds that naturally kite and hound Wardens.
 ESO Patch Note|8.1.5|* Fixed numerous visual errors with this ability and its morphs.

@@ -1,0 +1,18 @@
+,Weapon,Effects against Enemy Players,Effects against Siege Weapons,Effects against Structures
+,Ballista,"14,000 physical damage in an area","14,000 damage in an area","2,000 damage"
+,Firebolt Ballista,"14,000 flame damage in an area then 14,000 flame damage every 2 seconds for 4 seconds to players hit. Each Fire Ballista applies its own effect dealing damage over time.","14,000 damage in an area","1,000 damage"
+,Lightning Ballista,"Immediately snares and applies a DoT effect on hit which only deals damage after 2 seconds, dealing 14,000 shock damage every second for 2 seconds. Each Lightning Ballista applies its own effect dealing damage over time.","14,000 damage in an area","1,000 damage"
+,Cold Fire Ballista,"20,800 flame damage in an area then 20,800 flame damage every 2 seconds for 4 seconds to players hit. Each Cold Fire Ballista applies its own effect dealing damage over time.","20,800 damage in an area","1,000 damage"
+,Battering Ram,None,None,"Can only move and attack with at least 3 players nearby. Movement Speed and Damage Dealt scale up to six players nearby. Deals 8,000 damage every 8 seconds (with 6 nearby players) to gates only."
+,Meatbag Catapult,"On impact, creates an area dealing 10,000 disease damage every second that applies/refreshes a 6 second-long effect ESO Icon|ON-icon-misc-Draining Poison.png",24 reducing the healing taken by ~50%. Targets take damage from each area they stand in. Each Meatbag Catapult applies its own effect but the healing reduction does not stack.,"3,000 damage in an area",500 damage
+,Oil Catapult,"On impact, deals 10,000 flame damage in an area then leaves a ground area applying/refreshing every second a 6 second-long strong snare effect.",500 damage in an area,500 damage
+,Scattershot Catapult,"On impact, leaves an area for 6 seconds dealing 7,000 physical damage every second and applies/reapplies a 20% damage vulnerability effect for 6 seconds to players inside.",None.,200 damage
+,Fire Lancer,"Per hit, 14,000 flame damage in an area and always applies Burning.","3,500 damage in an area per hit",500 damage per hit
+,Frost Lancer,"Per hit, 14,000 frost damage in an area and always applies Chilled.","3,500 damage in an area per hit",500 damage per hit
+,Shock Lancer,"Per hit, 14,000 shock damage in an area and always applies Concussion.","3,500 damage in an area per hit",500 damage per hit
+,Firepot Trebuchet,"25,000 flame damage in an area then 15,000 flame damage every 2 seconds for 4 seconds to players hit. Each Firepot Trebuchet applies its own effect dealing damage over time.","3,000 damage in an area","3,500 damage"
+,Iceball Trebuchet,"25,000 frost damage in an area and applies a 6 second-long snare.",500 damage in an area,"3,000 damage"
+,Stone Trebuchet,"35,000 physical damage in an area.",800 damage in an area,"4,000 damage"
+,Cold Fire Trebuchet,"30,000 flame damage in an area and 20,000 flame damage every 2 seconds for 6 seconds to players hit. Each Cold Fire Trebuchet applies its own effect dealing damage over time.","4,500 damage in an area","3,500 damage"
+,Cold Stone Trebuchet,"40,000 physical damage in an area","1,200 damage in an area","4,000 damage"
+,Flaming Oil,"Applies the DoT on hit, 10,000 flame damage over time every 2 seconds for 6 seconds in an area. Each Flaming Oil applies its own effect dealing damage over time.","Applies the DoT on hit, 10,000 flame damage over time every 2 seconds for 6 seconds in an area. Each Flaming Oil applies its own effect dealing damage over time.",None

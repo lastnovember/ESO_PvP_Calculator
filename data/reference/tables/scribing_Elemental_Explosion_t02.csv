@@ -1,0 +1,9 @@
+Script,Effects
+Brittle,Brittle,"Afflicts enemies with Minor Brittle for 20 seconds, increasing their Critical Damage taken by 10%."
+Brutality and Sorcery,Brutality and Sorcery,"If an enemy was hit, grants you Major Brutality and Major Sorcery for 20 seconds, increasing Weapon and Spell Damage by 20%."
+Cowardice,Cowardice,"Afflicts enemies with Minor Cowardice for 20 seconds, reducing Weapon and Spell Damage by 215."
+Defile,Defile,"Afflicts enemies with Minor Defile, which reduces healing received and damage shield strength by 6% for 20 seconds."
+Enervation,Enervation,"Afflicts enemies with Minor Enervation for 20 seconds, reducing Critical Damage by 10%."
+Lifesteal,Lifesteal,"Afflicts enemies with Minor Lifesteal for 20 seconds, healing attackers for 600 Health every 1 second."
+Magickasteal,Magickasteal,"Afflicts enemies with Minor Magickasteal for 20 seconds, restoring 168 Magicka to attackers every 1 second."
+Off Balance,Off Balance,Sets enemies Off Balance for 7 seconds.

@@ -14,4 +14,4 @@ linerank1=1
 Nothing Wasted improves rank 2 of the Corpse Consumption passive. When the passive activates, it will also grant a stack of "Nothing Wasted" which increases Max Health, Weapon Damage and Spell Damage. This can stack up to 10 times. If the stacks reach their full duration, they instead lose 3 stacks and refresh, rather than losing all stacks.
 
 ## Patch Notes
-*Nothing Wasted: This passive upgrades rank 2 of Corpse Consumption to also grant a stack of Nothing Wasted for 12 seconds every time you consume a corpse, up to 10 stacks max. Nothing Wasted increases your Max Health and Weapon and Spell Damage by 2% per stack. If the stacks reach their full duration, they instead lose 3 stacks and refresh, rather than losing all stacks.
+[Patch 12.0.0] *Nothing Wasted: This passive upgrades rank 2 of Corpse Consumption to also grant a stack of Nothing Wasted for 12 seconds every time you consume a corpse, up to 10 stacks max. Nothing Wasted increases your Max Health and Weapon and Spell Damage by 2% per stack. If the stacks reach their full duration, they instead lose 3 stacks and refresh, rather than losing all stacks.

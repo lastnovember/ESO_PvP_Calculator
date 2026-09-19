@@ -43,13 +43,13 @@ File:ON-npc-Shadow Image.jpg|Shadow Image, wielding its bow.
 File:ON-npc-Shade (Khajiit).jpg|Shade (Khajiit)
 
 ## Patch Notes
-* Dark Shades: This ability now deals more damage as the ability ranks up.
-* Fixed an issue where using this ability could cause a monster to stare at the summoned shade for several seconds before attacking you.
+[Patch 1.1.2] * Dark Shades: This ability now deals more damage as the ability ranks up.
+[Patch 1.3.3] * Fixed an issue where using this ability could cause a monster to stare at the summoned shade for several seconds before attacking you.
 ESO Patch Note|1.6.5|* Reduced the duration of this ability to 15 seconds
 - Increased the damage of this ability to 3% of your maximum Magicka, and now provides the Minor Maim debuff.
 - Dark Shades: This ability's duration now scales to 18 seconds with additional ranks of the ability.
 - Shadow Image: This ability's duration now scales to 18 seconds with additional ranks of the ability. It also now deals damage equal to 4% of your maximum Magicka, and the cost of the teleport has been removed.
-* Fixed an animation issue with your leg when using this ability while crouching.
+[Patch 2.6.4] * Fixed an animation issue with your leg when using this ability while crouching.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Veiled Strike
 - Shadow Cloak
@@ -61,7 +61,7 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Note that the ability activation still requires a valid target.
 ESO Patch Note|3.0.5|* Your summoned pets will now focus on attacking the target you heavy attack. Summon Shade, Summon Storm Atronach, and Maw of the Infernal Item Set have been added to this list of pets that obey your commands.
 - Shadow Image: Fixed an issue where the pet summoned by this morph was not critically striking based on your Spell Critical.
-* Shadow Image: Fixed an issue where attempting to teleport to your shade while you were out of range of it would cause you to lose some character functionality.
+[Patch 3.2.8] * Shadow Image: Fixed an issue where attempting to teleport to your shade while you were out of range of it would cause you to lose some character functionality.
 ESO Patch Note|3.2.11|* Shadow Image (Summon Shade morph): Fixed an issue where you could not teleport to your shade if it was out of your line of sight.
 - Known Issue: Teleporting to your shade will temporarily cause you to lose some character functionality, such as the ability to mount or interact with objects. We plan to fix this in a future patch, but in the meantime, you can swap weapons or reload as a temporary workaround.
 ESO Patch Note|3.3.5|* Shadow Image:
@@ -77,8 +77,8 @@ ESO Patch Note|4.0.5|* Dark Shades: Renamed this morph to "Dark Shade". Singular
 - Death Stroke
 - Summon Shade and its morphs (only the pet's attacks)
 - Maw of the Infernal (only the pet's melee attacks)
-Bolt Escape]] or Shadow Image, can no longer be cast before the Battleground match has started.
-* Shadow Image: Fixed an issue where the Shadow Image's summoned monster would despawn or teleport to unreachable places if you went out of a certain range. The Shadow Image will now never move from their original placement.
+[Patch 4.1.5] * Teleport abilities, such as Bolt Escape or Shadow Image, can no longer be cast before the Battleground match has started.
+[Patch 4.2.5] * Shadow Image: Fixed an issue where the Shadow Image's summoned monster would despawn or teleport to unreachable places if you went out of a certain range. The Shadow Image will now never move from their original placement.
 ESO Patch Note|5.0.5|* This ability now scales with the caster's Max Magicka and Spell Damage, or Stamina and Weapon Damage.
 - The shades will now attack every 2 seconds, rather than every 1.5 seconds.
 - Renamed the attacks the shades deal with each morph to help improve clarity.
@@ -96,8 +96,8 @@ ESO Patch Note|5.2.5|* Decreased the damage per hit of this ability and the Shad
 - The Shade will now use its Area Attack on a set timer, rather than having a chance per attack.
 ESO Patch Note|6.1.5|* This ability and the Dark Shade morph can now be cast without a target, as Shadow Image can.
 - Shadow Image (morph): The shade from this ability no longer has player collision active, to prevent issues where it could become stuck or could be used as a stepping stool. Please be more considerate of your shade's feelings, as it is an extension of you, and you are worth it.
-* Fixed an issue where this ability and morphs' pet could attack innocents in some cases.
-* Shadow Image (morph): The shade from this ability will now spawn directly at your location when activated, and teleporting to it will put you directly at its location as well. These changes should add more precision to utilizing this ability, while also fixing issues where it could occasionally get you in areas you did not belong. Your shadow seems to be a pretty complicated person, perhaps some reflection would do you well?
+[Patch 6.2.5] * Fixed an issue where this ability and morphs' pet could attack innocents in some cases.
+[Patch 7.0.5] * Shadow Image (morph): The shade from this ability will now spawn directly at your location when activated, and teleporting to it will put you directly at its location as well. These changes should add more precision to utilizing this ability, while also fixing issues where it could occasionally get you in areas you did not belong. Your shadow seems to be a pretty complicated person, perhaps some reflection would do you well?
 ESO Patch Note|7.2.5|* Shadow Image (morph): This ability's initial cast that summons the Shade can no longer be cast while in the air. The special activate to teleport to your Shade can still be cast while in the air and can now be cast while falling from a great height.
 - Developer Comment: Overall, this will fix situations where your Shade could get spawned midair or cause you to teleport to areas you do not belong, while also allowing for more hardcore parkour and sick nasty plays when using the teleport function.
 ESO Patch Note|8.1.5|* This ability and its morphs now last 20 seconds, rather than ranking up to between 12 and 18 seconds.
@@ -105,7 +105,7 @@ ESO Patch Note|8.1.5|* This ability and its morphs now last 20 seconds, rather t
 - Reduced the cost of this ability and the Dark Shade morph to 2970, down from 4050.
 - Dark Shade (morph): Reduced the damage per hit of this morph by approximately 25%.
 - Shadow Image (morph): Reduced the cost of this morph to 3780, down from 4050.
-* Fixed an issue where this ability and the Dark Shade morph could return as ranged abilities in some cases.
+[Patch 9.0.5] * Fixed an issue where this ability and the Dark Shade morph could return as ranged abilities in some cases.
 ESO Patch Note|10.0.5|* Dark Shade (morph):
 - This morph's shade now only uses its Area of Effect attack, rather than using it once every 5 seconds and then swapping to a single target attack, to help add more options for cleave damage in the class.
 - Adjusted the visual effects to appear as Drain Power, rather than Whirlwind, to feel more appropriate for a Nightblade ability.

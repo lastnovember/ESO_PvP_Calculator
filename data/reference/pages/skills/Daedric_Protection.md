@@ -18,5 +18,5 @@ linerank2=36
 Daedric Protection decreases your damage taken when any Daedric Summoning active ability is slotted. Note that only one slotted ability is needed, and there is no additional benefit to slotting more than one.
 
 ## Patch Notes
-* This passive now grants 10/20% bonus stamina recovery in addition to its previous effects.
-* This passive now reduces your damage taken by 2/5% while a Daedric Summoning ability is active, instead of increasing your Health and Stamina Recovery by 10/20% while a Daedric Summoning ability is slotted. The recovery bonuses have been merged into the Storm Calling skill line instead. Note that Bound Armor and its morphs’ passive effects are now considered for this as well.
+[Patch 2.1.4] * This passive now grants 10/20% bonus stamina recovery in addition to its previous effects.
+[Patch 11.0.5] * This passive now reduces your damage taken by 2/5% while a Daedric Summoning ability is active, instead of increasing your Health and Stamina Recovery by 10/20% while a Daedric Summoning ability is slotted. The recovery bonuses have been merged into the Storm Calling skill line instead. Note that Bound Armor and its morphs’ passive effects are now considered for this as well.

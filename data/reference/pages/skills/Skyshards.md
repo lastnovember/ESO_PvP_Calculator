@@ -12,108 +12,108 @@ Location
 Region
 Number of Shards
 
-The Wailing Prison | Unzoned | C|1
+The Wailing Prison | Unzoned | |1
 
-Khenarthi's Roost (clues) | Aldmeri Dominion | C|6
+Khenarthi's Roost (clues) | Aldmeri Dominion | |6
 
-Auridon (clues) | Aldmeri Dominion | C|16
+Auridon (clues) | Aldmeri Dominion | |16
 
-Grahtwood (clues) | Aldmeri Dominion | C|16
+Grahtwood (clues) | Aldmeri Dominion | |16
 
-Greenshade (clues) | Aldmeri Dominion | C|16
+Greenshade (clues) | Aldmeri Dominion | |16
 
-Malabal Tor (clues) | Aldmeri Dominion | C|16
+Malabal Tor (clues) | Aldmeri Dominion | |16
 
-Reaper's March (clues) | Aldmeri Dominion | C|16
+Reaper's March (clues) | Aldmeri Dominion | |16
 
-Stros M'Kai (clues) | Daggerfall Covenant | C|3
+Stros M'Kai (clues) | Daggerfall Covenant | |3
 
-Betnikh (clues) | Daggerfall Covenant | C|3
+Betnikh (clues) | Daggerfall Covenant | |3
 
-Glenumbra (clues) | Daggerfall Covenant | C|16
+Glenumbra (clues) | Daggerfall Covenant | |16
 
-Stormhaven (clues) | Daggerfall Covenant | C|16
+Stormhaven (clues) | Daggerfall Covenant | |16
 
-Rivenspire (clues) | Daggerfall Covenant | C|16
+Rivenspire (clues) | Daggerfall Covenant | |16
 
-Alik'r Desert (clues) | Daggerfall Covenant | C|16
+Alik'r Desert (clues) | Daggerfall Covenant | |16
 
-Bangkorai (clues) | Daggerfall Covenant | C|16
+Bangkorai (clues) | Daggerfall Covenant | |16
 
-Bleakrock Isle (clues) | Ebonheart Pact | C|3
+Bleakrock Isle (clues) | Ebonheart Pact | |3
 
-Bal Foyen (clues) | Ebonheart Pact | C|3
+Bal Foyen (clues) | Ebonheart Pact | |3
 
-Stonefalls (clues) | Ebonheart Pact | C|16
+Stonefalls (clues) | Ebonheart Pact | |16
 
-Deshaan (clues) | Ebonheart Pact | C|16
+Deshaan (clues) | Ebonheart Pact | |16
 
-Shadowfen (clues) | Ebonheart Pact | C|16
+Shadowfen (clues) | Ebonheart Pact | |16
 
-Eastmarch (clues) | Ebonheart Pact | C|16
+Eastmarch (clues) | Ebonheart Pact | |16
 
-The Rift (clues) | Ebonheart Pact | C|16
+The Rift (clues) | Ebonheart Pact | |16
 
-Coldharbour (clues) | Other | C|16
+Coldharbour (clues) | Other | |16
 
-Cyrodiil: Dominion Territory (clues) | Cyrodiil | C|15
+Cyrodiil: Dominion Territory (clues) | Cyrodiil | |15
 
-Cyrodiil: Covenant Territory (clues) | Cyrodiil | C|15
+Cyrodiil: Covenant Territory (clues) | Cyrodiil | |15
 
-Cyrodiil: Pact Territory (clues) | Cyrodiil | C|15
+Cyrodiil: Pact Territory (clues) | Cyrodiil | |15
 
-Cyrodiil: White Fall Mountain | Cyrodiil | C|1
+Cyrodiil: White Fall Mountain | Cyrodiil | |1
 
-Imperial CityImperial City (clues) | Cyrodiil | C|13
+Imperial CityImperial City (clues) | Cyrodiil | |13
 
-Lower Craglorn (clues) | Other | C|12
+Lower Craglorn (clues) | Other | |12
 
-Upper Craglorn (clues) | Other | C|6
+Upper Craglorn (clues) | Other | |6
 
-WrothgarOrsinium (clues) | Other | C|17
+WrothgarOrsinium (clues) | Other | |17
 
-Hew's BaneThieves Guild (clues) | Other | C|6
+Hew's BaneThieves Guild (clues) | Other | |6
 
-Gold CoastDark Brotherhood (clues) | Other | C|6
+Gold CoastDark Brotherhood (clues) | Other | |6
 
-Clockwork CityClockwork City (clues) | Other | C|6
+Clockwork CityClockwork City (clues) | Other | |6
 
-MurkmireMurkmire (clues) | Other | C|6
+MurkmireMurkmire (clues) | Other | |6
 
-Southern ElsweyrDragonhold (clues) | Other | C|6
+Southern ElsweyrDragonhold (clues) | Other | |6
 
-The ReachMarkarth (clues) | Other | C|4
+The ReachMarkarth (clues) | Other | |4
 
-Blackreach: Arkthzand CavernMarkarth (clues) | Other | C|2
+Blackreach: Arkthzand CavernMarkarth (clues) | Other | |2
 
-The DeadlandsThe Deadlands (clues) | Other | C|5
+The DeadlandsThe Deadlands (clues) | Other | |5
 
-FargraveThe Deadlands (clues) | Other | C|1
+FargraveThe Deadlands (clues) | Other | |1
 
-GalenFiresong (clues) | Other | C|6
+GalenFiresong (clues) | Other | |6
 
-Vvardenfell (clues) | Other | C|18
+Vvardenfell (clues) | Other | |18
 
-Summerset (clues) | Other | C|17
+Summerset (clues) | Other | |17
 
-Artaeum (clues) | Other | C|1
+Artaeum (clues) | Other | |1
 
-Northern Elsweyr (clues) | Other | C|18
+Northern Elsweyr (clues) | Other | |18
 
-Western Skyrim (clues) | Other | C|11
+Western Skyrim (clues) | Other | |11
 
-Blackreach: Greymoor Caverns (clues) | Other | C|7
+Blackreach: Greymoor Caverns (clues) | Other | |7
 
-Blackwood (clues) | Other | C|18
+Blackwood (clues) | Other | |18
 
-High Isle (clues) | Other | C|18
+High Isle (clues) | Other | |18
 
-Necrom (clues) | Other | C|18
+Necrom (clues) | Other | |18
 
-West Weald (clues) | Other | C|18
+West Weald (clues) | Other | |18
 
-Solstice (clues) (clues) | Other | C|18
+Solstice (clues) (clues) | Other | |18
 
-colspan=2 R|Total (Base Game only) | C|339
+colspan=2 |Total (Base Game only) | |339
 
-colspan=2 R|Total (all DLC and Chapters) | C|579
+colspan=2 |Total (all DLC and Chapters) | |579

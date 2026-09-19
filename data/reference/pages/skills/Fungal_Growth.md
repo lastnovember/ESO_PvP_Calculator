@@ -33,11 +33,11 @@ Fungal Growth restores the Health of the caster and any allies in front of you i
 - Enchanted Growth is a recommended morph for the Warden Initiate, Beast Caller and Master Herbalist builds, while Soothing Spores is recommended for Savage Stalker.
 
 ## Patch Notes
-* Fixed an issue where some of the visual effects of this ability and its morphs were not aligned with the actual location of the healing cone.
-* Soothing Spores: Fixed an issue where this morph was using your Spell Critical instead of your Weapon Critical.
+[Patch 3.2.5] * Fixed an issue where some of the visual effects of this ability and its morphs were not aligned with the actual location of the healing cone.
+[Patch 4.3.5] * Soothing Spores: Fixed an issue where this morph was using your Spell Critical instead of your Weapon Critical.
 ESO Patch Note|5.3.4|* Fixed an issue where the visual effects for this ability could display at incorrect angles. As a result of this fix, however, it will no longer conform to terrain.
 - Enchanted Growth (morph): Fixed an issue where the visual effects of this morph would not refresh if the ability was recast early.
-* Increased the healing of this ability and its morphs by 12.5% to meet the Area of Effect burst heal standards. Its cost remains the same since is covers significantly less area than the others. ESO Patch Note|10.0.5|* Fixed an issue where some player abilities were not properly respecting line of sight checks. This includes the following:
+[Patch 7.3.5] * Increased the healing of this ability and its morphs by 12.5% to meet the Area of Effect burst heal standards. Its cost remains the same since is covers significantly less area than the others. ESO Patch Note|10.0.5|* Fixed an issue where some player abilities were not properly respecting line of sight checks. This includes the following:
 - Blessing of Protection and morphs
 - Fungal Growth and morphs
 - Obsidian Shield and morphs

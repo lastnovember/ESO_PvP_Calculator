@@ -43,7 +43,7 @@ File:ON-skill-Invigorating Drain 02.jpg|Invigorating Drain
 File:ON-skill-Invigorating Drain.jpg|(first person)
 
 ## Patch Notes
-* This ability can now critical hit and be mitigated by spell resistance.
+[Patch 1.5.2] * This ability can now critical hit and be mitigated by spell resistance.
 ESO Patch Note|1.6.5|* Fixed an issue where you could spam this ability on immune targets for free Crystal Fragments procs.
 - Midnight Drain: Renamed this ability to Accelerating Drain, and it now grants the caster the Minor Expedition buff for 20 seconds after draining an enemy.
 ESO Patch Note|2.1.4|* Shadow Cloak: This ability and its morphs will now correctly cancel an attacker's channel for the following abilities:
@@ -56,10 +56,10 @@ The summoned Storm Atronach's Zap
 ESO Patch Note|2.2.4|* Fixed an issue where this ability was displaying an extra effect icon on your character screen.
 - This ability will now properly end if the target breaks line of sight with the caster.
 - This ability will now be properly removed if the caster dies.
-* Fixed an issue with this ability and its morphs where you would get stuck in the animation if it was the killing blow on an enemy.
-* This ability and its morphs now tick 3 times over their channel durations, down from 4, but their damage per tick has been increased and they now restore 20% of your missing health per tick to compensate.
-Soulshine]]: Fixed an issue where this Item Set was not granting its Spell Damage bonus to Drain Essence and its morphs.
-* Fixed an issue where this ability and its morphs would fail to cast if you used it against a crowd-control immune enemy while you were blocking.
+[Patch 2.3.4] * Fixed an issue with this ability and its morphs where you would get stuck in the animation if it was the killing blow on an enemy.
+[Patch 2.4.5] * This ability and its morphs now tick 3 times over their channel durations, down from 4, but their damage per tick has been increased and they now restore 20% of your missing health per tick to compensate.
+[Patch 3.0.5] * Soulshine: Fixed an issue where this Item Set was not granting its Spell Damage bonus to Drain Essence and its morphs.
+[Patch 4.1.5] * Fixed an issue where this ability and its morphs would fail to cast if you used it against a crowd-control immune enemy while you were blocking.
 ESO Patch Note|5.1.5|* Removed the 1 second delay on this ability and its morphs before it deals damage.
 - The channel from this ability can no longer be dodged.
 - Reduced the damage per tick by approximately 11%, but the additional tick it now deals results in an increase of damage by approximately 89%.

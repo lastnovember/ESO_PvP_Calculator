@@ -41,9 +41,9 @@ File:ON-skill-Baleful Mist.jpg|Baleful Mist
 ## Patch Notes
 ESO Patch Note|1.0.7|* The Elder Scroll beacon effect will no longer vanish when the carrier uses the vampire ability Mist Form.
 - Reduced the movement speed bonus of the ability Mist Form.
-* This ability can no longer be interrupted.
-* Fixed an issue where the arrow would still be visible when you activate Mist Form with a bow equipped.
-* Fixed an issue where this ability was reducing combat magicka regeneration, but not idle regeneration.
+[Patch 1.2.3] * This ability can no longer be interrupted.
+[Patch 1.3.3] * Fixed an issue where the arrow would still be visible when you activate Mist Form with a bow equipped.
+[Patch 1.5.2] * Fixed an issue where this ability was reducing combat magicka regeneration, but not idle regeneration.
 ESO Patch Note|2.4.5|* This ability and its morphs now remove previously applied snares and immobilizations, in addition to making you immune to any new ones while active.
 - Increased the cost of this ability and its morphs by approximately 5%.
 - Updated the tooltip for this ability and its morphs to indicate it has always disabled your Magicka Recovery while active.
@@ -53,7 +53,7 @@ ESO Patch Note|2.4.5|* This ability and its morphs now remove previously applied
 - This morph now deals Magic Damage instead of Poison Damage.
 ESO Patch Note|2.6.11|* Eye of the Storm (Elemental Storm morph):
 - Fixed an issue where this morph's visual effects would not be displayed if the caster used Mist Form.
-* Fixed an issue where this ability and its morphs were not granting you immunity to the immobilize from poisons.
+[Patch 4.0.5] * Fixed an issue where this ability and its morphs were not granting you immunity to the immobilize from poisons.
 ESO Patch Note|5.1.5|* Reduced the base cost of this ability and its morphs to 5130 from 5940.
 - This ability now lasts 4 seconds at base.
 - This ability now ranks up in cost reduction, taking the base cost to 4860 at Rank IV.
@@ -67,7 +67,7 @@ ESO Patch Note|6.0.5|* Fixed numerous issues relating to persistent visuals disa
 - This ability is now a toggle ability, draining your Magicka every second while it is toggled on. It still requires you to channel it while it is toggled on, so you cannot use other abilities while in Mist Form.
 - Elusive Mist (Morph 1) - This morph remains unchanged, and grants you Major Expedition while in the form.
 - Blood Mist (Morph 2) - This new morph deals damage to enemies around you and heals for the damage caused.
-* Fixed an issue where speed ribbons would appear while channeling this ability, which applied to an invisible husk of your old form before you twisted it to gain unholy powers.
+[Patch 6.1.5] * Fixed an issue where speed ribbons would appear while channeling this ability, which applied to an invisible husk of your old form before you twisted it to gain unholy powers.
 ESO Patch Note|6.3.5|* Fixed an issue where this ability and its morphs would cancel themselves while falling.
 - Fixed an issue where these abilities could fail to grant proper CC immunity in some cases.
 - Fixed an issue where attempting to use this ability after using a cast time ability would cause you to enter and immediately leave the form.
@@ -75,7 +75,7 @@ ESO Patch Note|6.3.5|* Fixed an issue where this ability and its morphs would ca
 - Developer Comment: Currently, Mist Form and its morphs are proving to be far too powerful at helping players reset fights in their favor, gaining tremendous damage mitigation while also recovering their resources to get back in the fight, making Vampires incredibly frustrating to fight against. While we want to give the playstyle another tool to disengage from a fight until they have a better opportunity to attack, the current ability is just too strong at doing that. We've targeted the ability to regenerate Health and Stamina while in this state to make it harder to stay in the form perpetually, and to make sure that pressure applied to a player beforehand is less easily recuperated.
 ESO Patch Note|7.2.5|* This ability and morphs' damage reduction now only works against player attacks, rather than any attack, to prevent it from invalidating many threats in PvE encounters.
 - This ability has been growing in popularity as a one-size-fits-all problem solver to many challenges in PvE areas that attempt to push the player to adjust their strategies, leading to many situations that trivialize difficulty or enforce the idea that players must be a vampire to do content. Mist Form is meant to be used as a disengagement tool, and the current iteration is currently enabling it to be used as a stand-your-ground ability in PvE. Moving forward, we are restricting the damage reduction to PvP to help stave off damage as you retreat, while removing it as an outright defensive tool in PvE.
-* Fixed an issue where this ability's damage reduction did not work against all incoming player attacks.
+[Patch 7.2.7] * Fixed an issue where this ability's damage reduction did not work against all incoming player attacks.
 ESO Patch Note|8.3.5|* This ability and its morphs are no longer a toggled ability that reduce your damage taken from players or grant crowd control immunity while active. Instead, they now teleport you to the position of your cursor, up to a maximum of 15 meters away, and reduce your damage taken from the next 3 projectiles by 100% while teleporting. Casting any of these abilities will increase the cost of the ability by 33% for 4 seconds. The base cost is now 4050 per cast, which reduces to 3780 at rank IV of the base ability.
 - Elusive Mist (morph): This morph now grants Major Expedition and Major Evasion for 4 seconds after reappearing, rather than just Major Expedition.
 - Blood Mist (morph):

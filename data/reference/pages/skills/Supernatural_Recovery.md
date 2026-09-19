@@ -18,5 +18,5 @@ linerank2=6
 Supernatural Recovery increases your Magicka and Stamina Recovery rates.
 
 ## Patch Notes
-* This passive now only works while any Vampire ability is slotted in your ability bar.
-* This passive ability no longer requires a Vampire ability to be slotted, and now only functions when you are in Vampire Stage 2 or higher.
+[Patch 2.1.4] * This passive now only works while any Vampire ability is slotted in your ability bar.
+[Patch 2.4.5] * This passive ability no longer requires a Vampire ability to be slotted, and now only functions when you are in Vampire Stage 2 or higher.

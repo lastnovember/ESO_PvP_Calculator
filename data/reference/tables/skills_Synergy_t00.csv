@@ -1,0 +1,54 @@
+,Skill,Synergy,Uses Per Cast,Effect
+Undaunted
+Sanguine Altar,Blood Funnel Synergy nolink=y,12,Heals for 40% of your Max Health.
+Overflowing Altar,Blood Feast Synergy Blood Funnel,12,Heals for 65% of your Max Health.
+Shadow Silk,Black Widow Synergy Spawn Broodlings,1,Deals poison damage to target and summons a spider to attack for 10 seconds. The spider bites enemies for physical damage and can poison them for 10 seconds.
+Tangling Webs,Arachnophobia Synergy Spawn Broodlings,1,"Deals poison damage to target, fearing them for 4 seconds, and summons a spider to attack for 10 seconds. The spider bites enemies for physical damage."
+Inner Rage,Radiate Synergy nolink=y,3,Deals flame damage to target over 3 seconds then additional flame damage to them and other nearby enemies.
+Inner Beast,1
+Spiked Bone Shield,Bone Wall Synergy nolink=y,1,Grants yourself and up to 5 other allies a damage shield equal to 30% of their Max Health for 6 seconds.
+Bone Surge,Spinal Surge Synergy Bone Wall,1,Grants yourself and up to 5 other allies a damage shield equal to 30% of their Max Health for 6 seconds? and Major Vitality increasing their healing received and damage shield strength by 12%.
+Mystic Orb,Combustion Synergy nolink=y,12,"Deals magic damage to nearby enemies and restores 3,960 Magicka or Stamina, whichever maximum is higher."
+Energy Orb,Healing Combustion Synergy nolink=y,12,"Heals nearby allies and restores 3,960 Magicka or Stamina, whichever maximum is higher."
+Arcanist
+Rune of Displacement,Runebreak Synergy nolink=y,1,Deals frost damage to enemies within 7 meters of the target.
+Fulminating Rune,3
+Passage Between Worlds,Passage Synergy nolink=y,12,Teleport to the ally to the opposite portal.
+Dragonknight
+Shifting Standard,Shackle Synergy nolink=y,1,Deals flame damage to enemies in the area and immobilizes them for 5 seconds.
+Standard of Might
+Burning Talons,Ignite Synergy nolink=y,1,Deals flame damage to all enemies immobilized by this skill.
+Choking Talons
+Necromancer
+Unerving Boneyard,Grave Robber Synergy nolink=y,1,Deals frost damage to nearby enemies and heals yourself for the damage done.
+Avid Boneyard,Grave Robber Synergy nolink=yspecial
+Agony Totem,Pure Agony Synergy nolink=y,1,Deals magic damage over 5 seconds to enemies.
+Nightblade
+Bolstering Darkness,Hidden Refresh Synergy nolink=y,12,"Grants invisibility, increases Movement Speed by 70%, and heals you over 4 seconds."
+Veil of Blades
+Soul Siphon,Soul Leech Synergy nolink=y,1,Deals magic damage to enemy and heals you for the damage done.
+Soul Tether
+Sorcerer
+Liquid Lightning,Conduit Synergy nolink=yspecial,1,Deals shock damage to enemies around them.
+Lightning Flood
+Greater Storm Atronach,Charged Lightning Synergy nolink=y,1,"Grants you and all allies within 12 meters Major Berserk for 10 seconds, increasing their damage done by 10%."
+Summon Charged Atronach
+Templar
+Luminous Shards,Holy Shards Synergy nolink=yspecial,1,"Restores 3,960 Magicka and Stamina."
+Blazing Spear,Blessed Shards Synergy nolink=y,1,"Restores 3,960 Magicka or Stamina, whichever maximum is higher."
+Solar Prison,Gravity Crush Synergy Supernova,1,Deals magic damage to all enemies in the area and stuns them for 5 seconds.
+Solar Disturbance,Supernova Synergy nolink=y,1,Deals magic damage to all enemies in the area and stuns them for 3 seconds.
+Ritual of Retribution,Purify Synergy nolink=y,12,Cleanses all harmful effects from yourself and heals you
+Extended
+Warden
+Budding Seeds,Harvest Synergy nolink=y,1,Heal yourself over 5 seconds
+Corrupting Pollen
+Frozen Retreat,Icy Escape Synergy nolink=y,1,"Teleport to the caster and gain Major Expedition, increasing your Movement Speed by 30% for 8 seconds."
+Werewolf
+Roar,Feeding Frenzy Synergy nolink=y,12,"Grants 6% damage done and Minor Force for 30 seconds, increasing Critical Damage by 10%."
+Item Sets
+Gryphon's Reprisal,Gryphon's Reprisal Synergy nolink=yspecial,1,Cause a small gryphon to fly by and deal bleed damage over 10 seconds to enemies within 5 meters.
+Haven of Ursus,Haven of Ursus Synergy nolink=y?special,1,Grant a shield that protects up to 6 group members within a 28 meter radius for 6 seconds.
+Kraglen's Howl,Heed the Call Synergy nolink=y,3,Gives you and the set wearer 12 Ultimate.
+Lady Thorn,Sanguine Burst Synergy nolink=yspecial,1,"Deals disease damage to nearby enemies and applies Major Maim for 8 seconds, decreasing their damage done by 10%."
+Recovery Convergence,Convergence Release Synergy nolink=y††,1,Restore Stamina and Magicka to yourself and group members within 28 meters of you.

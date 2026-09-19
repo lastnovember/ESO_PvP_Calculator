@@ -1,0 +1,7 @@
+How do you feel about our friendship? (Cordial to Companion)
+Cordial/Friendly,Close,Allied,Companion
+"""Why, are you getting tired of me? If you are, just be straight with it. I've got thick scales.""","""Friendship is a strong word. But not inaccurate.""","""I'm not good with feelings. You know that. I like you. I like what we get up to together.""","""Come on, do I have to say it? You could run straight into Oblivion or worse, and I'd be right there with you."""
+"""I think you're good at what you do, and with me, you're even better.""","""I'm not used to watching someone else's back. Or having them watch mine. I don't hate it.""","""You seem the type to have a lot of friends in a lot of places. Don't know why I'm one of them, but I'm glad I am.""","""Didn't ever think I'd spend so much time traveling with another person. I'm glad it's you."""
+"""We make a good team. Anyone can see that.""","""Steel sharpens steel. We make each other better.""","""I'll just say that I don't often cross paths with people I'm glad to meet. You might be the first.""","""Trust always seemed like something I'd never find with another person. But like most good things in my life, I found it with you."""
+"""I'm not always the most productive when I tag along with you, but it seems like time well spent.""","""Look, if I'm quiet, don't take it the wrong way. I went a long time without having someone around to share my thoughts with.""",,
+Let's talk about something else. (Returns to Greetings)

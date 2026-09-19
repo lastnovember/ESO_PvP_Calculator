@@ -1,0 +1,128 @@
+# Online:Glyph of Prismatic Defense
+
+Source: https://en.uesp.net/wiki/Online:Glyph_of_Prismatic_Defense
+License: CC BY-SA, UESP
+
+Glyphs of Prismatic Defense are created by using a Hakeijo rune and an Additive Potency rune. They can be applied to any armor of equal or greater level, and will increase your Maximum Health, Maximum Magicka, and Maximum Stamina while worn. The values below will only be seen on Shields and Head, Chest, and Leg armor. Shoulder, Hand, Belt, and Foot armor will receive only 40% of the benefit.
+
+rowspan=3|Glyph | rowspan=3|Potency Rune | rowspan=3|Potency Skill | rowspan=3|Glyph Level | colspan=10|Aspect Rune
+
+colspan=2| Ta
+colspan=2| Jejota
+colspan=2| Denata
+colspan=2| Rekuta
+colspan=2| Kuta
+
+Health | Magicka/ Stamina | Health | Magicka/ Stamina | Health | Magicka/ Stamina | Health | Magicka/ Stamina | Health | Magicka/ Stamina
+
+Trifling Glyph of Prismatic Defense | | Jora | 1 | 1
+38 | 35
+41 | 37
+44 | 40
+46 | 42
+50 | 45
+
+Inferior Glyph of Prismatic Defense | | Porade | 1 | 5
+45 | 41
+47 | 43
+51 | 46
+53 | 49
+58 | 53
+
+Petty Glyph of Prismatic Defense | | Jera | 2 | 10
+52 | 47
+55 | 50
+59 | 54
+62 | 57
+68 | 62
+
+Slight Glyph of Prismatic Defense | | Jejora | 2 | 15
+61 | 55
+63 | 58
+69 | 63
+73 | 66
+79 | 72
+
+Minor Glyph of Prismatic Defense | | Odra | 3 | 20
+70 | 64
+74 | 67
+80 | 73
+84 | 77
+91 | 83
+
+Lesser Glyph of Prismatic Defense | | Pojora | 3 | 25
+81 | 74
+85 | 78
+92 | 84
+97 | 89
+105 | 96
+
+Moderate Glyph of Prismatic Defense | | Edora | 4 | 30
+96 | 85
+99 | 90
+106 | 97
+112 | 102
+121 | 110
+
+Average Glyph of Prismatic Defense | | Jaera | 4 | 35
+107 | 98
+113 | 103
+122 | 111
+129 | 117
+140 | 127
+
+Strong Glyph of Prismatic Defense | | Pora | 5 | 40
+123 | 112
+130 | 118
+141 | 128
+148 | 135
+161 | 146
+
+Major Glyph of Prismatic Defense | | Denara | 5 | CP10
+142 | 129
+149 | 136
+162 | 147
+171 | 155
+185 | 168
+
+Greater Glyph of Prismatic Defense | | Rera | 6 | CP30
+163 | 148
+172 | 156
+186 | 169
+195 | 178
+212 | 193
+
+Grand Glyph of Prismatic Defense | | Derado | 7 | CP50
+187 | 170
+196 | 179
+213 | 194
+224 | 204
+243 | 221
+
+Splendid Glyph of Prismatic Defense | | Rekura | 8 | CP70
+214 | 195
+226 | 205
+244 | 222
+257 | 234
+278 | 253
+
+Monumental Glyph of Prismatic Defense | | Kura | 9 | CP100
+245 | 223
+258 | 235
+279 | 254
+294 | 268
+319 | 290
+
+Superb Glyph of Prismatic Defense | | Rejera | 10 | CP150
+321 | 292
+338 | 307
+366 | 333
+386 | 351
+418 | 380
+
+Truly Superb Glyph of Prismatic Defense | | Repora | 10 | CP160
+367 | 334
+387 | 352
+419 | 381
+441 | 401
+477 | 434

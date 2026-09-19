@@ -40,7 +40,7 @@ Fiery Grip deals fire damage and pulls the target of the attack towards you,taun
 File:ON-skill-Unrelenting_Grip.jpg|Unrelenting Grip's cost refund
 
 ## Patch Notes
-* This ability will no longer taunt monsters that already have an active taunt on them.
+[Patch 1.2.3] * This ability will no longer taunt monsters that already have an active taunt on them.
 ESO Patch Note|1.4.3|* Revised the terrain around all keeps to reduce the potential for pulling an enemy friend onto keep walls using Fiery Grip or its morphs.
 - While you are within the walls of larger keeps (such as Fort Warden), the range of Fiery Grip and its morphs will be reduced.
 ESO Patch Note|1.6.5|* If the target of Fiery Grip is unable to be pulled to you for any reason, you will now be pulled to the target.
@@ -53,20 +53,20 @@ ESO Patch Note|2.3.5|* Extended Chains' cost reduction and range increase effect
 - Renamed this morph to Unrelenting Grip.
 - This morph no longer attempts to pull you to the target if the target is immune to the pull.
 - This morph will now refund 100% of the ability's cost as Magicka if it fails to pull a target.
-* Switched the position of this ability with the Lava Whip ability as seen in the skill line UI.
+[Patch 2.6.4] * Switched the position of this ability with the Lava Whip ability as seen in the skill line UI.
 ESO Patch Note|2.7.5|* Increased the duration of the Major Expedition buff granted by this ability and its morphs to 6 seconds from 2 seconds.
 - This ability and its morphs can no longer be dodged.
 - Developer Comments: To improve Fiery Grip's reliability, we changed it so the projectile (and subsequent pull/push) cannot be dodged. This ensures that enemies using Roll Dodge or Major Evasion do not cause your Fiery Grip cast to be wasted, and makes the Empowering Chains morph (which pushes you to the target) behave consistently with other charge abilities. Since Fiery Grip is an unusual projectile due to being undodgable and unreflectable, its tooltip has been updated for additional clarity
-* Reduced the cost of this ability and its morphs by approximately 7%.
-* Unrelenting Grip: Fixed an issue where this morph would not refund the ability's cost if it failed to pull in a target due to them blocking the attack.
-* Empowering Chains: This morph now grants you 2 stacks of the Empower buff, up from 1.
+[Patch 3.0.5] * Reduced the cost of this ability and its morphs by approximately 7%.
+[Patch 3.2.5] * Unrelenting Grip: Fixed an issue where this morph would not refund the ability's cost if it failed to pull in a target due to them blocking the attack.
+[Patch 4.0.5] * Empowering Chains: This morph now grants you 2 stacks of the Empower buff, up from 1.
 ESO Patch Note|4.2.5|* This ability now grants Major Expedition for a maximum of 4 seconds instead of 6 seconds.
 - Developer Comment:
 - In regards to movement speed, we want there to be variability in the positive and negative directions during combat. In Update 19, we adjusted snares down to a 4 second duration so an optimal damage rotation wouldn't include 100% up time on snares. In this update, we are adjusting Major Expedition buffs to be in line with the snare durations.
-Silver Leash]], to move immovable monsters.
+[Patch 4.2.7] * Fixed an issue where you could use "pull" abilities, such as Fiery Grip or Silver Leash, to move immovable monsters.
 ESO Patch Note|5.0.5|* Increased the damage of this ability and its morphs by 20% to put it on par with our "gap closer" standards.
 - Improved the responsiveness of the pull speed from this ability to reduce situations where players were still CC'ed after the pull was complete.
-* Empowering Chains (morph): This ability now only grants 1 stack of Empower, rather than 2.
-* Empowering Chains (morph): Increased the duration of Empower granted from this morph to 10 seconds, up from 3.
-* Empowering Chains/Chains of Devastation: This morph now grants Major Berserk for 4 seconds after casting, rather than Empower, as Molten Armaments already grants it in a much more effect way. As such, this morph was renamed to better denote its effects. Such devastation was our intention.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 6.0.5] * Empowering Chains (morph): This ability now only grants 1 stack of Empower, rather than 2.
+[Patch 8.1.5] * Empowering Chains (morph): Increased the duration of Empower granted from this morph to 10 seconds, up from 3.
+[Patch 8.3.5] * Empowering Chains/Chains of Devastation: This morph now grants Major Berserk for 4 seconds after casting, rather than Empower, as Molten Armaments already grants it in a much more effect way. As such, this morph was renamed to better denote its effects. Such devastation was our intention.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

@@ -1,0 +1,8 @@
+Script,Skill Name,Effects
+Damage Shield,Damage Shield,Warding Bond,Grants the ally and other allies in the link a damage shield that absorbs 942 damage every 1 second.
+Generate Ultimate,Generate Ultimate,Heroic Bond,Transfers 1 Ultimate from you to the ally every 1 second.
+Healing,Healing,Healing Bond,Heals the ally and other allies in the link for 754 Health every 1 second.
+Immobilize,Immobilize,Binding Bond,Removes and grants immunity to snares and other immobilizations for 1 second to the ally and other allies in the link.
+Magic Damage,Magic Damage,Magical Bond,"Grant's the ally magical thorns which deal 440 Magic Damage to attackers, scaling off the ally's stats."
+Mitigation,Mitigation,Fortifying Bond,Transfers 10% of the damage the allied player or companion and other allied players or companions in the link take to you.
+Restore Resources,Restore Resources,Restorative Bond,Restores 215 Magicka and Stamina to the ally and other allies in the link every 1 second.Resources

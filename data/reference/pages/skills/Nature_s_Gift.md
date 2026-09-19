@@ -21,5 +21,5 @@ Nature's Gift restores your Magicka or Stamina, whichever is lower, whenever you
 - Nature's Gift has no effect if you're only healing yourself.
 
 ## Patch Notes
-* Updated this passive ability's tooltip to indicate its cooldown.
-* Increased the Magicka or Stamina restored from this passive to 138/277, up from 125/250.
+[Patch 3.1.5] * Updated this passive ability's tooltip to indicate its cooldown.
+[Patch 11.0.5] * Increased the Magicka or Stamina restored from this passive to 138/277, up from 125/250.

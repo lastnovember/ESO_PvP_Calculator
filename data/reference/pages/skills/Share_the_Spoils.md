@@ -14,4 +14,4 @@ linerank1=1
 Share the Spoils improves the rank 2 Transfer passive by granting group members Magicka, Stamina and 2 Ultimate when the you cast a Siphoning ability.
 
 ## Patch Notes
-*This passive upgrades rank 2 of Transfer to double the ultimate you gain from it (4, up from 2) while also granting the nearest 4 group members 250 Magicka and Stamina and 1 Ultimate upon activating.
+[Patch 12.0.0] *This passive upgrades rank 2 of Transfer to double the ultimate you gain from it (4, up from 2) while also granting the nearest 4 group members 250 Magicka and Stamina and 1 Ultimate upon activating.

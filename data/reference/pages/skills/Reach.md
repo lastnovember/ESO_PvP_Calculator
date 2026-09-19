@@ -18,6 +18,6 @@ linerank2=10
 Reach increases the range of your distant attacks while near a keep in Cyrodiil.
 
 ## Patch Notes
-* Reach I: Fixed an issue where Reach I was granting slightly more range than was intended. Rank II remains unchanged.
-* This skill now properly applies only in areas of Keeps, Resources, Outposts, Districts and Scroll Temples.
-* This ability now only affects abilities that have a 28 meter range or more, previously 15 meters.
+[Patch 1.1.2] * Reach I: Fixed an issue where Reach I was granting slightly more range than was intended. Rank II remains unchanged.
+[Patch 4.0.5] * This skill now properly applies only in areas of Keeps, Resources, Outposts, Districts and Scroll Temples.
+[Patch 4.2.5] * This ability now only affects abilities that have a 28 meter range or more, previously 15 meters.

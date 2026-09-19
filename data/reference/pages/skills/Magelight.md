@@ -37,14 +37,14 @@ Magelight creates a light which orbits around you, revealing all stealthed and i
 - Inner Light is a recommended morph for the Beacon of Hope, and Beast Caller builds.
 
 ## Patch Notes
-* Fixed an issue where the UI wasn't updating the Spell Critical Strike rating when it was being activated near an enemy.
-* This ability will now reveal enemies to the caster instead of removing stealth or invisibility from the enemy.
+[Patch 1.4.3] * Fixed an issue where the UI wasn't updating the Spell Critical Strike rating when it was being activated near an enemy.
+[Patch 1.4.4] * This ability will now reveal enemies to the caster instead of removing stealth or invisibility from the enemy.
 ESO Patch Note|1.6.5|* Magelight now grants you the buff Major Spell Crit when toggled on, instead of revealing stealthed enemies.
 - Radiant Magelight (morph): This ability now reveals all enemies within 12 meters of the caster, and reduces the amount of damage nearby allies will take from stealth attacks. We also edited the tooltip to clarify that it's active, you are immune to stuns from stealth attacks.
 - Inner Light (morph): This ability now increases your maximum Magicka by 5% instead of reducing your maximum Magicka when the ability is toggled on.
 ESO Patch Note|2.1.4|* Clarified the tooltip for this ability to indicate that only your available Magicka for casting spells is reduced by 5%. Your maximum Magicka value remains the same; your Magicka bar will simply only recover to 95% instead of 100%. We also fixed an issue so Magelight will now always visually appear in all areas.
 - Might of the Guild: This passive no longer triggers when activating Magelight.
-Inner Light]]: The Magelight from this ability will now disappear when the Magelight setting is set to off in the Settings menu.
+[Patch 2.2.4] * Inner Light: The Magelight from this ability will now disappear when the Magelight setting is set to off in the Settings menu.
 ESO Patch Note|2.3.5|* Revealing an enemy from stealth or invisibility with abilities such as Revealing Flare or Magelight now prevents that enemy from casting stealth or invisibility for the duration, rather than letting them re-enter stealth or invisibility but still be visible.
 - This ability and its morphs are no longer toggle abilities; instead, they will grant their Critical Strike rating benefits as long as they are slotted (similar to Expert Hunter).
 - Magelight can now be activated to summon a mote of magelight which exposes hidden or invisible enemies in a 6 meter radius for 5 seconds, and prevents revealed enemies from returning to stealth for 3 seconds.
@@ -54,12 +54,12 @@ ESO Patch Note|2.3.5|* Revealing an enemy from stealth or invisibility with abil
 - Might of the Guild: This passive ability can now proc the Empower buff from Magelight and its morphs.
 ESO Patch Note|2.7.5|* Activating this ability while you have a Restoration Staff equipped will no longer break its animations.
 - Fixed an issue where the permanent Major Prophecy buff from this ability and its morphs was removing other temporary sources of Major Prophecy.
-* Fixed an issue where this ability and the Inferno morphs were stacking with each other. You will now only gain 10% increased Spell Critical if both abilities are slotted on your bar.
+[Patch 2.7.8] * Fixed an issue where this ability and the Inferno morphs were stacking with each other. You will now only gain 10% increased Spell Critical if both abilities are slotted on your bar.
 ESO Patch Note|3.0.5|* Radiant Magelight (morph):
 - This morph no longer passively reduces your damage taken by sneak attacks. It continues to passively prevent the stun from sneak attacks.
 - Reduced the cost of this morph by approximately 10%.
 - Developer Comments: Due to the reduction of sneak attack damage against other player characters, it is no longer necessary for Radiant Magelight to reduce their damage further. This prevents situations where using a sneak attack would actually do less damage than a normal attack. We've reduced the cost on this morph to make it more attractive relative to Inner Light.
-Expert Hunter]] to notify other players of your ability to see sneaking/invisible enemies.
+[Patch 4.1.5] * A visual effect will now appear over your character's head when using Detection Potions, Magelight, or Expert Hunter to notify other players of your ability to see sneaking/invisible enemies.
 ESO Patch Note|7.1.5|* This ability and the Inner Light morph now reveal hidden enemies within 8 meters of you, up from 6 meters.
 - All versions of this ability now check for hidden enemies every 500ms, instead of every second, for more responsive catching of those slippery targets.
 - All versions of this ability now prevent stealth and invisibility for 4 seconds, up from 3 seconds.

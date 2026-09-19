@@ -26,7 +26,7 @@ These bonuses apply for each weapon, so if you have two of the same weapon type,
 Prior to Update 29, this passive gave Axes a chance to apply a Bleed Damage over time.
 
 ## Patch Notes
-* This passive ability now scales based on weapon damage instead of spell damage.
+[Patch 1.2.3] * This passive ability now scales based on weapon damage instead of spell damage.
 ESO Patch Note|1.5.2|* The axe bleed now deals damage over 6 seconds instead of 10.
 - Increased the damage per tick, though total damage done remains the same.
 - The mace bonus now causes you to ignore up to 20% of your target's armor.
@@ -38,11 +38,11 @@ ESO Patch Note|4.3.5|* Reduced the bleed applied from the Axe version of this pa
 :: The sword version of both of these passives were also under budgeted since their bonuses were additive. We've increased this to 6% in the meantime to fix some truncation issues with Dual Wield, and will continue to investigate ways to ensure swords remain a viable choice of weapon type.
 ESO Patch Note|5.1.5|* The axe bleed from this passive now ticks every second instead of every 2 seconds.
 - Increased the total damage by approximately 24%.
-* Fixed an issue where the bleed from this passive was not consistent with its proc condition.
+[Patch 5.3.4] * Fixed an issue where the bleed from this passive was not consistent with its proc condition.
 ESO Patch Note|6.3.5|* Reworked this passive to grant the following bonuses:
 - Axes now increases your Critical Damage and Healing Done by 2/4% per axe, rather than having a chance to apply a Bleed.
 - Daggers now grant 1.7/3.4% Critical Chance per dagger, rather than 2.5/5% Weapon Critical Chance.
 - Maces now grant 825/1650 Armor Penetration per mace, rather than ignoring 5/10% of the target's Physical Resistance.
 - Swords now grant 71/142 Weapon Damage per sword, rather than increasing Damage Done by 3/6%.
 - Developer Comment: Previously, this passive was too binary in terms of which was viewed as the best, so we've made some adjustments to make it more clear as well as more universally helpful. We've opted to remove the passive Bleed chance as it was the only effect that could carry over after activating, making it an almost guaranteed pick. Maces also felt too punishing and awkward as they became weaker the more you reduced your target's Resistances, so we moved to a flat bonus instead. Swords often didn't scale the way they appeared and seemed stronger than they were, so we moved to a more easily discernable power increase. Additionally, all of these effects now apply to any attack rather than only Martial based attacks to assist hybrid builds and general accessibility.
-* This passive now increases your Critical Damage done with axes by 3/6% per axe rather than Critical Percent by 2/4%.
+[Patch 7.0.5] * This passive now increases your Critical Damage done with axes by 3/6% per axe rather than Critical Percent by 2/4%.

@@ -14,4 +14,4 @@ linerank1=1
 Cutthroat's Focus provides the following benefits. Activating a Nightblade ability while bracing, while allow you to dodge attacks for 0.3 seconds. When an attack is dodged, the attacker's damage taken will increase.
 
 ## Patch Notes
-*Was called Evasive Trance. This passive causes you to dodge incoming attacks for 1/3rd of a second when activating a Nightblade ability while Bracing. Dodging any attack through any means causes your attacker to take 5% increased damage for 5 seconds.
+[Patch 12.0.0] *Was called Evasive Trance. This passive causes you to dodge incoming attacks for 1/3rd of a second when activating a Nightblade ability while Bracing. Dodging any attack through any means causes your attacker to take 5% increased damage for 5 seconds.

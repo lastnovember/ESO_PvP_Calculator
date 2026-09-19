@@ -39,7 +39,7 @@ File:ON-skill-Bone Armor cast.jpg|Bone Armor and its morphs' casting stance
 File:ON-skill-Beckoning Armor Pull.jpg|Beckoning Armor morph's Pull visual
 
 ## Patch Notes
-* Beckoning Armor (morph): This morph now attempts to pull valid targets once every 2 seconds, up from once every 3.
+[Patch 8.0.5] * Beckoning Armor (morph): This morph now attempts to pull valid targets once every 2 seconds, up from once every 3.
 ESO Patch Note|10.1.5|* This ability and its morphs now also grant Minor Resolve for their duration. The bones must've belonged to milk drinkers.
 - Summoner's Armor (morph): This morph now also lasts 30 seconds, up from 20.
-* This ability and its morphs no longer summon a corpse when they end or their abilities are refreshed after 10 seconds. Instead, these abilities now grant you Living Corpse if cast while in combat, which allows you to cast a (singular) corpse consuming ability on yourself. This effect is applied instantly but has a 10 second cooldown to ensure the same corpse consuming ability cadence is met.
+[Patch 11.2.6] * This ability and its morphs no longer summon a corpse when they end or their abilities are refreshed after 10 seconds. Instead, these abilities now grant you Living Corpse if cast while in combat, which allows you to cast a (singular) corpse consuming ability on yourself. This effect is applied instantly but has a 10 second cooldown to ensure the same corpse consuming ability cadence is met.

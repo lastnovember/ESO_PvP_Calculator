@@ -26,8 +26,8 @@ Unflinching Rage increases your Max Health and causes you to be healed when deal
 - In Update 29, the heal was changed to proc from dealing damage, rather than requiring a weapon attack. The heal amount was increased, but it can no longer Critically Strike.
 
 ## Patch Notes
-* Robust: This passive ability has been renamed to "Unflinching." It now increases your Health Recovery by 6/13/20%, down from 10/20/30% and your healing received by 1/3/5%.
-* Unflinching: Increases Healing Received by 5% and 20% Health Recovery → Unflinching Rage: Grants 1000 Max Health and heals you for up to 600 when you deal damage with a weapon, with a 4 second cooldown.
+[Patch 2.5.5] * Robust: This passive ability has been renamed to "Unflinching." It now increases your Health Recovery by 6/13/20%, down from 10/20/30% and your healing received by 1/3/5%.
+[Patch 4.3.5] * Unflinching: Increases Healing Received by 5% and 20% Health Recovery → Unflinching Rage: Grants 1000 Max Health and heals you for up to 600 when you deal damage with a weapon, with a 4 second cooldown.
 ESO Patch Note|6.3.5|* This passive now heals for 2125 Health when you deal damage once every 4 seconds, rather than healing for 600 Health when you deal damage with a Weapon Attack once every 4 seconds.
 - Fixed an issue where this passive was not considered a proc.
 - The heal from this passive can no longer Critically Strike.

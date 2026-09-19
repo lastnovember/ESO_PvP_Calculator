@@ -1,0 +1,10 @@
+Script,Effects
+Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.
+Crusader's Defiance,Crusader's Defiance,Removes up to 1 negative effect with each sweep. This can occur once every 2 seconds per target.
+Druid's Resurgence,Druid's Resurgence,Restores 74 Stamina with each sweep.
+Gladiator's Tenacity,Gladiator's Tenacity,Reduces damage taken by 30% for 2.2 seconds.
+Hunter's Snare,Hunter's Snare,Reduces the Movement Speed of enemies by 30% for 6 seconds.
+Incompatible with Heroic Torch and Healing Torch
+Lingering Torment,Lingering Torment,Deals 2760 Physical Damage over 20 seconds to enemies.
+Incompatible with Heroic Torch and Healing Torch
+Warrior's Opportunity,Warrior's Opportunity,Increases damage done to enemies with disabling effects by 10% for 6 seconds with each sweep.

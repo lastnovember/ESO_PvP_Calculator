@@ -1,0 +1,14 @@
+Set,Increase,Duration,Trigger,Notes
+Adept Rider,30%,Constant,Constant,"Major Expedition, Gallop"
+Coward's Gear,30%,Constant,Sprinting,"Major Expedition, makes user ""immune"" to other Major Expedition sources"
+Dreugh King Slayer,30%,8 sec.,Killing an Enemy,Major Expedition
+False God's Devotion,30%,8 sec.,Recently damaged enemy dies,Major Expedition
+Fiord's Legacy,15%,Constant,Sprinting,** Does not work while mounted
+Gryphon's Ferocity,15%,10 sec.,Dealing direct damage,Minor Expedition
+Jailbreaker,15%,Constant,Constant,Minor Expedition
+Marauder's Haste,20%,9 sec.,Casting a damage shield ability,** Stacks with other buffs.
+Perfected False God's Devotion,30%,8 sec.,Recently damaged Enemy dies,Major Expedition
+Quick Serpent,30%,8 sec.,Recently damaged Enemy dies,Major Expedition
+Ring of the Wild Hunt,15% / 45%,Constant,Constant,"** 15% in combat, 45% out of combat."
+Skooma Smuggler,30%,30 sec.,Drinking a Potion,Major Expedition
+Vicious Serpent,30%,8 sec.,Recently damaged Enemy dies,Major Expedition

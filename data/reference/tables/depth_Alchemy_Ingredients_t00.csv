@@ -1,0 +1,35 @@
+,Reagent,Primary Effect,Secondary Effect,Tertiary Effect,Quaternary Effect,Comes from
+,Beetle Scuttle,Breach,Increase Armor,Protection,Vitality,"Beetles, Thunderbugs, Assassin Beetles, Shalks"
+,Blessed Thistle,Restore Stamina,Increase Weapon Power,Ravage Health,Speed,Default nodes
+,Blue Entoloma,Ravage Magicka,Cowardice,Restore Health,Invisible,Fungal nodes
+,Bugloss,Increase Spell Resist,Restore Health,Cowardice,Restore Magicka,Default nodes
+,Butterfly Wing,Restore Health,Uncertainty,Lingering Health,Vitality,Butterflies
+,Chaurus Egg,Timidity,Ravage Magicka,Restore Stamina,Detection,Chauruses
+,Clam Gall,Increase Spell Resist,Hindrance,Vulnerability,Defile,Giant Clams (spawn near the ocean on Summerset and High Isle)
+,Columbine,Restore Health,Restore Magicka,Restore Stamina,Unstoppable,Default nodes
+,Corn Flower,Restore Magicka,Increase Spell Power,Ravage Health,Detection,Default nodes
+,Crimson Nirnroot,Timidity,Spell Critical,Gradual Ravage Health,Restore Health,Blackreach (unique node type)
+,Dragon Rheum,Restore Magicka,Heroism,Enervation,Speed,Dragons (upon completing The Good Bits)
+,Dragon's Bile,Heroism,Vulnerability,Invisible,Vitality,Dragons
+,Dragon's Blood,Lingering Health,Restore Stamina,Heroism,Defile,Dragons
+,Dragonthorn,Increase Weapon Power,Restore Stamina,Fracture,Weapon Critical,Default nodes
+,Emetic Russula,Ravage Health,Ravage Magicka,Ravage Stamina,Entrapment,Fungal nodes
+,Fleshfly Larva,Ravage Stamina,Vulnerability,Gradual Ravage Health,Vitality,Fleshflies & Zombies
+,Imp Stool,Maim,Ravage Stamina,Increase Armor,Enervation,Fungal nodes
+,Lady's Smock,Increase Spell Power,Restore Magicka,Breach,Spell Critical,Default nodes
+,Luminous Russula,Ravage Stamina,Maim,Restore Health,Hindrance,Fungal nodes
+,Mountain Flower,Increase Armor,Restore Health,Maim,Restore Stamina,Default nodes
+,Mudcrab Chitin,Increase Spell Resist,Increase Armor,Protection,Defile,Mudcrabs (not Coral Crabs)
+,Namira's Rot,Spell Critical,Speed,Invisible,Unstoppable,Fungal nodes
+,Nightshade,Ravage Health,Protection,Gradual Ravage Health,Defile,Default nodes
+,Nirnroot,Ravage Health,Uncertainty,Enervation,Invisible,Water nodes
+,Powdered Mother of Pearl,Lingering Health,Speed,Vitality,Protection,Giant Clams (spawn near the ocean on Summerset and High Isle)
+,Scrib Jelly,Ravage Magicka,Speed,Vulnerability,Lingering Health,Kwama
+,Spider Egg,Hindrance,Invisible,Lingering Health,Defile,Spiders
+,Stinkhorn,Fracture,Ravage Health,Increase Weapon Power,Ravage Stamina,Fungal nodes
+,Torchbug Thorax,Fracture,Enervation,Detection,Vitality,Torchbugs
+,Vile Coagulant,Timidity,Ravage Health,Restore Magicka,Protection,Harrowstorms
+,Violet Coprinus,Breach,Ravage Health,Increase Spell Power,Ravage Magicka,Fungal nodes
+,Water Hyacinth,Restore Health,Spell Critical,Weapon Critical,Entrapment,Water nodes
+,White Cap,Cowardice,Ravage Magicka,Increase Spell Resist,Detection,Fungal nodes
+,Wormwood,Weapon Critical,Hindrance,Detection,Unstoppable,Default nodes

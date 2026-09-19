@@ -1,0 +1,61 @@
+,Name,RI,RQ,Drink,Recipe Drop,Ingredients,Effect
+,Bog-Iron Ale,RI 1,RQ 1,Level 5 Drink,20px|Daggerfall Covenant Character,Iron Peat and Brown Malt,Health Recovery +3
+,Bottled Buzz,RI 1,RQ 1,Level 15 Drink,20px|Daggerfall Covenant Character,Wasp Squeezings and Brown Malt,Health Recovery +4
+,Fortified Bottled Buzz,RI 1,RQ 2,Level 15 Drink,20px|Daggerfall Covenant Character,Wasp Squeezings and Brown Malt,Health and Magicka Recovery +4
+,Citrus Malt,RI 1,RQ 1,Level 10 Drink,20px|Daggerfall Covenant Character,Tangerine and Brown Malt,Health Recovery +4
+,Fortified Citrus Malt,RI 1,RQ 2,Level 10 Drink,20px|Daggerfall Covenant Character,Tangerine and Brown Malt,
+,Dark Meat Beer,RI 1,RQ 1,Level 1 Drink,20px|Aldmeri Dominion Character,Aged Meat and Brown Malt,Health Recovery +2
+,Dragon's-Tongue Ale,RI 1,RQ 1,Level 15 Drink,20px|Ebonheart Pact Character,Dragon's-Tongue Sap and Brown Malt,Health Recovery +5
+,Fortified Dragon's-Tongue Ale,RI 1,RQ 2,Level 15 Drink,20px|Ebonheart Pact Character,Dragon's-Tongue Sap and Brown Malt,
+,Golden Apple Ale,RI 1,RQ 1,Level 10 Drink,20px|Aldmeri Dominion Character,Ripe Apple and Brown Malt,
+,Fortified Golden Apple Ale,RI 1,RQ 2,Level 10 Drink,20px|Aldmeri Dominion Character,Ripe Apple and Brown Malt,
+,Saloop,RI 1,RQ 1,Level 5 Drink,20px|Ebonheart Pact Character,Snake Venom and Brown Malt,Health Recovery +3
+,Shornhelm Ale,RI 1,RQ 1,Level 1 Drink,20px|Daggerfall Covenant Character,Shornhelm Grains and Brown Malt,Health Recovery +2
+,Snake Sweat,RI 1,RQ 1,Level 1 Drink,20px|Ebonheart Pact Character,Snake Slime and Brown Malt,Health Recovery +2
+,Sun's Dusk Ale,RI 1,RQ 1,Level 5 Drink,20px|Aldmeri Dominion Character,Dusk Beetle and Brown Malt,Health Recovery +3
+,Sylph-Sandy,RI 1,RQ 1,Level 15 Drink,20px|Aldmeri Dominion Character,Wisp Floss and Brown Malt,Health Recovery +5
+,Fortified Sylph-Sandy,RI 1,RQ 2,Level 15 Drink,20px|Aldmeri Dominion Character,Wisp Floss and Brown Malt,
+,Voljar's Honey Cider,RI 1,RQ 1,Level 10 Drink,20px|Ebonheart Pact Character,Wild Honey and Brown Malt,Health Recovery +4
+,Fortified Voljar's Honey Cider,RI 1,RQ 2,Level 10 Drink,20px|Ebonheart Pact Character,Wild Honey and Brown Malt,
+,Brew-Wife Ale,RI 2,RQ 1,Level 25 Drink,20px|Daggerfall Covenant Character,Orc Hops and Amber Malt,Health Recovery +7
+,Fortified Brew-Wife Ale,RI 2,RQ 2,Level 25 Drink,20px|Daggerfall Covenant Character,Orc Hops and Amber Malt,
+,Comberry Cider,RI 2,RQ 1,Level 25 Drink,20px|Ebonheart Pact Character,Comberry and Amber Malt,
+,Fortified Comberry Cider,RI 2,RQ 2,Level 25 Drink,20px|Ebonheart Pact Character,Comberry and Amber Malt,
+,Four-Eye Grog,RI 2,RQ 1,Level 20 Drink,20px|Daggerfall Covenant Character,Dark Bile and Amber Malt,Health Recovery +6
+,Fortified Four-Eye Grog,RI 2,RQ 2,Level 20 Drink,20px|Daggerfall Covenant Character,Dark Bile and Amber Malt,
+,Jagga,RI 2,RQ 1,Level 20 Drink,20px|Aldmeri Dominion Character,Pig's Milk and Amber Malt,Health Recovery +6
+,Fortified Jagga,RI 2,RQ 2,Level 20 Drink,20px|Aldmeri Dominion Character,Pig's Milk and Amber Malt,
+,Sujamma Stout,RI 2,RQ 1,Level 20 Drink,20px|Ebonheart Pact Character,Sujamma Berries and Amber Malt,
+,Fortified Sujamma Stout,RI 2,RQ 2,Level 20 Drink,20px|Ebonheart Pact Character,Sujamma Berries and Amber Malt,
+,Sweetmilk,RI 2,RQ 1,Level 25 Drink,20px|Aldmeri Dominion Character,Glitter Rock and Amber Malt,
+,Fortified Sweetmilk,RI 2,RQ 2,Level 25 Drink,20px|Aldmeri Dominion Character,Glitter Rock and Amber Malt,
+,Ash-Slake Ale,RI 3,RQ 1,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Caramalt,
+,Fortified Ash-Slake Ale,RI 3,RQ 2,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Caramalt,
+,Consummate Ash-Slake Ale,RI 3,RQ 3,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Caramalt,
+,Bitter Tea,RI 3,RQ 1,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Caramalt,
+,Fortified Bitter Tea,RI 3,RQ 2,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Caramalt,
+,Consummate Bitter Tea,RI 3,RQ 3,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Caramalt,
+,Fermented Treacle Tea,RI 3,RQ 1,Level 30 Drink,20px|Aldmeri Dominion Character,Molasses and Caramalt,
+,Fortified Fermented Treacle Tea,RI 3,RQ 2,Level 30 Drink,20px|Aldmeri Dominion Character,Molasses and Caramalt,
+,Heather Tea,RI 3,RQ 1,Level 30 Drink,20px|Daggerfall Covenant Character,Desert Heather and Caramalt,
+,Fortified Heather Tea,RI 3,RQ 2,Level 30 Drink,20px|Daggerfall Covenant Character,Desert Heather and Caramalt,
+,River's Ale,RI 3,RQ 1,Level 30 Drink,20px|Ebonheart Pact Character,River Grapes and Caramalt,
+,Fortified River's Ale,RI 3,RQ 2,Level 30 Drink,20px|Ebonheart Pact Character,River Grapes and Caramalt,
+,Spring Infusion,RI 3,RQ 1,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Caramalt,
+,Fortified Spring Infusion,RI 3,RQ 2,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Caramalt,
+,Consummate Spring Infusion,RI 3,RQ 3,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Caramalt,
+,Crystal Beer,RI 4,RQ 1,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Wheat Malt,
+,Fortified Crystal Beer,RI 4,RQ 2,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Wheat Malt,
+,Consummate Crystal Beer,RI 4,RQ 3,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Wheat Malt,
+,Kaveh Stout,RI 4,RQ 1,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Wheat Malt,
+,Fortified Kaveh Stout,RI 4,RQ 2,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Wheat Malt,
+,Consummate Kaveh Stout,RI 4,RQ 3,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Wheat Malt,
+,Mountain Lager,RI 5,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and White Malt,
+,Fortified Mountain Lager,RI 5,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and White Malt,Health and Magicka Recovery +9
+,Consummate Mountain Lager,RI 5,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and White Malt,
+,Bervez Lager,RI 6,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Imperial Mash,
+,Fortified Bervez Lager,RI 6,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Imperial Mash,
+,Consummate Bervez Lager,RI 6,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Imperial Mash,
+,Jazbay Brew,RI 6,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Imperial Mash,
+,Fortified Jazbay Brew,RI 6,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Imperial Mash,Health and Magicka Recovery +11
+,Consummate Jazbay Brew,RI 6,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Imperial Mash,

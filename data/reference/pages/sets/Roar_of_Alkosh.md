@@ -24,4 +24,4 @@ Roar of Alkosh is a trial set which drops in the Maw of Lorkhaj. It cannot be cr
 ### Drop Locations
 
 ## Patch Notes
-* Increased this set's Armor reduction cap to 6000, up from 3000.
+[Patch 7.1.5] * Increased this set's Armor reduction cap to 6000, up from 3000.

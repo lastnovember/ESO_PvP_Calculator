@@ -18,4 +18,4 @@ linerank2=27
 Near-Death Experience increases healing done when targets are lower on health.
 
 ## Patch Notes
-* This passive now increases your Critical Chance with healing based on your targets' missing Health by up to 6/12%, down from 10/20%.
+[Patch 11.0.5] * This passive now increases your Critical Chance with healing based on your targets' missing Health by up to 6/12%, down from 10/20%.

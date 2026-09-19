@@ -1,0 +1,5 @@
+Difficulty,Base Chance,Locksmith I,Locksmith II,Locksmith III,Locksmith IV
+Simple,15%,25%,40%,60%,85%
+Intermediate,10%,20%,35%,55%,80%
+Advanced,5%,15%,30%,50%,75%
+Master,0%,10%,25%,45%,70%

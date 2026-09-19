@@ -1,0 +1,10 @@
+How do you feel about our friendship? (Cordial to Companion)
+Cordial/Friendly,Close,Allied,Companion
+"""I wouldn't have offered you my service if I didn't trust you, my friend. A knight's word is her bond.""","""I'm so glad we met, the day of the tourney. And I very much hope you feel the same way, my friend.""","""I'm still so grateful you took me into your service. The adventures we've had, the sights we've seen … they mean the world to me.""","""I'm so proud to ride at your side. I thank Stendarr every day that I met you."""
+"""It's a pleasure to ride with you. I hope this is just early days in our tale.""","""This may surprise you but I haven't had a lot of close friends over the years. I hope you stick around.""","""You inspire me every day! Don't laugh. I mean it.""","""I think you know more about me than Aurelia at this point! I don't know if that's a good thing, but I mean it as a compliment."
+"""Stendarr willing, our adventures have only just begun!""","""I offered you my blade hardly knowing anything about you. You've been so kind to me ever since.""","""Well let's see, you helped me get over my first crush, and save my life on a regular basis. I think we're friends.""","""Anyone who's put up with my nattering on about stories and sweets as long as you have has to be my best friend."""
+How do you feel about our relationship? (Wary to Disdainful)
+Wary,Irritated,Disdainful
+"""Look within. I know you have it inside you to make better choices.""","""I will continue on in your service, of course. But given your actions I'd rather not engage in idle talk.""","""It's clear honor means nothing to you. I don't believe there's more to say."""
+"""If I'm to continue in your service, I hope you'll seek a more honorable path.""","""I offered you my blade, and I hold to my word. But your actions make me uncomfortable.""","""I don't think we work very well together. Perhaps it would be a good idea for me to return home to High Isle."""
+Let's talk about something else. (Returns to Greetings)

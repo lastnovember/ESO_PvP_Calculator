@@ -33,20 +33,20 @@ Inner Fire causes Magic Damage and taunts an enemy up to 28 meters away, forcing
 - Inner Rage is a recommended morph for the War Mage, Bastion of Light and Guardian of the Wild builds.
 
 ## Patch Notes
-* This ability is now capable of critical strikes.
+[Patch 1.2.3] * This ability is now capable of critical strikes.
 ESO Patch Note|1.5.2|* You will no longer be revealed by the following abilities while Shadow Cloak is active:
 - Restoration Staff light attacks
 - Inner Fire
 - Cripple
-* Fixed an issue where the taunt immunity from this ability and its morphs was being applied after only two taunts. It will now apply after three taunts within ten seconds.
+[Patch 1.5.5] * Fixed an issue where the taunt immunity from this ability and its morphs was being applied after only two taunts. It will now apply after three taunts within ten seconds.
 ESO Patch Note|1.6.5|* Increased the range on this ability to 28 meters from 15 meters, and slightly raised the cost of the ability.
 - Radiate (synergy): Doubled the base damage dealt by this synergy, and it will now cast instantly instead of being channeled.
 - Inner Rage: Increased the chance that the synergy will become available to 35% from 15%.
 - Inner Beast: This ability now costs Stamina instead of Magicka.
-* The Radiate synergy from this ability and its morphs now requires the synergy user to target the enemy afflicted with Inner Fire to activate it. We also increased the damage from the Radiate synergy by 11%.
+[Patch 2.3.5] * The Radiate synergy from this ability and its morphs now requires the synergy user to target the enemy afflicted with Inner Fire to activate it. We also increased the damage from the Radiate synergy by 11%.
 ESO Patch Note|3.3.5|* Radiate (synergy):
 - The prompt is now only visible to allies positioned further than 18 meters away from the taunted enemy.
-* Inner Beast: Fixed an issue where you could not cast this morph while you were silenced.
+[Patch 4.2.5] * Inner Beast: Fixed an issue where you could not cast this morph while you were silenced.
 ESO Patch Note|4.3.5|* Inner Fire and Trapping Webs: The Synergies granted from these abilities and their morphs now have a minimum range of 12 meters to activate, instead of 18 meters. (Rejoice, as you no longer need to sprint back and forth from varying ranges like an Olympian to activate these bonuses!)
 - Developer Comment: While we want to have differences in the Synergies that melee and ranged build have access to, we realized that many ranged builds still found themselves getting closer to their targets in order to use powerful abilities such as Wall of Elements or other shorter ranged abilities. The new range should now better reward teetering between melee and ranged distances.
 ESO Patch Note|5.1.5|* Reduced the cost of this ability and its morphs to 2700 from 4051, and increased the chance of applying the synergy to 50% from 25% for this and the Inner Beast morph.

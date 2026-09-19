@@ -1,0 +1,12 @@
+Set,Pieces,Shield Strength,Duration,Affects,Triggered By,Cooldown
+Brands of Imperium,5,140-12040,6 sec.,Self and Allies,Whenever you take damage,12 sec.
+Combat Physician,5,95-8195,8 sec.,Self and Allies,When you critically heal yourself or an ally,6 sec.
+Hatchling's Shell,5,260-3200,6 sec.,Self,Whenever you take damage,6 sec.
+Hexos' Ward,5,286-12305,6 sec.,Self,Dealing direct Critical Damage,7 sec.
+Iceheart,2,100-8600,6 sec.,Self,20% chance when dealing Critical Damage,6 sec.
+Mother Ciannait,2,116-5000,6 sec.,Self,Channeling or casting an ability with cast time,7 sec.
+Lunar Bastion,5,27-2399,10 sec.,Self and Allies,Using a Synergy (every 2 seconds for 8 seconds),20 sec.
+Para Bellum,5,195-8412,6 sec,Self,Not taking damage for 10 seconds,6 sec.
+Prayer Shawl,5,28-2425,6 sec.,Self and Allies,When you overheal yourself or an ally,2 sec.
+Undaunted Bastion,5,160-13760,15 sec.,Self,Taunting an enemy while below 75% Health,10 sec.
+Whitestrake's Retribution,5,120-10320,8 sec.,Self,Dropping below 30% Health,15 sec.

@@ -224,21 +224,21 @@ colspan=8 | Weapon traits are available on all weapons - axes, swords, maces, da
 Infused
 Jade
 Increase weapon enchantment effect by … and reduces enchantment cooldown by 50%
-R|10% | R|15% | R|20% | R|25% | R|30%
+|10% | |15% | |20% | |25% | |30%
 
 colspan=8 | Armor traits are available on all articles of light, medium or heavy armor and shields. There is one trait related to enchantments.
 
 Infused
 Bloodstone
 Increases this item's armor enchantment effect by
-R|8% | R|11% | R|14% | R|17% | R|20%
+|8% | |11% | |14% | |17% | |20%
 
 colspan=8 | Jewelry traits are available on all jewelry pieces. There is one trait related to enchantments.
 
 Infused
 Aurbic Amber
 Increases this item's Jewelry enchantment effect by
-R|24% | R|33% | R|42% | R|51% | R|60%
+|24% | |33% | |42% | |51% | |60%
 
 ## Skill Perks
 Enchanting has an associated skill line that is revealed through use of the Enchanting profession. Abilities are listed below.

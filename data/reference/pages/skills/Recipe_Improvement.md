@@ -33,5 +33,5 @@ Recipe Improvement determines the level of Provisioning items you can make. You 
 The recipes available at given levels of Recipe Quality and Recipe Improvement are as follows:
 
 ## Patch Notes
-* Corrected a minor issue with this passive skill's icon.
-* Recipes in Cyrodiil, the Imperial City, and Dungeons now drop based on your rank in the Recipe Improvement passive.
+[Patch 1.1.2] * Corrected a minor issue with this passive skill's icon.
+[Patch 2.6.4] * Recipes in Cyrodiil, the Imperial City, and Dungeons now drop based on your rank in the Recipe Improvement passive.

@@ -37,14 +37,14 @@ Shield Wall causes you to automatically block all blockable attacks without cost
 File:ON-skill-Shield_Wall_02.jpg|Shield Wall's effect on a shield
 
 ## Patch Notes
-* New Weapon Ultimates have been added to the game. Each Weapon skill line now has one Ultimate, and each Ultimate can be obtained by reaching Rank 50 in its respective Weapon skill line. Weapon Ultimates can be morphed as well!
-* Fixed an issue where this ability and its morphs were not blocking all the secondary effects from blockable monster attacks.
-* Increased the cost of this ability and its morphs to 135 Ultimate from 100.
+[Patch 2.6.4] * New Weapon Ultimates have been added to the game. Each Weapon skill line now has one Ultimate, and each Ultimate can be obtained by reaching Rank 50 in its respective Weapon skill line. Weapon Ultimates can be morphed as well!
+[Patch 2.7.5] * Fixed an issue where this ability and its morphs were not blocking all the secondary effects from blockable monster attacks.
+[Patch 3.2.5] * Increased the cost of this ability and its morphs to 135 Ultimate from 100.
 ESO Patch Note|3.2.8|* Fixed an issue where the following abilities (and their associated morphs) could not be cast against an enemy player with the Shield Wall ability active:
 - Eclipse
 - Petrify
 - Rune Prison
-* Fixed an issue if you were holding block while casting this ability, you were unable to activate ground targeted abilities.
-* Fixed an issue where activating this Ultimate or its morphs while wearing item sets such as Frozen Watcher could trigger their effects permanently.
-* Fixed an issue where this Ultimate and its morphs could lose their effects after activating sprint.
-* Fixed an issue where this Ultimate and its morphs' block functionality would become lost after sprinting.
+[Patch 5.1.5] * Fixed an issue if you were holding block while casting this ability, you were unable to activate ground targeted abilities.
+[Patch 6.2.5] * Fixed an issue where activating this Ultimate or its morphs while wearing item sets such as Frozen Watcher could trigger their effects permanently.
+[Patch 8.3.8] * Fixed an issue where this Ultimate and its morphs could lose their effects after activating sprint.
+[Patch 9.0.5] * Fixed an issue where this Ultimate and its morphs' block functionality would become lost after sprinting.

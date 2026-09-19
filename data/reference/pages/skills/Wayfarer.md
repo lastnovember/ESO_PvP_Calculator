@@ -18,4 +18,4 @@ Shield Affinity gives Redguards a natural affinity for Shields, allowing them to
 - Prior to Update 11, this skill was called "Shield Affinity", and had no effect on consumed food. This was likely done to avoid confusion with the Imperial skill of the same name, itself also renamed to Diplomat.
 
 ## Patch Notes
-* Shield Affinity: This passive ability has been renamed to "Wayfarer." Also, in addition to the current benefit it now increases the duration of any consumed food by 15 minutes.
+[Patch 2.5.5] * Shield Affinity: This passive ability has been renamed to "Wayfarer." Also, in addition to the current benefit it now increases the duration of any consumed food by 15 minutes.

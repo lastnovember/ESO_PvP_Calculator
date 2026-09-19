@@ -38,7 +38,7 @@ ESO Patch Note|1.6.5|* Guard (new ability)
 - This new ability will intercept all projectiles that are targeted at allies near you, and when toggled, will also drain your target's stamina while active.
 - Mystic Guard: Your allies gain the Minor Vitality buff.
 - Stalwart Guard: Using this ability will slow your stamina drain.
-* Relocated this ability to Rank 5 in the Support tree, from Rank 10.
+[Patch 2.1.4] * Relocated this ability to Rank 5 in the Support tree, from Rank 10.
 ESO Patch Note|2.3.5|* This ability and its morphs no longer drain Stamina every second they are toggled on. They will continue to charge an upfront Stamina cost, charge Stamina for each intercepted attack, and disable Stamina Recovery while active.
 - Fixed an issue where this ability and its morphs would not reliably intercept projectiles.
 ESO Patch Note|2.4.5|* Redesigned this ability and its morphs so they no longer intercept projectiles around you; instead, they are now single target abilities that can be cast on an ally to tether to them. While tethered, 30% of the damage they take is redistributed to you.
@@ -46,13 +46,13 @@ ESO Patch Note|2.4.5|* Redesigned this ability and its morphs so they no longer 
 - Also fixed an issue where this ability and its morphs were not correctly interacting with the Meritorious Service item set bonus or the Magicka Aid passive.
 - Mystic Guard: This morph will now grant you and the tethered ally the Minor Vitality buff.
 - Stalwart Guard: This morph will now grant you and the tethered ally the Minor Force buff.
-* Fixed an issue where this ability and its morphs could be cast on friendly NPCs and Assistants.
-* Stalwart Guard: Fixed an issue where the permanent Minor Force buff from this morph was removing other, temporary sources of Minor Force.
+[Patch 2.5.5] * Fixed an issue where this ability and its morphs could be cast on friendly NPCs and Assistants.
+[Patch 2.7.5] * Stalwart Guard: Fixed an issue where the permanent Minor Force buff from this morph was removing other, temporary sources of Minor Force.
 ESO Patch Note|5.0.5|* Fixed numerous issues with this ability and its morphs.
 - The transferred damage can no longer be mitigated a second time by the transfer target's mitigation or damage reduction. The damage is only mitigated once, from the initial target's mitigation and damage reduction.
 - The transferred damage is now correctly attributed to the attacker, and no longer attributed to the initial target. It will no longer scale erroneously with the initial target's damage bonuses.
 - The transferred damage will now retain the same damage type of the initial attack, instead of always being Physical Damage. Note that Oblivion Damage still cannot be transferred.
-* Reduced the base cost to activate this ability and its morphs to 3672 from 4320 since they were missing the 15% Stamina cost reduction standard.
-* Fixed an issue where this ability and morphs' transferred damage was able to trigger other conditional requirements.
+[Patch 5.1.5] * Reduced the base cost to activate this ability and its morphs to 3672 from 4320 since they were missing the 15% Stamina cost reduction standard.
+[Patch 8.3.5] * Fixed an issue where this ability and morphs' transferred damage was able to trigger other conditional requirements.
 
 Skill

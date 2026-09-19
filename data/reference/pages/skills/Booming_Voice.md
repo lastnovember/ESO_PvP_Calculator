@@ -14,4 +14,4 @@ linerank1=1
 Booming Voice improves rank 2 of The Storm Voice when activated. It gives Health, Magicka, and Stamina Recovery when activating an Ultimate ability, in addition to the immedeate recovery provided by The Storm Voice.
 
 ## Patch Notes
-*This passive upgrades rank 2 of The Storm Voice to also grant 1 Health, Magicka, and Stamina per ultimate spent for 10 seconds.
+[Patch 12.0.0] *This passive upgrades rank 2 of The Storm Voice to also grant 1 Health, Magicka, and Stamina per ultimate spent for 10 seconds.

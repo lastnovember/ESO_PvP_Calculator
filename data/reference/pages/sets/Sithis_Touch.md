@@ -33,4 +33,4 @@ Sithis's Touch (Up to Patch 7.1.5)
 ESO Patch Note|7.1.5|* This set now grants 5% movement speed for 30 seconds whenever you kill an enemy, up to 20 times, and grants invisibility for 3 seconds when activating.
 - This set's 2 through 4-piece bonuses are now Max Stamina (2), Max Magicka (3), and Weapon and Spell Damage (4), rather than Max Health, Max Health, and Critical Chance.
 - This set no longer grants Major Berserk whenever you kill an enemy with the Blade of Woe.
-* Introduced with the Dark Brotherhood DLC.
+[Patch 2.4.5] * Introduced with the Dark Brotherhood DLC.

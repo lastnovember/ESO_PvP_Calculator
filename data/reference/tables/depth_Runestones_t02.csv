@@ -1,0 +1,39 @@
+,Name,Translation,Potency,Item Type,,Glyph,Effect
+,Dekeipa,"""Frost""",#CCCCCC|Additive,Weapon,,Glyph of Frost,Deals X Frost Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Frost Resist,Adds X Frost Resistance
+,Deni,"""Stamina""",#CCCCCC|Additive,Armor,,Glyph of Stamina,Adds X Max Stamina
+#CCCCCC|Subtractive,Weapon,,Glyph of Absorb Stamina,Deals X Physical Damage and recovers Y Stamina
+,Denima,"""Stamina Regen""",#CCCCCC|Additive,Jewelry,,Glyph of Stamina Recovery,Adds X Stamina Recovery
+#CCCCCC|Subtractive,Jewelry,,Glyph of Reduce Feat Cost,Reduce Stamina cost of abilities by X
+,Deteri,"""Armor""",#CCCCCC|Additive,Weapon,,Glyph of Hardening,Grants a X point Damage Shield for Y seconds
+#CCCCCC|Subtractive,Weapon,,Glyph of Crushing,Reduce targets Armor by X for Y seconds
+,Hakeijo†,"""Prism""",#CCCCCC|Additive,Armor,,Glyph of Prismatic Defense,Adds X Max Health/Magicka/Stamina
+#CCCCCC|Subtractive,Weapon,,Glyph of Prismatic Onslaught,Deals X Magic Damage and restores Y Health and Z Magicka and Stamina
+,Haoko,"""Disease""",#CCCCCC|Additive,Weapon,,Glyph of Foulness,Deals X Disease Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Disease Resist,Adds X Disease Resistance
+,Indeko‡,"""Prismatic Regen""",#CCCCCC|Additive,Jewelry,,Glyph of Prismatic Recovery,Adds X Health/Magicka/Stamina Recovery
+#CCCCCC|Subtractive,Jewelry,,Glyph of Reduce Skill Cost,Reduce Health/Magicka/Stamina cost of abilities by X
+,Kaderi,"""Shield""",#CCCCCC|Additive,Jewelry,,Glyph of Bashing,Increase bash damage by X
+#CCCCCC|Subtractive,Jewelry,,Glyph of Bracing,Reduce cost of Blocking by X
+,Kuoko,"""Poison""",#CCCCCC|Additive,Weapon,,Glyph of Poison,Deals X Poison Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Poison Resist,Adds X Poison Resistance
+,Makderi,"""Spell Harm""",#CCCCCC|Additive,Jewelry,,Glyph of Increase Magical Harm,Adds X Spell Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Decrease Spell Harm,Adds X Spell Resistance
+,Makko,"""Magicka""",#CCCCCC|Additive,Armor,,Glyph of Magicka,Adds X Max Magicka
+#CCCCCC|Subtractive,Weapon,,Glyph of Absorb Magicka,Deals X Magic Damage and recovers Y Magicka
+,Makkoma,"""Magicka Regen""",#CCCCCC|Additive,Jewelry,,Glyph of Magicka Recovery,Adds X Magicka Recovery
+#CCCCCC|Subtractive,Jewelry,,Glyph of Reduce Spell Cost,Reduce Magicka cost of Spells by X
+,Meip,"""Shock""",#CCCCCC|Additive,Weapon,,Glyph of Shock,Deals X Shock Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Shock Resist,Adds X Shock Resistance
+,Oko,"""Health""",#CCCCCC|Additive,Armor,,Glyph of Health,Adds X Max Health
+#CCCCCC|Subtractive,Weapon,,Glyph of Absorb Health,Deals X Magic Damage and recovers Y Health
+,Okoma,"""Health Regen""",#CCCCCC|Additive,Jewelry,,Glyph of Health Recovery,Adds X Health Recovery
+#CCCCCC|Subtractive,Weapon,,Glyph of Decrease Health,Deals X unresistable damage
+,Okori,"""Power""",#CCCCCC|Additive,Weapon,,Glyph of Weapon Damage,Increase your Weapon and Spell damage by X for Y seconds
+#CCCCCC|Subtractive,Weapon,,Glyph of Weakening,Reduce target Weapon and Spell damage by X for Y seconds
+,Oru,"""Alchemist""",#CCCCCC|Additive,Jewelry,,Glyph of Potion Boost,Increase Potion effect by X
+#CCCCCC|Subtractive,Jewelry,,Glyph of Potion Speed,Reduce the cooldown of Potions below this item's level by X seconds
+,Rakeipa,"""Fire""",#CCCCCC|Additive,Weapon,,Glyph of Flame,Deals X Fire Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Flame Resist,Adds X Fire Resistance
+,Taderi,"""Physical Harm""",#CCCCCC|Additive,Jewelry,,Glyph of Increase Physical Harm,Adds X Weapon Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Decrease Physical Harm,Adds X Armor

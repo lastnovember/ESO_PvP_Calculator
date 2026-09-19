@@ -37,12 +37,12 @@ Weakness to Elements reduces an enemy's Physical Resistance and Spell Resistance
 - Elemental Drain is a recommended morph for the Deathweaver build.
 
 ## Patch Notes
-* Elemental Drain: This passive ability's magicka restore will no longer erroneously trigger on damage-over-time ticks, or multiple times for a single ability cast.
-* This ability will no longer aggro monsters. Using this ability on a target that is already affected now properly refreshes the duration instead of removing it. This ability also now has a graphical effect.
+[Patch 1.1.2] * Elemental Drain: This passive ability's magicka restore will no longer erroneously trigger on damage-over-time ticks, or multiple times for a single ability cast.
+[Patch 1.5.2] * This ability will no longer aggro monsters. Using this ability on a target that is already affected now properly refreshes the duration instead of removing it. This ability also now has a graphical effect.
 ESO Patch Note|1.6.5|* This ability now has no cost and can be applied to multiple targets, and now afflicts the target (or targets) with the debuff Major Spell Resistance Reduction for 18 seconds.
 - Elemental Susceptibility (morph): This ability now refreshes its duration when you damage the affected target.
-* Elemental Drain: Fixed an issue where multiple ranks of this ability could stack their magicka restore.
-* Elemental Susceptibility (morph): Fixed an issue where the visual effects were not being refreshed whenever the debuff from this morph was refreshed.
+[Patch 2.0.5] * Elemental Drain: Fixed an issue where multiple ranks of this ability could stack their magicka restore.
+[Patch 2.4.5] * Elemental Susceptibility (morph): Fixed an issue where the visual effects were not being refreshed whenever the debuff from this morph was refreshed.
 ESO Patch Note|2.7.5|* Fixed an issue where some weapon abilities (Blade Cloak, Volley, and Wall of Elements) could not proc Weapon Enchantments.
 - Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Force Shock
@@ -51,8 +51,8 @@ ESO Patch Note|2.7.5|* Fixed an issue where some weapon abilities (Blade Cloak, 
 - Weakness to Elements
 - Impulse
 - Elemental Drain (morph): This morph no longer restores a flat value of Magicka whenever you deal Flame, Frost, or Shock Damage to the target. Instead, it applies Minor Magickasteal to them.
-* Elemental Susceptibility (morph): This morph now persists indefinitely, until the target leaves combat or dies, rather than lasting 20 seconds and refreshing whenever they take damage from you.
-* Elemental Susceptibility (morph): Reworked this morph to no longer last until the target leaves combat, and instead increases the duration to 1 minute. While this ability is active, the target is afflicted with Burning, Chilled, or Concussion every 6 seconds.
+[Patch 7.1.5] * Elemental Susceptibility (morph): This morph now persists indefinitely, until the target leaves combat or dies, rather than lasting 20 seconds and refreshing whenever they take damage from you.
+[Patch 7.1.6] * Elemental Susceptibility (morph): Reworked this morph to no longer last until the target leaves combat, and instead increases the duration to 1 minute. While this ability is active, the target is afflicted with Burning, Chilled, or Concussion every 6 seconds.
 ESO Patch Note|8.2.5|* Increased the duration of this morph to 30 seconds at its final rank, up from 20.
 - Elemental Drain (morph): This morph now increases the duration to 60 seconds at its final rank, up from 23.
 - Elemental Susceptibility (morph):

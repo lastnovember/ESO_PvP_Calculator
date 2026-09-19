@@ -40,19 +40,19 @@ File:ON-skill-Swarm DoT.jpg|Swarm & Fetcher Infection Damage Over Time visual on
 File:ON-skill-Growing Swarm AOE Zone.jpg|Growing Swarm morph AOE zone visual on a Cliff Strider.
 
 ## Patch Notes
-* Fixed an issue where this ability and its morphs were not being considered damage over time effects for various passive bonuses or procs.
-* Fixed an issue where the projectile fired from this ability and its morphs would immediately aggro monsters before it reached them.
+[Patch 3.3.5] * Fixed an issue where this ability and its morphs were not being considered damage over time effects for various passive bonuses or procs.
+[Patch 4.0.5] * Fixed an issue where the projectile fired from this ability and its morphs would immediately aggro monsters before it reached them.
 ESO Patch Note|4.2.5|* Increased the cost of this ability and its morphs by approximately 30%.
 - Developer Comment: With the increase to Betty Netch resource restore and reduced Scorch cost, we were able to get Stamina Wardens into a health place for average drain rate per second, but Magicka Warden was too inexpensive. This made Swarm the perfect ability to adjust as it's Magicka only and was extremely inexpensive.
 ESO Patch Note|4.3.5|* Fixed an issue where the visual affects from this ability and its morphs would persist on targets who entered invisibility or stealth.
 - Growing Swarm: Fixed an issue where this ability could target enemies in Sneak or Invisibility when attempting to spread to a new target.
-* Increased the cost of this ability and its morphs to 2700 from 2430, and increased the damage per tick by approximately 17%.
+[Patch 5.1.5] * Increased the cost of this ability and its morphs to 2700 from 2430, and increased the damage per tick by approximately 17%.
 ESO Patch Note|5.2.5|* Increased the cost of this ability and its morphs to 2970 to encapsulate their new functionalities.
 - These abilities now apply Minor Vulnerability to the target for the duration of the DoT.
 - Decreased the damage per tick of these abilities by approximately 40%.
 - Growing Swarm (morph):
 - This morph has been redesigned into a Stamina-based ability that deals Bleed Damage. The Swarm no longer spreads to nearby enemies upon completion, but instead deals damage to enemies in an area around the initial target. This damage is roughly 50% of the initial target's coefficient. Note the Vulnerability still only applies to the initial target.
-* Growing Swarm (morph): Fixed an issue where this ability couldn't be cast while silenced.
+[Patch 6.1.5] * Growing Swarm (morph): Fixed an issue where this ability couldn't be cast while silenced.
 ESO Patch Note|7.3.5|* Growing Swarm (morph):
 - This morph now limits the number of active targets you can have it on to 1.
 - Increased the damage of the Area of Effect portion of the ability by 50% to make up for the new limit.

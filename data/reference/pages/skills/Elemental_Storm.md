@@ -43,7 +43,7 @@ File:ON-skill-Ice_Storm.jpg|Ice Storm
 File:ON-skill-Thunder_Storm.jpg|Thunder Storm
 
 ## Patch Notes
-* New Weapon Ultimates have been added to the game. Each Weapon skill line now has one Ultimate, and each Ultimate can be obtained by reaching Rank 50 in its respective Weapon skill line. Weapon Ultimates can be morphed as well!
+[Patch 2.6.4] * New Weapon Ultimates have been added to the game. Each Weapon skill line now has one Ultimate, and each Ultimate can be obtained by reaching Rank 50 in its respective Weapon skill line. Weapon Ultimates can be morphed as well!
 ESO Patch Note|2.6.11|* Eye of the Storm:
 - Fixed an issue where this morph's visual effects would not be displayed if the caster used Mist Form.
 - Dealing damage with this morph will now remove the caster from Shadow Cloak and display a hostile red telegraph to enemy player characters.
@@ -51,8 +51,8 @@ ESO Patch Note|2.7.5|* Fixed an issue where this ability and its morphs could oc
 - Reduced the damage for this ability and its morphs by 5%.
 - Reduced the damage done by this ability and the Eye of the Storm morph by 10%. The damage from Elemental Rage remains unchanged.
 - Developer Comments: The size of this ability coupled with the mobility of Eye of the Storm has made it extremely potent in PvP without allowing enough counterplay. Due to this, we've reduced the base damage but allow you to regain that damage by selecting the Elemental Rage morph. This is similar to previous changes we made to Force Shock and Uppercut - you'll now be choosing between extra damage or extra utility.
-* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
-* Reduced the damage of this ability and the Eye of the Storm morph by approximately 12%. The damage on the Elemental Rage morph remains unchanged.
-* Reduced the radius of this ability and its morphs to 8 meters from 10 meters.
-* Elemental Rage: Fixed an issue where Fiery Rage was not increasing the damage dealt by this morph by 10%.
-* Fixed an issue where this ability and its morphs were not considered Weapon abilities in some cases.
+[Patch 3.1.5] * In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
+[Patch 3.2.5] * Reduced the damage of this ability and the Eye of the Storm morph by approximately 12%. The damage on the Elemental Rage morph remains unchanged.
+[Patch 3.3.5] * Reduced the radius of this ability and its morphs to 8 meters from 10 meters.
+[Patch 4.0.5] * Elemental Rage: Fixed an issue where Fiery Rage was not increasing the damage dealt by this morph by 10%.
+[Patch 7.0.5] * Fixed an issue where this ability and its morphs were not considered Weapon abilities in some cases.

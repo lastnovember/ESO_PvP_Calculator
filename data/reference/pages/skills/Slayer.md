@@ -21,8 +21,8 @@ linerank3=7
 Slayer increases your Weapon Damage and Spell Damage for each Fighters Guild active ability you have slotted. This includes the Ultimate, Dawnbreaker, so with the other 4 active skills, that makes a total of up to 5%, 10%, or 15% increase depending on how many points you invest in this passive.
 
 ## Patch Notes
-* Redesigned this passive ability so it now increases your Weapon Damage by 1/2/3% for each Fighters Guild ability slotted at Ranks I/II/III respectively, instead of increasing your Weapon and Spell Damage by 3/6/9% against Undead and Daedra.
-Silver Bolts]] morph): Fixed an issue where this ability was not counting as a Fighter's Guild ability for the Slayer passive.
+[Patch 2.4.5] * Redesigned this passive ability so it now increases your Weapon Damage by 1/2/3% for each Fighters Guild ability slotted at Ranks I/II/III respectively, instead of increasing your Weapon and Spell Damage by 3/6/9% against Undead and Daedra.
+[Patch 4.1.5] * Silver Leash (Silver Bolts morph): Fixed an issue where this ability was not counting as a Fighter's Guild ability for the Slayer passive.
 ESO Patch Note|7.1.5|* The following passives and player abilities now grant hybrid stats to help improve their viability and accessibility to off-meta builds, because we love them too:
 - Agility: Now grants equal Weapon and Spell Damage.
 - Balanced Warrior:

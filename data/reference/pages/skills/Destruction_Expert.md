@@ -18,5 +18,5 @@ linerank2=50
 Destruction Expert restores some Magicka each time you kill an enemy with a Destruction Staff ability. It will also restore Magicka when you take damage while you have a damage shield obtained from a Destruction Staff ability, which are from Wall of Frost (and its morphs) and from heavy attacks made with Frost Staves while having the Tri Focus passive.
 
 ## Patch Notes
-* Fixed an issue where the caster would not restore Magicka from this passive if a weapon enchantment proc from their equipped Destruction Staff was the killing blow.
-* This passive now also grants 900/1800 Magicka whenever you absorb damage with a Frost Staff damage shield. This new effect can occur once every 10 seconds.
+[Patch 2.3.5] * Fixed an issue where the caster would not restore Magicka from this passive if a weapon enchantment proc from their equipped Destruction Staff was the killing blow.
+[Patch 6.2.5] * This passive now also grants 900/1800 Magicka whenever you absorb damage with a Frost Staff damage shield. This new effect can occur once every 10 seconds.

@@ -41,9 +41,9 @@ File:ON-skill-Berserker Strike 02.jpg|Berserker Strike's player effect
 File:ON-skill-Berserker Rage 02.jpg|Berserker Rage's player effect
 
 ## Patch Notes
-* New Weapon Ultimates have been added to the game. Each Weapon skill line now has one Ultimate, and each Ultimate can be obtained by reaching Rank 50 in its respective Weapon skill line. Weapon Ultimates can be morphed as well!
-Shadow of the Red Mountain]].
-* Berserker Rage: Fixed an issue where the CC immunity granted from this ability wasn't granting immunity to interrupts.
+[Patch 2.6.4] * New Weapon Ultimates have been added to the game. Each Weapon skill line now has one Ultimate, and each Ultimate can be obtained by reaching Rank 50 in its respective Weapon skill line. Weapon Ultimates can be morphed as well!
+[Patch 2.6.7] * Fixed an issue where this ability and its morphs did not work with various item set bonuses, such as Sword-Singer or Shadow of the Red Mountain.
+[Patch 5.0.5] * Berserker Rage: Fixed an issue where the CC immunity granted from this ability wasn't granting immunity to interrupts.
 ESO Patch Note|5.1.5|* This ability and its morphs will now deal damage in a 5 meter radius if the initial hit successfully hits. Note the initial hit can still be dodged, since the initial attack is not an AoE.
 - Onslaught: This morph no longer refunds Ultimate cost if you gain a killing blow with it. Instead, it converts the Physical and Spell Resistance into Physical and Spell Penetration for your Direct Damage attacks, and increases the duration from 8 seconds to a maximum of 12 seconds. It also no longer ranks up in 1.1% damage per rank.
 ESO Patch Note|5.2.5|* Onslaught (morph):
@@ -54,5 +54,5 @@ ESO Patch Note|5.2.5|* Onslaught (morph):
 ESO Patch Note|5.3.4|* Fixed an issue where this ability and its morphs couldn't proc the Soul Lock passive.
 - Reduced the damage done by this ability and its morphs by approximately 16% to better account for the fact that it also ignores mitigation.
 - Berserker Rage (morph): Fixed an issue where this ability did not grant immunity to snares and immobilizes.
-* Fixed an issue where this Ultimate and morphs' camera shake when striking multiple targets would make you experience a brief but violent earthquake. The camera shake is now the same despite how many enemies you hit and is much more tame.
-* Onslaught (morph): Fixed an issue where the penetration check on direct damage for this morph was not consistent with other sources.
+[Patch 6.2.5] * Fixed an issue where this Ultimate and morphs' camera shake when striking multiple targets would make you experience a brief but violent earthquake. The camera shake is now the same despite how many enemies you hit and is much more tame.
+[Patch 7.1.5] * Onslaught (morph): Fixed an issue where the penetration check on direct damage for this morph was not consistent with other sources.

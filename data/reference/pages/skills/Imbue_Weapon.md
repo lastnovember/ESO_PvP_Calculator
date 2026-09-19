@@ -38,12 +38,12 @@ ESO Patch Note|4.1.5|* Fixed an issue where this ability and its morphs were rem
 - Crushing Weapon (morph): Fixed an issue where this would heal based on the damage done from the Light Attack, and not the damage done by Crushing Weapon itself.
 ESO Patch Note|4.2.5|* Decreased the cost of this ability and the Crushing Weapon morph by 5%.
 - Elemental Weapon (morph): Increased the cost of this morph by 10%.
-* The resource return from failing to consume this ability will now only return a portion of the resources, rather than all of them. This was done to fix an issue where you could get more resources back than you had originally casted it with, when used in tandem with sources of cost reduction.
-* Elemental Weapon (morph): Fixed an issue where there wasn't an equal chance to apply each status effect.
-* Crushing Weapon (morph): This morph's heal now ranks up by 1% value of the damage done per rank, rather than 1.1% healing done per rank.
-* Crushing Weapon (morph): This morph now applies Major Breach to the target hit for 6 seconds, rather than healing for 25% of the damage caused, to help ensure the thing being crushed wasn't your dreams.
+[Patch 4.3.5] * The resource return from failing to consume this ability will now only return a portion of the resources, rather than all of them. This was done to fix an issue where you could get more resources back than you had originally casted it with, when used in tandem with sources of cost reduction.
+[Patch 5.0.5] * Elemental Weapon (morph): Fixed an issue where there wasn't an equal chance to apply each status effect.
+[Patch 6.0.5] * Crushing Weapon (morph): This morph's heal now ranks up by 1% value of the damage done per rank, rather than 1.1% healing done per rank.
+[Patch 7.1.5] * Crushing Weapon (morph): This morph now applies Major Breach to the target hit for 6 seconds, rather than healing for 25% of the damage caused, to help ensure the thing being crushed wasn't your dreams.
 ESO Patch Note|7.3.5|* This ability and its morphs now all cost 2700, rather than 2715 for their Stamina versions and 3122 for its Magicka morph.
 - Developer Comment: These abilities originally met these values on their launch, but due to the overwhelming amount of use they saw at the time, they were increased to reach the same relative cost of other spammables. Now that many spammables in the game have received some tweaks since then to further incentivize their use, we're comfortable moving these back to a cheaper cost for those players who want a lower cost spammable at the expense of class or weapon skill line synergy.
-* This ability and its morphs now removes stealth and invisibility after casting.
+[Patch 8.1.5] * This ability and its morphs now removes stealth and invisibility after casting.
 
 Skill

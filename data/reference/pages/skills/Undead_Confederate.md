@@ -18,4 +18,4 @@ linerank2=50
 Undead Confederate increases your Magicka and Stamina Recovery whenever you have a Necromancer class summon active.
 
 ## Patch Notes
-* This passive now increases your Health, Magicka, and Stamina Recovery by 77/155 while a Necromantic pet is active, down from 100/200.
+[Patch 11.0.5] * This passive now increases your Health, Magicka, and Stamina Recovery by 77/155 while a Necromantic pet is active, down from 100/200.

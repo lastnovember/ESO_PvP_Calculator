@@ -42,21 +42,21 @@ File:ON-skill-Draining Shot (hit).jpg|When Draining Shot morph hits, two red bol
 File:ON-skill-Draining Shot (heal).jpg|Draining Shot morph heal visual
 
 ## Patch Notes
-* Magnum Shot: This ability's animation no longer breaks if used while silenced or bracing.
-* Adjusted the rank progression for this morph so it reduces the cost of the ability at a smoother curve.
-* Draining Shot: Redesigned this morph so it now heals you when the disorient ends.
+[Patch 1.2.3] * Magnum Shot: This ability's animation no longer breaks if used while silenced or bracing.
+[Patch 2.3.5] * Adjusted the rank progression for this morph so it reduces the cost of the ability at a smoother curve.
+[Patch 2.4.5] * Draining Shot: Redesigned this morph so it now heals you when the disorient ends.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Snipe
 - Volley
 - Magnum Shot
 - Arrow Spray
 - Poison Arrow
-* This ability and its morphs no longer apply a 5-second disorient to enemies hit. Instead, they now apply a 1.5 second stun.
-* Fixed an issue where the tooltip text on this ability and its morphs were incorrectly referring to their stun effect as a disorient.
-* Fixed an issue where using Roll Dodge immediately after casting this ability or its morphs would prevent the enemy from gaining crowd control immunity after you knocked them back.
+[Patch 3.2.5] * This ability and its morphs no longer apply a 5-second disorient to enemies hit. Instead, they now apply a 1.5 second stun.
+[Patch 3.2.7] * Fixed an issue where the tooltip text on this ability and its morphs were incorrectly referring to their stun effect as a disorient.
+[Patch 4.1.5] * Fixed an issue where using Roll Dodge immediately after casting this ability or its morphs would prevent the enemy from gaining crowd control immunity after you knocked them back.
 ESO Patch Note|4.2.5|* Increased the range of this ability and its morphs to 28 meters from 10 meters.
 - Developer Comment: The range was increased to be more in line with the other Bow abilities and now fits better into rotations at range.
-* Fixed an issue where the stun applied from this ability and its morphs was not able to be broken until after the knock back had completed, which made it feel less responsive to CC break.
+[Patch 4.3.5] * Fixed an issue where the stun applied from this ability and its morphs was not able to be broken until after the knock back had completed, which made it feel less responsive to CC break.
 ESO Patch Note|5.1.5|* This ability is now part of the utility category, with the below changes affect all 3 versions of the ability.
 - Increased the cost to 3780 from 2970.
 - Reduced the damage by approximately 10%.

@@ -43,13 +43,13 @@ Poison Arrow deals poison damage to a target, and additional poison damage over 
 File:ON-skill-Poison Arrow (DoT).jpg|Poison Arrow and its morphs' DoT visual
 
 ## Patch Notes
-* Increased the damage-over-time for this ability by 50%.
+[Patch 1.2.3] * Increased the damage-over-time for this ability by 50%.
 ESO Patch Note|1.5.2|* Increased the damage over time for this ability by approximately 30%. We also fixed an issue where this ability couldn't critical strike.
 - Poison Injection: This ability now starts dealing bonus damage on targets under 50% health instead of 35% health.
 ESO Patch Note|2.4.5|* Fixed an issue where you were able to block the damage over time from various player abilities, such as Poison Arrow or Unstable Flame.
 - Increased the damage over time from this ability and its morphs by 12%.
 - Fixed an issue where this ability and its morphs were not applying their damage over time to targets that blocked or absorbed the damage.
-* Poison Injection: Fixed an issue where this morph's bonus damage to low-health targets was applying to equipped Poisons and the Poisoned status effect.
+[Patch 2.6.4] * Poison Injection: Fixed an issue where this morph's bonus damage to low-health targets was applying to equipped Poisons and the Poisoned status effect.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Snipe
 - Volley
@@ -58,7 +58,7 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Poison Arrow
 ESO Patch Note|3.1.7|* Poison Injection: This morph will now recalculate its damage over time each time it ticks. This fixes the issue where the execute damage was not updating as the target gained or lost health, but also means the tick value can increase or decrease if your stats change while it's active.
 - Known Issue: Poison Injection will currently consume the Cruel Flurry enchantment bonus but will not gain the benefit from it.
-* The Damage over Time from Poison Arrow and its morphs can no longer proc Weapon Enchantments or poisons
+[Patch 4.2.7] * The Damage over Time from Poison Arrow and its morphs can no longer proc Weapon Enchantments or poisons
 ESO Patch Note|5.1.5|* Increased the cost to 2700 from 2430 on all morphs.
 - Decreased the initial hit damage by approximately 17% on all morphs.
 - Increased the damage over time portion on all morphs by approximately 78% per tick.
@@ -68,6 +68,6 @@ ESO Patch Note|5.2.5|* Decreased the damage per tick of this ability and its mor
 - Poison Injection (morph): The execute function of this morph now applies to the entire skill, rather than only the Damage over Time.
 ESO Patch Note|5.3.4|* Fixed an issue where this ability and its morphs would cancel any previous cast ability, such as cast times or channels.
 - Poison Injection (morph): Fixed an issue where the initial hit of this ability was not considered an execute by many proc conditions, such as Sheer Venom.
-* Venom Arrow (morph): This morph now grants Major Brutality and Sorcery for 10 seconds after casting.
+[Patch 7.3.5] * Venom Arrow (morph): This morph now grants Major Brutality and Sorcery for 10 seconds after casting.
 ESO Patch Note|8.1.5|* This ability and its morphs now last for 20 seconds, up from 10.
 - Poison Injection (morph): Increased the execute scaling of this morph to 120%, up from 100%.

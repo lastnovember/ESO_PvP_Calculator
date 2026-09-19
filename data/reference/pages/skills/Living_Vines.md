@@ -38,4 +38,4 @@ Living Vines surrounds you or the lowest Health ally nearby with vines which wil
 File:ON-skill-Leeching Vines (enemy).jpg|Leeching Vines morph visual on an enemy for the whole Minor Lifesteal duration
 
 ## Patch Notes
-* Fixed an issue where you would slowly turn to your target receiving the cast if they ran out of your field of vision while activating. You will now immediately snap to their direction and cast the ability.
+[Patch 5.3.4] * Fixed an issue where you would slowly turn to your target receiving the cast if they ran out of your field of vision while activating. You will now immediately snap to their direction and cast the ability.

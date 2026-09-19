@@ -25,8 +25,8 @@ Resist Frost increases your resistance to Frost Damage, and your Maximum Health.
 - In Update 29, immunity to the Chilled status effect was removed from this skill.
 
 ## Patch Notes
-* Increased the maximum health bonus to 3/6/9% from 1/2/3%.
-* Updated this ability's tooltip to indicate it grants immunity to the Chill status effect.
-* Gain 9% Max Health and 2079 Cold Resistance → Increases your Max Health by 1000 and your Cold Resistance by 2310. You are immune to the Chilled status effect.
+[Patch 2.1.4] * Increased the maximum health bonus to 3/6/9% from 1/2/3%.
+[Patch 4.0.5] * Updated this ability's tooltip to indicate it grants immunity to the Chill status effect.
+[Patch 4.3.5] * Gain 9% Max Health and 2079 Cold Resistance → Increases your Max Health by 1000 and your Cold Resistance by 2310. You are immune to the Chilled status effect.
 ESO Patch Note|6.3.5|* This passive no longer grants immunity to the Chilled status effect.
 - Increased the Frost Resistance to 4620, up from 2310.

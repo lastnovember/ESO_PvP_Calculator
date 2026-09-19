@@ -18,8 +18,8 @@ linerank2=10
 Might of the Guild grants Empower each time you use a Mages Guild active ability.
 
 ## Patch Notes
-* Fixed an issue with this passive where, when combined with using the ability Scalding Rune repeatedly, you could place many Runes down at one time.
-* Might of the Guild now has a 50% change to grant Empower at Rank I, and a 100% chance to grant Empower at Rank II.
+[Patch 1.3.4] * Fixed an issue with this passive where, when combined with using the ability Scalding Rune repeatedly, you could place many Runes down at one time.
+[Patch 1.6.5] * Might of the Guild now has a 50% change to grant Empower at Rank I, and a 100% chance to grant Empower at Rank II.
 ESO Patch Note|2.1.4|* Lightning Splash: This ability and its morphs will no longer incorrectly trigger the Mages Guild passive Might of the Guild.
 - This passive no longer triggers when activating Magelight.
-* This passive ability can now proc the Empower buff from Magelight and its morphs.
+[Patch 2.3.5] * This passive ability can now proc the Empower buff from Magelight and its morphs.

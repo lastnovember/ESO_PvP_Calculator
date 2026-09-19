@@ -1,0 +1,6 @@
+How do you feel about our relationship? (Wary to Disdainful)dialogue needs to be confirmed
+Wary,Irritated,Disdainful
+"""Let's make a deal. Don't ignore my concerns, and I won't badger you about your decisions. Agreed?""","""You know, a few years ago I would have stormed off and left you to look after your own messes. I guess I've grown.""","""The less we say to each other right now, the better."""
+"""Best if I keep my thoughts to myself right now. I don't want to argue.""","""I can suffer fools, dull blades, bland food, and miserable weather. But you … you are testing my patience.""","""I agreed to work with you, not flatter you. If you want false admiration, it will cost extra."""
+"""I'm worried about the sort of choices you seem to make. I'm not sure we're after the same things.""","""Will you be quiet? You're driving me to drink!""","""This is a business arrangement, nothing more. I said I'd work with you. I didn't say I liked you."""
+Let's talk about something else. (Returns to Greetings)

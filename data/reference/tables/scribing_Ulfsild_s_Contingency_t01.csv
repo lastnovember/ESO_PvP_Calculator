@@ -1,0 +1,11 @@
+Script,Effects
+Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.
+Gladiator's Tenacity,Gladiator's Tenacity,Reduces damage taken by 8% for 8 seconds.
+Growing Impact,Growing Impact,Creates a rune of power on the ground for 10 seconds which applies the Affix script in an area.
+Allows all Affix Scripts to be used even with Warding Contingency or Healing Contingency
+Hunter's Snare,Hunter's Snare,Reduces the Movement Speed of enemies hit by 30% for 8 seconds.
+Incompatible with Warding Contingency and Healing Contingency
+Lingering Torment,Lingering Torment,Deals 6545 Magic Damage over 22 seconds to enemies.
+Incompatible with Warding Contingency and Healing Contingency
+Sage's Remedy,Sage's Remedy,Heals for 4530 Health over 12 seconds.
+Warrior's Opportunity,Warrior's Opportunity,Increase damage done of your next direct attack used within 7 seconds by 2000.

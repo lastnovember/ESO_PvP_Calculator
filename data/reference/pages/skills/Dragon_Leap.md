@@ -43,7 +43,7 @@ File:ON-skill-Ferocious Leap Ground.jpg|Visual Fiery aftermath of a Ferocious Le
 File:ON-skill-Ferocious Leap shield.jpg|Ferocious Leap morph shield
 
 ## Patch Notes
-* This ability's minimum range requirement has been removed.
+[Patch 1.2.3] * This ability's minimum range requirement has been removed.
 ESO Patch Note|1.6.5|* Reduced the cost of Dragon Leap and the morph Ferocious Leap to 125 Ultimate.
 - Take Flight: Reduced the cost of this ability to 110 Ultimate, and increased the damage on this ability by 15% for all ranks.
 - Ferocious Leap: This ability now applies a damage shield to the caster equal to your maximum health, and also removed the spell resist buff. We also fixed an issue where using this ability was unintentionally allowing you to jump up keep walls.
@@ -57,11 +57,11 @@ ESO Patch Note|2.7.5|* The damage and knockback from this ability and its morphs
 - This ability and its morphs can now be cast while are you immobilized.
 - Developer Comment: As part of a consistency pass to define abilities as dodgable or undodgable, Dragon Leap has been made undodgable. Area of Effect attacks should not be dodgable since they blanket an entire area with harmful effects, and should still damage enemies trying to Roll Dodge through it. Since this is an Ultimate ability, we want its activation to be more reliable compared to other charge or leap abilities. Because of this, Dragon Leap can now be used while you are rooted, and makes you immune to such effects mid-leap.
 - Ferocious Leap: This morph now deals Flame Damage instead of Physical Damage.
-Critical Charge]] or Dragon Leap) were displaying their animation and visual effects but not actually moving you to the enemy target.
-* Fixed an issue where a load screen could pop-up when using short teleport abilities, such as Dragon Leap.
-* Fixed an issue where this ability and the Take Flight morph did not improve as they ranked up.
-* Increased the radius of this ability and its morphs to 8 meters from 6.5 meters. It also now applies a more aggressive snare to targets it is cast on, to prevent them from being able to outrun the AoE damage when it lands.
-* This Ultimate will now properly animate its leap on targets, regardless of its range, resulting in more overall reaction time for those on the receiving end of being DK dunked.
-* Fixed an issue where this Ultimate and its morphs’ knockback and stun effects could fail to animate properly on targets.
-* This ability and its morphs will now grant a very minor grace period of its Crowd Control Immunity after reaching their target. This is to correct some very rare cases where some CC abilities such as Rune of Eldritch Horror could cause the Ultimates to lock you in place right as you landed on an enemy, causing the damage and knock back to become desynced until the stun ended. These abilities always have granted CC immunity while leaping, but previously it was removed immediately upon reaching your target, whilst now it will persist for ~100ms afterwards to ensure the ability properly completes.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 3.1.5] * Fixed a specific case where some charge and leap abilities (such as Critical Charge or Dragon Leap) were displaying their animation and visual effects but not actually moving you to the enemy target.
+[Patch 4.1.5] * Fixed an issue where a load screen could pop-up when using short teleport abilities, such as Dragon Leap.
+[Patch 4.2.5] * Fixed an issue where this ability and the Take Flight morph did not improve as they ranked up.
+[Patch 5.0.5] * Increased the radius of this ability and its morphs to 8 meters from 6.5 meters. It also now applies a more aggressive snare to targets it is cast on, to prevent them from being able to outrun the AoE damage when it lands.
+[Patch 5.3.4] * This Ultimate will now properly animate its leap on targets, regardless of its range, resulting in more overall reaction time for those on the receiving end of being DK dunked.
+[Patch 9.3.5] * Fixed an issue where this Ultimate and its morphs’ knockback and stun effects could fail to animate properly on targets.
+[Patch 11.0.5] * This ability and its morphs will now grant a very minor grace period of its Crowd Control Immunity after reaching their target. This is to correct some very rare cases where some CC abilities such as Rune of Eldritch Horror could cause the Ultimates to lock you in place right as you landed on an enemy, causing the damage and knock back to become desynced until the stun ended. These abilities always have granted CC immunity while leaping, but previously it was removed immediately upon reaching your target, whilst now it will persist for ~100ms afterwards to ensure the ability properly completes.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

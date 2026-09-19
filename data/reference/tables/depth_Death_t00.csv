@@ -1,0 +1,54 @@
+Damage Type,Description
+Anthelmir's Construct,Anthelmir's Construct,Damage from Anthelmir's Construct set
+Deadlands Demolisher,Bash,"Damage from Bashing attacks, Deadlands Demolisher set, also ""Mother's Calling"" attack from Oakenclaw"
+Light Attack (Werewolf),Beast Attacks,"Light Attacks from player Werewolves, ""Lunge"" and ""Powerful Lunge"" attacks from Bloodmaw, ""Claw Strike"" from Tharrikers."
+Bleed,Bleeding,Damage over time from Bleed Damage attacks
+Shadow-Summon Shade,Bleeding (Hemorrhaging Strike),"""Bleeding"" damage of the Hemorrhaging Strike attack from Flesh Abomination (Imperial City Prison) and Flesh Colossus Glosk"
+Boughroot Slash,Boughroot Slash,Boughroot Slash attack from Oakenclaw
+Burning,Burning,Burning status effect
+Skyshard,Chill,Chilled status effect
+Shock Ranged,Concussion,Concussion status effect and Shock Damage ranged attacks
+Deep Freeze,Deep Freeze,Deep Freeze ability from Ice Pillars
+Provisioning-Chef,Devour,Devour attack from Clannfears
+Disease Area,Disease Area,Disease Damage area attacks
+Disease Melee,Disease Melee,Disease Damage melee attacks
+Disease Ranged,Disease Ranged,Disease Damage ranged attacks
+Nature's Grasp,Diseased,Diseased status effect
+Environmental,Environmental,Environmental hazards such as lava or Slaughterfish
+Fall Damage,Fall Damage,Damage from falling from heights
+Combustion,Flame Area,Flame Damage area attacks
+Fire Melee,Flame Melee,Flame Damage melee attacks
+Fire Ranged,Flame Ranged,Flame Damage ranged attacks
+Fire Salvo,Flame Ranged NPC,"Various Flame attacks from NPCs such as ""Fire Salvo"" from Honor Guards and ""Burning Bolt"" from Ogrim in Arlimahera's Sanctum."
+Flaming Oil,Flaming Oil,Flaming Oil attacks
+Fire Lancer,Fire Lancer,Fire Lancer attacks
+Ardent Flame-Flame Lash,Fire Siege Weapon,Colf Fire Ballista/Trebuchet and Firebolt Ballista/Trebuchet attacks
+Cold Area,Frost Area,Frost Damage area attacks
+Frost Lancer,Frost Lancer,Frost Lancer attacks
+Cold Melee,Frost Melee,Frost Damage melee attacks
+Cold Ranged,Frost Ranged,Frost Damage ranged attacks
+Hemorrhaging,Hemorrhaging,Hemorrhaging status effect
+Wraith,Imperial Law,Imperial Law hazard when approaching a Dremora Channeler on Cyrodiil bridges to Imperial City
+Magic Area,Magic Area,Magic Damage area attacks
+Magic Melee,Magic Melee,Magic Damage melee attacks
+Magic Ranged,Magic Ranged,Magic Damage ranged attacks
+Draining Poison,Meatbag Catapult,Meatbag Catapult attacks
+Melee Heavy,Melee Heavy,Physical Damage from heavy melee attacks
+Melee Basic,Melee Light,Physical Damage from light melee attacks
+Oblivion,Oblivion Damage,Oblivion Damage from attacks
+Minor Magickasteal,Overcharged,Overcharged status effect
+Poison Area,Poison Area,Poison Damage area attacks
+Poison Melee,Poison Melee,Poison Damage melee attacks
+Poison Ranged,Poison Ranged,Poison Damage ranged attacks
+Poisoned,Poisoned,Poisoned status effect
+Two Handed-Arcane Fighter,PvP Bomber,Flame Damage from the Vicious Death set and Oblivion Damage from the Occult Overload Champion Star.
+Ranged Heavy,Ranged Heavy,Physical Damage from heavy ranged attacks
+Ranged Basic,Ranged Light,Physical Damage from light ranged attacks
+Zenithar's Abbey Group Event,Root Corruption,Root Corruption damage from Distributary
+Shock Area,Shock Area,Shock Damage area attacks
+Shock Lancer,Shock Lancer,Shock Lancer attacks
+Shock Melee,Shock Melee,Shock Damage melee attacks
+Guardian Storm,Shock NPC PvP Zones,Shock Damage attacks from various NPCs in Cyrodiil and Imperial City such as Guardian Storm from Mage Guards
+Sunbolt,Sunbolt,Sunbolt attack from Distributary
+Minor Fracture,Sundered,Sundered status effect
+Triple Strike,Triple Strike,Triple Strike attack from Honor Guards

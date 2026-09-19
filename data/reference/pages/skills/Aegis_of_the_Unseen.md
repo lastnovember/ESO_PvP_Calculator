@@ -16,4 +16,4 @@ linerank1=8
 linerank2=18
 
 ## Patch Notes
-* This passive now increases your armor by 1636/3271 while you have a Soldier of Apocrypha ability active, up from 990/1980.
+[Patch 10.3.5] * This passive now increases your armor by 1636/3271 while you have a Soldier of Apocrypha ability active, up from 990/1980.

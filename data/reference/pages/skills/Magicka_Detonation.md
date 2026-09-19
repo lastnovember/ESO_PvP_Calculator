@@ -61,13 +61,13 @@ ESO Patch Note|2.3.5|* Reduced the damage from this ability and its morphs by 15
 - Inevitable Detonation (Magicka Detonation morph): Fixed an issue where this morph's effect could not be purged or cleansed. It will continue to detonate immediately when it is removed early.
 ESO Patch Note|2.4.5|* Reduced the damage of this ability and its morphs by 45%. They now deal 25% additional damage per target hit, up from 10%, and cap that bonus damage up to a total of 250% more damage done, up from 100% more damage done. The net result should be significantly less damage to 1 target, and slightly less damage to 10 targets.
 - Proximity Detonation: Fixed an issue where the red telegraph circle from this ability was remaining at the last seen spot the enemy player was before they became invisible. It will now also be invisible when the enemy player is invisible.
-* Reduced the cast time of this ability and the Inevitable Detonation morph to 1.5 seconds from 1.8 seconds.
+[Patch 3.3.5] * Reduced the cast time of this ability and the Inevitable Detonation morph to 1.5 seconds from 1.8 seconds.
 ESO Patch Note|5.1.5|* Reduced the cast time of this ability and the Inevitable Detonation morph to 1 second from 1.5 seconds.
 - Increased the damage of all morphs by approximately 7% to ensure they deal our AoE damage standard.
 - Reduced the base cost of all morphs to 3510 from 4050.
 - Removed the maximum limit to the target scaling of these abilities so they may actually combat large groups of enemies for their intended design.
 ESO Patch Note|7.1.5|* Reduced the base damage of this ability and its morphs by approximately 60%, but increased the scaling per target to 100%, up from 25%. The abilities will now deal less damage than a normal Area of Effect spammable until it hits 3 or more targets.
 - Updated the tooltip to state the scaling works on the initial target as well. This should reduce the potency of the skill against smaller groups, while still retaining its high damage against large ones.
-* Proximity Detonation (morph): Fixed an issue where this morph was not properly scaling with your Max Stamina if it was higher than your Max Magicka.
+[Patch 7.3.5] * Proximity Detonation (morph): Fixed an issue where this morph was not properly scaling with your Max Stamina if it was higher than your Max Magicka.
 
 Skill

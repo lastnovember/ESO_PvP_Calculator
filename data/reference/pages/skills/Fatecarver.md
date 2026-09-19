@@ -44,4 +44,4 @@ ESO Patch Note|9.3.5|* Reduced the damage done by this ability and its morphs by
 - Pragmatic Fatecarver (morph):
 - Reduced the potency of the damage shield this morph offers by ~16%.
 - Fixed an issue where the shield did not have a Max Health limit like other shields. The shield is now limited to 50% of your Max Health.
-* Increased the cost of this ability and its morphs by 40%. Increased the damage of this ability and its morphs by ~8%. These abilities can now hit a maximum of 6 targets, rather than having no target cap.
+[Patch 11.0.5] * Increased the cost of this ability and its morphs by 40%. Increased the damage of this ability and its morphs by ~8%. These abilities can now hit a maximum of 6 targets, rather than having no target cap.

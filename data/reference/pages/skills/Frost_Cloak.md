@@ -42,7 +42,7 @@ File:ON-skill-Ice Fortress ground visual on cast.jpg|Visual of Ice Fortress morp
 - Ice Fortress is a recommended morph for the Warden Initiate and Guardian of the Wild builds.
 
 ## Patch Notes
-* Fixed an issue where this ability and its morphs would not apply their Major Resolve and Major Ward buffs to you if other allies were nearby. It now always applies those buffs to you and the closest 5 allies.
-* Ice Fortress (morph): Increased the duration of this morph to 25 seconds, up from 24, for slightly easier alignment of ability timers.
-* Expansive Frost Cloak (morph): Expanded the radius of this morph to 36 meters, up from 28.
-* Ice Fortress (morph): Increased the duration of this morph to 30 seconds, up from 25.
+[Patch 4.0.5] * Fixed an issue where this ability and its morphs would not apply their Major Resolve and Major Ward buffs to you if other allies were nearby. It now always applies those buffs to you and the closest 5 allies.
+[Patch 7.3.5] * Ice Fortress (morph): Increased the duration of this morph to 25 seconds, up from 24, for slightly easier alignment of ability timers.
+[Patch 8.0.5] * Expansive Frost Cloak (morph): Expanded the radius of this morph to 36 meters, up from 28.
+[Patch 8.1.5] * Ice Fortress (morph): Increased the duration of this morph to 30 seconds, up from 25.

@@ -1,0 +1,17 @@
+,,Name,Potency,Gear Level,Translation,Glyph,Cost
+,Jora,1,1,"""Develop""",Trifling,0030
+,Porade,1+,5,"""Add""",Inferior,0042
+,Jera,2,10,"""Increase""",Petty,0051
+,Jejora,2+,15,"""Raise""",Slight,0054
+,Odra,3,20,"""Gain""",Minor,0060
+,Pojora,3+,25,"""Supplement""",Lesser,0066
+,Edora,4,30,"""Boost""",Moderate,0072
+,Jaera,4+,35,"""Advance""",Average,0078
+,Pora,5,40,"""Augment""",Strong,0084
+,Denara,5+,CP10,"""Strengthen""",Major,0087
+,Rera,6,CP30,"""Exaggerate""",Greater,0093
+,Derado,7,CP50,"""Empower""",Grand,0096
+,Rekura,8,CP70,"""Magnify""",Splendid,0099
+,Kura,9,CP100,"""Intensify""",Monumental,0105
+,Rejera,10,CP150,"""Amplify""",Superb,0111
+,Repora,10+,CP160,"""Reinforce""",Truly Superb,2508

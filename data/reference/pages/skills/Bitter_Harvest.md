@@ -37,6 +37,6 @@ Bitter Harvest lets you extract Health and Ultimate from nearby corpses. It also
 ## Patch Notes
 ESO Patch Note|5.1.5|* The heal from this ability and its morphs is now properly synced up with the essence you absorb, resulting in less of a delay.
 - Increased the healing per tick by approximately 11%.
-* Deaden Pain (morph): Fixed an issue where the Major Protection from this ability was not extending if you had Jorvuld's Guidance or other duration extending bonuses.
+[Patch 5.3.4] * Deaden Pain (morph): Fixed an issue where the Major Protection from this ability was not extending if you had Jorvuld's Guidance or other duration extending bonuses.
 ESO Patch Note|9.1.5|* Deaden Pain (morph): This morph now also increases the duration of the effects it grants to 4 seconds per corpse consumed, up from 2.
 - Developer Comment: Currently, this morph is a bit further behind Necrotic Potency in power and engagement. In efforts to try and help the tankier aspect of the ability shine, we're extending the duration to offer more healing and Major Protection uptime.

@@ -22,4 +22,4 @@ ESO Patch Note|1.5.2|* Undaunted:
 - Added two new passives to this skill line:
 - Undaunted Command: This passive will now allow you to regain health, magicka, and stamina when activating a synergy ability.
 - Undaunted Mettle: This passive increases your health, magicka, and stamina when wearing different types of armor.
-* Updated the tooltip for Undaunted Command so it is more clear which synergies trigger the passive ability.
+[Patch 1.6.5] * Updated the tooltip for Undaunted Command so it is more clear which synergies trigger the passive ability.

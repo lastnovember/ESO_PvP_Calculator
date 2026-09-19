@@ -76,23 +76,23 @@ I | II | III | IV | I | II | III | IV
 File:ON-skill-Annulment.jpg|Drodda's Apprentice using annulment
 
 ## Patch Notes
-* This Ultimate ability's damage shield now absorbs 100% of incoming Spell Damage rather than 50%. This damage shield value remains the same.
-* This ability's shield value is now 120% larger, but no longer gives a 50% damage reduction. It also now only absorbs damage from spell attacks.
+[Patch 1.1.2] * This Ultimate ability's damage shield now absorbs 100% of incoming Spell Damage rather than 50%. This damage shield value remains the same.
+[Patch 1.4.6] * This ability's shield value is now 120% larger, but no longer gives a 50% damage reduction. It also now only absorbs damage from spell attacks.
 ESO Patch Note|1.5.2|* Fixed an issue where recasting this ability before it expired would not refresh the absorb value.
 - Harness Magicka: This ability can now only restore magicka up to three times per cast.
 ESO Patch Note|2.4.5|* Reduced the duration of this ability and its morphs to 6 seconds from 20 seconds. In addition, this ability and its morphs now absorb all damage instead of just spell damage.
 - Note: The Harness Magicka morph will continue to return Magicka only when spell damage is absorbed as a morph effect.
-* Dampen Magic: Fixed an issue where this morph was displaying extraneous buff icons.
-* Casting this ability and its morphs now requires that you wear 5 pieces of Light Armor.
+[Patch 3.1.5] * Dampen Magic: Fixed an issue where this morph was displaying extraneous buff icons.
+[Patch 3.2.5] * Casting this ability and its morphs now requires that you wear 5 pieces of Light Armor.
 ESO Patch Note|4.2.5|* The total strength of this ability is now limited to 40% of the caster's health.
 - Dampen Magic: This morph now also increases the shield cap to 50% of your Max Health, previously 40%.
 - Developer Comment: As noted above, we want players to make interesting choices when making damage shield builds. These builds now require a balance of offensive and defensive stats, where previously a damage shield user could go for all offensive stats and also get a gigantic damage shield that mitigated the fact that they had low max health.
 - Harness Magicka: Fixed an issue where this morph was double dipping with its Magicka return based on the Light Armor worn.
-Conjured Ward]] and its morphs, where you could occasionally get stuck in the casting animations when using the abilities in quick succession with other abilities such as Block.
+[Patch 4.3.5] * Fixed an issue with Annulment and its morphs, and Conjured Ward and its morphs, where you could occasionally get stuck in the casting animations when using the abilities in quick succession with other abilities such as Block.
 ESO Patch Note|5.1.5|* Reduced the shield size of this ability and its morphs by approximately 9%.
 - Increased the shield size limit for this ability and the Harness Magicka morph to 50% of your Max Health from 40%. Dampen Magic increases to 60% from 50%.
 - Developer Comment: The changes with Magicka-based Damage Shields were done to increase the shields' strengths in situations where the caster is focusing more into increasing their effectiveness by specializing more stats into them, since they now require more Magicka to increase their size than they needed in previous updates.
 - Harness Magicka:
 - This morph no longer returns 3% of your Max Magicka when absorbing spell attacks. Instead, it restores 5% of the ability's cost whenever it absorbs any damage. Note this value continues to increase per piece of Light Armor worn, and can still only occur up to 3 times per cast.
 - Increased the bonus modifier per piece of Light Armor worn for the Magicka return to 33% at Rank IV from 6%. Note this increase remains to be based on 5% of the ability's cost, so each piece of Light Armor will increase the return from 5% to 6.65%.
-* Harness Magicka (morph): Fixed an issue where you could get more than 3 Magicka restores from this ability per cast.
+[Patch 7.1.5] * Harness Magicka (morph): Fixed an issue where you could get more than 3 Magicka restores from this ability per cast.

@@ -14,4 +14,4 @@ linerank1=1
 Erudite's Rigor improves the Fatewoven Armor abilities. It will now inflict Minor Cowardice on attackers, while granting Major Vitality to you and any group members. You will also gain 1 Ultimate for every Crux you have.
 
 ## Patch Notes
-*Erudite’s Rigor: This passive upgrades Fatewoven Armor to apply Minor Cowardice on the attacker for 4 seconds, grant you and group members Major Vitality for 4 seconds, and to grant you 1 Ultimate per Crux you have when taking damage. These effects can occur once every 2 seconds.
+[Patch 12.0.5] *Erudite’s Rigor: This passive upgrades Fatewoven Armor to apply Minor Cowardice on the attacker for 4 seconds, grant you and group members Major Vitality for 4 seconds, and to grant you 1 Ultimate per Crux you have when taking damage. These effects can occur once every 2 seconds.

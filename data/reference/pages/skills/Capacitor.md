@@ -18,4 +18,4 @@ linerank2=18
 Capacitor increases your Magicka Recovery rate.
 
 ## Patch Notes
-* This passive now increases your Health, Magicka, and Stamina Recovery by 70/141, instead of by 5/10%.
+[Patch 11.0.5] * This passive now increases your Health, Magicka, and Stamina Recovery by 70/141, instead of by 5/10%.

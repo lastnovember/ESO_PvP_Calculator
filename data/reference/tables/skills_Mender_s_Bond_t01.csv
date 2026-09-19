@@ -1,0 +1,8 @@
+Script,Effects
+Class Flourish,Class Flourish,Depends on class. See Class Flourish page for full details.
+Crusader's Defiance,Crusader's Defiance,Grants immunity to disabling effects for 3 seconds to the ally.
+Druid's Resurgence,Druid's Resurgence,Restores 74 Magicka and 74 Stamina every second for 6 seconds to the ally and other allies when they leave the link.
+Hunter's Snare,Hunter's Snare,Reduces the Movement Speed of enemies in the link by 30% for 2 seconds.
+Knight's Valor,Knight's Valor,Increases Block amount by 8% and reduces Block cost by 8% for the ally and other allies in the link.
+Sage's Remedy,Sage's Remedy,Heals the ally and other allies when they leave the link for 12774 Health over 5 seconds.
+Warmage's Defense,Warmage's Defense,Grants a damage shield when other allies leave the link that absorbs 1749 damage for 6 seconds.

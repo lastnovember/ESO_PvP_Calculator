@@ -21,5 +21,5 @@ Penetrating Magic causes your Destruction Staff skills to ignore some of your ta
 - This passive also applies to your light and heavy attacks with destruction staves, even to the enchantments on them, but not to bash.
 
 ## Patch Notes
-* This passive now grants Spell Penetration to the caster's weapon enchantment procs if they are enchanted on an equipped Destruction Staff.
-Wall of Elements]].
+[Patch 2.3.5] * This passive now grants Spell Penetration to the caster's weapon enchantment procs if they are enchanted on an equipped Destruction Staff.
+[Patch 2.6.4] * Fixed an issue where this passive ability's Spell Penetration bonus was not applying to Wall of Elements.

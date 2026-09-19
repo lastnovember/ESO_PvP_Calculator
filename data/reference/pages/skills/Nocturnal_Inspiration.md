@@ -14,4 +14,4 @@ linerank1=1
 Nocturnal Inspiration improves the rank 2 Hemorrhage passive, giving it a chance to generate 2 Ultimate whenever you cause a critical strike.
 
 ## Patch Notes
-*This passive upgrades rank 2 of Hemorrhage to have a chance equal to your Weapon Critical chance to grant you 2 Ultimate, up to once every 3 seconds.
+[Patch 12.0.0] *This passive upgrades rank 2 of Hemorrhage to have a chance equal to your Weapon Critical chance to grant you 2 Ultimate, up to once every 3 seconds.

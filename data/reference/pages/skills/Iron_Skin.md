@@ -21,4 +21,4 @@ Iron Skin makes blocking attacks more effective, reducing the damage you take wh
 ESO Patch Note|2.7.5|* Reduced the amount of additional damage you can block from Rank I of this passive to 4% from 5%.
 - Note that due to how percentages are calculated, the total damage blocked with this rank remains unchanged.
 - Developer Comment: Since block values can only be whole numbers, a 5% bonus was increasing block's 50% damage reduction to 50 * 1.05 = 52.5. Then, it got rounded down to 52%. This change helps clarify the proper amount of bonus you get. Note that Rank II of the ability still gives a 10% increase which equates to 55% damage blocked ( 50 * 1.1 = 55 ).
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

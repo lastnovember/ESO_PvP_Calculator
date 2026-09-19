@@ -14,4 +14,4 @@ linerank1=1
 Conservation of Energy improves the rank 2 Blood Magic passive. Whenever you cast any ability with a cost, you will restore Magicka and Stamina, and heal if you are not at full Health, or increase the higher of your Max Magicka and Stamina if you are at full Health.
 
 ## Patch Notes
-*This passive upgrades rank 2 of Blood Magic to also activate off any ability with a cost, excluding cost per tick abilities, and to also restore 2% Magicka and Stamina upon activation.
+[Patch 12.0.0] *This passive upgrades rank 2 of Blood Magic to also activate off any ability with a cost, excluding cost per tick abilities, and to also restore 2% Magicka and Stamina upon activation.

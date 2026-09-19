@@ -40,17 +40,17 @@ Strife deals Magic Damage to enemies and over time returns a proportion of that 
 File:ON-skill-Strife-Afterglow.jpg|Strife HOT effect
 
 ## Patch Notes
-* Fixed an issue where the red glow from this ability would last longer than intended.
-* Swallow Soul Rank II: This ability is now properly considered a Siphoning ability.
-* This ability now always heals based on the initial damage caused instead of other attacks.
-* Swallow Soul: Fixed an issue where this ability's healing effect was playing on enemies.
-* Swallow Soul: This ability now grants the Minor Vitality buff and heals the caster. This heal will scale with the amount of damage dealt.
+[Patch 1.2.3] * Fixed an issue where the red glow from this ability would last longer than intended.
+[Patch 1.3.3] * Swallow Soul Rank II: This ability is now properly considered a Siphoning ability.
+[Patch 1.4.3] * This ability now always heals based on the initial damage caused instead of other attacks.
+[Patch 1.5.2] * Swallow Soul: Fixed an issue where this ability's healing effect was playing on enemies.
+[Patch 1.6.5] * Swallow Soul: This ability now grants the Minor Vitality buff and heals the caster. This heal will scale with the amount of damage dealt.
 ESO Patch Note|2.3.5|* Abilities that heal based on their damage done (Strife, Puncturing Sweep, Surge, etc.) will now properly calculate their heal values when the damage is fully or partially absorbed.
 - Fixed an issue where you were able to dodge the friendly heal from this ability and its morphs.
 - Funnel Health: Reduced the application of the heal over time to you and one additional friendly target, previously two friendly targets.
 ESO Patch Note|2.7.5|* Strife: Increased the cost of this ability and its morphs by approximately 38%.
 - Developer Comment: We increased the cost of Strife because it was so much lower than other similar abilities, such as Lava Whip or Force Shock, while also providing a significant heal. Note that after the cost increase for Strife, it is still much lower than these abilities. This change, along with the changes to Elemental Drain and Siphon Spirit, are targeted at getting players to pay more attention to their resources.
-* Fixed an issue where the heal over time from this ability and its morphs would still apply to you even if the enemy dodged the attack.
+[Patch 3.3.5] * Fixed an issue where the heal over time from this ability and its morphs would still apply to you even if the enemy dodged the attack.
 ESO Patch Note|4.0.5|* Increased the cost of this ability and its morphs to 2700 Magicka from 1891 Magicka.
 - Developer Comment: This change was made to put the Strife ability cost more in line with other similar types of abilities, such as Force Shock.
 - The animation from this ability and its morphs now plays faster, which should make it easier to weave with Light Attacks.
@@ -60,6 +60,6 @@ ESO Patch Note|4.2.5|* Reduced the damage done by this ability by half, but it n
 - Developer Comment: For the Swallow Soul morph, we wanted to retain the current functionality of dealing high damage, while also providing healing utility to yourself. The amount of healing provided to the group with Strife was so high that there wasn't enough tradeoff with the morph choice. Now you can still get that super powerful group utility as before, but now it comes at a cost of reduced damage.
 ESO Patch Note|6.1.5|* Increased the damage done for this ability and the Funnel Health morph by approximately 39% to ensure they properly adhere to Heal over Time standards.
 - Fixed an issue where both of these abilities would attempt to apply a Heal over Time even if the target dodged the attack, causing the empty HoT to override any existing casts.
-* Increased the damage of this ability and the Funnel Health morph by 5.6%.
+[Patch 7.3.5] * Increased the damage of this ability and the Funnel Health morph by 5.6%.
 ESO Patch Note|10.1.5|* Strife: Fixed an issue where this ability and its morphs’ healing failed to activate if the target was blocking.
 - Funnel Health (morph): This morph now heals up to 3 targets, rather than 2, so its morph power upgrade is similar to Radiating Regeneration.

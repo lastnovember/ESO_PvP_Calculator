@@ -42,16 +42,16 @@ File:ON-skill-Encase zone.jpg|Encase and Shattering Spines' zone
 File:ON-skill-Vibrant Shroud.jpg|Vibrant Shroud morph slightly yellow zone
 
 ## Patch Notes
-* Restraining Prison: When this ability is removed from one player character, it no longer removes the graphics from your other targets.
-* Restraining Prison: The tooltip for this ability now lists the snare duration.
+[Patch 1.2.3] * Restraining Prison: When this ability is removed from one player character, it no longer removes the graphics from your other targets.
+[Patch 1.3.3] * Restraining Prison: The tooltip for this ability now lists the snare duration.
 ESO Patch Note|1.6.5|* Reduced the cost of this ability by 15%. Each additional rank of the ability increases the cost reduction slightly.
 - Reduced the cost of the morphs of this ability to match the lowest cost tier for the base ability.
-* Reduced the cost of this ability and its morphs by approximately 6%.
-* Restraining Prison: This morph no longer snares enemies. Instead, it now gives Major Vitality for 2 seconds, plus 1 second per enemy in the area.
+[Patch 2.7.5] * Reduced the cost of this ability and its morphs by approximately 6%.
+[Patch 4.0.5] * Restraining Prison: This morph no longer snares enemies. Instead, it now gives Major Vitality for 2 seconds, plus 1 second per enemy in the area.
 ESO Patch Note|5.0.5|* Reduced the duration of the Immobilize from this ability and its morphs to 4 seconds from 4.5 seconds.
 - Shattering Prison (morph): Increased the damage of the explosion by approximately 82% to put in on par with other AoE instant hit abilities, such as Cleave or Impulse.
-* This ability and its morphs now restore up to 66% of their ability costs if no targets are immobilized from the cast.
-* Shattering Prison (morph): Fixed an issue where this ability's damage was not considered an Area of Effect in many cases.
+[Patch 6.1.5] * This ability and its morphs now restore up to 66% of their ability costs if no targets are immobilized from the cast.
+[Patch 7.3.5] * Shattering Prison (morph): Fixed an issue where this ability's damage was not considered an Area of Effect in many cases.
 ESO Patch Note|9.3.5|* This ability and its morphs now apply Major Maim to enemies for 10 seconds, in addition to attempting to Immobilize them for 4 seconds, rather than only Immobilizing enemies for 4 seconds and refunding Magicka if it failed to do so.
 - Reduced the base cost to 4050, down from 4320. Note the Major Maim does not require the target to be Immobilized to apply.
 - Restraining Prison (morph):

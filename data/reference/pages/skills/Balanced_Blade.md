@@ -18,6 +18,6 @@ linerank2=28
 Balanced Blade reduces the Stamina cost of all Two Handed active skills.
 
 ## Patch Notes
-* Fixed an issue where Ranks I-II were named inconsistently for this ability, and were using "1" and "2" at the end of their titles.
+[Patch 1.3.3] * Fixed an issue where Ranks I-II were named inconsistently for this ability, and were using "1" and "2" at the end of their titles.
 ESO Patch Note|3.0.5|* Stamina abilities are now universally 15% cheaper than their Magicka counterparts, originally being 20% cheaper.
 - This includes class abilities that morph into Stamina abilities, in addition to the Weapon Skill Line passive abilities which reduce the cost of abilities in that Skill Line (Balanced Blade, Controlled Fury, etc.)

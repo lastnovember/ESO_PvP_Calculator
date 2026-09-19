@@ -39,7 +39,7 @@ File:ON-skill-Obsidian Shard.jpg|Obsidian Shard
 File:ON-skill-Stone_Giant.jpg|Stone Giant
 
 ## Patch Notes
-* Obsidian Shard: Rank I of this ability now has the same travel speed as the other ranks.
+[Patch 1.5.2] * Obsidian Shard: Rank I of this ability now has the same travel speed as the other ranks.
 ESO Patch Note|1.6.5|* Obsidian Shard: Increased the damage of this ability by 20%.
 - Stone Giant: This ability now grants the buff Minor Resolve instead of the previous unique increase to armor.
 ESO Patch Note|2.3.5|* Increased the range of this ability and its morphs to 28 meters from 20 meters. In addition, this ability and its morphs now deal Magic Damage, instead of Physical Damage.
@@ -49,11 +49,11 @@ ESO Patch Note|2.6.4|* This ability and the Stone Giant morph now deal 100% incr
 ESO Patch Note|2.7.5|* Increased the speed of the projectile fired by this ability and its morphs by 100%.
 - Developer Comments: Since Stonefist is easy to avoid or anticipate with Roll Dodge and Block, we've increased the projectile speed to make it harder for enemies to counter.
 - Obsidian Shard: Fixed an issue where this morph would not fire the heal if the target blocked or absorbed the damage of the initial hit.
-* Obsidian Shard: Fixed an issue where the friendly heal from this morph could be dodged.
-* Obsidian Shard: Increased the radius of the heal from this morph to 28 meters from 10 meters.
+[Patch 3.0.5] * Obsidian Shard: Fixed an issue where the friendly heal from this morph could be dodged.
+[Patch 3.1.5] * Obsidian Shard: Increased the radius of the heal from this morph to 28 meters from 10 meters.
 ESO Patch Note|4.0.5|* Obsidian Shard: Increased the healing done by this morph by approximately 25%.
 - Stone Giant: This morph now also grants Minor Ward in additional to Minor Resolve.
-* Obsidian Shard: Fixed an issue where the heal from this ability and its morphs was not prioritizing players over pets.
+[Patch 4.3.5] * Obsidian Shard: Fixed an issue where the heal from this ability and its morphs was not prioritizing players over pets.
 ESO Patch Note|5.0.5|* Earthen Heart: Adjusted the duration of these skills so that their final ranks land on integers rather than fractions when you have Rank 2 of Eternal Mountain. This has resulted in the following duration changes:
 - Magma Armor & morphs: Increased to 12 seconds from 10.8 seconds
 - Molten Weapons & morphs: Previously 39.6 seconds, adjusted so Igneous Weapons is now 42 seconds & Molten Armaments is 36 seconds
@@ -81,5 +81,5 @@ ESO Patch Note|5.3.4|* Updated this ability to improve its visual storytelling a
 - This morph retains stagger in the form of causing the targets affected by the ranged attack to take additional damage.
 - Increased the damage taken per stack to 65 at rank IV, up from 45.
 - This morph now applies Stagger to enemies hit by the initial cast to help improve the impact of landing the cast time.
-* Stone Giant: This morph’s stacks will now properly be removed when using the ability.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.0.5] * Stone Giant: This morph’s stacks will now properly be removed when using the ability.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
