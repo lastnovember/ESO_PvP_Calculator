@@ -18,7 +18,7 @@
     "photos/006-advanced-3.jpg",
     "photos/006-active-effects.jpg"
   ],
-  "notes": "Xbox, 2026-09-17, five phone photos, same state as 005 with the back bar active (ice staff, Defending, Rallying Cry). Active effects as 005 (Increased Experience scroll with 2m50s left). Update 2026-09-17 (crawl pass): recoveries match with the Prismatic Recovery ring adding nothing (Magicka Recovery 1389 = 1120 x 1.24 without Magicka Controller on this bar); resistances 70 high in the engine, one medium piece's 4%. Update 2026-09-19: resistances 72 high in the engine with the tooltip armor values, one purple medium piece's worth.",
+  "notes": "Xbox, 2026-09-17, five phone photos, same state as 005 with the back bar active (ice staff, Defending, Rallying Cry). Active effects as 005 (Increased Experience scroll with 2m50s left). Update 2026-09-17 (crawl pass): recoveries match with the Prismatic Recovery ring adding nothing (Magicka Recovery 1389 = 1120 x 1.24 without Magicka Controller on this bar); resistances 70 high in the engine, one medium piece's 4%. Update 2026-09-19: resistances 72 high in the engine with the tooltip armor values, one purple medium piece's worth. Update 2026-09-19: the Prismatic Recovery glyph is 84 per recovery (tooltip image on file), and this sheet shows none of it from ring1, so ring1 most likely carries a glyph with no main sheet stat (Reduce Skill Cost, 133, is in the same image); the build keeps the exported Prismatic Recovery until the user confirms, and the three recovery rows read 84 x percent high in the engine meanwhile.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,

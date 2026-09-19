@@ -60,7 +60,8 @@ table at the bottom with the fixture name.
 | Prismatic Defense | 477 / 434 / 434 large (tooltip), 192 / 175 / 175 small (tooltip 193 / 175 / 175) |
 | Weapon Damage, Spell Damage (jewelry) | 174 Weapon and Spell Damage, plus 10 Stamina Recovery (Physical Harm) or 10 Magicka Recovery (Spell Harm), 16 on an Infused piece (note 135, verified) |
 | Health, Magicka, Stamina Recovery (jewelry) | 169 |
-| Prismatic Recovery | 0 each (the only reading with one, Templar 005/006, shows no share; community about 69) |
+| Prismatic Recovery | 84 each (tooltip image, 2026-09-19) |
+| Reduce Skill Cost | 133 Health, Magicka and Stamina cost (tooltip image, 2026-09-19) |
 | Reduce Spell Cost, Reduce Feat Cost | 203 |
 | Reduce Block Cost (Shielding) | 203 |
 | Potion Cooldown | 5.2 s |
@@ -116,7 +117,7 @@ Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 
 | Gap | Readings | Game vs engine | Best reading of it |
 | --- | --- | --- | --- |
-| Prismatic Recovery glyph | Templar 005 and 006 | the ring exported as Prismatic Recovery adds nothing | With the Spell Harm glyph recovery and Bear Haunch recovery 369, Health 415, Magicka 1411 and 1389, Stamina 1785 are exact only when that ring adds 0 to all three; any share breaks all of them (69 each would read 446, 1498, 1876). Roksa the Warped's 70 per recovery is in those numbers (note 194 and the set page agree on 70). Either the ring carries another glyph or the glyph does not show. Needs the ring tooltip, the one thing the archive cannot give. |
+| Templar ring1 glyph | Templar 005 and 006 | engine 106, 0 and 31 high on the three recoveries | The Prismatic Recovery glyph is 84 per recovery (tooltip image, 2026-09-19), and this sheet is exact with nothing from ring1 (Health 415, Magicka 1411 and 1389, Stamina 1785 with Roksa the Warped's 70 counted). So ring1 carries a glyph with no main sheet stat; the same image shows Reduce Skill Cost (133 prismatic cost). Pending the user's word on which glyph the ring has; the build keeps the exported value until then. |
 | Resistances | Yeets 21689 (engine 21692), Templar 16765 (16837) | 3 and 72 | The DK's tooltips (2026-09-19) settle the slot values and the DK and Necro read exact. The Templar's 72 is 4% of one medium big piece, a purple shoulders or feet. Yeets' 3 sits on the derived medium waist (781). Medium and light chests and the small heavy and medium pieces are derived from the 0.875 / 0.5 / 0.375 factors, not read. |
 | Glyph of Health tooltip 984 vs sheet 954 | DK 009 and 010 | tooltip 30 higher per large piece | The user reads 984 on the chest, head and legs and confirms it. The sheet's 30684 needs 954: base 16000 and Hero's Vigor 560 (Yeets naked 003), Argonian 1000 (Races page), Trainee 1454 (Templar), 12 points x 122, Sugar Skulls 4620 to 4624 (3937 x 1.174, the Magicka and Stamina 4250 pin the scale), 4 x 385 small, and 4% Juggernaut (three other characters); no other term can carry 90, and no percent fits 984. 954 is also twice the Prismatic Defense 477 read on the same day. Why the tooltip shows 984 is open. |
 | Roll Dodge Cost | Yeets 3248 (engine 3306), DK 3315 (3344), Necro 3420 (exact) | | No order (flat first or percent first, additive or multiplicative) with any per piece values from 0 to 6% fits all three within 1; the closest is flat first, additive, medium 4, heavy 2, light 2.5 (total error 10). Tumbling is at both stages everywhere (user). The archived armor line pages list the passives by name only. |
@@ -130,6 +131,7 @@ Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 
 | Item | Settled by |
 | --- | --- |
+| Prismatic Recovery 84 each, Reduce Skill Cost 133 | Glyph tooltip image supplied by the user, 2026-09-19, saved with the fixture photos. |
 | Armor ratings by weight and slot, Reinforced 16%, glyph large and small values, Markyn 1157 per set, Essence Thief, two handed 1571 | The DK's gear tooltips typed by the user, 2026-09-19 (fixture 009 `tooltips`). Slot factors 0.875 / 0.5 / 0.375 of the chest; heavy chest 2772, medium big 1823, light big 1221, light hands 698, light waist 523 read; chests and small heavy and medium pieces derived. |
 | Scribing script catalog (21 focus, 20 signature, 26 affix, and which grimoires take each) | UESP Online:Scribing page printed 2026-09-14, archived as `data/reference/tables/uesp_Online_Scribing_t00..t03.csv` by `tools/extract_scribing_pdf.py` (manifest seq 220). Class Mastery is Class Flourish now (patch note), Passive Master reads Wayfarer's Mastery and Healing Absorption reads Trauma on the page; old build files are mapped on load. |
 | Rakkhat's Voidmantle, Stormweaver's Cavort slots and text | In game tooltips supplied by the user (medium shoulders, light legs, plus the missing 300 Magicka Recovery line). |

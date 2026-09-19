@@ -1181,13 +1181,10 @@
       },
       "Prismatic Recovery": {
         "magnitude": {
-          "value": 0,
-          "source": "UNVERIFIED",
-          "verified": false,
-          "note": "Glyph of Prismatic Recovery, each of the three recoveries. The one reading with the glyph (fixtures 005 and 006: Templar, Wood Elf vampire stage 3, Smoked Bear Haunch, Roksa the Warped, a plain Protective ring exported as Prismatic Recovery) shows no share from it: Magicka Recovery 1411 = (514 + 141 + 369 + 26 harm glyph recovery + 70 Roksa) x 1.26, Stamina Recovery 1785 = (514 + 141 + 258 + 369 + 70) x 1.32, Health Recovery 415 = (309 + 141 + 406 + 70) x 1.12 x 0.4, all exact, and any glyph share above 0 breaks all three. Either the ring carries a different glyph than the export says or the glyph does not show on the sheet. Set to 0 until a tooltip of that ring or a second reading settles the magnitude (community value about 69 each).",
-          "alternatives": [
-            69
-          ]
+          "value": 84,
+          "source": "tooltip image supplied by the user, 2026-09-19 (engine/tests/fixtures/photos/tooltip-prismatic-recovery-and-reduce-skill-cost-glyphs.jpg): Truly Superb Glyph of Prismatic Recovery, minimum level CP160, Adds 84 Magicka Recovery, Adds 84 Health Recovery, Adds 84 Stamina Recovery",
+          "verified": true,
+          "note": "The only sheet reading with this glyph exported (Templar, fixtures 005 and 006) shows no share from the ring: its three recoveries are exact with nothing from it and 84 would read 1517, 1785 and 446 against 1411, 1785 and 415. That ring most likely carries another glyph (the same image shows Reduce Skill Cost, which has no main sheet stat); pending the user, see UNKNOWNS.md."
         },
         "values": [
           {
@@ -1200,6 +1197,24 @@
           },
           {
             "stat": "staminaRecovery",
+            "kind": "flat"
+          }
+        ]
+      },
+      "Reduce Skill Cost": {
+        "magnitude": {
+          "value": 133,
+          "source": "tooltip image supplied by the user, 2026-09-19 (same file): Truly Superb Glyph of Reduce Skill Cost, Reduce Prismatic Cost Enchantment, Reduce Health, Magicka, and Stamina cost of abilities by 133, minimum level CP160",
+          "verified": true,
+          "note": "Health cost has no sheet line; the Magicka and Stamina cost reductions show in the advanced panel."
+        },
+        "values": [
+          {
+            "stat": "magickaCostReduction",
+            "kind": "flat"
+          },
+          {
+            "stat": "staminaCostReduction",
             "kind": "flat"
           }
         ]

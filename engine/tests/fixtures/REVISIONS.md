@@ -225,6 +225,15 @@ stay open: the pages hold no rating table and no recovery source the engine lack
   on file (Impenetrable, 1823) stand and the sheet total agrees with them.
 - Match counts: 001 50, 002 50, 003 55, 004 52, 005 46, 006 48, 007 52, 008 52, 009 53, 010 53.
 
+## 2026-09-19, glyph tooltip image (Prismatic Recovery and Reduce Skill Cost)
+
+- Truly Superb Glyph of Prismatic Recovery: 84 Magicka, Health and Stamina Recovery at CP160.
+  Truly Superb Glyph of Reduce Skill Cost: 133 off Health, Magicka and Stamina ability costs.
+  Image saved as `photos/tooltip-prismatic-recovery-and-reduce-skill-cost-glyphs.jpg`.
+- The Templar sheet (005, 006) is exact with nothing from ring1, so the ring's exported glyph
+  (Prismatic Recovery) is the doubtful entry; the build keeps it until the user says which glyph
+  the ring carries. Match counts fall back to 43 and 45 on the Templar meanwhile.
+
 ## Open questions for the next reading
 
 - Answered 2026-09-17: the Necromancer has every Support passive (so Combat Medic at that gate was
@@ -239,7 +248,7 @@ stay open: the pages hold no rating table and no recovery source the engine lack
 - A reading of the necromancer outside Cyrodiil: Healing Done should drop by 12 if Curative Curse
   is the Battle Spirit reading, and the crit and Magicka Recovery offsets should stay.
 
-- Templar: the glyph on the Protective ring (exported as Prismatic Recovery, reads as nothing on the sheet) and the quality of the two Roksa pieces (resistances 70 high in the engine, one purple medium piece's worth); Physical and Bleed Damage percents re-read at rest.
+- Templar: which glyph the Protective ring carries (the sheet shows none of the Prismatic Recovery 84; Reduce Skill Cost fits) and whether the medium shoulders or feet are purple (resistances 72 high in the engine); Physical and Bleed Damage percents re-read at rest.
 - Templar naked front bar (no gear, no food, mundus may stay), then with only the two axes, then
   only the main axe: settles the vampire Health Recovery, the sneak cost, and the dual wield and
   Nirnhoned Weapon Damage rules.

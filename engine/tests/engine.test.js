@@ -481,7 +481,7 @@ test('real data: dual wield off hand share, active buffs, vampire penalty withou
   assert.equal(real.effects.skills.passives['Unnatural Resistance'], undefined);
 });
 
-test('real data: harm glyphs add 10 recovery scaled by Infused, Prismatic Recovery reads 0 until settled', async () => {
+test('real data: harm glyphs add 10 recovery scaled by Infused, Prismatic Recovery 84, Reduce Skill Cost 133', async () => {
   const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
   const n = naked();
   const before = computeSheet(n, real).bars[0].main;
@@ -496,5 +496,7 @@ test('real data: harm glyphs add 10 recovery scaled by Infused, Prismatic Recove
   assert.equal(r.main.weaponDamage - before.weaponDamage, 174 + 278 + 278, 'the damage part is unchanged');
   n.gear.ring2 = { set: null, trait: 'Protective', enchant: 'Prismatic Recovery' };
   const p = computeSheet(n, real).bars[0];
-  assert.equal(p.breakdown.healthRecovery.filter((x) => /Prismatic/.test(x.source)).length, 0, 'a zero magnitude adds no row');
+  for (const stat of ['healthRecovery', 'magickaRecovery', 'staminaRecovery']) assert.equal(p.breakdown[stat].find((x) => /Prismatic/.test(x.source)).value, 84, 'Prismatic Recovery 84 each (tooltip)');
+  n.gear.ring2 = { set: null, trait: 'Protective', enchant: 'Reduce Skill Cost' };
+  assert.equal(computeSheet(n, real).bars[0].advanced.magickaCostFlat - r.advanced.magickaCostFlat, 133);
 });
