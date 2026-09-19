@@ -217,8 +217,9 @@ stay open: the pages hold no rating table and no recovery source the engine lack
   are now exact on the DK and the Necro, 3 over on Yeets (derived medium waist) and 72 over on
   the Templar (4% of one medium big piece: a purple shoulders or feet).
 - Glyphs: Prismatic Defense 477 / 434 / 434 and 193 / 175 / 175, Max Magicka small 351, Health
-  984 (typed) and 386. The sheet sums truncated small pieces (192, 350, 385) and 954 for the
-  large Health glyph; 984 does not fit the DK's Max Health (94 over) nor the 386 small piece.
+  954 (first typed as 984; the user corrected it with the glyph table image, which also gives the
+  quality steps 734 / 774 / 839 / 882 / 954) and 386. The sheet sums truncated small pieces
+  (192, 350, 385).
 - Weapons: Nirnhoned mace 1535 and maul 1806 confirm 1335 and 1571 with 15% truncated.
 - Sets: Essence Thief 1096 / 1096 / 129 and Markyn 100 and 1157 per set read as parsed.
 - Feet: Reinforced now (2114); the user re-traited the boots after the export, so the readings

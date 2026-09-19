@@ -990,9 +990,16 @@
       "Health": {
         "large": {
           "value": 954,
-          "source": "fixtures 009 and 010 (Dragonknight, seven Glyphs of Health, Sugar Skulls): Max Health 30684 = (16000 + 12 x 122 + 1000 Argonian + 560 Hero's Vigor + 1454 Trainee + 3 x 954 + 4 x 385 + 4624) x 1.04 exactly; every other term is pinned by the other three characters, and 954 is twice the Prismatic Defense 477 the same tooltips give. The user reads 984 on the chest, head and legs tooltips and confirms it is not a typo (2026-09-19); with 984 the sheet would be 94 over, so the tooltip and the sheet disagree by 30 per large piece for a reason not in the archive (UNKNOWNS.md).",
+          "source": "glyph table image supplied by the user, 2026-09-19 (engine/tests/fixtures/photos/table-truly-superb-glyph-of-health-by-quality.jpg): Truly Superb Glyph of Health, Repora, CP160: 734 white, 774 green, 839 blue, 882 purple, 954 gold; fixtures 009 and 010 (Dragonknight, seven Glyphs of Health): Max Health 30684 exact with 954 and 385",
           "verified": true,
-          "note": "Tooltip reads 984, the sheet sums 954."
+          "note": "The 984 first typed from the DK tooltips (2026-09-19) was a misread; the user confirmed 954 with the table. Quality steps in enchants.glyphQualityFactor."
+        },
+        "byQuality": {
+          "white": 734,
+          "green": 774,
+          "blue": 839,
+          "purple": 882,
+          "gold": 954
         },
         "small": {
           "value": 385,
@@ -1392,6 +1399,15 @@
         },
         "values": []
       }
+    },
+    "glyphQualityFactor": {
+      "note": "Glyph value at each quality relative to gold, from the Truly Superb Glyph of Health row (734 / 774 / 839 / 882 / 954). Glyph quality is not a build input yet; the app takes every glyph as gold.",
+      "source": "glyph table image supplied by the user, 2026-09-19 (engine/tests/fixtures/photos/table-truly-superb-glyph-of-health-by-quality.jpg): Truly Superb Glyph of Health, Repora, CP160: 734 white, 774 green, 839 blue, 882 purple, 954 gold",
+      "white": 0.7694,
+      "green": 0.8113,
+      "blue": 0.8795,
+      "purple": 0.9245,
+      "gold": 1.0
     },
     "weapon": {
       "note": "Every weapon glyph is a combat proc and has no character sheet effect. Kept for completeness.",
