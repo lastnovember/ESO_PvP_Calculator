@@ -299,6 +299,17 @@
       "from": "Prismatic Recovery",
       "to": "Reduce Skill Cost",
       "reason": "The user's tooltip photo of ring 1 (photos/tooltip-templar-ring1-monomyth-reforged.jpg): Reduce Prismatic Cost Enchantment, reduce Health, Magicka and Stamina cost of abilities by 133; Protective 1190; Monomyth Reforged (1/1). The export had carried Prismatic Recovery, which the three recoveries on the sheet never showed."
+    },
+    {
+      "date": "2026-09-19",
+      "field": "build.championPoints.notTaken",
+      "from": [
+        "Sprinter"
+      ],
+      "to": [
+        "Sprinter"
+      ],
+      "reason": "State change after the readings, not a correction of them: the user bought Sprinter on 2026-09-19 with the 62 unspent Fitness points (Sprinter is 20 points, tables/uesp_Online_Champion_t13.csv, so 42 stay unspent) and confirms every other passive star is bought. The readings of 2026-09-17 keep notTaken Sprinter because Sprint Cost read 470 = 500 x 0.94 then. A new reading should show Sprint Cost (500 - 40) x 0.94 = 432 and the build must then drop Sprinter from notTaken."
     }
   ]
 }

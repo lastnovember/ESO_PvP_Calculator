@@ -293,3 +293,12 @@ tooltip text as in tables/uesp_Online_Champion_t16.csv. The Fitness counter show
 points, which agrees with Sprinter not being bought (Sprint Cost 470 on both readings). No number
 changed; the photo is on file so the Roll Dodge Cost 0 (`sheetState`) has its cause pictured.
 
+## State change, 2026-09-19: Templar bought Sprinter (fixtures 005 and 006)
+
+The user spent the unspent Fitness points on Sprinter and confirms every other passive star is
+bought (the engine's default). Sprinter is 20 points (two stages, Champion table t13), so 42 of
+the 62 remain unspent; that changes nothing on the sheet. The readings keep
+`championPoints.notTaken: ["Sprinter"]` because they were taken before (Sprint Cost 470). The next
+Templar reading should show Sprint Cost 432 = (500 - 40) x 0.94; drop Sprinter from `notTaken` in
+that fixture's build.
+
