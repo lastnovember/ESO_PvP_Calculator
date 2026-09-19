@@ -1,0 +1,249 @@
+{
+  "name": "011 Templar (Lastnovember), front bar, Sprint Cost only, after buying Sprinter",
+  "status": "open",
+  "captured": "2026-09-19",
+  "location": "(not stated; outside a PvP zone assumed, Sprint Cost has no Battle Spirit term)",
+  "bar": "front (axe and axe)",
+  "attributes": {
+    "health": 64,
+    "magicka": 0,
+    "stamina": 0
+  },
+  "mundus": "The Shadow",
+  "food": "Orzorga's Smoked Bear Haunch",
+  "photos": [],
+  "notes": "One number typed by the user in chat on 2026-09-19 after buying Sprinter with the unspent Fitness points (photos/tooltip-templar-cp-fitness-expert-evasion.jpg shows the 62 unspent). Sprint Cost 433. The build is the 005 build (ring 1 Reduce Skill Cost) with Sprinter taken. 433 = (500 - 40) x 0.97 x 0.97 = 432.8 (Grace and Medium Armor Bonuses multiplying) or the additive 432.4 rounded up; the additive 432 the engine gave before this reading is wrong. Every other number is null: not read.",
+  "gameVersion": "Update 50 era, 2026-09",
+  "tolerance": {
+    "flat": 1,
+    "percent": 0.15
+  },
+  "sheetExtras": {},
+  "activeEffects": "(not photographed)",
+  "build": {
+    "schemaVersion": 1,
+    "name": "Templar",
+    "race": "Wood Elf",
+    "class": "Templar",
+    "classSkillLines": [
+      "Aedric Spear",
+      "Storm Calling",
+      "Animal Companions"
+    ],
+    "classMastery": [],
+    "attributes": {
+      "health": 64,
+      "magicka": 0,
+      "stamina": 0
+    },
+    "championPoints": {
+      "enabled": true,
+      "slotted": {
+        "warfare": [
+          "Fighting Finesse",
+          "Force of Nature",
+          "Ironclad",
+          "Resilience"
+        ],
+        "fitness": [
+          "Celerity",
+          "Bastion",
+          "Pain's Refuge",
+          "Expert Evasion"
+        ],
+        "craft": [
+          "Gifted Rider",
+          "War Mount",
+          "Steed's Blessing",
+          "Sustaining Shadows"
+        ]
+      },
+      "notTaken": [],
+      "points": {
+        "Sustaining Shadows": 31
+      }
+    },
+    "mundus": "The Shadow",
+    "food": "orzorgas-smoked-bear-haunch",
+    "vampireStage": 3,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": false,
+    "passives": {
+      "mode": "all",
+      "exclude": []
+    },
+    "skillLines": {
+      "Fighters Guild": true,
+      "Mages Guild": true,
+      "Psijic Order": true,
+      "Undaunted": true,
+      "Assault": true,
+      "Support": true,
+      "Soul Magic": true
+    },
+    "scribing": {
+      "Ulfsild's Contingency": {
+        "focus": "Bleed Damage",
+        "signature": "Class Flourish",
+        "affix": "Minor Magickasteal"
+      },
+      "Wield Soul": {
+        "focus": "Healing",
+        "signature": "Sage's Remedy",
+        "affix": "Major Vitality"
+      }
+    },
+    "gear": {
+      "head": {
+        "set": "Roksa the Warped",
+        "weight": "heavy",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "chest": {
+        "set": "Armor of the Trainee",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Prismatic Defense"
+      },
+      "shoulders": {
+        "set": "Roksa the Warped",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "waist": {
+        "set": "Rallying Cry",
+        "weight": "light",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "hands": {
+        "set": "Mechanical Acuity",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "legs": {
+        "set": "Mechanical Acuity",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Prismatic Defense"
+      },
+      "feet": {
+        "set": "Mechanical Acuity",
+        "weight": "medium",
+        "trait": "Impenetrable",
+        "enchant": "Prismatic Defense"
+      },
+      "necklace": {
+        "set": "Rallying Cry",
+        "trait": "Arcane",
+        "enchant": "Spell Damage"
+      },
+      "ring1": {
+        "set": "Monomyth Reforged",
+        "trait": "Protective",
+        "enchant": "Reduce Skill Cost"
+      },
+      "ring2": {
+        "set": "Rallying Cry",
+        "trait": "Infused",
+        "enchant": "Spell Damage"
+      }
+    },
+    "bars": [
+      {
+        "mainHand": {
+          "set": "Mechanical Acuity",
+          "type": "axe",
+          "trait": "Sharpened",
+          "enchant": "Poison"
+        },
+        "offHand": {
+          "set": "Mechanical Acuity",
+          "type": "axe",
+          "trait": "Nirnhoned",
+          "enchant": "Shock"
+        },
+        "skills": [
+          "Blood for Blood",
+          "Deep Fissure",
+          "Critical Surge",
+          "Ulfsild's Contingency",
+          "Binding Javelin"
+        ],
+        "ultimate": "Lacerate",
+        "poison": null
+      },
+      {
+        "mainHand": {
+          "set": "Rallying Cry",
+          "type": "ice staff",
+          "trait": "Defending",
+          "enchant": null
+        },
+        "offHand": null,
+        "skills": [
+          "Elemental Susceptibility",
+          "Bull Netch",
+          "Resolving Vigor",
+          "Hurricane",
+          "Wield Soul"
+        ],
+        "ultimate": "Crescent Sweep",
+        "poison": "Escapist's Poison"
+      }
+    ],
+    "flags": {
+      "battleSpiritFlatHealth": false,
+      "esoPlus": true,
+      "itemQuality": false,
+      "strategies": {}
+    },
+    "activeBuffs": [
+      "Major Brutality",
+      "Major Sorcery"
+    ]
+  },
+  "readings": {
+    "outOfPvpZone": {
+      "bar1": {
+        "main": {
+          "Max Health": null,
+          "Max Magicka": null,
+          "Max Stamina": null,
+          "Health Recovery": null,
+          "Magicka Recovery": null,
+          "Stamina Recovery": null,
+          "Weapon Damage": null,
+          "Spell Damage": null,
+          "Weapon Critical": null,
+          "Spell Critical": null,
+          "Critical Damage": null,
+          "Physical Penetration": null,
+          "Spell Penetration": null,
+          "Physical Resistance": null,
+          "Spell Resistance": null
+        },
+        "advanced": {
+          "Critical Resistance": null,
+          "Bash Cost": null,
+          "Block Cost": null,
+          "Break Free Cost": null,
+          "Roll Dodge Cost": null,
+          "Sprint Cost": 433,
+          "Bash Damage": null,
+          "Block Mitigation": null,
+          "Sprint Speed": null,
+          "Healing Done": null,
+          "Healing Taken": null,
+          "Damage Done": null
+        }
+      }
+    }
+  },
+  "sheetState": {},
+  "corrections": []
+}

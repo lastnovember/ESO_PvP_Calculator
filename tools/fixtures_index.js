@@ -14,7 +14,7 @@ for (const f of files) {
   const zone = Object.keys(fx.readings || {})[0] || '';
   const bar = zone ? Object.keys(fx.readings[zone])[0] : '';
   let match = 'readings pending';
-  if (zone && fx.readings[zone][bar] && fx.readings[zone][bar].main && Object.values(fx.readings[zone][bar].main).some((v) => v != null)) {
+  if (zone && fx.readings[zone][bar] && ['main', 'advanced'].some((p) => fx.readings[zone][bar][p] && Object.values(fx.readings[zone][bar][p]).some((v) => v != null))) {
     const { rows } = compare(fx, data);
     match = `${rows.filter((r) => r.ok).length} of ${rows.length}`;
   }

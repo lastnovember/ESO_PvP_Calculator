@@ -361,6 +361,12 @@ const STRATEGIES = {
   // Which piece sets the quality of a set whose pieces differ in quality (flags.itemQuality on). No archived
   // page or note states the rule (UNKNOWNS.md). 'lowestPiece' (default) or 'highestPiece'.
   setBonusQuality: ['lowestPiece', 'highestPiece'],
+  // Sprint Cost percent reductions (Grace, Medium Armor Bonuses). 'multiplicative' (default): each source multiplies,
+  // (500 - 40) x 0.97 x 0.97 = 432.8 reads 433 on the Templar with Sprinter (fixture 011) and 460 x 0.88 x 0.99 = 400.8
+  // reads 401 on the Necromancer (fixtures 007 and 008), where the additive 0.94 and 0.87 give 432 and 400.
+  // 'additiveCeil': additive percents with the result rounded up, which fits the same seven readings.
+  // 'additive': the rule the other costs follow (block: fixture 002 reads 1556 = 1710 x 0.91, not 1557).
+  sprintCostPercents: ['multiplicative', 'additiveCeil', 'additive'],
 };
 
 const QUALITY_ORDER = ['white', 'green', 'blue', 'purple', 'gold'];
@@ -1102,6 +1108,12 @@ function computeBar(build, data, barIndex, strategies) {
     // fixture 008 reads 257 = (765 x 0.5 - 90) x 0.88 where (765 - 90) x 0.88 x 0.5 would be 297. Block keeps the
     // flat first order (fixture 006: 1029 = (1750 - 40) x 0.94 x 0.64; fixture 008: 1193 = (1750 - 40) x 1.09 x 0.64).
     if (stat === 'bashCost' && strategies.bashWeaponPercent !== 'afterFlat') return (v(base) * wmult + flat) * (1 + pct / 100);
+    if (stat === 'sprintCost' && strategies.sprintCostPercents !== 'additive') {
+      // see STRATEGIES.sprintCostPercents: the armor passives multiply per source, or add with the result rounded up
+      const sources = acc.bucket(stat).rows.filter((r) => r.kind === 'percent' && r.group !== 'weapon').map((r) => r.value);
+      if (strategies.sprintCostPercents === 'multiplicative') return (v(base) + flat) * sources.reduce((a, b) => a * (1 + b / 100), 1) * wmult;
+      return Math.ceil((v(base) + flat) * (1 + pct / 100) * wmult - 1e-9);
+    }
     const mult = (1 + pct / 100) * wmult;
     if (strategies.costOrder === 'percentThenFlat') return v(base) * mult + flat;
     return (v(base) + flat) * mult;

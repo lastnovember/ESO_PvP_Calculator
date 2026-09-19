@@ -592,3 +592,17 @@ test('real data: ranged set bonuses follow the piece quality when the toggle is 
   assert.deepEqual(rows(p, 'physicalPenetration', `set ${pen[0]} (2) [purple]`), [pen[1].bonuses['2'].effects.find((e) => e.stat === 'offensivePenetration').value]);
   assert.ok(p.bars[0].notes.some((n) => n.includes('no quality table')), p.bars[0].notes.join('; '));
 });
+
+// Sprint Cost: the armor passives multiply per source (or add and round up); the plain additive rule reads one low.
+test('real data: sprint cost percents multiply per source (Templar with Sprinter reads 433, Necromancer 401)', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const fx = JSON.parse(readFileSync(join(here, 'fixtures', '011-templar-front-bar-sprinter.fixture.json'), 'utf8'));
+  const b = JSON.parse(JSON.stringify(fx.build));
+  assert.equal(computeSheet(b, real).bars[0].advanced.sprintCost, 433);
+  b.flags = { ...(b.flags || {}), strategies: { sprintCostPercents: 'additiveCeil' } };
+  assert.equal(computeSheet(b, real).bars[0].advanced.sprintCost, 433);
+  b.flags.strategies = { sprintCostPercents: 'additive' };
+  assert.equal(computeSheet(b, real).bars[0].advanced.sprintCost, 432, 'the additive rule the other costs follow reads one low');
+  const necro = JSON.parse(readFileSync(join(here, 'fixtures', '007-necro-healer-front-bar.fixture.json'), 'utf8'));
+  assert.equal(computeSheet(necro.build, real).bars[0].advanced.sprintCost, 401);
+});

@@ -302,3 +302,12 @@ the 62 remain unspent; that changes nothing on the sheet. The readings keep
 Templar reading should show Sprint Cost 432 = (500 - 40) x 0.94; drop Sprinter from `notTaken` in
 that fixture's build.
 
+## 011, 2026-09-19, Templar front bar, Sprint Cost only, after buying Sprinter
+
+One number typed in chat: Sprint Cost 433 after Sprinter was bought (the 005 build with Sprinter
+taken, ring 1 Reduce Skill Cost). The engine had given 432 (additive 0.94 on 460). Changed: Sprint
+Cost percents multiply per source (`STRATEGIES.sprintCostPercents`), which also turns the
+Necromancer's 401 (fixtures 007 and 008, engine 400 before) into a match; every other sprint
+reading on file still matches. Open: whether the game multiplies or adds and rounds up (both fit),
+see UNKNOWNS.md. Every other value of this fixture is null, not read.
+
