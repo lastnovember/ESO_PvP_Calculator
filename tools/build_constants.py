@@ -436,6 +436,38 @@ C['foods'] = OrderedDict(note='Food and drink catalog. The app also accepts cust
 
 # ---------------------------------------------------------------- Battle Spirit
 bs = table('uesp_Online_Campaigns_t05.csv')[1]
+# ---------------------------------------------------------------- set bonuses by quality
+def craftable_quality_row(table_name, caption):
+    """CP160 row of an Online:Craftable Sets quality table: Normal, Fine, Superior, Epic, Legendary."""
+    rows = table(table_name)
+    assert rows[1][0] == caption, (table_name, rows[1])
+    r = next(r for r in rows if r[0] == '160')
+    return OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], [int(x) for x in r[1:6]]))
+
+
+def set_bonus_type(key, table_name, caption, stats):
+    by = craftable_quality_row(table_name, caption)
+    return OrderedDict(
+        stats=stats,
+        source=f"tables/{table_name} row '160' (caption '{caption}', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
+        verified=True,
+        byQuality=by,
+        multiplier=OrderedDict((q, round(v / by['gold'], 4)) for q, v in by.items()),
+    )
+
+
+C['sets'] = OrderedDict(
+    note='Flat set bonus magnitudes at CP160 by item quality, from the six Online:Craftable Sets quality tables. A range like "6-300" runs from level 1 white to CP160 gold, so sets.csv resolves to the gold value; below gold the engine multiplies a ranged flat bonus by multiplier[quality] of its type. Types with no table (Offensive Penetration, Critical Resistance) are not scaled, see UNKNOWNS.md. Which piece sets the quality of a mixed set is STRATEGIES.setBonusQuality (unverified).',
+    bonusByQuality=OrderedDict([
+        ('recovery', set_bonus_type('recovery', 'uesp_Online_Craftable_Sets_t03.csv', 'Health / Magicka / Stamina Recovery', ['healthRecovery', 'magickaRecovery', 'staminaRecovery', 'allRecovery'])),
+        ('maxMagickaOrStamina', set_bonus_type('maxMagickaOrStamina', 'uesp_Online_Craftable_Sets_t04.csv', 'Max Magicka / Stamina', ['maxMagicka', 'maxStamina'])),
+        ('maxHealth', set_bonus_type('maxHealth', 'uesp_Online_Craftable_Sets_t05.csv', 'Max Health', ['maxHealth'])),
+        ('weaponAndSpellDamage', set_bonus_type('weaponAndSpellDamage', 'uesp_Online_Craftable_Sets_t06.csv', 'Spell / Weapon Damage', ['weaponDamage', 'spellDamage', 'weaponAndSpellDamage'])),
+        ('critRating', set_bonus_type('critRating', 'uesp_Online_Craftable_Sets_t07.csv', 'Spell / Weapon Critical', ['critRating', 'weaponCritRating', 'spellCritRating'])),
+        ('resistance', set_bonus_type('resistance', 'uesp_Online_Craftable_Sets_t08.csv', 'Spell / Physical Resistance', ['armor', 'physicalResistance', 'spellResistance', 'physicalAndSpellResistance'])),
+    ]),
+)
+
 C['battleSpirit'] = OrderedDict(
     source=src('uesp_Online_Campaigns_t05.csv', 'Battle Spirit'),
     rawText=bs[2],

@@ -79,7 +79,12 @@ export const STRATEGIES = {
   // Fixtures 001 and 002: (1750 - 40) x 0.91 = 1556 on maces, x 0.64 more = 996 on the ice staff.
   costWeaponPercent: ['multiplicative', 'additive'],
   bashWeaponPercent: ['onBase', 'afterFlat'],
+  // Which piece sets the quality of a set whose pieces differ in quality (flags.itemQuality on). No archived
+  // page or note states the rule (UNKNOWNS.md). 'lowestPiece' (default) or 'highestPiece'.
+  setBonusQuality: ['lowestPiece', 'highestPiece'],
 };
+
+const QUALITY_ORDER = ['white', 'green', 'blue', 'purple', 'gold'];
 
 export const DEFAULT_STRATEGIES = Object.fromEntries(
   Object.entries(STRATEGIES).map(([k, v]) => [k, v[0]]),
@@ -497,6 +502,28 @@ function collect(build, data, barIndex, strategies) {
   // sets
   const pieces = countSetPieces(build).perBar[barIndex];
   const setCounts = {}; const setPerfected = {};
+  // Set bonus magnitudes scale with item quality (Online:Craftable Sets quality tables, constants sets.bonusByQuality):
+  // a ranged flat bonus ("6-300", level 1 white to CP160 gold) is multiplied by its type's multiplier when the set's
+  // pieces on this bar are below gold. Only while flags.itemQuality is on.
+  const setQualityOn = !!(build.flags && build.flags.itemQuality);
+  const bonusTypeOf = {};
+  for (const [type, t] of Object.entries((C.sets && C.sets.bonusByQuality) || {})) for (const st of t.stats) bonusTypeOf[st] = type;
+  const setQuality = (info) => {
+    if (!setQualityOn) return 'gold';
+    const qs = info.slots.map((slot) => { const it = itemAt(build, slot); return it && QUALITY_ORDER.includes(it.quality) ? QUALITY_ORDER.indexOf(it.quality) : QUALITY_ORDER.length - 1; });
+    if (!qs.length) return 'gold';
+    return QUALITY_ORDER[strategies.setBonusQuality === 'highestPiece' ? Math.max(...qs) : Math.min(...qs)];
+  };
+  const unscaled = new Set();
+  const atSetQuality = (effects, q, name) => {
+    if (q === 'gold') return effects;
+    return effects.map((e) => {
+      if (!e || !e.ranged || e.kind !== 'flat' || !e.stat) return e;
+      const type = bonusTypeOf[e.stat];
+      if (!type) { unscaled.add(`${name}: ${e.stat}`); return e; }
+      return { ...e, value: Math.round(e.value * C.sets.bonusByQuality[type].multiplier[q]) };
+    });
+  };
   // Torc of the Last Ayleid King: "Disable all other item set bonuses" (disablesOtherSets in effects.json)
   const soleSet = Object.keys(pieces).find((name) => E.sets[name] && E.sets[name].disablesOtherSets) || null;
   if (soleSet) notes.push(`${soleSet}: every other item set bonus is disabled.`);
@@ -505,17 +532,20 @@ function collect(build, data, barIndex, strategies) {
     if (!meta) continue;
     setCounts[name] = info.total; setPerfected[name] = info.perfected || 0;
     if (soleSet && name !== soleSet) { acc.dropped.push({ source: `set ${name}`, reason: `disabled by ${soleSet}` }); continue; }
+    const q = setQuality(info);
+    const qTag = q === 'gold' ? '' : ` [${q}]`;
     for (const [n, bonus] of Object.entries(meta.bonuses)) {
-      if (info.total >= Number(n)) applyEffects(acc, bonus.effects, ctx, data, `set ${name} (${n})`, strategies);
+      if (info.total >= Number(n)) applyEffects(acc, atSetQuality(bonus.effects, q, name), ctx, data, `set ${name} (${n})${qTag}`, strategies);
     }
     // the perfected extra ("5 perfected items: Adds ...") lives on the perfected set entry and needs that many perfected pieces
     const pmeta = E.sets[PERFECTED_PREFIX + name];
     if (pmeta && info.perfected) {
       for (const bonus of Object.values(pmeta.bonuses)) {
-        if (bonus.perfected && info.perfected >= bonus.perfected.pieces) applyEffects(acc, bonus.perfected.effects, ctx, data, `set ${PERFECTED_PREFIX}${name} (${bonus.perfected.pieces} perfected)`, strategies);
+        if (bonus.perfected && info.perfected >= bonus.perfected.pieces) applyEffects(acc, atSetQuality(bonus.perfected.effects, q, name), ctx, data, `set ${PERFECTED_PREFIX}${name} (${bonus.perfected.pieces} perfected)${qTag}`, strategies);
       }
     }
   }
+  for (const u of unscaled) notes.push(`${u}: no quality table for this set bonus type, the gold value is used (UNKNOWNS.md)`);
 
   // items: armor, traits, glyphs
   let divinesPercent = 0;

@@ -69,3 +69,19 @@ test('constants.json: every glyph quality row runs white to gold and ends on the
   assert.equal(E.glyphQualityFactor.gold, 1);
   assert.ok(E.glyphSmallRatio.value > 0.4 && E.glyphSmallRatio.value < 0.41);
 });
+
+test('constants.json: set bonus quality rows come from the six Craftable Sets tables', () => {
+  const T = constants.sets.bonusByQuality;
+  assert.deepEqual(Object.keys(T), ['recovery', 'maxMagickaOrStamina', 'maxHealth', 'weaponAndSpellDamage', 'critRating', 'resistance']);
+  const order = ['white', 'green', 'blue', 'purple', 'gold'];
+  for (const [name, t] of Object.entries(T)) {
+    assert.deepEqual(Object.keys(t.byQuality), order, name);
+    const seq = order.map((q) => t.byQuality[q]);
+    for (let i = 1; i < seq.length; i += 1) assert.ok(seq[i] > seq[i - 1], `${name}: ${seq.join(' ')}`);
+    assert.equal(t.multiplier.gold, 1);
+    assert.match(t.source, /^tables\/uesp_Online_Craftable_Sets_t0[3-8]\.csv row '160'/);
+  }
+  assert.equal(T.maxHealth.byQuality.gold, 1206);
+  assert.equal(T.weaponAndSpellDamage.byQuality.white, 112);
+  assert.equal(T.resistance.byQuality.purple, 2871);
+});

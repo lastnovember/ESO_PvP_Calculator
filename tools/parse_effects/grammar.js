@@ -265,7 +265,10 @@ function parseSentence(sentenceIn, conds, depth = 0) {
     let tail = m[5].trim().replace(/^\.$/, '');
     if (COMBAT_TAIL.test(tail)) return conditional(raw, { type: 'attackCategory', detail: tail });
     const [pc, rem] = perClause(tail);
-    return done(mk(statFor(m[4]), value, kind, mergeCond(base, pc), raw), rem);
+    const effs = mk(statFor(m[4]), value, kind, mergeCond(base, pc), raw);
+    // "6-300" runs from level 1 white to CP160 gold (Online:Craftable Sets); the engine scales it by quality
+    if (m[2] != null) effs.forEach((e) => { e.ranged = true; });
+    return done(effs, rem);
   }
 
   // Oakensoul Ring: "While equipped, you are unable to swap between your Primary and Backup Weapon Sets and gain
@@ -420,7 +423,8 @@ function parseSentence(sentenceIn, conds, depth = 0) {
     const kind = m[4] ? 'percent' : 'flat';
     let tail = (m[9] || '').trim();
     const effs = mk(stat, value, kind, base, raw);
-    if (m[5]) effs.push(...mk(statFor(m[5]), rangeMax(m[6], m[7]) * sign, m[8] ? 'percent' : 'flat', base, raw));
+    if (m[3] != null) effs.forEach((e) => { e.ranged = true; });
+    if (m[5]) { const more = mk(statFor(m[5]), rangeMax(m[6], m[7]) * sign, m[8] ? 'percent' : 'flat', base, raw); if (m[7] != null) more.forEach((e) => { e.ranged = true; }); effs.push(...more); }
     if (COMBAT_TAIL.test(tail) && !/^(?:for each|per) /i.test(tail)) return conditional(raw, { type: /^(?:to|with|against|from|in|towards)/i.test(tail) ? 'attackCategory' : 'combat', detail: tail.slice(0, 80) });
     const [pc, rem] = perClause(tail);
     if (pc) effs.forEach((e) => { e.condition = mergeCond(e.condition, pc); });

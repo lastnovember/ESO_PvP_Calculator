@@ -158,3 +158,11 @@ test('effects.json: perfected extras come from the bonus_N_perfected columns', (
   assert.ok(all.every((b) => b.perfected.status === 'ok'));
   assert.equal(effects.sets['Slivers of the Null Arca'].bonuses['5'].perfected, undefined, 'the extra lives on the Perfected entry only');
 });
+
+test('ranged bonuses are flagged so the engine can scale them by quality', () => {
+  const r = parseText('Adds 6-300 Weapon Damage and Spell Damage');
+  assert.deepEqual(r.effects.map((e) => [e.stat, e.value, e.ranged]), [['weaponAndSpellDamage', 300, true]]);
+  const fixed = parseText('Adds 1650 Offensive Penetration');
+  assert.equal(fixed.effects[0].ranged, undefined);
+  assert.equal(effects.sets['Aegis of Galenwe'].bonuses['2'].effects[0].ranged, true);
+});

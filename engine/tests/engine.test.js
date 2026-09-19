@@ -561,3 +561,32 @@ test('real data: an arena weapon set on the wrong weapon kind is a validation er
   const r = computeSheet(b, real);
   assert.deepEqual((r.bars[1].breakdown.physicalPenetration || []).filter((x) => x.source === 'set Perfected Crushing Wall (2 perfected)').map((x) => x.value), [1190]);
 });
+
+// Set bonuses scale with the quality of the set's pieces (Online:Craftable Sets quality tables).
+test('real data: ranged set bonuses follow the piece quality when the toggle is on', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const rows = (r, stat, src) => (r.bars[0].breakdown[stat] || []).filter((x) => x.source === src).map((x) => x.value);
+  const b = naked();
+  for (const slot of ['head', 'shoulders', 'chest', 'hands', 'waist']) b.gear[slot] = { set: 'Aegis of Galenwe', weight: 'heavy', trait: null, enchant: null, quality: 'gold' };
+  b.gear.waist.quality = 'purple';
+  const off = computeSheet(b, real);
+  assert.deepEqual(rows(off, 'maxHealth', 'set Aegis of Galenwe (2)'), [1206], 'toggle off: the gold CP160 maximum of "28-1206"');
+  b.flags = { ...b.flags, itemQuality: true };
+  const on = computeSheet(b, real);
+  assert.deepEqual(rows(on, 'maxHealth', 'set Aegis of Galenwe (2) [purple]'), [1164], 'lowest piece is purple: the Epic CP160 row');
+  assert.deepEqual(rows(on, 'healingTaken', 'set Aegis of Galenwe (4) [purple]'), [4], 'a percent bonus never scales');
+  b.flags.strategies = { setBonusQuality: 'highestPiece' };
+  const hi = computeSheet(b, real);
+  assert.deepEqual(rows(hi, 'maxHealth', 'set Aegis of Galenwe (2)'), [1206]);
+  b.flags.strategies = {};
+  b.gear.waist.quality = 'white';
+  const white = computeSheet(b, real);
+  assert.deepEqual(rows(white, 'maxHealth', 'set Aegis of Galenwe (2) [white]'), [1051], 'the Normal CP160 row');
+  // a type with no quality table keeps the gold value and says so
+  const pen = Object.entries(real.effects.sets).find(([, s]) => s.maxPieces === 5 && !s.monster && !s.weaponSet && s.settype !== 'Jewelry' && s.bonuses['2'] && s.bonuses['2'].effects.some((e) => e.stat === 'offensivePenetration' && e.ranged));
+  assert.ok(pen, 'a penetration set exists');
+  for (const slot of ['head', 'shoulders', 'chest', 'hands', 'waist']) b.gear[slot] = { set: pen[0], weight: 'heavy', trait: null, enchant: null, quality: 'purple' };
+  const p = computeSheet(b, real);
+  assert.deepEqual(rows(p, 'physicalPenetration', `set ${pen[0]} (2) [purple]`), [pen[1].bonuses['2'].effects.find((e) => e.stat === 'offensivePenetration').value]);
+  assert.ok(p.bars[0].notes.some((n) => n.includes('no quality table')), p.bars[0].notes.join('; '));
+});

@@ -56,8 +56,9 @@ green, white), every armor, jewelry and shield glyph gets its own one underneath
 editor gets a quality and a glyph quality field. Trait magnitudes follow the UESP trait table
 columns; glyph magnitudes follow the per quality rows of the UESP glyph pages
 (`enchants.*.byQuality`); armor and weapon ratings scale by `items.qualityFactor`, which is
-unverified below gold until a purple piece is read from the game. Set bonuses never change with
-quality.
+unverified below gold until a purple piece is read from the game. Flat set bonuses given as a
+range scale by the quality of the set's pieces through the six Online:Craftable Sets quality
+tables (`sets.bonusByQuality`).
 
 Arena weapon sets are offered only on the weapon kind they drop as (a Crushing Wall staff, a
 Rampaging Slash sword or shield), and the engine reports a set on the wrong kind as an error.

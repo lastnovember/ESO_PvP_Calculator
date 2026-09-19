@@ -165,7 +165,7 @@ function parseBonus(raw, pieces, meta) {
 function cleanEffect(e) {
   const o = {};
   if (e.buff) o.buff = e.buff;
-  if (e.stat) { o.stat = e.stat; o.value = e.value; o.kind = e.kind; }
+  if (e.stat) { o.stat = e.stat; o.value = e.value; o.kind = e.kind; if (e.ranged) o.ranged = true; }
   if (!e.stat && !e.buff) o.kind = e.kind;
   o.condition = e.condition || null;
   o.raw = e.raw;

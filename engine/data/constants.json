@@ -2136,6 +2136,148 @@
       }
     ]
   },
+  "sets": {
+    "note": "Flat set bonus magnitudes at CP160 by item quality, from the six Online:Craftable Sets quality tables. A range like \"6-300\" runs from level 1 white to CP160 gold, so sets.csv resolves to the gold value; below gold the engine multiplies a ranged flat bonus by multiplier[quality] of its type. Types with no table (Offensive Penetration, Critical Resistance) are not scaled, see UNKNOWNS.md. Which piece sets the quality of a mixed set is STRATEGIES.setBonusQuality (unverified).",
+    "bonusByQuality": {
+      "recovery": {
+        "stats": [
+          "healthRecovery",
+          "magickaRecovery",
+          "staminaRecovery",
+          "allRecovery"
+        ],
+        "source": "tables/uesp_Online_Craftable_Sets_t03.csv row '160' (caption 'Health / Magicka / Stamina Recovery', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
+        "verified": true,
+        "byQuality": {
+          "white": 112,
+          "green": 117,
+          "blue": 121,
+          "purple": 124,
+          "gold": 129
+        },
+        "multiplier": {
+          "white": 0.8682,
+          "green": 0.907,
+          "blue": 0.938,
+          "purple": 0.9612,
+          "gold": 1.0
+        }
+      },
+      "maxMagickaOrStamina": {
+        "stats": [
+          "maxMagicka",
+          "maxStamina"
+        ],
+        "source": "tables/uesp_Online_Craftable_Sets_t04.csv row '160' (caption 'Max Magicka / Stamina', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
+        "verified": true,
+        "byQuality": {
+          "white": 956,
+          "green": 994,
+          "blue": 1032,
+          "purple": 1058,
+          "gold": 1096
+        },
+        "multiplier": {
+          "white": 0.8723,
+          "green": 0.9069,
+          "blue": 0.9416,
+          "purple": 0.9653,
+          "gold": 1.0
+        }
+      },
+      "maxHealth": {
+        "stats": [
+          "maxHealth"
+        ],
+        "source": "tables/uesp_Online_Craftable_Sets_t05.csv row '160' (caption 'Max Health', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
+        "verified": true,
+        "byQuality": {
+          "white": 1051,
+          "green": 1093,
+          "blue": 1136,
+          "purple": 1164,
+          "gold": 1206
+        },
+        "multiplier": {
+          "white": 0.8715,
+          "green": 0.9063,
+          "blue": 0.942,
+          "purple": 0.9652,
+          "gold": 1.0
+        }
+      },
+      "weaponAndSpellDamage": {
+        "stats": [
+          "weaponDamage",
+          "spellDamage",
+          "weaponAndSpellDamage"
+        ],
+        "source": "tables/uesp_Online_Craftable_Sets_t06.csv row '160' (caption 'Spell / Weapon Damage', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
+        "verified": true,
+        "byQuality": {
+          "white": 112,
+          "green": 117,
+          "blue": 121,
+          "purple": 124,
+          "gold": 129
+        },
+        "multiplier": {
+          "white": 0.8682,
+          "green": 0.907,
+          "blue": 0.938,
+          "purple": 0.9612,
+          "gold": 1.0
+        }
+      },
+      "critRating": {
+        "stats": [
+          "critRating",
+          "weaponCritRating",
+          "spellCritRating"
+        ],
+        "source": "tables/uesp_Online_Craftable_Sets_t07.csv row '160' (caption 'Spell / Weapon Critical', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
+        "verified": true,
+        "byQuality": {
+          "white": 726,
+          "green": 755,
+          "blue": 784,
+          "purple": 804,
+          "gold": 833
+        },
+        "multiplier": {
+          "white": 0.8715,
+          "green": 0.9064,
+          "blue": 0.9412,
+          "purple": 0.9652,
+          "gold": 1.0
+        }
+      },
+      "resistance": {
+        "stats": [
+          "armor",
+          "physicalResistance",
+          "spellResistance",
+          "physicalAndSpellResistance"
+        ],
+        "source": "tables/uesp_Online_Craftable_Sets_t08.csv row '160' (caption 'Spell / Physical Resistance', columns Normal Fine Superior Epic Legendary; page Online:Craftable Sets: bonus ranges depend on item level and quality)",
+        "verified": true,
+        "byQuality": {
+          "white": 2595,
+          "green": 2698,
+          "blue": 2802,
+          "purple": 2871,
+          "gold": 2975
+        },
+        "multiplier": {
+          "white": 0.8723,
+          "green": 0.9069,
+          "blue": 0.9418,
+          "purple": 0.965,
+          "gold": 1.0
+        }
+      }
+    }
+  },
   "battleSpirit": {
     "source": "tables/uesp_Online_Campaigns_t05.csv row 'Battle Spirit'",
     "rawText": "Damage taken and Shield strength are decreased by 50% Healing Received is decreased by 55% Health Recovery is decreased by 50% Ability range of 28 meters or more increased by 8",
