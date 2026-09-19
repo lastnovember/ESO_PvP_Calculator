@@ -500,3 +500,16 @@ test('real data: harm glyphs add 10 recovery scaled by Infused, Prismatic Recove
   n.gear.ring2 = { set: null, trait: 'Protective', enchant: 'Reduce Skill Cost' };
   assert.equal(computeSheet(n, real).bars[0].advanced.magickaCostFlat - r.advanced.magickaCostFlat, 133);
 });
+
+test('real data: sheet Bash Damage is the flat bonuses plus 0.02252 x the average resistance, times the physical percents', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const n = naked();
+  const r = computeSheet(n, real).bars[0];
+  const avg = (r.advanced.physicalResistance + r.advanced.spellResistance) / 2;
+  const expected = Math.round((r.advanced.bashDamageBonus + 0.02252 * avg) * (1 + (r.advanced.physicalDamagePercent + r.advanced.damageDoneDirectPercent) / 100));
+  assert.equal(r.advanced.bashDamage, expected);
+  n.gear.necklace = { set: null, trait: 'Arcane', enchant: 'Increase Bash Damage' };
+  const g = computeSheet(n, real).bars[0];
+  assert.equal(g.advanced.bashDamageBonus - r.advanced.bashDamageBonus, 500, 'Glyph of Bashing adds 500 (note 087)');
+  assert.ok(g.advanced.bashDamage > r.advanced.bashDamage);
+});

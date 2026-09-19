@@ -855,6 +855,11 @@ function computeBar(build, data, barIndex, strategies) {
     breakFreeCost: Math.round(breakFreeCost),
     bashCost: Math.round(bashCost),
     bashDamageBonus: Math.round(acc.flat('bashDamage')),
+    // Sheet Bash Damage (esolog Bash: 0.0224424 x MaxResist; fixtures 001 to 010): the flat bonuses (Bashing Brutality,
+    // Deadly Bash, Glyph of Bashing) plus the coefficient times the average of the two resistances, times the physical and
+    // direct damage done percents. Light Armor Penalties' bash reduction does not show on the sheet.
+    bashDamage: Math.round((acc.flat('bashDamage') + v(B.bashDamageResistanceCoefficient) * (physicalResistance + spellResistance) / 2)
+      * (1 + (typedDamage.physicalDamagePercent + acc.pct('damageDoneDirect')) / 100)),
     movementSpeedPercent: round1(movementSpeed),
     sprintSpeedPercent: round1(sprintSpeed),
     magickaCostPercent: round1(acc.pct('magickaCost')),

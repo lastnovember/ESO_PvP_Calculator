@@ -235,6 +235,22 @@ stay open: the pages hold no rating table and no recovery source the engine lack
   (Prismatic Recovery) is the doubtful entry; the build keeps it until the user says which glyph
   the ring carries. Match counts fall back to 43 and 45 on the Templar meanwhile.
 
+## 2026-09-19, archive pass two (glyph pages, depth pages, bash formula)
+
+- The archive now carries a page per glyph (pages/glyphs). Every glyph magnitude is sourced from
+  its Truly Superb row: Magicka and Stamina 868, the three recovery glyphs 169, Reduce Spell and
+  Feat Cost 203, Bracing 203, Reduce Skill Cost 133, the five resists 3520, Decrease Physical and
+  Spell Harm 927 resistance, Potion Speed 5 s, Potion Boost 3.6 s, harm glyphs 174, Health 954,
+  Prismatic Defense 477 / 434 / 434, Prismatic Recovery 84. Bashing stays at the patch note 087
+  value (500 bash damage); the page's 348 is the pre Greymoor Weapon and Spell Damage.
+- Bash Damage is modelled: the esolog Bash row scales with Max Resistance, and the readings fit
+  (flat bonuses + 0.02252 x the average of Physical and Spell Resistance) x (1 + Physical damage
+  done + direct damage done). Bashing Brutality's 120 is the flat every character carries, Deadly
+  Bash adds 500 (Update 33). Exact on 001, 002, 003, 007, 008, 009, 010; 006 within 2; 005 needs
+  the 10% Physical Damage its first photo shows.
+- Fixture 003 now matches 56 of 56. Match counts: 001 51, 002 51, 003 56, 004 53, 005 43, 006 45,
+  007 53, 008 53, 009 54, 010 54.
+
 ## Open questions for the next reading
 
 - Answered 2026-09-17: the Necromancer has every Support passive (so Combat Medic at that gate was

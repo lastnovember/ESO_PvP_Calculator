@@ -59,12 +59,12 @@ table at the bottom with the fixture name.
 | Magicka, Stamina | 868 large, 350 small (tooltip 351) |
 | Prismatic Defense | 477 / 434 / 434 large (tooltip), 192 / 175 / 175 small (tooltip 193 / 175 / 175) |
 | Weapon Damage, Spell Damage (jewelry) | 174 Weapon and Spell Damage, plus 10 Stamina Recovery (Physical Harm) or 10 Magicka Recovery (Spell Harm), 16 on an Infused piece (note 135, verified) |
-| Health, Magicka, Stamina Recovery (jewelry) | 169 |
-| Prismatic Recovery | 84 each (tooltip image, 2026-09-19) |
+| Health, Magicka, Stamina Recovery (jewelry) | 169 (glyph pages) |
+| Prismatic Recovery | 84 each (glyph page and tooltip image) |
 | Reduce Skill Cost | 133 Health, Magicka and Stamina cost (tooltip image, 2026-09-19) |
-| Reduce Spell Cost, Reduce Feat Cost | 203 |
-| Reduce Block Cost (Shielding) | 203 |
-| Potion Cooldown | 5.2 s |
+| Reduce Spell Cost, Reduce Feat Cost | 203 (glyph pages) |
+| Reduce Block Cost (Bracing) | 203 (glyph page) |
+| Potion Speed | 5 s (glyph page); Potion Boost 3.6 s |
 | Potion Boost | 8.2 s |
 | Elemental resist glyphs | 2900 |
 | Decrease Physical Harm, Decrease Spell Harm | unknown, no sheet effect applied |
@@ -111,9 +111,9 @@ Named items are community tooltip values.
 | Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
 | Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
 
-## Open gaps across the ten readings (2026-09-19, after the armor tooltips)
+## Open gaps across the ten readings (2026-09-19, after the glyph pages and the bash formula)
 
-Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.md`). What is left, in every case the same on both bars of a character:
+Every reading now matches 43 to 56 of its numbers (`engine/tests/fixtures/INDEX.md`). What is left, in every case the same on both bars of a character:
 
 | Gap | Readings | Game vs engine | Best reading of it |
 | --- | --- | --- | --- |
@@ -123,13 +123,14 @@ Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 | Weapon and Spell Critical | Necro 19.4 and 16.4 (engine 18.5 and 15.5) | | One percent (about 206 rating) on both bars from no archived source. |
 | Physical and Bleed Damage | Templar front bar 10 and 5 (engine 5 and 0) | | A buff running out during the photos (the same reading carries Major Brutality and Sorcery in its first photo). |
 | Yeets back bar naked (004) | Max Health 21236 (19305), resistances 6003 (1730) | | 10% Max Health and 4272 resistance from something slotted on that bar; no archived "while slotted" text on Bull Netch, Hurricane, Resolving Vigor, Streak, Wield Soul or Temporal Guard gives it. |
-| Bash Damage | all | not modelled | Weapon dependent total; the sheet's number is not the bonus. |
 | Penetration | Yeets 9491 and 4879 (engine 9494 and 4882) | | Two Divines pieces round per piece. |
 
 ## Settled by data supplied later
 
 | Item | Settled by |
 | --- | --- |
+| Every glyph magnitude (Magicka and Stamina 868, recoveries 169, costs 203 and 133, resists 3520, Decrease Physical and Spell Harm 927 resistance, Potion Speed 5 s, Potion Boost 3.6 s, harm glyphs 174) | pages/glyphs, the per glyph UESP pages in the 2026-09-19 archive (Truly Superb row). |
+| Bash Damage formula | esolog Bash row (0.0224424 x MaxResist) plus fixtures 001 to 010: flat bonuses + 0.02252 x average resistance, times the physical and direct damage percents. |
 | Glyph of Health 954 and the glyph quality steps (white 734, green 774, blue 839, purple 882) | Glyph table image supplied by the user, 2026-09-19, saved with the fixture photos. The 984 typed earlier was a misread. |
 | Prismatic Recovery 84 each, Reduce Skill Cost 133 | Glyph tooltip image supplied by the user, 2026-09-19, saved with the fixture photos. |
 | Armor ratings by weight and slot, Reinforced 16%, glyph large and small values, Markyn 1157 per set, Essence Thief, two handed 1571 | The DK's gear tooltips typed by the user, 2026-09-19 (fixture 009 `tooltips`). Slot factors 0.875 / 0.5 / 0.375 of the chest; heavy chest 2772, medium big 1823, light big 1221, light hands 698, light waist 523 read; chests and small heavy and medium pieces derived. |

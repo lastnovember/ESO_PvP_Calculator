@@ -24,7 +24,7 @@ export const ADVANCED_KEYS = {
   'damage taken': 'damageTakenPercent', 'damage shield strength': 'damageShieldStrengthPercent',
   'block cost': 'blockCost', 'block mitigation': 'blockMitigationPercent',
   'roll dodge cost': 'rollDodgeCost', 'dodge roll cost': 'rollDodgeCost', 'sprint cost': 'sprintCost',
-  'break free cost': 'breakFreeCost', 'bash cost': 'bashCost', 'bash damage': 'bashDamageBonus',
+  'break free cost': 'breakFreeCost', 'bash cost': 'bashCost', 'bash damage': 'bashDamage',
   'movement speed': 'movementSpeedPercent', 'sprint speed': 'sprintSpeedPercent',
   'magicka cost': 'magickaCostPercent', 'stamina cost': 'staminaCostPercent', 'ultimate cost': 'ultimateCostPercent',
   'sneak cost': 'sneakCost', 'block move speed': 'blockMoveSpeedPercent', 'sneak speed': 'sneakSpeedPercent', 'critical healing': 'critHealingPercent',
