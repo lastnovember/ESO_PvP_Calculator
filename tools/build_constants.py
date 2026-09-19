@@ -371,7 +371,7 @@ C['items'] = OrderedDict(
     twoHandedTypes=['greatsword', 'battle axe', 'maul', 'bow', 'inferno staff', 'lightning staff', 'ice staff', 'restoration staff'],
     weaponDamageByQuality=OrderedDict(
         note='Damage rating of a CP160 weapon at each quality, white to gold, base and Nirnhoned, from the Online:Nirnhoned page tables (CP160 row). One handed covers axes, maces, swords, daggers, bows and staves (the page\'s One-Handed and Ranged table); two handed covers greatswords, battle axes and mauls. Read when flags.itemQuality is on; gold agrees with items.weaponDamage and items.twoHandedMeleeWeaponDamage.',
-        oneHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t01.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)', verified=True,
+        oneHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t01.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage); the DK\'s blue Coup De Grace Restoration Staff tooltip reads 1108 (engine/tests/fixtures/photos/tooltip-dk-inventory-coup-de-grace-staff-blue-top.jpg, 2026-09-19), the blue column, so staves follow this table', verified=True,
                               base=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t01.csv')[0])),
                               nirnhoned=OrderedDict(zip(['white', 'green', 'blue', 'purple', 'gold'], nirn_rows('uesp_Online_Nirnhoned_t01.csv')[1]))),
         twoHanded=OrderedDict(source=src('uesp_Online_Nirnhoned_t02.csv', '160') + ' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)', verified=True,

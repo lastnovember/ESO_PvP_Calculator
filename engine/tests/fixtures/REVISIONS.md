@@ -328,4 +328,9 @@ Blue weapon, CP160: Charged 215%, set bonuses 121 Weapon and Spell Damage (2 and
 Sets damage table and the weapon trait table. The 1400 sits one below the 1401 the blue
 Spellshredder Hat reads for the same gold line, so blue penetration is not one number per gold
 value; nothing changed in the engine, the difference is logged in UNKNOWNS.md.
+Top half of the same tooltip (`photos/tooltip-dk-inventory-coup-de-grace-staff-blue-top.jpg`):
+damage 1108, the blue column of the Nirnhoned page one handed and ranged table, so a staff follows
+that table as the engine assumed; Absorb Stamina 1942 damage / 312 Stamina, where the glyph page
+blue row is 1674 / 312 (the Stamina matches; weapon glyph damage is a combat proc and out of
+scope).
 

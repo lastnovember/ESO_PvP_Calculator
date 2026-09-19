@@ -622,4 +622,9 @@ test('real data: the blue Spellshredder Hat reads back from the tables', async (
   assert.deepEqual(rows(r, 'physicalPenetration', 'set Spellshredder (2) [blue]'), [1401], '(2 items) Adds 1401 Offensive Penetration');
   assert.deepEqual(rows(r, 'physicalPenetration', 'set Spellshredder (3) [blue]'), [1401]);
   assert.deepEqual(rows(r, 'weaponCritRating', 'set Spellshredder (4) [blue]'), [618], '(4 items) Adds 618 Critical Chance');
+  // the blue Coup De Grace Restoration Staff: damage 1108, the blue column of the one handed and ranged table
+  b.bars[0].mainHand = { set: 'Coup De Grâce', type: 'restoration staff', trait: 'Charged', enchant: 'Absorb Stamina', quality: 'blue' };
+  const r2 = computeSheet(b, real);
+  assert.deepEqual(rows(r2, 'weaponDamage', 'item mainHand (blue) rating'), [1108]);
+  assert.deepEqual(rows(r2, 'weaponDamage', 'set Coup De Grâce (2) [blue]'), [121], '(2 items) Adds 121 Weapon and Spell Damage');
 });

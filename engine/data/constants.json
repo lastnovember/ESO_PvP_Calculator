@@ -1789,7 +1789,7 @@
     "weaponDamageByQuality": {
       "note": "Damage rating of a CP160 weapon at each quality, white to gold, base and Nirnhoned, from the Online:Nirnhoned page tables (CP160 row). One handed covers axes, maces, swords, daggers, bows and staves (the page's One-Handed and Ranged table); two handed covers greatswords, battle axes and mauls. Read when flags.itemQuality is on; gold agrees with items.weaponDamage and items.twoHandedMeleeWeaponDamage.",
       "oneHanded": {
-        "source": "tables/uesp_Online_Nirnhoned_t01.csv row '160' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage)",
+        "source": "tables/uesp_Online_Nirnhoned_t01.csv row '160' (columns Normal Fine Superior Epic Legendary, Base Damage then Nirnhoned Damage); the DK's blue Coup De Grace Restoration Staff tooltip reads 1108 (engine/tests/fixtures/photos/tooltip-dk-inventory-coup-de-grace-staff-blue-top.jpg, 2026-09-19), the blue column, so staves follow this table",
         "verified": true,
         "base": {
           "white": 1037,
