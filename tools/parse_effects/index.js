@@ -64,6 +64,17 @@ const MYTHIC_SLOT_WORDS = [
   [/\b(vestments|embrace|cuirass|cladding|robe|jerkin|hauberk)\b/i, 'chest'], [/\b(gaze|visage|helm|mask|crown|hood|hat)\b/i, 'head'],
   [/\b(spaulder|whispers|pauldron|shoulder)\b/i, 'shoulders'],
 ];
+// UESP 'ESO Sets With' tags of weapon (arena) sets onto the build schema's weaponType values.
+const WEAPON_TAG_TYPES = {
+  'Bow': ['bow'],
+  'Bow Bonus': ['bow'],
+  'Destruction Staff': ['inferno staff', 'lightning staff', 'ice staff'],
+  'Restoration Staff': ['restoration staff'],
+  'Two Handed Weapon': ['greatsword', 'battle axe', 'maul'],
+  'One Handed Weapon': ['axe', 'mace', 'sword', 'dagger'],
+  'Shield': ['shield'],
+};
+
 const MYTHIC_SLOT_OVERRIDE = { "Sea-Serpent's Coil": 'waist', 'Death Dealer\'s Fete': 'necklace', 'The Saint and the Seducer': 'chest', 'Faun\'s Lark Cladding': 'chest', 'Shapeshifter\'s Chain': 'necklace', 'Syrabane\'s Ward': 'shoulders', 'Esoteric Environment Greaves': 'legs', "Huntsman's Warmask": 'head', "The Shadow Queen's Cowl": 'head', "Prowler's Talisman": 'necklace', 'Shattered Paths Signet': 'ring', 'Monomyth Reforged': 'ring',
   // slots supplied by the user from in game tooltips (Update 50 sets.csv has no slot word in the name)
   "Rakkhat's Voidmantle": 'shoulders', "Stormweaver's Cavort": 'legs' };
@@ -107,11 +118,22 @@ function buildSets() {
       if (!meta.mythicSlot && settype === 'Jewelry') meta.mythicSlot = 'jewelry';
     }
     if (meta.weaponSet) {
-      meta.weaponTypes = tags.filter((t) => /Staff|Bow|Two Handed|Dual Wield|One Hand and Shield|Shield|Greatsword|Battle Axe|Maul|Axe|Sword|Dagger|Mace/i.test(t));
+      // The set tags name the weapon kind the arena set drops as. Kept raw in weaponTags and mapped onto the
+      // build's weaponType values in weaponTypes so the engine and the app can refuse a Crushing Wall bow.
+      // 'One Handed Weapon' alone is a dual wield set; with 'Shield' it is a one hand and shield set.
+      meta.weaponTags = tags.filter((t) => WEAPON_TAG_TYPES[t]);
+      meta.weaponTypes = [...new Set(meta.weaponTags.flatMap((t) => WEAPON_TAG_TYPES[t]))];
     }
     for (const i of bonusIdx) {
       const raw = ((BONUS_TEXT_OVERRIDE[name] || {})[i] || r[`bonus_${i}`]).trim();
       const b = parseBonus(raw, i, meta);
+      // The rebuilt sets.csv (2026-09-17) holds the perfected extra in its own column, bonus_N_perfected, on the
+      // Perfected row: it needs N perfected pieces. Older exports folded it into the text ("N perfected items: ...").
+      const pcol = (r[`bonus_${i}_perfected`] || '').trim();
+      if (pcol && !b.perfected) {
+        const p2 = parseText(pcol);
+        b.perfected = { pieces: i, raw: pcol, status: p2.status, effects: p2.effects.map(cleanEffect) };
+      }
       meta.bonuses[String(i)] = b;
       if (/unable to swap between your Primary and Backup Weapon Sets/i.test(raw)) meta.locksBackBar = true;
       if (/Disable all other item set bonuses/i.test(raw)) meta.disablesOtherSets = true;

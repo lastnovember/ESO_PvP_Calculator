@@ -11,8 +11,8 @@
    "setBonuses": {
     "total": 2414,
     "byStatus": {
-     "ok": 1757,
-     "mixed": 57,
+     "ok": 1755,
+     "mixed": 59,
      "proc": 582,
      "unparsed": 12,
      "partial": 3,
@@ -7222,9 +7222,12 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Champion of the Hist": {
@@ -7362,7 +7365,15 @@
      ]
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Chimera's Rebuke": {
    "name": "Chimera's Rebuke",
@@ -8165,8 +8176,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Coral Riptide": {
@@ -9007,7 +9023,15 @@
      ]
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Crusader": {
    "name": "Crusader",
@@ -9144,8 +9168,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Cryptcanon Vestments": {
@@ -10770,8 +10799,16 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Defiler": {
@@ -10994,8 +11031,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Destructive Mage": {
@@ -11225,8 +11267,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Dolorous Arena": {
@@ -14199,7 +14246,15 @@
      ]
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Explosive Rebuke": {
    "name": "Explosive Rebuke",
@@ -15567,8 +15622,11 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Fortified Brass": {
@@ -15698,8 +15756,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Frostbite": {
@@ -16100,8 +16163,16 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Gardener of Seasons": {
@@ -17031,8 +17102,11 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Grave Guardian": {
@@ -26508,8 +26582,11 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Merciless Charge": {
@@ -26545,8 +26622,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Meridia's Blessed Armor": {
@@ -31116,7 +31198,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 4% Healing Taken 5 perfected items: Adds 28-1206 Maximum Health",
+     "raw": "Adds 4% Healing Taken",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -31127,21 +31209,7 @@
        "condition": null,
        "raw": "Adds 4% Healing Taken"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 28-1206 Maximum Health",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxHealth",
-        "value": 1206,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 28-1206 Maximum Health"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "When you Block, you grant Empower to 11 other group members within 15 meters for 3 seconds, increasing the damage of their Heavy Attacks against monsters by 150%. This effect can occur once every 2 seconds.",
@@ -31164,7 +31232,21 @@
        },
        "raw": "This effect can occur once every 2 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 28-1206 Maximum Health",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxHealth",
+        "value": 1206,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 28-1206 Maximum Health"
+       }
+      ]
+     }
     }
    }
   },
@@ -31219,7 +31301,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 34-1487 Offensive Penetration 5 perfected items: Adds 15-657 Critical Chance",
+     "raw": "Adds 34-1487 Offensive Penetration",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -31230,21 +31312,7 @@
        "condition": null,
        "raw": "Adds 34-1487 Offensive Penetration"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 15-657 Critical Chance",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "critRating",
-        "value": 657,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 15-657 Critical Chance"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Increases your damage done against monsters by 0-7%. When you interrupt an enemy, you increase your damage done against monsters by an additional 0-14% for 30 seconds.",
@@ -31267,7 +31335,21 @@
        },
        "raw": "When you interrupt an enemy, you increase your damage done against monsters by an additional 0-14% for 30 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 15-657 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 657,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 15-657 Critical Chance"
+       }
+      ]
+     }
     }
    }
   },
@@ -31323,7 +31405,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 34-1487 Offensive Penetration 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage",
+     "raw": "Adds 34-1487 Offensive Penetration",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -31334,21 +31416,7 @@
        "condition": null,
        "raw": "Adds 34-1487 Offensive Penetration"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "weaponAndSpellDamage",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds, reduced to 1 second against players. Harmful winds deal 51 Physical damage per stack every 1 second. This effect can stack once every 0.5 seconds, up to 10 times, and scales off the higher of your Weapon Damage and Spell Damage.",
@@ -31379,7 +31447,21 @@
        },
        "raw": "This effect can stack once every 0.5 seconds, up to 10 times, and scales off the higher of your Weapon Damage and Spell Damage."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    }
   },
@@ -31434,7 +31516,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 15-657 Critical Chance 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage",
+     "raw": "Adds 15-657 Critical Chance",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -31445,21 +31527,7 @@
        "condition": null,
        "raw": "Adds 15-657 Critical Chance"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "weaponAndSpellDamage",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Increases your damage done against monsters by up to 15% based on your missing Magicka, reaching the maximum at 50% Magicka. Current value: 0%",
@@ -31482,7 +31550,21 @@
        },
        "raw": "Current value: 0%"
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    }
   },
@@ -31518,12 +31600,29 @@
        },
        "raw": "Increases your Weapon Damage and Spell Damage by 7-330 against targets affected by your Poison Arrow."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Perfected Chaotic Whirlwind": {
@@ -31574,10 +31673,32 @@
        },
        "raw": "At 5 stacks, the duration doubles but cannot be refreshed."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 12-526 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 526,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 12-526 Critical Chance"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Perfected Claw of Yolnahkriin": {
    "name": "Perfected Claw of Yolnahkriin",
@@ -31631,7 +31752,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 25-1096 Maximum Stamina 5 perfected items: Adds 28-1206 Maximum Health",
+     "raw": "Adds 25-1096 Maximum Stamina",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -31642,21 +31763,7 @@
        "condition": null,
        "raw": "Adds 25-1096 Maximum Stamina"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 28-1206 Maximum Health",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxHealth",
-        "value": 1206,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 28-1206 Maximum Health"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "When you taunt an enemy, you give yourself and 11 group members Minor Courage for 15 seconds, increasing your Weapon Damage and Spell Damage by 215. This effect can occur once every 8 seconds.",
@@ -31679,7 +31786,21 @@
        },
        "raw": "This effect can occur once every 8 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 28-1206 Maximum Health",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxHealth",
+        "value": 1206,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 28-1206 Maximum Health"
+       }
+      ]
+     }
     }
    }
   },
@@ -31714,11 +31835,30 @@
        },
        "raw": "The Force Shock casts must be made within 5 seconds of each other for this effect to occur."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Perfected Coral Riptide": {
@@ -31772,7 +31912,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Weapon Damage and Spell Damage 5 perfected items: Adds 15-657 Critical Chance",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -31783,21 +31923,7 @@
        "condition": null,
        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 15-657 Critical Chance",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "critRating",
-        "value": 657,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 15-657 Critical Chance"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Increases your Weapon Damage and Spell Damage by up to 600, based on your missing Stamina, reaching the maximum at 50% Stamina. Current bonus: 0 Weapon Damage and Spell Damage.",
@@ -31820,7 +31946,21 @@
        },
        "raw": "Current bonus: 0 Weapon Damage and Spell Damage."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 15-657 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 657,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 15-657 Critical Chance"
+       }
+      ]
+     }
     }
    }
   },
@@ -31856,10 +31996,32 @@
        },
        "raw": "When you deal damage with Flurry, your single target damage over time abilities used within 5 seconds gain 39-1690 Weapon Damage and Spell Damage."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Perfected Crushing Wall": {
    "name": "Perfected Crushing Wall",
@@ -31892,11 +32054,30 @@
        },
        "raw": "Increases the damage Wall of Elements deals by 29-1250."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Offensive Penetration",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "offensivePenetration",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Offensive Penetration"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Perfected Defensive Position": {
@@ -31940,11 +32121,33 @@
        },
        "raw": "If Defensive Posture expires without reflecting or absorbing a spell projectile, you restore 153-6600 Magicka instead."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Stamina Recovery",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "staminaRecovery",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Stamina Recovery"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Perfected Destructive Impact": {
@@ -31982,11 +32185,30 @@
        },
        "raw": "Reduces the cost of Destructive Touch by 10% and increases your Weapon Damage and Spell Damage by 13-600 for 4 seconds after activating it."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Perfected Disciplined Slash": {
@@ -32021,11 +32243,30 @@
        },
        "raw": "When you deal damage with Reverse Slash, you generate up to 12 Ultimate based on how much execute bonus damage it dealt."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 20-877 Maximum Stamina",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxStamina",
+        "value": 877,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 20-877 Maximum Stamina"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Perfected Dolorous Arena": {
@@ -32080,7 +32321,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 34-1487 Armor 5 perfected items: Adds 25-1096 Maximum Stamina",
+     "raw": "Adds 34-1487 Armor",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -32091,21 +32332,7 @@
        "condition": null,
        "raw": "Adds 34-1487 Armor"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 25-1096 Maximum Stamina",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxStamina",
-        "value": 1096,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 25-1096 Maximum Stamina"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "While bracing you create a distortion barrier around yourself after 2 seconds. After the delay, every 2 seconds you gain 14-614 Armor and enemies within the distortion barrier have their Armor reduced by 42-1843 for 5 seconds. These effects stack up to 3 times.",
@@ -32136,7 +32363,21 @@
        },
        "raw": "These effects stack up to 3 times."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 25-1096 Maximum Stamina",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxStamina",
+        "value": 1096,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 25-1096 Maximum Stamina"
+       }
+      ]
+     }
     }
    }
   },
@@ -32183,10 +32424,32 @@
        },
        "raw": "Restores 1890 Stamina if the target was below 50% Health."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 12-526 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 526,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 12-526 Critical Chance"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Perfected Eye of Nahviintaas": {
    "name": "Perfected Eye of Nahviintaas",
@@ -32241,7 +32504,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 25-1096 Maximum Magicka 5 perfected items: Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 25-1096 Maximum Magicka",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -32252,21 +32515,7 @@
        "condition": null,
        "raw": "Adds 25-1096 Maximum Magicka"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 25-1096 Maximum Magicka",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxMagicka",
-        "value": 1096,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 25-1096 Maximum Magicka"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "When an ally activates a synergy you have created within 10 seconds, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target.",
@@ -32289,7 +32538,21 @@
        },
        "raw": "This effect can occur every 6 seconds per target."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 25-1096 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 1096,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 25-1096 Maximum Magicka"
+       }
+      ]
+     }
     }
    }
   },
@@ -32346,7 +32609,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 15-657 Critical Chance 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage",
+     "raw": "Adds 15-657 Critical Chance",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -32357,21 +32620,7 @@
        "condition": null,
        "raw": "Adds 15-657 Critical Chance"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "weaponAndSpellDamage",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 57-2454 Magicka and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.",
@@ -32393,7 +32642,21 @@
        },
        "raw": "When an enemy you recently damaged dies, you restore 57-2454 Magicka and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    }
   },
@@ -32448,11 +32711,28 @@
        },
        "raw": "This effect can occur once every 10 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 20-877 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 877,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 20-877 Maximum Magicka"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Perfected Frenzied Momentum": {
@@ -32497,11 +32777,30 @@
        },
        "raw": "After 5 or more stacks, your next Heavy Attack consumes all stacks and releases a violent explosion of energy around you, dealing 1084 Physical Damage to all enemies within 8 meters, scaling off the higher of your Weapon Damage and Spell Damage."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 20-877 Maximum Stamina",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxStamina",
+        "value": 877,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 20-877 Maximum Stamina"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Perfected Gallant Charge": {
@@ -32536,11 +32835,33 @@
        },
        "raw": "Reduces the cost of Shield Charge by 25% and reduces the cost of your next non-Shield Charge One Handed and Shield ability cast within 3 seconds by 100%."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Armor",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "armor",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Armor"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Perfected Grand Rejuvenation": {
@@ -32576,11 +32897,28 @@
        },
        "raw": "The initial heal of Grand Healing invigorates you and group members affected for 6 seconds, restoring 5-224 Magicka and Stamina every 2 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 20-877 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 877,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 20-877 Maximum Magicka"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Perfected Harmony in Chaos": {
@@ -32648,9 +32986,9 @@
      ]
     },
     "5": {
-     "raw": "Adds 4-200 Weapon Damage and Spell Damage 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage; While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
-     "status": "ok",
-     "kind": "stat",
+     "raw": "Adds 4-200 Weapon Damage and Spell Damage; While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
       {
        "stat": "weaponAndSpellDamage",
@@ -32658,12 +32996,20 @@
        "kind": "flat",
        "condition": null,
        "raw": "Adds 4-200 Weapon Damage and Spell Damage"
+      },
+      {
+       "kind": "proc",
+       "condition": {
+        "type": "combat",
+        "detail": "While in combat, activating a synergy increases your Weapon Damage and Spell Dam"
+       },
+       "raw": "While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times."
       }
      ],
      "perfected": {
       "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage; While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.",
-      "status": "mixed",
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
       "effects": [
        {
         "stat": "weaponAndSpellDamage",
@@ -32671,14 +33017,6 @@
         "kind": "flat",
         "condition": null,
         "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       },
-       {
-        "kind": "proc",
-        "condition": {
-         "type": "combat",
-         "detail": "While in combat, activating a synergy increases your Weapon Damage and Spell Dam"
-        },
-        "raw": "While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times."
        }
       ]
      }
@@ -32737,7 +33075,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 34-1487 Offensive Penetration 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage",
+     "raw": "Adds 34-1487 Offensive Penetration",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -32748,21 +33086,7 @@
        "condition": null,
        "raw": "Adds 34-1487 Offensive Penetration"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "weaponAndSpellDamage",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "On dealing area direct damage, place a Sword above an enemy, up to once every 1 second. You cannot place a Sword on an enemy who already has one from you. After 6 seconds, the Sword falls, dealing 772 Physical Damage. This damage scales off the higher of your Weapon Damage and Spell Damage. Applying a Sword increases your damage done by 2% for 6 seconds, stacking up to 6 times.",
@@ -32793,7 +33117,21 @@
        },
        "raw": "Applying a Sword increases your damage done by 2% for 6 seconds, stacking up to 6 times."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    }
   },
@@ -32851,7 +33189,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 4% Healing Done 5 perfected items: Adds 3-129 Magicka Recovery",
+     "raw": "Adds 4% Healing Done",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -32862,21 +33200,7 @@
        "condition": null,
        "raw": "Adds 4% Healing Done"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Magicka Recovery",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "magickaRecovery",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Magicka Recovery"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "When you overheal yourself or a group member, you create a pool of Kyne's Blessing under the target for 4 seconds. You and group members standing in Kyne's Blessing restore 9-420 Stamina and Magicka every 1 second. This effect can occur once every 10 seconds.",
@@ -32907,7 +33231,21 @@
        },
        "raw": "This effect can occur once every 10 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Magicka Recovery",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "magickaRecovery",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Magicka Recovery"
+       }
+      ]
+     }
     }
    }
   },
@@ -32965,7 +33303,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 28-1206 Maximum Health 5 perfected items: Adds 28-1206 Maximum Health",
+     "raw": "Adds 28-1206 Maximum Health",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -32976,21 +33314,7 @@
        "condition": null,
        "raw": "Adds 28-1206 Maximum Health"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 28-1206 Maximum Health",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxHealth",
-        "value": 1206,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 28-1206 Maximum Health"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "While you have more than 50% Health, the Critical Damage and Critical Healing of any group members not wearing Lucent Echoes within 28 meters of you increases by 11%. While you have 50% or less Health, your damage taken from monsters is reduced by 20%.",
@@ -33013,7 +33337,21 @@
        },
        "raw": "While you have 50% or less Health, your damage taken from monsters is reduced by 20%."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 28-1206 Maximum Health",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxHealth",
+        "value": 1206,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 28-1206 Maximum Health"
+       }
+      ]
+     }
     }
    }
   },
@@ -33084,9 +33422,9 @@
      ]
     },
     "5": {
-     "raw": "Adds 4-200 Weapon Damage and Spell Damage 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage; Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
-     "status": "ok",
-     "kind": "stat",
+     "raw": "Adds 4-200 Weapon Damage and Spell Damage; Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
+     "status": "mixed",
+     "kind": "mixed",
      "effects": [
       {
        "stat": "weaponAndSpellDamage",
@@ -33094,12 +33432,36 @@
        "kind": "flat",
        "condition": null,
        "raw": "Adds 4-200 Weapon Damage and Spell Damage"
+      },
+      {
+       "kind": "proc",
+       "condition": {
+        "type": "combat",
+        "detail": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you f"
+       },
+       "raw": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds."
+      },
+      {
+       "kind": "proc",
+       "condition": {
+        "type": "combat",
+        "detail": "This effect can occur once every 8 seconds."
+       },
+       "raw": "This effect can occur once every 8 seconds."
+      },
+      {
+       "kind": "proc",
+       "condition": {
+        "type": "combat",
+        "detail": "Every second spent standing in the ring increases your Weapon Damage and Spell D"
+       },
+       "raw": "Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times."
       }
      ],
      "perfected": {
       "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage; Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.",
-      "status": "mixed",
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
       "effects": [
        {
         "stat": "weaponAndSpellDamage",
@@ -33107,30 +33469,6 @@
         "kind": "flat",
         "condition": null,
         "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       },
-       {
-        "kind": "proc",
-        "condition": {
-         "type": "combat",
-         "detail": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you f"
-        },
-        "raw": "Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds."
-       },
-       {
-        "kind": "proc",
-        "condition": {
-         "type": "combat",
-         "detail": "This effect can occur once every 8 seconds."
-        },
-        "raw": "This effect can occur once every 8 seconds."
-       },
-       {
-        "kind": "proc",
-        "condition": {
-         "type": "combat",
-         "detail": "Every second spent standing in the ring increases your Weapon Damage and Spell D"
-        },
-        "raw": "Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times."
        }
       ]
      }
@@ -33168,11 +33506,28 @@
        },
        "raw": "Steadfast Ward applies Major Vitality to your target for 4 seconds, increasing their healing received and damage shield strength by 12%."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Magicka Recovery",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "magickaRecovery",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Magicka Recovery"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Perfected Merciless Charge": {
@@ -33206,11 +33561,30 @@
        },
        "raw": "Activating Critical Charge stirs up a barbarous lust for battle within you for 18 seconds, increasing your damage done with direct damage attacks by 1%, up to a maximum of 12%."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Offensive Penetration",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "offensivePenetration",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Offensive Penetration"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Perfected Mora Scribe's Thesis": {
@@ -33264,7 +33638,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Weapon Damage and Spell Damage 5 perfected items: Adds 15-657 Critical Chance",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -33275,21 +33649,7 @@
        "condition": null,
        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 15-657 Critical Chance",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "critRating",
-        "value": 657,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 15-657 Critical Chance"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Increase your Critical Chance by 128 for every Major Buff active on you, up to 1536 Critical Chance. Increase your Critical Damage done by 1% for every Minor Buff active on you, up to 12% Critical Damage done. Current Bonus: 0 Critical Chance and 0% Critical Damage",
@@ -33319,7 +33679,21 @@
        },
        "raw": "Current Bonus: 0 Critical Chance and 0% Critical Damage"
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 15-657 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 657,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 15-657 Critical Chance"
+       }
+      ]
+     }
     }
    }
   },
@@ -33377,7 +33751,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Weapon Damage and Spell Damage 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -33388,21 +33762,7 @@
        "condition": null,
        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "weaponAndSpellDamage",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "While you are standing still, you gain 10-465 Weapon Damage and Spell Damage. While you are moving, you gain 4-203 Health, Magicka, and Stamina Recovery.",
@@ -33425,7 +33785,21 @@
        },
        "raw": "While you are moving, you gain 4-203 Health, Magicka, and Stamina Recovery."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    }
   },
@@ -33481,7 +33855,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 4% Healing Taken 5 perfected items: Adds 28-1206 Maximum Health",
+     "raw": "Adds 4% Healing Taken",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -33492,21 +33866,7 @@
        "condition": null,
        "raw": "Adds 4% Healing Taken"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 28-1206 Maximum Health",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxHealth",
-        "value": 1206,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 28-1206 Maximum Health"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Grants you and up to 11 other group members Pearlescent Ward. This bonus persists through death. Pearlescent Ward increases Weapon Damage and Spell Damage by up to 4-180 based on the number of group members that are alive. Current 4-180 Weapon Damage and Spell Damage. Pearlescent Ward increases damage reduction from non-player enemies out of 66% based on the number of group members that are dead. Current 0% damage reduction.",
@@ -33547,7 +33907,21 @@
        "condition": null,
        "raw": "Current 0% damage reduction."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 28-1206 Maximum Health",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxHealth",
+        "value": 1206,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 28-1206 Maximum Health"
+       }
+      ]
+     }
     }
    }
   },
@@ -33584,12 +33958,29 @@
        },
        "raw": "When you deal damage with Arrow Spray, you cause enemies hit to have 153-6600 less Armor against Bow attacks for 10 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Offensive Penetration",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "offensivePenetration",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Offensive Penetration"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Perfected Pillager's Profit": {
@@ -33645,7 +34036,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 25-1096 Maximum Magicka 5 perfected items: Adds 3-129 Magicka Recovery",
+     "raw": "Adds 25-1096 Maximum Magicka",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -33656,21 +34047,7 @@
        "condition": null,
        "raw": "Adds 25-1096 Maximum Magicka"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Magicka Recovery",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "magickaRecovery",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Magicka Recovery"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Casting an Ultimate ability while in combat grants 2% of Ultimate spent as Ultimate to up to 11 other group members within 12 meters every 2 seconds over 10 seconds. Group members can only be affected by this set once every 45 seconds.",
@@ -33693,7 +34070,21 @@
        },
        "raw": "Group members can only be affected by this set once every 45 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Magicka Recovery",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "magickaRecovery",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Magicka Recovery"
+       }
+      ]
+     }
     }
    }
   },
@@ -33745,12 +34136,29 @@
        },
        "raw": "Minimum Damage: 5% at 18.5 meters."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Perfected Precise Regeneration": {
@@ -33785,11 +34193,28 @@
        },
        "raw": "When your Regeneration critically strikes, you restore 12-558 Magicka."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 12-526 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 526,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 12-526 Critical Chance"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Perfected Puncturing Remedy": {
@@ -33830,11 +34255,33 @@
        },
        "raw": "When you deal damage with Puncture, you heal for 2230 Health and gain Spell Resistance and Physical Resistance equal to the amount of healing or over healing done for 5 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 3% Healing Taken",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "healingTaken",
+        "value": 3,
+        "kind": "percent",
+        "condition": null,
+        "raw": "Adds 3% Healing Taken"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Perfected Radial Uppercut": {
@@ -33868,11 +34315,30 @@
        },
        "raw": "Uppercut deals 45% of its damage to all enemies near your primary target."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Offensive Penetration",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "offensivePenetration",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Offensive Penetration"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Perfected Rampaging Slash": {
@@ -33910,11 +34376,40 @@
        },
        "raw": "When you deal damage with Low Slash, your next fully-charged Heavy Attack used within 5 seconds restores 44-1904 Magicka and Stamina."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 1-77 Magicka Recovery; Adds 1-77 Stamina Recovery",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "magickaRecovery",
+        "value": 77,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 1-77 Magicka Recovery"
+       },
+       {
+        "stat": "staminaRecovery",
+        "value": 77,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 1-77 Stamina Recovery"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Perfected Recovery Convergence": {
@@ -33971,7 +34466,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 25-1096 Maximum Magicka 5 perfected items: Adds 4% Healing Done",
+     "raw": "Adds 25-1096 Maximum Magicka",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -33982,21 +34477,7 @@
        "condition": null,
        "raw": "Adds 25-1096 Maximum Magicka"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 4% Healing Done",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "healingDone",
-        "value": 4,
-        "kind": "percent",
-        "condition": null,
-        "raw": "Adds 4% Healing Done"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "While in combat, overhealing done is converted into stored energy on you for 20 seconds. After overhealing 100000 Health, your energy maxes out, granting you the Convergence Release synergy. When you activate this synergy, restore 160-6886 Stamina and Magicka to yourself and group members within 28 meters of you.",
@@ -34027,7 +34508,21 @@
        },
        "raw": "When you activate this synergy, restore 160-6886 Stamina and Magicka to yourself and group members within 28 meters of you."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 4% Healing Done",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "healingDone",
+        "value": 4,
+        "kind": "percent",
+        "condition": null,
+        "raw": "Adds 4% Healing Done"
+       }
+      ]
+     }
     }
    }
   },
@@ -34082,7 +34577,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Weapon Damage and Spell Damage 5 perfected items: Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -34093,21 +34588,7 @@
        "condition": null,
        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 25-1096 Maximum Magicka",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxMagicka",
-        "value": 1096,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 25-1096 Maximum Magicka"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "After completing a fully-charged Heavy Attack, you and up to 5 group members gain Major Slayer, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every 600 Spell Damage or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds. Maximum duration 12 seconds.",
@@ -34138,7 +34619,21 @@
        },
        "raw": "Maximum duration 12 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 25-1096 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 1096,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 25-1096 Maximum Magicka"
+       }
+      ]
+     }
     }
    }
   },
@@ -34195,7 +34690,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 25-1096 Maximum Stamina 5 perfected items: Adds 25-1096 Maximum Stamina",
+     "raw": "Adds 25-1096 Maximum Stamina",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -34205,6 +34700,21 @@
        "kind": "flat",
        "condition": null,
        "raw": "Adds 25-1096 Maximum Stamina"
+      }
+     ]
+    },
+    "5": {
+     "raw": "When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain Major Force for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%.",
+     "status": "proc",
+     "kind": "proc",
+     "effects": [
+      {
+       "kind": "proc",
+       "condition": {
+        "type": "combat",
+        "detail": "When you use an Ultimate ability while in combat, you and up to 11 group members"
+       },
+       "raw": "When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain Major Force for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%."
       }
      ],
      "perfected": {
@@ -34221,21 +34731,6 @@
        }
       ]
      }
-    },
-    "5": {
-     "raw": "When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain Major Force for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%.",
-     "status": "proc",
-     "kind": "proc",
-     "effects": [
-      {
-       "kind": "proc",
-       "condition": {
-        "type": "combat",
-        "detail": "When you use an Ultimate ability while in combat, you and up to 11 group members"
-       },
-       "raw": "When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain Major Force for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%."
-      }
-     ]
     }
    }
   },
@@ -34290,7 +34785,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 15-657 Critical Chance 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage",
+     "raw": "Adds 15-657 Critical Chance",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -34301,21 +34796,7 @@
        "condition": null,
        "raw": "Adds 15-657 Critical Chance"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "weaponAndSpellDamage",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Dealing Critical Damage gives you a stack of Sliver for 10 seconds, up to once every 0.5 seconds. Upon gaining your third stack, they merge into a crystal that launches at the last enemy you damaged, dealing 1952 Physical Damage. This effect scales off the higher of your Weapon Damage and Spell Damage, and you cannot gain Sliver for 4 seconds after the crystal is launched.",
@@ -34346,7 +34827,21 @@
        },
        "raw": "This effect scales off the higher of your Weapon Damage and Spell Damage, and you cannot gain Sliver for 4 seconds after the crystal is launched."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    }
   },
@@ -34382,10 +34877,32 @@
        },
        "raw": "Activating Blade Cloak while in combat allows you to gain Spectral Cloak whenever Blade Cloak deals damage for 2 seconds, reducing your damage taken and increasing your damage done by 6%."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 2-103 Stamina Recovery",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "staminaRecovery",
+        "value": 103,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 2-103 Stamina Recovery"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Perfected Stinging Slashes": {
    "name": "Perfected Stinging Slashes",
@@ -34420,10 +34937,32 @@
        },
        "raw": "Twin Slashes deals 209 more damage for each hit of the initial attack and bleed."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 12-526 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 526,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 12-526 Critical Chance"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Perfected Stone-Talker's Oath": {
    "name": "Perfected Stone-Talker's Oath",
@@ -34479,7 +35018,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Magicka Recovery 5 perfected items: Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 3-129 Magicka Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -34490,21 +35029,7 @@
        "condition": null,
        "raw": "Adds 3-129 Magicka Recovery"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 25-1096 Maximum Magicka",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxMagicka",
-        "value": 1096,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 25-1096 Maximum Magicka"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Your fully-charged Heavy Attacks place a soul bomb on your target that charges as the target takes damage. After 10 seconds, the bomb explodes, restoring 5% of the damage received as Stamina and Magicka, up to 2240 Stamina and Magicka, to 12 group members within 16 meters of the explosion. This effect can occur every 10 seconds.",
@@ -34527,7 +35052,21 @@
        },
        "raw": "This effect can occur every 10 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 25-1096 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 1096,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 25-1096 Maximum Magicka"
+       }
+      ]
+     }
     }
    }
   },
@@ -34583,7 +35122,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 15-657 Critical Chance 5 perfected items: Adds 15-657 Critical Chance",
+     "raw": "Adds 15-657 Critical Chance",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -34594,21 +35133,7 @@
        "condition": null,
        "raw": "Adds 15-657 Critical Chance"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 15-657 Critical Chance",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "critRating",
-        "value": 657,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 15-657 Critical Chance"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "When an enemy you recently damaged dies, they leave behind a vengeful soul for 6 seconds. You can only create one vengeful soul at a time. Touching the soul increases your Critical Chance by 50-2160 and your Critical Damage by 12% for 30 seconds.",
@@ -34631,7 +35156,21 @@
        },
        "raw": "Touching the soul increases your Critical Chance by 50-2160 and your Critical Damage by 12% for 30 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 15-657 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 657,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 15-657 Critical Chance"
+       }
+      ]
+     }
     }
    }
   },
@@ -34689,7 +35228,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 28-1206 Maximum Health 5 perfected items: Adds 34-1487 Armor",
+     "raw": "Adds 28-1206 Maximum Health",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -34700,21 +35239,7 @@
        "condition": null,
        "raw": "Adds 28-1206 Maximum Health"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 34-1487 Armor",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "armor",
-        "value": 1487,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 34-1487 Armor"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "When you take damage while under 50% Health, your resolve is tested. If you are also below 50% Stamina, you restore full Health, Magicka, and Stamina while also gaining Major Protection and Major Aegis for 10 seconds. If you are above 50% Stamina you become a Beacon of Hope for 20 seconds, causing your Major and Minor buffs to also grant Major Aegis for 10 seconds. This effect can occur once every 45 seconds.",
@@ -34753,7 +35278,21 @@
        },
        "raw": "This effect can occur once every 45 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 34-1487 Armor",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "armor",
+        "value": 1487,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 34-1487 Armor"
+       }
+      ]
+     }
     }
    }
   },
@@ -34796,12 +35335,29 @@
        },
        "raw": "This bonus increases by 4-191 every time Volley ticks, up to a maximum of 8 times."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 12-526 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 526,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 12-526 Critical Chance"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Perfected Timeless Blessing": {
@@ -34836,11 +35392,28 @@
        },
        "raw": "When you cast Blessing of Protection, the cost of your Magicka and Stamina healing abilities are reduced by 21% for 3 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 20-877 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 877,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 20-877 Maximum Magicka"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Perfected Titanic Cleave": {
@@ -34877,11 +35450,30 @@
        },
        "raw": "Increases the direct damage Cleave deals by 36-1550 for each enemy in its cone."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Offensive Penetration",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "offensivePenetration",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Offensive Penetration"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Perfected Tooth of Lokkestiiz": {
@@ -34935,7 +35527,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Weapon Damage and Spell Damage 5 perfected items: Adds 15-657 Critical Chance",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -34945,6 +35537,21 @@
        "kind": "flat",
        "condition": null,
        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+      }
+     ]
+    },
+    "5": {
+     "raw": "When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%.",
+     "status": "proc",
+     "kind": "proc",
+     "effects": [
+      {
+       "kind": "proc",
+       "condition": {
+        "type": "combat",
+        "detail": "When you activate a synergy while in combat, gain Major Slayer for 16 seconds, i"
+       },
+       "raw": "When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%."
       }
      ],
      "perfected": {
@@ -34961,21 +35568,6 @@
        }
       ]
      }
-    },
-    "5": {
-     "raw": "When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%.",
-     "status": "proc",
-     "kind": "proc",
-     "effects": [
-      {
-       "kind": "proc",
-       "condition": {
-        "type": "combat",
-        "detail": "When you activate a synergy while in combat, gain Major Slayer for 16 seconds, i"
-       },
-       "raw": "When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%."
-      }
-     ]
     }
    }
   },
@@ -35031,7 +35623,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Magicka Recovery 5 perfected items: Adds 4% Healing Done",
+     "raw": "Adds 3-129 Magicka Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -35042,21 +35634,7 @@
        "condition": null,
        "raw": "Adds 3-129 Magicka Recovery"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 4% Healing Done",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "healingDone",
-        "value": 4,
-        "kind": "percent",
-        "condition": null,
-        "raw": "Adds 4% Healing Done"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "While in combat, when you heal yourself or an ally that is below 50% Health, you ignite a Spark of Hope within them for 3 seconds. If they are above 90% Health when the effect ends, you and the ally gain Major Heroism for 15 seconds. This effect can occur once every 20 seconds per target.",
@@ -35087,7 +35665,21 @@
        },
        "raw": "This effect can occur once every 20 seconds per target."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 4% Healing Done",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "healingDone",
+        "value": 4,
+        "kind": "percent",
+        "condition": null,
+        "raw": "Adds 4% Healing Done"
+       }
+      ]
+     }
     }
    }
   },
@@ -35144,7 +35736,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Magicka Recovery 5 perfected items: Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 3-129 Magicka Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -35155,21 +35747,7 @@
        "condition": null,
        "raw": "Adds 3-129 Magicka Recovery"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 25-1096 Maximum Magicka",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxMagicka",
-        "value": 1096,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 25-1096 Maximum Magicka"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain Major Courage for 20 seconds, increasing your Weapon Damage and Spell Damage by 430 for 20 seconds. This effect can occur once every 10 seconds.",
@@ -35200,7 +35778,21 @@
        },
        "raw": "This effect can occur once every 10 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 25-1096 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 1096,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 25-1096 Maximum Magicka"
+       }
+      ]
+     }
     }
    }
   },
@@ -35246,12 +35838,29 @@
        },
        "raw": "The duration increases if you are farther away from your target to a maximum of 12 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 12-526 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 526,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 12-526 Critical Chance"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Perfected Void Bash": {
@@ -35313,11 +35922,33 @@
        },
        "raw": "This effect can occur once every 13 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 22-965 Maximum Health",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxHealth",
+        "value": 965,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 22-965 Maximum Health"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Perfected Vrol's Command": {
@@ -35373,7 +36004,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 28-1206 Maximum Health 5 perfected items: Adds 4% Healing Taken",
+     "raw": "Adds 28-1206 Maximum Health",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -35384,21 +36015,7 @@
        "condition": null,
        "raw": "Adds 28-1206 Maximum Health"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 4% Healing Taken",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "healingTaken",
-        "value": 4,
-        "kind": "percent",
-        "condition": null,
-        "raw": "Adds 4% Healing Taken"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "After completing a fully-charged Heavy Attack, apply Major Aegis to you and up to 11 nearby group members for 12 seconds, reducing damage taken from Dungeon, Trial, and Arena enemies by 10%. This effect can occur once every 21 seconds.",
@@ -35421,7 +36038,21 @@
        },
        "raw": "This effect can occur once every 21 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 4% Healing Taken",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "healingTaken",
+        "value": 4,
+        "kind": "percent",
+        "condition": null,
+        "raw": "Adds 4% Healing Taken"
+       }
+      ]
+     }
     }
    }
   },
@@ -35478,7 +36109,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Weapon Damage and Spell Damage 5 perfected items: Adds 15-657 Critical Chance",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -35489,21 +36120,7 @@
        "condition": null,
        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 15-657 Critical Chance",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "critRating",
-        "value": 657,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 15-657 Critical Chance"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "When you deal damage with a Light Attack, you apply Whorl of the Depths to the target, dealing 1016 Frost Damage over 8 seconds. When this effect ends, a 5 meter whirlpool is created under the target for 6 seconds and deals 764 Frost Damage every 1 second. This effect can occur once every 18 seconds and scales off the higher of your Weapon Damage and Spell Damage.",
@@ -35534,7 +36151,21 @@
        },
        "raw": "This effect can occur once every 18 seconds and scales off the higher of your Weapon Damage and Spell Damage."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 15-657 Critical Chance",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "critRating",
+        "value": 657,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 15-657 Critical Chance"
+       }
+      ]
+     }
     }
    }
   },
@@ -35581,11 +36212,30 @@
        },
        "raw": "Impulse places lingering elemental damage on your targets, dealing 605 Flame, 605 Shock, and 605 Frost Damage over 8 seconds."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Offensive Penetration",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "offensivePenetration",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Offensive Penetration"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Perfected Wrath of Elements": {
@@ -35641,11 +36291,30 @@
        },
        "raw": "This effect can occur once every 10 seconds, and scales off the higher of your Weapon Damage and Spell Damage."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 2,
+      "raw": "Adds 27-1190 Offensive Penetration",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "offensivePenetration",
+        "value": 1190,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 27-1190 Offensive Penetration"
+       }
+      ]
+     }
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Perfected Xoryn's Masterpiece": {
@@ -35701,7 +36370,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Magicka Recovery 5 perfected items: Adds 25-1096 Maximum Magicka",
+     "raw": "Adds 3-129 Magicka Recovery",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -35712,21 +36381,7 @@
        "condition": null,
        "raw": "Adds 3-129 Magicka Recovery"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 25-1096 Maximum Magicka",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "maxMagicka",
-        "value": 1096,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 25-1096 Maximum Magicka"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Increases Max Magicka and Max Stamina by 1667 for you and up to 11 other group members within 28 meters of you. This bonus persists through death.",
@@ -35749,7 +36404,21 @@
        },
        "raw": "Increases Max Magicka and Max Stamina by 1667 for you and up to 11 other group members within 28 meters of you."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 25-1096 Maximum Magicka",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "maxMagicka",
+        "value": 1096,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 25-1096 Maximum Magicka"
+       }
+      ]
+     }
     }
    }
   },
@@ -35805,7 +36474,7 @@
      ]
     },
     "4": {
-     "raw": "Adds 3-129 Weapon Damage and Spell Damage 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage",
+     "raw": "Adds 3-129 Weapon Damage and Spell Damage",
      "status": "ok",
      "kind": "stat",
      "effects": [
@@ -35816,21 +36485,7 @@
        "condition": null,
        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
       }
-     ],
-     "perfected": {
-      "pieces": 5,
-      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
-      "status": "ok",
-      "effects": [
-       {
-        "stat": "weaponAndSpellDamage",
-        "value": 129,
-        "kind": "flat",
-        "condition": null,
-        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
-       }
-      ]
-     }
+     ]
     },
     "5": {
      "raw": "Dealing Critical Damage increases your Weapon Damage and Spell Damage by 2-86, stacking up to 5 times. This effect can occur once every 0.5 seconds. Completing a fully-charged Heavy Attack removes all stacks and increases your Weapon Damage and Spell Damage by 3-136 per stack removed. You cannot have both effects active at the same time.",
@@ -35861,7 +36516,21 @@
        },
        "raw": "Completing a fully-charged Heavy Attack removes all stacks and increases your Weapon Damage and Spell Damage by 3-136 per stack removed."
       }
-     ]
+     ],
+     "perfected": {
+      "pieces": 5,
+      "raw": "Adds 3-129 Weapon Damage and Spell Damage",
+      "status": "ok",
+      "effects": [
+       {
+        "stat": "weaponAndSpellDamage",
+        "value": 129,
+        "kind": "flat",
+        "condition": null,
+        "raw": "Adds 3-129 Weapon Damage and Spell Damage"
+       }
+      ]
+     }
     }
    }
   },
@@ -36358,9 +37027,12 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Pillager's Profit": {
@@ -36924,9 +37596,12 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Poisonous Serpent": {
@@ -37227,8 +37902,11 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Prior Thierric": {
@@ -37549,8 +38227,16 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Pyrebrand": {
@@ -37879,8 +38565,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Radiant Bastion": {
@@ -38256,8 +38947,16 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Ranger's Gait": {
@@ -45029,7 +45728,15 @@
      ]
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Spectre's Eye": {
    "name": "Spectre's Eye",
@@ -46269,7 +46976,15 @@
      ]
     }
    },
-   "weaponTypes": []
+   "weaponTags": [
+    "One Handed Weapon"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger"
+   ]
   },
   "Stone Husk": {
    "name": "Stone Husk",
@@ -50811,9 +51526,12 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Thurvokun": {
@@ -51004,8 +51722,11 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Restoration Staff"
+   ],
+   "weaponTypes": [
+    "restoration staff"
    ]
   },
   "Titanborn Strength": {
@@ -51135,8 +51856,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Two Handed Weapon"
+   ],
+   "weaponTypes": [
+    "greatsword",
+    "battle axe",
+    "maul"
    ]
   },
   "Tools of the Trapmaster": {
@@ -55539,9 +56265,12 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Bow Bonus",
     "Bow"
+   ],
+   "weaponTypes": [
+    "bow"
    ]
   },
   "Vivec's Duality": {
@@ -55695,8 +56424,16 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
+    "One Handed Weapon",
     "Shield"
+   ],
+   "weaponTypes": [
+    "axe",
+    "mace",
+    "sword",
+    "dagger",
+    "shield"
    ]
   },
   "Voidcaller": {
@@ -57133,8 +57870,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Wilderqueen's Arch": {
@@ -58041,8 +58783,13 @@
      ]
     }
    },
-   "weaponTypes": [
+   "weaponTags": [
     "Destruction Staff"
+   ],
+   "weaponTypes": [
+    "inferno staff",
+    "lightning staff",
+    "ice staff"
    ]
   },
   "Wrath of the Imperium": {

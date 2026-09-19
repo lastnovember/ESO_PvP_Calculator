@@ -1025,6 +1025,13 @@
           "source": "pages/glyphs/Glyph_of_Magicka.md (Truly Superb row, CP160: 668 / 704 / 763 / 802 / 868 white to gold); fixture 009 (the Prismatic Defense 434 is half of it)",
           "verified": true
         },
+        "byQuality": {
+          "white": 668,
+          "green": 704,
+          "blue": 763,
+          "purple": 802,
+          "gold": 868
+        },
         "small": {
           "value": 350,
           "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Roksa epaulets Max Magicka glyph reads 351; the sheet sums the truncated 350 (868 x 0.4043 = 350.9), as the Health and Prismatic Defense small pieces show.",
@@ -1042,6 +1049,13 @@
           "value": 868,
           "source": "pages/glyphs/Glyph_of_Stamina.md (Truly Superb row, CP160: 668 / 704 / 763 / 802 / 868 white to gold)",
           "verified": true
+        },
+        "byQuality": {
+          "white": 668,
+          "green": 704,
+          "blue": 763,
+          "purple": 802,
+          "gold": 868
         },
         "small": {
           "value": 350,
@@ -1062,8 +1076,35 @@
             434,
             434
           ],
-          "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Roksa and Balorgh visages, Prismatic Defense 477 Health, 434 Magicka, 434 Stamina",
+          "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Roksa and Balorgh visages, Prismatic Defense 477 Health, 434 Magicka, 434 Stamina; pages/glyphs/Glyph_of_Prismatic_Defense.md Truly Superb row agrees",
           "verified": true
+        },
+        "byQuality": {
+          "white": [
+            367,
+            334,
+            334
+          ],
+          "green": [
+            387,
+            352,
+            352
+          ],
+          "blue": [
+            419,
+            381,
+            381
+          ],
+          "purple": [
+            441,
+            401,
+            401
+          ],
+          "gold": [
+            477,
+            434,
+            434
+          ]
         },
         "small": {
           "value": [
@@ -1092,6 +1133,13 @@
     },
     "jewelry": {
       "Weapon Damage": {
+        "byQuality": {
+          "white": 134,
+          "green": 141,
+          "blue": 153,
+          "purple": 160,
+          "gold": 174
+        },
         "magnitude": {
           "value": 174,
           "source": "pages/glyphs/Glyph_of_Increase_Physical_Harm.md (Truly Superb row, CP160: 134 / 141 / 153 / 160 / 174 white to gold); fixtures 002, 005, 009",
@@ -1120,6 +1168,13 @@
         ]
       },
       "Spell Damage": {
+        "byQuality": {
+          "white": 134,
+          "green": 141,
+          "blue": 153,
+          "purple": 160,
+          "gold": 174
+        },
         "magnitude": {
           "value": 174,
           "source": "pages/glyphs/Glyph_of_Increase_Magical_Harm.md (Truly Superb row, CP160: 134 / 141 / 153 / 160 / 174 white to gold)",
@@ -1148,6 +1203,13 @@
         ]
       },
       "Magicka Recovery": {
+        "byQuality": {
+          "white": 121,
+          "green": 133,
+          "blue": 145,
+          "purple": 157,
+          "gold": 169
+        },
         "magnitude": {
           "value": 169,
           "source": "pages/glyphs/Glyph_of_Magicka_Recovery.md (Truly Superb row, CP160: 121 / 133 / 145 / 157 / 169 white to gold)",
@@ -1161,6 +1223,13 @@
         ]
       },
       "Stamina Recovery": {
+        "byQuality": {
+          "white": 121,
+          "green": 133,
+          "blue": 145,
+          "purple": 157,
+          "gold": 169
+        },
         "magnitude": {
           "value": 169,
           "source": "pages/glyphs/Glyph_of_Stamina_Recovery.md (Truly Superb row, CP160: 121 / 133 / 145 / 157 / 169 white to gold)",
@@ -1174,6 +1243,13 @@
         ]
       },
       "Health Recovery": {
+        "byQuality": {
+          "white": 121,
+          "green": 133,
+          "blue": 145,
+          "purple": 157,
+          "gold": 169
+        },
         "magnitude": {
           "value": 169,
           "source": "pages/glyphs/Glyph_of_Health_Recovery.md (Truly Superb row, CP160: 121 / 133 / 145 / 157 / 169 white to gold)",
@@ -1187,6 +1263,13 @@
         ]
       },
       "Prismatic Recovery": {
+        "byQuality": {
+          "white": 60,
+          "green": 66,
+          "blue": 72,
+          "purple": 78,
+          "gold": 84
+        },
         "magnitude": {
           "value": 84,
           "source": "tooltip image supplied by the user, 2026-09-19 (engine/tests/fixtures/photos/tooltip-prismatic-recovery-and-reduce-skill-cost-glyphs.jpg): Truly Superb Glyph of Prismatic Recovery, minimum level CP160, Adds 84 Magicka Recovery, Adds 84 Health Recovery, Adds 84 Stamina Recovery",
@@ -1209,6 +1292,13 @@
         ]
       },
       "Reduce Skill Cost": {
+        "byQuality": {
+          "white": 101,
+          "green": 110,
+          "blue": 118,
+          "purple": 126,
+          "gold": 133
+        },
         "magnitude": {
           "value": 133,
           "source": "tooltip image supplied by the user, 2026-09-19 (same file): Truly Superb Glyph of Reduce Skill Cost, Reduce Prismatic Cost Enchantment, Reduce Health, Magicka, and Stamina cost of abilities by 133, minimum level CP160",
@@ -1227,6 +1317,13 @@
         ]
       },
       "Reduce Spell Cost": {
+        "byQuality": {
+          "white": 154,
+          "green": 167,
+          "blue": 179,
+          "purple": 191,
+          "gold": 203
+        },
         "magnitude": {
           "value": 203,
           "source": "pages/glyphs/Glyph_of_Reduce_Spell_Cost.md (Truly Superb row, CP160: 154 / 167 / 179 / 191 / 203 white to gold)",
@@ -1240,6 +1337,13 @@
         ]
       },
       "Reduce Feat Cost": {
+        "byQuality": {
+          "white": 154,
+          "green": 167,
+          "blue": 179,
+          "purple": 191,
+          "gold": 203
+        },
         "magnitude": {
           "value": 203,
           "source": "pages/glyphs/Glyph_of_Reduce_Feat_Cost.md (Truly Superb row, CP160: 154 / 167 / 179 / 191 / 203 white to gold)",
@@ -1253,6 +1357,13 @@
         ]
       },
       "Reduce Block Cost": {
+        "byQuality": {
+          "white": 154,
+          "green": 167,
+          "blue": 179,
+          "purple": 191,
+          "gold": 203
+        },
         "magnitude": {
           "value": 203,
           "source": "pages/glyphs/Glyph_of_Bracing.md (Truly Superb row, CP160: 154 / 167 / 179 / 191 / 203 white to gold)",
@@ -1282,6 +1393,13 @@
         ]
       },
       "Potion Cooldown": {
+        "byQuality": {
+          "white": 1,
+          "green": 2,
+          "blue": 3,
+          "purple": 4,
+          "gold": 5
+        },
         "magnitude": {
           "value": 5,
           "source": "pages/glyphs/Glyph_of_Potion_Speed.md (Truly Superb row, CP160: 1 / 2 / 3 / 4 / 5 seconds; the Aspect rune alone sets it white to gold)",
@@ -1297,6 +1415,13 @@
         ]
       },
       "Potion Boost": {
+        "byQuality": {
+          "white": 3.1,
+          "green": 3.2,
+          "blue": 3.3,
+          "purple": 3.5,
+          "gold": 3.6
+        },
         "magnitude": {
           "value": 3.6,
           "source": "pages/glyphs/Glyph_of_Potion_Boost.md (Truly Superb row, CP160: 3.1 / 3.2 / 3.3 / 3.5 / 3.6 seconds white to gold)",
@@ -1311,6 +1436,13 @@
         ]
       },
       "Flame Resist": {
+        "byQuality": {
+          "white": 2708,
+          "green": 2857,
+          "blue": 3095,
+          "purple": 3250,
+          "gold": 3520
+        },
         "magnitude": {
           "value": 3520,
           "source": "pages/glyphs/Glyph_of_Flame_Resist.md (Truly Superb row, CP160: 2708 / 2857 / 3095 / 3250 / 3520 white to gold)",
@@ -1324,6 +1456,13 @@
         ]
       },
       "Frost Resist": {
+        "byQuality": {
+          "white": 2708,
+          "green": 2857,
+          "blue": 3095,
+          "purple": 3250,
+          "gold": 3520
+        },
         "magnitude": {
           "value": 3520,
           "source": "pages/glyphs/Glyph_of_Frost_Resist.md (Truly Superb row, CP160: 2708 / 2857 / 3095 / 3250 / 3520 white to gold)",
@@ -1337,6 +1476,13 @@
         ]
       },
       "Shock Resist": {
+        "byQuality": {
+          "white": 2708,
+          "green": 2857,
+          "blue": 3095,
+          "purple": 3250,
+          "gold": 3520
+        },
         "magnitude": {
           "value": 3520,
           "source": "pages/glyphs/Glyph_of_Shock_Resist.md (Truly Superb row, CP160: 2708 / 2857 / 3095 / 3250 / 3520 white to gold)",
@@ -1350,6 +1496,13 @@
         ]
       },
       "Poison Resist": {
+        "byQuality": {
+          "white": 2708,
+          "green": 2857,
+          "blue": 3095,
+          "purple": 3250,
+          "gold": 3520
+        },
         "magnitude": {
           "value": 3520,
           "source": "pages/glyphs/Glyph_of_Poison_Resist.md (Truly Superb row, CP160: 2708 / 2857 / 3095 / 3250 / 3520 white to gold)",
@@ -1363,6 +1516,13 @@
         ]
       },
       "Disease Resist": {
+        "byQuality": {
+          "white": 2708,
+          "green": 2857,
+          "blue": 3095,
+          "purple": 3250,
+          "gold": 3520
+        },
         "magnitude": {
           "value": 3520,
           "source": "pages/glyphs/Glyph_of_Disease_Resist.md (Truly Superb row, CP160: 2708 / 2857 / 3095 / 3250 / 3520 white to gold)",
@@ -1376,6 +1536,13 @@
         ]
       },
       "Decrease Physical Harm": {
+        "byQuality": {
+          "white": 713,
+          "green": 744,
+          "blue": 805,
+          "purple": 856,
+          "gold": 927
+        },
         "magnitude": {
           "value": 927,
           "source": "pages/glyphs/Glyph_of_Decrease_Physical_Harm.md (Truly Superb row, CP160: 713 / 744 / 805 / 856 / 927 white to gold)",
@@ -1390,6 +1557,13 @@
         ]
       },
       "Decrease Spell Harm": {
+        "byQuality": {
+          "white": 713,
+          "green": 744,
+          "blue": 805,
+          "purple": 856,
+          "gold": 927
+        },
         "magnitude": {
           "value": 927,
           "source": "pages/glyphs/Glyph_of_Decrease_Spell_Harm.md (Truly Superb row, CP160: 713 / 744 / 805 / 856 / 927 white to gold)",
@@ -1405,13 +1579,19 @@
       }
     },
     "glyphQualityFactor": {
-      "note": "Glyph value at each quality relative to gold, from the Truly Superb Glyph of Health row (734 / 774 / 839 / 882 / 954; pages/glyphs/Glyph_of_Health.md and the user's table image). Every glyph page scales the same way within rounding. Glyph quality is not a build input yet; the app takes every glyph as gold.",
+      "note": "Glyph value at each quality relative to gold, from the Truly Superb Glyph of Health row (734 / 774 / 839 / 882 / 954; pages/glyphs/Glyph_of_Health.md and the user's table image). Fallback only: every glyph that has a UESP page carries its own byQuality row read from that page; the factor covers Increase Bash Damage, whose page is stale. Read when flags.itemQuality is on and an item carries enchantQuality.",
       "source": "glyph table image supplied by the user, 2026-09-19 (engine/tests/fixtures/photos/table-truly-superb-glyph-of-health-by-quality.jpg): Truly Superb Glyph of Health, Repora, CP160: 734 white, 774 green, 839 blue, 882 purple, 954 gold",
       "white": 0.7694,
       "green": 0.8113,
       "blue": 0.8795,
       "purple": 0.9245,
       "gold": 1.0
+    },
+    "glyphSmallRatio": {
+      "value": 0.4043,
+      "source": "user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010): small pieces truncate 0.4043 of the large value (954 to 385, 868 to 350, 477 to 192, 434 to 175); the glyph pages say 40%",
+      "verified": true,
+      "note": "Share of the large piece value a shoulders, hands, waist or feet glyph gets, truncated. Used to derive the small value at qualities below gold, which no reading has confirmed yet."
     },
     "weapon": {
       "note": "Every weapon glyph is a combat proc and has no character sheet effect. Kept for completeness.",

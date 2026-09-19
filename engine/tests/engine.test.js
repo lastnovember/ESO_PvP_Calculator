@@ -513,3 +513,51 @@ test('real data: sheet Bash Damage is the flat bonuses plus 0.02252 x the averag
   assert.equal(g.advanced.bashDamageBonus - r.advanced.bashDamageBonus, 500, 'Glyph of Bashing adds 500 (note 087)');
   assert.ok(g.advanced.bashDamage > r.advanced.bashDamage);
 });
+
+// Glyph quality is its own axis under the same toggle: the item can be gold while its glyph is purple.
+test('real data: glyph quality scales glyph magnitudes only when the toggle is on', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const rows = (r, stat, src) => (r.bars[0].breakdown[stat] || []).filter((x) => x.source === src).map((x) => x.value);
+  const b = naked();
+  b.gear.chest = { set: null, weight: 'light', trait: null, enchant: 'Health', enchantQuality: 'purple' };
+  b.gear.hands = { set: null, weight: 'light', trait: 'Infused', enchant: 'Health', enchantQuality: 'purple', quality: 'blue' };
+  b.gear.ring1 = { set: null, trait: null, enchant: 'Weapon Damage', enchantQuality: 'purple' };
+  b.gear.ring2 = { set: null, trait: null, enchant: 'Prismatic Defense', enchantQuality: 'white' };
+  const G = constants.enchants;
+  const off = computeSheet(b, real);
+  assert.deepEqual(rows(off, 'maxHealth', 'item chest glyph Health'), [G.armor.Health.large.value], 'toggle off: gold');
+  assert.deepEqual(rows(off, 'maxHealth', 'item hands glyph Health'), [Math.round(G.armor.Health.small.value * 1.25)]);
+  assert.deepEqual(rows(off, 'weaponDamage', 'item ring1 glyph Weapon Damage'), [174]);
+  b.flags = { ...b.flags, itemQuality: true };
+  const on = computeSheet(b, real);
+  assert.deepEqual(rows(on, 'maxHealth', 'item chest glyph Health (purple glyph)'), [882], 'large piece: the purple row of the glyph page');
+  const small = Math.floor(882 * G.glyphSmallRatio.value);
+  assert.deepEqual(rows(on, 'maxHealth', 'item hands (blue) glyph Health (purple glyph)'), [Math.round(small * (1 + 17 / 100))], 'small piece truncated, blue Infused is 17%');
+  assert.deepEqual(rows(on, 'weaponDamage', 'item ring1 glyph Weapon Damage (purple glyph)'), [160], 'jewelry: the purple row');
+  assert.deepEqual(rows(on, 'staminaRecovery', 'item ring1 glyph Weapon Damage (purple glyph)'), [10], 'the 10 recovery holds at every quality');
+  assert.equal(on.validation.errors.length, 0, on.validation.errors.join('; '));
+});
+
+// Arena weapon sets exist for one weapon kind.
+test('real data: an arena weapon set on the wrong weapon kind is a validation error', async () => {
+  const real = { constants, effects: JSON.parse(readFileSync(join(here, '..', 'data', 'effects.json'), 'utf8')) };
+  const b = naked();
+  b.bars[0].mainHand = { set: 'Crushing Wall', type: 'bow', trait: null, enchant: null };
+  let v = validateBuild(b, real);
+  assert.ok(v.errors.some((e) => e.includes('Crushing Wall only comes as inferno staff, lightning staff, ice staff, not bow')), v.errors.join('; '));
+  b.bars[0].mainHand.type = 'inferno staff';
+  v = validateBuild(b, real);
+  assert.deepEqual(v.errors, []);
+  b.bars[1].mainHand = { set: 'Perfected Rampaging Slash', type: 'sword', trait: null, enchant: null };
+  b.bars[1].offHand = { set: 'Perfected Rampaging Slash', type: 'shield', trait: null, enchant: null };
+  v = validateBuild(b, real);
+  assert.deepEqual(v.errors, [], 'a one hand and shield set takes the weapon and the shield');
+  b.bars[1].offHand = { set: 'Perfected Cruel Flurry', type: 'shield', trait: null, enchant: null };
+  v = validateBuild(b, real);
+  assert.ok(v.errors.some((e) => e.includes('Cruel Flurry only comes as axe, mace, sword, dagger, not shield')), 'a dual wield set never takes a shield');
+  // the perfected extra of an arena weapon: one perfected two handed weapon is two perfected pieces
+  b.bars[1].mainHand = { set: 'Perfected Crushing Wall', type: 'lightning staff', trait: null, enchant: null };
+  b.bars[1].offHand = null;
+  const r = computeSheet(b, real);
+  assert.deepEqual((r.bars[1].breakdown.physicalPenetration || []).filter((x) => x.source === 'set Perfected Crushing Wall (2 perfected)').map((x) => x.value), [1190]);
+});

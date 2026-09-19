@@ -230,6 +230,11 @@ export function validateBuild(build, data) {
       const cat = slotCategory(slot, build);
       if (meta.monster && !(slot === 'head' || slot === 'shoulders')) errors.push(`${name} is a monster set and cannot go on ${slot}`);
       if (meta.weaponSet && cat !== 'weapon') errors.push(`${name} is a weapon set and cannot go on ${slot}`);
+      if (meta.weaponSet && cat === 'weapon' && Array.isArray(meta.weaponTypes) && meta.weaponTypes.length) {
+        // arena weapon sets exist for one weapon kind (UESP set tags): a Crushing Wall bow does not drop
+        const it = itemAt(build, slot);
+        if (it && it.type && !meta.weaponTypes.includes(it.type)) errors.push(`${name} only comes as ${meta.weaponTypes.join(', ')}, not ${it.type} (${slot})`);
+      }
       if (meta.settype === 'Jewelry' && cat !== 'jewelry') errors.push(`${name} is jewelry only and cannot go on ${slot}`);
       if (meta.mythic && meta.mythicSlot) {
         const ms = meta.mythicSlot;
@@ -241,6 +246,13 @@ export function validateBuild(build, data) {
   if (mythics.size > 1) errors.push(`more than one mythic equipped: ${[...mythics].join(', ')}`);
   for (const name of mythics) if (counts.all[name].total > 1) errors.push(`${name}: a mythic is one piece`);
   return { errors, warnings };
+}
+
+// The item in a slot as countSetPieces names it: a body slot, or barN.mainHand / barN.offHand.
+function itemAt(build, slot) {
+  const m = /^bar(\d)\.(mainHand|offHand)$/.exec(slot);
+  if (m) { const bar = (build.bars || [])[Number(m[1]) - 1]; return bar ? bar[m[2]] : null; }
+  return build.gear ? build.gear[slot] : null;
 }
 
 function slotCategory(slot, build) {
@@ -564,26 +576,42 @@ function collect(build, data, barIndex, strategies) {
         }
       }
     }
-    // glyphs
+    // glyphs. Glyph quality is its own axis (a gold ring can hold a blue glyph): read from it.enchantQuality only
+    // while flags.itemQuality is on, gold otherwise. Each glyph's byQuality row comes from its UESP glyph page
+    // (Truly Superb, CP160, white to gold); enchants.glyphQualityFactor is the fallback for a glyph without one.
+    // Small armor pieces take glyphSmallRatio of the large value, truncated, as the gold readings show; below
+    // gold that derivation is unverified. The Infused trait scales with the item's own quality.
     if (it.enchant) {
       const infused = it.trait === 'Infused';
+      const gq = qualityOn && C.enchants.glyphQualityFactor[it.enchantQuality] != null ? it.enchantQuality : 'gold';
+      const glyphSrc = `${src} glyph ${it.enchant}` + (gq !== 'gold' ? ` (${gq} glyph)` : '');
+      const atQuality = (g, gold) => {
+        if (gq === 'gold') return gold;
+        if (g.byQuality && g.byQuality[gq] != null) return g.byQuality[gq];
+        const f = v(C.enchants.glyphQualityFactor[gq]);
+        return Array.isArray(gold) ? gold.map((x) => Math.round(x * f)) : Math.round(gold * f);
+      };
       if (cat === 'armor' || cat === 'shield') {
         const g = C.enchants.armor[it.enchant];
         if (g) {
-          const size = LARGE_GLYPH_SLOTS.has(slot) ? 'large' : 'small';
-          const mag = v(g[size]);
-          const mult = infused ? 1 + v(C.traits.armor.Infused.value) / 100 : 1;
-          g.values.forEach((e, i) => acc.add(e.stat, 'flat', Math.round((Array.isArray(mag) ? mag[i] : mag) * mult), `${src} glyph ${it.enchant}`));
+          const large = atQuality(g, v(g.large));
+          let mag;
+          if (LARGE_GLYPH_SLOTS.has(slot)) mag = large;
+          else if (gq === 'gold') mag = v(g.small);
+          else { const r = v(C.enchants.glyphSmallRatio); mag = Array.isArray(large) ? large.map((x) => Math.floor(x * r)) : Math.floor(large * r); }
+          const mult = infused ? 1 + tq(C.traits.armor.Infused, it) / 100 : 1;
+          g.values.forEach((e, i) => acc.add(e.stat, 'flat', Math.round((Array.isArray(mag) ? mag[i] : mag) * mult), glyphSrc));
         }
       } else if (cat === 'jewelry') {
         const g = C.enchants.jewelry[it.enchant];
         if (g && g.magnitude && g.magnitude.value != null) {
-          const mult = infused ? 1 + C.traits.jewelry.Infused.values[0].value / 100 : 1;
-          // a value may carry its own magnitude (the harm glyphs' 10 recovery, the Prismatic Recovery health share)
+          const mult = infused ? 1 + tq(C.traits.jewelry.Infused.values[0], it) / 100 : 1;
+          const base = atQuality(g, g.magnitude.value);
+          // a value may carry its own magnitude (the harm glyphs' 10 recovery, "at all qualities" per Update 37)
           for (const e of g.values) {
-            const mag = e.magnitude ? v(e.magnitude) : g.magnitude.value;
+            const mag = e.magnitude ? v(e.magnitude) : base;
             if (!mag) continue;
-            acc.add(e.stat, e.kind || 'flat', Math.round(mag * mult) * (e.negative ? -1 : 1), `${src} glyph ${it.enchant}`);
+            acc.add(e.stat, e.kind || 'flat', Math.round(mag * mult) * (e.negative ? -1 : 1), glyphSrc);
           }
         }
       }

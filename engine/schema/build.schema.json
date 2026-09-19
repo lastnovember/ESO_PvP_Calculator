@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "eso-pvp-calculator/build.schema.json",
   "title": "ESO character build (phase 1: character sheet)",
-  "description": "A fully specified level 50, CP160, gold quality build. Fixed assumptions are not fields: level 50, CP160 gear, gold quality, set ranges resolve to their maximum. Fields reserved for later phases carry a 'reserved' note and are accepted but must hold their default value.",
+  "description": "A fully specified level 50, CP160 build. Fixed assumptions are not fields: level 50, CP160 gear, set ranges resolve to their maximum (set bonuses scale with item level, never with quality). Every item and every glyph is gold unless flags.itemQuality is on, in which case each item's quality and enchantQuality are read. Fields reserved for later phases carry a 'reserved' note and are accepted but must hold their default value.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "race", "class", "attributes", "championPoints", "gear", "bars"],
@@ -187,6 +187,10 @@
       "description": "Item quality. Read only when flags.itemQuality is true; otherwise every item is gold. Traits scale from the UESP trait tables, armor and weapon ratings by items.qualityFactor (unverified below gold).",
       "enum": ["white", "green", "blue", "purple", "gold"], "default": "gold"
     },
+    "enchantQuality": {
+      "description": "Quality of the glyph on the item, its own axis (a gold ring can hold a blue glyph). Read only when flags.itemQuality is true; otherwise every glyph is gold. Magnitudes come from the per quality rows of the UESP glyph pages (enchants.*.byQuality); small armor pieces take enchants.glyphSmallRatio of the large value, truncated.",
+      "enum": ["white", "green", "blue", "purple", "gold"], "default": "gold"
+    },
     "weight": { "enum": ["light", "medium", "heavy"] },
     "armorTrait":   { "enum": ["Sturdy", "Impenetrable", "Reinforced", "Well-fitted", "Training", "Infused", "Invigorating", "Divines", "Nirnhoned"] },
     "weaponTrait":  { "enum": ["Powered", "Charged", "Precise", "Infused", "Defending", "Training", "Sharpened", "Decisive", "Nirnhoned"] },
@@ -211,7 +215,7 @@
     "weaponType": { "enum": ["axe", "mace", "sword", "dagger", "greatsword", "battle axe", "maul", "bow", "inferno staff", "lightning staff", "ice staff", "restoration staff", "shield"] },
 
     "setRef": {
-      "description": "Set name exactly as the page title in sets.csv without the 'Online:' prefix and without a trailing ' (set)'. Perfected trial and arena sets are separate names ('Perfected Saxhleel Champion'). null = no set.",
+      "description": "Set name exactly as the page title in sets.csv without the 'Online:' prefix and without a trailing ' (set)'. Perfected trial and arena sets are separate names ('Perfected Saxhleel Champion'). An arena weapon set is valid only on the weapon kind it drops as (effects.json weaponTypes, from the UESP set tags). null = no set.",
       "oneOf": [ { "type": "string" }, { "type": "null" } ]
     },
 
@@ -224,7 +228,8 @@
           "weight":    { "$ref": "#/definitions/weight" },
           "trait":     { "oneOf": [ { "$ref": "#/definitions/armorTrait" }, { "type": "null" } ] },
           "enchant":   { "oneOf": [ { "$ref": "#/definitions/armorEnchant" }, { "type": "null" } ] },
-          "quality":   { "$ref": "#/definitions/quality" }
+          "quality":   { "$ref": "#/definitions/quality" },
+          "enchantQuality": { "$ref": "#/definitions/enchantQuality" }
         }
       } ]
     },
@@ -237,7 +242,8 @@
           "set":       { "$ref": "#/definitions/setRef" },
           "trait":     { "oneOf": [ { "$ref": "#/definitions/jewelryTrait" }, { "type": "null" } ] },
           "enchant":   { "oneOf": [ { "$ref": "#/definitions/jewelryEnchant" }, { "type": "null" } ] },
-          "quality":   { "$ref": "#/definitions/quality" }
+          "quality":   { "$ref": "#/definitions/quality" },
+          "enchantQuality": { "$ref": "#/definitions/enchantQuality" }
         }
       } ]
     },
@@ -252,7 +258,8 @@
           "type":      { "$ref": "#/definitions/weaponType" },
           "trait":     { "oneOf": [ { "$ref": "#/definitions/weaponTrait" }, { "$ref": "#/definitions/armorTrait" }, { "type": "null" } ] },
           "enchant":   { "oneOf": [ { "$ref": "#/definitions/weaponEnchant" }, { "$ref": "#/definitions/armorEnchant" }, { "type": "null" } ] },
-          "quality":   { "$ref": "#/definitions/quality" }
+          "quality":   { "$ref": "#/definitions/quality" },
+          "enchantQuality": { "$ref": "#/definitions/enchantQuality", "$comment": "Only a shield's glyph reaches the sheet; weapon glyphs are procs." }
         }
       } ]
     },

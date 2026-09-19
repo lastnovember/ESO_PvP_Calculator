@@ -133,3 +133,28 @@ test('attack classification from the esolog tags', () => {
   assert.ok(A['Hurricane'].attack.delivery === 'dot' || A['Hurricane'].attack.delivery === 'mixed');
   assert.ok(effects._meta.coverage.activeNodes.withAttackClass > 400, 'most abilities are classified');
 });
+
+test('effects.json: arena weapon sets carry the weapon kinds they drop as', () => {
+  assert.deepEqual(effects.sets['Crushing Wall'].weaponTypes, ['inferno staff', 'lightning staff', 'ice staff']);
+  assert.deepEqual(effects.sets['Cruel Flurry'].weaponTypes, ['axe', 'mace', 'sword', 'dagger']);
+  assert.deepEqual(effects.sets['Rampaging Slash'].weaponTypes, ['axe', 'mace', 'sword', 'dagger', 'shield']);
+  assert.deepEqual(effects.sets['Thunderous Volley'].weaponTypes, ['bow']);
+  assert.deepEqual(effects.sets['Merciless Charge'].weaponTypes, ['greatsword', 'battle axe', 'maul']);
+  assert.deepEqual(effects.sets['Precise Regeneration'].weaponTypes, ['restoration staff']);
+  const weaponSets = Object.values(effects.sets).filter((s) => s.weaponSet);
+  assert.equal(weaponSets.length, 60);
+  assert.ok(weaponSets.every((s) => s.weaponTypes.length > 0), 'every arena weapon set names its weapon kinds');
+});
+
+test('effects.json: perfected extras come from the bonus_N_perfected columns', () => {
+  const p5 = effects.sets['Perfected Slivers of the Null Arca'].bonuses['5'].perfected;
+  assert.equal(p5.pieces, 5);
+  assert.deepEqual(flat(p5), [['weaponAndSpellDamage', 129, 'flat']]);
+  const p2 = effects.sets['Perfected Crushing Wall'].bonuses['2'].perfected;
+  assert.equal(p2.pieces, 2);
+  assert.deepEqual(flat(p2), [['offensivePenetration', 1190, 'flat']]);
+  const all = Object.values(effects.sets).flatMap((s) => Object.values(s.bonuses).filter((b) => b.perfected));
+  assert.equal(all.length, 62, '32 trial sets and 30 arena weapon sets');
+  assert.ok(all.every((b) => b.perfected.status === 'ok'));
+  assert.equal(effects.sets['Slivers of the Null Arca'].bonuses['5'].perfected, undefined, 'the extra lives on the Perfected entry only');
+});

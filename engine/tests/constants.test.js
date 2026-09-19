@@ -52,3 +52,20 @@ test('constants.json: 13 mundus stones and 39 named buffs', () => {
   assert.equal(Object.keys(constants.mundus.stones).length, 13);
   assert.equal(Object.keys(constants.namedBuffs.buffs).length, 39);
 });
+
+test('constants.json: every glyph quality row runs white to gold and ends on the value in use', () => {
+  const E = constants.enchants;
+  const order = ['white', 'green', 'blue', 'purple', 'gold'];
+  const check = (name, by, gold) => {
+    assert.deepEqual(Object.keys(by), order, name);
+    const seq = order.map((q) => (Array.isArray(by[q]) ? by[q][0] : by[q]));
+    for (let i = 1; i < seq.length; i += 1) assert.ok(seq[i] > seq[i - 1], `${name}: ${seq.join(' ')}`);
+    assert.deepEqual(by.gold, gold, `${name}: gold row is the engine value`);
+  };
+  for (const [name, g] of Object.entries(E.armor)) check(name, g.byQuality, g.large.value);
+  let withRows = 0;
+  for (const [name, g] of Object.entries(E.jewelry)) if (g.byQuality) { withRows += 1; check(name, g.byQuality, g.magnitude.value); }
+  assert.equal(withRows, Object.keys(E.jewelry).length - 1, 'every jewelry glyph but Increase Bash Damage (stale page) has its page row');
+  assert.equal(E.glyphQualityFactor.gold, 1);
+  assert.ok(E.glyphSmallRatio.value > 0.4 && E.glyphSmallRatio.value < 0.41);
+});

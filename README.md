@@ -50,11 +50,17 @@ passive, star or buff the grammar did not fully understand.
 
 ## Item quality
 
-The Gear card has an "Item quality" toggle. Off (the default) every piece is gold. On, each
-armor, jewelry and weapon piece shows a quality control (gold, purple, blue) and the bulk editor
-gets a quality field. Trait magnitudes follow the UESP trait table columns; armor and weapon
-ratings scale by `items.qualityFactor`, which is unverified below gold until a purple piece is
-read from the game.
+The Gear card has an "Item quality" toggle. Off (the default) every piece and every glyph is
+gold. On, each armor, jewelry and weapon piece shows a quality control (gold, purple, blue,
+green, white), every armor, jewelry and shield glyph gets its own one underneath, and the bulk
+editor gets a quality and a glyph quality field. Trait magnitudes follow the UESP trait table
+columns; glyph magnitudes follow the per quality rows of the UESP glyph pages
+(`enchants.*.byQuality`); armor and weapon ratings scale by `items.qualityFactor`, which is
+unverified below gold until a purple piece is read from the game. Set bonuses never change with
+quality.
+
+Arena weapon sets are offered only on the weapon kind they drop as (a Crushing Wall staff, a
+Rampaging Slash sword or shield), and the engine reports a set on the wrong kind as an error.
 
 ## Scribing script catalog
 

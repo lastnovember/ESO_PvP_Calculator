@@ -233,7 +233,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
 
     <details class="card span2" open>
       <summary><h2>Gear</h2><span class="hint" id="gearHint"></span></summary>
-      <div class="row"><label class="toggle"><input type="checkbox" id="itemQuality"> Item quality</label><span class="fine">Gold unless this is on; then each piece can be lowered to purple or blue with the buttons.</span></div>
+      <div class="row"><label class="toggle"><input type="checkbox" id="itemQuality"> Item quality</label><span class="fine">Gold unless this is on; then each piece, and separately its glyph, can be stepped from gold down to white with the buttons. Ratings below gold are unverified until a purple piece is read from the game.</span></div>
       <h3>Bulk editor</h3>
       <div class="fine">Pick a set, trait, weight or enchant, check the slots below, then apply. Blank fields are left alone.</div>
       <div class="bulk">
@@ -244,7 +244,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
           <label class="f"><span>Trait</span><div class="combo" id="bulkTrait"></div></label>
           <label class="f"><span>Weight</span><select id="bulkWeight"><option value="">keep</option><option value="light">Light</option><option value="medium">Medium</option><option value="heavy">Heavy</option></select></label>
           <label class="f"><span>Enchant</span><div class="combo" id="bulkEnchant"></div></label>
-          <label class="f" id="bulkQualityWrap"><span>Quality</span><select id="bulkQuality"><option value="">keep</option><option value="gold">Gold</option><option value="purple">Purple</option><option value="blue">Blue</option></select></label>
+          <label class="f" id="bulkQualityWrap"><span>Quality</span><select id="bulkQuality"><option value="">keep</option><option value="gold">Gold</option><option value="purple">Purple</option><option value="blue">Blue</option><option value="green">Green</option><option value="white">White</option></select></label>
+          <label class="f" id="bulkGlyphQualityWrap"><span>Glyph quality</span><select id="bulkGlyphQuality"><option value="">keep</option><option value="gold">Gold</option><option value="purple">Purple</option><option value="blue">Blue</option><option value="green">Green</option><option value="white">White</option></select></label>
         </div>
         <div class="checks" id="bulkSlots"></div>
         <div class="row"><button class="primary" id="bulkApply">Apply to checked slots</button><button id="bulkAll" class="small">Check all armor</button><button id="bulkJewelry" class="small">Check jewelry</button><button id="bulkNone" class="small">Clear checks</button></div>
@@ -356,11 +357,15 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     if (meta.settype === 'Three Piece' || meta.settype === 'Jewelry') return { cats: ['jewelry', 'weapon'] };
     return { cats: ['armor', 'jewelry', 'weapon'] };
   };
-  const setAllowedOn = (meta, slot) => {
+  // weaponType: the weapon in the slot, so an arena set is only offered as the weapon kind it drops as
+  // (effects.json weaponTypes, from the UESP set tags: Crushing Wall is a destruction staff, never a bow).
+  const setAllowedOn = (meta, slot, weaponType) => {
     const cat = ARMOR.includes(slot) ? 'armor' : JEWELRY.includes(slot) ? 'jewelry' : 'weapon';
     const c = setCategories(meta);
     if (c.slots) return c.slots.includes(slot);
-    return c.cats.includes(cat);
+    if (!c.cats.includes(cat)) return false;
+    if (cat === 'weapon' && weaponType && meta.weaponSet && Array.isArray(meta.weaponTypes) && meta.weaponTypes.length) return meta.weaponTypes.includes(weaponType);
+    return true;
   };
   // Sets that only drop in one weight lock the weight of their armor pieces.
   const lockedWeight = (meta) => (meta && /^(Light|Medium|Heavy) Armor$/.test(meta.settype || '') ? meta.settype.split(' ')[0].toLowerCase() : null);
@@ -698,8 +703,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     if (JEWELRY.includes(slot)) return { set: null, trait: null, enchant: null };
     return { set: null, type: slot === 'offHand' ? 'dagger' : 'sword', trait: null, enchant: null };
   }
-  function setOptionsFor(slot) {
-    return SETS.filter((m) => setAllowedOn(m, slot)).map((m) => ({ value: m.name, label: setLabel(m), search: m.name, note: m.bonuses['2'] && m.bonuses['2'].raw ? m.bonuses['2'].raw.slice(0, 60) : (m.bonuses['1'] ? m.bonuses['1'].raw.slice(0, 60) : '') }));
+  function setOptionsFor(slot, weaponType) {
+    return SETS.filter((m) => setAllowedOn(m, slot, weaponType)).map((m) => ({ value: m.name, label: setLabel(m), search: m.name, note: m.bonuses['2'] && m.bonuses['2'].raw ? m.bonuses['2'].raw.slice(0, 60) : (m.bonuses['1'] ? m.bonuses['1'].raw.slice(0, 60) : '') }));
   }
   // A set that only comes in one weight fixes the weight of that piece.
   function applyWeightLock(item) {
@@ -722,13 +727,17 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     if (!setName) return;
     const other = hand === 'mainHand' ? 'offHand' : 'mainHand';
     const o = bar[other];
-    if (!o || o.type === 'shield' || o.set) return;
-    if (setAllowedOn(X.sets[setName], other)) o.set = setName;
+    if (!o || o.set) return;
+    const meta = X.sets[setName];
+    // a shield is only filled by a one hand and shield arena set; other sets leave it for the user to choose
+    if (o.type === 'shield' && !(meta && meta.weaponSet)) return;
+    if (setAllowedOn(meta, other, o.type)) o.set = setName;
   }
   const field = (label, node, cls = 'c') => el('label', { class: cls }, [label, node]);
   function renderGear() {
     $('itemQuality').checked = !!build.flags.itemQuality;
     $('bulkQualityWrap').hidden = !build.flags.itemQuality;
+    $('bulkGlyphQualityWrap').hidden = !build.flags.itemQuality;
     const host = $('gearSlots'); host.innerHTML = '';
     for (const slot of [...ARMOR, ...JEWELRY]) {
       const item = build.gear[slot] || (build.gear[slot] = itemDefaults(slot));
@@ -751,6 +760,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       const ec = el('div', { class: 'combo' }); row.append(field('Enchant', ec));
       combo(ec, (isArmor ? ARMOR_ENCHANTS : JEWELRY_ENCHANTS).map((t) => ({ value: t, label: t })), item.enchant, (v) => { item.enchant = v; update(); }, 'none');
       box.append(row);
+      if (build.flags.itemQuality && item.enchant) box.append(glyphQualityRow(item));
       host.append(box);
     }
     // bulk tools
@@ -761,18 +771,23 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
     renderBulkChecks();
     renderSetSummary();
   }
-  const bulk = { set: null, trait: null, enchant: null, weight: '', quality: '', checks: new Set() };
-  const QUALITIES_UI = ['gold', 'purple', 'blue'];
-  function qualityCtl(item) {
-    const q = QUALITIES_UI.includes(item.quality) ? item.quality : 'gold';
+  const bulk = { set: null, trait: null, enchant: null, weight: '', quality: '', glyphQuality: '', checks: new Set() };
+  const QUALITIES_UI = ['gold', 'purple', 'blue', 'green', 'white'];
+  // key: 'quality' for the item (armor and weapon rating, trait magnitude) or 'enchantQuality' for its glyph.
+  // Both are read by the engine only while flags.itemQuality is on.
+  function qualityCtl(item, key = 'quality') {
+    const q = QUALITIES_UI.includes(item[key]) ? item[key] : 'gold';
     const i = QUALITIES_UI.indexOf(q);
-    const set = (nq) => { item.quality = nq; update(); };
+    const what = key === 'enchantQuality' ? 'glyph quality' : 'quality';
+    const set = (nq) => { item[key] = nq; update(); };
     return el('span', { class: 'qual' }, [
-      el('button', { type: 'button', text: '−', title: 'Lower quality', onclick: () => { if (i < QUALITIES_UI.length - 1) set(QUALITIES_UI[i + 1]); } }),
+      el('button', { type: 'button', text: '−', title: `Lower ${what}`, onclick: () => { if (i < QUALITIES_UI.length - 1) set(QUALITIES_UI[i + 1]); } }),
       el('span', { class: 'q ' + q, text: q }),
-      el('button', { type: 'button', text: '+', title: 'Raise quality', onclick: () => { if (i > 0) set(QUALITIES_UI[i - 1]); } }),
+      el('button', { type: 'button', text: '+', title: `Raise ${what}`, onclick: () => { if (i > 0) set(QUALITIES_UI[i - 1]); } }),
     ]);
   }
+  // Glyph quality row under a slot's fields; only for glyphs that reach the sheet (armor, jewelry, shield).
+  const glyphQualityRow = (item) => el('div', { class: 'fine' }, [el('span', { text: 'Glyph: ' }), qualityCtl(item, 'enchantQuality')]);
   function bulkEntries() {
     const meta = bulk.set ? X.sets[bulk.set] : null;
     const out = [];
@@ -781,10 +796,10 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       const name = i === 0 ? 'Front bar' : 'Back bar';
       const mh = bar.mainHand; const oh = bar.offHand;
       if (!mh) { out.push({ key: `bar${i + 1}.mainHand`, label: `${name}: set up weapons first`, pieces: 0, allowed: false }); return; }
-      if (E.TWO_HANDED.has(mh.type)) out.push({ key: `bar${i + 1}.mainHand`, label: `${name} ${mh.type} (counts as 2)`, pieces: 2, allowed: !meta || setAllowedOn(meta, 'mainHand') });
+      if (E.TWO_HANDED.has(mh.type)) out.push({ key: `bar${i + 1}.mainHand`, label: `${name} ${mh.type} (counts as 2)`, pieces: 2, allowed: !meta || setAllowedOn(meta, 'mainHand', mh.type) });
       else {
-        out.push({ key: `bar${i + 1}.mainHand`, label: `${name} main hand ${mh.type}`, pieces: 1, allowed: !meta || setAllowedOn(meta, 'mainHand') });
-        if (oh) out.push({ key: `bar${i + 1}.offHand`, label: `${name} off hand ${oh.type}`, pieces: 1, allowed: !meta || setAllowedOn(meta, 'offHand') });
+        out.push({ key: `bar${i + 1}.mainHand`, label: `${name} main hand ${mh.type}`, pieces: 1, allowed: !meta || setAllowedOn(meta, 'mainHand', mh.type) });
+        if (oh) out.push({ key: `bar${i + 1}.offHand`, label: `${name} off hand ${oh.type}`, pieces: 1, allowed: !meta || setAllowedOn(meta, 'offHand', oh.type) });
       }
     });
     return out;
@@ -813,12 +828,13 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       else { if (!build.gear[key]) build.gear[key] = itemDefaults(key); item = build.gear[key]; }
       const slot = key.includes('.') ? key.split('.')[1] : key;
       const cat = ARMOR.includes(slot) ? 'armor' : JEWELRY.includes(slot) ? 'jewelry' : (item.type === 'shield' ? 'armor' : 'weapon');
-      if (bulk.set) { const meta = X.sets[bulk.set]; if (setAllowedOn(meta, slot)) item.set = bulk.set; }
+      if (bulk.set) { const meta = X.sets[bulk.set]; if (setAllowedOn(meta, slot, cat === 'armor' && !ARMOR.includes(slot) ? 'shield' : item.type)) item.set = bulk.set; }
       if (bulk.weight && ARMOR.includes(slot)) item.weight = bulk.weight;
       if (ARMOR.includes(slot)) applyWeightLock(item);
       if (bulk.trait) { const [c, t] = bulk.trait.split(':'); if (c === cat) item.trait = t; }
       if (bulk.enchant) { const [c, t] = bulk.enchant.split(':'); if (c === cat) item.enchant = t; }
       if (bulk.quality && build.flags.itemQuality) item.quality = bulk.quality;
+      if (bulk.glyphQuality && build.flags.itemQuality) item.enchantQuality = bulk.glyphQuality;
     }
     update();
   }
@@ -864,11 +880,12 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
       const cat = item.type === 'shield' ? 'armor' : 'weapon';
       if (item.trait && !(cat === 'armor' ? ARMOR_TRAITS : WEAPON_TRAITS).includes(item.trait)) item.trait = null;
       if (item.enchant && !(cat === 'armor' ? ARMOR_ENCHANTS : WEAPON_ENCHANTS).includes(item.enchant)) item.enchant = null;
+      if (item.set && X.sets[item.set] && !setAllowedOn(X.sets[item.set], hand, item.type)) item.set = null;
       update();
     });
     row.append(field(label, ts));
     const sc = el('div', { class: 'combo' }); row.append(field('Set', sc));
-    combo(sc, setOptionsFor(hand), item.set, (v) => { item.set = v; fillWeaponPair(bar, hand, v); update(); }, 'no set');
+    combo(sc, setOptionsFor(hand, item.type), item.set, (v) => { item.set = v; fillWeaponPair(bar, hand, v); update(); }, 'no set');
     const tc = el('div', { class: 'combo' }); row.append(field('Trait', tc));
     combo(tc, (shield ? ARMOR_TRAITS : WEAPON_TRAITS).map((t) => ({ value: t, label: t })), item.trait, (v) => { item.trait = v; update(); }, 'none');
     const ec = el('div', { class: 'combo', title: poisoned ? 'A poison overrides the weapon enchant while it has charges' : '' }); row.append(field('Enchant', ec, poisoned ? 'c off' : 'c'));
@@ -892,6 +909,8 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
         const q = el('div', { class: 'fine' }, [el('span', { text: 'Quality: ' }), el('span', { text: layout === 'oneHanded' ? 'main hand ' : '' }), qualityCtl(bar.mainHand)]);
         if (layout === 'oneHanded' && bar.offHand) q.append(el('span', { text: ' off hand ' }), qualityCtl(bar.offHand));
         box.append(q);
+        // weapon glyphs are combat procs; only a shield's glyph reaches the sheet
+        if (layout === 'oneHanded' && bar.offHand && bar.offHand.type === 'shield' && bar.offHand.enchant) box.append(glyphQualityRow(bar.offHand));
       }
       if (layout) {
         const pc = el('div', { class: 'combo' });
@@ -1083,6 +1102,7 @@ textarea { width: 100%; min-height: 120px; font-family: Consolas, Menlo, monospa
   $('applyJsonBtn').addEventListener('click', () => { try { const obj = JSON.parse($('jsonBox').value); if (obj.build && obj.readings) loadBuild(obj.build); else loadBuild(obj); } catch (e) { alert('Not valid JSON: ' + e.message); } });
   $('bulkApply').addEventListener('click', bulkApply);
   $('bulkQuality').addEventListener('change', (ev) => { bulk.quality = ev.target.value; });
+  $('bulkGlyphQuality').addEventListener('change', (ev) => { bulk.glyphQuality = ev.target.value; });
   $('itemQuality').addEventListener('change', (ev) => { build.flags.itemQuality = ev.target.checked; update(); });
   $('bulkAll').addEventListener('click', () => { ARMOR.forEach((s) => bulk.checks.add(s)); renderBulkChecks(); });
   $('bulkJewelry').addEventListener('click', () => { JEWELRY.forEach((s) => bulk.checks.add(s)); renderBulkChecks(); });
