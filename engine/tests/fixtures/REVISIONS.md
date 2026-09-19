@@ -221,7 +221,8 @@ stay open: the pages hold no rating table and no recovery source the engine lack
   large Health glyph; 984 does not fit the DK's Max Health (94 over) nor the 386 small piece.
 - Weapons: Nirnhoned mace 1535 and maul 1806 confirm 1335 and 1571 with 15% truncated.
 - Sets: Essence Thief 1096 / 1096 / 129 and Markyn 100 and 1157 per set read as parsed.
-- Feet: typed as Reinforced with the guards; the export and the sheet total say Impenetrable.
+- Feet: Reinforced now (2114); the user re-traited the boots after the export, so the readings
+  on file (Impenetrable, 1823) stand and the sheet total agrees with them.
 - Match counts: 001 50, 002 50, 003 55, 004 52, 005 46, 006 48, 007 52, 008 52, 009 53, 010 53.
 
 ## Open questions for the next reading
