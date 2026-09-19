@@ -17,7 +17,7 @@
     "photos/010-advanced-2.jpg",
     "photos/010-advanced-3.jpg"
   ],
-  "notes": "Xbox, 2026-09-17, four phone photos, same state as 009 with the back bar active (Rallying Cry ice staff, Defending). Update 2026-09-17 (crawl pass): Magicka Recovery matches with the Spell Harm glyph recovery; resistances 70 low in the engine.",
+  "notes": "Xbox, 2026-09-17, four phone photos, same state as 009 with the back bar active (Rallying Cry ice staff, Defending). Update 2026-09-17 (crawl pass): Magicka Recovery matches with the Spell Harm glyph recovery; resistances 70 low in the engine. Update 2026-09-19: armor tooltips typed by the user (tooltips field) settle the slot values; resistances exact.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
@@ -278,5 +278,8 @@
         }
       }
     }
+  },
+  "tooltips": {
+    "see": "009-dk-yuggah-front-bar.fixture.json tooltips (same gear)"
   }
 }

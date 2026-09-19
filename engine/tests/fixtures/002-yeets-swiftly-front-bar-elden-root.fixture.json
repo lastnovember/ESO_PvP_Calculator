@@ -17,7 +17,7 @@
     "photos/002-advanced-2.jpg",
     "photos/002-advanced-3.jpg"
   ],
-  "notes": "Xbox, 2026-09-16, four phone photos, same gear and food as fixture 001 with 49 Magicka and 15 Health points. Outside Cyrodiil. The reading is the front bar (dual maces): Weapon Damage 4362, Penetration 9491, Critical 33.4% match that bar. Health Recovery 1022 is the unhalved value of fixture 001's 511. Damage type percents: 11% everywhere (Deadly Aim 6% + Minor Berserk from Bird of Prey 5%), Physical and Shock 16% (Energized). Critical Healing 28%. Update 2026-09-17 (crawl pass): the jewelry glyphs are Spell Damage (user); Magicka Recovery 1457 = 1156 x 1.26 (Magicka Controller on this bar) with the 10 and 16 recovery per Spell Harm glyph and Bear Haunch recovery 369.",
+  "notes": "Xbox, 2026-09-16, four phone photos, same gear and food as fixture 001 with 49 Magicka and 15 Health points. Outside Cyrodiil. The reading is the front bar (dual maces): Weapon Damage 4362, Penetration 9491, Critical 33.4% match that bar. Health Recovery 1022 is the unhalved value of fixture 001's 511. Damage type percents: 11% everywhere (Deadly Aim 6% + Minor Berserk from Bird of Prey 5%), Physical and Shock 16% (Energized). Critical Healing 28%. Update 2026-09-17 (crawl pass): the jewelry glyphs are Spell Damage (user); Magicka Recovery 1457 = 1156 x 1.26 (Magicka Controller on this bar) with the 10 and 16 recovery per Spell Harm glyph and Bear Haunch recovery 369. Update 2026-09-19: resistances within 3 with the tooltip armor values.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,

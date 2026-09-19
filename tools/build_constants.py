@@ -253,12 +253,12 @@ C['enchants'] = OrderedDict(
     note='Truly Superb (CP160) gold glyph magnitudes. None of these are in data/reference; all are UNVERIFIED community values. Armor glyphs have a large value on head, chest, legs and shield, and a small value elsewhere.',
     armorLargeSlots=['head', 'chest', 'legs', 'shield'],
     armor=OrderedDict(
-        **{'Health': OrderedDict(large=unverified(954, 'Glyph of Health, large piece'), small=unverified(385, 'Glyph of Health, small piece: 40.3% of the large piece, the ratio fixtures 002 and 003 give for Prismatic Defense (seven pieces total 2002 Magicka with 434 on the three large pieces)'), values=[OrderedDict(stat='maxHealth', kind='flat')]),
-           'Magicka': OrderedDict(large=unverified(868, 'Glyph of Magicka, large piece'), small=unverified(350, 'Glyph of Magicka, small piece: 40.3% of the large piece, see Health'), values=[OrderedDict(stat='maxMagicka', kind='flat')]),
-           'Stamina': OrderedDict(large=unverified(868, 'Glyph of Stamina, large piece'), small=unverified(350, 'Glyph of Stamina, small piece: 40.3% of the large piece, see Health'), values=[OrderedDict(stat='maxStamina', kind='flat')]),
+        **{'Health': OrderedDict(large=sourced(954, 'fixtures 009 and 010 (Dragonknight, seven Glyphs of Health): Max Health 30684 is exact with 954 and 385 and 94 over with the 984 the user typed from the tooltip (2026-09-19); 984 would also give a 398 small piece, not the 386 read, at the 0.4043 small to large ratio every other glyph shows, so 954 is kept and 984 is taken as a misread of 954.', 'The user\'s tooltip line: Chest/Head/Legs 984 Health, all else 386.'), small=sourced(385, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: every other piece reads 386; the sheet sums 385 (fixture 009 exact with 385, 4 over with 386). Small glyph values truncate on the sheet and round on the tooltip: 954 x 0.4043 = 385.7.'), values=[OrderedDict(stat='maxHealth', kind='flat')]),
+           'Magicka': OrderedDict(large=unverified(868, 'Glyph of Magicka, large piece (Prismatic Defense large 434 is half of it)'), small=sourced(350, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Roksa epaulets Max Magicka glyph reads 351; the sheet sums the truncated 350 (868 x 0.4043 = 350.9), as the Health and Prismatic Defense small pieces show.'), values=[OrderedDict(stat='maxMagicka', kind='flat')]),
+           'Stamina': OrderedDict(large=unverified(868, 'Glyph of Stamina, large piece, as Magicka'), small=unverified(350, 'Glyph of Stamina, small piece, as the Magicka small piece (tooltip 351, sheet 350)'), values=[OrderedDict(stat='maxStamina', kind='flat')]),
            'Prismatic Defense': OrderedDict(
-               large=unverified([477, 434, 434], 'Glyph of Prismatic Defense, large piece: Health, Magicka, Stamina'),
-               small=unverified([192, 175, 175], 'Glyph of Prismatic Defense, small piece: Health, Magicka, Stamina. Fixtures 002 and 003: seven pieces (three large at 434) total 2002 Magicka and Stamina, so a small piece is 175, 40.3% of a large one; Health scaled the same way.'),
+               large=sourced([477, 434, 434], 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Roksa and Balorgh visages, Prismatic Defense 477 Health, 434 Magicka, 434 Stamina'),
+               small=sourced([192, 175, 175], 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Balorgh epaulets, Prismatic Defense reads 193 Health, 175 Magicka, 175 Stamina; the sheet sums 192 Health (fixtures 001, 002, 005, 007 exact with 192, 4 to 5 over with 193: 477 x 0.4043 = 192.9 truncated) and 175 (fixtures 002 and 003).'),
                values=[OrderedDict(stat='maxHealth', kind='flat'), OrderedDict(stat='maxMagicka', kind='flat'), OrderedDict(stat='maxStamina', kind='flat')])}
     ),
     jewelry=OrderedDict(
@@ -288,7 +288,7 @@ C['enchants'] = OrderedDict(
 
 # ---------------------------------------------------------------- armor and weapon item values
 C['items'] = OrderedDict(
-    note='Armor rating of a gold CP160 piece with no trait, and weapon damage of a gold CP160 weapon. Not in data/reference. UNVERIFIED. Slot factors relative to the chest are the community understanding: chest 1.0, head shoulders legs feet 0.879, hands waist 0.5.',
+    note='Armor rating of a gold CP160 piece with no trait, and weapon damage of a gold CP160 weapon. Armor from the user\'s tooltips (2026-09-19): slot factors chest 1.0, head shoulders legs feet 0.875, hands 0.5, waist 0.375. Medium and light chests and the small heavy and medium pieces are derived from those factors.',
     qualityFactor=OrderedDict(
         gold=sourced(1.0, 'definition: ratings are stated for gold (Legendary) CP160 items'),
         purple=unverified(0.96, 'Armor and weapon rating of a purple (Epic) CP160 item relative to gold. Community steps of about 4% per quality; a purple piece reading settles it.', [0.95]),
@@ -296,13 +296,33 @@ C['items'] = OrderedDict(
         green=unverified(0.88, 'Green (Fine) relative to gold, see purple.'),
         white=unverified(0.84, 'White (Normal) relative to gold, see purple.'),
     ),
+    # Slot factors from the tooltips: big pieces (head, shoulders, legs, feet) 0.875 of the chest, hands 0.5, waist 0.375
+    # (light 1221 / 698 / 523 all sit on a 1395.4 chest). Tooltips truncate: a Reinforced medium big piece reads 2114 =
+    # 1823 x 1.16 (2114.68) and the Reinforced heavy chest 3215 = 2772 x 1.16 (3215.5).
     armor=OrderedDict(
-        heavy=OrderedDict(head=unverified(2437, 'heavy head'), shoulders=unverified(2437, 'heavy shoulders'), chest=unverified(2772, 'heavy chest'), hands=unverified(1386, 'heavy hands'), waist=unverified(1386, 'heavy waist'), legs=unverified(2437, 'heavy legs'), feet=unverified(2437, 'heavy feet')),
-        # Medium and light chest values fitted by least squares over four geared characters (fixtures 002, 005, 007, 009)
-        # with the heavy chest held at 2772 and the slot factors kept: medium 1995, light 1354 (the community 1782 and
-        # 1155 left every character 514 to 859 short). Residuals after the fit: Yeets -14, Templar -63, Necro -13, DK +73.
-        medium=OrderedDict(head=unverified(1754, 'medium head (0.879 x fitted chest 1995)'), shoulders=unverified(1754, 'medium shoulders'), chest=unverified(1995, 'medium chest, fitted over fixtures 002, 005, 007, 009'), hands=unverified(998, 'medium hands (0.5 x chest)'), waist=unverified(998, 'medium waist'), legs=unverified(1754, 'medium legs'), feet=unverified(1754, 'medium feet')),
-        light=OrderedDict(head=unverified(1190, 'light head (0.879 x fitted chest 1354)'), shoulders=unverified(1190, 'light shoulders'), chest=unverified(1354, 'light chest, fitted over fixtures 002, 005, 007, 009'), hands=unverified(677, 'light hands (0.5 x chest)'), waist=unverified(677, 'light waist'), legs=unverified(1190, 'light legs'), feet=unverified(1190, 'light feet')),
+        heavy=OrderedDict(
+            head=sourced(2425, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Bloodspawn, Roksa and Balorgh visages, Reinforced, all 2813 = 2425 x 1.16'),
+            shoulders=sourced(2425, 'same slot factor as the head (0.875 of the chest), see head'),
+            chest=sourced(2772, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Cuirass of the Trainee, Reinforced, 3215 = 2772 x 1.16 (3215.5 truncated)'),
+            hands=unverified(1386, 'heavy hands, 0.5 of the chest like the light hands (698 of 1395.4)'),
+            waist=unverified(1039, 'heavy waist, 0.375 of the chest like the light waist (523 of 1396.3), truncated: 1039.6'),
+            legs=sourced(2425, 'same slot factor as the head, see head'), feet=sourced(2425, 'same slot factor as the head, see head')),
+        medium=OrderedDict(
+            head=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Bloodspawn Mask, Reinforced, 2114 = 1823 x 1.16 truncated; Bloodspawn epaulets (Impenetrable) 1823'),
+            shoulders=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Bloodspawn shoulders, medium, Impenetrable: 1823'),
+            chest=unverified(2084, 'medium chest: the big pieces read 1823 = trunc(0.875 x chest), so the chest is 2083.4 to 2084.6; the weights step by 688 (light 1396.3, medium 2084.3, heavy 2772.3) so 2084. No medium chest read yet.'),
+            hands=unverified(1042, 'medium hands, trunc(0.5 x 2084.3)'),
+            waist=unverified(781, 'medium waist, trunc(0.375 x 2084.3)'),
+            legs=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Guards of Essence Thief, Reinforced, 2114 = 1823 x 1.16 truncated'),
+            feet=sourced(1823, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Boots of Essence Thief, Reinforced, 2114 = 1823 x 1.16 truncated')),
+        light=OrderedDict(
+            head=sourced(1221, 'same slot factor as the shoulders, see shoulders'),
+            shoulders=sourced(1221, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Balorgh and Roksa epaulets, light, Impenetrable: 1221'),
+            chest=unverified(1396, 'light chest: 1221 = trunc(0.875 x chest), 698 = trunc(0.5 x chest) and 523 = trunc(0.375 x chest) together put the chest in 1396.0 to 1396.6. No light chest read yet.'),
+            hands=sourced(698, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Gloves of Rallying Cry, light, Divines: 698'),
+            waist=sourced(523, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Belt of Rallying Cry, light, Divines: 523'),
+            legs=sourced(1221, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Breeches of Rallying Cry, light, Impenetrable: 1221'),
+            feet=sourced(1221, 'user, 2026-09-19, gold CP160 tooltips on the Dragonknight (fixtures 009 and 010) and its inventory: Shoes of Vicious Death, light, Impenetrable: 1221')),
     ),
     shieldArmor=sourced(1720, 'fixture 008 (Z antilles): back bar with a Reinforced shield reads 24166 against 22171 on the staff bar, 1995 = 1720 x 1.16.'),
     weaponDamage=sourced(1335, page('Nirnhoned.md', 'One-Handed and Ranged table, CP160 row: 1335 base, 1535 Nirnhoned') + '; fixtures 002, 005, 006, 009, 010 (staves and one handed weapons read exactly with it)', 'Damage rating of a gold CP160 one handed weapon, bow or staff. Applies to Weapon Damage and Spell Damage on the sheet.'),

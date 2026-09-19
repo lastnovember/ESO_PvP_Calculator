@@ -209,6 +209,21 @@ stay open: the pages hold no rating table and no recovery source the engine lack
   and the DK 70 below the engine, one quality step (4%) of a medium head, shoulder, leg or foot piece.
 - Match counts: 001 50, 002 50, 003 55, 004 52, 005 46, 006 48, 007 50, 008 50, 009 51, 010 51.
 
+## 2026-09-19, DK gear tooltips (typed by the user, recorded in fixture 009 `tooltips`)
+
+- Armor: heavy Reinforced head 2813 and chest 3215 give 2425 and 2772 at 16%; medium big
+  pieces 1823 (Reinforced 2114, truncated); light big 1221, hands 698, waist 523. So the slot
+  factors are 0.875, 0.5 and 0.375 of the chest, the waist a size below the hands. Resistances
+  are now exact on the DK and the Necro, 3 over on Yeets (derived medium waist) and 72 over on
+  the Templar (4% of one medium big piece: a purple shoulders or feet).
+- Glyphs: Prismatic Defense 477 / 434 / 434 and 193 / 175 / 175, Max Magicka small 351, Health
+  984 (typed) and 386. The sheet sums truncated small pieces (192, 350, 385) and 954 for the
+  large Health glyph; 984 does not fit the DK's Max Health (94 over) nor the 386 small piece.
+- Weapons: Nirnhoned mace 1535 and maul 1806 confirm 1335 and 1571 with 15% truncated.
+- Sets: Essence Thief 1096 / 1096 / 129 and Markyn 100 and 1157 per set read as parsed.
+- Feet: typed as Reinforced with the guards; the export and the sheet total say Impenetrable.
+- Match counts: 001 50, 002 50, 003 55, 004 52, 005 46, 006 48, 007 52, 008 52, 009 53, 010 53.
+
 ## Open questions for the next reading
 
 - Answered 2026-09-17: the Necromancer has every Support passive (so Combat Medic at that gate was
@@ -218,8 +233,8 @@ stay open: the pages hold no rating table and no recovery source the engine lack
   gaps (dual wield 236 and 876, resistances 514 to 859, Magicka Recovery +11 to +42, roll dodge)
   are worked from the archive and from differencing the readings on file.
 
+- Answered by the DK tooltips (2026-09-19): armor values per slot; the Templar's open items are one purple medium piece and the ring glyph.
 - Answered by the crawl (2026-09-17): the Magicka Recovery offsets were the harm glyphs' 10 recovery (note 135); Bear Haunch's tooltip is no longer needed.
-- Armor value on each armor piece tooltip, any character (resistances 514 to 825 short on all).
 - A reading of the necromancer outside Cyrodiil: Healing Done should drop by 12 if Curative Curse
   is the Battle Spirit reading, and the crit and Magicka Recovery offsets should stay.
 

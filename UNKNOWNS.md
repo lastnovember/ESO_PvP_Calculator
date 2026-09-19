@@ -45,19 +45,19 @@ table at the bottom with the fixture name.
 | Constant | Value used | Note |
 | --- | --- | --- |
 | Gold CP160 weapon damage rating | 1335 | Any weapon type. Dual wield off hand counts through the Dual Wield Expert passive only (6% of off hand damage per skills.csv). |
-| Gold CP160 armor rating, heavy | chest 2772, head/shoulders/legs/feet 2437, hands/waist 1386 | |
-| Gold CP160 armor rating, medium | chest 1782, head/shoulders/legs/feet 1567, hands/waist 891 | |
-| Gold CP160 armor rating, light | chest 1155, head/shoulders/legs/feet 1015, hands/waist 578 | |
-| Gold CP160 shield armor rating | 1880 | |
+| Gold CP160 armor rating, heavy | chest 2772, head/shoulders/legs/feet 2425 (tooltips), hands 1386, waist 1039 (derived) | Slot factors 0.875 / 0.5 / 0.375 of the chest, truncated. |
+| Gold CP160 armor rating, medium | head/shoulders/legs/feet 1823 (tooltips), chest 2084, hands 1042, waist 781 (derived) | |
+| Gold CP160 armor rating, light | head/shoulders/legs/feet 1221, hands 698, waist 523 (tooltips), chest 1396 (derived) | |
+| Gold CP160 shield armor rating | 1720 | fixture 008 |
 | Precise trait conversion | 3.6% / 7.2% converted at 219 per percent | The percent is settled (2020-09-15). Whether the sheet applies it as a rating or as a percent is not, see STRATEGIES.preciseTrait. |
 
 ## Glyphs (Truly Superb, gold)
 
 | Glyph | Value used |
 | --- | --- |
-| Health | 954 large piece, 477 small piece |
-| Magicka, Stamina | 868 large, 434 small |
-| Prismatic Defense | 477 / 434 / 434 large, 239 / 217 / 217 small |
+| Health | 954 large piece, 385 small piece (tooltips 954 and 386; small pieces truncate on the sheet) |
+| Magicka, Stamina | 868 large, 350 small (tooltip 351) |
+| Prismatic Defense | 477 / 434 / 434 large (tooltip), 192 / 175 / 175 small (tooltip 193 / 175 / 175) |
 | Weapon Damage, Spell Damage (jewelry) | 174 Weapon and Spell Damage, plus 10 Stamina Recovery (Physical Harm) or 10 Magicka Recovery (Spell Harm), 16 on an Infused piece (note 135, verified) |
 | Health, Magicka, Stamina Recovery (jewelry) | 169 |
 | Prismatic Recovery | 0 each (the only reading with one, Templar 005/006, shows no share; community about 69) |
@@ -110,14 +110,14 @@ Named items are community tooltip values.
 | Vault and Physical Damage | The UESP Scribing page (2026-09-14) shows no Vault icon on the Physical Damage focus row, while the esolog table (Update 44) still has Sundering Vault. The newer page wins, so the picker does not offer Physical Damage on Vault. If the game does, say so and the row gets a per script override. |
 | Affix tiers on new pairs | The Major or Minor tier of an affix on a grimoire comes from the UESP Buffs and Debuffs pages, which predate the Scribing page. Pairs the Buffs pages do not list (Interrupt, Off Balance, and a few grimoire and affix pairs added since) show without a tier. Scripts change no sheet value in phase 1, so this is a label only. |
 
-## Open gaps across the ten readings (2026-09-17, after the full crawl pass)
+## Open gaps across the ten readings (2026-09-19, after the armor tooltips)
 
 Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.md`). What is left, in every case the same on both bars of a character:
 
 | Gap | Readings | Game vs engine | Best reading of it |
 | --- | --- | --- | --- |
 | Prismatic Recovery glyph | Templar 005 and 006 | the ring exported as Prismatic Recovery adds nothing | With the Spell Harm glyph recovery and Bear Haunch recovery 369, Health 415, Magicka 1411 and 1389, Stamina 1785 are exact only when that ring adds 0 to all three; any share breaks all of them (69 each would read 446, 1498, 1876). Roksa the Warped's 70 per recovery is in those numbers (note 194 and the set page agree on 70). Either the ring carries another glyph or the glyph does not show. Needs the ring tooltip, the one thing the archive cannot give. |
-| Resistances | all geared readings | Yeets engine +19, Necro +14, Templar +70, DK -70 | The slot factors (big 0.879, small 0.5 of the chest) are still community values; the full crawl (1550 pages, the armor line pages, Nirnhoned, the ZOS articles) holds no rating table. The Templar and DK offsets are exactly 4% of a medium head, shoulder, leg or foot piece (1754), one quality step, in opposite directions. |
+| Resistances | Yeets 21689 (engine 21692), Templar 16765 (16837) | 3 and 72 | The DK's tooltips (2026-09-19) settle the slot values and the DK and Necro read exact. The Templar's 72 is 4% of one medium big piece, a purple shoulders or feet. Yeets' 3 sits on the derived medium waist (781). Medium and light chests and the small heavy and medium pieces are derived from the 0.875 / 0.5 / 0.375 factors, not read. |
 | Roll Dodge Cost | Yeets 3248 (engine 3306), DK 3315 (3344), Necro 3420 (exact) | | No order (flat first or percent first, additive or multiplicative) with any per piece values from 0 to 6% fits all three within 1; the closest is flat first, additive, medium 4, heavy 2, light 2.5 (total error 10). Tumbling is at both stages everywhere (user). The archived armor line pages list the passives by name only. |
 | Weapon and Spell Critical | Necro 19.4 and 16.4 (engine 18.5 and 15.5) | | One percent (about 206 rating) on both bars from no archived source. |
 | Physical and Bleed Damage | Templar front bar 10 and 5 (engine 5 and 0) | | A buff running out during the photos (the same reading carries Major Brutality and Sorcery in its first photo). |
@@ -129,6 +129,7 @@ Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 
 | Item | Settled by |
 | --- | --- |
+| Armor ratings by weight and slot, Reinforced 16%, glyph large and small values, Markyn 1157 per set, Essence Thief, two handed 1571 | The DK's gear tooltips typed by the user, 2026-09-19 (fixture 009 `tooltips`). Slot factors 0.875 / 0.5 / 0.375 of the chest; heavy chest 2772, medium big 1823, light big 1221, light hands 698, light waist 523 read; chests and small heavy and medium pieces derived. |
 | Scribing script catalog (21 focus, 20 signature, 26 affix, and which grimoires take each) | UESP Online:Scribing page printed 2026-09-14, archived as `data/reference/tables/uesp_Online_Scribing_t00..t03.csv` by `tools/extract_scribing_pdf.py` (manifest seq 220). Class Mastery is Class Flourish now (patch note), Passive Master reads Wayfarer's Mastery and Healing Absorption reads Trauma on the page; old build files are mapped on load. |
 | Rakkhat's Voidmantle, Stormweaver's Cavort slots and text | In game tooltips supplied by the user (medium shoulders, light legs, plus the missing 300 Magicka Recovery line). |
 
@@ -176,7 +177,7 @@ Every reading now matches 46 to 55 of its numbers (`engine/tests/fixtures/INDEX.
 | Combat Medic near a keep | 20% on the sheet under Battle Spirit (`flags.cyrodiil.nearKeep`) | 001, 009 |
 | Dual wield off hand | 23.67% of the off hand rating, trait included (Dual Wield Expert inside it) | 002, 005, 009 |
 | Vampire stage penalty | full stage value; Unnatural Resistance removed in Greymoor (note 087) | 005, 006 |
-| Medium and light armor | chest 1995 and 1354 (fit, residuals 14 to 73) | 002, 005, 007, 009 |
+| Medium and light armor | replaced by the DK's tooltips, 2026-09-19 | 009 |
 | Damage Done line | folds the single target star | 001 to 004 |
 | Two handed melee weapon damage | 1571 (UESP Nirnhoned page CP160 row, forum 348673); staves, bows and one handed 1335 | pages, 002 to 010 for the 1335 |
 | Emperor passives | Domination, Monarch, Emperor by home keeps (UESP Emperor page) | pages |

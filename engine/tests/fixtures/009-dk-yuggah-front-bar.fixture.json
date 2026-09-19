@@ -17,7 +17,7 @@
     "photos/009-advanced-2.jpg",
     "photos/009-advanced-3.jpg"
   ],
-  "notes": "Xbox, 2026-09-17, four phone photos (no Active Effects page). Argonian Dragonknight, native class with Class Mastery Inexorable Descent and Wildfire Embers, Bloodspawn, Trainee, Rallying Cry, Essence Thief, Markyn (Swift), The Mage, Bewitched Sugar Skulls, 52 Magicka and 12 Health. In Cyrodiil, Battle Spirit on; the user said the Undaunted skill line is not unlocked on this character, so skillLines.Undaunted is false. Update 2026-09-17 (crawl pass): Magicka Recovery matches with note 135's Spell Harm glyph recovery (10 + 16 + 16). Resistances 70 LOW in the engine, the same 70 the Templar reads high.",
+  "notes": "Xbox, 2026-09-17, four phone photos (no Active Effects page). Argonian Dragonknight, native class with Class Mastery Inexorable Descent and Wildfire Embers, Bloodspawn, Trainee, Rallying Cry, Essence Thief, Markyn (Swift), The Mage, Bewitched Sugar Skulls, 52 Magicka and 12 Health. In Cyrodiil, Battle Spirit on; the user said the Undaunted skill line is not unlocked on this character, so skillLines.Undaunted is false. Update 2026-09-17 (crawl pass): Magicka Recovery matches with note 135's Spell Harm glyph recovery (10 + 16 + 16). Resistances 70 LOW in the engine, the same 70 the Templar reads high. Update 2026-09-19: armor tooltips typed by the user (tooltips field) settle the slot values; resistances exact.",
   "gameVersion": "Update 50 era, 2026-09",
   "tolerance": {
     "flat": 1,
@@ -278,5 +278,40 @@
         }
       }
     }
+  },
+  "tooltips": {
+    "date": "2026-09-19",
+    "source": "user, typed from the in game tooltips of the worn gold CP160 gear and the inventory, Cyrodiil",
+    "weapons": {
+      "main hand": "Essence Thief mace, Nirnhoned: 1535 damage (1335 x 1.15 = 1535.25); Poison glyph 1343 damage",
+      "off hand": "Essence Thief mace: 1335 damage; glyph 1353 damage",
+      "inventory": "Maul of Vicious Death, Nirnhoned: 1806 damage (1571 x 1.15 = 1806.65); Decrease Health glyph 4875"
+    },
+    "armor": {
+      "head": "Bloodspawn visage, heavy, Reinforced: 2813",
+      "chest": "Cuirass of the Trainee, heavy, Reinforced: 3215",
+      "legs": "Guards of Essence Thief, medium, Reinforced: 2114",
+      "feet": "Boots of Essence Thief, medium: 2114 (typed as Reinforced with the guards; the build export and the sheet total say Impenetrable, 1823; to confirm)",
+      "shoulders": "Bloodspawn epaulets, medium, Impenetrable: 1823",
+      "hands": "Gloves of Rallying Cry, light, Divines: 698",
+      "waist": "Belt of Rallying Cry, light, Divines: 523",
+      "inventory": [
+        "Roksa and Balorgh visages, heavy, Reinforced: 2813, Prismatic Defense 434 Magicka, 477 Health, 434 Stamina",
+        "Bloodspawn mask, medium, Reinforced: 2114",
+        "Balorgh epaulets, light, Impenetrable: 1221, Prismatic Defense 175 Magicka and Stamina, 193 Health",
+        "Roksa epaulets, light, Impenetrable: 1221, Max Magicka glyph 351",
+        "Breeches of Rallying Cry, light, Impenetrable: 1221",
+        "Shoes of Vicious Death, light, Impenetrable: 1221"
+      ]
+    },
+    "glyphs": {
+      "Health, chest head legs": "984 as typed (954 fits the sheet and the 386 small piece, see constants)",
+      "Health, other pieces": "386"
+    },
+    "sets": {
+      "Essence Thief": "2: 1096 Stamina, 3: 1096 Stamina, 4: 129 Weapon and Spell Damage",
+      "Markyn Ring of Majesty": "100 Weapon and Spell Damage and 1157 Armor per set with 3 or more pieces; current bonus 200 and 2314"
+    },
+    "settles": "Slot factors 0.875 (big pieces), 0.5 (hands), 0.375 (waist) of the chest; heavy chest 2772 and big 2425, medium big 1823, light big 1221, hands 698, waist 523; Reinforced 16% and tooltips truncate. Physical and Spell Resistance now exact on this character and the Necromancer."
   }
 }
