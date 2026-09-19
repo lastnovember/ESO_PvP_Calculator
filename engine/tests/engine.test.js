@@ -151,7 +151,7 @@ test('mundus scaled by Divines, food flat, glyph large and small pieces', () => 
   const r = computeSheet(b, data);
   const lord = constants.mundus.stones['The Lord'].values[0].value;
   const E = constants.enchants.armor.Health;
-  const expected = B.maxHealth.value + Math.round(lord * (1 + 2 * 9.1 / 100)) + 4620 + E.large.value + E.small.value;
+  const expected = B.maxHealth.value + Math.round(lord * (1 + 2 * 9.1 / 100)) + 4624 + E.large.value + E.small.value;
   assert.equal(r.bars[0].main.maxHealth, expected);
 });
 

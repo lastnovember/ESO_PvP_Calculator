@@ -389,6 +389,9 @@ ESOLOG_FOODS = {
     'jewels-of-misrule': ('Jewels of Misrule', 'drink', 'Jewels of Misrule', {1: ['staminaRecovery', 'magickaRecovery'], 2: ['maxHealth']}),
     'lava-foot-soup-and-saltrice': ('Lava Foot Soup-and-Saltrice', 'drink', 'Lava Foot Soup & Saltrice', {1: ['maxStamina'], 2: ['staminaRecovery']}),
     'mud-ball': ('Mud Ball', 'food', 'Mud Ball', {1: ['maxMagicka', 'maxStamina']}),
+    'candied-jesters-coins': ("Candied Jester's Coins", 'food', "Candied Jester's Coins", {1: ['maxStamina'], 2: ['magickaRecovery']}),
+    'ghastly-eye-bowl': ('Ghastly Eye Bowl', 'drink', 'Witchfest Food: Max M, Reg M,', {1: ['maxMagicka'], 2: ['magickaRecovery']}),
+    'purple-tristat': ('Purple tri stat food (Longfin Pasty, Braised Rabbit, Sugar Skulls without recovery)', 'food', 'Bewitched Sugar Skulls', {1: ['maxHealth'], 2: ['maxStamina', 'maxMagicka']}),
     'witchmothers-party-punch': ("Witchmother's Party Punch", 'drink', "Witchmother's Party Punch", {1: ['magickaRecovery', 'staminaRecovery'], 2: ['healthRecovery']}),
 }
 def esolog_food(id_):

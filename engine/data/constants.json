@@ -1704,43 +1704,6 @@
         "note": "UESP scaling table."
       },
       {
-        "id": "purple-tristat",
-        "name": "Purple tri stat food (Longfin Pasty, Braised Rabbit, Sugar Skulls without recovery)",
-        "kind": "food",
-        "stats": {
-          "maxHealth": 4620,
-          "maxMagicka": 4250,
-          "maxStamina": 4250
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value."
-      },
-      {
-        "id": "candied-jesters-coins",
-        "name": "Candied Jester's Coins",
-        "kind": "food",
-        "stats": {
-          "maxHealth": 5000,
-          "maxStamina": 4575
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value. Same as blue Health and Stamina food."
-      },
-      {
-        "id": "ghastly-eye-bowl",
-        "name": "Ghastly Eye Bowl",
-        "kind": "drink",
-        "stats": {
-          "maxMagicka": 3080,
-          "magickaRecovery": 338
-        },
-        "source": "UNVERIFIED",
-        "verified": false,
-        "note": "Community tooltip value."
-      },
-      {
         "id": "green-drink-magicka-recovery",
         "name": "Green single recovery drink (Magicka Recovery)",
         "kind": "drink",
@@ -1940,6 +1903,43 @@
         "source": "tables/esolog_skill_coefficients_t00.csv row 'Mud Ball'",
         "verified": true,
         "note": "esolog buff \"Mud Ball\" (Increase Max Magicka and Max Stamina by <<1>> for <<2>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "candied-jesters-coins",
+        "name": "Candied Jester's Coins",
+        "kind": "food",
+        "stats": {
+          "maxStamina": 4928,
+          "magickaRecovery": 492
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Candied Jester's Coins'",
+        "verified": true,
+        "note": "esolog buff \"Candied Jester's Coins\" (Increase Max Stamina by <<1>> and Magicka Recovery by <<2>> for <<3>>.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "ghastly-eye-bowl",
+        "name": "Ghastly Eye Bowl",
+        "kind": "drink",
+        "stats": {
+          "maxMagicka": 4928,
+          "magickaRecovery": 492
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Witchfest Food: Max M, Reg M,'",
+        "verified": true,
+        "note": "esolog buff \"Witchfest Food: Max M, Reg M,\" (Increase Max Magicka by <<1>> and Magicka Recovery by <<2>> for <<3>>. These effects are scaled based on your level.) x 1.1735 for CP160 gold."
+      },
+      {
+        "id": "purple-tristat",
+        "name": "Purple tri stat food (Longfin Pasty, Braised Rabbit, Sugar Skulls without recovery)",
+        "kind": "food",
+        "stats": {
+          "maxHealth": 4624,
+          "maxStamina": 4250,
+          "maxMagicka": 4250
+        },
+        "source": "tables/esolog_skill_coefficients_t00.csv row 'Bewitched Sugar Skulls'",
+        "verified": true,
+        "note": "esolog buff \"Bewitched Sugar Skulls\" (Increase Max Health by <<1>>, Max Stamina and Magicka by <<2>>, and Health Recovery by <<3>> for <<4>>.) x 1.1735 for CP160 gold."
       },
       {
         "id": "witchmothers-party-punch",
