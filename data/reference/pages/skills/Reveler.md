@@ -19,4 +19,4 @@ Reveler gives Nords a natural affinity for Two Handed Weapons, allowing them to 
 - Prior to Update 11, this skill was called "Two Handed Weapon Expertise", and had no effect on consumed beverages.
 
 ## Patch Notes
-* Two Handed Weapon Expertise: This passive ability has been renamed to "Reveler." Also, in addition to the current benefit it now increases the duration of any consumed drink by 15 minutes.
+[Patch 2.5.5] * Two Handed Weapon Expertise: This passive ability has been renamed to "Reveler." Also, in addition to the current benefit it now increases the duration of any consumed drink by 15 minutes.

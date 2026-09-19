@@ -25,4 +25,4 @@ Tough increases your Maximum Health.
 - Prior to Update 21, this ability increased your Health by a percentage instead of a fixed value.
 
 ## Patch Notes
-* Gain 12% Max Health → Increases your Max Health by 2000.
+[Patch 4.3.5] * Gain 12% Max Health → Increases your Max Health by 2000.

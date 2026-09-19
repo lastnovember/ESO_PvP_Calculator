@@ -19,4 +19,4 @@ Ashlander gives Dunmer a natural affinity for Dual Wielding, allowing them to ga
 - Prior to Update 11, this skill was called "Ambidexterity" and did not reduce your damage from lava.
 
 ## Patch Notes
-* Ambidexterity: This passive ability has been renamed to "Ashlander." Also, in addition to the current benefit it now reduces your damage taken from lava by 50%.
+[Patch 2.5.5] * Ambidexterity: This passive ability has been renamed to "Ashlander." Also, in addition to the current benefit it now reduces your damage taken from lava by 50%.

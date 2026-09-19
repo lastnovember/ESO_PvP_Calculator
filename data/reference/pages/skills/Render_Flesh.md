@@ -33,4 +33,4 @@ Render Flesh heals you or an ally in front of you by a significant amount compar
 - Resistant Flesh is a recommended morph for the Necromancer Initiate and Baleful Summoner builds, while Blood Sacrifice is recommended for Flesh Sculptor.
 
 ## Patch Notes
-* Fixed an issue where the Befouled star from the Shadow tree was applying to the Minor Defile from this ability and its morphs.
+[Patch 5.1.5] * Fixed an issue where the Befouled star from the Shadow tree was applying to the Minor Defile from this ability and its morphs.

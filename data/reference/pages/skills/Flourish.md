@@ -19,4 +19,4 @@ linerank2=36
 Flourish increases your Magicka and Stamina Recovery if you have any Animal Companions ability slotted.
 
 ## Patch Notes
-* Increased the Magicka and Stamina Recovery granted from this passive to 10/20%, up from 6/12%.
+[Patch 11.0.5] * Increased the Magicka and Stamina Recovery granted from this passive to 10/20%, up from 6/12%.

@@ -1,0 +1,21 @@
+Icon,Name,Points,Description
+Chaos Ball Carry
+,First Carry,10,First player to pick up the Chaos Ball
+,Ball-Bearer,33*,Earn points by carrying the Chaos Ball
+,Thirty Second Carry,300*,Carry Chaos Ball for 30s
+,Sixty Second Carry,600*,Carry Chaos Ball for 60s
+,Ninety Second Carry,900*,Carry Chaos Ball for 90s
+Damage
+,Chaos Bruiser,50,Deal 5k damage to Chaos Ball carriers
+,Chaos Devastator,100,Deal 25k damage to Chaos Ball carriers
+,Chaos Destroyer,200,Deal 50k damage to Chaos Ball carriers
+,Chaos Champion,400,Deal 325k damage to Chaos Ball carriers
+,Ball Buster,10*,Score a 11.75k damage hit on a Chaos Ball carrier
+,Chaos Hunter,100*,Kill a Chaos Ball carrier
+,Assist,100*,Help kill a carrier
+Healing
+,Chaos Protector,100,Do 5k healing to Chaos Ball carriers
+,Chaos Healer,200,Do 25k healing to Chaos Ball carriers
+,Chaos Shaman,200,Do 50k healing to Chaos Ball carriers
+,Chaos Guardian,400,Do 275k healing to Chaos Ball carriers
+,Chaos Mender,100*,Score a 5k healing hit on a Chaos Ball carrier

@@ -24,5 +24,5 @@ Stalwart increases your Max Stamina, and causes you to gain Ultimate when you ta
 - Prior to Update 11, this skill was called "Robust", and had no effect on your Max Stamina. The Health Recovery was also reduced from 10/20/30% to 6/13/20%. Update 21 removed the Health Recovery entirely and replaced it with Ultimate Gain when taking damage. This update also changed the level requirements from 5, 15, and 30 to 10, 20, and 40.
 
 ## Patch Notes
-* Robust: This passive ability has been renamed to "Stalwart." It now increases your Health Recovery by 6/13/20%, down from 10/20/30% and your Max Stamina by 2/4/6%.
-* Gain 6% Max Stamina and 20% Health Recovery → Increases your Max Stamina by 1500. When you take damage, gain 5 Ultimate. This effect can occur once every 10 seconds.
+[Patch 2.5.5] * Robust: This passive ability has been renamed to "Stalwart." It now increases your Health Recovery by 6/13/20%, down from 10/20/30% and your Max Stamina by 2/4/6%.
+[Patch 4.3.5] * Gain 6% Max Stamina and 20% Health Recovery → Increases your Max Stamina by 1500. When you take damage, gain 5 Ultimate. This effect can occur once every 10 seconds.

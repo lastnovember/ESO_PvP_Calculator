@@ -18,5 +18,5 @@ linerank2=27
 Frozen Armor increases both your Physical and Spell Resistance based on the number of Winter's Embrace abilities you have slotted, up to 2970 with all 6 skills (including Ultimate), or 5940 with 2 points in this passive.
 
 ## Patch Notes
-* Increased the amount of Armor granted from this passive to 495/990 per Winter's Embrace skill slotted, up from 250/500.
-* Increased the Armor granted from this passive to 620/1240 per Winter's Embrace ability slotted, up from 445/990.
+[Patch 8.1.5] * Increased the amount of Armor granted from this passive to 495/990 per Winter's Embrace skill slotted, up from 250/500.
+[Patch 11.0.5] * Increased the Armor granted from this passive to 620/1240 per Winter's Embrace ability slotted, up from 445/990.

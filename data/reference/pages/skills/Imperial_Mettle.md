@@ -24,4 +24,4 @@ Imperial Mettle increases your Maximum Stamina.
 - Prior to Update 21, this ability was called "Conditioning", and increased your Stamina by a percentage instead of a fixed value. This also helped distinguish it from the Redguard skill of the same name.
 
 ## Patch Notes
-* Conditioning: Gain 10% Max Stamina → Imperial Mettle: Increases your Max Stamina by 2000.
+[Patch 4.3.5] * Conditioning: Gain 10% Max Stamina → Imperial Mettle: Increases your Max Stamina by 2000.

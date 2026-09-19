@@ -35,8 +35,8 @@ Petrify stuns enemies for 2.5 seconds, and deals damage when the stun ends. More
 File:ON-skill-Petrify AOE.jpg|Petrify and its morphs visual AOE
 
 ## Patch Notes
-* The enemy target's health regeneration bonus while they were affected by Petrify and its morphs has been removed.
-* This ability now damages enemies when the effect ends.
+[Patch 1.1.2] * The enemy target's health regeneration bonus while they were affected by Petrify and its morphs has been removed.
+[Patch 1.2.3] * This ability now damages enemies when the effect ends.
 ESO Patch Note|2.4.5|* Fossilize:
 - Reduced the duration of the root applied from this morph after the disorient ends to 3 seconds at all ranks from 2.5/3/3.5/4 seconds at ranks I/II/III/IV respectively.
 - Fossilize now deals slightly more damage as it ranks up.
@@ -55,14 +55,14 @@ ESO Patch Note|3.2.8|* Fixed an issue where the following abilities (and their a
 - Eclipse
 - Petrify
 - Rune Prison
-* Shattering Rocks: Fixed an issue where Rank IV of this morph was not setting secondary targets Off Balance.
-* Shattering Rocks: This morph has been redesigned so that when the stun ends, it causes the enemy's next attack to heal their target.
+[Patch 3.3.5] * Shattering Rocks: Fixed an issue where Rank IV of this morph was not setting secondary targets Off Balance.
+[Patch 4.0.5] * Shattering Rocks: This morph has been redesigned so that when the stun ends, it causes the enemy's next attack to heal their target.
 ESO Patch Note|4.2.5|* Fixed an issue where you could still attempt to cast abilities like Petrify or Rune Prison against enemies that were immune to crowd control from the Unstoppable ability or Unstoppable potions.
 - Shattering Rocks: Updated the tooltip of this morph to indicate it deals damage.
 ESO Patch Note|5.1.5|* Increased the cost of this ability and its morphs to 4050 from 2970.
 - This ability no longer ranks up in cost reduction, but instead ranks up in 1.1% damage per rank.
 - Reduced the range of this ability and its morphs to 7 meters from 8 meters.
 - Shattering Rocks (morph): Fixed an issue where the heal from this ability was missing a previous rank up, which will result in an approximate 3% increase in the healing.
-* Shattering Rocks (morph): This morph now heals you when the stun ends on the enemy, rather than causing the enemy's next attack to heal their target. This will also fix numerous issues where the heal belonged to the attacker and used their stats rather than yours.
-* This ability and its morphs now deal Flame Damage, rather than Magic Damage.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 6.3.5] * Shattering Rocks (morph): This morph now heals you when the stun ends on the enemy, rather than causing the enemy's next attack to heal their target. This will also fix numerous issues where the heal belonged to the attacker and used their stats rather than yours.
+[Patch 8.1.5] * This ability and its morphs now deal Flame Damage, rather than Magic Damage.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

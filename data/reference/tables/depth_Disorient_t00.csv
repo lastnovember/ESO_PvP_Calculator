@@ -1,0 +1,9 @@
+Skill,Duration,Affects,Cost,Notes
+Agony (Siphoning),30 sec.,Single Target,3240 Magicka,Deals damage when disorient ends
+Rune Prison (Dark Magic),15.1-16.6 sec.,Single Target,2160 Magicka,
+,Rune Cage (morph),16.6-18.1 sec.,Disorient only broken by direct damage
+Defensive Rune (morph),16.6 sec.,Affects enemy that attacks you
+Spear Shards (Aedric Spear),6 sec.,Single Target,3240 Magicka,
+Power Bash (One Hand and Shield),3 sec.,Single Target,3510 Stamina,Also stuns target
+Scatter Shot (Bow),5 sec.,Single Target,2970 Stamina,Also knocks target back
+Ferocious Roar (Werewolf),3.5-4.3 sec.,Up to 3 Targets,4163 Stamina,"Also applies Off Balance. If target is killed, other nearby targets also Disoriented and Off Balance."

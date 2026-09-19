@@ -16,4 +16,4 @@ linerank2=10
 Call of the Hunt reduces the Ultimate cost for remaining in Werewolf form. This cost will further reduce depending on the number of transformed werewolves or direwolves in your group.
 
 ## Patch Notes
-*Call of the Pack -> Call of the Hunt: This passive now works by reducing the Ultimate cost of maintaining Werewolf form, rather than reducing the timer drained every second. It reduces the cost by 8/16% plus 8/16% per transformed group member or direwolf, including yourself, up to 40/80%.
+[Patch 12.0.5] *Call of the Pack -> Call of the Hunt: This passive now works by reducing the Ultimate cost of maintaining Werewolf form, rather than reducing the timer drained every second. It reduces the cost by 8/16% plus 8/16% per transformed group member or direwolf, including yourself, up to 40/80%.

@@ -1,0 +1,18 @@
+Trait,Material,Description,Magnitude
+Normal,Fine,Superior,Epic,Legendary
+Powered,Chysolite,Increase healing done by …,1H,2.5% (white) / 3% (green) / 3.5% (blue) / 4% (purple) / 4.5% (gold)
+2H,5% (white) / 6% (green) / 7% (blue) / 8% (purple) / 9% (gold)
+Charged,Amethyst,Increase your chance to apply status effects by …,1H,97.5% (white) / 102.5% (green) / 107.5% (blue) / 112.5% (purple) / 117.5% (gold)
+2H,195% (white) / 205% (green) / 215% (blue) / 225% (purple) / 235% (gold)
+Precise,Ruby,Increases Weapon and Spell Critical values by …,1H,1.6% (white) / 2.1% (green) / 2.6% (blue) / 3.1% (purple) / 3.6% (gold)
+2H,3.2% (white) / 4.2% (green) / 5.2% (blue) / 6.2% (purple) / 7.2% (gold)
+Infused,Jade,Increase weapon enchantment effect by … and reduces enchantment cooldown by 50%,10% (white) / 15% (green) / 20% (blue) / 25% (purple) / 30% (gold)
+Defending,Turquoise,Increases Physical and Spell Resistance by …,1H,1428 (white) / 1485 (green) / 1542 (blue) / 1580 (purple) / 1638 (gold)
+2H,2856 (white) / 2971 (green) / 3085 (blue) / 3161 (purple) / 3276 (gold)
+Training,Carnelian,Increase experience gained from kills by …,1H,2.5% (white) / 3% (green) / 3.5% (blue) / 4% (purple) / 4.5% (gold)
+2H,5% (white) / 6% (green) / 7% (blue) / 8% (purple) / 9% (gold)
+Sharpened,Fire Opal,Increase Physical and Spell Penetration by …,1H,1428 (white) / 1485 (green) / 1542 (blue) / 1580 (purple) / 1638 (gold)
+2H,2856 (white) / 2971 (green) / 3085 (blue) / 3161 (purple) / 3276 (gold)
+Decisive,Citrine,When you gain Ultimate you have a … chance to gain 1 additional ultimate.,1H,19.1% (white) / 21.2% (green) / 23.2% (blue) / 25.4% (purple) / 27.5% (gold)
+2H,38.2% (white) / 42.4% (green) / 46.4% (blue) / 50.8% (purple) / 55% (gold)
+Nirnhoned,Potent Nirncrux,Increases Damage of this weapon by …,11% (white) / 12% (green) / 13% (blue) / 14% (purple) / 15% (gold)

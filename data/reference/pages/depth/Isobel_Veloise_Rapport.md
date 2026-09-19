@@ -1,0 +1,52 @@
+# Online:Isobel Veloise/Rapport
+
+Source: https://en.uesp.net/wiki/Online:Isobel_Veloise/Rapport
+License: CC BY-SA, UESP
+
++ Ways for Isobel to lose or gain rapport
+Amount | Action | Cooldown
+
+colspan="4" style="text-align:center; background-color:#A9E48F;" | Actions that give Positive Rapport
+
++500 | Completing The Lost Symbol, A Mother's Request, The Princess Detective companion quest | Once each
+
++125 | Return a Undaunted daily challenge offered by Bolgrul | Daily
+
++125 | Return High Isle group boss daily offered by Parisse Plouff | Daily
+
++25 / +5 | Visit an Undaunted Enclave | 20 hours
+
++10 / +5 / +1 | Talk to an alliance leader (Emeric / Ayrenn / Jorunn) | 1 hour
+
++10 | Talk to Lyris Titanborn | 1 hour
+
++10 | Complete a volcanic vent | bugged?
+
++10 | Kill a world boss | 5 minutes
+
++5 | Craft sweet delicacies or fruit dishes | 1 hour
+
++5 | Craft an item at a blacksmithing station | 1 hour
+
++5 | Kill a delve boss or group dungeon boss
+
++5 | Kill a daedric boss | 1 hour
+
++1 | Kill a daedra | 210 seconds
+
++1 | Use a repair kit | Daily
+
++1 | Accept a duel
+
++1 | Summoning a dog non-combat petDog | 1 hour
+
+colspan="4" style="text-align:center; background-color:#E4A08F;" | Actions that give Negative Rapport
+
+-10 / -1 | Murder | 0
+
+-5 | Enter the Dark Brotherhood Sanctuary | 20 hours
+
+-1 | Steal from container or loot a thieves trove
+
+-1 | Enter an Outlaw's Refuge
+Dog pets include the Alik'r Dune-Hound, Druadach Mountain Dog, Imperial War Mastiff, Bravil Retriever, Jerall Rescue Dog, and Greenhill Farmdog.

@@ -21,4 +21,4 @@ Curative Curse increases healing done while you are subject to a negative effect
 - Note that the negative effect required to trigger this passive is actually built into the Render Flesh skill, which reduces your healing received while active. Otherwise, you will have to receive debuffs from enemies and live with them in order to benefit from this ability.
 
 ## Patch Notes
-* This passive now increases your Healing Done by 6/12% while a negative effect is active on you, up from 4/8%.
+[Patch 11.0.5] * This passive now increases your Healing Done by 6/12% while a negative effect is active on you, up from 4/8%.

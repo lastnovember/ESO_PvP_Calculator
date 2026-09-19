@@ -37,8 +37,8 @@ Expert Hunter will reveal hidden enemies and prevent them from returning to stea
 - Before Update 6, this skill gave your attacks a chance to deal additional damage to Undead and Daedra, with increasing duration for each Undead and Daedra killed. Evil Hunter also added Stamina restoration to the on-hit chance, while Camouflaged Hunter always dealt additional damage to Undead and Daedra if you performed a stealth attack.
 
 ## Patch Notes
-* The FX for this ability no longer persists on dead monsters.
-Trap Beast]] is now based on stamina and weapon damage instead of magicka and spell power.
+[Patch 1.3.3] * The FX for this ability no longer persists on dead monsters.
+[Patch 1.4.3] * Damage from Silver Bolts, Expert Hunter, and Trap Beast is now based on stamina and weapon damage instead of magicka and spell power.
 ESO Patch Note|1.5.2|* Camouflaged Hunter (morph): This ability now only applies to the first hit of the ability Twin Slashes.
 - Evil Hunter: This ability now highlights vampire player characters in Cyrodiil.
 ESO Patch Note|1.6.5|* This ability now always provides you with the Major Weapon Crit buff.
@@ -49,23 +49,23 @@ ESO Patch Note|2.1.4|* This ability is no longer multiplied by the stealth criti
 - The effects to sense evil have been moved to the torso area, with a larger version included for Titans.
 - Increased the internal cooldown for procs to 2.5 seconds from 1.5 seconds.
 - Camouflaged Hunter: This ability's bonus damage from stealth now scales off weapon damage/critical.
-* Fixed an issue where this ability could proc off siege damage.
-* Camouflaged Hunter: Fixed an issue where the stealth damage proc would occur multiple times in specific circumstances.
-* Camouflaged Hunter: Continued to fix additional issues where this ability could proc multiple times when hitting with a dual wield heavy attack. We will have this fully addressed in a future patch.
-* Camouflaged Hunter: Fixed an issue where this ability could proc multiple times with a Dual Wield Heavy Attack.
-Siphoning Strikes]], and Expert Hunter could get visually detached from the weapon.
+[Patch 2.2.4] * Fixed an issue where this ability could proc off siege damage.
+[Patch 2.2.9] * Camouflaged Hunter: Fixed an issue where the stealth damage proc would occur multiple times in specific circumstances.
+[Patch 2.2.10] * Camouflaged Hunter: Continued to fix additional issues where this ability could proc multiple times when hitting with a dual wield heavy attack. We will have this fully addressed in a future patch.
+[Patch 2.2.11] * Camouflaged Hunter: Fixed an issue where this ability could proc multiple times with a Dual Wield Heavy Attack.
+[Patch 2.3.5] * Fixed an issue where the weapon visual effects from abilities such as Grim Focus, Siphoning Strikes, and Expert Hunter could get visually detached from the weapon.
 ESO Patch Note|2.4.5|* Expert Hunter: Redesigned this ability and its morphs so they no longer grant a small chance to deal additional bonus damage; instead, they can be activated to reveal hidden or invisible enemies in a 6 meter radius for 5 seconds, and prevents revealed enemies from returning to stealth for 3 seconds.
 - These abilities will continue illuminate Undead, Daedra, and Werewolves and grant Major Savagery while slotted.
 - Camouflaged Hunter: In addition to the changes made to the base ability, this morph now also grants the Minor Berserk buff for 5/6/7/8 seconds after dealing a Critical Hit from crouch at Ranks I/II/III/IV.
 - Evil Hunter: In addition to the changes made to the base ability, this morph now also reduces the Stamina cost of Fighters Guild abilities by 25% while active.
-Magelight]], or Expert Hunter to notify other players of your ability to see sneaking/invisible enemies.
+[Patch 4.1.5] * A visual effect will now appear over your character's head when using Detection Potions, Magelight, or Expert Hunter to notify other players of your ability to see sneaking/invisible enemies.
 ESO Patch Note|5.1.5|* Evil Hunter:
 - Fixed an issue where this ability cost more than its original form.
 - This morph no longer grants 25% reduced Stamina cost of Fighters Guild abilities. Instead, it grants up to 25% damage dealt with non-Ultimate Fighters Guild abilities.
 - Camouflaged Hunter:
 - This ability will no longer costs more than the base form, and no longer grants Minor Berserk from successful sneak attacks. It now grants Minor Berserk from dealing Critical Damage from an enemy's flank.
 - Decreased the duration of Minor Berserk to 5 seconds from 10 seconds at Rank IV.
-* Fixed numerous issues with passives such as Banish the Wicked or Expert Hunter failing to recognize some enemies as Werewolves in the Wolfhunter DLC dungeons.
+[Patch 6.0.5] * Fixed numerous issues with passives such as Banish the Wicked or Expert Hunter failing to recognize some enemies as Werewolves in the Wolfhunter DLC dungeons.
 ESO Patch Note|7.1.5|* This ability and the Camouflaged Hunter morph now reveal hidden enemies within 8 meters of you, up from 6 meters.
 - All versions of this ability now check for hidden enemies every 500ms, instead of once every second, for more responsive catching of those slippery targets.
 - All versions of this ability now prevent stealth and invisibility for 4 seconds, up from 3 seconds.

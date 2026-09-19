@@ -14,4 +14,4 @@ linerank1=1
 Calculated Defense will grant you a damage shield for 0.5 whenever you use a Sorcerer ability or an ability with a cast time. The effect is based on your Max Health, if the shield does not break, it will grant you and nearby group members increased Weapon Damage and Spell Damage for 20 seconds.
 
 ## Patch Notes
-*This passive causes you to gain a damage shield that absorbs 30% of your Max Health for.5 seconds anytime you begin to activate a Sorcerer ability or an ability with a cast time. If the shield fails to break, you grant you and your group members 3% Weapon and Spell Damage for 20 seconds.
+[Patch 12.0.0] *This passive causes you to gain a damage shield that absorbs 30% of your Max Health for.5 seconds anytime you begin to activate a Sorcerer ability or an ability with a cast time. If the shield fails to break, you grant you and your group members 3% Weapon and Spell Damage for 20 seconds.

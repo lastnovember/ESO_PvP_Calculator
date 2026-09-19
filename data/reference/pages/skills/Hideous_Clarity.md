@@ -16,4 +16,4 @@ linerank1=14
 linerank2=27
 
 ## Patch Notes
-* This passive now restores both Magicka and Stamina, instead of just the highest of your max resources.
+[Patch 10.3.5] * This passive now restores both Magicka and Stamina, instead of just the highest of your max resources.

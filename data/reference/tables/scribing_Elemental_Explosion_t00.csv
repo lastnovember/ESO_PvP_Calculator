@@ -1,0 +1,9 @@
+Script,Skill Name,Effects
+Dispel,Dispel,Dispelling Explosion,Remove up to 3 enemy area effect abilities.
+Flame Damage,Flame Damage,Fiery Explosion,Deals 8225 Flame damage to enemies.
+Frost Damage,Frost Damage,Chilling Explosion,Deals 8225 Frost damage to enemies.
+Knockback,Knockback,Repelling Explosion,Knocks Enemies back 12 meters.
+Magic Damage,Magic Damage,Magical Explosion,Deals 8225 Magic damage to enemies.
+Shock Damage,Shock Damage,Shocking Explosion,Deals 8225 Shock damage to enemies.
+Stun,Stun,Dazing Explosion,Stuns enemies for 5 seconds.
+Trauma,Trauma,Traumatic Explosion,Afflicts enemies with 4032 Healing Absorption for 3 seconds. Duration 3 seconds.

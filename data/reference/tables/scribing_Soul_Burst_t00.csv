@@ -1,0 +1,15 @@
+Script,Skill Name,Effects
+Damage Shield,Damage Shield,Warding Burst,
+Compatible Signature Scripts,"Anchorite's Potency, Class Flourish, Crusader's Defiance, Sage's Remedy"
+Compatible Affix Scripts,"Courage, Expedition, Intellect and Endurance, Resolve"
+Healing,Healing,Healing Burst,
+Compatible Signature Scripts,"Anchorite's Potency, Class Flourish, Crusader's Defiance, Sage's Remedy"
+Compatible Affix Scripts,"Courage, Expedition, Intellect and Endurance, Resolve"
+Immobilize,Immobilize,Binding Burst,
+Magic Damage,Magic Damage,Magical Burst,
+Physical Damage,Physical Damage,Sundering Burst,
+Pull,Pull,Leashing Burst,
+Shock Damage,Shock Damage,Shocking Burst,
+Frost Damage,Frost Damage,Chilling Burst,
+Bleed Damage,Bleed Damage,Bloody Burst,
+Disease Damage,Disease Damage,Pestilent Burst,

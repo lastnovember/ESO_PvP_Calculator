@@ -40,7 +40,7 @@ File:ON-skill-Dragon_Blood_02.jpg|Dragon Blood's beating heart
 ESO Patch Note|1.6.5|* This ability now provides the buff Major Fortitude.
 - Green Dragon Blood: This ability now provides the buffs Major Fortitude and Major Endurance, and lasts for 23 seconds at the maximum rank.
 - Coagulating Blood: This ability now provides the buffs Major Fortitude and Minor Vitality, and lasts for 23 seconds at the maximum rank.
-Restoring Aura]]: This ability no longer removes major buffs from allies, such as Major Fortitude granted by Green Dragon Blood.
+[Patch 2.0.1] * Restoring Aura: This ability no longer removes major buffs from allies, such as Major Fortitude granted by Green Dragon Blood.
 ESO Patch Note|2.7.5|* This ability and its morphs can now Critically Strike.
 - Developer Comment: The goal of this change was to bring Dragon Blood in line with other heal abilities in the game.
 - Coagulating Blood:
@@ -48,8 +48,8 @@ ESO Patch Note|2.7.5|* This ability and its morphs can now Critically Strike.
 - This morph no longer grants the Minor Vitality buff.
 - Developer Comment: We wanted to give Dragonknights a more reliable version of Dragon Blood that scaled like other heal abilities in the game. However, it was still important to us that it retained some of the risk/reward of waiting to use it at lower health thresholds. Because there's a base heal value, it's more forgiving when used at higher health, but waiting makes it more efficient. To counterbalance this increased ease of use, we moved the Minor Vitality buff to Green Dragon Blood. This also ensures that Health-based Dragonknights also have a strong morph option as well.
 - Green Dragon Blood: This morph now grants the Minor Vitality buff as well as Minor Endurance.
-* Coagulating Blood: Increased the heal of this morph by approximately 19% to put it better in line with other burst heal abilities.
-* Coagulating Dragon Blood (morph): Increased the base healing of this ability by approximately 12% to ensure it's closer in line with other heals, such as Breath of Life. With this new value, the heal for Coagulating should be slightly weaker than these heals (Breath of Life, Blood Sacrifice, etc.) while above 50% Health, but slightly stronger than them while below 50% Health. The deviation in healing effectiveness will be between 0 and 16.5%.
+[Patch 5.0.5] * Coagulating Blood: Increased the heal of this morph by approximately 19% to put it better in line with other burst heal abilities.
+[Patch 6.1.5] * Coagulating Dragon Blood (morph): Increased the base healing of this ability by approximately 12% to ensure it's closer in line with other heals, such as Breath of Life. With this new value, the heal for Coagulating should be slightly weaker than these heals (Breath of Life, Blood Sacrifice, etc.) while above 50% Health, but slightly stronger than them while below 50% Health. The deviation in healing effectiveness will be between 0 and 16.5%.
 ESO Patch Note|7.0.5|* Coagulating Blood (morph):
 - Fixed an issue where this ability appeared to rank up in 1 second duration per rank.
 - Reduced the cost of this ability to 3780, down from 4320, to add an improvement to the morph rather than just changing its functionality.
@@ -62,4 +62,4 @@ ESO Patch Note|9.1.5|* Green Dragon Blood (morph):
 - This morph now also adds a small Heal over Time, lasting 5 seconds and scaling off your Max Health (~3% per tick).
 - This morph no longer increases in duration of effects by 1 second for every rank, but rather ranks up the healing done of the healing over time.
 - We're seeing many tanks opt to take Coagulating Blood over Green Dragon Blood in organized groups, where buffs bring up their offensive stats enough to eclipse the healing potential of Green Dragon Blood. To help mitigate this, we're adding a small guaranteed heal that uses your Max Health to offer some diverging game play options, rather than bloating out the Missing Health values of GDB and creating different problems out of that.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

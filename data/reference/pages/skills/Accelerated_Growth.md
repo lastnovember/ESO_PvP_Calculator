@@ -18,4 +18,4 @@ linerank2=18
 Accelerated Growth increases your healing done whenever you heal an ally under 40% Health with a Green Balance ability.
 
 ## Patch Notes
-* This passive now grants Major Mending for 2/4 seconds on proc, up from 1.5/3 seconds.
+[Patch 7.1.5] * This passive now grants Major Mending for 2/4 seconds on proc, up from 1.5/3 seconds.

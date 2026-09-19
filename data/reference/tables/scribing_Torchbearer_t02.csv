@@ -1,0 +1,13 @@
+Script,Effects
+Breach,Breach,"Afflicts Minor Breach for 20 seconds with each sweep, reducing Physical and Spell Resistance by 2974."
+Incompatible with Heroic Torch and Healing Torch
+Cowardice,Cowardice,"Afflicts enemies with Minor Cowardice for 20 seconds with each sweep, reducing Weapon and Spell Damage by 215."
+Incompatible with Heroic Torch and Healing Torch
+Evasion,Evasion,"Grants Minor Evasion for 20 seconds with each sweep, reducing damage from area attacks by 10%."
+Heroism,Heroism,"Grants Minor Heroism for 20 seconds with each sweep, generating 1 Ultimate every 1.5 seconds."
+Mangle,Mangle,"Afflicts enemies with Minor Mangle for 20 seconds with each sweep, reducing Max Health by 10%."
+Incompatible with Heroic Torch and Healing Torch
+Resolve,Resolve,"Grants Minor Resolve for 20 seconds with each sweep, increasing Physical and Spell Resistance by 2974."
+Uncertainty,Uncertainty,"Afflicts enemies with Minor Uncertainty for 20 seconds, reducing their Weapon and Spell Critical rating by 1320."
+Incompatible with Heroic Torch and Healing Torch
+Vitality,Vitality,"Grants Minor Vitality for 20 seconds with each sweep, increasing healing received by 6%."

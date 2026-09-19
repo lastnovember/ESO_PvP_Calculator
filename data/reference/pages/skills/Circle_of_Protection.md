@@ -31,19 +31,19 @@ imgdesc=A Circle of Protection
 Circle of Protection creates a rune that increases the defense and Stamina Recovery of friendly forces standing in it. The Turn Evil fears enemies inside the ring for a short time on cast. Alternatively, the Ring of Preservation reduces the duration, but adds a heal over time.
 
 ## Patch Notes
-* Fixed an issue where this ability wasn't giving bonus armor and spell resistance against undead and Daedra.
+[Patch 1.5.2] * Fixed an issue where this ability wasn't giving bonus armor and spell resistance against undead and Daedra.
 ESO Patch Note|1.6.5|* This ability now grants the Major Fortitude buff, and the value is increased by 50% against Daedra and undead.
 - Fixed an issue where the bonus damage reduction was not being applied when a vampire would attack you.
 - Ring of Preservation: This ability now grants the Major Health Regeneration buff.
-* Turn Undead: This ability will now function like other fears in the game where it places a crowd control immunity on the target after the fear ends.
-* Turn Undead: Fixed an issue where this ability was not following the standard area of effect buff and damage guidelines for additional targets hit.
+[Patch 2.1.4] * Turn Undead: This ability will now function like other fears in the game where it places a crowd control immunity on the target after the fear ends.
+[Patch 2.3.5] * Turn Undead: Fixed an issue where this ability was not following the standard area of effect buff and damage guidelines for additional targets hit.
 ESO Patch Note|2.4.5|* This ability and its morphs now grant the Minor Endurance buff in addition to the Minor Protection buff.
 - Ring of Preservation: In addition to the changes made to the base ability, we redesigned this morph so it now decreases the cost of Roll Dodge by 20% while within the area of effect.
 - Turn Undead: In addition to the changes made to the base ability, we increased the duration of the area of effect to 12 seconds from 10 seconds.
-* Ring of Preservation: Fixed an issue where this morph was increasing the cost of Roll Dodge rather than decreasing it.
+[Patch 2.5.5] * Ring of Preservation: Fixed an issue where this morph was increasing the cost of Roll Dodge rather than decreasing it.
 ESO Patch Note|2.7.5|* Increased the duration of this ability and the Ring of Preservation morph to 20 seconds from 10 seconds.
 - Turn Undead (morph): Increased the duration of this morph to 24 seconds from 12 seconds.
-* Fixed an issue where this ability would only fear Werewolves if you had the passive Skilled Tracker enabled.
+[Patch 5.0.5] * Fixed an issue where this ability would only fear Werewolves if you had the passive Skilled Tracker enabled.
 ESO Patch Note|5.1.5|* Reduced the cost of this ability and its morphs to 3902 from 7987.
 - Fixed an issue with this ability and its morphs where you could not gain the Minor Protection from this ability if you had Minor Endurance active prior to entering the area.
 - Turn Undead: This morph is now called Turn Evil, and fears any enemy in the area upon cast, rather than only Undead.

@@ -17,4 +17,4 @@ Intimidating Presence allows you to use intimidation options in conversation, wh
 - See also: Persuasive Will.
 
 ## Patch Notes
-* This passive ability now also reduces the cost of Fighters Guild abilities by 20%.
+[Patch 2.4.5] * This passive ability now also reduces the cost of Fighters Guild abilities by 20%.

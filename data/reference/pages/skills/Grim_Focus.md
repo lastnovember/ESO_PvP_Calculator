@@ -51,8 +51,8 @@ ESO Patch Note|1.6.5|* Haste: This ability has been removed, and replaced by the
 ESO Patch Note|2.0.1|* This ability now only requires 7 light and/or heavy attacks to trigger Deadly Throw.
 - This ability will now always play visual effects while it's active so you know when the ability needs to be refreshed.
 - Fixed some visual issues with the spectral bow.
-* Fixed an issue where the Assassin's Will proc from this ability could be interrupted.
-* Relentless Focus: This morph's spectral bow proc has been renamed to "Assassin's Scourge", and now deals Disease Damage instead of Magic Damage.
+[Patch 2.3.8] * Fixed an issue where the Assassin's Will proc from this ability could be interrupted.
+[Patch 2.4.5] * Relentless Focus: This morph's spectral bow proc has been renamed to "Assassin's Scourge", and now deals Disease Damage instead of Magic Damage.
 ESO Patch Note|2.7.5|* The Assassin's Will proc from this ability and the Merciless Resolve morph now only scales with your Spell Damage and Maximum Magicka stats.
 - Relentless Focus:
 - The Assassin's Scourge proc from this morph now only scales with your Weapon Damage and Maximum Stamina stats.
@@ -66,9 +66,9 @@ ESO Patch Note|3.2.5|* The Assassin's Will and Assassin's Scourge procs from thi
 - Relentless Focus: Fixed an issue where this morph could not be cast while silenced.
 ESO Patch Note|3.3.5|* Grim Focus: The stacks you build towards the bow proc for this ability and its morphs will now remain if you recast the ability early, or if the ability expires. The partial stacks are removed if you exit combat.
 - Developer Comment: This change makes the ability effectiveness more consistent among players of different skill levels. It still rewards more skilled play, but is less punishing when someone makes a mistake.
-* This ability and its morphs will now generate stacks towards the Assassin's Will and Scourge procs when you begin the Light or Heavy Attack against the enemy target, rather than when the Light or Heavy Attack successfully hits its target.
-* Merciless Resolve: Fixed an issue where the snare from this morph would not apply to a target that blocked the damage.
-* Merciless Resolve: Removed the snare from this ability.
+[Patch 3.3.7] * This ability and its morphs will now generate stacks towards the Assassin's Will and Scourge procs when you begin the Light or Heavy Attack against the enemy target, rather than when the Light or Heavy Attack successfully hits its target.
+[Patch 4.0.5] * Merciless Resolve: Fixed an issue where the snare from this morph would not apply to a target that blocked the damage.
+[Patch 4.1.5] * Merciless Resolve: Removed the snare from this ability.
 ESO Patch Note|4.2.5|* Fully-Charged Heavy Attacks now grant 2 stacks towards the spectral bow proc for this ability and its morphs.
 - The spectral bow proc is no longer free, and costs half the amount of a regular Grim Focus.
 - Developer Comments: This ability was too productive for the amount of damage and effective resource management it provided, and was another part of the reason that Nightblade DPS was too high.
@@ -95,8 +95,8 @@ ESO Patch Note|6.1.5|* This ability and its morphs now grant 2% Critical Damage 
 - Stacks removed from these abilities after ending combat will now only be removed in PvP zones, rather than all the time, fixing numerous issues where you could lose all stacks generated where you appeared to still be in combat.
 ESO Patch Note|7.2.5|* This ability and its morphs now grant 60 Weapon and Spell Damage per stack, rather than 2% Critical Damage and Healing per stack.
 - Developer Comment: This change was done to ensure the class does not lose too much of its healing potency and self-sufficiency from the original conversion where it granted Critical Damage and Healing since Critical Potency has a cap as well, and having this bonus often felt like a loss in group content.
-* Grim Focus: Fixed an issue where the override for this ability and the morph, Assassin Will, was 30 meters instead of the standard 28.
-* Merciless Resolve (morph): Fixed an issue where this morph's stacks would not clear after leaving combat while Battle Spirit was active.
+[Patch 7.3.5] * Grim Focus: Fixed an issue where the override for this ability and the morph, Assassin Will, was 30 meters instead of the standard 28.
+[Patch 10.3.5] * Merciless Resolve (morph): Fixed an issue where this morph's stacks would not clear after leaving combat while Battle Spirit was active.
 ESO Patch Note|11.0.5|* This ability and its morphs can now stack up to 10 times, rather than up to 5. These abilities now no longer permanently glow while slotted, and instead only glow while you have 1 or more stacks of the ability. This means the glow will remain if stacks remain unspent - but can be easily solved by using the ability or simply reslotting it to remove the stacks. The days of endless permaglow are over.
 - We're allowing for over-generating stacks for this ability, so missing activation on the final stack don’t severely reduce the effectiveness of this ability - which adds up over the course of the fight. Now it allows for more wiggle room, letting you chamber up to 2 shots if you reach max stacks - which also allows for more creative use as well. This should also allow for the ability to fit into more play styles, especially for Heavy Attack builds that lost a stack of this ability every time they reached the cap.
 ESO Patch Note|11.1.5|* This ability and its morphs now grant Major Prophecy and Savagery (12% Critical Chance) for slotting on either bar. These abilities no longer grant increasing Weapon and Spell Damage per stack. Additionally, these abilities now play their special sound effects when reaching their activation conditions.

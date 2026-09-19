@@ -1,0 +1,24 @@
+Item Types,Base Values,,Reinforced Values
+12Normal,12Fine,12Superior,12Epic,12Legendary,12Normal,12Fine,12Superior,12Epic,12Legendary
+Shield,1500 (white) / 1560 (green) / 1620 (blue) / 1660 (purple) / 1720 (gold),1680 (white) / 1762 (green) / 1846 (blue) / 1909 (purple) / 1995 (gold)
+Light Armor
+"Robe, Jerkin",1220 (white) / 1268 (green) / 1316 (blue) / 1348 (purple) / 1396 (gold),,1366 (white) / 1432 (green) / 1500 (blue) / 1550 (purple) / 1619 (gold)
+"Hat, Epaulets, Breeches, Shoes",1067 (white) / 1109 (green) / 1151 (blue) / 1179 (purple) / 1221 (gold),1195 (white) / 1253 (green) / 1312 (blue) / 1355 (purple) / 1416 (gold)
+Gloves,610 (white) / 634 (green) / 658 (blue) / 674 (purple) / 698 (gold),683 (white) / 716 (green) / 750 (blue) / 775 (purple) / 809 (gold)
+Sash,457 (white) / 475 (green) / 493 (blue) / 505 (purple) / 523 (gold),511 (white) / 536 (green) / 562 (blue) / 580 (purple) / 606 (gold)
+Total,6555 (white) / 6813 (green) / 7071 (blue) / 7243 (purple) / 7501 (gold),7340 (white) / 7696 (green) / 8060 (blue) / 8325 (purple) / 8698 (gold)
+Total w/ Shield,8055 (white) / 8373 (green) / 8691 (blue) / 8903 (purple) / 9221 (gold),9020 (white) / 9458 (green) / 9906 (blue) / 10234 (purple) / 10693 (gold)
+Medium Armor
+Jack,1820 (white) / 1892 (green) / 1964 (blue) / 2012 (purple) / 2084 (gold),,2038 (white) / 2137 (green) / 2238 (blue) / 2313 (purple) / 2417 (gold)
+"Helmet, Arm Cops, Guards, Boots",1592 (white) / 1655 (green) / 1718 (blue) / 1760 (purple) / 1823 (gold),1783 (white) / 1870 (green) / 1958 (blue) / 2024 (purple) / 2114 (gold)
+Bracers,910 (white) / 946 (green) / 982 (blue) / 1006 (purple) / 1042 (gold),1019 (white) / 1068 (green) / 1119 (blue) / 1156 (purple) / 1208 (gold)
+Belt,682 (white) / 709 (green) / 736 (blue) / 754 (purple) / 781 (gold),763 (white) / 801 (green) / 839 (blue) / 867 (purple) / 905 (gold)
+Total,9780 (white) / 10167 (green) / 10554 (blue) / 10812 (purple) / 11199 (gold),10952 (white) / 11486 (green) / 12028 (blue) / 12432 (purple) / 12986 (gold)
+Total w/ Shield,11280 (white) / 11727 (green) / 12174 (blue) / 12472 (purple) / 12919 (gold),12632 (white) / 13248 (green) / 13874 (blue) / 14341 (purple) / 14981 (gold)
+Heavy Armor
+Cuirass,2420 (white) / 2516 (green) / 2612 (blue) / 2676 (purple) / 2772 (gold),,2710 (white) / 2843 (green) / 2977 (blue) / 3077 (purple) / 3215 (gold)
+"Helm, Pauldrons, Greaves, Sabatons",2117 (white) / 2201 (green) / 2285 (blue) / 2341 (purple) / 2425 (gold),2371 (white) / 2487 (green) / 2604 (blue) / 2692 (purple) / 2813 (gold)
+Gauntlets,1210 (white) / 1258 (green) / 1306 (blue) / 1338 (purple) / 1386 (gold),1355 (white) / 1421 (green) / 1488 (blue) / 1538 (purple) / 1607 (gold)
+Girdle,907 (white) / 943 (green) / 979 (blue) / 1003 (purple) / 1039 (gold),1015 (white) / 1065 (green) / 1116 (blue) / 1153 (purple) / 1205 (gold)
+Total,13005 (white) / 13521 (green) / 14037 (blue) / 14381 (purple) / 14897 (gold),14564 (white) / 15277 (green) / 15997 (blue) / 16536 (purple) / 17279 (gold)
+Total w/ Shield,14505 (white) / 15081 (green) / 15657 (blue) / 16041 (purple) / 16617 (gold),16244 (white) / 17039 (green) / 17843 (blue) / 18445 (purple) / 19274 (gold)

@@ -45,29 +45,29 @@ ESO Patch Note|1.6.5|* Vigor (new ability)
 - This new ability will place a strong heal over time on allies within 10 meters for 5 seconds.
 - Echoing Vigor: Increases the radius to 15 meters.
 - Resolving Vigor: This ability will increase the heal value on yourself.
-* Relocated this ability to Rank 5 in the Assault tree, from Rank 10.
+[Patch 2.1.4] * Relocated this ability to Rank 5 in the Assault tree, from Rank 10.
 ESO Patch Note|2.2.4|* Apprentice
 - Elfborn: Fixed an issue where this passive was incorrectly increasing critical values for abilities that did not scale off Spell Critical (such as Vigor, or Stamina morphs of class abilities). We also fixed an issue where this passive was increasing critical damage and healing less than intended.
 - Ritual
 - Precise Strikes: Fixed an issue where this passive was not correctly increasing the critical value of healing or abilities that did not use Physical Damage (such as Vigor, or Stamina morphs of class abilities). We also fixed an issue where this passive was increasing critical damage and healing less than intended. This passive will also now properly increase healing from effects that scale off Stamina and Weapon Critical (such as Rally).
-* Casting Vigor with a staff equipped will no longer make the staff go through your legs.
-* This ability and its morphs will now remove you from sneak or invisibility when cast.
+[Patch 2.4.5] * Casting Vigor with a staff equipped will no longer make the staff go through your legs.
+[Patch 2.5.5] * This ability and its morphs will now remove you from sneak or invisibility when cast.
 ESO Patch Note|3.0.5|* Increased the cost of this ability and its morphs by approximately 30%.
 - Developer Comments: Vigor was too cheap for an area of effect healing ability, so we've increased its cost so there is more of an impact to keeping the heal over time buff active.
-* Fixed an issue where this ability and its morphs were unintentionally proccing abilities with a ranged attack prerequisite.
+[Patch 4.3.5] * Fixed an issue where this ability and its morphs were unintentionally proccing abilities with a ranged attack prerequisite.
 ESO Patch Note|5.1.5|* Adhered this ability to our AoE HoT standards.
 - Increased the duration to 8 seconds from 5 seconds, but decreased the tick frequency to 2 seconds from 1 second.
 - Increased the healing per tick by approximately 33%.
 - Reduced the cost to 2984 from 3511.
 - Resolving Vigor: This morph doubles the frequency, halves the duration, and increases the healing per tick by approximately 43%, but now only targets your character.
 - Echoing Vigor: This morph continues to increase the radius, but also increases the duration per rank, up to 10 seconds at rank IV, allowing for 1 additional heal tick. It also no longer ranks up in 1.1% healing per rank.
-* This ability is now first in the skill line to unlock, and has swapped places with Rapid Maneuvers in efforts to help builds focused on Stamina to have a healthier leveling experience. Previous XP gained in both of these skills will be retained, but if your Assault skill line is too low to obtain the 3rd skill, you will have to level it in order to gain access to Rapid Maneuvers again.
+[Patch 6.1.5] * This ability is now first in the skill line to unlock, and has swapped places with Rapid Maneuvers in efforts to help builds focused on Stamina to have a healthier leveling experience. Previous XP gained in both of these skills will be retained, but if your Assault skill line is too low to obtain the 3rd skill, you will have to level it in order to gain access to Rapid Maneuvers again.
 ESO Patch Note|8.1.5|* This ability now lasts 10 seconds at base, up from 8.
 - Reduced the healing per tick of this ability and Echoing Vigor by approximately 17%.
 - Echoing Vigor (morph): This morph now extends the duration by up to 6 seconds, up from 2.
 - Resolving Vigor (morph):
 - Increased the duration of the Heal over Time to 5 seconds, up from 4.
 - This morph now grants Minor Resolve for 20 seconds after casting.
-* Resolving Vigor (morph): Reduced the healing from this morph by approximately 10%.
+[Patch 8.2.5] * Resolving Vigor (morph): Reduced the healing from this morph by approximately 10%.
 
 Skill

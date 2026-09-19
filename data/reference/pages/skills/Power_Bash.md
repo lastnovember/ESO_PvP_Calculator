@@ -35,16 +35,16 @@ Power Bash deals Physical Damage to an enemy as well as interrupting them if the
 ## Patch Notes
 ESO Patch Note|1.1.2|* Fixed an issue where the Reverberating Bash morph was not properly reducing Spell Damage.
 - Fixed an issue where Reverberating Bash was reducing Spell and Weapon Damage before the disorient effect ended.
-* Reverberating Bash: This ability now correctly reduces enemy spell power.
+[Patch 1.2.3] * Reverberating Bash: This ability now correctly reduces enemy spell power.
 ESO Patch Note|1.5.2|* Power Slam: This ability now increases the stun duration on rank up instead of disorient duration.
 - Reverberating Bash: This ability now reduces healing taken by 40% for 8 seconds; this effect applies even if your target is stun immune.
 ESO Patch Note|1.6.5|* Power Slam: The tooltip for this ability will now display the correct stun duration.
 - Reverberating Bash: This ability now applies the buff Major Defile for 10 seconds.
-* Reverberating Bash: Fixed an issue where you could not reliably use Break Free against the stun from this ability and its morphs.
+[Patch 2.3.5] * Reverberating Bash: Fixed an issue where you could not reliably use Break Free against the stun from this ability and its morphs.
 ESO Patch Note|2.4.5|* The disorient from this ability and the Reverberating Bash morph has been removed, but the stun has been increased to 3 seconds, up from 2 seconds.
 - Power Slam: This morph has been redesigned. It deals significantly increased damage, but it no longer stuns your target. Blocking an attack increases the damage of your next Power Slam even further.
-* Fixed an issue where this ability and its morphs could not proc Weapon Enchantments or Poisons.
-* Reverberating Bash: Decreased the duration of the Major Defile debuff to 4 seconds from 10 seconds.
+[Patch 2.7.5] * Fixed an issue where this ability and its morphs could not proc Weapon Enchantments or Poisons.
+[Patch 4.1.5] * Reverberating Bash: Decreased the duration of the Major Defile debuff to 4 seconds from 10 seconds.
 ESO Patch Note|5.1.5|* This ability is now considered a "spammable" attack, and adjustments have been made to properly place it in that category.
 - This ability no longer stuns at base.
 - Increased the damage dealt by all versions of this ability by approximately 94%.
@@ -58,4 +58,4 @@ ESO Patch Note|5.1.5|* This ability is now considered a "spammable" attack, and 
 ESO Patch Note|7.3.5|* The damage from this ability and its morphs' are now considered Bash damage and interrupts casting targets. This means the damage will increase with bonuses to Bash, as well as triggering events that require you to deal Bash damage. It will not, however, inherit cost reduction bonuses to Bash.
 - Power Slam (morph): The bonus from this ability, Resentment, no longer stacks up to 10 times. It now simply increases the damage of your next Power Slam by 33%.
 - Developer Comment: In efforts to inject some life into an incredibly niche play style, we've significantly amped up the viability of Bash builds by giving them a true spammable. We are aware of how much power is behind Bash builds, however, so we'll be keeping a close eye on this functionality and see if we need to tone down the base damage to make up for its ability to stack with new bonuses.
-* Power Slam (morph): This morph's passive, Resentment, now reduces the cost of your next Power Slam by up to 50%, rather than increasing its damage by 33%.
+[Patch 8.0.5] * Power Slam (morph): This morph's passive, Resentment, now reduces the cost of your next Power Slam by up to 50%, rather than increasing its damage by 33%.

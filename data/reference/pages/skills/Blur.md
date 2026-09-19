@@ -39,15 +39,15 @@ Blur reduces your damage from area attacks and reduces the cost of your next Rol
 File:ON-skill-Mirage.jpg|Mirage
 
 ## Patch Notes
-* Double Take: This ability now displays its graphical effect at the correct time.
+[Patch 1.5.2] * Double Take: This ability now displays its graphical effect at the correct time.
 ESO Patch Note|1.6.5|* Blur now grants the Major Evasion buff.
 - Mirage: This ability now grants the Minor Resolve buff, and the cost now scales at the correct interval on rank up. The tooltip for rank 1 of this ability now lists the correct duration at 26 seconds.
 - Double Take: This ability now grants the Major Expedition buff for four seconds, and the cost now scales at the correct interval on rank up.
-* Fixed an issue with this ability and its morphs that was causing the visual effects to pop out rather than fade out.
+[Patch 2.6.4] * Fixed an issue with this ability and its morphs that was causing the visual effects to pop out rather than fade out.
 ESO Patch Note|5.0.5|* Double Take (morph): Renamed and reworked this morph.
 - Renamed this morph to Phantasmal Escape.
 - This morph no longer grants Major Expedition for 4 seconds. Instead, it grants immunity to snare and immobilizes for 2.5 to 4 seconds, based on the rank.
 - This morph no longer becomes cheaper as ability ranks up.
 ESO Patch Note|8.1.5|* This ability and its morphs now reduce the cost of your next Roll Dodge by 10% whenever you take direct damage, stacking up to a maximum of 100%, with a half second cooldown between each stack.
 - Reduced the duration of this ability and its morphs to 20 seconds, down from 26.
-* Moved Blur and its morphs out of the Assassination skill line and into the Shadow skill line. Blur is now the first ability in the Shadow line, taking the place of Veiled Strike. This means Blur and its morphs will now be treated as Shadow abilities and interact with augments that come from the Shadow skill line, rather than the Assassination skill line.
+[Patch 10.1.5] * Moved Blur and its morphs out of the Assassination skill line and into the Shadow skill line. Blur is now the first ability in the Shadow line, taking the place of Veiled Strike. This means Blur and its morphs will now be treated as Shadow abilities and interact with augments that come from the Shadow skill line, rather than the Assassination skill line.

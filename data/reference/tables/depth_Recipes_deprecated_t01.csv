@@ -1,0 +1,58 @@
+,Name,RI,RQ,Food,Recipe Drop,Ingredients,Effect
+,Battaglir Loaf,RI 1,RQ 1,Level 5 Food,20px|Daggerfall Covenant Character,Battaglir Weeds and Meal,Max Health +99
+,Bear Flank Pie (Recipe),RI 1,RQ 1,Level 10 Food,20px|Daggerfall Covenant Character,Bear Haunch and Meal,Max Health +144
+,Fortified Bear Flank Pie (Recipe),RI 1,RQ 2,Level 10 Food,20px|Daggerfall Covenant Character,Bear Haunch and Meal,Max Health and Magicka +136
+,Capon Tinish (Recipe),RI 1,RQ 1,Level 1 Food,20px|Daggerfall Covenant Character,Capon Meat and Meal,Max Health +63
+,Goatherd's Pie (Recipe),RI 1,RQ 1,Level 1 Food,20px|Ebonheart Pact Character,Goat Meat and Meal,Max Health +63
+,Guar Quiche (Recipe),RI 1,RQ 1,Level 5 Food,20px|Aldmeri Dominion Character,Guar Eggs and Meal,Max Health +99
+,Kwama Quiche (Recipe),RI 1,RQ 1,Level 5 Food,20px|Ebonheart Pact Character,Kwama Eggs and Meal,Max Health +99
+,Liverwurst Tart (Recipe),RI 1,RQ 1,Level 15 Food,20px|Aldmeri Dominion Character,Liver and Meal,Max Health +189
+,Fortified Liverwurst Tart (Recipe),RI 1,RQ 2,Level 15 Food,20px|Aldmeri Dominion Character,Liver and Meal,Max Health and Magicka +172
+,Mutton Pie (Recipe),RI 1,RQ 1,Level 15 Food,20px|Daggerfall Covenant Character,Mutton Flank and Meal,Max Health +189
+,Fortified Mutton Pie (Recipe),RI 1,RQ 2,Level 15 Food,20px|Daggerfall Covenant Character,Mutton Flank and Meal,Max Health and Magicka +172
+,Scuttle Baguette (Recipe),RI 1,RQ 1,Level 10 Food,20px|Ebonheart Pact Character,Scuttle Meat and Meal,Max Health +144
+,Fortified Scuttle Baguette (Recipe),RI 1,RQ 2,Level 10 Food,20px|Ebonheart Pact Character,Scuttle Meat and Meal,Max Health and Magicka +136
+,Sweetbread (Recipe),RI 1,RQ 1,Level 10 Food,20px|Aldmeri Dominion Character,Sweetmeats and Meal,Max Health +144
+,Fortified Sweetbread (Recipe),RI 1,RQ 2,Level 10 Food,20px|Aldmeri Dominion Character,Sweetmeats and Meal,Max Health and Magicka +136
+,Trotter Pie (Recipe),RI 1,RQ 1,Level 1 Food,20px|Aldmeri Dominion Character,Pork and Meal,Max Health +63
+,Worm Tart (Recipe),RI 1,RQ 1,Level 15 Food,20px|Ebonheart Pact Character,Plump Worms and Meal,Max Health +189
+,Fortified Worm Tart (Recipe),RI 1,RQ 2,Level 15 Food,20px|Ebonheart Pact Character,Plump Worms and Meal,Max Health and Magicka +172
+,Combwort Flatbread (Recipe),RI 2,RQ 1,Level 20 Food,20px|Daggerfall Covenant Character,Combwort and Milled Flour,Max Health +234
+,Fortified Combwort Flatbread (Recipe),RI 2,RQ 2,Level 20 Food,20px|Daggerfall Covenant Character,Combwort and Milled Flour,Max Health and Magicka +208
+,Goat Dumplings (Recipe),RI 2,RQ 1,Level 20 Food,20px|Aldmeri Dominion Character,Goat Bits and Milled Flour,Max Health +234
+,Fortified Goat Dumplings (Recipe),RI 2,RQ 2,Level 20 Food,20px|Aldmeri Dominion Character,Goat Bits and Milled Flour,Max Health and Magicka +208
+,Maggot Haggis (Recipe),RI 2,RQ 1,Level 25 Food,20px|Ebonheart Pact Character,Plump Maggots and Milled Flour,Max Health +279
+,Fortified Maggot Haggis (Recipe),RI 2,RQ 2,Level 25 Food,20px|Ebonheart Pact Character,Plump Maggots and Milled Flour,Max Health and Magicka +244
+,Moon Sugar Biscuits (Recipe),RI 2,RQ 1,Level 25 Food,20px|Aldmeri Dominion Character,Moon Sugar and Milled Flour,Max Health +279
+,Fortified Moon Sugar Biscuits (Recipe),RI 2,RQ 2,Level 25 Food,20px|Aldmeri Dominion Character,Moon Sugar and Milled Flour,Max Health and Magicka +244
+,Rodent Muffins (Recipe),RI 2,RQ 1,Level 20 Food,20px|Ebonheart Pact Character,Plump Rodent Toes and Milled Flour,Max Health +234
+,Fortified Rodent Muffins (Recipe),RI 2,RQ 2,Level 20 Food,20px|Ebonheart Pact Character,Plump Rodent Toes and Milled Flour,Max Health and Magicka +208
+,Venison Pasty (Recipe),RI 2,RQ 1,Level 25 Food,20px|Daggerfall Covenant Character,Venison and Milled Flour,Max Health +279
+,Fortified Venison Pasty (Recipe),RI 2,RQ 2,Level 25 Food,20px|Daggerfall Covenant Character,Venison and Milled Flour,Max Health and Magicka +244
+,Chaurus Dumplings (Recipe),RI 3,RQ 1,Level 30 Food,20px|Ebonheart Pact Character,Chaurus Meat and Sifted Flour,Max Health +324
+,Fortified Chaurus Dumplings (Recipe),RI 3,RQ 2,Level 30 Food,20px|Ebonheart Pact Character,Chaurus Meat and Sifted Flour,Max Health and Magicka +280
+,Crawdad Quiche (Recipe),RI 3,RQ 1,Level 30 Food,20px|Aldmeri Dominion Character,Crawdad and Sifted Flour,Max Health +324
+,Fortified Crawdad Quiche (Recipe),RI 3,RQ 2,Level 30 Food,20px|Aldmeri Dominion Character,Crawdad and Sifted Flour,Max Health and Magicka +280
+,Flank Pie (Recipe),RI 3,RQ 1,Level 35 Food,20px|Daggerfall Covenant Character,Flank Steak and Sifted Flour,Max Health +369
+,Fortified Flank Pie (Recipe),RI 3,RQ 2,Level 35 Food,20px|Daggerfall Covenant Character,Flank Steak and Sifted Flour,Max Health and Magicka +316
+,Consummate Flank Pie (Recipe),RI 3,RQ 3,Level 35 Food,20px|Daggerfall Covenant Character,Flank Steak and Sifted Flour,"Max Health, Magicka and Stamina +270"
+,Frog Muffin (Recipe),RI 3,RQ 1,Level 35 Food,20px|Ebonheart Pact Character,Frog Legs and Sifted Flour,Max Health +369
+,Fortified Frog Muffin (Recipe),RI 3,RQ 2,Level 35 Food,20px|Ebonheart Pact Character,Frog Legs and Sifted Flour,Max Health and Magicka +316
+,Consummate Frog Muffin (Recipe),RI 3,RQ 3,Level 35 Food,20px|Ebonheart Pact Character,Frog Legs and Sifted Flour,"Max Health, Magicka and Stamina +270"
+,Horker Loaf (Recipe),RI 3,RQ 1,Level 30 Food,20px|Daggerfall Covenant Character,Horker Meat and Sifted Flour,Max Health +324
+,Fortified Horker Loaf (Recipe),RI 3,RQ 2,Level 30 Food,20px|Daggerfall Covenant Character,Horker Meat and Sifted Flour,Max Health and Magicka +280
+,Saltrice Biscuits (Recipe),RI 3,RQ 1,Level 35 Food,20px|Aldmeri Dominion Character,Saltrice and Sifted Flour,Max Health +369
+,Fortified Saltrice Biscuits (Recipe),RI 3,RQ 2,Level 35 Food,20px|Aldmeri Dominion Character,Saltrice and Sifted Flour,Max Health and Magicka +316
+,Consummate Saltrice Biscuits (Recipe),RI 3,RQ 3,Level 35 Food,20px|Aldmeri Dominion Character,Saltrice and Sifted Flour,"Max Health, Magicka and Stamina +270"
+,Beef Pasty (Recipe),RI 4,RQ 1,Level 40 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Beef and Cake Flour,Max Health +414
+,Fortified Beef Pasty (Recipe),RI 4,RQ 2,Level 40 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Beef and Cake Flour,Max Health and Magicka +352
+,Consummate Beef Pasty (Recipe),RI 4,RQ 3,Level 40 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Beef and Cake Flour,"Max Health, Magicka and Stamina +299"
+,Shank-and-Potato Pie (Recipe),RI 4,RQ 1,Level 45 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Shank and Cake Flour,Max Health +459
+,Fortified Shank-and-Potato Pie (Recipe),RI 4,RQ 2,Level 45 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Shank and Cake Flour,Max Health and Magicka +388
+,Consummate Shank-and-Potato Pie (Recipe),RI 4,RQ 3,Level 45 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Shank and Cake Flour,"Max Health, Magicka and Stamina +328"
+,Mud Crab Cakes (Recipe),RI 5,RQ 1,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mudcrab Meat and Baker's Flour,Max Health +504
+,Fortified Mud Crab Cakes (Recipe),RI 5,RQ 2,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mudcrab Meat and Baker's Flour,Max Health and Magicka +424
+,Consummate Mud Crab Cakes (Recipe),RI 5,RQ 3,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mudcrab Meat and Baker's Flour,"Max Health, Magicka and Stamina +357"
+,Sweetroll (Recipe),RI 6,RQ 1,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Honey Comb and Imperial Flour,Max Health +558
+,Fortified Sweetroll (Recipe),RI 6,RQ 2,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Honey Comb and Imperial Flour,Max Health and Magicka +468
+,Consummate Sweetroll (Recipe),RI 6,RQ 3,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Honey Comb and Imperial Flour,"Max Health, Magicka and Stamina +385"

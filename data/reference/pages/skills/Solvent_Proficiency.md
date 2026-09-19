@@ -51,15 +51,15 @@ Cleansed Water | 30 | Potion of | 3
 
 Filtered Water | 40 | Solution of | 4
 
-Purified Water | 10 | Elixir of | 5
+Purified Water | CP10 | Elixir of | 5
 
-Cloud Mist | 50 | Panacea of | 6
-
-|
-Star Dew | 100 | Distillate of | 7
+Cloud Mist | CP50 | Panacea of | 6
 
 |
-Lorkhan's Tears | 150 | Essence of | 8
+Star Dew | CP100 | Distillate of | 7
+
+|
+Lorkhan's Tears | CP150 | Essence of | 8
 
 ### Poison Solvents
 colspan=2|Solvent | Poison Level | Poison Suffix | 32
@@ -74,15 +74,15 @@ Gall | 30 | Poison IV | 3
 
 Terebinthine | 40 | Poison V | 4
 
-Pitch-Bile | 10 | Poison VI | 5
+Pitch-Bile | CP10 | Poison VI | 5
 
-Tarblack | 50 | Poison VII | 6
-
-|
-Night-Oil | 100 | Poison VIII | 7
+Tarblack | CP50 | Poison VII | 6
 
 |
-Alkahest | 150 | Poison IX | 8
+Night-Oil | CP100 | Poison VIII | 7
+
+|
+Alkahest | CP150 | Poison IX | 8
 
 ## Patch Notes
-Woodworking]], and Solvent Proficiency to match the facing of subsequent ranks.
+[Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.

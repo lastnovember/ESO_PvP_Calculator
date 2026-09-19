@@ -18,7 +18,7 @@ linerank2=50
 Balanced Warrior increases your Weapon Damage and Spell Damage and your resistances.
 
 ## Patch Notes
-* Increased the weapon damage from this passive to 3% at Rank I, and 6% at Rank II.
+[Patch 1.6.5] * Increased the weapon damage from this passive to 3% at Rank I, and 6% at Rank II.
 ESO Patch Note|7.1.5|* The following passives and player abilities now grant hybrid stats to help improve their viability and accessibility to off-meta builds, because we love them too:
 - Agility: Now grants equal Weapon and Spell Damage.
 - Balanced Warrior:

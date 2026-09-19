@@ -37,4 +37,4 @@ File:ON-skill-Remedy Cascade (crux).jpg|Remedy Cascade and its morphs' 3 Crux ca
 File:ON-skill-Curative Surge.jpg|Curative Surge morph's visual
 
 ## Patch Notes
-* This ability and its morphs now properly prioritize the lowest health allies in the area.
+[Patch 10.3.5] * This ability and its morphs now properly prioritize the lowest health allies in the area.

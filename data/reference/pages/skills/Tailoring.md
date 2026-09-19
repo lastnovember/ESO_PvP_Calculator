@@ -47,49 +47,49 @@ The materials used to craft Clothing items are as follows:
 #### Light Armor
 Raw Material | Refined Into | class=unsortable|Used To Make... | Level
 
-Raw Jute | Jute | Homespun Armor | R 0|1 - 14
+Raw Jute | Jute | Homespun Armor | 0|1 - 14
 
-Raw Flax | Flax | Linen Armor | R 1|16 - 24
+Raw Flax | Flax | Linen Armor | 1|16 - 24
 
-Raw Cotton | Cotton | Cotton Armor | R 2|26 - 34
+Raw Cotton | Cotton | Cotton Armor | 2|26 - 34
 
-Raw Spidersilk | Spidersilk | Spidersilk Armor | R 3|36 - 44
+Raw Spidersilk | Spidersilk | Spidersilk Armor | 3|36 - 44
 
-Raw Ebonthread | Ebonthread | Ebonthread Armor | R 4|46 - 50
+Raw Ebonthread | Ebonthread | Ebonthread Armor | 4|46 - 50
 
-Raw Kreshweed | Kresh Fiber | Kresh Armor | R 5|10 - 30
+Raw Kreshweed | Kresh Fiber | Kresh Armor | 5|CP10 - 30
 
-Raw Ironweed | Ironthread | Ironthread Armor | R 6|40 - 60
+Raw Ironweed | Ironthread | Ironthread Armor | 6|CP40 - 60
 
-Raw Silverweed | Silverweave | Silverweave Armor | R 7|70 - 80
+Raw Silverweed | Silverweave | Silverweave Armor | 7|CP70 - 80
 
-Raw Void Bloom | Void Cloth | Shadowspun Armor | R 8|90 - 140
+Raw Void Bloom | Void Cloth | Shadowspun Armor | 8|CP90 - 140
 
-Raw Ancestor Silk | Ancestor Silk | Ancient Silk Armor | R 9|150 - 160
+Raw Ancestor Silk | Ancestor Silk | Ancient Silk Armor | 9|CP150 - 160
 
 #### Medium Armor
 Raw Material | Refined Into | class=unsortable|Used To Make... | Level
 
-Rawhide Scraps | Rawhide | Rawhide Armor | R 0|1 - 14
+Rawhide Scraps | Rawhide | Rawhide Armor | 0|1 - 14
 
-hide| Hide Scraps | hide| Hide | Hide Armor | R 1|16 - 24
+hide| Hide Scraps | hide| Hide | Hide Armor | 1|16 - 24
 
-Leather Scraps | Leather | Leather Armor | R 2|26 - 34
+Leather Scraps | Leather | Leather Armor | 2|26 - 34
 
-Thick Leather Scraps | Thick Leather | Full-Leather Armor | R 3|36 - 44
+Thick Leather Scraps | Thick Leather | Full-Leather Armor | 3|36 - 44
 
-fell| Fell Hide Scraps | fell| Fell Hide | Fell Armor | R 4|46 - 50
+fell| Fell Hide Scraps | fell| Fell Hide | Fell Armor | 4|46 - 50
 
-Topgrain Hide Scraps | Topgrain Hide | Brigadine Armor | R 5|10 - 30
+Topgrain Hide Scraps | Topgrain Hide | Brigadine Armor | 5|CP10 - 30
 
-Iron Hide Scraps | Iron Hide | Ironhide Armor | R 6|40 - 60
+Iron Hide Scraps | Iron Hide | Ironhide Armor | 6|CP40 - 60
 
-Superb Hide Scraps | Superb Hide | Superb Armor | R 7|70 - 80
+Superb Hide Scraps | Superb Hide | Superb Armor | 7|CP70 - 80
 
-Shadowhide Scraps | Shadowhide | Shadowhide Armor | R 8|90 - 140
+Shadowhide Scraps | Shadowhide | Shadowhide Armor | 8|CP90 - 140
 
-Rubedo Hide Scraps | Rubedo Leather | Rubedo Leather Armor | R 9|150 - 160
+Rubedo Hide Scraps | Rubedo Leather | Rubedo Leather Armor | 9|CP150 - 160
 
 ## Patch Notes
-* Monsters in scaled zones such as Cyrodiil, Wrothgar, and Hew's Bane will no longer drop a mixture of Rubedo Leather and Shadowhide if you have Rank 10 of the Tailoring passive. Instead, they will exclusively drop Rubedo Leather.
-Solvent Proficiency]] to match the facing of subsequent ranks.
+[Patch 2.3.6] * Monsters in scaled zones such as Cyrodiil, Wrothgar, and Hew's Bane will no longer drop a mixture of Rubedo Leather and Shadowhide if you have Rank 10 of the Tailoring passive. Instead, they will exclusively drop Rubedo Leather.
+[Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.

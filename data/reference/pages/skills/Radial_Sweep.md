@@ -41,8 +41,8 @@ Radial Sweep deals Magic Damage to all nearby enemies with an additional damage 
 File:ON-skill-Radial_Sweep-Pulse.jpg|Radial Sweep's damage pulse
 
 ## Patch Notes
-* Empowering Sweep: This Ultimate ability now gives 15% damage reduction and +4% damage reduction for each target hit instead of increasing your armor.
-* Radial Sweep and all morphs are now a player-based area of effect attack that will also deal damage every 2 seconds for 6 seconds, to enemies within 5 meters.
+[Patch 1.2.3] * Empowering Sweep: This Ultimate ability now gives 15% damage reduction and +4% damage reduction for each target hit instead of increasing your armor.
+[Patch 1.6.5] * Radial Sweep and all morphs are now a player-based area of effect attack that will also deal damage every 2 seconds for 6 seconds, to enemies within 5 meters.
 ESO Patch Note|2.3.5|* Increased the radius of this ability and its morphs to 6 meters from 5 meters.
 - Crescent Sweep: Increased the bonus to the initial hit provided by this morph to 66% more damage dealt from 33%.
 - Empowering Sweep: Increased the duration of the damage reduction provided by this morph to 10 seconds from 8 seconds.
@@ -61,7 +61,7 @@ ESO Patch Note|5.2.5|* In efforts to improve performance, the visual effects fro
 - Aurora Javelin
 - Puncturing Strikes and morphs
 - Sun Shield and morphs
-*This ultimate and its morphs now have a minor cast time to help better sync their damage and animation, as well as adding more time for counter play to react.
+[Patch 6.1.5] *This ultimate and its morphs now have a minor cast time to help better sync their damage and animation, as well as adding more time for counter play to react.
 ESO Patch Note|8.3.5|* Empowering Sweep/Everlasting Sweep:
 - Increased the duration of the pulsing Damage over Time to 10 seconds at base, up from 6 seconds.
 - This morph no longer grants Empower, as Solar Flare and its morphs already grant this buff. As such, the name has been adjusted to prevent confusion.

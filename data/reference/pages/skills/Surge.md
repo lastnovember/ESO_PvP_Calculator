@@ -45,8 +45,8 @@ ESO Patch Note|1.6.5|* This ability now applies the Major Brutality buff.
 - Critical Surge: This ability now correctly lists a 20-second duration in its tooltip.
 ESO Patch Note|2.4.5|* This ability and its morphs now restore a flat value of health whenever you deal a Critical Strike. It will now also proc on any Critical Strike instead of only direct damage Critical Strikes, but can only restore health once every second.
 - This ability and the Power Surge morph have also had their healing increased by approximately 30%
-* This ability and its morphs now use your highest critical strike rating to determine their Critical Strike chance.
+[Patch 3.1.5] * This ability and its morphs now use your highest critical strike rating to determine their Critical Strike chance.
 ESO Patch Note|5.1.5|* Critical Surge: Increased the healing granted from this morph by 10%.
 - Power Surge: This morph now grants its healing to up to 6 targets, but will trigger off Critical Heals rather than Critical Damage. The cooldown is 3 seconds rather than 1, to ensure it offers similar healing to other AoE heal over times.
-* This ability and its morphs now grant Major Brutality and Sorcery at base.
-* Fixed an issue where the Major Sorcery granted from this ability was not ranking up in duration.
+[Patch 5.2.5] * This ability and its morphs now grant Major Brutality and Sorcery at base.
+[Patch 8.0.5] * Fixed an issue where the Major Sorcery granted from this ability was not ranking up in duration.

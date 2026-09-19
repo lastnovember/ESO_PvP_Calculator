@@ -16,4 +16,4 @@ linerank2=9
 Feral Cruelty increases your damage dealt and resistances while in Werewolf form.
 
 ## Patch Notes
-*Savage Strength -> Feral Cruelty: Increased the amount of Weapon and Spell Damage granted from this passive to 12/25%, up from 9/18%.
+[Patch 12.0.5] *Savage Strength -> Feral Cruelty: Increased the amount of Weapon and Spell Damage granted from this passive to 12/25%, up from 9/18%.

@@ -54,7 +54,7 @@ ESO Patch Note|3.0.5|* It is now possible to use the Blade of Woe on men and mer
 - Village of the Lost
 ESO Patch Note|3.3.5|* Fixed an issue where some non-humanoid or boss-difficulty monsters could be killed using the Blade of Woe.
 - A number of world bosses have installed thick metal backplates in response to a recent publication of "An Occultist's Guide to Preternatural Stabbing," which included a brief description of the Blade of Woe.
-* Fixed an issue where the Blade of Woe ability could not be used after you received a Synergy from another player.
+[Patch 3.3.7] * Fixed an issue where the Blade of Woe ability could not be used after you received a Synergy from another player.
 ESO Patch Note|4.1.5|* Bloodfiends that could previously be targeted by the Blade of Woe are no longer subject to its powers. The Blade of Woe is no longer available against all bloodfiends, instead of sometimes working and sometimes not.
 - Yet more citizens have become careless and can now be killed with the Blade of Woe.
-* Pahmar-raht can no longer be killed using the Blade of Woe. Sorry.
+[Patch 5.0.8] * Pahmar-raht can no longer be killed using the Blade of Woe. Sorry.

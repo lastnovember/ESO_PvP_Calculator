@@ -1,0 +1,22 @@
+Icon,Name,Points,Description
+Damage
+,Bruiser,50,Deal at least 5k damage
+,Fearsome Fighter,100,Deal at least 25k damage
+,Gladiator,200,Deal at least 50k damage
+,Champion,400,Deal at least 500k damage
+,Heavy Hitter,5*,Score a 10k damage hit
+,Crushing Blow,10*,Score a 11.75k damage hit
+Healing
+,Minor Mender,50,Heal for at least 5k damage
+,Heroic Healer,100,Heal for at least 25k damage
+,Medic,200,Heal for at least 50k damage
+,Fearless Physician,400,Heal for at least 375k damage
+,Critical Heal,5*,Score a 7.5k healing hit
+,Rapid Recovery,10*,Score a 15k healing hit
+Kills
+,First Strike,111,Earn the 1st killing blow
+,Assist,100*,Help a team mate kill an enemy player
+,Killing Blow,100*,Earn a killing blow
+,Double Kill,222*,Kill a player within 10 seconds of a prior kill
+,Triple Kill,333*,Kill a player within 10 seconds of earning a Double kill
+,Quadruple Kill,444*,Kill a player within 10 seconds of earning a Triple kill

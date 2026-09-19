@@ -16,6 +16,6 @@ linerank1=22
 linerank2=36
 
 ## Patch Notes
-Rune Prison]] ability.
-* This passive now reduces the cost of your next Magicka or Stamina ability used within 4 seconds by 7/15% after you block an attack.
-* This passive now reduces the cost of your next Health, Magicka, or Stamina ability after blocking by 9/18%, up from 7/15%.
+[Patch 1.1.2] * Fixed an issue this passive ability. It now properly increases the duration of the Rune Prison ability.
+[Patch 4.0.5] * This passive now reduces the cost of your next Magicka or Stamina ability used within 4 seconds by 7/15% after you block an attack.
+[Patch 11.0.5] * This passive now reduces the cost of your next Health, Magicka, or Stamina ability after blocking by 9/18%, up from 7/15%.

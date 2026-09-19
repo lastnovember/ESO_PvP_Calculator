@@ -18,5 +18,5 @@ linerank2=50
 Battlefield Mobility increases your movement speed while blocking with a Shield. Note that you will still be slower while blocking than not blocking, but by a lesser degree.
 
 ## Patch Notes
-* Increased this ability's speed bonus from 25%/50% to 30%/60%.
-* This passive now more accurately describes what it does.
+[Patch 1.5.2] * Increased this ability's speed bonus from 25%/50% to 30%/60%.
+[Patch 5.3.4] * This passive now more accurately describes what it does.

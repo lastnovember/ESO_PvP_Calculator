@@ -1,0 +1,19 @@
+Zone / Dungeon,Specific Location,Reaction,Difficulty,Health
+City of Ash II,Ash Titan battle,Hostile,50px,
+Craglorn,Celestial Rifts in the Elinhir Region and Upper Craglorn,Hostile,50px,sl
+Lower Craglorn,Magical Anomalies,Hostile,50px,"1,846,117"
+Lower Craglorn,Unnamed areas in the region,Hostile,,"44,805"
+Lower Craglorn,"Elinhir, Spellscar",Hostile,,"59,151"
+Craglorn Vvardenfell,"Balamath Ebernanit, Yasammidan",Hostile,,ba
+Moon Gate of Anequina,Summoned during battle by Lieutenant Artorius and Lieutenant Herennius during the quest Jode's Core,Hostile,,s
+Plane of Jode,Summoned by Mulaamnir,Hostile,50px,
+Rimmen Palace,Summoned by Euraxian Tharn during the quest The Usurper Queen,Friendly,,ncf
+Summoned during battle by Euraxia Tharn during the quest Two Queens,Hostile,,s
+Dragonhome,Delve occupants,Hostile,,a
+Summoned during battle by Aspirant Yolstagg,Hostile,,w
+Black Drake VillaFlames of Ambition,Summoned by Captain Geminus,Hostile,50px,(Hard Mode)
+"The DeadlandsThe Deadlands Apocrypha, Telvanni Peninsula The Scholarium","Annihilarch's Summit, Deadlight, Destruction's Solace, Fort Grief Citadel, Fort Sundercliff, The Sever, The Tempest EngineThe Deadlands Gorne, Tel Rendys, The Disquiet Study The Scholarium Ruins",Hostile,,a
+Amenos Basin,Summoned by Rosara the Theurge,Hostile,50px,em
+The Parch,Skirmish,Hostile,,"792,464"
+Summoned by the Argent Ash Titan,Hostile,50px,"3,381,179"
+ON:|,ON:|,,,

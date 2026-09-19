@@ -18,4 +18,4 @@ linerank2=46
 Ruffian increases your damage against enemies when they have a variety of debilitating effects on them.
 
 ## Patch Notes
-* This passive is no longer lost when you die.
+[Patch 1.3.3] * This passive is no longer lost when you die.

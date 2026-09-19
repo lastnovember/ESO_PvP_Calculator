@@ -21,10 +21,10 @@ Fan the Flames increases the chance and damage of the Burning status effect, wit
 - Prior to Update 49, the passive's name was Searing Heat.
 
 ## Patch Notes
-* Fixed an issue where Rank II of this passive ability was increasing the duration of the heal over time buff from Power Lash.
+[Patch 3.3.7] * Fixed an issue where Rank II of this passive ability was increasing the duration of the heal over time buff from Power Lash.
 ESO Patch Note|5.1.5|* Rank II of this passive now increases the duration of the affected abilities by 4 seconds, up from 2. It also increases the damage dealt of the abilities by 10%, up from 3%.
 - Developer Comment: These changes were done to ensure these abilities keep up with our current DoT standards, and to help emphasize the Dragonknight's more attrition-based combat style.
 ESO Patch Note|5.2.5|* Fixed an issue where Rank II of this ability was applying its damage done to all Ardent Flame abilities, rather than only the listed ones.
 - Increased the damage bonus to 33% from 10% to help distinguish the Dragonknight's Damage over Time abilities as superior to others.
-* Reduced the damage done bonus from this passive to 25%, down from 33%.
-*Renamed from Searing Heat to Fan the Flames. This passive now increases your chance of applying Burning by 25/50% and the damage it does by 12/25%. These values increase by 5/10% (chance) and 2/5% (damage) per Dragonknight ability slotted. This passive no longer extends the duration or damage of some of your Ardent Flame abilities.
+[Patch 8.1.5] * Reduced the damage done bonus from this passive to 25%, down from 33%.
+[Patch 11.3.4] *Renamed from Searing Heat to Fan the Flames. This passive now increases your chance of applying Burning by 25/50% and the damage it does by 12/25%. These values increase by 5/10% (chance) and 2/5% (damage) per Dragonknight ability slotted. This passive no longer extends the duration or damage of some of your Ardent Flame abilities.

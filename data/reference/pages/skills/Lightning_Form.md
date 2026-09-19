@@ -45,11 +45,11 @@ File:ON-skill-Hurricane zone 2.jpg|Hurricane morph's second zone visual
 File:ON-skill-Hurricane zone 3.jpg|Hurricane morph's third zone visual
 
 ## Patch Notes
-* This ability now deals damage at every tick.
+[Patch 1.2.3] * This ability now deals damage at every tick.
 ESO Patch Note|1.6.5|* Lightning Form now lasts for 15 seconds and grants you the Major Resolve and Major Ward buffs.
 - Thundering Presence: This ability now starts at 20 seconds and increases in duration by one second with each rank.
 - Boundless Storm: This ability now grants the Major Expedition buff for 6 seconds.
-* Thundering Presence: Fixed an issue where recasting this morph would cause the effects to disappear.
+[Patch 2.3.5] * Thundering Presence: Fixed an issue where recasting this morph would cause the effects to disappear.
 ESO Patch Note|2.4.5|* Thundering Presence:
 - Renamed this morph to Hurricane.
 - Redesigned this morph so it now increases the size and damage of the periodic effect the longer it is active, increasing up to 225% more damage and up to 9 meters in size.
@@ -59,12 +59,12 @@ ESO Patch Note|2.6.4|* Boundless Storm: Fixed an issue where this morph's visual
 ESO Patch Note|2.7.5|* Fixed an issue where part of the visual effects for this ability and its morphs were not being displayed correctly when it was recast.
 - Hurricane (Lightning Form morph): This morph now deals 10% more damage each tick, down from 15% more damage each tick. The final tick deals 150% more damage as a result, down from 225%.
 - Developer Comment: The Hurricane ability provides Major Resolve, Major Ward, Minor Expedition, and AoE damage in a large radius. This ability over-performs relative to other class defensive abilities like Spiked Armor. Stamina Sorcerer damage was also high, so adjusting the damage on this ability brings the Stamina Sorcerer more in line with other abilities.
-* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
+[Patch 3.1.5] * In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
 ESO Patch Note|4.2.5|* This ability now grants Major Expedition for a maximum of 4 seconds instead of 7.5.
 - Developer Comment: As noted above, we want there to be variability in the positive and negative directions during combat. In Update 19, we adjusted snares down to a 4 second duration so an optimal damage rotation wouldn't include 100% up time on snares. In this update, we are adjusting Major Expedition buffs to be in line with the snare durations.
 ESO Patch Note|4.3.5|* Boundless Storm: Reduced the cost of this ability and its morphs by approximately 34%.
 - Developer Comment: After the recent changes to sourcing of Major Expedition, the morph Boundless Storm highlighted a problem of this ability where its cost was far too high for the operational power that it provided. We've based the new cost to be more in line with other sources of Major Ward and Resolve. In turn, this has brought Boundless Storm to a much healthier state where the short duration of the Major Expedition can be offset with a lesser cost, so that recasting earlier is a valid choice.
-* Boundless Storm (morph): This morph now grants the 4 seconds of Major Expedition immediately, rather than starting at 2.5 seconds and ranking up as the ability progresses. This ability's damage will now get 1.1% stronger per rank, ending in a 3.3% damage increase at Rank IV.
+[Patch 5.0.5] * Boundless Storm (morph): This morph now grants the 4 seconds of Major Expedition immediately, rather than starting at 2.5 seconds and ranking up as the ability progresses. This ability's damage will now get 1.1% stronger per rank, ending in a 3.3% damage increase at Rank IV.
 ESO Patch Note|7.3.5|* This ability and its morphs now last 20 seconds at base, up from 15, to properly match the standard duration of Armor buff abilities.
 - Boundless Storm (morph):
 - This morph now ranks up to 30 seconds at rank up, up from 23.
@@ -72,8 +72,8 @@ ESO Patch Note|7.3.5|* This ability and its morphs now last 20 seconds at base, 
 - Hurricane (morph):
 - The Area of Effect from this morph now grows at 8 and 15 seconds, rather than 6 and 11.
 - Reduced the damage bonus per tick to 8%, down from 10%. The total damage bonus will reach 160% at max stacks, up from 150%, resulting in slightly more damage.
-* Boundless Storm (morph): Fixed an issue where this ability's visual effects were not in sync with their combat effects.
+[Patch 8.0.5] * Boundless Storm (morph): Fixed an issue where this ability's visual effects were not in sync with their combat effects.
 ESO Patch Note|8.1.5|* This ability and its morphs now tick once every 2 seconds, rather than once every second.
 - Increased the damage per tick by 100%.
 - Hurricane (morph): This morph now increases in damage by 12% per tick, up from 8%. Along with the frequency adjustment, this will reduce the total maximum to 120%, down from 160%.
-* Hurricane (morph): The final damage tick of this morph no longer loses the ramping damage bonus.
+[Patch 11.0.5] * Hurricane (morph): The final damage tick of this morph no longer loses the ramping damage bonus.

@@ -1,0 +1,13 @@
+Script,Effects
+Evasion,Evasion,"Grants you Major Evasion for 20 seconds, reducing damage from area attacks by 20%."
+Expedition,Expedition,"Grants Minor Expedition for 20 seconds, increasing Movement Speed by 15%."
+Force,Force,"Grants Minor Force for 20 seconds, increasing Critical Damage by 10%."
+Lifesteal,Lifesteal,"Afflicts enemies with Minor Lifesteal for 20 seconds, healing attackers 600 Health every 1 second."
+Incompatible with Healing Vault
+Maim,Maim,"Afflicts enemies with Minor Maim for 20 seconds, reducing damage done by 5%."
+Incompatible with Healing Vault
+Off Balance,Off Balance,Sets enemies Off Balance for 7 seconds.
+Incompatible with Healing Vault
+Savagery and Prophecy,Savagery and Prophecy,"Grants you Major Savagery and Major Prophecy for 20 seconds, increasing Weapon and Spell Critical rating by 2629."
+Vulnerability,Vulnerability,"Afflicts enemies with Minor Vulnerability for 20 seconds, increasing damage taken by 5%."
+Incompatible with Healing Vault

@@ -46,4 +46,4 @@ The Potency Runes used to craft Glyphs are as follows:
 potency
 
 ## Patch Notes
-Aspect Improvement]] and Potency Improvement to more closely match their associated runestone shapes.
+[Patch 1.1.2] * Updated the icons for Enchanting passive skills Aspect Improvement and Potency Improvement to more closely match their associated runestone shapes.

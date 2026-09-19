@@ -57,7 +57,7 @@ ESO Patch Note|3.0.5|* Adjusted the order of the Active Abilities in this skill 
 - Whirlwind
 - Blade Cloak
 - Hidden Blade
-* Deadly Cloak: Reduced the damage done by this morph by approximately 15%.
+[Patch 4.0.5] * Deadly Cloak: Reduced the damage done by this morph by approximately 15%.
 ESO Patch Note|4.2.5|* This ability and its morphs now grant Major Evasion.
 - Quick Cloak: This ability now grants Major Expedition for a maximum of 4 seconds instead of 5 seconds.
 ESO Patch Note|5.0.5|* Fixed an issue with this ability and its morphs where you could fail to get the damage or any other bonuses provided. * You will now always get the pulsing damage and any other bonuses, even if the Major Evasion fails to apply due to having a longer duration bonus existing.
@@ -73,8 +73,8 @@ ESO Patch Note|5.2.5|* Increased the base duration of this ability and its morph
 - Increased base cost to 4950, up from 3024.
 - Reduced the damage per tick by approximately 18%.
 - Quick Cloak (morph): This morph now also offers cost reduction, taking the base cost to 3780.
-* Reduced the cost of this ability and its morphs to 3780, down from 4950.
-* Deadly Cloak: Reduced the visual and audio effects of this ability to once every 2 seconds, rather than every second, to make it less obnoxious. Note that it will still deal damage every second.
+[Patch 5.3.4] * Reduced the cost of this ability and its morphs to 3780, down from 4950.
+[Patch 6.3.5] * Deadly Cloak: Reduced the visual and audio effects of this ability to once every 2 seconds, rather than every second, to make it less obnoxious. Note that it will still deal damage every second.
 ESO Patch Note|7.0.5|* Increased the damage done by this ability and its morphs by approximately 25% to better reward its requirement to stay stacked on your foe, as well as to help offset the loss of effectiveness on proccing enchants and sets with the changes to Deadly Cloak.
 - Deadly Cloak (morph): This ability now deals double damage instead of doubling the tick rate. This will result in a ~9% damage increase, but will require you to stick to your target more and has less of a chance to proc other effects.
 ESO Patch Note|8.1.5|* This ability and its morphs now last for 20 seconds, up from 10.

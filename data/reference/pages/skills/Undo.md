@@ -50,9 +50,9 @@ It cannot be used to escape from other, similar multiplayer-mechanic attacks in 
 File:ON-skill-Precognition.jpg|Precognition
 
 ## Patch Notes
-* You can no longer cast this ability and its morphs while you are carrying a Chaosball or Relic in Battlegrounds, or an Elder Scroll in Cyrodiil.
+[Patch 4.0.9] * You can no longer cast this ability and its morphs while you are carrying a Chaosball or Relic in Battlegrounds, or an Elder Scroll in Cyrodiil.
 ESO Patch Note|5.3.8|* Fixed an issue where this ability could fail to properly animate your character as you rewound through time.
 - Fixed an issue where this ability could fail to rewind time.
 - Note: This fix may cause strange animation issues when using this Ultimate while standing completely still for 4 or more seconds, where your character does not get rewound in position. This particular issue will be fixed in a future patch as fixing the functionality was prioritized.
-* Fixed an issue where the animation for this ability and morphs would appear and end abruptly, making your character appear to do jazz hands erratically, if not moved with the rewind.
-* Fixed an issue where you could take fall damage when activating this Ultimate or its morphs while falling from high places.
+[Patch 6.0.5] * Fixed an issue where the animation for this ability and morphs would appear and end abruptly, making your character appear to do jazz hands erratically, if not moved with the rewind.
+[Patch 6.1.5] * Fixed an issue where you could take fall damage when activating this Ultimate or its morphs while falling from high places.

@@ -44,15 +44,15 @@ File:ON-skill-Dragonknight Standard Dominion.jpg|Dragonknight Standard (Dominion
 ESO Patch Note|1.6.5|* The Synergy for this ability will now scale off your maximum health instead of your maximum magicka.
 - Reduced the available range of this Synergy to 2.5 meters from 8 meters.
 - Increased the cost of this ability and its morph Standard of Might to 250 Ultimate.
-* Shifting Standard: Fixed an issue where the Major Defile debuff applied by this ability would stack after activating the shift ability.
+[Patch 1.6.6] * Shifting Standard: Fixed an issue where the Major Defile debuff applied by this ability would stack after activating the shift ability.
 ESO Patch Note|2.3.5|* Increased the activation range for the Shackle synergy from this ability and its morphs to 3.5 meters from 2.5 meters.
 - Shifting Standard: Reduced the cost of this morph to 200 Ultimate from 250 Ultimate.
-* Shifting Standard: Fixed an issue where the second cast of this morph was not displaying a hostile telegraph to enemy players.
+[Patch 2.6.4] * Shifting Standard: Fixed an issue where the second cast of this morph was not displaying a hostile telegraph to enemy players.
 ESO Patch Note|2.7.5|* Standard of Might (Dragonknight Standard morph): This morph now increases your damage done and decreases your damage taken by 12/13/14/15% while standing inside the standard, down from 17/18/19/20%.
 - Developer Comment: We wanted Lava Whip to hit harder since it's a melee attack without increasing the overall PvE DPS of Dragonknights. To accomplish this, we reduced the bonuses from Standard of Might by 5% and increased Lava Whip by 5%. This gives Magicka Dragonknights a bit more pressure in PvP without increasing their PvE damage.
 ESO Patch Note|3.2.5|* Shifting Standard: This morph now increases the duration of the standard to 25 seconds, and the standard can be shifted an unlimited amount of times. Shifting the standard no longer refreshes the duration, and the cost of this morph is now the same as the base ability.
 - Developer Comment: The goal of this change is to make Shifting Standard easier to use. Previously, you had to time the ability perfectly to get the maximum effectiveness out of it, and shifting the standard early penalized the duration instead of adding utility.
-Earthgore]] Item Set.
+[Patch 3.3.5] * Fixed an issue where this ability and its morphs could not be dispelled by Negate Magic or the Earthgore Item Set.
 ESO Patch Note|4.0.5|* Shifting Standard: Decreased the cost of this morph to 225 Ultimate from 250 Ultimate.
 - Shifting Standard: Fixed an issue where shifting the standard would cause it to deal slightly more damage.
 ESO Patch Note|5.0.5|* The rock textures now better align with the broken ground textures from these abilities.
@@ -60,7 +60,7 @@ ESO Patch Note|5.0.5|* The rock textures now better align with the broken ground
 - Dragonknight Standard will now rank up in 1.1% damage per rank.
 - Fixed an issue where these abilities were being considered Direct Damage, rather than Damage over Time.
 - Shifting Standard (morph): Fixed an issue where this ability was being removed before doing its final damage tick.
-* Fixed an issue where the first 3 ticks of this Ultimate and its morphs would appear to happen instantaneously.
+[Patch 5.3.4] * Fixed an issue where the first 3 ticks of this Ultimate and its morphs would appear to happen instantaneously.
 ESO Patch Note|6.1.5|* Fixed an issue where the visual effects for this ability and its morphs could end early in some cases.
 - Shifting Standard (morph): Fixed an issue where this ability would last longer than intended in some cases.
 ESO Patch Note|7.0.5|* The following abilities have received significant adjustments to how the server handles their behavior, reducing messages sent between the client and server and reducing the total amount of Area of Effect events occurring. This will largely have little to no effect on their gameplay other than improving their response time to entering or leaving the Area of Effect. In some rarer cases, it will reduce the interaction with sets that proc off application of buffs or debuffs, since you will no longer repeatedly apply these effects to targets inside the area every tick, but rather for the duration the target is inside the area. Their synergies (when applicable) have also been updated to be far more reliable to activate when in the area and they will no longer persist for a short duration after each tick, allowing you to activate them in cases where they could fail or were already used, going on cooldown with no effect, or gaining their effects despite already being used.
@@ -77,6 +77,6 @@ ESO Patch Note|7.0.5|* The following abilities have received significant adjustm
 - Nova and morphs
 - Rune Focus and morphs
 - Spear Shards and morphs
-* Shifting Standard: Fixed an issue that would cause the Ability Bar Timer to reset after recasting the ability to move it.
-* Shackle: Increased the damage of this synergy by 20% to ensure it stands up to other Ultimate synergies' power.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 8.2.5] * Shifting Standard: Fixed an issue that would cause the Ability Bar Timer to reset after recasting the ability to move it.
+[Patch 8.3.5] * Shackle: Increased the damage of this synergy by 20% to ensure it stands up to other Ultimate synergies' power.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

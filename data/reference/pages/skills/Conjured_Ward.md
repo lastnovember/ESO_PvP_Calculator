@@ -46,9 +46,9 @@ File:ON-skill-Hardened Ward.jpg|Hardened Ward morph makes a glowy effect on your
 File:ON-skill-Regenerative Ward bottom visual.jpg|Regenerative Ward morph extra blue and green visual
 
 ## Patch Notes
-* Hardened Ward: This ability now has a unique icon.
+[Patch 1.2.3] * Hardened Ward: This ability now has a unique icon.
 
-Negate Magic]] no longer share the same icon.
+[Patch 1.3.3] * The abilities Hardened Ward and Negate Magic no longer share the same icon.
 
 ESO Patch Note|2.3.5|* Empowered Ward:
 - This morph now grants the Minor Intellect buff to you and nearby allies, and will not be removed if the caster's damage shield is removed.
@@ -73,16 +73,16 @@ ESO Patch Note|4.2.5|* Conjured Ward: The total strength of this ability is now 
 - Hardened Ward: This morph now only ranks up the damage shield strength, instead of shield strength and caster self-shield bonus.
 - Developer Comment: We want players to make interesting choices when making damage shield builds. These builds now require a balance of offensive and defensive stats, where previously a damage shield user could go for all offensive stats and also get a large damage shield that mitigated the fact that they had low max health.
 
-Annulment]] and its morphs, and Conjured Ward and its morphs, where you could occasionally get stuck in the casting animations when using the abilities in quick succession with other abilities such as Block.
+[Patch 4.3.5] * Fixed an issue with Annulment and its morphs, and Conjured Ward and its morphs, where you could occasionally get stuck in the casting animations when using the abilities in quick succession with other abilities such as Block.
 
-* Hardened Ward: Fixed an issue where this ability was getting a 40% bonus to strength, rather than a 20% bonus. Please note that the previous bonus could not circumvent the health cap of 50%, so if you were already over that bonus, you will see no change to power.
+[Patch 5.0.5] * Hardened Ward: Fixed an issue where this ability was getting a 40% bonus to strength, rather than a 20% bonus. Please note that the previous bonus could not circumvent the health cap of 50%, so if you were already over that bonus, you will see no change to power.
 
 ESO Patch Note|5.1.5|* Reduced the shield size of this ability and the Empowered Ward morph by approximately 18%, and increased the cost of this ability and the Hardened Ward morph to 4320 from 3510. These changes were done to make them more comparable to the damage shield / burst heal standard.
 - Increased the shield size limit for this ability and the Empowered Ward morph to 50% of your Max Health from 40%. Hardened Ward is increased to 60% from 50%. If you would like additional insight to these changes, please read the developer comment under the Light Armor Annulment changes, which has similar adjustments.
 - Empowered Ward: The final cost of this ability is now 3780, and it no longer gains 1.1% shield size per rank as it already has a cost reduction rank up.
 - Hardened Ward: Reduced the shield size of this ability by approximately 9%.
 
-* Empowered Ward (morph): This morph now also grants you and allies Minor Endurance as well.
+[Patch 8.1.5] * Empowered Ward (morph): This morph now also grants you and allies Minor Endurance as well.
 
 ESO Patch Note|8.3.5|* Increased the damage shield size of this ability and the Regenerative Ward morph by 10%.
 - Increased the Max Health cap of these abilities to 55%, up from 50%.

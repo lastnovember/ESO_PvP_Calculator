@@ -12,7 +12,7 @@ imgdesc=Cyrodiil
 mapworld=ava_whole
 mapname=
 level=10+ (See note)
-battle_level=150
+battle_level=CP150
 quests=1
 delves=18
 pois=47
@@ -410,7 +410,7 @@ At the top of White Fall Mountain
 
 ## Notes
 - Each alliance controls a number of safe areas within Cyrodiil. These places are indicated on the wiki using different iconography depending on the function of the area. See Safe Zones for details.
-- Unlike most other zones, Cyrodiil had no set level range before One Tamriel. It could be accessed at and battle-leveling combined with the many campaign bonuses made it possible for lower level players to participate in PvP. PvE enemies were last set at 140 (), although previously they were scaled to,, and originally. The Imperial City was scaled to 160 ().
+- Unlike most other zones, Cyrodiil had no set level range before One Tamriel. It could be accessed at and battle-leveling combined with the many campaign bonuses made it possible for lower level players to participate in PvP. PvE enemies were last set at CP140 (), although previously they were scaled to,, and originally. The Imperial City was scaled to CP160 ().
 - Cyrodiil is the largest zone in Elder Scrolls Online, and to make sure battles can be won, there is limited fast-traveling. It is a good idea to bring a horse as it can take some time to travel on foot between areas. You cannot fast-travel to a keep under attack; you must make your way on foot or horseback.
 - Some villages are alliance-neutral - no NPCs will pose a threat. However, alliance-affiliated NPC guards will patrol towns controlled by alliances, and they will react to enemy alliance players. Other villages have been overrun by enemy factions who will attack anyone regardless of their affiliation.
 

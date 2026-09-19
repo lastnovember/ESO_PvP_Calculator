@@ -1,0 +1,281 @@
+{{Trail|Crafting}}{{Mod Header|Summerset}}
+{{/Progression}}
+'''Jewelry Crafting''' is a skill line that was released along with the ''[[Online:Summerset (Chapter)|Summerset]]'' [[Online:Chapters|Chapter]] in June 2018.  It for the first time allows you to craft and improve [[ON:Jewelry|Jewelry]], including the ability to make jewelry items in all [[ON:Craftable Sets|Craftable Sets]].  It works in a similar fashion to the [[ON:Blacksmithing|Blacksmithing]], [[ON:Clothing|Clothing]], and [[ON:Woodworking|Woodworking]] lines, with researchable traits and associated trait items, harvestable leveled materials, and crafting sites added in all regular crafting areas.
+
+In addition to rings and necklaces, the Jewelry Crafting skill allows you to craft [[ON:Furnishing Sketches|furnishings]] for your home.
+
+== Learning ==
+The Jewelry Crafting skill line is granted the first time you activate a jewelry station (assuming you have access to the ''Summerset'' Chapter).  You can increase your skill by crafting or deconstructing jewelry, and by completing [[ON:Jewelry Crafting Writ|Jewelry Crafting Writs]], which are available after completing [[Online:Jewelry Crafting Certification|Jewelry Crafting Certification]].  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Jewelry Crafting are:
+*[[ON:Jewels of Yokuda|Jewels of Yokuda]]
+*[[ON:The Pretension of High Elf Jewelry|The Pretension of High Elf Jewelry]]
+
+{{NewLine}}
+
+==Skill Perks==
+Jewelry Crafting has an associated skill line that is revealed through use of the Jewelry Crafting profession. Abilities are listed below.
+===Passive Abilities===
+Passive abilities are active all the time, and affect the outcome of Jewelry Crafting related activities.
+{|class="wikitable"
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Engraver}}
+{{Online Skill Link|Keen Eye: Jewelry}}
+{{Online Skill Link|Jewelry Extraction}}
+{{Online Skill Link|Lapidary Research}}
+{{Online Skill Link|Platings Expertise}}
+|}
+
+===Skill points===
+The table below shows the amount of [[Online:Skills|skill points]] required in order to max out the [[Online:Jewelry_Crafting|Jewelry Crafting]] skill line.
+
+{| class="wikitable sortable"
+|-
+! Order!! Progression !! Skill points required
+|-
+| 1 || [[Online:Engraver|Engraver]] || 4
+|-
+| 2 || [[Online:Keen Eye: Jewelry|Keen Eye: Jewelry]] || 3
+|-
+| 3 || [[Online:Jewelry Extraction|Jewelry Extraction]] || 3 
+|-
+| 4 || [[Online:Lapidary Research|Lapidary Research]] || 4
+|-
+| 5 || [[Online:Platings Expertise |Platings Expertise ]] || 3
+|-class="sortbottom"
+|'''Totals:'''||'''All'''||'''17'''
+|}
+
+==Materials==
+There are five levels of basic materials needed for jewelry crafting.  These materials can be found at Jewelry Seam nodes everywhere.  These are most commonly found near mountains and large rocks, which can be harvested for Dust.  10 Dust can be refined into 7-10 Ounces, which may then be used to craft Necklaces and Rings.  Additionally, you may find Ochre, which is used to make [[ON:Furnishing Sketches|furnishing items]].
+{|
+|-{{AL|T}}
+|
+{|class="wikitable"
+!rowspan=2|Dust
+----
+Ounce
+!rowspan=2|Level!!colspan=2|Needed
+|-
+!Necklace!!Ring
+|-
+|rowspan=12|
+{{Icon|dust|Pewter Dust|18}} Pewter Dust
+----
+{{Icon|ounce|Pewter Ounce|18}} Pewter Ounce
+|1||3||2
+|-
+|4||5||3
+|-
+|6||6||4
+|-
+|8||8||5
+|-
+|10||9||6
+|-
+|12||11||7
+|-
+|14||12||8
+|-
+|16||14||9
+|-
+|18||15||10
+|-
+|20||17||11
+|-
+|22||19||12
+|-
+|24||20||13
+|-{{ThickLine}}
+|rowspan=13|
+{{Icon|dust|Copper Dust|18}} Copper Dust
+----
+{{Icon|ounce|Copper Ounce|18}} Copper Ounce
+|26||5||3
+|-
+|28||6||4
+|-
+|30||8||5
+|-
+|32||9||6
+|-
+|34||11||7
+|-
+|36||12||8
+|-
+|38||14||9
+|-
+|40||15||10
+|-
+|42||17||11
+|-
+|44||18||12
+|-
+|46||20||13
+|-
+|48||21||14
+|-
+|50||23||15
+|}
+|
+{|class="wikitable"
+!rowspan=2|Dust
+----
+Ounce
+!rowspan=2|Level!!colspan=2|Needed
+|-
+!Necklace!!Ring
+|-
+|rowspan=7|
+{{Icon|dust|Silver Dust|18}} Silver Dust
+----
+{{Icon|ounce|Silver Ounce|18}} Silver Ounce
+|{{ESO Champion|10}}||6||4
+|-
+|{{ESO Champion|20}}||9||6
+|-
+|{{ESO Champion|30}}||12||8
+|-
+|{{ESO Champion|40}}||15||10
+|-
+|{{ESO Champion|50}}||18||12
+|-
+|{{ESO Champion|60}}||21||14
+|-
+|{{ESO Champion|70}}||24||16
+|-{{ThickLine}}
+|rowspan=7|
+{{Icon|dust|Electrum Dust|18}} Electrum Dust
+----
+{{Icon|ounce|Electrum Ounce|18}} Electrum Ounce
+|{{ESO Champion|80}}||8||6
+|-
+|{{ESO Champion|90}}||12||8
+|-
+|{{ESO Champion|100}}||16||10
+|-
+|{{ESO Champion|110}}||20||12
+|-
+|{{ESO Champion|120}}||24||14
+|-
+|{{ESO Champion|130}}||28||16
+|-
+|{{ESO Champion|140}}||32||18
+|-{{ThickLine}}
+|rowspan=2|
+{{Icon|dust|Platinum Dust|18}} Platinum Dust
+----
+{{Icon|ounce|Platinum Ounce|18}} Platinum Ounce
+|{{ESO Champion|150}}||15||10
+|-
+|{{ESO Champion|160}}||150||100
+|}
+|}
+
+==Traits==
+Just like the other equipment crafting skills, there will be nine traits which can be researched and crafted.  Three of these will be those that currently exist, and there will be six new traits.  Unlike the other skills, however, the materials for these traits are mostly found in pulverized form, and must be refined to produce usable materials.  Just like  refinable style materials, 10 pulverized trait materials can be refined into 1 usable item.
+{|class="wikitable"
+!rowspan=2|Trait!!Pulverized Material!!rowspan=2|Description!!rowspan=2|Source
+|-
+!Refined Material
+|-
+|rowspan=2|[[ON:Robust|Robust]]||{{Icon|pulverized|Zinc|18}} Pulverized Zinc
+|rowspan=2|Increase {{ESO Stamina Link|Maximum}} by 877.||rowspan=2|Deconstructing Robust jewelry or refining dust.
+|-
+|{{Icon|tr|Zinc|18}} Zinc
+|-
+|rowspan=2|[[ON:Arcane|Arcane]]||{{Icon|pulverized|Cobalt|18}} Pulverized Cobalt
+|rowspan=2|Increase {{ESO Magicka Link|Maximum}} by 877.||rowspan=2|Deconstructing Arcane jewelry or refining dust.
+|-
+|{{Icon|tr|Cobalt|18}} Cobalt
+|-
+|rowspan=2|[[ON:Healthy (trait)|Healthy]]||{{Icon|pulverized|Antimony|18}} Pulverized Antimony
+|rowspan=2|Increase {{ESO Health Link|Maximum}} by 965.||rowspan=2|Deconstructing Healthy jewelry or refining dust.
+|-
+|{{Icon|tr|Antimony|18}} Antimony
+|-
+|rowspan=2|[[ON:Bloodthirsty|Bloodthirsty]]||{{Icon|pulverized|Slaughterstone|18}} Pulverized Slaughterstone
+|rowspan=2|Increase your {{ESO Weapon Damage Link}} and {{ESO Spell Damage Link}} against enemies under 90% health by up to 350.||rowspan=2|From trial weekly coffers.
+|-
+|{{Icon|tr|Slaughterstone|18}} Slaughterstone
+|-
+|rowspan=2|[[ON:Harmony|Harmony]]||{{Icon|pulverized|Dibellium|18}} Pulverized Dibellium
+|rowspan=2|Increases damage, healing, resource restore and damage shield strength of any [[ON:Synergy|Synergies]] you activate by 20%.||rowspan=2|From daily dungeon finder rewards.
+|-
+|{{Icon|tr|Dibellium|18}} Dibellium
+|-
+|rowspan=2|[[ON:Infused|Infused]]||{{Icon|pulverized|Aurbic Amber|18}} Pulverized Aurbic Amber
+|rowspan=2|Increase the effect of the enchantment by 60%.||rowspan=2|From finding Psijic portals.
+|-
+|{{Icon|tr|Aurbic Amber|18}} Aurbic Amber
+|-
+|rowspan=2|[[ON:Triune|Triune]]||{{Icon|pulverized|Dawn-Prism|18}} Pulverized Dawn-Prism
+|rowspan=2|Increase {{ESO Health Link|Maximum}} by 482, {{ESO Magicka Link|Maximum}} and {{ESO Stamina Link|Maximum}} by 439.||rowspan=2|Purchased from war researchers in Cyrodiil.
+|-
+|{{Icon|tr|Dawn-Prism|18}} Dawn-Prism
+|-
+|rowspan=2|[[ON:Protective|Protective]]||{{Icon|pulverized|Titanium|18}} Pulverized Titanium
+|rowspan=2|Increase {{ESO Resistance Link|Physical}} by 1190.||rowspan=2|From harvesting jewelry seams.
+|-
+|{{Icon|tr|Titanium|18}} Titanium
+|-
+|rowspan=2|[[ON:Swift|Swift]]||{{Icon|pulverized|Gilding Wax|18}} Pulverized Gilding Wax
+|rowspan=2|Increase [[ON:Movement Speed|Movement Speed]] by 7%.||rowspan=2|Purchased from [[ON:Rolis Hlaalu|Rolis Hlaalu]].
+|-
+|{{Icon|tr|Gilding Wax|18}} Gilding Wax
+|}
+
+Finding jewelry with the newer traits to research is not as simple as with other gear.  Just as before, you will normally only find items with the original three traits: Robust, Arcane, and Healthy, as well as non-craftable [[ON:Ornate|Ornate]].  In addition, jewelry crafting writs will now sometimes give you [[ON:Intricate|Intricate]] jewelry, just like the other gear crafting writs.  For the others, you will need to do a bit more work, or get other players to craft items for you to research.  The chart below shows how to acquire the rarer traits:
+
+{| class="wikitable"
+!Trait!!Source
+|-
+|[[ON:Bloodthirsty|Bloodthirsty]]||Rarely found as rewards for weekly [[ON:Trials|Trials]] quests. Following Mythic antiquities have Bloodthirsty: [[ON:Belharza's Band|Belharza's Band]], [[ON:Death Dealer's Fete|Death Dealer's Fete]], [[ON:Malacath's Band of Brutality|Malacath's Band of Brutality]], [[ON: Markyn Ring of Majesty|Markyn Ring of Majesty]], [[ON:Ring of the Pale Order|Ring of the Pale Order]] rings, [[ON:Shapeshifter's Chain|Shapeshifter's Chain]] and [[ON:Velothi Ur-Mage's Amulet|Velothi Ur-Mage's Amulet]] necklaces.
+|-
+|[[ON:Harmony|Harmony]]||Rarely acquired in [[ON:Undaunted|Undaunted]] chests
+|-
+|[[ON:Infused|Infused]]||Rarely found in Psijic Portals
+|-
+|[[ON:Triune|Triune]]||Rarely found from daily board quests in [[ON:Cyrodiil|Cyrodiil]]. A guaranteed Triune ring is obtained as a reward from the [[ON:Uxark's Treasure|Uxark's Treasure]] quest, and [[ON:Torc of Tonal Constancy|Torc of Tonal Constancy]] mythic antiquity is a Triune necklace.
+|-
+|[[ON:Protective|Protective]]||Ring from completing the ''Summerset'' main quest, Necklace from [[ON:Psijic Order|Psijic Order]] quests. [[ON:Sea-Serpent's Coil|Sea-Serpent's Coil]] mythic antiquity  is a Protective necklace.
+|-
+|[[ON:Swift|Swift]]||Rarely found from [[ON:Jewelry Crafting Writ|Jewelry Crafting Writ]]s. A guaranteed Swift ring is obtained as a reward from the [[ON:Path of the Hidden Moon|Path of the Hidden Moon]] quest, or the [[ON:Ring of the Wild Hunt|Ring of the Wild Hunt]] mythic antiquity.
+|}
+
+==Platings==
+Jewelry items can now also be upgraded in quality, similar to other equipment.  This is done using Platings. Just like other equipment upgrading, you will need to use multiple Platings to ensure that you do not destroy the item in the process.  The [[ON:Platings Expertise|Platings Expertise]] skill will allow you to safely upgrade items with fewer Platings.
+
+Prior to [[Online:Update 40|Update 40]], Platings were mostly found as Grains, 10 of which needed to be refined in order to produce 1 Plating. To make up for the resulting scarcity of Platings, half as many were required to upgrade an item.
+
+{|class="wikitable" {{AL|R}}
+!rowspan=2|Plating!!rowspan=2|Description!!colspan=2|Base<br>Chance!!rowspan=6| !!colspan=2|Platings<br>Expertise I!!rowspan=6| !!colspan=2|Platings<br>Expertise II!!rowspan=6| !!colspan=2|Platings<br>Expertise III
+|-
+!Chance!!100%!!Chance!!100%!!Chance!!100%!!Chance!!100%
+|-
+!{{icon|plating|Terne|18}} {{ESO Quality Color|f|Terne Plating}}!!Improve quality from '''{{ESO Quality Color|n|white}}''' to '''{{ESO Quality Color|f|green}}'''. 
+|20.0%||5||30.0%||4||40.0%||3||50.0%||2
+|-
+!{{icon|plating|Iridium|18}} {{ESO Quality Color|s|Iridium Plating}}!!Improve quality from '''{{ESO Quality Color|f|green}}''' to '''{{ESO Quality Color|s|blue}}'''.
+|15.0%||7||22.5%||5||30.0%||4||37.5%||3
+|-
+!{{icon|plating|Zircon|18}} {{ESO Quality Color|e|Zircon Plating}}!!Improve quality from '''{{ESO Quality Color|s|blue}}''' to '''{{ESO Quality Color|e|purple}}'''.
+|10.0%||10||15.0%||7||20.0%||5||25.0%||4
+|-
+!{{icon|plating|Chromium|18}} {{ESO Quality Color|l|Chromium Plating}}!!Improve quality from '''{{ESO Quality Color|e|purple}}''' to '''{{ESO Quality Color|l|gold}}'''.
+|5.0%||20||7.5%||14||10.0%||10||12.5%||8
+|}
+
+==Gallery==
+<gallery>
+File:ON-icon-store-Jewelry Crafting.png|Crown Store icon
+File:ON-render-Jewelry Crafting.jpg|Promotional render
+File:ON-activity-Jewelry Crafting.jpg|A character crafting jewelry
+</gallery>
+
+==Notes==
+*Jewelry acquired before the ''Summerset'' update cannot be deconstructed, but can be used for research.
+
+== Achievements ==
+There are a number of achievements associated with Jewelry Crafting.
+{{/Achievements}}
+
+{{Online Skills Crafting}}

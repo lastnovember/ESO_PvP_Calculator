@@ -34,7 +34,7 @@ File:ON-skill-Mend_Wounds_HA.jpg|Heavy attacking
 File:ON-skill-Mend_Wounds_LA.jpg|Light attacking
 
 ## Patch Notes
-* Fixed an issue where the Light Attack heal over time from this ability could cause health desyncs.
+[Patch 4.1.5] * Fixed an issue where the Light Attack heal over time from this ability could cause health desyncs.
 ESO Patch Note|5.0.5|* Revamped this ability and its morphs.
 - The Light and Heavy Attacks no longer trigger the Global Cooldown and can be weaved with other abilities.
 - No longer cost resources to Light or Heavy Attack with this ability toggled.
@@ -42,9 +42,9 @@ ESO Patch Note|5.0.5|* Revamped this ability and its morphs.
 - Heavy Attack still channels and heals every second, but has been reduced to be the same scaling of other weapon's heavy attacks. It now restores Magicka every time it successfully heals an ally.
 - Mend Spirit (morph): This morph now applies its Major Ward and Resolve to the target healed for 5 seconds, regardless of whether it was a Light or Heavy Attack.
 - Developer Comment: Previously, this ability attempted to offer healers a new way to engage with their Light and Heavy Attacks, but it came at the cost of activating other abilities at the same frequency as their normal weapons' allowed them. With this new interaction, it will allow healers to choose between dealing damage or healing allies with their Light and Heavy Attacks, or even a mix of both. We will closely monitor this ability and see if the community would like to see more or less of these unique role-based game play elements in the future.
-* Fixed many issues with the animation of the Heavy Attack of this ability and its morphs. You can no longer attempt and fail to heal the wildlife (critters) of Tamriel with the Heavy Attack from these abilities, for their frail bodies cannot handle the power you wield. This also fixes an issue where your character would erratically convulse when attempting to channel these abilities on a target you couldn't actually target.
+[Patch 5.2.5] * Fixed many issues with the animation of the Heavy Attack of this ability and its morphs. You can no longer attempt and fail to heal the wildlife (critters) of Tamriel with the Heavy Attack from these abilities, for their frail bodies cannot handle the power you wield. This also fixes an issue where your character would erratically convulse when attempting to channel these abilities on a target you couldn't actually target.
 ESO Patch Note|6.0.5|* Fixed an issue where Heavy Attacks could fail to chain properly after using this ability.
 - Fixed an issue where you could still get Magicka from heavy attacking a target with this ability without actually healing them.
-* Fixed an issue where this ability and its morphs could cause you to be disconnected when attempting to target a target dummy. Who was the real target?
+[Patch 7.3.6] * Fixed an issue where this ability and its morphs could cause you to be disconnected when attempting to target a target dummy. Who was the real target?
 
 Skill

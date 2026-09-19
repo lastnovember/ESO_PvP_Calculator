@@ -35,5 +35,5 @@ Reanimate offers an alternative means of resurrecting your allies. Unlike standa
 - Reanimate is depicted as a card in Legends.
 
 ## Patch Notes
-* Fixed an issue where this ability and its morphs would not trigger events that required Resurrections to proc.
-* Animate Blastbones (morph): This morph now only spawns Blighted Blastbones, rather than spawning the version of the ability you’ve morphed, as there is little benefit from having multiple skeletons activate from Sacrificial Bones or Grave Lord’s Sacrifice.
+[Patch 5.3.4] * Fixed an issue where this ability and its morphs would not trigger events that required Resurrections to proc.
+[Patch 9.3.5] * Animate Blastbones (morph): This morph now only spawns Blighted Blastbones, rather than spawning the version of the ability you’ve morphed, as there is little benefit from having multiple skeletons activate from Sacrificial Bones or Grave Lord’s Sacrifice.

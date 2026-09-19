@@ -1,0 +1,5 @@
+,Name,Translation,Potency,Item Type,,Glyph,Effect
+,Jaedi,"""Gain""",#CCCCCC|Additive,Jewelry,,Glyph of Bashing,Increase bash damage by X
+#CCCCCC|Subtractive,Jewelry,,Glyph of Bracing,Reduce cost of blocking by X
+,Lire,"""Physical Harm""",#CCCCCC|Additive,Jewelry,,Glyph of Increase Physical Harm,Adds X Weapon Damage
+#CCCCCC|Subtractive,Jewelry,,Glyph of Decrease Physical Harm,Adds X Armor

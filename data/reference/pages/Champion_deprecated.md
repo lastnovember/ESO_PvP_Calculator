@@ -27,77 +27,77 @@ When you spend points in any of the four abilities in a given constellation, you
 
 Champ. Level | Points Per Group | colspan=4|Distribution | Number of Perks
 
-30 | 10 | colspan=4|10 | 1
+CP30 | 10 | colspan=4|10 | 1
 
-60 | 20 | colspan=2|10 | colspan=2|10 | 2
+CP60 | 20 | colspan=2|10 | colspan=2|10 | 2
 
-rowspan=2|90 | rowspan=2|30 | 10 | colspan=2|10 | 10 | 3
+rowspan=2|CP90 | rowspan=2|30 | 10 | colspan=2|10 | 10 | 3
 
 colspan=4|30 | 2
 
-120 | 40 | colspan=2|30 | colspan=2|10 | 3
+CP120 | 40 | colspan=2|30 | colspan=2|10 | 3
 
-150 | 50 | 30 | colspan=2|10 | 10 | 4
+CP150 | 50 | 30 | colspan=2|10 | 10 | 4
 
-180 | 60 | colspan=2|30 | colspan=2|30 | 4
+CP180 | 60 | colspan=2|30 | colspan=2|30 | 4
 
-210 | 70 | 30 | colspan=2|30 | 10 | 5
+CP210 | 70 | 30 | colspan=2|30 | 10 | 5
 
-225 | 75 | colspan=4|75 | 3
+CP225 | 75 | colspan=4|75 | 3
 
-255 | 85 | colspan=2|75 | colspan=2|10 | 4
+CP255 | 85 | colspan=2|75 | colspan=2|10 | 4
 
-270 | 90 | 30 | colspan=2|30 | 30 | 6
+CP270 | 90 | 30 | colspan=2|30 | 30 | 6
 
-285 | 95 | 75 | colspan=2|10 | 10 | 5
-T|
+CP285 | 95 | 75 | colspan=2|10 | 10 | 5
+|
 Champ. Level | Points Per Group | colspan=4|Distribution | Number of Perks
 
-315 | 105 | colspan=2|75 | colspan=2|30 | 5
+CP315 | 105 | colspan=2|75 | colspan=2|30 | 5
 
-345 | 115 | 75 | colspan=2|30 | 10 | 6
+CP345 | 115 | 75 | colspan=2|30 | 10 | 6
 
-360 | 120 | colspan=4|120 | 4
+CP360 | 120 | colspan=4|120 | 4
 
-390 | 130 | colspan=2|120 | colspan=2|10 | 5
+CP390 | 130 | colspan=2|120 | colspan=2|10 | 5
 
-405 | 135 | 75 | colspan=2|30 | 30 | 7
+CP405 | 135 | 75 | colspan=2|30 | 30 | 7
 
-420 | 140 | 120 | colspan=2|10 | 10 | 6
+CP420 | 140 | 120 | colspan=2|10 | 10 | 6
 
-rowspan=2|450 | rowspan=2|150 | colspan=2|75 | colspan=2|75 | 6
+rowspan=2|CP450 | rowspan=2|150 | colspan=2|75 | colspan=2|75 | 6
 
 colspan=2|120 | colspan=2|30 | 6
 
-rowspan=2|480 | rowspan=2|160 | 120 | colspan=2|30 | 10 | 7
+rowspan=2|CP480 | rowspan=2|160 | 120 | colspan=2|30 | 10 | 7
 
 75 | colspan=2|75 | 10 | 7
 
-rowspan=2|540 | rowspan=2|180 | 120 | colspan=2|30 | 30 | 8
+rowspan=2|CP540 | rowspan=2|180 | 120 | colspan=2|30 | 30 | 8
 
 75 | colspan=2|75 | 30 | 8
-T|
+|
 Champ. Level | Points Per Group | colspan=4|Distribution | Number of Perks
 
-585 | 195 | colspan=2|120 | colspan=2|75 | 7
+CP585 | 195 | colspan=2|120 | colspan=2|75 | 7
 
-615 | 205 | 120 | colspan=2|75 | 10 | 8
+CP615 | 205 | 120 | colspan=2|75 | 10 | 8
 
-rowspan=2|675 | rowspan=2|225 | 120 | colspan=2|75 | 30 | 9
+rowspan=2|CP675 | rowspan=2|225 | 120 | colspan=2|75 | 30 | 9
 
 75 | colspan=2|75 | 75 | 9
 
-720 | 240 | colspan=2|120 | colspan=2|120 | 8
+CP720 | 240 | colspan=2|120 | colspan=2|120 | 8
 
-750 | 250 | 120 | colspan=2|120 | 10 | 9
+CP750 | 250 | 120 | colspan=2|120 | 10 | 9
 
-rowspan=2|810 | rowspan=2|270 | 120 | colspan=2|75 | 75 | 10
+rowspan=2|CP810 | rowspan=2|270 | 120 | colspan=2|75 | 75 | 10
 
 120 | colspan=2|120 | 30 | 10
 
-915 | 305 | 120 | colspan=2|120 | 75 | 11
+CP915 | 305 | 120 | colspan=2|120 | 75 | 11
 
-1080 | 360 | 120 | colspan=2|120 | 120 | 12
+CP1080 | 360 | 120 | colspan=2|120 | 120 | 12
 Not currently available
 
 ## Champion Level Rewards

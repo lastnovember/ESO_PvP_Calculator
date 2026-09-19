@@ -1,0 +1,110 @@
+# Online:Triune
+
+Source: https://en.uesp.net/wiki/Online:Triune
+License: CC BY-SA, UESP
+
+Triune is a trait added in Update 18 which can only be found on jewelry. Jewelry with this trait does not drop normally, but may be obtained by completing daily board quests in Cyrodiil, or by acquiring them from another player. Once learned, items with this trait may be crafted using Dawn-Prism, which may be purchased from War Researchers. Items with the Triune trait will increase your Maximum Health, Magicka and Stamina by an amount dependent on the level and quality of the item.
+
+rowspan=2 13Item Type
+rowspan=2 13Level
+colspan=5 | Maximum Health
+rowspan=43 width="1%"|
+colspan=5 | Maximum Magicka and Stamina
+
+13Normal
+13Fine
+13Superior
+13Epic
+13Legendary
+13Normal
+13Fine
+13Superior
+13Epic
+13Legendary
+
+rowspan=12|Pewter
+1 | 11 (white) / 38 (green) / 49 (blue) / 66 (purple) / 82 (gold) | 10 (white) / 35 (green) / 45 (blue) / 60 (purple) / 75 (gold)
+
+4 | 33 (white) / 55 (green) / 66 (blue) / 82 (purple) / 99 (gold) | 30 (white) / 50 (green) / 60 (blue) / 75 (purple) / 90 (gold)
+
+6 | 44 (white) / 66 (green) / 77 (blue) / 85 (purple) / 110 (gold) | 40 (white) / 60 (green) / 70 (blue) / 93 (purple) / 100 (gold)
+
+8 | 55 (white) / 77 (green) / 88 (blue) / 104 (purple) / 121 (gold) | 50 (white) / 70 (green) / 80 (blue) / 95 (purple) / 110 (gold)
+
+10 | 77 (white) / 88 (green) / 99 (blue) / 115 (purple) / 132 (gold) | 70 (white) / 80 (green) / 90 (blue) / 105 (purple) / 120 (gold)
+
+12 | 88 (white) / 99 (green) / 110 (blue) / 126 (purple) / 143 (gold) | 80 (white) / 90 (green) / 100 (blue) / 115 (purple) / 130 (gold)
+
+14 | 88 (white) / 110 (green) / 121 (blue) / 137 (purple) / 154 (gold) | 80 (white) / 100 (green) / 110 (blue) / 124 (purple) / 140 (gold)
+
+16 | 99 (white) / 121 (green) / 132 (blue) / 148 (purple) / 165 (gold) | 90 (white) / 110 (green) / 120 (blue) / 135 (purple) / 150 (gold)
+
+18 | 110 (white) / 132 (green) / 143 (blue) / 159 (purple) / 176 (gold) | 100 (white) / 120 (green) / 130 (blue) / 145 (purple) / 160 (gold)
+
+20 | 132 (white) / 143 (green) / 154 (blue) / 170 (purple) / 187 (gold) | 120 (white) / 130 (green) / 140 (blue) / 155 (purple) / 170 (gold)
+
+22 | 143 (white) / 154 (green) / 165 (blue) / 181 (purple) / 198 (gold) | 130 (white) / 140 (green) / 150 (blue) / 165 (purple) / 180 (gold)
+
+24 | 143 (white) / 165 (green) / 176 (blue) / 192 (purple) / 209 (gold) | 130 (white) / 150 (green) / 160 (blue) / 175 (purple) / 190 (gold)
+
+rowspan=13|Copper
+26 | 154 (white) / 176 (green) / 187 (blue) / 203 (purple) / 220 (gold) | 140 (white) / 160 (green) / 170 (blue) / 185 (purple) / 200 (gold)
+
+28 | 165 (white) / 187 (green) / 198 (blue) / 214 (purple) / 231 (gold) | 150 (white) / 170 (green) / 180 (blue) / 195 (purple) / 210 (gold)
+
+30 | 187 (white) / 198 (green) / 209 (blue) / 220 (purple) / 242 (gold) | 170 (white) / 180 (green) / 190 (blue) / 205 (purple) / 220 (gold)
+
+32 | 198 (white) / 209 (green) / 220 (blue) / 236 (purple) / 253 (gold) | 180 (white) / 190 (green) / 200 (blue) / 215 (purple) / 230 (gold)
+
+34 | 198 (white) / 220 (green) / 231 (blue) / 247 (purple) / 264 (gold) | 180 (white) / 200 (green) / 210 (blue) / 225 (purple) / 240 (gold)
+
+36 | 209 (white) / 231 (green) / 242 (blue) / 258 (purple) / 275 (gold) | 190 (white) / 210 (green) / 220 (blue) / 235 (purple) / 250 (gold)
+
+38 | 220 (white) / 242 (green) / 253 (blue) / 269 (purple) / 286 (gold) | 200 (white) / 220 (green) / 230 (blue) / 245 (purple) / 260 (gold)
+
+40 | 231 (white) / 253 (green) / 264 (blue) / 280 (purple) / 297 (gold) | 210 (white) / 230 (green) / 240 (blue) / 255 (purple) / 270 (gold)
+
+42 | 242 (white) / 264 (green) / 275 (blue) / 291 (purple) / 308 (gold) | 220 (white) / 240 (green) / 250 (blue) / 265 (purple) / 280 (gold)
+
+44 | 253 (white) / 275 (green) / 286 (blue) / 302 (purple) / 319 (gold) | 230 (white) / 250 (green) / 260 (blue) / 275 (purple) / 290 (gold)
+
+46 | 264 (white) / 286 (green) / 297 (blue) / 313 (purple) / 330 (gold) | 240 (white) / 260 (green) / 270 (blue) / 285 (purple) / 300 (gold)
+
+48 | 275 (white) / 297 (green) / 308 (blue) / 324 (purple) / 341 (gold) | 250 (white) / 270 (green) / 280 (blue) / 295 (purple) / 310 (gold)
+
+50 | 286 (white) / 308 (green) / 319 (blue) / 335 (purple) / 352 (gold) | 260 (white) / 280 (green) / 290 (blue) / 305 (purple) / 320 (gold)
+
+rowspan=7|Silver
+CP10 | 297 (white) / 308 (green) / 330 (blue) / 346 (purple) / 357 (gold) | 270 (white) / 280 (green) / 300 (blue) / 315 (purple) / 325 (gold)
+
+CP20 | 308 (white) / 319 (green) / 341 (blue) / 357 (purple) / 368 (gold) | 280 (white) / 290 (green) / 310 (blue) / 325 (purple) / 335 (gold)
+
+CP30 | 313 (white) / 324 (green) / 346 (blue) / 363 (purple) / 374 (gold) | 285 (white) / 295 (green) / 315 (blue) / 330 (purple) / 340 (gold)
+
+CP40 | 324 (white) / 335 (green) / 357 (blue) / 374 (purple) / 385 (gold) | 295 (white) / 305 (green) / 325 (blue) / 340 (purple) / 350 (gold)
+
+CP50 | 330 (white) / 341 (green) / 363 (blue) / 379 (purple) / 390 (gold) | 300 (white) / 310 (green) / 330 (blue) / 345 (purple) / 355 (gold)
+
+CP60 | 341 (white) / 352 (green) / 374 (blue) / 390 (purple) / 401 (gold) | 310 (white) / 320 (green) / 340 (blue) / 355 (purple) / 365 (gold)
+
+CP70 | 346 (white) / 357 (green) / 379 (blue) / 396 (purple) / 407 (gold) | 315 (white) / 325 (green) / 345 (blue) / 360 (purple) / 370 (gold)
+
+rowspan=7|Electrum
+CP80 | 357 (white) / 368 (green) / 390 (blue) / 407 (purple) / 418 (gold) | 325 (white) / 335 (green) / 355 (blue) / 370 (purple) / 380 (gold)
+
+CP90 | 363 (white) / 374 (green) / 396 (blue) / 412 (purple) / 423 (gold) | 330 (white) / 340 (green) / 360 (blue) / 375 (purple) / 385 (gold)
+
+CP100 | 374 (white) / 385 (green) / 407 (blue) / 423 (purple) / 434 (gold) | 340 (white) / 350 (green) / 370 (blue) / 385 (purple) / 395 (gold)
+
+CP110 | 379 (white) / 390 (green) / 412 (blue) / 429 (purple) / 440 (gold) | 345 (white) / 355 (green) / 375 (blue) / 390 (purple) / 400 (gold)
+
+CP120 | 390 (white) / 401 (green) / 423 (blue) / 440 (purple) / 451 (gold) | 355 (white) / 360 (green) / 385 (blue) / 400 (purple) / 410 (gold)
+
+CP130 | 396 (white) / 407 (green) / 429 (blue) / 445 (purple) / 456 (gold) | 360 (white) / 370 (green) / 390 (blue) / 405 (purple) / 415 (gold)
+
+CP140 | 407 (white) / 423 (green) / 440 (blue) / 456 (purple) / 467 (gold) | 370 (white) / 385 (green) / 400 (blue) / 415 (purple) / 425 (gold)
+
+rowspan=2|Platinum
+CP150 | 412 (white) / 423 (green) / 445 (blue) / 456 (purple) / 473 (gold) | 375 (white) / 385 (green) / 405 (blue) / 415 (purple) / 430 (gold)
+
+CP160 | 422 (white) / 429 (green) / 455 (blue) / 466 (purple) / 482 (gold) | 384 (white) / 390 (green) / 414 (blue) / 424 (purple) / 439 (gold)

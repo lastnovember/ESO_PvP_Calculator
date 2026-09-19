@@ -36,8 +36,8 @@ File:ON-skill-Devouring Swarm.jpg|Devouring Swarm
 File:ON-skill-Clouding Swarm.jpg|Clouding Swarm
 
 ## Patch Notes
-* Fixed an issue with the ability Bat Swarm so it will no longer stack with itself. It will instead refresh if re-cast.
-* This ability's tooltip now matches the ability's actual duration.
+[Patch 1.0.7] * Fixed an issue with the ability Bat Swarm so it will no longer stack with itself. It will instead refresh if re-cast.
+[Patch 1.2.3] * This ability's tooltip now matches the ability's actual duration.
 ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the following ticking damage abilities.
 - Agony
 - Bat Swarm
@@ -52,9 +52,9 @@ ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the fo
 - Volley
 - Wall of Elements
 - All elemental procs
-* Devouring Swarm: Reduced the healing on this ability by 30%.
-* Clouding Swarm: This morph no longer causes your character to pulse invisibility every second it is active. Instead, activating the swarm now allows you use the ability again to instantly teleport to an enemy up to 22 meters away and deal high damage. This teleport can be used as many times as possible within the swarm's duration.
-* Clouding Swarm: You can no longer cast the Materialize attack from this morph while in midair.
+[Patch 1.5.2] * Devouring Swarm: Reduced the healing on this ability by 30%.
+[Patch 2.7.5] * Clouding Swarm: This morph no longer causes your character to pulse invisibility every second it is active. Instead, activating the swarm now allows you use the ability again to instantly teleport to an enemy up to 22 meters away and deal high damage. This teleport can be used as many times as possible within the swarm's duration.
+[Patch 3.3.5] * Clouding Swarm: You can no longer cast the Materialize attack from this morph while in midair.
 ESO Patch Note|5.1.5|* Reduced the cost of this Ultimate to 250 from 275.
 - Increased the duration of this ability and its morphs to 7 seconds from 5 seconds.
 - Increased the damage dealt of the damage over time by approximately 20% per tick.

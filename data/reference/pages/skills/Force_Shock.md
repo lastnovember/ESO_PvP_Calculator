@@ -36,15 +36,15 @@ Force Shock deals elemental damage from all three magical elements. The Crushing
 - The Concentrated Force set from Asylum Sanctorium will guarantee the Burning, Concussion, and Chilled status effects are applied on every second cast.
 
 ## Patch Notes
-* Increased the damage for this ability and its morphs.
-* Force Pulse: This ability's Rank III tooltip now lists the correct damage value.
-* Fixed an issue with this ability where the beam effect wasn't playing.
+[Patch 1.1.2] * Increased the damage for this ability and its morphs.
+[Patch 1.2.3] * Force Pulse: This ability's Rank III tooltip now lists the correct damage value.
+[Patch 1.3.3] * Fixed an issue with this ability where the beam effect wasn't playing.
 ESO Patch Note|1.5.2|* Force Pulse: This ability's area damage can now critically hit.
 - Force Pulse Rank I: Fixed an issue where this ability didn't have a chance of proc'ing elemental status effects.
 ESO Patch Note|1.6.5|* Decreased the damage of this ability by 10%.
 - Force Pulse: Increased the area of effect damage dealt by this ability by 10%.
-* Fixed an issue with this ability which prevented its bonus effect from applying to Concussed or Chilled enemies.
-* Fixed an issue where this ability's shock and frost damage was delayed slightly after the fire damage.
+[Patch 2.1.4] * Fixed an issue with this ability which prevented its bonus effect from applying to Concussed or Chilled enemies.
+[Patch 2.2.4] * Fixed an issue where this ability's shock and frost damage was delayed slightly after the fire damage.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Force Shock
 - Wall of Elements
@@ -65,4 +65,4 @@ ESO Patch Note|5.1.5|* Increased the damage of this ability and its morphs by ap
 - Increased the chance to apply an Elemental Status Effect to 10% per hit from 3%, since each hit is a "Direct Damage" attack.
 - Crushing Shock: This ability no longer ranks up in damage, but instead decreases in cost, down to 2430 at Rank IV.
 - Force Pulse: This morph no longer ranks up in damage of the initial hits, but instead ranks up in the cleave damage it deals. Also increased the damage of the cleave attack by approximately 172%.
-* This ability and its morphs can now once again be reflected. Once upon a time, a special rule was made for these abilities to not be, as it interacted poorly with charged based reflect skills such as ye old Reflective Scales, which have been clipped. Therefore, this behavior is irrelevant and inconsistent.
+[Patch 7.1.5] * This ability and its morphs can now once again be reflected. Once upon a time, a special rule was made for these abilities to not be, as it interacted poorly with charged based reflect skills such as ye old Reflective Scales, which have been clipped. Therefore, this behavior is irrelevant and inconsistent.

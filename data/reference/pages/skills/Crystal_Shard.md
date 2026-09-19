@@ -45,14 +45,14 @@ File:ON-skill-Crystal Weapon.jpg|Crystal Weapon morph visual on a staff
 ## Patch Notes
 ESO Patch Note|1.2.3|* Crystal Blast: Increased this ability's area-of-effect damage.
 - Crystal Fragments: The sound and visual effects that indicate this ability can be cast instantly are more noticeable.
-* Crystal Blast: Fixed a graphical issue that would occur when the Crystal Blast projectile was dodged.
+[Patch 1.3.3] * Crystal Blast: Fixed a graphical issue that would occur when the Crystal Blast projectile was dodged.
 ESO Patch Note|1.6.5|* Reduced the cast time on all ranks and morphs to 1 second from 1.3 seconds.
 - Fixed an issue with the impact timing with this ability.
 - Crystal Shards and its morphs will now show the correct icon in the death recap screen.
 - Crystal Fragments (morph): Fixed an issue where this morph was applying multiple passives each time it was cast. We also fixed an additional issue where this ability's instant cast wasn't proccing when casting Bolt Escape.
 - Drain Essence: Fixed an issue where you could spam this ability on immune targets for free Crystal Fragments procs.
-* Crystal Fragments: It is no longer possible for this ability's damage bonus to proc multiple times in a row and stack.
-* Crystal Blast: Increased the secondary splash damage of this morph by 25%.
+[Patch 2.0.8] * Crystal Fragments: It is no longer possible for this ability's damage bonus to proc multiple times in a row and stack.
+[Patch 2.3.5] * Crystal Blast: Increased the secondary splash damage of this morph by 25%.
 ESO Patch Note|3.0.5|* Crystal Fragments (Crystal Shard morph): Reduced the damage bonus of this morph's instant-cast proc to 10% from 20%.
 - Developer Comments: Sorcerer's sustained damage in PvE and burst damage in PvP is currently too high, so reducing the damage bonus from Crystal Fragments brings them down slightly in both areas without being too punishing to the overall damage kit.
 ESO Patch Note|3.2.5|* This ability and the Crystal Fragments morph no longer stun the enemy hit. The Crystal Blast morph continues to stun the initial enemy hit.
@@ -79,8 +79,8 @@ ESO Patch Note|6.1.5|* Reduced the cast time of this ability and its morphs to 8
 - Slightly reduced the damage done from the special proc (< 1%).
 - Introduced a safety window after activating the special proc to help avoid immediately queueing the base version's cast right after.
 - Crystal Blast (morph): This ability has been reworked into a Stamina morph, and renamed to Crystal Weapon. It is now an instant-cast ability that causes your next Light or Heavy Attack made within 4 seconds to deal additional damage, equal to the standard spammable amount such as Lava Whip or Veiled Strike. Enemies hit by this ability will their armor reduced by up to 1000.
-* Reduced the damage of this ability and the Crystal Fragments morph by approximately 2% to match the proper ranged cast time standard.
-* Crystal Weapon (morph): This ability will now replace Imbue Weapon or its morphs after casting, to help reduce the amount of burst potential it can offer with singular moments.
+[Patch 6.3.5] * Reduced the damage of this ability and the Crystal Fragments morph by approximately 2% to match the proper ranged cast time standard.
+[Patch 7.3.5] * Crystal Weapon (morph): This ability will now replace Imbue Weapon or its morphs after casting, to help reduce the amount of burst potential it can offer with singular moments.
 ESO Patch Note|8.0.5|* Crystal Fragments (morph):
 - This morph now activates off any non-Ultimate active ability cast, rather than only Magicka costing abilities.
 - Reduced the proc chance to 33%, down from 35%.

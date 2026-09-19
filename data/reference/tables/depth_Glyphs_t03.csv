@@ -1,0 +1,21 @@
+Glyph,Icon,Effect,Potency Rune,Essence Rune
+Glyph of Frost Resist,,Adds X Frost Resistance,Subtractive,Dekeipa
+Glyph of Stamina Recovery,,Adds X ESO Stamina Link,Recovery,Additive,Denima
+Glyph of Reduce Feat Cost,,Reduce Stamina cost of abilities by X,Subtractive,Denima
+Glyph of Disease Resist,,Adds X Disease Resistance,Subtractive,Haoko
+Glyph of Bashing,,Increase Bash damage by X,Additive,Kaderi
+Glyph of Bracing,,Reduce cost of Blocking by X,Subtractive,Kaderi
+Glyph of Poison Resist,,Adds X Poison Resistance,Subtractive,Kuoko
+Glyph of Increase Magical Harm,,Adds X Spell Damage and Weapon Damage and 10 ESO Magicka Link,Recovery,Additive,Makderi
+Glyph of Decrease Spell Harm,,Adds X Spell Resistance,Subtractive,Makderi
+Glyph of Magicka Recovery,,Adds X ESO Magicka Link,Recovery,Additive,Makkoma
+Glyph of Reduce Spell Cost,,Reduce Magicka cost of abilities by X,Subtractive,Makkoma
+Glyph of Shock Resist,,Adds X Shock Resistance,Subtractive,Meip
+Glyph of Health Recovery,,Adds X ESO Health Link,Recovery,Additive,Okoma
+Glyph of Potion Boost,,Increase the duration of Potion effects by X seconds,Additive,Oru
+Glyph of Potion Speed,,Reduce the cooldown of Potions below this item's level by X seconds,Subtractive,Oru
+Glyph of Flame Resist,,Adds X Fire Resistance,Subtractive,Rakeipa
+Glyph of Increase Physical Harm,,Adds X Weapon Damage and Spell Damage and 10 ESO Stamina Link,Recovery,Additive,Taderi
+Glyph of Decrease Physical Harm,,Adds X Physical Resistance,Subtractive,Taderi
+Glyph of Prismatic Recovery,,Adds X ESO Health Link,"Recovery, ESO Magicka Link",Recovery and ESO Stamina Link,Recovery,Additive,Indeko
+Glyph of Reduce Skill Cost,,"Reduce Health, Magicka and Stamina cost of abilities by X",Subtractive,Indeko

@@ -1,0 +1,33 @@
+Zone / Dungeon,Specific Location,Reaction,Difficulty,Health
+Tamriel,Daedric Pet Ranger summons,Hostile,,The daedric pet ranger's current Health
+Summoned from Daedric Arches,Hostile,,200
+Dark Anchors,During the pre-boss trash waves,Hostile,,ba
+Accompanying bosses,Hostile,,s
+During the pre-boss trash waves (Cyrodiil Anchors),Hostile,,ba (no-CP) cyrba (CP)
+Accompanying bosses (Cyrodiil Anchors),Hostile,,s (no-CP) cyrs (CP)
+Daggerfall / Davon's Watch / Vulkhel Guard,Appears on the edge of town briefly at the start of The Tharn Speaks,Friendly,,fa
+Fell's Run,Using the Banekin Trinket in the upper floor of The Run Inn during Frightened Folk
+Dawnbreak,Throughout the town,Friendly,,0
+"The Banished Cells I, Crypt of Hearts I",The whole dungeon,Hostile,,
+Elden Hollow II,The whole dungeon,Hostile,,
+"City of Ash I / II, Vaults of Madness",The whole dungeon,Hostile,,
+Dragonstar Arena,Round 7: The Circle of Rituals,Hostile,,
+Waking Flame Base,On the escape path,Hostile,,"11,877"
+Imperial CityImperial City,Summoned by Baron Thirsk's Daedric Arches,Hostile,,ba
+Imperial SewersImperial City,Summoned by General Nazenaechar,Hostile,,"17,250"
+White-Gold TowerImperial City,Throughout the dungeon,Hostile,,
+Vateshran Hollows: The WoundingMarkarth,The Wounding done first,Hostile,,
+The Wounding done second,Hostile,,
+The Wounding done third,Hostile,,
+Vateshran Hollows: The Wounding Zakuryn the Sculptor fightMarkarth,The Wounding done first,Hostile,,
+The Wounding done second,Hostile,,
+The Wounding done third,Hostile,,
+Battle for the Writhing Wall event,Invaded delves and public dungeons,Hostile,,"19,780"
+Soul Reapers,"Summoned by Worm Incendiary Edras Omaren, Worm Knight Thun and Worm Savage Shurri",Hostile,,"52,746"
+Solstice Siege Camps,Around the soul reapers,Hostile,,"34,285"
+"Summoned by Worm Adept Mirvam Dulo, Worm Champion Dahila and Worm Knight Gulda",Hostile,,"383,609 plain"
+Fissure Ruins,Delve Occupants,Hostile,,vw
+Maldrith Rebuker's fight,Hostile,,"26,374"
+Gristmung Hold,Gate Courtyard,Hostile,,"5,243"
+A Battle at Sea,Summoned by Captain Velehk Sain,Hostile,,"9,231"
+Online:|,,Hostile,,

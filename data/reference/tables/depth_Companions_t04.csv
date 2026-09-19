@@ -1,0 +1,9 @@
+Minimum,Maximum,Status,Description
+-5000,-4000,Disdainful,Companion feels nothing but contempt for you.
+-3999,-2500,Irritated,Companion strongly dislikes you.
+-2499,749,Wary,Companion tolerates you.
+750,999,Cordial,Companion counts you as a friendly acquaintance.
+1000,1999,Friendly,Companion respects you as an ally. (40% companion experience bonus)
+2000,2999,Close,Companion greatly admires you (50% companion experience bonus)
+3000,3999,Allied,Companion holds you in high esteem. (60% companion experience bonus)
+4000,5500 (max),Companion,Companion regards you as their greatest ally and dearest friend. (70% companion experience bonus)

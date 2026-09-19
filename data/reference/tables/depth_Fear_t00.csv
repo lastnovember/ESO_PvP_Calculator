@@ -1,0 +1,11 @@
+Skills,Duration,Affects,Cost,Notes
+Aspect of Terror (Shadow),2 sec.,Up to 3 Targets,3780 Magicka,Also reduces movement speed
+,Mass Hysteria (morph),2/2.3/2.7/3 sec,Up to 6 Targets,Also reduces damage dealt
+Aspect of Terror (morph),4 sec.,Up to 6 Targets,Targets must trigger traps
+Bone Totem (Bone Tyrant),4 sec.,Enemies near totem,4050 Magicka,"Totem lasts for 11 sec., applies fear every 2 sec."
+,Agony Totem (morph),Totem lasts for 13 sec.
+Remote Totem (morph),3240 Magicka,Can cast totem at range of 28 m.
+Werewolf Transformation (Werewolf),4 sec.,Up to 3 Targets,325 Ultimate,None
+Roar (Werewolf),3.5-4.3 sec.,Up to 3 Targets,3780 Magicka,Also inflicts Off Balance
+Turn Evil (Fighters Guild),4 sec.,Nearby Enemies,3780 Stamina,None
+Tangling Webs (Undaunted),3.8 sec.,Tangled Enemies,3511 Stamina,Only if an ally activates the Arachnophobia Synergy Spawn Broodlings Synergy

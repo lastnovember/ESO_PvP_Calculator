@@ -55,7 +55,7 @@ File:ON-skill-Frost Clench.jpg|Frost Clench
 File:ON-skill-Shock Clench.jpg|Shock Clench
 
 ## Patch Notes
-* Increased this ability's damage and magicka cost.
+[Patch 1.1.2] * Increased this ability's damage and magicka cost.
 ESO Patch Note|1.6.5|* Destructive Touch has been changed into a damage over time-based attack for all ranks and morphs of all types of staffs. The damage over time component increases in damage with rank.
 - Increased the range of this ability to 17 meters from 7 meters.
 - Destructive Reach (morph): Increased the range of this ability to 28 meters from 17 meters.
@@ -73,15 +73,15 @@ ESO Patch Note|2.1.4|* Frost Touch and its morphs will no longer apply a half-se
 - Added an increased damage over time damage
 - Shock Clench (morph): Added an area of effect damage that applies near the target.
 - Shock Reach (morph): Removed the area of effect damage from this ability, and added a 2.5 second stun. The impact effects have been updated to reflect these changes.
-* Flame Reach (morph): This ability now properly applies the knockback up to the correct range (28 meters).
+[Patch 2.2.4] * Flame Reach (morph): This ability now properly applies the knockback up to the correct range (28 meters).
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Force Shock
 - Wall of Elements
 - Destructive Touch
 - Weakness to Elements
 - Impulse
-Impulse]].
-* Fixed an issue where the Frost Clench and Frost Reach morphs were not displaying their visuals effects and scrolling combat text damage values correctly if they were used repeatedly on an enemy target.
+[Patch 3.1.5] * Added new icons for each of the elemental variants of Destructive Touch, Wall of Elements, and Impulse.
+[Patch 4.0.5] * Fixed an issue where the Frost Clench and Frost Reach morphs were not displaying their visuals effects and scrolling combat text damage values correctly if they were used repeatedly on an enemy target.
 ESO Patch Note|4.2.7|* Weapon Enchantments and poisons will no longer proc from single-target Damage over Time effects of any weapon ability. The following effects can no longer proc Weapon Enchantments or poisons:
 - The Damage over Time from Cleave and its morphs
 - The Damage over Time from Twin Slashes and its morphs
@@ -90,7 +90,7 @@ ESO Patch Note|4.2.7|* Weapon Enchantments and poisons will no longer proc from 
 - The Damage over Time from Acid Spray
 - The Damage over Time from Poison Arrow and its morphs
 - The Damage over Time from Destructive Touch and its morphs
-* Shock Clench: Fixed an issue where the area of effect detonation of the ability, "Shock Clench Explosion", was not able to critically strike. This ability will now properly scale with your Spell Critical rating and inherent your Critical Hit Damage modifiers.
+[Patch 4.3.5] * Shock Clench: Fixed an issue where the area of effect detonation of the ability, "Shock Clench Explosion", was not able to critically strike. This ability will now properly scale with your Spell Critical rating and inherent your Critical Hit Damage modifiers.
 ESO Patch Note|5.1.5|* Redesigned this ability and its morphs to function as a DoT, rather than a utility skill.
 - Reduced the base cost to 2700 from 4050.
 - Reduced the initial hit damage by approximately 17%, but increased the DoT by approximately 167% per tick.
@@ -100,10 +100,10 @@ ESO Patch Note|5.1.5|* Redesigned this ability and its morphs to function as a D
 - Destructive Clench: This morph retains the unique functionality for each elemental staff type you choose, but no longer deals damage over time. Flame Clench knocks the target back and stuns them for the duration; Frost Clench Immobilizes the target. Shock converts the attack into an AoE explosion, and deals our AoE damage standard.
 - Note: The patch notes incorrectly listed this as Desctructive Reach
 - Destructive Reach: This morph increases the range to 28 meters and reduces the cost to 2430 at Rank IV.
-* Decreased the damage per tick of this ability and the Destructive Reach morph by approximately 63%.
-* Increased the Damage over Time of this ability and the Destructive Reach morph by 33%.
-* Decreased the damage per tick of this ability and the Destructive Reach morph by approximately 50%.
-* Fixed an issue where the visual effects for this ability's Damage over Time would fail to refresh when using a Lightning staff.
+[Patch 5.2.0] * Decreased the damage per tick of this ability and the Destructive Reach morph by approximately 63%.
+[Patch 5.2.3] * Increased the Damage over Time of this ability and the Destructive Reach morph by 33%.
+[Patch 5.2.5] * Decreased the damage per tick of this ability and the Destructive Reach morph by approximately 50%.
+[Patch 5.3.4] * Fixed an issue where the visual effects for this ability's Damage over Time would fail to refresh when using a Lightning staff.
 ESO Patch Note|6.2.5|* Fixed an issue where this ability and the Destructive Clench morph would aggro enemies before dealing damage.
 - Destructive Clench (morph): The Frost version of this morph now taunts enemies for 15 seconds.
 ESO Patch Note|7.1.5|* This ability and its morphs now guarantee their respective element type's status effect on hit.
@@ -112,7 +112,7 @@ ESO Patch Note|7.1.5|* This ability and its morphs now guarantee their respectiv
 - The Frost Touch and Reach versions of this ability now deal 80% more damage on its initial hit to make them equal to other ranged spammable damage attacks to give love to those Frost DPS out there.
 - Destructive Clench (morph): The Frost version of this ability still remains tank-focused rather than DPS-focused, and as such has received a cost reduction to 1485, down from 2700. It also applies Major Maim for 5 seconds at rank IV.
 - Developer Comment: With the introduction of the Frostbite set in Update 30, we saw a lot of discussion on the viability of Frost damage sets and how their main drawback - regardless of their power - was there was no Frost damaging ability that could be used as a spammable attack. Rather than bloating those sets further, we've decided to let Frost Touch and its morphs stand out; Frost Touch and Reach now deal ranged spammable damage on initial hit. Additionally, Frost Clench has been missing the mark for being a viable taunt compared to Puncture or Inner Fire, so we've decided to amp it up by introducing a source of on-demand Major Maim, while also reducing the cost. The changes to the base ability also help to gain a form of on demand Minor Brittle, helping both DPS and tanks out regardless of the morph.
-* Flame Clench (morph): Fixed an issue where this morph's knock back visuals were not displaying on targets properly.
+[Patch 8.0.5] * Flame Clench (morph): Fixed an issue where this morph's knock back visuals were not displaying on targets properly.
 ESO Patch Note|8.1.5|* This ability and the Destructive Reach versions now last for 20 seconds, up from 10.
 - Reduced the damage per tick by 25%.
 - Destructive Clench (morph):

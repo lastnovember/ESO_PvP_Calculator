@@ -14,4 +14,4 @@ linerank1=1
 Inexorable Descent improves the Landslide passive, by increasing damage done, healing done and Damage Shield strength by 1% whenever you deal damage.is the "damage done" effect a separate one from the one already present in Landslide?
 
 ## Patch Notes
-*This passive upgrades Landslide to also grant 1% potency to damage and healing done, and damage shield strength per stack.
+[Patch 12.0.0] *This passive upgrades Landslide to also grant 1% potency to damage and healing done, and damage shield strength per stack.

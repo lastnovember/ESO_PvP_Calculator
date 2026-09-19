@@ -1,0 +1,9 @@
+Repair Kit,Level,Description,Price,Value
+,Petty Repair Kit,1,"Repairs items of any level, but is less effective on items over Level 9.",45,1
+,Minor Repair Kit,10,"Repairs items of any level, but is less effective on items over Level 19.",180,6
+,Lesser Repair Kit,20,"Repairs items of any level, but is less effective on items over Level 29.",255,8
+,Common Repair Kit,30,"Repairs items of any level, but is less effective on items over Level 39.",315,10
+,Greater Repair Kit,40,"Repairs items of any level, but is less effective on items over Level 49.",375,12
+,Equipment Repair Kit (Formerly Grand Repair Kit),50,Repairs items of any level.,420,14
+,Crown Repair Kit,1,"When used, this repair kit restores all your damaged equipment to its original condition.",400 for 10,N/A
+,Impressario's Group Repair Kit,1,"When used, this repair kit restores damaged gear equipped by you and any members of your group (of any size) within your zone to its original condition.",,N/A

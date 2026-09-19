@@ -18,5 +18,5 @@ linerank2=36
 Emerald Moss increases the effectiveness of your Green Balance abilities depending on how many of them you have slotted, up to 6% or 12% if you are using all abilities in the skill line.
 
 ## Patch Notes
-* Fixed an issue where the morphs of Healing Seeds were not properly contributing to this passive
-* Increased the healing done by Green Balance abilities to 2/5% per Green Balance ability slotted, up from 1/2%.
+[Patch 7.2.5] * Fixed an issue where the morphs of Healing Seeds were not properly contributing to this passive
+[Patch 11.0.5] * Increased the healing done by Green Balance abilities to 2/5% per Green Balance ability slotted, up from 1/2%.

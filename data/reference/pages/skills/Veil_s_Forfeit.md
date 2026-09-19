@@ -14,4 +14,4 @@ linerank1=1
 Veil's Forfeit allows you to use corpse consuming abilities on a target if you directly heal them when they are below 66% Health. It also extends the duration of Major Vulnerability you apply by 50%.
 
 ## Patch Notes
-*Veil's Forfeit: This passive activates when directly healing a target below 66% Health, which allows you to use a corpse consuming ability against them within 10 seconds. This effect can occur once every second. Passively increases the duration of all sources of Major Vulnerability you apply by 50%.
+[Patch 12.0.5] *Veil's Forfeit: This passive activates when directly healing a target below 66% Health, which allows you to use a corpse consuming ability against them within 10 seconds. This effect can occur once every second. Passively increases the duration of all sources of Major Vulnerability you apply by 50%.

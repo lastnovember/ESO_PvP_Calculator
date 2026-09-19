@@ -18,6 +18,6 @@ linerank2=9
 Magicka Aid increases your Magicka Recovery for each Support skill you have slotted. This includes the Ultimate, Barrier, so with the other 4 active abilities, this gives you a maximum increase of 25%, or 50% with a second point invested in this passive.
 
 ## Patch Notes
-Revealing Flare]].
-Cleanse]]: Fixed an issue where this ability wasn't increasing magicka regeneration from the Support passive Magicka Aid.
-Purge]]: Fixed an issue where this ability and its morphs did not properly benefit from the Magicka Aid passive of this skill line.
+[Patch 1.6.5] * Fixed an issue where the extra Magicka recovery granted by this passive ability was not working properly with Guard and Revealing Flare.
+[Patch 2.0.5] * Cleanse: Fixed an issue where this ability wasn't increasing magicka regeneration from the Support passive Magicka Aid.
+[Patch 4.3.5] * Purge: Fixed an issue where this ability and its morphs did not properly benefit from the Magicka Aid passive of this skill line.

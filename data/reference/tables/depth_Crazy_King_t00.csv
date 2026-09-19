@@ -1,0 +1,20 @@
+Icon,Name,Points,Description
+Capture Points
+,Dominator,100*,Capture a capture point
+,Vigilant Defender,500*,Earn 250 defense points at a capture point
+,Offensive Execution,10*,Kill a defender at a capture point §
+,Defensive Execution,5*,Kill an attacker while defending a capture point §
+Defense
+,Gleaming Guardian,50,Take 15k damage
+,Dauntless Defender,100,Take 30k damage
+,Valiant Vanguard,200,Take 60k damage
+,Steady Centurion,400,Take 250k damage
+,Iron Soul,50*,Survive a 10k damage hit
+,Steel Skin,50*,Survive an 11.75k damage hit
+Healing
+,Humble Protector,100,Do 5k healing while defending a capture point
+,Devoted Protector,200,Do 25k healing while defending a capture point
+,Sublime Protector,300,Do 37.5k healing while defending a capture point
+,Divine Protector,500,Do 375k healing while defending a capture point
+,Helping Hand,50*,Score a 10k healing hit on an ally defender†
+,Blessed Assistance,100*,Score a healing hit on an ally defender †

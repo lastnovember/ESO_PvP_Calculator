@@ -1,0 +1,13 @@
+Script,Effects
+Breach,Breach,"Afflicts Minor Breach for 22 seconds, reducing Physical and Spell Resistance by 2974."
+Incompatible with Warding Contingency and Healing ContingencyGrowing2
+Enervation,Enervation,"Afflicts Minor Enervation for 22 seconds, reducing Critical Damage by 10%."
+Incompatible with Warding Contingency and Healing ContingencyGrowing2
+Force,Force,"Grants Minor Force for 22 seconds, increasing Critical Damage by 10%."
+Intellect and Endurance,Intellect and Endurance,"Grants Minor Intellect and Minor Endurance for 22 seconds, increasing Magicka and Stamina Recovery by 15%."
+Magickasteal,Magickasteal,"Afflicts enemies with Minor Magickasteal for 22 seconds, restoring 168 Magicka to attackers every 1 second."
+Incompatible with Warding Contingency and Healing ContingencyGrowing2
+Protection,Protection,"Grants Minor Protection for 22 seconds, reducing damage taken by 5%."
+Resolve,Resolve,"Grants Minor Resolve for 22 seconds, increasing Physical and Spell Resistance by 2974."
+Vulnerability,Vulnerability,"Afflicts Minor Vulnerability for 22 seconds, increasing damage taken by 5%."
+Incompatible with Warding Contingency and Healing ContingencyGrowing2

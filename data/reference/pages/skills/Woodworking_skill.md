@@ -45,25 +45,25 @@ Woodworking determines the quality of Woodworking items you can make. This inclu
 The materials used to craft Woodworking items are as follows:
 Raw Material | Refined Into | class=unsortable|Used To Make... | Levels
 
-Rough Maple | Sanded Maple | Maple Bow, Maple Staves, Maple Shield | R 0|1 - 14
+Rough Maple | Sanded Maple | Maple Bow, Maple Staves, Maple Shield | 0|1 - 14
 
-Rough Oak | Sanded Oak | Oak Bow, Oak Staves, Oak Shield | R 1|16 - 24
+Rough Oak | Sanded Oak | Oak Bow, Oak Staves, Oak Shield | 1|16 - 24
 
-Rough Beech | Sanded Beech | Beech Bow, Beech Staves, Beech Shield | R 2|26 - 34
+Rough Beech | Sanded Beech | Beech Bow, Beech Staves, Beech Shield | 2|26 - 34
 
-Rough Hickory | Sanded Hickory | Hickory Bow, Hickory Staves, Hickory Shield | R 3|36 - 44
+Rough Hickory | Sanded Hickory | Hickory Bow, Hickory Staves, Hickory Shield | 3|36 - 44
 
-Rough Yew | Sanded Yew | Yew Bow, Yew Staves, Yew Shield | R 4|46 - 50
+Rough Yew | Sanded Yew | Yew Bow, Yew Staves, Yew Shield | 4|46 - 50
 
-Rough Birch | Sanded Birch | Birch Bow, Birch Staves, Birch Shield | R 5|10 - 30
+Rough Birch | Sanded Birch | Birch Bow, Birch Staves, Birch Shield | 5|CP10 - 30
 
-Rough Ash | Sanded Ash | Ash Bow, Ash Staves, Ash Shield | R 6|40 - 60
+Rough Ash | Sanded Ash | Ash Bow, Ash Staves, Ash Shield | 6|CP40 - 60
 
-Rough Mahogany | Sanded Mahogany | Mahogany Bow, Mahogany Staves, Mahogany Shield | R 7|70 - 80
+Rough Mahogany | Sanded Mahogany | Mahogany Bow, Mahogany Staves, Mahogany Shield | 7|CP70 - 80
 
-Rough Nightwood | Sanded Nightwood | Nightwood Bow, Nightwood Staves, Nightwood Shield | R 8|90 - 140
+Rough Nightwood | Sanded Nightwood | Nightwood Bow, Nightwood Staves, Nightwood Shield | 8|CP90 - 140
 
-Rough Ruby Ash | Sanded Ruby Ash | Ruby Ash Bow, Ruby Ash Staves, Ruby Ash Shield | R 9|150 - 160
+Rough Ruby Ash | Sanded Ruby Ash | Ruby Ash Bow, Ruby Ash Staves, Ruby Ash Shield | 9|CP150 - 160
 
 ## Patch Notes
-Solvent Proficiency]] to match the facing of subsequent ranks.
+[Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.

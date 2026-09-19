@@ -18,4 +18,4 @@ Opportunist gives Bretons a natural affinity for Light Armor, allowing them to g
 - Prior to Update 11, this skill was called "Light Armor Affinity", and did not increase your Alliance Points gained.
 
 ## Patch Notes
-* Light Armor Affinity: This passive ability has been renamed to "Opportunist." Also, in addition to the current benefit it now increases your Alliance Points gained by 1%.
+[Patch 2.5.5] * Light Armor Affinity: This passive ability has been renamed to "Opportunist." Also, in addition to the current benefit it now increases your Alliance Points gained by 1%.

@@ -18,4 +18,4 @@ linerank2=36
 Dark Vigor increases your maximum Health for each Shadow active ability you have slotted. This includes the Ultimate, Consuming Darkness, for a maximum of 30% with 2 points invested in this passive.
 
 ## Patch Notes
-* Increased the Max Health from this passive to 2/5% per Shadow ability slotted, up from 2/3% per ability.
+[Patch 11.0.5] * Increased the Max Health from this passive to 2/5% per Shadow ability slotted, up from 2/3% per ability.

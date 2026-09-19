@@ -39,7 +39,7 @@ File:ON-skill-Soul_Shred.jpg|Soul Shred and its morphs' ground visual
 File:ON-skill-Soul Tether link.jpg|Soul Tether morph tether visual
 
 ## Patch Notes
-* Soul Siphon: Edited the tooltip for this ability so it's more consistent with all other tooltips, and fixed an issue so the upgrade tooltip now states that it does less damage than the base ability.
+[Patch 1.2.3] * Soul Siphon: Edited the tooltip for this ability so it's more consistent with all other tooltips, and fixed an issue so the upgrade tooltip now states that it does less damage than the base ability.
 ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the following ticking damage abilities.
 - Agony
 - Bat Swarm
@@ -59,12 +59,12 @@ ESO Patch Note|1.6.5|* The Synergy of Soul Shred is now only available to lowest
 - Soul Siphon: This ability no longer does damage. Instead, it grants the Major Vitality buff to up to six ally targets and heals those targets. This ability will also now properly increase the healing done when having a siphon ability slotted.
 ESO Patch Note|2.3.5|* Soul Shred: Increased the damage from the Soul Leech synergy from this ability and its morphs by 3%.
 - Soul Siphon: This morph now heals and applies the Major Vitality buff to yourself as well as your allies.
-* Soul Tether now displays an area effect telegraph.
-* Fixed an issue where the Soul Leech synergy from this ability and its morphs could occasionally heal based on a different source of damage than itself.
+[Patch 2.6.4] * Soul Tether now displays an area effect telegraph.
+[Patch 2.7.5] * Fixed an issue where the Soul Leech synergy from this ability and its morphs could occasionally heal based on a different source of damage than itself.
 ESO Patch Note|3.2.5|* Soul Siphon:
 - Increased the distance an ally can travel away from you before the heal tether snaps to 25 meters, up from 20 meters.
 - Fixed an issue where Rank I of this ability had a 10 meter initial radius instead of a 15 meter initial radius.
-* Soul Siphon: Increased the radius of the heal applied by this morph to 28 meters from 15 seconds.
+[Patch 4.0.5] * Soul Siphon: Increased the radius of the heal applied by this morph to 28 meters from 15 seconds.
 ESO Patch Note|5.0.5|* Increased the radius of this ability and the Soul Tether morph to 8 meters from 6 meters.
 - Soul Tether (morph): Adjusted this morph to adhere to our DoT standards.
 - Added a 1 second delay between the initial hit and the first DoT tick.
@@ -72,9 +72,9 @@ ESO Patch Note|5.0.5|* Increased the radius of this ability and the Soul Tether 
 - Fixed an issue where these abilities did not get stronger as they ranked up. The initial hit and DoT will both gain 1.1% damage per rank.
 ESO Patch Note|5.2.5|* Soul Tether (morph):
 - This morph now also heals for half of the damage dealt upon the initial hit, in order to help increase the defensive nature of the skill when you successfully cast it.
-* The synergy granted from this Ultimate and its morphs will now work for allies who are 10 meters or closer to the target, rather than 10m or further.
+[Patch 6.0.5] * The synergy granted from this Ultimate and its morphs will now work for allies who are 10 meters or closer to the target, rather than 10m or further.
 ESO Patch Note|6.1.5|* Fixed an issue where the morphs of this Ultimate would fail to stack from multiple casters in some cases.
 - Soul Siphon: Fixed an issue where the heal beam on allies was breaking sooner than intended. It will now snap at 30 meters, rather than 25 meters.
-* Soul Siphon (morph): Fixed an issue where this Ultimate could aggro enemies, despite dealing no damage.
+[Patch 6.2.5] * Soul Siphon (morph): Fixed an issue where this Ultimate could aggro enemies, despite dealing no damage.
 ESO Patch Note|8.0.5|* Fixed an issue where this ability and its morphs could ignore line of sight in some cases.
 - Fixed numerous issues where the damage or healing from these abilities could use the wrong stats to scale.

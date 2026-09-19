@@ -20,5 +20,5 @@ Dual Wield Expert increases overall damage by a percentage of your secondary wea
 ## Patch Notes
 ESO Patch Note|1.1.2|* Updated the tooltip for this passive to display how Weapon Damage it actually increases Weapon Damage
 - Slightly increased the bonus damage granted by rank II of Dual Wield Expert.
-* This passive is no longer lost when you die.
-* Fixed an edge case issue where sometimes this passive could result in higher Weapon and Spell Damage than intended.
+[Patch 1.3.3] * This passive is no longer lost when you die.
+[Patch 10.3.5] * Fixed an edge case issue where sometimes this passive could result in higher Weapon and Spell Damage than intended.

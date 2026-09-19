@@ -41,8 +41,8 @@ Frozen Gate creates a trap on the ground that will teleport an enemy directly to
 - The rune placed uses alphabet seen on runestones, displaying (in clockwise order) Jayde and Rakeipa in the top right, Makko and Deikepa at the bottom, and Odra and Okoma in the top left.
 
 ## Patch Notes
-Nature's Grasp]] abilities to get back into respawn locations.
-* Fixed a grammatical error in this ability's tooltip.
+[Patch 3.0.8] * You can no longer use Frozen Gate to pull other players into spawn locations in Imperial City. You can also no longer cast Nature's Grasp abilities to get back into respawn locations.
+[Patch 3.1.5] * Fixed a grammatical error in this ability's tooltip.
 ESO Patch Note|3.2.5|* This ability and its morphs now allow you to have up to 3 gates active at a time, up from 1. Its initial spawning visual effects are now visible to enemies.
 - Developer's Comments: Frozen Gate is meant as a flavorful analogue to Fiery Grip. Allowing multiple traps at a time lets you throw it down on several enemies at the same time, then have them all get pulled to you. Clever players can anticipate where enemies will be and put traps down even before they get there.
 - Fixed an issue where the visual effects of the Frozen Retreat synergy from this ability and its morphs would linger on your character for an extended period of time.
@@ -55,8 +55,8 @@ ESO Patch Note|4.0.5|* Aldmeri Dominion Wardens can no longer use Frozen Gate on
 ESO Patch Note|5.0.5|* This ability no longer becomes cheaper as it ranks up. The base cost remains 2970 at all ranks, rather than decreasing to 2701 on the morphs.
 - The duration has been streamlined to 30 seconds on all morphs.
 - This ability now ranks up in damage, but has had its base damage reduced to our PBAoE standard attack. Rank IV of each morph will reach the same damage as before.
-* Icy Escape: Fixed an issue where this synergy was not being properly recognized by conditional bonuses, such as "When activating a synergy".
-* Fixed an issue where the damage from this ability and its morphs could return as Damage over Time in some cases.
+[Patch 5.1.5] * Icy Escape: Fixed an issue where this synergy was not being properly recognized by conditional bonuses, such as "When activating a synergy".
+[Patch 6.3.5] * Fixed an issue where the damage from this ability and its morphs could return as Damage over Time in some cases.
 ESO Patch Note|7.1.5|* This ability and its morphs' traps now last 15 seconds, rather than 30 seconds.
 - Fixed an issue where in some cases, these abilities could remove themselves before their timer ran out.
-* Reduced the placement range on this ability and its morphs to 22 meters (down from 28 meters) so they can no longer be augmented by range enhancing effects
+[Patch 10.1.6] * Reduced the placement range on this ability and its morphs to 22 meters (down from 28 meters) so they can no longer be augmented by range enhancing effects

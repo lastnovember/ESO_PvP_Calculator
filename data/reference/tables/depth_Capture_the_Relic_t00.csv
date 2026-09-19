@@ -1,0 +1,18 @@
+Icon,Name,Points,Description
+Relic Capture
+,First Relic,111,Capture the first Relic of a match
+,Relic Runner,500*,Capture a Relic
+,Relic Hunter,100*,Kill a Relic carrier
+,Assist,100*,Help a team mate kill a Relic carrier
+Damage
+,Relic Bruiser,50,Deal 5k damage to Relic carriers
+,Relic Fearsome Fighter,100,Deal 25k damage to Relic carriers
+,Relic Gladiator,200,Deal 50k damage to Relic carriers
+,Relic Champion,400,Deal 375k damage to Relic carriers
+,Relic Crushing Blow,10*,Score an 11.75k damage hit to a Relic carrier
+Healing
+,Humble Protection,100,Do 5k healing on a Relic carrier
+,Devoted Protection,200,Do 18.75k healing on a Relic carrier
+,Relic Protector,300,Do 37.5k healing on a Relic carrier
+,Divine Guardian,400,Do 375k healing on Relic Carriers
+,Critical Healer,100*,Score a 7.5k healing hit on a Relic carrier

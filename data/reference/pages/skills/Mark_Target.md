@@ -39,19 +39,19 @@ File:ON-skill-Mark Target heal.jpg|Mark Target and its morphs' heal visual
 File:ON-skill-Reaper's Mark berserk.jpg|Reaper's Mark morph on-kill Major Berserk visual on arms
 
 ## Patch Notes
-* Reaper's Mark: This ability's weapon and spell damage buff no longer stacks with itself - the duration of the damage buff will now just refresh upon each kill.
-* This ability has a new first-person graphical effect.
+[Patch 1.2.3] * Reaper's Mark: This ability's weapon and spell damage buff no longer stacks with itself - the duration of the damage buff will now just refresh upon each kill.
+[Patch 1.5.2] * This ability has a new first-person graphical effect.
 ESO Patch Note|1.6.5|* This ability now grants the Major Breach and Major Fracture buffs.
 - Removed the penalty from this ability.
 - This ability can now be cast on any target.
 - Reduced the cost of this ability by approximately 50%, and reduced the duration to 20 seconds.
 - Piercing Mark: The duration of this ability now scales with ability ranks up to a maximum of 30 seconds. This ability now correctly reveals Vampire players who are using Clouding Swarm.
 - Reaper's Mark: This ability now grants the Major Berserk buff for 8 seconds after the target is killed.
-* Piercing Mark: Decreased the duration of the detection effect to 5 seconds from 30 seconds. The duration of the Major Fracture and Breach effects remain unchanged.
-* Updated the Death Recap hint for this ability to more accurately describe its functionality.
-* Removed the cost from this ability and its morphs. This was done to make it more comparable to abilities, such as Weakness to Elements, that only apply a debuff to their target.
-* This ability and the Reaper's Mark ability are now considered 1 negative effect, instead of 3. Piercing Mark will count as 2, due to the Reveal aspect. The conditional "if the target dies" bonuses from this ability and its morphs will no longer proc when using on pets.
-* Fixed an issue where this ability and morphs' sourcing of Major Breach would be removed if the ability was recast while still actively on a target. This effect will now be considered 2 negative effects instead of 1 - one for Major Breach and another for the Mark that grants the caster resources if the marked target dies, similar to other abilities that apply multiple effects, such as Power of the Light.
+[Patch 4.2.5] * Piercing Mark: Decreased the duration of the detection effect to 5 seconds from 30 seconds. The duration of the Major Fracture and Breach effects remain unchanged.
+[Patch 4.3.5] * Updated the Death Recap hint for this ability to more accurately describe its functionality.
+[Patch 5.0.5] * Removed the cost from this ability and its morphs. This was done to make it more comparable to abilities, such as Weakness to Elements, that only apply a debuff to their target.
+[Patch 5.1.5] * This ability and the Reaper's Mark ability are now considered 1 negative effect, instead of 3. Piercing Mark will count as 2, due to the Reveal aspect. The conditional "if the target dies" bonuses from this ability and its morphs will no longer proc when using on pets.
+[Patch 6.3.5] * Fixed an issue where this ability and morphs' sourcing of Major Breach would be removed if the ability was recast while still actively on a target. This effect will now be considered 2 negative effects instead of 1 - one for Major Breach and another for the Mark that grants the caster resources if the marked target dies, similar to other abilities that apply multiple effects, such as Power of the Light.
 ESO Patch Note|8.0.5|* Piercing Mark (morph):
 - Fixed an issue where the heal from this morph was lower than the base ability.
 - Increased the duration of the effects to 60 seconds at rank IV, up from 30.

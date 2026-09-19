@@ -24,4 +24,4 @@ Malacath's Vengeance deals massive Physical Damage to a single target. It has a 
 - This skill temporarily forces you in third person camera during its animation.
 
 ## Patch Notes
-* Updated this ability to better match its visual effects, resulting in a 700ms cast time. This will fix numerous issues where this ability could cause health desyncs or hit targets who had appeared to dodge.
+[Patch 5.3.4] * Updated this ability to better match its visual effects, resulting in a 700ms cast time. This will fix numerous issues where this ability could cause health desyncs or hit targets who had appeared to dodge.

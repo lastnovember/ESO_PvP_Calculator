@@ -42,7 +42,7 @@ File:ON-skill-Twisting_Path.jpg|Twisting Path|Twisting Path
 File:ON-skill-Twisting_Path-enemy.jpg|Twisting Path-enemy|Twisting Path as seen by an enemy
 
 ## Patch Notes
-* Increased the damage of this ability.
+[Patch 1.1.3] * Increased the damage of this ability.
 ESO Patch Note|1.2.3|* This ability can now be seen by all other player characters. Also fixed an issue where it was ticking more times than intended on a target.
 - Refreshing Path: This ability will now heal your allies, and the healing done has been slightly increased.
 ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the following ticking damage abilities.
@@ -77,11 +77,11 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Increased the damage of this ability and the Refreshing Path morph by 25%.
 - Twisting Path: Increased the damage of this morph by 32%.
 - Developer Comments: The goal of this change was to ensure there was an interesting choice between morphs. You can choose to either have more damage, or add a heal component.
-* Twisting Path: Increased the damage of this morph by approximately 11%
+[Patch 3.0.5] * Twisting Path: Increased the damage of this morph by approximately 11%
 ESO Patch Note|3.1.5|* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
 - Twisting Path: Fixed an issue where this morph was not being considered a damage over time effect.
-* Fixed an issue where some of the visual effects from this ability and its morphs were not aligned with the actual location of the path.
-* Reduced the damage and healing done by this ability and Refreshing Path morph by approximately 5%, and reduced the damage done by the Twisting Path morph by approximately 9%.
+[Patch 3.2.5] * Fixed an issue where some of the visual effects from this ability and its morphs were not aligned with the actual location of the path.
+[Patch 4.0.5] * Reduced the damage and healing done by this ability and Refreshing Path morph by approximately 5%, and reduced the damage done by the Twisting Path morph by approximately 9%.
 ESO Patch Note|4.2.5|* This ability no longer deals damage. It now grants Major Expedition to you and your allies on the path, and for up to 2 seconds after leaving it.
 - Twisting Path: This morph now adds damage. The damage value is the same as what is currently on Live.
 - Refreshing Path: This morph now adds healing. The healing value is equal to the damage value of Twisting Path.
@@ -90,18 +90,18 @@ ESO Patch Note|5.1.5|* Twisting Path: Decreased the damage per tick of this abil
 - Refreshing Path:
 - Fixed an issue where this ability could heal you twice per tick after the first heal applied.
 - Increased the healing per tick by approximately 29%. Note the heal will be stronger than Twisting's damage potential, because Twisting also gains increased area coverage.
-* Twisting Path (morph): Increased the damage per tick of this morph by approximately 50%.
-* Fixed an issue where this ability would change its Area of Effect based on summoned due to inheriting ownership. It now always heals in the area it displays, regardless if you summon minions to do your bidding.
-* Fixed an issue where the visual effects from this ability could persist longer than intended.
-* Refreshing Path (morph): Fixed an issue where the visuals from this ability's heal could last much longer than intended.
-* Twisting Path (morph): This ability's damage now scales dynamically with the highest of your offensive stats.
+[Patch 5.2.5] * Twisting Path (morph): Increased the damage per tick of this morph by approximately 50%.
+[Patch 5.2.7] * Fixed an issue where this ability would change its Area of Effect based on summoned due to inheriting ownership. It now always heals in the area it displays, regardless if you summon minions to do your bidding.
+[Patch 5.3.4] * Fixed an issue where the visual effects from this ability could persist longer than intended.
+[Patch 6.2.5] * Refreshing Path (morph): Fixed an issue where the visuals from this ability's heal could last much longer than intended.
+[Patch 7.2.5] * Twisting Path (morph): This ability's damage now scales dynamically with the highest of your offensive stats.
 ESO Patch Note|7.3.5|* Made some back-end improvements to this ability and its morphs to improve performance.
 - Refreshing Path (morph): This ability now heals 1 less time over its duration as a result of the back-end adjustments mentioned above, but its total healing has been increased to ensure no changes in overall power have been made.
-* Refreshing Path (morph): This morph now also grants Minor Endurance and Intellect for 4 seconds each tick.
+[Patch 8.0.5] * Refreshing Path (morph): This morph now also grants Minor Endurance and Intellect for 4 seconds each tick.
 ESO Patch Note|8.1.5|* This ability and its morphs now apply their effects instantly, rather than after a delay.
 - Twisting Path (morph):
 - Reduced the damage per tick of this morph by approximately 38%.
 - Reduced the cost to 2700, down from 3510.
 - Refreshing Path (morph): Reduced the healing per tick by approximately 35%.
-* Fixed an issue with this ability and morphs' Major Expedition where the visual effects could flicker and cause client performance issues.
-* The effects from this ability and its morphs will now apply more consistently, rather than having different behaviors for line-of-sight rules across them.
+[Patch 8.2.5] * Fixed an issue with this ability and morphs' Major Expedition where the visual effects could flicker and cause client performance issues.
+[Patch 9.0.5] * The effects from this ability and its morphs will now apply more consistently, rather than having different behaviors for line-of-sight rules across them.

@@ -1,0 +1,21 @@
+Command,Effect
+/reloadui,Reloads the user interface and closes all open menus. Useful for when you are stuck on a menu or need to reload a plug-in. Does not kill you.
+/stuck,"For the cost of a regular teleport, characters can be teleported to the nearest wayshrine with this command. It is useful for getting out of places that a character cannot emerge from; for example, phasing into the ground by accident."
+/logout /camp,Logs the player out. This bypasses normal game restrictions for when a player is not permitted to log out (e.g. combat).
+/quit,Quits the game. This bypasses normal game restrictions for when a player is not permitted to quit (e.g. combat).
+/chatlog,Saves a copy of the character's chatlog to \Documents\Elder Scrolls Online\Logs\ChatLog.log (Windows)
+/bug,Brings up the bug report window.
+/feedback,Brings up the feedback window.
+/help,Brings up the help window.
+/chat,Brings up the chat with customer support window.
+/fps,Displays the current frame rate.
+/latency,Displays the current server/client latency.
+/played,Displays the total play time on the current character.
+/invite,"Invite another player to your group (e.g., /invite PlayerName would invite PlayerName to your group, or /invite @AccountName to use the player's @AccountName)"
+/readycheck,Initiates a ready-check for your group
+/script,Run a Lua API function.
+"The following can also be used to enter a different instance or ""shard"" of a zone (if the target is in that instance) in an attempt to reach an instance with a lower population."
+/jumptofriend,"Jump to the Wayshrine closest to a named friend. (e.g., /jumptofriend CharacterName or /jumptofriend @AccountName )"
+/jumptogroupmember,"Jump to the Wayshrine closest to a named group member. (e.g., /jumptogroupmember CharacterName or /jumptogroupmember @AccountName )"
+/jumptoguildmember,"Jump to the Wayshrine closest to a named guild member. (e.g., /jumptoguildmember CharacterName or /jumptoguildmember @AccountName )"
+/jumptoleader,Jump to the Wayshrine closest to the group leader.

@@ -18,8 +18,8 @@ Shadowy Supplier gives you a contact who supplies you with various items of a le
 When you speak to her, you can pick one of three options, each of which yielding a container of useful items.
 
 ## Patch Notes
-* The Monk's Disguise obtained from the Shadowy Supplier will now be appropriately removed if the timer expires after you die. Also, fixed an uncommonly occurring crash related to changing zones at the same moment the Monk's Disguise expires.
-* The Monk's Disguise from the Shadowy Supplier will now be destroyed if your character dies while wearing it.
-* The Shadowy Supplier will rarely award one of a selection of Dark Brotherhood-themed decorations.
+[Patch 2.4.10] * The Monk's Disguise obtained from the Shadowy Supplier will now be appropriately removed if the timer expires after you die. Also, fixed an uncommonly occurring crash related to changing zones at the same moment the Monk's Disguise expires.
+[Patch 2.4.11] * The Monk's Disguise from the Shadowy Supplier will now be destroyed if your character dies while wearing it.
+[Patch 2.7.5] * The Shadowy Supplier will rarely award one of a selection of Dark Brotherhood-themed decorations.
 ESO Patch Note|3.0.5|* The Shadowy Supplier now appears on your map once you've unlocked the Shadowy Supplier passive.
 - Fixed an issue where equipment from the Shadowy Supplier would automatically equip itself if you had an empty slot available.

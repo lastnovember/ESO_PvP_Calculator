@@ -67,7 +67,7 @@ ESO Patch Note|1.6.5|* Fixed an issue where the damage over time component from 
 - Fixed an issue where the effects from this ability would stay visible when the target receiving the shield would go into stealth.
 - Dark Cloak: Fixed an issue where this ability was not removing the damage over time effects while you were in combat.
 - Shadowy Disguise: This ability now makes the next attack a guaranteed crit. Reduced the cost of this morph by 10%.
-Radiant Destruction]].
+[Patch 2.0.1] * Fixed an issue where this ability wasn't removing channeled damage abilities, such as Radiant Destruction.
 ESO Patch Note|2.1.4|* You can no longer be hit by single target attacks while this ability is active. You also can no longer avoid infamy from lockpicking by using this ability.
 - This ability will no longer be removed by the abilities listed below when you successfully avoid their damage, though note that taking damage will still remove you from stealth.
 - Critical Charge
@@ -88,11 +88,11 @@ ESO Patch Note|2.3.5|* This ability and its morphs will now suppress damage over
 - Dark Cloak: This morph no longer removes damage over time effects due to the baseline changes for Shadow Cloak described below; instead, it grants the Minor Protection buff for 2/3/4/5 seconds after the invisibility ends at Ranks I/II/III/IV respectively.
 ESO Patch Note|2.3.6|* Fixed an issue where this ability and its morphs were not suppressing the damage over time effects from siege weapons.
 - Known Issue: The damage over time from Meatbag Catapults will still break you out of cloak, and will be fixed in a future patch.
-* Fixed an issue where this ability and its morphs were not suppressing the damage over time effects from the Meatbag Catapult.
+[Patch 2.3.7] * Fixed an issue where this ability and its morphs were not suppressing the damage over time effects from the Meatbag Catapult.
 ESO Patch Note|2.4.5|* Fixed an issue where this ability and its morphs could be used to completely negate the Meteor ability.
 - Lotus Fan (Teleport Strike morph): Fixed an issue where the damage over time applied by this morph was not being correctly suppressed by invisibility effects such as Shadow Cloak.
 
-Elemental Storm]] morph): Dealing damage with this morph will now remove the caster from Shadow Cloak and display a hostile red telegraph to enemy player characters.
+[Patch 2.6.11] * Eye of the Storm (Elemental Storm morph): Dealing damage with this morph will now remove the caster from Shadow Cloak and display a hostile red telegraph to enemy player characters.
 ESO Patch Note|2.7.5|* Fixed an issue where the invisibility from this ability and its morphs was being broken by certain abilities, such as Teleport Strike, Dark Flare, and Weapon Enchantments.
 - Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Veiled Strike
@@ -101,13 +101,13 @@ ESO Patch Note|2.7.5|* Fixed an issue where the invisibility from this ability a
 - Aspect of Terror
 - Summon Shade
 - Developer Comment: The goal of this change was to make sure early skills in the trees are simpler and more damage focused.
-Burning Talons]] damage over time effect.
-* Fixed an issue where casting this ability and its morphs was erroneously displaying the error text "You can't cast that ability right now".
+[Patch 3.0.5] * Shadow Cloak: Fixed an issue where the invisibility from this ability and its morphs was being broken by numerous abilities including Reflective Light, Silver Shards, and Burning Talons damage over time effect.
+[Patch 3.2.5] * Fixed an issue where casting this ability and its morphs was erroneously displaying the error text "You can't cast that ability right now".
 ESO Patch Note|4.0.5|* Dark Cloak: This morph no longer grants invisibility; instead it heals you for 32% of your Max Health over 3 seconds and grants Minor Protection for the duration.
 - Shadowy Disguise:
 - Fixed an issue where this morph's effect was causing all your healing over time effects to critically strike, and not consume the effect.
 - Fixed an issue where this morph would cause your next damage over time tick to critically strike and consume the effect. ***This morph's effect now only works on your next direct damage attack.
-* Dark Cloak: Fixed an issue where casting this ability was removing you from sneak.
+[Patch 4.1.5] * Dark Cloak: Fixed an issue where casting this ability was removing you from sneak.
 ESO Patch Note|5.0.5|* Dark Cloak: Adjusted how this ability operates.
 - It will now heal the caster for 6% of their Max Health every 1 second, and duration can increase to a maximum of 8 seconds with other passives.
 - The tooltip will now state the value you will heal for, rather than how it scales, to prevent confusion.
@@ -120,8 +120,8 @@ ESO Patch Note|5.2.5|* Shadowy Disguise (morph):
 - Fixed an issue where the Critical bonus from this ability could be consumed by abilities that could not Critically Strike.
 ESO Patch Note|6.1.5|* Fixed an issue where this ability was granting immunity to projectiles from targets that had detection potions active.
 - Updated many cases where this ability's invisibility was removed where it shouldn't have been, such as against Ballista.
-* Dark Cloak (morph): Reduced the healing from this morph by approximately 5%.
-* Fixed an issue where this ability and morphs' protections could work even if the attacker had a detection potion active.
+[Patch 7.0.5] * Dark Cloak (morph): Reduced the healing from this morph by approximately 5%.
+[Patch 7.1.5] * Fixed an issue where this ability and morphs' protections could work even if the attacker had a detection potion active.
 ESO Patch Note|7.2.5|* Dark Cloak (morph):
 - Increased the healing from this ability by approximately 61% per tick, but reduced the base duration to 3 seconds down from 6.
 - Increased the duration of the Minor Protection to 10 seconds, up from 6 and fixed an issue where it was not being affected by the Dark Veil passive.

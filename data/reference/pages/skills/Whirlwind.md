@@ -38,15 +38,15 @@ File:ON-skill-Whirling_Blades.jpg|Whirling Blades
 File:ON-skill-Steel_Tornado.jpg|Steel Tornado
 
 ## Patch Notes
-* This ability no longer increases the damage of weapon enchantments.
-* Steel Tornado: Decreased the radius of this morph to 9 meters on all Ranks from 11/11.5/12/12.5 meters on Ranks I/II/III/IV. This morph now gains slightly more damage as it ranks up.
+[Patch 1.2.3] * This ability no longer increases the damage of weapon enchantments.
+[Patch 2.3.5] * Steel Tornado: Decreased the radius of this morph to 9 meters on all Ranks from 11/11.5/12/12.5 meters on Ranks I/II/III/IV. This morph now gains slightly more damage as it ranks up.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Flurry
 - Twin Slashes
 - Whirlwind
 - Blade Cloak
 - Hidden Blade
-* The damage from this ability and its morphs can now be blocked, but cannot be dodged.
+[Patch 3.3.5] * The damage from this ability and its morphs can now be blocked, but cannot be dodged.
 ESO Patch Note|5.0.5|* Increased the base damage of this ability and morphs by 50%, but removed the execute bonus.
 - Reduced the base cost to 3510 from 3780.
 - Increased the radius of this ability and the Whirling Death morph to 6 meters from 5 meters.

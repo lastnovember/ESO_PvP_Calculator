@@ -21,4 +21,4 @@ Hemorrhage increases the damage done by Critical Strikes, and also gives you and
 - The Nocturnal Inspiration Class Mastery ability also generates 2 Ultimate on critical strikes.
 
 ## Patch Notes
-* This passive now provides the Minor Force buff for 20 seconds to all allies whenever you crit.
+[Patch 1.6.5] * This passive now provides the Minor Force buff for 20 seconds to all allies whenever you crit.

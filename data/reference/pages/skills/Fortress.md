@@ -18,6 +18,6 @@ linerank2=34
 Fortress reduces the Stamina cost of both One Hand and Shield abilities and blocking with a Shield.
 
 ## Patch Notes
-* Increased the block cost reduction from this passive ability to 18/36% at Ranks I/II from 15/30%.
-* Fixed an issue where this passive ability was erroneously reducing the cost of all weapon abilities, instead of only One Hand and Shield abilities.
-* Increased the cost reduction bonus from this passive to 7/15% from 5/10% to match our Stamina weapon standards.
+[Patch 2.4.5] * Increased the block cost reduction from this passive ability to 18/36% at Ranks I/II from 15/30%.
+[Patch 2.5.5] * Fixed an issue where this passive ability was erroneously reducing the cost of all weapon abilities, instead of only One Hand and Shield abilities.
+[Patch 5.1.5] * Increased the cost reduction bonus from this passive to 7/15% from 5/10% to match our Stamina weapon standards.

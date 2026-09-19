@@ -157,7 +157,7 @@ At certain times, one of the alliances may qualify for an "underdog bonus" durin
 - Score Underdog - Scoring bonus ×3, AP bonus 100%
 
 ## Bonuses
-Every player who enters Cyrodiil is given the Battle Spirit bonus, regardless of their level. On a player below Level 50 150, this also stacks with "battle leveling", which scales up their attributes, armor, and damage ratings in order to remain competitive. Other bonuses are earned based on the number of enemy keeps your alliance controls, and how many Elder Scrolls are stored within them. An additional bonus is given to the alliance which contains a campaign's emperor. While in Cyrodiil, the bonuses are taken from the campaign you are currently in. While in PvE zones, the bonuses do not apply. Your alliance must control all Home Keeps and Scrolls in order to benefit from the control of enemy keeps and scrolls.
+Every player who enters Cyrodiil is given the Battle Spirit bonus, regardless of their level. On a player below Level 50 CP150, this also stacks with "battle leveling", which scales up their attributes, armor, and damage ratings in order to remain competitive. Other bonuses are earned based on the number of enemy keeps your alliance controls, and how many Elder Scrolls are stored within them. An additional bonus is given to the alliance which contains a campaign's emperor. While in Cyrodiil, the bonuses are taken from the campaign you are currently in. While in PvE zones, the bonuses do not apply. Your alliance must control all Home Keeps and Scrolls in order to benefit from the control of enemy keeps and scrolls.
 
 ### Cyrodiil Bonus
 colspan=2|Bonus | Effect

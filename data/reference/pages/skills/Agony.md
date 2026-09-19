@@ -48,8 +48,8 @@ ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the fo
 - Volley
 - Wall of Elements
 - All elemental procs
-* Reduced the cast time of Agony to 1.2 seconds, and increased the duration by 50%.
-* This ability and its morphs will now apply their damage over time component to targets that are immune to the disorient portion of the ability.
+[Patch 1.6.5] * Reduced the cast time of Agony to 1.2 seconds, and increased the duration by 50%.
+[Patch 2.3.5] * This ability and its morphs will now apply their damage over time component to targets that are immune to the disorient portion of the ability.
 ESO Patch Note|3.2.5|* Agony: This ability and its morphs is now an ally-targeted spell that heals them over time and costs Health to cast instead of Magicka. We also renamed this ability to Malevolent Offering.
 - Malefic Wreath: This morph now grants Minor Mending when it deals damage to you, and has been renamed to Healthy Offering.
 - Prolonged Suffering: This morph now decreases the health cost, and has been renamed to Shrewd Offering.

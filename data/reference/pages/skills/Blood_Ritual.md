@@ -20,4 +20,4 @@ Blood Ritual lets you infect another player with Vampirism once per week. The tw
 - Should the synergy not appear, the player you wish to infect needs to die and respawn before the synergy can appear.
 
 ## Patch Notes
-* Updated this passive ability's tooltip to include the correct name of effect that allows you to infect other players with Vampirism (Noxiphilic Sanguivoria).
+[Patch 1.6.5] * Updated this passive ability's tooltip to include the correct name of effect that allows you to infect other players with Vampirism (Noxiphilic Sanguivoria).

@@ -43,14 +43,14 @@ The Deafening Roar morph will apply Major Cowardice and Maim debuffs to enemies,
 The Ferocious Roar morph's heavy attack speed bonus only applies to consecutive heavy attacks, the first one you do is never sped up.
 
 ## Patch Notes
-* This ability now correctly calculates its power bonus based on the number of targets that get hit.
+[Patch 1.3.3] * This ability now correctly calculates its power bonus based on the number of targets that get hit.
 ESO Patch Note|1.5.2|* Fixed an issue where this ability didn't cost resources if it didn't hit any targets.
 - Ferocious Roar: Fixed an issue where enemies affected by this ability would begin sliding before the disorient ended.
-* Rousing Roar: This ability now grants the Major Brutality buff for 5 seconds.
-* Rousing Roar: Fixed an issue that was preventing Rousing Roar from hitting the correct number of allies. It will now always hit six friendly targets.
-* Fixed an issue where the fear from this ability and its morphs was not applying CC-immunity at the end of its duration.
-* Rousing Roar: Increased the duration of the Major Brutality buff provided by this morph to 20/21/22/23 seconds from 4/4.3/4.7/5 seconds.
-* Fixed an issue where this ability and its morphs were not displaying a debuff icon for their off-balance effect.
+[Patch 1.6.5] * Rousing Roar: This ability now grants the Major Brutality buff for 5 seconds.
+[Patch 2.0.8] * Rousing Roar: Fixed an issue that was preventing Rousing Roar from hitting the correct number of allies. It will now always hit six friendly targets.
+[Patch 2.4.5] * Fixed an issue where the fear from this ability and its morphs was not applying CC-immunity at the end of its duration.
+[Patch 2.7.5] * Rousing Roar: Increased the duration of the Major Brutality buff provided by this morph to 20/21/22/23 seconds from 4/4.3/4.7/5 seconds.
+[Patch 3.1.5] * Fixed an issue where this ability and its morphs were not displaying a debuff icon for their off-balance effect.
 ESO Patch Note|4.1.5|* This ability and its morphs are now instant-cast, previously 1 second.
 - This ability and its morphs can now fear up to 6 targets, previously 3 targets.
 - This ability and the Rousing Roar morph no longer set enemies Off Balance.
@@ -64,13 +64,13 @@ ESO Patch Note|5.1.5|* Increased the cost of this ability to 4304 from 4163.
 ESO Patch Note|6.0.5|* This ability now also causes enemies to become Off Balance for 7 seconds. While slotted, this ability and its morphs passively grant Major Savagery.
 - Deafening Roar (morph): This morph now also applies Minor Maim to enemies for its duration.
 - Ferocious Roar (morph): This morph now increases your Heavy Attack speed by 33% for its duration.
-* Ferocious Roar (morph): Fixed an issue where the attack speed from this ability was applying to things other than Heavy Attacks.
-* Roar and Hircine's Bounty: These abilities now always apply their Major Buffs while slotting, rather than only while in Werewolf form. This will fix issues where slotting these abilities outside of Werewolf form could prevent you from gaining their effects from any source.
-* Deafening Roar (morph): Fixed an issue where this morph was not applying Off Balance to enemies.
+[Patch 6.1.5] * Ferocious Roar (morph): Fixed an issue where the attack speed from this ability was applying to things other than Heavy Attacks.
+[Patch 6.2.5] * Roar and Hircine's Bounty: These abilities now always apply their Major Buffs while slotting, rather than only while in Werewolf form. This will fix issues where slotting these abilities outside of Werewolf form could prevent you from gaining their effects from any source.
+[Patch 8.0.6] * Deafening Roar (morph): Fixed an issue where this morph was not applying Off Balance to enemies.
 ESO Patch Note|10.0.5|* This ability and the Ferocious Roar morph now apply a unique debuff called "Terrified" to enemies they hit for 10 seconds. Terrified doesn't do anything outright other than pl ace a tracking effect on enemies, to help Werewolves mark their prey.
 - Deafening Roar (morph): This morph now grants Major Protection for slotting, rather than Major Prophecy and Savagery. While slotted, it also causes your Heavy Attacks to taunt enemies for 15 seconds.
 - Developer Comment: Since our fix to Tormentor, some Werewolves have been barking up a storm at the loss of their way to pounce into the tank scene. We're adding some love back to the mix with a simple way to gain a taunt, while simultaneously differentiating the morphs here further for those who wish to lead the pack versus those who just want to go berserk.
-* Deafening Roar (morph): Fixed an issue where this morph’s taunt could apply to multiple targets at once.
+[Patch 10.1.5] * Deafening Roar (morph): Fixed an issue where this morph’s taunt could apply to multiple targets at once.
 ESO Patch Note|12.0.5|*Roar: This ability and its morphs now have a 350ms cast time before they apply their effects to help better line up their animations to their outcomes, fixing issues where you would be feared before even seeing an animation. Increased the radius to 10 meters, up from 7. Reduced the cost to 1071, down from 4303. This ability and its morphs now apply a stack of Blood Hunger for 30 seconds, stacking up to 4 times. Blood Hunger empowers Gnash (previously Piercing Howl) and Claw Fury (previously Claws of Anguish) to deal additional damage. These abilities no longer apply Terrified (this is effectively an easier to use form of that mechanic, with more interplay within their kit). This ability and its morphs are now home of the Feeding Frenzy synergy, rather than being placed on the Howl of Despair morph. Feeding Frenzy is granted to up to 12 nearby allies for 10 seconds within the radius of your Roar. Feeding Frenzy now lasts for 30 seconds, up from 20, and increases damage done by 6% instead of granting Empower (the synergy continues to grant Minor Force as well).
 - Deafening Roar: This morph now applies Major Maim and Cowardice to enemies hit for 12-15 seconds, rather than Major Breach and Minor Maim for 7-10 seconds. The passive slot for this morph now grants Major Evasion and Minor Protection, rather than Major Protection (as this was moved to Pack Leader). Purchasing this morph will automatically upgrade your Gnash and morphs (the rework of Piercing Howl) to also taunt the enemy if the ability was cast while Bracing, making taunting more deliberate and less dangerous compared to the previous slot passive of Heavy Attacking to taunt.
 - Ferocious Roar: This morph now also applies Major Courage to you and 11 nearby allies for 20 seconds, allows you to use your own synergy, and grants 2 stacks of Blood Hunger on cast, rather than increasing the speed of your Heavy Attacks by 33%.

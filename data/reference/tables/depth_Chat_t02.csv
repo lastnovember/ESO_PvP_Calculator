@@ -1,0 +1,7 @@
+Channel,Audience,Audience Can be Anywhere
+20px,Area,Players in the surrounding area,
+20px,Group,Players who are currently part of the user's group,
+20px,"Guild #, All Members 1","Members of the guild, where # is 1 through 5 corresponding to one of the 5 guilds you may belong to",
+20px,"Guild #, All Members 2"
+20px,"Guild #, All Members 3"
+20px,"Guild #, Officers","Officers of the guild only, where # is 1 through 5 corresponding to one of the 5 guilds you may belong to",

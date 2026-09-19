@@ -14,4 +14,4 @@ linerank1=1
 Ink-Scribe's Verve will generate Crux and grant your group Major Force, if you heal or overheal a total of 100,000 Health during combat.
 
 ## Patch Notes
-*Ink-Scribe's Verve: This passive enables you to generate a Crux and to grant you and group members Major Force for 10 seconds when you heal or overheal a total of 100000 Health while in combat.
+[Patch 12.0.5] *Ink-Scribe's Verve: This passive enables you to generate a Crux and to grant you and group members Major Force for 10 seconds when you heal or overheal a total of 100000 Health while in combat.

@@ -14,4 +14,4 @@ linerank1=6
 Shadow of the Bloodmoon lets you infect another player with Lycanthropy once per week. You can only do so at Werewolf ritual sites in: The Rift]] 16548.
 
 ## Patch Notes
-*Bloodmoon -> Shadow of the Bloodmoon: Just a simple name change that updates the name away from implying the actual Bloodmoon is happening every week.
+[Patch 12.0.5] *Bloodmoon -> Shadow of the Bloodmoon: Just a simple name change that updates the name away from implying the actual Bloodmoon is happening every week.

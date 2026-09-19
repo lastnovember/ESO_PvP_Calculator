@@ -46,14 +46,14 @@ File:ON-skill-Pestilent Colossus.jpg|Pestilent Colossus morph visual
 File:ON-icon-skill-Bone Dragon.png|The icon for the cut Bone Dragon skill
 
 ## Patch Notes
-* Fixed an issue where this ability and its morphs had a 1-second delay before they displayed a hostile telegraph to enemy players. It will now display a hostile circle telegraph in the area the colossus is going to smash, the moment the ability is cast.
-* Pestilent Colossus: Reduced the escalating damage bonus each hit this morph deals. The total adjustment will result in an approximate 5% damage reduction.
-* Increased the total duration of Major Vulnerability to 8 seconds, up from 5. Enemies hit by Major Vulnerability cannot be affected again for 20 seconds after it applies, to prevent situations where this debuff could be kept up indefinitely by rotating an army of Necromancers.
-* Pestilent Colossus (morph): Fixed an issue where the damage from this Ultimate could be dodged, despite being a player-sourced Area of Effect attack.
+[Patch 5.0.9] * Fixed an issue where this ability and its morphs had a 1-second delay before they displayed a hostile telegraph to enemy players. It will now display a hostile circle telegraph in the area the colossus is going to smash, the moment the ability is cast.
+[Patch 5.1.5] * Pestilent Colossus: Reduced the escalating damage bonus each hit this morph deals. The total adjustment will result in an approximate 5% damage reduction.
+[Patch 5.2.5] * Increased the total duration of Major Vulnerability to 8 seconds, up from 5. Enemies hit by Major Vulnerability cannot be affected again for 20 seconds after it applies, to prevent situations where this debuff could be kept up indefinitely by rotating an army of Necromancers.
+[Patch 6.1.5] * Pestilent Colossus (morph): Fixed an issue where the damage from this Ultimate could be dodged, despite being a player-sourced Area of Effect attack.
 ESO Patch Note|6.2.5|* Removed this Ultimate and the morphs' Major Vulnerability invulnerability.
 - Increased the duration of Major Vulnerability applied from these to 12 seconds per hit, up from 8. This will increase the total duration to 15 seconds per cast.
-* Fixed an issue where this Ultimate and its morphs could return as Damage over Time in some cases.
-* Fixed an issue where this ability and its morphs could hit targets outside of its line of sight.
+[Patch 6.3.5] * Fixed an issue where this Ultimate and its morphs could return as Damage over Time in some cases.
+[Patch 7.2.5] * Fixed an issue where this ability and its morphs could hit targets outside of its line of sight.
 ESO Patch Note|9.1.5|* Reduced the cost of this Ultimate and its morphs to 175, down from 225.
 - Increased the damage per hit of all versions by approximately 11%.
 - Pestilent Colossus (morph): This morph now also always guarantees the Diseased status effect on each hit.

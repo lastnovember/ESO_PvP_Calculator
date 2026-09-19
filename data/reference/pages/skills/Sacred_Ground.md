@@ -24,11 +24,11 @@ Sacred Ground increases the effectiveness of healing from all of your abilities 
 - The Steadfast Candescence Class Mastery ability activates and refreshes Sacred Ground while Bracing.
 
 ## Patch Notes
-* Fixed an issue where the Focused Healing passive wasn't being applied to Rite of Passage healing.
-Rite of Passage]] area effects and for up to 2/4 seconds after leaving them at Ranks I/II, instead of granting you 15/30% more healing to allies standing in your own Cleansing Ritual, Rune Focus, or Rite of Passage.
+[Patch 1.5.2] * Fixed an issue where the Focused Healing passive wasn't being applied to Rite of Passage healing.
+[Patch 2.3.5] * This passive ability now grants you the Major Mending buff while standing in your own Cleansing Ritual, Rune Focus, or Rite of Passage area effects and for up to 2/4 seconds after leaving them at Ranks I/II, instead of granting you 15/30% more healing to allies standing in your own Cleansing Ritual, Rune Focus, or Rite of Passage.
 ESO Patch Note|2.4.5|* Renamed this passive ability to Sacred Ground.
 - This passive ability has gained a new effect. In addition to providing the Minor Mending buff, it now also reduces the Movement Speed of enemies by 15/30% whenever they stand in your Cleansing Ritual, Rune Focus, or Rite of Passage area of effects.
 ESO Patch Note|3.0.5|* This passive ability now grants Minor Mending instead of Major Mending when you are standing in your Cleansing Ritual, Rune Focus, or Rite of Passage areas of effect.
 - Developer Comments: With a similar goal to reducing uptime on Major Mending as noted with the Igneous Shield change, Templars having 100% uptime on Major Mending by just standing within their areas of protection is stronger than we'd like and is one of the reasons they are the most desirable healer in endgame situations. We've changed the bonus to Minor Mending instead, but have increased the bonus from the Mending passive to compensate slightly.
-* This passive no longer snares enemies in the area. Instead, it increases your Block Mitigation by an additional 10% while standing in one of the mentioned abilities.
-* Fixed an issue where this passive was not working with Ritual of Retribution.
+[Patch 5.3.4] * This passive no longer snares enemies in the area. Instead, it increases your Block Mitigation by an additional 10% while standing in one of the mentioned abilities.
+[Patch 7.3.5] * Fixed an issue where this passive was not working with Ritual of Retribution.

@@ -14,4 +14,4 @@ linerank1=1
 Tundra's Maw improves the status debuff Chilled (e.g. caused by Frost Damage). When applied to an enemy, it will also apply Major Brittle.
 
 ## Patch Notes
-*Tundra's Maw: This passive upgrades the Chilled status effect to also apply Major Brittle for 2 seconds upon application.
+[Patch 12.0.0] *Tundra's Maw: This passive upgrades the Chilled status effect to also apply Major Brittle for 2 seconds upon application.

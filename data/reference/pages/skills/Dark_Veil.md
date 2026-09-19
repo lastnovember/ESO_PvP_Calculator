@@ -18,4 +18,4 @@ linerank2=50
 Dark Veil increases the duration of all non-invisibility Shadow abilities.
 
 ## Patch Notes
-* Adjusted this passive to grant a flat 1 and 2 second duration increase to Shadow abilities, rather than 8 and 15% duration extensions. The duration of these abilities before allocating this passive have been adjusted to ensure the total duration remains relatively the same to their current Live values.
+[Patch 5.0.5] * Adjusted this passive to grant a flat 1 and 2 second duration increase to Shadow abilities, rather than 8 and 15% duration extensions. The duration of these abilities before allocating this passive have been adjusted to ensure the total duration remains relatively the same to their current Live values.

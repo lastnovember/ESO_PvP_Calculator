@@ -49,7 +49,7 @@ ESO Patch Note|2.3.5|* Reduced the effects and visual light intensity for this a
 ESO Patch Note|3.0.5|* This ability now applies Major Maim instead of reducing the target's damage by 30%.
 - Decreased the time it takes for the nova to land for this ability and its morphs to 0.5 seconds from 0.75 seconds.
 - Developer Comments: The power level of this ability didn't justify it having such a long delay. We've shortened the time it takes for it to land to make it easier to hit moving targets.
-* Solar Disturbance: This morph now increases the duration of the Major Maim debuff it applies to 4 seconds.
+[Patch 4.0.5] * Solar Disturbance: This morph now increases the duration of the Major Maim debuff it applies to 4 seconds.
 ESO Patch Note|5.3.4|* This ability and its morphs now have a negative telegraph so you can properly tell if the heavens are being called down to protect you or smite you.
 - Fixed an issue where this ability's damage did not properly generate hit reactions against enemies.
 ESO Patch Note|7.0.5|* Removed visual and sound effects from each of the following ground effects' ticks to reduce battlefield clutter and noise:
@@ -80,4 +80,4 @@ ESO Patch Note|7.0.5|* Removed visual and sound effects from each of the followi
 - Reduced the base cost of this morph to 225, down from 250.
 - This Ultimate now ranks up in duration of the Major Maim applied to enemies, rather than damage done.
 - Major Maim now lasts 7 seconds at base and ranks up to 10 seconds, rather than 4 seconds at all ranks.
-* Fixed an issue where this Ultimate and its morphs would fail to apply its ground effects if cast more than 20 meters away from yourself.
+[Patch 7.3.5] * Fixed an issue where this Ultimate and its morphs would fail to apply its ground effects if cast more than 20 meters away from yourself.

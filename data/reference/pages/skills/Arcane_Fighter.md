@@ -18,4 +18,4 @@ linerank2=46
 Arcane Fighter increased your chances of applying certain status effects. It was replaced in Update 5 with Follow Up.
 
 ## Patch Notes
-Follow Up]]. This will increase your damage by 5%/10% for 7 seconds after activating a fully charged heavy attack.
+[Patch 1.5.2] * Replaced the Arcane Fighter passive with Follow Up. This will increase your damage by 5%/10% for 7 seconds after activating a fully charged heavy attack.

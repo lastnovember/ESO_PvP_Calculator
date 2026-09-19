@@ -39,12 +39,12 @@ File:ON-skill-Rapid_Regeneration.jpg|Rapid Regeneration
 File:ON-skill-Radiating_Regeneration.jpg|Radiating Regeneration
 
 ## Patch Notes
-* Mutagen: Fixed an issue where this ability's heal was not applying to targets under 20% health.
-* Fixed an issue where using this ability would significantly reduce your game's performance.
-* Mutagen: Fixed an issue where the extra heal for allies below 20% health was only applying on the initial cast.
-* Mutagen: Fixed an issue where the secondary heal that fires when the target goes below 20% Health could not critically strike.
-* Fixed an issue where you were able to cast some abilities, such as Regeneration, without respect to the global cooldown.
-* Fixed an issue where this ability and its morphs were not correctly prioritizing low-health targets that did not already have the Heal over Time applied.
+[Patch 1.1.2] * Mutagen: Fixed an issue where this ability's heal was not applying to targets under 20% health.
+[Patch 1.2.4] * Fixed an issue where using this ability would significantly reduce your game's performance.
+[Patch 2.1.4] * Mutagen: Fixed an issue where the extra heal for allies below 20% health was only applying on the initial cast.
+[Patch 2.3.5] * Mutagen: Fixed an issue where the secondary heal that fires when the target goes below 20% Health could not critically strike.
+[Patch 2.3.10] * Fixed an issue where you were able to cast some abilities, such as Regeneration, without respect to the global cooldown.
+[Patch 2.7.5] * Fixed an issue where this ability and its morphs were not correctly prioritizing low-health targets that did not already have the Heal over Time applied.
 ESO Patch Note|5.1.5|* Increased the healing per tick by approximately 98%, but reduced duration to 10 seconds. It now only hits 1 ally per cast.
 - Increased cost to 2700 from 2160.
 - Rapid Regeneration: This morph now doubles the frequency but halves the duration.

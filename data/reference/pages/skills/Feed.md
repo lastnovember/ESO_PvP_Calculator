@@ -29,6 +29,6 @@ Various animations can play when Feed is used, some of which depend on the relat
 - NPCs will have special dialogue if they catch a player feeding.
 
 ## Patch Notes
-* This synergy now heals you to full Health after successfully casting on a target and feasting upon their life essence. Delicious!
+[Patch 8.0.5] * This synergy now heals you to full Health after successfully casting on a target and feasting upon their life essence. Delicious!
 
 Skill

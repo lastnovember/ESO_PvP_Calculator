@@ -14,4 +14,4 @@ linerank1=1
 Lead from the Front improves the rank 2 The Storm Voice passive, by applying Major Berserk and Protection whenever you cast an Ultimate ability.
 
 ## Patch Notes
-*This passive upgrades rank 2 of The Storm Voice to also apply Major Berserk and Protection for 1 second per 15 Ultimate spent to you and group members within 28m of you.
+[Patch 12.0.0] *This passive upgrades rank 2 of The Storm Voice to also apply Major Berserk and Protection for 1 second per 15 Ultimate spent to you and group members within 28m of you.

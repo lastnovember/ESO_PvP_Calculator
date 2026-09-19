@@ -24,4 +24,4 @@ Elemental Force gives you a greater chance of causing status effects to your tar
 ESO Patch Note|2.1.4|* Changed this ability's bonus to be multiplicative instead of additive.
 - Increased the bonuses received from this passive to 50% and 100%.
 - Updated the tooltip wording so it no longer mentions "spells"; this passive has always increased the chance for all attacks (including weapon enchants).
-* This passive now properly states it affects all Status Effect chances, rather than only Elemental Status Effects.
+[Patch 7.1.5] * This passive now properly states it affects all Status Effect chances, rather than only Elemental Status Effects.

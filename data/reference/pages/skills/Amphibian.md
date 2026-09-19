@@ -18,4 +18,4 @@ Amphibian gives Argonians a natural affinity for Restoration Staves, allowing th
 - Prior to Update 11, this skill was called "Restoration Expertise", and only improved your Restoration experience gain.
 
 ## Patch Notes
-* This passive ability has been renamed to "Amphibian." Also, in addition to the current benefit it now increases your swimming speed by 50%.
+[Patch 2.5.5] * This passive ability has been renamed to "Amphibian." Also, in addition to the current benefit it now increases your swimming speed by 50%.

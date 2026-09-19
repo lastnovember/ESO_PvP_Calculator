@@ -42,4 +42,4 @@ What a brilliant find. Only once before have I come across such an oil. It was s
 Starlight Oil? Of course! Distilled light can be made from any natural light source, but the most potent is starlight. It requires an arduous exposure process over decades and, as such, is reserved for only the most precious of enchantments. - Amalien
 
 ### Patch Notes
-*This set's damage done with status effects now only applies to monsters. Reduced the maximum damage bonus from 170% to 133%, and reduced the Ultimate required to reach the cap to 133, down from 170. Reduced the cooldown for applying Status Effects when at the maximum Ultimate threshold to 2 seconds at 133 Ultimate, down from 4s at 170.
+[Patch 12.0.6] *This set's damage done with status effects now only applies to monsters. Reduced the maximum damage bonus from 170% to 133%, and reduced the Ultimate required to reach the cap to 133, down from 170. Reduced the cooldown for applying Status Effects when at the maximum Ultimate threshold to 2 seconds at 133 Ultimate, down from 4s at 170.

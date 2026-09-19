@@ -36,7 +36,7 @@ File:ON-skill-Arcanist's Domain (cast).jpg|Arcanist's Domain and its morphs' cas
 File:ON-skill-Reconstructive Domain.jpg|Reconstructive Domain morph's brighter visual
 
 ## Patch Notes
-* Zenas’ Empowering Disc (morph): Fixed an issue where the buffs granted by this ability would be removed from allies if the caster of the ability died.
-* Arcanist Domain: Fixed an issue where this ability and its morphs could not be dispelled.
+[Patch 9.3.5] * Zenas’ Empowering Disc (morph): Fixed an issue where the buffs granted by this ability would be removed from allies if the caster of the ability died.
+[Patch 10.0.5] * Arcanist Domain: Fixed an issue where this ability and its morphs could not be dispelled.
 ESO Patch Note|11.0.5|* This ability and its morphs' Minor Buff effects now properly adhere to the standard 6 target cap.
 - Reconstructive Domain: The healing from this morph will now sort and apply the heal to the lowest Health targets in the area, rather than having no sort and simply applying to the first 6 targets that entered the area.

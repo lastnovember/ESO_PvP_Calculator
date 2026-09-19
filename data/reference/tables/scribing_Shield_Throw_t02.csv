@@ -1,0 +1,9 @@
+Script,Effects
+Cowardice,Cowardice,"Afflicts the enemy with Major Cowardice for 10 seconds, reducing Weapon and Spell Damage by 430."
+Enervation,Enervation,"Afflicts the enemy with Minor Enervation for 10 seconds, reducing Critical Damage by 10%."
+Evasion,Evasion,"Grants you Major Evasion for 10 seconds on return, reducing damage from area attacks by 20%."
+Interrupt,Interrupt,Interrupts enemies that are casting.
+Maim,Maim,"Afflicts the enemy with Major Maim for 10 seconds, reducing damage done by 10%."
+Off Balance,Off Balance,Sets the enemy Off Balance for 7 seconds.
+Resolve,Resolve,"Grants you Major Resolve for 10 seconds on return, increasing Physical and Spell Resistance by 5948."
+Vitality,Vitality,"Grants you Major Vitality for 10 seconds on return, increasing healing received and damage shield strength by 12%."

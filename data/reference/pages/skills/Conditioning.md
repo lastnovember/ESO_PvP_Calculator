@@ -25,4 +25,4 @@ Conditioning increases your Maximum Stamina.
 - Prior to Update 21, this skill increased your Stamina by a percentage rather than fixed values.
 
 ## Patch Notes
-* Gain 10% Max Stamina → Increases your Max Stamina by 2000.
+[Patch 4.3.5] * Gain 10% Max Stamina → Increases your Max Stamina by 2000.

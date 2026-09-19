@@ -1,0 +1,5 @@
+Grimoire,Effects
+Wield Soul,Wield Soul,"Consumes a Soul Gem to deal 1.5% of the enemy's Max Health as Oblivion Damage every 1 second for 5 seconds, up to a maximum of 1500 damage. Deals up to 100% more damage to enemies under 50% Health and can occur once every 5 seconds."
+Incompatible with Warding Soul and Healing Soul
+Soul Burst,Soul Burst,"Consumes a Soul Gem to deal 2.8% of the enemy's Max Health as Oblivion Damage every 2 seconds for 10 seconds, up to a maximum of 2800 damage. Deals up to 100% more damage to enemies under 50% Health, and can occur once every 10 seconds."
+Incompatible with Warding Burst and Healing Burst

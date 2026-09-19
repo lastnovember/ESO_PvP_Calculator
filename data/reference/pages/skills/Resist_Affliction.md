@@ -25,6 +25,6 @@ Resist Affliction increases resistance to Disease and Poison damage, and increas
 - In Update 29, immunity to the Poisoned status effect was removed, and Disease resistance was returned to this skill.
 
 ## Patch Notes
-* Increased the Max Stamina bonus provided by this passive to 2/4/6% from 1/2/3%.
-* Updated this ability's tooltip to indicate it grants immunity to the Poisoned and Diseased status effects.
-* This passive no longer grants immunity to the Poisoned status effect, and once again grants an equal amount of Disease Resistance.
+[Patch 2.5.5] * Increased the Max Stamina bonus provided by this passive to 2/4/6% from 1/2/3%.
+[Patch 4.0.5] * Updated this ability's tooltip to indicate it grants immunity to the Poisoned and Diseased status effects.
+[Patch 6.3.5] * This passive no longer grants immunity to the Poisoned status effect, and once again grants an equal amount of Disease Resistance.

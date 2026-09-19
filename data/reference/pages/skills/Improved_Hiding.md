@@ -24,4 +24,4 @@ linerank4=16
 Improved Hiding reduces the Stamina cost of sneaking.
 
 ## Patch Notes
-* Fixed an issue where skill points spent in this passive ability were being removed.
+[Patch 2.6.2] * Fixed an issue where skill points spent in this passive ability were being removed.

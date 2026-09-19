@@ -41,10 +41,10 @@ File:ON-skill-Absorb Missile.jpg|Absorb Missile's effect
 ## Patch Notes
 ESO Patch Note|1.5.2|* Absorb Magic: This ability now absorbs 100% of damage caused, and also heals for 15% of your maximum health.
 - Defensive Stance: This ability now stuns your target for three seconds at all ranks.
-* Fixed an issue so the value in the tooltip for both morphs (Defensive Stance and Absorb Magic) is now correct.
-* Defensive Stance: Fixed an issue where the visual effects of this ability and its morphs would fade earlier than the buff duration.
-* Defensive Stance: Fixed an issue where this morph's stun effect would trigger on every reflection if you layered Defensive Stance with any other reflect ability.
-* Fixed an issue where the visual effects from this ability and the Defensive Stance morph were not being removed if you recast the ability multiple times.
+[Patch 1.6.5] * Fixed an issue so the value in the tooltip for both morphs (Defensive Stance and Absorb Magic) is now correct.
+[Patch 2.3.5] * Defensive Stance: Fixed an issue where the visual effects of this ability and its morphs would fade earlier than the buff duration.
+[Patch 2.4.5] * Defensive Stance: Fixed an issue where this morph's stun effect would trigger on every reflection if you layered Defensive Stance with any other reflect ability.
+[Patch 4.0.5] * Fixed an issue where the visual effects from this ability and the Defensive Stance morph were not being removed if you recast the ability multiple times.
 ESO Patch Note|5.1.5|* Reworked this ability and its morphs into a Damage Shield, rather than a weird buff. These abilities no longer passively reduce the cost of block or increase the amount of damage you can block while they are slotted.
 - Reduced the duration of the bonus from this ability to 6 seconds from 30 seconds.
 - Increased the cost to 4320 from 2430.
@@ -55,4 +55,4 @@ ESO Patch Note|5.1.5|* Reworked this ability and its morphs into a Damage Shield
 - This morph is now called Absorb Missile, because it can absorb any ranged attack instead of just magical ones!
 - Reduced the damage shield size to 30% from 50%.
 - Increased the heal granted from an absorbed ranged attack by approximately 29%, and will no longer remove the shield.
-* Defensive Posture (morph): Fixed an issue where the passive bonuses from this morph could fail to apply in some cases.
+[Patch 8.0.5] * Defensive Posture (morph): Fixed an issue where the passive bonuses from this morph could fail to apply in some cases.

@@ -14,7 +14,7 @@ Each level that a player gains allows them to allocate an attribute point to the
 
 Players also gain skill points when leveling up equal to the number of Attribute Points, which they can use to unlock a new skill or morph an existing one. Skill points may be earned by finding skyshards, fighting in the Alliance War or completing quests as well.
 
-Players can attain a maximum level of 50. Upon reaching the maximum level, players unlock Veteran content and receive 10 points into the Champion system. Gaining Champion Points allows players to equip more powerful gear and use more powerful consumables, up to the Champion Progression Cap of 160. Characters will no longer receive attribute points and skill points to allocate, but each assigned Champion Point will increase maximum health, magicka or stamina by a small percentage.
+Players can attain a maximum level of 50. Upon reaching the maximum level, players unlock Veteran content and receive CP10 points into the Champion system. Gaining Champion Points allows players to equip more powerful gear and use more powerful consumables, up to the Champion Progression Cap of CP160. Characters will no longer receive attribute points and skill points to allocate, but each assigned Champion Point will increase maximum health, magicka or stamina by a small percentage.
 
 ## Experience
 

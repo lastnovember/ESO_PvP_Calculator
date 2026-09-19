@@ -1,0 +1,126 @@
+# Online:Glyph of Prismatic Recovery
+
+Source: https://en.uesp.net/wiki/Online:Glyph_of_Prismatic_Recovery
+License: CC BY-SA, UESP
+
+Glyphs of Prismatic Recovery are created by using a Indeko rune and an Additive Potency rune. They can be applied to any jewelry of equal or greater level, and will increase your Magicka Recovery, Health Recovery and Stamina Recovery while worn.
+
+rowspan=2|Glyph | rowspan=2|Potency Rune | rowspan=2|Potency Skill | rowspan=2|Glyph Level | colspan=5|Aspect Rune
+
+Ta
+Jejota
+Denata
+Rekuta
+Kuta
+
+Trifling Glyph of Prismatic Recovery | | Jora | 1 | 1
+6
+7
+8
+8
+9
+
+Inferior Glyph of Prismatic Recovery | | Porade | 1 | 5
+11
+12
+13
+14
+16
+
+Petty Glyph of Prismatic Recovery | | Jera | 2 | 10
+16
+17
+19
+20
+22
+
+Slight Glyph of Prismatic Recovery | | Jejora | 2 | 15
+20
+22
+25
+27
+29
+
+Minor Glyph of Prismatic Recovery | | Odra | 3 | 20
+25
+28
+30
+33
+35
+
+Lesser Glyph of Prismatic Recovery | | Pojora | 3 | 25
+30
+33
+36
+39
+42
+
+Moderate Glyph of Prismatic Recovery | | Edora | 4 | 30
+34
+38
+41
+45
+48
+
+Average Glyph of Prismatic Recovery | | Jaera | 4 | 35
+39
+43
+47
+51
+55
+
+Strong Glyph of Prismatic Recovery | | Pora | 5 | 40
+44
+48
+53
+57
+61
+
+Major Glyph of Prismatic Recovery | | Denara | 5 | CP10
+49
+53
+58
+63
+68
+
+Greater Glyph of Prismatic Recovery | | Rera | 6 | CP30
+53
+58
+64
+69
+74
+
+Grand Glyph of Prismatic Recovery | | Derado | 7 | CP50
+54
+60
+65
+71
+76
+
+Splendid Glyph of Prismatic Recovery | | Rekura | 8 | CP70
+55
+61
+67
+72
+78
+
+Monumental Glyph of Prismatic Recovery | | Kura | 9 | CP100
+59
+64
+70
+76
+82
+
+Superb Glyph of Prismatic Recovery | | Rejera | 10 | CP150
+60
+66
+72
+78
+84
+
+Truly Superb Glyph of Prismatic Recovery | | Repora | 10 | CP160
+60
+66
+72
+78
+84

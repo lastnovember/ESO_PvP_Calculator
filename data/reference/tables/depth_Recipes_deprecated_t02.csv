@@ -1,0 +1,58 @@
+,Name,RI,RQ,Food,Recipe Drop,Ingredients,Effect
+,Battaglir Grill (Recipe),RI 1,RQ 1,Level 5 Food,20px|Daggerfall Covenant Character,Battaglir Weeds and Drippings,Max Stamina +66
+,Bear Hash (Recipe),RI 1,RQ 1,Level 10 Food,20px|Daggerfall Covenant Character,Bear Haunch and Drippings,Max Stamina +96
+,Enriched Bear Hash (Recipe),RI 1,RQ 2,Level 10 Food,20px|Daggerfall Covenant Character,Bear Haunch and Drippings,Max Health and Stamina +136
+,Braised Sweetmeats (Recipe),RI 1,RQ 1,Level 10 Food,20px|Aldmeri Dominion Character,Sweetmeats and Drippings,Max Stamina +96
+,Enriched Braised Sweetmeats (Recipe),RI 1,RQ 2,Level 10 Food,20px|Aldmeri Dominion Character,Sweetmeats and Drippings,Max Health and Stamina +136
+,Fried Guar Eggs (Recipe),RI 1,RQ 1,Level 5 Food,20px|Aldmeri Dominion Character,Guar Eggs and Drippings,Max Stamina +66
+,Grilled Capon (Recipe),RI 1,RQ 1,Level 1 Food,20px|Daggerfall Covenant Character,Capon Meat and Drippings,Max Stamina +42
+,Grilled Worms (Recipe),RI 1,RQ 1,Level 15 Food,20px|Ebonheart Pact Character,Plump Worms and Drippings,Max Stamina +126
+,Enriched Grilled Worms (Recipe),RI 1,RQ 2,Level 15 Food,20px|Ebonheart Pact Character,Plump Worms and Drippings,Max Health and Stamina +172
+,Kwama Omelet (Recipe),RI 1,RQ 1,Level 5 Food,20px|Ebonheart Pact Character,Kwama Eggs and Drippings,Max Stamina +66
+,Liver and Lights (Recipe),RI 1,RQ 1,Level 15 Food,20px|Aldmeri Dominion Character,Liver and Drippings,Max Stamina +126
+,Enriched Liver and Lights (Recipe),RI 1,RQ 2,Level 15 Food,20px|Aldmeri Dominion Character,Liver and Drippings,Max Health and Stamina +172
+,Mutton Ribs (Recipe),RI 1,RQ 1,Level 15 Food,20px|Daggerfall Covenant Character,Mutton Flank and Drippings,Max Stamina +126
+,Enriched Mutton Ribs (Recipe),RI 1,RQ 2,Level 15 Food,20px|Daggerfall Covenant Character,Mutton Flank and Drippings,Max Health and Stamina +172
+,Roast Goat (Recipe),RI 1,RQ 1,Level 1 Food,20px|Ebonheart Pact Character,Goat Meat and Drippings,Max Stamina +42
+,Roast Pig (Recipe),RI 1,RQ 1,Level 1 Food,20px|Aldmeri Dominion Character,Pork and Drippings,Max Stamina +42
+,Scuttle Scramble (Recipe),RI 1,RQ 1,Level 10 Food,20px|Ebonheart Pact Character,Scuttle Meat and Drippings,Max Stamina +96
+,Enriched Scuttle Scramble (Recipe),RI 1,RQ 2,Level 10 Food,20px|Ebonheart Pact Character,Scuttle Meat and Drippings,Max Health and Stamina +136
+,Caramelized Goat Nibbles (Recipe),RI 2,RQ 1,Level 20 Food,20px|Aldmeri Dominion Character,Goat Bits and Cooking Fat,Max Stamina +156
+,Enriched Caramelized Goat Nibbles (Recipe),RI 2,RQ 2,Level 20 Food,20px|Aldmeri Dominion Character,Goat Bits and Cooking Fat,Max Health and Stamina +208
+,Grilled Combwort (Recipe),RI 2,RQ 1,Level 20 Food,20px|Daggerfall Covenant Character,Combwort and Cooking Fat,Max Stamina +156
+,Enriched Grilled Combwort (Recipe),RI 2,RQ 2,Level 20 Food,20px|Daggerfall Covenant Character,Combwort and Cooking Fat,Max Health and Stamina +208
+,Grilled Venison (Recipe),RI 2,RQ 1,Level 25 Food,20px|Daggerfall Covenant Character,Venison and Cooking Fat,Max Stamina +186
+,Enriched Grilled Venison (Recipe),RI 2,RQ 2,Level 25 Food,20px|Daggerfall Covenant Character,Venison and Cooking Fat,Max Health and Stamina +244
+,Jerked Rodent (Recipe),RI 2,RQ 1,Level 20 Food,20px|Ebonheart Pact Character,Plump Rodent Toes and Cooking Fat,Max Stamina +156
+,Enriched Jerked Rodent (Recipe),RI 2,RQ 2,Level 20 Food,20px|Ebonheart Pact Character,Plump Rodent Toes and Cooking Fat,Max Health and Stamina +208
+,Maggot Bites (Recipe),RI 2,RQ 1,Level 25 Food,20px|Ebonheart Pact Character,Plump Maggots and Cooking Fat,Max Stamina +186
+,Enriched Maggot Bites (Recipe),RI 2,RQ 2,Level 25 Food,20px|Ebonheart Pact Character,Plump Maggots and Cooking Fat,Max Health and Stamina +244
+,Moon Sugar Brittle (Recipe),RI 2,RQ 1,Level 25 Food,20px|Aldmeri Dominion Character,Moon Sugar and Cooking Fat,Max Stamina +186
+,Enriched Moon Sugar Brittle (Recipe),RI 2,RQ 2,Level 25 Food,20px|Aldmeri Dominion Character,Moon Sugar and Cooking Fat,Max Health and Stamina +244
+,Crawdad Stir-fry (Recipe),RI 3,RQ 1,Level 30 Food,20px|Aldmeri Dominion Character,Crawdad and Suet,Max Stamina +216
+,Enriched Crawdad Stir-fry (Recipe),RI 3,RQ 2,Level 30 Food,20px|Aldmeri Dominion Character,Crawdad and Suet,Max Health and Stamina +280
+,Fried Saltrice (Recipe),RI 3,RQ 1,Level 35 Food,20px|Aldmeri Dominion Character,Saltrice and Suet,Max Stamina +246
+,Enriched Fried Saltrice (Recipe),RI 3,RQ 2,Level 35 Food,20px|Aldmeri Dominion Character,Saltrice and Suet,Max Health and Stamina +316
+,Consummate Fried Saltrice (Recipe),RI 3,RQ 3,Level 35 Food,20px|Aldmeri Dominion Character,Saltrice and Suet,"Max Health, Magicka and Stamina +270"
+,Grilled Frog Legs (Recipe),RI 3,RQ 1,Level 35 Food,20px|Ebonheart Pact Character,Frog Legs and Suet,Max Stamina +246
+,Enriched Grilled Frog Legs (Recipe),RI 3,RQ 2,Level 35 Food,20px|Ebonheart Pact Character,Frog Legs and Suet,Max Health and Stamina +316
+,Consummate Grilled Frog Legs (Recipe),RI 3,RQ 3,Level 35 Food,20px|Ebonheart Pact Character,Frog Legs and Suet,"Max Health, Magicka and Stamina +270"
+,Grilled Horker (Recipe),RI 3,RQ 1,Level 30 Food,20px|Daggerfall Covenant Character,Horker Meat and Suet,Max Stamina +216
+,Enriched Grilled Horker (Recipe),RI 3,RQ 2,Level 30 Food,20px|Daggerfall Covenant Character,Horker Meat and Suet,Max Health and Stamina +280
+,Mountain Jerky (Recipe),RI 3,RQ 1,Level 35 Food,20px|Daggerfall Covenant Character,Flank Steak and Suet,Max Stamina +246
+,Enriched Mountain Jerky (Recipe),RI 3,RQ 2,Level 35 Food,20px|Daggerfall Covenant Character,Flank Steak and Suet,Max Health and Stamina +316
+,Consummate Mountain Jerky (Recipe),RI 3,RQ 3,Level 35 Food,20px|Daggerfall Covenant Character,Flank Steak and Suet,"Max Health, Magicka and Stamina +270"
+,Slow-Roasted Chaurus (Recipe),RI 3,RQ 1,Level 30 Food,20px|Ebonheart Pact Character,Chaurus Meat and Suet,Max Stamina +216
+,Enriched Slow-Roasted Chaurus (Recipe),RI 3,RQ 2,Level 30 Food,20px|Ebonheart Pact Character,Chaurus Meat and Suet,Max Health and Stamina +280
+,Beef Sirloin (Recipe),RI 4,RQ 1,Level 40 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Beef and Lard,Max Stamina +276
+,Enriched Beef Sirloin (Recipe),RI 4,RQ 2,Level 40 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Beef and Lard,Max Health and Stamina +352
+,Consummate Beef Sirloin (Recipe),RI 4,RQ 3,Level 40 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Beef and Lard,"Max Health, Magicka and Stamina +299"
+,Grilled Shank (Recipe),RI 4,RQ 1,Level 45 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Shank and Lard,Max Stamina +306
+,Enriched Grilled Shank (Recipe),RI 4,RQ 2,Level 45 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Shank and Lard,Max Health and Stamina +388
+,Consummate Grilled Shank (Recipe),RI 4,RQ 3,Level 45 Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Shank and Lard,"Max Health, Magicka and Stamina +328"
+,Fishy Sticks (Recipe),RI 5,RQ 1,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mudcrab Meat and Fatback,Max Stamina +336
+,Enriched Fishy Sticks (Recipe),RI 5,RQ 2,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mudcrab Meat and Fatback,Max Health and Stamina +424
+,Consummate Fishy Sticks (Recipe),RI 5,RQ 3,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mudcrab Meat and Fatback,"Max Health, Magicka and Stamina +357"
+,Honey Brittle (Recipe),RI 6,RQ 1,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Honey Comb and Pinguis,Max Stamina +372
+,Enriched Honey Brittle (Recipe),RI 6,RQ 2,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Honey Comb and Pinguis,Max Health and Stamina +468
+,Consummate Honey Brittle (Recipe),RI 6,RQ 3,Food,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Honey Comb and Pinguis,"Max Health, Magicka and Stamina +385"

@@ -31,12 +31,12 @@ The materials used to craft Jewelry items are as follows:
 
 Raw Material | Refined Into | Used To Make... | Level
 
-Pewter Dust | Pewter Ounce | Pewter Jewelry | R|1 - 24
+Pewter Dust | Pewter Ounce | Pewter Jewelry | |1 - 24
 
-Copper Dust | Copper Ounce | Copper Jewelry | R|26 - 50
+Copper Dust | Copper Ounce | Copper Jewelry | |26 - 50
 
-Silver Dust | Silver Ounce | Silver Jewelry | R|10 - 70
+Silver Dust | Silver Ounce | Silver Jewelry | |CP10 - 70
 
-Electrum Dust | Electrum Ounce | Electrum Jewelry | R|80 - 140
+Electrum Dust | Electrum Ounce | Electrum Jewelry | |CP80 - 140
 
-Platinum Dust | Platinum Ounce | Platinum Jewelry | R|150 - 160
+Platinum Dust | Platinum Ounce | Platinum Jewelry | |CP150 - 160

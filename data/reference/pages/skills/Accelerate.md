@@ -36,7 +36,7 @@ ESO Patch Note|5.0.5|* Increased the duration of the Major Expedition buff from 
 - Reduced the Snare and Immobilization immunity to 1 second from 4 seconds.
 - The immunity's duration now increases as the ability ranks up, up to a maximum of 2 seconds.
 - Developer Comment: Since Accelerate is already such a powerful ability granting both damage and mobility potential at reduced costs, we wanted to ensure other abilities that grant similar functions of snare or immobilization immunity still had a place in builds. This is also seen with the Protective Plate ability, which already grants an incredibly powerful base function, so the standard 4 seconds duration is halved.
-* Channeled Acceleration (morph): Fixed an issue with the timing of the visual effects of this ability when used with a Two Handed weapon.
+[Patch 6.0.5] * Channeled Acceleration (morph): Fixed an issue with the timing of the visual effects of this ability when used with a Two Handed weapon.
 ESO Patch Note|8.1.5|* Increased the base cost of this ability and its morphs to 4050, up from 3780.
 - Increased the duration of Minor Force granted to 20 seconds, up from 12. Note this will cause Channeled Accelerate's Minor Force to triple to 60 seconds now as well, instead of tripling to 36.
 - Race Against Time (morph): Increased the duration of the snare and immobilization immunity to 4 seconds, up from 2.

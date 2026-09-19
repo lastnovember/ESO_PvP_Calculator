@@ -35,13 +35,13 @@ ESO Patch Note|1.5.2|* Added some new werewolf abilities:
 - Hircine's Bounty: This ability is a large heal that costs magicka.
 - Infectious Claws: This ability instantly deals damage to all enemies in front of you and causes disease damage over time.
 - Piercing Howl: This ability deals high damage and stuns your enemy.
-* Slightly adjusted the animation for this ability so it no longer gets clipped by a light attack.
+[Patch 1.6.5] * Slightly adjusted the animation for this ability so it no longer gets clipped by a light attack.
 ESO Patch Note|2.1.4|* Claws of Anguish: Fixed an issue where the healing debuff was stacking with other healing debuffs.
 - Claws of Life: This ability will no longer have both damage and healing reduced by Battle Spirit; the healing will not be reduced to avoid a double penalty.
-* Claws of Life: Fixed an issue which was preventing the first heal tick from having an effect.
+[Patch 2.2.4] * Claws of Life: Fixed an issue which was preventing the first heal tick from having an effect.
 ESO Patch Note|4.0.5|* Infectious Claws: Fixed an issue where you could dodge this ability and its morphs.
 - Claws of Anguish (morph): Fixed an issue where the Major Defile debuff applied by this morph was not reducing Health Recovery.
-* Increased the damage of the initial hit of this ability and its morphs by approximately 36% to put it in line with our PBAoE standards.
+[Patch 5.0.5] * Increased the damage of the initial hit of this ability and its morphs by approximately 36% to put it in line with our PBAoE standards.
 ESO Patch Note|5.1.5|* Increased the cost of this ability and its morphs to 3442 from 3240.
 - Increased the damage of the initial hit by 25%.
 - Reduced the Damage over Time of these abilities by approximately 11% per tick.

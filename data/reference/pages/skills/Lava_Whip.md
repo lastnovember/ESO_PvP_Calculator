@@ -45,11 +45,11 @@ ESO Patch Note|1.2.3|* Flame Lash: Increased the damage and healing for this abi
 - Molten Whip: This ability's slotted passive only applies to Ardent Flame skill line abilities instead of all fire damage.
 ESO Patch Note|1.6.5|* Updated the tooltip for this ability to note the cooldown to set an enemy off balance.
 - Flame Lash: The follow up attack that is part of this ability now works on any off-balance target, stuns off-balance targets, and has a new icon.
-* Molten Whip: Fixed an issue where this ability wasn't providing increased damage to Ardent Flame ability morphs that use Stamina.
-Fiery Grip]] ability as seen in the skill line UI.
+[Patch 2.0.3] * Molten Whip: Fixed an issue where this ability wasn't providing increased damage to Ardent Flame ability morphs that use Stamina.
+[Patch 2.6.4] * Switched the position of this ability with the Fiery Grip ability as seen in the skill line UI.
 ESO Patch Note|2.7.5|* Increased the damage from this ability and its morphs by 5%.
 - Developer Comment: We wanted Lava Whip to hit harder since it's a melee attack without increasing the overall PvE DPS of Dragonknights. To accomplish this, we reduced the bonuses from Standard of Might by 5% and increased Lava Whip by 5%. This gives Magicka Dragonknights a bit more pressure in PvP without increasing their PvE damage.
-* Reduced the cost of this ability and its morphs by approximately 10%.
+[Patch 3.0.5] * Reduced the cost of this ability and its morphs by approximately 10%.
 ESO Patch Note|3.3.5|* Flame Lash: The Power Lash attack from this morph now has a 3 second cooldown.
 - This ability and its morphs no longer have a cooldown when they can set the enemy target Off Balance. Striking a stunned or immobile enemy will always set them Off Balance.
 - Flame Lash: Fixed an issue where the Power Lash attack from this morph could not be dodged.
@@ -61,9 +61,9 @@ ESO Patch Note|4.2.5|* Decreased the range of this ability and its morphs to 5 m
 ESO Patch Note|5.0.5|* Reduced the cost of this ability and its morphs by 5% to put it in line with other melee "spammables".
 - Molten Whip (morph): Reworked this ability so it no longer grants a passive bonus to Weapon and Spell Damage while slotted. Instead, this passive grants access to Seething Fury, a 33% damage bonus to your next Molten Whip cast and increase of 125 Weapon and Spell Damage every time you activate an Ardent Flame ability that isn't Molten Whip. This bonus can stack up to 3 times, lasts 5 seconds, and will refresh in duration every time it is applied to you.
 - Developer Comment: The previous Molten Whip was under budgeted in terms of total power compared to Flame Lash, and rather than reducing that morph, we wanted to bring this one up to par. Additionally, we like how Flame Lash has the potential to disrupt a static rotation in combat, so we wanted to add a diverse bonus that would allow for you to engage in different ways. Now, the caster can decide to simply follow a normal rotation, or attempt to save up for a heavy hitting attack after building up stacks. Please note however, this will operate similarly to the previous Molten Whip where your bonus will only be active on the bar that it is slotted on.
-* Molten Whip: Reduced the stacking Spell Damage bonus from this passive to 75 at Rank IV from 125.
-* Flame Lash (morph): The special attack from this ability, Power Lash, can now also be cast on enemies that are Immobilized.
-* Molten Whip (morph): Fixed an issue where the Weapon and Spell Damage from this passive did not appear in your character sheet.
+[Patch 5.1.5] * Molten Whip: Reduced the stacking Spell Damage bonus from this passive to 75 at Rank IV from 125.
+[Patch 5.3.4] * Flame Lash (morph): The special attack from this ability, Power Lash, can now also be cast on enemies that are Immobilized.
+[Patch 6.3.5] * Molten Whip (morph): Fixed an issue where the Weapon and Spell Damage from this passive did not appear in your character sheet.
 ESO Patch Note|7.2.5|* This ability and its morphs now scale off your highest offensive stats, rather than exclusively Magicka based stats. May this finally end the fiery and age-old debate over getting a Stamina Whip, as this is our version of it.
 - Flame Lash (morph):
 - Fixed an issue where this morph did not apply Off Balance to targets who were Immobilized but not already Off Balance.
@@ -77,7 +77,7 @@ ESO Patch Note|8.1.5|* Molten Whip (morph):
 - The Weapon and Spell Damage portion of Seething Fury is no longer consumed when using Molten Whip.
 - Increased the duration of Seething Fury to 15 seconds, up from 10 seconds, to help it be easier to keep up with the new duration timers of Fiery Breath and Searing Strike.
 - Developer Comment: To help this ability become more available to hybrid builds, we've opted to take a very unique route with the ability where the cost is now split evenly between Magicka and Stamina. In doing so, we hope to see more unique interactions with the skill as well as aiding more Stamina-focused Dragonknights in sustaining the skill.
-* Molten Whip: Fixed an issue where this morph could fail to activate many conditional requirements that stated, "when casting an ability that costs Magicka or Stamina". Note that conditional requirements that require only a Stamina ability specifically will still not fire, as this ability is predominantly Magicka oriented.
+[Patch 8.3.5] * Molten Whip: Fixed an issue where this morph could fail to activate many conditional requirements that stated, "when casting an ability that costs Magicka or Stamina". Note that conditional requirements that require only a Stamina ability specifically will still not fire, as this ability is predominantly Magicka oriented.
 ESO Patch Note|11.3.4|*Lava Whip: This ability and the Flame Lash morph now generate 5 stacks of their empowered forms for 20 seconds. Increased the damage by 40% to account for less casts. Overall, this should make both versions of the ability much easier to use in a rotation, rather than feeling like you must choose between uptime of other abilities and the super sick flip whip. These abilities no longer set Immobilized or Stunned enemies Off Balance. (We've sourced Off Balance on a new passive you'll read about later in a different skill line.)
 - Flame Lash:This morph now grants 14% damage done, halving against players, for 45s after spending all stacks of Power Lash, if you are a Dragonknight.The healing now activates on both versions of the ability, rather than only the empowered. The healing now happens on activation, rather than dealing damage.
 - Molten Whip: This morph continues to rework the ability into a more self-contained building effect, Seething Fury now grants 5% damage done and 2% damage done to players per stack if you are a Dragonknight, rather than grating granting Weapon and Spell Damage per stack regardless of class.

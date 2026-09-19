@@ -27,4 +27,4 @@ Padomaic Sprint increases your movement speed for a short time after you kill an
 - Prior to Update 28, this passive only activated when killing civilians but didn't require using the Blade of Woe.
 
 ## Patch notes
-* This passive now triggers whenever you kill an enemy with the Blade of Woe, rather than whenever you kill a citizen. This means it will now work on non-civilian type enemies if you use the Blade of Woe, but will no longer proc off kills on civilians with non-Blade of Woe means. In addition to these changes, this passive will now have significantly less performance implications than before.
+[Patch 6.2.5] * This passive now triggers whenever you kill an enemy with the Blade of Woe, rather than whenever you kill a citizen. This means it will now work on non-civilian type enemies if you use the Blade of Woe, but will no longer proc off kills on civilians with non-Blade of Woe means. In addition to these changes, this passive will now have significantly less performance implications than before.

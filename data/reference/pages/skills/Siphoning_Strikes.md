@@ -37,7 +37,7 @@ Siphoning Strikes passively restore Health when dealing damage once every second
 ## Patch Notes
 ESO Patch Note|1.2.3|* Siphoning Strikes: This ability now restores slightly less resources, and will no longer desync your resource bars upon use.
 - Leeching Strikes: The tooltip for this ability now shows the correct percentage of health recovery.
-* Reduced the damage penalty for having Siphoning Strikes active by 5%.
+[Patch 1.6.5] * Reduced the damage penalty for having Siphoning Strikes active by 5%.
 ESO Patch Note|2.3.5|* Fixed an issue where the weapon visual effects from abilities such as Grim Focus, Siphoning Strikes, and Expert Hunter could get visually detached from the weapon.
 - Leeching Strikes: Increased the amount of Health restored from this morph to 3% of your maximum Health from 2%.
 - Siphoning Attacks:
@@ -51,14 +51,14 @@ ESO Patch Note|3.0.5|* This ability now causes your Light and Heavy Attacks to r
 - Leeching Strikes: This morph now converts the ability into a Stamina ability and causes your Light and Heavy Attacks to restore Stamina based on your character level, and an additional burst of Stamina when the effect ends.
 - Siphoning Attacks: This morph now causes your Light and Heavy Attacks to also restore Magicka based on your character level, and an additional burst of Magicka when the effect ends.
 - Developer Comments: This is a significant reduction to the Magicka and Stamina restored by these abilities, but the addition of Health restore should give Nightblades more healing to improve their survivability. The changes also make the resource restore portion of these abilities better if you are not weaving Light Attacks perfectly, which is desirable for tanks and healers who spend time blocking or healing.
-* Leeching Strikes: Fixed an issue where Rank III of this morph was not returning the correct amount of Stamina when the ability ended.
-* Leeching Strikes: Fixed an issue where you could block the heal from this morph.
-* Leeching Strikes: Fixed an issue where this morph was unable to be cast while you were silenced.
-* Fully charged Heavy Attacks now restore twice the amount of Health and resources for this ability and its morphs.
+[Patch 3.0.7] * Leeching Strikes: Fixed an issue where Rank III of this morph was not returning the correct amount of Stamina when the ability ended.
+[Patch 3.0.9] * Leeching Strikes: Fixed an issue where you could block the heal from this morph.
+[Patch 4.0.5] * Leeching Strikes: Fixed an issue where this morph was unable to be cast while you were silenced.
+[Patch 4.2.5] * Fully charged Heavy Attacks now restore twice the amount of Health and resources for this ability and its morphs.
 ESO Patch Note|4.3.5|* The heal from Siphoning Strikes and Morphs will no longer be considered "proc" abilities, meaning it can proc other proc abilities such as item sets and enchants.
 - Note: We will continue evaluating which abilities should and should not be considered procs in the future.
-* Fixed an issue where this ability and its morphs had a cooldown on the heal. Since Light and Heavy Attacks already have their own unique cooldowns, this previous interaction meant if you had a set such as Blood Moon, you were not gaining the full efficiency of the bonus.
-* Fixed an issue where this ability and its morphs could proc off Mend Wounds and its morphs. The soul-stealing power of this ability is now reserved for damaging Light and Heavy Attacks.
+[Patch 5.0.5] * Fixed an issue where this ability and its morphs had a cooldown on the heal. Since Light and Heavy Attacks already have their own unique cooldowns, this previous interaction meant if you had a set such as Blood Moon, you were not gaining the full efficiency of the bonus.
+[Patch 6.0.5] * Fixed an issue where this ability and its morphs could proc off Mend Wounds and its morphs. The soul-stealing power of this ability is now reserved for damaging Light and Heavy Attacks.
 ESO Patch Note|9.3.5|* Reworked this ability and its morphs to be simpler to use, while making their resource recovery more engaging.
 - When activated, the ability will instantly drain 4000 Health to restore 2000 Magicka and Stamina.
 - When the ability is slotted on either bar, any damage you deal will heal you for 1250 Health, up to once every second.

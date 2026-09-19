@@ -33,6 +33,6 @@ Time Stop reduces the movement speed of all enemies in the target area before st
 ## Patch Notes
 ESO Patch Note|4.3.5|* Increased the base cost of this ability to 8100 from 4590. Keep in mind that this is before the passive cost reduction from the skill line, or the passive cost reduction from the ability rank up.
 - Developer Comment: Time Stop is an incredibly powerful ability that allows large areas to be controlled by the caster, and we've noticed that a core contributing factor to the ability's strength is the low cost and high uptime a single user can have. With this change, we want to ensure Time Stop is still powerful, but incurs a high risk of loss of resources to prevent it from being used too often. The cost is based off our other PvP-based abilities such as Purge or Rapid Maneuvers, as this ability is primarily best suited for PvP environments. We will continue to monitor the performance overall to determine if additional changes are needed in the future.
-* Fixed an issue where this ability's visuals lasted longer than the debuff.
+[Patch 6.3.5] * Fixed an issue where this ability's visuals lasted longer than the debuff.
 
 Skill

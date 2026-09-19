@@ -39,7 +39,7 @@ File:ON-skill-Low_Slash_02.jpg|Low Slash in use
 File:ON-skill-Deep_Slash.jpg|Deep Slash morph ground effect
 
 ## Patch Notes
-* Crippling Slash: This ability now has a visual effect to indicate that your target is immobilized.
+[Patch 1.3.3] * Crippling Slash: This ability now has a visual effect to indicate that your target is immobilized.
 ESO Patch Note|1.5.2|* Low Slash: This ability now reduces enemy damage by 15%.
 - Crippling Slash: This ability now adds 5 Ultimate on hit.
 - Deep Slash: This ability now hits up to three enemies.
@@ -48,11 +48,11 @@ ESO Patch Note|1.6.5|* All ranks and morphs of Low Slash now apply the buff Mino
 ESO Patch Note|3.3.5|* Fixed an issue where the snare from this ability and its morphs could be blocked.
 - Reduced the duration of the snare applied by this ability and its morphs to 4 seconds from 12 seconds.
 - Developer Comment: Powerful snares should have a short duration, while weaker snares should have a long duration; Low Slash fell outside of this ruleset and needed to be adjusted. We have plans to do a more comprehensive pass on snare durations in the future.
-* Deep Slash: Fixed an issue where this morph would fail to apply Minor Maim to the primary target if it hit more than one enemy.
+[Patch 4.0.5] * Deep Slash: Fixed an issue where this morph would fail to apply Minor Maim to the primary target if it hit more than one enemy.
 ESO Patch Note|5.1.5|* Reduced the damage dealt from this ability and the Heroic Slash morph by approximately 31%. These two abilities will also no longer snare targets.
 - Heroic Slash: The Minor Heroism granted from this morph will now last 12 seconds, up from 9 seconds, to better match the duration of the other bonuses.
 - Deep Slash:
 - This ability now hits all targets in a 6 meter radius of your target, instead of only 2 targets in a 5 meter radius.
 - This morph now deals the same damage to all targets hit, and deals our AoE damage standard.
 - This morph also retains the 30% snare.
-* This ability and morphs' secondary effects now last 15 seconds, up from 12.
+[Patch 9.0.5] * This ability and morphs' secondary effects now last 15 seconds, up from 12.

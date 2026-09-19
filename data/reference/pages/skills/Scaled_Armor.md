@@ -31,5 +31,5 @@ ESO Patch Note|7.1.5|* The following passives and player abilities now grant hyb
 - Savage Strength: Now grants equal Weapon and Spell Damage values.
 - Scaled Armor: Now grants 825/1650 Armor rather than 1320/3300 Spell Resistance.
 - Slayer: Now grants equal Weapon and Spell Damage values.
-* This passive now increases your Physical and Spell Resistance by 1487/2974, up from 825/1650.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.0.5] * This passive now increases your Physical and Spell Resistance by 1487/2974, up from 825/1650.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

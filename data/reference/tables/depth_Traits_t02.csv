@@ -1,0 +1,12 @@
+Trait,Material,Material Source,Description,Magnitude
+Normal,Fine,Superior,Epic,Legendary
+Healthy,Antimony,Refining Platinum Dust,Increase Maximum Health by …,844 (white) / 877 (green) / 910 (blue) / 932 (purple) / 965 (gold)
+Arcane,Cobalt,Refining Platinum Dust,Increase Maximum Magicka by …,767 (white) / 797 (green) / 827 (blue) / 847 (purple) / 877 (gold)
+Robust,Zinc,Refining Platinum Dust,Increase Maximum Stamina by …,767 (white) / 797 (green) / 827 (blue) / 847 (purple) / 877 (gold)
+Bloodthirsty,Slaughterstone,"Writs, Weekly Trial Rewards",Increase Weapon and Spell Damage against enemies under 90% health by up to …,210 (white) / 245 (green) / 280 (blue) / 315 (purple) / 350 (gold)
+Harmony,Dibellium,"Writs, Daily Random Normal Dungeon Rewards","Activating a Synergy restores... Health, Magicka, and Stamina.",770 (white) / 800 (green) / 830 (blue) / 850 (purple) / 880 (gold)
+Infused,Aurbic Amber,"Writs, Psijic Portals",Increase the effect of the enchantment by …%,24 (white) / 33 (green) / 42 (blue) / 51 (purple) / 60 (gold)
+Triune,Dawn-Prism,"Writs, War Researchers",Increase Maximum Health by … and Maximum Magicka and Maximum Stamina by …,422 (white) / 438 (green) / 455 (blue) / 466 (purple) / 482 (gold)
+384 (white) / 399 (green) / 414 (blue) / 424 (purple) / 439 (gold)
+Protective,Titanium,"Writs, Jewelry Seams",Increase Spell Resistance and Physical Resistance by …,1053 (white) / 1091 (green) / 1128 (blue) / 1153 (purple) / 1190 (gold)
+Swift,Gilding Wax,"Writs, Rolis Hlaalu",Increase Movement Speed by …%,3 (white) / 4 (green) / 5 (blue) / 6 (purple) / 7 (gold)

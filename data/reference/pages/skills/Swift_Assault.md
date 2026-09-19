@@ -23,6 +23,6 @@ Swift Assault has a placeholder description for now.
 ## Notes
 
 ## Patch Notes
-Flurry]].
+[Patch 8.2.0] * Updated the Companion's Dual Wield ability Swift Assault to now use the same player animation as Flurry.
 
 Multiple Strikes

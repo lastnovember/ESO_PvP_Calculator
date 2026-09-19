@@ -1,0 +1,22 @@
+# Online:Medium Armor (Companion)
+
+Source: https://en.uesp.net/wiki/Online:Medium_Armor_(Companion)
+License: CC BY-SA, UESP
+
+Medium Armor is one of three armor skill lines available to Companions.
+
+## Skill Perks
+The Medium Armor skill line is immediately available to Bastian Hallix, Ember, Sharp-as-Night and Tanlorin, who start their progress at level 3. Other Companions can unlock the skill line by equipping them with 3 pieces of Medium Armor. The skill line can be leveled up from earning combat XP while your active Companion has at least 5 pieces of Medium Armor equipped.
+Notes
+- The numbers displayed here are the base values for the skills. The actual numbers you see in the game may depend on a variety of factors, such as your Companion's equipped weapons and armor, their passive skills, and their current level.
+Skills include:
+
+### Active Ability
+This ability will be used automatically, based on its cooldowns, priority (its order on a Companion's skill bar, where the priority is descending from left to right), and meeting conditions listed in abilities' description.
+Name | width=1|Line Rank | colspan=2|Cast Time | Target | Range | Radius | Duration | Cooldown
+Vanish
+
+### Passive Ability
+The Passive ability is active all the time; it provides a benefit per piece of Medium Armor equipped, so it is effectively always on (with a value that can be 0).
+colspan=2|Name | width=1|Line Rank | width=1|Skill Rank | Description
+Flexibility

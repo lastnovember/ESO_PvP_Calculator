@@ -1,0 +1,13 @@
+Script,Effects
+Berserk,Berserk,"Grants Minor Berserk for 20 seconds, increasing damage done by 5%."
+Breach,Breach,"Afflicts enemies with Minor Breach for 20 seconds, reducing Physical and Spell Resistance by 2974."
+Incompatible with Warding Smash and Healing Smash
+Expedition,Expedition,"Grants Minor Expedition for 20 seconds, increasing Movement Speed by 15%."
+Force,Force,"Grants Minor Force for 20 seconds, increasing Critical Damage by 10%."
+Interrupt,Interrupt,Interrupts enemies that are casting.
+Incompatible with Warding Smash and Healing Smash
+Maim,Maim,"Afflicts enemies with Minor Maim for 20 seconds, reducing damage done by 5%."
+Incompatible with Warding Smash and Healing Smash
+Mangle,Mangle,"Afflicts enemies with Minor Mangle for 20 seconds, reducing Max Health by 10%."
+Incompatible with Warding Smash and Healing Smash
+Vitality,Vitality,"Grants Minor Vitality for 20 seconds, increasing healing received by 6%."

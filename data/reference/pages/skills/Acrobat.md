@@ -18,4 +18,4 @@ Acrobat gives Bosmer a natural affinity for Bows, allowing them to gain experien
 - Prior to Update 11, this skill was called "Archery Expertise", and had no effect on fall damage.
 
 ## Patch Notes
-* Archery Expertise: This passive ability has been renamed to "Acrobat." Also, in addition to the current benefit it now reduces your fall damage by 10%.
+[Patch 2.5.5] * Archery Expertise: This passive ability has been renamed to "Acrobat." Also, in addition to the current benefit it now reduces your fall damage by 10%.

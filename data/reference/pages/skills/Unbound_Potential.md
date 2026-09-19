@@ -14,4 +14,4 @@ linerank1=1
 Unbound Potential improves the rank 2 Fated Fortune passive. It will now also increase damage done by 30%, halving against players, for the duration it is active.
 
 ## Patch Notes
-*Unbound Potential: This passive upgrades rank 2 of Fated Fortune to also increase your damage done by 30% (15% against players) for 7 seconds.
+[Patch 12.0.5] *Unbound Potential: This passive upgrades rank 2 of Fated Fortune to also increase your damage done by 30% (15% against players) for 7 seconds.

@@ -44,6 +44,6 @@ ESO Patch Note|6.1.5|* Blood for Blood (morph):
 - Decreased the execute multiplier on this morph to 60%, down from 100%.
 - This ability now ranks up in 5% execute scaling damage per rank, rather than scaling in 1.1% damage per rank.
 - After casting this ability, you cannot be healed by allies for 5 seconds.
-* This ability and its morphs will now also apply the Hemorrhaging status effect.
+[Patch 9.3.5] * This ability and its morphs will now also apply the Hemorrhaging status effect.
 
 Skill

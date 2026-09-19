@@ -1,0 +1,223 @@
+{{Trail}}[[Category:Online-Crafting]]
+In ''[[Online:Online|Elder Scrolls Online]]'', there are seven '''crafting''' professions. Skill points are needed to fully develop crafting skills, but you are not limited to a single profession, and can choose to dabble in all of them, or specialize in a few professions. To craft, a [[#Crafting Stations|crafting station]] of appropriate kind must be found. [[Online:Crafting Certification|Crafting Certification]] quests can be completed, which enables access to repeatable [[Online:Crafting Writs|Crafting Writs]] quests.
+
+Crafting materials can be gathered from the world, such as plants or ore, or looted from enemies. The primary use is to create items, however several crafting skills allow extracting of materials from items or researching traits they possess, which destroys those items. Some even let you improve existing items.
+
+==Professions==
+{{TOCright}}
+*[[Online:Alchemy|Alchemy]]: The practice of binding of two or more [[Online:Reagents|Reagents]] with a [[Online:Alchemy Ingredients#Potion Solvents|Solvent]] to make potions and poisons.
+*[[Online:Blacksmithing|Blacksmithing]]: The art of converting [[Online:Blacksmithing Materials|raw materials]] into and improving upon [[Online:Heavy Armor|heavy armor]] and [[Online:Weapons|metallic weapons]].
+*[[Online:Clothing|Clothing]]: The art of converting [[Online:Clothing Materials|raw materials]] into and improving upon [[Online:Light Armor|light]] and [[Online:Medium Armor|medium armor]].
+*[[Online:Enchanting|Enchanting]]: The practice of binding [[Online:Runestones|Runes]] into [[Online:Glyphs|Glyphs]] used to enhance weapons, armor, and jewelry.
+*[[Online:Jewelry Crafting|Jewelry Crafting]]: A skill added by the [[Online:Summerset (Chapter)|Summerset]] chapter which allows the crafting and improvement of [[Online:Jewelry|Jewelry]].
+*[[Online:Provisioning|Provisioning]]: The art of converting [[Online:Provisioning Ingredients|Ingredients]] into ingestible [[Online:Food Recipes|Foods]] and [[Online:Beverage Recipes|Drinks]].
+*[[Online:Woodworking|Woodworking]]: The art of converting [[Online:Woodworking Materials|raw wood]] into and improving upon [[Online:Staves|Staves]], [[Online:Bows|Bows]], and [[Online:Shields|Shields]].
+
+===Skill points===
+The table below shows the amount of [[Online:Skills|skill points]] required in order to max out each profession skill line.
+
+{| class="wikitable sortable"
+|-
+! Order!! Profession !! Skill points required
+|-
+| 1 || Alchemy || 21 
+|-
+| 2 || Blacksmithing || 26 
+|-
+| 3 || Clothing || 26 
+|-
+| 4 || Enchanting || 23 
+|-
+| 5 || Jewelry Crafting || 18 
+|-
+| 6 || Provisioning || 25 
+|-
+| 7 || Woodworking || 26 
+|-class="sortbottom"
+|'''Totals:'''||'''All'''||'''165'''
+|}
+
+==Crafting Stations==
+[[File:ON-place-The Ringing Anvil.jpg|thumb|right|A blacksmithing station]]
+Crafting Stations are places at which you can partake in the crafting professions. Each type of crafting station is most commonly found at a particular type of [[Online:Stores|store]]: alchemy stations are found at [[Online:Apothecaries|apothecaries]], blacksmithing stations are found at [[Online:Smithies|smithies]], clothing stations are found at smithies and [[Online:Clothiers|clothiers]], enchanting stations are found at [[Online:Chironasia|chironasia]], and woodworking stations are found at [[Online:Carpentries|carpentries]] and some smithies. Cooking fires for provisioning are most commonly found in [[Online:Inns|inns]] and [[Online:Camps|camps]]. Jewelry crafting stations are inconsistently placed, but can usually be found in major cities. 
+
+You can also have crafting stations in your home. [[ON:Services_Furnishings/Crafting_Stations#Standard_Crafting_Stations|Standard ones]] are obtainable in various ways.
+
+There are also different specialized crafting stations:
+
+# Around the world, you can find special [[Online:Crafting Sites|Crafting Sites]] that are equipped with blacksmithing, clothing, jewelry, and woodworking stations for crafting items in specific [[Online:Sets#Craftable_Sets|Sets]]. At each site, the stations there can be used to craft the Set for that location or as normal crafting stations.
+# You can obtain Attunable Crafting Station furnishings (perhaps by buying with Writ Vouchers, or via Guild Stores), go to one of the sites described in 1, and attune your stations to that Set. Then you can have stations in your home that can craft that Set. This attunement can only be done once, it is permanent.
+# You can obtain a Grand Master Crafting Station furnishing (from [[ON:Faustina_Curio|Faustina Curio]]), feed Attuned Crafting Stations into it, and thereby have a station that can craft in a variety of sets.
+
+All Blacksmithing, clothing, and woodworking stations craft items with specific [[Online:Styles|styles]]. A style can be used if the corresponding [[Online:Crafting Motifs|crafting motif]] is known for that item. The [[Online:Crafting Station Style Order|order that crafting stations list the available styles]] is unfortunately not obvious.
+
+==Refinement==
+After being harvested from resource nodes, raw materials for four different crafting professions (blacksmithing, clothing, jewelry crafting, and woodworking) may be refined, 10 at a time, into 7-10 refined craftable items, averaging an 85% recovery rate. For instance, if a player were to refine 10,000 raw blacksmithing ores, they could expect to get an average of 8,500 refined items. In addition to craftable items, refining raw materials will also yield trait items and upgrading items, which can improve the quality crafted items (such as armor, weapons, or jewelry). At the maximum skill level of the "extraction" skill for each profession, the likelihood is as follows (the same between all professions):
+
+{|class=wikitable
+!rowspan=2|Temper/Tannin/Plating/Resin quality !!colspan=5|% chance per raw material
+|-
+!Extraction 0
+!Extraction 1
+!Extraction 2
+!Extraction 3
+!Ext 3 +</br>[[ON:Champion#Craft|Meticulous Disassembly]]
+|-
+|{{ESO Quality Color|f|Fine}} || 1.00%{{huh}} || 1.15%{{huh}} || 1.31%{{huh}} || 1.50% || 1.69%
+|-
+|{{ESO Quality Color|s|Superior}} || 0% || 0.96%{{huh}} || 1.09%{{huh}} || 1.25% || 1.41%
+|-
+|{{ESO Quality Color|e|Epic}} || 0% || 0% || 0.66%{{huh}} || 0.75% || 0.84%
+|-
+|{{ESO Quality Color|l|Legendary}} || 0% || 0% || 0% || 0.50% || 0.56%
+|}
+Each increased level of the relevant extraction skill (Metal Extraction, Unraveling, Jewelry Extraction, and Wood Extraction) as well as the [[ON:Champion|Champion]] Craft perk [[ON:Champion#Craft|Meticulous Disassembly]] seem to increase the chance of getting improvement materials by 12.5% past the previous skill/perk level. These appear interchangeable; for instance, if a player had Extraction 2 and Meticulous Disassembly, it would be equivalent to having Extraction 3.
+
+Note that this is not the chance of getting a single upgrading material or the chance of getting any number of upgrading materials, but an averaged drop rate over a long period of time. For instance, if a player with fully leveled Extraction skills, but without Meticulous Disassembly, were to refine 10,000 raw blacksmithing ores, they could expect to get an average of 150 {{ESO Quality Color|f|Honing Stone}}, 125 {{ESO Quality Color|s|Dwarven Oil}}, 75 {{ESO Quality Color|e|Grain Solvent}}, and 50 {{ESO Quality Color|l|Tempering Alloy}}.
+
+==Certification==
+
+Seven skills in ESO are eligible for [[Online:Crafting Certification|Certification]]. Completing the certification quests enables access to repeatable [[Online:Crafting Writs|Crafting Writs]] quests. When you reach level six a new notice will appear on the noticeboards in all major cities. The notice states that master crafters are willing to share their knowledge on crafting for free, which will allow you to complete writs. There are two master crafters, [[Online:Millenith|Millenith]] and [[Online:Danel Telleno|Danel Telleno]], who can certify you in three professions each.
+
+With the [[Online:Summerset (Chapter)|Summerset]] chapter, the seventh skill - [[ON:Jewelry Crafting|Jewelry Crafting]] - was added. It can only be learned from [[ON:Felarian|Felarian]] and [[Online:Jewelry Crafting Certification|his associated quest]] in [[ON:Alinor|Alinor]], which requires the chapter to visit.
+
+==Crafting Writs==
+*''[[ON:Crafting Writs|See main article]]''
+
+==Inspiration==
+All seven crafting professions use [[File:ON-icon-Inspiration.png|link=]] '''Inspiration''' for [[Online:leveling|leveling]] purposes. Most professions use the same amount of inspiration for all ranks as shown in the below table; [[#Enchanting and Provisioning variations|Enchanting and Provisioning have small variations at a handful of ranks]]. Higher crafting ranks allow you to create higher level products and unlock more passive abilities in each profession. Inspiration is gained from performing crafting activities, such as creation, improvement, extraction, and refinement, as well as by completing [[#Crafting Writs|writs]]. You gain more inspiration by crafting or deconstructing higher quality products.  You can increase the amount of inspiration you earn in a few ways.  45 [[ON:Champion|Champion Points]] can be allocated in the Craft skill tree towards the [[ON:Inspiration Boost|Inspiration Boost]] passive perk, increasing gains by 30%.  Playing as an [[ON:Orc|Orc]] also grants you a natural 10% boost to inspiration via their innate [[ON:Craftsman|Craftsman]] skill.
+
+{| class="wikitable" {{AL|R}}
+|-
+! Rank !! Inspiration Required<br>for Next Rank !! Total Inspiration<br>for Rank
+|-
+| 1 || 640 || 0
+|-
+| 2 || 3995 || 640
+|-
+| 3 || 6920 || 4635
+|-
+| 4 || 8900 || 11555
+|-
+| 5 || 10560 || 20455
+|-
+| 6 || 13040 || 31015
+|-
+| 7 || 16360 || 44055
+|-
+| 8 || 17960 || 60415
+|-
+| 9 || 21880 || 78375
+|-
+| 10 || 24400 || 100255
+|-
+| 11 || 26900 || 124655
+|-
+| 12 || 29400 || 151555
+|-
+| 13 || 30200 || 180955
+|-
+| 14 || 31000 || 211155
+|-
+| 15 || 32600 || 242155
+|-
+| 16 || 34200 || 274755
+|-
+| 17 || 35800 || 308955
+|-
+| 18 || 39610 || 344755
+|-
+| 19 || 43420 || 384365
+|-
+| 20 || 45750 || 427785
+|-
+| 21 || 48080 || 473535
+|-
+| 22 || 50500 || 521615
+|-
+| 23 || 52920 || 572115
+|-
+| 24 || 55560 || 625035
+|-
+| 25 || 58200 || 680595
+|-
+| 26 || 61280 || 738795
+|-
+| 27 || 64360 || 800075
+|-
+| 28 || 67660 || 864435
+|-
+| 29 || 70960 || 932095
+|-
+| 30 || 74700 || 1003055
+|-
+| 31 || 78440 || 1077755
+|-
+| 32 || 82400 || 1156195
+|-
+| 33 || 86360 || 1238595
+|-
+| 34 || 90980 || 1324955
+|-
+| 35 || 95600 || 1415935
+|-
+| 36 || 100440 || 1511535
+|-
+| 37 || 105280 || 1611975
+|-
+| 38 || 116280 || 1717255
+|-
+| 39 || 128600 || 1833535
+|-
+| 40 || 135200 || 1962135
+|-
+| 41 || 141800 || 2097335
+|-
+| 42 || 149280 || 2239135
+|-
+| 43 || 156760 || 2388415
+|-
+| 44 || 164647 || 2545175
+|-
+| 45 || 173073 || 2709822
+|-
+| 46 || 181840 || 2882895
+|-
+| 47 || 191080 || 3064735
+|-
+| 48 || 200760 || 3255815
+|-
+| 49 || 211320 || 3456575
+|-
+| 50 || - || 3667895
+|}
+
+===Enchanting and Provisioning variations===
+The values in the table above are exact for Alchemy, Blacksmithing, Clothing, Jewelry Crafting, and Woodworking. Enchanting and Provisioning each have four pairs of ranks where the per-rank cost is shifted slightly from the standard. The cumulative totals reconverge at the next rank in each case, and the total Inspiration to reach rank 50 (3,667,895) is identical across all seven professions.
+
+{| class="wikitable" style="text-align:right;"
+! Rank !! Standard !! Enchanting !! Provisioning
+|-
+| 11 || 24,400 || '''24,311''' || 24,400
+|-
+| 12 || 26,900 || '''26,989''' || 26,900
+|-
+| 20 || 43,420 || 43,420 || '''43,320'''
+|-
+| 21 || 45,750 || 45,750 || '''45,850'''
+|-
+| 31 || 74,700 || 74,700 || '''73,700'''
+|-
+| 32 || 78,440 || 78,440 || '''79,440'''
+|-
+| 45 || 164,680 || '''164,647''' || 164,680
+|-
+| 46 || 173,040 || '''173,073''' || 173,040
+|}
+
+These appear to be rounding artifacts from per-rank XP cap retuning around recipe-tier breakpoints. They do not affect total Inspiration to rank 50 or strategic leveling planning, but they will affect any calculation that targets a specific rank tick in Enchanting or Provisioning.
+
+== Bugs ==
+{{Bug|While crafting, the server can sometimes time out because it sees you as not moving. Initially, this may take a while, but the times can become quite short after repeated logins.}}
+** Regularly exit the crafting station and move around, then resume your crafting.
+{{Online Skills Crafting}}

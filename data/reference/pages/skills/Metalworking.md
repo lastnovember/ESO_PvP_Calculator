@@ -45,25 +45,25 @@ Metalworking determines the quality of Blacksmithing items you can make. This in
 The materials used to craft Blacksmithing items are as follows:
 Raw Material | Refined Into | class=unsortable|Used To Make... | Level
 
-Iron Ore | Iron Ingot | Iron Armor and Iron Weapons | R 0|1 - 14
+Iron Ore | Iron Ingot | Iron Armor and Iron Weapons | 0|1 - 14
 
-High Iron Ore | Steel Ingot | Steel Armor and Steel Weapons | R 1|16 - 24
+High Iron Ore | Steel Ingot | Steel Armor and Steel Weapons | 1|16 - 24
 
-Orichalcum Ore | Orichalcum Ingot | Orichalc Armor and Orichalc Weapons | R 2|26 - 34
+Orichalcum Ore | Orichalcum Ingot | Orichalc Armor and Orichalc Weapons | 2|26 - 34
 
-Dwarven Ore | Dwarven Ingot | Dwarven Armor and Dwarven Weapons | R 3|36 - 44
+Dwarven Ore | Dwarven Ingot | Dwarven Armor and Dwarven Weapons | 3|36 - 44
 
-Ebony Ore | Ebony Ingot | Ebon Armor and Ebon Weapons | R 4|46 - 50
+Ebony Ore | Ebony Ingot | Ebon Armor and Ebon Weapons | 4|46 - 50
 
-Calcinium Ore | Calcinium Ingot | Calcinium Armor and Calcinium Weapons | R 5|10 - 30
+Calcinium Ore | Calcinium Ingot | Calcinium Armor and Calcinium Weapons | 5|CP10 - 30
 
-Galatite Ore | Galatite Ingot | Galatite Armor and Galatite Weapons | R 6|40 - 60
+Galatite Ore | Galatite Ingot | Galatite Armor and Galatite Weapons | 6|CP40 - 60
 
-Quicksilver Ore | Quicksilver Ingot | Quicksilver Armor and Quicksilver Weapons | R 7|70 - 80
+Quicksilver Ore | Quicksilver Ingot | Quicksilver Armor and Quicksilver Weapons | 7|CP70 - 80
 
-Voidstone Ore | Voidstone Ingot | Voidsteel Armor and Voidsteel Weapons | R 8|90 - 140
+Voidstone Ore | Voidstone Ingot | Voidsteel Armor and Voidsteel Weapons | 8|CP90 - 140
 
-Rubedite Ore | Rubedite Ingot | Rubedite Armor and Rubedite Weapons | R 9|150 - 160
+Rubedite Ore | Rubedite Ingot | Rubedite Armor and Rubedite Weapons | 9|CP150 - 160
 
 ## Patch Notes
-Solvent Proficiency]] to match the facing of subsequent ranks.
+[Patch 4.1.5] * Updated the base-rank icons for Metalworking, Tailoring, Woodworking, and Solvent Proficiency to match the facing of subsequent ranks.

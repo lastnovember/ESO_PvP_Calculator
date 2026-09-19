@@ -1,0 +1,6 @@
+How do you feel about our relationship? (Cordial to Companion)
+Cordial/Friendly,Close,Allied,Companion
+"""I trust you. There aren't many people I would say that about.""","""I've always tried to look for the best in people. It's good to find it every now and then.""","""We make a great team, and I trust you with my life. What more is there to say?""","""I'm glad we met. Together, there's no challenge we can't overcome and no foe we can't defeat."""
+"""You're affable enough. Just be honest with me and we'll get along fine.""","""You're good company. I feel like we see things the same way.""","""I count myself lucky that Tenarei Vels knocked me out and left me tied up outside Deepscorn Hollow. I've had no truer friend in my life.""","""Life was made for good friends and great adventures."""
+"""I like that you're a listener. So many people like to hear themselves talk.""","""You don't often find a traveling companion you can trust your life to. I'm glad we met.""","""Until I met you my life was tedious and uneventful. But now I feel the inexplicable need to endanger myself. Isn't that strange?""","""I have never met someone braver or more true. I'm proud to call you friend."""
+Let's talk about something else. (Returns to Greetings)

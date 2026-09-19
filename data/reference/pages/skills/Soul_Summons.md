@@ -18,4 +18,4 @@ linerank2=3
 Soul Summons negates the soul gem cost of respawning in-place, with a cooldown between uses. The option to respawn at the nearest Wayshrine and make your way back is unchanged, and will not trigger the perk's cooldown.
 
 ## Patch Notes
-* This passive now properly follows its listed cooldown, rather than having an hour cooldown regardless of rank.
+[Patch 7.1.5] * This passive now properly follows its listed cooldown, rather than having an hour cooldown regardless of rank.

@@ -38,19 +38,19 @@ Dawnbreaker is the Fighters Guild Ultimate ability, unlocked at the final rank o
 File:ON-skill-Dawnbreaker.png|Dawnbreaker in use
 
 ## Patch Notes
-* Slightly decreased the damage that this ability's higher ranks were doing.
+[Patch 1.1.2] * Slightly decreased the damage that this ability's higher ranks were doing.
 ESO Patch Note|1.6.5|* Reduced the cost of Dawnbreaker at all ranks and morphs to 100 Ultimate.
 - Dawnbreaker now also deals damage over time.
 - Removed the cast time from this ability, and can no longer be interrupted.
-* This ability and its morphs will now consistently wait one second before the damage over time effect is applied. Note that the amount of damage applied, and the duration of the damage over time, will remain the same.
-* This ability and its morphs will now be more responsive in combat.
+[Patch 2.1.4] * This ability and its morphs will now consistently wait one second before the damage over time effect is applied. Note that the amount of damage applied, and the duration of the damage over time, will remain the same.
+[Patch 2.3.5] * This ability and its morphs will now be more responsive in combat.
 ESO Patch Note|2.4.5|* This ability and its morphs no longer deal bonus damage to Undead and Daedra, and now deals Physical Damage instead of Magic Damage.
 - Dawnbreaker of Smiting: In addition to the changes made to the base ability, this morph also now knocks down any enemy hit instead of only Undead and Daedra. We also reduced the duration of the knock down to 2.5 seconds from 5 seconds.
 - Flawless Dawnbreaker: In addition to the changes made to the base ability, we reduced the amount of Weapon Damage this morph increases while slotted to 2/3/4/5% at Ranks I/II/III/IV from 5/6/7/8%.
 ESO Patch Note|2.6.4|* Increased the cost of this ability and its morphs to 125 Ultimate from 100.
 - Dawnbreaker of Smiting: Fixed an issue where this ability wasn't applying CC immunity to its targets.
-* Fixed an issue where the damage from this ability and its morphs was being mitigated off the target's Spell Resistance instead of their Physical Resistance.
-* This ability and its morphs can no longer be dodged.
+[Patch 3.0.5] * Fixed an issue where the damage from this ability and its morphs was being mitigated off the target's Spell Resistance instead of their Physical Resistance.
+[Patch 3.1.5] * This ability and its morphs can no longer be dodged.
 ESO Patch Note|5.0.5|* Increased the delay on the Damage over Time effect to 2 seconds from 1 second. Total duration is now 6 seconds, rather than 5 seconds.
 - Dawnbreaker of Smiting: The stun from this ability no longer ranks up from 1.5 seconds to 2.5 seconds; instead, it is a flat 2 seconds at all ranks. This morph now progressively gets stronger in damage as it ranks up instead. This will result in a 5.7% initial hit damage increase, and a 9% Damage over Time portion increase.
 ESO Patch Note|5.1.5|* This ability and its morphs now all have a minor cast time to match their animation of slamming down the glorious Dawnbreaker. Canceling the Ultimate will not consume resources, and this cannot be bashed/interrupted from abilities.

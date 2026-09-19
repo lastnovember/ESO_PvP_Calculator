@@ -24,5 +24,5 @@ Lunar Blessings increases your maximum Health, Magicka, and Stamina.
 - In Update 21, this ability replaced Stealthy, which decreased your stealth detection radius and damage done while in stealth. It was likely changed to avoid confusion with the Bosmer skill of the same name, itself renamed to Hunter's Eye in the same patch.
 
 ## Patch Notes
-* Stealthy: Reduce detection radius by 3m and Increase damage from Stealth by 10% → Lunar Blessings: Increases your Max Health, Magicka, and Stamina by 825.
-* Increased the Max Health, Magicka, and Stamina granted from this passive to 915, up from 825.
+[Patch 4.3.5] * Stealthy: Reduce detection radius by 3m and Increase damage from Stealth by 10% → Lunar Blessings: Increases your Max Health, Magicka, and Stamina by 825.
+[Patch 6.3.5] * Increased the Max Health, Magicka, and Stamina granted from this passive to 915, up from 825.

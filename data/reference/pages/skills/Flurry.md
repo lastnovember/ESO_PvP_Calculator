@@ -62,7 +62,7 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Blade Cloak
 - Hidden Blade
 - You'll now hear an audio effect when Flurry and Slash strike their targets.
-* Increased damage dealt from this ability and its morphs by approximately 21% to ensure it is in line with other single target "spammable" abilities.
+[Patch 5.0.5] * Increased damage dealt from this ability and its morphs by approximately 21% to ensure it is in line with other single target "spammable" abilities.
 ESO Patch Note|5.2.5|* Reduced the damage dealt by this ability and its morphs by approximately 8% to ensure it does not eclipse other damage abilities, such as DoTs.
 - Bloodthirst (morph):
 - Fixed an issue where the heal from this ability was not properly increasing by 1% of the damage dealt per rank.
@@ -74,12 +74,12 @@ ESO Patch Note|7.0.5|* The following abilities will now deal purely Bleed Damage
 - Trap Beast and morphs
 - Twin Slashes and morphs
 - Bloodthirst (morph): Fixed an issue where the heal from this morph was not considered a Dual Wield ability or a Weapon ability.
-* Bloodthirst (morph): This morph now heals for up to 33% of the damage done per hit, rather than up to 63% of the final hit's damage done. This will result in slightly more healing effectiveness and more responsive healing as well.
+[Patch 7.1.5] * Bloodthirst (morph): This morph now heals for up to 33% of the damage done per hit, rather than up to 63% of the final hit's damage done. This will result in slightly more healing effectiveness and more responsive healing as well.
 ESO Patch Note|8.1.5|* This ability and its morphs now hit 4 times over a channel time of 800ms, rather than 5 times over 600ms. Their total damage remains relatively the same over their channel time.
 - These abilities now have completely new animations and visual effects to match their attack cadence.
 - Rapid Strikes (morph):
 - This morph now increases the damage done of the next hit by 5% per stack, up from 3%, resulting in approximately 2.5% more overall damage.
 - Reduced the base cost to 2430, down from 2700.
 - Bloodthirst (morph): Fixed an issue where the heal from this ability was considered Magicka rather than Stamina based.
-* Fixed an issue with this ability and its morphs where the damage and audio impacts appeared delayed and out of sync with its animation.
-* Fixed an issue with this ability and its morphs where they could sometimes, ever so incredibly rarely, only hit 3 times when weaving in extremely rapid succession (we're talking within a 1ms time span)..
+[Patch 8.3.5] * Fixed an issue with this ability and its morphs where the damage and audio impacts appeared delayed and out of sync with its animation.
+[Patch 9.0.5] * Fixed an issue with this ability and its morphs where they could sometimes, ever so incredibly rarely, only hit 3 times when weaving in extremely rapid succession (we're talking within a 1ms time span)..

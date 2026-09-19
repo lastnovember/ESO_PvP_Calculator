@@ -46,7 +46,7 @@ File:ON-skill-Endless_Hail.jpg| Endless Hail
 File:ON-skill-Arrow_Barrage.jpg| Arrow Barrage
 
 ## Patch Notes
-* Scorched Earth: Changed this ability's visual FX to help it stand out better from enemy fire area-effects.
+[Patch 1.1.2] * Scorched Earth: Changed this ability's visual FX to help it stand out better from enemy fire area-effects.
 ESO Patch Note|1.4.3|* Reduced the cost of this ability by approximately 30%, and removed the minimum range on this ability.
 - Scorched Earth: Fixed an issue with this ability where the red telegraph ring was bigger than the size of the effect.
 ESO Patch Note|1.5.2|* Fixed an issue with the bow ability Volley where the effects would stack and potentially cause performance issues.
@@ -57,7 +57,7 @@ ESO Patch Note|2.4.5|* Fixed an issue where the visual effects from this ability
 - Scorched Earth:
 - Renamed this morph to Endless Hail.
 - Redesigned this morph so it now increases the duration of the arrow volley to 10 seconds, reduces the cost, and deals Physical Damage instead of Flame Damage.
-* Fixed an issue where this ability and its morphs were erroneously triggering the Nightblade Shadow Barrier passive ability.
+[Patch 2.5.5] * Fixed an issue where this ability and its morphs were erroneously triggering the Nightblade Shadow Barrier passive ability.
 ESO Patch Note|2.7.5|* Fixed an issue where some weapon abilities (Blade Cloak, Volley, and Wall of Elements) could not proc Weapon Enchantments.
 - Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Snipe
@@ -67,10 +67,10 @@ ESO Patch Note|2.7.5|* Fixed an issue where some weapon abilities (Blade Cloak, 
 - Poison Arrow
 ESO Patch Note|3.0.5|* Increased the cost of this ability and its morphs by approximately 30%.
 - Fixed an issue where this ability and its morphs were not lasting for their full duration, causing you to miss out on 2 ticks of damage.
-* Fixed an issue where Maelstrom's Bow would lose an enchantment charge every time Volley and its morphs dealt damage. It should now only lose one charge for each cast of Volley and its morphs.
-Wall of Elements]]) to terminate early.
-* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
-* Fixed an issue where the abilities from Volley or its morphs were unintentionally blockable. Since this ability is a ground-based, area of effect, damage over time ability, it is intended to follow the same rulesets of others in which it cannot be blocked or dodged. #Facts
+[Patch 3.0.8] * Fixed an issue where Maelstrom's Bow would lose an enchantment charge every time Volley and its morphs dealt damage. It should now only lose one charge for each cast of Volley and its morphs.
+[Patch 3.0.9] * Fixed an issue where alchemical poisons were causing certain persistent area of effect abilities (such as Volley or Wall of Elements) to terminate early.
+[Patch 3.1.5] * In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
+[Patch 4.3.5] * Fixed an issue where the abilities from Volley or its morphs were unintentionally blockable. Since this ability is a ground-based, area of effect, damage over time ability, it is intended to follow the same rulesets of others in which it cannot be blocked or dodged. #Facts
 ESO Patch Note|5.1.5|* This ability and its morphs now deal damage every second, rather than every half second, and increased the damage per tick by approximately 11%. This will result in an overall damage loss.
 - Reduced the base cost to 2808 from 3510.
 - The range on all morphs is now 28 meters.
@@ -78,8 +78,8 @@ ESO Patch Note|5.1.5|* This ability and its morphs now deal damage every second,
 - Endless Hail: This morph no longer grants cost reduction, but now lasts 9 seconds and ranks to 12 seconds at Rank IV, rather than gaining 1.1% damage per tank.
 ESO Patch Note|5.2.5|* Increased the base cost of this ability and its morphs to 4500, up from 2808.
 - The tooltips now properly mention their true duration.
-* Reduced the cost of this ability and its morphs to 3510, down from 4500.
+[Patch 5.3.4] * Reduced the cost of this ability and its morphs to 3510, down from 4500.
 ESO Patch Note|8.1.5|* Reduced the damage per tick by 12%.
 - Reduced the cost to 2700, down from 3510.
 - Endless Hail (morph): This morph now increases the duration of the effect by 5 seconds, up from 4.
-* Fixed an issue where this ability and its morphs only used your Weapon Critical, rather than dynamically scaling with whatever was higher.
+[Patch 8.2.5] * Fixed an issue where this ability and its morphs only used your Weapon Critical, rather than dynamically scaling with whatever was higher.

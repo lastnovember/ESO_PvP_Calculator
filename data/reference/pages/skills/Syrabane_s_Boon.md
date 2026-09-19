@@ -24,4 +24,4 @@ Syrabane's Boon increases your Maximum Magicka.
 - Prior to Update 21, this skill was known as "Gift of Magnus", and increased your Magicka by a percentage rather than a flat value. This was likely changed to avoid confusion with the Breton skill of the same name.
 
 ## Patch Notes
-* Gift of Magnus: Gain 10% Max Magicka → Syrabane's Boon: Increases your Max Magicka by 2000.
+[Patch 4.3.5] * Gift of Magnus: Gain 10% Max Magicka → Syrabane's Boon: Increases your Max Magicka by 2000.

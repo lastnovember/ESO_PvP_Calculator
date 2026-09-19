@@ -31,7 +31,7 @@ imgdesc=Vampiric Drain
 ESO Patch Note|7.1.5|* Vampiric Drain: This ability and its morphs now heal for 25% of your Missing Health per tick, up from 23%. The morphs also no longer rank up in 1.1% per damage done per rank and now rank up in morphed effects.
 - Exhilaration Drain (morph): This morph now ranks up 1 additional Ultimate per rank which will be 5 at rank IV, up from 4.
 - Drain Vigor (morph): This morph now gains 1% missing Stamina per rank which ends at 10% at rank IV, up from 5%.
-* Increased the damage done from this ability and its morphs by 50% per tick.
-* Fixed an issue where this ability and its morphs could be reflected despite being beams. Stop draining yourself!
+[Patch 7.3.5] * Increased the damage done from this ability and its morphs by 50% per tick.
+[Patch 8.0.5] * Fixed an issue where this ability and its morphs could be reflected despite being beams. Stop draining yourself!
 
 Skill

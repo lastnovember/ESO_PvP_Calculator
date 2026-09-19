@@ -37,4 +37,4 @@ Runemend either heals you or an ally in a cone in front of you three times and g
 File:ON-skill-Evolving Runemend HoT.jpg|Evolving Runemend morph's heal over-time glow visual
 
 ## Patch Notes
-* Fixed an issue where some of the visuals from this ability and its morphs could get stuck floating in midair.
+[Patch 9.0.6] * Fixed an issue where some of the visuals from this ability and its morphs could get stuck floating in midair.

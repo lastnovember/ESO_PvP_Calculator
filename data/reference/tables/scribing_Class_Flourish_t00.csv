@@ -1,0 +1,8 @@
+Class,Effects
+Arcanist,Creates a Crux.
+Dragonknight,"For each enemy within 8 meters, up to 6, gain 50 Weapon and Spell Damage and reduce your damage taken by 2% plus 1% per enemy for 5 seconds."
+Necromancer,"Once every 3 seconds, increase your Health, Magicka, and Stamina by 2% for 10 seconds for each corpse within 12 meters, up to 10 times. If no corpses are nearby, create a corpse."
+Nightblade,Restore 400 Magicka and Stamina if your target was above 50% Health. Increase your Critical Chance by 10% for 5 seconds if your target was at or below 50% Health.
+Sorcerer,"Enchant your closest pet for 5 seconds to heal a nearby ally for 487 Health each time it deals damage, up to once a second. If you do not have a pet, you deal 1153 Shock Damage to enemies within 8 meters of your first target."
+Templar,"For 5 seconds, you gain 1320 Armor and 150 Weapon and Spell Damage. If Sacred Ground is active on you, these values are increased by 50%."
+Warden,"Create an 8 meter area for 2 seconds under your target once every 8 seconds that snares enemies by 70%, and charms them for 3 seconds when it expires. If no enemies are charmed, you restore 1000 Magicka and Stamina."

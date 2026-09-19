@@ -24,4 +24,4 @@ ESO Patch Note|6.1.5|* This passive now triggers whenever an enemies dies within
 - Removed the hidden 1ms cooldown.
 - Fixed an issue where this passive could fail to work with multiple Nightblades.
 - Fixed an issue where this passive was causing unnecessary message spam and ability applications to enemies.
-* This passive now restores 500/1000 Magicka and Stamina when it procs, rather than 938/1876 Magicka or Stamina depending on your highest maximum.
+[Patch 6.2.5] * This passive now restores 500/1000 Magicka and Stamina when it procs, rather than 938/1876 Magicka or Stamina depending on your highest maximum.

@@ -35,7 +35,7 @@ Secluded Grove creates a large area which restores the Health of all allies (inc
 - Enchanted Forest is a recommended morph for the Master Herbalist build.
 
 ## Patch Notes
-* Enchanted Forest: Fixed an issue where this morph was not generating Ultimate if the ally was healed to above 50% health on the first healing tick.
+[Patch 3.0.10] * Enchanted Forest: Fixed an issue where this morph was not generating Ultimate if the ally was healed to above 50% health on the first healing tick.
 ESO Patch Note|3.2.5|* Reduced the healing over time done by this ability and its morphs by approximately 33%.
 - Increased the cost of this ability and its morphs to 90 Ultimate from 75 Ultimate.
 - Developer's Comments: We like that Secluded Grove is a cheap Ultimate that Wardens can use frequently for dangerous moments, but the amount of healing it was doing was too high for that low cost.

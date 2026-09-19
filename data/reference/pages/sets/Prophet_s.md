@@ -26,7 +26,7 @@ Prophet's is a jewelry item set. It can be acquired from the Level Up Advisor at
 - Prophet's Bow
 - Prophet's Restoration Staff
 - Prophet's Dagger
-T|
+|
 
 #### Level 25
 - Prophet's Inferno Staff
@@ -40,7 +40,7 @@ T|
 - Prophet's Robes
 - Prophet's Jack
 - Prophet's Cuirass
-T|
+|
 
 #### Level 41
 - Prophet's Inferno Staff

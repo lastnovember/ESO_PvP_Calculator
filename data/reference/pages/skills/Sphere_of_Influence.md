@@ -14,4 +14,4 @@ linerank1=1
 Sphere of Influence improves your Damage Shields. Casting a damage shield on yourself or an ally will grant an additional shield, as well as Health, Magicka, and Stamina Recovery. The shield scales off the higher of your Max Health or Max Magicka and is capped at 25% of the target's Max Health.
 
 ## Patch Notes
-*This passive causes your damage shield abilities to grant an additional damage shield to the target for 3 seconds that absorbs up to 15% of their Max Health as damage, scaling with 25% of the higher of your Max Magicka or Health. Targets also gain 150 Health, Magicka, and Stamina Recovery for 4 seconds
+[Patch 12.0.0] *This passive causes your damage shield abilities to grant an additional damage shield to the target for 3 seconds that absorbs up to 15% of their Max Health as damage, scaling with 25% of the higher of your Max Magicka or Health. Targets also gain 150 Health, Magicka, and Stamina Recovery for 4 seconds

@@ -35,8 +35,8 @@ Caltrops deals Physical Damage over time in a large area, it also reduces the mo
 - Previously, the Anti-Cavalry Caltrops morph would automatically dismount any mounted enemies, but now it just drains their mounts' Stamina instead. Thus, players who have invested in the Stamina Riding Skill may be able to withstand this attack for longer without being dismounted.
 
 ## Patch Notes
-* Fixed multiple issues where using this ability would reduce your game's performance.
-* This now shows a red ring on the ground when cast by an enemy in Cyrodiil.
+[Patch 1.2.6] * Fixed multiple issues where using this ability would reduce your game's performance.
+[Patch 1.3.3] * This now shows a red ring on the ground when cast by an enemy in Cyrodiil.
 ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the following ticking damage abilities.
 - Agony
 - Bat Swarm
@@ -55,7 +55,7 @@ ESO Patch Note|1.5.2|* This ability now shows a red telegraph to enemy player ch
 - Razor Caltrops: Fixed an issue where this ability was dealing less damage than Caltrops.
 ESO Patch Note|1.6.5|* This ability now correctly applies damage every second to enemies, and will no longer cause you to display a hit reaction for each damage tick.
 - Anti-Cavalry Caltrops: Increased the duration of this ability by 5 seconds.
-* This ability is no longer considered a melee attack, and it will not trigger the Redguard passive ability Adrenaline Rush. Caltrops now sorts targets based on the center of the attack, rather than the distance from the caster.
+[Patch 2.1.4] * This ability is no longer considered a melee attack, and it will not trigger the Redguard passive ability Adrenaline Rush. Caltrops now sorts targets based on the center of the attack, rather than the distance from the caster.
 ESO Patch Note|2.1.6|* Shadow Cloak: Fixed an issue where you were not being hit by some area of effect abilities while Shadow Cloak was active. The following abilities will now correctly damage a Shadow Cloaked target:
 - Dark Talons
 - Inhale
@@ -66,7 +66,7 @@ ESO Patch Note|2.1.6|* Shadow Cloak: Fixed an issue where you were not being hit
 - Caltrops
 ESO Patch Note|2.2.4|* Fixed an issue where Spiked Armor and Spiked Bone Shield would trigger damage against attackers using Caltrops.
 - Anti-Cavalry Caltrops: Fixed an issue where the visual effects of this ability were ending after 30 seconds, rather than 35 seconds (the actual duration).
-* Made some performance adjustments for this ability and its morphs.
+[Patch 2.4.7] * Made some performance adjustments for this ability and its morphs.
 ESO Patch Note|3.0.5|* Multiple player characters can now stack this ability and its morphs in the same area and damage the same target.
 - Reduced the size of this ability and its morphs to 8 meters from 12 meters.
 - Reduced the duration of this ability and its morphs to 12 seconds from 30 seconds.

@@ -1,0 +1,23 @@
+,Weapon,Description,Toughness,Gold Price,AP Price
+Ballistae
+,nowrap| ESO Alliances,Dominion=Dominion Ballista,Covenant=Covenant Ballista,Pact=Pact Ballista,Creates a ballista siege weapon whose bolt causes great damage to structures and enemies.,"100,000",,1800
+,nowrap| ESO Alliances,Dominion=Dominion Firebolt Ballista,Covenant=Covenant Firebolt Ballista,Pact=Pact Firebolt Ballista,Creates a ballista siege weapon whose bolt causes flame damage to structures and also damages foes over time.,"100,000",450,1200
+,nowrap| ESO Alliances,Dominion=Dominion Lightning Ballista,Covenant=Covenant Lightning Ballista,Pact=Pact Lightning Ballista,Creates a ballista siege weapon whose electrically charged bolt ensnares enemies and drains their Magicka.,"100,000",,1200
+,nowrap| ESO Alliances,Dominion=Dominion Cold Fire Ballista,Covenant=Covenant Cold Fire Ballista,Pact=Pact Cold Fire Ballista,Creates a ballista siege weapon whose bolt causes flame damage to structures and also damages foes over time.,"100,000",,
+Catapults
+,nowrap| ESO Alliances,Dominion=Dominion Meatbag Catapult,Covenant=Covenant Meatbag Catapult,Pact=Pact Meatbag Catapult,Creates a catapult siege weapon that fires a bag of diseased meat at its targets.,"150,000",,1200
+,nowrap| ESO Alliances,Dominion=Dominion Oil Catapult,Covenant=Covenant Oil Catapult,Pact=Pact Oil Catapult,"Creates a catapult siege weapon that fires a jar of oil at its targets, ensnaring them and draining their Stamina.","150,000",,1200
+,nowrap| ESO Alliances,Dominion=Dominion Scattershot Catapult,Covenant=Covenant Scattershot Catapult,Pact=Pact Scattershot Catapult,Creates a catapult siege weapon whose mass of small rocks causes damage to foes in a wide area.,"150,000",,1200
+Lancers
+,nowrap| ESO Alliances,Dominion=Dominion Fire Lancer,Covenant=Covenant Fire Lancer,Pact=Pact Fire Lancer,Creates a Dwarven fire lancer siege weapon whose bolts deal flame damage to structures and also causes Burning.,"200,000",,
+,nowrap| ESO Alliances,Dominion=Dominion Frost Lancer,Covenant=Covenant Frost Lancer,Pact=Pact Frost Lancer,Creates a Dwarven frost lancer siege weapon whose bolts deal frost damage to structures and also causes Chilled.,"200,000",,
+,nowrap| ESO Alliances,Dominion=Dominion Shock Lancer,Covenant=Covenant Shock Lancer,Pact=Pact Shock Lancer,Creates a Dwarven shock lancer siege weapon whose bolts deal shock damage to structures and also causes Concussion.,"200,000",,
+Trebuchets
+,nowrap| ESO Alliances,Dominion=Dominion Firepot Trebuchet,Covenant=Covenant Firepot Trebuchet,Pact=Pact Firepot Trebuchet,Creates a trebuchet weapon whose fireball causes burn damage to structures and foes.,"200,000",450,1800
+,nowrap| ESO Alliances,Dominion=Dominion Iceball Trebuchet,Covenant=Covenant Iceball Trebuchet,Pact=Pact Iceball Trebuchet,Creates a trebuchet weapon whose iceball causes damage and ensnares players.,"200,000",,1800
+,nowrap| ESO Alliances,Dominion=Dominion Stone Trebuchet,Covenant=Covenant Stone Trebuchet,Pact=Pact Stone Trebuchet,Creates a trebuchet weapon whose stones cause great damage to structures and foes.,"200,000",,1800
+,nowrap| ESO Alliances,Dominion=Dominion Cold Fire Trebuchet,Covenant=Covenant Cold Fire Trebuchet,Pact=Pact Cold Fire Trebuchet,Creates a trebuchet weapon whose fireball causes burn damage to structures and foes.,"200,000",,
+,nowrap| ESO Alliances,Dominion=Dominion Cold Stone Trebuchet,Covenant=Covenant Cold Stone Trebuchet,Pact=Pact Cold Stone Trebuchet,Creates a trebuchet weapon whose stones cause great damage to structures and foes.,"200,000",,
+Other
+,nowrap| ESO Alliances,Dominion=Dominion Battering Ram,Covenant=Covenant Battering Ram,Pact=Pact Battering Ram,Creates a battering ram which can be used to destroy doors.,"200,000",,1800
+,|Flaming Oil,Pours straight downwards. Very effective weapon against Rams and players operating a Ram.,"100,000",,800

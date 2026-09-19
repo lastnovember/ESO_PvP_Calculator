@@ -21,4 +21,4 @@ Illuminate grants Minor Sorcery to you and your group each time you use an activ
 - The Bright Harbinger Class Mastery ability also grants Weapon Damage and Spell Damage.
 
 ## Patch Notes
-* This passive now provides nearby allies with the Minor Sorcery buff for 10 seconds at Rank I, and 20 seconds at Rank II, when a Dawns Wrath ability is activated.
+[Patch 1.6.5] * This passive now provides nearby allies with the Minor Sorcery buff for 10 seconds at Rank I, and 20 seconds at Rank II, when a Dawns Wrath ability is activated.

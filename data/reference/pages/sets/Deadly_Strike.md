@@ -18,5 +18,5 @@ The set consists of medium armor and jewelry in all slots, as well as weapons an
 ### Drop Locations
 
 ## Patch Notes
-* Reduced this set's bonus damage to 18%, down from 20%. This set now works on all channeled and Damage over Time effects, rather than only Martial-based ones.
-* Reduced this set's damage done bonus to over time and channeled abilities to 15%, down from 18%.
+[Patch 7.1.5] * Reduced this set's bonus damage to 18%, down from 20%. This set now works on all channeled and Damage over Time effects, rather than only Martial-based ones.
+[Patch 7.2.0] * Reduced this set's damage done bonus to over time and channeled abilities to 15%, down from 18%.

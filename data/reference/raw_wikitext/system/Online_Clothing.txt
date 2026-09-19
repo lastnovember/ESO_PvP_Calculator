@@ -1,0 +1,113 @@
+{{Trail|Crafting}}{{About|the skill|the clothing items|ON:items}}
+{{/Progression}}
+'''Clothing''' is a [[Online:Crafting|crafting]] profession in ''[[Online:Online|Elder Scrolls Online]]''. This profession's specialty is to create and improve [[Online:Light Armor|light]] and [[Online:Medium Armor|medium armor]] in various styles of different races. To perform this task you need to be at a clothing station, which can also be used to conduct research on different kinds of light and medium armor traits. The list of ingredients (cloth, leather, raw fibers, and tannins) used in Clothing can be found [[Online:Clothing Materials|here]]. Once you are [[ON:Crafting_Certification|Certified]] in this craft, you will have access to repeatable [[ON:Crafting_Writs|Crafting Writ quests]].
+
+In addition to light and medium armor, the Clothing skill allows you to craft [[ON:Furnishing Patterns|furnishings]] for your home.
+{{TOClimit|3}}
+== Learning ==
+The Clothing skill line is granted the first time you activate a clothing station.  You can increase your skill by crafting or deconstructing light and medium armor, researching traits, and by completing [[ON:Clothier Writ|Clothier Writ]]s or [[ON:Masterful Leatherwear|Master]] [[ON:Masterful Tailoring|Writs]].  In addition, you can earn free levels in the skill line by reading [[ON:Skill Books|Skill Books]], which may be found randomly on bookshelves anywhere.  The skill books which increase Clothing are:
+*[[ON:Medium Armor: Tannins and Leather|Medium Armor: Tannins and Leather]]
+*[[ON:Khajiiti Arms and Armor|Khajiiti Arms and Armor]]
+*[[ON:Clothier: Light Armor Basics|Clothier: Light Armor Basics]]
+*[[ON:Chronicles of Ehtelar, Vol. 1|Chronicles of Ehtelar, Vol. 1]]
+*[[ON:The Year 2920, Vol. 3|The Year 2920, Vol. 3]]
+*[[ON:Letter to Strastnoc|Letter to Strastnoc]]
+
+== Clothier Dialogue ==
+You can learn about this profession by speaking with some of the clothiers:
+:'''What exactly does a clothier do?''' 
+:'' "We tan, weave, stitch&mdash;you name it. People in search of medium and light armor come to us. This requires fibers, leather, and a work table like those found in town.<br>We also seek out [[Online:Crafting Motifs|style books]] and special ingredients for more advanced work."''
+:'''I assume there's more to it than tanning and weaving?'''
+:''"Yes, of course. During the tailoring process, we can choose a special [[Online:Traits|trait]] for the work. It takes [[Online:Traits#Research|research]] to discover these techniques, but it's well worth the effort. Reinforced buckles, intricate detail work ... each brings a special benefit."''
+:'''What else is involved?'''
+:''"Well, the piece can be improved even more through the use of tannins. These elements can enhance the value and quality of your work. Just be cautious. You risk ruining the piece if you're not careful. Improving on perfection is no mean feat!"''
+{{NewLine}}
+
+==Skill Perks==
+Clothing has an associated skill line that is revealed through use of the Clothing profession. Abilities are listed below.
+===Passive Abilities===
+Passive abilities are active all the time, and affect the outcome of Clothing related activities.
+{|class=wikitable
+! !!Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|Tailoring}}
+{{Online Skill Link|Keen Eye: Cloth}}
+{{Online Skill Link|Outfitter Hireling}}
+{{Online Skill Link|Unraveling}}
+{{Online Skill Link|Stitching}}
+{{Online Skill Link|Tannin Expertise}}
+|}
+
+===Skill points===
+The table below shows the amount of [[Online:Skills|skill points]] required in order to max out the [[Online:Clothing|Clothing]] skill line.
+
+{| class="wikitable sortable"
+|-
+! Order!! Progression !! Skill points required
+|-
+| 1 || [[Online:Tailoring|Tailoring]] || 10
+|-
+| 2 || [[Online:Keen Eye: Cloth|Keen Eye: Cloth]] || 3
+|-
+| 3 || [[Online:Outfitter Hireling|Outfitter Hireling]] || 3 
+|-
+| 4 || [[Online:Unraveling|Unraveling]] || 3
+|-
+| 5 || [[Online:Stitching|Stitching]] || 4
+|-
+| 6 || [[Online:Tannin Expertise|Tannin Expertise]] || 3 
+|-class="sortbottom"
+|'''Totals:'''||'''All'''||'''25'''
+|}
+
+==Clothing Stations==
+Clothing stations can be found in towns, usually next to other crafting stations. At a clothing station, you can refine raw materials, craft new items, deconstruct existing items to retrieve material components, improve the quality of an item by using tannins, or research a trait by destroying an existing item. At a crafting station, your inventory is virtually merged with your bank, so you can use items from your inventory or your bank for any operation, but the materials from the inventory are used first.
+===Refining===
+You can refine raw resources in batches of 10, obtaining 7-10 materials suitable for crafting and possibly a gem or a tannin. The materials refine into the following:
+{{Online:Tailoring}}
+
+===Crafting new items===
+Clothing allows you to create cloth armor (light) or leather armor (medium). Initially you can craft from Jute and Hide, but when you improve your Clothing skill and apply skill points towards Tailoring, you get access to higher tier materials. For each material you can create items with a range of armor values and level requirements, depending on how much material you choose to use. Once you have access to a material, you can create every item out of it. See [[Online:Clothing Materials|this page]] for the full list of the cloth and leather used in Clothing.
+
+To craft a new item, you must choose the type of the item (robe, hat, etc.), the type and quantity of the material to use, the [[Online:Clothing#Style|style]] of the item to create (this is required, and every style requires a specific secondary ingredient), and optionally a [[Online:Clothing#Traits|trait]] to add among the traits you have unlocked for this specific item type (adding a trait requires a tertiary ingredient).
+===Deconstructing items===
+You can deconstruct a piece of armor at a clothing station. The process destroys the item, but allows the recovery of refined materials, secondary (style) or tertiary (trait) ingredients that were used to create this item, and the extraction of a tannin of the item's quality. The chances of extracting each material are calculated separately, and are improved with higher ranks of the Unravelling skill. Finally, you will always get some Clothing experience, but much less will be obtained from deconstructing an item you made yourself.
+
+===Improving items===
+At a clothing station, you can apply [[Online:Clothing Materials#Tannins|tannins]] to items to try and improve them. Each improvement has only a chance of success, the higher the tier of the item the smaller the chance. Tannins can be obtained when refining raw fibers and scraps.
+
+===Research===
+Having an item with a [[Online:Clothing#Traits|trait]], you can learn how to create other items of the same type with the same trait. Research takes predefined time and destroys the item. For a given item type researching the first trait lasts 6 hours, and each next trait takes twice longer than the previous. You can only research one trait per profession at a time; however, each profession has a perk (for Clothing it is Stitching) that allows you to have two or three parallel research processes. Traits on different types of items are completely separate, so if you learned a trait on a robe you can only apply it to a robe and not to a hat, and time for researching a trait for a robe will only depend on how many traits you have already discovered for a robe.
+
+==Style==
+{{ON:Styles}}
+
+==Traits==
+A weapon or piece of armor can have a single trait (in addition to an enchantment). These traits can be [[Online:Clothing#Clothing Stations|researched]] at crafting stations from an existing item which possesses the trait, destroying the item in the process. To add a trait when crafting one must use a tertiary ingredient.
+
+{| class="wikitable sortable"
+|-
+! Trait (Armor) !! Material !! Description
+|-
+| Sturdy || {{icon|trait material|Quartz|24}} Quartz || Give a 22% chance to avoid decay when wielder is defeated
+|-
+| Impenetrable || {{icon|trait material|Diamond|24}} Diamond || Increases resistance to Critical hits by 60
+|-
+| Reinforced || {{icon|trait material|Sardonyx|24}} Sardonyx || Increases this item's Armor value by 4%
+|-
+| Well-fitted || {{icon|trait material|Almandine|24}} Almandine || Reduces the cost of Sprinting by 2%
+|-
+| Training || {{icon|trait material|Emerald|24}} Emerald || Increases armor skill line experience with this armor type by 11%
+|-
+| Infused || {{icon|trait material|Bloodstone|24}} Bloodstone || Increases this item's armor enchantment effect by 8%
+|-
+| Exploration || {{icon|trait material|Garnet|24}} Garnet || Increases exploration experience gained by 6%
+|-
+| Divines || {{icon|trait material|Sapphire|24}} Sapphire || Increases Mundus Stone effects by 4%
+|}
+
+== Achievements ==
+There are a number of achievements associated with Clothing.
+{{/Achievements}}
+
+{{Online Skills}}
+[[Category:Online-Skill Lines]][[Category:Online-Skill Lines-Crafting]]

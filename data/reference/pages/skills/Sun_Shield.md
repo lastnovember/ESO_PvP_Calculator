@@ -40,22 +40,22 @@ Sun Shield applies a Damage Shield to you. Enemies nearby take Magic Damage on c
 File:ON-skill-Blazing_Shield.jpg|Blazing Shield
 
 ## Patch Notes
-* Radiant Ward: Fixed an issue where this ability wasn't properly progressing as it ranked up. This results in a slight increase to its damage.
-* This ability no longer stops your magicka regeneration.
+[Patch 1.1.2] * Radiant Ward: Fixed an issue where this ability wasn't properly progressing as it ranked up. This results in a slight increase to its damage.
+[Patch 1.3.3] * This ability no longer stops your magicka regeneration.
 ESO Patch Note|1.6.5|* Increased the cost of this ability by 10%.
 - Radiant Ward: In addition to increased shield strength, this morph also has a reduced cost.
-* Radiant Ward: Increased the shield strength bonus from this morph's shield to 6% per enemy hit from 5%.
-* Blazing Shield: Fixed an issue where this morph was not working with the Spear Wall and Piercing Spear passive abilities.
+[Patch 2.3.5] * Radiant Ward: Increased the shield strength bonus from this morph's shield to 6% per enemy hit from 5%.
+[Patch 2.3.6] * Blazing Shield: Fixed an issue where this morph was not working with the Spear Wall and Piercing Spear passive abilities.
 ESO Patch Note|3.0.5|* Blazing Shield: Reduced the amount of damage done by this morph to 33/36/39/42% of the damage absorbed by the shield, down from 50/51/52/53%.
 - Developer Comments: Blazing Shield builds have proven to be extremely effective due to being able to stack Health to improve both their survivability and damage done. We've reduced the effectiveness of this ability so that there is more of an opportunity cost to having so much Health.
-* Blazing Shield: Fixed an issue where casting this morph would aggro neutral monsters around you.
+[Patch 4.2.5] * Blazing Shield: Fixed an issue where casting this morph would aggro neutral monsters around you.
 ESO Patch Note|5.0.5|* Updated the tooltip for this ability and its morphs to state the actual value, rather than an ambiguous value that required you to do super hard math.
 - Increased the initial hit damage of this ability and the Radiant Ward morph by 150% to put it on par with our PBAoE standards. Blazing Shield's damage remains untouched since it is already above that standard, since it has an additional requirement in order to gain the damage.
 - Radiant Ward (morph): This ability no longer gains additional cost reduction as it ranks up. Instead, the bonus shield size for enemies hit goes up to 9% per enemy hit at Rank IV.
 ESO Patch Note|5.2.7|* Blazing Shield (morph):
 - Fixed an issue where this ability could save damage taken from previous casts. Once the shield ends or is broken, it will attempt to deal damage and then wipe its memory clean of all the transgressions it experienced, if any. Be like Blazing Shield; forget and forgive.
-* Blazing Shield (morph): Fixed an issue where this ability's explosion visuals would multiply in intensity with the number of enemies hit, causing your screen to experience level 7 earthquakes and your eyes to be blinded with the brilliance of Meridia. The explosions will now always appear as well, regardless if you dealt damage.
-* Radiant Ward (morph): Increased the shield scaling per enemy hit to 20% at rank 4, up from 9%.
+[Patch 6.2.5] * Blazing Shield (morph): Fixed an issue where this ability's explosion visuals would multiply in intensity with the number of enemies hit, causing your screen to experience level 7 earthquakes and your eyes to be blinded with the brilliance of Meridia. The explosions will now always appear as well, regardless if you dealt damage.
+[Patch 7.3.5] * Radiant Ward (morph): Increased the shield scaling per enemy hit to 20% at rank 4, up from 9%.
 ESO Patch Note|8.0.5|* Blazing Shield (morph):
 - Increased the radius of this morph to 8 meters, up from 6, to better match its visual effects.
 - Fixed an issue where the damage could fail to activate in many cases.

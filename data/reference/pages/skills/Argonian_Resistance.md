@@ -25,8 +25,8 @@ Argonian Resistance increases your Maximum Health, and gives you resistance to D
 - In Update 29, immunity to the Diseased status effect was removed, and Poison resistance was returned to this skill.
 
 ## Patch Notes
-* Increased the maximum health bonus from this passive to 2/4/6 from 1/2/3.
-* Increased the maximum health bonus from this passive ability to 3/6/9% at Ranks I/II/III from 2/4/6%.
-* Updated this ability's tooltip to indicate it grants immunity to the Poisoned and Diseased status effects.
-* Gain 9% Max Health and 1485 Poison and Disease Resistance → Increases your Max Health by 1000 and your Disease Resistance by 2310. You are immune to the Diseased status effect.
-* This passive no longer grants immunity to the Diseased status effect, and once again grants an equal amount of Poison Resistance.
+[Patch 2.1.4] * Increased the maximum health bonus from this passive to 2/4/6 from 1/2/3.
+[Patch 2.3.5] * Increased the maximum health bonus from this passive ability to 3/6/9% at Ranks I/II/III from 2/4/6%.
+[Patch 4.0.5] * Updated this ability's tooltip to indicate it grants immunity to the Poisoned and Diseased status effects.
+[Patch 4.3.5] * Gain 9% Max Health and 1485 Poison and Disease Resistance → Increases your Max Health by 1000 and your Disease Resistance by 2310. You are immune to the Diseased status effect.
+[Patch 6.3.5] * This passive no longer grants immunity to the Diseased status effect, and once again grants an equal amount of Poison Resistance.

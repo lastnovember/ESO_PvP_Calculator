@@ -24,7 +24,7 @@ Recovery increases your Magicka Recovery for each piece of Light Armor you are w
 - This passive's effects were combined into Evocation in Patch 4.2.5, and replaced with Grace, which reduces the effectiveness of snares and reduces the cost of Sprint.
 
 ## Patch Notes
-* Recovery II: Fixed a typo with this passive ability's tooltip.
+[Patch 1.2.3] * Recovery II: Fixed a typo with this passive ability's tooltip.
 ESO Patch Note|3.0.5|* Swapped the Evocation and Recovery passives in the Skill Line window.
 - This is now a 3-point passive, originally 2-points. It now increases your Magicka Recovery by 2/3/4% per piece of Light Armor, instead of 2/4%.
 ESO Patch Note|4.2.5|* Recovery: Renamed this ability to Grace.

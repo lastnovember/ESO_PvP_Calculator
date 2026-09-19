@@ -14,4 +14,4 @@ linerank1=1
 Font of Power improves the rank 2 Exploitation passive. Casting any Sorcerer ability grants Minor Prophecy to you and your group, and increases your Weapon Damage and Spell Damage.
 
 ## Patch Notes
-*This passive upgrades rank 2 of Exploitation to also activate off any Sorcerer ability, and to grant you 1% Weapon and Spell Damage for every 1750 Max Magicka or Stamina you have, whichever is higher, for 10 seconds.
+[Patch 12.0.0] *This passive upgrades rank 2 of Exploitation to also activate off any Sorcerer ability, and to grant you 1% Weapon and Spell Damage for every 1750 Max Magicka or Stamina you have, whichever is higher, for 10 seconds.

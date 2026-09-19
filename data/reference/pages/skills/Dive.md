@@ -33,11 +33,11 @@ Dive summons a Cliff Racer to attack your enemies. This takes the form of a sing
 - Screaming Cliff Racer is a recommended morph for the Warden Initiate and Beast Caller builds, while Cutting Dive is recommended for Savage Stalker.
 
 ## Patch Notes
-* Fixed an issue where weapon swapping after casting this ability and its morphs would cause the enemy's health to not update based on the damage they took.
-* Cutting Dive: This morph can now be cast while you are silenced.
-* The damage from this ability and its morphs can now be dodged.
-* Screaming Cliff Racer: Increased the travel speed of the Cliff Racer by approximately 33% to make up for the fact that it can be dodged.
-* Screaming Cliff Racer (morph): Fixed an issue where casting this ability would not orient your character to face the target.
+[Patch 3.0.8] * Fixed an issue where weapon swapping after casting this ability and its morphs would cause the enemy's health to not update based on the damage they took.
+[Patch 3.1.5] * Cutting Dive: This morph can now be cast while you are silenced.
+[Patch 3.3.5] * The damage from this ability and its morphs can now be dodged.
+[Patch 4.0.5] * Screaming Cliff Racer: Increased the travel speed of the Cliff Racer by approximately 33% to make up for the fact that it can be dodged.
+[Patch 4.1.5] * Screaming Cliff Racer (morph): Fixed an issue where casting this ability would not orient your character to face the target.
 ESO Patch Note|4.2.5|* Cutting Dive: This morph now also reduces the cost as a morph effect.
 - Screaming Cliff Racer: This morph no longer has a minimum range requirement to obtain part of the 15% damage done bonus. Every meter you are away from the target adds 1% damage done, up to a maximum of 15%.
 - Developer Comment: We wanted to maintain the feel of getting more effect from being further away from the target, while supporting key damaging skills that require closer distance such as Wall of Elements.
@@ -62,4 +62,4 @@ ESO Patch Note|7.0.5|* The following abilities will now deal purely Bleed Damage
 ESO Patch Note|8.1.5|* Cutting Dive (morph): This morph now applies a Bleed on targets for 10 seconds if they are not off-balance, rather than a stacking bleed on targets for 7 seconds if they were already off-balance.
 - Screaming Cliff Racer (morph): This morph now increases your Weapon and Spell Damage by 100 for 10 seconds after hitting an enemy and increases by an additional 300 when hitting an Off Balance enemy, rather than increasing its damage by up to 15% based on your distance from the enemy. The bonus Weapon and Spell Damage is tracked separately so you do not need to worry about losing the bonus when hitting an enemy that is no longer Off Balance.
 - Developer Comment: We're going back and adjusting the morph distinction of these abilities by helping them focus on different areas where we feel the Warden can struggle. Cutting Dive's bleed is now much easier to maintain but will produce less damage as it no longer requires as intense of requirements to upkeep, while Screaming Cliff Racer will help increase your overall damage by more, rather than making the attack itself more bursty.
-* Cutting Dive (morph): This morph no longer requires the enemy to not be Off Balance for the Damage over Time to apply, and will now apply any time it deals damage.
+[Patch 8.3.5] * Cutting Dive (morph): This morph no longer requires the enemy to not be Off Balance for the Damage over Time to apply, and will now apply any time it deals damage.

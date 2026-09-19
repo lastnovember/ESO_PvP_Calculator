@@ -25,10 +25,10 @@ Tri Focus gives a variety of benefits when performing a heavy attack, depending 
 - The blocking cost change with Frost Staves can be detrimental. Some tank players prefer to not even invest points in Tri-Focus in order to keep the blocking cost to Stamina.
 
 ## Patch Notes
-* Increased the amount of splash damage from shock effects that this passive ability gives.
-* Tri Focus Freeze: Enemies snared by this ability now show a snared visual effect.
-* Tri Focus Rank II: Fixed an issue where this ability wasn't providing an increased critical strike chance for fire staff users.
-* This passive now grants a damage bonus of 8% at Rank I, and 15% at Rank II to heavy attacks when the caster is using a fire staff. This passive also now adds splash damage equal to 10% at Rank I, and 20% at Rank II, of the damage of the attack when a caster using a lightning staff uses a heavy attack.
+[Patch 1.1.2] * Increased the amount of splash damage from shock effects that this passive ability gives.
+[Patch 1.3.3] * Tri Focus Freeze: Enemies snared by this ability now show a snared visual effect.
+[Patch 1.5.2] * Tri Focus Rank II: Fixed an issue where this ability wasn't providing an increased critical strike chance for fire staff users.
+[Patch 1.6.5] * This passive now grants a damage bonus of 8% at Rank I, and 15% at Rank II to heavy attacks when the caster is using a fire staff. This passive also now adds splash damage equal to 10% at Rank I, and 20% at Rank II, of the damage of the attack when a caster using a lightning staff uses a heavy attack.
 ESO Patch Note|2.1.4|* The Lightning Staff bonus attack now hits up to 6 targets instead of 2 targets.
 - Heavy Frost attacks now grant a damage shield for 4/8% of your maximum health.
 - Heavy Shock attacks now deal 50/100% of the final pulse damage to nearby enemies with a maximum of 6 targets, using a radius falloff.
@@ -39,7 +39,7 @@ ESO Patch Note|2.7.5|* This passive ability now taunts the enemy after you use a
 :: To ensure Frost Staff tanking can be used as soon as you can enter dungeons at level 10, we've put a taunt on the heavy attack; this means you don't have to gain ranks with the Undaunted faction to start experiencing this playstyle. This does have the potential to cause issues with players who have Tri Focus and are doing DPS with a Frost Staff. We're aware of this potential issue and will make adjustments in the future as needed.
 ESO Patch Note|3.0.5|* This passive's splash damage with Lightning Staves is no longer increased by damage modifiers.
 - Developer Comments: Area of Effect damage with Lightning Staff Heavy Attacks is currently too high, due to how the splash damage from Tri Focus "double dips" in damage modifiers; the damage modifier would first multiply the Heavy Attack damage, then also multiply the Tri Focus splash damage. This resulted in the splash damage being higher than the damage on the initial target, instead of the intended 100%.
-* Fixed an issue where this passive was not activating the Area of Effect damage while using a Heavy Attack with a Lightning Staff.
+[Patch 5.1.5] * Fixed an issue where this passive was not activating the Area of Effect damage while using a Heavy Attack with a Lightning Staff.
 ESO Patch Note|6.1.5|* Fixed an issue where the splash damage from Lightning Staves' Heavy Attacks was double hit by Battle Spirit.
 - Fixed an issue where this attack could also proc the Concussed status effect, despite Light and Heavy Attacks being unable to inflict status effects.
 ESO Patch Note|6.2.5|* This passive no longer causes your Heavy Attacks with a Frost Staff to taunt the enemy.

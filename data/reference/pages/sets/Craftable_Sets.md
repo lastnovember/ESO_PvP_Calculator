@@ -507,7 +507,7 @@ align=left|
 Tide-Born Foundry
 
 ## Bonuses Progression
-Many sets have a bonus specified as a range which depends on item level and quality. These ranges are fairly linear, with the values listed in the tables below. One exception of note is that Level 50 and 10 are identical, up to Superior quality (items will behave more or less the same apart from the enchantment levels that can be applied). The stat increase for Champion Ranks that are a multiple of 20 (with the exception of 160) are larger than those that aren't, so upgrading only when hitting such levels may make economical sense.
+Many sets have a bonus specified as a range which depends on item level and quality. These ranges are fairly linear, with the values listed in the tables below. One exception of note is that Level 50 and CP10 are identical, up to Superior quality (items will behave more or less the same apart from the enchantment levels that can be applied). The stat increase for Champion Ranks that are a multiple of 20 (with the exception of CP160) are larger than those that aren't, so upgrading only when hitting such levels may make economical sense.
 
 Each "Bonus Type" tends to use the same range, so any new site items you find can be assumed to use the same ranges. The ranges listed below are for crafted items. Found set items may be found at levels between these, and will have similar values.
 
@@ -522,131 +522,131 @@ colspan=2|Quality
 6Epic
 6Legendary
 
-colspan=2|Bonus Range | 21-129
+colspan=2|Bonus Range | 3-112 (white) / 7-117 (green) / 12-121 (blue) / 16-124 (purple) / 21-129 (gold)
 
 rowspan=41 width=1|Item Level
 1
-21
+3 (white) / 7 (green) / 12 (blue) / 16 (purple) / 21 (gold)
 
 4
-27
+9 (white) / 13 (green) / 18 (blue) / 22 (purple) / 27 (gold)
 
 6
-31
+13 (white) / 18 (green) / 22 (blue) / 27 (purple) / 31 (gold)
 
 8
-34
+16 (white) / 21 (green) / 25 (blue) / 30 (purple) / 34 (gold)
 
 10
-37
+19 (white) / 24 (green) / 28 (blue) / 33 (purple) / 37 (gold)
 
 12
-40
+22 (white) / 27 (green) / 31 (blue) / 36 (purple) / 40 (gold)
 
 14
-43
+25 (white) / 30 (green) / 34 (blue) / 39 (purple) / 43 (gold)
 
 16
-46
+28 (white) / 33 (green) / 37 (blue) / 42 (purple) / 46 (gold)
 
 18
-49
+31 (white) / 36 (green) / 40 (blue) / 45 (purple) / 49 (gold)
 
 20
-52
+34 (white) / 39 (green) / 43 (blue) / 48 (purple) / 52 (gold)
 
 22
-55
+37 (white) / 42 (green) / 46 (blue) / 51 (purple) / 55 (gold)
 
 24
-58
+40 (white) / 45 (green) / 49 (blue) / 54 (purple) / 58 (gold)
 
 26
-61
+43 (white) / 48 (green) / 52 (blue) / 57 (purple) / 61 (gold)
 
 28
-64
+46 (white) / 51 (green) / 55 (blue) / 60 (purple) / 64 (gold)
 
 30
-67
+49 (white) / 54 (green) / 58 (blue) / 63 (purple) / 67 (gold)
 
 32
-70
+52 (white) / 57 (green) / 61 (blue) / 66 (purple) / 70 (gold)
 
 34
-73
+55 (white) / 60 (green) / 64 (blue) / 69 (purple) / 73 (gold)
 
 36
-76
+58 (white) / 63 (green) / 67 (blue) / 72 (purple) / 76 (gold)
 
 38
-79
+61 (white) / 66 (green) / 70 (blue) / 75 (purple) / 79 (gold)
 
 40
-82
+64 (white) / 69 (green) / 73 (blue) / 78 (purple) / 82 (gold)
 
 42
-85
+67 (white) / 72 (green) / 76 (blue) / 81 (purple) / 85 (gold)
 
 44
-88
+70 (white) / 75 (green) / 79 (blue) / 84 (purple) / 88 (gold)
 
 46
-91
+73 (white) / 78 (green) / 82 (blue) / 87 (purple) / 91 (gold)
 
 48
-94
+76 (white) / 81 (green) / 85 (blue) / 90 (purple) / 94 (gold)
 
 50
-97
+79 (white) / 84 (green) / 88 (blue) / 93 (purple) / 97 (gold)
 
-10
-96
+CP10
+79 (white) / 84 (green) / 88 (blue) / 91 (purple) / 96 (gold)
 
-20
-99
+CP20
+82 (white) / 87 (green) / 91 (blue) / 94 (purple) / 99 (gold)
 
-30
-100
+CP30
+84 (white) / 88 (green) / 93 (blue) / 96 (purple) / 100 (gold)
 
-40
-103
+CP40
+87 (white) / 91 (green) / 96 (blue) / 99 (purple) / 103 (gold)
 
-50
-105
+CP50
+88 (white) / 93 (green) / 97 (blue) / 100 (purple) / 105 (gold)
 
-60
-108
+CP60
+91 (white) / 96 (green) / 100 (blue) / 103 (purple) / 108 (gold)
 
-70
-109
+CP70
+93 (white) / 97 (green) / 102 (blue) / 105 (purple) / 109 (gold)
 
-80
-112
+CP80
+96 (white) / 100 (green) / 105 (blue) / 108 (purple) / 112 (gold)
 
-90
-114
+CP90
+97 (white) / 102 (green) / 106 (blue) / 109 (purple) / 114 (gold)
 
-100
-117
+CP100
+100 (white) / 105 (green) / 109 (blue) / 112 (purple) / 117 (gold)
 
-110
-118
+CP110
+102 (white) / 106 (green) / 111 (blue) / 114 (purple) / 118 (gold)
 
-120
-121
+CP120
+105 (white) / 109 (green) / 114 (blue) / 117 (purple) / 121 (gold)
 
-130
-123
+CP130
+106 (white) / 111 (green) / 115 (blue) / 118 (purple) / 123 (gold)
 
-140
-126
+CP140
+109 (white) / 114 (green) / 118 (blue) / 121 (purple) / 126 (gold)
 
-150
-127
+CP150
+111 (white) / 115 (green) / 120 (blue) / 123 (purple) / 127 (gold)
 
-160
-129
+CP160
+112 (white) / 117 (green) / 121 (blue) / 124 (purple) / 129 (gold)
 
 colspan=7| Max Magicka / Stamina
 
@@ -657,131 +657,131 @@ colspan=2|Quality
 6Epic
 6Legendary
 
-colspan=2|Bonus Range | 178-1096
+colspan=2|Bonus Range | 25-956 (white) / 63-994 (green) / 102-1032 (blue) / 140-1058 (purple) / 178-1096 (gold)
 
 rowspan=41 width=1|Item Level
 1
-178
+25 (white) / 63 (green) / 102 (blue) / 140 (purple) / 178 (gold)
 
 4
-229
+76 (white) / 114 (green) / 153 (blue) / 191 (purple) / 229 (gold)
 
 6
-267
+114 (white) / 153 (green) / 191 (blue) / 229 (purple) / 267 (gold)
 
 8
-293
+140 (white) / 178 (green) / 216 (blue) / 255 (purple) / 293 (gold)
 
 10
-318
+165 (white) / 204 (green) / 242 (blue) / 280 (purple) / 318 (gold)
 
 12
-344
+191 (white) / 229 (green) / 267 (blue) / 306 (purple) / 344 (gold)
 
 14
-369
+216 (white) / 255 (green) / 293 (blue) / 331 (purple) / 369 (gold)
 
 16
-395
+242 (white) / 280 (green) / 318 (blue) / 357 (purple) / 395 (gold)
 
 18
-420
+267 (white) / 306 (green) / 344 (blue) / 382 (purple) / 420 (gold)
 
 20
-446
+293 (white) / 331 (green) / 369 (blue) / 408 (purple) / 446 (gold)
 
 22
-471
+318 (white) / 357 (green) / 395 (blue) / 433 (purple) / 471 (gold)
 
 24
-497
+344 (white) / 382 (green) / 420 (blue) / 459 (purple) / 497 (gold)
 
 26
-522
+369 (white) / 408 (green) / 446 (blue) / 484 (purple) / 522 (gold)
 
 28
-548
+395 (white) / 433 (green) / 471 (blue) / 510 (purple) / 548 (gold)
 
 30
-573
+420 (white) / 459 (green) / 497 (blue) / 535 (purple) / 573 (gold)
 
 32
-599
+446 (white) / 484 (green) / 522 (blue) / 561 (purple) / 599 (gold)
 
 34
-624
+471 (white) / 510 (green) / 548 (blue) / 586 (purple) / 624 (gold)
 
 36
-650
+497 (white) / 535 (green) / 573 (blue) / 612 (purple) / 650 (gold)
 
 38
-675
+522 (white) / 561 (green) / 599 (blue) / 637 (purple) / 675 (gold)
 
 40
-701
+548 (white) / 586 (green) / 624 (blue) / 663 (purple) / 701 (gold)
 
 42
-726
+573 (white) / 612 (green) / 650 (blue) / 688 (purple) / 726 (gold)
 
 44
-752
+599 (white) / 637 (green) / 675 (blue) / 714 (purple) / 752 (gold)
 
 46
-777
+624 (white) / 663 (green) / 701 (blue) / 739 (purple) / 777 (gold)
 
 48
-803
+650 (white) / 688 (green) / 726 (blue) / 765 (purple) / 803 (gold)
 
 50
-828
+675 (white) / 714 (green) / 752 (blue) / 790 (purple) / 828 (gold)
 
-10
-816
+CP10
+675 (white) / 714 (green) / 752 (blue) / 777 (purple) / 816 (gold)
 
-20
-841
+CP20
+701 (white) / 739 (green) / 777 (blue) / 803 (purple) / 841 (gold)
 
-30
-854
+CP30
+714 (white) / 752 (green) / 790 (blue) / 816 (purple) / 854 (gold)
 
-40
-879
+CP40
+739 (white) / 777 (green) / 816 (blue) / 841 (purple) / 879 (gold)
 
-50
-892
+CP50
+752 (white) / 790 (green) / 828 (blue) / 854 (purple) / 892 (gold)
 
-60
-918
+CP60
+777 (white) / 816 (green) / 854 (blue) / 879 (purple) / 918 (gold)
 
-70
-930
+CP70
+790 (white) / 828 (green) / 867 (blue) / 892 (purple) / 930 (gold)
 
-80
-956
+CP80
+816 (white) / 854 (green) / 892 (blue) / 918 (purple) / 956 (gold)
 
-90
-969
+CP90
+828 (white) / 867 (green) / 905 (blue) / 930 (purple) / 969 (gold)
 
-100
-994
+CP100
+854 (white) / 892 (green) / 930 (blue) / 956 (purple) / 994 (gold)
 
-110
-1007
+CP110
+867 (white) / 905 (green) / 943 (blue) / 969 (purple) / 1007 (gold)
 
-120
-1032
+CP120
+892 (white) / 930 (green) / 969 (blue) / 994 (purple) / 1032 (gold)
 
-130
-1045
+CP130
+905 (white) / 943 (green) / 981 (blue) / 1007 (purple) / 1045 (gold)
 
-140
-1071
+CP140
+930 (white) / 969 (green) / 1007 (blue) / 1032 (purple) / 1071 (gold)
 
-150
-1083
+CP150
+943 (white) / 981 (green) / 1020 (blue) / 1045 (purple) / 1083 (gold)
 
-160
-1096
+CP160
+956 (white) / 994 (green) / 1032 (blue) / 1058 (purple) / 1096 (gold)
 
 colspan=7| Max Health
 
@@ -792,131 +792,131 @@ colspan=2|Quality
 6Epic
 6Legendary
 
-colspan=2|Bonus Range | 196-1206
+colspan=2|Bonus Range | 28-1051 (white) / 70-1093 (green) / 112-1136 (blue) / 154-1164 (purple) / 196-1206 (gold)
 
 rowspan=41 width=1|Item Level
 1
-196
+28 (white) / 70 (green) / 112 (blue) / 154 (purple) / 196 (gold)
 
 4
-252
+84 (white) / 126 (green) / 168 (blue) / 210 (purple) / 252 (gold)
 
 6
-294
+126 (white) / 168 (green) / 210 (blue) / 252 (purple) / 294 (gold)
 
 8
-322
+154 (white) / 196 (green) / 238 (blue) / 280 (purple) / 322 (gold)
 
 10
-350
+182 (white) / 224 (green) / 266 (blue) / 308 (purple) / 350 (gold)
 
 12
-378
+210 (white) / 252 (green) / 294 (blue) / 336 (purple) / 378 (gold)
 
 14
-406
+238 (white) / 280 (green) / 322 (blue) / 364 (purple) / 406 (gold)
 
 16
-434
+266 (white) / 308 (green) / 350 (blue) / 392 (purple) / 434 (gold)
 
 18
-462
+294 (white) / 336 (green) / 378 (blue) / 420 (purple) / 462 (gold)
 
 20
-490
+322 (white) / 364 (green) / 406 (blue) / 448 (purple) / 490 (gold)
 
 22
-518
+350 (white) / 392 (green) / 434 (blue) / 476 (purple) / 518 (gold)
 
 24
-546
+378 (white) / 420 (green) / 462 (blue) / 504 (purple) / 546 (gold)
 
 26
-575
+406 (white) / 448 (green) / 490 (blue) / 532 (purple) / 575 (gold)
 
 28
-603
+434 (white) / 476 (green) / 518 (blue) / 561 (purple) / 603 (gold)
 
 30
-631
+462 (white) / 504 (green) / 546 (blue) / 589 (purple) / 631 (gold)
 
 32
-659
+490 (white) / 532 (green) / 575 (blue) / 617 (purple) / 659 (gold)
 
 34
-687
+518 (white) / 561 (green) / 603 (blue) / 645 (purple) / 687 (gold)
 
 36
-715
+546 (white) / 589 (green) / 631 (blue) / 673 (purple) / 715 (gold)
 
 38
-743
+575 (white) / 617 (green) / 659 (blue) / 701 (purple) / 743 (gold)
 
 40
-771
+603 (white) / 645 (green) / 687 (blue) / 729 (purple) / 771 (gold)
 
 42
-799
+631 (white) / 673 (green) / 715 (blue) / 757 (purple) / 799 (gold)
 
 44
-827
+659 (white) / 701 (green) / 743 (blue) / 785 (purple) / 827 (gold)
 
 46
-855
+687 (white) / 729 (green) / 771 (blue) / 813 (purple) / 855 (gold)
 
 48
-883
+715 (white) / 757 (green) / 799 (blue) / 841 (purple) / 883 (gold)
 
 50
-911
+743 (white) / 785 (green) / 827 (blue) / 869 (purple) / 911 (gold)
 
-10
-897
+CP10
+743 (white) / 785 (green) / 827 (blue) / 855 (purple) / 897 (gold)
 
-20
-925
+CP20
+771 (white) / 813 (green) / 855 (blue) / 883 (purple) / 925 (gold)
 
-30
-939
+CP30
+785 (white) / 827 (green) / 869 (blue) / 897 (purple) / 939 (gold)
 
-40
-967
+CP40
+813 (white) / 855 (green) / 897 (blue) / 925 (purple) / 967 (gold)
 
-50
-981
+CP50
+827 (white) / 869 (green) / 911 (blue) / 939 (purple) / 981 (gold)
 
-60
-1009
+CP60
+855 (white) / 897 (green) / 939 (blue) / 967 (purple) / 1009 (gold)
 
-70
-1023
+CP70
+869 (white) / 911 (green) / 953 (blue) / 981 (purple) / 1023 (gold)
 
-80
-1051
+CP80
+897 (white) / 939 (green) / 981 (blue) / 1009 (purple) / 1051 (gold)
 
-90
-1065
+CP90
+911 (white) / 953 (green) / 995 (blue) / 1023 (purple) / 1065 (gold)
 
-100
-1093
+CP100
+939 (white) / 981 (green) / 1023 (blue) / 1051 (purple) / 1093 (gold)
 
-110
-1107
+CP110
+953 (white) / 995 (green) / 1037 (blue) / 1065 (purple) / 1107 (gold)
 
-120
-1136
+CP120
+981 (white) / 1023 (green) / 1065 (blue) / 1093 (purple) / 1136 (gold)
 
-130
-1150
+CP130
+995 (white) / 1037 (green) / 1079 (blue) / 1107 (purple) / 1150 (gold)
 
-140
-1178
+CP140
+1023 (white) / 1065 (green) / 1107 (blue) / 1136 (purple) / 1178 (gold)
 
-150
-1192
+CP150
+1037 (white) / 1079 (green) / 1122 (blue) / 1150 (purple) / 1192 (gold)
 
-160
-1206
+CP160
+1051 (white) / 1093 (green) / 1136 (blue) / 1164 (purple) / 1206 (gold)
 
 colspan=7| Spell / Weapon Damage
 
@@ -927,131 +927,131 @@ colspan=2|Quality
 6Epic
 6Legendary
 
-colspan=2|Bonus Range | 21-129
+colspan=2|Bonus Range | 3-112 (white) / 7-117 (green) / 12-121 (blue) / 16-124 (purple) / 21-129 (gold)
 
 rowspan=41 width=1|Item Level
 1
-21
+3 (white) / 7 (green) / 12 (blue) / 16 (purple) / 21 (gold)
 
 4
-27
+9 (white) / 13 (green) / 18 (blue) / 22 (purple) / 27 (gold)
 
 6
-31
+13 (white) / 18 (green) / 22 (blue) / 27 (purple) / 31 (gold)
 
 8
-34
+16 (white) / 21 (green) / 25 (blue) / 30 (purple) / 34 (gold)
 
 10
-37
+19 (white) / 24 (green) / 28 (blue) / 33 (purple) / 37 (gold)
 
 12
-40
+22 (white) / 27 (green) / 31 (blue) / 36 (purple) / 40 (gold)
 
 14
-43
+25 (white) / 30 (green) / 34 (blue) / 39 (purple) / 43 (gold)
 
 16
-46
+28 (white) / 33 (green) / 37 (blue) / 42 (purple) / 46 (gold)
 
 18
-49
+31 (white) / 36 (green) / 40 (blue) / 45 (purple) / 49 (gold)
 
 20
-52
+34 (white) / 39 (green) / 43 (blue) / 48 (purple) / 52 (gold)
 
 22
-55
+37 (white) / 42 (green) / 46 (blue) / 51 (purple) / 55 (gold)
 
 24
-58
+40 (white) / 45 (green) / 49 (blue) / 54 (purple) / 58 (gold)
 
 26
-61
+43 (white) / 48 (green) / 52 (blue) / 57 (purple) / 61 (gold)
 
 28
-64
+46 (white) / 51 (green) / 55 (blue) / 60 (purple) / 64 (gold)
 
 30
-67
+49 (white) / 54 (green) / 58 (blue) / 63 (purple) / 67 (gold)
 
 32
-70
+52 (white) / 57 (green) / 61 (blue) / 66 (purple) / 70 (gold)
 
 34
-73
+55 (white) / 60 (green) / 64 (blue) / 69 (purple) / 73 (gold)
 
 36
-76
+58 (white) / 63 (green) / 67 (blue) / 72 (purple) / 76 (gold)
 
 38
-79
+61 (white) / 66 (green) / 70 (blue) / 75 (purple) / 79 (gold)
 
 40
-82
+64 (white) / 69 (green) / 73 (blue) / 78 (purple) / 82 (gold)
 
 42
-85
+67 (white) / 72 (green) / 76 (blue) / 81 (purple) / 85 (gold)
 
 44
-88
+70 (white) / 75 (green) / 79 (blue) / 84 (purple) / 88 (gold)
 
 46
-91
+73 (white) / 78 (green) / 82 (blue) / 87 (purple) / 91 (gold)
 
 48
-94
+76 (white) / 81 (green) / 85 (blue) / 90 (purple) / 94 (gold)
 
 50
-97
+79 (white) / 84 (green) / 88 (blue) / 93 (purple) / 97 (gold)
 
-10
-96
+CP10
+79 (white) / 84 (green) / 88 (blue) / 91 (purple) / 96 (gold)
 
-20
-99
+CP20
+82 (white) / 87 (green) / 91 (blue) / 94 (purple) / 99 (gold)
 
-30
-100
+CP30
+84 (white) / 88 (green) / 93 (blue) / 96 (purple) / 100 (gold)
 
-40
-103
+CP40
+87 (white) / 91 (green) / 96 (blue) / 99 (purple) / 103 (gold)
 
-50
-105
+CP50
+88 (white) / 93 (green) / 97 (blue) / 100 (purple) / 105 (gold)
 
-60
-108
+CP60
+91 (white) / 96 (green) / 100 (blue) / 103 (purple) / 108 (gold)
 
-70
-109
+CP70
+93 (white) / 97 (green) / 102 (blue) / 105 (purple) / 109 (gold)
 
-80
-112
+CP80
+96 (white) / 100 (green) / 105 (blue) / 108 (purple) / 112 (gold)
 
-90
-114
+CP90
+97 (white) / 102 (green) / 106 (blue) / 109 (purple) / 114 (gold)
 
-100
-117
+CP100
+100 (white) / 105 (green) / 109 (blue) / 112 (purple) / 117 (gold)
 
-110
-118
+CP110
+102 (white) / 106 (green) / 111 (blue) / 114 (purple) / 118 (gold)
 
-120
-121
+CP120
+105 (white) / 109 (green) / 114 (blue) / 117 (purple) / 121 (gold)
 
-130
-123
+CP130
+106 (white) / 111 (green) / 115 (blue) / 118 (purple) / 123 (gold)
 
-140
-126
+CP140
+109 (white) / 114 (green) / 118 (blue) / 121 (purple) / 126 (gold)
 
-150
-127
+CP150
+111 (white) / 115 (green) / 120 (blue) / 123 (purple) / 127 (gold)
 
-160
-129
+CP160
+112 (white) / 117 (green) / 121 (blue) / 124 (purple) / 129 (gold)
 
 colspan=7| Spell / Weapon Critical
 
@@ -1062,131 +1062,131 @@ colspan=2|Quality
 6Epic
 6Legendary
 
-colspan=2|Bonus Range | 135-833
+colspan=2|Bonus Range | 19-726 (white) / 48-755 (green) / 77-784 (blue) / 106-804 (purple) / 135-833 (gold)
 
 rowspan=41 width=1|Item Level
 1
-135
+19 (white) / 48 (green) / 77 (blue) / 106 (purple) / 135 (gold)
 
 4
-174
+58 (white) / 87 (green) / 116 (blue) / 145 (purple) / 174 (gold)
 
 6
-203
+87 (white) / 116 (green) / 145 (blue) / 174 (purple) / 203 (gold)
 
 8
-222
+106 (white) / 135 (green) / 164 (blue) / 193 (purple) / 222 (gold)
 
 10
-242
+125 (white) / 155 (green) / 184 (blue) / 213 (purple) / 242 (gold)
 
 12
-261
+145 (white) / 174 (green) / 203 (blue) / 232 (purple) / 261 (gold)
 
 14
-281
+164 (white) / 193 (green) / 222 (blue) / 251 (purple) / 281 (gold)
 
 16
-300
+184 (white) / 213 (green) / 242 (blue) / 271 (purple) / 300 (gold)
 
 18
-319
+203 (white) / 232 (green) / 261 (blue) / 290 (purple) / 319 (gold)
 
 20
-339
+222 (white) / 251 (green) / 281 (blue) / 310 (purple) / 339 (gold)
 
 22
-358
+242 (white) / 271 (green) / 300 (blue) / 329 (purple) / 358 (gold)
 
 24
-377
+261 (white) / 290 (green) / 319 (blue) / 348 (purple) / 377 (gold)
 
 26
-397
+281 (white) / 310 (green) / 339 (blue) / 368 (purple) / 397 (gold)
 
 28
-416
+300 (white) / 329 (green) / 358 (blue) / 387 (purple) / 416 (gold)
 
 30
-436
+319 (white) / 348 (green) / 377 (blue) / 406 (purple) / 436 (gold)
 
 32
-455
+339 (white) / 368 (green) / 397 (blue) / 426 (purple) / 455 (gold)
 
 34
-474
+358 (white) / 387 (green) / 416 (blue) / 445 (purple) / 474 (gold)
 
 36
-494
+377 (white) / 406 (green) / 436 (blue) / 465 (purple) / 494 (gold)
 
 38
-513
+397 (white) / 426 (green) / 455 (blue) / 484 (purple) / 513 (gold)
 
 40
-532
+416 (white) / 445 (green) / 474 (blue) / 503 (purple) / 532 (gold)
 
 42
-552
+436 (white) / 465 (green) / 494 (blue) / 523 (purple) / 552 (gold)
 
 44
-571
+455 (white) / 484 (green) / 513 (blue) / 542 (purple) / 571 (gold)
 
 46
-591
+474 (white) / 503 (green) / 532 (blue) / 562 (purple) / 591 (gold)
 
 48
-610
+494 (white) / 523 (green) / 552 (blue) / 581 (purple) / 610 (gold)
 
 50
-629
+513 (white) / 542 (green) / 571 (blue) / 600 (purple) / 629 (gold)
 
-10
-620
+CP10
+513 (white) / 542 (green) / 571 (blue) / 591 (purple) / 620 (gold)
 
-20
-639
+CP20
+532 (white) / 562 (green) / 591 (blue) / 610 (purple) / 639 (gold)
 
-30
-649
+CP30
+542 (white) / 571 (green) / 600 (blue) / 620 (purple) / 649 (gold)
 
-40
-668
+CP40
+562 (white) / 591 (green) / 620 (blue) / 639 (purple) / 668 (gold)
 
-50
-678
+CP50
+571 (white) / 600 (green) / 629 (blue) / 649 (purple) / 678 (gold)
 
-60
-697
+CP60
+591 (white) / 620 (green) / 649 (blue) / 668 (purple) / 697 (gold)
 
-70
-707
+CP70
+600 (white) / 629 (green) / 658 (blue) / 678 (purple) / 707 (gold)
 
-80
-726
+CP80
+620 (white) / 649 (green) / 678 (blue) / 697 (purple) / 726 (gold)
 
-90
-736
+CP90
+629 (white) / 658 (green) / 687 (blue) / 707 (purple) / 736 (gold)
 
-100
-755
+CP100
+649 (white) / 678 (green) / 707 (blue) / 726 (purple) / 755 (gold)
 
-110
-765
+CP110
+658 (white) / 687 (green) / 717 (blue) / 736 (purple) / 765 (gold)
 
-120
-784
+CP120
+678 (white) / 707 (green) / 736 (blue) / 755 (purple) / 784 (gold)
 
-130
-794
+CP130
+687 (white) / 717 (green) / 746 (blue) / 765 (purple) / 794 (gold)
 
-140
-813
+CP140
+707 (white) / 736 (green) / 765 (blue) / 784 (purple) / 813 (gold)
 
-150
-823
+CP150
+717 (white) / 746 (green) / 775 (blue) / 794 (purple) / 823 (gold)
 
-160
-833
+CP160
+726 (white) / 755 (green) / 784 (blue) / 804 (purple) / 833 (gold)
 
 colspan=7| ESO Resistance Link|Spell | |y / Physical Resistance
 
@@ -1197,128 +1197,128 @@ colspan=2|Quality
 6Epic
 6Legendary
 
-colspan=2|Bonus Range | 484-2975
+colspan=2|Bonus Range | 69-2595 (white) / 173-2698 (green) / 276-2802 (blue) / 380-2871 (purple) / 484-2975 (gold)
 
 rowspan=41 width=1|Item Level
 1
-484
+69 (white) / 173 (green) / 276 (blue) / 380 (purple) / 484 (gold)
 
 4
-622
+207 (white) / 311 (green) / 415 (blue) / 519 (purple) / 622 (gold)
 
 6
-726
+311 (white) / 415 (green) / 519 (blue) / 622 (purple) / 726 (gold)
 
 8
-795
+380 (white) / 484 (green) / 588 (blue) / 692 (purple) / 795 (gold)
 
 10
-864
+449 (white) / 553 (green) / 657 (blue) / 761 (purple) / 864 (gold)
 
 12
-934
+519 (white) / 622 (green) / 726 (blue) / 830 (purple) / 934 (gold)
 
 14
-1003
+588 (white) / 692 (green) / 795 (blue) / 899 (purple) / 1003 (gold)
 
 16
-1072
+657 (white) / 761 (green) / 864 (blue) / 968 (purple) / 1072 (gold)
 
 18
-1141
+726 (white) / 830 (green) / 934 (blue) / 1038 (purple) / 1141 (gold)
 
 20
-1211
+795 (white) / 899 (green) / 1003 (blue) / 1107 (purple) / 1211 (gold)
 
 22
-1280
+864 (white) / 968 (green) / 1072 (blue) / 1176 (purple) / 1280 (gold)
 
 24
-1349
+934 (white) / 1038 (green) / 1141 (blue) / 1245 (purple) / 1349 (gold)
 
 26
-1418
+1003 (white) / 1107 (green) / 1211 (blue) / 1314 (purple) / 1418 (gold)
 
 28
-1487
+1072 (white) / 1176 (green) / 1280 (blue) / 1384 (purple) / 1487 (gold)
 
 30
-1556
+1141 (white) / 1245 (green) / 1349 (blue) / 1453 (purple) / 1556 (gold)
 
 32
-1626
+1211 (white) / 1314 (green) / 1418 (blue) / 1522 (purple) / 1626 (gold)
 
 34
-1695
+1280 (white) / 1384 (green) / 1487 (blue) / 1591 (purple) / 1695 (gold)
 
 36
-1764
+1349 (white) / 1453 (green) / 1556 (blue) / 1660 (purple) / 1764 (gold)
 
 38
-1833
+1418 (white) / 1522 (green) / 1626 (blue) / 1729 (purple) / 1833 (gold)
 
 40
-1902
+1487 (white) / 1591 (green) / 1695 (blue) / 1799 (purple) / 1902 (gold)
 
 42
-1972
+1556 (white) / 1660 (green) / 1764 (blue) / 1868 (purple) / 1972 (gold)
 
 44
-2041
+1626 (white) / 1729 (green) / 1833 (blue) / 1937 (purple) / 2041 (gold)
 
 46
-2110
+1695 (white) / 1799 (green) / 1902 (blue) / 2006 (purple) / 2110 (gold)
 
 48
-2179
+1764 (white) / 1868 (green) / 1972 (blue) / 2076 (purple) / 2179 (gold)
 
 50
-2249
+1833 (white) / 1937 (green) / 2041 (blue) / 2145 (purple) / 2249 (gold)
 
-10
-2214
+CP10
+1833 (white) / 1937 (green) / 2041 (blue) / 2110 (purple) / 2214 (gold)
 
-20
-2283
+CP20
+1902 (white) / 2006 (green) / 2110 (blue) / 2179 (purple) / 2283 (gold)
 
-30
-2318
+CP30
+1937 (white) / 2041 (green) / 2145 (blue) / 2214 (purple) / 2318 (gold)
 
-40
-2387
+CP40
+2006 (white) / 2110 (green) / 2214 (blue) / 2283 (purple) / 2387 (gold)
 
-50
-2422
+CP50
+2041 (white) / 2145 (green) / 2249 (blue) / 2318 (purple) / 2422 (gold)
 
-60
-2491
+CP60
+2110 (white) / 2214 (green) / 2318 (blue) / 2387 (purple) / 2491 (gold)
 
-70
-2525
+CP70
+2145 (white) / 2249 (green) / 2352 (blue) / 2422 (purple) / 2525 (gold)
 
-80
-2595
+CP80
+2214 (white) / 2318 (green) / 2422 (blue) / 2491 (purple) / 2595 (gold)
 
-90
-2629
+CP90
+2249 (white) / 2352 (green) / 2456 (blue) / 2525 (purple) / 2629 (gold)
 
-100
-2698
+CP100
+2318 (white) / 2422 (green) / 2525 (blue) / 2595 (purple) / 2698 (gold)
 
-110
-2733
+CP110
+2352 (white) / 2456 (green) / 2560 (blue) / 2629 (purple) / 2733 (gold)
 
-120
-2802
+CP120
+2422 (white) / 2525 (green) / 2629 (blue) / 2698 (purple) / 2802 (gold)
 
-130
-2837
+CP130
+2456 (white) / 2560 (green) / 2664 (blue) / 2733 (purple) / 2837 (gold)
 
-140
-2906
+CP140
+2525 (white) / 2629 (green) / 2733 (blue) / 2802 (purple) / 2906 (gold)
 
-150
-2940
+CP150
+2560 (white) / 2664 (green) / 2768 (blue) / 2837 (purple) / 2940 (gold)
 
-160
-2975
+CP160
+2595 (white) / 2698 (green) / 2802 (blue) / 2871 (purple) / 2975 (gold)

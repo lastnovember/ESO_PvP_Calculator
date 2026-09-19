@@ -20,8 +20,8 @@ Agility increases your Weapon and Spell Damage for each piece of Medium Armor th
 ## Patch Notes
 ESO Patch Note|1.4.3|* Fixed an issue where this passive was stacking the bonus from Ranks I and II.
 - The agility passive now gives you weapon power instead of attack speed.
-* Fixed an issue where this passive ability was granting spell damage in addition to weapon power.
-* Fixed an issue where this passive would occasionally not work.
+[Patch 1.6.5] * Fixed an issue where this passive ability was granting spell damage in addition to weapon power.
+[Patch 1.6.6] * Fixed an issue where this passive would occasionally not work.
 ESO Patch Note|7.1.5|* The following passives and player abilities now grant hybrid stats to help improve their viability and accessibility to off-meta builds, because we love them too:
 - Agility: Now grants equal Weapon and Spell Damage.
 - Balanced Warrior:

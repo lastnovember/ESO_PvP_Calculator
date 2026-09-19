@@ -19,6 +19,6 @@ linerank2=27
 Savage Beast restores your Ultimate whenever you use any Animal Companions ability.
 
 ## Patch Notes
-* Fixed an issue where this passive could proc off casting Feral Guardian or its morphs.
+[Patch 6.0.5] * Fixed an issue where this passive could proc off casting Feral Guardian or its morphs.
 
 Skill

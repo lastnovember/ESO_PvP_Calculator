@@ -41,7 +41,7 @@ Spear Shards deal Magic Damage to the target area. Allies may activate the Bless
 File:ON-skill-Spear Shards launching animation.jpg|Spear Shards animation showing your character launching a spear in the air.
 
 ## Patch Notes
-* Fixed a visual issue with this ability where the spear was falling horizontally.
+[Patch 1.1.2] * Fixed a visual issue with this ability where the spear was falling horizontally.
 ESO Patch Note|1.2.3|* This ability will no longer disorient targets that roll dodge.
 - Blazing Spear: Moderately increased this ability's damage over time.
 ESO Patch Note|1.5.2|* Spear Shards: Fixed an issue where this ability wasn't damaging or disorienting stealthed enemies.
@@ -49,8 +49,8 @@ ESO Patch Note|1.5.2|* Spear Shards: Fixed an issue where this ability wasn't da
 ESO Patch Note|1.6.5|* Fixed an issue where Spear Shards and Volley would not hit an enemy using Shadow Cloak.
 - Fixed an issue with this ability and its morphs not sorting targets.
 - Blazing Spear: This ability will now continue to deal damage over time even if the spear is removed as a result of someone using the Synergy. If you are stunned by Blazing Spear, you will now gain crowd control immunity.
-* Blazing Spear (Spear Shards morph): This morph now displays a hostile red telegraph if it is cast from enemy Templars.
-* Fixed an issue where this ability and the Luminous Shards morph were disorienting the incorrect number of targets.
+[Patch 2.3.5] * Blazing Spear (Spear Shards morph): This morph now displays a hostile red telegraph if it is cast from enemy Templars.
+[Patch 2.6.4] * Fixed an issue where this ability and the Luminous Shards morph were disorienting the incorrect number of targets.
 ESO Patch Note|2.7.5|* Decreased the time it takes for the spear from this ability and its morphs to land after being cast at the target location to 750 milliseconds from 1100 milliseconds.
 - Increased the duration of this morph to 8 seconds from 6 seconds, causing it to tick damage an additional 2 times; however, it no longer stuns the enemy when it first hits them.
 - The ticking damage from this morph now has the same radius as the initial damage.
@@ -64,8 +64,8 @@ ESO Patch Note|3.0.5|* The Synergy from this ability and its morphs now restore 
 - Luminous Shards: This morph now causes the synergy to always restore Magicka and Stamina. It restores the current value of Magicka or Stamina to your highest maximum, and half of that value to the opposite resource.
 - Necrotic Orb: The synergy from this ability and its morphs now restore Stamina or Magicka to the synergy-user, whichever resource pool is larger. The amount restored is now based on your character level instead of your Max Resource. The synergy also has a shared cooldown with the Spear Shards synergy.
 - Developer Comments: This allows classes other than Templars to bring a powerful resource restore synergy to the group as a substitute to Spear Shards.
-Necrotic Orb]]'s synergy had different names.
-Earthgore]] Item Set.
+[Patch 3.1.5] * Fixed an issue where the cooldown buff from Spear Shards and Necrotic Orb's synergy had different names.
+[Patch 3.3.5] * Fixed an issue where this ability and its morphs could not be dispelled by Negate Magic or the Earthgore Item Set.
 ESO Patch Note|4.0.5|* This passive ability now only affects Critical Damage, and does not affect Critical Healing.
 - Fixed an issue where this ability and the Luminous Shards morph were not displaying hostile red telegraphs to enemy players.
 - Blazing Spear: Fixed an issue where the hostile red telegraph from this morph was not indicative of its actual radius.
@@ -88,8 +88,8 @@ ESO Patch Note|5.2.5|* This ability and its morphs now last 10 seconds, up from 
 - This morph now increases the total damage dealt by 20% compared to the base ability, rather than 10% of just the Damage over Time.
 - Luminous Shards (morph):
 - Decreased the base cost of this morph to 4590, down from 4950. Note that it still continues to decrease in cost base on rank, down to 4320 at Rank IV.
-* Reduced the cost of this ability and its morphs to 3780, down from 4950.
-* Fixed an issue where the synergy from this ability could remove other synergies after being consumed.
+[Patch 5.3.4] * Reduced the cost of this ability and its morphs to 3780, down from 4950.
+[Patch 6.2.5] * Fixed an issue where the synergy from this ability could remove other synergies after being consumed.
 ESO Patch Note|7.0.5|* The following abilities have received significant adjustments to how the server handles their behavior, reducing messages sent between the client and server and reducing the total amount of Area of Effect events occurring. This will largely have little to no effect on their gameplay other than improving their response time to entering or leaving the Area of Effect. In some rarer cases, it will reduce the interaction with sets that proc off application of buffs or debuffs, since you will no longer repeatedly apply these effects to targets inside the area every tick, but rather for the duration the target is inside the area. Their synergies (when applicable) have also been updated to be far more reliable to activate when in the area and they will no longer persist for a short duration after each tick, allowing you to activate them in cases where they could fail or were already used, going on cooldown with no effect, or gaining their effects despite already being used.
 - Blood Altar and morphs
 - In an instance where Blood Feast and Blood Funnel are both available, Blood Feast will now always take priority as it is stronger than Blood Funnel.
@@ -105,7 +105,7 @@ ESO Patch Note|7.0.5|* The following abilities have received significant adjustm
 - Rune Focus and morphs
 - Spear Shards and morphs
 - Luminous Shards (morph): This morph's synergy now restores full resources for the Magicka and Stamina granted, rather than half of the off stat granted.
-* Fixed an issue where this ability and its morphs were ending slightly too soon, causing them to miss an extra tick of damage.
+[Patch 7.2.5] * Fixed an issue where this ability and its morphs were ending slightly too soon, causing them to miss an extra tick of damage.
 ESO Patch Note|7.3.5|* Increased the range of this ability and its morphs to 28 meters, up from 25 meters.
 - Reduced the radius of these abilities to 6 meters, down from 8 meters, to match their visual effects and proper power budget.
 ESO Patch Note|8.1.5|* Reduced the damage per tick by approximately 23%.

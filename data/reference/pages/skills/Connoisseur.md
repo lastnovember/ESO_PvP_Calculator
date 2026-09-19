@@ -32,4 +32,4 @@ Complex Recipe
 2h 00m | 2h 05m | 2h 10m | 2h 20m
 
 ## Patch Notes
-New Life Festival]] drinks.
+[Patch 2.7.5] * Fixed an issue that prevented the Connoisseur passive from correctly increasing the duration of certain Witches Festival and New Life Festival drinks.

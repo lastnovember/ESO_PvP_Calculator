@@ -43,18 +43,18 @@ File:ON-skill-Restoring Aura Repentance (Corpse).jpg|Repentance's effect on a co
 File:ON-skill-Restoring_Aura_Repentance.jpg|Repentance consecrating a corpse
 
 ## Patch Notes
-* Radiant Aura: Fixed an issue where this ability could prevent you from swapping weapon sets.
-* Repentance: This ability's beam effect no longer plays a second time if you re-approach the corpse after going out-of-range.
-* Repentance: Fixed a remaining issue where the effects from this ability would not clear after you resurrected.
-* Restoring Aura now grants you the buffs Minor Fortitude, Minor Intellect, and Minor Endurance when the ability is slotted into the ability bar. When the ability is activated, it provides Major Fortitude and Major Endurance.
-Green Dragon Blood]].
-* Radiant Aura: This morph now grants you and your allies the Major Intellect buff upon activation, as well as having an increased radius as a morph effect.
+[Patch 1.1.3] * Radiant Aura: Fixed an issue where this ability could prevent you from swapping weapon sets.
+[Patch 1.2.3] * Repentance: This ability's beam effect no longer plays a second time if you re-approach the corpse after going out-of-range.
+[Patch 1.5.8] * Repentance: Fixed a remaining issue where the effects from this ability would not clear after you resurrected.
+[Patch 1.6.5] * Restoring Aura now grants you the buffs Minor Fortitude, Minor Intellect, and Minor Endurance when the ability is slotted into the ability bar. When the ability is activated, it provides Major Fortitude and Major Endurance.
+[Patch 2.0.1] * This ability no longer removes major buffs from allies, such as Major Fortitude granted by Green Dragon Blood.
+[Patch 2.3.5] * Radiant Aura: This morph now grants you and your allies the Major Intellect buff upon activation, as well as having an increased radius as a morph effect.
 ESO Patch Note|2.7.5|* Restoring Aura: Redesigned this ability and the Radiant Aura morph so they continue to grant the Minor Recovery buffs (Minor Fortitude, Minor Endurance, and Minor Intellect) while slotted. Activating this ability also now applies Minor Magickalsteal to all enemies in a 12 meter radius around you.
 - Radiant Aura: This morph now increases the radius of the Minor Magickasteal to 25/26/27/28 meters.
 ESO Patch Note|3.0.5|* Repentance: This morph now restores Health and Stamina based on your character level instead of your Max Resource. It also only restores Stamina to the casting Templar, but continues to restore Health to the casting Templar and his allies.
 - Developer Comments: This will be a buff if your Maximum Stamina is below 29,700 and a nerf if it is above.
-* Repentance: Different Templars can now repent the same corpse.
-* Repentance: This morph will now grey out and become unable to cast if there are no corpses around you.
-* Fixed an issue where the Minor Endurance and Intellect from this ability and its morphs were stacking with other sources.
+[Patch 4.2.5] * Repentance: Different Templars can now repent the same corpse.
+[Patch 5.0.5] * Repentance: This morph will now grey out and become unable to cast if there are no corpses around you.
+[Patch 5.1.5] * Fixed an issue where the Minor Endurance and Intellect from this ability and its morphs were stacking with other sources.
 ESO Patch Note|8.1.5|* Restoring Aura: This ability and the Radiant Aura morph now grant Minor Endurance, Fortitude, and Intellect to you and nearby allies for 20 seconds, rather than applying Minor Magickasteal to enemies. It still will passively grant these buffs for slotting the ability as well.
 - Radiant Aura (morph): This morph now also extends the duration of its effects to 60 seconds.

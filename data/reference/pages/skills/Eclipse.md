@@ -38,19 +38,19 @@ Eclipse causes your targets next three Direct Damage attacks to reduce their mov
 File:ON-skill-Living_Dark.jpg|Living Dark on a player
 
 ## Patch Notes
-* Total Dark: The tooltip now lists the correct duration for this ability.
-* Fixed an issue where the caster of this ability was being charged magicka every time a spell was reflected.
+[Patch 1.3.3] * Total Dark: The tooltip now lists the correct duration for this ability.
+[Patch 1.4.3] * Fixed an issue where the caster of this ability was being charged magicka every time a spell was reflected.
 ESO Patch Note|1.6.5|* The ability Eclipse will no longer reflect back the damage over time from
 Twin Slashes and Searing Strike.
 - Added a new graphical effect to this ability when projectiles are reflected.
 - Total Dark: This ability now heals the caster for each projectile reflected by the ability.
 - Unstable Core: This ability will now explode if the affected target uses CC Break or Cleanse to remove it. Also fixed an issue where this ability was able to deal full damage to more than 6 targets. This ability's area-of-effect damage now correctly prioritizes targets.
-* Fixed an issue where this ability would trigger your global cooldowns every time it reflected another ability.
+[Patch 2.0.6] * Fixed an issue where this ability would trigger your global cooldowns every time it reflected another ability.
 ESO Patch Note|2.3.5|* This ability and the Total Dark morph can now reflect ranged physical projectiles back to the enemy, in addition to spell projectiles.
 - Revised the tooltips for this ability and the Total Dark morph to indicate that the area damage effect is separate from the self-reflect effect, and can be applied to a CC-immune target.
 - Fixed an issue where this ability and the Total Dark morph could reflect snares from ground-placed ticking abilities, such as Caltrops or Ash Cloud, and cause you to move at extremely high speeds.
 - Unstable Core: Increased the area damage when the effect ends by 50% and can be placed on an unlimited amount of targets, but it no longer reflects single target spells back to the enemy.
-* Fixed an issue where this ability and the Total Dark morph were not dealing their area-of-effect explosion damage.
+[Patch 2.3.6] * Fixed an issue where this ability and the Total Dark morph were not dealing their area-of-effect explosion damage.
 ESO Patch Note|2.7.5|* This ability and the Total Dark morph can now be placed on an unlimited amount of targets.
 - This ability and its morphs will now deal their Area of Effect damage even if the target dies.
 - Power of the Light (Backlash morph): Fixed an issue where this morph's damage was being mitigated on the target's Spell Resistance instead of their Physical Resistance.

@@ -38,11 +38,11 @@ Soul Trap deals Magic Damage over time to a target, and if the target is killed 
 - The Soul Lock passive skill grants you a chance of automatically collecting souls without the use of Soul Trap. When used in combination with Soul Trap, you have a chance at getting two souls from a kill (or even three with the Soul-Splitting Trap morph).
 
 ## Patch Notes
-* Consuming Trap: This ability can no longer be used on critters to restore Health, Magicka, and Stamina.
+[Patch 1.1.2] * Consuming Trap: This ability can no longer be used on critters to restore Health, Magicka, and Stamina.
 ESO Patch Note|1.6.5|* This ability can now hit two additional targets that are close to the primary target.
 - Your feet will no longer slide if you strafe while casting this ability.
 - Soul Splitting Trap (morph): This ability now hits 3 targets instead of providing 2 soul gems per target.
-* Fixed an issue where the initial hit from this ability or its morphs could remove targets from Sneak or Invisibility if they were near the impact of the initial target.
+[Patch 4.3.5] * Fixed an issue where the initial hit from this ability or its morphs could remove targets from Sneak or Invisibility if they were near the impact of the initial target.
 ESO Patch Note|5.1.5|* This ability has been restructured to fit into our single target DoT standards.
 - Since this ability is the first ability you have access to, it will dynamically scale with your offensive stats with some extra detection abilities - if your Weapon Damage is higher it will deal Physical Damage, but if your Spell Damage is higher it will deal Magic Damage.
 - Increased the damage per tick by approximately 161%.
@@ -55,8 +55,8 @@ ESO Patch Note|5.2.5|* This ability and its morphs will no longer fill Soul Gems
 - Fixed an issue where the application of these abilities could not be dodged, and where each tick of the damage could be dodged.
 - Updated the visual effects to better line up with the animation of these abilities.
 - Reduced the damage per tick of this ability and its morphs by 40%.
-* Fixed an issue where Soul Trap and its morphs would not clear when clearing all spent points while respeccing.
-* This ability and its morphs now only deal Magic Damage, but its damage will still scale dynamically.
+[Patch 5.3.4] * Fixed an issue where Soul Trap and its morphs would not clear when clearing all spent points while respeccing.
+[Patch 7.3.5] * This ability and its morphs now only deal Magic Damage, but its damage will still scale dynamically.
 ESO Patch Note|8.1.5|* This ability and the Consuming Trap morph now last for 20 seconds.
 - Reduced the damage per tick of all versions of this skill by approximately 23%.
 - Soul Splitting Trap (morph): This morph no longer reduces the damage done per tick of the skill, and instead cuts the base duration in half.

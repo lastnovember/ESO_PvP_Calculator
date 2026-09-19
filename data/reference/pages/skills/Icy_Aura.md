@@ -21,4 +21,4 @@ Icy Aura applies stacks of "Bite of Winter" to enemy melee attackers, for up to 
 - Before Update 46, Ice Aura used to reduce the effectiveness of all Snares on you.
 
 ## Patch Notes
-* This passive now causes attackers in melee range to receive a stack of Winter's Bite for 1.5/3 seconds, up to 5 stacks max. Attackers at 5 stacks are afflicted with Major Maim for 1.5/3 seconds. This passive no longer reduces the effectiveness of snares against you by 7/15%.
+[Patch 11.0.5] * This passive now causes attackers in melee range to receive a stack of Winter's Bite for 1.5/3 seconds, up to 5 stacks max. Attackers at 5 stacks are afflicted with Major Maim for 1.5/3 seconds. This passive no longer reduces the effectiveness of snares against you by 7/15%.

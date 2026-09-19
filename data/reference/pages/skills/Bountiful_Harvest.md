@@ -14,4 +14,4 @@ linerank1=1
 Bountiful Harvest improves rank 2 of the Nature's Gift passive. It will now grant you and group members Major Heroism and Magicka and Stamina once every 2 seconds.
 
 ## Patch Notes
-*Nature's Bounty: This passive upgrades rank 2 of Nature's Gift to grant the healed target Major Heroism for 4.5 seconds and an additional 250 Magicka and Stamina.
+[Patch 12.0.0] *Nature's Bounty: This passive upgrades rank 2 of Nature's Gift to grant the healed target Major Heroism for 4.5 seconds and an additional 250 Magicka and Stamina.

@@ -14,4 +14,4 @@ linerank1=1
 Judgment's Brand upgrades rank 2 of the Burning Light passive. When it deals damage, your Templar abilities will increase damage done. The bonus is halved against other players.
 
 ## Patch Notes
-This passive upgrades rank 2 of Burning Light to increase your damage done with Templar abilities by 1250 (625 against players) for 3.1 seconds after activating.
+[Patch 12.0.0] This passive upgrades rank 2 of Burning Light to increase your damage done with Templar abilities by 1250 (625 against players) for 3.1 seconds after activating.

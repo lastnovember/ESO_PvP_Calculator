@@ -39,18 +39,18 @@ Steadfast Ward grants a Damage Shield to you or an ally with the lowest Health, 
 File:ON-skill-Healing Ward.jpg|Healing Ward
 
 ## Patch Notes
-* Corrected this ability's tooltip so that it matches what the ability actually does. The tooltip no longer states that it only heals allies in front of you.
-* Fixed an issue where Healing Ward (morph of Steadfast Ward) wasn't causing critical hits.
-* Healing Ward: Fixed an issue where the shield heal from this ability was being applied when you refreshed the ability. It now correctly only applies the heal if the shield duration expires.
-* Healing Ward: Fixed an issue where the shield heal from this ability was being applied when you refreshed the ability. It now correctly only applies the heal if the shield duration expires.
-* Increased the strength of this ability by approximately 4%.
-* Healing Ward: Fixed an issue where this ability's damage shield was not properly reduced by Battle Spirit.
-* This ability and its morphs can no longer shield allies through walls and other line of sight blockers.
-* Healing Ward: Fixed an issue where this ability and its morphs could be cast on environmental traps.
-* Healing Ward: This ability will now heal targets more reliably after the ward expires during high-latency scenarios.
+[Patch 1.2.3] * Corrected this ability's tooltip so that it matches what the ability actually does. The tooltip no longer states that it only heals allies in front of you.
+[Patch 1.4.3] * Fixed an issue where Healing Ward (morph of Steadfast Ward) wasn't causing critical hits.
+[Patch 1.5.3] * Healing Ward: Fixed an issue where the shield heal from this ability was being applied when you refreshed the ability. It now correctly only applies the heal if the shield duration expires.
+[Patch 1.5.4] * Healing Ward: Fixed an issue where the shield heal from this ability was being applied when you refreshed the ability. It now correctly only applies the heal if the shield duration expires.
+[Patch 1.6.5] * Increased the strength of this ability by approximately 4%.
+[Patch 2.1.4] * Healing Ward: Fixed an issue where this ability's damage shield was not properly reduced by Battle Spirit.
+[Patch 2.4.5] * This ability and its morphs can no longer shield allies through walls and other line of sight blockers.
+[Patch 3.1.5] * Healing Ward: Fixed an issue where this ability and its morphs could be cast on environmental traps.
+[Patch 3.3.5] * Healing Ward: This ability will now heal targets more reliably after the ward expires during high-latency scenarios.
 ESO Patch Note|4.2.5|* Healing Ward: Removed the initial heal from this ability.
 - Developer Comment: The change affecting the Forward Momentum, Quick Cloak, and Hasty Retreat abilities is the same movement speed changes noted previously, and the desire to have variability in the positive and negative directions during combat.
 ESO Patch Note|5.1.5|* Increased the base shield size of this ability by approximately 14%, but reduced the bonus scaling to 100% from 300% to better align it with other abilities, and reduce the polarizing effectiveness it has.
 - Healing Ward: This morph will no longer heal you after the shield ends, because the shield hardly remains to do that. This morph will now heal you once every second for 33% of the remaining shield size instead, to ensure you gain effectiveness out of it. This heal can critically strike, due to the fact that the shield itself cannot crit.
-* Ward Ally (morph): Fixed an issue where the ally targeting shield was not considered a Restoration Staff ability.
-* Ward Ally (morph): This morph now reduces in cost as the ability ranks up, rather than increasing in shield size by 1.1% per rank.
+[Patch 7.0.5] * Ward Ally (morph): Fixed an issue where the ally targeting shield was not considered a Restoration Staff ability.
+[Patch 7.3.5] * Ward Ally (morph): This morph now reduces in cost as the ability ranks up, rather than increasing in shield size by 1.1% per rank.

@@ -1,0 +1,66 @@
+Class,Specialisation,Weapons,Armor
+AcrobatThe Deadlands,Melee,Dual Wield,3|Medium
+Arbalest,Ranged,Bow,3|Medium
+Arcanist,Melee and Magic,Unarmed,2|Light
+Archer,Ranged,Bow,3|Medium
+Armamancer,Melee,Staff,3|Medium
+Assassin,Melee,Dual Wield,3|Medium
+Battlemage,Melee and Magic,Staff,2|Light
+Beastcaller,Melee and Magic,One Hand and Shield,4|Heavy
+Berserker,Melee,Dual Wield,3|Medium
+Blood Mage,Magic,Staff (Fear),2|Light
+BodyguardThieves Guild,Melee,One Hand and Shield,4|Heavy
+Bonecrafter,Melee and Magic,One Handed,2|Light
+Bonelord,Melee and Magic,One Handed,2|Light
+Bounty Hunter,Melee and Poison,Dual Wield,3|Medium
+Brute,Melee,One Hand and Shield,4|Heavy
+Cauterizer,Magic,Staff (Restoration),2|Light
+ChemistMurkmire,Alchemy and Melee,One Handed,2|Light
+Chillfiend,Magic,Staff (Frost and Void),2|Light
+Conjurer,Magic,Staff (Fire),2|Light
+Dark Champion,Melee and Magic,Two Handed,2|Heavy
+Dreadweaver,Magic,Staff (Frost and Shadow),2|Light
+Eviscerator,Melee,One Hand and Shield,4|Heavy
+Fear Mage,Magic,Staff (Fear),2|Light
+Feral,Melee,Unarmed,1|Any
+Fire Mage,Magic,Staff (Fire),2|Light
+Flame AdeptDragonhold,Melee and Magic,Unarmed,2|Light
+Foot Soldier,Melee and Ranged,One Handed,3|Medium
+Frost ArcherDragonhold,Ranged,Bow,3|Medium
+Frost Mage,Magic,Staff (Frost),2|Light
+Geomancer,Magic,Staff (Fire),2|Light
+Healer,Magic,Staff (Restoration),2|Light
+Honor Guard,Melee and Ranged,One Handed,4|Heavy
+Icereaver,Melee and Magic,Two Handed,4|Heavy
+Knight,Melee,One Hand and Shield,4|Heavy
+Mage Guard,Magic,Staff (Lightning),2|Light
+Marsh Warrior,Melee and Magic,Two Handed,2|Heavy
+Mystic,Magic,Staff (Nature),2|Light
+Necromancer,Magic,Staff (Necromantic),2|Light
+Nightblade,Melee,Dual Wield,3|Medium
+Nullifier,Melee or Ranged,Two Handed or Staff,4|Heavy
+Pet Ranger,Ranged,Bow,3|Medium
+Poison ArcherThieves Guild,Ranged,Bow,3|Medium
+Ravager,Melee,Two Handed,4|Heavy
+Reach MageOrsinium,Magic,Staff / One Handed,2|Light
+Sea MageThieves Guild,Magic,Staff (Lightning),2|Light
+Shadow MageDark Brotherhood,Magic,Staff (Shadow),2|Light
+Shaman,Melee and Magic,One Handed,2|Light
+Shade SentinelClockwork City,Melee and Magic,Dual Wield,3|Medium
+Sentry,Melee,One Hand and Torch,4|Heavy
+Skullguard,Melee and Magic,Two Handed,4|Medium
+Spellblade,Melee and Magic,Two Handed,4|Heavy
+Spirit Master,Magic,Staff,2|Light
+Storm Mage,Magic,Staff (Lightning),2|Light
+Sun MageMurkmire,Melee and Magic,Two Handed,4|Heavy
+SwashbucklerDragonhold,Alchemy and Melee,One Handed,2|Light
+Tank,Melee,One Hand and Shield,4|Heavy
+Thundermaul,Melee,Two Handed,4|Heavy
+Time Bomb Mage,Magic,Staff,2|Light
+Umbral Aegis,Melee and Magic,One Hand and Shield,4|Heavy
+VanquisherOrsinium,Melee and Ranged,One Hand and Javelins,3|Medium
+Voidstalker,Melee,Dual Wield,3|Medium
+Void MageMarkarth,Magic,Staff (Void),2|Light
+Void StrikerClockwork City,Melee and Magic,Two Handed,2|Light
+WarpriestOrsinium,Melee and Magic,One Hand and Shield,4|Heavy
+Worker,Melee,One Handed or Two Handed,1|Any

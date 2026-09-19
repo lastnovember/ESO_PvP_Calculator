@@ -34,19 +34,19 @@ Focused Charge moves you to a distant enemy, dealing Magic Damage, taunting the 
 File:ON-skill-Focused Charge hit.jpg|Focused Charge hit animation showing your character jumping before impaling.
 
 ## Patch Notes
-* We have made this ability's tooltip clearer-it now states that it only stuns targets that are casting.
-* Slightly reduced the post-global cooldown for this ability, making it feel more responsive.
-* Fixed an issue where you couldn't activate other abilities for a short time after using Focused Charge or its morphs. We also fixed an issue where the effects from this ability would get stuck on you.
-* It is no longer possible to become stuck in the charge pose after triggering this ability.
+[Patch 1.2.3] * We have made this ability's tooltip clearer-it now states that it only stuns targets that are casting.
+[Patch 1.6.5] * Slightly reduced the post-global cooldown for this ability, making it feel more responsive.
+[Patch 2.0.6] * Fixed an issue where you couldn't activate other abilities for a short time after using Focused Charge or its morphs. We also fixed an issue where the effects from this ability would get stuck on you.
+[Patch 2.0.8] * It is no longer possible to become stuck in the charge pose after triggering this ability.
 ESO Patch Note|2.3.5|* The damage from this ability and the Toppling Charge morph can now be dodged.
 Made some improvements to this ability and its morphs to prevent you from getting locked out of using other abilities.
 ESO Patch Note|2.7.5|* Increased the speed of the animation played by this ability and its morphs.
 - Developer Comments: Since there is already a waiting period on charge abilities as you move to close the gap, we have increased the speed of the "leaping stab" animation that happens once you finally reach your target. This should make ON:Focused Charge feel more responsive and allow you to more fluidly transition into other abilities after completing the charge.
-* Decreased the damage dealt by this ability and its morphs by approximately 18%.
+[Patch 3.3.5] * Decreased the damage dealt by this ability and its morphs by approximately 18%.
 ESO Patch Note|5.0.5|* Reduced the damage dealt by this ability and the Toppling Charge morph by approximately 8% to put it on par with other "gap closer" abilities.
 - Explosive Charge (morph): Increased the damage dealt from this morph by approximately 15% to put it on par with our PBAoE ability standard, since this morph converts the attack into an AoE.
 - Toppling Charge (morph): Fixed an issue where this ability and the Explosive Charge morph could not be CC broken until the stagger completed if you were interrupted by the ability. This ability and its morphs will now always apply Off Balance to the target, rather than requiring them to be interrupted, since targets were automatically set Off Balance if interrupted anyway.
-* Explosive Charge (morph): Fixed an issue where the damage from this ability could not be dodged, similar to Stampede or Brutal Pounce.
+[Patch 7.3.5] * Explosive Charge (morph): Fixed an issue where the damage from this ability could not be dodged, similar to Stampede or Brutal Pounce.
 ESO Patch Note|9.0.5|* This ability and its morphs now grant Major Protection for 4 seconds after reaching your target.
 - Explosive Charge: This morph now also extends the duration of Major Protection to 10 seconds.
 - After the adjustments to Templar's damage to make sure they're more in line with other classes, we've seen them drop down in effectiveness in PvP situations in some areas. Rather than bloating out their damage again, we're trying to help enable them to stay in the fray longer and keep up the pressure by adding some defensive bonuses when they dive into foes, helping them go all in before needing to peel back and turtle up.

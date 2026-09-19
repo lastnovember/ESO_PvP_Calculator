@@ -46,11 +46,11 @@ ESO Patch Note|5.3.4|* Due to many mechanical issues with the Necromancer's enga
 - Skeletal Mage and Spirit Mender and their morphs' corpses will now last 10 seconds, rather than 5 seconds.
 - Improved the targeting areas from all tether abilities, and will now link to the corpse closest to your reticle from a much larger radius.
 - Developer Comment: The goal of these changes is to help reduce situations where tether abilities do not grab a corpse in high combat load, as well as making it easier for Necromancers to feel in control of the amount of corpses on the field when utilizing their corpse generating abilities.
-* Fixed an issue where casting a tether ability could sometimes cause your character to turn around and face the opposite direction you were facing.
+[Patch 6.1.5] * Fixed an issue where casting a tether ability could sometimes cause your character to turn around and face the opposite direction you were facing.
 ESO Patch Note|7.3.5|* Restoring Tether (morph):
 - Fixed an issue where this ability and its morphs' ally healing were considered single target instead of Area of Effect in some cases.
 - The heal from all of these abilities and their tooltips will now properly be tracked as Area of Effect.
-* Mortal Coil (morph): This morph now increases your Health, Magicka, and Stamina Recovery by up to 150 while it is active, rather than restoring up to 1260 Stamina over its duration.
+[Patch 8.0.5] * Mortal Coil (morph): This morph now increases your Health, Magicka, and Stamina Recovery by up to 150 while it is active, rather than restoring up to 1260 Stamina over its duration.
 ESO Patch Note|8.1.5|* This ability and its morphs now tick once every 0.666 seconds, down from once every 0.333ms.
 - Increased the healing per tick by approximately 81%.
-* Increased the healing per tick of this ability and its morphs by ~14% so they are closer to stationary Over Time effects, rather than being treated as a halfway between stationary and sticky Over Time effects.
+[Patch 10.0.5] * Increased the healing per tick of this ability and its morphs by ~14% so they are closer to stationary Over Time effects, rather than being treated as a halfway between stationary and sticky Over Time effects.

@@ -1,0 +1,35 @@
+{{ESO Crafting Mat Summary
+|node=Animals
+|animalslist=[[Online:Bear|Bear]]s, [[Online:Clannfear|Clannfear]], [[Online:Crocodile|Crocodile]]s, [[Online:Durzog|Durzog]]s, [[Online:Kagouti|Kagouti]]s, [[Online:Skeever|Skeever]]s, [[Online:Wolf|Wolves]] etc.
+|tier=10
+|armor=Rubedo Leather
+|raw=Rubedo Hide Scraps
+|refined=Rubedo Leather
+}} 
+'''Rubedo Leather''' is a [[Online:Clothing Materials|crafting]] material obtained from [[Online:Animals|animals]] in any zone by characters with Rank 10 in the [[ON:Tailoring|Tailoring]] passive or {{ESO Champion|150 to 160}}. One animal may yield one to two samples of the raw material, {{Item Link|Rubedo Hide Scraps|id=71239}}. Once ten scrap pieces are collected, they can be refined into seven to ten samples of the processed material, {{Item Link|Rubedo Leather|id=64506}}. Rubedo Leather is used for making [[Online:Rubedo Leather Armor|medium armor]] at any [[Online:Crafting Stations|clothing station]].
+
+{|class="wikitable" style="text-align:center; margin: 2.5em auto; width:60%"
+|+Number of refined rubedo leather pieces needed for creating
+|-
+!scope="col"|Armor<br>Level
+!scope="col"|Rubedo Leather<br>Jack
+!scope="col"|Rubedo Leather<br>Boots
+!scope="col"|Rubedo Leather<br>Bracers
+!scope="col"|Rubedo Leather<br>Helmet
+!scope="col"|Rubedo Leather<br>Guards
+!scope="col"|Rubedo Leather<br>Arm Cops
+!scope="col"|Rubedo Leather<br>Belt
+!scope="col"|Total
+|-
+!scope="row"|{{ESO Champion|150}}
+|15||13||13||13||14||13||13||94
+|-
+!scope="row"|{{ESO Champion|160}}
+|150||130||130||130||140||130||130||940
+|}
+
+==Notes==
+*Rubedo Leather was originally named "Daedric Skin" in the initial [[ON:PTS|PTS]] release.
+*Rubedo Leather can also be purchased from [[Online:Imperial City|Imperial City]] merchants using [[Online:Tel Var Stones|Tel Var Stones]].
+
+{{Online Equipment Crafting Materials}}

@@ -1,0 +1,17 @@
+,Name,Potency,Gear Level,Translation,Glyph,Cost
+,Jode,1,1,"""Reduce""",Trifling,0030
+,Notade,1+,5,"""Subtract""",Inferior,0042
+,Ode,2,10,"""Shrink""",Petty,0051
+,Tade,2+,15,"""Decrease""",Slight,0054
+,Jayde,3,20,"""Deduct""",Minor,0060
+,Edode,3+,25,"""Lower""",Lesser,0066
+,Pojode,4,30,"""Diminish""",Moderate,0072
+,Rekude,4+,35,"""Weaken""",Average,0078
+,Hade,5,40,"""Lessen""",Strong,0084
+,Idode,5+,CP10,"""Impair""",Major,0087
+,Pode,6,CP30,"""Remove""",Greater,0093
+,Kedeko,7,CP50,"""Drain""",Grand,0096
+,Rede,8,CP70,"""Deprive""",Splendid,0099
+,Kude,9,CP100,"""Negate""",Monumental,0105
+,Jehade,10,CP150,"""Divest""",Superb,0111
+,Itade,10+,CP160,"""Plunder""",Truly Superb,2508

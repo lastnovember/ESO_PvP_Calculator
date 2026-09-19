@@ -1,0 +1,27 @@
+Name,Line Rank,Skill Rank,Description
+,Metalworking,1,​,Allows the use of Iron Ingots.
+5,,Allows the use of Steel Ingots.
+10,,Allow the use of Orichalcum Ingots.
+15,,Allows the use of Dwarven Ingots.
+20,,Allows the use of Ebony Ingots.
+25,,Allows the use of Calcinium Ingots.
+30,,Allows the use of Galatite Ingots.
+35,,Allows the use of Quicksilver Ingots.
+40,,Allows the use of Voidstone Ingots.
+50,,Allows the use of Rubedite Ingots.
+,Keen Eye: Ore,2,,Ore in the world will be easier to see when you are 20 meters or closer.
+9,,Ore in the world will be easier to see when you are 30 meters or closer.
+30,,Ore in the world will be easier to see when you are 40 meters or closer.
+,Miner Hireling,3,,A hireling will send you some blacksmithing materials and possibly other items every day.
+12,,A hireling will send you more blacksmithing materials and possibly other items every day. You have a chance at better quality materials.
+32,,A hireling will send you even more blacksmithing materials and possibly other items every day. You have a greater chance at better quality materials.
+,Metal Extraction,4,,Improves the chances of extracting Blacksmithing ingredients and allows the refining of more powerful tempers from raw materials.
+22,,Greatly improves the chances of extracting Blacksmithing ingredients and allows the refining of more powerful tempers from raw materials.
+32,,Maximizes the chances of extracting Blacksmithing ingredients and allows the refining of the most powerful tempers from raw materials.
+,Metallurgy,8,,Reduces research times by 5% and allows the research of two items at once.
+18,,Reduces research times by 10% and allows the research of two items at once.
+28,,Reduces research times by 20% and allows the research of three items at once.
+45,,"Reduces research times by 25%, limits research time to 10 days, and allows the research of three items at once."
+,Temper Expertise,10,,Increases the chances of improving items with tempers.
+25,,Greatly increases the chances of improving items with tempers.
+40,,More than doubles the chances to improve items with tempers.

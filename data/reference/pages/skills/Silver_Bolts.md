@@ -48,16 +48,16 @@ File:ON-skill-Silver_Leash.jpg|Silver Leash pulling a target
 ## References
 
 ## Patch Notes
-* Silver Bolts rank 2 can now be re-added to your skill bar if it gets removed.
+[Patch 1.0.3] * Silver Bolts rank 2 can now be re-added to your skill bar if it gets removed.
 ESO Patch Note|1.1.2|* Silver Leash:
 - Significantly decreased the resource cost needed to pull an enemy target after hitting it with Silver Leash.
 - Fixed an issue with Silver Leash where the pull effect was not working against vampire player characters.
-* Silver Leash: This ability will now display the appropriate stun animation when used against Undead and Daedra.
+[Patch 1.2.3] * Silver Leash: This ability will now display the appropriate stun animation when used against Undead and Daedra.
 ESO Patch Note|1.2.4|* With one exception as noted below, we fixed an issue so this ability no longer has a 100% proc chance after Skilled Tracker is purchased.
 - Known Issue: This ability works properly against all vampires and werewolves in human form. However, if you are specifically in werewolf form, this ability will still proc at 100%. This is not intended, and will be fixed next week.
-* Fixed an issue where this ability would proc 100% of the time against werewolves specifically in werewolf form.
-* Silver Leash: Updated the tooltip for this ability so it now states that the pull function only works on Undead and Daedra.
-* Damage from Silver Bolts, Expert Hunter, and Trap Beast is now based on stamina and weapon damage instead of magicka and spell power.
+[Patch 1.2.5] * Fixed an issue where this ability would proc 100% of the time against werewolves specifically in werewolf form.
+[Patch 1.3.3] * Silver Leash: Updated the tooltip for this ability so it now states that the pull function only works on Undead and Daedra.
+[Patch 1.4.3] * Damage from Silver Bolts, Expert Hunter, and Trap Beast is now based on stamina and weapon damage instead of magicka and spell power.
 ESO Patch Note|1.5.2|* This ability no longer stuns undead or Daedra who dodge the attack. We also fixed an issue where this ability couldn't be reflected.
 - Silver Shards: This ability now lists synergy damage in the tooltip.
 ESO Patch Note|1.6.5|* Decreased the base damage done by Silver Bolts by 80%, but increased the proc chance to 30% from 5%.
@@ -71,17 +71,17 @@ ESO Patch Note|2.1.4|* Fixed an issue where arrows would be missing after repeat
 ESO Patch Note|2.4.5|* This ability and its morphs no longer knock down or deal bonus damage to Undead and Daedra; instead, they now reduce the Movement Speed of any enemy hit by 40% for 6 seconds.
 - Silver Leash: In addition to the changes made to the base ability, this morph also now pulls the caster to the target when it is activated a second time. Additionally, the caster can pull themselves to any target instead of just Undead and Daedra targets.
 - Silver Shards: In addition to the changes made to the base ability, we increased the amount of additional targets this morph can hit to 5 additional targets from 2.
-* Fixed an issue where Rank III of this ability was causing targets to display a knockdown animation and visually slide across the ground.
-Burning Talons]] damage over time effect.
-* Fixed an issue where this ability and its morphs were hiding your weapon visuals for slightly longer than the abilities' animations.
+[Patch 2.5.5] * Fixed an issue where Rank III of this ability was causing targets to display a knockdown animation and visually slide across the ground.
+[Patch 3.0.5] * Shadow Cloak: Fixed an issue where the invisibility from this ability and its morphs was being broken by numerous abilities including Reflective Light, Silver Shards, and Burning Talons damage over time effect.
+[Patch 3.1.5] * Fixed an issue where this ability and its morphs were hiding your weapon visuals for slightly longer than the abilities' animations.
 ESO Patch Note|4.0.5|* Fixed an issue where the snare from by this ability and the Silver Shards morph would not apply to a target that blocked the damage.
 - Silver Leash: This ability will now fire a bolt that, upon hitting and damaging an enemy, will instantly pull them toward you and apply a snare on them.
 - Silver Leash can no longer be used in starter areas of Battlegrounds or respawn locations in Imperial City.
 ESO Patch Note|4.1.5|* Decreased the duration of the snare to 4 seconds from 6 seconds.
 - Silver Leash: Fixed an issue where this ability was not counting as a Fighter's Guild ability for the Slayer passive.
-* Silver Leash: Fixed an issue where you could not cast this morph while you were silenced.
-* Fixed an issue where you could use "pull" abilities, such as Fiery Grip or Silver Leash, to move immovable monsters.
-* Silver Leash: Improved the responsiveness of the pull speed from this ability to reduce situations where players were still CC'ed after the pull was complete.
+[Patch 4.2.5] * Silver Leash: Fixed an issue where you could not cast this morph while you were silenced.
+[Patch 4.2.7] * Fixed an issue where you could use "pull" abilities, such as Fiery Grip or Silver Leash, to move immovable monsters.
+[Patch 5.0.5] * Silver Leash: Improved the responsiveness of the pull speed from this ability to reduce situations where players were still CC'ed after the pull was complete.
 ESO Patch Note|5.1.5|* This ability has been brought into our "spammable" category, and will be balanced as such.
 - Increased the damage dealt by approximately 12.5%.
 - Reduced cost to 2700 from 3510.
@@ -95,5 +95,5 @@ ESO Patch Note|5.1.5|* This ability has been brought into our "spammable" catego
 - Increased cost to 3780 from 3510.
 - Reduced the snare potency to 30% from 40%.
 - These changes will allow the ability perform much closer to other gap closer/creator abilities.
-* Silver Shards (morph): Fixed an issue where you could not use this ability against neutral targets that are related to Justice activities.
-* Silver Shards (morph): Fixed an issue where this morph could sometimes fail to be recognized as a Stamina costing ability for certain proc conditions.
+[Patch 6.0.5] * Silver Shards (morph): Fixed an issue where you could not use this ability against neutral targets that are related to Justice activities.
+[Patch 8.0.5] * Silver Shards (morph): Fixed an issue where this morph could sometimes fail to be recognized as a Stamina costing ability for certain proc conditions.

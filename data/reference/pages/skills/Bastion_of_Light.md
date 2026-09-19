@@ -14,4 +14,4 @@ linerank1=1
 Bastion of Light will apply Sacred Ground when standing within or using several Templar abilities. While Sacred Ground is active, it will provide healingi n addition to the Minor Mending and improved blocking. If you are at full health after being healed from this effect, you will also gain ultimate.
 
 ## Patch Notes
-*This passive causes you to heal for 8% of your Max Health every second that Sacred Ground is active. If you are at full Health after the heal, you generate 2 Ultimate while in combat. Sacred Ground will also be able to activate while you are inside the area of your Nova or Spear Shards, or while Radial Sweep or Solar Barrage are active.
+[Patch 12.0.0] *This passive causes you to heal for 8% of your Max Health every second that Sacred Ground is active. If you are at full Health after the heal, you generate 2 Ultimate while in combat. Sacred Ground will also be able to activate while you are inside the area of your Nova or Spear Shards, or while Radial Sweep or Solar Barrage are active.

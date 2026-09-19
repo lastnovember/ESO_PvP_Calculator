@@ -1,0 +1,8 @@
+Script,Skill Name,Effects,Notes
+Disease Damage,Disease Damage,Pestilent Trample,,
+Dispel,Dispel,Dispelling Trample,,"This script has no effect (beyond the base physical damage) against NPC enemies, so it should only be used in PvP."
+Knockback,Knockback,Repelling Trample,,"If you line this up properly, enemies may be knocked back further into the path of the trample, causing them to be hit and knocked back again. It's possible to hit the same target up to 4 times in a single cast if cast from close range with sufficient room behind them that they aren't stopped by a wall or other obstacle."
+Magic Damage,Magic Damage,Magical Trample,,
+Physical Damage,Physical Damage,Sundering Trample,,
+Stun,Stun,Dazing Trample,,
+Trauma,Trauma,Traumatic Trample,,

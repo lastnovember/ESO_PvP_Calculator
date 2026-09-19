@@ -60,13 +60,13 @@ File:ON-skill-Impulse (Frost).jpg|Impulse (Frost)
 ## Patch Notes
 ESO Patch Note|1.1.2|* Increased the Magicka cost of Impulse and its morphs.
 - If you have spent skill points in the Impulse ability, you will have those points returned to your overall skill point pool. They can be re-spent in this ability, or invested elsewhere.
-* When an enemy is damaged first by this ability, the target(s) will now display a hit reaction.
+[Patch 1.2.3] * When an enemy is damaged first by this ability, the target(s) will now display a hit reaction.
 ESO Patch Note|1.5.2|* Reduced the radius of this ability to 6 meters from 8 meters. The tooltip for this ability also now lists the correct radius.
 - Elemental Ring: Fixed an issue where this ability's damage over time wasn't triggering Destruction Expert.
 - Pulsar: Lower ranks of this ability no longer remove the debuff created by higher ranks of Pulsar.
-* Pulsar: This ability now applies the Minor Mangle buff to the target for 30 seconds, and the duration increases with each rank of the ability.
-* Fixed an issue where the visual effect for the health reduction would not affect the enemy health bar backgrounds. The enemy health bar backgrounds will now shrink appropriately.
-* Fixed an issue where Rank 1 of this ability could not critically strike.
+[Patch 1.6.5] * Pulsar: This ability now applies the Minor Mangle buff to the target for 30 seconds, and the duration increases with each rank of the ability.
+[Patch 2.2.4] * Fixed an issue where the visual effect for the health reduction would not affect the enemy health bar backgrounds. The enemy health bar backgrounds will now shrink appropriately.
+[Patch 2.6.4] * Fixed an issue where Rank 1 of this ability could not critically strike.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Force Shock
 - Wall of Elements
@@ -74,12 +74,12 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Weakness to Elements
 - Impulse
 - Elemental Ring: This morph no longer adds a small Damage over Time component to the ability. Instead, it allows you to cast the ability at a ground-targeted location up to 28 meters away.
-Wall of Elements]], and Impulse.
-* Elemental Ring: Fixed an issue where this morph was not causing alchemical poisons to proc.
-* Pulsar: Fixed an issue where Rank 1 of Flame Pulsar was not applying Minor Mangle to enemies hit.
-* Pulsar: Fixed an issue where this ability was only applying Minor Mangle to one target.
-* Increased the damage done by this ability and its morphs by approximately 25%.
-* Reduced the duration of the Minor Mangle this ability applied to 7 seconds from 30 seconds, which ranks up to 10 seconds. This morph now also increases the chance of applying the elemental type's status effect to 15%, instead of the base 5%.
+[Patch 3.1.5] * Added new icons for each of the elemental variants of Destructive Touch, Wall of Elements, and Impulse.
+[Patch 3.2.5] * Elemental Ring: Fixed an issue where this morph was not causing alchemical poisons to proc.
+[Patch 4.0.5] * Pulsar: Fixed an issue where Rank 1 of Flame Pulsar was not applying Minor Mangle to enemies hit.
+[Patch 4.1.5] * Pulsar: Fixed an issue where this ability was only applying Minor Mangle to one target.
+[Patch 4.2.5] * Increased the damage done by this ability and its morphs by approximately 25%.
+[Patch 5.1.5] * Reduced the duration of the Minor Mangle this ability applied to 7 seconds from 30 seconds, which ranks up to 10 seconds. This morph now also increases the chance of applying the elemental type's status effect to 15%, instead of the base 5%.
 ESO Patch Note|6.2.5|* Each elemental type of this ability and its morphs have gained new functionality.
 - Flame Impulse now deals bonus damage that scales based on missing health if the target hit was burning.
 - Frost Impulse now applies Minor Protection to up to 6 group members for 6 seconds.

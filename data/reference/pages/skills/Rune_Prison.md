@@ -42,7 +42,7 @@ File:ON-skill-Rune Cage explosion.jpg|Rune Cage morph explosion visual
 File:ON-skill-Defensive Rune.jpg|Defensive Rune morph passive visual
 
 ## Patch Notes
-Persistence]]: Fixed an issue this passive ability. It now properly increases the duration of the Rune Prison ability.
+[Patch 1.1.2] * Persistence: Fixed an issue this passive ability. It now properly increases the duration of the Rune Prison ability.
 ESO Patch Note|1.6.5|* Rune Cage: This ability will no longer break due to damage over time. Each rank of Rune Cage now increases the disorient duration.
 - Weakening Prison: This ability now puts an aura of protection on you that lasts for one minute. The first player character to attack you during that one minute will be put in a Rune Prison. Each additional rank increases the duration of the aura by 20 seconds.
 ESO Patch Note|3.2.5|* Rune Prison: This ability and its morphs are no longer 30-second disorients. Instead, they are 2.5-second stuns that cannot be blocked or dodged, and they can be placed on multiple targets. This ability and its morphs can also no longer be cast on a crowd-control immune enemy, and we increased the cost of this ability and its morphs by approximately 75%.
@@ -66,10 +66,10 @@ ESO Patch Note|4.1.5|* Decreased the duration of the stun applied by this abilit
 - Decreased the damage done from this ability by approximately 20%.
 - This ability now only deals damage if the stun lasts for its full duration.
 - Developer Comment: We have more changes planned for this ability in a future patch that will improve the messaging of when the stun will apply.
-* Reduced the duration of this ability to 2 seconds from 3.5 seconds.
+[Patch 4.1.6] * Reduced the duration of this ability to 2 seconds from 3.5 seconds.
 ESO Patch Note|4.2.5|* Fixed an issue where you could still attempt to cast abilities like Petrify or Rune Prison against enemies that were immune to crowd control from the Unstoppable ability or Unstoppable potions.
 - This ability and its morphs now stun the target after 1.2 seconds; a new visual effect will display on the target to indicate this effect. The initial application of this effect cannot be dodged, but if the target is dodging after 1.2 seconds they will avoid the stun.
 - Increased the duration of the stun to 3 seconds from 2 seconds.
 - Rune Cage: Increased the damage done if the target fails to use Break Free before the stun ends by approximately 22%.
 - Developer Comment: We wanted to clearly telegraph when this stun is coming since it doesn't use a projectile to indicate when it applies. You should now have some time to respond or prepare defenses.
-* Defensive Rune (morph): Fixed an issue where this ability's stun could ignore Line of Sight or range.
+[Patch 6.0.5] * Defensive Rune (morph): Fixed an issue where this ability's stun could ignore Line of Sight or range.

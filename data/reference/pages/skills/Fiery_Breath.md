@@ -41,8 +41,8 @@ File:ON-skill-Noxious_Breath.jpg|Noxious Breath
 File:ON-skill-Noxious Breath (DoT).jpg|Noxious Breath's DoT visual
 
 ## Patch Notes
-* Burning Breath: Fixed an issue where this ability was doing less damage than intended.
-* Engulfing Flames: The tooltip for this ability now properly states that it deals increased damage per rank.
+[Patch 1.1.2] * Burning Breath: Fixed an issue where this ability was doing less damage than intended.
+[Patch 1.1.2] * Engulfing Flames: The tooltip for this ability now properly states that it deals increased damage per rank.
 ESO Patch Note|1.4.3|* Burning Breath: The armor reduction debuff from this ability will no longer stack.
 - Fixed an issue where Burning Breath IV wasn't dealing damage over time as it should.
 ESO Patch Note|1.6.5|* Increased the damage over time effect applied to all ranks and morphs by approximately 30%.
@@ -50,12 +50,12 @@ ESO Patch Note|1.6.5|* Increased the damage over time effect applied to all rank
 - Fixed an issue where the morphs of Fiery Breath were dealing their damage over time instantly, instead of waiting 2 seconds like the base ability.
 - The bonus damage an enemy takes from fire, applied by Engulfing Flames, will now properly factor into the damage from the first tick.
 - Burning Breath: This ability will now scale off of stamina and weapon power, and is mitigated by your target's armor. This ability now applies the Major Fracture debuff to your target.
-* Fixed an issue where the fire graphic effect wasn't applying to enemies for Ranks II-IV of this ability.
-* Burning Breath: Fixed an issue where the Major Fracture debuff applied by this ability was shorter than the duration of the damage over time effect.
+[Patch 2.0.8] * Fixed an issue where the fire graphic effect wasn't applying to enemies for Ranks II-IV of this ability.
+[Patch 2.3.5] * Burning Breath: Fixed an issue where the Major Fracture debuff applied by this ability was shorter than the duration of the damage over time effect.
 ESO Patch Note|2.4.5|* Burning Breath: Renamed this morph to Noxious Breath. In addition, this morph now deals Poison Damage instead of Flame Damage.
 - Noxious Breath: This morph now has a new icon.
-World in Ruin]]: This ability now also increases the damage over time component of Fiery Breath and its morphs.
-* Increased the damage of the initial hit of this ability by 200% to be on par with our PBAoE standards. The base ability will now rank up in damage for the entire ability, rather than just the DoT.
+[Patch 4.1.5] * World in Ruin: This ability now also increases the damage over time component of Fiery Breath and its morphs.
+[Patch 5.0.5] * Increased the damage of the initial hit of this ability by 200% to be on par with our PBAoE standards. The base ability will now rank up in damage for the entire ability, rather than just the DoT.
 ESO Patch Note|5.1.5|* Increased the cost of this ability and its morphs to 2808 from 2700.
 - Decreased the DoT damage per tick by approximately 15%.
 ESO Patch Note|5.2.5|*This ability and its morphs now last 10 seconds at base, up from 8 seconds.
@@ -63,11 +63,11 @@ ESO Patch Note|5.2.5|*This ability and its morphs now last 10 seconds at base, u
 - Reduced the damage per tick of the Damage over Time portion of this ability by approximately 20%.
 - Engulfing Flames (morph):
 - This ability's bonus Flame damage modifier now uses both your Spell Damage and your Max Magicka, rather than only Spell Damage, to allow for more builds to engage with the morph.
-* Engulfing Flames (morph): This morph's bonus damage taken now scales with a mixture of your Weapon and Spell Damage, rather than Spell Damage and Max Magicka. The cap is reached when your combined Weapon and Spell Damage is over 9000!
-* Engulfing Flames (morph): Reduced the Flame Damage taken bonus on this morph to a maximum of 6%, down from 10%. The total sum of Weapon and Spell Damage needed to reach the cap remains the same.
+[Patch 7.3.5] * Engulfing Flames (morph): This morph's bonus damage taken now scales with a mixture of your Weapon and Spell Damage, rather than Spell Damage and Max Magicka. The cap is reached when your combined Weapon and Spell Damage is over 9000!
+[Patch 8.0.5] * Engulfing Flames (morph): Reduced the Flame Damage taken bonus on this morph to a maximum of 6%, down from 10%. The total sum of Weapon and Spell Damage needed to reach the cap remains the same.
 ESO Patch Note|8.1.5|* Increased the duration of this ability and its morphs to 20 seconds, up from 10.
 - Reduced the damage per tick by approximately 17%.
-* Engulfing Flames (morph): This morph’s Flame Damage taken debuff now scales of the highest of your offensive stats, rather than an addition of your Weapon and Spell Damage. This will make the maximum value harder to reach for non-damage dealers overall, while remaining relatively unchanged for most damage-oriented builds.
+[Patch 9.3.5] * Engulfing Flames (morph): This morph’s Flame Damage taken debuff now scales of the highest of your offensive stats, rather than an addition of your Weapon and Spell Damage. This will make the maximum value harder to reach for non-damage dealers overall, while remaining relatively unchanged for most damage-oriented builds.
 ESO Patch Note|11.0.5|* Reduced the base cost of this ability and the Engulfing Flames morph to 2984.
 - Noxious Breath: This morph now also applies the Poisoned status effect to all enemies hit by the initial hit.
-* Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.
+[Patch 11.3.4] * Combat Refresh Overhaul. Dragonknight Functionality and Balance Update.

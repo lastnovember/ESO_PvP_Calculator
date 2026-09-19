@@ -14,4 +14,4 @@ linerank1=1
 Wild Adaptation will grant you Weapon Damage and Spell Damage for each status effect applied to your target. This also applies to friendly targets.
 
 ## Patch Notes
-*Wild Adaptation: This passive increases your Weapon and Spell Damage by 333 for each status effect your target has on them, up to a max of 1665. Note this can also apply to friendly targets!
+[Patch 12.0.0] *Wild Adaptation: This passive increases your Weapon and Spell Damage by 333 for each status effect your target has on them, up to a max of 1665. Note this can also apply to friendly targets!

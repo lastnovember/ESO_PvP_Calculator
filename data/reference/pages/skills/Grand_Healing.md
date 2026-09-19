@@ -41,16 +41,16 @@ File:ON-skill-Illustrious_Healing.jpg|Illustrious Healing
 File:ON-skill-Healing_Springs.jpg|Healing Springs
 
 ## Patch Notes
-1.2.3]].
-* This ability now shows green ring on the ground when cast by an ally in Cyrodiil.
-* Healing Springs: This ability now restores magicka from up to 3 allies instead of 6.
+[Patch 1.2.4] * Fixed an issue where using this ability would significantly reduce your game's performance. This fix will help alleviate the sudden FPS drop some of you encountered after we released v1.2.3.
+[Patch 1.3.3] * This ability now shows green ring on the ground when cast by an ally in Cyrodiil.
+[Patch 1.4.3] * Healing Springs: This ability now restores magicka from up to 3 allies instead of 6.
 ESO Patch Note|5.1.5|* Converted this ability into a true AoE HoT, rather than a hybrid spammable hybrid HoT.
 - Increased the duration from 3 seconds to 8 seconds, but you may only have 1 active at a time.
 - Reduced the healing per tick by approximately 44%.
 - Reduced cost to 2808 from 3510.
 - Healing Springs: This ability now grants 30 Magicka every time it heals an ally, rather than restoring 330 Magicka for up to 3 allies healed by the initial hit. This will result in a higher return if you hit all 6 targets for the full duration, but will require more coordination to obtain.
 - Illustrious Healing: This ability continues to increase the duration. The new duration is 9 seconds, which ranks up to 12 seconds at Rank IV. It also increases the healing of the ability per tick by 50%.
-* Healing Springs (morph): Removed the visual effects for the Magicka restore on this ability to help reduce visual clutter.
+[Patch 7.1.5] * Healing Springs (morph): Removed the visual effects for the Magicka restore on this ability to help reduce visual clutter.
 ESO Patch Note|8.1.5|* This ability and its morphs now last for 10 seconds, up from 8.
 - Increased the heal per tick by approximately 9%.
 - Illustrious Healing (morph):

@@ -16,4 +16,4 @@ linerank1=8
 linerank2=18
 
 ## Patch Notes
-* This passive now increases the Healing Done per Crux by 2/4%, up from 1/3% per Crux.
+[Patch 10.3.5] * This passive now increases the Healing Done per Crux by 2/4%, up from 1/3% per Crux.

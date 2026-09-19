@@ -1,0 +1,14 @@
+Zone / Dungeon,Specific Location,Reaction,Condition,Difficulty,Health
+Tamriel,Summoned by necromancers,Hostile,,,"Summoner's current Health, up to a maximum of 80% of the summoner's Max Health"
+Cyrodiil,"Abandoned Homestead, Barren Cave, Lipsand Tarn",Hostile,,,"a (no-CP), cyr (CP)"
+Tamriel,Dark Anchors,Hostile,,,s
+Cyrodiil,Dark Anchors,Hostile,,,"s (no-CP), cyrs (CP)"
+Camp Tamrith,At the camp during The Sanctifiying Flames,Hostile,,50px,
+Wittestadr,Optional temporary follower during the quest The Better of Two Evils,Friendly,,,
+Coldharbour,The Planar Vortex,Hostile,,,
+Hrota CaveDark Brotherhood,With Zalar-do during the quest The Vampire's Prey,Neutral,,,a
+Blackrose PrisonMurkmire,"Round 3: Vampire's Pen, Round 4: Mess Hall of Misery",Hostile,,,
+Ashbound Hall,Occupants,Hostile,,,a
+Shadow
+Summoned by The Elder,Hostile,,,"w 11,077"
+Online:|,Online:|,,50px,

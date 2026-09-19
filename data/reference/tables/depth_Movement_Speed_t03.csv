@@ -1,0 +1,23 @@
+Skill,Decrease,Duration,Affects,Cost,Notes
+Dragonknight
+Ash Cloud (Earthen Heart),70%,12-15 sec.,Enemies in Range,4590 Magicka,While in range or 1.1 sec. after leaving
+Warmth (Ardent Flame),15-30%,2-4 sec.,Any Enemy Hit,Passive,Applies to all Ardent Flame abilities
+Nightblade
+Lotus Fan (Assassination),60-80%,8 sec.,Single Target,4050 Magicka,
+Mass Hysteria (Shadow),50-53%,4 sec.,Up to 3 Enemies,3780 Magicka,
+Consuming Darkness (Shadow),70%,12-15.5 sec.,Enemies in Range,200 Ultimate,
+Cripple (Siphoning),30%,8 sec.,Single Enemy,3240 Magicka,
+,Debilitate (morph),50%,8 sec.,Single Enemy,3240 Magicka,
+Templar
+Solar Disturbance (Dawn's Wrath),62-65%,8 sec.,Enemies in Range,250 Ultimate,
+Sun Fire (Dawn's Wrath),40%,5 sec.,Single Target,2700 Magicka,
+Weapon
+Draining Shot (Bow),60%,3 sec.,Single Enemy,2970 Stamina,
+Wall of Frost (Destruction Staff),,6 sec.,Enemies in Range,3510-3240 Magicka,
+Deep Slash (One Hand and Shield),30%,4 sec.,Single Enemy,2970 Stamina,
+Rending Slashes (Dual Wield),30%,4 sec.,Single Enemy,2700 Stamina,
+Alliance War
+Caltrops (Assault),50%,,Enemies in Range,2295 Stamina,
+Other
+Ice Comet (Mages Guild),50%,5-8 sec.,Enemies in Range,200 Ultimate,
+Trapping Webs (Undaunted),50%,5 sec.,Enemies in Range,3511 Stamina,

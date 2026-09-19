@@ -42,16 +42,16 @@ File:ON-skill-Reflective Light.jpg|Reflective Light
 File:ON-skill-Vampire's_Bane.jpg|Vampire's Bane
 
 ## Patch Notes
-* This ability's damage-over-time now lasts 1 additional second, and deals 10% more damage.
+[Patch 1.2.3] * This ability's damage-over-time now lasts 1 additional second, and deals 10% more damage.
 ESO Patch Note|1.3.3|* Fixed an issue where casting Sun Fire wouldn't cause you to face your target.
 - Reflective Light: The tooltip for this ability now includes the damage-over-time.
 ESO Patch Note|1.5.2|* Fixed an issue where the Sun Fire snare duration wasn't being increased by the Enduring Rays passive.
 - Reflective Light: Fixed an issue where this ability was applying two snares to secondary targets.
 ESO Patch Note|1.6.5|* Increased the damage over time dealt by Sun Fire and its morphs by 30%.
 - While Sun Fire is active on a target, the caster will gain the Major Spell Crit buff.
-* Vampire's Bane: Increased the damage over time duration for this morph to 9 seconds from 7 seconds.
-Burning Talons]] damage over time effect.
-* Decreased the duration of the snare from this ability and its morphs to 3 seconds from 5/9 seconds.
+[Patch 2.3.5] * Vampire's Bane: Increased the damage over time duration for this morph to 9 seconds from 7 seconds.
+[Patch 3.0.5] * Shadow Cloak: Fixed an issue where the invisibility from this ability and its morphs was being broken by numerous abilities including Reflective Light, Silver Shards, and Burning Talons damage over time effect.
+[Patch 4.1.5] * Decreased the duration of the snare from this ability and its morphs to 3 seconds from 5/9 seconds.
 ESO Patch Note|5.0.5|* Adjusted this ability and its morphs to follow our standardized Damage Over Time ruleset. Total duration has been increased to 8 seconds from 6.25 seconds, and increased the damage per tick by approximately 31% to make up for the loss of the first tick. This will result in roughly the same overall DPS, but with less burst damage.
 - Vampire's Bane (morph): This ability now lasts 12 seconds instead of 10.25 seconds.
 - Reflective Light (morph): The spread of how far this ability will attempt to find targets near your initial target is now 5 meters instead of 4.5 meters.
@@ -61,7 +61,7 @@ ESO Patch Note|5.2.5|* Fixed an issue where the Major Prophecy from this ability
 - Increased the base duration of this ability and its morphs to 10 seconds, up from 8.
 - Increased the base cost to 2970, up from 2376.
 - Decreased the Damage over Time of these abilities by approximately 47% per tick.
-* Reflective Light (morph): Fixed an issue where this ability could not be used against neutral targets that are related to Justice activities.
+[Patch 6.0.5] * Reflective Light (morph): Fixed an issue where this ability could not be used against neutral targets that are related to Justice activities.
 ESO Patch Note|8.1.5|* This ability and its morphs now last 20 seconds at base, up from 10.
 - Reduced the damage per tick by 25%.
 - Vampire's Bane (morph): This morph now increases the duration of the effects by up to 10 seconds, up from 4.

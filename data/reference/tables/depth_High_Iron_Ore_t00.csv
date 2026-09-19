@@ -1,0 +1,14 @@
+,Number of steel ingots needed for creating,
+Armor Level,Steel Cuirass,Steel Sabatons,Steel Gauntlets,Steel Helm,Steel Greaves,Steel Pauldron,Steel Girdle,Total
+16,8,6,6,6,6,6,6,44
+18,9,7,7,7,7,7,7,51
+20,10,8,8,8,8,8,8,58
+22,11,9,9,9,9,9,9,65
+24,12,10,10,10,10,10,10,72
+""
+Weapon Level,Steel Axe,Steel Hammer,Steel Sword,Steel Battle Axe,Steel Maul,Steel Greatsword,Steel Dagger,Total
+16,4,4,4,6,6,6,3,N/A
+18,5,5,5,7,7,7,4
+20,6,6,6,8,8,8,5
+22,7,7,7,9,9,9,6
+24,8,8,8,10,10,10,7

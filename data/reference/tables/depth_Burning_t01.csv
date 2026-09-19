@@ -1,0 +1,8 @@
+Source,Type,Effect
+Force Pulse (Destruction Staff),Active Skill (morph),Deals Extra Area of Effect Damage
+Wall of Fire (Destruction Staff),Active Skill,Deals Extra Damage to Burning targets
+Unstable Wall of Fire (Destruction Staff),Active Skill (morph),Deals Extra Damage to Burning targets
+Blockade of Fire (Destruction Staff),Active Skill (morph),Deals Extra Damage to Burning targets
+Fire Impulse (Destruction Staff),Active Skill,"While wielding an Inferno Staff, applies Impulse Afterburn which deals more damage based on enemies' missing Health"
+Fire Ring (Destruction Staff),Active Skill (morph),"While wielding an Inferno Staff, applies Ring Afterburn which deals more damage based on enemies' missing Health"
+Flame Pulsar (Destruction Staff),Active Skill (morph),"While wielding an Inferno Staff, applies Pulsar Afterburn which deals more damage based on enemies' missing Health"

@@ -30,7 +30,7 @@ imgdesc=Bone Shield
 Bone Shield grants a damage shield, protecting you from all damage that scales on your Maximum Health. An ally may activate the Bone Wall Synergy synergy, giving up to six nearby allies a damage shield equal to 30% of their Max Health. The Spiked Bone Shield morph causes a portion of your absorbed damage to be returned to your enemies. Alternatively, Bone Surge costs less, and gives your allies the Spinal Surge Synergy synergy instead, which also increase their healing received while it is active.
 
 ## Patch Notes
-* Spiked Bone Shield: This ability's damage return has been slightly increased.
+[Patch 1.1.2] * Spiked Bone Shield: This ability's damage return has been slightly increased.
 ESO Patch Note|1.4.3|* This synergy can no longer be stacked when activated by multiple casters.
 - Bone Shield I: This synergy can no longer be activated by the caster.
 ESO Patch Note|1.6.5|* Bone Shield now costs Stamina and grants a ward that absorbs up to 30% the maximum health value of the caster in Physical damage.
@@ -45,7 +45,7 @@ ESO Patch Note|2.0.6|* Fixed an issue where the damage shield from this ability 
 - Fixed an issue where some ranks of this ability were absorbing all types of damage, rather than just physical damage.
 ESO Patch Note|2.1.4|* Fixed an issue where the player character that activated the synergy would occasionally not get a damage shield, and other allies would instead. The ability synergy now has a unique icon as well.
 - Spiked Bone Shield: The damage from this ability is no longer reduced by Battle Spirit as it scales off incoming damage, which is already reduced.
-* Increased the activation range from the Bone Wall and Spinal Surge synergies to 3.5 meters from 2.5 meters.
+[Patch 2.3.5] * Increased the activation range from the Bone Wall and Spinal Surge synergies to 3.5 meters from 2.5 meters.
 ESO Patch Note|2.4.5|* This ability and its morphs now absorb all damage instead of just physical damage.
 - Increased the synergy activation radius from this ability and its morphs to 4 meters from 3 meters.
 ESO Patch Note|3.3.5|* Bone Wall and Spinal Surge (synergy)
@@ -54,7 +54,7 @@ ESO Patch Note|3.3.5|* Bone Wall and Spinal Surge (synergy)
 - Developer Comments: We've shortened the duration of this damage shield to match the duration of all other damage shields in the game, but increased the value of the shield to compensate.
 - If an ally uses the synergy and applies the damage shield to you, you will now also be placed on cooldown for that synergy.
 - The Spinal Surge synergy from the Bone Surge morph now grants Major Vitality instead of Minor Vitality.
-* Spiked Bone Shield: Updated the tooltip for this ability and its morphs to better clarify the types of attacks it will return damage against.
+[Patch 4.0.5] * Spiked Bone Shield: Updated the tooltip for this ability and its morphs to better clarify the types of attacks it will return damage against.
 ESO Patch Note|4.2.5|* Reduced the effectiveness of the Bone Wall and Spinal Surge Synergy granted by this ability and its morphs to 50% from 100%.
 - Developer Comment: With the changes to shields now accounting for your armor, we wanted to ensure these shields could remain just as potent as before, but you would need to allocate more resources in doing so.
 ESO Patch Note|5.1.5|* Increased the base cost to 4320 from 3780, but applied the 15% Stamina cost reduction it was missing, which will take the cost to 3672.
@@ -66,8 +66,8 @@ ESO Patch Note|5.1.5|* Increased the base cost to 4320 from 3780, but applied th
 - Bone Wall and Spinal Surge (synergies):
 - These synergies now affect up to 6 allies, up from 4.
 - Reduced the size of the shields to 30% of the synergizer's Max Health from 50%.
-* Bone Surge (morph): Fixed an issue where the synergy of this morph was granting a damage shield larger than it stated.
-* Fixed an issue where the Charged Lightning and Bone Wall synergies did not remove their synergies from others when activated.
-* Fixed multiple issues where the synergy from this ability and its morphs did not follow regular rules. The shield granted from these abilities no longer stack, and being affected by any version now makes you immune to other versions for 6 seconds.
+[Patch 5.3.4] * Bone Surge (morph): Fixed an issue where the synergy of this morph was granting a damage shield larger than it stated.
+[Patch 6.2.5] * Fixed an issue where the Charged Lightning and Bone Wall synergies did not remove their synergies from others when activated.
+[Patch 6.3.7] * Fixed multiple issues where the synergy from this ability and its morphs did not follow regular rules. The shield granted from these abilities no longer stack, and being affected by any version now makes you immune to other versions for 6 seconds.
 
 Skill

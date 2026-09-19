@@ -1,0 +1,13 @@
+Grimoire,Effects
+Elemental Explosion,Elemental Explosion,"Create a field of distortion under the first enemy hit for 6 seconds, reducing the Movement Speed of enemies inside by 40%."
+Mender's Bond,Mender's Bond,Reduces the Movement Speed of enemies in the link by 30% for 2 seconds.
+Traveling Knife,Traveling Knife,Reduces the Movement Speed of enemies by 30% for 4 seconds.
+Vault,Vault,Reduces the Movement Speed of enemies by 40% for 5 seconds.
+Incompatible with Healing Vault
+Soul Burst,Soul Burst,Reduces the Movement Speed of enemies by 30% for 6 seconds.
+Incompatible with Warding Burst and Healing Burst
+Torchbearer,Torchbearer,Reduces the Movement Speed of enemies by 30% for 6 seconds.
+Incompatible with Heroic Torch and Healing Torch
+Ulfsild's Contingency,Ulfsild's Contingency,Reduces the Movement Speed of enemies hit by 30% for 8 seconds.
+Incompatible with Warding Contingency and Healing Contingency
+Trample,Trample,"Leave behind a field of caltrops for 10 seconds, dealing 106 Physical Damage every second and reducing enemy Movement Speed by 50%."

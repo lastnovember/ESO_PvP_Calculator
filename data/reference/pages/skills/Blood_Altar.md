@@ -39,16 +39,16 @@ ESO Patch Note|1.1.2|* The Blood Altar morphs Overflowing Altar and Sanguine Alt
 - The Blood Feast synergy will only become available to allies who are below 60% health.
 - Blood Funnel no longer decreases the duration of the Blood Altar when used.
 - This ability now heals you instantly, rather than requiring a channel time.
-* Overflowing Altar: The Blood Feast synergy triggered by this ability no longer heals allies multiple times.
-* This ability now shows a green ring on the ground when cast by an ally specifically in Cyrodiil.
-* Fixed an issue where the beam from this ability wouldn't play if you had an enemy targeted while casting.
+[Patch 1.2.3] * Overflowing Altar: The Blood Feast synergy triggered by this ability no longer heals allies multiple times.
+[Patch 1.3.3] * This ability now shows a green ring on the ground when cast by an ally specifically in Cyrodiil.
+[Patch 1.5.2] * Fixed an issue where the beam from this ability wouldn't play if you had an enemy targeted while casting.
 ESO Patch Note|1.6.5|* Fixed an issue where the altar beam would sometimes not display.
 - Blood Altar now grants the Major Fortitude buff.
 - Sanguine Altar: This ability now increases the duration of the altar to 46 seconds at Rank IV.
 - Overflowing Altar: This ability now increases the effectiveness of the synergy heal by 30% over the base ability.
-* This ability (and its morphs) will now correctly display its visual effects for the Major Fortitude buff for all targets. It also now uses an effect consistent with other Major Fortitude buffs.
-* This ability and its morphs no longer grant the Major Fortitude buff to you and allies in its area of effect; instead, they grant Minor Lifesteal, a new buff that heals you for 2% of all damage done.
-Minor Lifesteal]] outlined below, this ability and its morphs now apply Minor Lifesteal to all enemies within the radius instead of allies within the radius.
+[Patch 2.2.4] * This ability (and its morphs) will now correctly display its visual effects for the Major Fortitude buff for all targets. It also now uses an effect consistent with other Major Fortitude buffs.
+[Patch 2.4.5] * This ability and its morphs no longer grant the Major Fortitude buff to you and allies in its area of effect; instead, they grant Minor Lifesteal, a new buff that heals you for 2% of all damage done.
+[Patch 2.7.5] * Due to the changes to Minor Lifesteal outlined below, this ability and its morphs now apply Minor Lifesteal to all enemies within the radius instead of allies within the radius.
 ESO Patch Note|3.3.5|* Increased the radius of the Minor Lifesteal debuff applied by this ability and its morphs to 28 meters from 8 meters.
 - Slightly adjusted the visual effects due to the radius increase.
 - The Minor Lifesteal debuff applied by this ability and its morphs will no longer aggro monsters.
@@ -57,7 +57,7 @@ ESO Patch Note|3.3.5|* Increased the radius of the Minor Lifesteal debuff applie
 ESO Patch Note|5.1.5|* This ability and its morphs no longer have a cast time, and now cost Health rather than Magicka.
 - Overflowing Altar: This ability no longer attempts and fails to rank up in the healing the synergy provides, and instead reduces in cost as it ranks up.
 - Blood Feast and Blood Funnel: These synergies will now properly use their activator's highest Critical Strike chance, rather than only * using their Spell Critical. Blood Feast now heals for 65% of the activator's Max Health at all ranks.
-* Fixed an issue with the synergy visuals, causing it to fail to appear to some allies as well as being able to appear to enemies.
+[Patch 6.0.5] * Fixed an issue with the synergy visuals, causing it to fail to appear to some allies as well as being able to appear to enemies.
 ESO Patch Note|7.0.5|* The following abilities have received significant adjustments to how the server handles their behavior, reducing messages sent between the client and server and reducing the total amount of Area of Effect events occurring. This will largely have little to no effect on their gameplay other than improving their response time to entering or leaving the Area of Effect. In some rarer cases, it will reduce the interaction with sets that proc off application of buffs or debuffs, since you will no longer repeatedly apply these effects to targets inside the area every tick, but rather for the duration the target is inside the area. Their synergies (when applicable) have also been updated to be far more reliable to activate when in the area and they will no longer persist for a short duration after each tick, allowing you to activate them in cases where they could fail or were already used, going on cooldown with no effect, or gaining their effects despite already being used.
 - Blood Altar and morphs
 - In an instance where Blood Feast and Blood Funnel are both available, Blood Feast will now always take priority as it is stronger than Blood Funnel.

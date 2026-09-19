@@ -52,7 +52,7 @@ ESO Patch Note|6.0.5|* Casting this ability while at full Health now restores St
 - Hircine's Fortitude (morph): This ability now also increases your Health and Stamina Recovery by a small percent of the Healing caused (with a cap), as well as continuing to increase the base healing of the ability.
 ESO Patch Note|6.2.5|* Roar and Hircine's Bounty: These abilities now always apply their Major Buffs while slotting, rather than only while in Werewolf form. This will fix issues where slotting these abilities outside of Werewolf form could prevent you from gaining their effects from any source.
 - Hircine's Rage (morph): This morph now increases your damage taken by 8 to 5% depending on rank, down from 23 to 20%.
-* Hircine's Fortitude (morph): Reduced the Health and Stamina Recovery cap of this morph to 333, down from 666.
+[Patch 6.3.5] * Hircine's Fortitude (morph): Reduced the Health and Stamina Recovery cap of this morph to 333, down from 666.
 ESO Patch Note|8.0.5|* Hircine's Fortitude (morph): This morph now grants Minor Endurance and Fortitude for 20 seconds after casting, rather than a unique amount of Health and Stamina Recovery based on the healing caused for 6 seconds.
 - Hircine's Rage (morph):
 - This morph now also reduces the ability cost to 5063, down from 5737.

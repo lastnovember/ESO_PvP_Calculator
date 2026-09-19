@@ -1,0 +1,9 @@
+Wealth-Based Dialogue,Range
+Poor,<100k gold - (?)
+"""Advice from me, advice for free - Reconsider your lifestyle of poverty.""",
+"""Let our relationship be clear! You are poor. Look, don't touch.""",
+Middle-Class,<=200K gold - (?)
+"""Ah you must be what we call ""the middle class"". Feel free to purchase but be careful to not be too poor.""",
+"""Though this one hungers for gold, she does worry about the needs of the individual. Take care of yourself.""",
+Rich,
+,

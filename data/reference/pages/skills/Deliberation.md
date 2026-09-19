@@ -19,7 +19,7 @@ Deliberation reduces the damage you take while casting or channeling any Psijic 
 - Prior to Update 31, this passive gave the Major Protection buff but was changed to give a unique damage reduction buff when Major Protections damage reduction was reduced.
 
 ## Patch Notes
-* Fixed an issue where the Major Protection granted from this passive was unintendedly stronger than other sources of Major Protection.
-* This passive no longer grants Major Protection, and instead applies a unique 30% unique damage mitigation to get this passive's power back to where it was meant to be.
+[Patch 4.3.5] * Fixed an issue where the Major Protection granted from this passive was unintendedly stronger than other sources of Major Protection.
+[Patch 7.1.5] * This passive no longer grants Major Protection, and instead applies a unique 30% unique damage mitigation to get this passive's power back to where it was meant to be.
 
 Skill

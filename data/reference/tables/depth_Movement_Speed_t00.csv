@@ -1,0 +1,4 @@
+Movement Type,Default,Maximum
+Walking,100%,200%
+Running,140%,200%
+Swimming,60%,120%

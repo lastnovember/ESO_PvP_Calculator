@@ -14,4 +14,4 @@ linerank1=10
 Veil of Shadows gives you a smaller detection range when committing crimes, reducing your chances of being caught or challenged by guards.
 
 ## Patch Notes
-Veil of Shadows]] passive ability to make it clearer that it reduces the range at which crimes can be detected.
+[Patch 4.0.5] * Clarified the tooltip for the Veil of Shadows passive ability to make it clearer that it reduces the range at which crimes can be detected.

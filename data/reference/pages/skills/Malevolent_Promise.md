@@ -14,4 +14,4 @@ linerank1=1
 Malevolent Promise improves the rank 2 Corpse Consumption passive. It will now also mark the closest non-player enemy to you with Death's Touch for 6 seconds, allowing you to use a corpse consuming ability on them. Consuming or replacing this effect forcibly triggers rank 1 of Corpse Consumption's Ultimate generation and triggers rank 2 of Death Gleaning.
 
 ## Patch Notes
-*Malevolent Promise: This passive upgrades rank 2 of Corpse Consumption to mark the closest non-player enemy to you with death's touch for 6 seconds whenever you consume a corpse, which allows you to use a corpse consuming ability against them. This can occur once every 2 seconds. Consuming or replacing this effect triggers rank 2 of Death Gleaning.
+[Patch 12.0.0] *Malevolent Promise: This passive upgrades rank 2 of Corpse Consumption to mark the closest non-player enemy to you with death's touch for 6 seconds whenever you consume a corpse, which allows you to use a corpse consuming ability against them. This can occur once every 2 seconds. Consuming or replacing this effect triggers rank 2 of Death Gleaning.

@@ -16,4 +16,4 @@ linerank1=22
 linerank2=36
 
 ## Patch Notes
-* Reduced this passive’s increase to applying status effects to 55%, down from 75%, to make up for the status effect buffs in this update.
+[Patch 9.3.5] * Reduced this passive’s increase to applying status effects to 55%, down from 75%, to make up for the status effect buffs in this update.

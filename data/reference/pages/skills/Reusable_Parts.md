@@ -18,5 +18,5 @@ linerank2=18
 Reusable Parts reduces the casting cost of your summons whenever a previously summoned minion expires or is killed. This applies to Sacrificial Bones, Skeletal Mage, and Spirit Mender. Blighted Blastbones probably gets the most benefit from this, since they have the shortest lifespan, and are the most expensive of the three as well. You can, of course, trigger the cost reduction with one summon and use it to cast a different one.
 
 ## Patch Notes
-* Increased the cost reduction granted from this passive to 25/50%, up from 12/25%.
-* This passive now reduces the cost of your next Necromantic summon by 33/66%, up from 25/50%.
+[Patch 5.2.5] * Increased the cost reduction granted from this passive to 25/50%, up from 12/25%.
+[Patch 11.0.5] * This passive now reduces the cost of your next Necromantic summon by 33/66%, up from 25/50%.

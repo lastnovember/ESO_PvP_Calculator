@@ -18,4 +18,4 @@ linerank2=50
 Restoration Master increases your healing done with Restoration Staff skills.
 
 ## Patch Notes
-* This passive will now only increase healing done with Restoration Staff abilities.
+[Patch 1.6.5] * This passive will now only increase healing done with Restoration Staff abilities.

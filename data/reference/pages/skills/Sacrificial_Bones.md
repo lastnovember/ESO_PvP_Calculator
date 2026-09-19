@@ -50,7 +50,7 @@ ESO Patch Note|5.3.4|* Due to many mechanical issues with the Necromancer's enga
 - Fixed an issue where the skeleton would appear to jump backwards when leaping in close ranges. The skeleton will now also properly attempt to face its target while leaping, rather than moon-walk jumping.
 - Increased the speed in which the skeleton jumps.
 - Developer Comment: The above changes were made in hopes to greatly reduce situations where the Blastbones would become confused while walking around and take longer than intended - or completely fail - to reach its target. We understand the change to this ability significantly reduces the morph functionality of Stalking Blastbones in most situations, but we've opted to keep it untouched while we gauge feedback on how the changes to the base ability and reliability of the attack feel. Keep in mind that Stalking Blastbones guarantees at least a 10% damage increase over the base morph, so even in situations where it jumps immediately, this morph isn't completely wasted; it just will not reach its highest scaling unless the Blastbones needs to gain line of sight on the target you initially cast it on.
-* Made some improvements to the cooldown duration of this ability, to reduce the chances of it becoming locked out despite the skeleton dying.
+[Patch 6.2.5] * Made some improvements to the cooldown duration of this ability, to reduce the chances of it becoming locked out despite the skeleton dying.
 ESO Patch Note|9.3.5|* Blastbones: Reworked this ability and the Stalking Blastbones morph.
 - Renamed this ability to Sacrificial Bones.
 - This ability and the Stalking Blastbones morph (which has also been renamed) now summon a skeleton that, after their formation delay, jump to their owner to infuse them with power for 10 seconds, increasing your damage done with class abilities and Damage over time effects by 15%.
@@ -65,4 +65,4 @@ ESO Patch Note|9.3.5|* Blastbones: Reworked this ability and the Stalking Blastb
 - Known Issue: Sacrificial Blastbones and the Grave Lord's Sacrifice morph may still report their original name for combat logging events and API. The damage increase for Damage over Time effects may not reflect properly on tooltips, but should still apply to the actual damage, SCT, and logging.
 ESO Patch Note|10.1.5|* This ability and the Grave Lord’s Sacrifice morph no longer require you to be in combat in order to cast them.
 - Fixed an issue where the damage increase from this ability and its morphs did not properly update many ability tooltips.
-* Grave Lord’s Sacrifice: This morph no longer causes your Flame Skull to generate a corpse, as the base ability now does that.
+[Patch 11.0.5] * Grave Lord’s Sacrifice: This morph no longer causes your Flame Skull to generate a corpse, as the base ability now does that.

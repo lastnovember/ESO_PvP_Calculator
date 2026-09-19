@@ -1,0 +1,11 @@
+Trait,Material,Description,Magnitude
+Normal,Fine,Superior,Epic,Legendary
+Sturdy,Quartz,Reduce block cost by …,2% (white) / 2.5% (green) / 3% (blue) / 3.5% (purple) / 4% (gold)
+Impenetrable,Diamond,Increase your Critical Resistance by … and this item takes 50% less durability damage.,121 (white) / 124 (green) / 127 (blue) / 129 (purple) / 132 (gold)
+Reinforced,Sardonyx,Increases this item's armor value by …,12% (white) / 13% (green) / 14% (blue) / 15% (purple) / 16% (gold)
+Well-fitted,Almandine,Reduces the cost of sprinting and Roll Dodging by …,1.2% (white) / 2.4% (green) / 3.6% (blue) / 4.8% (purple) / 6% (gold)
+Training,Emerald,Increase experience gained from kills by …,7% (white) / 8% (green) / 9% (blue) / 10% (purple) / 11% (gold)
+Infused,Bloodstone,Increase armor enchantment effect by …,9% (white) / 13% (green) / 17% (blue) / 21% (purple) / 25% (gold)
+Invigorating,Garnet,Increase ESO Health Link,"Recovery, ESO Magicka Link","Recovery, and ESO Stamina Link",Recovery by …,8 (white) / 10 (green) / 12 (blue) / 14 (purple) / 16 (gold)
+Divines,Sapphire,Increases Mundus Stone effects by …,% (white) / % (green) / % (blue) / % (purple) / % (gold)
+Nirnhoned,Fortified Nirncrux,Increases Physical and Spell Resistance by …,220 (white) / 228 (green) / 236 (blue) / 244 (purple) / 253 (gold)

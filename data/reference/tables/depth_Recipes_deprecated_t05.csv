@@ -1,0 +1,61 @@
+,Name,RI,RQ,Drink,Recipe Drop,Ingredients,Effect
+,Aqua Vitae,RI 1,RQ 1,Level 1 Drink,20px|Daggerfall Covenant Character,Shornhelm Grains and Corn Mash,Stamina Recovery +2
+,Beetle Shots,RI 1,RQ 1,Level 5 Drink,20px|Aldmeri Dominion Character,Dusk Beetle and Corn Mash,Stamina Recovery +3
+,Blinder,RI 1,RQ 1,Level 5 Drink,20px|Ebonheart Pact Character,Snake Venom and Corn Mash,Stamina Recovery +3
+,Golden Liqueur,RI 1,RQ 1,Level 10 Drink,20px|Aldmeri Dominion Character,Ripe Apple and Corn Mash,Stamina Recovery +4
+,Enriched Golden Liqueur,RI 1,RQ 2,Level 10 Drink,20px|Aldmeri Dominion Character,Ripe Apple and Corn Mash,Health and Stamina Recovery +3
+,Hive Mind,RI 1,RQ 1,Level 15 Drink,20px|Daggerfall Covenant Character,Wasp Squeezings and Corn Mash,
+,Enriched Hive Mind,RI 1,RQ 2,Level 15 Drink,20px|Daggerfall Covenant Character,Wasp Squeezings and Corn Mash,
+,Rotmeth,RI 1,RQ 1,Level 1 Drink,20px|Aldmeri Dominion Character,Aged Meat and Corn Mash,Stamina Recovery +2
+,Slash of the Dragon,RI 1,RQ 1,Level 15 Drink,20px|Ebonheart Pact Character,Dragon's-Tongue Sap and Corn Mash,
+,Enriched Slash of the Dragon,RI 1,RQ 2,Level 15 Drink,20px|Ebonheart Pact Character,Dragon's-Tongue Sap and Corn Mash,
+,Slither Liquor,RI 1,RQ 1,Level 1 Drink,20px|Ebonheart Pact Character,Snake Slime and Corn Mash,Stamina Recovery +2
+,Sylph Gin,RI 1,RQ 1,Level 15 Drink,20px|Aldmeri Dominion Character,Wisp Floss and Corn Mash,Stamina Recovery +5
+,Enriched Sylphy Gin,RI 1,RQ 2,Level 15 Drink,20px|Aldmeri Dominion Character,Wisp Floss and Corn Mash,
+,Tangerine Liqueur,RI 1,RQ 1,Level 10 Drink,20px|Daggerfall Covenant Character,Tangerine and Corn Mash,Stamina Recovery +4
+,Enriched Tangerine Liqueur,RI 1,RQ 2,Level 10 Drink,20px|Daggerfall Covenant Character,Tangerine and Corn Mash,
+,Truth-Glimpse,RI 1,RQ 1,Level 5 Drink,20px|Daggerfall Covenant Character,Iron Peat and Corn Mash,Stamina Recovery +3
+,Voljar's Liqueur,RI 1,RQ 1,Level 10 Drink,20px|Ebonheart Pact Character,Wild Honey and Corn Mash,
+,Enriched Voljar's Liqueur,RI 1,RQ 2,Level 10 Drink,20px|Ebonheart Pact Character,Wild Honey and Corn Mash,
+,Greef,RI 2,RQ 1,Level 25 Drink,20px|Ebonheart Pact Character,Comberry and Wheat Mash,
+,Enriched Greef,RI 2,RQ 2,Level 25 Drink,20px|Ebonheart Pact Character,Comberry and Wheat Mash,
+,Hopscotch,RI 2,RQ 1,Level 25 Drink,20px|Daggerfall Covenant Character,Orc Hops and Wheat Mash,Stamina Recovery +7
+,Enriched Hopscotch,RI 2,RQ 2,Level 25 Drink,20px|Daggerfall Covenant Character,Orc Hops and Wheat Mash,
+,Jagga Ouzo,RI 2,RQ 1,Level 20 Drink,20px|Aldmeri Dominion Character,Pig's Milk and Wheat Mash,Stamina Recovery +6
+,Enriched Jagga Ouzo,RI 2,RQ 2,Level 20 Drink,20px|Aldmeri Dominion Character,Pig's Milk and Wheat Mash,
+,Old Kindlepitch,RI 2,RQ 1,Level 20 Drink,20px|Daggerfall Covenant Character,Dark Bile and Wheat Mash,Stamina Recovery +6
+,Enriched Old Kindlepitch,RI 2,RQ 2,Level 20 Drink,20px|Daggerfall Covenant Character,Dark Bile and Wheat Mash,
+,Sujamma,RI 2,RQ 1,Level 20 Drink,20px|Ebonheart Pact Character,Sujamma Berries and Wheat Mash,Stamina Recovery +6
+,Enriched Sujamma,RI 2,RQ 2,Level 20 Drink,20px|Ebonheart Pact Character,Sujamma Berries and Wheat Mash,
+,White Eye,RI 2,RQ 1,Level 25 Drink,20px|Aldmeri Dominion Character,Glitter Rock and Wheat Mash,Stamina Recovery +7
+,Enriched White Eye,RI 2,RQ 2,Level 25 Drink,20px|Aldmeri Dominion Character,Glitter Rock and Wheat Mash,
+,Black Night Cordial,RI 3,RQ 1,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Oat Mash,
+,Enriched Black Night Cordial,RI 3,RQ 2,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Oat Mash,
+,Consummate Black Night Cordial,RI 3,RQ 3,Level 35 Drink,20px|Daggerfall Covenant Character,Black Tea and Oat Mash,
+,Blessed Spring Water,RI 3,RQ 1,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Oat Mash,
+,Enriched Blessed Spring Water,RI 3,RQ 2,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Oat Mash,
+,Consummate Blessed Spring Water,RI 3,RQ 3,Level 35 Drink,20px|Aldmeri Dominion Character,Spring Essence and Oat Mash,
+,Gray Lightning,RI 3,RQ 1,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Oat Mash,
+,Enriched Gray Lightning,RI 3,RQ 2,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Oat Mash,
+,Consummate Gray Lightning,RI 3,RQ 3,Level 35 Drink,20px|Ebonheart Pact Character,Ash Millet and Oat Mash,
+,Heather Bender,RI 3,RQ 1,Level 30 Drink,20px|Daggerfall Covenant Character,Desert Heather and Oat Mash,
+,Enriched Heather Bender,RI 3,RQ 2,Level 30 Drink,20px|Daggerfall Covenant Character,Desert Heather and Oat Mash,
+,Night-Grog,RI 3,RQ 1,Level 30 Drink,20px|Ebonheart Pact Character,River Grapes and Oat Mash,
+,Enriched Night-Grog,RI 3,RQ 2,Level 30 Drink,20px|Ebonheart Pact Character,River Grapes and Oat Mash,
+,Treacle Run,RI 3,RQ 1,Level 30 Drink,20px|Aldmeri Dominion Character,Molasses and Oat Mash,
+,Enriched Treacle Run,RI 3,RQ 2,Level 30 Drink,20px|Aldmeri Dominion Character,Molasses and Oat Mash,
+,Crystal Clarity,RI 4,RQ 1,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Barley Mash,
+,Enriched Crystal Clarity,RI 4,RQ 2,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Barley Mash,
+,Consummate Crystal Clarity,RI 4,RQ 3,Level 40 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Crystal Berry and Barley Mash,
+,Qhalua,RI 4,RQ 1,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Barley Mash,
+,Enriched Qhalua,RI 4,RQ 2,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Barley Mash,
+,Consummate Qhalua,RI 4,RQ 3,Level 45 Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Kaveh Beans and Barley Mash,
+,Mountain Spirits,RI 5,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and Rice Mash,Stamina Recovery +11
+,Enriched Mountain Spirits,RI 5,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and Rice Mash,Health and Stamina Recovery +9
+,Consummate Mountain Spirits,RI 5,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Mountain Berries and Rice Mash,"Health, Magicka and Stamina Recovery +8"
+,Berveza Vitae,RI 6,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Golden Malt,Stamina Recovery +13
+,Enriched Berveza Vitae,RI 6,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Golden Malt,Health and Stamina Recovery +11
+,Consummate Berveza Vitae,RI 6,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Bervez Fruit and Golden Malt,"Health, Magicka and Stamina Recovery +8"
+,Eye-Opener,RI 6,RQ 1,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Golden Malt,Stamina Recovery +13
+,Enriched Eye-Opener,RI 6,RQ 2,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Golden Malt,Health and Stamina Recovery +11
+,Consummate Eye-Opener,RI 6,RQ 3,Drink,20px|Daggerfall Covenant20px|Aldmeri Dominion20px|Ebonheart Pact Character,Jazbay Grapes and Golden Malt,"Health, Magicka and Stamina Recovery +8"

@@ -62,8 +62,8 @@ File:ON-skill-Blockade_of_Frost.jpg|Blockade of Frost
 File:ON-skill-Blockade_of_Storms.jpg|Blockade of Storms
 
 ## Patch Notes
-* Wall of Fire: Changed this ability's visual FX to help it stand out better from enemy fire area-effects.
-Elf Bane]]: This item set no longer decreases the tick rate on the Destruction Staff ability Wall of Fire.
+[Patch 1.1.2] * Wall of Fire: Changed this ability's visual FX to help it stand out better from enemy fire area-effects.
+[Patch 1.3.3] * Elf Bane: This item set no longer decreases the tick rate on the Destruction Staff ability Wall of Fire.
 ESO Patch Note|1.4.3|* Shadow Cloak: This ability is no longer removed by the following ticking damage abilities.
 - Agony
 - Bat Swarm
@@ -95,7 +95,7 @@ ESO Patch Note|2.3.5|* Increased the damage for this ability and its morphs by 8
 - Fixed an issue where the visual effects from Wall of Flame and Wall of Frost would not be removed when they were recast at a new location.
 - Blockade of Elements: Fixed an issue where the visual effects from this morph was fading too early.
 - Unstable Wall of Elements: Increased the damage from the final explosion from this morph by 75%. We also fixed an issue where the visual effects of the explosion from this morph did not match the actual damage.
-Penetrating Magic]]: Fixed an issue where this passive ability's Spell Penetration bonus was not applying to Wall of Elements.
+[Patch 2.6.4] * Penetrating Magic: Fixed an issue where this passive ability's Spell Penetration bonus was not applying to Wall of Elements.
 ESO Patch Note|2.7.5|* Fixed an issue where some weapon abilities (Blade Cloak, Volley, and Wall of Elements) could not proc Weapon Enchantments.
 - Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Force Shock
@@ -103,11 +103,11 @@ ESO Patch Note|2.7.5|* Fixed an issue where some weapon abilities (Blade Cloak, 
 - Destructive Touch
 - Weakness to Elements
 - Impulse
-Volley]] or Wall of Elements) to terminate early.
+[Patch 3.0.9] * Fixed an issue where alchemical poisons were causing certain persistent area of effect abilities (such as Volley or Wall of Elements) to terminate early.
 ESO Patch Note|3.1.5|* Added new icons for each of the elemental variants of Destructive Touch, Wall of Elements, and Impulse.
 - Fixed an issue where this ability and its morphs were not displaying correct tooltip information in their tooltip headers.
-* Fixed an issue where Wall of Frost and its morphs were not snaring enemies further than 5 meters away from the beginning of the wall.
-* Wall of Frost: Reduced the snare potency of this ability and its morphs to 40% from 60%.
+[Patch 4.0.5] * Fixed an issue where Wall of Frost and its morphs were not snaring enemies further than 5 meters away from the beginning of the wall.
+[Patch 5.0.5] * Wall of Frost: Reduced the snare potency of this ability and its morphs to 40% from 60%.
 ESO Patch Note|5.1.5|* Increased the duration of this ability and its morphs to 8 seconds from 6 seconds.
 - These abilities will now rank up in damage per rank, rather than cost reduction.
 - Decreased the cost to 3024 from 3510.
@@ -126,9 +126,9 @@ ESO Patch Note|6.2.5|* The Frost version of this ability now applies a Damage Sh
 - Wall of Frost and its morphs will now cost 4050 Magicka at base, rather than 3780.
 - Fixed an issue where the Shock version of this ability and its morphs was not capped at hitting 6 targets, despite having auxiliary debuffs.
 - Elemental Blockade (morph): The Frost version of this morph now also applies an additional, smaller shield on you and group members in the area when it ends.
-* Fixed a performance issue affecting the Unstable Wall of Frost morph.
-* Fixed an issue where some versions of these abilities were incorrectly labeled as other versions, gaining or missing out on the contextual bonuses such as the 20% bonus damage from Wall of Fire.
-* Fixed an issue where Wall of Fire and morphs' bonus damage against Burning targets didn't work past 9 seconds, meaning the final 5 seconds of Blockade of Fire could not benefit from it.
+[Patch 6.3.5] * Fixed a performance issue affecting the Unstable Wall of Frost morph.
+[Patch 7.0.5] * Fixed an issue where some versions of these abilities were incorrectly labeled as other versions, gaining or missing out on the contextual bonuses such as the 20% bonus damage from Wall of Fire.
+[Patch 7.1.5] * Fixed an issue where Wall of Fire and morphs' bonus damage against Burning targets didn't work past 9 seconds, meaning the final 5 seconds of Blockade of Fire could not benefit from it.
 ESO Patch Note|8.1.5|* Reduced the damage per tick by approximately12%.
 - Reduced the cost to 2970, down from 3510.
 - Wall of Frost and its morphs now cost 3240, down from 3780.

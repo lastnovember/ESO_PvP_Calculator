@@ -18,4 +18,4 @@ linerank2=36
 Dismember increases your Spell Penetration and Physical Penetration whenever you have any Grave Lord ability active (not including Flame Skull, which has no duration.)
 
 ## Patch Notes
-* This passive now grants 1635/3271 Offensive Penetration when a Grave Lord ability is active, up from 750/1500.
+[Patch 11.0.5] * This passive now grants 1635/3271 Offensive Penetration when a Grave Lord ability is active, up from 750/1500.

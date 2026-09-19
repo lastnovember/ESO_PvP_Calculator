@@ -35,28 +35,28 @@ Twin Slashes deals direct Bleed Damage twice then damage over time. The Rending 
 - The Stinging Slashes set from Dragonstar Arena will increase the initial hits and the over time damage from this ability by a set ammount.
 
 ## Patch Notes
-* Fixed an issue where you could get a movement speed bonus if this ability was activated when your target was out of range.
+[Patch 1.4.3] * Fixed an issue where you could get a movement speed bonus if this ability was activated when your target was out of range.
 ESO Patch Note|1.5.2|* This ability no longer gives you a speed bonus when activated with an enemy targeted that is out of melee range.
 - Increased the tick damage for this ability by approximately 10%.
 - The morphs for this ability now increase in damage as the ability is ranked up.
 - Camouflaged Hunter (Expert Hunter morph): This ability now only applies to the first hit of the ability Twin Slashes.
-* The second hit caused by this ability is now able to crit.
+[Patch 1.6.5] * The second hit caused by this ability is now able to crit.
 ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill line. They now unlock in the following order:
 - Flurry
 - Twin Slashes
 - Whirlwind
 - Blade Cloak
 - Hidden Blade
-* Increased the cost of this ability and its morphs by approximately 60%.
-* Rending Slashes: The snare applied by this morph now reduces Movement Speed by 40%, down from 50%.
-* Rending Slashes: Decreased the duration of the snare to 4 seconds from 9 seconds.
-* The Damage over Time from Twin Slashes and its morphs can no longer proc Weapon Enchantments or poisons.
+[Patch 3.0.5] * Increased the cost of this ability and its morphs by approximately 60%.
+[Patch 4.0.5] * Rending Slashes: The snare applied by this morph now reduces Movement Speed by 40%, down from 50%.
+[Patch 4.1.5] * Rending Slashes: Decreased the duration of the snare to 4 seconds from 9 seconds.
+[Patch 4.2.7] * The Damage over Time from Twin Slashes and its morphs can no longer proc Weapon Enchantments or poisons.
 ESO Patch Note|5.0.5|* Adjusted this ability and its morphs to follow our standardized Damage over Time ruleset.
 - Increased the total duration to 10 seconds from 9 seconds.
 - Increased the delay to 2 seconds from 1 second.
 - Increased the damage per tick by approximately 15% to make up for the loss of the first tick. This will result in roughly the same overall DPS, but with less burst damage.
 - Blood Craze: Increased the heal per tick by approximately 27%, and fixed an issue where this ability was being calculated with bonuses as an offensive attack rather than a heal.
-* Increased the Damage over Time from this ability and its morphs by approximately 37%.
+[Patch 5.1.5] * Increased the Damage over Time from this ability and its morphs by approximately 37%.
 ESO Patch Note|5.2.5|* Decreased the damage per tick of this ability and its morphs damage over time by approximately 50%.
 - Blood Craze (morph):
 - The healing for this morph is now equal to the coefficient of the damage.

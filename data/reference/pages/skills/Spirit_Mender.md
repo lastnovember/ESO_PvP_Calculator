@@ -43,4 +43,4 @@ ESO Patch Note|5.1.5|* Increased the cost of this ability and its morphs to 4320
 ESO Patch Note|8.1.5|* Reduced the healing per tick of this ability and its morphs by approximately 48%.
 - Fixed an issue where this ability and its morphs could sometimes lose a tick of healing when cast.
 - Spirit Guardian (morph): Fixed an issue where the transferred damage from this morph was not applying to the guardian's health, circumventing the risk of the ability ending early in situations you are taking a significant amount of damage over the duration. It will now die after absorbing 30,000 total damage, meaning after damage reductions you can take up to 300,000 damage over its duration before it will perish.
-* Intensive Mender (morph): This morph now also heals 2 additional allies within 8 meters of the original target, since the morph did not add direct power to the base ability.
+[Patch 10.1.5] * Intensive Mender (morph): This morph now also heals 2 additional allies within 8 meters of the original target, since the morph did not add direct power to the base ability.

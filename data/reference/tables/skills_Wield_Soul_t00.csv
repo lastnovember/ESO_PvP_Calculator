@@ -1,0 +1,13 @@
+Script,Skill Name,Effects
+Damage Shield,Damage Shield,Warding Soul,
+Compatible Signature Scripts,"Sage's Remedy, Anchorite's Potency, Class Flourish, Druid's Resurgence"
+Compatible Affix Scripts,"Resolve, Brutality and Sorcery, Empower, Intellect and Endurance, Vitality"
+Healing,Healing,Healing Soul,
+Compatible Signature Scripts,"Sage's Remedy, Anchorite's Potency, Class Flourish, Druid's Resurgence"
+Compatible Affix Scripts,"Resolve, Brutality and Sorcery, Empower, Intellect and Endurance, Vitality"
+Magic Damage,Magic Damage,Magical Soul,
+Physical Damage,Physical Damage,Sundering Soul,
+Pull,Pull,Leashing Soul,
+Shock Damage,Shock Damage,Shocking Soul,
+Flame Damage,Flame Damage,Fiery Soul,
+Stun,Stun,Dazing Soul,

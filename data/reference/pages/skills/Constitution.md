@@ -18,7 +18,7 @@ linerank2=18
 Constitution increases your Health Recovery and causes you to regain 108 Magicka and Stamina when you are hit for each piece of Heavy Armor you are wearing, up to a total of 14% or 28% recovery depending on how many points you spend in this passive. The Magicka and Stamina restoration can be as high as 756 points with either 1 or 2 points invested, but it can occur twice as often with 2 points.
 
 ## Patch Notes
-* This passive now restores magicka and stamina when you take damage.
-* This passive now scales off your level rather than our maximum health when restoring magicka and stamina.
-* Increased the amount of Magicka and Stamina restored from this passive ability whenever you are hit by approximately 275%.
-* Reduced the Magicka and Stamina restored by this passive ability by approximately 42%.
+[Patch 1.3.3] * This passive now restores magicka and stamina when you take damage.
+[Patch 1.6.5] * This passive now scales off your level rather than our maximum health when restoring magicka and stamina.
+[Patch 2.4.5] * Increased the amount of Magicka and Stamina restored from this passive ability whenever you are hit by approximately 275%.
+[Patch 3.0.5] * Reduced the Magicka and Stamina restored by this passive ability by approximately 42%.

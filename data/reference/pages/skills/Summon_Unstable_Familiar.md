@@ -49,14 +49,14 @@ File:ON-skill-Summon Clannfear Tail Sweep AOE.jpg|Summon Unstable Clannfear morp
 File:ON-skill-Summon Clannfear special.jpg|Summon Unstable Clannfear morph's special healing ability visual
 
 ## Patch Notes
-* This ability's tooltip now mentions it also explodes when unsummoned.
-* Reduced the damage of this ability to 12% maximum magicka from 20% maximum magicka. This is a temporary solution until we completely resolve the issue where the Familiar is exploding twice.
+[Patch 1.2.3] * This ability's tooltip now mentions it also explodes when unsummoned.
+[Patch 1.2.6] * Reduced the damage of this ability to 12% maximum magicka from 20% maximum magicka. This is a temporary solution until we completely resolve the issue where the Familiar is exploding twice.
 ESO Patch Note|1.3.3|* Unstable Familiar: The Familiar that you summon is now considered a Daedra, and can be affected by all Fighters Guild abilities.
 - Fixed an issue where summoning an Unstable Familiar or Winged Twilight would cause them to pop into incorrect locations when canceling crouch.
 - Fixed an issue where your Unstable Familiar or Winged Twilight would run back to you in slow motion when recalled.
-* Fixed an issue where you weren't able to use weapon attacks after swapping your weapon while Volatile Familiar was slotted on one action bar.
-* Volatile Familiar: Fixed an issue where this ability was exploding twice; the damage has been set back to 20% of casters maximum magicka.
-* Unstable Familiar II: Fixed an issue where this ability wasn't dealing the correct amount of bonus damage.
+[Patch 1.3.5] * Fixed an issue where you weren't able to use weapon attacks after swapping your weapon while Volatile Familiar was slotted on one action bar.
+[Patch 1.4.3] * Volatile Familiar: Fixed an issue where this ability was exploding twice; the damage has been set back to 20% of casters maximum magicka.
+[Patch 1.5.2] * Unstable Familiar II: Fixed an issue where this ability wasn't dealing the correct amount of bonus damage.
 ESO Patch Note|1.6.5|* This ability now has a cast time of 1.3 seconds.
 - The unstable familiar (as well as the pets from the morphs of this ability) will no longer taunt monsters if the monster is engaged with other player characters.
 - Unstable Clannfear: This ability now heals the caster for 35% of their maximum health when the familiar is killed or toggled off.
@@ -82,11 +82,11 @@ ESO Patch Note|2.7.5|* Adjusted the order of the Active Abilities in this skill 
 - Increased the duration of this pet's special ability to 8 seconds from 4 seconds, causing it to pulse for two extra ticks of damage.
 - Fixed an issue where the damage from this morph's special ability was not being increased by Daedric Prey.
 
-* Fixed an issue with Ranks I - III of this ability where the pulse damage from the Volatile Familiar was being increased by Daedric Prey from other players.
+[Patch 2.7.11] * Fixed an issue with Ranks I - III of this ability where the pulse damage from the Volatile Familiar was being increased by Daedric Prey from other players.
 ESO Patch Note|3.0.5|* Fixed an issue where ranking up a summon ability (Unstable Familiar, Summon Winged Twilight, Feral Guardian, etc.) would unsummon your pet.
 - Summon Volatile Familiar: Reduced the damage done by this morphs' special ability by 20%.
 - Developer Comments: The amount of area of effect damage Sorcerers currently put out is too high, so reducing the effectiveness of this ability will bring them more in-line with other classes.
-Feral Guardian]], will now heal back to full health after exiting combat.
+[Patch 3.0.10] * Permanently summoned pets, such as the Unstable Familiar or Feral Guardian, will now heal back to full health after exiting combat.
 ESO Patch Note|3.1.5|* In an effort to reduce the visual effect noise in group combat situations, we've hidden most visual effects from persistent damaging area of effect abilities cast by your allies. Area of effect abilities that have a synergy, healing, or defensive component that can benefit you will still be visible, and area of effect abilities cast by enemies will also still be visible.
 - Fixed an issue where permanently summoned pets, such as the Unstable Familiar or Wild Guardian, would cause you to unsheathe your weapons every time you zoned into a new area.
 ESO Patch Note|4.0.5|* The pet summoned from this ability now has a basic area of effect special ability that can be used while the pet is active.
@@ -105,7 +105,7 @@ ESO Patch Note|5.2.5|* Increased the cost of the special activate of this abilit
 - Decreased the cost of the special activate to 4500, down from 4808.
 - The Area of Effect attack now deals the same damage as the basic attack, but hits in a 6 meter radius, up from 5 meters.
 - Fixed an issue where the AoE attack would cause the Clannfear to re-evaluate its purpose in life for 1 second after casting, lowering its potential DPS.
-* Reduced the cost of the special activate of this ability and the Summon Volatile Familiar morph to 3510, down from 4500.
+[Patch 5.3.4] * Reduced the cost of the special activate of this ability and the Summon Volatile Familiar morph to 3510, down from 4500.
 ESO Patch Note|6.1.5|* All pets from this skill line now use a hybrid of your Spell Damage and Max Magicka, rather than purely Max Magicka. This change was done to reduce the total power of these abilities when stacking a singular stat.
 - Summon Unstable Familiar: Fixed an issue where this ability and its morphs' special Area of Effect attack had a higher chance of applying Concussed than intended.
 - Summon Volatile Familiar (morph): Fixed an issue where this ability's stun applied on the second to last tick, rather than on the final tick.
@@ -115,5 +115,5 @@ ESO Patch Note|6.1.5|* All pets from this skill line now use a hybrid of your Sp
 ESO Patch Note|8.1.5|* Increased the duration of the special ability from this ability and Summon Volatile Familiar to 20 seconds, up from 10.
 - Reduced the damage per tick by approximately 23%.
 - Volatile Familiar (morph): This morph now stuns on the 4th and final ticks of the ability, rather than only on the final.
-* Fixed an issue with this ability and its morphs if another Sorcerer's version of these abilities attacked a target, your own would rally to their cause and immediately become active in combat as well. However, we still encourage you to use them to aid one another in battle nonetheless!
-* Summon Volatile Familiar (morph): This morph's special active now only stuns on the 2nd tick, rather than the 4th and final ticks, to make the stun less volatile in nature and help reduce the passive feeling of the skill. To make up for this loss, we're increasing the chance of applying the Charged status effect from the special active's damage to 5% per tick, up from 1%. Zzzzap!
+[Patch 8.3.5] * Fixed an issue with this ability and its morphs if another Sorcerer's version of these abilities attacked a target, your own would rally to their cause and immediately become active in combat as well. However, we still encourage you to use them to aid one another in battle nonetheless!
+[Patch 9.0.5] * Summon Volatile Familiar (morph): This morph's special active now only stuns on the 2nd tick, rather than the 4th and final ticks, to make the stun less volatile in nature and help reduce the passive feeling of the skill. To make up for this loss, we're increasing the chance of applying the Charged status effect from the special active's damage to 5% per tick, up from 1%. Zzzzap!
