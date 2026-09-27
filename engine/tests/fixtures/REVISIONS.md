@@ -356,3 +356,13 @@ Penetration and 618 Critical Chance, the same as the blue Spellshredder Hat. Wit
 De Grâce staff at 1400, the odd one out is the weapon or that set; UNKNOWNS.md names the reading
 that separates the two. No engine change.
 
+## 012, 2026-09-27, Yeets-Swiftly front bar, Health and Magicka glyph layout, three numbers typed
+
+Max Health 30008, Max Magicka 24052, Max Stamina 17770 at 13 / 51 points with five Health and
+two Magicka glyphs, The Lady, two Swift jewelry, Boundless Vitality unslotted. The build is the
+fixture 002 export with the stated changes; no fresh export yet. The engine on that build reads
+31309 / 21380 / 16565, so the character carries a change not on file worth about -1300 Health,
++2700 Magicka and +1200 Stamina (the same offsets the user's earlier all Prismatic numbers showed).
+The chat delta model predicted 29882 / 24140 at these points; the game reads 30008 / 24052. Open:
+a fresh export of this character to find the change.
+

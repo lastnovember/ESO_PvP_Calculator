@@ -1,0 +1,214 @@
+{
+  "name": "012 Yeets-Swiftly, front bar, Health and Magicka glyph layout, three numbers typed",
+  "status": "open",
+  "captured": "2026-09-27",
+  "location": "(not stated; outside a PvP zone assumed)",
+  "bar": "front (mace and mace)",
+  "attributes": {
+    "health": 13,
+    "magicka": 51,
+    "stamina": 0
+  },
+  "mundus": "The Lady",
+  "food": "orzorgas-smoked-bear-haunch",
+  "photos": [],
+  "notes": "Three numbers typed by the user in chat on 2026-09-27 after re-glyphing to five Health (head, chest, legs, and two small pieces) and two Magicka glyphs, 13 Health / 51 Magicka points, The Lady, two Swift jewelry, Boundless Vitality unslotted: Max Health 30008, Max Magicka 24052, Max Stamina 17770. The build here is the fixture 002 export with those stated changes applied, not a fresh export; which two small pieces carry Magicka was not stated (waist and feet assumed, all four small pieces read the same). Before the re-glyph the user stated 30029 / 25306 / 19597 with all Prismatic Defense, 15 / 49 points and Boundless Vitality slotted, then 28573 Health with it unslotted. Against the fixture 002 reading (30001 / 22546 / 18687, same all Prismatic layout at 15 / 49) the current character carries about 2760 more Magicka and 910 more Stamina from a change not on file; the engine will read low on Magicka by about that much until a fresh export comes. The delta model used in chat (10% Health, 8% Magicka multipliers, offsets from the stated numbers) predicted 29882 / 24140 at 13 / 51; the game reads 30008 / 24052.",
+  "gameVersion": "Update 50 era, 2026-09",
+  "tolerance": {
+    "flat": 1,
+    "percent": 0.15
+  },
+  "sheetExtras": {},
+  "activeEffects": "(not photographed)",
+  "build": {
+    "schemaVersion": 1,
+    "name": "Yeets-Swiftly",
+    "race": "Khajiit",
+    "class": "Warden",
+    "classSkillLines": [
+      "Animal Companions",
+      "Assassination",
+      "Storm Calling"
+    ],
+    "classMastery": [],
+    "attributes": {
+      "health": 13,
+      "magicka": 51,
+      "stamina": 0
+    },
+    "championPoints": {
+      "enabled": true,
+      "slotted": {
+        "warfare": [
+          "Fighting Finesse",
+          "Deadly Aim",
+          "Resilience",
+          "Duelist's Rebuff"
+        ],
+        "fitness": [
+          "Celerity",
+          "Survival Instincts",
+          "Pain's Refuge",
+          "Fortified"
+        ],
+        "craft": [
+          "War Mount",
+          "Gifted Rider",
+          "Steed's Blessing",
+          "Sustaining Shadows"
+        ]
+      }
+    },
+    "mundus": "The Lady",
+    "food": "orzorgas-smoked-bear-haunch",
+    "vampireStage": 0,
+    "werewolf": false,
+    "werewolfForm": false,
+    "battleSpirit": false,
+    "passives": {
+      "mode": "all",
+      "exclude": []
+    },
+    "skillLines": {
+      "Fighters Guild": true,
+      "Mages Guild": true,
+      "Psijic Order": true,
+      "Undaunted": true,
+      "Assault": true,
+      "Support": true,
+      "Soul Magic": true
+    },
+    "scribing": {
+      "Ulfsild's Contingency": {
+        "focus": "Shock Damage",
+        "signature": "Class Flourish",
+        "affix": "Minor Force"
+      },
+      "Wield Soul": {
+        "focus": "Healing",
+        "signature": "Anchorite's Potency",
+        "affix": "Major Vitality"
+      }
+    },
+    "gear": {
+      "head": {
+        "set": "Balorgh",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Health"
+      },
+      "chest": {
+        "set": "Armor of the Trainee",
+        "weight": "heavy",
+        "trait": "Reinforced",
+        "enchant": "Health"
+      },
+      "shoulders": {
+        "set": "Balorgh",
+        "weight": "medium",
+        "trait": "Reinforced",
+        "enchant": "Health"
+      },
+      "waist": {
+        "set": "Essence Thief",
+        "weight": "medium",
+        "trait": "Reinforced",
+        "enchant": "Magicka"
+      },
+      "hands": {
+        "set": "Rallying Cry",
+        "weight": "light",
+        "trait": "Divines",
+        "enchant": "Health"
+      },
+      "legs": {
+        "set": "Essence Thief",
+        "weight": "medium",
+        "trait": "Reinforced",
+        "enchant": "Health"
+      },
+      "feet": {
+        "set": "Essence Thief",
+        "weight": "medium",
+        "trait": "Divines",
+        "enchant": "Magicka"
+      },
+      "necklace": {
+        "set": "Rallying Cry",
+        "trait": "Swift",
+        "enchant": "Spell Damage"
+      },
+      "ring1": {
+        "set": "Markyn Ring of Majesty",
+        "trait": "Infused",
+        "enchant": "Spell Damage"
+      },
+      "ring2": {
+        "set": "Rallying Cry",
+        "trait": "Swift",
+        "enchant": "Spell Damage"
+      }
+    },
+    "bars": [
+      {
+        "mainHand": {
+          "set": "Essence Thief",
+          "type": "mace",
+          "trait": "Nirnhoned",
+          "enchant": "Poison"
+        },
+        "offHand": {
+          "set": "Essence Thief",
+          "type": "mace",
+          "trait": "Sharpened",
+          "enchant": "Decrease Health"
+        },
+        "skills": [
+          "Surprise Attack",
+          "Deep Fissure",
+          "Bird of Prey",
+          "Ulfsild's Contingency",
+          "Merciless Resolve"
+        ],
+        "ultimate": "Incapacitating Strike",
+        "poison": null
+      },
+      {
+        "mainHand": {
+          "set": "Rallying Cry",
+          "type": "ice staff",
+          "trait": "Defending",
+          "enchant": "Absorb Magicka"
+        },
+        "offHand": null,
+        "skills": [
+          "Bull Netch",
+          "Hurricane",
+          "Resolving Vigor",
+          "Streak",
+          "Wield Soul"
+        ],
+        "ultimate": "Temporal Guard",
+        "poison": "Escapist's Poison"
+      }
+    ],
+    "flags": {
+      "battleSpiritFlatHealth": true,
+      "strategies": {}
+    }
+  },
+  "readings": {
+    "outOfPvpZone": {
+      "bar1": {
+        "main": {
+          "Max Health": 30008,
+          "Max Magicka": 24052,
+          "Max Stamina": 17770
+        },
+        "advanced": {}
+      }
+    }
+  },
+  "sheetState": {},
+  "corrections": []
+}
