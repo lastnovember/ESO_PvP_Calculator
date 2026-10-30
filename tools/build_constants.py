@@ -506,6 +506,15 @@ C['sets'] = OrderedDict(
     ]),
 )
 
+# ---------------------------------------------------------------- targets (combat phase, not read by the sheet engine)
+C['targets'] = OrderedDict(
+    note='Mitigation of the damage you deal, by the target kind. Reserved for the combat phase; the sheet engine does not read this section. The sheet\'s own mitigation percents use base.resistancePerPercent (players).',
+    playerResistancePerPercent=sourced(660, page('depth/Physical_Resistance.md', 'caps at 33,000 for players ... 50%: 660 per percent') + '; fixtures 001 to 010 read every mitigation percent with it'),
+    playerResistanceCapRating=sourced(33000, page('depth/Physical_Resistance.md', 'It caps at 33,000 for players')),
+    npcResistancePerPercent=sourced(500, page('depth/Physical_Resistance.md', 'caps at 33,000 for players and 25,000 for NPCs which reduces all forms of martial damage taken by 50%: 25000 / 50 = 500 per percent') + '; ' + page('Penetration.md', 'an enemy NPC with 18,200 armor resists 36.4%: 18200 / 500') + '; ' + forum('699957', 'poster not recorded', 'date not recorded', 'the Precursor target dummy has 9100 armor and mitigates 18.2% (9100 / 50000); tooltip 2978 x 0.818 = 2436 damage done'), 'The combat phase divides the target\'s armor after penetration by this, capped at the cap below.'),
+    npcResistanceCapRating=sourced(25000, page('depth/Physical_Resistance.md', '25,000 for NPCs')),
+)
+
 C['battleSpirit'] = OrderedDict(
     source=src('uesp_Online_Campaigns_t05.csv', 'Battle Spirit'),
     rawText=bs[2],

@@ -2346,6 +2346,30 @@
       }
     }
   },
+  "targets": {
+    "note": "Mitigation of the damage you deal, by the target kind. Reserved for the combat phase; the sheet engine does not read this section. The sheet's own mitigation percents use base.resistancePerPercent (players).",
+    "playerResistancePerPercent": {
+      "value": 660,
+      "source": "pages/depth/Physical_Resistance.md (caps at 33,000 for players ... 50%: 660 per percent); fixtures 001 to 010 read every mitigation percent with it",
+      "verified": true
+    },
+    "playerResistanceCapRating": {
+      "value": 33000,
+      "source": "pages/depth/Physical_Resistance.md (It caps at 33,000 for players)",
+      "verified": true
+    },
+    "npcResistancePerPercent": {
+      "value": 500,
+      "source": "pages/depth/Physical_Resistance.md (caps at 33,000 for players and 25,000 for NPCs which reduces all forms of martial damage taken by 50%: 25000 / 50 = 500 per percent); pages/Penetration.md (an enemy NPC with 18,200 armor resists 36.4%: 18200 / 500); forum/699957 poster not recorded (date not recorded): the Precursor target dummy has 9100 armor and mitigates 18.2% (9100 / 50000); tooltip 2978 x 0.818 = 2436 damage done",
+      "verified": true,
+      "note": "The combat phase divides the target's armor after penetration by this, capped at the cap below."
+    },
+    "npcResistanceCapRating": {
+      "value": 25000,
+      "source": "pages/depth/Physical_Resistance.md (25,000 for NPCs)",
+      "verified": true
+    }
+  },
   "battleSpirit": {
     "source": "tables/uesp_Online_Campaigns_t05.csv row 'Battle Spirit'",
     "rawText": "Damage taken and Shield strength are decreased by 50% Healing Received is decreased by 55% Health Recovery is decreased by 50% Ability range of 28 meters or more increased by 8",
