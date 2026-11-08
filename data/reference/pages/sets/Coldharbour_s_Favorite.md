@@ -12,7 +12,7 @@ To make an item for this set, a crafter must first complete research on eight tr
 2 items: Adds 25-1096 Maximum Magicka
 3 items: Adds 25-1096 Maximum Stamina
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: Healing yourself or a group member summons Coldharbour's Favorite, who after 2 seconds, begins healing you and group members near him for 4648 Health over 6 seconds based on the higher of your Max Magicka or Stamina. Dealing damage summons Coldharbour's Favorite, who after 2 seconds, explodes, damaging enemies near him for 2352 Magic Damage over 6 seconds based on the higher of your Weapon Damage and Spell Damage. Coldharbour's Favorite can only be summoned once every 10 seconds.
+5 items: appears when healing yourself or group members or when dealing damage, up to once every 10 seconds. After 2 seconds, he explodes on the target based on which event called him. When healing, Coldharbour's Favorite heals for 4648 Health over 6 seconds, based on the higher of your Max Magicka or Stamina. When damaging, Coldharbour's Favorite deals 2352 Magic Damage over 6 seconds, based on the higher of your Weapon Damage and Spell Damage, and is a pet attack.
 
 ### Crafting Site
 Valenwood Border Artisan Camp

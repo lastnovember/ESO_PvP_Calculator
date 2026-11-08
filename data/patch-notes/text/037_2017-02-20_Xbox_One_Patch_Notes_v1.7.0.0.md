@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.7.0.0
 Xbox One Patch Notes v1.7.0.0
 Posted 2017-02-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/323560 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 Welcome to The Elder Scrolls Online v1.7.0.0, featuring Homestead! This free update introduces our player housing system with 39 uniquely-themed homes you can acquire throughout Tamriel. With over 2,000 individual decorative and furniture options, plus Furnishing Crafting, you’ll have a lot of options available to make your home truly yours.
 In addition to this massive new system, we’ve also added Master Crafting Writs, four new Motifs, and updated several sources of itemization in Cyrodiil and the Imperial City, all of which are detailed below. You’ll also find that we’ve put a focus on improving the balance across all classes and skills.

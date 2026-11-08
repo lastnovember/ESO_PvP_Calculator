@@ -20,7 +20,7 @@ Southern Elsweyr | New Moon Flame Adept | Khajiit | Varies | 31364
 ;Burning Strike:The enemy launches a flame bolt to you, dealing low flame damage.
 ;Flash Surge:The enemy channels a conical fire with their hand, dealing low continuous flame damage. This can be interrupted to set them off-balance.
 ;Flash Trail: The enemy dashes forward while engulfed in flames, indicated by a long red rectangle, leaving a lingering trail of fire behind. The initial strike deals low flame damage, and the lingering flames deal continuous low flame damage. (On some flame adepts)
-;Flame Aura/Reactive Flame Aura/Flame Aura Corona:The enemy conjures a large ring of fire around themselves, indicated by a large red circle, granting a damage shield to their allies inside the circle, but not themselves. Standing in the fire deals continuous low flame damage. (On some flame adepts)
+;Flame Aura/Reactive Flame Aura/Flame Aura Corona:The enemy conjures a large ring of fire around themselves, indicated by a large red circle, granting a damage shield to their allies inside the circle, but not themselves. Standing in the fire deals continuous direct low flame damage. (On some flame adepts)
 ;Forceful Flame: The enemy stomps the ground, sending a shockwave along the ground going forward, which erupts and explodes, indicated by a red circle, dealing moderate flame damage. (On some flame adepts)
 
 Class

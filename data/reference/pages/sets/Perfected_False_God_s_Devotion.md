@@ -8,7 +8,7 @@ Perfected False God's Devotion is a trial set which drops in veteran Sunspire. I
 ### Bonuses
 
 2 items: Adds 15-657 Critical Chance
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 15-657 Critical Chance
 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: Reduces the cost of your Magicka abilities by 8%. When an enemy you recently damaged dies, you restore 57-2454 Magicka and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.

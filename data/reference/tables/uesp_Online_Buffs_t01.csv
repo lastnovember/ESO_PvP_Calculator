@@ -19,8 +19,8 @@ Major,Reduces the target's Weapon and Spell Damage by 430,Abilities,"Aspect of T
 Sets,"Kynmarcher's Cruelty , Nix-Hound's Howl , Gardener of Seasons , Vykosa"
 Scribing,"Cowardice on Shield Throw , Wield Soul"
 Defile [ edit ],Minor,Reduces target's Healing Taken and Shield Strength by 6%.,Abilities,"Diseased ( Disease damage status), Lethal Arrow , Render Flesh (applies to self)",
-Sets,"Affliction , Fasalla's Guile , Pirate Skeleton , Thurvokun (set) (applies Diseased Status)"
-Scribing,"Defile on Elemental Explosion , Trample"
+Sets,"Affliction , Fasalla's Guile , Pirate Skeleton (applies to self), Thurvokun (set) (applies Diseased Status)"
+Scribing,Defile on Elemental Explosion and Trample
 Potions,"Defile Potion or Poison, Vitality Poison"
 Major,Reduces target's Healing Taken and Shield Strength by 12%.,Abilities,"Blighted Blastbones , Corrupting Pollen , Dark Flare , Shifting Standard , Soul Harvest",
 Sets,"Durok's Bane , Kynmarcher's Cruelty , Ward of Cyrodiil"

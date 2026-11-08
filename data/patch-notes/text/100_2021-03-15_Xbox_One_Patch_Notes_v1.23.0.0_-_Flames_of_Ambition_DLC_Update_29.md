@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.23.0.0 - Flames of Ambition DLC & Update 29
 Xbox One Patch Notes v1.23.0.0 - Flames of Ambition DLC & Update 29
 Posted 2021-03-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/565748 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.23.0.0, featuring the Flames of Ambition DLC and the start of the Gates of Oblivion year-long adventure! This DLC adds two new 4-player dungeons for you to tackle - Black Drake Villa and The Cauldron – in addition to several new item sets, collectibles, achievements, and furnishings.
 Update 29, the latest base game update free for all players, brings about a number of significant changes and new features. First and foremost, we’ve updated the entire Champion Point system with a new UI and all-new stars to choose for your characters. Equipped Armor pieces also now passively augment your character’s effectiveness, and you can view additional combat stats in a new Advanced Stats UI.
 Housing enthusiasts will be excited to utilize a new feature to fast travel outside your home, and we’ve made several improvements when previewing furnishings and houseguests. We’ve also added many new furnishings for you to enjoy!

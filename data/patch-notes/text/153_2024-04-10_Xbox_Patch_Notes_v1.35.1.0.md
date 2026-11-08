@@ -2,7 +2,7 @@ Xbox Patch Notes v1.35.1.0
 Xbox Patch Notes v1.35.1.0
 Posted 2024-04-10 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/656131 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.35.1.0 adds unified Cyrodiil Repair Kits to the game and includes bug fixes for an issue involving Mist Form and the Tarnished Nightmare set, several missing coffers from Urgarlag, Monster Mask sets from the new dungeons not being properly curated, some issues relating to siege stacking, and more. The size of this patch is approximately 1.5GB for Xbox One and Xbox Series X.
 Unified Cyrodiil Repair Kits
 Cyrodiil Repair Kits have now been unified! Going forward you’ll no longer acquire Siege Repair Kit, Keep Wall Masonry Repair Kit, Keep Door Woodwork, and so on. Now, there’s just a single Cyrodiil Repair Kit that will work on all the structures that used to require individual repair kits. These new kits can be purchased for 250 Alliance Points or 90 gold from various merchants, and can also be found in Rewards for the Worthy.

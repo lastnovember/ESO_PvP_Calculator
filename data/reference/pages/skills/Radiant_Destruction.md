@@ -7,9 +7,9 @@ Online Skill Summary
 id=63058
 line=Dawn's Wrath
 icon=Dawn's Wrath-Radiant Destruction
-desc=Burn an enemy with a ray of holy fire, dealing [19182 / 19392 / 19596 / 19812] Magic Damage over 3.8 seconds. Deals up to 500% more damage to enemies below 33% Health. This ability is considered direct damage.
-desc1=Cost: 648 Magicka / 1s. Burn an enemy with a ray of holy fire, dealing [19812 / 20022 / 20244 / 20460] Magic Damage over 3.8 seconds. Deals up to 500% more damage to enemies below 33% Health. You heal for 15% of the damage inflicted. This ability is considered direct damage.
-desc2=Burn an enemy with a ray of holy fire, dealing [19812 / 20022 / 20244 / 20460] Magic Damage over 3.8 seconds. Deals up to 500% more damage to enemies below 40% Health. This ability is considered direct damage.
+desc=Burn an enemy with a ray of holy fire, dealing [19170 / 19392 / 19590 / 19806] Magic Damage over 3.8 seconds. Deals up to 500% more damage to enemies below 33% Health. This ability is considered direct damage.
+desc1=Cost: 648 Magicka / 1s. Burn an enemy with a ray of holy fire, dealing [19806 / 20028 / 20238 / 20460] Magic Damage over 3.8 seconds. Deals up to 500% more damage to enemies below 33% Health. You heal for 15% of the damage inflicted. This ability is considered direct damage.
+desc2=Burn an enemy with a ray of holy fire, dealing [19806 / 20028 / 20238 / 20460] Magic Damage over 3.8 seconds. Deals up to 500% more damage to enemies below 40% Health. This ability is considered direct damage.
 linerank=42
 cost=1080 Magicka / 1s
 attrib=Magicka

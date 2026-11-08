@@ -2,7 +2,7 @@ Xbox Patch Notes v1.26.4.0
 Xbox Patch Notes v1.26.4.0
 Posted 2022-02-02 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/597203 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.26.4.0 contains several fixes tied to group content – including the Will of Stone and Soul Savior Rockgrove achievements now being properly awarded – fixes for a few game crashes, the Trap Beast ability being able to generate Ultimate, and more. The size of this patch is approximately 1.3 GB.
 Rockgrove Trial
 The Will of Stone and Soul Savior achievements will now always be awarded when the criteria are met upon trial completion.

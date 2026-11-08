@@ -7,9 +7,9 @@ Online Skill Summary
 id=93908
 line=Green Balance
 icon=Green Balance-Lotus Flower
-desc=Duration: [17 / 18 / 19 / 20] seconds. Embrace the lotus blessing, causing your Light Attacks to restore 1320 Health and your fully-charged Heavy Attacks to restore 3036 Health to you or a nearby ally for [17 / 18 / 19 / 20] seconds. While active you gain Major Prophecy and Savagery, increasing your ESO Spell Critical Link | |y and Weapon Critical rating by 2629.
-desc1=Embrace the lotus blessing, causing your Light Attacks to restore [1401 / 1434 / 1467 / 1500] Health and your fully-charged Heavy Attacks to restore [3360 / 3390 / 3420 / 3450] Health to you or 2 nearby allies for 20 seconds. While active you gain Major Prophecy and Savagery, increasing your ESO Spell Critical Link | |y and Weapon Critical rating by 2629.
-desc2=Duration: [57 / 58 / 59 / 60] seconds. Embrace the lotus blessing, causing your Light Attacks to restore 1320 Health and your fully-charged Heavy Attacks to restore 3036 Health to you or a nearby ally for [57 / 58 / 59 / 60] seconds. While active you gain Major Prophecy and Savagery, increasing your ESO Spell Critical Link | |y and Weapon Critical rating by 2629.
+desc=Duration: [17 / 18 / 19 / 20] seconds. Embrace the lotus blessing, causing your Light Attacks to restore 1320 Health and your fully-charged Heavy Attacks to restore 3036 Health to you or a nearby ally for [17 / 18 / 19 / 20] seconds. Upon activation you gain Major Savagery for [17 / 18 / 19 / 20] seconds, increasing Critical Chance by 12%.
+desc1=Embrace the lotus blessing, causing your Light Attacks to restore [1401 / 1434 / 1467 / 1500] Health and your fully-charged Heavy Attacks to restore [3360 / 3390 / 3420 / 3450] Health to you or 2 nearby allies for 20 seconds. Upon activation you gain Major Savagery for 20 seconds, increasing Critical Chance by 12%.
+desc2=Duration: [57 / 58 / 59 / 60] seconds. Embrace the lotus blessing, causing your Light Attacks to restore 1320 Health and your fully-charged Heavy Attacks to restore 3036 Health to you or a nearby ally for [57 / 58 / 59 / 60] seconds. Upon activation you gain Major Savagery for [57 / 58 / 59 / 60] seconds, increasing Critical Chance by 12%.
 linerank=30
 cost=1350 Magicka
 attrib=Magicka

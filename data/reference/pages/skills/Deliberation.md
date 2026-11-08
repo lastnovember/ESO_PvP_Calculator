@@ -13,7 +13,7 @@ image=
 imgdesc=
 linerank1=9
 
-Deliberation reduces the damage you take while casting or channeling any Psijic Order active or ultimate ability. This can mitigate the long casting and channeling times many of these abilities have. Does it work on Meditate?
+Deliberation reduces the damage you take while casting or channeling any Psijic Order active or ultimate ability. This can mitigate the long casting and channeling times many of these abilities have.
 
 ## Notes
 - Prior to Update 31, this passive gave the Major Protection buff but was changed to give a unique damage reduction buff when Major Protections damage reduction was reduced.

@@ -11,7 +11,7 @@ Class: Sorcerer
 2 items: Adds 34-1487 Armor
 3 items: Adds 3-129 Weapon Damage and Spell Damage
 4 items: Adds 28-1206 Maximum Health
-5 items: While you have a permanent pet active, gain 1840 Health and 1980 Armor. While you do not have a permanent pet active, increase your Damage Done and Healing Done by 15%. This value is reduced to 7% while affected by Battle Spirit.
+5 items: While you have a permanent summoned combat pet active, gain 1840 Health and 1980 Armor. While you do not have a permanent pet active, increase your Damage Done and Healing Done by 15%, reducing to 7% if Battle Spirit is active.
 
 ### Pieces
 The set consists of armor of all weights and jewelry in all slots, as well as weapons and shields of all types.

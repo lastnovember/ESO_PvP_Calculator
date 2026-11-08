@@ -10,7 +10,7 @@ Necropotence is an overland set that drops in Rivenspire. It cannot be crafted. 
 2 items: Adds 25-1096 Maximum Magicka
 3 items: Adds 25-1096 Maximum Magicka
 4 items: Adds 25-1096 Maximum Magicka
-5 items: While you have a pet active, your Max Magicka is increased by 72-3132.
+5 items: While you have a summoned combat pet active your Max Magicka is increased by 14%.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types. Unique pieces include:

@@ -26,7 +26,7 @@ Hakoshae Tombs | Ancestral Nullifier | Akaviri | Varies | a
 
 ### Staff
 ;Shock:A basic ranged attack dealing minor shock damage.
-;Impending Storm:The nullifier charges up and releases lightning from itself as indicated by red circles dealing moderate shock damage to all targets hit. This can be interrupted to set the nullifier off balance. This cannot be blocked.
+;Impending Storm/Lightning Onslaught:The nullifier charges up and releases lightning from itself as indicated by red circles dealing moderate shock damage to all targets hit. This can be interrupted to set the nullifier off balance. This cannot be blocked.
 ;Negate Magic:The nullifier creates a globe of magic suppression for 10 seconds, removing and preventing all player area of effect abilities from occurring in the area. Players within the globe will be silenced and pets/companions are stunned. Silence prevents players from using any ability costing Health, Magicka, Ultimate or have no cost at all as long as they are in the affected area.
 
 ## Tables extracted from this page

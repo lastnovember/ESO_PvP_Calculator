@@ -7,9 +7,9 @@ Online Skill Summary
 id=32156
 line=Earthen Heart
 icon=Earthen Heart-Molten Weapons
-desc=Duration: [27 / 28 / 29 / 30] seconds. Charge you and your grouped allies' weapons with volcanic power to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for [27 / 28 / 29 / 30] seconds. While active, dealing damage with Light and Heavy Attacks causes an additional 1228 Flame Damage, up to once every 2 seconds.
-desc1=Duration: [57 / 58 / 59 / 60] seconds, Radius: 36 meters. Charge you and your grouped allies' weapons with volcanic power to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for [57 / 58 / 59 / 60] seconds. While active, dealing damage with Light and Heavy Attacks causes an additional 1228 Flame Damage, up to once every 2 seconds.
-desc2=Cost: [4320 / 4230 / 4140 / 4050] Magicka. Charge you and your grouped allies' weapons with volcanic power to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 30 seconds. While active, dealing damage with Light and Heavy Attacks causes an additional 1228 Flame Damage, up to once every 1.5 seconds. You also gain Empower for the duration, increasing the damage of your Heavy Attacks against monsters by 150%.
+desc=Duration: [27 / 28 / 29 / 30] seconds. Charge you and your grouped allies' weapons with volcanic power to gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for [27 / 28 / 29 / 30] seconds. While active, dealing damage with Light and Heavy Attacks causes an additional 1228 Flame Damage, up to once every 2 seconds.
+desc1=Duration: [57 / 58 / 59 / 60] seconds, Radius: 36 meters. Charge you and your grouped allies' weapons with volcanic power to gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for [57 / 58 / 59 / 60] seconds. While active, dealing damage with Light and Heavy Attacks causes an additional 1228 Flame Damage, up to once every 2 seconds.
+desc2=Cost: [4320 / 4230 / 4140 / 4050] Magicka. Charge you and your grouped allies' weapons with volcanic power to gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 30 seconds. While active, dealing damage with Light and Heavy Attacks causes an additional 1228 Flame Damage, up to once every 1.5 seconds. You also gain Empower for the duration, increasing the damage of your Heavy Attacks against monsters by 150%.
 linerank=4
 cost=4320 Magicka
 attrib=Magicka

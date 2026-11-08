@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.2.0.0
 Xbox One Patch Notes v1.2.0.0
 Posted 2015-11-16 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/231371 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 Welcome to The Elder Scrolls Online: Tamriel Unlimited v1.2.0.0, our largest DLC game pack to date: Orsinium! We think you’ll really enjoy the contents of this latest update.
 Orsinium, similar to our previous update, comes in two parts—the DLC game pack, and the base-game patch. The base-game patch will be available to everyone who owns The Elder Scrolls Online: Tamriel Unlimited, and the DLC game pack will automatically download with it, allowing you instant access to the new content when you purchase it, or activate an ESO Plus membership.

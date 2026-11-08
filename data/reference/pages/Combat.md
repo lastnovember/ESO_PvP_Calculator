@@ -1,7 +1,7 @@
 # Online:Combat
 
 Source: https://en.uesp.net/wiki/Online:Combat
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Combat in Elder Scrolls Online is dynamic. The game offers players a variety of visual and auditory cues about which actions may be appropriate next, including marking the area of impending enemy attacks in red, or by prompting the user to block or interrupt.
@@ -183,16 +183,19 @@ The Sundered status can be applied by dealing Physical Damage to a target. A Sun
 The Overcharged status can be applied by dealing Magic Damage to a target. An Overcharged enemy takes instant magic damage and restores 65 Magicka to the caster. They also suffer from Minor Magickasteal for 4 seconds, which restores 168 magicka per second to players dealing damage to them.
 
 ### Other Effects
-These are common negative effects enemies can apply to players in Trials and Dungeons. These cannot be removed with skills that say "remove negative effects"
+These are common negative effects enemies can apply to players or enemies in Trials and Dungeons. These cannot be removed with skills that say "remove negative effects"
 
 #### Hindered
-Healing your missing health is prevented for 12 seconds or until 39,760 points of healing are received.
+Healing your missing health is prevented for 12 seconds or until 39,760 points of healing are received. Applied when players blocking specific attacks.
 
 #### Rattled
-You are shaken up for 12 seconds, reduces your damage done by 70% and increasing your damage taken by 40%.
+You are shaken up for 12 seconds, reduces your damage done by 70% and increasing your damage taken by 40%. Applied when blocking specific attacks.
 
 #### Devitalized
-You are weakened for 8 seconds, Reduces your Physical Resistance and Spell Resistance by 60%, reduces damage shields by 30% and increases damage taken by 30%.
+You are weakened for 8 seconds, Reduces your Physical Resistance and Spell Resistance by 60%, reduces damage shields by 30% and increases damage taken by 30%. Applied when not blocking specific attacks.
+
+#### Seethe
+Increases the damage done of the enemy for a moment, as seen by the red glow on the enemy. Applied to the enemy when specific attacks are dodged.
 
 ## Combat Effects
 Certain effects on players or enemies alter the display of the attribute bars (usually health) in relation to the applied effect:

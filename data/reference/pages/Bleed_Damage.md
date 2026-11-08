@@ -1,7 +1,7 @@
 # Online:Bleed Damage
 
 Source: https://en.uesp.net/wiki/Online:Bleed_Damage
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Bleed Damage (script)

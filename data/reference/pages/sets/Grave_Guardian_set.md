@@ -10,7 +10,7 @@ Grave Guardian is a dungeon set that drops in the Unhallowed Grave. It cannot be
 2 items: Adds 25-1096 Maximum Stamina
 3 items: Adds 28-1206 Maximum Health
 4 items: Adds 28-1206 Maximum Health
-5 items: Summon a stone aura while you are Bracing, hardening you and your nearby group members, increasing your Physical Resistance and Spell Resistance by 103-4430.
+5 items: Surround yourself with a stone aura while you are Bracing, hardening you and your nearby group members, increasing your Physical Resistance and Spell Resistance by 103-4430. This effect reveals you while active.
 
 ### Pieces
 The set consists of heavy armor and jewelry in all slots, as well as weapons and shields of all types.

@@ -1,7 +1,7 @@
 # Online:Ultimate
 
 Source: https://en.uesp.net/wiki/Online:Ultimate
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Ultimate is the resource needed to cast Ultimate Abilities. There are a total of 35 Ultimate Abilities available, but you may only choose from up to 17: one each from the 3 skill lines in your class, 6 from the Weapon Skills (which require you to use that specific weapon type), and 8 available to all classes, two of which are mutually exclusive, since you cannot be both a Vampire and a Werewolf at the same time. There is at most one Ultimate Ability per skill tree. Only one Ultimate Ability may be slotted on each bar at a time, so two different Ultimate Abilities can be slotted in total. Ultimate regeneration triggers upon hitting a non-trivial enemy with Light or Heavy attacks, when healing others (healing yourself does not count), or upon blocking or dodging an attack. The hidden Ultimate regeneration buff gained when hitting a light-attack while in combat lasts for 9 seconds, generating 3 ultimate per second, for 27 total.

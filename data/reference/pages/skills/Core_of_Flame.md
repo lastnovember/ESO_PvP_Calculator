@@ -7,9 +7,9 @@ Skill Online Skill Summary
 id=33697
 line=Ardent Flame
 icon=Ardent Flame-Core of Flame
-desc=Let the fire within draw heat to your core, restoring 15% of your missing Magicka and Stamina every 2 seconds over 4 seconds. When this ability completes, you release this heat as a blast of fire that deals [5303 / 5361 / 5419 / 5477] Flame Damage to nearby enemies.
-desc1=Let the fire within draw heat to your soul, restoring 15% of your missing Magicka and Stamina every 2 seconds over 4 seconds. Much of this heat is drawn from enemies around you. Those that are casting are interrupted, set Off Balance, and stunned for 2 seconds. When this ability completes, you release this heat as a blast of fire that deals [7305 / 7385 / 7465 / 7546] Flame Damage to nearby enemies.
-desc2=Let the fire within draw heat to your heart, restoring 15% of your missing Magicka and Stamina and healing [2479 / 2506 / 2533 / 2560] Health every 2 seconds over 4 seconds. When this ability completes, you release this heat as a blast of fire that deals 5478 Flame Damage to nearby enemies.
+desc=Let the fire within draw heat to your core, restoring 12% of your missing Magicka and Stamina every 2 seconds over 4 seconds. When this ability completes, you release this heat as a blast of fire that deals [5303 / 5361 / 5419 / 5477] Flame Damage to nearby enemies.
+desc1=Let the fire within draw heat to your soul, restoring 12% of your missing Magicka and Stamina every 2 seconds over 4 seconds. Much of this heat is drawn from enemies around you. Those that are casting are interrupted, set Off Balance, and stunned for 2 seconds. When this ability completes, you release this heat as a blast of fire that deals [7305 / 7385 / 7465 / 7546] Flame Damage to nearby enemies.
+desc2=Let the fire within draw heat to your heart, restoring 12% of your missing Magicka and Stamina and healing [1983 / 2004 / 2026 / 2048] Health every 2 seconds over 4 seconds. When this ability completes, you release this heat as a blast of fire that deals 5478 Flame Damage to nearby enemies.
 linerank=20
 cost=3510 Magicka
 casttime=Instant

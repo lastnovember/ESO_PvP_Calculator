@@ -12,7 +12,7 @@ To make an item for this set, a crafter must first complete research on six trai
 2 items: Adds 25-1096 Maximum Magicka
 3 items: Adds 25-1096 Maximum Stamina
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Max Health as Oblivion Damage every 1 second for 6 seconds. The Shadow Pearl cannot be reflected. Effect can occur every 6 seconds. This can deal a maximum of 69-3000 Oblivion Damage per tick.
+5 items: Damaging an enemy has a 10% chance to fire a Shadow Pearl at them, dealing 3% of the target's Max Health as Oblivion Damage, up to a maximum of 69-3000, every 1 second for 6 seconds. This effect reveals you, cannot be reflected, and can occur every 6 seconds.
 
 ### Crafting Site
 Artaeum Craftworks

@@ -2,7 +2,7 @@ Night Market Hotfixes - May 4 (All Platforms)
 Night Market Hotfixes - May 4 (All Platforms)
 Posted 2026-05-04 by ZOS_JessicaFolsom ·
 forums.elderscrollsonline.com/en/discussion/692410 ·
-archived 2026-09-12
+archived 2026-10-30
 Today we completed a hotfix on all platforms for three issues within the Night Market. These hotfixes do not require relogging to see. Below are the hotfix notes.
 Faceted Enemies:
 Fixed an issue where Faceted Enemies were appearing much less frequently than intended. Faceted Enemies will now appear more often in the Night Market.

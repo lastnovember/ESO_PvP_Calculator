@@ -1,7 +1,7 @@
 # Online:Out of Sight (champion)
 
 Source: https://en.uesp.net/wiki/Online:Out_of_Sight_(champion)
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Online Champion 2.0 Summary

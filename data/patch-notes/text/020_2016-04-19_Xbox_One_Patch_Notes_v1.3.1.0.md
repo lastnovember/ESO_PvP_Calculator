@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.3.1.0
 Xbox One Patch Notes v1.3.1.0
 Posted 2016-04-19 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/260737 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online: Tamriel Unlimited v1.3.1.0 is an incremental patch for Xbox One that addresses several issues in Imperial City, Orsinium, and Thieves Guild DLCs including fixes in Maw of Lorkhaj. We also have fixes for general gameplay including being able to obtain multiple Mundus Stone buffs, being incorrectly charged resource costs, having to wait in a Dungeon queue with a full group, and improvements to jumping on top of fixtures. Also included are fixes to several quests including Snakes in the Sand, Proving the Deed, and Beasts of Falinesti, and improvements to overall performance. The size of this patch is approximately 2.3GB.
 FIXES & IMPROVEMENTS

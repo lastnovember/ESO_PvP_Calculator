@@ -1,7 +1,7 @@
 # Online:Crafting
 
 Source: https://en.uesp.net/wiki/Online:Crafting
-Fetched: 2026-09-19
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 In Elder Scrolls Online, there are seven crafting professions. Skill points are needed to fully develop crafting skills, but you are not limited to a single profession, and can choose to dabble in all of them, or specialize in a few professions. To craft, a crafting station of appropriate kind must be found. Crafting Certification quests can be completed, which enables access to repeatable Crafting Writs quests.

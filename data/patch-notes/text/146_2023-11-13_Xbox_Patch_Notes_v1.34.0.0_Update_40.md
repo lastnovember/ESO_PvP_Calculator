@@ -2,7 +2,7 @@ Xbox Patch Notes v1.34.0.0 [Update 40]
 Xbox Patch Notes v1.34.0.0 [Update 40]
 Posted 2023-11-13 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/646924 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.34.0.0! Update 40 features the new PvE gameplay activity, Infinite Archive, where you must battle your way through dynamic stages with monsters and bosses you’ve encountered all throughout Tamriel. Infinite Archive can be played solo, or with a friend or Companion, and gives you the opportunity to obtain all sorts of new loot and collectibles including new Class Item Sets, a unique mount, and more.
 Alongside Infinite Archive comes a new Group Finder tool, allowing you an easy way to advertise and find groups for all sorts of in-game activities. This update also introduces new Grand Master Crafting Stations, reducing the hundreds of set stations for each tradeskill and consolidating them into single set stations, along with updates and a full rebalance for Jewelry Crafting. We’ve also improved the rewards you can obtain from the Fighters Guild, Mages Guild and Undaunted daily quests, in addition to adding a new Patron Deck for Tales of Tribute and added Japanese localization for all in-game text and voiceover!
 We’ve limited the amount of combat balance changes in this update while we continue to evaluate changes from the previous update, but you can expect a number of bug fixes for combat abilities, item sets, and a number of areas across the entire game. The size of this update is approximately 43.9GB for Xbox One and 6.2GB for Xbox Series X. Enjoy!

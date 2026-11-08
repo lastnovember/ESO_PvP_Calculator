@@ -7,9 +7,9 @@ Online Skill Summary
 id=42305
 line=Mages Guild
 icon=Mages Guild-Fire Rune
-desc=Inscribe a rune of cosmic fire on the earth, which takes 2 seconds to arm and lasts for 20 seconds. When triggered, the rune blasts all enemies in the target area for [6147 / 6214 / 6281 / 6350] Flame Damage.
-desc1=Cost: [3240 / 3150 / 3060 / 2970] Magicka. Inscribe a rune of cosmic fire on the earth, which takes 2 seconds to arm and lasts for 20 seconds. When triggered, the rune blasts all enemies in the target area for 6351 Flame Damage, knocks them into the air, and stuns them for 3 seconds.
-desc2=Inscribe a rune of cosmic fire on the earth, which takes 2 seconds to arm and lasts for 20 seconds. When triggered, the rune blasts all enemies in the target area for 6351 Flame Damage and an additional [7590 / 7667 / 7744 / 7832] Flame Damage over 22 seconds.
+desc=Inscribe a rune of cosmic fire on the earth, which takes 2 seconds to arm and lasts for 20 seconds. When triggered, the rune blasts all enemies in the target area for [6146 / 6214 / 6280 / 6349] Flame Damage.
+desc1=Cost: [3240 / 3150 / 3060 / 2970] Magicka. Inscribe a rune of cosmic fire on the earth, which takes 2 seconds to arm and lasts for 20 seconds. When triggered, the rune blasts all enemies in the target area for 6349 Flame Damage, knocks them into the air, and stuns them for 3 seconds.
+desc2=Inscribe a rune of cosmic fire on the earth, which takes 2 seconds to arm and lasts for 20 seconds. When triggered, the rune blasts all enemies in the target area for 6349 Flame Damage and an additional [7590 / 7656 / 7755 / 7843] Flame Damage over 22 seconds.
 linerank=6
 cost=3240 Magicka
 attrib=Magicka

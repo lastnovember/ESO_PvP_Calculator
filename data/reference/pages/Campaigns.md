@@ -1,7 +1,7 @@
 # Online:Campaigns
 
 Source: https://en.uesp.net/wiki/Online:Campaigns
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 To access Cyrodiil and Alliance vs Alliance PvP, you must first select a Campaign. These are self-contained instances, and the state of the war differs between them. While the physical landscape is the same, each campaign holds different people and has differing rules. Generally, there are six Cyrodiil campaigns and two Imperial City campaigns available for players to join; however, more campaigns are added during events such as Whitestrake's Mayhem.

@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.1.1.0
 Xbox One Patch Notes v1.1.1.0
 Posted 2015-10-12 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/223864 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online: Tamriel Unlimited v1.1.1.0 is an incremental patch for the Xbox One that addresses some common issues such as missing beam effects, invisible prices in the Guild Stores, and items not appearing in the Guild Bank. We’ve also addressed various issues in the Imperial City and its dungeons, general combat and gameplay, UI, and more. The size of today's patch is approximately 1GB.
 FIXES & IMPROVEMENTS

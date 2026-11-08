@@ -1,7 +1,7 @@
 # Online:Oblivion Damage
 
 Source: https://en.uesp.net/wiki/Online:Oblivion_Damage
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Oblivion Damage is a type of damage that cannot be resisted by any damage reduction effects or by Blocking. Physical and Spell Resistance also do not mitigate it and it bypasses Damage Shields by always damaging the Health pool. Dodging however works as usual. Fortunately, sources of Oblivion Damage are very rare, being found mostly as set bonuses. Note that Oblivion Damage cannot do Critical Strikes. So it is more effective against heavily armored enemies.
@@ -39,7 +39,7 @@ Light Armor
 Adds 129 Magicka Recovery, Applying a Major or Minor Debuff to an enemy applies Star Venom to them for 4 seconds. This effect can occur once every 12 seconds with a cooldown of 12 seconds. Whenever an enemy with Star Venom is healed, they take 1170 Oblivion Damage, up to once per 0.1 seconds. An enemy can only be affected by one instance of Star Venom every 12 seconds.
 
 ### Champion Points
-- Occult Overload in the Warfare tree grants the following effect: "Whenever you kill an enemy under the effect of a status effect, they violently explode for 1037 Oblivion Damage per stage to all other enemies in a 4 meter radius, and applying a random status effect to each enemy hit. This effect can occur once every second." As is has five stages, it can deal up to 5,185 Oblivion Damage.
+- Occult Overload in the Warfare tree grants the following effect: "Whenever you kill an enemy under the effect of a status effect, they violently explode for 1037 Oblivion Damage per stage to all other enemies in a 4 meter radius, and applying a random status effect to each enemy hit. This effect can occur once every second." As it has five stages, it can deal up to 5,185 Oblivion Damage.
 
 ### Enemies
 - More enemies, traps and mechanics than you would think actually deal Oblivion Damage in their attacks. Most of them are One-Shot mechanics but more common encounters such as Chaos Balls and self-inflicted damage from Malevolent Offering and its morphs also deal Oblivion Damage.

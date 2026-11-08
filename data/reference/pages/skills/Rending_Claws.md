@@ -7,21 +7,21 @@ Online Skill Summary
 id=58862
 line=Werewolf
 icon=Werewolf-Rending Claws
-desc= Shred up to 6 enemies in front of you with wild abandon, dealing [5287 / 5345 / 5403 / 5461] Physical Damage and an additional [10550 / 10665 / 10785 / 10900] Bleed Damage over 10 seconds. Reduced to [6330 / 6399 / 6471 / 6540] Bleed Damage over 6 seconds against players. The initial hit has a 15% chance of applying Sundered, while the damage over time has a 5% chance of applying Hemorrhaging.
-desc1=Casting Time:, Channel Time: 4.7 seconds, Cost: 383 Stamina / 1s, Target: Area. Shred up to 6 enemies in front of you with furious intent, dealing [58162 / 58799 / 59436 / 60073] Physical Damage in a channeled attack over 4.7 seconds. Dealing damage with this ability generates 15 Fury and a stack of Blood Hunger, up to once per second. This ability deals 25% more damage per stack of Blood Hunger, consumes all stacks when the ability ends, and is considered direct damage.
-desc2= Shred up to 6 enemies in front of you with blood soaked claws, dealing [5461 / 5521 / 5581 / 5641] Physical Damage and an additional 10920 Bleed Damage over 10 seconds. Reduced to 6552 Bleed Damage over 6 seconds against players. You heal for 40% of the initial hit's damage, while you heal for [990 / 1000 / 1011 / 1022] Health with the damage over time, based off your Max Health. The initial hit grants a stack of Blood Hunger per enemy hit and has a 15% chance of applying Sundered, while the damage over time has a 5% chance of applying Hemorrhaging.
+desc= Shred up to 6 enemies in front of you with wild abandon, dealing [5287 / 5345 / 5403 / 5461] Physical Damage and an additional [10555 / 10660 / 10785 / 10895] Bleed Damage over 10 seconds. Reduced to [6333 / 6396 / 6471 / 6537] Bleed Damage over 6 seconds against players. The initial hit has a 15% chance of applying Sundered, while the damage over time has a 5% chance of applying Hemorrhaging.
+desc1=Casting Time:, Channel Time: 4.7 seconds, Cost: 420 Stamina / 1s, Target: Area. Shred up to 6 enemies in front of you with furious intent, dealing [58162 / 58799 / 59436 / 60073] Physical Damage in a channeled attack over 4.7 seconds. Dealing damage with this skill heals you for 1674 Health, based on your Max Health, generates 15 Fury, and a stack of Blood Hunger. These effects can occur once per second. Claw Fury deals 25% more damage per stack of Blood Hunger, consumes all stacks when ending, and is considered direct damage.
+desc2= Shred up to 6 enemies in front of you with blood soaked claws, dealing [5461 / 5521 / 5581 / 5641] Physical Damage and an additional 10915 Bleed Damage over 10 seconds. Reduced to 6549 Bleed Damage over 6 seconds against players. You heal for 40% of the initial damage and heal for [990 / 1000 / 1011 / 1022] Health with the damage over time, based off your Max Health. The initial hit grants a stack of Blood Hunger per enemy hit and has a 15% chance of applying Sundered, while the bleed has a 5% chance of applying Hemorrhaging.
 linerank=9
-cost=995 Stamina
+cost=2340 Stamina
 casttime=Instant
 duration=10 seconds
 target=Cone
 morph1name=Claw Fury
 morph1id=58876
 morph1icon=Werewolf-Claw Fury
-morph1desc=Converts into a direct damage channeled attack. Generates Fury and Blood Hunger and increases in damage based on Blood Hunger stacks.
+morph1desc=Converts into an area direct damage channeled attack. Heals you, generates Fury and Blood Hunger, and increases in damage based on Blood Hunger stacks.
 morph2name=Bloodclaws
 morph2id=58907
-morph2icon=Werewolf-Claws of Life
+morph2icon=Werewolf-Bloodclaws
 morph2desc=The initial hit heals for a portion of the damage caused, while the damage over time heals based off your Max Health.
 area=7 meters
 

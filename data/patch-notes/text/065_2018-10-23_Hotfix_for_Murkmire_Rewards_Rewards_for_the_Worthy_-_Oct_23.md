@@ -2,7 +2,7 @@ Hotfix for Murkmire Rewards & Rewards for the Worthy - Oct 23
 Hotfix for Murkmire Rewards & Rewards for the Worthy - Oct 23
 Posted 2018-10-23 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/442262 ·
-archived 2026-09-12
+archived 2026-10-30
 Hello everyone,
 We just completed a hotfix that fixes two issues from yesterday's update:
 Gear rewards obtained from Murkmire daily quests will now scale to your character's level rather than being level 1

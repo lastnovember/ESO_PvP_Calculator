@@ -1,7 +1,7 @@
 # Online:Weapon Damage
 
 Source: https://en.uesp.net/wiki/Online:Weapon_Damage
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Weapon Damage represents the damage done by non-staff weapons and abilities with a Stamina cost. Your Weapon Damage can be improved by many sets (click for complete list), as well the Major Brutality and Minor Brutality effects, which increase your damage by 20% and 10% respectively.

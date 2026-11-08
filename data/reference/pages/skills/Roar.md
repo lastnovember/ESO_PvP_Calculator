@@ -7,11 +7,11 @@ New images needed Online Skill Summary
 id=42145
 line=Werewolf
 icon=Werewolf-Roar
-desc=Duration: [3 / 3.3 / 3.7 / 4] seconds. Roar with bloodlust to fear nearby enemies for [3 / 3.3 / 3.7 / 4] seconds and setting them Off Balance for 7 seconds. Grants you a stack of Blood Hunger, which empowers Gnash and Claw Fury. Up to 12 nearby allies can activate the Feeding Frenzy synergy, which grants 6% damage done and Minor Force for 30 seconds, increasing Critical Damage by 10%. While slotted you gain Major Prophecy and Savagery.
-desc1= Roar with bloodlust to fear nearby enemies for 4 seconds and setting them Off Balance for 7 seconds. Grants two stacks of Blood Hunger, which empowers Gnash and Claw Fury. You and up to 11 nearby allies gain Major Courage for 20 seconds and can activate the Feeding Frenzy synergy, which grants 6% damage done and Minor Force for 30 seconds. While slotted you gain Major Prophecy and Savagery.
+desc=Duration: [3 / 3.3 / 3.7 / 4] seconds. Roar with bloodlust to fear nearby enemies for [3 / 3.3 / 3.7 / 4] seconds and setting them Off Balance for 7 seconds. Grants you a stack of Blood Hunger, which empowers Gnash and Claw Fury. Up to 12 nearby allies can activate the Feeding Frenzy synergy, which grants 6% damage done and Minor Force for 30 seconds, increasing Critical Damage by 10%. While slotted you gain Major Savagery.
+desc1= Roar with bloodlust to fear nearby enemies for 4 seconds and setting them Off Balance for 7 seconds. Grants two stacks of Blood Hunger, which empowers Gnash and Claw Fury. You and up to 11 nearby allies gain Major Courage for 20 seconds and can activate the Feeding Frenzy synergy, which grants 6% damage done and Minor Force for 30 seconds. While slotted you gain Major Savagery.
 desc2= Roar with bloodlust to fear nearby enemies for 4 seconds, setting them Off Balance for 7 seconds, and applying Major Cowardice and Maim for [12 / 13 / 14 / 15] seconds. Grants you a stack of Blood Hunger. Up to 12 nearby allies can activate the Feeding Frenzy synergy, which grants 6% damage done and Minor Force for 30 seconds. While slotted you gain Major Evasion and Minor Protection. Selecting this morph causes your Gnash to taunt enemies if cast while Bracing.
 linerank=5
-cost=1071 Stamina
+cost=3443 Stamina
 attrib=Stamina
 casttime=0.4 seconds
 radius=6 meters

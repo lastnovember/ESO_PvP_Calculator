@@ -7,9 +7,9 @@ Online Skill Summary
 id=37864
 line=Siphoning
 icon=Siphoning-Cripple
-desc=Sap an enemy's agility and wrack them with pain, dealing [12276 / 12419 / 12551 / 12694] Magic Damage over 20 seconds and reducing their Movement Speed by 30% for 4 seconds.
-desc1=Sap an enemy's agility and wrack them with pain, dealing [12661 / 12793 / 12936 / 13090] Magic Damage over 20 seconds and reducing their Movement Speed by 50% for 4 seconds. This ability has a higher chance of applying the Overcharged status effect.
-desc2=Cost: 2700 Magicka. Sap an enemy's agility and wrack them with pain, dealing [3175 / 3210 / 3244 / 3279] Magic Damage and an additional [11510 / 11630 / 11760 / 11900] Magic Damage over 20 seconds, immobilizing them for 2 seconds, and reducing their Movement Speed by 30% for 4 seconds.
+desc=Sap an enemy's agility and wrack them with pain, dealing [12276 / 12419 / 12540 / 12683] Magic Damage over 20 seconds and reducing their Movement Speed by 30% for 4 seconds.
+desc1=Sap an enemy's agility and wrack them with pain, dealing [12672 / 12804 / 12936 / 13079] Magic Damage over 20 seconds and reducing their Movement Speed by 50% for 4 seconds. This ability has a higher chance of applying the Overcharged status effect.
+desc2=Cost: 2700 Magicka. Sap an enemy's agility and wrack them with pain, dealing [3174 / 3208 / 3243 / 3278] Magic Damage and an additional [11520 / 11640 / 11760 / 11890] Magic Damage over 20 seconds, immobilizing them for 2 seconds, and reducing their Movement Speed by 30% for 4 seconds.
 linerank=20
 cost=2970 Magicka
 attrib=Magicka

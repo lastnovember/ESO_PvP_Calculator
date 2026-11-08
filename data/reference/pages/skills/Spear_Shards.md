@@ -7,9 +7,9 @@ Online Skill Summary
 id=27090
 line=Aedric Spear
 icon=Aedric Spear-Spear Shards
-desc=Send your spear into the heavens to bring down a shower of divine wrath, dealing [4612 / 4662 / 4713 / 4764] Magic Damage to enemies in the area and an additional [437 / 443 / 446 / 451] Magic Damage every 1 second for 10 seconds. An ally near the spear can activate the Blessed Shards Synergy synergy, restoring 3960 Magicka or Stamina, whichever maximum is higher.
+desc=Send your spear into the heavens to bring down a shower of divine wrath, dealing [4612 / 4662 / 4713 / 4764] Magic Damage to enemies in the area and an additional [436 / 441 / 446 / 450] Magic Damage every 1 second for 10 seconds. An ally near the spear can activate the Blessed Shards Synergy synergy, restoring 3960 Magicka or Stamina, whichever maximum is higher.
 desc1=Cost: [2970 / 2880 / 2790 / 2700] Magicka. Send your spear into the heavens to bring down a shower of divine wrath, dealing 4764 Magic Damage to enemies in the area and an additional 453 Magic Damage every 1 second for 10 seconds. You or an ally near the spear can activate the Holy Shards Synergy Blessed Shards synergy, which restores 3960 Magicka and Stamina.
-desc2=Send your spear into the heavens to bring down a shower of divine wrath, dealing 4764 Magic Damage to enemies in the area and an additional [732 / 740 / 748 / 756] Magic Damage every 1 second for 10 seconds. Enemies hit by the initial hit are immobilized for 4 seconds. An ally near the spear can activate the Blessed Shards Synergy synergy, restoring 3960 Magicka or Stamina, whichever maximum is higher.
+desc2=Send your spear into the heavens to bring down a shower of divine wrath, dealing 4764 Magic Damage to enemies in the area and an additional [732 / 741 / 749 / 757] Magic Damage every 1 second for 10 seconds. Enemies hit by the initial hit are immobilized for 4 seconds. An ally near the spear can activate the Blessed Shards Synergy synergy, restoring 3960 Magicka or Stamina, whichever maximum is higher.
 linerank=30
 cost=2970 Magicka
 attrib=Magicka

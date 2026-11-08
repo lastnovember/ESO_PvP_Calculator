@@ -1,7 +1,7 @@
 # Online:Penetration
 
 Source: https://en.uesp.net/wiki/Online:Penetration
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Penetration is a value that represents how much of your damage will break through an opponent's armor. The higher an enemy's armor, the more of your damage is mitigated. For example, if an enemy NPC has 18,200 armor, they will resist 36.4% of your damage. A higher amount of penetration means the more armor you will break through.

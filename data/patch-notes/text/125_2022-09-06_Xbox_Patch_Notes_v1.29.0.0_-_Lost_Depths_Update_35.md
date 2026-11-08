@@ -2,7 +2,7 @@ Xbox Patch Notes v1.29.0.0 - Lost Depths & Update 35
 Xbox Patch Notes v1.29.0.0 - Lost Depths & Update 35
 Posted 2022-09-06 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/616862 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.29.0.0 and the Lost Depths DLC! This DLC continues the Legacy of the Bretons storyline and introduces two new 4-player dungeons for you to explore, along with several new item sets, collectibles and furnishings for you to obtain.
 The Update 35 base game adds a number of new Rewards for the Worthy item sets and furnishings. As mentioned in the
 Update 35 combat preview

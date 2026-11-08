@@ -2,7 +2,7 @@ Update 36 Console Launch - Fixed & Known Issues
 Update 36 Console Launch - Fixed & Known Issues
 Posted 2022-11-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/621925 ·
-archived 2026-09-12
+archived 2026-10-30
 Hi everyone,
 For visibility, below are a list of issues that
 are

@@ -9,7 +9,7 @@ Velothi Ur-Mage's Amulet (achievement)
 ### Bonuses
 
 1 item: Adds 1650 Offensive Penetration
-1 item: Increase your damage done to monsters by 15%, gain Minor Force at all times, increasing your Critical Damage done by 10%, and reduce your Light and Heavy Attack damage by 99%.
+1 item: Increase your damage done to monsters by 15%, gain Minor Force at all times, increasing your Critical Damage done by 10%, and reduce your total damage done with Light and Heavy Attacks by 99%.
 
 ### Fragments
 - Five fragments are required to create the item, all of which require a master-quality Lead in order to scry, and are classed as master difficulty to excavate.

@@ -7,11 +7,11 @@ Online Skill Summary
 id=58740
 line=Werewolf
 icon=Werewolf-Gnash
-desc= Bare your fangs and gnash your teeth into an enemy while ripping back, dealing [3523 / 3561 / 3600 / 3639] Physical Damage on the initial lunge and [3524 / 3561 / 3601 / 3640] Bleed Damage while ripping out. Consumes a stack of Blood Hunger to increase the initial damage done by 25%. The second hit deals up to 125% more damage to enemies with less than 25% Health.
-desc1= Rip and tear into an enemy with your fangs, dealing 3640 Physical Damage while applying Major Breach for 15 seconds and the Sundered status effect on the initial rip and 3639 Bleed Damage while tearing out, when it is done. The second hit deals up to 125% more damage to enemies with less than 25% Health and heals you for [3305 / 3341 / 3377 / 3414], based off your Max Health. Consumes a stack of Blood Hunger to increase the initial damage and healing done by 25%.
-desc2= Bare your fangs and gnash your teeth into an enemy while ripping back, dealing 3640 Physical Damage on the initial lunge and [3639 / 3677 / 3719 / 3758] Bleed Damage while ripping out. Consumes a stack of Blood Hunger to increase the initial damage done by 25%. There is a 50% chance to retain Blood Hunger each cast. The second hit deals up to 200% more damage to enemies with less than 25% Health and applies the Hemorrhaging status effect.
+desc= Bare your fangs and gnash your teeth into an enemy while ripping back, dealing [3523 / 3561 / 3600 / 3639] Physical Damage on the initial lunge and [3522 / 3561 / 3599 / 3638] Bleed Damage while ripping out. Consumes a stack of Blood Hunger to increase the initial damage done by 25%. The second hit deals 125% more damage to enemies with less than 25% Health.
+desc1= Rip and tear into an enemy with your fangs, dealing 3640 Physical Damage while applying Major Breach for 15 seconds and the Sundered status effect on the initial rip and 3638 Bleed Damage while tearing out, when it is done. The second hit deals 125% more damage to enemies with less than 25% Health and heals you for [3305 / 3341 / 3377 / 3414], based off your Max Health. Consumes a stack of Blood Hunger to increase the healing done by 25%.
+desc2=Cost: 1620 Stamina. Bare your fangs and gnash your teeth into an enemy while ripping back, dealing 3640 Physical Damage on the initial lunge and [3638 / 3677 / 3717 / 3758] Bleed Damage while ripping out. Consumes a stack of Blood Hunger to increase the initial damage done by 25%. There is a 50% chance to retain Blood Hunger each cast. The second hit deals 200% more damage to enemies with less than 25% Health and applies the Hemorrhaging status effect.
 linerank=6
-cost=765 Stamina
+cost=1800 Stamina
 casttime=Instant
 range=7 meters
 target=Enemy
@@ -28,7 +28,7 @@ Gnash deals Physical Damage to a single target on the initial attack, and additi
 
 The Rip and Tear morph will apply Sundered and Major Breach on the initial hit and Bleed Damage afterward. The second hit will also heal you if it connects, depending on your Max Health. The second hit will cause increased damage to targets with less than 25% Health. Additionally, the consumed Blood Hunger stack will increase healing rather than damage.
 
-The Bloody Gnash morph and will apply Blood Hunger to increase damage on the first hit, and has a 50% chance of retaining the Blood Hunger stack. The morph will always apply Hemorrhaging on the second hit and increases the execute scaling on this attack for enemies with less than 25% Health.
+The Bloody Gnash morph will apply Blood Hunger to increase damage on the first hit, and has a 50% chance of retaining the Blood Hunger stack. The morph will always apply Hemorrhaging on the second hit and increases the execute scaling on this attack for enemies with less than 25% Health.
 
 ## Patch Notes
 ESO Patch Note|12.0.5|*Piercing Howl -> Gnash: This ability and its morphs have been completely reworked into a melee (7m) driven double bite attack, rather than a 10m projectile howl attack. The ability now scales with.525 of your Weapon or Spell Damage and.065 of your Magicka or Stamina twice, rather than a singular 1.3125 and.125 scaling attack. The initial hit deals Physical Damage, while the second hit deals Bleed Damage. Both attacks have a 10% chance of applying their respective status effects. The second hit happens after.4s (no cast time, so it can be animation canceled with no loss) and deals 125% bonus damage to targets under 25% Health. If 1 or more stacks of Blood Hunger are active, the initial hit deals 25% bonus damage and 1 stack is consumed. Reduced the cost of this ability and its morphs to 765, down from 2869.

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.25.2.0
 Xbox Patch Notes v1.25.2.0
 Posted 2021-10-05 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/588333 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.25.2.0 includes fixes for voice chat and a few game crashes, including some of the frequent crashes occurring on Xbox Series X|S since the last incremental. Also included are a few adjustments for the Hrothgar’s Chill item set. The size of this patch is approximately 906MB.
 General
 Please note the two known issues below are carryovers from the previous incremental patch and are still relevant.

@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.22.1.0
 Xbox One Patch Notes v1.22.1.0
 Posted 2020-11-23 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/553806 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.22.1.0 fixes a number of issues from Update 28 launch including unresponsive Light Attack weaving, the missing leaderboard for Vateshran Hollows, missing UI elements from teammates in Battlegrounds, some vendor recipes that couldn’t be purchased, a number of game crashes (including those most prevalent in dungeons and Trials) and more. The size of this patch is approximately 2.4GB.
 Fixes & Improvements
 Chapters & DLCs

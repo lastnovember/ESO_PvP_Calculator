@@ -2,7 +2,7 @@ Xbox Patch Notes v1.30.1.0
 Xbox Patch Notes v1.30.1.0
 Posted 2022-12-06 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/623388 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.30.1.0 contains several important fixes including a fix for block being cleared after dodge rolling or bashing, a fix for several Antiquity Leads that were not dropping, a number of quest fixes and crashes, a fix for Kjalnar's Mask Style Page not dropping, and more.
 Please note there is a known issue involving block that most commonly occurs when attempting to swap weapons while weapons are being drawn or sheathed, preventing you from blocking again until zoning or relogging. This should be fixed in the next incremental patch.
 The size of this patch is approximately 2.17GB for Xbox One and 1.1GB for Xbox Series X.

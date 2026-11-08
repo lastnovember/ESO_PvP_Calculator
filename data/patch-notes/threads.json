@@ -1008,5 +1008,45 @@
     "id": 697546,
     "slug": "disabling-proc-sets-in-vengeance-starting-at-1-00pm-et-17-00-utc",
     "tier": "unlabeled"
+  },
+  {
+    "id": 699461,
+    "slug": "update-51-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 699518,
+    "slug": "hotfix-sept-28-all-servers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 699599,
+    "slug": "hotfix-sept-29-all-servers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 699616,
+    "slug": "hotfix-2-sept-29-all-servers",
+    "tier": "all-platform"
+  },
+  {
+    "id": 699666,
+    "slug": "hotfix-high-seas-of-tamriel-sept-30",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 700222,
+    "slug": "update-51-inc-1-live-patch-notes-all-platforms",
+    "tier": "all-platform"
+  },
+  {
+    "id": 700246,
+    "slug": "update-51-master-crafting-stations-issue-final-fix-grant",
+    "tier": "unlabeled"
+  },
+  {
+    "id": 700640,
+    "slug": "hotfix-oct-28-all-servers",
+    "tier": "all-platform"
   }
 ]

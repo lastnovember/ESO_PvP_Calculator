@@ -2,7 +2,7 @@ Xbox Patch Notes v1.41.0.0 | Update 47
 Xbox Patch Notes v1.41.0.0 | Update 47
 Posted 2025-09-03 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/682702 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.41.0.0 and our latest content release, the Feast of Shadows Dungeon Pack and Update 47. This is the continuation of the Season of the Worm Cult Content Pass.
 The new Feast of Shadows Dungeon Pack contains two brand new dungeons to challenge your skills. The first dungeon, Naj-Caldeesh, pits you against a group of Argonian necromancers, seeking to corrupt and control an ancient xanmeer’s keystone. It’s up to you and your allies to stop them before they can complete their nefarious machinations. In the second dungeon, Black Gem Foundry, you and your party must venture into a Coldharbour manufactory and shut down their ability to craft terrifying soul-stealing armaments. Both dungeons present new challenges for you and your allies to face, along with new gear to collect.
 In addition to the DLC Pack, there are several base game quality of life features coming in Update 47. The long requested Stackable Survey Reports, allowing you to save some inventory space while keeping those survey reports organized. Quest Dialogue Replay is here to help in case you missed the last bit of dialogue in a quest conversation. Last but certainly not least, mount travel has gotten even better with the addition of Mount Swimming.

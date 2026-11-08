@@ -2,7 +2,7 @@ Xbox Patch Notes v1.36.0.0 | Gold Road & Update 42
 Xbox Patch Notes v1.36.0.0 | Gold Road & Update 42
 Posted 2024-06-18 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/660749 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.36.0.0 and our latest Chapter: Gold Road! Investigate the return of Ithelia, a Daedric Prince never seen before in the Elder Scrolls series. Uncover the schemes of her most devoted followers and protect Tamriel from the chaos of unbridled change.
 Venture into West Weald, home to the wealthy Colovian Imperials and the city of Skingrad. Encounter a bountiful region first seen in The Elder Scrolls IV: Oblivion, now beset by Daedric incursions and the encroaching jungles of Valenwood. Or you can play with the nature of magic itself with Scribing, an all-new game system unique to Gold Road. Collect and customize skills to tailor your builds, granting you the power and freedom to truly play your way.
 There’s a variety of new things to collect including new item sets, Mythic items, mounts, pets, even 22 new Skill Styles which are new color variations of popular existing skills. And you won’t want to miss the new 12-player Trial, Lucent Citadel, which has some surprises along the way.

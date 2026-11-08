@@ -1,7 +1,7 @@
 # Online:Jewelry Crafting
 
 Source: https://en.uesp.net/wiki/Online:Jewelry_Crafting
-Fetched: 2026-09-19
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Jewelry Crafting is a skill line that was released along with the Summerset Chapter in June 2018. It for the first time allows you to craft and improve Jewelry, including the ability to make jewelry items in all Craftable Sets. It works in a similar fashion to the Blacksmithing, Clothing, and Woodworking lines, with researchable traits and associated trait items, harvestable leveled materials, and crafting sites added in all regular crafting areas.

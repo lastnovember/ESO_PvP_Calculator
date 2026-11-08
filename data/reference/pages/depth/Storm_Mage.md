@@ -17,9 +17,9 @@ Northwind Mine, Secluded SewersThieves Guild | Stonetalon Initiate | Breton | Va
 ## Skills and Abilities
 ;Shock:Basic ranged attack dealing minor shock damage.
 ;Thunder Thrall: The enemy teleports to you and summons a bolt of lightning that strikes a large area around itself, dealing moderate shock damage to all targets as indicated by the red circle.
+;Run Away!:When too close to them, the storm mage backs up to put some distance between their target and themselves.
 ;Impending Storm: The enemy charges up and releases lightning from itself as indicated by red circles. This attack does moderate shock damage to all targets hit. This attack can be interrupted to set the enemy off balance. (On some Storm Mages)
 ;Negate Magic: The enemy channels a spell for a short duration before casting, creating a large purple bubble around itself that negates players inside, preventing the use of abilities costing Health, Magicka, Ultimate or have no cost at all. This can be interrupted. (On more recent Storm Mages)
-;Run Away!:When too close to them, the storm mage backs up to put some distance between their target and themselves.
 
 ## Tables extracted from this page
 

@@ -10,8 +10,8 @@ id2=45172
 line=Dark Magic
 type=Passive
 icon=Dark Magic-Blood Magic
-desc=When you cast a Dark Magic ability with a cost, you heal for 800 Health if you are not at full Health. This portion of the ability scales off your Max Health. If your Health is full, the higher of your Max Magicka or Stamina is increased by 5% for 10 seconds.
-desc2=When you cast a Dark Magic ability with a cost, you heal for 1600 Health if you are not at full Health. This portion of the ability scales off your Max Health. If your Health is full, the higher of your Max Magicka or Stamina is increased by 10% for 10 seconds.
+desc=When you cast a Dark Magic ability with a cost, you heal for 480 Health if you are not at full Health. This portion of the ability scales off your Max Health. If your Health is full, the higher of your Max Magicka or Stamina is increased by 5% for 10 seconds.
+desc2=When you cast a Dark Magic ability with a cost, you heal for 960 Health if you are not at full Health. This portion of the ability scales off your Max Health. If your Health is full, the higher of your Max Magicka or Stamina is increased by 10% for 10 seconds.
 linerank1=14
 linerank2=27
 

@@ -7,9 +7,9 @@ Online Skill Summary
 id=46385
 line=Assault
 icon=Assault-Caltrops
-desc=Hurl a ball of caltrops that scatter over the target area, dealing [742 / 750 / 758 / 766] Physical Damage every 1 second to enemies inside, and reducing their Movement Speed by 50%.
-desc1=Duration: [12 / 13 / 14 / 15] seconds. Hurl a ball of caltrops that scatter over the target area, dealing 767 Physical Damage every 1 second to enemies inside, and reducing their Movement Speed by 50%. The caltrops also drain the Mount Stamina of any enemy in the area.
-desc2=Hurl a ball of caltrops that scatter over the target area, dealing 767 Physical Damage every 1 second to enemies inside, and reducing their Movement Speed by 50%. Enemies who take damage from the caltrops have Major Breach applied to them, reducing their ESO Resistance Link|Physical | |y and Spell Resistance by 5948 for [1.1 / 2.1 / 3.1 / 4.1] seconds.
+desc=Hurl a ball of caltrops that scatter over the target area, dealing [743 / 752 / 759 / 768] Physical Damage every 1 second to enemies inside, and reducing their Movement Speed by 50%.
+desc1=Duration: [12 / 13 / 14 / 15] seconds. Hurl a ball of caltrops that scatter over the target area, dealing 768 Physical Damage every 1 second to enemies inside, and reducing their Movement Speed by 50%. The caltrops also drain the Mount Stamina of any enemy in the area.
+desc2=Hurl a ball of caltrops that scatter over the target area, dealing 768 Physical Damage every 1 second to enemies inside, and reducing their Movement Speed by 50%. Enemies who take damage from the caltrops have Major Breach applied to them, reducing their ESO Resistance Link|Physical | |y and Spell Resistance by 5948 for [1.1 / 2.1 / 3.1 / 4.1] seconds.
 linerank=6
 cost=2295 Stamina
 attrib=Stamina

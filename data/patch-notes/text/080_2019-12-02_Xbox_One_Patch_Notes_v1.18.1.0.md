@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.18.1.0
 Xbox One Patch Notes v1.18.1.0
 Posted 2019-12-02 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/504017 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.18.1.0 includes several adjustments for the Activity Finder to improve stability and a fix for a memory leak that was causing frequent game freezes or crashes. Also included are a number of fixes for quests and combat abilities, plus a fix for the server select screen displaying the wrong server you are logging into, among several other things detailed below. The size of this patch is approximately 27.18GB.
 Fixes & Improvements
 DLCs & Chapters

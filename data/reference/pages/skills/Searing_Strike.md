@@ -7,9 +7,9 @@ Online Skill Summary
 id=23886
 line=Ardent Flame
 icon=Ardent Flame-Searing Strike
-desc=Slash your foe with a fiery claw, dealing [3074 / 3107 / 3141 / 3175] Flame Damage and an additional [9220 / 9315 / 9415 / 9520] Flame Damage over 10 seconds. The initial hit always applies the Burning status effect.
-desc1=Cost: 2295 Stamina. Slash your foe with a fiery claw, dealing 3175 Flame Damage and an additional 9525 Flame Damage over 10 seconds. The flame sears into the target, dealing [7 / 8 / 9 / 10]% more damage every 2 seconds. The initial hit always applies the Burning status effect.
-desc2=Slash your foe with a fiery claw, dealing 3175 Flame Damage and an additional 9525 Flame Damage over 10 seconds. You heal for [3305 / 3340 / 3377 / 3413] Health from the initial hit and [494 / 499 / 504 / 510] Health each subsequent tick, scaling off your Max Health. The initial hit always applies the Burning status effect.
+desc=Slash your foe with a fiery claw, dealing [3074 / 3107 / 3141 / 3175] Flame Damage and an additional [9210 / 9305 / 9410 / 9515] Flame Damage over 10 seconds. The initial hit always applies the Burning status effect.
+desc1=Cost: 2295 Stamina. Slash your foe with a fiery claw, dealing 3175 Flame Damage and an additional 9520 Flame Damage over 10 seconds. The flame sears into the target, dealing [7 / 8 / 9 / 10]% more damage every 2 seconds. The initial hit always applies the Burning status effect.
+desc2=Slash your foe with a fiery claw, dealing 3175 Flame Damage and an additional 9520 Flame Damage over 10 seconds. You heal for [3304 / 3340 / 3376 / 3413] Health from the initial hit and [494 / 499 / 505 / 510] Health each subsequent tick, scaling off your Max Health. The initial hit always applies the Burning status effect.
 linerank=4
 cost=2295 Magicka
 attrib=Magicka

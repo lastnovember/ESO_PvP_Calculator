@@ -1,7 +1,7 @@
 # Online:Stealth
 
 Source: https://en.uesp.net/wiki/Online:Stealth
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Stealth, also known as Sneak, governs your ability to escape detection by others through reducing your visibility and noisiness. It is primarily useful for evading confrontation with enemies, and for executing surprise attacks that inflict critical damage.

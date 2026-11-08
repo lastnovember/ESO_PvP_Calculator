@@ -45,7 +45,6 @@ Generic Members
 
 ;Montclair Archer
 ;Montclair Brute
-;Montclair Captain
 ;Montclair Charger
 ;Montclair Immortal
 ;Montclair Knight

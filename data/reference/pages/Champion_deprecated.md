@@ -1,7 +1,7 @@
 # Online:Champion/deprecated
 
 Source: https://en.uesp.net/wiki/Online:Champion/deprecated
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Update 29]] was released810
@@ -146,7 +146,3 @@ Imperial Chancellor Costume
 - tables/uesp_Online_Champion_deprecated_t20.csv (4 rows): Champion Abilities | Effect
 - tables/uesp_Online_Champion_deprecated_t21.csv (4 rows): Passive Unlocks | Rank | Effect
 - tables/uesp_Online_Champion_deprecated_t22.csv (5 rows): Level | Reward
-- tables/depth_Champion_deprecated_t00.csv (12 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
-- tables/depth_Champion_deprecated_t01.csv (12 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
-- tables/depth_Champion_deprecated_t02.csv (10 rows): Champ. Level | Points Per Group | Distribution | Number of Perks
-- tables/depth_Champion_deprecated_t03.csv (5 rows): Level | Reward

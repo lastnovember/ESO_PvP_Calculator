@@ -8,7 +8,7 @@ Harmony in Chaos is a trial set found in normal Ossein Cage. It cannot be crafte
 ### Bonuses
 
 2 items: Adds 3-129 Weapon Damage and Spell Damage
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: Adds 4-200 Weapon Damage and Spell Damage
 5 items: While in combat, activating a synergy increases your Weapon Damage and Spell Damage by 88 for 15 seconds, stacking up to 5 times.

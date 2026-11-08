@@ -7,9 +7,9 @@ Skill Online Skill Summary
 id=34031
 line=Draconic Power
 icon=Draconic Power-Dragonfire Breath
-desc=Exhale a blast of draconic fire in front of you, dealing [4612 / 4662 / 4713 / 4764] Flame Damage and an additional [7670 / 7745 / 7840 / 7915] Flame Damage over 10 seconds to enemies in your path.
-desc1=Exhale a blast of draconic fire in front of you, dealing [4764 / 4816 / 4868 / 4921] Flame Damage, applying the Burning status effect, and an additional [7940 / 8025 / 8105 / 8195] Flame Damage over 10 seconds to enemies in your path. The initial hit liquifies the armor of your enemies, applying Major Breach to enemies for the duration, reducing ESO Resistance Link|Physical | |y and Spell Resistance by 5948.
-desc2=Casting Time:, Channel Time: 4.8 seconds, Cost: 3780 Magicka, Target: Area. Breathe forth an unending torrent of draconic fire, dealing [3670 / 3710 / 3750 / 3791] Flame Damage every 0.5 seconds in a channeled attack over 4.8 seconds. Each tick increases the damage dealt by 5%, up to a maximum of 50%. While Take Flight is active you always deal maximum damage. This ability is considered direct damage but can trigger Wildfire Embers once every 4 seconds.
+desc=Exhale a blast of draconic fire in front of you, dealing [4612 / 4662 / 4713 / 4764] Flame Damage and an additional [7670 / 7755 / 7845 / 7925] Flame Damage over 10 seconds to enemies in your path.
+desc1=Exhale a blast of draconic fire in front of you, dealing [4764 / 4816 / 4868 / 4921] Flame Damage, applying the Burning status effect, and an additional [7930 / 8010 / 8105 / 8190] Flame Damage over 10 seconds to enemies in your path. The initial hit liquifies the armor of your enemies, applying Major Breach to enemies for the duration, reducing ESO Resistance Link|Physical | |y and Spell Resistance by 5948.
+desc2=Casting Time:, Channel Time: 4.8 seconds, Cost: 3510 Magicka, Target: Area. Breathe forth an unending torrent of draconic fire, dealing [3670 / 3710 / 3750 / 3791] Flame Damage every 0.5 seconds in a channeled attack over 4.8 seconds. While channeling, reduce your damage taken by 15%. Each tick increases the damage dealt by 5%, up to a maximum of 50%. While Take Flight is active you always deal maximum damage. This ability is considered direct damage but can trigger Wildfire Embers once every 4 seconds.
 linerank=1
 cost=2984 Stamina
 casttime=Instant

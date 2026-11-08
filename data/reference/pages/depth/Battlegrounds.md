@@ -3,7 +3,7 @@
 Source: https://en.uesp.net/wiki/Online:Battlegrounds
 License: CC BY-SA, UESP
 
-Battlegrounds are small-scale player-versus-player (PvP) gameplay locations that can be accessed through the Group & Activity Finder. Initially, each battleground featured a three-sided team setup with four players in each team, but since Update 44 this has been revamped to two-sided team setups with four or eight players per team. At launch, there were three battleground maps and three game types: Capture the Flag, Team Deathmatch, and Domination, with more were added in later updates. Battlegrounds feature leaderboard and have their own unique item set and style pages rewards.
+Battlegrounds are small-scale player-versus-player (PvP) gameplay locations that can be accessed through the Group & Activity Finder. Initially, each battleground featured a three-sided team setup with four players in each team, but since Update 44 this has been revamped to two-sided team setups with four or eight players per team. With the release of Update 51, the team setups were changed for the non-competitive matches, with two-sided team setups having nine players per team and three-sided team setups having six players per team. As a result, both setups were combined into a single queue system to accommodate 18 players for each match. At launch, there were three battleground maps and three game types: Capture the Flag, Team Deathmatch, and Domination, with more were added in later updates. Battlegrounds feature leaderboard and have their own unique item set and style pages rewards.
 
 Unlike in Cyrodiil, Battlegrounds are not Alliance-based. Instead, players can fight for the Fire Drakes (Orange), Pit Daemons (Green), or Storm Lords (Purple). Your team is assigned randomly on entering each Battleground, and you are able to queue up for Battlegrounds individually or in pre-formed groups.
 
@@ -16,7 +16,7 @@ style="padding:0px 15px; text-align:center;"|
 
 style="padding:0px 15px; text-align:center;"|Fire Drakes
 style="padding:0px 15px; text-align:center;"|Pit Daemons
-style="padding:0px 15px; text-align:center;"|Storm Lords (only during 3 teams events)
+style="padding:0px 15px; text-align:center;"|Storm Lords (Three team matches only)
 
 ## Game Modes
 Battlegrounds are divided into three types:
@@ -29,7 +29,7 @@ Battlegrounds are divided into three types:
 - Domination: Capture and hold sites across the map, continually earning points based on locations held.
 4v4 maps do not have Flag Games ("Capture the Relic" and "Chaos Ball") and Deathmatch includes extra conditions: each player has 3 lives and the team should win 2 out of 3 rounds.
 
-8v8 maps all have powerups, similar to arenas sigils, spread around the arena to activate. There are 4 types of power ups and lasting 30 seconds: the red axe (Battleground Powerup, Damage) gives increased damage done, the blue shield (Battleground Powerup, Defense) gives increased movement speed, the green feather (Battleground Powerup, Speed) gives the Major Expedition buff and the yellow crown (Battleground Powerup, Ultimate) gives 500 Ultimate.
+9v9 maps all have powerups, similar to arenas sigils, spread around the arena to activate. There are 4 types of power ups and lasting 30 seconds: the red axe (Battleground Powerup, Damage) gives increased damage done, the blue shield (Battleground Powerup, Defense) gives increased movement speed, the green feather (Battleground Powerup, Speed) gives the Major Expedition buff and the yellow crown (Battleground Powerup, Ultimate) gives 500 Ultimate.
 
 In all game modes, tie breakers are as follows: If both teams have the same score, the team with the highest medal score and also in Competitive Deathmatch the most lives remaining, wins. If both teams are still tied, both teams will be assessed as not winning, but also not losing for reward purposes.
 
@@ -39,7 +39,7 @@ Before the game starts, you get the "24 Suppression", "24 Chain Pull Range Suppr
 Before and when in the game, you get the "24 Move Out" effect for two minutes when spawning on you team's ledge. When it runs out you are forcefully moved into the arena. This is put to prevent griefing. If the match is still searching for players and the arena hasn't opened yet when Move Out expires, you'll be teleported to your spawn point with the rest of your team, and Move Out will restart.
 
 ## Locations
-- Three Team Battlegrounds (4v4v4):
+- Three Team Battlegrounds (6v6v6):
 - Ald Carac: A dilapidated ruin of an ancient Dwemer city
 - Arcane University: A ruined outer district of the Imperial City, once Tamriel's center of magical learning
 - Ularra: An old overgrown Daedric worshipping site
@@ -50,12 +50,12 @@ Before and when in the game, you get the "24 Move Out" effect for two minutes wh
 - Eld Angavar: An extraplanar Ayleid complex floating in an otherworldly void (has two separate maps)
 - Two Team Battlegrounds:
 - Coldharbour Colosseum: An Imperial arena pulled into Coldharbour (4v4 Deathmatch)
-- Huntsman's Fortress: A Breton fortress in the Systres Archipelago (4v4 or 8v8)
-- Mota-ka: An abandoned temple in the mountains of Murkmire (4v4 or 8v8)
-- Strid River Valley: An abandoned Bosmer village by the Strid River (8v8)
-- Port Dufort: A Breton town in the Systres Archipelago (8v8)
-- Reman's Folly: An abandoned vault buried beneath Cyrodiil (8v8)
-- Shehai Waystation: A Yokudan ruin in the Alik'r Desert (8v8)
+- Huntsman's Fortress: A Breton fortress in the Systres Archipelago (4v4)
+- Mota-ka: An abandoned temple in the mountains of Murkmire (4v4)
+- Strid River Valley: An abandoned Bosmer village by the Strid River (9v9)
+- Port Dufort: A Breton town in the Systres Archipelago (9v9)
+- Reman's Folly: An abandoned vault buried beneath Cyrodiil (9v9)
+- Shehai Waystation: A Yokudan ruin in the Alik'r Desert (9v9)
 
 ## Rewards
 As you participate in matches, you will earn points and medals based on the game mode. Points are earned for completing the game mode's primary objectives: killing enemies, capturing flags, defending locations, and holding the chaos ball. Medals are earned for unique feats related to the game mode, including dealing damage, healing allies, performing kill streaks, capturing or defending flags, healing flag carriers, and taking damage.
@@ -127,7 +127,7 @@ File:ON-concept-Battlegrounds Banners.jpg|Concept art
 
 ## Tables extracted from this page
 
-- tables/uesp_Online_Battlegrounds_t00.csv (1 rows): Fire Drakes | Pit Daemons | Storm Lords (only during 3 teams events)
+- tables/uesp_Online_Battlegrounds_t00.csv (1 rows): Fire Drakes | Pit Daemons | Storm Lords (Three team matches only)
 - tables/uesp_Online_Battlegrounds_t01.csv (7 rows): Battlemaster Rivyn's Reward Box | Battlemaster Rivyn's Competitive Reward Box | Weekly Leaderboard Rewards
 - tables/uesp_Online_Battlegrounds_t02.csv (3 rows): A Champion's Prize | Renown and Rewards
 - tables/depth_Battlegrounds_t00.csv (1 rows): File:ON-icon-Fire Drakes.png | File:ON-icon-Pit Daemons.png | File:ON-icon-Storm Lords.png

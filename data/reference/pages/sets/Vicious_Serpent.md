@@ -8,7 +8,7 @@ Vicious Serpent is a trial set which drops in the Sanctum Ophidia. It cannot be 
 ### Bonuses
 
 2 items: Adds 15-657 Critical Chance
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 15-657 Critical Chance
 5 items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: Reduces the cost of your Stamina abilities by 8%. When an enemy you have recently damaged dies, you restore 57-2454 Stamina and gain Major Expedition for 8 seconds, increasing your Movement Speed by 30%. These effects can occur once every second.

@@ -8,7 +8,7 @@ id=263872
 line=Class Mastery
 type=Passive
 icon=Class Mastery-Static Reverberation
-desc=The battlefield crackles with untapped potential. Make use of it. When you deal damage, you have a 5% chance to deal 942 Shock Damage, up to once every 0.3 seconds. The chance increases by 1% for every 1% missing Health the target has. The chance is divided by 1 plus every permanent pet you have active.
+desc=The battlefield crackles with untapped potential. Make use of it. When you deal damage with a Sorcerer ability, you have a 20% chance to deal 942 Shock Damage, up to once every 0.1 seconds. The chance increases by 1% for every 1% missing Health the target has. The total chance is divided by 1 plus every permanent pet you have active.
 linerank1=1
 
 Static Reverberation will grant you the chance to cause Shock Damage each time you deal damage, once every 0.3 seconds. The chance increases depending on the amount of missing Health the target has. This chance will be divided by 1 plus every permanent pet you have active.

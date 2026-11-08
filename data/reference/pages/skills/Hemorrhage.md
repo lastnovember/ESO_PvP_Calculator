@@ -10,8 +10,8 @@ id2=45060
 line=Assassination
 type=Passive
 icon=Assassination-Hemorrhage
-desc=WITH AN ASSASSINATION ABILITY SLOTTED Increases your Critical Damage by 5%. Critically striking in any form grants you and your group Minor Savagery, increasing your Weapon Critical rating by 1314 for 10 seconds.
-desc2=WITH AN ASSASSINATION ABILITY SLOTTED Increases your Critical Damage by 10%. Critically striking in any form grants you and your group Minor Savagery, increasing your Weapon Critical rating by 1314 for 20 seconds.
+desc=WITH AN ASSASSINATION ABILITY SLOTTED Increases your Critical Damage by 5%. Critically striking in any form grants you and your group Minor Savagery, increasing Critical Chance by 6% for 10 seconds.
+desc2=WITH AN ASSASSINATION ABILITY SLOTTED Increases your Critical Damage by 10%. Critically striking in any form grants you and your group Minor Savagery, increasing Critical Chance by 6% for 20 seconds.
 linerank1=39
 linerank2=50
 

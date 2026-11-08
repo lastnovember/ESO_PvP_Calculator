@@ -7,9 +7,9 @@ Online Skill Summary
 id=43363
 line=Undaunted
 icon=Undaunted-Inner Fire
-desc=Ignite the fires of hate in an enemy's heart, dealing [2767 / 2797 / 2827 / 2858] Flame Damage and taunting them to attack you for 15 seconds. An ally targeting the taunted enemy can activate the Radiate Synergy synergy, dealing 3684 Flame Damage to them over 3 seconds then an additional 6147 Flame Damage to them and other nearby enemies.
-desc1=Ignite the fires of hate in an enemy's heart, dealing [2858 / 2889 / 2920 / 2952] Flame Damage and taunting them to attack you for 15 seconds. Up to 3 allies targeting the taunted enemy can activate the Radiate Synergy synergy, dealing 3684 Flame Damage to them over 3 seconds then an additional 6147 Flame Damage to them and other nearby enemies.
-desc2=Cost: 2295 Stamina. Ignite the fires of hate in an enemy's heart, dealing [5717 / 5779 / 5842 / 5905] Physical Damage, taunting them to attack you, and applying Minor Maim and Minor Vulnerability for 15 seconds, reducing their damage done and increasing their damage taken by 5%. An ally targeting the enemy can activate the Radiate Synergy synergy, dealing 3684 Flame Damage to them over 3 seconds then an additional 6147 Flame Damage to them and other nearby enemies.
+desc=Ignite the fires of hate in an enemy's heart, dealing [2767 / 2797 / 2827 / 2858] Flame Damage and taunting them to attack you for 15 seconds. An ally targeting the taunted enemy can activate the Radiate Synergy synergy, dealing 3684 Flame Damage to them over 3 seconds then an additional 6146 Flame Damage to them and other nearby enemies.
+desc1=Ignite the fires of hate in an enemy's heart, dealing [2858 / 2889 / 2920 / 2952] Flame Damage and taunting them to attack you for 15 seconds. Up to 3 allies targeting the taunted enemy can activate the Radiate Synergy synergy, dealing 3684 Flame Damage to them over 3 seconds then an additional 6146 Flame Damage to them and other nearby enemies.
+desc2=Cost: 2295 Stamina. Ignite the fires of hate in an enemy's heart, dealing [5717 / 5779 / 5842 / 5905] Physical Damage, taunting them to attack you, and applying Minor Maim and Minor Vulnerability for 15 seconds, reducing their damage done and increasing their damage taken by 5%. An ally targeting the enemy can activate the Radiate Synergy synergy, dealing 3684 Flame Damage to them over 3 seconds then an additional 6146 Flame Damage to them and other nearby enemies.
 linerank=3
 cost=1620 Magicka
 attrib=Magicka

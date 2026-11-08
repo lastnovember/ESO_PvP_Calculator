@@ -8,7 +8,7 @@ Perfected Transformative Hope is a trial set found in veteran Sanity's Edge. It 
 ### Bonuses
 
 2 items: Adds 4% Healing Done
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 3-129 Magicka Recovery
 5 perfected items: Adds 4% Healing Done
 5 items: While in combat, when you heal yourself or an ally that is below 50% Health, you ignite a Spark of Hope within them for 3 seconds. If they are above 90% Health when the effect ends, you and the ally gain Major Heroism for 15 seconds. This effect can occur once every 20 seconds per target.

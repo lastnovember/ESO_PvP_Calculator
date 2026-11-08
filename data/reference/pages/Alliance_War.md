@@ -1,7 +1,7 @@
 # Online:Alliance War
 
 Source: https://en.uesp.net/wiki/Online:Alliance_War
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 The Alliance War is the ongoing conflict between the Aldmeri Dominion, the Daggerfall Covenant, and the Ebonheart Pact to wrest control of the Ruby Throne from the Empire of Cyrodiil. Starting at Level 10, players will have the opportunity to join in the battle in Cyrodiil for their chosen alliance.

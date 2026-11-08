@@ -2,7 +2,7 @@ Xbox Patch Notes v1.37.1.0
 Xbox Patch Notes v1.37.1.0
 Posted 2024-09-18 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/665917 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.37.1.0 fixes several issues from Update 43 launch, including fixes for Gold Road and Base Game content. Included are fixes to Summon Shade and Winter’s Embrace abilities, adjustments to Ithelia’s facial animations when speaking, and fixes to some Infinite Archive functionality. You’ll find those and several other notable game fixes and adjustments listed below. The size of this patch is approximately 5.7GB (XB1)/ 2.37 (XBX).
 Overview
 Combat & Gameplay

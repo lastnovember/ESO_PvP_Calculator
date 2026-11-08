@@ -1,7 +1,7 @@
 # Online:Werewolf
 
 Source: https://en.uesp.net/wiki/Online:Werewolf
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Werewolf went through major update, including the quests. Needs overhaul
@@ -107,6 +107,10 @@ Rank | Points Required for Next Rank | Total Points for Rank
 
 ## Equipment
 - The 5-item Salvation set bonus "Reduce cost of Werewolf Transformation by 33%" results in a net cost of 200 Ultimate.
+- The 5-item Hide of the Werewolf set bonus can provide 18 Ultimate when taking damage while in Werewolf Transformation.
+- The 5-item Savage Werewolf provides 6% increased damage done if you are in Werewolf Transformation.
+- The Mythic Shapeshifter's Chain reduces Werewolf abilities' costs and buffs your resources.
+- The monster helm set Mylenne Moon-Caller grants 15 fury and 1 Blood Hunger when dealing damage with a werewolf attack every 10 seconds.
 
 ## Achievements
 There are seven achievements associated with Lycanthropy:

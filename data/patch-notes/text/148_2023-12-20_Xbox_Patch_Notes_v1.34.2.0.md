@@ -2,7 +2,7 @@ Xbox Patch Notes v1.34.2.0
 Xbox Patch Notes v1.34.2.0
 Posted 2023-12-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/649070 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.34.2.0 includes several adjustments to change the English name of “Endless Archive” to “Infinite Archive”. This patch only includes changes for in-game text, with VO changes to be added in the future. Also included are several fixes for Endless Archive, including situations where you could lose a thread inexplicably and making it so pets and companions take less damage. The size of this patch is approximately 1.61GB for Xbox One and 1.31GB for Xbox Series S|X.
 General
 Fixed issue where Grandmaster Crafting Stations would refresh their effects whenever another player entered a home with a station present.

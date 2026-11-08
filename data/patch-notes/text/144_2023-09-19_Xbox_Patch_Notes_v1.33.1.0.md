@@ -2,7 +2,7 @@ Xbox Patch Notes v1.33.1.0
 Xbox Patch Notes v1.33.1.0
 Posted 2023-09-19 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/643443 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.33.1.0 includes fixes for Mundus Stone effects periodically being removed from your character, the Cleansing Revival Champion star, Enervating Aura PvP item set, Cyrodiil leaderboards not updating, and more. Please make sure to note the temporary change we needed to make to Inferno and Ice Staff Heavy Attacks, explained below. The size of this patch is approximately 1.2GB.
 General
 Abilities that vary in cost mechanics will now show their proper cost mechanic, even if the skill is not yet learned or slotted, to lessen any confusion around what the ability will cost before you slot it onto your bar. This change covers the following abilities:

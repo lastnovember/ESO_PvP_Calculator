@@ -4,6 +4,8 @@
 '''Enchanting''' is a [[Online:Crafting|crafting]] profession in ''[[Online:Online|Elder Scrolls Online]]''. You can use it to combine [[Online:Runestones|Runestones]] into [[ON:Glyphs|Glyphs]], which add magical effects to [[ON:Weapons|weapons]], [[ON:Armor|armor]] and [[ON:Jewelry|jewelry]]. Once you are [[ON:Crafting_Certification|Certified]] in this craft, you will have access to repeatable [[ON:Crafting_Writs|Crafting Writ quests]].
 
 In addition to glyphs, the Enchanting skill allows you to craft [[ON:Furnishing Praxes|furnishings]] for your home.
+
+{{FMI}}
 {{NewLeft}}
 __TOC__
 == Learning ==

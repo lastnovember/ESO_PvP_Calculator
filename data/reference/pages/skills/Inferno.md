@@ -7,9 +7,9 @@ Online Skill Summary
 id=34061
 line=Ardent Flame
 icon=Ardent Flame-Inferno
-desc=Activate an aura of flames which launches a wave of flame around you every 5 seconds, dealing [4612 / 4662 / 4713 / 4764] Flame Damage to enemies inside. While slotted on either bar, you gain Major Prophecy and Savagery, increasing your ESO Spell Critical Link | |y and Weapon Critical rating by 2629.
-desc1=Activate an aura of flames which launches a wave of flames every 5 seconds, dealing [5240 / 5297 / 5355 / 5412] Flame Damage to enemies inside. Each hit has a 15% chance of applying Burning. While slotted on either bar, you gain Major Prophecy and Savagery, increasing your ESO Spell Critical Link | |y and Weapon Critical rating by 2629.
-desc2=Radius: 15 meters. Activate an aura of embers which cauterizes the wounds of you or up to 6 nearby allies every 3 seconds, healing for [3175 / 3209 / 3244 / 3279] Health. While slotted on either bar, you gain Major Prophecy and Savagery, increasing your ESO Spell Critical Link | |y and Weapon Critical rating by 2629.
+desc=Activate an aura of flames which launches a wave of flame around you every 5 seconds, dealing [4612 / 4662 / 4713 / 4764] Flame Damage directly to enemies inside. While slotted on either bar, gain Major Savagery, increasing Critical Chance by 12%.
+desc1=Activate an aura of flames which launches a wave of flames every 5 seconds, dealing [5240 / 5297 / 5355 / 5412] Flame Damage directly to enemies inside. Each hit has a 15% chance of applying Burning. While slotted on either bar, gain Major Savagery, increasing Critical Chance by 12%.
+desc2=Radius: 15 meters. Activate an aura of embers which cauterizes the wounds of you or up to 6 nearby allies every 3 seconds, healing for [3175 / 3209 / 3244 / 3279] Health. While slotted on either bar, gain Major Savagery, increasing Critical Chance by 12%.
 linerank=42
 cost=4050 Magicka
 attrib=Magicka

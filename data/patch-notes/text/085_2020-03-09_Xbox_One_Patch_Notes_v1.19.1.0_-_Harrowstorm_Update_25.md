@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.19.1.0 - Harrowstorm & Update 25
 Xbox One Patch Notes v1.19.1.0 - Harrowstorm & Update 25
 Posted 2020-03-09 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/515838 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.19.1.0 and the start of the Dark Heart of Skyrim with the Harrowstorm DLC game pack! Harrowstorm introduces two new 4-player dungeons – Icereach and Unhallowed Grave – in addition to a number of new item sets and collectibles. Our biggest focus for this update was further improving game performance, with an emphasis on frame rate stability, ultimately resulting in fewer drops in your game’s framerate. The combat changes you’ll see support this goal, which you can read more about in
 this forum post
 .

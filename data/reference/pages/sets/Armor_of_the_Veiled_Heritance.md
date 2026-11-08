@@ -10,7 +10,7 @@ Armor of the Veiled Heritance is an overland set that drops in Auridon. It canno
 2 items: Adds 3-129 Weapon Damage and Spell Damage
 3 items: Adds 34-1487 Armor
 4 items: Adds 34-1487 Armor
-5 items: When you interrupt an enemy, you gain 12-516 Weapon Damage and Spell Damage for 15 seconds. Your Bash attacks deal 12-516 more damage.
+5 items: When you interrupt a target while in combat, you gain 12-516 Weapon Damage and Spell Damage for 15 seconds. Your Bash attacks deal 12-516 more damage.
 
 ### Pieces
 The set consists of heavy armor and jewelry in all slots, as well as weapons and shields of all types. Unique pieces include:

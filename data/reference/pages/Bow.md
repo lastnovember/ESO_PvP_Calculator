@@ -1,7 +1,7 @@
 # Online:Bow
 
 Source: https://en.uesp.net/wiki/Online:Bow
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Bow is one of the six weapon skills available in Elder Scrolls Online. You can advance through this skill line by equipping and using a bow.

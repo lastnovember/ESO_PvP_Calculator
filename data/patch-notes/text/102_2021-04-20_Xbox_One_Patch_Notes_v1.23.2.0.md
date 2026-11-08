@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.23.2.0
 Xbox One Patch Notes v1.23.2.0
 Posted 2021-04-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/570826 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.23.2.0 fixes the issue where the friends and guild list history was not displaying properly, several crash fixes, a fix for a delay occurring when entering or leaving the Guild Bank, some quest fixes, and more. The size of this patch is approximately 846 MB.
 Champion System
 Fixed a calculation error in the Rationer star’s effect.

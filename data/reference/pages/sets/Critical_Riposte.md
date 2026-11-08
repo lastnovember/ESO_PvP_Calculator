@@ -12,7 +12,7 @@ To craft an item for this set, a crafter must have researched three traits for t
 2 items: Adds 9-424 Critical Resistance
 3 items: Adds 28-1206 Maximum Health
 4 items: Adds 9-424 Critical Resistance
-5 items: When you take critical damage, you apply Minor Uncertainty and Minor Enervation to the enemy for 9 seconds, reducing their text=Physical Weapon Critical and Spell Critical by 1314 and reducing their Critical Damage by 10%. An enemy can only be affected by your Critical Riposte once every 10 seconds.
+5 items: When you take critical damage, you apply Minor Enervation and Uncertainty to the enemy for 11 seconds, reducing Critical Damage by 10% and Critical Chance by 6%. Enemies can only be affected by Critical Riposte once every 10 seconds.
 
 ### Crafting Sites
 Vlastarus Armory

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.40.0.0 | Update 46
 Xbox Patch Notes v1.40.0.0 | Update 46
 Posted 2025-06-18 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/679227 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.40.0.0 (Xbox) and our latest content release, Seasons of the Worm Cult Part 1! In Seasons of the Worm Cult Part 1, your journey brings you to the island of Solstice, where an old threat rises once more: the Worm Cult.
 Picking up where the base game's Main Story left off, you’ll join the newly formed Stirk Fellowship and venture to Western Solstice to uncover the dark truths behind the Worm Cult's latest schemes. Alongside allies from past adventures, you'll face new challenges and relentless adversaries determined to stop you at every turn. At the heart of the island, the ominous Writhing Wall looms—a necrotic barrier sealing off Eastern Solstice.
 But this is only the beginning. As the Seasons of the Worm Cult unfold throughout the year, new areas of Solstice will become accessible. With each release, you’ll peel back the layers of mystery and uncover the cult’s horrifying plans. Are you willing to dig deep and discover what it will take to stop them—no matter the cost?

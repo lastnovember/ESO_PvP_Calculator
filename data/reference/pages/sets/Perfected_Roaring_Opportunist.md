@@ -8,10 +8,10 @@ Perfected Roaring Opportunist is a trial set which drops in veteran Kyne's Aegis
 ### Bonuses
 
 2 items: Adds 3-129 Weapon Damage and Spell Damage
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 perfected items: Adds 25-1096 Maximum Magicka
-5 items: After completing a fully-charged Heavy Attack, you and up to 5 group members gain Major Slayer, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10% for 1 second for every 600 Spell Damage or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds. Maximum duration 12 seconds.
+5 items: After completing a fully-charged Heavy Attack, you and up to 5 group members gain Major Slayer, increasing damage done to monsters by 10% for 1 second for every 600 Spell Damage or 6300 Magicka you have. Roaring Opportunist can only affect a target every 22 seconds. Maximum duration 12 seconds.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types.

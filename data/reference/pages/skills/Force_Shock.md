@@ -7,9 +7,9 @@ Online Skill Summary
 id=48956
 line=Destruction Staff
 icon=Destruction Staff-Force Shock
-desc=Focus all the elemental energies with your staff and blast an enemy for [1845 / 1865 / 1885 / 1905] Flame Damage, [1844 / 1863 / 1883 / 1904] Frost Damage, and [1844 / 1863 / 1883 / 1904] Shock Damage.
-desc1=Cost: [2700 / 2610 / 2520 / 2430] Magicka. Focus all the elemental energies with your staff and blast an enemy for 1905 Flame Damage, 1905 Frost Damage, and 1905 Shock Damage. Enemies hit while casting are interrupted, set Off Balance, and stunned for 3 seconds.
-desc2=Area: 8 meters. Focus all the elemental energies with your staff and blast an enemy for 1905 Flame Damage, 1905 Frost Damage, and 1905 Shock Damage. Up to 2 nearby enemies will take [6352 / 6421 / 6491 / 6561] Magic Damage if they were already afflicted with a status effect.
+desc=Focus all the elemental energies with your staff and blast an enemy for [1845 / 1865 / 1885 / 1905] Flame Damage, [1842 / 1861 / 1882 / 1903] Frost Damage, and [1842 / 1861 / 1882 / 1903] Shock Damage.
+desc1=Cost: [2700 / 2610 / 2520 / 2430] Magicka. Focus all the elemental energies with your staff and blast an enemy for 1905 Flame Damage, 1904 Frost Damage, and 1904 Shock Damage. Enemies hit while casting are interrupted, set Off Balance, and stunned for 3 seconds.
+desc2=Area: 8 meters. Focus all the elemental energies with your staff and blast an enemy for 1905 Flame Damage, 1904 Frost Damage, and 1904 Shock Damage. Up to 2 nearby enemies will take [6352 / 6421 / 6491 / 6561] Magic Damage if they were already afflicted with a status effect.
 linerank=2
 cost=2700 Magicka
 attrib=Magicka

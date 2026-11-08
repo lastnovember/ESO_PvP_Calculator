@@ -2,7 +2,7 @@ Hotfix 3/9/16 - Crash Fix [COMPLETE]
 Hotfix 3/9/16 - Crash Fix [COMPLETE]
 Posted 2016-03-09 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/252041 ·
-archived 2026-09-12
+archived 2026-10-30
 Hi everyone!
 Today, we'll be publishing a hotfix on PC/Mac to address a commonly occurring crash that was introduced with the
 Thieves Guild

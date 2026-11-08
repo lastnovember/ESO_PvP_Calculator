@@ -7,9 +7,9 @@ Online Skill Summary
 id=40183447
 line=Curative Runeforms
 icon=Curative Runeforms-Chakram Shields
-desc=Cost determined by highest max resource Carve the runes of the Blind Man to call forth spinning mystical discs. Discs surround you or up to 4 allies in front of you, granting a shield that absorbs [7422 / 7504 / 7584 / 7666] damage for 6 seconds. Discs prefer your reticle target, or low-Health targets without shields.
-desc1=Cost: [4590 / 4500 / 4410 / 4320] Magicka. Cost determined by highest max resource Carve the Fate Crone's runes to create spinning mystical discs and generate Crux. Discs surround you or up to 4 allies in front of you, granting a shield that absorbs 7667 damage for 6 seconds. Recasting on a target already shielded grants a new shield that is 30% stronger. Discs prefer your reticle target, or low-Health targets without shields.
-desc2=Cost determined by highest max resource Carve the Baron of Breakers' runes to create spinning discs. Discs surround you or up to 4 allies in front of you, granting a shield that absorbs [7667 / 7752 / 7836 / 7920] damage for 6 seconds. Consume Crux to cause the shields to heal for 33% of the shield's remaining strength every 1 second per Crux spent. Discs prefer your reticle target, or low-Health targets without shields.
+desc=Cost determined by highest max resource Carve the runes of the Blind Man to call forth spinning mystical discs. Discs surround you or up to 4 allies in front of you, granting a shield that absorbs [7422 / 7503 / 7584 / 7666] damage for 6 seconds. Discs prefer your reticle target, or low-Health targets without shields.
+desc1=Cost: [4590 / 4500 / 4410 / 4320] Magicka. Cost determined by highest max resource Carve the Fate Crone's runes to create spinning mystical discs and generate Crux. Discs surround you or up to 4 allies in front of you, granting a shield that absorbs 7668 damage for 6 seconds. Recasting on a target already shielded grants a new shield that is 30% stronger. Discs prefer your reticle target, or low-Health targets without shields.
+desc2=Cost determined by highest max resource Carve the Baron of Breakers' runes to create spinning discs. Discs surround you or up to 4 allies in front of you, granting a shield that absorbs [7668 / 7751 / 7835 / 7921] damage for 6 seconds. Consume Crux to cause the shields to heal for 33% of the shield's remaining strength every 1 second per Crux spent. Discs prefer your reticle target, or low-Health targets without shields.
 linerank=20
 cost=4590 Magicka
 attrib=Magicka

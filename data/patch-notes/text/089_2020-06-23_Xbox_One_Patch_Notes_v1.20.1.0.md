@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.20.1.0
 Xbox One Patch Notes v1.20.1.0
 Posted 2020-06-23 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/534238 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.20.1.0 includes several fixes for Antiquities, including the issue where some Antiquity Encasements could have their visuals desync with their placement in an Excavation site, and a few different crash fixes. We also fixed the issue where you could not sell stolen items to Fences and made some adjustments to Harrowstorms, among a few other additional fixes. The size of this patch is approximately 954MB.
 Fixes & Improvements
 DLCs & Chapters

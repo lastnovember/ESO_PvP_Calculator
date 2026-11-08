@@ -2,7 +2,7 @@ Xbox Patch Notes v1.42.2.0 | Update 48 Incremental 2
 Xbox Patch Notes v1.42.2.0 | Update 48 Incremental 2
 Posted 2026-01-21 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/687920 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.42.2.0 (Xbox)/ v.2.81/1.62 (PS4/PS5) fixes issues identified post-Update 48 launch. The second incremental patch for Update 48 address issues in Eastern and Western Solstice and Base Game content. We are fixing several bugs related to quests and quest progression. You will also see some Writhing Wall updates. While the event is over, The Writhing Fortress is back starting today until January 28.
 We also have additional fixes to address jittering issues from the Combat Animation Memory Reduction. We are still going through fixing issues caused through Combat Animation Memory Reduction. If you see more issues related to this, please make sure to report them and note reproduction steps.
 This is the first incremental patch for 2026. As a reminder, this is the start of PC/Mac and consoles being updated at the same time. Starting in U49, PC and console patch notes will be combined together into one set of notes. Until then, please see the full list of notes below. Thank you.

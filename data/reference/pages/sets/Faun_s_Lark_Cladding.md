@@ -31,7 +31,7 @@ Look closely, if you examine past the carvings you can see a ring in each clasp.
 By the feel of them, I'd say they're Faun antlers. They're not particularly old, likely fallen during a molt. And our talented crafter found themselves quite lucky while adventuring through the Systres. - Reginus Buca
 
 style="white-space: nowrap;"|Mark of the Faun Lord
-Thieves Troves in Galen | Galen
+Thieves Troves in Galen Safeboxes in Galen | Galen
 The markings in this fabric almost look like runes. I don't recognize any of the symbols. Perhaps it's a language? But with the five of us, I feel as though we'd be hard pressed to find something we weren't at least tangentially aware of. - Gabrielle Benele
 I've read old accounts from hunters in the Systres that markings like this are meant to warn others of a Faun Lord's territory. We don't know enough about their dialect to say for certain what those symbols actually mean other than for us to stay away. - Reginus Buca
 Well, whatever this was it clearly wasn't meant to be worn by a Faun Lord themself. These markings might have more power to them than just a good warning if someone went to the trouble to sew them into fabric. - Ugron gro-Thumog

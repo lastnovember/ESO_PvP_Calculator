@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.12.0.0 (Summerset & Update 18)
 Xbox One Patch Notes v1.12.0.0 (Summerset & Update 18)
 Posted 2018-06-04 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/417183 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.12.0.0 and our next Chapter: Summerset! For the first time in history, the long-closed borders of Summerset are open to foreigners by decree of Queen Ayrenn. But darkness looms over the ancestral home of the High Elves, and whispers stir of Daedric followers organizing in the shadows.
 In addition to an entirely new zone to explore, we’ve added the Psijic Order skill line. Should you join the order, you'll gain access to five Active Abilities, five Passive Abilities, and a powerful Ultimate. Also available is the highly anticipated Jewelry Crafting system that will now allow you to craft, upgrade, research, and transmute Rings and Necklaces. With the addition of Jewelry Crafting, there are 9 Traits that can be applied to jewelry – 6 of which are all new! These Traits can be discovered and researched by acquiring jewelry found in various activities throughout the game. We can’t wait for you to try it out!
 For a challenging group experience, you can gather your strongest allies to take on our newest 12-player Trial, Cloudrest, to face the Welkynar and their powerful gryphon companions. Similar to previous Trials, Cloudrest includes a Normal and Veteran version (the latter geared toward our more experienced players looking for a tougher challenge) for a chance to obtain unique item sets and rewards.

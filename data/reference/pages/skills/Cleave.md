@@ -7,9 +7,9 @@ Online Skill Summary
 id=39746
 line=Two Handed
 icon=Two Handed-Cleave
-desc=Focus your strength into a mighty swing, dealing [4612 / 4662 / 4713 / 4764] Physical Damage to enemies in front of you. You also gain a damage shield that absorbs [4608 / 4657 / 4709 / 4759] damage for 6 seconds.
-desc1=Focus your strength into a mighty swing, dealing 4764 Bleed Damage to enemies in front of you, and causing them to bleed for an additional [7608 / 7686 / 7773 / 7857] Bleed Damage over 12 seconds. Hitting a target that is already affected from this ability extends the duration by 10 seconds, up to a maximum of 32. You also gain a damage shield that absorbs 4765 damage for 6 seconds.
-desc2=Focus your strength into a mighty swing, dealing 4764 Physical Damage to enemies in front of you. You also gain a damage shield that absorbs [4765 / 4816 / 4869 / 4921] damage for 6 seconds. Each enemy hit increases the damage shield's strength by 50%, up to 300%.
+desc=Focus your strength into a mighty swing, dealing [4612 / 4662 / 4713 / 4764] Physical Damage to enemies in front of you. You also gain a damage shield that absorbs [4609 / 4660 / 4710 / 4761] damage for 6 seconds.
+desc1=Focus your strength into a mighty swing, dealing 4764 Bleed Damage to enemies in front of you, and causing them to bleed for an additional [7616 / 7694 / 7783 / 7866] Bleed Damage over 12 seconds. Hitting a target that is already affected from this ability extends the duration by 10 seconds, up to a maximum of 32. You also gain a damage shield that absorbs 4763 damage for 6 seconds.
+desc2=Focus your strength into a mighty swing, dealing 4764 Physical Damage to enemies in front of you. You also gain a damage shield that absorbs [4763 / 4815 / 4867 / 4919] damage for 6 seconds. Each enemy hit increases the damage shield's strength by 50%, up to 300%.
 linerank=14
 cost=3510 Stamina
 attrib=Stamina

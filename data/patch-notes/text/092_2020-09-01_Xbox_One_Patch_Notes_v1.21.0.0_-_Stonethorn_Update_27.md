@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.21.0.0 - Stonethorn & Update 27
 Xbox One Patch Notes v1.21.0.0 - Stonethorn & Update 27
 Posted 2020-09-01 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/543930 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.21.0.0, introducing the Stonethorn DLC Game Pack and Update 27! This latest DLC features two new 4-player dungeons – one of which includes a Hard Mode for each boss – and is accompanied by several new item sets, collectibles, achievements, and titles.
 In the base game, we’ve added character pathing to the Housing system, which allows you to create custom paths for pets, mounts, and assistants. This update also includes several performance improvements, optimizations, and stability enhancements, in addition to a large audit for all item sets to reduce their implications on performance.
 We hope you enjoy our latest update, which is approximately 36.4GB in size.

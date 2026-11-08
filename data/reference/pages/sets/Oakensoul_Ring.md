@@ -9,7 +9,7 @@ The Oakensoul Ring is a Mythic ring that comes with the Infused trait. It can be
 
 ### Bonuses
 
-1 item: While equipped, you are unable to swap between your Primary and Backup Weapon Sets and gain Minor Berserk, Minor Courage, Major Brutality, Major Sorcery, Major Prophecy, Major Savagery, Minor Force, Minor Protection, Major Resolve, Minor Mending, Minor Fortitude, Minor Intellect, Minor Endurance, Minor Heroism, Minor Slayer, Minor Aegis, and Empower.
+1 item: While equipped, you are unable to swap between your Primary and Backup Weapon Sets and gain Minor Berserk, Minor Courage, Major Brutality, Major Savagery, Minor Force, Minor Protection, Major Resolve, Minor Mending, Minor Fortitude, Minor Intellect, Minor Endurance, Minor Heroism, Minor Slayer, Minor Aegis, and Empower.
 
 ### Fragments
 - Five fragments are required to create the item, all of which require a master-quality Lead in order to scry, and are classed as master difficulty to excavate.

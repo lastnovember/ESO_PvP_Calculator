@@ -2,7 +2,7 @@ Xbox Patch Notes v1.36.2.0
 Xbox Patch Notes v1.36.2.0
 Posted 2024-07-24 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/662942 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.36.2.0 focuses on fixes and improvements to Gold Road, Wrathstone and Base Game content. You’ll see several fixes to West Weald zone quests, Scribing, and the Depths of Malatar Dungeon. Additionally, based on your feedback, we have disabled the FPS cap on the in-game map on performance mode. The size of this patch is approximately 2.49 GB (XB1)/ 1.9 GB (XBX)
 Grimoires
 Fixed an issue that could prevent grimoires from appearing in the UI.

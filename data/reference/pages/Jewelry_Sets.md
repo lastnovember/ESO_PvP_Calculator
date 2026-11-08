@@ -1,7 +1,7 @@
 # Online:Jewelry Sets
 
 Source: https://en.uesp.net/wiki/Online:Jewelry_Sets
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Jewelry Sets are sets of jewelry and weapons that provide special bonuses to players when the items of the same set are equipped simultaneously. They do not include armor pieces other than shields. The way to obtain them depends on the type of the set.

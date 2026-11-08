@@ -8,7 +8,7 @@ Xoryn's Masterpiece is a trial set found in normal Lucent Citadel. It cannot be 
 ### Bonuses
 
 2 items: Adds 25-1096 Maximum Magicka
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 3-129 Magicka Recovery
 5 items: Increases Max Magicka and Max Stamina by 1667 for you and up to 11 other group members within 28 meters of you. This bonus persists through death.
 

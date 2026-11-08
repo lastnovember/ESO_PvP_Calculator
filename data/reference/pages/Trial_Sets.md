@@ -1,7 +1,7 @@
 # Online:Trial Sets
 
 Source: https://en.uesp.net/wiki/Online:Trial_Sets
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Trial Sets are available from the bosses and monsters in various trials. Pieces of those sets are also found in coffers rewarded for completing the quests to clear the specific trial. Coffers are only awarded once a week per character. Trial sets are all bind-on-equip and are tradable among the group for a two-hour window, the same as dungeon sets.

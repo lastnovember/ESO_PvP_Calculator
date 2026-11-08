@@ -2,7 +2,7 @@ Xbox Patch Notes v1.42.1.0 | Update 48 Incremental 1
 Xbox Patch Notes v1.42.1.0 | Update 48 Incremental 1
 Posted 2025-12-03 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/686063 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.42.1.0 (Xbox) fixes issues identified post-Update 48 launch. The first console incremental patch for Update 48 address issues in Feast of Shadows, Solstice and Base Game content. We have resolved several launch day bugs, such as, the Crystal Weapon morph working as intended, Solstice Antiquities properly dropping their bonus loot, and Tales of Tribute leaderboards being active, just to name a few.
 We also have several fixes to address jittering issues from the Combat Animation Memory Reduction. We still are working on addressing more issues from this, but incremental 1 should help make some animations seem jittery. If you see more issues related to this, please make sure to report them and note reproduction steps.
 This is the last planned incremental patch for 2025. Please see the full list of notes below. We’ll see you in 2026 for a new year of patch notes!

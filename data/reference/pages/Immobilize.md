@@ -1,7 +1,7 @@
 # Online:Immobilize
 
 Source: https://en.uesp.net/wiki/Online:Immobilize
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Immobilize, also known as Root, is a debilitating status effect that prevents a target from moving from their location, though they can still attack and defend themselves as normal. You can escape the effect by performing a Roll Dodge or Break Free action. Abilities which have a movement built in such as Bolt Escape or Teleport Strike still work, but you are still immobilized after you teleport. Many tougher enemies are immune to this effect.

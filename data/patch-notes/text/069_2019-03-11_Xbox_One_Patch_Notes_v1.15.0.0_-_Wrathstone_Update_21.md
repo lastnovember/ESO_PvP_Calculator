@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.15.0.0 - Wrathstone & Update 21
 Xbox One Patch Notes v1.15.0.0 - Wrathstone & Update 21
 Posted 2019-03-11 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/463159 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.15.0.0 and the Wrathstone DLC game pack! Wrathstone introduces two new 4-player dungeons – Frostvault and Depths of Malatar – in addition to a number of new item sets and collectibles. The base game features a new Zone Guide system that will assist you in finding content to complete in each zone. Additionally, we’ve added a new Battleground map and updated several older PvP item sets, as well as updated the Guild Trader Interface to add some new features.
 Our main focus for combat and gameplay this update was to update the racial passives to achieve a greater balance. Please note we’ve refunded all racial passives, so make sure to re-spend them after you log in.
 The size of this update is approximately 49.29GB. We also want to call out the first time you log in after downloading this update, you may encounter an extremely long load screen prior to character select. This is tied to some database coding we implemented; please do not exit the client, as this will just exacerbate the issue. Thanks!

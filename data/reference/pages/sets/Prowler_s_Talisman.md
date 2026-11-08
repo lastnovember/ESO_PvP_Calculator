@@ -11,11 +11,7 @@ This item was released with Season One during Update 50. It is the first mythic 
 ### Bonuses
 Note: The following stats are for the initial version of the Prowler's Talisman, before it is upgraded.
 
-1 item: While Battle Spirit is inactive, bracing while crouching turns you invisible for 10 seconds. This can occur once every 45 seconds.
-
-Increase your chances of successfully Pickpocketing by 5%. On dealing Critical Damage, increase your Max Magicka and Max Stamina for 10 seconds, up to 1900 at 10 stacks.
-
-On dealing non-Critical Damage, increase your Health, Magicka, and Stamina Recovery for 10 seconds, up to 160 at 10 stacks. Either effect can occur up to once every 1 second.
+1 item: While Battle Spirit is inactive, bracing while crouching turns you invisible for 10 seconds. This can occur once every 45 seconds. Increase your chances of successfully Pickpocketing by 5%. On dealing Critical Damage, increase your Max Magicka and Max Stamina for 10 seconds, up to 1900 at 10 stacks. On dealing non-Critical Damage, increase your Health, Magicka, and Stamina Recovery for 10 seconds, up to 160 at 10 stacks. Either effect can occur up to once every 1 second. Talisman upgrades: 0
 
 Talisman upgrades: 0
 
@@ -37,7 +33,7 @@ rowspan="2" style="text-align:left;" | A reward from any chest in a Dynamic Enco
 style="text-align:center;" | Phynaster's Gem of Agility
 
 rowspan="2" |One of the legendary Gems of Phynaster the Prowler that once adorned the Prowler's Amulet. Found while chasing down intriguing rumors across Tamriel. Seek out Mylen Dechery at the Daggerfall Thieves Den to unlock the gem's potential.
-rowspan="2" style="text-align:left;" | Reward for completing a Rumor
+rowspan="2" style="text-align:left;" | Reward for completing The Beriel Heirloom Rumor
 
 style="text-align:center;" | Phynaster's Gem of Deception
 

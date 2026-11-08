@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.16.1.0
 Xbox One Patch Notes v1.16.1.0
 Posted 2019-06-18 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/480828 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.16.1.0 includes some fixes for dragons and dragon abilities, quests in Elsweyr and elsewhere (pun definitely intended), and a fix for the missing pledge from Urgarlag Chief-bane. We’ve also implemented several fixes for the Guild Finder system and a resolution for the issue with pets not being affected by battle leveling (this includes the pet used with Blastbones). Also included are some crash fixes and other items involving housing, quests, UI, and more. The size of this patch is approximately 18.4 GB.
 Fixes & Improvements
 DLC Game Packs & Chapters

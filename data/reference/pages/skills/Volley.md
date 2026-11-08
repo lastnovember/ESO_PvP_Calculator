@@ -7,9 +7,9 @@ Online Skill Summary
 id=40917
 line=Bow
 icon=Bow-Volley
-desc=Launch a multitude of arrows into the sky to rain down, dealing [909 / 920 / 928 / 939] Physical Damage to enemies in the target area every 1 second for 8 seconds, after a 2 second delay.
-desc1=Duration: [12 / 13 / 14 / 15] seconds. Launch a multitude of arrows into the sky to rain down, dealing 939 Physical Damage to enemies in the target area every 1 second for [10 / 11 / 12 / 13] seconds, after a 2 second delay.
-desc2=Radius: 7 meters. Launch a multitude of arrows into the sky to rain down, dealing [1222 / 1234 / 1247 / 1260] Physical Damage to enemies in the target area every 1 second for 8 seconds, after a 2 second delay.
+desc=Launch a multitude of arrows into the sky to rain down, dealing [908 / 918 / 928 / 938] Physical Damage to enemies in the target area every 1 second for 8 seconds, after a 2 second delay.
+desc1=Duration: [12 / 13 / 14 / 15] seconds. Launch a multitude of arrows into the sky to rain down, dealing 938 Physical Damage to enemies in the target area every 1 second for [10 / 11 / 12 / 13] seconds, after a 2 second delay.
+desc2=Radius: 7 meters. Launch a multitude of arrows into the sky to rain down, dealing [1223 / 1236 / 1250 / 1263] Physical Damage to enemies in the target area every 1 second for 8 seconds, after a 2 second delay.
 linerank=4
 cost=2700 Stamina
 attrib=Stamina

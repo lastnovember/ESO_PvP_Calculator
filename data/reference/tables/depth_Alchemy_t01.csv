@@ -1,27 +1,35 @@
 Combination,Reagent 1,Reagent 2,Reagent 3
-1,Emetic Russula,Stinkhorn,Water Hyacinth
-2,Powdered Mother of Pearl,Mudcrab Chitin,Beetle Scuttle
-3,Clam Gall,Mudcrab Chitin,Wormwood
-4,Wormwood,Dragonthorn,Chaurus Egg
-5,Chaurus Egg,White Cap,Crimson Nirnroot
-6,Crimson Nirnroot,Fleshfly Larva,Water Hyacinth
-7,Water Hyacinth,Dragonthorn,Stinkhorn
-8,Stinkhorn,Blessed Thistle,Torchbug Thorax
-9,Torchbug Thorax,Butterfly Wing,Nirnroot
-10,Nirnroot,Dragon's Bile,Fleshfly Larva
-11,Fleshfly Larva,Imp Stool,Luminous Russula
-12,Luminous Russula,Butterfly Wing,Spider Egg
-13,Spider Egg,Nirnroot,Nightshade
-14,Nightshade,Crimson Nirnroot,Vile Coagulant
-15,Vile Coagulant,Torchbug Thorax,Corn Flower
-16,Corn Flower,Lady's Smock,Violet Coprinus
-17,Violet Coprinus,Emetic Russula,Beetle Scuttle
-18,Beetle Scuttle,Powdered Mother of Pearl,Scrib Jelly
-19,Scrib Jelly,Clam Gall,Dragon's Blood
-20,Dragon's Blood,Blessed Thistle,Dragon Rheum
-21,Dragon Rheum,Imp Stool,Mountain Flower
-22,Mountain Flower,Wormwood,Columbine
-23,Columbine,Lady's Smock,Namira's Rot
-24,Namira's Rot,Scrib Jelly,Blue Entoloma
-25,Blue Entoloma,White Cap,Bugloss
-26,Bugloss,Dragon Rheum,Dragon's Bile
+1,Beetle Scuttle,Mudcrab Chitin
+2,Nirnroot,Dragon Rheum
+3,Scrib Jelly,Chaurus Egg
+4,Stinkhorn,Dragonthorn
+5,Blessed Thistle,Beetle Scuttle,Powdered Mother of Pearl
+6,Blessed Thistle,Nirnroot,Violet Coprinus
+7,Butterfly Wing,Scrib Jelly,Dragon's Bile
+8,Chaurus Egg,Violet Coprinus,Winter's Grave Tongue
+9,Corn Flower,Nightshade,Vile Coagulant
+10,Corn Flower,Torchbug Thorax,Cultivated Cryptpods
+11,Fleshfly Larva,Vile Coagulant,Crimson Nirnroot
+12,Fleshfly Larva,Water Hyacinth,Butterfly Wing
+13,Imp Stool,Emetic Russula,Daedra-Blood Maggots
+14,Lady's Smock,Bugloss,Crimson Nirnroot
+15,Luminous Russula,Fleshfly Larva,Clam Gall
+16,Luminous Russula,Imp Stool,Mountain Flower
+17,Luminous Russula,Wormwood,Blue Entoloma
+18,Mountain Flower,Columbine,Dragon Rheum
+19,Namira's Rot,Imp Stool,Columbine
+20,Namira's Rot,Scrib Jelly,Dragon's Bile
+21,Nightshade,Chaurus Egg,Crimson Nirnroot
+22,Nightshade,Dragon's Blood,Fossilized Verminous Bones
+23,Nirnroot,Stinkhorn,Torchbug Thorax
+24,Scrib Jelly,Dragon's Blood,Dragon Rheum
+25,Spider Egg,Clam Gall,Mudcrab Chitin
+26,Spider Egg,Dragon's Bile,Cultivated Cryptpods
+27,Stinkhorn,Chaurus Egg,Fossilized Verminous Bones
+28,Stinkhorn,Emetic Russula,Violet Coprinus
+29,Water Hyacinth,Lady's Smock,Beetle Scuttle
+30,Water Hyacinth,Winter's Grave Tongue,Daedra-Blood Maggots
+31,White Cap,Bugloss,Powdered Mother of Pearl
+32,White Cap,Nirnroot,Blue Entoloma
+33,White Cap,Wormwood,Namira's Rot
+34,Wormwood,Blessed Thistle,Dragonthorn

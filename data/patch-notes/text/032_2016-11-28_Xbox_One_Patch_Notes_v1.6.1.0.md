@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.6.1.0
 Xbox One Patch Notes v1.6.1.0
 Posted 2016-11-28 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/305600 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online v1.6.1.0 is an incremental patch for the Xbox One that adds HDR Support, plus the new items of Mythical Aetherial Ambrosia and Apothecary’s Parcels. We’ve also made several fixes to itemization (including a fix for Vicious Death), dungeons, quests, and overall gameplay. The size of this patch is approximately 5.9GB.
 NEW FEATURES / UPDATES / BIG CHANGES

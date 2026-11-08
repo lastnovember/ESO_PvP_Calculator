@@ -2,7 +2,7 @@ Hotfix for Nov. 1, 2024- Fixing Some Battlegrounds Bugs, Region Crash Issues, & 
 Hotfix for Nov. 1, 2024- Fixing Some Battlegrounds Bugs, Region Crash Issues, & Cryodiil Repair Kits
 Posted 2024-10-30 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/668104 ·
-archived 2026-09-12
+archived 2026-10-30
 Hi everyone. On Friday, November 1, we have a hotfix planned for the PC/Mac megaservers to address a few issues from our Update 44 launch. Specifically, we are addressing the following issues:
 Deploying a fix to resolve an issue in Battlegrounds where a match is not filling all teams correctly and failing to start the battleground.
 Resolving the issue with Battlegrounds Competitive Leaderboards not working as intended.

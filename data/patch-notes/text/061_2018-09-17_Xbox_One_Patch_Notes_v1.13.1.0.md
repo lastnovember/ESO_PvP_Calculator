@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.13.1.0
 Xbox One Patch Notes v1.13.1.0
 Posted 2018-09-17 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/435812 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.13.1.0 fixes several issues with dungeons in Wolfhunter and Dragon Bones, some various game crashes, and includes several performance improvements. Please see the list below for the full list of patch notes for this patch, which is approximately 12.8GB in size.
 Dungeons
 Fang Lair

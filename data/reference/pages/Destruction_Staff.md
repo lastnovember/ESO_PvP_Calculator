@@ -1,7 +1,7 @@
 # Online:Destruction Staff
 
 Source: https://en.uesp.net/wiki/Online:Destruction_Staff
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 colspan=2|

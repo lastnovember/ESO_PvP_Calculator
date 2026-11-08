@@ -2,7 +2,7 @@ Xbox Patch Notes v1.33.2.0
 Xbox Patch Notes v1.33.2.0
 Posted 2023-10-03 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/644259 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.33.2.0 allows you to utilize the "Leave Instance" functionality from the group menu while in combat once again, along with a fix for an issue found in the encounter against Exarchanic Yaseyla in Sanity’s Edge, some housing-related fixes, and more. The size of this patch is approximately 1.47GB for Xbox One and 1.2GB for Xbox Series X.
 Sanity’s Edge Trial
 Frost Bomb is far less likely to pick tanks to be targeted during the fight with Exarchanic Yaseyla.

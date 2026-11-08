@@ -7,9 +7,9 @@ Online Skill Summary
 id=30269
 line=Storm Calling
 icon=Storm Calling-Lightning Splash
-desc=Create a nexus of storm energy at the target location, dealing [818 / 826 / 836 / 843] Shock Damage to enemies in the area every 1 second for 10 seconds. You or an ally standing within the nexus can activate the Conduit Synergy synergy, dealing 7380 Shock Damage to enemies around them.
+desc=Create a nexus of storm energy at the target location, dealing [817 / 824 / 834 / 843] Shock Damage to enemies in the area every 1 second for 10 seconds. You or an ally standing within the nexus can activate the Conduit Synergy synergy, dealing 7380 Shock Damage to enemies around them.
 desc1=Duration: [12 / 13 / 14 / 15] seconds. Create a nexus of storm energy at the target location, dealing 844 Shock Damage to enemies in the area every 1 second for [12 / 13 / 14 / 15] seconds. You or an ally standing within the nexus can activate the Conduit Synergy synergy, dealing 7380 Shock Damage to enemies around them.
-desc2=Radius: 8 meters. Create a nexus of storm energy at the target location, dealing [1099 / 1111 / 1123 / 1135] Shock Damage to enemies in the area every 1 second for 10 seconds. You or an ally standing within the nexus can activate the Conduit Synergy synergy, dealing 7380 Shock Damage to enemies around them.
+desc2=Radius: 8 meters. Create a nexus of storm energy at the target location, dealing [1099 / 1110 / 1122 / 1135] Shock Damage to enemies in the area every 1 second for 10 seconds. You or an ally standing within the nexus can activate the Conduit Synergy synergy, dealing 7380 Shock Damage to enemies around them.
 linerank=20
 cost=2970 Magicka
 attrib=Magicka

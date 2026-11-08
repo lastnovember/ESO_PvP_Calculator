@@ -83,4 +83,4 @@ Erudite's Rigor
 Ink-Scribe's Verve
 
 ## Notes
-- Prior to Update 50, Class Mastery was the name of a Signature Script used in Scribing. It's name was changed to Class Flourish to prevent confusion.
+- Prior to Update 50, Class Mastery was the name of a Signature Script used in Scribing. Its name was changed to Class Flourish to prevent confusion.

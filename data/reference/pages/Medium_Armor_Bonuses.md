@@ -1,7 +1,7 @@
 # Online:Medium Armor Bonuses
 
 Source: https://en.uesp.net/wiki/Online:Medium_Armor_Bonuses
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Online Skill Summary

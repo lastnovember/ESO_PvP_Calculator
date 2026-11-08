@@ -7,7 +7,7 @@ Online Skill Summary
 id=46142
 line=Werewolf
 type=Passive
-icon=Werewolf-Call of the Pack
+icon=Werewolf-Master of the Chase
 desc=WHILE YOU ARE IN WEREWOLF FORM Give chase, hunter. Become pursuit unrelenting. Increases your Movement Speed by 15%.
 desc2=WHILE YOU ARE IN WEREWOLF FORM Give chase, hunter. Become pursuit unrelenting. Increases your Movement Speed by 30%. Increases the Stamina your Heavy Attacks restore by 50%.
 linerank1=3

@@ -16,3 +16,6 @@ Back-Alley Gourmand is an overland set that drops in Galen. It cannot be crafted
 The set consists of Light Armor and jewelry in all slots, as well as weapons and shields of all types.
 
 ### Drop Locations
+
+### Notes
+- If you are searching for the set in guild stores and the like, the pieces are not titled "Back-Alley Gourmand's" but simply "Gourmand's."

@@ -20,6 +20,9 @@ Forgotten Wastes | Sixth House Clarion Seer | Dunmer | Varies | aa
 ;Enrage: When you kill one of their allies, the warpriest yells and gains a red glow, increasing their damage done by 20%. This is the same effect as "Rally".
 ;Rally:The warpriest waves and points their weapon forward, granting themselves and their nearby allies a red glow, increasing their damage done by 20%. This is the same effect as "Enrage".
 
+## Notes
+- Some Maormer Warpriest use a shock variant of "Divine Leap":
+-;Sky Strike: The warpriest leaps high up in the air and crashes down with great force, staggering and dealing moderate shock damage to anyone within the displayed AoE.
 Class
 
 ## Tables extracted from this page

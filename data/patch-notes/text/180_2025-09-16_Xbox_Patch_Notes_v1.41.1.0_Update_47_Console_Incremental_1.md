@@ -2,7 +2,7 @@ Xbox Patch Notes v1.41.1.0 | Update 47 Console Incremental 1
 Xbox Patch Notes v1.41.1.0 | Update 47 Console Incremental 1
 Posted 2025-09-16 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/683168 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.41.1.0 (Xbox) fixes issues identified post-Update 47 launch. The first incremental patch for Update 47 address issues in Feast of Shadows, Scions of Ithelia, Elsweyr, Solstice and Base Game content. We have resolved the missing text localization. We also have a fix for the issue with guild history information.
 Additionally, there have been some dungeon fixes, performance improvements to Sunport City, and general bug fixes overall.
 You can find all patch notes for Update 47, Incremental 1 below. We will continue to monitor issues and update in later incremental patches.

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.30.0.0 - Firesong DLC & Update 36
 Xbox Patch Notes v1.30.0.0 - Firesong DLC & Update 36
 Posted 2022-11-14 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/621882 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.30.0.0 and the final DLC in this year’s Legacy of the Bretons adventure: Firesong! In this update, you can explore the island of Galen and dive deep into the culture and histories of Tamriel’s druids. While doing so, collect new item sets, unique collectibles, Antiquities, achievements, and more. You’ll also be able to discover a new Tales of Tribute Patron deck during your adventures through Firesong – The Druid King.
 In the Update 36 base game patch, we’ve added a new Target Marker system that allows you to mark allies, enemies, and even yourself with a unique icon. There are also several Housing quality of life improvements, along with a new setting to hide pets around some of the more busy interaction stations in towns. For PvP, Emperor bonuses will now scale depending on how many home Keeps you own, and we’ve added Armory Stations in both Cyrodiil and Imperial City. This latest update is approximately 4.4GB for Xbox Series X and 40.9GB for Xbox One. Thank you and enjoy!
 New Features / Updates / Big Changes

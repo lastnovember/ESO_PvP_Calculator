@@ -7,9 +7,9 @@ Online Skill Summary
 id=30499
 line=Daedric Summoning
 icon=Daedric Summoning-Daedric Curse
-desc=Curse an enemy with a destructive rune, dealing [7685 / 7770 / 7855 / 7939] Magic Damage to the target and all other nearby enemies after 6 seconds. You can have only one Daedric Curse active at a time.
-desc1=Cost: [2430 / 2340 / 2250 / 2160] Magicka. Curse an enemy with a destructive rune, dealing 7938 Magic Damage to the target and all other nearby enemies after 6 seconds. While the curse is active, your Daedric Summoning pets prioritize the target and deal an additional 50% damage to them. You can have only one Daedric Prey active at a time.
-desc2=Duration: 12 seconds. Curse an enemy with a destructive rune, dealing [7938 / 8026 / 8113 / 8201] Magic Damage to the target and all other nearby enemies after 3.5 seconds. The curse will continue to haunt the enemy and explode a second time, dealing [7938 / 8026 / 8113 / 8201] Magic Damage to the target and all other nearby enemies after an additional 8.5 seconds. You can have only one Haunting Curse active at a time.
+desc=Curse an enemy with a destructive rune, dealing [7686 / 7770 / 7855 / 7940] Magic Damage to the target and all other nearby enemies after 6 seconds. You can have only one Daedric Curse active at a time.
+desc1=Cost: [2430 / 2340 / 2250 / 2160] Magicka. Curse an enemy with a destructive rune, dealing 7939 Magic Damage to the target and all other nearby enemies after 6 seconds. While the curse is active, your Daedric Summoning pets prioritize the target and deal an additional 50% damage to them. You can have only one Daedric Prey active at a time.
+desc2=Duration: 12 seconds. Curse an enemy with a destructive rune, dealing [7939 / 8026 / 8113 / 8200] Magic Damage to the target and all other nearby enemies after 3.5 seconds. The curse will continue to haunt the enemy and explode a second time, dealing [7939 / 8026 / 8113 / 8200] Magic Damage to the target and all other nearby enemies after an additional 8.5 seconds. You can have only one Haunting Curse active at a time.
 linerank=4
 cost=2970 Magicka
 attrib=Magicka

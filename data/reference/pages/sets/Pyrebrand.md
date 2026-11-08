@@ -11,7 +11,7 @@ Class: Dragonknight
 2 items: Adds 34-1487 Offensive Penetration
 3 items: Adds 3-129 Weapon Damage and Spell Damage
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: Your Light Attacks deal 836 Flame damage over 6 seconds. This effect can activate Wildfire Embers, up to once every 10 seconds. Your fully-charged Heavy Attacks consume up to 3 stacks of your Wildfire Embers to deal 629 Flame damage around the target, dealing up to 200% more damage to enemies below 33% Health. The damage scales off the higher of your Weapon Damage and Spell Damage increases by 25% per stack of Recursive Flame and Pyrebrand.
+5 items: Your Light Attacks cause an additional 836 Flame damage over 6 seconds. This can apply Wildfire Embers and Landslide, up to once every 10 seconds. Your fully-charged Heavy Attacks consume up to 3 stacks of your Wildfire Embers to deal 629 Flame damage around the target, dealing up to 200% more damage to enemies below 33% Health. Scales off the higher of your Weapon Damage and Spell Damage and increases by 25% per stack of Wildfire Embers or Pyrebrand.
 
 ### Pieces
 The set consists of armor of all weights and jewelry in all slots, as well as weapons and shields of all types.

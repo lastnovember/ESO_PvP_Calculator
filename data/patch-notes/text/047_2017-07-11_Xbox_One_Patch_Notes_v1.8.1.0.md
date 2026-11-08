@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.8.1.0
 Xbox One Patch Notes v1.8.1.0
 Posted 2017-07-11 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/358949 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.8.1.0 is an incremental patch for Xbox One that includes a number of improvements for the Grouping Tool and Battlegrounds queueing. Also included are fixes involving the Warden class, the Halls of Fabrication Trial, quests, general gameplay, and more. We’ve returned all respec costs back to their original values. The size of this patch is approximately 720MB.
 New Features / Updates / Big Changes
 Fixes & Improvements

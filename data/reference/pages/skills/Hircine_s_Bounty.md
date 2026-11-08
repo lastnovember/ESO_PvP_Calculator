@@ -8,11 +8,11 @@ Online Skill Summary
 id=58316
 line=Werewolf
 icon=Werewolf-Hircine's Bounty
-desc= Invoke the Huntsman's blessing, healing you for [5520 / 5580 / 5641 / 5702] Health, scaling off your Max Health. You also restore 10% Stamina, increasing by up to 100% based on how high your current Health is. Current Restore: 3000 While slotted you gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%.
-desc1= Invoke the Huntsman's blessing, healing you for 9102 Health, granting double Fury, and increasing your damage done and taken by up to 12% for [17 / 18 / 19 / 20] seconds, based on how high your current Health is. You also restore 10% Stamina, increasing by up to 100%, based on how high your current Health is. Current Restore: 3000 While slotted you gain Major Brutality and Sorcery and Minor Berserk.
-desc2= Invoke the Huntsman's blessing, healing you for [6272 / 6340 / 6409 / 6478] Health, scaling off your Max Health. You also restore 12% Stamina, increasing by up to 100% based on how high your current Health is. Current Restore: 3600 While slotted you gain Major Brutality, Sorcery, and Vitality increasing ESO Weapon Damage Link | |y and Spell Damage by 20% and healing received and damage shield strength by 12%.
+desc= Invoke the Huntsman's blessing, healing you for [4800 / 4852 / 4905 / 4958] Health, scaling off your Max Health. You also restore 10% Stamina, increasing by up to 100% based on how high your current Health is. Current Restore: 3000 While slotted you gain Major Brutality, increasing ESO Weapon Damage Link | |y and Spell Damage by 20%.
+desc1= Invoke the Huntsman's blessing, healing you for 9102 Health, granting double Fury, and increasing your damage done and taken by up to 12% for [17 / 18 / 19 / 20] seconds, based on how high your current Health is. You also restore 10% Stamina, increasing by up to 100%, based on how high your current Health is. Current Restore: 3000 While slotted you gain Major Brutality and Minor Berserk.
+desc2= Invoke the Huntsman's blessing, healing you for [5702 / 5764 / 5827 / 5890] Health, scaling off your Max Health. You also restore 12% Stamina, increasing by up to 100% based on how high your current Health is. Current Restore: 3600 While slotted you gain Major Brutality and Vitality increasing ESO Weapon Damage Link | |y and Spell Damage by 20% and healing received and damage shield strength by 12%.
 linerank=4
-cost=4320 Magicka
+cost=4590 Magicka
 attrib=Magicka
 casttime=Instant
 target=Self

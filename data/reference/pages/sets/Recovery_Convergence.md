@@ -8,7 +8,7 @@ Recovery Convergence is a trial set found in normal Ossein Cage. It cannot be cr
 ### Bonuses
 
 2 items: Adds 4% Healing Done
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 25-1096 Maximum Magicka
 5 items: While in combat, overhealing done is converted into stored energy on you for 20 seconds. After overhealing 100000 Health, your energy maxes out, granting you the Convergence Release synergy. When you activate this synergy, restore 160-6886 Stamina and Magicka to yourself and group members within 28 meters of you.
 

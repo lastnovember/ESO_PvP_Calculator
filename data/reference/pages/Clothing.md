@@ -1,7 +1,7 @@
 # Online:Clothing
 
 Source: https://en.uesp.net/wiki/Online:Clothing
-Fetched: 2026-09-19
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 ON:items

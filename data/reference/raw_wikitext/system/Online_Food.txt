@@ -1,9 +1,10 @@
 {{Trail|Items}}{{TOCright}}
 '''Food''' is a general term for items that temporarily increase maximum value of one, two or of all three [[Online:Attributes|attributes]]. 
 
-This page lists all the food entries that can be purchased from the [[Online:Chefs|chefs]] and [[Online:Chefs & Brewers|chef & brewer]] vendors or found throughout {{Lore Link|Tamriel}}. Please note that meals on this list are of Normal Quality, in contrast to the entries [[Online:Provisioning|cooked]] by player, and they increase only one of the attributes at a time.
+This page lists all the food entries that can be purchased from the [[Online:Chefs|chefs]] and [[Online:Chefs & Brewers|chef & brewer]] vendors found throughout {{Lore Link|Tamriel}}. Please note that meals on this list are of Normal Quality, in contrast to the entries [[Online:Provisioning|cooked]] by players, and they increase only one of the attributes at a time.
 
-Items on this list increase an attribute maximum value for 35 minutes and have a 5 second cooldown. If different entries are consumed one after another, the effects do not stack. 
+Items on this list increase an attribute maximum value for 35 minutes and have a 5 second cooldown. If different entries are consumed one after another, the effects do not stack.
+
 ==Staple Food==
 These foods are '''{{ESO Quality Color|n|Normal Quality}}''' versions of craftable '''{{ESO Quality Color|f|Fine}}''' [[ON:Food Recipes|Food Recipes]].  They are less potent than their crafted versions.  These may be found randomly on tables and in cauldrons and stew pots throughout the world, or they may be purchased from [[ON:Innkeepers|Innkeepers]] or [[ON:Chefs|Chefs]].  They may also be received as quest rewards from the [[ON:Fighters Guild|Fighters Guild]], [[ON:Mages Guild|Mages Guild]], and [[ON:Undaunted|Undaunted]] daily quests.
 

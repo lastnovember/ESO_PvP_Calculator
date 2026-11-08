@@ -115,6 +115,10 @@ Earn kills while in Werewolf form to advance this skill line. Each kill advances
 
 ==Equipment==
 * The 5-item [[Online:Salvation|Salvation]] set bonus "Reduce cost of Werewolf Transformation by 33%" results in a net cost of 200 Ultimate.
+* The 5-item [[Online:Hide_of_the_Werewolf|Hide of the Werewolf]] set bonus can provide 18 {{ESO Ultimate Link}} when taking damage while in [[Online:Werewolf Transformation|Werewolf Transformation]].
+* The 5-item [[Online:Savage_Werewolf|Savage Werewolf]] provides 6% increased damage done if you are in [[Online:Werewolf Transformation|Werewolf Transformation]].
+* The Mythic [[Online:Shapeshifter's_Chain|Shapeshifter's Chain]] reduces [[ON:Werewolf#Ultimate Abilities|Werewolf]] abilities' costs and buffs your resources.
+* The [[ON:Monster Helm Sets#Dungeon Sets|monster helm set]] [[Online:Mylenne_Moon-Caller (set)|Mylenne Moon-Caller]] grants 15 fury and 1 Blood Hunger when dealing damage with a werewolf attack every 10 seconds.
 
 ==Achievements==
 There are seven [[ON:Character Achievements|achievements]] associated with Lycanthropy:

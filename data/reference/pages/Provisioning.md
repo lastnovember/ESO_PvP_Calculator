@@ -1,7 +1,7 @@
 # Online:Provisioning
 
 Source: https://en.uesp.net/wiki/Online:Provisioning
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Provisioning is a crafting profession in Elder Scrolls Online used to transform provisioning ingredients into cooked food and brewed drinks. It is the equivalent of cooking in Skyrim. Provisioning recipes are broken into two categories, Food Recipes and Beverage Recipes. You must be at a Cooking Fire in order to create any items. Once you are Certified in this craft, you will have access to repeatable Crafting Writ quests.

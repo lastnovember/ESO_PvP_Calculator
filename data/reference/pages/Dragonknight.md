@@ -1,7 +1,7 @@
 # Online:Dragonknight
 
 Source: https://en.uesp.net/wiki/Online:Dragonknight
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Dragonknight is a class in Elder Scrolls Online. It is geared primarily towards tanking characters, but also utilizing fire to deal magic damage.

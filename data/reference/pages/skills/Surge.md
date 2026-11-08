@@ -7,9 +7,9 @@ Online Skill Summary
 id=30390
 line=Storm Calling
 icon=Storm Calling-Surge
-desc=Duration: [30 / 31 / 32 / 33] seconds. Invoke Meridia's name to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for [30 / 31 / 32 / 33] seconds. While active, dealing Critical Damage heals you for 2550 Health. This effect can occur once every 1 second.
-desc1=Area: [15 / 16 / 17 / 18] meters, Target: Area. Invoke Meridia's name to gain Major Brutality and Major Sorcery, increasing your Weapon Damage and Spell Damage by 20% for 33 seconds. While active, activating a Critical heal causes the ability to heal you and your allies around you for 2550 Health. This effect can occur once every 3 seconds.
-desc2=Invoke Meridia's name to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 33 seconds. While active, dealing Critical Damage heals you for [3000 / 3100 / 3200 / 3300] Health. This effect can occur once every 1 second.
+desc=Duration: [30 / 31 / 32 / 33] seconds. Invoke Meridia's name to gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for [30 / 31 / 32 / 33] seconds. While active, dealing Critical Damage heals you for 2550 Health. This effect can occur once every 1 second.
+desc1=Area: [15 / 16 / 17 / 18] meters, Target: Area. Invoke Meridia's name to gain Major Brutality, increasing your Weapon Damage and Spell Damage by 20% for 33 seconds. While active, activating a Critical heal causes the ability to heal you and your allies around you for 2550 Health. This effect can occur once every 3 seconds.
+desc2=Invoke Meridia's name to gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 33 seconds. While active, dealing Critical Damage heals you for [3000 / 3100 / 3200 / 3300] Health. This effect can occur once every 1 second.
 linerank=30
 cost=4050 Magicka
 attrib=Magicka

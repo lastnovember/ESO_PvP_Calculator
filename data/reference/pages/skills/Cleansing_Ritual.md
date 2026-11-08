@@ -7,9 +7,9 @@ Online Skill Summary
 id=27255
 line=Restoring Light
 icon=Restoring Light-Cleansing Ritual
-desc=Exalt in the sacred light of the Aedra, cleansing up to 2 harmful effects from yourself immediately and healing you and nearby allies for [2235 / 2260 / 2283 / 2309] Health every 2 seconds for 20 seconds. Allies in the area can activate the Purify Synergy synergy, cleansing all harmful effects from themselves and healing for 5227 Health.
-desc1=Cost: 4050 Magicka. Exalt in the sacred light of the Aedra, cleansing up to 2 harmful effects from yourself immediately. While in the area, enemies take [1151 / 1163 / 1176 / 1190] Magic Damage every 2 seconds for 20 seconds which increases by 12% per tick. Allies in the area can activate the Purify Synergy synergy, cleansing all harmful effects from themselves and healing for 5227 Health.
-desc2=Duration: [24 / 26 / 28 / 30] seconds. Exalt in the sacred light of the Aedra, cleansing up to 5 harmful effects from yourself immediately and healing you and nearby allies for 2309 Health every 2 seconds for [24 / 26 / 28 / 30] seconds. Allies in the area can activate the Purify Synergy synergy, cleansing all harmful effects from themselves and healing for 5227 Health.
+desc=Exalt in the sacred light of the Aedra, cleansing up to 2 harmful effects from yourself immediately and healing you and nearby allies for [2234 / 2258 / 2283 / 2308] Health every 2 seconds for 20 seconds. Allies in the area can activate the Purify Synergy synergy, cleansing all harmful effects from themselves and healing for 5227 Health.
+desc1=Cost: 4050 Magicka. Exalt in the sacred light of the Aedra, cleansing up to 2 harmful effects from yourself immediately. While in the area, enemies take [1152 / 1164 / 1176 / 1189] Magic Damage every 2 seconds for 20 seconds which increases by 12% per tick. Allies in the area can activate the Purify Synergy synergy, cleansing all harmful effects from themselves and healing for 5227 Health.
+desc2=Duration: [24 / 26 / 28 / 30] seconds. Exalt in the sacred light of the Aedra, cleansing up to 5 harmful effects from yourself immediately and healing you and nearby allies for 2307 Health every 2 seconds for [24 / 26 / 28 / 30] seconds. Allies in the area can activate the Purify Synergy synergy, cleansing all harmful effects from themselves and healing for 5227 Health.
 linerank=30
 cost=4860 Magicka
 attrib=Magicka

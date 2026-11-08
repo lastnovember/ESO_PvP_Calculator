@@ -2,7 +2,7 @@ Update 49 Live Patch Notes: All Platforms
 Update 49 Live Patch Notes: All Platforms
 Posted 2026-03-09 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/689473 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online Update 49. This update focuses on Update 49, new content coming in Season Zero of our new seasonal structure, and general bug fixes.
 Update 49 and Season Zero: Dawn and Dusk introduces a new kind of zone experience while also laying the groundwork for future seasonal additions. the season and update contain the following:
 The Night Market Event Zone

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.40.1.0 | Update 46 Inc. 1
 Xbox Patch Notes v1.40.1.0 | Update 46 Inc. 1
 Posted 2025-07-09 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/680312 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.40.1.0 (Xbox) fixes issues identified post-Update 46 launch. The first incremental patch for Update 46 address issues in Solstice and Base Game content. The Solstice zone has several fixes and adjustments including: Ossein Cage fixes and adjustments, Zone and Quest fixes, itemization and housing fixes.
 Base Game also comes with a list of quality of life fixes and working out some issues with items like addon support. Animation fixes, like interacting with a Skyshard now work correctly, along with some UI, text, and questing issues being resolved in this update.
 You can find all patch notes for Update 46, Incremental 1 below. We will continue to monitor issues and update in later incremental patches. The size of today's patch is 1.8GB (XBX).

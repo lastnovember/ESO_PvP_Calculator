@@ -1,8 +1,8 @@
 Name,Line Rank,Cast Time,Target,Range,Radius,Duration,Cost
 ,Grand Healing,2,Instant,Ground,28 meters,8 meters,10 seconds,3510 Magicka
-"Summon restoring spirits with your staff, healing you and your allies in the target area for [12276 / 12419 / 12551 / 12694] Health over 10 seconds."
-,,Illustrious Healing,"Increases the duration. Duration: [12 / 13 / 14 / 15] seconds. Summon restoring spirits with your staff, healing you and your allies in the target area for [14963 / 16120 / 17277 / 18421] Health over [12 / 13 / 14 / 15] seconds."
-,Healing Springs,"You gain Magicka Recovery for each target healed. Summon restoring spirits with your staff, healing you and your allies in the target area for 12661 Health over 10 seconds. Increases your Magicka Recovery by [12 / 13 / 14 / 15] for each target affected, stacking up to 20 times."
+"Call upon restoring spirits with your staff, healing you and your allies in the target area for [12276 / 12419 / 12540 / 12683] Health over 10 seconds."
+,,Illustrious Healing,"Increases the duration. Duration: [12 / 13 / 14 / 15] seconds. Call upon restoring spirits with your staff, healing you and your allies in the target area for [14976 / 16120 / 17277 / 18421] Health over [12 / 13 / 14 / 15] seconds."
+,Healing Springs,"You gain Magicka Recovery for each target healed. Call upon restoring spirits with your staff, healing you and your allies in the target area for 12672 Health over 10 seconds. Increases your Magicka Recovery by [12 / 13 / 14 / 15] for each target affected, stacking up to 20 times."
 ""
 ,Regeneration,4,Instant,Area,–,28 meters,10 seconds,2700 Magicka
 "Share your staff's life-giving energy, healing you or a nearby ally for [9222 / 9318 / 9420 / 9522] Health over 10 seconds."

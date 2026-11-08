@@ -8,7 +8,7 @@ Perfected Coral Riptide is a trial set found in veteran Dreadsail Reef. It canno
 ### Bonuses
 
 2 items: Adds 15-657 Critical Chance
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 perfected items: Adds 15-657 Critical Chance
 5 items: Increases your Weapon Damage and Spell Damage by up to 600, based on your missing Stamina, reaching the maximum at 50% Stamina. Current bonus: 0 Weapon Damage and Spell Damage.

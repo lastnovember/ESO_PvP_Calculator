@@ -2,7 +2,7 @@ Xbox Patch Notes v1.32.1.0
 Xbox Patch Notes v1.32.1.0
 Posted 2023-07-12 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/638251 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.32.1.0 fixes the issue where you could occasionally not loot enemies or perform other similar actions after killing a target, along with fixes for a couple Arcanist abilities, Necrom quests and content, issues surrounding attunable crafting stations, and more. The size of this patch is approximately 700MB for Xbox One and 1.2GB for Xbox Series X/S.
 Combat & Gameplay
 Combat & Abilities

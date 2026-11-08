@@ -8,7 +8,7 @@ id=263585
 line=Class Mastery
 type=Passive
 icon=Class Mastery-Bastion of Light
-desc=Light consecrates the ground on which you tread. Sacred Ground is now applied while you are in your own Nova and Spear Shards, and while Radial Sweep and Solar Barrage are active. While Sacred Ground is active, you heal for 1279 Health every 1 second. If you are at full Health after being healed from this effect while in combat, you also gain 2 Ultimate.
+desc=Light consecrates the ground on which you tread. Sacred Ground is now applied while you are in your own Nova and Spear Shards, and while Radial Sweep and Solar Barrage are active. While Sacred Ground is active, you heal for 1280 Health every 1 second. If you are at full Health after being healed from this effect while in combat, you also gain 2 Ultimate.
 linerank1=1
 
 Bastion of Light will apply Sacred Ground when standing within or using several Templar abilities. While Sacred Ground is active, it will provide healingi n addition to the Minor Mending and improved blocking. If you are at full health after being healed from this effect, you will also gain ultimate.

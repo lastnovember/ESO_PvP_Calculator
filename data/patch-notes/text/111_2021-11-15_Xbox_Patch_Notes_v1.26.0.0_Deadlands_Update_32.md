@@ -2,7 +2,7 @@ Xbox Patch Notes v1.26.0.0 (Deadlands & Update 32)
 Xbox Patch Notes v1.26.0.0 (Deadlands & Update 32)
 Posted 2021-11-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/591420 ·
-archived 2026-09-12
+archived 2026-10-30
 The Gates of Oblivion story reaches its climactic finale in The Deadlands DLC. The way to Mehrunes Dagon’s realm has been opened and his legions of Daedra and cultists prepare to unleash a series of new and terrifying Daedric inventions on the lands of Tamriel. The call now sounds for heroes to thwart these schemes.
 In addition to the burning and scoured fields of Mehrunes Dagon’s domain, The Deadlands DLC also invites you to visit Fargrave, a mysterious city shrouded in the corners of Oblivion. Here, “friendly” Daedra and mortals inhabit a metropolis unlike any other. But despite the tentative peace, tensions lurk beneath the city … tensions that Mehrunes Dagon is eager to exploit for his own gain.
 The Deadlands DLC introduces several new item sets, collectibles, outfit styles, achievements, titles and more!

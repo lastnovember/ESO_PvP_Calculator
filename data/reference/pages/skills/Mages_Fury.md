@@ -7,7 +7,7 @@ Online Skill Summary
 id=30319
 line=Storm Calling
 icon=Storm Calling-Mages' Fury
-desc=Call down lightning to strike an enemy, dealing [2306 / 2331 / 2356 / 2382] Shock Damage. If the enemy falls to or below 20% Health within 2 seconds of being struck, an explosion deals an additional [8452 / 8545 / 8638 / 8731] Shock Damage to them and [1845 / 1865 / 1885 / 1905] Shock Damage to other enemies nearby.
+desc=Call down lightning to strike an enemy, dealing [2306 / 2331 / 2356 / 2382] Shock Damage. If the enemy falls to or below 20% Health within 2 seconds of being struck, an explosion deals an additional [8455 / 8547 / 8639 / 8734] Shock Damage to them and [1845 / 1865 / 1885 / 1905] Shock Damage to other enemies nearby.
 desc1=Call down lightning to strike an enemy, dealing 2382 Shock Damage. If the enemy falls to or below 20% Health within 2 seconds of being struck, an explosion deals an additional 8735 Shock Damage to them and all nearby enemies.
 desc2=Cost: 2160 Magicka. Call down lightning to strike an enemy, dealing 2382 Shock Damage. If the enemy falls to or below 20% Health within 2 seconds of being struck, an explosion deals an additional 8735 Shock Damage to them and 1905 Shock Damage to other enemies nearby. If any enemy is killed within 5 seconds of being hit with this ability, you restore [2430 / 3240 / 4050 / 4860] Magicka.
 linerank=1

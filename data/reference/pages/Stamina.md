@@ -1,7 +1,7 @@
 # Online:Stamina
 
 Source: https://en.uesp.net/wiki/Online:Stamina
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Stamina is your character's physical energy, and is used to perform various basic combat actions, such as blocking, dodging, and stealth, as well as activating Stamina Skills. Stamina can additionally be used to increase the player's movement speed in and out of combat by sprinting. In previous Elder Scrolls games, the comparable attribute has been known as stamina and fatigue.

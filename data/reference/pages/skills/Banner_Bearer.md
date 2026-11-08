@@ -124,6 +124,7 @@ File:ON-skill-Shocking Banner.jpg|Shocking Banner
 
 ## Notes
 - Prior to Update 46, Banner Bearer had no casting cost and would instead reduce your Health, Magicka, and Stamina Recovery by 33% (40% with Immobilize Focus Script).
+- Only one banner can apply to a player at a time. Players with their own banner active will always receive its effects, with other players receiving the effect of the first banner that targeted them.
 
 ## Tables extracted from this page
 

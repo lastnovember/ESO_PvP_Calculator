@@ -7,9 +7,9 @@ Online Skill Summary
 id=86026
 line=Animal Companions
 icon=Animal Companions-Swarm
-desc=Unleash a swarm of fetcherflies to relentlessly attack an enemy, dealing [12276 / 12419 / 12551 / 12694] Magic Damage over 20 seconds. The fetcherflies rip through the enemy's flesh, afflicting them with Minor Vulnerability for the duration, increasing their damage taken by 5%.
-desc1=Unleash a swarm of fetcherflies to relentlessly attack an enemy, dealing [12661 / 12793 / 12936 / 13090] Magic Damage over 20 seconds. Every second cast of this ability deals 60% increased damage. The fetcherflies rip through the enemy's flesh, afflicting them with Minor Vulnerability for the duration, increasing their damage taken by 5%.
-desc2=Cost: 2525 Stamina, Area: 5 meters. Unleash a swarm of fetcherflies to relentlessly attack an enemy, causing them to bleed for [12661 / 12793 / 12936 / 13090] Bleed Damage over 20 seconds. The fetcherflies rip through the original enemy's flesh, afflicting them with Minor Vulnerability for the duration, increasing their damage taken by 5%. Enemies near the carrier take [1151 / 1163 / 1176 / 1190] Bleed Damage every 2 seconds for the duration. You can only have one Growing Swarm active at a time.
+desc=Unleash a swarm of fetcherflies to relentlessly attack an enemy, dealing [12276 / 12419 / 12540 / 12683] Magic Damage over 20 seconds. The fetcherflies rip through the enemy's flesh, afflicting them with Minor Vulnerability for the duration, increasing their damage taken by 5%.
+desc1=Unleash a swarm of fetcherflies to relentlessly attack an enemy, dealing [12672 / 12804 / 12936 / 13079] Magic Damage over 20 seconds. Every second cast of this ability deals 75% increased damage. The fetcherflies rip through the enemy's flesh, afflicting them with Minor Vulnerability for the duration, increasing their damage taken by 5%.
+desc2=Cost: 2525 Stamina, Area: 5 meters. Unleash a swarm of fetcherflies to relentlessly attack an enemy, causing them to bleed for [12672 / 12804 / 12936 / 13079] Bleed Damage over 20 seconds. The fetcherflies rip through the original enemy's flesh, afflicting them with Minor Vulnerability for the duration, increasing their damage taken by 5%. Enemies near the carrier take [1152 / 1164 / 1176 / 1189] Bleed Damage every 2 seconds for the duration. You can only have one Growing Swarm active at a time.
 linerank=20
 cost=2970 Magicka
 attrib=Magicka

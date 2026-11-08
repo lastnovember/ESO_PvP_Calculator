@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.2.1.0
 Xbox One Patch Notes v1.2.1.0
 Posted 2015-12-01 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/233691 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online: Tamriel Unlimited v1.2.1.0 is an incremental patch on Xbox One that addresses a few issues in Orsinium, gameplay, and fixes the main cause of the long loading screens. The size of this patch is approximately 680MB.
 FIXES & IMPROVEMENTS

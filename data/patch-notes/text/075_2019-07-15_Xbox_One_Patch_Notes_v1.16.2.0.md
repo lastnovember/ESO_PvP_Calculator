@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.16.2.0
 Xbox One Patch Notes v1.16.2.0
 Posted 2019-07-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/485218 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.16.2.0 includes fixes for some quests, the Frozen Colossus ability, allows you to again unsheathe your weapons when pressing light attack, some improvements for Leaderboard accuracy, a fix for some guild and Guild Finder issues, and more. The size of this patch is approximately 15GB.
 Necromancer
 Grave Lord

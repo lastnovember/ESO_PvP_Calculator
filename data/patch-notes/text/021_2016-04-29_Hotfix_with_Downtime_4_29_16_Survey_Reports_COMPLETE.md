@@ -2,7 +2,7 @@ Hotfix with Downtime 4/29/16 – Survey Reports [COMPLETE]
 Hotfix with Downtime 4/29/16 – Survey Reports [COMPLETE]
 Posted 2016-04-29 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/263047 ·
-archived 2026-09-12
+archived 2026-10-30
 Today, we’ll be bringing all platforms and megaservers offline for a short unplanned maintenance to address a recent exploit involving Survey Reports. Once the fix is applied, Survey Reports will be removed from your inventory upon discovering the associated survey site, instead of the first time you harvest a node from a survey site. Note that this is a temporary change, and will be revised once Dark Brotherhood is released.
 Below is the current schedule for when each megaserver will be taken offline:
 PC NA: 2:00pm EDT / 19:00 BST

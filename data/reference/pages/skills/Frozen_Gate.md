@@ -7,9 +7,9 @@ Online Skill Summary
 id=86178
 line=Winter's Embrace
 icon=Winter's Embrace-Frozen Gate
-desc=Summon an ancient portal, which arms after 1.5 seconds and lasts for 15 seconds. When triggered the enemy is teleported to you if within range, immobilized for 3 seconds, and dealt [4608 / 4657 / 4709 / 4759] Frost Damage. You can have up to 3 Frozen Gates active at a time.
-desc1=Summon an ancient portal, which arms after 1.5 seconds. When triggered the enemy is teleported to you if within range, immobilized for 3 seconds, dealt [4765 / 4816 / 4869 / 4921] Frost Damage, and afflicted with Major Maim, reducing their damage done by 10% for 4 seconds. You can have up to 3 Frozen Devices active at a time.
-desc2=Summon an ancient portal, which arms after 1.5 seconds. When triggered the enemy is teleported to you if within range, immobilized for 3 seconds, and dealt [4765 / 4816 / 4869 / 4921] Frost Damage. An ally in the portal can activate the Icy Escape synergy, teleporting them to you and granting them Major Expedition, increasing their Movement Speed by 30% for 8 seconds. You can have up to 3 Frozen Retreats active at a time.
+desc=Conjure an ancient portal, which arms after 1.5 seconds and lasts for 15 seconds. You cannot conceal your presence while active. When triggered the enemy is teleported to you if within range, immobilized for 3 seconds, and dealt [4609 / 4660 / 4710 / 4761] Frost Damage. You can have up to 3 Frozen Gates active at a time.
+desc1=Conjure an ancient portal, which arms after 1.5 seconds and lasts for 15 seconds. You cannot conceal your presence while active. When triggered the enemy is teleported to you if within range, immobilized for 3 seconds, dealt [4763 / 4814 / 4866 / 4919] Frost Damage, and afflicted with Major Maim, reducing their damage done by 10% for 4 seconds. You can have up to 3 Frozen Devices active at a time.
+desc2=Conjure an ancient portal, which arms after 1.5 seconds and lasts for 15 seconds. You cannot conceal your presence while active. When triggered the enemy is teleported to you if within range, immobilized for 3 seconds, and dealt [4763 / 4814 / 4866 / 4919] Frost Damage. An ally in the area can activate the Icy Escape synergy, teleporting them to you and granting them Major Expedition for 8 seconds. You can have up to 3 Frozen Retreats active at a time.
 linerank=42
 cost=2970 Magicka
 attrib=Magicka

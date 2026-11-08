@@ -2,7 +2,7 @@ Xbox Patch Notes v1.28.0.0 - High Isle & Update 34
 Xbox Patch Notes v1.28.0.0 - High Isle & Update 34
 Posted 2022-06-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/608715 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.28.0.0 and our newest Chapter: High Isle! Visit the beautiful Systres Archipelago, far to the southwest of continental Tamriel, and delve into the culture and secrets of the noble and chivalric Breton people.
 This Chapter not only explores the lore and political intrigue of the Bretons but also introduces two new Companions. You can use them to support your efforts throughout the world, including conquering the new Volcanic Vents found throughout High Isle. For a bigger challenge, be sure to head to Dreadsail Reef, a new 12-player Trial located in the northwest section of High Isle.
 We’re also very excited to introduce you to Tales of Tribute, a new deckbuilding card game. Play against NPCs or against your fellow players to earn new cards, decks, furnishings, cosmetics, Transmute Crystals and more. To get started, simply head to the Roister Club of Gonfalon Bay.

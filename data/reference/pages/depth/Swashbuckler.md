@@ -19,7 +19,7 @@ River northeast of Black Heights | Brokk the Smuggler | Orc | Male | 133844
 ## Skills and Abilities
 ;Stab:Basic melee attack dealing minor physical damage.
 ;Off-Hand Strike:A physical attack dealing minor physical damage. If it hits in the back, it also staggers and applies a bleeding effect. They always use this attack when they reappear behind from using their salt abilities.
-;Throw Dagger:The enemy backs away from the player and throws a dagger at the player. This attack causes snare and bleed if it connects. This attack can be interrupted to set the enemy off balance. The dagger can be blocked to prevent the snare and bleed and reduce the damage done.
+;Throw Dagger/Throw Dagger Bleed:The swashbuckler backs away from the target and throws a dagger at the target. This attack snares, deals minor physical damage (Throw Dagger) then very minor bleed damage over time (Throw Dagger Bleed). This attack can be interrupted to set the swashbuckler off balance. The dagger can be blocked to prevent the snare and the bleed.
 ;Lunge:When far, the swashbuckler charges the target, dealing moderate physical damage and staggering it.
 ;Volatile Pool:Also known as Fiery Oil. Ranged AOE attack. Throws potion which causes the targeted area to be set on fire, indicated by a circular AoE, dealing continuous minor flame damage.
 ;Fire Salt Explosion/Burning Fire Salts:The enemy throws down fire salts, causing an explosion and starting a fire, indicated by a circular AoE, that deals continuous minor flame damage over time when you stand in it. The initial blast does low flame damage. The enemy disappears and cannot be targeted while the ability is active..

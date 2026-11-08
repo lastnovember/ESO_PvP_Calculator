@@ -22,3 +22,5 @@ Red Diamond
 ## Notes
 - Imperials are only playable for those with the Imperial Edition of the game.
 - They are not confined to any alliance until you choose one, which you cannot change again without an Alliance Change Token.
+
+fr:Online:Impérial

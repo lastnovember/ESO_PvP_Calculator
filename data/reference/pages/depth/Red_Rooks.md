@@ -68,6 +68,7 @@ Generic Members
 - Red Rook Bandit Style Imperial City - A light armor style purchasable from Tel Var General Merchants in Imperial City
 
 ### Books
+- Ilessan Tower (note)
 - Red Rook's Journal
 - Red Rook Orders: Cryptwatch
 - Red Rook Orders

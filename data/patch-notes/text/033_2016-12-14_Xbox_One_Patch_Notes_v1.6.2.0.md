@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.6.2.0
 Xbox One Patch Notes v1.6.2.0
 Posted 2016-12-14 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/308570 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online v1.6.2.0 is an incremental patch for the Xbox One that fixes the issue where you couldn’t fully log out of the game, and also adjusts the brightness of the game after introducing HDR support. The size of this patch is approximately 475 MB.
 FIXES & IMPROVEMENTS, BASE GAME PATCH

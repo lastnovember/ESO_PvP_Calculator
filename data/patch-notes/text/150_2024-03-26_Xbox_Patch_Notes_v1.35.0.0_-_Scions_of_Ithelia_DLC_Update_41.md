@@ -2,7 +2,7 @@ Xbox Patch Notes v1.35.0.0 - Scions of Ithelia DLC & Update 41
 Xbox Patch Notes v1.35.0.0 - Scions of Ithelia DLC & Update 41
 Posted 2024-03-26 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/655165 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.35.0.0 and our first DLC for 2024: Scions of Ithelia! This DLC features two challenging new 4-player PvE dungeons. Oathsworn Pit is a training ground for Malacath's chosen, and the God of Curses demands you enact revenge on behalf of the fallen. In Bedlam Veil, located within the demiplane of Maelstrom, you’ll find cultists have invaded and it’s up to you to defend this ancient vault and the mysterious relic it protects. Completing these dungeons gives you the chance at obtaining a number of new item sets, collectibles, achievements, and more.
 As part of the free base game update, we’ve added 3 new PvP item sets that are earned from Rewards of the Worthy in addition to a new Antiquity. We’ve also unified gear repair kits to aid in any inventory woes, siege equipment will  now stack, and Undaunted key rewards have been increased.
 We hope you enjoy this year’s first DLC which is approximately 45GB for Xbox One and 4GB for Xbox Series X.

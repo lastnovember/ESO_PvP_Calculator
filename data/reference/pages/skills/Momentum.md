@@ -7,9 +7,9 @@ Online Skill Summary
 id=39881
 line=Two Handed
 icon=Two Handed-Momentum
-desc=Duration: [27 / 28 / 29 / 30] seconds. Focus your strength and resolve to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%, as well as gaining Minor Endurance, increasing your ESO Stamina Link | Recovery by 15% for [27 / 28 / 29 / 30] seconds.
-desc1=Cost: [3510 / 3420 / 3330 / 3240] Stamina, Duration: 60 seconds. Focus your strength and resolve to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%, as well as gaining Minor Endurance, increasing your ESO Stamina Link | Recovery by 15% for 1 minute. Activating this ability removes all snares and immobilizations from you and grants immunity to them for 4 seconds.
-desc2=Focus your strength and resolve to gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%, as well as gaining Minor Endurance, increasing your ESO Stamina Link | Recovery by 15% for 30 seconds. You heal for [4764 / 4816 / 4868 / 4921] Health when Rally ends. The final heal is increased by 20% every 2 seconds, up to a maximum of 200%.
+desc=Duration: [27 / 28 / 29 / 30] seconds. Focus your strength and resolve to gain Major Brutality and Minor Endurance for [27 / 28 / 29 / 30] seconds, increasing ESO Weapon Damage Link | |y and Spell Damage by 20% and ESO Stamina Link | Recovery by 15%.
+desc1=Cost: [3510 / 3420 / 3330 / 3240] Stamina, Duration: 60 seconds. Focus your strength and resolve to gain Major Brutality and Minor Endurance for 1 minute, increasing ESO Weapon Damage Link | |y and Spell Damage by 20% and ESO Stamina Link | Recovery by 15%. Activating this ability removes all snares and immobilizations from you and grants immunity to them for 4 seconds.
+desc2=Focus your strength and resolve to gain Major Brutality and Minor Endurance for 30 seconds, increasing ESO Weapon Damage Link | |y and Spell Damage by 20% and ESO Stamina Link | Recovery by 15%. You heal for [4764 / 4816 / 4868 / 4921] Health when Rally ends. The final heal is increased by 20% every 2 seconds, up to a maximum of 200%.
 linerank=38
 cost=3780 Stamina
 attrib=Stamina

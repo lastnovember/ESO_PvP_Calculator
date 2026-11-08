@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.20.2.0
 Xbox One Patch Notes v1.20.2.0
 Posted 2020-07-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/537562 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.20.2.0 includes several fixes for Antiquities – including some Leads not dropping properly – the addition of new Wayshrines in Western Skyrim, several crash fixes, and more. Please note that due to a bug fix involving how textures are ordered in the packfiles, the download size for this patch is larger than usual at 21.4GB.
 Antiquities
 Excavation

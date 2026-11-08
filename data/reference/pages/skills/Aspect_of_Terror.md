@@ -7,8 +7,8 @@ Online Skill Summary
 id=38065
 line=Shadow
 icon=Shadow-Aspect of Terror
-desc=Cost: [4050 / 3960 / 3870 / 3780] Magicka. Summon a dark spirit to terrify nearby enemies, causing them to cower in fear for 2 seconds and be afflicted with Major Cowardice for 10 seconds, reducing their ESO Weapon Damage Link | |y and Spell Damage by 430.
-desc1=Duration: [2 / 2.3 / 2.7 / 3] seconds. Summon a dark spirit to terrify all nearby enemies, causing them to cower in fear for [2 / 2.3 / 2.7 / 3] seconds and be afflicted with Major Cowardice for 10 seconds, reducing their ESO Weapon Damage Link | |y and Spell Damage by 430.
+desc=Cost: [4050 / 3960 / 3870 / 3780] Magicka. Embody a dark spirit to terrify nearby enemies, causing them to cower in fear for 2 seconds and be afflicted with Major Cowardice for 10 seconds, reducing their ESO Weapon Damage Link | |y and Spell Damage by 430.
+desc1=Duration: [2 / 2.3 / 2.7 / 3] seconds. Embody a dark spirit to terrify all nearby enemies, causing them to cower in fear for [2 / 2.3 / 2.7 / 3] seconds and be afflicted with Major Cowardice for 10 seconds, reducing their ESO Weapon Damage Link | |y and Spell Damage by 430.
 desc2=Cost: [3510 / 3420 / 3330 / 3240] Magicka, Duration: 20 seconds, Range: 22 meters, Target: Ground. Conceal a sinister trap at the target location, which takes 2 seconds to arm and lasts for 20 seconds. When the trap is triggered, up to 6 enemies in the area become terrified, causing them to cower in fear for 2 seconds and be afflicted with Major Cowardice for 10 seconds, reducing their ESO Weapon Damage Link | |y and Spell Damage by 430.
 linerank=30
 cost=3780 Magicka

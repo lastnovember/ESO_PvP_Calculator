@@ -2,7 +2,7 @@ Xbox Patch Notes v1.24.2.0 - Blackwood & Update 30
 Xbox Patch Notes v1.24.2.0 - Blackwood & Update 30
 Posted 2021-06-08 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/576619 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.24.2.0 and our latest Chapter: Blackwood! Uncover the schemes of the Daedric Prince Mehrunes Dagon 800 years before the events of The Elder Scrolls IV. From the walls of the Imperial city of Leyawiin to the murky bogs of Shadowfen, explore the mysterious region of Blackwood and uncover the Daedric plot at its heart. You can also enter Oblivion Portals scattered throughout the region of Blackwood, fight your way to their heart, and shut down these mysterious Daedric constructs.
 We’re also excited to introduce Companions to fight alongside you, keep you company, and tell new stories as you grow your friendships with all-new and unique characters ready to aid you in your quests. Or gather your strongest allies to take on Rockgrove, our newest 12-player Trial. Blackwood also features a number of new item sets, Antiquities, Collectibles, Outfit Styles, Dyes, and Titles.
 Update 30, which is a free update as part of the base game, includes several other additions and features as well including ability bar timers, bankable outfit style pages, new Monster Masks, Master Writ quest assistance, adjustments to proc sets and the Champion System (including new stars!), and more.

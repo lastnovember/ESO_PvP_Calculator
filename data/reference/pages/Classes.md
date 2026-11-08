@@ -1,7 +1,7 @@
 # Online:Classes
 
 Source: https://en.uesp.net/wiki/Online:Classes
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 In Elder Scrolls Online, every character must choose a class at the start of the game. Each of the seven classes are open to customization, although some may be more suited to certain roles than others. All weapons and armor are available, no matter your chosen class or race.

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.27.0.0 - Ascending Tide & Update 33
 Xbox Patch Notes v1.27.0.0 - Ascending Tide & Update 33
 Posted 2022-03-28 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/601172 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.27.0.0 and the beginning of the Legacy of the Bretons year-long adventure! This first DLC features two challenging new PvE dungeons, Coral Aerie and Shipwright’s Regret, where you’re tasked with investigating the remnants of the once-proud All Flags Navy and assaulting a costal hideout of the mysterious Ascendant Order. Completing these dungeons also gives you the opportunity to obtain a number of new item sets, collectibles, achievements, and more.
 As part of the free base game update, we are excited to add account wide Achievements so an Achievement you earn on one character will be shown as complete on all of your characters. We’ve also added several new PvP item sets that are earned from Rewards of the Worthy and Imperial City, in addition to a unique PvP Outfit Style.
 We hope you enjoy this latest DLC, which is approximately 4.34GB for Xbox Series consoles and 46.58GB for Xbox One.

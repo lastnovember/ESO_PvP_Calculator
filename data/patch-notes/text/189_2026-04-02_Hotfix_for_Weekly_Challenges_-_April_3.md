@@ -2,7 +2,7 @@ Hotfix for Weekly Challenges - April 3
 Hotfix for Weekly Challenges - April 3
 Posted 2026-04-02 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/690532 ·
-archived 2026-09-12
+archived 2026-10-30
 Hello everyone,
 We’ve seen reports that a handful of Tamriel Tome Weekly Challenges cannot be completed, which include:
 Defeat the Symphony of Blades, the Lava Queen, or Molag Kena (note that defeating the Lava Queen does work)

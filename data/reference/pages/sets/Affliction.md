@@ -10,7 +10,7 @@ Affliction is an item set found in boxes purchased using Alliance Points from th
 2 items: Adds 3-129 Weapon Damage and Spell Damage
 3 items: Adds 3-129 Weapon Damage and Spell Damage
 4 items: Adds 34-1487 Offensive Penetration
-5 items: When you deal damage, you deal 330 Disease damage to the target. The enemy is then afflicted with the Diseased status effect, applying Minor Defile to the target, reducing their Healing Received and damage shield strength by 6% for 4 seconds. This effect can occur once every 4 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+5 items: When you deal damage, you deal 330 Disease damage to the target. The enemy is then afflicted with the Diseased status effect, applying Minor Defile to the target, reducing their Healing Received and damage shield strength by 0% for 4 seconds. This effect can occur once every 4 seconds and scales off the higher of your Weapon Damage and Spell Damage.
 
 ### Pieces
 The set consists of heavy armor and jewelry in all slots, as well as weapons and shields of all types.

@@ -7,8 +7,8 @@ Online Skill Summary
 id=32194
 line=Earthen Heart
 icon=Earthen Heart-Superheated Ward
-desc=Roil the air around you or an ally, granting a damage shield that absorbs up to [11998 / 12129 / 12260 / 12393] for 6 seconds. This ability scales off the higher of your Max Magicka or Stamina and is capped at 50% of the target's Max Health.
-desc1=Roil the air around you or an ally, granting a damage shield that absorbs up to 12396 for 6 seconds and reducing the next instance of damage taken by 10%. When the shield ends the latent heat warms the target, healing them for [4276 / 4323 / 4370 / 4417] Health. This ability scales off the higher of your Max Magicka or Stamina and the shield is capped at 50% of the target's Max Health.
+desc=Roil the air around you or an ally, granting a damage shield that absorbs up to [11998 / 12130 / 12261 / 12356] for 6 seconds. This ability scales off the higher of your Max Magicka or Stamina and is capped at 50% of the target's Max Health.
+desc1=Roil the air around you or an ally, granting a damage shield that absorbs up to 12356 for 6 seconds and reducing the next instance of damage taken by 10%. When the shield ends the latent heat warms the target, healing them for [4276 / 4323 / 4370 / 4417] Health. This ability scales off the higher of your Max Magicka or Stamina and the shield is capped at 50% of the target's Max Health.
 desc2=Cost: 2295 Stamina, Range: 28 meters, Target: Enemy. Draw forth magma from below to hurl at an enemy, dealing [6352 / 6421 / 6491 / 6561] Flame Damage while applying a stack of Heat Shock, which increases the enemy's damage taken by 66 for 7 seconds per stack, up to 3 times. Hitting an enemy at max stacks of Heat Shock with this ability increases the damage done of the next cast of this ability within 6 seconds by 66%, up to once every 6 seconds.
 linerank=1
 cost=4590 Magicka

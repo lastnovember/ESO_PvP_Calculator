@@ -1,7 +1,7 @@
 # Online:Races
 
 Source: https://en.uesp.net/wiki/Online:Races
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 This page details the ten playable races in Elder Scrolls Online, as well as the many non-playable NPC races you can encounter.

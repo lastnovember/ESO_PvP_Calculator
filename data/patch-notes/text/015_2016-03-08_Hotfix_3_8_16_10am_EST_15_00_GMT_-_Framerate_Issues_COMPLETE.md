@@ -2,7 +2,7 @@ Hotfix 3/8/16 @ 10am EST/15:00 GMT - Framerate Issues [COMPLETE]
 Hotfix 3/8/16 @ 10am EST/15:00 GMT - Framerate Issues [COMPLETE]
 Posted 2016-03-08 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/251643 ·
-archived 2026-09-12
+archived 2026-10-30
 Hello everyone,
 This morning beginning at 10am EST/15:00 GMT, we'll be publishing a hotfix that will address some of the poor framerate issues that you may have run into since
 Thieves Guild

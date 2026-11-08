@@ -1,7 +1,7 @@
 # Online:Restoration Staff
 
 Source: https://en.uesp.net/wiki/Online:Restoration_Staff
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Restoration Staff is one of the six weapon skills available in Elder Scrolls Online. Most active and passive abilities enabled by Restoration Staves focus on protecting and healing allies, while others help recharge the user's magicka. In addition, dealing a fully-charged heavy attack to an enemy will also recharge the user's magicka based on their level. The use of these abilities, and progression in the skill line, require equipping a Restoration type staff.

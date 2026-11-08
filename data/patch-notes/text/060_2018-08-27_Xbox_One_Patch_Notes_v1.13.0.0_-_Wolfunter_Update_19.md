@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.13.0.0 - Wolfunter & Update 19
 Xbox One Patch Notes v1.13.0.0 - Wolfunter & Update 19
 Posted 2018-08-27 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/432761 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.13.0.0 and the Wolfhunter DLC Game Pack! Wolfhunter introduces two new 4-player dungeons allowing you to venture into the Hunting Grounds of Hircine, in addition to a host of new collectibles and item sets. You’ll also find a number of updates to the base game including a new Battlegrounds map and Outfit Styles, the addition of Keep Recall Stones for Cyrodiil, updates to the Respec System, and more.
 We’ve also made a number of balance changes in this update with the main goals being to improve the Werewolf skill line, reducing the duration of snare and defile effects, and increasing the viability of a number of the less popular item sets.
 The size of this patch is approximately 46.3GB.

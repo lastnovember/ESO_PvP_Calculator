@@ -8,7 +8,7 @@ Perfected Eye of Nahviintaas is a trial set which drops in veteran Sunspire. It 
 ### Bonuses
 
 2 items: Adds 3-129 Magicka Recovery
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 25-1096 Maximum Magicka
 5 perfected items: Adds 25-1096 Maximum Magicka
 5 items: When an ally activates a synergy you have created within 10 seconds, you and the ally who activated the synergy get 12% cost reduction for non-Ultimate abilities for 3 seconds. This effect can occur every 6 seconds per target.

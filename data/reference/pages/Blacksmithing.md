@@ -1,7 +1,7 @@
 # Online:Blacksmithing
 
 Source: https://en.uesp.net/wiki/Online:Blacksmithing
-Fetched: 2026-09-19
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Blacksmithing is a crafting profession in Elder Scrolls Online. This profession's specialty is to create and improve heavy armor and metal weapons in various styles of different races. To create a weapon or a piece of armor you need to be at a blacksmithing station. Such stations are also used to conduct research on different kinds of heavy armor and metal weapons traits. The list of ingredients (ores, ingots, and tempers) used in Blacksmithing can be found here. Once you are Certified in this craft, you will have access to repeatable Crafting Writ quests.

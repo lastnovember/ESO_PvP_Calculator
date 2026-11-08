@@ -34,14 +34,14 @@ Beetles, Thunderbugs, Assassin Beetles, Shalks
 
 Blessed Thistle
 Restore Stamina
-Increase Weapon Power
-Ravage Health
+Increase Power
+Heal Absorption
 Speed
 Default nodes
 
 Blue Entoloma
 Ravage Magicka
-Cowardice
+Heal Absorption
 Restore Health
 Invisible
 Fungal nodes
@@ -49,13 +49,13 @@ Fungal nodes
 Bugloss
 Increase Spell Resist
 Restore Health
-Cowardice
+Mending
 Restore Magicka
 Default nodes
 
 Butterfly Wing
 Restore Health
-Uncertainty
+Damage Shield
 Lingering Health
 Vitality
 Butterflies
@@ -63,7 +63,7 @@ Butterflies
 Chaurus Egg
 Timidity
 Ravage Magicka
-Restore Stamina
+Vexation
 Detection
 Chauruses
 
@@ -83,24 +83,31 @@ Default nodes
 
 Corn Flower
 Restore Magicka
-Increase Spell Power
+Increase Power
 Ravage Health
 Detection
 Default nodes
 
 Crimson Nirnroot
 Timidity
-Spell Critical
+Force
 Gradual Ravage Health
 Restore Health
 Blackreach (unique node type)
 
-Dragon Rheum
-Restore Magicka
+Cultivated Cryptpods
 Heroism
-Enervation
-Speed
-Dragons (upon completing The Good Bits)
+Increase Power
+Mending
+Damage Shield
+Solo dungeons
+
+Daedra-Blood Maggots
+Defile
+Heal Absorption
+Cowardice
+Entrapment
+Blackreach (unique node type)
 
 Dragon's Bile
 Heroism
@@ -116,11 +123,18 @@ Heroism
 Defile
 Dragons
 
+Dragon Rheum
+Restore Magicka
+Uncertainty
+Heroism
+Speed
+Dragons (upon completing The Good Bits)
+
 Dragonthorn
-Increase Weapon Power
+Increase Power
 Restore Stamina
 Fracture
-Weapon Critical
+Critical
 Default nodes
 
 Emetic Russula
@@ -137,31 +151,38 @@ Gradual Ravage Health
 Vitality
 Fleshflies & Zombies
 
+Fossilized Verminous Bones
+Heroism
+Restore Stamina
+Force
+Detection
+Treasure Maps in Alliance zones
+
 Imp Stool
-Maim
+Cowardice
 Ravage Stamina
 Increase Armor
 Enervation
 Fungal nodes
 
 Lady's Smock
-Increase Spell Power
+Force
 Restore Magicka
 Breach
-Spell Critical
+Critical
 Default nodes
 
 Luminous Russula
 Ravage Stamina
-Maim
 Restore Health
 Hindrance
+Cowardice
 Fungal nodes
 
 Mountain Flower
 Increase Armor
 Restore Health
-Maim
+Cowardice
 Restore Stamina
 Default nodes
 
@@ -173,7 +194,7 @@ Defile
 Mudcrabs (not Coral Crabs)
 
 Namira's Rot
-Spell Critical
+Enervation
 Speed
 Invisible
 Unstoppable
@@ -189,19 +210,19 @@ Default nodes
 Nirnroot
 Ravage Health
 Uncertainty
-Enervation
 Invisible
+Heal Absorption
 Water nodes
 
 Powdered Mother of Pearl
-Lingering Health
+Mending
 Speed
 Vitality
 Protection
 Giant Clams (spawn near the ocean on Summerset and High Isle)
 
 Scrib Jelly
-Ravage Magicka
+Vexation
 Speed
 Vulnerability
 Lingering Health
@@ -210,22 +231,22 @@ Kwama
 Spider Egg
 Hindrance
 Invisible
-Lingering Health
+Damage Shield
 Defile
 Spiders
 
 Stinkhorn
 Fracture
 Ravage Health
-Increase Weapon Power
+Force
 Ravage Stamina
 Fungal nodes
 
 Torchbug Thorax
 Fracture
-Enervation
+Uncertainty
 Detection
-Vitality
+Mending
 Torchbugs
 
 Vile Coagulant
@@ -238,26 +259,33 @@ Harrowstorms
 Violet Coprinus
 Breach
 Ravage Health
-Increase Spell Power
+Increase Power
 Ravage Magicka
 Fungal nodes
 
 Water Hyacinth
 Restore Health
-Spell Critical
-Weapon Critical
+Critical
 Entrapment
+Damage Shield
 Water nodes
 
 White Cap
-Cowardice
+Enervation
 Ravage Magicka
 Increase Spell Resist
 Detection
 Fungal nodes
 
+Winter's Grave Tongue
+Vexation
+Heal Absorption
+Defile
+Breach
+Found in snowy areas (Skyrim and Wrothgar), on wood or held by undead
+
 Wormwood
-Weapon Critical
+Critical
 Hindrance
 Detection
 Unstoppable
@@ -348,9 +376,15 @@ Clear Water is also used in one Provisioning recipe (unfortunately higher level 
 - Pre-Update 12, Natural Water was found in Tier 1 Zones, Clear Water in Tier 1 and 2, Pristine Water in Tier 2 and 3, Cleansed Water in Tier 4 and 5, Filtered Water in Coldharbour, Purified Water in Veteran Silver Zones, Cloud Mist in Veteran Gold Zones, Star Dew in Craglorn, and Lorkhan's Tears in the existing battle-leveled zones.
 - Pre-Update 9, Lorkhan's Tears was consistently found in Imperial City.
 - Pre-Update 8, Filtered Water was consistently found in Cyrodiil.
+- Update 51 consolidated several traits, and introduced others to make up for the gaps introduced:
+- Increase Weapon Power and Increase Spell Power were consolidated into Increase Power.
+- Weapon Critical and Spell Critical were consolidated into Critical.
+- New traits introduced were Mending, Vexation, Damage Shield, Heal Absorption and Force.
+- Maim was removed, and replaced with Cowardice in all instances.
+- As of Update 51 there are 38 reagents with 34 different effects.
 
 ## Tables extracted from this page
 
-- tables/depth_Alchemy_Ingredients_t00.csv (34 rows): Reagent | Primary Effect | Secondary Effect | Tertiary Effect | Quaternary Effect | Comes from
+- tables/depth_Alchemy_Ingredients_t00.csv (38 rows): Reagent | Primary Effect | Secondary Effect | Tertiary Effect | Quaternary Effect | Comes from
 - tables/depth_Alchemy_Ingredients_t01.csv (9 rows): * | Clear Water | 10 | Tincture of | 1
 - tables/depth_Alchemy_Ingredients_t02.csv (9 rows): Solvent | Poison Level | Poison Suffix | 32

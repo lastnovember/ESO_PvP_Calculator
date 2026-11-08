@@ -8,7 +8,7 @@ Vestment of Olorime is a set which drops in normal Cloudrest. It cannot be craft
 ### Bonuses
 
 2 items: Adds 3-129 Magicka Recovery
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 3-129 Magicka Recovery
 5 items: Casting abilities that leave an effect on the ground in combat will create a circle of might for 5 seconds. You and your group members in the circle gain Major Courage for 20 seconds, increasing your Weapon Damage and Spell Damage by 430 for 20 seconds. This effect can occur once every 10 seconds.
 

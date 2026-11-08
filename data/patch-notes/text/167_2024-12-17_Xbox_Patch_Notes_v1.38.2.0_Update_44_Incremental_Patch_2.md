@@ -2,7 +2,7 @@ Xbox Patch Notes v1.38.2.0 | Update 44 Incremental Patch 2
 Xbox Patch Notes v1.38.2.0 | Update 44 Incremental Patch 2
 Posted 2024-12-17 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/670670 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.38.2.0 addresses some issues identified post Update 44 launch. The third incremental patch for Update 44 address issues in the Firesong, High Isle and Base Game content. Included is an adjustment to Siegemaster’s Focus, fixes to Gloambound and Iceshard style weapon styles, and trial groups will no longer lose vitality when a player leaves the zone while the group is in combat. These are some of the adjustments coming in incremental three. For all adjustments being made in incremental three, please see the full list of patch notes below.  This patch file size is 3.53 GB (XB1)/ 3.29 GB (XBX/XBS).
 Overview
 Combat & Gameplay

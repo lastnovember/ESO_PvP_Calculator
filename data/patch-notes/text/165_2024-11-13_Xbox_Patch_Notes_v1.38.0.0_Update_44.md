@@ -2,7 +2,7 @@ Xbox Patch Notes v1.38.0.0 | Update 44
 Xbox Patch Notes v1.38.0.0 | Update 44
 Posted 2024-11-13 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/668827 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.38.0.0 (Xbox) and the Update 44 base game patch! This update brings 2-sided Battlegrounds matches, featuring 4v4 and 8v8 game modes. 2-sided Battlegrounds includes new maps and support for Capture the Relic, Team Death Match, Domination, Chaos Ball, and Crazy King modes. Additionally, two new companions, Tanlorin and Zerith-Var, join your journey through Tamriel.
 Update 44 also adds new content for Scribing and introduces a new reward system, Golden Pursuits. Scribing receives all-new Grimoire, 14 focus scripts for existing Grimoire and new Skill Styles. With Golden Pursuits, you can participate in limited-time curated activities that offer account-wide in-game rewards.
 In addition to these new features, bug fixes and improvements have been made across the game. Examples include an updated "Soul Shriven in Coldharbour" questline returning as the current new character tutorial, an improved starting character experience, combat balance changes, and enhancements to Imperial City itemization.

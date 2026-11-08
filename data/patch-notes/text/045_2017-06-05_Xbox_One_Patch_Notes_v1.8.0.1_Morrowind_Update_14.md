@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.8.0.1 (Morrowind & Update 14)
 Xbox One Patch Notes v1.8.0.1 (Morrowind & Update 14)
 Posted 2017-06-05 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/350036 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.8.0.1, introducing our first chapter: Morrowind! The fate of the island of Vvardenfell hangs in the balance and Tamriel needs a hero to help Vivec, the legendary warrior-poet god, who suffers from a mysterious illness.
 In addition to Vvardenfell, the largest landmass addition to date, we’re also introducing the first new class since ESO launched: the Warden. This class is an adaptable, support-orientated option for players who want to be able to fill a specific role while simultaneously providing assistance to others. If you are interested in a class that uses the wilds of Tamriel to protect, heal, or deal damage (occasionally all at the same time) the Warden is for you.
 Morrowind also brings a new PvP mode – Battlegrounds – which are small-scale, fast-paced battles with three teams of four players. If you’re looking for a real challenge, head to our newest 12-player Trial, Halls of Fabrication, featuring a Normal and Veteran version. You’ll also find a host of new item sets, Motifs, homes and furnishings, collectibles, titles, and even dyes.

@@ -8,9 +8,9 @@ Master Architect is a trial set which drops in the Halls of Fabrication. It cann
 ### Bonuses
 
 2 items: Adds 25-1096 Maximum Magicka
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain Major Slayer for 1 second per 10 Ultimate spent, increasing your damage done to Dungeon, Trial, and Arena Monsters by 10%.
+5 items: When you use an Ultimate ability while in combat, you and the closest 5 group members within 28 meters of you gain Major Slayer for 1 second per 10 Ultimate spent, increasing damage done to monsters by 10%.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types.

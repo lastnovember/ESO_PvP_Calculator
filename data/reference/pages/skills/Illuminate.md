@@ -10,8 +10,8 @@ id2=45215
 line=Dawn's Wrath
 type=Passive
 icon=Dawn's Wrath-Illuminate
-desc=Casting a Dawn's Wrath ability grants Minor Sorcery to you and your group for 10 seconds, increasing your Spell Damage by 10%.
-desc2=Casting a Dawn's Wrath ability grants Minor Sorcery to you and your group for 20 seconds, increasing your Spell Damage by 10%.
+desc=Casting a Dawn's Wrath ability grants you and your group 2974 Armor for 10 seconds.
+desc2=Casting a Dawn's Wrath ability grants you and your group 2974 Armor for 20 seconds.
 linerank1=22
 linerank2=36
 

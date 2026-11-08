@@ -3,6 +3,7 @@
 Source: https://en.uesp.net/wiki/Online:Monolith_of_Storms
 License: CC BY-SA, UESP
 
+Monoliths
 Monolith of Storms is a Class set found in the Infinite Archive. It cannot be crafted. Pieces are Monolith of Storms Style in all weights. It buffs the Storm Calling skill line for Sorcerers.
 
 ### Bonuses

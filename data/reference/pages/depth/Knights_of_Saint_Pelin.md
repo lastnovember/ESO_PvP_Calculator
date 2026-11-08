@@ -10,6 +10,7 @@ Named Members
 
 ;Anireh
 ;Commander Ahla
+;Dame Annelette
 ;Dame Astrimunde Lort
 ;Dame Belline Lonacque
 ;Dame Epinard of Evermore

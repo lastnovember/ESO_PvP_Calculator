@@ -3,12 +3,13 @@
 Source: https://en.uesp.net/wiki/Online:Finders_Keepers
 License: CC BY-SA, UESP
 
+Finders Keepers (emote)]]
 Online Skill Summary
 id=74580
 line=Thieves Guild
 type=Passive
 icon=Thieves Guild-Finders Keepers
-desc=Thieves Troves are caches that are located all over Tamriel. They can only be opened by members of the Thieves Guild.
+desc=Thieves troves are caches that are located all over Tamriel. They can only be opened by members of the Thieves Guild.
 image=ON-misc-Thieves Trove.jpg
 imgdesc=A trove
 linerank1=1

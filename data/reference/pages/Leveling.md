@@ -1,7 +1,7 @@
 # Online:Leveling
 
 Source: https://en.uesp.net/wiki/Online:Leveling
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 In Elder Scrolls Online, a player's Level is used to determine which gear and consumables a player may use. It is also the level of their racial skill line, which determines which racial passives may be unlocked. Other skill lines are not tied to player level.
@@ -410,5 +410,3 @@ Few quests relate directly to the leveling system, although many have level requ
 - tables/uesp_Online_Leveling_t01.csv (50 rows): Player level | Experience required for next level | Total experience for level | Standard quest reward | Location discov
 - tables/uesp_Online_Leveling_t02.csv (51 rows): Experience to next rank | Total experience to reach rank | Experience to next rank | Total experience to reach rank | Ex
 - tables/uesp_Online_Leveling_t03.csv (5 rows): Color | Level Range | Difficulty
-- tables/depth_Leveling_t00.csv (50 rows): Player level | Experience required for next level | Total experience for level | Standard quest reward | Location discov
-- tables/depth_Leveling_t01.csv (51 rows): Experience to next rank | Total experience to reach rank | Experience to next rank | Total experience to reach rank | Ex

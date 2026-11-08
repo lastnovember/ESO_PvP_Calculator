@@ -2,7 +2,7 @@ Xbox Patch Notes v1.25.0.0 - Waking Flame & Update 31
 Xbox Patch Notes v1.25.0.0 - Waking Flame & Update 31
 Posted 2021-09-07 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/585895 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.25.0.0 and the Waking Flame DLC Game Pack! Waking Flame adds two new 4-player dungeons to the game: Red Petal Bastion and The Dread Cellar. As expected, we’ve added several new collectibles, item sets, achievements, and titles for you to acquire.
 In the base game, we’ve expanded the number of sets you can use in no-proc Cyrodiil campaigns, introduced 3 new item sets to Rewards for the Worthy, added a Reply option to received mail, and of course have a plethora of bug & crash fixes for the entire game. For a high level summary of the changes affecting combat, please visit
 this forum post

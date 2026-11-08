@@ -1,7 +1,7 @@
 # Online:Traits
 
 Source: https://en.uesp.net/wiki/Online:Traits
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Traits are a special property that can appear on weapons, armor and jewelry. Each item can have a single trait, in addition to all other properties an item can carry, though items without any traits are also common.

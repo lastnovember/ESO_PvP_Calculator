@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.17.0.0 (Scalebreaker & Update 23)
 Xbox One Patch Notes v1.17.0.0 (Scalebreaker & Update 23)
 Posted 2019-08-26 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/491204 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.17.0.0 and the Scalebreaker DLC game pack! In Scalebreaker, you’ll discover two new 4-player dungeons – Moongrave Fane and Lair of Maarselok – in addition to a number of new item sets and collectibles. The base game introduces a number of quality of life improvements you’ll enjoy including multi-crafting, multi-bidding, Undaunted Key improvements, and more! We’ve also updated a number of existing item sets, which you’ll find detailed below.
 Our ability audit also continues in this update, with the goal of having abilities be more consistent with one another and how they interact with combat as a whole. You’ll find we’ve made a fairly substantial number of fixes and adjustments to combat abilities to support this goal, and have reduced skill respecs to zero gold for one week until September 3. We hope you enjoy this latest update, which is approximately 58.14GB in size.
 New Features / Updates / Big Changes

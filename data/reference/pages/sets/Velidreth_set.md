@@ -10,7 +10,7 @@ Velidreth is a monster helm set. It consists of two armor pieces: head and shoul
 ### Bonuses
 
 1 item: Adds 3-129 Weapon Damage and Spell Damage
-2 items: When you deal damage, you have a 20% chance to spawn 3 disease spores in front of you after 1 second that deal 1557 Disease damage to any enemy they hit. This effect can occur once every 8 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+2 items: When you deal damage, you have a 20% chance to spawn 3 disease spores in front of you after 1 second that deal 1557 Disease damage to any enemy they hit. This effect reveals you, can occur once every 8 seconds, and scales off the higher of your Weapon Damage and Spell Damage.
 
 ### Drop Locations
 - The head drops from Velidreth in Veteran Cradle of Shadows.

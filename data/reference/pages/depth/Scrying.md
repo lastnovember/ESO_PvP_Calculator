@@ -28,35 +28,36 @@ Farsight (skill)
 Preemptive Power
 
 ### Advancement
+changed with U51, either more points awarded or less points needed
 Successfully excavating an antiquity grants experience for both Scrying and Excavation.
 
 Difficulty | Points awarded
 
-Simple | 1
+Simple | 1(1)
 
-Intermediate | 3
+Intermediate | 3(3)
 
-Advanced | 5
+Advanced | 5(7)
 
 Master | 10
 
 Ultimate | 10
 
-Points needed to advance in ranks:
+Points needed to advance in ranks. Numbers in parentheses are correct for U51:
 
 Rank | Points | Cumulative points up to and including this rank
 
 1 | 0 | 0
 
-2 | 8 | 8
+2 | 8(4) | 8(4)
 
-3 | 12 | 20
+3 | 12(6) | 20(10)
 
-4 | 30 | 50
+4 | 30(25) | 50(35)
 
-5 | 40 | 90
+5 | 40(55) | 90(90)
 
-6 | 60 | 150
+6 | 60(60) | 150(150)
 
 7 | 85 | 235
 
@@ -64,7 +65,7 @@ Rank | Points | Cumulative points up to and including this rank
 
 9 | 150 | 500
 
-10 | 200 | 700
+10 | 200(200) | 700
 
 ## How to Scry
 

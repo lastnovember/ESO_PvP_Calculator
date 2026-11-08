@@ -1,7 +1,7 @@
 # Online:Fighters Guild
 
 Source: https://en.uesp.net/wiki/Online:Fighters_Guild
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 fromFighters Guild#mw-pages

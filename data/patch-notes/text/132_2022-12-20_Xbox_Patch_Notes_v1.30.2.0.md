@@ -2,7 +2,7 @@ Xbox Patch Notes v1.30.2.0
 Xbox Patch Notes v1.30.2.0
 Posted 2022-12-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/624240 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.30.2.0 fixes the most recent issue with block – putting it back into its pre-Update 36 state – fixed an issue where some enchantments could fail to persist through rezoning, and more. The size of this patch is approximately 1.2GB.
 General
 Fixed an issue where some assets in Galen would appear like static while approaching them.

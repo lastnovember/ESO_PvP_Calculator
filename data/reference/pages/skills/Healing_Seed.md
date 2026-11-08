@@ -7,9 +7,9 @@ Online Skill Summary
 id=93804
 line=Green Balance
 icon=Green Balance-Healing Seed
-desc=Summon a field of flowers which blooms after 6 seconds, healing you and allies in the area for [9222 / 9324 / 9425 / 9527] Health. An ally within the field can activate the Harvest synergy, healing for 9222 Health over 5 seconds.
-desc1=Summon a field of flowers which blooms after 6 seconds, healing you and allies in the area for 9528 Health. While the field grows, you and allies are healed for [1086 / 1099 / 1110 / 1123] Health every 1 second. You can activate this ability again to cause it to instantly bloom. An ally within the field can activate the Harvest synergy, healing for 9222 Health over 5 seconds.
-desc2=Summon a field of flowers which blooms after 6 seconds, healing you and allies in the area for [9528 / 9631 / 9737 / 9842] Health. Enemies who enter the field are afflicted with Major Defile and Minor Cowardice, reducing their healing received and damage shield strength by 12% and their ESO Weapon Damage Link | |y and Spell Damage by 215. An ally within the field can activate the Harvest synergy, healing for 9222 Health over 5 seconds.
+desc=Sprout a field of flowers which blooms after 6 seconds, healing you and allies in the area for [9221 / 9323 / 9424 / 9526] Health. An ally within the field can activate the Harvest synergy, healing for 9222 Health over 5 seconds.
+desc1=Sprout a field of flowers which blooms after 6 seconds, healing you and allies in the area for 9526 Health. While the field grows, you and allies are healed for [1087 / 1099 / 1111 / 1123] Health every 1 second. You can activate this ability again to cause it to instantly bloom. An ally within the field can activate the Harvest synergy, healing for 9222 Health over 5 seconds.
+desc2=Sprout a field of flowers which blooms after 6 seconds, healing you and allies in the area for [9526 / 9630 / 9735 / 9839] Health. Enemies who enter the field are afflicted with Major Defile and Minor Cowardice, reducing their healing received and damage shield strength by 12% and their ESO Weapon Damage Link | |y and Spell Damage by 215. An ally within the field can activate the Harvest synergy, healing for 9222 Health over 5 seconds.
 linerank=4
 cost=2430 Magicka
 attrib=Magicka

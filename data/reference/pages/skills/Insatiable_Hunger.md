@@ -7,7 +7,7 @@ Online Skill Summary
 id=32634
 line=Werewolf
 type=Passive
-icon=Werewolf-Devour
+icon=Werewolf-Insatiable Hunger
 desc=WHILE YOU ARE IN WEREWOLF FORM Hunger gnaws at you. Like Storihbeg, shape it into a brutal weapon. Gain the ability to devour corpses, for up to 4 seconds per corpse. Each second devouring you heal for 3200 Health, based off your Max Health, and restore 15 Ultimate. If you are a Werewolf Berserker, each tick activates Fury generation.
 linerank1=1
 

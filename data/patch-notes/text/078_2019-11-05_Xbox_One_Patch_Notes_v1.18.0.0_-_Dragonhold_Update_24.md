@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.18.0.0 - Dragonhold & Update 24
 Xbox One Patch Notes v1.18.0.0 - Dragonhold & Update 24
 Posted 2019-11-05 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/500684 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.18.0.0 and the Dragonhold DLC Game Pack, featuring the conclusion of the Season of the Dragon! Dragonhold introduces not only the new zone of Southern Elsweyr, but also adds two world bosses, two delves, and new Dragon Hunt areas (complete with fearsome Frost and Storm Dragons). We’ve also added several new collectibles, item sets, achievements, and titles for you to acquire.
 The base game introduces our updated Activity Finder for dungeons and Battlegrounds, and also focuses heavily on the first part of the performance improvements for ESO with an overhaul of how memory is managed. Along with updating 3-piece item sets, you’ll find we’ve made several improvements to Wardens, Sorcerers, and Dragonknights in the realm of identity, adjusted some values of Damage over Time abilities, and more.
 Note that due to the number of combat changes, we have reduced skill respecs to zero gold for one week until November 12 at 10am EST. We hope you enjoy this latest update, which is approximately 58.5GB.

@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.22.0.0 - Markarth  & Update 28
 Xbox One Patch Notes v1.22.0.0 - Markarth  & Update 28
 Posted 2020-11-09 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/552187 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.22.0.0 and the Markarth DLC Game Pack, featuring the epic conclusion of the Dark Heart of Skyrim! Markarth introduces not only the new zone of The Reach, but also adds two world bosses, two delves, and an exciting solo Arena that is sure to challenge you. We’ve also added several new collectibles, item sets, achievements, and titles for you to acquire, in addition to new Antiquities that can only be dug up in The Reach.
 We’re excited to introduce Item Set Collections to the base game, a new system to help you find and manage all your item sets, along with increasing the cap for Transmute Crystals! We’re also re-adding group queues back to Battlegrounds and have many bug fixes for the entire game.
 We hope you enjoy this latest update, which is approximately 44GB. Enjoy!

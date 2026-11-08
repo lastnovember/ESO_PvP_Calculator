@@ -7,9 +7,9 @@ Online Skill Summary
 id=24171
 line=Dawn's Wrath
 icon=Dawn's Wrath-Sun Fire
-desc=Blast an enemy with a charge of radiant heat, dealing [3074 / 3107 / 3141 / 3175] Flame Damage, and an additional [9210 / 9300 / 9410 / 9510] Flame Damage over 20 seconds. Upon activation you gain Major Savagery and Major Prophecy for 20 seconds, increasing your Weapon Critical and Spell Critical rating by 2629.
-desc1=Duration: 30 seconds. Blast an enemy with a charge of radiant heat, dealing 3175 Flame Damage, and an additional [14280 / 14430 / 14595 / 14745] Flame Damage over 30 seconds. Upon activation you gain Major Savagery and Major Prophecy for 30 seconds, increasing your Weapon Critical and Spell Critical rating by 2629.
-desc2=Area: 5 meters. Blast up to three enemies with a charge of radiant heat, dealing [3175 / 3209 / 3244 / 3279] Flame Damage, an additional 9520 Flame Damage over 20 seconds, and reducing their Movement Speed by 40% for 3 seconds. Upon activation you gain Major Savagery and Major Prophecy for 20 seconds, increasing your Weapon Critical and Spell Critical rating by 2629.
+desc=Blast an enemy with a charge of radiant heat, dealing [3074 / 3107 / 3141 / 3175] Flame Damage, and an additional [9200 / 9300 / 9410 / 9510] Flame Damage over 20 seconds. Upon activation you gain Major Savagery for 20 seconds, increasing Critical Chance by 12%.
+desc1=Duration: 30 seconds. Blast an enemy with a charge of radiant heat, dealing 3175 Flame Damage, and an additional [14295 / 14430 / 14595 / 14760] Flame Damage over 30 seconds. Upon activation you gain Major Savagery for 30 seconds, increasing Critical Chance by 12%.
+desc2=Area: 5 meters. Blast up to three enemies with a charge of radiant heat, dealing [3175 / 3209 / 3244 / 3279] Flame Damage, an additional 9530 Flame Damage over 20 seconds, and reducing their Movement Speed by 40% for 3 seconds. Upon activation you gain Major Savagery for 20 seconds, increasing Critical Chance by 12%.
 linerank=1
 cost=2970 Magicka
 attrib=Magicka

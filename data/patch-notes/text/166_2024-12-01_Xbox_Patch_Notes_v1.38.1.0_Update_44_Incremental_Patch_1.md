@@ -2,7 +2,7 @@ Xbox Patch Notes v1.38.1.0  | Update 44 Incremental Patch 1
 Xbox Patch Notes v1.38.1.0  | Update 44 Incremental Patch 1
 Posted 2024-12-01 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/669647 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.38.1.0 fixes issues identified post Update 44 launch. The first console incremental patch for Update 44 address issues in Gold Road, Greymoor, Imperial City, Orsinium, Scions of Ithelia and Base Game content. We address some medaling and inactivity issues with 2-Sided Battlegrounds, fix missing quest markers for enchanting and alchemy writs and resolve various text errors. We also have a fix for the Battlemaster’s Worm Fang which now correctly grants the associated runebox. We have various other fixes and adjustments listed below for this incremental patch, which is approximately 1.7GB in size.
 Overview
 Combat & Gameplay

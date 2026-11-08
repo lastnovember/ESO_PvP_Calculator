@@ -162,6 +162,8 @@ New Life Celebrant
 Savior of Summerset
 Pen is Mightier than the Sword
 Lucent Citadel Vanquisher
+Expert Resurrectionist
+Legend of the Nowhere Vault
 Rude Awakening
 Legendary Clothier
 Rivenspire Master Explorer

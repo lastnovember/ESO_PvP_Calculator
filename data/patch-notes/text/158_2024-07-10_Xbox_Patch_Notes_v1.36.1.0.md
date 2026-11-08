@@ -2,7 +2,7 @@ Xbox Patch Notes v1.36.1.0
 Xbox Patch Notes v1.36.1.0
 Posted 2024-07-10 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/662255 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.36.1.0 is the first Xbox incremental patch post Update 42 launch. This patch includes a number of fixes for the Gold Road and Blackwood zones, Scribing quests, some art model and effects-related issues, and more. The Jubilee Steed mount will be accessible again to those who earned it during the Anniversary Jubilee event. We’ve also fixed an issue where Luminous Ink was not dropping from boss enemies, giving you more opportunities to obtain Ink for Scribing. The size of this patch is approximately 5.07 GB (XB1)/5.0 GB (XBX).
 General
 Fixed an issue where Luminous Ink was not dropping from boss enemies.

@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.5.1.0
 Xbox One Patch Notes v1.5.1.0
 Posted 2016-09-12 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/291175 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online v1.5.1.0 is an incremental patch for the Xbox One that fixes several issues in the new dungeons in the Shadows of the Hist DLC game pack, in addition to some fixes for itemization, quests, UI, and more. The size of this patch is approximately 3.9 GB.
 FIXES & IMPROVEMENTS

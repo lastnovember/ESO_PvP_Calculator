@@ -9,11 +9,12 @@ The Antiquarian Circle is the University of Gwylim's historical society. They sc
 Named Members
 
 ;Gabrielle Benele (Leader)
-;Amalien
+;Amalien (Leader)
 ;Eveline San
 ;Historian Phedre
 ;Muzah-Tei
 ;Reginus Buca
+;Tuindoril
 ;Ugron gro-Thumog
 ;Verita Numida
 ;Ysrudde

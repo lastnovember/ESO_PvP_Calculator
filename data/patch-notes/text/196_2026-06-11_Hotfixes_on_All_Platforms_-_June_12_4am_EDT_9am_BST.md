@@ -2,7 +2,7 @@ Hotfixes on All Platforms - June 12 @ 4am EDT/9am BST
 Hotfixes on All Platforms - June 12 @ 4am EDT/9am BST
 Posted 2026-06-11 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/693945 ·
-archived 2026-09-12
+archived 2026-10-30
 Hello everyone,
 We are planning maintenance on all platforms and megaservers this Friday, June 12 starting at 4am EDT/9am BST to address the following:
 Fixing an issue where linking housing items can freeze the game on Xbox and PlayStation consoles

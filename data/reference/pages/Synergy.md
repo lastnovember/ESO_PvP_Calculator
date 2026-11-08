@@ -1,7 +1,7 @@
 # Online:Synergy
 
 Source: https://en.uesp.net/wiki/Online:Synergy
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Synergies are special abilities that other allied players may activate when you use certain skills or sets. If a Synergy is available to you, a prompt at the bottom of the screen appears letting you know that you can activate a Synergy, by pressing the key or buttons associated with it. ("X" by default on PC/Mac, + on Xbox, + on PS4). Synergy activations cost no resources and are independent of skill cooldowns. The Undaunted skill line is particularly based on Synergies, as all of its active skills have one associated with them. Some Synergies only appear with certain skill morphs, or change depending on the morph chosen.
@@ -256,9 +256,11 @@ Sometimes, there are other events which behave like Synergies, giving you the op
 - The Feed ability shows when you are a Vampire and sneaking close enough to a humanoid target to feed. Doing so will increase your Vampirism Stage by one, as well as restoring your Health. Your Vampirism stage will decrease every 6 hours if you do not feed. Some of the Vampire abilities are only available or become more powerful if you are in the higher Stages of Vampirism. Doing so is considered an attack, and will be reported as a crime if done to a non-hostile enemy. The range is slightly higher than the Blade of Woe ability. The same ability shows when giving another player a bite at a Vampire Shrine with the Blood Ritual skill, though this does not affect your Vampirism stage.
 - The Insatiable Hunger ability can be used by Werewolves provided they have invested in the skill line and are currently in Werewolf form. This allows you to consume the corpses of your slain enemies to restore your Health and gain Ultimate. The same ability shows when giving another player a bite at a Werewolf Ritual Sites with the Shadow of the Bloodmoon skill.
 - The Slaughter synergy can be used by Werewolves while they are prowling on targets they have snuck behind, much like with the Blade of Woe and Vampire Feed abilities.
+- During The Parley quest, Gabrielle Benele gives you the 24 Targeted Spell synergy. Using it allows you to aim Gabrielle's storm spell. It deals 1,307 shock damage to enemies (named "Shock Damage") and apply Concussion. It has a very low cooldown.
 - During the final battle in Arx Corinium against Sellistrix the Lamia Queen, the Nereid sisters will give you the option to "Taunt Her!", causing Sellistrix to direct her attacks at the Nereid instead of you. This is part of the Force of Nature quest and thus will only be available on your first run-through of the dungeon.
 - During Stone Cold, you have to Use Indanas to Collapse Hole.
 - During the quest God of Schemes, there are two instances where you are given a pseudo-Synergy event, first to form floating rocks into a bridge using Aedric Command, and later to escape from Molag Bal's clenched fist using Sacrifice of Courage.
+- During the Lord Hollowjack fight, you will have to use the 24Scare Crow synergy on crows to scare them away, as they drain the stamina of all players.
 - If you rescue Unsulag during the Forcing the FaithOrsinium quest in Paragon's Remembrance, she will cast a healing spell which gives you a Synergy called Restoring Waves which restores your health.
 - When Scruut is following you, she will periodically give you the Apocrypha's Wrath synergy to use, which summons Scruut's Tentacle to assist you. During Kynreeve Ryl's fight, this synergy also stops his "Ryl's Nightmare" ability.
 - During some parts in Necrom's main quests after recovering Meln the Mouthless, you can use the 24Ghost Sight synergy against spirit-like enemies which have dramatic damage taken reduction. Dealing damage to those enemies grants you a stack of "Ghost Sight" for 30 seconds, and at 3 stacks a small area appears on the ground which grants you the Ghost Light synergy. Activating this synergy greatly increases your damage done for a time and causes the spirit-like enemies to immediately change back into their physical form.

@@ -2,7 +2,7 @@ Update 33 Console Known Issues
 Update 33 Console Known Issues
 Posted 2022-03-28 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/601151 ·
-archived 2026-09-12
+archived 2026-10-30
 Hi everyone,
 Below, you’ll find a list of issues that we expect to be present when Update 33 launches on consoles tomorrow, March 29, based on issues that occurred during PC launch a couple weeks ago. Please note this list is not comprehensive and only covers issues that are of a higher impact.
 The first time you log in after downloading the update, it will likely take longer than expected to get into the game due to backend account updates relating to Account Wide Achievements. Once this completes, all future load times should return to normal.

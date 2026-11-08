@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.14.2.0
 Xbox One Patch Notes v1.14.2.0
 Posted 2019-01-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/453059 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.14.2.0 adds the latest item sets to the End of Campaign reward mails, fixes a couple issues with Guild Traders in Murkmire and dyes that couldn’t be gemmed from Xanmeer Crown Crates, and fixes a performance-related issue that will result in slightly higher FPS. The size of this patch is approximately X.
 General
 Guild Traders found throughout Murkmire will no longer wander around, and will now be stationary.

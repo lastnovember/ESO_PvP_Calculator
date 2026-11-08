@@ -1,7 +1,7 @@
 # Online:Spell Damage
 
 Source: https://en.uesp.net/wiki/Online:Spell_Damage
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Spell Damage represents the damage done by spells or abilities with a Magicka cost. Your Spell Damage can be improved by many sets (click for complete list), as well the Major Sorcery and Minor Sorcery effects, which increase your damage by 20% and 10% respectively.

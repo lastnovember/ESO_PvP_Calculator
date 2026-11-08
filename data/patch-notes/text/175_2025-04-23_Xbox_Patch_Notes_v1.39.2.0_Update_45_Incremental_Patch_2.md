@@ -2,7 +2,7 @@ Xbox Patch Notes v1.39.2.0 | Update 45 Incremental Patch 2
 Xbox Patch Notes v1.39.2.0 | Update 45 Incremental Patch 2
 Posted 2025-04-23 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/676903 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.39.2.0 (Xbox) resolves issues identified in the Fallen Banners DLC and Base Game content. This short update contains minor UI fixes and a fix to a customized action. You will find those fixes and more in the Update 45 Incremental 2 patch notes listed below. The sizes of today's update are 2.1 GB (XB1)/ 2.5 GB (XBX)
 Overview
 Combat & Gameplay

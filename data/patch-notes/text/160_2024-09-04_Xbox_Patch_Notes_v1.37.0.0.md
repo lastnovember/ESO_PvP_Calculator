@@ -2,7 +2,7 @@ Xbox Patch Notes v1.37.0.0
 Xbox Patch Notes v1.37.0.0
 Posted 2024-09-04 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/665037 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.37.0.0 (Xbox) and the Update 43 base game patch!  This update introduces Home Tours, a new tool to help you find and share housing creations. We’ve also made some updates to Infinite Archive to add new Arenas, Verses and Visions, plus added 7 new Class Sets and some additional curated item sets. You’ll also find new collectibles, achievements, titles, and enjoy a few additional quality of life changes including the game now remembering your last selected Guild Store or Guild Bank.
 In addition to these features, we have a long list of bug fixes and improvements to the entire game, such as a number of adjustments affecting Scribing (including some new Ink sourcing!), quest content, some combat balance adjustments, and more. This size of this patch is approximately 41.3 GB (XB1)/ 9.7 GB (XBX).
 Overview

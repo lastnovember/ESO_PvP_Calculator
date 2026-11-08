@@ -1,7 +1,7 @@
 # Online:Psijic Order
 
 Source: https://en.uesp.net/wiki/Online:Psijic_Order
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 The Psijic Order is a mysterious and ancient order of powerful mages based on the isle of Artaeum, geographically part of the Summerset Isles. As the island disappeared from Tamriel over 350 years ago, around when former member Vanus Galerion formed the Mages Guild, the Order has rarely ever been seen.

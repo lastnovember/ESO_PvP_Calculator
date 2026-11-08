@@ -8,7 +8,7 @@ Mantle of Siroria is a trial set which drops in normal Cloudrest. It cannot be c
 ### Bonuses
 
 2 items: Adds 3-129 Weapon Damage and Spell Damage
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: Adds 4-200 Weapon Damage and Spell Damage
 5 items: Dealing damage with a Light or Heavy Attack creates a ring of fire beneath you for 8 seconds. This effect can occur once every 8 seconds. Every second spent standing in the ring increases your Weapon Damage and Spell Damage by 1-44 for 5 seconds, stacking up to 10 times.

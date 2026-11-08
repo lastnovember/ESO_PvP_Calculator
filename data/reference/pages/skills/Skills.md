@@ -164,7 +164,8 @@ There are several methods of earning skill points, listed below, up to a current
 - Completing OrsiniumOrsinium Maelstrom Arena (1 Skill Point)
 - Completing all Scribing quests (1 Skill point)
 
-Spent skill points can be refunded at a Rededication Shrine for a fee of 50 Gold per point, or with a Skill Respecification Scroll available in the Crown Store. Note that the cost scales up with how many skill points you have acquired (including from Skyshards), and even if you only refund a single skill point and leave the others unchanged, you still have to pay the full cost (e.g. If you have acquired 10 skill points, you will have to pay 500 gold, regardless of how many skill points you want to refund).
+### Reallocating Skill Points
+As of Update 49, spent skill points can be reallocated directly from the Skills screen at no cost.
 
 ### Unobtainable Skill Points
 - Two of the skill points listed above are unobtainable if you decide not to accept the Folium Discognitum in the Mages Guild questline.
@@ -179,6 +180,7 @@ Spent skill points can be refunded at a Rededication Shrine for a fee of 50 Gold
 - The Greymoor Chapter added 27 more options between the Excavation and Scrying skills.
 - Despite the name, Riding Skill is not technically considered to be a skill.
 - When you have the Skills menu open, passing players will see your character reading a book with a brown cover.
+- Prior to Update 49, spent skill points could be refunded at a Rededication Shrine for a fee of 50 Gold per point, or with a Skill Respecification Scroll available in the Crown Store. Note that the cost scaled up with how many skill points you had acquired (including from Skyshards), and even if you only refunded a single skill point and left the others unchanged, you still had to pay the full cost (e.g. If you had acquired 10 skill points, you would have to pay 500 gold, regardless of how many skill points you wanted to refund).
 
 ## Tables extracted from this page
 

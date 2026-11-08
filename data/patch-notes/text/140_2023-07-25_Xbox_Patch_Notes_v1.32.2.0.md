@@ -2,7 +2,7 @@ Xbox Patch Notes v1.32.2.0
 Xbox Patch Notes v1.32.2.0
 Posted 2023-07-25 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/639439 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.32.2.0 includes some adjustments to Crux and fixes for a few Mundus Stone issues, along with fixes for several Necrom quests, the Antiquity Leads for the “Music Box, Glyphic Secrets”, several game crashes, and more. The size of this patch is approximately 1.99GB for Xbox One and 1.18GB for Xbox Series X/S.
 Arcanist
 Slowed down the rotation speed of the Crux icons help reduce any potential motion sickness issues.

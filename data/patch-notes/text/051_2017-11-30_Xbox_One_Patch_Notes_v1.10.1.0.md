@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.10.1.0
 Xbox One Patch Notes v1.10.1.0
 Posted 2017-11-30 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/383249 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.10.1.0 is an incremental patch that includes a temporary fix for the long loading screens that many of you have experienced since the Clockwork City DLC game pack was released. In Update 16, we added in a new system that refined the character texture loading pipeline as part of our ongoing effort to increase performance and framerate in high-intensity situations (such as in Cyrodiil and densely-populated cities). Unfortunately, this new pipeline was causing some character textures to get lost, which was causing the load screen to never drop because there were still textures that need to be loaded.
 While we continue to work on fixing this issue fully, this patch includes two changes. First, we’re reverting to the old pipeline which doesn’t have this issue, but this may affect how quickly you see other characters loading in (this will essentially be the same as it was before Clockwork City). Further, we’re introducing a new failsafe that will force your load screen to drop after two minutes if it is only waiting on textures.
 In the future when we have a more permanent fix, we plan to re-enable the new pipeline because it makes for better game performance, but when we do that, we’ll be adding the equivalent of a switch on our side that we can turn off (to fall back to the old system) if we see these kinds of issues crop up again, rather than make you wait for another patch.

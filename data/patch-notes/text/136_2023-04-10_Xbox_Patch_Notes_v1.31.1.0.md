@@ -2,7 +2,7 @@ Xbox Patch Notes v1.31.1.0
 Xbox Patch Notes v1.31.1.0
 Posted 2023-04-10 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/631147 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.31.1.0 addresses a couple common crashes and fixes some issues found in the new dungeon, Scrivener’s Hall. We also have fixed a few gameplay-related issues surrounding synergy activation, break free not registering and some buttons blocking other actions. We’ve also fixed several Crown Crate Motifs that could not be converted into gems. The size of this patch is approximately 1.83GB for Xbox One and 1.12GB for Xbox Series X.
 General
 Fixed an issue where you could activate synergies more times than intended.

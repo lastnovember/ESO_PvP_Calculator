@@ -13,9 +13,9 @@
 |{{Map Link|The Apprentice|world=Bangkorai|Bangkorai}}
 |{{Map Link|The Apprentice|world=The Rift|The Rift}}
 |{{Map Link|The Apprentice|world=Cyrodiil|Cyrodiil}}
-|Increases Spell Damage
-|{{ESO MundusStoneValue|Apprentice}}
-|389
+|Increases your experience and crafting inspiration gain
+|{{ESO MundusStoneValue|Apprentice}}%
+|13%
 |-
 ![[Online:The Atronach (Mundus Stone)|The Atronach]]
 |{{Map Link|The Atronach|world=Greenshade|Greenshade}}

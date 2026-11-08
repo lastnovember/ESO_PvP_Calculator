@@ -7,7 +7,7 @@ Online Skill Summary
 id=46137
 line=Werewolf
 type=Passive
-icon=Werewolf-Blood Rage
+icon=Werewolf-Call of the Hunt
 desc=WHILE YOU ARE IN WEREWOLF FORM No beast can resist their master's call. Hunt as one and none shall escape. Reduces the cost of remaining in your Werewolf Transformation by 8%, plus 8% for each transformed werewolf or direwolf in your group, including yourself, up to a maximum of 40%.
 desc2=WHILE YOU ARE IN WEREWOLF FORM No beast can resist their master's call. Hunt as one and none shall escape. Reduces the cost of remaining in your Werewolf Transformation by 16%, plus 16% for each transformed werewolf or direwolf in your group, including yourself, up to a maximum of 80%.
 linerank1=7

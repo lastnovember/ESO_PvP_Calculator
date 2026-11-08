@@ -1,7 +1,7 @@
 # Online:Movement Speed
 
 Source: https://en.uesp.net/wiki/Online:Movement_Speed
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Movement Speed is the speed at which you move when walking, running, sprinting, riding, or swimming. Activities such as sneaking or blocking will naturally reduce your speed. There are many effects which will increase your movement speed or decrease the speed of your enemies. Most notable are effects which provide the Major Expedition or Minor Expedition. The effect that increases speed while mounted is called Gallop. Note that multiple effects which provide the same buff will not stack, though you can stack a Major effect with a Minor one, and any speed boosts that are not providing Major or Minor Expedition will stack with both of these.

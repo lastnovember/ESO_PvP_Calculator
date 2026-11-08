@@ -12,7 +12,7 @@ To make an item for this set, a crafter must first complete research on five tra
 2 items: Adds 25-1096 Maximum Stamina
 3 items: Adds 28-1206 Maximum Health
 4 items: Adds 25-1096 Maximum Magicka
-5 items: Increase the duration of Status Effects you apply by 16 seconds.
+5 items: Increase the duration of Status Effects and their effects that you apply by 16 seconds.
 
 ### Crafting Site
 Stonelore Forge and Craft

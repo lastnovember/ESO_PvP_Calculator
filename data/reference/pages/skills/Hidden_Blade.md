@@ -7,9 +7,9 @@ Online Skill Summary
 id=40610
 line=Dual Wield
 icon=Dual Wield-Hidden Blade
-desc=Fire a secret dagger from your sleeve at an enemy, dealing [3690 / 3730 / 3771 / 3811] Physical Damage and granting you Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 20 seconds. If the enemy hit is casting an ability they are interrupted, set Off Balance, and stunned for 3 seconds.
-desc1=Area: 8 meters. Fire a secret dagger from your sleeve that bounces up to 3 times to nearby enemies, dealing [4764 / 4816 / 4868 / 4921] Physical Damage per hit. If enemies hit are casting they are interrupted, set Off Balance, and stunned for 3 seconds. You also gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 20 seconds.
-desc2=Fire a secret dagger from your sleeve at an enemy, dealing [3811 / 3852 / 3894 / 3936] Physical Damage and marking them for 5 seconds. If the enemy hit is casting an ability they are interrupted, set Off Balance, and stunned for 3 seconds. Reactivating this ability on them allows you to jump to a marked enemy free of cost, dealing [5717 / 5779 / 5842 / 5905] Physical Damage. Casting grants you Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 40 seconds.
+desc=Fire a secret dagger from your sleeve at an enemy, dealing [3690 / 3730 / 3771 / 3811] Physical Damage and granting you Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 20 seconds. If the enemy hit is casting an ability they are interrupted, set Off Balance, and stunned for 3 seconds.
+desc1=Area: 8 meters. Fire a secret dagger from your sleeve that bounces up to 3 times to nearby enemies, dealing [4764 / 4816 / 4868 / 4921] Physical Damage per hit. If enemies hit are casting they are interrupted, set Off Balance, and stunned for 3 seconds. You also gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 20 seconds.
+desc2=Fire a secret dagger from your sleeve at an enemy, dealing [3811 / 3852 / 3894 / 3936] Physical Damage and marking them for 5 seconds. If the enemy hit is casting an ability they are interrupted, set Off Balance, and stunned for 3 seconds. Reactivating this ability on them allows you to jump to a marked enemy free of cost, dealing [5717 / 5779 / 5842 / 5905] Physical Damage. Casting grants you Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 40 seconds.
 linerank=38
 cost=3780 Stamina
 attrib=Stamina
@@ -23,7 +23,7 @@ morph1desc=Increases the damage, and the dagger now bounces up to a total of thr
 morph2name=Flying Blade
 morph2id=40628
 morph2icon=Dual Wield-Flying Blade
-morph2desc=Casting the ability again against the same target causes you to jump to them. Extends the duration of Major Brutality and Sorcery.
+morph2desc=Casting the ability again against the same target causes you to jump to them. Extends the duration of Major Brutality.
 image=ON-skill-Hidden_Blade.jpg
 imgdesc=Hidden Blade
 

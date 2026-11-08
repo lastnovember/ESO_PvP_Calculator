@@ -8,7 +8,7 @@ Eternal Warrior is a trial set which drops in the Hel Ra Citadel. It cannot be c
 ### Bonuses
 
 2 items: Adds 4% Healing Taken
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 28-1206 Maximum Health
 5 items: Adds 4% Healing Taken
 5 items: When you take damage while below 25% Health in combat, you heal for 9370 Health and gain 2-100 Ultimate. This effect can occur once every 1 minute and the heal scales off your Max Health.

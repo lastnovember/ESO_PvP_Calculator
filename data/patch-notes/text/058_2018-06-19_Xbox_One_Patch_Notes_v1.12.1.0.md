@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.12.1.0
 Xbox One Patch Notes v1.12.1.0
 Posted 2018-06-19 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/420551 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.12.1.0 includes some crash fixes and performance improvements, along with an adjustment for the Announcement UI appearing too frequently and some additional bug fixes covering Summerset, dungeons, and base game content. The size of this patch is approximately 12GB.
 Fixes & Improvements
 DLC Game Packs

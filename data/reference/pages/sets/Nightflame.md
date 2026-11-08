@@ -10,7 +10,7 @@ Nightflame is a monster helm set. It consists of two armor pieces: head and shou
 ### Bonuses
 
 1 item: Adds 25-1096 Maximum Magicka
-2 items: When you heal yourself or an ally, you have a 20% chance to summon a totem for 6 seconds that heals you and your allies within 5 meters for 704 Health every 1 second. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.
+2 items: When you heal yourself or an ally, you have a 20% chance to conjure a totem for 6 seconds that heals you and your allies within 5 meters for 704 Health every 1 second. This effect can occur once every 10 seconds and scales off the higher of your Max Magicka or Stamina.
 
 ### Drop Locations
 - The head drops from Bogdan the Nightflame in Veteran Elden Hollow II.

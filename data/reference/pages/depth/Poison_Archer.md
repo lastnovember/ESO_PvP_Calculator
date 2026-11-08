@@ -18,7 +18,7 @@ Shark's Teeth Grotto | Wake Walker Archer | Khajiit | Varies | a
 ;Quick Shot:A basic ranged attack dealing minor physical damage. (either this or Poisoned Arrow)
 ;Poisoned Arrow:A basic ranged attack dealing low physical damage and applying a poison damage effect over 10 seconds to the target. (either this or Quick Shot)
 ;Venomous Arrow:A ranged attack dealing moderate poison damage and applying a poison damage over time effect to the target. (either this or Poisoned Arrow)
-;Arrow Spray/Poison Spray:The Poison Archer shoots a spray of poison arrows in the direction it is facing as indicated by a red cone, dealing moderate poison damage as well as snaring all targets hit. This can be interrupted to set the enemy off balance. Blocking prevents the snare. (Almost all Poison Archers)
+;Arrow Spray/Poison Spray:The Poison Archer shoots a spray of poison arrows in the direction it is facing as indicated by a red cone, dealing moderate poison damage as well as snaring all targets hit. This can be interrupted to set the enemy off balance. (Almost all Poison Archers)
 ;Roll Dodge:When performing a melee heavy attack on the poison archer, they can roll dodge to avoid attacks.
 ;Arrow Stab:A basic melee attack dealing minor physical damage where the Poison Archer grabs their arrow and stabs it into the target rather than firing it. (On some poison archers)
 ;Shadow Cloak:If their target is in close proximity to them, the Poison Archer will turn themselves invisible and move to a better location. (On some poison archers)

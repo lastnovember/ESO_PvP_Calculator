@@ -7,9 +7,9 @@ Online Skill Summary
 id=42418
 line=Mages Guild
 icon=Mages Guild-Magelight
-desc=Cost: [5400 / 5310 / 5220 / 5130] Magicka. Summon a mote of magelight, revealing stealthed and invisible enemies around you for 5 seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. While slotted you gain Major Savagery and Prophecy, increasing your Weapon Critical and Spell Critical rating by 2629.
-desc1=Summon a mote of magelight, revealing stealthed and invisible enemies around you for 5 seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. While slotted you gain Major Savagery and Prophecy, increasing your Weapon Critical and Spell Critical rating by 2629 and your Max Magicka is increased by [2 / 3 / 4 / 5]%.
-desc2=Cost: [5130 / 5040 / 4950 / 4860] Magicka, Radius: 12 meters. Summon a mote of magelight, revealing stealthed and invisible enemies around you for 5 seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. While slotted you gain Major Savagery and Prophecy, increasing your Weapon Critical and Spell Critical rating by 2629. You also prevent the stun from stealth attacks for you and nearby allies.
+desc=Cost: [5400 / 5310 / 5220 / 5130] Magicka. Conjure a mote of magelight, revealing stealthed and invisible enemies around you for 5 seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. The light is so brilliant that you cannot conceal your presence while active. While slotted gain Major Savagery, increasing Critical Chance by 12%.
+desc1=Conjure a mote of magelight, revealing stealthed and invisible enemies around you for 5 seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. The light is so brilliant that you cannot conceal your presence while active. While slotted gain Major Savagery, increasing Critical Chance by 12% and your Max Magicka is increased by [2 / 3 / 4 / 5]%.
+desc2=Cost: [5130 / 5040 / 4950 / 4860] Magicka, Radius: 12 meters. Conjure a mote of magelight, revealing stealthed and invisible enemies around you for 5 seconds. Exposed enemies cannot return to stealth or invisibility for 4 seconds. The light is so radiant that you cannot conceal your presence while active. While slotted gain Major Savagery, increasing Critical Chance by 12%. You also prevent the stun from stealth attacks for you and nearby allies.
 linerank=2
 cost=5130 Magicka
 attrib=Magicka

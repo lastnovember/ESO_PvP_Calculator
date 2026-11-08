@@ -1,7 +1,7 @@
 # Online:Armor
 
 Source: https://en.uesp.net/wiki/Online:Armor
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Armor comes in many shapes and sizes. There are three types of armor available: light, medium, and heavy. Light armor is geared toward mages, medium armor is geared toward stamina users, and heavy armor (the most protective type of armor) is geared toward frontline warriors. There are no limits to what armor you can wear; you can wear any armor or equip any weapon, regardless of race, class, or alliance.

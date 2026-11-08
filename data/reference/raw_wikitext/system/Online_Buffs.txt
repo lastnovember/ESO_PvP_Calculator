@@ -1,4 +1,4 @@
-{{Trail|Effects}}
+{{Trail|Effects}}{{Update|Buffs have been overhauled with Update 51, page needs to be updated, example, Sorcery has been removed an is covered by Brutality which covers both weapon and spell damage}}
 '''Buffs''' and '''Debuffs''' are temporary character [[Online:effects|effects]] applied by some [[Online:abilities|abilities]], [[Online:Sets|sets]], [[Online:potions|potions]], and [[ON:Champion|champion perks]]. Buffs are applied to yourself or your allies, and debuffs are applied to enemies.  Two buffs/debuffs with the same name from different sources will ''not'' stack, though a Major and Minor buff of the same type will. Debuffs can be removed by certain skills or items with [[Online:Cleansing|cleansing]] effects.
 {{TOClimit|2}}
 == Buffs ==
@@ -614,10 +614,10 @@
 |rowspan=4|[[File:ON-icon-misc-Minor Defile.png|64px]]
 |-
 ! Sets
-|[[ON:Affliction|Affliction]], [[ON:Fasalla's Guile|Fasalla's Guile]], [[ON:Pirate Skeleton|Pirate Skeleton]], [[ON:Thurvokun (set)|Thurvokun (set)]] (applies Diseased Status)
+|[[ON:Affliction|Affliction]], [[ON:Fasalla's Guile|Fasalla's Guile]], [[ON:Pirate Skeleton|Pirate Skeleton]] (applies to self), [[ON:Thurvokun (set)|Thurvokun (set)]] (applies Diseased Status)
 |-
 !Scribing
-| [[ON:Defile (script)|Defile]] on [[ON:Elemental Explosion|Elemental Explosion]], [[ON:Trample|Trample]]
+| [[ON:Defile (script)|Defile]] on [[ON:Elemental Explosion|Elemental Explosion]] and [[ON:Trample|Trample]]
 |-
 ! Potions
 | {{Effect Link|Defile}} Potion or Poison, {{Effect Link|Vitality}} Poison

@@ -10,7 +10,7 @@ Icy Conjurer is a dungeon set that drops in Frostvault. It cannot be crafted. Pi
 2 items: Adds 25-1096 Maximum Magicka
 3 items: Adds 3-129 Weapon Damage and Spell Damage
 4 items: Adds 34-1487 Offensive Penetration
-5 items: Applying a minor debuff to your enemy summons a non-reflectable Ice Wraith that will charge into your enemy, dealing 3070 Frost damage over 10 seconds. This effect can occur every 10 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+5 items: Applying a minor debuff to your enemy conjures a non-reflectable Ice Wraith that will charge into your enemy, dealing 3070 Frost damage over 10 seconds. This effect reveals you, can occur every 10 seconds, scales off the higher of your Weapon Damage and Spell Damage, and is considered pet damage.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types.

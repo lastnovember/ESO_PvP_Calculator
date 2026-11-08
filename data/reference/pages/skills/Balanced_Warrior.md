@@ -10,8 +10,8 @@ id2=44732
 line=Aedric Spear
 type=Passive
 icon=Aedric Spear-Balanced Warrior
-desc=Increases your Weapon Damage, Spell Damage, and Armor by 3%.
-desc2=Increases your Weapon Damage, Spell Damage, and Armor by 6%.
+desc=Increases your Armor for each Templar ability slotted. Increases your ESO Weapon Damage Link | |y and Spell Damage based on your total Armor and number of Templar abilities slotted. 1% Armor 38 Weapon and Spell Damage
+desc2=Increases your Armor for each Templar ability slotted. Increases your ESO Weapon Damage Link | |y and Spell Damage based on your total Armor and number of Templar abilities slotted. 2% Armor 78 Weapon and Spell Damage
 linerank1=39
 linerank2=50
 

@@ -1,7 +1,7 @@
 # Online:Support
 
 Source: https://en.uesp.net/wiki/Online:Support
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Support is one of the skill lines unlocked through progress in the Alliance War.

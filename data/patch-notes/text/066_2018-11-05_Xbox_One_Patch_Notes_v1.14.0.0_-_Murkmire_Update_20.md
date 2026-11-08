@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.14.0.0 - Murkmire & Update 20
 Xbox One Patch Notes v1.14.0.0 - Murkmire & Update 20
 Posted 2018-11-05 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/444457 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.14.0.0 and the Murkmire DLC Game Pack! In addition to a new zone and quests to enjoy, you’ll also come across two new world bosses and two delves, plus a new 4-player leaderboard Arena: Blackrose Prison. We’ve also added 12 new item sets obtainable from Murkmire content, new Motifs, 75 new craftable furnishings, 50 new achievements, and many fun collectibles.
 The base game update brings changes to Cyrodiil with destructible Bridges and Milegates, in addition to a refresh of Rewards for the Worthy item sets and an exclusive, new PvP collectible item. We’ve also introduced some improvements to the Housing Editor with Undo/Redo options and furniture grouping. And we know everyone’s excited to see you can now re-order your characters on the Character Select menu!
 This latest update is approximately 50.15GB. Enjoy, and stay moist.

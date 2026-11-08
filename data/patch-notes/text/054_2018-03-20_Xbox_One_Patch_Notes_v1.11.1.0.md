@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.11.1.0
 Xbox One Patch Notes v1.11.1.0
 Posted 2018-03-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/401468 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.11.1.0 is an incremental patch that fixes the issue with werewolves being taken out of their transformation, a number of crash fixes and improvements (including the one found in the Maw of Lorkhaj), some adjustments to both Dragon Bones dungeons, and more. The size of this incremental patch is approximately 11GB.
 Fixes & Improvements
 Dragon Bones

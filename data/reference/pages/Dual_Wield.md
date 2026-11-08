@@ -1,7 +1,7 @@
 # Online:Dual Wield
 
 Source: https://en.uesp.net/wiki/Online:Dual_Wield
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Dual Wield is one of the six weapon skills available in Elder Scrolls Online. You can advance through this skill line by equipping two One-Handed weapons.

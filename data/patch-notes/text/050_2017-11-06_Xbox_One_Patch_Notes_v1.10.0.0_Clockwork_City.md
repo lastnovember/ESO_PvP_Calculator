@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.10.0.0 (Clockwork City)
 Xbox One Patch Notes v1.10.0.0 (Clockwork City)
 Posted 2017-11-06 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/379456 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.10.0.0 and the Clockwork City where you can enter Sotha Sil's legendary creation and explore his mysterious mechanical world. In addition to new quests to enjoy, you’ll also come across two new world bosses and two delves, plus a new 12-player Trial: Asylum Sanctorium. We’ve also added 12 new item sets, two new Motifs, over 200 new furnishings, and a host of fun, new collectibles.
 For players that own The Elder Scrolls Online: Morrowind, we’ve added a new Battleground game mode – Crazy King – where your team must seize a capture point location that jumps randomly around the map. It’s, well, crazy!
 The base game update introduces the highly-anticipated Transmutation system which allows you to change the traits on your gear, including weapons and armors. We’ve also added a trait tracker that will allow you to see whether or not you've researched the unique trait on an item. Additionally, we’ve made a number of performance optimizations resulting in better frame rate and shorter loading times. We've also added support for the Xbox One X in this update, too!

@@ -1,7 +1,7 @@
 # Online:One Hand and Shield
 
 Source: https://en.uesp.net/wiki/Online:One_Hand_and_Shield
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 One Hand and Shield is one of the six weapon skills available in Elder Scrolls Online. Skills in this line focus on damage mitigation and various methods of stunning or controlling enemies. In addition, completing a fully charged heavy attack on an enemy will recharge the user's stamina based on their level. Use of these abilities, as well as progression through this skill line, requires equipping a one-handed weapon and a shield at the same time. Note that only equipping a shield will not train this skill, while still providing the benefit of the armor, trait and enchantment.

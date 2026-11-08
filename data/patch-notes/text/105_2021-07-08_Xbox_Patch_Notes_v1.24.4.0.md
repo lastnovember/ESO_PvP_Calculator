@@ -2,7 +2,7 @@ Xbox Patch Notes v1.24.4.0
 Xbox Patch Notes v1.24.4.0
 Posted 2021-07-08 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/580375 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.24.4.0 contains numerous fixes affecting Companions and Blackwood quests, fixes for some crashes and various UI errors, and a number of other miscellaneous fixes (including making sure those red Torchbugs drop Thorax). The size of this patch is approximately 906.69 MB.
 Fixes & Improvements
 Chapters & DLCs

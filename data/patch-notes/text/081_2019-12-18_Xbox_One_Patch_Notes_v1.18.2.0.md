@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.18.2.0
 Xbox One Patch Notes v1.18.2.0
 Posted 2019-12-18 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/505498 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.18.2.0 includes several adjustments to improve overall game stability, in addition to some fixes for Battleground queuing, a fix for offline friends appearing as though they are online, and more. The size of this patch is approximately 644MB.
 General
 Your character will no longer get stuck in a Keep piece when knocked in the air by Volcanic Rune.

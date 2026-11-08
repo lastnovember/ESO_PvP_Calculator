@@ -2,7 +2,7 @@ Hotfixes for June 9 (All Platforms)
 Hotfixes for June 9 (All Platforms)
 Posted 2026-06-09 by ZOS_JessicaFolsom ·
 forums.elderscrollsonline.com/en/discussion/693814 ·
-archived 2026-09-12
+archived 2026-10-30
 Hello! Today we pushed hotfixes for two issues that emerged after yesterday’s Update 50 launch. As a reminder, you may see all emergent known issues we are tracking
 here
 and all previously known issues for Update 50

@@ -8,10 +8,10 @@ Perfected Tooth of Lokkestiiz is a trial set which drops in veteran Sunspire. It
 ### Bonuses
 
 2 items: Adds 3-129 Weapon Damage and Spell Damage
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 perfected items: Adds 15-657 Critical Chance
-5 items: When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing your damage done to Dungeon and Trial monsters by 10%.
+5 items: When you activate a synergy while in combat, gain Major Slayer for 16 seconds, increasing damage done to monsters by 10%.
 
 ### Pieces
 The set consists of medium armor and jewelry in all slots, as well as weapons and shields of all types.

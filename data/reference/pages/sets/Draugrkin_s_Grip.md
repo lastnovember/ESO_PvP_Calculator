@@ -7,10 +7,10 @@ Draugrkin's Grip is a dungeon set that drops in the Unhallowed Grave. It cannot 
 
 ### Bonuses
 
-2 items: Adds 25-1096 Maximum Magicka
+2 items: Adds 3-129 Weapon Damage and Spell Damage
 3 items: Adds 34-1487 Offensive Penetration
-4 items: Adds 3-129 Magicka Recovery
-5 items: Increases your damage done by 7-330 but reduces your healing received by 10%.
+4 items: Adds 3-129 Weapon Damage and Spell Damage
+5 items: Increases your damage done by 8-373 but reduces your healing received by 0-10%. The bonuses are halved against targets with Battle Spirit.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types.

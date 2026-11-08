@@ -1,7 +1,7 @@
 # Online:Siege Weapons
 
 Source: https://en.uesp.net/wiki/Online:Siege_Weapons
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Siege Weapons are constructs used by players within Cyrodiil for the Alliance War, mainly for the purpose of attacking or defending keeps. They may be purchased from Siege Merchants and Quartermasters, either with player gold or Alliance Points. Siege weapons must be set up from the Quick Slot wheel, and may not be deployed on sloped ground or too close to another siege weapon. Once deployed, you may exit the weapon and allow another allied player to fire it, but it can only be packed up by the player that originally set it up. Attackers and defenders may only deploy up to 20 siege weapons each at any keep (Defensers get 25 with the keep's Lumbermill at level 1 and 30 at level 2). Enemy siege weapons may be targeted by friendly siege weapons (except rams), damaging the weapon and any nearby enemy players, and destroying the weapon when its toughness reaches zero.

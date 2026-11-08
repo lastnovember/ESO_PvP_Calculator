@@ -1,12 +1,12 @@
 # Online:Food
 
 Source: https://en.uesp.net/wiki/Online:Food
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Food is a general term for items that temporarily increase maximum value of one, two or of all three attributes.
 
-This page lists all the food entries that can be purchased from the chefs and chef & brewer vendors or found throughout Tamriel. Please note that meals on this list are of Normal Quality, in contrast to the entries cooked by player, and they increase only one of the attributes at a time.
+This page lists all the food entries that can be purchased from the chefs and chef & brewer vendors found throughout Tamriel. Please note that meals on this list are of Normal Quality, in contrast to the entries cooked by players, and they increase only one of the attributes at a time.
 
 Items on this list increase an attribute maximum value for 35 minutes and have a 5 second cooldown. If different entries are consumed one after another, the effects do not stack.
 

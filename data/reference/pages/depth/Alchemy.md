@@ -70,75 +70,94 @@ Totals: | All | 20
 ## Formulae
 
 ### Two Reagents
-In ESO, two reagents with the same effect need to be combined in order to craft a potion. Be aware that when crafting potions, some combinations will provide a not always beneficial side effect. The Snakeblood passive will reduce (or with 3 points even eliminate) the negative side-effects, but it's better to simply avoid them if possible. All effects in poisons are negative, so there's no need to worry about unintended side-effects with poisons, though poisons with multiple effects will have the duration of all effects reduced. Remember that you have to also provide a solvent, which influences the strength, but not the effect, of a potion. As of Update 18, there are 151 two-reagent combinations.
+In ESO, two reagents with the same effect need to be combined in order to craft a potion. Be aware that when crafting potions, some combinations will provide a not always beneficial side effect. The Snakeblood passive will reduce (or with 3 points even eliminate) the negative side-effects, but it's better to simply avoid them if possible. All effects in poisons are negative, so there's no need to worry about unintended side-effects with poisons, though poisons with multiple effects will have the duration of all effects reduced. Remember that you have to also provide a solvent, which influences the strength, but not the effect, of a potion. As of Update 51, there are 270 two-reagent combinations.
 
 ### Three Reagents
-Learning the Ability Laboratory Use enables you to use of up to three reagents. This opens the door to a large variety of multi-effect potions since each effect has to be present only two times within the reagents chosen in order to be applied to a potion. Listing all possible formulae for potions with three reagents would be rather pointless (there are 2302 such formulae as of Update 18) - those interested can use [http://esolog.uesp.net/viewPotions.php ESO Alchemy Calculator]. To use three reagents to their full potential, you also need to understand how opposing effects work. See the Laboratory Use page for more details.
+Learning the Ability Laboratory Use enables you to use of up to three reagents. This opens the door to a large variety of multi-effect potions since each effect has to be present only two times within the reagents chosen in order to be applied to a potion. Listing all possible formulae for potions with three reagents would be rather pointless (there are 5962 such formulae as of Update 51) - those interested can use [http://esolog.uesp.net/viewPotions.php ESO Alchemy Calculator]. To use three reagents to their full potential, you also need to understand how opposing effects work. See the Laboratory Use page for more details.
 
-187 of the three-reagent formulae produce three effects (the primary one, which gives name to the resulting potion, and two secondaries). These formulae are listed below.
+360 of the three-reagent formulae produce three effects (the primary one, which gives name to the resulting potion, and two secondaries). These formulae are listed below.
 
-119 of the three-reagent formulae have the same effect on all three of the reagents. These are known as triple-effect formulae. The effect lasts longer than normally. The list of these formulae is provided below.
+360 of the three-reagent formulae have the same effect on all three of the reagents. These are known as triple-effect formulae. The effect lasts longer than normally. The list of these formulae is provided below.
 
 ## Learning Reagent Effects Efficiently
-To learn all reagent effects using the least number of reagents, combine them in the following order:
+To learn all reagent effects, see below:
 All Reagent Combinations
-The following combinations assume you have reached level 15 in Alchemy and have taken the Laboratory Use passive. If not, repeat any known combination until level 15 is reached, then take the passive and continue in the order below:
+The following combinations assume you have reached level 15 in Alchemy and have taken the Laboratory Use passive. If not, repeat any known combination (preferably one using cheap reagents, for example White Cap + Wormwood) until level 15 is reached, then take the passive and continue in the order below.
+
+This sequence is optimized for lowest total reagent cost as of October 2026, which is about 36k gold, and you'll need:
+3 White Cap, 3 Luminous Russula, 3 Wormwood, 3 Fleshfly Larva, 3 Blessed Thistle, 4 Nirnroot, 2 Blue Entoloma, 2 Corn Flower, 3 Water Hyacinth, 3 Namira's Rot, 3 Imp Stool, 4 Stinkhorn, 2 Dragonthorn, 2 Spider Egg, 3 Nightshade, 2 Butterfly Wing, 2 Emetic Russula, 2 Lady's Smock, 3 Beetle Scuttle, 2 Mountain Flower, 2 Bugloss, 2 Vile Coagulant, 4 Scrib Jelly, 4 Chaurus Egg, 3 Crimson Nirnroot, 2 Clam Gall, 3 Dragon's Bile, 2 Torchbug Thorax, 2 Columbine, 2 Powdered Mother of Pearl, 3 Violet Coprinus, 2 Mudcrab Chitin, 2 Winter's Grave Tongue, 2 Daedra-Blood Maggots, 2 Cultivated Cryptpods, 2 Dragon's Blood, 2 Fossilized Verminous Bones, 3 Dragon Rheum.
 Combination
 Reagent 1
 Reagent 2
 Reagent 3
 
-1 | Emetic Russula | Stinkhorn | Water Hyacinth
+1 | Beetle Scuttle | Mudcrab Chitin
 
-2 | Powdered Mother of Pearl | Mudcrab Chitin | Beetle Scuttle
+2 | Nirnroot | Dragon Rheum
 
-3 | Clam Gall | Mudcrab Chitin | Wormwood
+3 | Scrib Jelly | Chaurus Egg
 
-4 | Wormwood | Dragonthorn | Chaurus Egg
+4 | Stinkhorn | Dragonthorn
 
-5 | Chaurus Egg | White Cap | Crimson Nirnroot
+5 | Blessed Thistle | Beetle Scuttle | Powdered Mother of Pearl
 
-6 | Crimson Nirnroot | Fleshfly Larva | Water Hyacinth
+6 | Blessed Thistle | Nirnroot | Violet Coprinus
 
-7 | Water Hyacinth | Dragonthorn | Stinkhorn
+7 | Butterfly Wing | Scrib Jelly | Dragon's Bile
 
-8 | Stinkhorn | Blessed Thistle | Torchbug Thorax
+8 | Chaurus Egg | Violet Coprinus | Winter's Grave Tongue
 
-9 | Torchbug Thorax | Butterfly Wing | Nirnroot
+9 | Corn Flower | Nightshade | Vile Coagulant
 
-10 | Nirnroot | Dragon's Bile | Fleshfly Larva
+10 | Corn Flower | Torchbug Thorax | Cultivated Cryptpods
 
-11 | Fleshfly Larva | Imp Stool | Luminous Russula
+11 | Fleshfly Larva | Vile Coagulant | Crimson Nirnroot
 
-12 | Luminous Russula | Butterfly Wing | Spider Egg
+12 | Fleshfly Larva | Water Hyacinth | Butterfly Wing
 
-13 | Spider Egg | Nirnroot | Nightshade
+13 | Imp Stool | Emetic Russula | Daedra-Blood Maggots
 
-14 | Nightshade | Crimson Nirnroot | Vile Coagulant
+14 | Lady's Smock | Bugloss | Crimson Nirnroot
 
-15 | Vile Coagulant | Torchbug Thorax | Corn Flower
+15 | Luminous Russula | Fleshfly Larva | Clam Gall
 
-16 | Corn Flower | Lady's Smock | Violet Coprinus
+16 | Luminous Russula | Imp Stool | Mountain Flower
 
-17 | Violet Coprinus | Emetic Russula | Beetle Scuttle
+17 | Luminous Russula | Wormwood | Blue Entoloma
 
-18 | Beetle Scuttle | Powdered Mother of Pearl | Scrib Jelly
+18 | Mountain Flower | Columbine | Dragon Rheum
 
-19 | Scrib Jelly | Clam Gall | Dragon's Blood
+19 | Namira's Rot | Imp Stool | Columbine
 
-20 | Dragon's Blood | Blessed Thistle | Dragon Rheum
+20 | Namira's Rot | Scrib Jelly | Dragon's Bile
 
-21 | Dragon Rheum | Imp Stool | Mountain Flower
+21 | Nightshade | Chaurus Egg | Crimson Nirnroot
 
-22 | Mountain Flower | Wormwood | Columbine
+22 | Nightshade | Dragon's Blood | Fossilized Verminous Bones
 
-23 | Columbine | Lady's Smock | Namira's Rot
+23 | Nirnroot | Stinkhorn | Torchbug Thorax
 
-24 | Namira's Rot | Scrib Jelly | Blue Entoloma
+24 | Scrib Jelly | Dragon's Blood | Dragon Rheum
 
-25 | Blue Entoloma | White Cap | Bugloss
+25 | Spider Egg | Clam Gall | Mudcrab Chitin
 
-26 | Bugloss | Dragon Rheum | Dragon's Bile
+26 | Spider Egg | Dragon's Bile | Cultivated Cryptpods
+
+27 | Stinkhorn | Chaurus Egg | Fossilized Verminous Bones
+
+28 | Stinkhorn | Emetic Russula | Violet Coprinus
+
+29 | Water Hyacinth | Lady's Smock | Beetle Scuttle
+
+30 | Water Hyacinth | Winter's Grave Tongue | Daedra-Blood Maggots
+
+31 | White Cap | Bugloss | Powdered Mother of Pearl
+
+32 | White Cap | Nirnroot | Blue Entoloma
+
+33 | White Cap | Wormwood | Namira's Rot
+
+34 | Wormwood | Blessed Thistle | Dragonthorn
 
 Botanist and Toxicologist achievement Reagent Combinations
 Combination | Reagent 1 | Reagent 2 | Reagent 3
@@ -217,6 +236,8 @@ Reagent 3
 ## Achievements
 There are a number of achievements associated with Alchemy.
 
+There are 'Learn all the Traits' achievements for 32 of the 34 reagents. The missing ones are Clam Gall and Vile Coagulant.
+
 ## Bugs
 Potions with identical names and effects, but created using different ingredients, will not combine into one stack in your inventory
 - Selling one of these variants to an NPC vendor and then buying them back will cause them to automatically combine in your inventory.
@@ -226,14 +247,14 @@ Potions with identical names and effects, but created using different ingredient
 - tables/uesp_Online_Alchemy_t00.csv (39 rows): 1 | Solvent Proficiency I
 - tables/uesp_Online_Alchemy_t01.csv (21 rows): Name | Line Rank | Skill Rank | Description
 - tables/uesp_Online_Alchemy_t02.csv (7 rows): Order | Progression | Skill points required
-- tables/uesp_Online_Alchemy_t03.csv (155 rows): Primary Effect | Side Effect | Reagents
-- tables/uesp_Online_Alchemy_t04.csv (188 rows): Breach | Ravage Health | Ravage Magicka | Emetic Russula | Beetle Scuttle | Violet Coprinus
-- tables/uesp_Online_Alchemy_t05.csv (120 rows): Cowardice | Restore Health | Increase Spell Resist | Blue Entoloma | White Cap | Bugloss
-- tables/uesp_Online_Alchemy_t06.csv (26 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
+- tables/uesp_Online_Alchemy_t03.csv (271 rows): Primary Effect | Side Effect | Reagents
+- tables/uesp_Online_Alchemy_t04.csv (355 rows): Cowardice | Defile | Increase Armor | Daedra-Blood Maggots | Imp Stool | Mudcrab Chitin
+- tables/uesp_Online_Alchemy_t05.csv (326 rows): Breach | Beetle Scuttle | Lady's Smock | Violet Coprinus
+- tables/uesp_Online_Alchemy_t06.csv (34 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
 - tables/uesp_Online_Alchemy_t07.csv (22 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
 - tables/uesp_Online_Alchemy_t08.csv (9 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
 - tables/uesp_Online_Alchemy_t09.csv (51 rows): Achievement | Points | Description | Reward
 - tables/depth_Alchemy_t00.csv (7 rows): Order | Progression | Skill points required
-- tables/depth_Alchemy_t01.csv (26 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
+- tables/depth_Alchemy_t01.csv (34 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
 - tables/depth_Alchemy_t02.csv (22 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3
 - tables/depth_Alchemy_t03.csv (9 rows): Combination | Reagent 1 | Reagent 2 | Reagent 3

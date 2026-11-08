@@ -1,7 +1,7 @@
 # Online:Craftable Sets
 
 Source: https://en.uesp.net/wiki/Online:Craftable_Sets
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Craftable Sets are sets which can be crafted by players pursuing any of the equipment crafting lines: Blacksmithing, Clothing, Jewelry Crafting, and Woodworking. Each craftable set has a crafting site, and those in the Alliance zones have one per Alliance. Each craftable set requires a certain number of researched traits in an item for it to be crafted in that set. For example, to craft an axe in the Hunding's Rage set, one would need six traits researched for axes. One could also craft a Death's Wind axe which would only require two traits.

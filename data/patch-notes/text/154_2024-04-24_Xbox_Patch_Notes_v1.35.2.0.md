@@ -2,7 +2,7 @@ Xbox Patch Notes v1.35.2.0
 Xbox Patch Notes v1.35.2.0
 Posted 2024-04-24 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/657424 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.35.2.0 contains a number of crash fixes – including a memory leak and freeze during character selection – additional fixes for missing Guild History items and the removal of some stray Witches Festival decorations (sorry to those who like to celebrate year-round). The size of this patch is approximately 1.71GB for Xbox One and 1.46GB for Xbox Series X.
 General
 Some stray Witches Festival decorations are now properly stored away until the actual holiday arrives.

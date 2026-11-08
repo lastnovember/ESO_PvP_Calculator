@@ -1,7 +1,7 @@
 # Online:Arcanist
 
 Source: https://en.uesp.net/wiki/Online:Arcanist
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Add info from official website, trailers, interviews, and preview videosArcanist (champion)

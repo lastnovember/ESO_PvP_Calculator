@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.0.0.5
 Xbox One Patch Notes v1.0.0.5
 Posted 2015-06-23 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/184843 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online: Tamriel Unlimited v1.0.0.5 is the first incremental patch for Xbox One. In addition to improving overall in-game performance, we have improved the queue system screen and some of the more common in-game crashes. We have also reduced the frequency in which you’ll run into invisible NPCs, though note that this is an ongoing work in progress. Finally, we’ve addressed several issues relating to art, gameplay, quests, UI, and more.
 FIXES & IMPROVEMENTS

@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.23.1.0
 Xbox One Patch Notes v1.23.1.0
 Posted 2021-04-05 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/568495 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.23.1.0 contains several fixes for the Flames of Ambition dungeons, a number of crash fixes and tooltip updates, a fix for missing guild/friends list history, a reversion to a previous fix so weapons are once again visible while performing emotes, and more. The size of this patch is approximately 990MB.
 Quests
 The Shadow Cleft: Fixed an issue where Initiate Favar could get stuck in a wall.

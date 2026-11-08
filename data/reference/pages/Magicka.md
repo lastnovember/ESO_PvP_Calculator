@@ -1,7 +1,7 @@
 # Online:Magicka
 
 Source: https://en.uesp.net/wiki/Online:Magicka
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Magicka is the magical energy that is used to cast Magicka Skills. It is equivalent to the magic points (MP or mana) used by other RPGs.

@@ -1,7 +1,7 @@
 # Online:Champion
 
 Source: https://en.uesp.net/wiki/Online:Champion
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 The Champion System in the Elder Scrolls Online is a system of horizontal character development that complements the more vertical progression of Leveling and Skill development. The Champion System is unlocked when one of your characters reaches Veteran rank at Level 50. From that point on, experience points provide progression in Champion Points. Champion Points are required to wear Level 50 gear and use Level 50 consumables, and are used to unlock new abilities within the realms of the three Guardian Constellations.

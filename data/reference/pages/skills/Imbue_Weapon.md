@@ -7,14 +7,14 @@ Online Skill Summary
 id=40103483
 line=Psijic Order
 icon=Psijic Order-Imbue Weapon
-desc=Infuse your weapon with power, causing your next Light Attack used within 2 seconds to deal an additional [5532 / 5591 / 5652 / 5712] Physical Damage. If the power is not consumed in time, you restore 1620 Stamina.
-desc1=Cost: 2700 Magicka. Infuse your weapon with power, causing your next Light Attack used within 2 seconds to deal an additional [5715 / 5778 / 5841 / 5903] Magic Damage and apply the Burning, Concussion, or Chill elemental status effect. If the power is not consumed in time, you restore 1620 Magicka.
-desc2=Infuse your weapon with power, causing your next Light Attack used within 2 seconds to deal an additional [5715 / 5778 / 5841 / 5903] Physical Damage and applying Major Breach to the target, reducing their ESO Resistance Link|Physical | |y and Spell Resistance by 5948 for 5 seconds. If the power is not consumed in time, you restore 1620 Stamina.
+desc=Infuse your weapon with power, causing your next Light or Heavy Attack used within 6 seconds to deal an additional [5532 / 5592 / 5652 / 5712] Physical Damage. You cannot conceal your presence while active. When cast, increases your damage done with weapon attacks by 5% for 6 seconds.
+desc1=Cost: 2700 Magicka. Infuse your weapon with power, causing your next Light or Heavy Attack used within 6 seconds to deal an additional [5715 / 5778 / 5840 / 5903] Magic Damage and apply the Burning, Concussion, or Chill elemental status effect. You cannot conceal your presence while active. When cast, increases your damage done with weapon attacks by 5% for 6 seconds.
+desc2=Infuse your weapon with power, causing your next Light or Heavy Attack used within 6 seconds to deal an additional [5715 / 5778 / 5840 / 5903] Physical Damage and applying Major Breach to the target, reducing their ESO Resistance Link|Physical | |y and Spell Resistance by 5948 for 6 seconds. You cannot conceal your presence while active. When cast, increases your damage done with weapon attacks by 8% for 6 seconds.
 linerank=3
 cost=2700 Stamina
 attrib=Stamina
 casttime=Instant
-duration=2 seconds
+duration=6 seconds
 target=Self
 morph1name=Elemental Weapon
 morph1id=40103571
@@ -23,7 +23,7 @@ morph1desc=Converts into a Magicka ability and deals Magic Damage. Applies a ran
 morph2name=Crushing Weapon
 morph2id=40103623
 morph2icon=Psijic Order-Crushing Weapon
-morph2desc=Applies Major Breach to the enemy, reducing their ESO Resistance Link|Physical | |y and Spell Resistance.
+morph2desc=Applies Major Breach to the enemy. Increases the weapon attack bonus.
 image=On-skill-Imbue Weapon.jpg
 imgdesc=Imbue Weapon applied to a destruction staff.
 

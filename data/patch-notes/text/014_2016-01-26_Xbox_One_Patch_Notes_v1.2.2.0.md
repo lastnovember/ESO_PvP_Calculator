@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.2.2.0
 Xbox One Patch Notes v1.2.2.0
 Posted 2016-01-26 by ZOS_JessicaFolsom ·
 forums.elderscrollsonline.com/en/discussion/243303 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online: Tamriel Unlimited v1.2.2.0 is an incremental patch for Xbox One that addresses many issues found in Orsinium and Maelstrom Arena since their release. We’ve also made fixes and improvements that impact general combat and gameplay, UI, and more!
 FIXES & IMPROVEMENTS

@@ -1,7 +1,7 @@
 # Online:Rubedo Leather
 
 Source: https://en.uesp.net/wiki/Online:Rubedo_Leather
-Fetched: 2026-09-19
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 ESO Crafting Mat Summary

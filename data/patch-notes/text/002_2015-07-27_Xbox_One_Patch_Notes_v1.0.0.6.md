@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.0.0.6
 Xbox One Patch Notes v1.0.0.6
 Posted 2015-07-27 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/200553 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online: Tamriel Unlimited v1.0.0.6 is an incremental patch on Xbox One. In this patch, we’ve added Psijic Ambrosia – a craftable Experience Point booster – and limited scaling and battle leveling consumables. You can read more about these additions below. We’ve also implemented a new, easier way to add friends and invite other player characters to your guild or group. In addition, we’ve fixed a number of issues involving gameplay, crafting, UI, and quests, including the quest Prisoner of Jathsogur in Malabal Tor. The size of this patch is approximately 1.6GB.
 NEW FEATURES / UPDATES / BIG CHANGES

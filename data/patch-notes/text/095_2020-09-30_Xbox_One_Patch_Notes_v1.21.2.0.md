@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.21.2.0
 Xbox One Patch Notes v1.21.2.0
 Posted 2020-09-30 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/547632 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.21.2.0 fixes several game crashes and a number of gameplay-related bugs, including situations where your mount’s stamina would drain irregularly fast and the inability to progress the Vampire skill line. We’ve also fixed an issue with custom UI not scaling properly, among a few other bug fixes. The size of this patch is approximately 682.79MB.
 General
 Fixed an issue where mount stamina could drain irregularly fast in some cases.

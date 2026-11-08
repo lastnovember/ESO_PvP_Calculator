@@ -1,7 +1,7 @@
 # Online:Woodworking
 
 Source: https://en.uesp.net/wiki/Online:Woodworking
-Fetched: 2026-09-19
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Online:Woodworking (skill)

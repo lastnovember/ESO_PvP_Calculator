@@ -20,7 +20,7 @@ Until level 50, each time you level up, your maximum points for all three attrib
 
 Certain types of armor, weapons, and jewelry will increase your maximum or recovery points as long as you have them on. Food and some potions will increase your maximum points and beverages will increase your recovery for a period of time.  Only one food, beverage, or potion effect can be active at a time.
 
-Attribute point assignments can be changed later on at a [[Online:Shrines|Rededication Shrine]] for a (small) cost in gold, or with an {{Item Link|Attribute Respecification Scroll|id=64523|quality=5}}{{Crown Store}} from the [[Online:Crown Store|Crown Store]].
+Beginning with [[Online:Update_49#Respec_Skills_.26_Attributes_In_the_UI_for_Free|Update 49]], attribute points can be reassigned from the Character screen at no cost.
 
 In addition, you have one other attribute:
 * {{ESO Ultimate Link}}

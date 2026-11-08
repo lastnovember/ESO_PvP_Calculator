@@ -1,7 +1,7 @@
 # Online:Light Armor
 
 Source: https://en.uesp.net/wiki/Online:Light_Armor
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Light Armor is a skill in Elder Scrolls Online. It consists largely of robes and cloth armor. As with the other armor skills, there are only passive skills and a single active ability. These skills mainly aid magic using characters.

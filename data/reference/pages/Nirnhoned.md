@@ -1,7 +1,7 @@
 # Online:Nirnhoned
 
 Source: https://en.uesp.net/wiki/Online:Nirnhoned
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Nirnhoned is a trait which can be found on both weapons and armor. Exemplary items with this trait can only be found by completing the Dawn of the Exalted Viper quest in Craglorn, and you can only receive one per character. In addition, weapons with Nirnhoned trait can drop in trials and arenas. To learn the other traits, you must get other players (or other characters on your own account) to craft items for you to research. Once you have researched the trait on a given item type, you can craft Nirnhoned items by using Potent Nirncrux for weapons or Fortified Nirncrux for armor. Both of these materials can only be found rarely by harvesting blacksmithing, jewelry, woodworking, or cloth nodes; or from killing creatures that drop medium armor clothing materials in Craglorn. Weapons with the Nirnhoned trait will do more damage, while Nirnhoned armor will increase your Physical and Spell Resistance by an amount dependent on the level and quality of the item.

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.31.2.0
 Xbox Patch Notes v1.31.2.0
 Posted 2023-04-26 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/632384 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.31.2.0/2.44/1.26 is a small incremental patch that mainly addresses a few combat and art related issues. The size of this patch is approximately 1.18GB for Xbox One and 1.07GB for Xbox Series X.
 General
 Fixed an issue where animations would fail to play if immediately activated after breaking free.

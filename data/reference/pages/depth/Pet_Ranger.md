@@ -20,13 +20,16 @@ Hackdirt | Black Dagger Ranger | Imperial | Varies | 40643
 ;Arrow Spray:The pet ranger shoots a spray of arrows in the direction it is facing as indicated by a red cone, dealing moderate physical damage and snaring all targets hit for 4 seconds. This can be interrupted to set the archer off balance. Blocking doesn't prevent the snare. (very rare)
 
 ## Notes
-- Pet Rangers can be classed in categories based on their race or condition, each summoning a type of allies. For Goblin, Daedric, Morrowind and Telvanni Peninsula Dark Elf, Darkreave Warpriest Pet Rangers and Cartel Hunters, the animal spawns with the summoner's current Health.
-- Regular Pet Rangers: Dire Wolf, Great Bear, Lion (Incorrectly named Senche-Tiger), Senche-Tiger
+- Pet Rangers can be classed in categories based on their race or condition, each summoning a type of allies. For Regular, Vampire and Undead pet rangers, the animal spawns with a fixed Health. For Goblin, Daedric, Morrowind and Telvanni Peninsula Dark Elf, Darkreave Warpriest Pet Rangers and Cartel Hunters, the animal spawns with the summoner's current Health.
+- Regular Pet Rangers: Dire Wolf, Great Bear, Senche-Tiger
+- Reaper's March other hot regions ?: Regular Pet Rangers + Lion (Incorrectly named Senche-Tiger) instead of Senche-Tigers
+- Eastmarch and The Rift pet rangers: Regular Pet Rangers + Sabre Cat (Incorrectly named Senche-Tiger) instead of Senche-Tigers
 - Goblin Pet Rangers: Durzog, Spider, Venomspit Spider, Websnare Spider
 - Daedric Pet Rangers: Banekin, Clannfear, Flame Atronach, Scamp, Winged Twilight.
 - Most of Morrowind and Telvanni Peninsula pet rangers: Kwama Worker, Nix-Hound, Nix-Hound Prowler
 - Vampire Pet Rangers: Death Hound, Vampire Bat
 - Undead Pet Rangers: Skeletal Wolf
+- Dremora Scouts and Waking Flame Rangers: Flame Hounds
 - Darkreave Warpriest Pet Rangers: Watchling
 - Cartel Hunters: Dire Wolf
 - In some rare instances, "Trap Beast" deals Physical Damage instead.

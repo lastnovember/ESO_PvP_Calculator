@@ -1,7 +1,7 @@
 # Online:Templar
 
 Source: https://en.uesp.net/wiki/Online:Templar
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Templar is a class in Elder Scrolls Online. They wield the powers of light and the burning sun to smite the wicked, or to heal and support the wounded.

@@ -17,7 +17,7 @@ Weeping Scar | Tenarr Stalker | Khajiit | Varies | a
 Hidden Moon Crypts | Shade of Arum-Khal | Dro-m'Athra | Male | 103494
 
 ## Skills and Abilities
-;Slice: A basic melee attack that deals low physical damage.
+;Slice: A basic melee attack dealing low physical damage.
 ;Magic Dagger: A ranged attack where the sentinel throws a magical shadow dagger at their target, dealing low magic damage.
 ;Shadow Slice: The sentinel teleports behind the target and strikes at them, dealing moderate magic damage and snaring. This attack an be interrupted to knock the sentinel off balance but also creates a "Shadow's Gift".
 ;Shadow's Gift: A burst of shadow energy goes off from the sentinel, indicated by a growing red circle, dealing moderate magic damage.

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.32.0.0 - Necrom & Update 38
 Xbox Patch Notes v1.32.0.0 - Necrom & Update 38
 Posted 2023-06-19 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/636411 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.32.0.0 and our brand-new Chapter: Necrom! Journey to the remote Telvanni Peninsula, enclave of the imperious wizards of House Telvanni, before losing yourself in the winding labyrinths of Apocrypha, domain of the Daedric Prince of Forbidden Knowledge, Hermaeus Mora!
 In addition to exploring the mysteries and wonders of the Telvanni Peninsula and Apocrypha, this Chapter introduces a new class – the Arcanist – and in order to ensure everyone can create an Arcanist, we’re giving everyone one free character slot!
 Draw on the strength of two new Companions to help you on your journeys, including repelling the dark forces at work in the Bastion Nymic world events. For those seeking a true challenge, make sure to explore Sanity’s Edge, a new 12-player Trial located in the southeast of the Telvanni Peninsula.

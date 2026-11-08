@@ -8,7 +8,7 @@ Arms of Relequen is a trial set which drops in normal Cloudrest (though no jewel
 ### Bonuses
 
 2 items: Adds 3-129 Weapon Damage and Spell Damage
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 34-1487 Offensive Penetration
 5 items: Your Light and Heavy attacks apply a stack of harmful winds to your target for 5 seconds, reduced to 1 second against players. Harmful winds deal 51 Physical damage per stack every 1 second. This effect can stack once every 0.5 seconds, up to 10 times, and scales off the higher of your Weapon Damage and Spell Damage.
 

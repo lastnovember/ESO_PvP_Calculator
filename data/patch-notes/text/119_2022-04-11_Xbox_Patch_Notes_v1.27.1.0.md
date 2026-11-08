@@ -2,7 +2,7 @@ Xbox Patch Notes v1.27.1.0
 Xbox Patch Notes v1.27.1.0
 Posted 2022-04-11 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/602459 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.27.1.0 fixes the issue where completed map POIs would sometimes appear incomplete, some issues with the Night’s Silence and Turning Tide item sets, a fix for your camera sometimes getting forced into first person view, and more. The size of this patch is approximately 1GB.
 Quests
 A Discreet Pickup: Fixed an issue where one of the Gleaner Drop Sites was extremely difficult to interact with.

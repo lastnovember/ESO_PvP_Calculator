@@ -8,7 +8,7 @@ Moondancer is a trial set which drops in the Maw of Lorkhaj. It cannot be crafte
 ### Bonuses
 
 2 items: Adds 25-1096 Maximum Magicka
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: When you activate a synergy while in combat, you gain a shadow blessing that increases your Weapon Damage and Spell Damage by 11-474 or a lunar blessing that increases your Magicka Recovery by 11-474 for 20 seconds. You can only have one blessing active at a time.
 

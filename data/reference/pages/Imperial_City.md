@@ -1,7 +1,7 @@
 # Online:Imperial City
 
 Source: https://en.uesp.net/wiki/Online:Imperial_City
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Imperial City (DLC) Online Place Summary

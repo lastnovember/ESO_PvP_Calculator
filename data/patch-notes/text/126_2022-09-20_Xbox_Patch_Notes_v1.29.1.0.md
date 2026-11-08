@@ -2,7 +2,7 @@ Xbox Patch Notes v1.29.1.0
 Xbox Patch Notes v1.29.1.0
 Posted 2022-09-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/618099 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.29.1.0 includes some adjustments for the Mara’s Balm item set and one of the boss encounters in Graven Deep, a fix for a UI error that would frequently appear after using the Activity Finder to queue for a dungeon and a few additional smaller fixes. The size of this patch is approximately 1.8GB for Xbox One and 1.8GB for Xbox Series X/S.
 Achievements
 Updated the Ascending Tide Style Master achievements to state the correct dungeons required for each achievement.

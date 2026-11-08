@@ -2,7 +2,7 @@ Xbox Patch Notes v1.28.1.0
 Xbox Patch Notes v1.28.1.0
 Posted 2022-07-06 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/610386 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.28.1.0 fixes a number of issues within High Isle including quests, Dreadsail Reef trial, Tales of Tribute, and even made a few changes for the popular Petrified Oaken Loop Lead. We also fixed a few game crashes, un-fixed a fix we made in Update 34 involving emotes and props, and more. The size of this patch is approximately 1.31 GB.
 Fixes & Improvements
 High Isle Chapter

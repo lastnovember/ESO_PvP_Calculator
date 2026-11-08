@@ -2,7 +2,7 @@ Xbox Patch Notes v1.31.0.0 - Scribes of Fate DLC & Update 37
 Xbox Patch Notes v1.31.0.0 - Scribes of Fate DLC & Update 37
 Posted 2023-03-28 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/630149 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.31.0.0 and the beginning of the Shadow Over Morrowind adventure! This DLC features two challenging new 4-player PvE dungeons. In Bal Sunnar, you’ll help the Psijic Order investigate and contain a strange power emanating from a mysterious township. In Scrivener’s Hall, you’ll fight your way through the twisted acolytes of the Scribes of Mora and confront their villainous new leader, Valinna. Completing these dungeons also gives you the chance at obtaining a number of new item sets, collectibles, achievements, and more.
 As part of the free base game update, we’ve added 3 new PvP item sets that are earned from Rewards of the Worthy in addition to new Alliance Emblem Face Markings, plus several housing quality-of-life improvements and new furnishings. We’ve also added screen narration to the accessibility settings, which does require Accessibility Mode to be enabled. Many daily and weekly timers have also been aligned to the same time as the Daily Login Reward; details on which areas are affected are detailed in the patch notes below.
 We hope you enjoy this year’s first DLC, which is approximately 49.59GB for Xbox One and 3.92GB for Xbox Series X in size.

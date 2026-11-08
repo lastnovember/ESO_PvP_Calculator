@@ -7,9 +7,9 @@ Online Skill Summary
 id=93877
 line=Green Balance
 icon=Green Balance-Living Vines
-desc=Grow vines to embrace you or the lowest health ally in front of you for 10 seconds. The vines heal the target for [1844 / 1863 / 1883 / 1904] Health each time they take damage. This effect can occur once every 1 second.
-desc1=Grow vines to embrace you or the lowest health ally in front of you for 10 seconds. The vines heal the target for [1905 / 1924 / 1946 / 1967] Health each time they take damage. This effect can occur once every 1 second. The vines apply Minor Lifesteal to enemies that damage the target for 10 seconds, healing you and your allies for 600 Health every 1 second when damaging that enemy.
-desc2=Grow vines to embrace you or the lowest health ally in front of you for 10 seconds. The vines heal the target for [1905 / 1924 / 1946 / 1967] Health each time they take damage. This effect can occur once every 1 second. When the vines expire, they heal the target for an additional [4608 / 4657 / 4709 / 4759] Health.
+desc=Grow vines to embrace you or the lowest health ally in front of you for 10 seconds. The vines heal the target for [1842 / 1861 / 1882 / 1903] Health each time they take damage. This effect can occur once every 1 second.
+desc1=Grow vines to embrace you or the lowest health ally in front of you for 10 seconds. The vines heal the target for [1904 / 1925 / 1945 / 1966] Health each time they take damage. This effect can occur once every 1 second. The vines apply Minor Lifesteal to enemies that damage the target for 10 seconds, healing you and your allies for 600 Health every 1 second when damaging that enemy.
+desc2=Grow vines to embrace you or the lowest health ally in front of you for 10 seconds. The vines heal the target for [1904 / 1925 / 1945 / 1966] Health each time they take damage. This effect can occur once every 1 second. When the vines expire, they heal the target for an additional [4609 / 4660 / 4710 / 4761] Health.
 linerank=20
 cost=2700 Magicka
 attrib=Magicka

@@ -1,7 +1,7 @@
 # Online:Weapons
 
 Source: https://en.uesp.net/wiki/Online:Weapons
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Online:Weapons (vendor) Weapons in Online fall into five categories. They are:

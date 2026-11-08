@@ -2,7 +2,7 @@ Xbox Patch Notes v1.29.2.0
 Xbox Patch Notes v1.29.2.0
 Posted 2022-10-04 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/619204 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.29.2.0 includes a few adjustments for the encounter with Zelvraak the Unbreathing in Graven Deep, a fix for Encratis' Behemoth Style Pages so they can now be used, and a few additional smaller fixes. The size of this patch is approximately 1GB.
 General
 Fixed a few locations where the world would disappear when standing in certain locations in Zenithar’s Abbey.

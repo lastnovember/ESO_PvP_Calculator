@@ -8,7 +8,7 @@ Roar of Alkosh is a trial set which drops in the Maw of Lorkhaj. It cannot be cr
 ### Bonuses
 
 2 items: Adds 15-657 Critical Chance
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: When you activate a synergy, you send a shockwave from your position that deals 318 Physical Damage and an additional 1590 Physical Damage over 10 seconds. Reduces the Physical Resistance and Spell Resistance of any enemy hit by the amount of your Weapon Damage for the duration, up to a maximum of 6000. The damage scales off the higher of your Weapon Damage and Spell Damage.
 

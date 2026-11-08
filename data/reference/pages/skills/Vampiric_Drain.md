@@ -8,7 +8,7 @@ Online Skill Summary
 id=40134583
 line=Vampire
 icon=Vampire-Vampiric Drain
-desc= Siphon away your enemies' vitality, dealing [2302 / 2326 / 2352 / 2376] Magic Damage and healing you for 25% of your missing Health every 1 second for 3 seconds. This ability is considered direct damage.
+desc= Siphon away your enemies' vitality, dealing [2303 / 2328 / 2353 / 2379] Magic Damage and healing you for 25% of your missing Health every 1 second for 3 seconds. This ability is considered direct damage.
 desc1= Siphon away your enemies' vitality, dealing 2381 Magic Damage, healing you for 25% of your missing Health, and restoring [7 / 8 / 9 / 10]% of your missing Stamina every 1 second for 3 seconds. This ability is considered direct damage.
 desc2= Siphon away your enemies' vitality, dealing 2381 Magic Damage, healing you for 25% of your missing Health, and generating [2 / 3 / 4 / 5] Ultimate every 1 second for 3 seconds. This ability is considered direct damage.
 linerank=4

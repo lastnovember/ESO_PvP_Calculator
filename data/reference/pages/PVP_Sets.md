@@ -1,7 +1,7 @@
 # Online:PVP Sets
 
 Source: https://en.uesp.net/wiki/Online:PVP_Sets
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 PVP Sets are sets of armor, weapons and jewelry that can be obtained from Cyrodiil, the Imperial City or Battlegrounds. Items of these sets can usually be bought using Alliance Points or Tel Var stones.

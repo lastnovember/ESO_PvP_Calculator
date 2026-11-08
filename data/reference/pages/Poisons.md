@@ -1,7 +1,7 @@
 # Online:Poisons
 
 Source: https://en.uesp.net/wiki/Online:Poisons
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Alchemy Poisons can be applied to your weapons to damage and debilitate your enemies. Some poisons can be found randomly throughout the world, while others can be purchased from the Crown Store.

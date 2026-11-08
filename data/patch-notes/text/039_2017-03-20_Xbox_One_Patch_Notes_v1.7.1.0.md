@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.7.1.0
 Xbox One Patch Notes v1.7.1.0
 Posted 2017-03-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/330527 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online v1.7.1.0 is an incremental patch for Xbox One that fixes a number of game crashes, has several adjustments to how you obtain Decorative Wax (used in Furnishing Crafting), and addresses a number of Master Writ and housing-related bugs. We’ve also adjusted the timeframe that the luxury furnisher Zanil Theran will be present, and have several fixes for quests, UI, and more.
 Please note we are still working on the issue where you can become disconnected while playing through a Trial, and plan to have a fix in a future patch.

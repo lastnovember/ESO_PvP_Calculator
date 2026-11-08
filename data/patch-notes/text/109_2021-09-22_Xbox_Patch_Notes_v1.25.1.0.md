@@ -2,7 +2,7 @@ Xbox Patch Notes v1.25.1.0
 Xbox Patch Notes v1.25.1.0
 Posted 2021-09-22 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/587186 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.25.1.0 fixes several issues in the Waking Flame dungeons, some game crashes, a few item sets and abilities, and more. We have also made a temporary change affecting Battlegrounds so that Solo and Group queues will only offer the Deathmatch game mode for a period of time. For more information on this change, please visit
 this forum post
 . The size of this incremental patch is approximately 962.8MB.

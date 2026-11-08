@@ -7,8 +7,8 @@ Online Skill Summary
 id=29909
 line=Dark Magic
 icon=Dark Magic-Daedric Mines
-desc=Surprise your foes by placing 3 volatile Daedric mines around you, which take 3 seconds to arm and last for 15 seconds. When a mine is triggered it explodes, dealing [6917 / 6990 / 7067 / 7144] Magic Damage and immobilizing the enemy for 2 seconds. Enemies can only be damaged by your mines once every 2 seconds.
-desc1=Range: 28 meters, Target: Ground. Surprise your foes by placing 3 volatile Daedric mines at a target location, which arm instantly and last for 15 seconds. When a mine is triggered it explodes, dealing [7143 / 7223 / 7300 / 7379] Magic Damage and immobilizing the enemy for 2 seconds. Enemies can only be damaged by your mines once every 2 seconds.
+desc=Surprise your foes by placing 3 volatile Daedric mines around you, which take 3 seconds to arm and last for 15 seconds. When a mine is triggered it explodes, dealing [6917 / 6991 / 7067 / 7143] Magic Damage and immobilizing the enemy for 2 seconds. Enemies can only be damaged by your mines once every 2 seconds.
+desc1=Range: 28 meters, Target: Ground. Surprise your foes by placing 3 volatile Daedric mines at a target location, which arm instantly and last for 15 seconds. When a mine is triggered it explodes, dealing [7145 / 7223 / 7303 / 7380] Magic Damage and immobilizing the enemy for 2 seconds. Enemies can only be damaged by your mines once every 2 seconds.
 desc2=Carefully form 5 protective Daedric wards around you, which take 3 seconds to arm and last for 15 seconds. When a Daedric ward is triggered it grants you or the ally a damage shield that absorbs [8691 / 8786 / 8882 / 8977] damage for 6 seconds. Targets can only be shielded by Daedric Refuge once every 2 seconds and the shield is capped at 43% of the target's Max Health.
 linerank=42
 cost=5400 Magicka

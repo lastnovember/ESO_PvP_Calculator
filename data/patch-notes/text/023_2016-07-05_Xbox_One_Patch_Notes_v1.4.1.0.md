@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.4.1.0
 Xbox One Patch Notes v1.4.1.0
 Posted 2016-07-05 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/277274 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online v1.4.1.0 is an incremental patch for Xbox One that addresses several issues with the Dark Brotherhood DLC game pack and its base game patch including a fix for the performance issues and crashes, and Activity Finder issues that many of you have encountered. We have also included fixes for several combat issues such as the Nightblade ability Teleport Strike, allowing players to get onto a Keep wall, as well as other fixes for items, quests, and dungeons. The size of this patch is approximately 780MB.
 FIXES & IMPROVEMENTS

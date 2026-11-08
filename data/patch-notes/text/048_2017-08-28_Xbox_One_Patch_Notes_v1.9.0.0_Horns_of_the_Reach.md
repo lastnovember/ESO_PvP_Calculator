@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.9.0.0 (Horns of the Reach)
 Xbox One Patch Notes v1.9.0.0 (Horns of the Reach)
 Posted 2017-08-28 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/368896 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.9.0.0 and the Horns of the Reach DLC Game Pack!
 This update comes in two parts–the DLC Game Pack and the base game patch. The base game patch will be available to everyone who owns The Elder Scrolls Online and the DLC Game Pack will automatically download with it, allowing you instant access to the new content when you purchase it or activate an ESO Plus membership.
 Anyone who owns ESO and has an active ESO Plus membership will also automatically have access to the Horns of the Reach DLC Game Pack. If your ESO Plus membership ends or lapses, you will no longer have access to the DLC Game Pack content and areas, but you will still have any items you earned while you had access.

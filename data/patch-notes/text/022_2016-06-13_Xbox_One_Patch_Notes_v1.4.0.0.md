@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.4.0.0
 Xbox One Patch Notes v1.4.0.0
 Posted 2016-06-13 by ZOS_JessicaFolsom ·
 forums.elderscrollsonline.com/en/discussion/271706 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 Welcome to The Elder Scrolls Online: Tamriel Unlimited v1.4.0.0 for Xbox One—the Dark Brotherhood DLC game pack! We're very excited to introduce the infamous Dark Brotherhood for the first time in ESO, and bring you the latest content-packed update.
 Dark Brotherhood, like our previous updates, will come in two parts—the DLC game pack, and the base game patch. The base game patch will be available to everyone who owns The Elder Scrolls Online and the DLC game pack will automatically download with it, allowing you instant access to the new content when you purchase it, or activate an ESO Plus membership.

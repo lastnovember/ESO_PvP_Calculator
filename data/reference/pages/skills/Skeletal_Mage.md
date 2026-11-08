@@ -8,9 +8,9 @@ Online Skill Summary
 id=40114317
 line=Grave Lord
 icon=Grave Lord-Skeletal Mage
-desc= Unearth a skeletal mage from the dirt to fight by your side for 20 seconds, while granting you Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%. The mage attacks the closest enemy every 2 seconds, dealing [1230 / 1243 / 1257 / 1270] Shock Damage. Creates a corpse on death if you are in combat.
-desc1=Cost: 2525 Stamina. Unearth a skeletal archer from the dirt to fight by your side for 20 seconds, while granting you Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%. The archer attacks the closest enemy every 2 seconds, dealing 1269 Physical Damage. Each time the archer deals damage, it deals [12 / 13 / 14 / 15]% more damage than the previous attack. Creates a corpse on death if you are in combat.
-desc2=Area: 5 meters, Target: Area. Unearth a skeletal mage from the dirt to fight by your side for 20 seconds, while granting you Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%. The mage attacks the closest enemy every 2 seconds, dealing [1269 / 1282 / 1296 / 1310] Shock Damage to them and all other enemies nearby. Creates a corpse on death if you are in combat.
+desc= Unearth a skeletal mage from the dirt to fight by your side for 20 seconds, while granting you Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%. The mage attacks the closest enemy every 2 seconds, dealing [1230 / 1243 / 1257 / 1270] Shock Damage. Creates a corpse on death if you are in combat.
+desc1=Cost: 2525 Stamina. Unearth a skeletal archer from the dirt to fight by your side for 20 seconds, while granting you Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%. The archer attacks the closest enemy every 2 seconds, dealing 1269 Physical Damage. Each time the archer deals damage, it deals [12 / 13 / 14 / 15]% more damage than the previous attack. Creates a corpse on death if you are in combat.
+desc2=Area: 5 meters, Target: Area. Unearth a skeletal mage from the dirt to fight by your side for 20 seconds, while granting you Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20%. The mage attacks the closest enemy every 2 seconds, dealing [1269 / 1282 / 1296 / 1310] Shock Damage to them and all other enemies nearby. Creates a corpse on death if you are in combat.
 linerank=30
 cost=2970 Magicka
 casttime=Instant

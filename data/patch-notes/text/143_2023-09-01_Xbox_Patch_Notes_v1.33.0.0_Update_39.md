@@ -2,7 +2,7 @@ Xbox Patch Notes v1.33.0.0 [Update 39]
 Xbox Patch Notes v1.33.0.0 [Update 39]
 Posted 2023-09-01 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/642202 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.33.0.0 featuring the Update 39 base game patch! During the ESO Global Reveal back in January, we announced that we were taking the time during this development cycle to focus on polishing existing in-game systems and addressing some longstanding requests, which you’ll find throughout this update.
 In addition to the many bug fixes listed below, we’ve spent some time improving some in-game experiences for newer players, cleaned up some item set sourcing, and added a number of new achievements for existing content. We’ve also added a few updates for PvP including new Monster Masks, Face and Body Markings, a new PvP death notification feature, and improving the loot dropped from Scamps in Imperial City.
 The full list of new features and updates can be read below. We hope you enjoy this latest update, which is approximately 41.12GB for Xbox One and 4.38GB for Xbox Series X.

@@ -228,6 +228,11 @@ colspan=2|Skill | rowspan=2|Requirement
 colspan=2|Skill Style
 
 rowspan=2 | |Assassin's Blade
+rowspan=2|500 from the Season Two Tamriel Tome
+
+Assassin's Blade, Azureblight (page)
+
+rowspan=2 | |Assassin's Blade
 rowspan=2|Class Style Pack: Tamriel United Deadly Strikes Nightblade Styles: Lilac Purple in Gold Coast Bazaar
 
 Assassin's Blade, Lilac Purple (page)
@@ -344,6 +349,11 @@ rowspan=2|1,200 from Crown Store
 
 Overload, Lightning Yellow (page)
 
+rowspan=2 | |Surge
+rowspan=2|100 from Harbingers of the Divine Crate
+
+Surge, Vibrant Yellow (page)
+
 ### Templar
 
 #### Aedric Spear
@@ -381,15 +391,20 @@ colspan=2|Skill | rowspan=2|Requirement
 
 colspan=2|Skill Style
 
-rowspan=2 | |Rushed Ceremony
-rowspan=2|Class Style Pack: Tamriel United Crusader Templar Styles: Azure and Ice from Gold Coast Bazaar
-
-Rushed Ceremony, Azure Blue (page)
-
 rowspan=2 | |Cleansing Ritual
 rowspan=2|500 from Gold Coast Bazaar
 
 Cleansing Ritual, Azure Blue (page)
+
+rowspan=2 | |Rune Focus
+rowspan=2|500 from the Season Two Tamriel Tome
+
+Rune Focus, Azureblight (page)
+
+rowspan=2 | |Rushed Ceremony
+rowspan=2|Class Style Pack: Tamriel United Crusader Templar Styles: Azure and Ice from Gold Coast Bazaar
+
+Rushed Ceremony, Azure Blue (page)
 
 ### Warden
 
@@ -398,10 +413,15 @@ colspan=2|Skill | rowspan=2|Requirement
 
 colspan=2|Skill Style
 
-rowspan=2 | |Scorch
-rowspan=2|Class Style Pack: Tamriel United Nature's Fury Warden Styles: Blazing Orange from Gold Coast Bazaar
+rowspan=2 | |Betty Netch
+rowspan=2|500 from the Season Two Tamriel Tome
 
-Scorch, Blazing Orange (page)
+Betty Netch, Azureblight (page)
+
+rowspan=2 | |Dive
+rowspan=2|Nocturnal Styles: Night's Crows Pack
+
+Dive, Nocturnal Crow (page)
 
 rowspan=2 | |Feral Guardian
 rowspan=2|Morrowind Collector's Pack
@@ -413,15 +433,15 @@ rowspan=2|1,800 from Crown Store
 
 Feral Guardian, Snow Bear (page)
 
+rowspan=2 | |Scorch
+rowspan=2|Class Style Pack: Tamriel United Nature's Fury Warden Styles: Blazing Orange from Gold Coast Bazaar
+
+Scorch, Blazing Orange (page)
+
 rowspan=2 | |Swarm
 rowspan=2|Nocturnal Styles: Night's Crows Pack
 
 Swarm, Murder of Crows (page)
-
-rowspan=2 | |Dive
-rowspan=2|Nocturnal Styles: Night's Crows Pack
-
-Dive, Nocturnal Crow (page)
 
 #### Green Balance
 colspan=2|Skill | rowspan=2|Requirement
@@ -585,6 +605,11 @@ rowspan=2|20 from Maj al-Ragath
 Snipe, Vibrant Yellow (page)
 
 rowspan=2 | |Volley
+rowspan=2|500 from the Season Two Tamriel Tome
+
+Volley, Azureblight (page)
+
+rowspan=2 | |Volley
 rowspan=2|New Life Styles: Winter Pack
 
 Volley, Winterfall (page)
@@ -673,6 +698,11 @@ rowspan=2 | |Flurry
 rowspan=2|100 from Hidden Kindred Crates
 
 Flurry, Peryite (page)
+
+rowspan=2 | |Twin Slashes
+rowspan=2|
+
+Twin Slashes, Coin Gold (page)
 
 rowspan=2 | |Twin Slashes
 rowspan=2|20 from Maj al-Ragath
@@ -909,6 +939,11 @@ rowspan=2|Skill Stylist: Werewolf Form Achievement
 Werewolf Form, Black (page)
 
 rowspan=2 | |Werewolf Transformation
+rowspan=2|100 from Harbingers of the Divine Crates
+
+Werewolf Form, Ragefire (page)
+
+rowspan=2 | |Werewolf Transformation
 rowspan=2|Skill Stylist IV: Werewolf Form Achievement
 
 Werewolf Form, Red (page)
@@ -929,6 +964,11 @@ rowspan=2 | |Circle of Protection
 rowspan=2|1,500 in Crown Store
 
 Circle of Protection, Julianos (page)
+
+rowspan=2 | |Dawnbreaker
+rowspan=2|500 from the Season Two Tamriel Tome
+
+Dawnbreaker, Azureblight (page)
 
 rowspan=2 | |Dawnbreaker
 rowspan=2|Skill Stylist: Dawnbreaker Achievement
@@ -1010,6 +1050,11 @@ rowspan=2|Acquired rarely from Psijic Portals
 
 Accelerate, Lilac Purple (page)
 
+rowspan=2 | |Imbue Weapon
+rowspan=2|500 from the Season Two Tamriel Tome
+
+Imbue Weapon, Azureblight (page)
+
 rowspan=2 | |Undo
 rowspan=2|Tracker of Temporal Tomes Achievement
 
@@ -1082,16 +1127,16 @@ Revealing Flare, Blazing Orange (page)
 - tables/skills_Skill_Styles_t00.csv (15 rows): File:ON-icon-skill style-Ardent Flame-Core of Flame, Azure Blue.png | Core of Flame | 20,000 at Stylemasters
 - tables/skills_Skill_Styles_t01.csv (17 rows): File:ON-icon-skill style-Draconic Power-Chains of Flame, Azure Blue.png | Chains of Flame | 20,000 at Stylemasters
 - tables/skills_Skill_Styles_t02.csv (17 rows): File:ON-icon-skill style-Earthen Heart-Magma Armor, Azure Blue.png | Magma Armor | 500 in Gold Coast Bazaar
-- tables/skills_Skill_Styles_t03.csv (15 rows): File:ON-icon-skill style-Assassination-Assassin's Blade-Lilac Purple.png | Assassin's Blade | Class Style Pack: Tamriel 
+- tables/skills_Skill_Styles_t03.csv (17 rows): File:ON-icon-skill style-Assassin's Blade, Azureblight.png | Assassin's Blade | 500 from the Season Two Tamriel Tome
 - tables/skills_Skill_Styles_t04.csv (3 rows): File:ON-icon-skill style-Shadow-Shadow Cloak, Dawn Orange.png | Shadow Cloak | 500 from the Tome of Dawn and Dusk
 - tables/skills_Skill_Styles_t05.csv (5 rows): File:ON-icon-skill style-Siphoning-Siphoning Strikes, Lilac Purple.png | Siphoning Strikes | 500 from Gold Coast Bazaar
 - tables/skills_Skill_Styles_t06.csv (5 rows): File:ON-icon-skill style-Dark Magic-Crystal Shard-Ruby Red.png | Crystal Shard | Class Style Pack: Tamriel United Sparks
 - tables/skills_Skill_Styles_t07.csv (5 rows): File:ON-icon-skill style-Daedric Summoning-Daedric Curse-Ruby Red.png | Daedric Curse | Class Style Pack: Tamriel United
-- tables/skills_Skill_Styles_t08.csv (9 rows): File:ON-icon-skill style-Storm Calling-Lightning Form-Ruby Red.png | Lightning Form | Class Style Pack: Tamriel United S
+- tables/skills_Skill_Styles_t08.csv (11 rows): File:ON-icon-skill style-Storm Calling-Lightning Form-Ruby Red.png | Lightning Form | Class Style Pack: Tamriel United S
 - tables/skills_Skill_Styles_t09.csv (5 rows): File:ON-icon-skill style-Aedric Spear-Puncturing Strikes-Honorfeather.png | Puncturing Strikes | 100 from Moons Over Ors
 - tables/skills_Skill_Styles_t10.csv (5 rows): File:ON-icon-skill style-Dawn's Wrath-Backlash-Ice Blue.png | Backlash | Class Style Pack: Tamriel United Crusader Templ
-- tables/skills_Skill_Styles_t11.csv (5 rows): File:ON-icon-skill style-Restoring Light-Rushed Ceremony-Azure Blue.png | Rushed Ceremony | Class Style Pack: Tamriel Un
-- tables/skills_Skill_Styles_t12.csv (11 rows): File:ON-icon-skill style-Animal Companions-Scorch-Blazing Orange.png | Scorch | Class Style Pack: Tamriel United Nature'
+- tables/skills_Skill_Styles_t11.csv (7 rows): File:ON-icon-skill style-Restoring Light-Cleansing Ritual-Azure Blue.png | Cleansing Ritual | 500 from Gold Coast Bazaar
+- tables/skills_Skill_Styles_t12.csv (13 rows): File:ON-icon-skill_style-Betty Netch, Azureblight.png | Betty Netch | 500 from the Season Two Tamriel Tome
 - tables/skills_Skill_Styles_t13.csv (5 rows): File:ON-icon-skill style-Green Balance-Fungal Growth-Blazing Orange.png | Fungal Growth | Class Style Pack: Tamriel Unit
 - tables/skills_Skill_Styles_t14.csv (5 rows): File:ON-icon-skill style-Winter's Embrace-Arctic Wind-Blazing Orange.png | Arctic Wind | Class Style Pack: Tamriel Unite
 - tables/skills_Skill_Styles_t15.csv (5 rows): File:ON-icon-skill style-Bone Tyrant-Bone Armor, Carmine Red.png | Bone Armor | 500 from Gold Coast Bazaar
@@ -1100,18 +1145,18 @@ Revealing Flare, Blazing Orange (page)
 - tables/skills_Skill_Styles_t18.csv (3 rows): File:ON-icon-skill style-Curative Runeforms-Runemend-Azure Blue.png | Runemend | Class Style Pack: Tamriel United Runic 
 - tables/skills_Skill_Styles_t19.csv (13 rows): File:ON-icon-skill style-Herald of the Tome-Abyssal Impact, Azure Blue.png | Abyssal Impact | 500 from Gold Coast Bazaar
 - tables/skills_Skill_Styles_t20.csv (3 rows): File:ON-icon-skill style-Soldier of Apocrypha-Runespite Ward, Azure Blue.png | Runespite Ward | 500 from Gold Coast Baza
-- tables/skills_Skill_Styles_t21.csv (13 rows): File:ON-icon-skill-Bow-Poison Arrow-Crimson Red.png | Poison Arrow | Gold Road Pathfinder Achievement
+- tables/skills_Skill_Styles_t21.csv (15 rows): File:ON-icon-skill-Bow-Poison Arrow-Crimson Red.png | Poison Arrow | Gold Road Pathfinder Achievement
 - tables/skills_Skill_Styles_t22.csv (21 rows): File:ON-icon-skill style-Elemental Storm, Chaos Vortex.png | Elemental Storm | 100 from Anu vs Padomay Crate
-- tables/skills_Skill_Styles_t23.csv (19 rows): File:ON-icon-skill style-Dual Wield-Blade Cloak, Gold Arrow.png | Blade Cloak | 500 from the Season One Tome
+- tables/skills_Skill_Styles_t23.csv (21 rows): File:ON-icon-skill style-Dual Wield-Blade Cloak, Gold Arrow.png | Blade Cloak | 500 from the Season One Tome
 - tables/skills_Skill_Styles_t24.csv (13 rows): File:ON-icon-skill-One Hand and Shield-Puncture-Lavaburst.png | Puncture | Skill Stylist: Puncture Achievement
 - tables/skills_Skill_Styles_t25.csv (17 rows): File:ON-icon-skill style-Restoration Staff-Blessing of Protection-Verdant Green.png | Blessing of Protection | 1,200 in 
 - tables/skills_Skill_Styles_t26.csv (17 rows): File:ON-icon-skill-Two Handed-Cleave-Cinnabar Red.png | Cleave | A Signature with Class Achievement
 - tables/skills_Skill_Styles_t27.csv (3 rows): File:ON-icon-skill-Light Armor-Annulment-Vibrant Yellow.png | Annulment | Skill Stylist: Annulment Achievement
 - tables/skills_Skill_Styles_t28.csv (7 rows): File:ON-icon-skill-Soul Magic-Soul Trap-Orchid Purple.png | Soul Trap | The Second Era of Scribing Quest
 - tables/skills_Skill_Styles_t29.csv (7 rows): File:ON-icon-skill style-Blood Scion, Coldharbour.png | Blood Scion | Skill Stylist: Blood Scion Achievement
-- tables/skills_Skill_Styles_t30.csv (15 rows): File:ON-icon-skill style-Werewolf-Gnash, Dusk Blue.png | Gnash | 500 from the Tome of Dawn and Dusk
-- tables/skills_Skill_Styles_t31.csv (15 rows): File:ON-icon-skill style-Fighters Guild-Circle of Protection, Julianos.png | Circle of Protection | 1,500 in Crown Store
+- tables/skills_Skill_Styles_t30.csv (17 rows): File:ON-icon-skill style-Werewolf-Gnash, Dusk Blue.png | Gnash | 500 from the Tome of Dawn and Dusk
+- tables/skills_Skill_Styles_t31.csv (17 rows): File:ON-icon-skill style-Fighters Guild-Circle of Protection, Julianos.png | Circle of Protection | 1,500 in Crown Store
 - tables/skills_Skill_Styles_t32.csv (15 rows): File:ON-icon-skill-Mages Guild-Entropy-Vibrant Yellow.png | Entropy | Gifts from the Archmagister Achievement
-- tables/skills_Skill_Styles_t33.csv (5 rows): File:ON-icon-skill-Psijic Order-Accelerate-Lilac Purple.png | Accelerate | Acquired rarely from Psijic Portals
+- tables/skills_Skill_Styles_t33.csv (7 rows): File:ON-icon-skill-Psijic Order-Accelerate-Lilac Purple.png | Accelerate | Acquired rarely from Psijic Portals
 - tables/skills_Skill_Styles_t34.csv (15 rows): File:ON-icon-skill style-Caltrops, Bone.png | Caltrops | Skill Stylist: Caltrops Achievement
 - tables/skills_Skill_Styles_t35.csv (7 rows): File:ON-icon-skill-Support-Barrier-Turquoise Blue.png | Barrier | The Wing of the Crow Quest

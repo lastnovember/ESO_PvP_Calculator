@@ -8,7 +8,7 @@ Dolorous Arena is a trial set found in normal Ossein Cage. It cannot be crafted.
 ### Bonuses
 
 2 items: Adds 28-1206 Maximum Health
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 34-1487 Armor
 5 items: While bracing you create a distortion barrier around yourself after 2 seconds. After the delay, every 2 seconds you gain 14-614 Armor and enemies within the distortion barrier have their Armor reduced by 42-1843 for 5 seconds. These effects stack up to 3 times.
 

@@ -9,3 +9,4 @@ There are several ways to increase this:
 *[[ON:Major Force|Major]] and [[ON:Minor Force|Minor]] Force.
 *Wearing [[ON:Dexterity|Medium armor]] pieces.
 *Additionally some sets contain Critical Damage as part of the 5 piece bonus. See : [[:Category:Online-Sets with Increase Critical Damage]]
+The mythic item [[ON:Malacath's Band of Brutality|Malacath's Band of Brutality]] '''decreases''' Critical Damage by 50%.

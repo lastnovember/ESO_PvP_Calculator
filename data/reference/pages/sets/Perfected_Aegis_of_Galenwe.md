@@ -8,7 +8,7 @@ Perfected Aegis of Galenwe is a trial set found in veteran Cloudrest. It cannot 
 ### Bonuses
 
 2 items: Adds 28-1206 Maximum Health
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 4% Healing Taken
 5 perfected items: Adds 28-1206 Maximum Health
 5 items: When you Block, you grant Empower to 11 other group members within 15 meters for 3 seconds, increasing the damage of their Heavy Attacks against monsters by 150%. This effect can occur once every 2 seconds.

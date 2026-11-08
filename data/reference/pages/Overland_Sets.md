@@ -1,7 +1,7 @@
 # Online:Overland Sets
 
 Source: https://en.uesp.net/wiki/Online:Overland_Sets
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Overland Sets are sets that provide players with various bonuses when items of the same set are equipped simultaneously. Items constituting overland sets can only be found on monsters or in treasure chests in their respective zones. All overland sets are bind-on-equip. All sets will drop items for all armor and weapon slots, but normally only in a specific armor weight, as listed below.

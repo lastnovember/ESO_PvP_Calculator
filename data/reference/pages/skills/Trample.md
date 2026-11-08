@@ -115,7 +115,7 @@ Protection | Protection
 Grants you Major Protection for 10 seconds, reducing damage taken by 10%.
 
 Savagery and Prophecy | Savagery and Prophecy
-Grants you Major Savagery and Major Prophecy for 20 seconds, increasing Weapon and Spell Critical rating by 2629.
+Grants you Major Savagery and Major Prophecy for 10 seconds, increasing Weapon and Spell Critical rating by 2629.
 
 Vulnerability | Vulnerability
 Afflicts enemies with Minor Vulnerability for 20 seconds, increasing damage taken by 5%.

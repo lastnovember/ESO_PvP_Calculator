@@ -14,7 +14,7 @@ Class: Arcanist
 3 items: Adds 17-731 Maximum Stamina
 4 items: Adds 17-731 Maximum Magicka
 4 items: Adds 17-731 Maximum Stamina
-5 items: Casting a non-Ultimate Curative Runeform ability grants an effect for 6 seconds to your affected allies based on how many Crux you had. At 1 Crux, allies gain a damage shield that absorbs 3618 damage. At 2 Crux, allies gain Minor Heroism, granting 1 Ultimate every 1.5 seconds. At 3 Crux, allies gain Major Protection, reducing damage taken by 10%.
+5 items: Casting a non-Ultimate Curative Runeform ability grants an effect for 6 seconds to you, if affected, and affected allies based on how many Crux you had. At 1 Crux, grant a damage shield that absorbs 3618 damage. At 2 Crux, grant Minor Heroism, generating 1 Ultimate every 1.5 seconds. At 3 Crux, grant Major Protection, reducing damage taken by 10%.
 
 ### Pieces
 The set consists of armor of all weights and jewelry in all slots, as well as weapons and shields of all types.

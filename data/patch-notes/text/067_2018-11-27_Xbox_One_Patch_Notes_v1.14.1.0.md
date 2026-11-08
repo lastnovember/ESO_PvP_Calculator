@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.14.1.0
 Xbox One Patch Notes v1.14.1.0
 Posted 2018-11-27 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/447271 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.14.1.0 includes improvements to performance in Trials, as well as a fix for character re-ordering so the order will now be saved. There are also some combat fixes including single-target cast time abilities cancelling the cast immediately and a change for Weapon Enchantments and poisons so they no longer proc from single-target DoT effects, in addition to other smaller bug fixes affecting other parts of the game. The size of this patch is 14.2GB.
 General
 You can now fast travel to group members who are inside either the Teeth of Sithis or Tsofeer Cavern Delves.

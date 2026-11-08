@@ -1,7 +1,7 @@
 # Online:Emperor
 
 Source: https://en.uesp.net/wiki/Online:Emperor
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Emperor!

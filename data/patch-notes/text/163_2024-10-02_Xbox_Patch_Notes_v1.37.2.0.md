@@ -2,7 +2,7 @@ Xbox Patch Notes v1.37.2.0
 Xbox Patch Notes v1.37.2.0
 Posted 2024-10-02 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/666739 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.37.2.0 fixes issues identified post Update 43 launch. These fixes are primarily focused on Base Game content. Bug fixes this patch include resolving a PvP queuing issue, fixing general Infinite Archive bugs, and resolving various housing interaction issues. You’ll find those and several other game fixes listed below. The size of this patch is approximately 1.37 GB (XB1)/ 1.5GB (XBX).
 Overview
 Fixes & Improvements, Gold Road

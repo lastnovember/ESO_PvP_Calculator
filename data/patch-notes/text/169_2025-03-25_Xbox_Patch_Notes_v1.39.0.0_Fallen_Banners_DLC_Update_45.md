@@ -2,7 +2,7 @@ Xbox Patch Notes v1.39.0.0 | Fallen Banners DLC & Update 45
 Xbox Patch Notes v1.39.0.0 | Fallen Banners DLC & Update 45
 Posted 2025-03-25 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/675145 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.39.0.0(Xbox) Fallen Banners Dungeon Pack and Update 45 base game patch! This update brings two brand new dungeons, new homes, new furnishings, new gear to earn, and several quality-of-life improvements for the base game. Additionally, there are some incremental combat changes and general bug fixes.
 Along with the new dungeons, we have some new base game features and quality-of-life features being added in Update 45. Player Response Options open a new way to add roleplay choice as you interact with quest characters, ultimately impacting their responses and quest outcomes. For quality-of-life systems, you’ll see an overhaul of the in-game map, Green Champion Point Star improvements, mount speed adjustments and starter zone art refresh, just to name a few.
 There will be additional content going live later in the Update 45 update cycle, like this year’s prologue quest.  The prologue quest, “A Guild In Crisis”, sees the resurgence of a once defeated foe in The Worm Cult wandering Tamriel once again. Look forward to this and the all-new Reaper Strikes, Worm Cult themed encounters popping up across Tamriel.

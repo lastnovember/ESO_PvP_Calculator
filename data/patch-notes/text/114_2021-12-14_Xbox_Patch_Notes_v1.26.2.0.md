@@ -2,7 +2,7 @@ Xbox Patch Notes v1.26.2.0
 Xbox Patch Notes v1.26.2.0
 Posted 2021-12-14 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/593648 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.26.2.0 updates the ZeniMax Media Terms of Service, effective on December 13, 2021. Please note you will need to re-accept the updated Terms of Service when first logging into the game after today’s patch. For a list of changes to the Terms of Service, please visit
 this website
 which provides a full summary.

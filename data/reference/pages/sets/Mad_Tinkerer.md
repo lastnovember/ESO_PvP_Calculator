@@ -10,7 +10,7 @@ Mad Tinkerer is an overland set that drops in the Clockwork City. It cannot be c
 2 items: Adds 15-657 Critical Chance
 3 items: Adds 15-657 Critical Chance
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: When you deal damage, you summon a Verminous Fabricant that charges forward, dealing 1504 Shock Damage to all enemies in its path, and knocking up to 6 into the air, stunning them for 2 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+5 items: When you deal damage, you unleash a Verminous Fabricant that charges forward, dealing 1504 Shock Damage to all enemies in its path, and knocking up to 6 into the air, stunning them for 2 seconds. This effect reveals you, can occur once every 8 seconds, scales off the higher of your Weapon Damage and Spell Damage, and is pet damage.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types. Unique pieces include:

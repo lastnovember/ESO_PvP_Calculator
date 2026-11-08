@@ -2,7 +2,7 @@ Xbox Patch Notes v1.26.1.0
 Xbox Patch Notes v1.26.1.0
 Posted 2021-12-01 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/592526 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.26.1.0 fixes a number of issues across the game since Update 32 launched including your character getting stuck in combat in the Deadlands zone, some game crashes, a few issues involving quests and the Armory System, and more. The size of this patch is approximately 1.8 GB.
 Furnishings
 Fixed an issue where the "Leyawiin Wall, Castle" furnishing plan could very rarely be obtained from general sources like pickpocketing and containers instead of from its intended source, Leyawiin Reward Coffers. While still rare, this change brings it in line with other Leyawiin structural furnishing plans.

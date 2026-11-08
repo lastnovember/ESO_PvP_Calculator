@@ -7,9 +7,9 @@ Online Skill Summary
 id=37928
 line=Siphoning
 icon=Siphoning-Drain Power
-desc=Siphon the vigor from your enemies' blood, dealing [4612 / 4662 / 4713 / 4764] Magic Damage to all nearby enemies. If an enemy is hit, you gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 30 seconds.
-desc1=Cost: 2983 Stamina. Siphon the vigor from your enemies' blood, dealing 4764 Disease Damage to all nearby enemies. If an enemy is hit you gain Major Brutality and Sorcery, and Minor Courage increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% and 215 for 30 seconds. Enemies hit have Minor Cowardice applied to them for [7 / 8 / 9 / 10] seconds, reducing their ESO Weapon Damage Link | |y and Spell Damage by 215.
-desc2=Siphon the vigor from your enemies' blood, dealing 4764 Magic Damage to all nearby enemies and healing you and your allies for [1587 / 1604 / 1621 / 1639] plus 20% more for each enemy hit. If an enemy is hit, you gain Major Brutality and Sorcery, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 30 seconds.
+desc=Siphon the vigor from your enemies' blood, dealing [4612 / 4662 / 4713 / 4764] Magic Damage to all nearby enemies. If an enemy is hit, you gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 30 seconds.
+desc1=Cost: 2983 Stamina. Siphon the vigor from your enemies' blood, dealing 4764 Disease Damage to all nearby enemies. If an enemy is hit you gain Major Brutality, and Minor Courage increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% and 215 for 30 seconds. Enemies hit have Minor Cowardice applied to them for [7 / 8 / 9 / 10] seconds, reducing their ESO Weapon Damage Link | |y and Spell Damage by 215.
+desc2=Siphon the vigor from your enemies' blood, dealing 4764 Magic Damage to all nearby enemies and healing you and your allies for [1587 / 1604 / 1621 / 1639] plus 20% more for each enemy hit. If an enemy is hit, you gain Major Brutality, increasing your ESO Weapon Damage Link | |y and Spell Damage by 20% for 30 seconds.
 linerank=42
 cost=3510 Magicka
 attrib=Magicka

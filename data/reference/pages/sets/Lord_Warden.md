@@ -10,7 +10,7 @@ Lord Warden is a monster helm set. It consists of two armor pieces: head and sho
 ### Bonuses
 
 1 item: Adds 34-1487 Armor
-2 items: When you take damage, you have a 50% chance to summon a shadow orb for 10 seconds that increases the Physical Resistance and Spell Resistance of you and your group members within 8 meters by 73-3180. This effect can occur once every 10 seconds.
+2 items: When you take damage, you have a 50% chance to conjure a shadow orb for 10 seconds that increases the Physical Resistance and Spell Resistance of you and your group members within 8 meters by 73-3180. This effect can occur once every 10 seconds.
 
 ### Drop Locations
 - The head drops from Lord Warden Dusk in the Veteran Imperial City Prison.

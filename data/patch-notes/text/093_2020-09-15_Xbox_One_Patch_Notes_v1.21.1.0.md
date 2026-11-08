@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.21.1.0
 Xbox One Patch Notes v1.21.1.0
 Posted 2020-09-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/545702 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.21.1.0 includes fixes for the Stonethorn dungeons, some item sets and general combat – including getting locked out of using some movement position abilities – a few game crashes, and more. The size of this patch is approximately 10.18 GB.
 General
 Fixed an issue where you could not pass through the mountain cave tunnel in Nchuleftingth.

@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.6.0.0
 Xbox One Patch Notes v1.6.0.0
 Posted 2016-10-17 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/298095 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 Welcome to The Elder Scrolls Online v1.6.0.0 featuring One Tamriel! This update opens up the world of Tamriel for you to explore any time, and play with your friends no matter what level you are. Due to the significant changes One Tamriel brings to ESO, we’ve adjusted much of the current content and systems.
 In this update, you’ll find that we’ve made Craglorn more solo-friendly, added Normal and Veteran modes for all 4-player dungeons, re-designed the Undaunted Pledge system, and made some fairly sizeable itemization changes and updates – you’ll definitely want to check out all the details below.

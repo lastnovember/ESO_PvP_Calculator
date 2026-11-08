@@ -7,9 +7,9 @@ Online Skill Summary
 id=43056
 line=Soul Magic
 icon=Soul Magic-Soul Trap
-desc=Lay claim to an enemy's soul, dealing [12276 / 12419 / 12551 / 12694] Magic Damage over 20 seconds. Fills an empty Soul Gem if an affected enemy dies.
-desc1=Cost: [2700 / 2610 / 2520 / 2430] Magicka, Duration: 10 seconds, Area: 8 meters. Lay claim to enemy souls, dealing 6330 Magic Damage to your target and any other nearby enemies over 10 seconds. Fills an empty Soul Gem if an affected enemy dies.
-desc2=Lay claim to an enemy's soul, dealing 11759 Magic Damage over 20 seconds. If an affected enemy dies, you fill an empty Soul Gem, heal for [2381 / 2521 / 2664 / 2802] Health, and restore [2216 / 2347 / 2478 / 2607] Magicka and [5100 / 5400 / 5700 / 6000] Stamina. This portion of the ability scales off your Max Health, Magicka, and Stamina.
+desc=Lay claim to an enemy's soul, dealing [12276 / 12419 / 12540 / 12683] Magic Damage over 20 seconds. Fills an empty Soul Gem if an affected enemy dies.
+desc1=Cost: [2700 / 2610 / 2520 / 2430] Magicka, Duration: 10 seconds, Area: 8 meters. Lay claim to enemy souls, dealing 6342 Magic Damage to your target and any other nearby enemies over 10 seconds. Fills an empty Soul Gem if an affected enemy dies.
+desc2=Lay claim to an enemy's soul, dealing 11330 Magic Damage over 20 seconds. If an affected enemy dies, you fill an empty Soul Gem, heal for [2647 / 2804 / 2962 / 3115] Health, and restore [2192 / 2320 / 2449 / 2578] Magicka and [5100 / 5400 / 5700 / 6000] Stamina. This portion of the ability scales off your Max Health, Magicka, and Stamina.
 linerank=1
 cost=2700 Magicka
 attrib=Magicka

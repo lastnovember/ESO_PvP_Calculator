@@ -7,9 +7,9 @@ Online Skill Summary
 id=41248
 line=Restoration Staff
 icon=Restoration Staff-Grand Healing
-desc=Summon restoring spirits with your staff, healing you and your allies in the target area for [12276 / 12419 / 12551 / 12694] Health over 10 seconds.
-desc1=Duration: [12 / 13 / 14 / 15] seconds. Summon restoring spirits with your staff, healing you and your allies in the target area for [14963 / 16120 / 17277 / 18421] Health over [12 / 13 / 14 / 15] seconds.
-desc2=Summon restoring spirits with your staff, healing you and your allies in the target area for 12661 Health over 10 seconds. Increases your ESO Magicka Link | Recovery by [12 / 13 / 14 / 15] for each target affected, stacking up to 20 times.
+desc=Call upon restoring spirits with your staff, healing you and your allies in the target area for [12276 / 12419 / 12540 / 12683] Health over 10 seconds.
+desc1=Duration: [12 / 13 / 14 / 15] seconds. Call upon restoring spirits with your staff, healing you and your allies in the target area for [14976 / 16120 / 17277 / 18421] Health over [12 / 13 / 14 / 15] seconds.
+desc2=Call upon restoring spirits with your staff, healing you and your allies in the target area for 12672 Health over 10 seconds. Increases your ESO Magicka Link | Recovery by [12 / 13 / 14 / 15] for each target affected, stacking up to 20 times.
 linerank=2
 cost=3510 Magicka
 attrib=Magicka

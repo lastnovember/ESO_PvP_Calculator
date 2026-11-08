@@ -2,7 +2,7 @@ Xbox Patch Notes v1.24.3.0
 Xbox Patch Notes v1.24.3.0
 Posted 2021-06-23 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/578635 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.24.3.0 contains numerous fixes for Blackwood quests, Companions and Rockgrove Trial, a fix for War Chief Zathmoz not granting credit or properly respawning when defeated, a number of crash fixes, in addition to some fixes for gameplay issues including block cost desyncs, item set effects resetting, issues with the Elder Dragon, Rune Focus and Negate Magic abilities, and more. The size of this patch is approximately 2.17GB.
 Fixes & Improvements
 Chapters & DLCs

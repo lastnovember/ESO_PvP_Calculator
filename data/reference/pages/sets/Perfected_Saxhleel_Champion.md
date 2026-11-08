@@ -8,7 +8,7 @@ Perfected Saxhleel Champion is a trial set which drops in veteran Rockgrove. It 
 ### Bonuses
 
 2 items: Adds 25-1096 Maximum Magicka
-3 items: Gain Minor Aegis at all times, reducing your damage taken from Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Aegis, reducing damage taken from monsters by 5%.
 4 items: Adds 25-1096 Maximum Stamina
 5 perfected items: Adds 25-1096 Maximum Stamina
 5 items: When you use an Ultimate ability while in combat, you and up to 11 group members within 28 meters of you gain Major Force for 1 second per 15 Ultimate spent, increasing your Critical Damage done by 20%.

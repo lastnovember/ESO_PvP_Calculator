@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.18.3.0
 Xbox One Patch Notes v1.18.3.0
 Posted 2020-01-16 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/508082 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.18.3.0 includes several adjustments for the Activity Finder to improve its stability, in addition to further memory reductions to reduce game crash frequency. The size of this patch is approximately 642 MB.
 General
 Fixed an issue where you couldn’t select a guild to claim a Keep.

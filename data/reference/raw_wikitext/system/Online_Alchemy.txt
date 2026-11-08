@@ -70,82 +70,102 @@ The table below shows the amount of [[Online:Skills|skill points]] required in o
 
 ==Formulae==
 ===Two Reagents===
-In ESO, two [[ON:Alchemy Ingredients|reagents]] with the same effect need to be combined in order to craft a potion. Be aware that when crafting potions, some combinations will provide a not always beneficial side effect.  The [[ON:Snakeblood|Snakeblood]] passive will reduce (or with 3 points even eliminate) the negative side-effects, but it's better to simply avoid them if possible.  All effects in poisons are negative, so there's no need to worry about unintended side-effects with poisons, though poisons with multiple effects will have the duration of all effects reduced.  Remember that you have to also provide a solvent, which influences the strength, but not the effect, of a potion. As of Update 18, there are 151 two-reagent combinations.
+In ESO, two [[ON:Alchemy Ingredients|reagents]] with the same effect need to be combined in order to craft a potion. Be aware that when crafting potions, some combinations will provide a not always beneficial side effect.  The [[ON:Snakeblood|Snakeblood]] passive will reduce (or with 3 points even eliminate) the negative side-effects, but it's better to simply avoid them if possible.  All effects in poisons are negative, so there's no need to worry about unintended side-effects with poisons, though poisons with multiple effects will have the duration of all effects reduced.  Remember that you have to also provide a solvent, which influences the strength, but not the effect, of a potion. As of Update 51, there are 270 two-reagent combinations.
 
 {{ON:Alchemy/Two Reagent Formulae}}
 
 ===Three Reagents===
-Learning the Ability ''[[ON:Laboratory Use|Laboratory Use]]'' enables you to use of up to three reagents. This opens the door to a large variety of multi-effect potions since each effect has to be present only two times within the reagents chosen in order to be applied to a potion. Listing all possible formulae for potions with three reagents would be rather pointless (there are 2302 such formulae as of Update 18) - those interested can use [http://esolog.uesp.net/viewPotions.php ESO Alchemy Calculator]. To use three reagents to their full potential, you also need to understand how opposing effects work.  See the ''[[ON:Laboratory Use|Laboratory Use]]'' page for more details.
+Learning the Ability ''[[ON:Laboratory Use|Laboratory Use]]'' enables you to use of up to three reagents. This opens the door to a large variety of multi-effect potions since each effect has to be present only two times within the reagents chosen in order to be applied to a potion. Listing all possible formulae for potions with three reagents would be rather pointless (there are 5962 such formulae as of Update 51) - those interested can use [http://esolog.uesp.net/viewPotions.php ESO Alchemy Calculator]. To use three reagents to their full potential, you also need to understand how opposing effects work. See the ''[[ON:Laboratory Use|Laboratory Use]]'' page for more details.
 
-187 of the three-reagent formulae produce '''three effects''' (the primary one, which gives name to the resulting potion, and '''two''' secondaries). These formulae are listed below.
+360 of the three-reagent formulae produce '''three effects''' (the primary one, which gives name to the resulting potion, and '''two''' secondaries). These formulae are listed below.
 
 {{ON:Alchemy/Three Effect Formulae}}
 
-119 of the three-reagent formulae have the same effect on all three of the reagents. These are known as triple-effect formulae. The effect lasts longer than normally. The list of these formulae is provided below.
+360 of the three-reagent formulae have the same effect on all three of the reagents. These are known as triple-effect formulae. The effect lasts longer than normally. The list of these formulae is provided below.
 
 {{ON:Alchemy/Tripled Effect Formulae}}
 
 == Learning Reagent Effects Efficiently==
-To learn all [[ON:Alchemy Ingredients|reagent effects]] using the least number of reagents, combine them in the following order:
+To learn all [[ON:Alchemy Ingredients|reagent effects]], see below:
 {{Showhide/Start|All Reagent Combinations}}
-The following combinations assume you have reached level 15 in Alchemy and have taken the ''Laboratory Use'' passive. If not, repeat any known combination until level 15 is reached, then take the passive and continue in the order below:
+The following combinations assume you have reached level 15 in Alchemy and have taken the [[ON:Laboratory Use|Laboratory Use]] passive. If not, repeat any known combination (preferably one using cheap reagents, for example White Cap + Wormwood) until level 15 is reached, then take the passive and continue in the order below. 
+
+This sequence is optimized for lowest total reagent cost as of October 2026, which is about 36k gold, and you'll need: 
+3 White Cap, 3 Luminous Russula, 3 Wormwood, 3 Fleshfly Larva, 3 Blessed Thistle, 4 Nirnroot, 2 Blue Entoloma, 2 Corn Flower, 3 Water Hyacinth, 3 Namira's Rot, 3 Imp Stool, 4 Stinkhorn, 2 Dragonthorn, 2 Spider Egg, 3 Nightshade, 2 Butterfly Wing, 2 Emetic Russula, 2 Lady's Smock, 3 Beetle Scuttle, 2 Mountain Flower, 2 Bugloss, 2 Vile Coagulant, 4 Scrib Jelly, 4 Chaurus Egg, 3 Crimson Nirnroot, 2 Clam Gall, 3 Dragon's Bile, 2 Torchbug Thorax, 2 Columbine, 2 Powdered Mother of Pearl, 3 Violet Coprinus, 2 Mudcrab Chitin, 2 Winter's Grave Tongue, 2 Daedra-Blood Maggots, 2 Cultivated Cryptpods, 2 Dragon's Blood, 2 Fossilized Verminous Bones, 3 Dragon Rheum.
 {| class="wikitable sortable" style="text-align:left;"
 ! Combination
 ! Reagent 1
 ! Reagent 2
 ! Reagent 3
 |-
-| 1 || Emetic Russula || Stinkhorn || Water Hyacinth
+| 1 || [[ON:Beetle Scuttle|Beetle Scuttle]] || [[ON:Mudcrab Chitin|Mudcrab Chitin]]
 |-
-| 2 || Powdered Mother of Pearl || Mudcrab Chitin || Beetle Scuttle
+| 2 || [[ON:Nirnroot|Nirnroot]] || [[ON:Dragon Rheum|Dragon Rheum]]
 |-
-| 3 || Clam Gall || Mudcrab Chitin || Wormwood
+| 3 || [[ON:Scrib Jelly|Scrib Jelly]] || [[ON:Chaurus Egg|Chaurus Egg]]
 |-
-| 4 || Wormwood || Dragonthorn || Chaurus Egg
+| 4 || [[ON:Stinkhorn|Stinkhorn]] || [[ON:Dragonthorn|Dragonthorn]]
 |-
-| 5 || Chaurus Egg || White Cap || Crimson Nirnroot
+| 5 || [[ON:Blessed Thistle|Blessed Thistle]] || [[ON:Beetle Scuttle|Beetle Scuttle]] || [[ON:Powdered Mother of Pearl|Powdered Mother of Pearl]]
 |-
-| 6 || Crimson Nirnroot || Fleshfly Larva || Water Hyacinth
+| 6 || [[ON:Blessed Thistle|Blessed Thistle]] || [[ON:Nirnroot|Nirnroot]] || [[ON:Violet Coprinus|Violet Coprinus]]
 |-
-| 7 || Water Hyacinth || Dragonthorn || Stinkhorn
+| 7 || [[ON:Butterfly Wing|Butterfly Wing]] || [[ON:Scrib Jelly|Scrib Jelly]] || [[ON:Dragon's Bile|Dragon's Bile]]
 |-
-| 8 || Stinkhorn || Blessed Thistle || Torchbug Thorax
+| 8 || [[ON:Chaurus Egg|Chaurus Egg]] || [[ON:Violet Coprinus|Violet Coprinus]] || [[ON:Winter's Grave Tongue|Winter's Grave Tongue]]
 |-
-| 9 || Torchbug Thorax || Butterfly Wing || Nirnroot
+| 9 || [[ON:Corn Flower|Corn Flower]] || [[ON:Nightshade|Nightshade]] || [[ON:Vile Coagulant|Vile Coagulant]]
 |-
-| 10 || Nirnroot || Dragon's Bile || Fleshfly Larva
+| 10 || [[ON:Corn Flower|Corn Flower]] || [[ON:Torchbug Thorax|Torchbug Thorax]] || [[ON:Cultivated Cryptpods|Cultivated Cryptpods]]
 |-
-| 11 || Fleshfly Larva || Imp Stool || Luminous Russula
+| 11 || [[ON:Fleshfly Larva|Fleshfly Larva]] || [[ON:Vile Coagulant|Vile Coagulant]] || [[ON:Crimson Nirnroot|Crimson Nirnroot]]
 |-
-| 12 || Luminous Russula || Butterfly Wing || Spider Egg
+| 12 || [[ON:Fleshfly Larva|Fleshfly Larva]] || [[ON:Water Hyacinth|Water Hyacinth]] || [[ON:Butterfly Wing|Butterfly Wing]]
 |-
-| 13 || Spider Egg || Nirnroot || Nightshade
+| 13 || [[ON:Imp Stool|Imp Stool]] || [[ON:Emetic Russula|Emetic Russula]] || [[ON:Daedra-Blood Maggots|Daedra-Blood Maggots]]
 |-
-| 14 || Nightshade || Crimson Nirnroot || Vile Coagulant
+| 14 || [[ON:Lady's Smock|Lady's Smock]] || [[ON:Bugloss|Bugloss]] || [[ON:Crimson Nirnroot|Crimson Nirnroot]]
 |-
-| 15 || Vile Coagulant || Torchbug Thorax || Corn Flower
+| 15 || [[ON:Luminous Russula|Luminous Russula]] || [[ON:Fleshfly Larva|Fleshfly Larva]] || [[ON:Clam Gall|Clam Gall]]
 |-
-| 16 || Corn Flower || Lady's Smock || Violet Coprinus
+| 16 || [[ON:Luminous Russula|Luminous Russula]] || [[ON:Imp Stool|Imp Stool]] || [[ON:Mountain Flower|Mountain Flower]]
 |-
-| 17 || Violet Coprinus || Emetic Russula || Beetle Scuttle
+| 17 || [[ON:Luminous Russula|Luminous Russula]] || [[ON:Wormwood|Wormwood]] || [[ON:Blue Entoloma|Blue Entoloma]]
 |-
-| 18 || Beetle Scuttle || Powdered Mother of Pearl || Scrib Jelly
+| 18 || [[ON:Mountain Flower|Mountain Flower]] || [[ON:Columbine|Columbine]] || [[ON:Dragon Rheum|Dragon Rheum]]
 |-
-| 19 || Scrib Jelly || Clam Gall || Dragon's Blood
+| 19 || [[ON:Namira's Rot|Namira's Rot]] || [[ON:Imp Stool|Imp Stool]] || [[ON:Columbine|Columbine]]
 |-
-| 20 || Dragon's Blood || Blessed Thistle || Dragon Rheum
+| 20 || [[ON:Namira's Rot|Namira's Rot]] || [[ON:Scrib Jelly|Scrib Jelly]] || [[ON:Dragon's Bile|Dragon's Bile]]
 |-
-| 21 || Dragon Rheum || Imp Stool || Mountain Flower
+| 21 || [[ON:Nightshade|Nightshade]] || [[ON:Chaurus Egg|Chaurus Egg]] || [[ON:Crimson Nirnroot|Crimson Nirnroot]]
 |-
-| 22 || Mountain Flower || Wormwood || Columbine
+| 22 || [[ON:Nightshade|Nightshade]] || [[ON:Dragon's Blood|Dragon's Blood]] || [[ON:Fossilized Verminous Bones|Fossilized Verminous Bones]]
 |-
-| 23 || Columbine || Lady's Smock || Namira's Rot
+| 23 || [[ON:Nirnroot|Nirnroot]] || [[ON:Stinkhorn|Stinkhorn]] || [[ON:Torchbug Thorax|Torchbug Thorax]]
 |-
-| 24 || Namira's Rot || Scrib Jelly || Blue Entoloma
+| 24 || [[ON:Scrib Jelly|Scrib Jelly]] || [[ON:Dragon's Blood|Dragon's Blood]] || [[ON:Dragon Rheum|Dragon Rheum]]
 |-
-| 25 || Blue Entoloma || White Cap || Bugloss
+| 25 || [[ON:Spider Egg|Spider Egg]] || [[ON:Clam Gall|Clam Gall]] || [[ON:Mudcrab Chitin|Mudcrab Chitin]]
 |-
-| 26 || Bugloss || Dragon Rheum || Dragon's Bile
+| 26 || [[ON:Spider Egg|Spider Egg]] || [[ON:Dragon's Bile|Dragon's Bile]] || [[ON:Cultivated Cryptpods|Cultivated Cryptpods]]
+|-
+| 27 || [[ON:Stinkhorn|Stinkhorn]] || [[ON:Chaurus Egg|Chaurus Egg]] || [[ON:Fossilized Verminous Bones|Fossilized Verminous Bones]]
+|-
+| 28 || [[ON:Stinkhorn|Stinkhorn]] || [[ON:Emetic Russula|Emetic Russula]] || [[ON:Violet Coprinus|Violet Coprinus]]
+|-
+| 29 || [[ON:Water Hyacinth|Water Hyacinth]] || [[ON:Lady's Smock|Lady's Smock]] || [[ON:Beetle Scuttle|Beetle Scuttle]]
+|-
+| 30 || [[ON:Water Hyacinth|Water Hyacinth]] || [[ON:Winter's Grave Tongue|Winter's Grave Tongue]] || [[ON:Daedra-Blood Maggots|Daedra-Blood Maggots]]
+|-
+| 31 || [[ON:White Cap|White Cap]] || [[ON:Bugloss|Bugloss]] || [[ON:Powdered Mother of Pearl|Powdered Mother of Pearl]]
+|-
+| 32 || [[ON:White Cap|White Cap]] || [[ON:Nirnroot|Nirnroot]] || [[ON:Blue Entoloma|Blue Entoloma]]
+|-
+| 33 || [[ON:White Cap|White Cap]] || [[ON:Wormwood|Wormwood]] || [[ON:Namira's Rot|Namira's Rot]]
+|-
+| 34 || [[ON:Wormwood|Wormwood]] || [[ON:Blessed Thistle|Blessed Thistle]] || [[ON:Dragonthorn|Dragonthorn]]
+|-
 |}
 
 
@@ -235,6 +255,8 @@ The following combinations assume you have reached level 15 in Alchemy and have 
 
 == Achievements ==
 There are a number of achievements associated with Alchemy.
+
+There are 'Learn all the Traits' achievements for 32 of the 34 reagents. The missing ones are Clam Gall and Vile Coagulant.
 {{/Achievements}}
 
 == Bugs ==

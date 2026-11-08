@@ -1,7 +1,7 @@
 # Online:Attributes
 
 Source: https://en.uesp.net/wiki/Online:Attributes
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 In The Elder Scrolls Online, you have just three main attributes. Each is represented by a colored bar that appears at the bottom of the screen whenever the attribute is at less than 100%.
@@ -25,7 +25,7 @@ Until level 50, each time you level up, your maximum points for all three attrib
 
 Certain types of armor, weapons, and jewelry will increase your maximum or recovery points as long as you have them on. Food and some potions will increase your maximum points and beverages will increase your recovery for a period of time. Only one food, beverage, or potion effect can be active at a time.
 
-Attribute point assignments can be changed later on at a Rededication Shrine for a (small) cost in gold, or with an Attribute Respecification Scroll from the Crown Store.
+Beginning with Update 49, attribute points can be reassigned from the Character screen at no cost.
 
 In addition, you have one other attribute:
 - Ultimate

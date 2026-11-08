@@ -10,8 +10,8 @@ id2=45199
 line=Daedric Summoning
 type=Passive
 icon=Daedric Summoning-Expert Summoner
-desc=Increases your Magicka and Stamina by 2%. Increases your Max Health 2% if you have a permanent pet active.
-desc2=Increases your Magicka and Stamina by 5%. Increases your Max Health by 5% if you have a permanent pet active.
+desc=Increases your Magicka and Stamina by 2%. Increases your Max Health 2% if you have a permanent summoned combat pet active.
+desc2=Increases your Magicka and Stamina by 5%. Increases your Max Health by 5% if you have a permanent summoned combat pet active.
 linerank1=39
 linerank2=50
 

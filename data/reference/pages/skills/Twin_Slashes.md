@@ -7,9 +7,9 @@ Online Skill Summary
 id=40664
 line=Dual Wield
 icon=Dual Wield-Twin Slashes
-desc=Slice an enemy with both weapons to cause deep lacerations, dealing [1537 / 1553 / 1570 / 1587] Bleed Damage with each weapon and causing them to bleed for an additional [9210 / 9300 / 9410 / 9510] Bleed Damage over 20 seconds.
-desc1=Slice an enemy with both weapons to cause deep lacerations, dealing [1905 / 1925 / 1946 / 1967] Bleed Damage with each weapon and causing them to bleed for an additional 9520 Bleed Damage over 20 seconds. Enemies hit by the initial hit are afflicted with the Hemorrhaging status effect. You also reduce their Movement Speed by 30% for 4 seconds.
-desc2=Slice an enemy with both weapons to cause deep lacerations, dealing 1587 Bleed Damage with each weapon and causing them to bleed for an additional 9520 Bleed Damage over 20 seconds. You heal for [952 / 962 / 973 / 983] Health anytime this ability deals damage.
+desc=Slice an enemy with both weapons to cause deep lacerations, dealing [1537 / 1553 / 1570 / 1587] Bleed Damage with each weapon and causing them to bleed for an additional [9200 / 9300 / 9410 / 9510] Bleed Damage over 20 seconds.
+desc1=Slice an enemy with both weapons to cause deep lacerations, dealing [1905 / 1925 / 1946 / 1967] Bleed Damage with each weapon and causing them to bleed for an additional 9530 Bleed Damage over 20 seconds. Enemies hit by the initial hit are afflicted with the Hemorrhaging status effect. You also reduce their Movement Speed by 30% for 4 seconds.
+desc2=Slice an enemy with both weapons to cause deep lacerations, dealing 1587 Bleed Damage with each weapon and causing them to bleed for an additional 9530 Bleed Damage over 20 seconds. You heal for [953 / 962 / 973 / 984] Health anytime this ability deals damage.
 linerank=4
 cost=2700 Stamina
 attrib=Stamina

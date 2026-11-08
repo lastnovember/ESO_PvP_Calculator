@@ -3,6 +3,7 @@
 Source: https://en.uesp.net/wiki/Online:Buffs
 License: CC BY-SA, UESP
 
+Buffs have been overhauled with Update 51, page needs to be updated, example, Sorcery has been removed an is covered by Brutality which covers both weapon and spell damage
 Buffs and Debuffs are temporary character effects applied by some abilities, sets, potions, and champion perks. Buffs are applied to yourself or your allies, and debuffs are applied to enemies. Two buffs/debuffs with the same name from different sources will not stack, though a Major and Minor buff of the same type will. Debuffs can be removed by certain skills or items with cleansing effects.
 2
 
@@ -626,10 +627,10 @@ Diseased (Disease damage status), Lethal Arrow, Render Flesh (applies to self)
 rowspan=4|
 
 Sets
-Affliction, Fasalla's Guile, Pirate Skeleton, Thurvokun (set) (applies Diseased Status)
+Affliction, Fasalla's Guile, Pirate Skeleton (applies to self), Thurvokun (set) (applies Diseased Status)
 
 Scribing
-Defile on Elemental Explosion, Trample
+Defile on Elemental Explosion and Trample
 
 Potions
 Defile Potion or Poison, Vitality Poison

@@ -10,7 +10,7 @@ Valkyn Skoria is a monster helm set. It consists of two armor pieces: head and s
 ### Bonuses
 
 1 item: Adds 34-1487 Offensive Penetration
-2 items: When you deal damage with a damage over time effect, you have an 8% chance to summon a meteor that deals 1342 Flame damage to the target and 447 Flame damage to all other enemies within 5 meters. This effect can occur once every 5 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+2 items: When you deal damage with a damage over time effect, you have an 8% chance to bring down a meteor that deals 1342 Flame damage to the target and 447 Flame damage to all other enemies within 5 meters. This effect can occur once every 5 seconds and scales off the higher of your Weapon Damage and Spell Damage.
 
 ### Drop Locations
 - The head drops from Valkyn Skoria in Veteran City of Ash II.

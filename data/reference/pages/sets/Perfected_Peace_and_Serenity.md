@@ -8,7 +8,7 @@ Perfected Peace and Serenity is a trial set found in veteran Sanity's Edge. It c
 ### Bonuses
 
 2 items: Adds 15-657 Critical Chance
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: While you are standing still, you gain 10-465 Weapon Damage and Spell Damage. While you are moving, you gain 4-203 Health, Magicka, and Stamina Recovery.

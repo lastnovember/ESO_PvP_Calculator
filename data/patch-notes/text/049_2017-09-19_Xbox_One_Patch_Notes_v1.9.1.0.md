@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.9.1.0
 Xbox One Patch Notes v1.9.1.0
 Posted 2017-09-19 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/372158 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.9.1.0 is an incremental patch that includes fixes for a number of quests and achievements, visual errors, and fixes for player abilities including Poison Injection, Lacerate, and Befoul. The size of this patch is approximately 8.5GB.
 Fixes & Improvements
 Morrowind

@@ -10,7 +10,7 @@ Nerien'eth is a monster helm set. It consists of two armor pieces: head and shou
 ### Bonuses
 
 1 item: Adds 3-129 Weapon Damage and Spell Damage
-2 items: When you deal direct damage, you have a 15% chance to summon a Lich crystal that explodes after 2 seconds, dealing 1360 Magic damage to all enemies within 4 meters. This effect can occur once every 3 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+2 items: When you deal direct damage, you have a 15% chance to conjure a Lich crystal that explodes after 2 seconds, dealing 1360 Magic damage to all enemies within 4 meters. This effect can occur once every 3 seconds and scales off the higher of your Weapon Damage and Spell Damage.
 
 ### Drop Locations
 - The head drops from Nerien'eth in the Veteran Crypt of Hearts II.

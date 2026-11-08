@@ -35,7 +35,7 @@ Simple | 1
 
 Intermediate | 3
 
-Advanced | 5
+Advanced | 7
 
 Master | 10
 

@@ -31,6 +31,7 @@ Flame Skull deals Flame Damage to a single target, dealing increased damage with
 
 ## Notes
 - Venom Skull is a recommended morph for the Deathbringer build, while Ricochet Skull is recommended for Necromancer Initiate and Baleful Summoner.
+- The corpses created still retained the name of "Grave Lord's Sacrifice" due to that skill previously giving this effect to Flame Skull. They were renamed to "Necromancer's Sacrifice" with Update 51.
 
 ## Gallery
 

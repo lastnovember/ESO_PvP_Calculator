@@ -1,7 +1,7 @@
 # Online:Mundus Stones
 
 Source: https://en.uesp.net/wiki/Online:Mundus_Stones
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Mundus Stones are standing stones dedicated to the Constellations. Activating one will grant you a permanent blessing, although only one blessing can be active at a time. The Twice-Born Star set allows a character to have two blessings at the same time.
@@ -13,9 +13,9 @@ Reaper's March
 Bangkorai
 The Rift
 Cyrodiil
-Increases Spell Damage
-Apprentice
-389
+Increases your experience and crafting inspiration gain
+Apprentice%
+13%
 
 The Atronach
 Greenshade

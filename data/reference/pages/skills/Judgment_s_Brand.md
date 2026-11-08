@@ -8,7 +8,7 @@ id=263588
 line=Class Mastery
 type=Passive
 icon=Restoring Light-Mending
-desc=Judgement follows in the wake of your radiance. When rank 2 of Burning Light deals damage, your Templar abilities gain 1400 damage done for 3.1 seconds. This bonus is halved against players.
+desc=Judgement follows in the wake of your radiance. When rank 2 of Burning Light deals damage, your Templar abilities gain 1600 damage done for 3.1 seconds. This bonus is halved against players.
 linerank1=1
 
 Judgment's Brand upgrades rank 2 of the Burning Light passive. When it deals damage, your Templar abilities will increase damage done. The bonus is halved against other players.

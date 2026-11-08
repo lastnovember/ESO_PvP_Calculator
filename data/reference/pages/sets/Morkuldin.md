@@ -12,7 +12,7 @@ To make an item for this set, a crafter must first complete research on nine tra
 2 items: Adds 3-129 Weapon Damage and Spell Damage
 3 items: Adds 15-657 Critical Chance
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: When you deal damage with a Light or Heavy Attack, you summon an animated weapon to attack your enemies for 15 seconds. The animated weapon's basic attacks deal 422 Physical Damage. This effect can occur once every 15 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+5 items: When you deal damage with a Light or Heavy Attack, you summon an animated weapon to attack your enemies for 15 seconds, up to once every 15 seconds. The animated weapon attacks once every 2 seconds. Its Light Attack deals 422 Physical Damage, while its Heavy Attack deals 422 Physical Damage in a cone in front of it. The damage scales off the higher of your Weapon Damage and Spell Damage.
 
 ### Crafting Site
 Morkuldin Forge

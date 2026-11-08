@@ -2,7 +2,7 @@ Xbox Patch Notes v1.40.2.0 | Update 46 Inc. 2
 Xbox Patch Notes v1.40.2.0 | Update 46 Inc. 2
 Posted 2025-07-23 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/681038 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.40.2.0 (Xbox) fixes issues identified post-Update 46 launch. The second incremental patch for Update 46 address issues in Solstice and Base Game zones. For Solstice, we’ve been working on fixes and adjustments to Ossein Cage and quest content. For Base Game, there are fixes ranging from minor visual errors, Console Addon tweaks, to UI fixes like adding the time column back for guild trader search.
 You can find all patch notes for Update 46, Incremental 2 below. We will continue to monitor issues and update in later incremental patches.
 Overview

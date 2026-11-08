@@ -45,7 +45,7 @@ Witchmother's Potent Brew (page)
 Witchmother's Party Punch (page)
 2
 
-Double Bloody Mara (page)
+Purifying Bloody Mara (page)
 20
 
 #### New Recipes
@@ -55,7 +55,7 @@ Writ Vouchers Reward
 Bewitched Sugar Skulls (page)
 20
 
-Disastrously Bloody Mara (page)
+Corrupting Bloody Mara (page)
 20
 
 Pack Leader's Bone Broth (page)

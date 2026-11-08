@@ -10,7 +10,7 @@ Oakfather's Retribution is an Elite Gear Set that was formerly available from "R
 2 items: Adds 3-129 Weapon Damage and Spell Damage
 3 items: Adds 3-129 Weapon Damage and Spell Damage
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: Gain 449 Offensive Penetration against enemies for each Major Buff they have active. Gain 20 Weapon Damage and Spell Damage against enemies for each Minor Buff they have active.
+5 items: Gain 553 Offensive Penetration against enemies for each Major Buff they have active. Gain 31 Weapon Damage and Spell Damage against enemies for each Minor Buff they have active.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types.

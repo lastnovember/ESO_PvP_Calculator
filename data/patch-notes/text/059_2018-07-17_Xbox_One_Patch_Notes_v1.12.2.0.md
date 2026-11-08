@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.12.2.0
 Xbox One Patch Notes v1.12.2.0
 Posted 2018-07-17 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/425855 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.12.2.0 focuses on fixes a number of stability issues that were causing game freezes and crashing. We’ve also fixed any accounts that previously purchased the original version of the Scalecaller or Fang Lair Motifs and weren't able to use them properly, and have granted one Ouroboros Crown Crate for each day you logged in earlier this month while the Daily Rewards system was disabled. You’ll also find the respec costs have been reverted to their initial values. The size of this patch is 533MB.
 Dungeons
 Fang Lair

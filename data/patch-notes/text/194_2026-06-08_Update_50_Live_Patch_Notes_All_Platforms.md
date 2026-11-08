@@ -2,7 +2,7 @@ Update 50 Live Patch Notes: All Platforms
 Update 50 Live Patch Notes: All Platforms
 Posted 2026-06-08 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/693682 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online Update 50. Update 50 has several systems coming online to give you more flexibility and agency around the way you play and are rewarded. Those systems include:
 Challenge Difficulty: A new opt-in system for you to tailor your difficulty experience.
 PvP Veterancy: This new system rewards players who participate in Cyrodiil, Imperial City, and Battlegrounds with unique cosmetics, titles, consumables, perks for Vengeance and more!

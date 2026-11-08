@@ -1,7 +1,7 @@
 # Online:Health
 
 Source: https://en.uesp.net/wiki/Online:Health
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Health is the amount of damage that any person or creature can take before dying. It is equivalent to hit points (HP) used in other games.

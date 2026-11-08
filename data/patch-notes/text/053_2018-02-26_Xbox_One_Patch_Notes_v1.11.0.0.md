@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.11.0.0
 Xbox One Patch Notes v1.11.0.0
 Posted 2018-02-26 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/397991 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.11.0.0 and the Dragon Bones DLC Game Pack! As with previous updates, the base game patch will be available to everyone who owns The Elder Scrolls Online and the DLC Game Pack will automatically download with it, allowing you instant access to the new content when you purchase it or activate an ESO Plus membership. Anyone who owns ESO and has an active ESO Plus membership will also automatically have access to the Dragon Bones DLC Game Pack. If your ESO Plus membership ends or lapses, you will no longer have access to the DLC Game Pack content and areas, but you will still have any items you earned while you had access.
 In this update, you’ll be able to explore and conquer two all-new 4 player dungeons – Fang Lair and Scalecaller Peak. These dungeons offer new item sets, Monster Masks, achievements and unique rewards! We’ve also added two new Battlegrounds maps – Mor Khazgur and Deeping Drome – which are available to anyone who owns The Elder Scrolls Online: Morrowind.
 In the base game patch, we’ve added several new features including the highly-anticipated Outfit System, which gives you the freedom to customize the visual appearance of your gear, and Home Storage Furnishings! We’ve also added two new systems to aid players as they adventure throughout Tamriel: a Level Up Advisor and Skills Advisor. And as always, we’ve made several adjustments and improvements to combat abilities, including an overhaul to our Synergy system, and several bug fixes.

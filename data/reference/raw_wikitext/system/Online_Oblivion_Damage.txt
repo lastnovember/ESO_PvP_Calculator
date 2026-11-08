@@ -34,7 +34,7 @@ The following sets either cause or synergize with Oblivion Damage:
 |}
 
 ===Champion Points===
-*[[ON:Occult Overload|Occult Overload]] in the [[ON:Warfare|Warfare]] tree grants the following effect: ''"Whenever you kill an enemy under the effect of a status effect, they violently explode for 1037 Oblivion Damage per stage to all other enemies in a 4 meter radius, and applying a random status effect to each enemy hit. This effect can occur once every second."'' As is has five stages, it can deal up to 5,185 Oblivion Damage.
+*[[ON:Occult Overload|Occult Overload]] in the [[ON:Warfare|Warfare]] tree grants the following effect: ''"Whenever you kill an enemy under the effect of a status effect, they violently explode for 1037 Oblivion Damage per stage to all other enemies in a 4 meter radius, and applying a random status effect to each enemy hit. This effect can occur once every second."'' As it has five stages, it can deal up to 5,185 Oblivion Damage.
 
 ===Enemies===
 *More enemies, traps and mechanics than you would think actually deal Oblivion Damage in their attacks. Most of them are One-Shot mechanics but more common encounters such as [[ON:Chaos Ball|Chaos Balls]] and self-inflicted damage from [[ON:Malevolent Offering|Malevolent Offering]] and its morphs also deal Oblivion Damage.

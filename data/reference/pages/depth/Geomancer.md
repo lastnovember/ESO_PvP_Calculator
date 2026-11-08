@@ -27,8 +27,8 @@ Zones of Prisoner of Fate quest, Dawnwood | Recollection Geomancer | Wood Elf | 
 Bedlam Veil: Hall of BaronsScions of Ithelia | Blind Path Geomancer | Imperial
 
 ## Skills and Abilities
-;Flare:Geomancer's basic Light flame damage attack
-;Firebolt:Geomancer's basic Heavy flame damage attack. This can be interrupted to set the Geomancer off-balance.
+;Flare:The Geomancer's basic Light flame damage attack
+;Firebolt:The Geomancer's basic Heavy flame damage attack. This can be interrupted to set the Geomancer off-balance.
 ;Crushing Hand:The Geomancer zaps a target, creating an rock open hand under the target that snares in a small area. After a short delay the hand closes, dealing moderate shock damage and knocking down targets in a small area.
 ;Rock Spikes:The Geomancer creates a small area in front of themselves that travel in a straight line, dealing low physical damage and snaring targets.
 

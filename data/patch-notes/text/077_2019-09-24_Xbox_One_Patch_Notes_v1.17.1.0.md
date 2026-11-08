@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.17.1.0
 Xbox One Patch Notes v1.17.1.0
 Posted 2019-09-24 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/495061 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.17.1.0 includes fixes for several common game crashes, combat and abilities, the new Scalebreaker dungeons, and more. The size of this patch is approximately 1.32GB.
 Fixes & Improvements
 DLCs & Chapters

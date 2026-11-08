@@ -2,7 +2,7 @@ Xbox Patch Notes v1.7.2.0
 Xbox Patch Notes v1.7.2.0
 Posted 2017-04-18 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/336336 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 The Elder Scrolls Online v1.7.2.0 is an incremental patch that includes fixes for issues with the Volatile Familiar ability, Maelstrom Destruction Staff, the Hlaalu Furnisher’s Document, plus a couple UI issues. There are also a couple minor fixes for the Maw of Lorkhaj Trial.
 We’ve also implemented additional game logging to help us better identify why there are frequent disconnects in Trials, and hope to have a fix for this issue soon.

@@ -8,7 +8,7 @@ Bahsei's Mania is a trial set which drops in Normal Rockgrove. It cannot be craf
 ### Bonuses
 
 2 items: Adds 3-129 Weapon Damage and Spell Damage
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 15-657 Critical Chance
 5 items: Increases your damage done against monsters by up to 15% based on your missing Magicka, reaching the maximum at 50% Magicka. Current value: 0%
 

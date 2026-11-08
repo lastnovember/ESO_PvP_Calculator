@@ -11,7 +11,7 @@ Rattlecage is a dungeon set that drops in the Vaults of Madness. It cannot be cr
 3 items: Adds 3-129 Weapon Damage and Spell Damage
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: Adds 3-171 Weapon Damage and Spell Damage
-5 items: Gain Major Brutality and Sorcery at all times, increasing your Weapon Damage and Spell Damage by 20%.
+5 items: Gain Major Brutality at all times, increasing your Weapon Damage and Spell Damage by 20%.
 
 ### Pieces
 The set consists of heavy armor and jewelry in all slots, as well as weapons and shields of all types. Unique pieces include:

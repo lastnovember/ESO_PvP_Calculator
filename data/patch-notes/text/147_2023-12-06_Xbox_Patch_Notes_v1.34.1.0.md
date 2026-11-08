@@ -2,7 +2,7 @@ Xbox Patch Notes v1.34.1.0
 Xbox Patch Notes v1.34.1.0
 Posted 2023-12-06 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/648355 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.34.1.0 includes some adjustments to the Gibbering Shield and Blazing Shield abilities and some fixes for a few Class Sets. We also have several fixes in Endless Archive including bonuses from item sets not functioning, situations where your character could be teleported to empty areas or losing a thread inexplicably, and making it so pets and companions take less damage. The size of this patch is approximately 1.62 GB for Xbox One and 1.3 GB for Xbox Series X|S.
 General
 Fixed some additional issues where abilities that granted passive effects for slotting on either bar could persist through restricted ability bar effects, such as Werewolf and Oakensoul.

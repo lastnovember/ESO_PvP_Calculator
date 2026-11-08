@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.22.3.0
 Xbox One Patch Notes v1.22.3.0
 Posted 2021-01-27 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/559277 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.22.3.0 contains fixes for a number of game crashes, a fix for Battleground groups, the repeating alert when changing a voice chat channel, and more. The size of this patch is approximately 820.01 MB.
 Battlegrounds
 Fixed an issue where pre-made groups with a very high MMR would occasionally not get into a Battleground.

@@ -10,7 +10,7 @@ Foolkiller's Ward is a dungeon set found in The Cauldron. It cannot be crafted. 
 2 items: Adds 34-1487 Armor
 3 items: Adds 34-1487 Armor
 4 items: Adds 28-1206 Maximum Health
-5 items: Bracing while in combat places a damage shield on you and up to 3 group members within 18 meters for 2 seconds that absorbs up to 4000 direct damage. If a damage shield breaks, the wearer of the shield restores 132-5680 Magicka and Stamina. This effect can occur once every 30 seconds if a damage shield broke. This effect can occur once every 10 seconds if no damage shields broke.
+5 items: Bracing while in combat places a damage shield on you and up to 3 group members within 18 meters for 2 seconds that absorbs up to 16650 direct damage. When a damage shield breaks, the target of the shield restores 72-3100 Magicka and Stamina. This effect reveals you and can occur once every 20 seconds after a damage shield breaks, or 10 seconds if no damage shields broke.
 
 ### Pieces
 The set consists of heavy armor and jewelry in all slots, as well as weapons and shields of all types.

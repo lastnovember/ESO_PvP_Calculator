@@ -1,7 +1,7 @@
 # Online:Sets
 
 Source: https://en.uesp.net/wiki/Online:Sets
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Sets are groups of items that provide powerful extra bonuses when matched pieces are equipped, up to a maximum of five pieces. You can receive benefits from more than one set (e.g. getting the 2-item bonuses from four different sets). Regardless of equipment type, you will have twelve equipment slots open to you. Most sets are available in all armor slots and in most traits.

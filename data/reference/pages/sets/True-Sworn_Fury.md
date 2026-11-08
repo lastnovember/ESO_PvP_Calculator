@@ -3,7 +3,7 @@
 Source: https://en.uesp.net/wiki/Online:True-Sworn_Fury
 License: CC BY-SA, UESP
 
-Kinras's Wrath is a dungeon set that drops in Black Drake Villa. It cannot be crafted. Pieces are True-Sworn Style in Light Armor.
+True-Sworn Fury is a dungeon set that drops in Black Drake Villa. It cannot be crafted. Pieces are True-Sworn Style in Light Armor.
 
 ### Bonuses
 

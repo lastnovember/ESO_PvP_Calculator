@@ -8,7 +8,7 @@ id=263519
 line=Class Mastery
 type=Passive
 icon=Winter's Embrace-Frozen Armor
-desc=Expose your enemies to unrelenting cold. Applying Chill to an enemy also applies Major Brittle for 2 seconds, increasing their Critical Damage taken by 20%.
+desc=Expose your enemies to unrelenting cold. Upgrades Chilled to also apply Major Brittle for 2.1 seconds, increasing their Critical Damage taken by 20%.
 linerank1=1
 
 Tundra's Maw improves the status debuff Chilled (e.g. caused by Frost Damage). When applied to an enemy, it will also apply Major Brittle.

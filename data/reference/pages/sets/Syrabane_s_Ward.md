@@ -21,7 +21,7 @@ Icon | Lead | Source | Zone | colspan=3|Codex Entry
 style="white-space: nowrap;"|Frog Metal Buckle
 Blacksmithing writ reward crates | Galen
 How unusual, a belt buckle made of buoyant steel. Perhaps intended for a sailor's belt? The properties of frog metal are well documented, though its origins are still a bit murky. - Verita Numida
-Very true. Whenever you're dealing with a piece like this, determining whether it's a primary-source creation from an alchemical process. Old Syrabane in action again! Or made from a reclaimed chunk of Thrassian material is a useful step. - Amalien
+Very true. Whenever you're dealing with a piece like this, - Amalien
 All indications suggest this was primary source. If the papers are true and Syrabane himself did develop the process to artificially create the metal, this may have been forged by his hand. It's certainly old enough. - Reginus Buca
 
 style="white-space: nowrap;"|Rune-Scribed Braces

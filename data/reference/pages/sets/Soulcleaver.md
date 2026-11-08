@@ -11,7 +11,7 @@ Class: Nightblade
 2 items: Adds 3-129 Weapon Damage and Spell Damage
 3 items: Adds 15-657 Critical Chance
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: While in combat, strengthens your Siphoning abilities at the cost of Ultimate: Increases the damage and healing of Siphoning abilities by 15%. Reduces the cost of Siphoning abilities by 15%. Casting Siphoning abilities drains you of 1 Ultimate and increases your damage done for 20 seconds by up to 12%, based on how high your current Health is.
+5 items: While in combat, increases the damage and healing of Siphoning abilities by 15%. Reduces the cost of Siphoning abilities by 15%. Casting Siphoning abilities drains you of 1 Ultimate and increases your damage done for 20 seconds by up to 12%, based on how high your current Health is. Current Bonus: 12%
 
 ### Pieces
 The set consists of armor of all weights and jewelry in all slots, as well as weapons and shields of all types.

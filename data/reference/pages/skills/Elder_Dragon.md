@@ -11,8 +11,8 @@ id2=44951
 line=Draconic Power
 type=Passive
 icon=Draconic Power-Elder Dragon
-desc=The eldest Dragons are forces of nature. As are you. Activating a Draconic Power ability grants you and group members Minor Brutality for 20 seconds, increasing Weapon Damage by 10%. Increases your ESO Health Link | Recovery by up to 350, based on your missing Health. Current amount: 0
-desc2=The eldest Dragons are forces of nature. As are you. Activating a Draconic Power ability grants you and group members Minor Brutality for 20 seconds, increasing Weapon Damage by 10%. Increases your ESO Health Link | Recovery by up to 700, based on your missing Health. Current amount: 0
+desc=The eldest Dragons are forces of nature. As are you. Activating a Draconic Power ability grants you and group members Minor Brutality for 20 seconds, increasing ESO Weapon Damage Link | |y and Spell Damage by 10%. Increases your ESO Health Link | Recovery by up to 350, based on your missing Health. Current amount: 0
+desc2=The eldest Dragons are forces of nature. As are you. Activating a Draconic Power ability grants you and group members Minor Brutality for 20 seconds, increasing ESO Weapon Damage Link | |y and Spell Damage by 10%. Increases your ESO Health Link | Recovery by up to 700, based on your missing Health. Current amount: 0
 linerank1=22
 linerank2=36
 

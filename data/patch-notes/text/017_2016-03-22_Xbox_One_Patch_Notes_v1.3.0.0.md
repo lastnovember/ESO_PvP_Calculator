@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.3.0.0
 Xbox One Patch Notes v1.3.0.0
 Posted 2016-03-22 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/254892 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 Welcome to The Elder Scrolls Online: Tamriel Unlimited v1.3.0.0 and our third DLC game pack: Thieves Guild! We know you’ve been anxiously waiting to join this iconic guild, and have some great content in store for you.
 Thieves Guild, similar to our previous updates, will come in two parts—the DLC game pack, and the base game patch. The base game patch will be available to everyone who owns The Elder Scrolls Online and the DLC game pack will automatically download with it, allowing you instant access to the new content when you purchase it, or activate an ESO Plus membership.

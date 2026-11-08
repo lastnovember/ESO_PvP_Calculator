@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.5.0.0
 Xbox One Patch Notes v1.5.0.0
 Posted 2016-08-15 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/285123 ·
-archived 2026-09-12
+archived 2026-10-30
 OVERVIEW
 Welcome to The Elder Scrolls Online v1.5.0.0 and the Shadows of the Hist DLC Game Pack! This update fixes several performance issues including random load screens and low framerate, plus invisible NPCs or fixtures. In addition, we also fixed the issue where your game could crash when near the Clothing Station in Orsinium.
 Similar to previous ones, this update comes in two parts–the DLC Game Pack and the base game patch. The base game patch will be available to everyone who owns The Elder Scrolls Online and the DLC Game Pack will automatically download with it, allowing you instant access to the new content when you purchase it, or activate an ESO Plus membership.

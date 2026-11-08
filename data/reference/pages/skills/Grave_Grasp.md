@@ -7,9 +7,9 @@ Online Skill Summary
 id=40115177
 line=Bone Tyrant
 icon=Bone Tyrant-Grave Grasp
-desc=Summon three patches of skeletal claws from the ground in front of you. Enemies in the first area are snared by 30% for [3.5 / 4 / 4.5 / 5] seconds, immobilized in the second area for [3 / 3.3 / 3.7 / 4] seconds, and stunned in the final area for [2 / 2.3 / 2.7 / 3] seconds. Each patch applies Minor Maim to enemies hit for [7 / 8 / 9 / 10] seconds, reducing their damage done by 5%.
-desc1=Summon three patches of skeletal claws from the ground in front of you, each dealing [2381 / 2408 / 2432 / 2460] Frost Damage. The first area applies the Chilled status effect, the second area deals an additional [4335 / 4385 / 4430 / 4480] Frost Damage over 5 seconds, and the final area creates a corpse if at least one enemy was hit.
-desc2=Cost: [3780 / 3690 / 3600 / 3510] Magicka. Summon three patches of skeletal claws from the ground in front of you. Enemies in the first area are snared by 30% for 5 seconds, immobilized in the second area for 4 seconds, and stunned in the final area for 3 seconds. Each area applies Major Maim to enemies and Empower to your allies for 10 seconds, reducing enemy damage done by 10% and allied Heavy Attack Damage against monsters by 150%.
+desc=Call forth three patches of skeletal claws from the ground in front of you. Enemies in the first area are snared by 30% for [3.5 / 4 / 4.5 / 5] seconds, immobilized in the second area for [3 / 3.3 / 3.7 / 4] seconds, and stunned in the final area for [2 / 2.3 / 2.7 / 3] seconds. Each patch applies Minor Maim to enemies hit for [7 / 8 / 9 / 10] seconds, reducing their damage done by 5%.
+desc1=Call forth three patches of skeletal claws from the ground in front of you, each dealing [2381 / 2406 / 2432 / 2458] Frost Damage. The first area applies the Chilled status effect, the second area deals an additional [4325 / 4375 / 4420 / 4465] Frost Damage over 5 seconds, and the final area creates a corpse if at least one enemy was hit.
+desc2=Cost: [3780 / 3690 / 3600 / 3510] Magicka. Call forth three patches of skeletal claws from the ground in front of you. Enemies in the first area are snared by 30% for 5 seconds, immobilized in the second area for 4 seconds, and stunned in the final area for 3 seconds. Each area applies Major Maim to enemies and Empower to your allies for 10 seconds, reducing enemy damage done by 10% and allied Heavy Attack Damage against monsters by 150%.
 linerank=42
 cost=3780 Magicka
 attrib=Magicka

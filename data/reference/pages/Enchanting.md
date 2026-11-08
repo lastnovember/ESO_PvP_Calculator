@@ -1,7 +1,7 @@
 # Online:Enchanting
 
 Source: https://en.uesp.net/wiki/Online:Enchanting
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Enchanting is a crafting profession in Elder Scrolls Online. You can use it to combine Runestones into Glyphs, which add magical effects to weapons, armor and jewelry. Once you are Certified in this craft, you will have access to repeatable Crafting Writ quests.

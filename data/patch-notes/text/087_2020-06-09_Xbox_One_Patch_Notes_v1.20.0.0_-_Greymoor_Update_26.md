@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.20.0.0 - Greymoor & Update 26
 Xbox One Patch Notes v1.20.0.0 - Greymoor & Update 26
 Posted 2020-06-09 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/532049 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.20.0.0 and our next Chapter: Greymoor! Explore the icy mountains and wild forests of the Nords as you venture forth into Western Skyrim. The land is harsh and unforgiving, much like many of its people and its lords. High King Svargim welcomes you to the capital city of Solitude gruffly, but you’ll have the opportunity to earn the respect of the Jarls and the swordthanes of Western Skyrim—if you survive.
 In addition to climbing over the frozen peaks of Western Skyrim, you’ll have the opportunity to delve into its darkest ruins and greatest secrets. Find the hidden entrances to legendary Blackreach, the subterranean realm beneath the lands of Tamriel and explore the darkling caves and forgotten ruins deep below Western Skyrim’s surface. Two wildly different lands, stacked one on top of the other, each threatening … and threatened.
 But there is more to Greymoor than defeating evil! Try your hand at our brand new Antiquities system to unearth a ton of legendary relics scattered throughout Tamriel. Between furnishings, Mythic items, a mount, and even siege weapons, there truly is something for everyone. If battle is more your thing, get together with your strongest allies to take on Kyne’s Aegis, our newest 12-player Trial.

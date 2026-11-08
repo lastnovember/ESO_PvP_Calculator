@@ -1,7 +1,7 @@
 # Online:Heavy Armor
 
 Source: https://en.uesp.net/wiki/Online:Heavy_Armor
-Fetched: 2026-09-17
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Heavy Armor is a skill in Elder Scrolls Online. It consists largely of plate armors. As with the other armor skills, there are only passive skills and a single active ability. These skills generally aid "tank" characters- those who require a lot of health.

@@ -8,7 +8,7 @@ Perfected Harmony in Chaos is a trial set found in veteran Ossein Cage. It canno
 ### Bonuses
 
 2 items: Adds 3-129 Weapon Damage and Spell Damage
-3 items: Gain Minor Slayer at all times, increasing your damage done to Dungeon, Trial, and Arena Monsters by 5%.
+3 items: Gain Minor Slayer, increasing damage done to monsters by 5%.
 4 items: Adds 3-129 Weapon Damage and Spell Damage
 5 items: Adds 4-200 Weapon Damage and Spell Damage
 5 perfected items: Adds 3-129 Weapon Damage and Spell Damage

@@ -1,7 +1,7 @@
 # Online:Ancestor Silk
 
 Source: https://en.uesp.net/wiki/Online:Ancestor_Silk
-Fetched: 2026-09-19
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 ESO Crafting Mat Summary

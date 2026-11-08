@@ -2,7 +2,7 @@ Xbox One Patch Notes v1.19.2.0
 Xbox One Patch Notes v1.19.2.0
 Posted 2020-03-31 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/519020 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.19.2.0 includes some adjustments to help with the recent input delays and desyncs while in combat, in addition to a fix where breaking free could become delayed, spamming block disconnecting you to the login screen, and several crash fixes. Also included is a fix for the Soul Shriven in Coldharbour questline, some invisible collision found in Morkul Stronghold, and more.
 Dungeons
 Icereach

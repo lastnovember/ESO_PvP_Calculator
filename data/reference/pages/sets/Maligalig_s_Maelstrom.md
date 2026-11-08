@@ -10,7 +10,7 @@ Maligalig's Maelstrom is a dungeon set that drops in Coral Aerie. It cannot be c
 2 items: Adds 25-1096 Maximum Magicka
 3 items: Adds 4% Healing Done
 4 items: Adds 3-129 Weapon Damage and Spell Damage
-5 items: When you overheal yourself or a group member with a Direct Heal, you apply Maligalig's Maelstrom to the target for 6 seconds, dealing 33% of the overhealing amount, up to a maximum of 3300, as Shock Damage once every 1 second to enemies within 7 meters. This effect can occur once every 10 seconds.
+5 items: When you overheal yourself or a group member with a Direct Heal, you apply Maligalig's Maelstrom to the target for 6 seconds, dealing 33% of the overhealing amount, up to a maximum of 3300, as Shock Damage once every 1 second to enemies within 7 meters. This effect prevents the target from concealing their presence and can occur once every 10 seconds.
 
 ### Pieces
 The set consists of light armor and jewelry in all slots, as well as weapons and shields of all types.

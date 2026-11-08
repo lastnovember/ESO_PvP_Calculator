@@ -2,7 +2,7 @@ Xbox Patch Notes v1.39.1.0 | Update 45 Incremental Patch 1
 Xbox Patch Notes v1.39.1.0 | Update 45 Incremental Patch 1
 Posted 2025-04-02 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/675528 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.39.1.0 (Xbox) fixes issues identified post Update 45 launch. The first incremental patch for Update 45 address issues in the Fallen Banners DLC, Gold Road, Greymoor, High Isle and Base Game content. Specifically, we are fixing the issue where character faces did not have shaders properly applied when face and skin collectibles are applied. Additionally, we have fixes to Undaunted Mask curation in Exiled Redoubt and Lep Seclusa, UI issues causing unintended visual discrepancies in Tales of Tribute, just to name a few. The fixes and improvements noted for this patch are to help smooth out immediate issues from Update 45 launch for a better gameplay experience. You will find those fixes and more in the patch notes listed below. The sizes of today's update are 46 GB (XB1)/ 1.9 GB (XBX).
 Overview
 Fixes & Improvements

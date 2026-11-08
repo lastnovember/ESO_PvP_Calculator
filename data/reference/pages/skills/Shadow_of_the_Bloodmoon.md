@@ -7,7 +7,7 @@ Online Skill Summary
 id=32639
 line=Werewolf
 type=Passive
-icon=Werewolf-Bloodmoon
+icon=Werewolf-Shadow of the Bloodmoon
 desc=The Great Hunt demands more participants. Become a shepard to the lamb who wishes to fight back. Allows you to infect another player with Lycanthropy once every week by returning to the Werewolf ritual site. Players already infected with Noxiphilic Sanguivoria cannot be infected with Lycanthropy.
 linerank1=6
 

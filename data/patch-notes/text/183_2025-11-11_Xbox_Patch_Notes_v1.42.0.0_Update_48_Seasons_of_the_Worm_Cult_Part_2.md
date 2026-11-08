@@ -2,7 +2,7 @@ Xbox Patch Notes v1.42.0.0 | Update 48 Seasons of the Worm Cult Part 2
 Xbox Patch Notes v1.42.0.0 | Update 48 Seasons of the Worm Cult Part 2
 Posted 2025-11-11 by ZOS_Kevin ·
 forums.elderscrollsonline.com/en/discussion/685144 ·
-archived 2026-09-12
+archived 2026-10-30
 Welcome to The Elder Scrolls Online v1.42.0.0 and our latest content release, Seasons of the Worm Cult Part 2 and Update 48. This is the continuation of the 2025 Content Pass.
 In Seasons of the Worm Cult Part 2, once the Writhing Fortress is taken down, Eastern Solstice will be open to you to explore and find all its secrets. Once home to entrenched Wormcult strongholds, the Stirk Fellowship now marches eastward, determined to strike the enemy at its heart. With the aid of new allies, they must cross the fractured lands of Eastern Solstice and uncover the hidden legacy of the Stone-Nest Argonians if they hope to withstand the corruption that festers there. You will find new delves, world bosses, a new public dungeon, new quests and more to discover in Eastern Solstice.
 For base game content, you can expect general bug fixes and lighter update improvements for Update 48. Some of those improvements include light combat changes, adjustments to weapon unsheathe timing and additional combat animation memory adjustments for more performant skills. Additionally, there are more bug fixes and general adjustments in Update 48.

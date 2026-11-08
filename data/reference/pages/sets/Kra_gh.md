@@ -10,7 +10,7 @@ Kra'gh is a monster helm set. It consists of two armor pieces: head and shoulder
 ### Bonuses
 
 1 item: Adds 34-1487 Offensive Penetration
-2 items: When you deal damage, you have a 10% chance to spawn dreugh limbs that create shockwaves in front of you dealing 249 Physical damage every 0.6 seconds for 2.4 seconds. This effect can occur once every 6 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+2 items: When you deal damage, you have a 10% chance to spawn dreugh limbs that create shockwaves in front of you dealing 249 Physical damage every 0.6 seconds for 2.4 seconds. This effect reveals you, can occur once every 6 seconds, and scales off the higher of your Weapon Damage and Spell Damage.
 
 ### Drop Locations
 - The head drops from Kra'gh the Dreugh King in Fungal Grotto I.

@@ -2,7 +2,7 @@ Xbox Patch Notes v1.28.2.0
 Xbox Patch Notes v1.28.2.0
 Posted 2022-07-20 by ZOS_GinaBruno ·
 forums.elderscrollsonline.com/en/discussion/612328 ·
-archived 2026-09-12
+archived 2026-10-30
 The Elder Scrolls Online v1.28.2.0 fixes a couple game crashes, several fixes and improvements involving Tales of Tribute and other High Isle content, a fix for an issue that caused training dummies to report inflated DPS values, and more.
 We have also refunded any Champion Points spent in skills that received cost changes with the High Isle update to fix an issue where you were unable to spend or adjust points in those skills; you’ll find details on this below. Please note, however, there is a known issue some of you may run into if you do a partial respec which could lead to some UI issues. Relogging should fix any issues you run into, and we are currently planning to hotfix this early next week. The size of this patch is approximately 989.71 MB//1.04 GB.
 Dreadsail Reef Trial

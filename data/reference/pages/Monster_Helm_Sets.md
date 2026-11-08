@@ -1,7 +1,7 @@
 # Online:Monster Helm Sets
 
 Source: https://en.uesp.net/wiki/Online:Monster_Helm_Sets
-Fetched: 2026-09-12
+Fetched: 2026-10-30
 License: CC BY-SA, UESP
 
 Monster Helm Sets (commonly called "monster heads") are a subset of dungeon sets of armor. As the name suggests, the design of these sets are based on various bosses found in Group Dungeons. They all consist of one head piece and one shoulder piece, and come in every weight and trait (other than Nirnhoned). When both pieces are worn they grant a powerful and unique ability or buff that cannot be obtained elsewhere.

@@ -10,7 +10,7 @@ Ilambris is a monster helm set. It consists of two armor pieces: head and should
 ### Bonuses
 
 1 item: Adds 25-1096 Maximum Magicka
-2 items: When you deal Flame or Shock Damage, you have a 33% chance to summon a meteor shower that deals 145 Flame damage and 145 Shock damage to all enemies within 4 meters every 1 second for 5 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon Damage and Spell Damage.
+2 items: When you deal Flame or Shock Damage, you have a 33% chance to bring down a meteor shower that deals 145 Flame damage and 145 Shock damage to all enemies within 4 meters every 1 second for 5 seconds. This effect can occur once every 8 seconds and scales off the higher of your Weapon Damage and Spell Damage.
 
 ### Drop Locations
 - The head drops from the Ilambris-Athor or Ilambris-Zaven in Veteran Crypt of Hearts I.
